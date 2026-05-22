@@ -28,6 +28,7 @@
 | 2026-05-22 | Integration free LLM API resources | `watch/free-llm-api-resources.md`, `watch/index.md`, `index.md` | Providers/limites variables, donnees tiers | Supprimer la fiche et retirer les lignes d'index |
 | 2026-05-22 | Integration Vibe Shit veille vibe coding | `watch/vibeshit-vibe-coding-directory.md`, `watch/index.md`, `index.md` | Claims externes, outils dual-use possibles | Supprimer la fiche et retirer les lignes d'index |
 | 2026-05-22 | Integration AgentsView session intelligence | `watch/agentsview-session-intelligence.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md` | Historiques agents sensibles | Supprimer la fiche et retirer les lignes d'index |
+| 2026-05-22 | Integration NanoClaw agent personnel | `watch/nanoclaw-personal-agent.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md` | Messagerie automatisee, credentials et donnees personnelles | Supprimer la fiche et retirer les lignes d'index |
 
 ## Notes
 

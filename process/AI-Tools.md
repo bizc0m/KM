@@ -693,3 +693,24 @@ Outils et themes reperes :
 
 Reference future :
 Lot X = watch IA open source/devtools, a convertir en fiches individuelles apres verification des repos.
+
+## NanoClaw
+
+URL site : https://nanoclaw.dev/
+URL repo : https://github.com/nanocoai/nanoclaw
+Source KM : `watch:nanoclaw-personal-agent`
+
+Resume en 3 lignes :
+NanoClaw est un agent IA personnel open source, leger, containerise et multi-canaux.
+Il connecte des agents a WhatsApp, Telegram, Slack, Discord, Teams, Matrix, GitHub, Linear, email et autres canaux.
+Il met en avant l'isolation par conteneur, les skills installables et un vault de credentials pour eviter les secrets en clair dans l'agent.
+
+Avantages principaux :
+- Architecture simple et auditable : host Node, conteneurs par agent group, SQLite par session.
+- Fit fort pour bots de transmission, briefings, jobs planifies et assistants personnels.
+- Compatible logique privacy-first si chaque canal est opt-in.
+- Licence MIT, repo actif, forte traction GitHub.
+- Sensible : messagerie automatisee, credentials, prompts et donnees personnelles.
+
+Reference future :
+NanoClaw = agent personnel message-first + containers + skills + credential vault.

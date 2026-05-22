@@ -21,6 +21,7 @@ Index des sources de veille transversales KM.
 | `watch:free-llm-api-resources` | `free-llm-api-resources.md` | Fournisseurs LLM gratuits/trials, limites et garde-fous | actif |
 | `watch:vibeshit-vibe-coding-directory` | `vibeshit-vibe-coding-directory.md` | Annuaire vibe coding : outils IA, agents, LLM, devtools et tendances | actif |
 | `watch:agentsview-session-intelligence` | `agentsview-session-intelligence.md` | Outil local-first pour recherche, analytics et couts des sessions agents IA | actif |
+| `watch:nanoclaw-personal-agent` | `nanoclaw-personal-agent.md` | Agent IA personnel multi-canaux, containerise, avec vault credentials | actif |
 
 ## Regles
 
@@ -57,6 +58,13 @@ Index des sources de veille transversales KM.
 - Objectif : ajouter `agentsview-session-intelligence`.
 - Fichiers touches : `watch/index.md`, `watch/agentsview-session-intelligence.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`.
 - Risques : historiques agents sensibles.
+- Rollback possible : retirer la ligne et supprimer la fiche.
+
+### v0.6 - 2026-05-22
+
+- Objectif : ajouter `nanoclaw-personal-agent`.
+- Fichiers touches : `watch/index.md`, `watch/nanoclaw-personal-agent.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`.
+- Risques : messagerie automatisee, credentials et donnees personnelles.
 - Rollback possible : retirer la ligne et supprimer la fiche.
 
 ### v0.1 - 2026-05-19

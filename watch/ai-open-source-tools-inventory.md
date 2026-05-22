@@ -28,7 +28,7 @@ Bilan actuel :
 
 - 11 liens X fournis aujourd'hui.
 - 10 liens X uniques apres deduplication.
-- 39 outils nommes uniques extraits.
+- 40 outils nommes uniques extraits.
 - 2 doublons outils identifies : `Cal.com`, `Vibe-Trading`.
 - 3 elements non detailles a verifier : liste Image OSINT 26 outils, repo Claude Code redirect non nomme, section vehicle search.
 
@@ -75,6 +75,7 @@ Bilan actuel :
 | 37 | Open Design | `https://github.com/nexu-io/open-design` | AI/UI design workflow | `nicos_ai` | verifie GitHub |
 | 38 | Bitwarden Server | `https://github.com/bitwarden/server` | password manager server | `nicos_ai` | verifie GitHub, interne critique |
 | 39 | AgentsView | `https://github.com/kenn-io/agentsview` | session intelligence / analytics agents | `agentsview.io` | verifie GitHub, sensible |
+| 40 | NanoClaw | `https://github.com/nanocoai/nanoclaw` | personal AI agent / messaging / containers | `nanoclaw.dev` | verifie GitHub, sensible |
 
 ## Verification liens
 
