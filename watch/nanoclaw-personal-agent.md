@@ -14,6 +14,7 @@ ai-agent, personal-agent, messaging, containers, claude-agent-sdk, credential-va
 
 ## Sources
 
+- Page Vibe Shit : `https://vibeshit.org/product/nanoclaw`
 - Site : `https://nanoclaw.dev/`
 - Repo : `https://github.com/nanocoai/nanoclaw`
 
@@ -92,3 +93,10 @@ Garder comme source prioritaire a surveiller. Classification `sensible`, pas `#R
 - Fichiers touches : `watch/nanoclaw-personal-agent.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
 - Risques : messagerie automatisee, credentials, prompts et donnees personnelles.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+### v0.2 - 2026-05-22
+
+- Objectif : ajouter la page Vibe Shit comme source annuaire.
+- Fichiers touches : `watch/nanoclaw-personal-agent.md`, `process/AI-Tools.md`, `km/history.md`.
+- Risques : page annuaire externe variable.
+- Rollback possible : retirer la ligne `Page Vibe Shit`.

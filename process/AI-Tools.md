@@ -696,6 +696,7 @@ Lot X = watch IA open source/devtools, a convertir en fiches individuelles apres
 
 ## NanoClaw
 
+URL Vibe Shit : https://vibeshit.org/product/nanoclaw
 URL site : https://nanoclaw.dev/
 URL repo : https://github.com/nanocoai/nanoclaw
 Source KM : `watch:nanoclaw-personal-agent`
