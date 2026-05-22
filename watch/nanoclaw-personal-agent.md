@@ -16,6 +16,7 @@ ai-agent, personal-agent, messaging, containers, claude-agent-sdk, credential-va
 
 - Page Vibe Shit : `https://vibeshit.org/product/nanoclaw`
 - Site : `https://nanoclaw.dev/`
+- Site FR : `https://nanoclaw.dev/fr/`
 - Repo : `https://github.com/nanocoai/nanoclaw`
 
 Lecture : 2026-05-22
@@ -100,3 +101,10 @@ Garder comme source prioritaire a surveiller. Classification `sensible`, pas `#R
 - Fichiers touches : `watch/nanoclaw-personal-agent.md`, `process/AI-Tools.md`, `km/history.md`.
 - Risques : page annuaire externe variable.
 - Rollback possible : retirer la ligne `Page Vibe Shit`.
+
+### v0.3 - 2026-05-22
+
+- Objectif : ajouter la page francaise officielle fournie dans le lot.
+- Fichiers touches : `watch/nanoclaw-personal-agent.md`, `process/AI-Tools.md`, `km/history.md`.
+- Risques : contenu localise pouvant diverger du site EN.
+- Rollback possible : retirer la ligne `Site FR`.

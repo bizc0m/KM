@@ -68,6 +68,7 @@ Guides / conditions lues :
 
 Points verifies :
 
+- Page racine relue le 2026-05-22 depuis le lot fourni.
 - OpenRSS permet d'ajouter `openrss.org/` devant une URL pour obtenir un flux RSS quand la page est supportee.
 - Le service annonce des flux sans algorithmes de recommandation.
 - Le service indique retirer certains scripts, tracking links et contenus invasifs des flux.
@@ -149,3 +150,10 @@ Supprimer `watch/twitter-rss-monitoring.md` et retirer les lignes correspondante
 - Fichiers touches : `watch/twitter-rss-monitoring.md`.
 - Risques : usage de veille pouvant deriver en surveillance.
 - Rollback possible : revenir a v0.3.
+
+### v0.5 - 2026-05-22
+
+- Objectif : confirmer `https://openrss.org/` comme source directe du nouveau lot.
+- Fichiers touches : `watch/twitter-rss-monitoring.md`, `km/history.md`.
+- Risques : conditions et disponibilite variables.
+- Rollback possible : retirer la mention de relecture.

@@ -118,3 +118,10 @@ Garder comme ressource utile et sensible. Pas `#ROUGE` par defaut car la source 
 - Fichiers touches : `watch/free-llm-api-resources.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : limites/providers variables, donnees envoyees a tiers.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+### v0.2 - 2026-05-22
+
+- Objectif : confirmer que le lien du nouveau lot est un doublon deja indexe.
+- Fichiers touches : `watch/free-llm-api-resources.md`, `km/history.md`.
+- Risques : aucun changement fonctionnel.
+- Rollback possible : retirer ce changelog.

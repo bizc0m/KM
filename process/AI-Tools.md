@@ -698,6 +698,7 @@ Lot X = watch IA open source/devtools, a convertir en fiches individuelles apres
 
 URL Vibe Shit : https://vibeshit.org/product/nanoclaw
 URL site : https://nanoclaw.dev/
+URL site FR : https://nanoclaw.dev/fr/
 URL repo : https://github.com/nanocoai/nanoclaw
 Source KM : `watch:nanoclaw-personal-agent`
 
@@ -780,3 +781,26 @@ Garde-fous :
 
 Reference future :
 PentestGPT = `#ROUGE` agent pentest autonome, veille defense uniquement.
+
+## CodePatrol
+
+URL fournie : https://codepatrol-2.polsia.app/
+Source KM : `watch:codepatrol-code-security`
+
+Resume en 3 lignes :
+CodePatrol est ajoute en veille code security avec statut `a verifier`.
+L'URL fournie n'a pas donne de contenu exploitable, mais les sources publiques associent CodePatrol a de la revue de code automatisee, SAST et scan de vulnerabilites.
+La fiche sert a surveiller le sujet sans recommander l'outil avant verification directe.
+
+Avantages potentiels :
+- Detection de failles code, secrets et problemes de qualite.
+- Inspiration pour une couche guardrails avant publication ou execution d'agents.
+- A comparer avec CodeQL, Semgrep, Checkmarx, Veracode et plateformes AI AppSec.
+
+Garde-fous :
+- Ne pas connecter de repo prive a un SaaS non verifie.
+- Ne jamais uploader secrets, donnees client ou `.env`.
+- Verifier fournisseur, permissions, retention et conditions avant test.
+
+Reference future :
+CodePatrol = veille SAST/code review securite, `a verifier`, sensible.

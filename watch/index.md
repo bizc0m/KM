@@ -25,6 +25,7 @@ Index des sources de veille transversales KM.
 | `watch:nanoclaw-personal-agent` | `nanoclaw-personal-agent.md` | Agent IA personnel multi-canaux, containerise, avec vault credentials | actif |
 | `watch:autoresearchclaw-autonomous-research` | `autoresearchclaw-autonomous-research.md` | Agent de recherche autonome idee -> papier, avec experiments, citations et HITL | actif |
 | `watch:pentestgpt-autonomous-pentest` | `pentestgpt-autonomous-pentest.md` | #ROUGE : framework agentique de pentest autonome, a connaitre sans diffuser | interne |
+| `watch:codepatrol-code-security` | `codepatrol-code-security.md` | Code review securite / SAST, source directe a verifier | a verifier |
 
 ## Regles
 
@@ -90,6 +91,13 @@ Index des sources de veille transversales KM.
 - Fichiers touches : `watch/index.md`, `watch/pentestgpt-autonomous-pentest.md`, `watch/red-team-risk-tools-watch.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`.
 - Risques : outil offensif directement operationnel.
 - Rollback possible : retirer la ligne et supprimer la fiche.
+
+### v1.0 - 2026-05-22
+
+- Objectif : traiter le lot OpenRSS / LLM APIs / CodePatrol / NanoClaw FR.
+- Fichiers touches : `watch/index.md`, `watch/codepatrol-code-security.md`, `watch/twitter-rss-monitoring.md`, `watch/nanoclaw-personal-agent.md`, `watch/free-llm-api-resources.md`, `watch/awesome-free-llm-apis.md`.
+- Risques : CodePatrol source directe non exploitable.
+- Rollback possible : retirer la ligne CodePatrol et les mentions de lot.
 
 ### v0.1 - 2026-05-19
 

@@ -96,3 +96,10 @@ Garder comme source sœur de `watch:free-llm-api-resources`. Classification `sen
 - Fichiers touches : `watch/awesome-free-llm-apis.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
 - Risques : providers variables, conditions d'usage, cles API, donnees envoyees a tiers.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+### v0.2 - 2026-05-22
+
+- Objectif : confirmer que le lien du nouveau lot est un doublon deja indexe.
+- Fichiers touches : `watch/awesome-free-llm-apis.md`, `km/history.md`.
+- Risques : aucun changement fonctionnel.
+- Rollback possible : retirer ce changelog.

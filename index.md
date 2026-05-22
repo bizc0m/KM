@@ -30,6 +30,7 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | `watch:nanoclaw-personal-agent` | `watch/nanoclaw-personal-agent.md` | veille | agents, messaging, containers, credentials | actif |
 | `watch:autoresearchclaw-autonomous-research` | `watch/autoresearchclaw-autonomous-research.md` | veille | research-agent, papers, citations, experiments | actif |
 | `watch:pentestgpt-autonomous-pentest` | `watch/pentestgpt-autonomous-pentest.md` | veille | #ROUGE, pentest, autonomous-agent, offensive-risk | interne |
+| `watch:codepatrol-code-security` | `watch/codepatrol-code-security.md` | veille | code-security, sast, appsec, to-verify | a verifier |
 | `theme:index` | `themes/THEMES.md` | index | themes | actif |
 | `resource:index` | `resources/RESOURCES.md` | index | ressources | actif |
 | `process:km-resource-import-prompt` | `process/km-resource-import-prompt.md` | process | km, import | actif |
@@ -106,3 +107,10 @@ Si le contenu est ambigu, sensible ou risque de casser une structure existante, 
 - Fichiers touches : `watch/pentestgpt-autonomous-pentest.md`, `watch/red-team-risk-tools-watch.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
 - Risques : outil offensif directement operationnel.
 - Rollback possible : retirer l'entree `watch:pentestgpt-autonomous-pentest`.
+
+### v1.0 - 2026-05-22
+
+- Objectif : traiter le lot OpenRSS, LLM APIs, CodePatrol et NanoClaw FR.
+- Fichiers touches : `watch/codepatrol-code-security.md`, `watch/twitter-rss-monitoring.md`, `watch/nanoclaw-personal-agent.md`, `watch/free-llm-api-resources.md`, `watch/awesome-free-llm-apis.md`, `watch/index.md`, `index.md`, `process/AI-Tools.md`, `km/history.md`.
+- Risques : CodePatrol source directe non exploitable.
+- Rollback possible : retirer l'entree `watch:codepatrol-code-security` et les changelogs de lot.
