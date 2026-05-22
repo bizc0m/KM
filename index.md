@@ -24,6 +24,7 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | `watch:inspiration-competitors-tools` | `watch/inspiration-competitors-tools-watch.md` | veille | inspiration, competitors, tools | actif |
 | `watch:open-source-saas-alternatives-nicos-ai` | `watch/open-source-saas-alternatives-nicos-ai.md` | veille | open-source, saas, tools | actif |
 | `watch:free-llm-api-resources` | `watch/free-llm-api-resources.md` | veille | llm, api, providers | actif |
+| `watch:awesome-free-llm-apis` | `watch/awesome-free-llm-apis.md` | veille | llm, api, free-tier, providers | actif |
 | `watch:vibeshit-vibe-coding-directory` | `watch/vibeshit-vibe-coding-directory.md` | veille | vibe-coding, ia, agents, devtools | actif |
 | `watch:agentsview-session-intelligence` | `watch/agentsview-session-intelligence.md` | veille | agents, sessions, analytics, local-first | actif |
 | `watch:nanoclaw-personal-agent` | `watch/nanoclaw-personal-agent.md` | veille | agents, messaging, containers, credentials | actif |
@@ -90,3 +91,10 @@ Si le contenu est ambigu, sensible ou risque de casser une structure existante, 
 - Fichiers touches : `watch/autoresearchclaw-autonomous-research.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
 - Risques : claims scientifiques, citations, couts API et publication non verifiee.
 - Rollback possible : retirer l'entree `watch:autoresearchclaw-autonomous-research`.
+
+### v0.8 - 2026-05-22
+
+- Objectif : ajouter Awesome Free LLM APIs.
+- Fichiers touches : `watch/awesome-free-llm-apis.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
+- Risques : providers variables, cles API, conditions d'usage et donnees tiers.
+- Rollback possible : retirer l'entree `watch:awesome-free-llm-apis`.

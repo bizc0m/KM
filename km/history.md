@@ -30,6 +30,7 @@
 | 2026-05-22 | Integration AgentsView session intelligence | `watch/agentsview-session-intelligence.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md` | Historiques agents sensibles | Supprimer la fiche et retirer les lignes d'index |
 | 2026-05-22 | Integration NanoClaw agent personnel | `watch/nanoclaw-personal-agent.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md` | Messagerie automatisee, credentials et donnees personnelles | Supprimer la fiche et retirer les lignes d'index |
 | 2026-05-22 | Integration AutoResearchClaw agent recherche | `watch/autoresearchclaw-autonomous-research.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md` | Claims scientifiques, citations, couts API et publication non verifiee | Supprimer la fiche et retirer les lignes d'index |
+| 2026-05-22 | Integration Awesome Free LLM APIs | `watch/awesome-free-llm-apis.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md` | Providers variables, cles API, conditions d'usage et donnees tiers | Supprimer la fiche et retirer les lignes d'index |
 
 ## Notes
 

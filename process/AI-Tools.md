@@ -734,3 +734,23 @@ Avantages principaux :
 
 Reference future :
 AutoResearchClaw = agent de recherche autonome + HITL + verification claims/citations + outputs academiques.
+
+## Awesome Free LLM APIs
+
+URL repo : https://github.com/mnfst/awesome-free-llm-apis
+Source KM : `watch:awesome-free-llm-apis`
+
+Resume en 3 lignes :
+Awesome Free LLM APIs liste des providers LLM avec tiers gratuits permanents ou credits gratuits.
+La source documente notamment des endpoints OpenAI-compatible, pages de cles API, limites, contextes et conditions par provider.
+Elle complete `watch:free-llm-api-resources` mais doit etre verifiee provider par provider avant usage.
+
+Avantages principaux :
+- Utile pour prototypage LLM, tests de routage et comparaison de providers.
+- Donne des bases URL et contraintes visibles rapidement.
+- Licence CC0-1.0, repo actif.
+- Sensible : cles API, quotas, conditions d'usage, region, politique data.
+- Pas `#ROUGE` par defaut ; `#ROUGE` seulement si abus de quotas, contournement ou providers non legitimes.
+
+Reference future :
+Awesome Free LLM APIs = annuaire providers LLM free tier + endpoints OpenAI-compatible + limites a verifier.

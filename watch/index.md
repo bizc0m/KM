@@ -19,6 +19,7 @@ Index des sources de veille transversales KM.
 | `watch:inspiration-competitors-tools` | `inspiration-competitors-tools-watch.md` | Sites inspirants, concurrents et outils a surveiller | actif |
 | `watch:open-source-saas-alternatives-nicos-ai` | `open-source-saas-alternatives-nicos-ai.md` | Lot nicos_ai : alternatives open source SaaS, dedup et risques | actif |
 | `watch:free-llm-api-resources` | `free-llm-api-resources.md` | Fournisseurs LLM gratuits/trials, limites et garde-fous | actif |
+| `watch:awesome-free-llm-apis` | `awesome-free-llm-apis.md` | Liste de providers LLM free tier / OpenAI-compatible, cles API et limites | actif |
 | `watch:vibeshit-vibe-coding-directory` | `vibeshit-vibe-coding-directory.md` | Annuaire vibe coding : outils IA, agents, LLM, devtools et tendances | actif |
 | `watch:agentsview-session-intelligence` | `agentsview-session-intelligence.md` | Outil local-first pour recherche, analytics et couts des sessions agents IA | actif |
 | `watch:nanoclaw-personal-agent` | `nanoclaw-personal-agent.md` | Agent IA personnel multi-canaux, containerise, avec vault credentials | actif |
@@ -73,6 +74,13 @@ Index des sources de veille transversales KM.
 - Objectif : ajouter `autoresearchclaw-autonomous-research`.
 - Fichiers touches : `watch/index.md`, `watch/autoresearchclaw-autonomous-research.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`.
 - Risques : claims scientifiques, citations, couts API et publication non verifiee.
+- Rollback possible : retirer la ligne et supprimer la fiche.
+
+### v0.8 - 2026-05-22
+
+- Objectif : ajouter `awesome-free-llm-apis`.
+- Fichiers touches : `watch/index.md`, `watch/awesome-free-llm-apis.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`.
+- Risques : providers variables, cles API, conditions d'usage et donnees tiers.
 - Rollback possible : retirer la ligne et supprimer la fiche.
 
 ### v0.1 - 2026-05-19
