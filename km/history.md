@@ -34,6 +34,7 @@
 | 2026-05-22 | Integration PentestGPT #ROUGE | `watch/pentestgpt-autonomous-pentest.md`, `watch/red-team-risk-tools-watch.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md` | Outil offensif directement operationnel | Supprimer la fiche et retirer les lignes d'index |
 | 2026-05-22 | Ajout source Vibe Shit NanoClaw | `watch/nanoclaw-personal-agent.md`, `process/AI-Tools.md` | Page annuaire externe variable | Retirer la source Vibe Shit |
 | 2026-05-22 | Traitement lot OpenRSS / LLM APIs / CodePatrol / NanoClaw FR | `watch/codepatrol-code-security.md`, `watch/twitter-rss-monitoring.md`, `watch/nanoclaw-personal-agent.md`, `watch/free-llm-api-resources.md`, `watch/awesome-free-llm-apis.md`, `watch/index.md`, `index.md`, `process/AI-Tools.md` | CodePatrol source directe non exploitable ; doublons a maintenir | Retirer la fiche CodePatrol et les changelogs de lot |
+| 2026-05-22 | Integration CC-GUI / MossX vibe coding editor | `watch/ccgui-mossx-vibecoding-editor.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md` | Repo GitHub non confirme, plugins/MCP a auditer | Supprimer la fiche et retirer les lignes d'index |
 
 ## Notes
 

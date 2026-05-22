@@ -26,6 +26,7 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | `watch:free-llm-api-resources` | `watch/free-llm-api-resources.md` | veille | llm, api, providers | actif |
 | `watch:awesome-free-llm-apis` | `watch/awesome-free-llm-apis.md` | veille | llm, api, free-tier, providers | actif |
 | `watch:vibeshit-vibe-coding-directory` | `watch/vibeshit-vibe-coding-directory.md` | veille | vibe-coding, ia, agents, devtools | actif |
+| `watch:ccgui-mossx-vibecoding-editor` | `watch/ccgui-mossx-vibecoding-editor.md` | veille | vibe-coding, ai-editor, multi-engine, to-verify | a verifier |
 | `watch:agentsview-session-intelligence` | `watch/agentsview-session-intelligence.md` | veille | agents, sessions, analytics, local-first | actif |
 | `watch:nanoclaw-personal-agent` | `watch/nanoclaw-personal-agent.md` | veille | agents, messaging, containers, credentials | actif |
 | `watch:autoresearchclaw-autonomous-research` | `watch/autoresearchclaw-autonomous-research.md` | veille | research-agent, papers, citations, experiments | actif |
@@ -114,3 +115,10 @@ Si le contenu est ambigu, sensible ou risque de casser une structure existante, 
 - Fichiers touches : `watch/codepatrol-code-security.md`, `watch/twitter-rss-monitoring.md`, `watch/nanoclaw-personal-agent.md`, `watch/free-llm-api-resources.md`, `watch/awesome-free-llm-apis.md`, `watch/index.md`, `index.md`, `process/AI-Tools.md`, `km/history.md`.
 - Risques : CodePatrol source directe non exploitable.
 - Rollback possible : retirer l'entree `watch:codepatrol-code-security` et les changelogs de lot.
+
+### v1.1 - 2026-05-22
+
+- Objectif : ajouter CC-GUI / MossX depuis Vibe Shit.
+- Fichiers touches : `watch/ccgui-mossx-vibecoding-editor.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
+- Risques : repo GitHub non confirme, plugins et MCP a auditer.
+- Rollback possible : retirer l'entree `watch:ccgui-mossx-vibecoding-editor`.

@@ -804,3 +804,27 @@ Garde-fous :
 
 Reference future :
 CodePatrol = veille SAST/code review securite, `a verifier`, sensible.
+
+## CC-GUI / MossX
+
+URL Vibe Shit : https://vibeshit.org/product/ccgui
+URL site : https://www.mossx.ai/
+Source KM : `watch:ccgui-mossx-vibecoding-editor`
+
+Resume en 3 lignes :
+CC-GUI / MossX est presente comme un editeur vibe coding open source multi-engine.
+La page cite Claude Code, Codex, OpenCode, Gemini, chat canvas, terminal, gestion Git, kanban et memoire IA.
+Statut `a verifier` : le repo GitHub annonce n'a pas ete confirme via API au moment de l'indexation.
+
+Avantages potentiels :
+- Interface unifiee pour agents de code et workflows IA.
+- Inspiration UI pour terminal, git, kanban, memoire et panels agents.
+- Peut aider a comparer les patterns Cursor, Claude Code, Codex et OpenCode.
+
+Garde-fous :
+- Ne pas ouvrir de repo sensible avant verification du repo, de la licence et des permissions.
+- Ne pas stocker cles API ou tokens dans l'outil.
+- Auditer MCP, skills, plugins et execution terminal/git.
+
+Reference future :
+CC-GUI / MossX = editeur vibe coding multi-engine, `a verifier`, sensible.

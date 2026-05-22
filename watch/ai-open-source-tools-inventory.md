@@ -29,7 +29,7 @@ Bilan actuel :
 
 - 11 liens X fournis aujourd'hui.
 - 10 liens X uniques apres deduplication.
-- 43 outils nommes uniques extraits.
+- 44 outils nommes uniques extraits.
 - 2 doublons outils identifies : `Cal.com`, `Vibe-Trading`.
 - 3 elements non detailles a verifier : liste Image OSINT 26 outils, repo Claude Code redirect non nomme, section vehicle search.
 
@@ -80,6 +80,7 @@ Bilan actuel :
 | 41 | AutoResearchClaw | `https://github.com/aiming-lab/AutoResearchClaw` | autonomous research / papers / experiments | GitHub | verifie GitHub, sensible |
 | 42 | Awesome Free LLM APIs | `https://github.com/mnfst/awesome-free-llm-apis` | free LLM API providers / OpenAI-compatible endpoints | GitHub | verifie GitHub, sensible |
 | 43 | PentestGPT | `https://github.com/GreyDGL/PentestGPT` | autonomous penetration testing agent | Vibe Shit / pentestgpt.com | verifie GitHub, #ROUGE |
+| 44 | CC-GUI / MossX | `https://vibeshit.org/product/ccgui` | vibe coding editor / multi-engine AI dev panels | Vibe Shit / mossx.ai | a verifier, sensible |
 
 ## Verification liens
 

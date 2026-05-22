@@ -21,6 +21,7 @@ Index des sources de veille transversales KM.
 | `watch:free-llm-api-resources` | `free-llm-api-resources.md` | Fournisseurs LLM gratuits/trials, limites et garde-fous | actif |
 | `watch:awesome-free-llm-apis` | `awesome-free-llm-apis.md` | Liste de providers LLM free tier / OpenAI-compatible, cles API et limites | actif |
 | `watch:vibeshit-vibe-coding-directory` | `vibeshit-vibe-coding-directory.md` | Annuaire vibe coding : outils IA, agents, LLM, devtools et tendances | actif |
+| `watch:ccgui-mossx-vibecoding-editor` | `ccgui-mossx-vibecoding-editor.md` | Editeur vibe coding multi-engine, source repo a verifier | a verifier |
 | `watch:agentsview-session-intelligence` | `agentsview-session-intelligence.md` | Outil local-first pour recherche, analytics et couts des sessions agents IA | actif |
 | `watch:nanoclaw-personal-agent` | `nanoclaw-personal-agent.md` | Agent IA personnel multi-canaux, containerise, avec vault credentials | actif |
 | `watch:autoresearchclaw-autonomous-research` | `autoresearchclaw-autonomous-research.md` | Agent de recherche autonome idee -> papier, avec experiments, citations et HITL | actif |
@@ -98,6 +99,13 @@ Index des sources de veille transversales KM.
 - Fichiers touches : `watch/index.md`, `watch/codepatrol-code-security.md`, `watch/twitter-rss-monitoring.md`, `watch/nanoclaw-personal-agent.md`, `watch/free-llm-api-resources.md`, `watch/awesome-free-llm-apis.md`.
 - Risques : CodePatrol source directe non exploitable.
 - Rollback possible : retirer la ligne CodePatrol et les mentions de lot.
+
+### v1.1 - 2026-05-22
+
+- Objectif : ajouter `ccgui-mossx-vibecoding-editor`.
+- Fichiers touches : `watch/index.md`, `watch/ccgui-mossx-vibecoding-editor.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`.
+- Risques : repo GitHub non confirme, plugins et MCP a auditer.
+- Rollback possible : retirer la ligne et supprimer la fiche.
 
 ### v0.1 - 2026-05-19
 
