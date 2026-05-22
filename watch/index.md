@@ -22,6 +22,7 @@ Index des sources de veille transversales KM.
 | `watch:vibeshit-vibe-coding-directory` | `vibeshit-vibe-coding-directory.md` | Annuaire vibe coding : outils IA, agents, LLM, devtools et tendances | actif |
 | `watch:agentsview-session-intelligence` | `agentsview-session-intelligence.md` | Outil local-first pour recherche, analytics et couts des sessions agents IA | actif |
 | `watch:nanoclaw-personal-agent` | `nanoclaw-personal-agent.md` | Agent IA personnel multi-canaux, containerise, avec vault credentials | actif |
+| `watch:autoresearchclaw-autonomous-research` | `autoresearchclaw-autonomous-research.md` | Agent de recherche autonome idee -> papier, avec experiments, citations et HITL | actif |
 
 ## Regles
 
@@ -65,6 +66,13 @@ Index des sources de veille transversales KM.
 - Objectif : ajouter `nanoclaw-personal-agent`.
 - Fichiers touches : `watch/index.md`, `watch/nanoclaw-personal-agent.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`.
 - Risques : messagerie automatisee, credentials et donnees personnelles.
+- Rollback possible : retirer la ligne et supprimer la fiche.
+
+### v0.7 - 2026-05-22
+
+- Objectif : ajouter `autoresearchclaw-autonomous-research`.
+- Fichiers touches : `watch/index.md`, `watch/autoresearchclaw-autonomous-research.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`.
+- Risques : claims scientifiques, citations, couts API et publication non verifiee.
 - Rollback possible : retirer la ligne et supprimer la fiche.
 
 ### v0.1 - 2026-05-19

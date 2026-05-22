@@ -714,3 +714,23 @@ Avantages principaux :
 
 Reference future :
 NanoClaw = agent personnel message-first + containers + skills + credential vault.
+
+## AutoResearchClaw
+
+URL repo : https://github.com/aiming-lab/AutoResearchClaw
+Source KM : `watch:autoresearchclaw-autonomous-research`
+
+Resume en 3 lignes :
+AutoResearchClaw est un agent de recherche autonome qui transforme une idee en papier academique.
+Il combine recherche bibliographique, generation d'experiences, analyse, citations, LaTeX, revue multi-agent et modes human-in-the-loop.
+Il est utile comme reference d'architecture agentique longue, mais sensible car il peut produire des claims scientifiques qui doivent etre verifies.
+
+Avantages principaux :
+- Pipeline idee -> papier avec artifacts, citations et experiences.
+- Modes full-auto et co-pilot / human-in-the-loop.
+- Mecanismes annonces de verification de citations, revue multi-agent et anti-fabrication.
+- Compatible OpenClaw et agents CLI.
+- Sensible : publication non verifiee, couts API, execution d'experiences et confiance excessive dans les outputs.
+
+Reference future :
+AutoResearchClaw = agent de recherche autonome + HITL + verification claims/citations + outputs academiques.

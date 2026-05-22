@@ -27,6 +27,7 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | `watch:vibeshit-vibe-coding-directory` | `watch/vibeshit-vibe-coding-directory.md` | veille | vibe-coding, ia, agents, devtools | actif |
 | `watch:agentsview-session-intelligence` | `watch/agentsview-session-intelligence.md` | veille | agents, sessions, analytics, local-first | actif |
 | `watch:nanoclaw-personal-agent` | `watch/nanoclaw-personal-agent.md` | veille | agents, messaging, containers, credentials | actif |
+| `watch:autoresearchclaw-autonomous-research` | `watch/autoresearchclaw-autonomous-research.md` | veille | research-agent, papers, citations, experiments | actif |
 | `theme:index` | `themes/THEMES.md` | index | themes | actif |
 | `resource:index` | `resources/RESOURCES.md` | index | ressources | actif |
 | `process:km-resource-import-prompt` | `process/km-resource-import-prompt.md` | process | km, import | actif |
@@ -82,3 +83,10 @@ Si le contenu est ambigu, sensible ou risque de casser une structure existante, 
 - Fichiers touches : `watch/nanoclaw-personal-agent.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
 - Risques : messagerie automatisee, credentials et donnees personnelles.
 - Rollback possible : retirer l'entree `watch:nanoclaw-personal-agent`.
+
+### v0.7 - 2026-05-22
+
+- Objectif : ajouter AutoResearchClaw.
+- Fichiers touches : `watch/autoresearchclaw-autonomous-research.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
+- Risques : claims scientifiques, citations, couts API et publication non verifiee.
+- Rollback possible : retirer l'entree `watch:autoresearchclaw-autonomous-research`.
