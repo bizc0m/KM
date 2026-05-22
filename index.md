@@ -29,6 +29,7 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | `watch:agentsview-session-intelligence` | `watch/agentsview-session-intelligence.md` | veille | agents, sessions, analytics, local-first | actif |
 | `watch:nanoclaw-personal-agent` | `watch/nanoclaw-personal-agent.md` | veille | agents, messaging, containers, credentials | actif |
 | `watch:autoresearchclaw-autonomous-research` | `watch/autoresearchclaw-autonomous-research.md` | veille | research-agent, papers, citations, experiments | actif |
+| `watch:pentestgpt-autonomous-pentest` | `watch/pentestgpt-autonomous-pentest.md` | veille | #ROUGE, pentest, autonomous-agent, offensive-risk | interne |
 | `theme:index` | `themes/THEMES.md` | index | themes | actif |
 | `resource:index` | `resources/RESOURCES.md` | index | ressources | actif |
 | `process:km-resource-import-prompt` | `process/km-resource-import-prompt.md` | process | km, import | actif |
@@ -98,3 +99,10 @@ Si le contenu est ambigu, sensible ou risque de casser une structure existante, 
 - Fichiers touches : `watch/awesome-free-llm-apis.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
 - Risques : providers variables, cles API, conditions d'usage et donnees tiers.
 - Rollback possible : retirer l'entree `watch:awesome-free-llm-apis`.
+
+### v0.9 - 2026-05-22
+
+- Objectif : ajouter PentestGPT en veille `#ROUGE`.
+- Fichiers touches : `watch/pentestgpt-autonomous-pentest.md`, `watch/red-team-risk-tools-watch.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
+- Risques : outil offensif directement operationnel.
+- Rollback possible : retirer l'entree `watch:pentestgpt-autonomous-pentest`.

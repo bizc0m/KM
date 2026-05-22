@@ -24,6 +24,7 @@ Index des sources de veille transversales KM.
 | `watch:agentsview-session-intelligence` | `agentsview-session-intelligence.md` | Outil local-first pour recherche, analytics et couts des sessions agents IA | actif |
 | `watch:nanoclaw-personal-agent` | `nanoclaw-personal-agent.md` | Agent IA personnel multi-canaux, containerise, avec vault credentials | actif |
 | `watch:autoresearchclaw-autonomous-research` | `autoresearchclaw-autonomous-research.md` | Agent de recherche autonome idee -> papier, avec experiments, citations et HITL | actif |
+| `watch:pentestgpt-autonomous-pentest` | `pentestgpt-autonomous-pentest.md` | #ROUGE : framework agentique de pentest autonome, a connaitre sans diffuser | interne |
 
 ## Regles
 
@@ -81,6 +82,13 @@ Index des sources de veille transversales KM.
 - Objectif : ajouter `awesome-free-llm-apis`.
 - Fichiers touches : `watch/index.md`, `watch/awesome-free-llm-apis.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`.
 - Risques : providers variables, cles API, conditions d'usage et donnees tiers.
+- Rollback possible : retirer la ligne et supprimer la fiche.
+
+### v0.9 - 2026-05-22
+
+- Objectif : ajouter `pentestgpt-autonomous-pentest` en `#ROUGE`.
+- Fichiers touches : `watch/index.md`, `watch/pentestgpt-autonomous-pentest.md`, `watch/red-team-risk-tools-watch.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`.
+- Risques : outil offensif directement operationnel.
 - Rollback possible : retirer la ligne et supprimer la fiche.
 
 ### v0.1 - 2026-05-19

@@ -754,3 +754,28 @@ Avantages principaux :
 
 Reference future :
 Awesome Free LLM APIs = annuaire providers LLM free tier + endpoints OpenAI-compatible + limites a verifier.
+
+## PentestGPT
+
+URL Vibe Shit : https://vibeshit.org/product/pentestgpt
+URL site : https://pentestgpt.com/
+URL repo : https://github.com/GreyDGL/PentestGPT
+Source KM : `watch:pentestgpt-autonomous-pentest`
+
+Resume en 3 lignes :
+PentestGPT est un framework agentique de penetration testing automatise par LLM.
+Il couvre reconnaissance, analyse de vulnerabilites, exploitation, post-exploitation et session persistence dans un environnement Docker.
+Il est classe `#ROUGE` : utile a connaitre pour defense et threat intelligence, mais pas a diffuser ni transformer en tutoriel.
+
+Avantages defensifs :
+- Etudier les risques des agents offensifs autonomes.
+- Tester des controles en lab autorise, CTF ou environnement isole.
+- Inspirer detection, journalisation, containment et guardrails.
+
+Garde-fous :
+- Aucun usage sur cible externe sans autorisation ecrite.
+- Ne pas fournir de commandes, payloads ou chaines d'exploitation.
+- Ne pas integrer dans un produit public ou workflow NightIntel sans cadrage legal.
+
+Reference future :
+PentestGPT = `#ROUGE` agent pentest autonome, veille defense uniquement.

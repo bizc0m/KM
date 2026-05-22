@@ -40,6 +40,7 @@ Critere strict : `#ROUGE` uniquement si l'outil facilite directement un usage of
 | Playwright MCP | tests QA, accessibilite, verification UI | automatisation d'actions non autorisees, scraping abusif | #ROUGE si cible externe |
 | n8n | automatisation interne | spam, exfiltration, scraping automatise | #ROUGE si connecteurs sensibles |
 | FreeLLMAPI / ARGO / LibreChat | self-host, privacy, experimentation controlee | fuite secrets, contournement conditions, agent non supervise | #ROUGE si secrets/comptes tiers |
+| PentestGPT | lab autorise, CTF, evaluation defensive d'agents de pentest | reconnaissance, exploitation, post-exploitation et privilege escalation non autorisees | #ROUGE non public |
 
 ## Sensible mais pas #ROUGE par defaut
 
@@ -85,3 +86,10 @@ Critere strict : `#ROUGE` uniquement si l'outil facilite directement un usage of
 - Fichiers touches : `watch/red-team-risk-tools-watch.md`, `watch/ai-open-source-tools-inventory.md`, `process/km-auto-operating-prompt-v1.0.md`.
 - Risques : reclassification a maintenir selon usage reel.
 - Rollback possible : revenir a v0.1.
+
+### v0.3 - 2026-05-22
+
+- Objectif : ajouter PentestGPT en `#ROUGE` strict.
+- Fichiers touches : `watch/red-team-risk-tools-watch.md`, `watch/pentestgpt-autonomous-pentest.md`, `watch/ai-open-source-tools-inventory.md`.
+- Risques : outil directement offensif si mal utilise.
+- Rollback possible : retirer la ligne PentestGPT et la fiche dediee.

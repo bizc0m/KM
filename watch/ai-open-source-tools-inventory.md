@@ -29,7 +29,7 @@ Bilan actuel :
 
 - 11 liens X fournis aujourd'hui.
 - 10 liens X uniques apres deduplication.
-- 42 outils nommes uniques extraits.
+- 43 outils nommes uniques extraits.
 - 2 doublons outils identifies : `Cal.com`, `Vibe-Trading`.
 - 3 elements non detailles a verifier : liste Image OSINT 26 outils, repo Claude Code redirect non nomme, section vehicle search.
 
@@ -79,6 +79,7 @@ Bilan actuel :
 | 40 | NanoClaw | `https://github.com/nanocoai/nanoclaw` | personal AI agent / messaging / containers | `nanoclaw.dev` | verifie GitHub, sensible |
 | 41 | AutoResearchClaw | `https://github.com/aiming-lab/AutoResearchClaw` | autonomous research / papers / experiments | GitHub | verifie GitHub, sensible |
 | 42 | Awesome Free LLM APIs | `https://github.com/mnfst/awesome-free-llm-apis` | free LLM API providers / OpenAI-compatible endpoints | GitHub | verifie GitHub, sensible |
+| 43 | PentestGPT | `https://github.com/GreyDGL/PentestGPT` | autonomous penetration testing agent | Vibe Shit / pentestgpt.com | verifie GitHub, #ROUGE |
 
 ## Verification liens
 
