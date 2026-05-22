@@ -24,6 +24,7 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | `watch:inspiration-competitors-tools` | `watch/inspiration-competitors-tools-watch.md` | veille | inspiration, competitors, tools | actif |
 | `watch:open-source-saas-alternatives-nicos-ai` | `watch/open-source-saas-alternatives-nicos-ai.md` | veille | open-source, saas, tools | actif |
 | `watch:free-llm-api-resources` | `watch/free-llm-api-resources.md` | veille | llm, api, providers | actif |
+| `watch:vibeshit-vibe-coding-directory` | `watch/vibeshit-vibe-coding-directory.md` | veille | vibe-coding, ia, agents, devtools | actif |
 | `theme:index` | `themes/THEMES.md` | index | themes | actif |
 | `resource:index` | `resources/RESOURCES.md` | index | ressources | actif |
 | `process:km-resource-import-prompt` | `process/km-resource-import-prompt.md` | process | km, import | actif |
@@ -58,3 +59,10 @@ Si le contenu est ambigu, sensible ou risque de casser une structure existante, 
 - Fichiers touches : `process/km-auto-operating-prompt-v1.0.md`, `index.md`, `km/history.md`.
 - Risques : prompt large a maintenir.
 - Rollback possible : retirer l'entree et revenir a `process/km-resource-import-prompt`.
+
+### v0.4 - 2026-05-22
+
+- Objectif : ajouter la source de veille Vibe Shit.
+- Fichiers touches : `watch/vibeshit-vibe-coding-directory.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques : claims externes variables, certains outils potentiellement dual-use.
+- Rollback possible : retirer l'entree `watch:vibeshit-vibe-coding-directory`.
