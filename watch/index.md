@@ -20,6 +20,7 @@ Index des sources de veille transversales KM.
 | `watch:open-source-saas-alternatives-nicos-ai` | `open-source-saas-alternatives-nicos-ai.md` | Lot nicos_ai : alternatives open source SaaS, dedup et risques | actif |
 | `watch:free-llm-api-resources` | `free-llm-api-resources.md` | Fournisseurs LLM gratuits/trials, limites et garde-fous | actif |
 | `watch:vibeshit-vibe-coding-directory` | `vibeshit-vibe-coding-directory.md` | Annuaire vibe coding : outils IA, agents, LLM, devtools et tendances | actif |
+| `watch:agentsview-session-intelligence` | `agentsview-session-intelligence.md` | Outil local-first pour recherche, analytics et couts des sessions agents IA | actif |
 
 ## Regles
 
@@ -49,6 +50,13 @@ Index des sources de veille transversales KM.
 - Objectif : ajouter `vibeshit-vibe-coding-directory`.
 - Fichiers touches : `watch/index.md`, `watch/vibeshit-vibe-coding-directory.md`, `index.md`.
 - Risques : claims externes et outils dual-use a verifier.
+- Rollback possible : retirer la ligne et supprimer la fiche.
+
+### v0.5 - 2026-05-22
+
+- Objectif : ajouter `agentsview-session-intelligence`.
+- Fichiers touches : `watch/index.md`, `watch/agentsview-session-intelligence.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`.
+- Risques : historiques agents sensibles.
 - Rollback possible : retirer la ligne et supprimer la fiche.
 
 ### v0.1 - 2026-05-19

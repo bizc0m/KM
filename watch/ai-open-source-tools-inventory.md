@@ -2,7 +2,7 @@
 
 ## Type
 
-Inventaire outils issu de veille X.
+Inventaire outils issu de veille X et sources web verifiees.
 
 ## Tags
 
@@ -18,6 +18,7 @@ Inventaire detaille extrait de :
 
 - `watch:ai-open-source-tools-watch`
 - `watch:osint-tools-watch`
+- `watch:agentsview-session-intelligence`
 
 ## Resume
 
@@ -27,7 +28,7 @@ Bilan actuel :
 
 - 11 liens X fournis aujourd'hui.
 - 10 liens X uniques apres deduplication.
-- 38 outils nommes uniques extraits.
+- 39 outils nommes uniques extraits.
 - 2 doublons outils identifies : `Cal.com`, `Vibe-Trading`.
 - 3 elements non detailles a verifier : liste Image OSINT 26 outils, repo Claude Code redirect non nomme, section vehicle search.
 
@@ -73,6 +74,7 @@ Bilan actuel :
 | 36 | PhotoGIMP | `https://github.com/Diolinux/PhotoGIMP` | GIMP Photoshop-like workflow | `nicos_ai` | verifie GitHub |
 | 37 | Open Design | `https://github.com/nexu-io/open-design` | AI/UI design workflow | `nicos_ai` | verifie GitHub |
 | 38 | Bitwarden Server | `https://github.com/bitwarden/server` | password manager server | `nicos_ai` | verifie GitHub, interne critique |
+| 39 | AgentsView | `https://github.com/kenn-io/agentsview` | session intelligence / analytics agents | `agentsview.io` | verifie GitHub, sensible |
 
 ## Verification liens
 

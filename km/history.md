@@ -27,6 +27,7 @@
 | 2026-05-22 | Integration lot nicos_ai alternatives SaaS | `watch/open-source-saas-alternatives-nicos-ai.md`, `watch/ai-open-source-tools-inventory.md`, `watch/x-source-authors-log.md` | Claims promotionnels, usages sensibles | Supprimer la fiche et retirer les lignes d'index |
 | 2026-05-22 | Integration free LLM API resources | `watch/free-llm-api-resources.md`, `watch/index.md`, `index.md` | Providers/limites variables, donnees tiers | Supprimer la fiche et retirer les lignes d'index |
 | 2026-05-22 | Integration Vibe Shit veille vibe coding | `watch/vibeshit-vibe-coding-directory.md`, `watch/index.md`, `index.md` | Claims externes, outils dual-use possibles | Supprimer la fiche et retirer les lignes d'index |
+| 2026-05-22 | Integration AgentsView session intelligence | `watch/agentsview-session-intelligence.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md` | Historiques agents sensibles | Supprimer la fiche et retirer les lignes d'index |
 
 ## Notes
 

@@ -25,6 +25,7 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | `watch:open-source-saas-alternatives-nicos-ai` | `watch/open-source-saas-alternatives-nicos-ai.md` | veille | open-source, saas, tools | actif |
 | `watch:free-llm-api-resources` | `watch/free-llm-api-resources.md` | veille | llm, api, providers | actif |
 | `watch:vibeshit-vibe-coding-directory` | `watch/vibeshit-vibe-coding-directory.md` | veille | vibe-coding, ia, agents, devtools | actif |
+| `watch:agentsview-session-intelligence` | `watch/agentsview-session-intelligence.md` | veille | agents, sessions, analytics, local-first | actif |
 | `theme:index` | `themes/THEMES.md` | index | themes | actif |
 | `resource:index` | `resources/RESOURCES.md` | index | ressources | actif |
 | `process:km-resource-import-prompt` | `process/km-resource-import-prompt.md` | process | km, import | actif |
@@ -66,3 +67,10 @@ Si le contenu est ambigu, sensible ou risque de casser une structure existante, 
 - Fichiers touches : `watch/vibeshit-vibe-coding-directory.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : claims externes variables, certains outils potentiellement dual-use.
 - Rollback possible : retirer l'entree `watch:vibeshit-vibe-coding-directory`.
+
+### v0.5 - 2026-05-22
+
+- Objectif : ajouter AgentsView.
+- Fichiers touches : `watch/agentsview-session-intelligence.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `km/history.md`.
+- Risques : lecture d'historiques agents sensibles.
+- Rollback possible : retirer l'entree `watch:agentsview-session-intelligence`.
