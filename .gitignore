@@ -1,0 +1,9 @@
+.DS_Store
+archive/
+resources/
+inbox/
+*.zip
+*.tar
+*.tar.gz
+.env
+.env.*
