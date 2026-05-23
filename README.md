@@ -37,6 +37,14 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 - Process : `process:<slug>`
 - Veille : `watch:<slug>`
 
+## Front recherche
+
+- Fichier : `search.html`
+- Usage : ouvrir directement le fichier dans un navigateur.
+- Regeneration : `node scripts/build-search-html.mjs`
+- Principe : HTML autonome avec index embarque depuis `km/`, `watch/`, `themes/`, `process/` et les index racine.
+- Garde-fou : ne pas indexer `resources/`, `archive/` ou `inbox/` avant nettoyage privacy.
+
 ## Changelog
 
 ### v0.1 - 2026-05-19
@@ -45,3 +53,10 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 - Fichiers touches : `README.md`, `km/index.md`, `km/history.md`, `sources.md`, `resources/`, `themes/`, `process/`, `archive/claude-km/`.
 - Risques : copies dupliquees avec anciens emplacements.
 - Rollback possible : supprimer `###DEV/KM` et garder les sources historiques.
+
+### v0.2-search - 2026-05-23
+
+- Objectif : ajouter un front autonome de recherche KM.
+- Fichiers touches : `search.html`, `scripts/build-search-html.mjs`, `README.md`.
+- Risques : index embarque a regenerer apres nouveaux ajouts KM.
+- Rollback possible : supprimer `search.html` et `scripts/build-search-html.mjs`.
