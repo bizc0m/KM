@@ -57,6 +57,7 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 | v1.7 | `search-v1.7.html` | `scripts/build-search-v1.7-html.mjs` | vue publique deux colonnes avec viewer Markdown |
 | v1.8 | `search-v1.8.html` | `scripts/build-search-v1.8-html.mjs` | tags thematiques, date inline, liens cliquables |
 | v1.9 | `search-v1.9.html` | `scripts/build-search-v1.9-html.mjs` | bouton GitHub noir |
+| v1.10 | `search-v1.10.html` | `scripts/build-search-v1.10-html.mjs` | bouton GitHub apres la date |
 
 ## Changelog
 
@@ -122,3 +123,10 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 - Fichiers touches : `search-v1.9.html`, `scripts/build-search-v1.9-html.mjs`, `README.md`.
 - Risques : aucun risque fonctionnel connu.
 - Rollback possible : revenir a `search-v1.8.html` ou supprimer `search-v1.9.html` et son generateur.
+
+### v0.10-search-v1.10 - 2026-05-23
+
+- Objectif : placer le bouton GitHub juste apres la date et avant le titre.
+- Fichiers touches : `search-v1.10.html`, `scripts/build-search-v1.10-html.mjs`, `README.md`.
+- Risques : aucun risque fonctionnel connu.
+- Rollback possible : revenir a `search-v1.9.html` ou supprimer `search-v1.10.html` et son generateur.
