@@ -52,6 +52,7 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 | v1.1 | `search.html` | `scripts/build-search-html.mjs` | stable |
 | v1.3 | `search-v1.3.html` | `scripts/build-search-v1.3-html.mjs` | +0.2, version separee |
 | v1.4 | `search-v1.4.html` | `scripts/build-search-v1.4-html.mjs` | zones longues retirees |
+| v1.5 | `search-v1.5.html` | `scripts/build-search-v1.5-html.mjs` | corpus simplifie, fiche detaillee |
 
 ## Changelog
 
@@ -82,3 +83,10 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 - Fichiers touches : `search-v1.4.html`, `scripts/build-search-v1.4-html.mjs`, `README.md`.
 - Risques : recherche moins exhaustive car elle ne parcourt plus le corps complet des fiches Markdown.
 - Rollback possible : revenir a `search-v1.3.html` ou supprimer `search-v1.4.html` et son generateur.
+
+### v0.5-search-v1.5 - 2026-05-23
+
+- Objectif : simplifier les cartes Corpus et remettre la fiche detaillee dans la colonne Fiche.
+- Fichiers touches : `search-v1.5.html`, `scripts/build-search-v1.5-html.mjs`, `README.md`.
+- Risques : la colonne Fiche expose plus de contenu Markdown dans l'HTML autonome ; verifier privacy avant partage.
+- Rollback possible : revenir a `search-v1.4.html` ou supprimer `search-v1.5.html` et son generateur.
