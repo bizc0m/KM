@@ -45,6 +45,13 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 - Principe : HTML autonome avec index embarque depuis `km/`, `watch/`, `themes/`, `process/` et les index racine.
 - Garde-fou : ne pas indexer `resources/`, `archive/` ou `inbox/` avant nettoyage privacy.
 
+## Versions front recherche
+
+| Version | Fichier | Generateur | Statut |
+| --- | --- | --- | --- |
+| v1.1 | `search.html` | `scripts/build-search-html.mjs` | stable |
+| v1.3 | `search-v1.3.html` | `scripts/build-search-v1.3-html.mjs` | +0.2, version separee |
+
 ## Changelog
 
 ### v0.1 - 2026-05-19
@@ -60,3 +67,10 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 - Fichiers touches : `search.html`, `scripts/build-search-html.mjs`, `README.md`.
 - Risques : index embarque a regenerer apres nouveaux ajouts KM.
 - Rollback possible : supprimer `search.html` et `scripts/build-search-html.mjs`.
+
+### v0.3-search-v1.3 - 2026-05-23
+
+- Objectif : creer une version +0.2 du front sans ecraser la version stable.
+- Fichiers touches : `search-v1.3.html`, `scripts/build-search-v1.3-html.mjs`, `README.md`.
+- Risques : deux versions a maintenir si le schema KM change.
+- Rollback possible : supprimer `search-v1.3.html` et `scripts/build-search-v1.3-html.mjs`.
