@@ -56,6 +56,7 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 | v1.6 | `search-v1.6.html` | `scripts/build-search-v1.6-html.mjs` | vue publique nettoyee |
 | v1.7 | `search-v1.7.html` | `scripts/build-search-v1.7-html.mjs` | vue publique deux colonnes avec viewer Markdown |
 | v1.8 | `search-v1.8.html` | `scripts/build-search-v1.8-html.mjs` | tags thematiques, date inline, liens cliquables |
+| v1.9 | `search-v1.9.html` | `scripts/build-search-v1.9-html.mjs` | bouton GitHub noir |
 
 ## Changelog
 
@@ -114,3 +115,10 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 - Fichiers touches : `search-v1.8.html`, `scripts/build-search-v1.8-html.mjs`, `README.md`.
 - Risques : classification couleur automatique imparfaite selon les tags.
 - Rollback possible : revenir a `search-v1.7.html` ou supprimer `search-v1.8.html` et son generateur.
+
+### v0.9-search-v1.9 - 2026-05-23
+
+- Objectif : rendre le bouton GitHub plus lisible en fond noir et texte blanc apres la tete.
+- Fichiers touches : `search-v1.9.html`, `scripts/build-search-v1.9-html.mjs`, `README.md`.
+- Risques : aucun risque fonctionnel connu.
+- Rollback possible : revenir a `search-v1.8.html` ou supprimer `search-v1.9.html` et son generateur.
