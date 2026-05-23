@@ -55,6 +55,7 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 | v1.5 | `search-v1.5.html` | `scripts/build-search-v1.5-html.mjs` | corpus simplifie, fiche detaillee |
 | v1.6 | `search-v1.6.html` | `scripts/build-search-v1.6-html.mjs` | vue publique nettoyee |
 | v1.7 | `search-v1.7.html` | `scripts/build-search-v1.7-html.mjs` | vue publique deux colonnes avec viewer Markdown |
+| v1.8 | `search-v1.8.html` | `scripts/build-search-v1.8-html.mjs` | tags thematiques, date inline, liens cliquables |
 
 ## Changelog
 
@@ -106,3 +107,10 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 - Fichiers touches : `search-v1.7.html`, `scripts/build-search-v1.7-html.mjs`, `README.md`.
 - Risques : rendu Markdown volontairement simple, sans parser complet.
 - Rollback possible : revenir a `search-v1.6.html` ou supprimer `search-v1.7.html` et son generateur.
+
+### v0.8-search-v1.8 - 2026-05-23
+
+- Objectif : aligner date/titre, ajouter 12 themes couleurs et rendre les liens HTML cliquables dans la fiche.
+- Fichiers touches : `search-v1.8.html`, `scripts/build-search-v1.8-html.mjs`, `README.md`.
+- Risques : classification couleur automatique imparfaite selon les tags.
+- Rollback possible : revenir a `search-v1.7.html` ou supprimer `search-v1.8.html` et son generateur.
