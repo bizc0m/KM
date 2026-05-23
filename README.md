@@ -51,6 +51,7 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 | --- | --- | --- | --- |
 | v1.1 | `search.html` | `scripts/build-search-html.mjs` | stable |
 | v1.3 | `search-v1.3.html` | `scripts/build-search-v1.3-html.mjs` | +0.2, version separee |
+| v1.4 | `search-v1.4.html` | `scripts/build-search-v1.4-html.mjs` | zones longues retirees |
 
 ## Changelog
 
@@ -74,3 +75,10 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 - Fichiers touches : `search-v1.3.html`, `scripts/build-search-v1.3-html.mjs`, `README.md`.
 - Risques : deux versions a maintenir si le schema KM change.
 - Rollback possible : supprimer `search-v1.3.html` et `scripts/build-search-v1.3-html.mjs`.
+
+### v0.4-search-v1.4 - 2026-05-23
+
+- Objectif : retirer les zones longues floutees de l'interface et de l'index embarque.
+- Fichiers touches : `search-v1.4.html`, `scripts/build-search-v1.4-html.mjs`, `README.md`.
+- Risques : recherche moins exhaustive car elle ne parcourt plus le corps complet des fiches Markdown.
+- Rollback possible : revenir a `search-v1.3.html` ou supprimer `search-v1.4.html` et son generateur.
