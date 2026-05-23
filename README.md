@@ -54,6 +54,7 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 | v1.4 | `search-v1.4.html` | `scripts/build-search-v1.4-html.mjs` | zones longues retirees |
 | v1.5 | `search-v1.5.html` | `scripts/build-search-v1.5-html.mjs` | corpus simplifie, fiche detaillee |
 | v1.6 | `search-v1.6.html` | `scripts/build-search-v1.6-html.mjs` | vue publique nettoyee |
+| v1.7 | `search-v1.7.html` | `scripts/build-search-v1.7-html.mjs` | vue publique deux colonnes avec viewer Markdown |
 
 ## Changelog
 
@@ -98,3 +99,10 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 - Fichiers touches : `search-v1.6.html`, `scripts/build-search-v1.6-html.mjs`, `README.md`.
 - Risques : detail Markdown filtre, donc certaines lignes sources ne sont pas affichees dans cette vue.
 - Rollback possible : revenir a `search-v1.5.html` ou supprimer `search-v1.6.html` et son generateur.
+
+### v0.7-search-v1.7 - 2026-05-23
+
+- Objectif : retirer la colonne Index, clarifier Corpus et afficher les fiches via un viewer Markdown.
+- Fichiers touches : `search-v1.7.html`, `scripts/build-search-v1.7-html.mjs`, `README.md`.
+- Risques : rendu Markdown volontairement simple, sans parser complet.
+- Rollback possible : revenir a `search-v1.6.html` ou supprimer `search-v1.7.html` et son generateur.
