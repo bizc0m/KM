@@ -31,6 +31,7 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | `watch:nanoclaw-personal-agent` | `watch/nanoclaw-personal-agent.md` | veille | agents, messaging, containers, credentials | actif |
 | `watch:autoresearchclaw-autonomous-research` | `watch/autoresearchclaw-autonomous-research.md` | veille | research-agent, papers, citations, experiments | actif |
 | `watch:pentestgpt-autonomous-pentest` | `watch/pentestgpt-autonomous-pentest.md` | veille | #ROUGE, pentest, autonomous-agent, offensive-risk | interne |
+| `watch:promptspy-ai-android-malware` | `watch/promptspy-ai-android-malware.md` | veille | #ROUGE, android-security, mobile-security, ai-malware | interne |
 | `watch:codepatrol-code-security` | `watch/codepatrol-code-security.md` | veille | code-security, sast, appsec, to-verify | a verifier |
 | `theme:index` | `themes/THEMES.md` | index | themes | actif |
 | `resource:index` | `resources/RESOURCES.md` | index | ressources | actif |
@@ -122,3 +123,10 @@ Si le contenu est ambigu, sensible ou risque de casser une structure existante, 
 - Fichiers touches : `watch/ccgui-mossx-vibecoding-editor.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
 - Risques : repo GitHub non confirme, plugins et MCP a auditer.
 - Rollback possible : retirer l'entree `watch:ccgui-mossx-vibecoding-editor`.
+
+### v1.2 - 2026-05-23
+
+- Objectif : ajouter PromptSpy en veille menace Android IA `#ROUGE`.
+- Fichiers touches : `watch/promptspy-ai-android-malware.md`, `watch/index.md`, `watch/red-team-risk-tools-watch.md`, `index.md`, `km/history.md`.
+- Risques : source secondaire non verifiee ; URLs blog/podcast tronquees.
+- Rollback possible : retirer l'entree `watch:promptspy-ai-android-malware`.
