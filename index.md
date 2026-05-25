@@ -31,6 +31,7 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | `watch:nanoclaw-personal-agent` | `watch/nanoclaw-personal-agent.md` | veille | agents, messaging, containers, credentials | actif |
 | `watch:autoresearchclaw-autonomous-research` | `watch/autoresearchclaw-autonomous-research.md` | veille | research-agent, papers, citations, experiments | actif |
 | `watch:moneyprinterturbo-ai-short-video` | `watch/moneyprinterturbo-ai-short-video.md` | veille | ai-video, shortvideo, tiktok, automation, social-media | sensible |
+| `watch:conet-privacy-depin-network` | `watch/conet-privacy-depin-network.md` | veille | privacy, depin, crypto, decentralized-network, encrypted-routing | a verifier |
 | `watch:pentestgpt-autonomous-pentest` | `watch/pentestgpt-autonomous-pentest.md` | veille | #ROUGE, pentest, autonomous-agent, offensive-risk | interne |
 | `watch:promptspy-ai-android-malware` | `watch/promptspy-ai-android-malware.md` | veille | #ROUGE, android-security, mobile-security, ai-malware | interne |
 | `watch:codepatrol-code-security` | `watch/codepatrol-code-security.md` | veille | code-security, sast, appsec, to-verify | a verifier |
@@ -138,3 +139,10 @@ Si le contenu est ambigu, sensible ou risque de casser une structure existante, 
 - Fichiers touches : `watch/moneyprinterturbo-ai-short-video.md`, `watch/index.md`, `index.md`, `km/history.md`, `scripts/build-search-v1.10-html.mjs`.
 - Risques : spam video, impersonation, copyright, desinformation et automation RS abusive.
 - Rollback possible : retirer l'entree `watch:moneyprinterturbo-ai-short-video`.
+
+### v1.4 - 2026-05-25
+
+- Objectif : ajouter CONET comme veille privacy DePIN.
+- Fichiers touches : `watch/conet-privacy-depin-network.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques : claims privacy non audites, crypto/tokenomics, responsabilite legale de relais.
+- Rollback possible : retirer l'entree `watch:conet-privacy-depin-network`.
