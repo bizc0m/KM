@@ -6,8 +6,18 @@ const root = fileURLToPath(new URL("..", import.meta.url)).replace(/\/$/, "");
 const outputFile = join(root, "search-v1.10.html");
 const includeDirs = ["watch"];
 const includeFiles = [];
+const globalIndexFile = join(root, "index.md");
 const internalPattern = /\b(bizc0m|charte\s+ia|nightintel|night\s*intel|process:|theme:|km:|###dev|watch:|appel canonique|relations|fichiers touches|rollback|outils internes)\b/i;
 const hiddenSectionPattern = /^##\s+(Appel canonique|Relations|Fit projets|Decision KM|Changelog|Rollback)\b/i;
+
+function indexedMarkdownPaths() {
+  const content = readFileSync(globalIndexFile, "utf8");
+  return new Set(
+    [...content.matchAll(/`\s*([^`]+\.md)\s*`/g)]
+      .map((match) => match[1].trim())
+      .filter((path) => path.startsWith("watch/"))
+  );
+}
 
 function walk(dir) {
   return readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
@@ -127,10 +137,11 @@ function itemFrom(file) {
   };
 }
 
+const indexedPaths = indexedMarkdownPaths();
 const files = [
   ...includeFiles.map((file) => join(root, file)).filter((file) => statSync(file, { throwIfNoEntry: false })),
   ...includeDirs.flatMap((dir) => walk(join(root, dir)))
-];
+].filter((file) => indexedPaths.has(relative(root, file)));
 const index = files.map(itemFrom).filter(Boolean).sort((a, b) => (a.canonical || a.title).localeCompare(b.canonical || b.title));
 const generatedAt = new Date().toISOString();
 

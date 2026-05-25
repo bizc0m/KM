@@ -25,6 +25,7 @@ Index des sources de veille transversales KM.
 | `watch:agentsview-session-intelligence` | `agentsview-session-intelligence.md` | Outil local-first pour recherche, analytics et couts des sessions agents IA | actif |
 | `watch:nanoclaw-personal-agent` | `nanoclaw-personal-agent.md` | Agent IA personnel multi-canaux, containerise, avec vault credentials | actif |
 | `watch:autoresearchclaw-autonomous-research` | `autoresearchclaw-autonomous-research.md` | Agent de recherche autonome idee -> papier, avec experiments, citations et HITL | actif |
+| `watch:moneyprinterturbo-ai-short-video` | `moneyprinterturbo-ai-short-video.md` | Generation automatique de shorts IA / TikTok, utile RS avec validation humaine | sensible |
 | `watch:pentestgpt-autonomous-pentest` | `pentestgpt-autonomous-pentest.md` | #ROUGE : framework agentique de pentest autonome, a connaitre sans diffuser | interne |
 | `watch:promptspy-ai-android-malware` | `promptspy-ai-android-malware.md` | #ROUGE : veille malware Android utilisant IA generative, source a verifier | interne |
 | `watch:codepatrol-code-security` | `codepatrol-code-security.md` | Code review securite / SAST, source directe a verifier | a verifier |
@@ -113,6 +114,13 @@ Index des sources de veille transversales KM.
 - Objectif : ajouter `promptspy-ai-android-malware` depuis source video fournie.
 - Fichiers touches : `watch/index.md`, `watch/promptspy-ai-android-malware.md`, `index.md`, `watch/red-team-risk-tools-watch.md`, `km/history.md`.
 - Risques : source secondaire non verifiee ; URLs blog/podcast tronquees.
+- Rollback possible : retirer la ligne et supprimer la fiche.
+
+### v1.3 - 2026-05-25
+
+- Objectif : ajouter `moneyprinterturbo-ai-short-video`.
+- Fichiers touches : `watch/index.md`, `watch/moneyprinterturbo-ai-short-video.md`, `index.md`, `km/history.md`, `scripts/build-search-v1.10-html.mjs`.
+- Risques : spam video, impersonation, copyright, desinformation et automation RS abusive.
 - Rollback possible : retirer la ligne et supprimer la fiche.
 
 ### v0.1 - 2026-05-19

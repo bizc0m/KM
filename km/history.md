@@ -36,6 +36,7 @@
 | 2026-05-22 | Traitement lot OpenRSS / LLM APIs / CodePatrol / NanoClaw FR | `watch/codepatrol-code-security.md`, `watch/twitter-rss-monitoring.md`, `watch/nanoclaw-personal-agent.md`, `watch/free-llm-api-resources.md`, `watch/awesome-free-llm-apis.md`, `watch/index.md`, `index.md`, `process/AI-Tools.md` | CodePatrol source directe non exploitable ; doublons a maintenir | Retirer la fiche CodePatrol et les changelogs de lot |
 | 2026-05-22 | Integration CC-GUI / MossX vibe coding editor | `watch/ccgui-mossx-vibecoding-editor.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md` | Repo GitHub non confirme, plugins/MCP a auditer | Supprimer la fiche et retirer les lignes d'index |
 | 2026-05-23 | Integration PromptSpy malware Android IA | `watch/promptspy-ai-android-malware.md`, `watch/index.md`, `watch/red-team-risk-tools-watch.md`, `index.md`, `km/history.md` | Source secondaire non verifiee, URLs tronquees, sujet malware #ROUGE | Supprimer la fiche et retirer les lignes d'index |
+| 2026-05-25 | Integration MoneyPrinterTurbo generation shorts IA | `watch/moneyprinterturbo-ai-short-video.md`, `watch/index.md`, `index.md`, `km/history.md`, `scripts/build-search-v1.10-html.mjs`, `search-v1.10.html` | Spam video, impersonation, copyright, desinformation et automation RS abusive | Supprimer la fiche et retirer les lignes d'index |
 
 ## Notes
 
