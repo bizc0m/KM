@@ -38,6 +38,7 @@
 | 2026-05-23 | Integration PromptSpy malware Android IA | `watch/promptspy-ai-android-malware.md`, `watch/index.md`, `watch/red-team-risk-tools-watch.md`, `index.md`, `km/history.md` | Source secondaire non verifiee, URLs tronquees, sujet malware #ROUGE | Supprimer la fiche et retirer les lignes d'index |
 | 2026-05-25 | Integration MoneyPrinterTurbo generation shorts IA | `watch/moneyprinterturbo-ai-short-video.md`, `watch/index.md`, `index.md`, `km/history.md`, `scripts/build-search-v1.10-html.mjs`, `search-v1.10.html` | Spam video, impersonation, copyright, desinformation et automation RS abusive | Supprimer la fiche et retirer les lignes d'index |
 | 2026-05-25 | Integration CONET privacy DePIN network | `watch/conet-privacy-depin-network.md`, `watch/index.md`, `index.md`, `km/history.md`, `search-v1.10.html` | Claims privacy non audites, crypto/tokenomics, responsabilite legale de relais | Supprimer la fiche et retirer les lignes d'index |
+| 2026-05-26 | Integration fragment poetique Proton Luna | `km/proton-luna-poeme.md`, `km/index.md`, `index.md`, `km/history.md` | Sur-interpretation symbolique, confusion lore/protocole | Supprimer la fiche et retirer les lignes d'index |
 
 ## Notes
 

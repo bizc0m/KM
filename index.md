@@ -12,6 +12,7 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | --- | --- | --- | --- | --- |
 | `km:index` | `km/index.md` | index | km | actif |
 | `km:history` | `km/history.md` | historique | km, changelog | actif |
+| `km:proton-luna-poeme` | `km/proton-luna-poeme.md` | fragment poetique | proton, luna, poeme, nuit, flamme, lore | actif |
 | `watch:index` | `watch/index.md` | index | veille | actif |
 | `watch:ai-trending` | `watch/ai-trending.md` | veille | ia, github, trending | actif |
 | `watch:ai-open-source-tools-watch` | `watch/ai-open-source-tools-watch.md` | veille | ia, open-source, devtools, saas, osint | actif |
@@ -146,3 +147,10 @@ Si le contenu est ambigu, sensible ou risque de casser une structure existante, 
 - Fichiers touches : `watch/conet-privacy-depin-network.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : claims privacy non audites, crypto/tokenomics, responsabilite legale de relais.
 - Rollback possible : retirer l'entree `watch:conet-privacy-depin-network`.
+
+### v1.5 - 2026-05-26
+
+- Objectif : ajouter le fragment poetique Proton Luna.
+- Fichiers touches : `km/proton-luna-poeme.md`, `km/index.md`, `index.md`, `km/history.md`.
+- Risques : sur-interpretation symbolique.
+- Rollback possible : retirer l'entree `km:proton-luna-poeme`.
