@@ -1,0 +1,9 @@
+[Unit]
+Description=KM dashboard build, publish and verification
+After=network-online.target docker.service nginx.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/km-dashboard
+ExecStart=/opt/km-dashboard/scripts/deploy-km-dashboard-on-server.sh

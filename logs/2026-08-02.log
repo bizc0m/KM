@@ -1,0 +1,12 @@
+[07:23] RAINDROP_FULL_INGEST | https://arno-vltn.raindrop.page/km-monitor-71629567 | page publique 30/30/30/15/0 = 105 items dedupes ; couverture locale 105/105 ; nouveautes 0 | -
+[07:23] DASHBOARD | search-v1.11.html | regenere via node scripts/build-search-v1.11-html.mjs ; 123 documents ; statuts 18 #ROUGE, 63 sensible, 37 a verifier, 5 actif | -
+[07:23] HYGIENE | tmp/raindrop-* search-v1.11.html | caches temporaires Raindrop supprimes ; scan token cible vide | -
+[13:31] RAINDROP_FULL_INGEST | https://arno-vltn.raindrop.page/km-monitor-71629567 | page publique 30/30/30/15/0 = 105 items dedupes ; couverture locale 105/105 ; nouveautes 0 | -
+[13:31] DASHBOARD | search-v1.11.html | regenere via node scripts/build-search-v1.11-html.mjs ; 123 documents ; statuts 18 #ROUGE, 63 sensible, 37 a verifier, 5 actif | -
+[13:31] HYGIENE | tmp/raindrop-run-20260802-current search-v1.11.html | cache temporaire supprime ; scan token cible vide | -
+[17:34] RAINDROP_FULL_INGEST | https://arno-vltn.raindrop.page/km-monitor-71629567 | page publique 30/30/30/16/0 = 106 items dedupes ; nouveaute 1 Brandfetch ; couverture locale 106/106 apres fiche | -
+[17:34] DASHBOARD | search-v1.11.html | regenere via node scripts/build-search-v1.11-html.mjs ; 124 documents ; statuts 18 #ROUGE, 63 sensible, 37 a verifier, 6 actif | -
+[17:34] HYGIENE | /tmp/km-raindrop-20260802-O5O5bF search-v1.11.html watch/brandfetch.md | scan parametres token/tracking cible vide ; cache temporaire supprime | -
+[21:33] RAINDROP_FULL_INGEST | https://arno-vltn.raindrop.page/km-monitor-71629567 | controle page publique 30/30/30/16/0 = 106 items dedupes ; aucune nouveaute supplementaire apres Brandfetch | -
+[21:33] DASHBOARD | search-v1.11.html | regenere via node scripts/build-search-v1.11-html.mjs ; 124 documents ; Brandfetch present statut actif | -
+[21:33] HYGIENE | search-v1.11.html watch/brandfetch.md index.md watch/index.md km/history.md | scan mcp_token/secrets/tracking cible vide | -

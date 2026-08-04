@@ -1,0 +1,9 @@
+[03:59] RAINDROP_FULL_INGEST | tmp/raindrop-live-page-*.html | page publique OK 30/30/30/4/0/0; 94 items bruts; 94 URLs couvertes localement; 0 nouveaute |
+[03:59] DASHBOARD | search-v1.11.html | regenere via node scripts/build-search-v1.11-html.mjs; 114 documents indexes |
+[04:00] HYGIENE | tmp/raindrop* | caches temporaires supprimes; aucun mcp_token/access_token restant dans tmp ou search-v1.11.html |
+[08:03] RAINDROP_FULL_INGEST | page publique Raindrop | page publique OK 30/30/30/4/0/0; 94 items uniques; 94/94 couverts; 0 nouveaute |
+[08:03] DASHBOARD | search-v1.11.html | regenere via node scripts/build-search-v1.11-html.mjs; 114 documents indexes |
+[08:03] RSS_SIGNAL | /feed | signal secondaire OK; 50 items; lastBuildDate Thu, 09 Jul 2026 05:13:18 GMT; top Notion |
+[18:59] RAINDROP_FULL_INGEST | page publique Raindrop | page publique OK 30/30/30/4/0/0; 94 items bruts; 90 URLs canoniques; 90/90 couverts; 0 nouveaute |
+[18:59] DASHBOARD | search-v1.11.html | regenere via node scripts/build-search-v1.11-html.mjs; 114 documents indexes |
+[18:59] RSS_SIGNAL | /feed | signal secondaire OK; 50 items; lastBuildDate Thu, 09 Jul 2026 05:13:18 GMT; top Notion |

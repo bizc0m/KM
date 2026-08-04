@@ -1,0 +1,18 @@
+[11:46] INGEST | Raindrop public page | 72 items dedupes ; 2 fiches creees ; couverture 72/72 |
+[11:46] FICHE | resources/global-network-sex-work-projects-resources.md | creee ; statut a verifier | HTTP 429 sur verification directe NSWP
+[11:46] FICHE | watch/free-api-key-instagram-reel.md | creee ; statut sensible ; URL nettoyee sans comment_id |
+[11:46] INDEX | index.md, watch/index.md, resources/RESOURCES.md, km/history.md | mis a jour sans doublon detecte |
+[11:46] DASHBOARD | search-v1.10.html, search-v1.11.html | v1.10=92 docs ; v1.11=94 docs avec resources |
+[12:43] INGEST | Raindrop public page | 72 items dedupes ; 0 nouveaute ; couverture locale 72/72 |
+[12:43] RSS | /feed | lastBuildDate Sat, 27 Jun 2026 08:13:58 GMT ; coherent page publique |
+[12:43] DASHBOARD | search-v1.10.html, search-v1.11.html | non regenere ; aucune fiche/index modifie |
+[13:54] RAINDROP_FULL_INGEST | index.md, watch/index.md, resources/RESOURCES.md, km/history.md, search-v1.11.html | 9 items post-checkpoint traites ; 7 fiches creees ; 2 fiches mises a jour ; dashboard v1.11 regenere 101 docs | sources X apps-list/reverse-skill/mineru a verifier
+[14:46] RAINDROP_FULL_INGEST | Raindrop public page, search-v1.11.html | 81 items dedupes ; 0 nouveaute apres 2026-06-27T11:42:29.188Z ; couverture locale 81/81 ; dashboard v1.11 regenere 101 docs | comparaison URL stricte donne de faux manques sur liens X resolus ; dedupe titre/slug OK
+[15:45] RAINDROP_FULL_INGEST | Raindrop public page, search-v1.11.html | 81 items dedupes ; 0 nouveaute apres 2026-06-27T12:42:59.321Z ; couverture locale 81/81 ; dashboard v1.11 regenere 101 docs | URL stricte donne faux manque Free Api Key car comment_id retire dans fiche
+[16:46] RAINDROP_FULL_INGEST | Raindrop public page, /feed, search-v1.11.html | 81 items dedupes ; 0 nouveaute apres 2026-06-27T13:43:59.513Z ; couverture locale 81/81 ; dashboard v1.11 regenere 101 docs | memoire automation locale absente au demarrage ; recreee depuis checkpoint prompt
+[17:45] RAINDROP_FULL_INGEST | Raindrop public page, /feed, search-v1.11.html | 81 items dedupes ; 0 nouveaute apres 2026-06-27T14:44:59.679Z ; couverture locale 81/81 ; dashboard v1.11 regenere 101 docs | aucun A_VERIFIER nouveau
+[18:45] RAINDROP_FULL_INGEST | Raindrop public page, /feed, search-v1.11.html | 81 items dedupes ; 0 nouveaute apres 2026-06-27T15:44:29.785Z ; couverture locale 81/81 ; dashboard v1.11 regenere 101 docs | aucun A_VERIFIER nouveau ; s/comment_id ignores pour comparaison canonique
+[19:47] RAINDROP_FULL_INGEST | Raindrop public page, /feed, search-v1.11.html | 81 items dedupes ; 0 nouveaute apres 2026-06-27T16:44:31.839Z ; couverture locale 81/81 ; dashboard v1.11 regenere 101 docs | aucun A_VERIFIER nouveau
+[20:48] RAINDROP_FULL_INGEST | Raindrop public page, /feed, search-v1.11.html | 81 items dedupes ; 0 nouveaute apres 2026-06-27T17:46:01.988Z ; couverture locale 81/81 ; dashboard v1.11 regenere 101 docs | aucun A_VERIFIER nouveau ; parse resserre sur data.raindrops.items
+[21:48] RAINDROP_FULL_INGEST | Raindrop public page, /feed, search-v1.11.html | 81 items dedupes ; 0 nouveaute apres 2026-06-27T18:46:30.719Z ; couverture locale 81/81 ; dashboard v1.11 regenere 101 docs | aucun A_VERIFIER nouveau ; Free Api Key dedupe via URL canonique sans comment_id
+[22:48] RAINDROP_FULL_INGEST | Raindrop public page, /feed, search-v1.11.html | 81 items dedupes ; 0 nouveaute apres 2026-06-27T19:48:36Z ; couverture locale 81/81 ; dashboard v1.11 regenere 101 docs | aucun A_VERIFIER nouveau ; checkpoint prompt 2026-06-27T19:46:37.666Z plus ancien que memoire locale

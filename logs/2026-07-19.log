@@ -1,0 +1,4 @@
+[07:12] ACTION | Raindrop public-page full ingest | RESULTAT: 103 URLs uniques, 0 nouveaute, couverture locale 103/103, search-v1.11.html regenere avec 121 documents | ERREUR: -
+[07:13] ACTION | km-monitor-raindrop-rss | RESULTAT: checkpoint 2026-07-18T13:49:00.893Z, 103 URLs uniques, 0 nouveaute, couverture locale 103/103, dashboard search-v1.11.html regenere | ERREUR: -
+[12:07] ACTION | km-monitor-raindrop-rss | RESULTAT: page publique 30/30/30/30/13/0/0 bruts, 103 URLs canoniques, 0 nouveaute, couverture locale 103/103, search-v1.11.html regenere avec 121 documents, tmp sanitise | ERREUR: -
+[16:08] ACTION | km-monitor-raindrop-rss | RESULTAT: page publique 30/30/30/13/0/0, 103 URLs canoniques, 0 nouveaute apres 2026-07-19T10:06:07.490Z, couverture locale 103/103, search-v1.11.html regenere avec 121 documents, tmp sanitise | ERREUR: -

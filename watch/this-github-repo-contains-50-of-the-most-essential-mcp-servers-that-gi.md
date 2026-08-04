@@ -1,0 +1,70 @@
+# this github repo contains 50 of the most essential MCP servers that give your AI agents superpowers.
+
+## Type
+
+Veille Raindrop KM Monitor.
+
+## Tags
+
+raindrop-km-monitor, agents, automation, sensible
+
+## Appel canonique
+
+`watch:this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi`
+
+## Sources
+
+- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
+- Source : `https://x.com/explorax_/status/2062584596328243214`
+
+Lecture KM : 2026-06-26
+
+Source Raindrop :
+
+- titre : `this github repo contains 50 of the most essential MCP servers that give your AI agents superpowers.`
+- date : 2026-06-05T06:49:49.340Z
+- domaine : `x.com`
+- auteur/source : `arnaud-velten`
+- tags detectes : aucun tag Raindrop
+
+## Resume court
+
+works with claude code, gemini, codex, cursor, and other MCP-compatible clients MIT licensed 5 categories, 50 MCP servers in total whether you want your agent to browse
+
+## Classification
+
+`sensible`
+
+Raison : outil ou ressource agentique pouvant manipuler code, workflows, comptes ou donnees sensibles.
+
+## Usage KM
+
+Suivre les outils agents, automatisation et workflows IA.
+
+## Risque d'abus possible
+
+Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+
+## A_VERIFIER
+
+- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
+
+## Garde-fous
+
+- Ne pas stocker de secrets, donnees personnelles ou contenu source complet.
+- Ne pas transformer une source sensible en tutoriel operationnel.
+- Valider manuellement avant usage public ou integration produit.
+
+## Relations
+
+- `watch:index`
+- `watch:ai-open-source-tools-watch`
+
+## Changelog
+
+### v0.1 - 2026-06-26
+
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches : `watch/this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+- Rollback possible : supprimer cette fiche et retirer les lignes d'index.

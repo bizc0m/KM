@@ -1,0 +1,89 @@
+{
+  "id": "KMRaindropVeille001",
+  "name": "KM Raindrop Veille",
+  "active": true,
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [-360, -80],
+      "id": "manual-trigger",
+      "name": "Manual test"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 6
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [-360, 100],
+      "id": "schedule-trigger",
+      "name": "Every 6h"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://172.18.0.1/__km-trigger/ingest",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Host",
+              "value": "xn--i-zfa.dev"
+            },
+            {
+              "name": "X-KM-Token",
+              "value": "INJECTED_ON_SERVER"
+            }
+          ]
+        },
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [-80, 0],
+      "id": "trigger-km-ingest",
+      "name": "Trigger KM ingest"
+    }
+  ],
+  "connections": {
+    "Manual test": {
+      "main": [
+        [
+          {
+            "node": "Trigger KM ingest",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Every 6h": {
+      "main": [
+        [
+          {
+            "node": "Trigger KM ingest",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "staticData": null,
+  "tags": []
+}

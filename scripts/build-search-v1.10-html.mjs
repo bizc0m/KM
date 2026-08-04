@@ -7,6 +7,9 @@ const outputFile = join(root, "search-v1.10.html");
 const includeDirs = ["watch"];
 const includeFiles = [];
 const globalIndexFile = join(root, "index.md");
+const privatePublicExcludedPaths = new Set([
+  "watch/tool-project-fit-scan.md"
+]);
 const internalPattern = /\b(bizc0m|charte\s+ia|nightintel|night\s*intel|process:|theme:|km:|###dev|watch:|appel canonique|relations|fichiers touches|rollback|outils internes)\b/i;
 const hiddenSectionPattern = /^##\s+(Appel canonique|Relations|Fit projets|Decision KM|Changelog|Rollback)\b/i;
 
@@ -108,6 +111,7 @@ function statusOf(content) {
 function itemFrom(file) {
   const path = relative(root, file);
   const content = readFileSync(file, "utf8");
+  if (privatePublicExcludedPaths.has(path)) return null;
   if (internalPattern.test(path)) return null;
   const title = first(content, /^#\s+(.+)$/m) || path;
   const status = statusOf(content);

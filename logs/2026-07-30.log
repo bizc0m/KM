@@ -1,0 +1,18 @@
+[00:52] RAINDROP_FULL_INGEST | tmp/raindrop-ingest-check.json | public_page=104/104, pages=30/30/30/14/0/0, newer_after_checkpoint=0, missing_local=0 |
+[00:52] DASHBOARD | search-v1.11.html | regenerated, KM_INDEX=122 docs, classifications=18 #ROUGE / 62 sensible / 37 a verifier / 5 actif |
+[00:52] AUTOMATION_MEMORY | /Users/JOB/.codex/automations/km-monitor-raindrop-rss/memory.md | recreated checkpoint from prompt last_run and current public-page verification |
+[04:53] RAINDROP_FULL_INGEST | tmp/raindrop-ingest-check.json | public_page=104/104, pages=30/30/30/14/0, newer_after_checkpoint=0, missing_local=0 |
+[04:53] DASHBOARD | search-v1.11.html | regenerated, KM_INDEX=122 docs, classifications=18 #ROUGE / 62 sensible / 37 a verifier / 5 actif |
+[04:53] AUTOMATION_MEMORY | /Users/JOB/.codex/automations/km-monitor-raindrop-rss/memory.md | checkpoint refreshed from public-page verification; no git push |
+[08:54] RAINDROP_FULL_INGEST | tmp/raindrop-current.json | public_page=104/104, pages=30/30/30/14/0, feed_secondary=50, new=0, sanitized=tracking_auth_params |
+[08:54] DASHBOARD | search-v1.11.html | regenerated, KM_INDEX=122 docs, classifications=18 #ROUGE / 62 sensible / 37 a verifier / 5 actif |
+[08:54] AUTOMATION_MEMORY | /Users/JOB/.codex/automations/km-monitor-raindrop-rss/memory.md | corrected explicit CODEX_HOME path after unset env; refreshed, no git push |
+[12:55] RAINDROP_FULL_INGEST | tmp/raindrop-current.json | public_page=104/104, pages=30/30/30/14/0/0, feed_secondary=50, newest=2026-07-22T13:24:04.972Z, new=0, missing_local=0 |
+[12:55] DASHBOARD | search-v1.11.html | regenerated, KM_INDEX=122 docs, classifications=18 #ROUGE / 62 sensible / 37 a verifier / 5 actif |
+[12:55] AUTOMATION_MEMORY | /Users/JOB/.codex/automations/km-monitor-raindrop-rss/memory.md | recreated/refreshed checkpoint from public-page verification; no git push |
+[16:55] RAINDROP_FULL_INGEST | /tmp/km-raindrop-run-summary.json | public_page=104/104, pages=30/30/30/14/0/0/0, feed_secondary=50, newest=2026-07-22T13:24:04.972Z, new=0, missing_local=0 |
+[16:55] DASHBOARD | search-v1.11.html | regenerated, KM_INDEX=122 docs, classifications=18 #ROUGE / 62 sensible / 37 a verifier / 5 actif |
+[16:55] AUTOMATION_MEMORY | /Users/JOB/.codex/automations/km-monitor-raindrop-rss/memory.md | refreshed checkpoint from prompt last_run 2026-07-30T10:53:19.901Z; no git push |
+[20:56] RAINDROP_FULL_INGEST | tmp/raindrop-current.json | public_page=104/104, pages=30/30/30/14/0, feed_secondary_lastBuildDate=Wed, 22 Jul 2026 13:24:45 GMT, newest=2026-07-22T13:24:04.972Z, new=0, missing_local=0 |
+[20:56] DASHBOARD | search-v1.11.html | regenerated, KM_INDEX=122 docs, classifications=18 #ROUGE / 62 sensible / 37 a verifier / 5 actif |
+[20:56] AUTOMATION_MEMORY | /Users/JOB/.codex/automations/km-monitor-raindrop-rss/memory.md | recreated from missing state; prompt last_run=2026-07-30T14:54:20.907Z; no git push |

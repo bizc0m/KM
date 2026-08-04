@@ -1,0 +1,12 @@
+[00:09] RAINDROP_FULL_INGEST | tmp/raindrop-current.json | page publique lue en priorite, 103 URLs canoniques uniques, 103/103 couvertes localement | aucun
+[00:09] DASHBOARD | search-v1.11.html | regenere via scripts/build-search-v1.11-html.mjs, 121 documents indexes | aucun
+[00:09] HYGIENE | tmp/raindrop-current.json search-v1.11.html | scan secrets/tokens propre apres sanitisation du snapshot | aucun
+[04:10] RAINDROP_FULL_INGEST | tmp/raindrop-current.json search-v1.11.html | page publique prioritaire relue, 103 URLs uniques, 0 nouveaute, dashboard regenere a 121 documents | aucun
+[08:11] RAINDROP_FULL_INGEST | tmp/raindrop-current.json search-v1.11.html | page publique prioritaire relue, 103 URLs uniques, 0 nouveaute, couverture 103/103, dashboard regenere a 121 documents | aucun
+[08:11] HYGIENE | tmp/raindrop-current.json search-v1.11.html logs | couvertures brutes sanitisees, scan secrets/tokens propre | aucun
+[16:13] RAINDROP_FULL_INGEST | tmp/raindrop-current.json | public page 30/30/30/13/0/0, 103 unique, 103/103 covered | -
+[16:13] DASHBOARD | search-v1.11.html | regenerated with 121 KM_INDEX documents | -
+[16:13] HYGIENE | tmp/raindrop-current.json search-v1.11.html logs | targeted token/private-data scan clean | -
+[20:14] RAINDROP_FULL_INGEST | tmp/raindrop-current.json | public page 30/30/30/13/0/0, 103 unique, 103/103 covered, 0 new | aucun
+[20:14] DASHBOARD | search-v1.11.html | regenerated via scripts/build-search-v1.11-html.mjs, 121 KM_INDEX documents | aucun
+[20:14] HYGIENE | tmp/raindrop-current.json search-v1.11.html logs | targeted token/private-data scan clean; raw /tmp fetch cache removed | aucun

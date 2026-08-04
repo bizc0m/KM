@@ -1,0 +1,16 @@
+[00:16] RAINDROP_FULL_INGEST | tmp/raindrop-current.json | Page publique lue en priorite: pagination 30/30/30/14/0/0, 104 URLs canoniques, nouveautes 0, couverture locale 104/104 | -
+[00:16] DASHBOARD | search-v1.11.html | Regenere avec 122 documents indexes; statuts: 18 #ROUGE, 62 sensible, 37 a verifier, 5 actif | -
+[00:16] HYGIENE | tmp/raindrop-current.json search-v1.11.html logs/ | Scan cible propre; aucun token/secret/Bearer/email prive/media GitHub prive detecte | -
+[04:19] RAINDROP_FULL_INGEST | tmp/raindrop-current.json | Page publique lue en priorite: pagination 30/30/30/14/0/0/0, 104 URLs canoniques, nouveautes 0, couverture locale 104/104 | -
+[04:19] DASHBOARD | search-v1.11.html | Regenere avec 122 documents indexes; statuts: 18 #ROUGE, 62 sensible, 37 a verifier, 5 actif | -
+[04:19] HYGIENE | tmp/raindrop-current.json search-v1.11.html logs/ | Scan cible propre; aucun token/secret/Bearer/email prive/media GitHub prive detecte | -
+[08:21] RAINDROP_FULL_INGEST | tmp/raindrop-current.json | Page publique lue en priorite: pagination 30/30/30/14/0/0/0, 104 URLs canoniques, nouveautes 0, couverture locale 104/104 | -
+[08:21] DASHBOARD | search-v1.11.html | Regenere avec 122 documents indexes; statuts: 18 #ROUGE, 62 sensible, 37 a verifier, 5 actif | -
+[08:21] HYGIENE | tmp/raindrop-current.json search-v1.11.html logs/ | Scan cible propre; aucun token/secret/Bearer/email prive/media GitHub prive detecte | -
+[12:23] RAINDROP_FULL_INGEST | tmp/raindrop-current.json search-v1.11.html | 104/104 couverts, 0 nouveaute, dashboard 122 docs regenere | aucune erreur
+[16:25] RAINDROP_FULL_INGEST | tmp/raindrop-current.json | Page publique lue en priorite: pagination 30/30/30/14/0/0/0, 104 URLs canoniques, nouveautes 0, couverture locale 104/104 | -
+[16:25] DASHBOARD | search-v1.11.html | Regenere avec 122 documents indexes; statuts: 18 #ROUGE, 62 sensible, 37 a verifier, 5 actif | -
+[16:25] HYGIENE | tmp/raindrop-current.json search-v1.11.html logs/2026-07-24.log | Scan cible propre; aucun token/secret/Bearer/email prive/media GitHub prive detecte | -
+[20:27] RAINDROP_FULL_INGEST | tmp/raindrop-current.json tmp/raindrop-ingest-check.json | Page publique lue en priorite: pagination 30/30/30/14/0/0/0, 104 URLs canoniques, nouveautes 0, couverture locale 104/104 | -
+[20:27] DASHBOARD | search-v1.11.html | Regenere avec 122 documents indexes; statuts: 18 #ROUGE, 62 sensible, 37 a verifier, 5 actif | -
+[20:27] HYGIENE | tmp/raindrop-current.json tmp/raindrop-ingest-check.json search-v1.11.html logs/2026-07-24.log | Scan cible propre; aucun secret, Bearer, email prive ou media GitHub prive detecte | -

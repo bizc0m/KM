@@ -1,0 +1,84 @@
+# JARVIS OS
+
+## Type
+
+Veille Raindrop KM Monitor.
+
+## Tags
+
+raindrop-km-monitor, llm, ai-os, github, to-verify
+
+## Appel canonique
+
+`watch:jarvis-os`
+
+## Sources
+
+- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
+- Source : `https://jarvisoslinux.org`
+- Source GitHub : `https://github.com/Grominet95/jarvis-OS`
+
+Lecture KM : 2026-06-26 ; mise a jour source GitHub : 2026-07-12
+
+Source Raindrop :
+
+- titre : `JARVIS OS`
+- date : 2026-06-19T04:40:45.811Z
+- domaine : `jarvisoslinux.org`
+- auteur/source : `arnaud-velten`
+- tags detectes : aucun tag Raindrop
+- titre secondaire : `GitHub - Grominet95/jarvis-OS`
+- date secondaire : 2026-07-12T10:53:23.142Z
+- domaine secondaire : `github.com`
+- auteur/source secondaire : `Grominet95`
+- licence detectee : AGPL-3.0
+
+## Resume court
+
+AI-native operating system built on Arch Linux for LLM security research at WSU Everett, avec depot GitHub public a auditer avant usage.
+
+## Classification
+
+`a verifier`
+
+Raison : claims de gratuite, capacites ou conditions a verifier.
+
+## Usage KM
+
+Suivre les sources OSINT et privacy avec garde-fous.
+
+## Risque d'abus possible
+
+Risque principal : OS/projet LLM a installer localement, surface systeme et dependances a auditer, claims non verifies.
+
+## A_VERIFIER
+
+- Verifier source, date, claims et conditions avant usage operationnel.
+- Auditer le depot GitHub, les scripts d'installation et les dependances avant execution locale.
+
+## Garde-fous
+
+- Ne pas stocker de secrets, donnees personnelles ou contenu source complet.
+- Ne pas transformer une source sensible en tutoriel operationnel.
+- Valider manuellement avant usage public ou integration produit.
+
+## Relations
+
+- `watch:index`
+- `watch:ai-open-source-tools-watch`
+
+## Changelog
+
+### v0.1 - 2026-06-26
+
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches : `watch/jarvis-os.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.
+- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+### v0.2 - 2026-07-12
+
+- Objectif : dedupliquer la nouvelle entree Raindrop `GitHub - Grominet95/jarvis-OS` avec la fiche existante JARVIS OS.
+- Fichiers touches : `watch/jarvis-os.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques : depot OS/LLM a verifier avant execution ; pas de classification #ROUGE faute de fonctionnalite offensive directe identifiee.
+- Rollback possible : retirer la source GitHub secondaire et restaurer les tags v0.1.

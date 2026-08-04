@@ -1,0 +1,12 @@
+[10:27] ACTION | automation km-monitor-raindrop-rss | page publique Raindrop relue, 58 items dedupes, RSS secondaire 50 items | ERREUR none
+[10:27] ACTION | scripts/build-search-v1.10-html.mjs | dashboard search-v1.10.html regenere, 25 documents indexes | ERREUR none
+[10:27] ACTION | fiches KM | aucune nouvelle fiche; top 3 deja couverts par run precedent | ERREUR none
+[12:27] ACTION | automation:km-monitor-raindrop-rss | Raindrop public page parsed first, 58 deduped items, 0 new since 2026-06-24T09:25:50.016Z; dashboard regenerated search-v1.10.html | RSS truncated at 50 items
+[14:28] RAINDROP_MONITOR | page publique + /feed | 58 items visibles, aucune nouveaute apres 2026-06-24T11:27:20.284Z | -
+[14:28] DASHBOARD_BUILD | search-v1.10.html | regenere via scripts/build-search-v1.10-html.mjs, 25 documents | -
+[15:29] ACTION | automation:km-monitor-raindrop-rss | page publique prioritaire + page 1 parsees, 58 items dedupes, 0 nouveau apres 2026-06-24T12:28:10Z | RSS secondaire seulement
+[15:29] ACTION | search-v1.10.html | dashboard regenere via scripts/build-search-v1.10-html.mjs, 25 documents indexes | ERREUR none
+[16:31] ACTION | automation:km-monitor-raindrop-rss | page publique prioritaire pages 0/1/2, 58 items dedupes, 0 nouveau apres 2026-06-24T13:29:53Z; dashboard regenere | RSS secondaire seulement
+[17:31] ACTION | automation:km-monitor-raindrop-rss | page publique prioritaire pages 0/1/2, 58 items dedupes, 0 nouveau apres 2026-06-24T14:30:00.890Z; dashboard regenere search-v1.10.html, 25 documents | RSS secondaire seulement
+[19:35] ACTION | automation:km-monitor-raindrop-rss | page publique prioritaire pages 0/1/2/3, 70 items dedupes, 1 nouveaute Understand Anything; fiche et index mis a jour; dashboard regenere search-v1.10.html, 37 documents | RSS secondaire seulement
+[02:53] ACTION | automation:km-monitor-raindrop-rss | page publique prioritaire pages 0/1/2/3, 70 items dedupes, 0 nouveau apres 2026-06-24T19:37:31.759Z; dashboard non regenere | RSS secondaire seulement

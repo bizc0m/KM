@@ -1,0 +1,195 @@
+{
+  "id": "KMveilleTemplate001",
+  "name": "TEMPLATE - KM Veille Ingest",
+  "active": false,
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [-520, 0],
+      "id": "manual-trigger",
+      "name": "Manual test"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "hours",
+              "hoursInterval": 6
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [-520, 180],
+      "id": "schedule-trigger",
+      "name": "Every 6h"
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.feedUrl || 'https://example.com/feed.xml' }}"
+      },
+      "type": "n8n-nodes-base.rssFeedRead",
+      "typeVersion": 1.1,
+      "position": [-260, 80],
+      "id": "rss-read",
+      "name": "Read RSS source",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $input.all();\nreturn input.map((item) => {\n  const title = item.json.title || item.json.name || 'Source sans titre';\n  const link = item.json.link || item.json.url || '';\n  const date = item.json.isoDate || item.json.pubDate || new Date().toISOString();\n  const text = [title, item.json.contentSnippet, item.json.content, item.json.summary].filter(Boolean).join('\\n').slice(0, 1200);\n  const slug = title.toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 84) || 'veille-item';\n  return {\n    json: {\n      title,\n      link,\n      date,\n      slug,\n      source: item.json.creator || item.json.author || item.json['dc:creator'] || '',\n      tags: ['n8n-veille', 'a-verifier'],\n      status: 'a verifier',\n      summary: text\n    }\n  };\n});"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [0, 80],
+      "id": "normalize-items",
+      "name": "Normalize source items"
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.all().map((item) => {\n  const j = item.json;\n  const day = new Date().toISOString().slice(0, 10);\n  const md = `# ${j.title}\\n\\n## Type\\n\\nVeille n8n / source externe.\\n\\n## Tags\\n\\n${j.tags.join(', ')}\\n\\n## Sources\\n\\n- Source : ${j.link || 'A_VERIFIER'}\\n\\nLecture KM : ${day}\\n\\n## Resume court\\n\\n${j.summary || 'A completer.'}\\n\\n## Classification\\n\\n\\`${j.status}\\`\\n\\nRaison : source importee par template n8n, validation humaine requise.\\n\\n## Usage KM\\n\\n- Surveiller comme signal faible ou ressource a auditer.\\n- Verifier la source primaire avant decision produit.\\n\\n## Risque d'abus possible\\n\\nClaims non verifies, source secondaire, contenu externe a auditer.\\n\\n## Historique\\n\\n### v0.1 - ${day}\\n\\n- Brouillon genere par workflow n8n.\\n`;\n  return { json: { ...j, markdown: md, path: `/opt/km-dashboard/watch/${j.slug}.md` } };\n});"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [260, 80],
+      "id": "build-markdown",
+      "name": "Build KM markdown draft"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://172.18.0.1/__km-ingest/draft",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Host",
+              "value": "xn--i-zfa.dev"
+            },
+            {
+              "name": "X-KM-Token",
+              "value": "A_REMPLACER_PAR_TOKEN_HOST"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { path: $json.path, markdown: $json.markdown, title: $json.title, source: $json.link } }}",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [540, 80],
+      "id": "write-km-draft",
+      "name": "Write KM draft on server",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://n8n.xn--i-zfa.dev/webhook/REMPLACER_PAR_WEBHOOK_KM_DEPLOY",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [820, 80],
+      "id": "trigger-km-rebuild",
+      "name": "Trigger KM rebuild",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "content": "TEMPLATE KM VEILLE\\n\\n1. Configure une vraie source RSS/API.\\n2. Active Read RSS source.\\n3. Ajoute une etape dedupe avant ecriture.\\n4. Remplace les endpoints/token placeholders.\\n5. Active seulement apres test manuel.\\n\\nLe workflow est volontairement inactif.",
+        "height": 260,
+        "width": 420
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [-520, -300],
+      "id": "template-note",
+      "name": "Template notes"
+    }
+  ],
+  "connections": {
+    "Manual test": {
+      "main": [
+        [
+          {
+            "node": "Normalize source items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Every 6h": {
+      "main": [
+        [
+          {
+            "node": "Read RSS source",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read RSS source": {
+      "main": [
+        [
+          {
+            "node": "Normalize source items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Normalize source items": {
+      "main": [
+        [
+          {
+            "node": "Build KM markdown draft",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build KM markdown draft": {
+      "main": [
+        [
+          {
+            "node": "Write KM draft on server",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Write KM draft on server": {
+      "main": [
+        [
+          {
+            "node": "Trigger KM rebuild",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "staticData": null,
+  "tags": []
+}

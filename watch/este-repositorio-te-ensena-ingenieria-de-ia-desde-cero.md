@@ -1,0 +1,70 @@
+# ESTE REPOSITORIO TE ENSEÑA INGENIERÍA DE IA DESDE CERO
+
+## Type
+
+Veille Raindrop KM Monitor.
+
+## Tags
+
+raindrop-km-monitor, agents, automation, sensible
+
+## Appel canonique
+
+`watch:este-repositorio-te-ensena-ingenieria-de-ia-desde-cero`
+
+## Sources
+
+- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
+- Source : `https://x.com/marcusyul/status/2063615048065351843`
+
+Lecture KM : 2026-06-26
+
+Source Raindrop :
+
+- titre : `ESTE REPOSITORIO TE ENSEÑA INGENIERÍA DE IA DESDE CERO`
+- date : 2026-06-08T16:19:54.427Z
+- domaine : `x.com`
+- auteur/source : `arnaud-velten`
+- tags detectes : aucun tag Raindrop
+
+## Resume court
+
+Y es completamente gratis. → 435 lecciones → 320 horas de contenido → Python, TypeScript, Rust → agentes, LLMs y MCP → ejercicios prácticos en cada lección todo en GitHub. todo open source. repo ⬇️ https://t.co/8WytJBXaWU
+
+## Classification
+
+`sensible`
+
+Raison : outil ou ressource agentique pouvant manipuler code, workflows, comptes ou donnees sensibles.
+
+## Usage KM
+
+Suivre les outils agents, automatisation et workflows IA.
+
+## Risque d'abus possible
+
+Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+
+## A_VERIFIER
+
+- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
+
+## Garde-fous
+
+- Ne pas stocker de secrets, donnees personnelles ou contenu source complet.
+- Ne pas transformer une source sensible en tutoriel operationnel.
+- Valider manuellement avant usage public ou integration produit.
+
+## Relations
+
+- `watch:index`
+- `watch:ai-open-source-tools-watch`
+
+## Changelog
+
+### v0.1 - 2026-06-26
+
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches : `watch/este-repositorio-te-ensena-ingenieria-de-ia-desde-cero.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+- Rollback possible : supprimer cette fiche et retirer les lignes d'index.

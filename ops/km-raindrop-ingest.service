@@ -1,0 +1,10 @@
+[Unit]
+Description=KM Raindrop RSS ingest and dashboard deploy
+After=network-online.target docker.service nginx.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/km-dashboard
+Environment=KM_ROOT=/opt/km-dashboard
+ExecStart=/opt/km-dashboard/scripts/km-raindrop-ingest-and-deploy.sh

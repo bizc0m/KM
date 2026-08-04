@@ -47,7 +47,7 @@ Lot de veille sur des outils IA et open source utiles pour remplacer des SaaS, c
 
 - 10 liens fournis.
 - 9 liens uniques.
-- Doublon retire : `https://x.com/sweexx9/status/2057560520916414628?s=20`.
+- Doublon retire : `https://x.com/sweexx9/status/2057560520916414628`.
 
 ## Arbitrage
 

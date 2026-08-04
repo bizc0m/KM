@@ -1,0 +1,23 @@
+[11:00] ACTION | KM_DEPLOY | build search-v1.11.html
+[11:00] ACTION | KM_DEPLOY | verify local autonomous HTML
+[11:00] ACTION | KM_DEPLOY | backup remote indexes on serverAll
+[11:00] ACTION | KM_DEPLOY | upload autonomous HTML
+[11:00] ACTION | KM_DEPLOY | permissions and nginx config test
+[11:00] ACTION | KM_DEPLOY | verify remote file content
+[11:00] ACTION | KM_DEPLOY | verify public URL https://xn--i-zfa.dev/dashboards/km/
+[11:00] RESULTAT | KM_DEPLOY | OK | https://xn--i-zfa.dev/dashboards/km/
+[13:30] ACTION | KM_RAINDROP_FULL_INGEST | page publique Raindrop 30/30/30/10/0/0, 100 items bruts
+[13:30] ACTION | KM_RAINDROP_FULL_INGEST | 5 nouveautes apres checkpoint 2026-07-11T07:24:34.890Z
+[13:30] RESULTAT | KM_RAINDROP_FULL_INGEST | fiches creees agency-agents, scrapling, tencentdb-agent-memory, alook, pentagi
+[13:30] RESULTAT | KM_RAINDROP_FULL_INGEST | couverture 100/100, dashboard search-v1.11.html regenere 119 docs
+[13:30] ACTION | KM_RAINDROP_FULL_INGEST | hygiene tmp/search token scan
+[13:30] RESULTAT | KM_RAINDROP_FULL_INGEST | CLEAN, pas de push
+[14:42] RESULTAT | KM_RAINDROP_INGEST | OK | feed_items=50 new=7
+[14:43] RESULTAT | KM_RAINDROP_INGEST | OK | feed_items=50 new=0
+[17:28] ACTION | KM_RAINDROP_FULL_INGEST | page publique Raindrop 30/30/30/10/0/0, 100 items bruts, 99 URLs canoniques
+[17:28] RESULTAT | KM_RAINDROP_FULL_INGEST | nouveautes=0, couverture 99/99, dashboard search-v1.11.html regenere 119 docs
+[17:28] ACTION | KM_RAINDROP_FULL_INGEST | cache tmp supprime apres detection mcp_token source publique/RSS
+[17:28] RESULTAT | KM_RAINDROP_FULL_INGEST | repo/dashboard CLEAN, pas de push
+[21:29] ACTION | KM_RAINDROP_FULL_INGEST | page publique Raindrop 30/30/30/10/0/0, 100 items bruts
+[21:29] RESULTAT | KM_RAINDROP_FULL_INGEST | nouveautes=0 depuis 2026-07-11T15:26:42.136Z, couverture 100/100
+[21:29] RESULTAT | KM_RAINDROP_FULL_INGEST | dashboard search-v1.11.html regenere 119 docs, pas de push

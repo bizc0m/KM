@@ -1,0 +1,21 @@
+[07:55] RAINDROP_FETCH | https://arno-vltn.raindrop.page/km-monitor-71629567 | 94 items bruts, top item Notion 2026-07-09T05:11:41.035Z |
+[07:55] KM_CREATE | watch/notion-les-7-docs-avant-de-coder-avec-ia.md | fiche creee, classification actif avec points a verifier |
+[07:55] INDEX_UPDATE | index.md; watch/index.md; km/history.md | entrees ajoutees sans doublon detecte |
+[07:55] DASHBOARD_BUILD | search-v1.11.html | node scripts/build-search-v1.11-html.mjs, 114 documents indexes |
+[11:54] RAINDROP_FETCH | https://arno-vltn.raindrop.page/km-monitor-71629567 | 94 items bruts, 94 URLs uniques, 0 nouveaute apres checkpoint |
+[11:54] KM_COVERAGE | watch/; resources/; km/ | couverture locale 94/94, fiche manquante 0 |
+[11:54] DASHBOARD_BUILD | search-v1.11.html | node scripts/build-search-v1.11-html.mjs, 114 documents indexes |
+[11:54] RSS_SECONDARY | /km-monitor-71629567/feed | 50 items, lastBuildDate Thu 09 Jul 2026 05:13:18 GMT |
+[15:57] RAINDROP_FETCH | https://arno-vltn.raindrop.page/km-monitor-71629567 | 30/30/30/4/0/0, 94 items bruts, 90 URLs canoniques uniques, 0 nouveaute |
+[15:57] KM_COVERAGE | watch/; resources/; km/ | couverture locale 90/90 URLs canoniques; doublons GitHub Raindrop ignores |
+[15:57] DASHBOARD_BUILD | search-v1.11.html | node scripts/build-search-v1.11-html.mjs, 114 documents indexes |
+[15:57] RSS_SECONDARY | /km-monitor-71629567/feed | 50 items, lastBuildDate Thu 09 Jul 2026 05:13:18 GMT |
+[19:59] RAINDROP_FETCH | https://arno-vltn.raindrop.page/km-monitor-71629567 | 30/30/30/4/0/0, 94 items bruts, 94 URLs canoniques uniques, 0 nouveaute |
+[19:59] KM_COVERAGE | watch/; resources/; km/ | couverture locale 94/94; top item Notion deja couvert |
+[19:59] DASHBOARD_BUILD | search-v1.11.html | node scripts/build-search-v1.11-html.mjs, 114 documents indexes |
+[19:59] RSS_SECONDARY | /km-monitor-71629567/feed | 50 items, lastBuildDate Thu 09 Jul 2026 05:13:18 GMT |
+[19:59] SANITIZE_TMP | tmp/raindrop* | parametres sensibles/tracking retires des caches locaux |
+[23:58] RAINDROP_FETCH | https://arno-vltn.raindrop.page/km-monitor-71629567 | 30/30/30/4/0/0, 94 items bruts, 90 URLs canoniques uniques, 0 nouveaute apres checkpoint |
+[23:58] KM_COVERAGE | watch/; resources/; km/ | couverture locale 90/90 URLs canoniques; top item Notion deja couvert |
+[23:58] DASHBOARD_BUILD | search-v1.11.html | node scripts/build-search-v1.11-html.mjs, 114 documents indexes |
+[23:58] RSS_SECONDARY | /km-monitor-71629567/feed | 50 items, lastBuildDate Thu 09 Jul 2026 05:13:18 GMT, top item Notion |

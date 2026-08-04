@@ -1,0 +1,17 @@
+[Unit]
+Description=KM dashboard deploy trigger API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+Environment=KM_TRIGGER_HOST=172.18.0.1
+Environment=KM_TRIGGER_PORT=8791
+Environment=KM_TRIGGER_TOKEN_FILE=/opt/km-dashboard/.km-trigger-token
+Environment=KM_DEPLOY_SERVICE=km-dashboard-deploy.service
+ExecStart=/usr/bin/python3 /opt/km-dashboard/scripts/km-dashboard-trigger-server.py
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

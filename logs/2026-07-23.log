@@ -1,0 +1,21 @@
+[00:10] RAINDROP_FULL_INGEST | tmp/raindrop-current.json | page publique lue en priorite; pagination 30/30/30/14/0; 104 URLs uniques |
+[00:10] RAINDROP_COMPARE | watch/ resources/ km/ index.md | nouveautes 0; couverture locale 104/104; plus recent Auto Company deja couvert |
+[00:10] DASHBOARD_BUILD | search-v1.11.html | regenere avec 122 documents indexes; statuts 18 #ROUGE, 62 sensible, 37 a verifier, 5 actif |
+[00:10] HYGIENE | tmp/raindrop-current.json search-v1.11.html logs/ | aucun motif secret/token/email prive/media tokenise detecte; HTML/RSS temporaires supprimes |
+[04:11] RAINDROP_FULL_INGEST | tmp/raindrop-current.json | page publique lue en priorite; pagination 30/30/30/14/0/0/0; 104 lignes, 103 entrees uniques apres doublon exact free-llm-api-resources |
+[04:11] RAINDROP_COMPARE | watch/ resources/ km/ index.md | nouveautes 0; couverture locale 103/103; plus recent Auto Company deja couvert |
+[04:11] DASHBOARD_BUILD | search-v1.11.html | regenere avec 122 documents indexes; statuts 18 #ROUGE, 62 sensible, 37 a verifier, 5 actif |
+[04:11] HYGIENE | tmp/raindrop-current.json search-v1.11.html logs/ | aucun motif secret/token/email prive/media tokenise detecte; HTML/RSS temporaires supprimes |
+[08:13] RAINDROP_FULL_INGEST | tmp/raindrop-current.json search-v1.11.html | public page 104/104 covered; 0 new; dashboard 122 docs | none
+[12:13] RAINDROP_FULL_INGEST | tmp/raindrop-current.json | page publique lue en priorite; pagination 30/30/30/14/0/0/0; 104 URLs uniques |
+[12:13] RAINDROP_COMPARE | watch/ resources/ km/ index.md | nouveautes 0; couverture locale 104/104; plus recent Auto Company deja couvert |
+[12:13] DASHBOARD_BUILD | search-v1.11.html | regenere avec 122 documents indexes; statuts 18 #ROUGE, 62 sensible, 37 a verifier, 5 actif |
+[12:13] HYGIENE | tmp/raindrop-current.json search-v1.11.html logs/ | aucun motif secret/token/email prive/media tokenise detecte |
+[16:14] RAINDROP_FULL_INGEST | tmp/raindrop-current.json | page publique lue en priorite; pagination 30/30/30/14/0/0/0; 104 URLs canoniques uniques |
+[16:14] RAINDROP_COMPARE | watch/ resources/ km/ index.md | nouveautes 0; couverture locale 104/104; plus recent Auto Company deja couvert |
+[16:14] DASHBOARD_BUILD | search-v1.11.html | regenere avec 122 documents indexes; statuts 18 #ROUGE, 62 sensible, 37 a verifier, 5 actif |
+[16:14] HYGIENE | tmp/raindrop-current.json search-v1.11.html logs/ | aucun motif secret/token/email prive/media tokenise detecte |
+[20:16] RAINDROP_FULL_INGEST | tmp/raindrop-current.json | page publique lue en priorite; pagination 30/30/30/14/0/0/0; 104 URLs canoniques uniques |
+[20:16] RAINDROP_COMPARE | watch/ resources/ km/ index.md | nouveautes 0; couverture locale 104/104; plus recent Auto Company deja couvert |
+[20:16] DASHBOARD_BUILD | search-v1.11.html | regenere avec 122 documents indexes; statuts 18 #ROUGE, 62 sensible, 37 a verifier, 5 actif |
+[20:16] HYGIENE | tmp/raindrop-current.json search-v1.11.html logs/ | aucun motif secret/token/email prive/media tokenise detecte |

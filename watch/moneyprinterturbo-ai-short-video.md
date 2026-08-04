@@ -15,6 +15,7 @@ ai-video, shortvideo, tiktok, automation, llm, moviepy, python, content-generati
 ## Sources
 
 - Repo : `https://github.com/harry0703/MoneyPrinterTurbo`
+- Source X secondaire : `https://x.com/xamto_ai/status/2070335993421722010`
 
 Lecture : 2026-05-25
 
@@ -31,6 +32,14 @@ Verification GitHub API :
 - creation lue : 2024-03-11
 - dernier push lu : 2026-05-25
 - topics lus : ai, automation, chatgpt, moviepy, python, shortvideo, tiktok
+
+Signal Raindrop secondaire :
+
+- titre : post X en chinois sur un outil automatisant la production de videos courtes
+- date : 2026-06-27T11:18:32.213Z
+- domaine : `x.com`
+- auteur/source : `xamto_ai`
+- resolution : `https://t.co/5RCmytlCvM` -> `https://github.com/harry0703/MoneyPrinterTurbo/`
 
 ## Resume court
 
@@ -90,3 +99,10 @@ Garder en veille `sensible`, pas `#ROUGE` par defaut. Basculer en `#ROUGE` uniqu
 - Fichiers touches : `watch/moneyprinterturbo-ai-short-video.md`, `watch/index.md`, `index.md`, `km/history.md`, `scripts/build-search-v1.10-html.mjs`, `search-v1.10.html`.
 - Risques : spam video, impersonation, copyright, desinformation et automation abusive.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+### v0.2 - 2026-06-27
+
+- Objectif : ajouter le signal X secondaire detecte dans Raindrop, deduplique vers le repo existant.
+- Fichiers touches : `watch/moneyprinterturbo-ai-short-video.md`, `km/history.md`.
+- Risques : promotion d'automatisation de shorts ; classement reste `sensible`.
+- Rollback possible : retirer la source secondaire et ce changelog.

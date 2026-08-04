@@ -1,0 +1,20 @@
+[00:26] RAINDROP_FULL_INGEST | tmp/raindrop-current.json tmp/raindrop-ingest-check.json | Page publique lue en priorite: pagination 30/30/30/14/0/0, 104 URLs canoniques, nouveautes 0, couverture locale 104/104 | -
+[00:26] DASHBOARD | search-v1.11.html | Regenere avec 122 documents indexes; statuts: 18 #ROUGE, 62 sensible, 37 a verifier, 5 actif | -
+[00:26] HYGIENE | tmp/raindrop-current.json tmp/raindrop-ingest-check.json search-v1.11.html logs/ | Scan cible propre; aucun secret, Bearer, email prive ou media GitHub prive detecte | -
+[04:31] RAINDROP_FULL_INGEST | tmp/raindrop-current.json tmp/raindrop-ingest-check.json | Page publique lue en priorite: 104 items uniques / collection 104, nouveautes 0, couverture locale 104/104 | -
+[04:31] DASHBOARD | search-v1.11.html | Regenere avec 122 documents indexes; statuts: 18 #ROUGE, 62 sensible, 37 a verifier, 5 actif | -
+[04:31] HYGIENE | tmp/raindrop-current.json tmp/raindrop-ingest-check.json search-v1.11.html logs/2026-07-25.log | Scan cible propre; feed secondaire HTTP 504, page publique complete conservee comme source d'autorite | -
+[08:27] RAINDROP_FULL_INGEST | tmp/raindrop-current.json | page publique 30/30/30/14/0/0/0, 104 URLs canoniques |
+[08:27] COVERAGE | tmp/raindrop-ingest-check.json | couverture locale 104/104, nouveautes 0 |
+[08:27] DASHBOARD | search-v1.11.html | regenere: 122 documents KM_INDEX |
+[08:27] HYGIENE | tmp/search/logs | scan final prevu, aucun nouveau secret stocke |
+[08:28] HYGIENE_FINAL | tmp/raindrop-current.json tmp/raindrop-ingest-check.json search-v1.11.html logs/2026-07-25.log | scan cible propre apres ecriture log/memoire | -
+[12:26] RAINDROP_FULL_INGEST | tmp/raindrop-current.json tmp/raindrop-ingest-check.json | Page publique lue en priorite: pagination 30/30/30/14/0, 104 URLs canoniques, nouveautes 0, couverture locale 104/104 | -
+[12:26] DASHBOARD | search-v1.11.html | Regenere avec 122 documents indexes; statuts: 18 #ROUGE, 62 sensible, 37 a verifier, 5 actif | -
+[12:26] HYGIENE | tmp/raindrop-current.json tmp/raindrop-ingest-check.json search-v1.11.html logs/2026-07-25.log | Scan cible propre; RSS secondaire 50 items, lastBuildDate Wed, 22 Jul 2026 13:24:45 GMT | -
+[16:27] RAINDROP_FULL_INGEST | tmp/raindrop-current.json tmp/raindrop-ingest-check.json | Page publique lue en priorite: pagination 30/30/30/14/0/0/0, 104 URLs canoniques, nouveautes 0, couverture locale 104/104 | -
+[16:27] DASHBOARD | search-v1.11.html | Regenere avec 122 documents indexes; statuts: 18 #ROUGE, 62 sensible, 37 a verifier, 5 actif | -
+[16:27] HYGIENE | tmp/raindrop-current.json tmp/raindrop-ingest-check.json search-v1.11.html logs/2026-07-25.log | Scan cible propre; RSS secondaire 50 items, lastBuildDate Wed, 22 Jul 2026 13:24:45 GMT | -
+[20:27] RAINDROP_FULL_INGEST | tmp/raindrop-current.json tmp/raindrop-ingest-check.json | Page publique lue en priorite: pagination 30/30/30/14/0, 104 URLs canoniques, nouveautes 0, couverture locale 104/104 | -
+[20:27] DASHBOARD | search-v1.11.html | Regenere avec 122 documents indexes; statuts: 18 #ROUGE, 62 sensible, 37 a verifier, 5 actif | -
+[20:27] HYGIENE | tmp/raindrop-current.json tmp/raindrop-ingest-check.json search-v1.11.html logs/2026-07-25.log | Scan cible propre; RSS secondaire 50 items, lastBuildDate Wed, 22 Jul 2026 13:24:45 GMT | -

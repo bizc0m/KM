@@ -1,0 +1,12 @@
+[00:41] RAINDROP_INGEST | tmp/raindrop-current.json,tmp/raindrop-ingest-check.json,search-v1.11.html | public page 104/104, nouveautes 0, dashboard 122 docs regenere | aucune erreur
+[04:42] EXTRACTION | tmp/raindrop-current.json | public page 104 items, pagination 30/30/30/14/0/0/0 | -
+[04:42] COUVERTURE | tmp/raindrop-ingest-check.json | 104/104 couverts, 0 nouveaute | -
+[04:42] DASHBOARD | search-v1.11.html | regenere, KM_INDEX 122 documents | -
+[04:42] RSS | tmp/raindrop-feed-secondary.json | signal secondaire verifie | -
+[04:43] HYGIENE | tmp/search/log | scan cible propre apres suppression cache HTML/RSS | -
+[06:43] RAINDROP_PUBLIC | tmp/raindrop-current.json | 104 urls, couverture 104/104, nouvelles 0 | rss 200
+[08:44] RAINDROP_PUBLIC | tmp/raindrop-current.json | 104 urls, couverture 104/104, nouvelles 0 | run local CEST; rss 200
+[12:45] RAINDROP_PUBLIC | tmp/raindrop-current.json | 104 urls, couverture 104/104, nouvelles 0 | rss 200; dashboard 122 docs
+[12:46] HYGIENE | tmp/search/log | scan cible propre apres ecriture log/memoire | anciennes mentions seulement dans memoire historique
+[16:47] RAINDROP_PUBLIC | tmp/raindrop-current.json,tmp/raindrop-ingest-check.json,search-v1.11.html | 104 urls, couverture 104/104, nouvelles 0, dashboard 122 docs regenere | rss 200; hygiene cible propre; pas de push
+[20:46] RAINDROP_PUBLIC | tmp/raindrop-current.json,search-v1.11.html | page publique paginee 104/104, nouveautes 0, dashboard 122 docs regenere | rss secondaire 50 items; pas de push
