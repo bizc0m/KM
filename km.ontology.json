@@ -1,0 +1,162 @@
+{
+  "version": "0.1",
+  "roots": ["domain", "capability", "risk", "source", "lifecycle"],
+  "concepts": [
+    {
+      "id": "domain",
+      "label": "Domaines",
+      "parent": null,
+      "description": "Grand domaine de connaissance."
+    },
+    {
+      "id": "domain.ai",
+      "label": "IA",
+      "parent": "domain",
+      "aliases": ["#ai", "#ia", "#llm", "#openai-compatible"],
+      "description": "Modeles, assistants, agents, inference et tooling IA."
+    },
+    {
+      "id": "domain.ai.agents",
+      "label": "Agents IA",
+      "parent": "domain.ai",
+      "aliases": ["#agent", "#agents", "#personal-agent", "#autonomous-agent", "#coding-agents", "#research-agent", "#ai-companion"],
+      "description": "Agents autonomes, compagnons IA, orchestration et boucles d'action."
+    },
+    {
+      "id": "domain.ai.llm",
+      "label": "LLM / Providers",
+      "parent": "domain.ai",
+      "aliases": ["#llm", "#api", "#providers", "#inference", "#free-tier", "#openai-compatible"],
+      "description": "Modeles, APIs, providers, routage et couts."
+    },
+    {
+      "id": "domain.dev",
+      "label": "Developpement",
+      "parent": "domain",
+      "aliases": ["#github", "#coding", "#devtools", "#repo", "#editor", "#codex", "#claude-code", "#opencode"],
+      "description": "Outils de code, IDE, depots, automatisation dev."
+    },
+    {
+      "id": "domain.osint",
+      "label": "OSINT",
+      "parent": "domain",
+      "aliases": ["#osint", "#digital-footprint", "#threat-intelligence", "#recon", "#factchecking", "#cartographie"],
+      "description": "Recherche ouverte, empreinte numerique, threat intelligence et verification."
+    },
+    {
+      "id": "domain.media",
+      "label": "Media / Design",
+      "parent": "domain",
+      "aliases": ["#media", "#video", "#ai-video", "#image", "#design", "#ui-design", "#wireframe", "#prototype", "#creative-ai"],
+      "description": "Creation visuelle, video, design, interfaces et assets."
+    },
+    {
+      "id": "domain.privacy",
+      "label": "Privacy",
+      "parent": "domain",
+      "aliases": ["#privacy", "#local-first", "#tracking", "#analytics", "#session-intelligence"],
+      "description": "Vie privee, tracking, local-first et exposition de donnees."
+    },
+    {
+      "id": "capability",
+      "label": "Capacites",
+      "parent": null,
+      "description": "Ce que permet l'outil ou la ressource."
+    },
+    {
+      "id": "capability.automation",
+      "label": "Automation",
+      "parent": "capability",
+      "aliases": ["#automation", "#workflow", "#workflows", "#orchestration", "#multi-agent", "#integrations", "#ui-automation"],
+      "description": "Automatiser des actions, workflows ou integrations."
+    },
+    {
+      "id": "capability.scraping",
+      "label": "Extraction web",
+      "parent": "capability",
+      "aliases": ["#scraping", "#web-extraction", "#crawler", "#search", "#ai-search"],
+      "description": "Scraping, crawling, recherche et extraction de donnees."
+    },
+    {
+      "id": "capability.documents",
+      "label": "Documents",
+      "parent": "capability",
+      "aliases": ["#pdf", "#document-ai", "#extraction", "#documentation", "#papers", "#citations"],
+      "description": "Extraction, analyse ou generation documentaire."
+    },
+    {
+      "id": "capability.memory",
+      "label": "Memoire / Contexte",
+      "parent": "capability",
+      "aliases": ["#memory", "#context-engineering", "#knowledge-graph", "#vector"],
+      "description": "Memoire agentique, graphe, contexte long et indexation semantique."
+    },
+    {
+      "id": "risk",
+      "label": "Risques",
+      "parent": null,
+      "description": "Niveau ou famille de risque."
+    },
+    {
+      "id": "risk.sensitive",
+      "label": "Sensible",
+      "parent": "risk",
+      "aliases": ["#sensible", "#sensitive", "#privacy-sensitive"],
+      "description": "Puissant ou delicat, mais pas forcement offensif directement."
+    },
+    {
+      "id": "risk.verify",
+      "label": "A verifier",
+      "parent": "risk",
+      "aliases": ["#a-verifier", "#to-verify"],
+      "description": "Source, interet ou classification encore incertaine."
+    },
+    {
+      "id": "risk.offensive",
+      "label": "Offensif / #ROUGE",
+      "parent": "risk",
+      "aliases": ["#rouge", "#ROUGE", "#offensive-risk", "#pentest", "#red-team", "#offensive-security", "#malware", "#reverse-engineering"],
+      "description": "Outils ou contenus directement abusables, a traiter en veille defensive."
+    },
+    {
+      "id": "source",
+      "label": "Sources",
+      "parent": null,
+      "description": "Origine ou forme de collecte."
+    },
+    {
+      "id": "source.github",
+      "label": "GitHub",
+      "parent": "source",
+      "aliases": ["#github", "#repo", "#open-source", "#self-hosted"],
+      "description": "Depot ou ressource issue de GitHub/open-source."
+    },
+    {
+      "id": "source.raindrop",
+      "label": "Raindrop",
+      "parent": "source",
+      "aliases": ["#raindrop", "#watch"],
+      "description": "Signal importe ou qualifie depuis Raindrop."
+    },
+    {
+      "id": "lifecycle",
+      "label": "Cycle de vie",
+      "parent": null,
+      "description": "Etat de qualification et d'exploitation."
+    },
+    {
+      "id": "lifecycle.active",
+      "label": "Actif",
+      "parent": "lifecycle",
+      "aliases": ["#actif"],
+      "description": "Fiche exploitable."
+    },
+    {
+      "id": "lifecycle.inbox",
+      "label": "Inbox / veille",
+      "parent": "lifecycle",
+      "aliases": ["#watch", "#directory", "#inspiration", "#ai-tools", "#tools"],
+      "description": "Signal a trier, liste ou repertoire de veille."
+    }
+  ]
+}

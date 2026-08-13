@@ -1,0 +1,146 @@
+{
+  "project": {
+    "name": "KM Search",
+    "version": "1.12",
+    "description": "Recherche, veille, fiches Markdown et vues partageables par theme."
+  },
+  "sources": {
+    "raindropPublicPage": "https://arno-vltn.raindrop.page/km-monitor-71629567",
+    "raindropFeedFallback": "https://arno-vltn.raindrop.page/km-monitor-71629567/feed",
+    "useFeedFallback": true
+  },
+  "dashboard": {
+    "mainOutput": "search-v1.12.html",
+    "stableOutput": "search-v1.11.html",
+    "shareOutputDir": "public",
+    "defaultSort": "date",
+    "defaultFolder": "all",
+    "defaultTheme": "all",
+    "stats": ["total", "watch", "resources", "red", "sensitive", "verify"],
+    "exports": {
+      "markdown": true,
+      "json": true,
+      "copy": true,
+      "shareLink": true
+    },
+    "hiddenSections": [
+      "Appel canonique",
+      "Relations",
+      "Fit projets",
+      "Decision KM",
+      "Changelog",
+      "Rollback"
+    ],
+    "hiddenTextPatterns": [
+      "bizc0m",
+      "charte\\s+ia",
+      "nightintel",
+      "night\\s*intel",
+      "process:",
+      "theme:",
+      "km:",
+      "###dev",
+      "arnaud[-_ ]?velten",
+      "watch:",
+      "appel canonique",
+      "relations",
+      "fichiers touches",
+      "rollback",
+      "outils internes"
+    ]
+  },
+  "folders": [
+    {
+      "id": "watch",
+      "path": "watch",
+      "label": "Watch",
+      "role": "veille courte, signaux, outils a surveiller",
+      "publishable": true,
+      "shareable": true,
+      "defaultClassification": "sensible"
+    },
+    {
+      "id": "resources",
+      "path": "resources",
+      "label": "Resources",
+      "role": "ressources longues, corpus, references durables",
+      "publishable": true,
+      "shareable": true,
+      "defaultClassification": "actif"
+    },
+    {
+      "id": "km",
+      "path": "km",
+      "label": "KM",
+      "role": "notes internes et structure du systeme",
+      "publishable": false,
+      "shareable": false,
+      "defaultClassification": "sensible"
+    },
+    {
+      "id": "process",
+      "path": "process",
+      "label": "Process",
+      "role": "procedures et gouvernance",
+      "publishable": false,
+      "shareable": false,
+      "defaultClassification": "sensible"
+    },
+    {
+      "id": "themes",
+      "path": "themes",
+      "label": "Themes",
+      "role": "cartographie thematique interne",
+      "publishable": false,
+      "shareable": false,
+      "defaultClassification": "sensible"
+    }
+  ],
+  "themes": [
+    { "id": "agent", "label": "Agents IA", "keywords": ["agent", "agents", "ia", "ai", "automation", "workflow", "mcp"] },
+    { "id": "llm", "label": "LLM / API", "keywords": ["llm", "api", "openai", "provider", "inference", "model"] },
+    { "id": "dev", "label": "Dev tools", "keywords": ["github", "code", "devtools", "editor", "coding", "repo"] },
+    { "id": "osint", "label": "OSINT", "keywords": ["osint", "threat", "recon", "footprint", "intelligence"] },
+    { "id": "security", "label": "Security", "keywords": ["rouge", "pentest", "red team", "offensive", "vulnerability", "exploit", "malware"] },
+    { "id": "source", "label": "Sources", "keywords": ["rss", "source", "authors", "monitoring", "twitter", "x", "openrss"] },
+    { "id": "research", "label": "Research", "keywords": ["research", "paper", "citation", "scientific", "wiki"] },
+    { "id": "privacy", "label": "Privacy", "keywords": ["privacy", "local first", "session", "analytics", "tracking"] },
+    { "id": "media", "label": "Media", "keywords": ["design", "video", "image", "media", "voice", "remotion"] },
+    { "id": "watchlist", "label": "Watchlist", "keywords": ["directory", "watch", "inspiration", "competitor", "vibe"] },
+    { "id": "finance", "label": "Finance", "keywords": ["finance", "trading", "hedge", "terminal"] },
+    { "id": "tool", "label": "Tools", "keywords": ["tool", "outil", "saas", "app"] }
+  ],
+  "classification": {
+    "red": {
+      "status": "#ROUGE",
+      "meaning": "outil offensif ou directement abusable",
+      "keywords": ["pentest", "red.?team", "offensive", "malware", "exploit", "anti-detection", "doxx", "stalking", "dark.?web", "leak"]
+    },
+    "sensitive": {
+      "status": "sensible",
+      "meaning": "outil puissant, automation, scraping, donnees ou usage a cadrer",
+      "keywords": ["scrap", "crawler", "automation", "agent", "workflow", "memory", "api", "browser", "email", "vector", "search", "privacy"]
+    },
+    "verify": {
+      "status": "a verifier",
+      "meaning": "signal incomplet ou source a qualifier",
+      "keywords": ["verifier", "verify", "unknown", "candidate", "a verifier", "à vérifier"]
+    },
+    "active": {
+      "status": "actif",
+      "meaning": "fiche publiable sans risque particulier detecte"
+    }
+  },
+  "hygiene": {
+    "excludedTags": ["raindrop-km-monitor"],
+    "forbiddenContent": [
+      "secrets",
+      "tokens",
+      "emails prives",
+      "chemins personnels exposables",
+      "donnees personnelles inutiles",
+      "contenu copyright complet",
+      "photos brutes"
+    ]
+  }
+}
