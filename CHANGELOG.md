@@ -1,5 +1,26 @@
 # Changelog
 
+## v0.5 - 2026-08-13
+
+Objectif : rendre l'acces GitHub visible directement dans la colonne corpus.
+
+Fichiers touches :
+- `scripts/build-search-v1.12-html.mjs`
+- `search-v1.12.html`
+- `public/`
+
+Changements :
+- bouton `GitHub` ajoute sur chaque ligne titre de fiche ;
+- lien `GitHub` pointe vers la fiche Markdown correspondante dans le repo ;
+- lien `GitHub source` conserve le repo externe quand une source GitHub est detectee ;
+- lien `Source` conserve l'URL finale non GitHub.
+
+Risques :
+- GitHub Pages publique renvoie encore 404 tant que Pages n'est pas activee/configuree pour ce repo.
+
+Rollback possible :
+- revenir au commit precedent `80c987d`.
+
 ## v0.4 - 2026-08-13
 
 Objectif : pousser le nettoyage complet des fiches KM et stabiliser le routage des themes.
