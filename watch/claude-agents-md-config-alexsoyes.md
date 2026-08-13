@@ -6,16 +6,14 @@ Veille workflow agents / configuration AGENTS.md.
 
 ## Tags
 
-raindrop-km-monitor, claude, agents-md, prompt-ops, agent-instructions, sensible
+#claude, #agents-md, #prompt-ops, #agent-instructions, #sensible
 
 ## Appel canonique
 
 `watch:claude-agents-md-config-alexsoyes`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
-- Source X : `https://x.com/alexsoyes/status/2070522733608292544`
+- Source sociale : `https://x.com/alexsoyes/status/2070522733608292544`
 
 Lecture KM : 2026-06-27
 
@@ -29,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-Post X annoncant un fichier `AGENTS.md` condense a partir de configurations Claude, avec objectifs de reponses courtes, economie de tokens et execution plus stricte.
+Claude AGENTS.md Config - alexsoyes is a KM watch item classified as Veille workflow agents / configuration AGENTS.md. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

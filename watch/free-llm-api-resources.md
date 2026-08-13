@@ -6,7 +6,7 @@ Veille outils IA / ressources API.
 
 ## Tags
 
-llm, api, free-tier, inference, providers, ai-tools, sensitive
+#llm, #api, #free-tier, #inference, #providers, #ai-tools, #sensitive
 
 ## Appel canonique
 
@@ -32,12 +32,7 @@ Verification GitHub API :
 
 ## Resume court
 
-Liste maintenue de fournisseurs donnant un acces gratuit ou des credits d'essai pour inference LLM via API.
-
-Le README precise :
-
-- ne pas abuser des services ;
-- les services non legitimes, par exemple reverse-engineering de chatbots existants, sont explicitement exclus.
+Free LLM API Resources is a KM watch item classified as Veille outils IA / ressources API. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Fournisseurs principaux cites
 

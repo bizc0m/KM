@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-Bukan karena begadang sia-sia. Tapi karena baru nyadar sesuatu yang bikin gue ga bisa langsung tidur 😭 Ada orang-orang yang sistem mereka jalan sendiri tiap malam. Ngerjain kerjaan, ngirim output, beres sendiri. Sementara mereka
+Late Night AI Tool Discovery is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

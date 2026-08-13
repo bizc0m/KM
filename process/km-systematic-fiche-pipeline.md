@@ -6,7 +6,7 @@ Process KM.
 
 ## Tags
 
-km, ingestion, fiche, automation, dashboard
+#km, #ingestion, #fiche, #automation, #dashboard
 
 ## Résumé court
 
@@ -19,19 +19,19 @@ Pas de fiche = pas de dashboard.
 ## Commande
 
 ```bash
-./km-add.sh --type watch --url "https://example.com" --tags "outil,veille"
+./km-add.sh --type watch --url "https://example.com" --tags "#outil,#veille"
 ```
 
 Livre depuis photo lue par agent :
 
 ```bash
-./km-add.sh --type book --title "Titre du livre" --source "photo utilisateur, image non stockee" --summary "Résumé court" --tags "livre,theme"
+./km-add.sh --type book --title "Titre du livre" --source "photo utilisateur, image non stockee" --summary "Résumé court" --tags "#livre,#theme"
 ```
 
 Rouge :
 
 ```bash
-./km-add.sh --type rouge --title "Nom outil" --url "https://example.com" --tags "#ROUGE,security" --summary "Veille defensive uniquement."
+./km-add.sh --type rouge --title "Nom outil" --url "https://example.com" --tags "#ROUGE,#security" --summary "Veille defensive uniquement."
 ```
 
 ## Sorties
@@ -41,7 +41,7 @@ Rouge :
 - index spécialisé mis à jour si applicable ;
 - `km/history.md` mis à jour si présent ;
 - dashboard reconstruit ;
-- DB chiffrée reconstruite si `KM_DB_PASSWORD` est défini.
+- DB chiffree reconstruite si la variable locale de mot de passe KM est definie.
 
 ## Classification
 

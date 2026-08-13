@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:guide-scrapegraph-ai-ia-boss-pdf`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://api.raindrop.io/v2/raindrop/1748687500/file?type=application/pdf`
 
 Lecture KM : 2026-06-26
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `Guide_ScrapeGraph_AI_IA_Boss.pdf`
 - date : 2026-06-07T17:11:32.590Z
 - domaine : `up.raindrop.io`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-Guide_ScrapeGraph_AI_IA_Boss.pdf
+Guide_ScrapeGraph_AI_IA_Boss.pdf is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-Watch signal for an open source image and video AI tool positioned as an alternative to restricted or subscription-based generation platforms. Claims must be verified before any public use or integration.
+Uncensored Open Source Image And Video AI Tool is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

@@ -6,17 +6,15 @@ Veille `#ROUGE` / agent IA offensif de red team.
 
 ## Tags
 
-#ROUGE, pentest, red-team, offensive-security, mitre-attack, autonomous-agent, security-benchmarks, github
+#rouge, #pentest, #red-team, #offensive-security, #mitre-attack, #autonomous-agent, #security-benchmarks, #github
 
 ## Appel canonique
 
 `watch:cyberstrike-ai-red-team-agent`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Repo GitHub : `https://github.com/CyberStrikeus/CyberStrike`
-- Source X secondaire : `https://x.com/dinosn/status/2070446054701490193`
+- Source sociale secondaire : `https://x.com/dinosn/status/2070446054701490193`
 
 Lecture KM : 2026-06-24
 
@@ -25,7 +23,7 @@ Source Raindrop :
 - titre : `CyberStrikeus/CyberStrike: AI-powered offensive security agent with 7,300+ actionable security skills. Autonomous pentesting powered by MITRE ATT&CK (2,000+ Atomic tests), CIS Benchmarks (1,500+ controls), OWASP, NIST. Lazy-loading, zero context pollution. Your AI red team.`
 - date : 2026-06-24T05:52:53.350Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 Source Raindrop secondaire :
@@ -38,7 +36,7 @@ Source Raindrop secondaire :
 
 ## Resume court
 
-CyberStrike est un agent de securite offensive presente comme capable d'automatiser du pentest et de charger des competences liees a MITRE ATT&CK, CIS Benchmarks, OWASP et NIST.
+CyberStrike - AI Red Team Agent is a KM watch item classified as Veille `#ROUGE` / agent IA offensif de red team. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

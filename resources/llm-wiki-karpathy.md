@@ -6,15 +6,13 @@ Ressource longue / reference LLM.
 
 ## Tags
 
-raindrop-km-monitor, llm, wiki, karpathy, gist, learning-resource, a-verifier
+#llm, #wiki, #karpathy, #gist, #learning-resource, #a-verifier
 
 ## Appel canonique
 
 `resource:llm-wiki-karpathy`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f`
 
 Lecture KM : 2026-06-27
@@ -29,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-Gist public intitule `llm-wiki`, probablement une ressource de reference sur les LLM. La fiche conserve le pointeur, pas le contenu complet, afin d'eviter une copie longue et de garder la source comme ressource a consulter.
+llm-wiki - Karpathy Gist is a KM watch item classified as Ressource longue / reference LLM. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

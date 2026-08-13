@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-A collaborative AI workspace, built on your company context. Build and orchestrate agents right alongside your team's projects, meetings, and connected apps.
+Top 5 Niche Sites For Vibe Coders is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

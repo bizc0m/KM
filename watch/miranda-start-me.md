@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, osint, cyber, search, crime, watch, privacy-sensitive
+#osint, #cyber, #search, #crime, #watch, #privacy-sensitive
 
 ## Appel canonique
 
 `watch:miranda-start-me`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://start.me/u/xjqkAn/miranda`
 
 Lecture KM : 2026-06-26
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `Miranda - Start.me`
 - date : 2026-06-16T03:42:05.009Z
 - domaine : `start.me`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : `osint`, `cyber`, `search`, `crime`, `watch`
 
 ## Resume court
 
-A startpage with online resources about Miranda, created by Start.me.
+Miranda - Start.me is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

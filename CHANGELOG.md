@@ -1,5 +1,30 @@
 # Changelog
 
+## v0.4 - 2026-08-13
+
+Objectif : pousser le nettoyage complet des fiches KM et stabiliser le routage des themes.
+
+Fichiers touches :
+- `km.config.json`
+- `scripts/build-search-v1.12-html.mjs`
+- `search-v1.12.html`
+- `public/`
+- fiches `watch/`, `resources/`, `km/` et `process/`
+
+Changements :
+- anciens prefixes parasites de capture supprimes des fiches et du dashboard ;
+- source personnelle Raindrop anonymisee ;
+- titres et resumes courts normalises en anglais dans l'affichage ;
+- themes dashboard resserres pour eviter le classement massif en `Agents IA` ;
+- pages publiques de themes regenerees.
+
+Risques :
+- certaines fiches restent `a_verifier` quand la source complete n'a pas ete relue ;
+- les fichiers internes conservent la classification sensible pour le suivi KM.
+
+Rollback possible :
+- revenir au commit precedent `b40b23e` ou au tag Git `v0.3`.
+
 ## v0.3 - 2026-08-13
 
 Objectif : stabiliser KM Search avec titres anglais propres, statut sensible fusionne et notes de corpus depliables.

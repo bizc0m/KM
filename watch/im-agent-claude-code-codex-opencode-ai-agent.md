@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-https://t.co/iGoruuvfpP 开源的多 Agent 协作平台，把 Claude Code、Codex、OpenCode 拉到 IM 群里一起干活。一个编排者自动拆任务、并行派活给群里的
+IM-Style Multi-Agent Coding Workspace is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-Jack Dorsey'nin yeni AI aracı Goose, %100 ücretsiz. "Bana YouTube gibi bir web sitesi yap" yazıyorsun ve Goose kendi başına çalışmaya başlıyor: - Tüm projeyi oluşturuyor - Bütün kodu yazıyor - Bağımlılıkları yüklüyor → Hataları otomatik
+Experimental AI Tool Discovery is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

@@ -6,15 +6,13 @@ Veille outil IA / agent personnel.
 
 ## Tags
 
-agent, personal-agent, nousresearch, github, a-verifier
+#agent, #personal-agent, #nousresearch, #github, #a-verifier
 
 ## Appel canonique
 
 `watch:nousresearch-hermes-agent`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Repo GitHub : `https://github.com/nousresearch/hermes-agent`
 
 Lecture KM : 2026-06-24
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `NousResearch/hermes-agent: The agent that grows with you`
 - date : 2026-06-24T16:25:06.610Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-Hermes Agent est presente comme un agent evolutif. La fiche sert de point de veille, avec verification requise des capacites reelles, permissions et stockage.
+NousResearch Hermes Agent is a KM watch item classified as Veille outil IA / agent personnel. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

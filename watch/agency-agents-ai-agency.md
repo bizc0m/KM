@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor / bibliotheque d'agents IA specialises.
 
 ## Tags
 
-raindrop-km-monitor, agents, ai-agency, github, workflows, sensible
+#agents, #ai-agency, #github, #workflows, #sensible
 
 ## Appel canonique
 
 `watch:agency-agents-ai-agency`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Repo GitHub : `https://github.com/msitarzewski/agency-agents`
 
 Lecture KM : 2026-07-11
@@ -24,7 +22,7 @@ Source Raindrop :
 - titre : `msitarzewski/agency-agents: A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.`
 - date : 2026-07-11T10:35:48.555Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 Source GitHub publique :
@@ -36,7 +34,7 @@ Source GitHub publique :
 
 ## Resume court
 
-Depot de roles et agents specialises presentes comme une agence IA complete : frontend, community, copy, realite critique et livrables de processus. Le signal est utile pour cartographier les bibliotheques d'agents pre-packages et leurs patterns de delegation.
+Agency Agents - AI Agency Agents is a KM watch item classified as Veille Raindrop KM Monitor / bibliotheque d'agents IA specialises. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

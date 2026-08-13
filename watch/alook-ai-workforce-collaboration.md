@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor / orchestration d'agents collaboratifs.
 
 ## Tags
 
-raindrop-km-monitor, agents, multi-agent, email, memory, collaboration, github, sensible
+#agents, #multi-agent, #email, #memory, #collaboration, #github, #sensible
 
 ## Appel canonique
 
 `watch:alook-ai-workforce-collaboration`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Repo GitHub : `https://github.com/alookai/alook`
 
 Lecture KM : 2026-07-11
@@ -24,7 +22,7 @@ Source Raindrop :
 - titre : `alookai/alook: The collaboration layer for your AI workforce. Run your personal AI company.`
 - date : 2026-07-11T09:02:54.802Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 Source GitHub publique :
@@ -37,7 +35,7 @@ Source GitHub publique :
 
 ## Resume court
 
-Couche de collaboration pour agents IA, presentee comme une equipe d'agents coordonnee avec email, memoire et workflows multi-agents. Le signal est proche des usages Codex/Claude Code/OpenCode et merite une veille agentique stricte.
+Alook - AI Workforce Collaboration is a KM watch item classified as Veille Raindrop KM Monitor / orchestration d'agents collaboratifs. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

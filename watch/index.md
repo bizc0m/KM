@@ -9,7 +9,7 @@ Index des sources de veille transversales KM.
 | Appel | Source | Usage | Statut |
 | --- | --- | --- | --- |
 | `watch:ai-trending` | `ai-trending.md` | Radar outils IA, tendances GitHub, agents, LLM, RAG, devtools | actif |
-| `watch:ai-open-source-tools-watch` | `ai-open-source-tools-watch.md` | Lot X : outils IA/open source, alternatives SaaS, agents, OSINT, local-first | actif |
+| `watch:ai-open-source-tools-watch` | `ai-open-source-tools-watch.md` | Lot sources sociales : outils IA/open source, alternatives SaaS, agents, OSINT, local-first | actif |
 | `watch:ai-open-source-tools-inventory` | `ai-open-source-tools-inventory.md` | Inventaire detaille : 32 outils nommes uniques extraits du lot X | actif |
 | `watch:osint-tools-watch` | `osint-tools-watch.md` | Outils OSINT sensibles : vehicle search, VIN, plaques, historiques vehicules | actif |
 | `watch:x-source-authors-log` | `x-source-authors-log.md` | Log des auteurs X utilises comme sources de veille | actif |
@@ -23,6 +23,9 @@ Index des sources de veille transversales KM.
 | `watch:vibeshit-vibe-coding-directory` | `vibeshit-vibe-coding-directory.md` | Annuaire vibe coding : outils IA, agents, LLM, devtools et tendances | actif |
 | `watch:ccgui-mossx-vibecoding-editor` | `ccgui-mossx-vibecoding-editor.md` | Editeur vibe coding multi-engine, source repo a verifier | a verifier |
 | `watch:agentsview-session-intelligence` | `agentsview-session-intelligence.md` | Outil local-first pour recherche, analytics et couts des sessions agents IA | actif |
+| `watch:prompt-cache-semantic-llm-cache` | `prompt-cache-semantic-llm-cache.md` | Proxy LLM en Go pour cache semantique et reduction de couts ; prompts et reponses a proteger. | sensible |
+| `watch:graft-codebase-context-for-coding-agents` | `graft-codebase-context-for-coding-agents.md` | Contexte local de codebase pour agents Codex/Claude/Cursor/Gemini ; depots prives a filtrer. | sensible |
+| `watch:memory-engineering-agent-past` | `memory-engineering-agent-past.md` | Article X sur memory engineering pour agents IA ; source stable et projet concret a retrouver. | a verifier |
 | `watch:nanoclaw-personal-agent` | `nanoclaw-personal-agent.md` | Agent IA personnel multi-canaux, containerise, avec vault credentials | actif |
 | `watch:autoresearchclaw-autonomous-research` | `autoresearchclaw-autonomous-research.md` | Agent de recherche autonome idee -> papier, avec experiments, citations et HITL | actif |
 | `watch:moneyprinterturbo-ai-short-video` | `moneyprinterturbo-ai-short-video.md` | Generation automatique de shorts IA / TikTok, utile RS avec validation humaine | sensible |
@@ -55,6 +58,17 @@ Index des sources de veille transversales KM.
 | `watch:tailscale-secure-connectivity-for-ai-iot-multi-cloud` | `tailscale-secure-connectivity-for-ai-iot-multi-cloud.md` | Connectivite Zero Trust pour ressources IA, IoT et multi-cloud ; ACL et acces a auditer. | sensible |
 | `watch:brandfetch` | `brandfetch.md` | Recherche de logos et assets publics de marques pour design, CRM et dashboards ; droits d'usage a verifier avant publication. | actif |
 | `watch:macusb-bootable-usb-creator-macos` | `macusb-bootable-usb-creator-macos.md` | Outil macOS pour creer des supports USB bootables ; verifier images source et risques disque avant usage. | actif |
+| `watch:banani-ai-ui-design` | `banani-ai-ui-design.md` | Outil design IA pour generer wireframes et interfaces depuis texte ; droits et donnees de prompts a cadrer. | actif |
+| `watch:lovable-build-for-the-web-20x-faster` | `lovable-build-for-the-web-20x-faster.md` | Generateur web IA pour prototypage rapide ; sandbox obligatoire avant connexion ou publication. | sensible |
+| `watch:ui-design-made-easy-powered-by-ai-uizard` | `ui-design-made-easy-powered-by-ai-uizard.md` | Outil de prototypage UI IA pour apps, sites et desktop ; exports et retention a verifier. | actif |
+| `watch:taste-skill` | `taste-skill.md` | Kit frontend pour agents IA ; licence, consignes et reutilisation projet a verifier. | sensible |
+| `watch:praison-ai` | `praison-ai.md` | Plateforme ou offre d'agents IA pour workflows type agence ; permissions et donnees a cadrer. | sensible |
+| `watch:herdr-agent-multiplexer` | `herdr-agent-multiplexer.md` | Multiplexeur d'agents en terminal ; shell, logs et contexte repo a isoler. | sensible |
+| `watch:firecrawl-pdf-inspector` | `firecrawl-pdf-inspector.md` | Librairie Rust d'inspection PDF pour tri OCR, classification et extraction texte ; corpus prives a filtrer. | sensible |
+| `watch:awesome-ai-companion` | `awesome-ai-companion.md` | Annuaire de projets compagnons IA long-terme ; memoire personnelle et donnees intimes a cadrer. | sensible |
+| `watch:github-digital-life-topic` | `github-digital-life-topic.md` | Topic GitHub pour projets de vie numerique ; depots a filtrer avant fiche dediee. | a verifier |
+| `watch:trendshift-github-momentum` | `trendshift-github-momentum.md` | Classement live de depots GitHub en acceleration pour veille projets emergents. | actif |
+| `watch:intelfetch-osint-features` | `intelfetch-osint-features.md` | Plateforme OSINT et breach intelligence ; usage defensif et legal a cadrer. | sensible |
 | `watch:noteplan-mcp-server` | `noteplan-mcp-server.md` | Connecteur MCP NotePlan pour notes, taches, rappels et calendrier ; permissions a cadrer. | sensible |
 | `watch:axorcist-macos-accessibility` | `axorcist-macos-accessibility.md` | Wrapper Swift macOS Accessibility pour lire, cliquer et inspecter des interfaces locales. | sensible |
 | `watch:openfelix-local-ai-agent-macos` | `openfelix-local-ai-agent-macos.md` | Agent IA local pour macOS ; permissions, fichiers et contexte utilisateur a auditer. | sensible |
@@ -71,8 +85,8 @@ Index des sources de veille transversales KM.
 | `watch:marketing-automation` | `marketing-automation.md` | IA | sensible |
 | `watch:miranda-start-me` | `miranda-start-me.md` | A startpage with online resources about Miranda, created by Start.me. | sensible |
 | `watch:xamto-ai-understand-anything-x-post` | `xamto-ai-understand-anything-x-post.md` | 这玩意儿叫 Understand Anything，GitHub 直接冲到 59.2k 星，Trending 第一，真不是吹的。 它能把整个代码库变成可点可问的知识图谱： 1️⃣ 点函数秒出 | sensible |
-| `watch:acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor` | `acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor.md` | y es gratis y open source se llama Memanto y ya tiene +5.000 estrellas en GitHub → guarda el co | sensible |
-| `watch:sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol` | `sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol.md` | Flux, Kling, Sora ve Veo gibi üst düzey modelleri kullanarak görüntü ve video oluşturmak istiyo | a verifier |
+| `watch:acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor` | `acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor.md` | Infinite memory tool for Claude, Codex and Cursor; final source preserved, verification required | sensible |
+| `watch:sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol` | `sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol.md` | Open source image and video AI tool signal; claims require verification before use | a verifier |
 | `watch:ideogram-4-0-the-open-model-for-visual-intelligence` | `ideogram-4-0-the-open-model-for-visual-intelligence.md` | Ideogram 4.0 is an open visual intelligence model for products, agents, and creative teams. | sensible |
 | `watch:here-are-10-ai-video-editor-github-repos-worth-bookmarking` | `here-are-10-ai-video-editor-github-repos-worth-bookmarking.md` | 1. Shotcut https://t.co/omDdAvcOnf Most actively maintained open source video editor in 2026. 1 | sensible |
 | `watch:open-source-observability-for-traces-logs-metrics-maple` | `open-source-observability-for-traces-logs-metrics-maple.md` | Open-source observability platform built on OpenTelemetry. Collect, visualize, and analyze dist | sensible |
@@ -283,6 +297,13 @@ Index des sources de veille transversales KM.
 - Fichiers touches : `watch/index.md`, `watch/macusb-bootable-usb-creator-macos.md`, `index.md`, `km/history.md`.
 - Risques : effacement de disque, media bootable non fiable, confiance dans un outil tiers.
 - Rollback possible : retirer la ligne et supprimer la fiche.
+
+### v1.12 - 2026-08-04
+
+- Objectif : integrer 3 nouveautes Raindrop KM Monitor design/web IA.
+- Fichiers touches : `watch/index.md`, `watch/banani-ai-ui-design.md`, `watch/lovable-build-for-the-web-20x-faster.md`, `watch/ui-design-made-easy-powered-by-ai-uizard.md`, `index.md`, `km/history.md`.
+- Risques : prompts sensibles, droits design/contenu, publication accidentelle pour Lovable.
+- Rollback possible : retirer les 3 lignes et supprimer les fiches.
 
 ### v0.1 - 2026-05-19
 

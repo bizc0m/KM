@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-Criterio de senior. 90% menos código, 75% menos coste y 6x más rápido. Funciona con Claude Code, Codex, Cursor y más. https://t.co/7fRnDUEH3c
+Senior Mode GitHub Repository is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

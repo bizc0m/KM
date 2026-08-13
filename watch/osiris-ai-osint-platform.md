@@ -28,9 +28,8 @@ Web app (SPA) — style "poste de commandement" avec carte interactive
 - 📡 Complémentaire aux autres sources OSINT
 
 ## Tags
-`osint` `surveillance` `tracking` `intelligence` `realtime` `cctv` `aviation` `sigint`
 
----
+#`osint`-`surveillance`-`tracking`-`intelligence`-`realtime`-`cctv`-`aviation`-`sigint`
 
 ## Détails techniques (après investigation)
 

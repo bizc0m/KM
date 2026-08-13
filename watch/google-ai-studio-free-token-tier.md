@@ -6,15 +6,13 @@ Veille ressource IA / quotas API.
 
 ## Tags
 
-raindrop-km-monitor, llm, google-ai-studio, api, free-tier, quotas, sensible
+#llm, #google-ai-studio, #api, #free-tier, #quotas, #sensible
 
 ## Appel canonique
 
 `watch:google-ai-studio-free-token-tier`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/engmoelgaraihy/status/2071356188944441625`
 
 Lecture KM : 2026-06-29
@@ -23,7 +21,7 @@ Source Raindrop : titre arabe sur Google AI Studio et un million de tokens/minut
 
 ## Resume court
 
-Signal X affirmant que Google AI Studio fournirait un quota gratuit tres eleve sans carte bancaire ni abonnement mensuel. A traiter comme information volatile de provider, a verifier sur documentation officielle avant usage.
+Google AI Studio Free Token Tier is a KM watch item classified as Veille ressource IA / quotas API. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

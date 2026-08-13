@@ -6,15 +6,13 @@ Veille outil privacy / recherche fuites dark web.
 
 ## Tags
 
-raindrop-km-monitor, #ROUGE, dark-web, leaked-data, privacy-risk, osint
+#rouge, #dark-web, #leaked-data, #privacy-risk, #osint
 
 ## Appel canonique
 
 `watch:serus-dark-web-leak-search`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/alghali/status/2071203576198635859`
 
 Lecture KM : 2026-06-28
@@ -23,7 +21,7 @@ Source Raindrop : titre `AI reached the dark web`, date 2026-06-28T18:09:59.010Z
 
 ## Resume court
 
-Post X presentant Serus comme un service qui recherche dans de grands volumes de donnees de fuite pour trouver mots de passe, IP, numeros de telephone, emails et autres informations exposees.
+Serus Dark Web Leak Search is a KM watch item classified as Veille outil privacy / recherche fuites dark web. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

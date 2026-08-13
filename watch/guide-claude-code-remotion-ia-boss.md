@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:guide-claude-code-remotion-ia-boss`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://docs.google.com/document/u/0/d/1oAATWl9iCTVELCmEUv1PvMYbxig86ezjncWkEPl1YoY/mobilebasic`
 
 Lecture KM : 2026-06-26
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `Guide_Claude_Code_Remotion_IA_Boss`
 - date : 2026-06-13T09:54:55.867Z
 - domaine : `docs.google.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-IA BOSS Ton studio de motion design personnel Crée des vidéos avec Claude Code + Remotion Guide offert par IA Boss — l'IA expliquée simplement, en français Avant, le motion design, c'était : un logiciel hors de prix, des timelines, des keyframes... ou payer quelqu'un qui maîtrise tout ça. Claude ...
+Guide_Claude_Code_Remotion_IA_Boss is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

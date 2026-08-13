@@ -6,16 +6,14 @@ Veille `#ROUGE` / competences hacker et reverse engineering.
 
 ## Tags
 
-#ROUGE, reverse-engineering, firmware-analysis, hacking-skills, claude, routing-md, offensive-risk, a-verifier
+#rouge, #reverse-engineering, #firmware-analysis, #hacking-skills, #claude, #routing-md, #offensive-risk, #a-verifier
 
 ## Appel canonique
 
 `watch:reverse-skill-hacker-skills`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
-- Source X : `https://x.com/0xeduu/status/2070469529210163370`
+- Source sociale : `https://x.com/0xeduu/status/2070469529210163370`
 
 Lecture KM : 2026-06-27
 
@@ -29,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-Post X signalant un repo GitHub appele `reverse-skill`, decrit comme un ensemble de competences pour Claude couvrant notamment reverse engineering d'applications, analyse firmware et autres branches hacker. Le lien final n'a pas ete resolu dans ce run.
+Reverse Skill - Hacker Skills Repo is a KM watch item classified as Veille `#ROUGE` / competences hacker et reverse engineering. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

@@ -6,7 +6,7 @@ Veille outils dev/security / code review et SAST.
 
 ## Tags
 
-code-security, sast, code-review, vulnerability-scanning, appsec, devtools, sensitive, to-verify
+#code-security, #sast, #code-review, #vulnerability-scanning, #appsec, #devtools, #sensitive, #to-verify
 
 ## Appel canonique
 
@@ -27,7 +27,7 @@ L'URL fournie n'a pas donne de contenu exploitable dans la lecture actuelle. Les
 
 ## Resume court
 
-CodePatrol semble designer une famille/outillage de code security : revue automatisee, SAST, scan de vulnerabilites, alerting et consolidation de resultats. L'URL exacte fournie doit etre re-verifiee avant integration technique ou recommandation.
+CodePatrol - Code Security Watch is a KM watch item classified as Veille outils dev/security / code review et SAST. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Usage utile
 

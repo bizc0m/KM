@@ -6,15 +6,13 @@ Veille outil IA / automatisation navigateur.
 
 ## Tags
 
-agent, browser-automation, web, scraping-risk, github, sensible
+#agent, #browser-automation, #web, #scraping-risk, #github, #sensible
 
 ## Appel canonique
 
 `watch:browser-use-web-automation`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Repo GitHub : `https://github.com/browser-use/browser-use`
 
 Lecture KM : 2026-06-24
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `browser-use/browser-use: Make websites accessible for AI agents. Automate tasks online with ease.`
 - date : 2026-06-24T16:27:09.515Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-Browser Use rend des sites web pilotables par des agents IA. La fiche sert a surveiller les frameworks de navigation agentique, leurs integrations et leurs risques de scraping ou d'action non supervisee.
+Browser Use - Web Automation For AI Agents is a KM watch item classified as Veille outil IA / automatisation navigateur. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

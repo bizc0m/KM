@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor / connecteur MCP pour notes, taches et calendrier.
 
 ## Tags
 
-raindrop-km-monitor, noteplan, mcp, notes, tasks, calendar, agents, sensible
+#noteplan, #mcp, #notes, #tasks, #calendar, #agents, #sensible
 
 ## Appel canonique
 
 `watch:noteplan-mcp-server`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source finale : `https://help.noteplan.co/article/277-how-to-install-the-noteplan-mcp-server`
 
 Lecture KM : 2026-08-03
@@ -24,17 +22,12 @@ Source Raindrop :
 - titre : `How to Install the NotePlan MCP Server`
 - date : 2026-08-03T10:26:09.151Z
 - domaine : `help.noteplan.co`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
-
-Resolution :
-
-- URL canonique nettoyee : `https://help.noteplan.co/article/277-how-to-install-the-noteplan-mcp-server`
-- Verification HEAD directe : HTTP 200.
 
 ## Resume court
 
-Documentation d'installation du serveur MCP NotePlan. Le connecteur expose notes, taches, rappels et calendrier a des clients IA compatibles MCP.
+NotePlan MCP Server is a KM watch item classified as Veille Raindrop KM Monitor / connecteur MCP pour notes, taches et calendrier. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-100% gratis y open source. Memanto ya es tendencia con +5.000 estrellas en GitHub. La herramienta: → guarda el contexto de tus sesiones de trabajo → lo comprime y organiza con IA → recupera lo relevante en menos
+Infinite Memory For Claude, Codex And Cursor is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

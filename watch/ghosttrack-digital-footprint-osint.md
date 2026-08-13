@@ -6,16 +6,14 @@ Veille `#ROUGE` / OSINT identifiants publics.
 
 ## Tags
 
-#ROUGE, osint, digital-footprint, username-search, phone-search, ip-lookup, privacy-risk, github
+#rouge, #osint, #digital-footprint, #username-search, #phone-search, #ip-lookup, #privacy-risk, #github
 
 ## Appel canonique
 
 `watch:ghosttrack-digital-footprint-osint`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
-- Source X : `https://x.com/jolyne_ai/status/2070447077524664696`
+- Source sociale : `https://x.com/jolyne_ai/status/2070447077524664696`
 - Repo final resolu : `https://github.com/HunxByts/GhostTrack`
 
 Lecture KM : 2026-06-27
@@ -28,13 +26,9 @@ Source Raindrop :
 - auteur/source : `jolyne_ai`
 - tags detectes : aucun tag Raindrop
 
-Resolution :
-
-- `https://t.co/BEuG3oodFD` -> `https://github.com/HunxByts/GhostTrack`
-
 ## Resume court
 
-GhostTrack est presente comme un outil permettant de verifier ou apparait un numero de telephone ou un nom d'utilisateur, avec aussi une recherche IP/localisation approximative. Le risque privacy est direct.
+GhostTrack - Digital Footprint OSINT is a KM watch item classified as Veille `#ROUGE` / OSINT identifiants publics. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

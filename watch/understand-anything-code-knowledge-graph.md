@@ -6,15 +6,13 @@ Veille outil IA / analyse de code.
 
 ## Tags
 
-codebase-analysis, knowledge-graph, agents, coding, github, sensible
+#codebase-analysis, #knowledge-graph, #agents, #coding, #github, #sensible
 
 ## Appel canonique
 
 `watch:understand-anything-code-knowledge-graph`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Repo GitHub : `https://github.com/Egonex-AI/Understand-Anything`
 - Page projet : `https://understand-anything.com`
 
@@ -25,7 +23,7 @@ Source Raindrop :
 - titre : `Egonex-AI/Understand-Anything: Graphs that teach graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.`
 - date : 2026-06-24T16:34:10.662Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 Metadonnees GitHub publiques au 2026-06-24 :
@@ -39,7 +37,7 @@ Metadonnees GitHub publiques au 2026-06-24 :
 
 ## Resume court
 
-Understand Anything transforme une base de code en graphe de connaissance interactif, exploratoire et interrogeable. L'interet KM est de suivre les outils de comprehension de code et de cartographie projet pour agents IA.
+Understand Anything - Code Knowledge Graph is a KM watch item classified as Veille outil IA / analyse de code. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

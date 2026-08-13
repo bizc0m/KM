@@ -6,7 +6,7 @@ Veille outils IA / annuaire projets vibe coding.
 
 ## Tags
 
-vibe-coding, ai-tools, agents, llm, devtools, directory, inspiration, sensitive
+#vibe-coding, #ai-tools, #agents, #llm, #devtools, #directory, #inspiration, #sensitive
 
 ## Appel canonique
 
@@ -20,24 +20,7 @@ Lecture : 2026-05-22
 
 ## Resume court
 
-Annuaire de projets "vibe coding" proche d'un Product Hunt specialise IA/devtools. Le site liste des projets avec titre, description courte, tags, agents/LLM associes, votes, dates et tendances.
-
-Exemples visibles au moment de la lecture :
-
-- LLMs from Scratch
-- Claude Gateway
-- HyperFrames
-- GLM-OCR
-- PaddleOCR
-- ShadowBroker
-- Free LLM API Resources
-- Rapid-MLX
-- Social Auto Upload
-- LibreChat
-- Cua
-- Roo Code
-- vLLM
-- OpenSRE
+Vibe Shit - Vibe Coding Directory is a KM watch item classified as Veille outils IA / annuaire projets vibe coding. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Usage utile
 

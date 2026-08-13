@@ -6,15 +6,13 @@ Veille outil / automatisation workflows.
 
 ## Tags
 
-automation, workflows, integrations, ai, self-hosted, github, sensible
+#automation, #workflows, #integrations, #ai, #self-hosted, #github, #sensible
 
 ## Appel canonique
 
 `watch:n8n-workflow-automation`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Repo GitHub : `https://github.com/n8n-io/n8n`
 
 Lecture KM : 2026-06-24
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `n8n-io/n8n: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.`
 - date : 2026-06-24T16:23:44.143Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-n8n est une plateforme d'automatisation de workflows avec integrations et capacites IA. Elle etait deja citee dans les inventaires KM ; cette fiche dediee centralise le suivi.
+n8n Workflow Automation is a KM watch item classified as Veille outil / automatisation workflows. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

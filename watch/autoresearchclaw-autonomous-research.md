@@ -6,7 +6,7 @@ Veille outils IA / agent de recherche autonome.
 
 ## Tags
 
-research-agent, autonomous-research, papers, citations, experiments, openclaw, multi-agent, scientific-writing, sensitive
+#research-agent, #autonomous-research, #papers, #citations, #experiments, #openclaw, #multi-agent, #scientific-writing, #sensitive
 
 ## Appel canonique
 
@@ -31,9 +31,7 @@ Verification GitHub API :
 
 ## Resume court
 
-AutoResearchClaw est un pipeline agentique qui transforme une idee de recherche en papier academique avec litterature, experiences, analyses, citations, LaTeX et revue multi-agent. Le projet supporte un mode autonome et des modes human-in-the-loop/co-pilot.
-
-Le README annonce une pipeline de recherche multi-etapes, recherche bibliographique via sources academiques, verification de citations, execution d'experiences en sandbox, generation de graphiques, revue multi-agent et integration OpenClaw / agents CLI compatibles.
+AutoResearchClaw - Autonomous Research Agent is a KM watch item classified as Veille outils IA / agent de recherche autonome. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Usage utile
 

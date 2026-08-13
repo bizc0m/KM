@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor / bibliotheque Swift pour macOS Accessibility.
 
 ## Tags
 
-raindrop-km-monitor, macos, accessibility, swift, ui-automation, agents, sensible
+#macos, #accessibility, #swift, #ui-automation, #agents, #sensible
 
 ## Appel canonique
 
 `watch:axorcist-macos-accessibility`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source finale : `https://github.com/openclaw/AXorcist`
 
 Lecture KM : 2026-08-03
@@ -27,14 +25,9 @@ Source Raindrop :
 - auteur/source : `openclaw`
 - tags detectes : aucun tag Raindrop
 
-Resolution :
-
-- URL canonique nettoyee : `https://github.com/openclaw/AXorcist`
-- Verification HEAD directe : HTTP 200.
-
 ## Resume court
 
-Wrapper Swift pour interroger, lire, cliquer et inspecter des interfaces macOS via Accessibility. Signal important pour agents desktop, automatisation UI et tests d'apps natives.
+AXorcist macOS Accessibility is a KM watch item classified as Veille Raindrop KM Monitor / bibliotheque Swift pour macOS Accessibility. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

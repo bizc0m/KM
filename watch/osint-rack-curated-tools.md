@@ -6,15 +6,13 @@ Veille OSINT / annuaire d'outils d'investigation.
 
 ## Tags
 
-osint, threat-intelligence, investigation, curated-tools, privacy-sensitive, a-verifier
+#osint, #threat-intelligence, #investigation, #curated-tools, #privacy-sensitive, #a-verifier
 
 ## Appel canonique
 
 `watch:osint-rack-curated-tools`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Site : `https://osintrack.com/`
 
 Lecture KM : 2026-06-24
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `The OSINT Rack | Curated Intelligence Tools`
 - date : 2026-06-24T05:51:13.768Z
 - domaine : `osintrack.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-The OSINT Rack est un annuaire public d'outils OSINT pour investigateurs et professionnels securite. La valeur KM est le reperage et la categorisation ; le contenu doit etre verifie avant usage.
+The OSINT Rack - Curated Intelligence Tools is a KM watch item classified as Veille OSINT / annuaire d'outils d'investigation. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

@@ -6,15 +6,13 @@ Veille education IA / API keys.
 
 ## Tags
 
-raindrop-km-monitor, api-keys, llm, education, credentials, sensible
+#api-keys, #llm, #education, #credentials, #sensible
 
 ## Appel canonique
 
 `watch:free-api-key-instagram-reel`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Reel Instagram : `https://www.instagram.com/reel/DZkw-DEh_Dl/`
 
 Lecture KM : 2026-06-27
@@ -35,7 +33,7 @@ Metadonnees Raindrop :
 
 ## Resume court
 
-Reel educatif sur les cles API LLM comme mecanisme d'authentification pour connecter un modele IA a une application ou un workflow. L'interet KM est de suivre les contenus pedagogiques sur l'usage, la securisation et la gestion des cles API.
+Free Api Key - Instagram Reel is a KM watch item classified as Veille education IA / API keys. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

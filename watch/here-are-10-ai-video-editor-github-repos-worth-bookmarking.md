@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:here-are-10-ai-video-editor-github-repos-worth-bookmarking`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/kanikabk/status/2065780534148731148`
 
 Lecture KM : 2026-06-26
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `Here are 10 AI video editor GitHub repos worth bookmarking:`
 - date : 2026-06-14T11:47:44.233Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-1. Shotcut https://t.co/omDdAvcOnf Most actively maintained open source video editor in 2026. 14K stars. Cross-platform with AI-assisted features. Just shipped a new release April 30, 2026. 2. Kdenlive
+Here are 10 AI video editor GitHub repos worth bookmarking: is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

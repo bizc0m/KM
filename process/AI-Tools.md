@@ -673,8 +673,8 @@ Social-Media-Automation = scripts/reference d'automatisation social media, a aud
 
 ## Lot X - AI Open Source Tools Watch
 
-Source KM : `###DEV/KM/watch/ai-open-source-tools-watch.md`
-Sources X : lot fourni le 2026-05-22
+Source KM : `watch/ai-open-source-tools-watch.md`
+Sources sociales : lot fourni le 2026-05-22
 
 Resume en 3 lignes :
 Lot de veille sur outils IA/open source : alternatives SaaS, agents vocaux, video IA, RAG local, MCP, OSINT image et devtools.

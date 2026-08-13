@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-🌐Une plateforme dédiée à la visualisation et à l'analyse de données en sources ouvertes intégrant : • 🌍 Cartographie interactive Mondiale • 📡 Flux OSINT géolocalisés • 🎥 Live Cams synchronisées • ⏪ Frise temporelle avancée
+Nexus OSINT V1 Launch is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

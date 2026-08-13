@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-works with claude code, gemini, codex, cursor, and other MCP-compatible clients MIT licensed 5 categories, 50 MCP servers in total whether you want your agent to browse
+Essential MCP Servers Collection is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

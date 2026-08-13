@@ -6,15 +6,13 @@ Veille outil IA / pair programming terminal.
 
 ## Tags
 
-coding, pair-programming, terminal, agent, github
+#coding, #pair-programming, #terminal, #agent, #github
 
 ## Appel canonique
 
 `watch:aider-ai-pair-programming`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Repo GitHub : `https://github.com/Aider-AI/aider`
 
 Lecture KM : 2026-06-24
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `Aider-AI/aider: aider is AI pair programming in your terminal`
 - date : 2026-06-24T16:23:55.339Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-Aider est un outil de pair programming IA en terminal. La fiche suit les interfaces de modification code via LLM et leurs garde-fous.
+Aider AI Pair Programming is a KM watch item classified as Veille outil IA / pair programming terminal. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

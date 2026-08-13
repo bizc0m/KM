@@ -6,7 +6,7 @@ Log sources X pour veille KM.
 
 ## Tags
 
-x, sources, authors, km, watch
+#x, #sources, #authors, #km, #watch
 
 ## Appel canonique
 

@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-100% local. Solo ve píxeles. Sin APIs externas. Sin que nada salga de tu máquina. Se llama UI-TARS Desktop. 36.4k estrellas. Apache-2.0. Lo que hace que sea diferente a Computer Use de Anthropic
+ByteDance Open Source Computer Control Agent is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor / connectivite Zero Trust et reseau prive.
 
 ## Tags
 
-raindrop-km-monitor, tailscale, zero-trust, vpn, network-security, infrastructure, sensible
+#tailscale, #zero-trust, #vpn, #network-security, #infrastructure, #sensible
 
 ## Appel canonique
 
 `watch:tailscale-secure-connectivity-for-ai-iot-multi-cloud`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source finale : `https://tailscale.com`
 
 Lecture KM : 2026-07-31
@@ -24,19 +22,12 @@ Source Raindrop :
 - titre : `Tailscale | Secure Connectivity for AI, IoT & Multi-Cloud`
 - date : 2026-07-31T08:30:39.196Z
 - domaine : `tailscale.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
-
-Resolution :
-
-- URL Raindrop initiale : parametre de tracking `utm_source` retire avant stockage.
-- URL canonique nettoyee et verifiee : `https://tailscale.com`
-- Verification HEAD directe : HTTP 200.
-- Meta description publique : connectivite pour devs, IT et equipes securite, avec acces Zero Trust base identite.
 
 ## Resume court
 
-Plateforme de connectivite securisee pour relier utilisateurs, appareils, ressources cloud, environnements IoT et workflows IA via un modele Zero Trust base sur l'identite. Signal utile pour la veille infrastructure, acces prive, agents deployes et securisation de ressources multi-cloud.
+Tailscale Secure Connectivity For AI IoT Multi Cloud is a KM watch item classified as Veille Raindrop KM Monitor / connectivite Zero Trust et reseau prive. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

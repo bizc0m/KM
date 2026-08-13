@@ -6,16 +6,14 @@ Veille outil / annuaire applications gratuites open source.
 
 ## Tags
 
-raindrop-km-monitor, open-source, apps, directory, free-tools, a-verifier
+#open-source, #apps, #directory, #free-tools, #a-verifier
 
 ## Appel canonique
 
 `watch:free-open-source-apps-list-sn0wbrave`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
-- Source X : `https://x.com/sn0wbrave/status/2070657216835633364`
+- Source sociale : `https://x.com/sn0wbrave/status/2070657216835633364`
 
 Lecture KM : 2026-06-27
 
@@ -29,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-Post X signalant un projet open source qui regroupe des applications gratuites pour ordinateur et maintient la liste a jour. Le lien final du projet n'a pas ete resolu depuis les metadonnees disponibles.
+Free Open Source Apps List - sn0wbrave is a KM watch item classified as Veille outil / annuaire applications gratuites open source. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

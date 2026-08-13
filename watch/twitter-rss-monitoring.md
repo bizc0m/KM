@@ -6,7 +6,7 @@ Veille process / source monitoring.
 
 ## Tags
 
-rss, twitter, x, monitoring, nitter, openrss, social-watch, privacy
+#rss, #twitter, #x, #monitoring, #nitter, #openrss, #social-watch, #privacy
 
 ## Appel canonique
 
@@ -26,7 +26,7 @@ Lecture KM : 2026-05-22
 
 ## Resume court
 
-L'article explique comment suivre quelques comptes Twitter/X via RSS afin de reduire le temps passe sur le site Twitter. Deux services sont cites : Nitter et OpenRSS. L'approche permet de generer des flux RSS publics sans acces API Twitter.
+Twitter RSS Monitoring is a KM watch item classified as Veille process / source monitoring. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Outils cites
 

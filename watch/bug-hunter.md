@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-AI powered bug bounty hunting: recon to report, in your terminal. Credit: https://t.co/bzr6dN9nwR
+Bug Hunter is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

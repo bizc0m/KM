@@ -6,7 +6,7 @@ Veille outils IA / editeur vibe coding multi-engine.
 
 ## Tags
 
-vibe-coding, ai-editor, developer-tools, claude-code, codex, opencode, gemini, multi-engine, sensitive, to-verify
+#vibe-coding, #ai-editor, #developer-tools, #claude-code, #codex, #opencode, #gemini, #multi-engine, #sensitive, #to-verify
 
 ## Appel canonique
 
@@ -27,7 +27,7 @@ La page Vibe Shit annonce un lien GitHub et un auteur `zhukunpenglinyutong`, mai
 
 ## Resume court
 
-CC-GUI / MossX est presente comme un editeur/portail vibe coding open source multi-engine, proche d'une alternative Cursor. La page Vibe Shit cite Claude Code, Codex, OpenCode et Gemini, avec panels developpeur : chat canvas, terminal, gestion Git, kanban et memoire IA.
+CC-GUI / MossX - VibeCoding Editor is a KM watch item classified as Veille outils IA / editeur vibe coding multi-engine. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Usage utile
 

@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor / orchestration multi-agents autonome.
 
 ## Tags
 
-raindrop-km-monitor, agents, autonomous-company, codex-cli, claude-code, daemon, sensible
+#agents, #autonomous-company, #codex-cli, #claude-code, #daemon, #sensible
 
 ## Appel canonique
 
 `watch:auto-company-autonomous-ai-company`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source finale : `https://github.com/MaxMiksa/Auto-Company`
 - Metadata GitHub API : `https://api.github.com/repos/MaxMiksa/Auto-Company`
 
@@ -25,18 +23,12 @@ Source Raindrop :
 - titre : `MaxMiksa/Auto-Company: An auto-company works for 24/7 on your own PC - Windows/Linux/macOS.`
 - date : 2026-07-22T13:24:04.972Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : `LLM`, `Company`, `Auto`
-
-Resolution :
-
-- URL canonique resolue directement vers le depot GitHub public.
-- Verification GitHub API : depot `MaxMiksa/Auto-Company`, langage principal Python, branche par defaut `main`, non archive, non desactive.
-- Description API : `An auto-company works for 24/7 on your own PC - Windows/Linux/macOS.`
 
 ## Resume court
 
-Depot open source qui orchestre une equipe d'agents IA via Claude Code ou Codex CLI pour fonctionner en boucle continue sur macOS, Windows/WSL ou Linux, avec memoire de consensus, logs, dashboard local et workflows produit/code/deploiement/marketing.
+Auto Company Autonomous AI Company is a KM watch item classified as Veille Raindrop KM Monitor / orchestration multi-agents autonome. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

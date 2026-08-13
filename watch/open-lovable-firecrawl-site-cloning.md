@@ -6,15 +6,13 @@ Veille outil dev / clonage de sites en React.
 
 ## Tags
 
-raindrop-km-monitor, firecrawl, react, site-cloning, vibe-coding, sensible
+#firecrawl, #react, #site-cloning, #vibe-coding, #sensible
 
 ## Appel canonique
 
 `watch:open-lovable-firecrawl-site-cloning`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/jolyne_ai/status/2070839598155186425`
 - GitHub resolu : `https://github.com/firecrawl/open-lovable`
 
@@ -24,7 +22,7 @@ Source Raindrop : titre `Open Lovable by Firecrawl`, date 2026-06-28T18:10:31.68
 
 ## Resume court
 
-Open Lovable est presente comme un outil open source capable de transformer une URL de site en version React proche de l'original. Usage utile pour prototypage, migration ou audit d'interface, mais a cadrer fortement.
+Open Lovable Firecrawl Site Cloning is a KM watch item classified as Veille outil dev / clonage de sites en React. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

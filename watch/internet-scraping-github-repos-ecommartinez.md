@@ -6,15 +6,13 @@ Veille outils / scraping et extraction web.
 
 ## Tags
 
-raindrop-km-monitor, scraping, github, web-extraction, data, sensible
+#scraping, #github, #web-extraction, #data, #sensible
 
 ## Appel canonique
 
 `watch:internet-scraping-github-repos-ecommartinez`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/ecommartinez/status/2071360257906168143`
 
 Lecture KM : 2026-06-29
@@ -23,7 +21,7 @@ Source Raindrop : titre `10 repositorios de GitHub para scrapear todo internet`,
 
 ## Resume court
 
-Signal X listant dix depots GitHub presentes comme capables de scraper de larges portions du web et d'extraire des donnees propres depuis des sites. Les liens finaux doivent etre resolus avant deduplication fine avec les fiches Firecrawl et scraping existantes.
+Internet Scraping GitHub Repos Ecommartinez is a KM watch item classified as Veille outils / scraping et extraction web. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-很多能力已经能直接干掉你正在月付的软件。 1. TradingAgents AI 多 Agent 量化交易框架 https://t.co/vDzagj93aY 2. LibreChat 一个界面接入 ChatGPT、Claude、Gemini 等多个模型 https://t.co/dH6FIUVm5x 3. HyperFrames HeyGen
+Free GitHub Project Collection is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

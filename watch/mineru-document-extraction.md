@@ -6,16 +6,14 @@ Veille outil IA / extraction documents.
 
 ## Tags
 
-raindrop-km-monitor, document-ai, pdf, extraction, ocr, office-documents, sensible
+#document-ai, #pdf, #extraction, #ocr, #office-documents, #sensible
 
 ## Appel canonique
 
 `watch:mineru-document-extraction`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
-- Source X : `https://x.com/yerocode0/status/2070221861976183259`
+- Source sociale : `https://x.com/yerocode0/status/2070221861976183259`
 
 Lecture KM : 2026-06-27
 
@@ -29,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-MinerU est presente comme une solution gratuite et open source pour convertir PDF, Word, Excel ou images en contenu exploitable. L'interet KM porte sur l'extraction documentaire et la preparation de corpus.
+MinerU - Document Extraction is a KM watch item classified as Veille outil IA / extraction documents. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

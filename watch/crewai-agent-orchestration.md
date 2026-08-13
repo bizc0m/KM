@@ -6,15 +6,13 @@ Veille framework IA / orchestration multi-agents.
 
 ## Tags
 
-agents, orchestration, workflows, automation, github
+#agents, #orchestration, #workflows, #automation, #github
 
 ## Appel canonique
 
 `watch:crewai-agent-orchestration`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Repo GitHub : `https://github.com/crewaiinc/crewai`
 
 Lecture KM : 2026-06-24
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `crewAIInc/crewAI: Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.`
 - date : 2026-06-24T16:24:56.066Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-CrewAI est un framework d'orchestration d'agents autonomes. La fiche suit les patterns multi-agents, roles, workflows et coordination.
+CrewAI - Agent Orchestration is a KM watch item classified as Veille framework IA / orchestration multi-agents. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-这玩意儿叫 Understand Anything，GitHub 直接冲到 59.2k 星，Trending 第一，真不是吹的。 它能把整个代码库变成可点可问的知识图谱： 1️⃣ 点函数秒出依赖关系，谁调谁一目了然 2️⃣ 直接开口问“支付流程怎么走”，答案秒回 3️⃣ 改代码前跑一下
+Understand Anything Code Knowledge Graph is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

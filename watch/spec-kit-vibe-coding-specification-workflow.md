@@ -6,15 +6,13 @@ Veille outil dev / workflow specification avant code.
 
 ## Tags
 
-raindrop-km-monitor, vibe-coding, spec, github, coding-agent, actif
+#vibe-coding, #spec, #github, #coding-agent, #actif
 
 ## Appel canonique
 
 `watch:spec-kit-vibe-coding-specification-workflow`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/zaynmcps/status/2070813494979530934`
 
 Lecture KM : 2026-06-28
@@ -23,7 +21,7 @@ Source Raindrop : titre `GitHub solved the biggest vibe coding problem`, date 20
 
 ## Resume court
 
-Spec Kit est presente comme un workflow de specification pour obliger l'IA a clarifier ce qu'il faut construire avant de coder, avec des etapes type constitution, specify et plan.
+Spec Kit Vibe Coding Specification Workflow is a KM watch item classified as Veille outil dev / workflow specification avant code. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

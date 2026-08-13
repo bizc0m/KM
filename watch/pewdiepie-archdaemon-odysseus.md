@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-Self-hosted AI workspace.
+Odysseus Self-Hosted AI Workspace is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

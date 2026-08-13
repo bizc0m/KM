@@ -6,15 +6,13 @@ Veille outil cyber / threat intelligence.
 
 ## Tags
 
-raindrop-km-monitor, threat-intelligence, cve, kev, fastapi, nextjs, actif
+#threat-intelligence, #cve, #kev, #fastapi, #nextjs, #actif
 
 ## Appel canonique
 
 `watch:openthreat-threat-intelligence-platform`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/vivekintel/status/2071112289173041586`
 
 Lecture KM : 2026-06-28
@@ -23,7 +21,7 @@ Source Raindrop : titre `OpenThreat - Democratizing Threat Intelligence`, date 2
 
 ## Resume court
 
-OpenThreat est presente comme une plateforme open source de threat intelligence agregant CVE, CISA KEV et avis BSI CERT-Bund dans une interface moderne, avec stack FastAPI et Next.js.
+OpenThreat Threat Intelligence Platform is a KM watch item classified as Veille outil cyber / threat intelligence. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

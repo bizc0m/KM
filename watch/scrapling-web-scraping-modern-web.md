@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor / framework de scraping web.
 
 ## Tags
 
-raindrop-km-monitor, scraping, web-extraction, python, documentation, sensible
+#scraping, #web-extraction, #python, #documentation, #sensible
 
 ## Appel canonique
 
 `watch:scrapling-web-scraping-modern-web`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Documentation : `https://scrapling.readthedocs.io/`
 
 Lecture KM : 2026-07-11
@@ -24,7 +22,7 @@ Source Raindrop :
 - titre : `Index - Scrapling`
 - date : 2026-07-11T09:09:42.532Z
 - domaine : `scrapling.readthedocs.io`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 Source publique :
@@ -34,7 +32,7 @@ Source publique :
 
 ## Resume court
 
-Documentation Scrapling, outil oriente extraction web moderne. Le signal est pertinent pour la veille scraping, ingestion de pages publiques et robustesse de collecte, avec attention aux conditions d'usage et au risque anti-bot.
+Scrapling - Web Scraping Modern Web is a KM watch item classified as Veille Raindrop KM Monitor / framework de scraping web. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

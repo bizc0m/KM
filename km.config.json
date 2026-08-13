@@ -98,6 +98,7 @@
   ],
   "themes": [
     { "id": "agent", "label": "Agents IA", "keywords": ["agent", "agents", "ia", "ai", "automation", "workflow", "mcp"] },
+    { "id": "governance", "label": "AI Governance", "keywords": ["governance", "policy", "summit", "trust", "switzerland", "geneva"] },
     { "id": "llm", "label": "LLM / API", "keywords": ["llm", "api", "openai", "provider", "inference", "model"] },
     { "id": "dev", "label": "Dev tools", "keywords": ["github", "code", "devtools", "editor", "coding", "repo"] },
     { "id": "osint", "label": "OSINT", "keywords": ["osint", "threat", "recon", "footprint", "intelligence"] },

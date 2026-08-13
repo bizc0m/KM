@@ -6,15 +6,13 @@ Veille `#ROUGE` / recherche OSINT de profils.
 
 ## Tags
 
-#ROUGE, osint, digital-footprint, privacy, doxxing-risk, github
+#rouge, #osint, #digital-footprint, #privacy, #doxxing-risk, #github
 
 ## Appel canonique
 
 `watch:gosearch-digital-footprint-search`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Repo GitHub : `https://github.com/ibnaleem/gosearch`
 
 Lecture KM : 2026-06-24
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `ibnaleem/gosearch: Search anyone's digital footprint across 300+ websites`
 - date : 2026-06-24T16:21:45.390Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-GoSearch est presente comme un outil de recherche d'empreinte numerique sur de nombreux sites. La fiche reste strictement meta pour veille privacy et prevention des abus.
+GoSearch - Digital Footprint Search is a KM watch item classified as Veille `#ROUGE` / recherche OSINT de profils. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor / notice legale service financier IA.
 
 ## Tags
 
-raindrop-km-monitor, ai-assistant, fintech, banking, legal, privacy-sensitive
+#ai-assistant, #fintech, #banking, #legal, #privacy-sensitive
 
 ## Appel canonique
 
 `watch:assistants-ia-revolut`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source finale : `https://www.revolut.com/fr-FR/legal/rita-disclaimer`
 
 Lecture KM : 2026-07-17
@@ -24,17 +22,12 @@ Source Raindrop :
 - titre : `ASSISTANTS IA REVOLUT | Revolut France`
 - date : 2026-07-17T15:58:24.083Z
 - domaine : `revolut.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
-
-Resolution :
-
-- URL canonique conservee depuis Raindrop.
-- Verification HEAD directe : challenge Cloudflare `403`, donc aucun contenu complet de page n'a ete extrait ni stocke.
 
 ## Resume court
 
-Notice legale Revolut France liee aux assistants IA, utile pour suivre la formulation des disclaimers, limites et responsabilites autour d'agents IA dans un contexte bancaire.
+Assistants IA Revolut is a KM watch item classified as Veille Raindrop KM Monitor / notice legale service financier IA. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

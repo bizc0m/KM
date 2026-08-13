@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-Redirige tu tráfico de Claude Code a 10 proveedores gratuitos como DeepSeek y Kimi, toma 5 minutos configurarlo, y ya tiene a más de 20,000 desarrolladores ejecutándolo.
+Free Claude Code Execution Repository is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

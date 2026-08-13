@@ -6,15 +6,13 @@ Veille outil IA / generation video agentique.
 
 ## Tags
 
-raindrop-km-monitor, ai-video, agent-skill, html-rendering, github, sensible
+#ai-video, #agent-skill, #html-rendering, #github, #sensible
 
 ## Appel canonique
 
 `watch:hyperframes-ai-video-generation-skill`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/ayi_ainotes/status/2070790079585436135`
 - Lien resolu : `https://hyperframes.heygen.com/`
 - GitHub signale : `heygen-com/hyperframes`
@@ -25,7 +23,7 @@ Source Raindrop : titre `1. HyperFrames (AI one-click generation / text to finis
 
 ## Resume court
 
-HyperFrames est presente comme un skill agentique qui transforme des instructions en HTML/CSS/JS anime puis en rendu video MP4. L'interet KM concerne les workflows de production video automatisable par agents.
+HyperFrames AI Video Generation Skill is a KM watch item classified as Veille outil IA / generation video agentique. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

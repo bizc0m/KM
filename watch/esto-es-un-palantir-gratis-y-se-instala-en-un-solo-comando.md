@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, raindrop, to-verify
+#raindrop, #to-verify
 
 ## Appel canonique
 
 `watch:esto-es-un-palantir-gratis-y-se-instala-en-un-solo-comando`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/marcusyul/status/2063710599679263141`
 
 Lecture KM : 2026-06-26
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `ESTO ES UN PALANTIR GRATIS Y SE INSTALA EN UN SOLO COMANDO`
 - date : 2026-06-08T16:18:54.688Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-se llama OSIRIS. abres un globo 3D en tu navegador y ves, en tiempo real: → +10.000 aviones en el aire → +2.000 satélites → cámaras CCTV de todo el mundo → incendios, terremotos, tráfico marítimo → 13 zonas de https://t.co/0e6iHiB0BT
+ESTO ES UN PALANTIR GRATIS Y SE INSTALA EN UN SOLO COMANDO is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

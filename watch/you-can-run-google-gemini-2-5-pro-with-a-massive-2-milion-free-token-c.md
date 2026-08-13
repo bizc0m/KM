@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-most developers are still burning cash on gpt-4 or claude for long-context research, but google just nuked the pricing model by making their flagship power free for dev prototyping
+Free Google Gemini 2.5 Pro Token Context is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

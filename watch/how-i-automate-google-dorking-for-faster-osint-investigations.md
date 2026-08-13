@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-A lot of people use Google dorks manually during OSINT investigations… But manual searching quickly becomes slow, repetitive, and easy to miss patterns 👀 When I’m doing reconnaissance, I don’t want random
+Google Dorking Automation For OSINT is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

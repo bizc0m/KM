@@ -6,15 +6,13 @@ Veille ressource / annuaire MCP.
 
 ## Tags
 
-mcp, servers, agents, integrations, directory, github, a-verifier
+#mcp, #servers, #agents, #integrations, #directory, #github, #a-verifier
 
 ## Appel canonique
 
 `watch:awesome-mcp-servers`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Repo GitHub : `https://github.com/punkpeye/awesome-mcp-servers`
 
 Lecture KM : 2026-06-24
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `punkpeye/awesome-mcp-servers`
 - date : 2026-06-24T16:25:28.219Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-Awesome MCP Servers est une collection de serveurs MCP. La valeur KM est l'inventaire de connecteurs potentiels ; chaque serveur doit etre audite avant usage.
+Awesome MCP Servers is a KM watch item classified as Veille ressource / annuaire MCP. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

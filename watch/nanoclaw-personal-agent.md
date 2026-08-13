@@ -6,7 +6,7 @@ Veille outils IA / agent personnel multi-canaux.
 
 ## Tags
 
-ai-agent, personal-agent, messaging, containers, claude-agent-sdk, credential-vault, local-first, automation, sensitive
+#ai-agent, #personal-agent, #messaging, #containers, #claude-agent-sdk, #credential-vault, #local-first, #automation, #sensitive
 
 ## Appel canonique
 
@@ -33,9 +33,7 @@ Verification GitHub API :
 
 ## Resume court
 
-NanoClaw est un agent IA personnel open source, leger et personnalisable. Il connecte un agent a des canaux de messagerie comme WhatsApp, Telegram, Slack, Discord, Microsoft Teams, Matrix, GitHub, Linear, email et autres.
-
-Le projet met en avant une architecture simple : un host Node, des conteneurs par groupe d'agents, deux bases SQLite par session, des skills installables a la demande et une isolation des credentials via Agent Vault.
+NanoClaw - Personal AI Agent is a KM watch item classified as Veille outils IA / agent personnel multi-canaux. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Usage utile
 

@@ -76,7 +76,6 @@ Regle : les ressources gardent les sources lisibles et nommees de facon stable. 
 | `resource:pacte-visia/prompt-perplexity-vision` | `pacte-visia/prompt-perplexity-vision.md` | Repo `bizc0m/PACTE_IA`, 2026-05-16 | Prompt de collecte de vision IA | Adapter avant reutilisation hors contexte |
 | `resource:pacte-visia/pacte-visia-summary` | `pacte-visia/pacte-visia-summary.md` | Fiche creee, 2026-05-16 | Resume, usages, themes, risques | Synthese, pas source primaire |
 
-
 ## Ressources NOREGRESSION
 
 | Appel canonique | Fichier ressource | Source originale | Date | Usage | Risques |

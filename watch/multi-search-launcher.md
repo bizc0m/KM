@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, osint, privacy-sensitive
+#osint, #privacy-sensitive
 
 ## Appel canonique
 
 `watch:multi-search-launcher`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/cyb_detective/status/2065733663887634911`
 
 Lecture KM : 2026-06-26
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `Multi-search launcher`
 - date : 2026-06-14T10:53:05.949Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-Search by username, IP, phone, email, domain or keyword. 121 search engines. Query transformations (including subdomain search, normalize phone, quotes etc) Import/export settings as JSON. https://t.co/ltaRzWo4Sb #osint #socmint
+Multi-search launcher is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

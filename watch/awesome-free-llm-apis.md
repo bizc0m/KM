@@ -6,7 +6,7 @@ Veille outils IA / ressources API LLM gratuites.
 
 ## Tags
 
-llm, api, free-tier, providers, inference, openai-compatible, ai-tools, sensitive
+#llm, #api, #free-tier, #providers, #inference, #openai-compatible, #ai-tools, #sensitive
 
 ## Appel canonique
 
@@ -30,25 +30,7 @@ Verification GitHub API :
 
 ## Resume court
 
-Liste de fournisseurs LLM avec tiers gratuits permanents ou credits gratuits. Le README indique que les endpoints sont majoritairement compatibles avec le SDK OpenAI, sauf mention contraire, et pointe vers les pages de creation de cles API.
-
-Exemples visibles au moment de la lecture :
-
-- AI21 Labs
-- Aion Labs
-- Alibaba Cloud Model Studio
-- Cohere
-- DeepSeek
-- Google Gemini
-- Mistral AI
-- xAI
-- Z AI
-- Cerebras
-- Cloudflare Workers AI
-- GitHub Models
-- Groq
-- Hugging Face
-- Kilo Code
+Awesome Free LLM APIs is a KM watch item classified as Veille outils IA / ressources API LLM gratuites. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Usage utile
 

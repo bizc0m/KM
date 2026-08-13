@@ -6,15 +6,13 @@ Veille outils / scraping et extraction web.
 
 ## Tags
 
-raindrop-km-monitor, scraping, github, web-extraction, data, sensible
+#scraping, #github, #web-extraction, #data, #sensible
 
 ## Appel canonique
 
 `watch:internet-scraping-github-repos-lucy-love-ai`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/lucy_love_ai/status/2071040656634732984`
 - Lien court resolu partiellement : `https://github.com/firecrawl/firecrawl`
 
@@ -24,7 +22,7 @@ Source Raindrop : titre `10 GitHub repos to scrape the whole internet`, date 202
 
 ## Resume court
 
-Signal X listant dix depots GitHub pour extraire des donnees propres depuis des sites web. Le premier lien court resolu pointe vers Firecrawl ; les autres liens doivent etre recuperes dans le thread si besoin.
+Internet Scraping GitHub Repos Lucy Love AI is a KM watch item classified as Veille outils / scraping et extraction web. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

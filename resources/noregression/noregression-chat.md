@@ -2,7 +2,7 @@
 
 ## Resume court
 
-Ressource issue d'un chat de travail sur la stabilisation d'un projet React/FastAPI et sur la creation d'un protocole anti-regression pour agents IA. Le contenu sert a eviter que les assistants cassent des fonctions existantes pendant les corrections, reorganisations ou pushes Git.
+NOREGRESSION - Chat Codex sanitise is a KM watch item classified as KM watch item. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Source
 

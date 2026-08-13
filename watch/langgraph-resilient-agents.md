@@ -6,15 +6,13 @@ Veille framework IA / agents resilients.
 
 ## Tags
 
-agents, langchain, graph, workflows, state, github
+#agents, #langchain, #graph, #workflows, #state, #github
 
 ## Appel canonique
 
 `watch:langgraph-resilient-agents`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Repo GitHub : `https://github.com/langchain-ai/langgraph`
 
 Lecture KM : 2026-06-24
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `langchain-ai/langgraph`
 - date : 2026-06-24T16:23:02.647Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-LangGraph est un framework pour construire des agents resilients et stateful. La fiche suit les patterns graphes, etats, reprises et workflows agentiques.
+LangGraph - Resilient Agents is a KM watch item classified as Veille framework IA / agents resilients. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

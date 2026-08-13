@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-Bookmark this list. 1. OpenHands Autonomous coding agent. 76,500 stars. Used by engineers at Apple, Google, Amazon, Netflix, and NVIDIA. Repo → https://t.co/XF1G2IhujT 2. Hermes Agent Nous Research dropped this
+GitHub Repositories For Work Automation is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

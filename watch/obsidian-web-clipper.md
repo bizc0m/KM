@@ -6,15 +6,13 @@ Veille outil KM / capture web vers Obsidian.
 
 ## Tags
 
-raindrop-km-monitor, obsidian, web-clipper, knowledge-management, browser-extension, actif
+#obsidian, #web-clipper, #knowledge-management, #browser-extension, #actif
 
 ## Appel canonique
 
 `watch:obsidian-web-clipper`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://obsidian.md/clipper`
 
 Lecture KM : 2026-06-27
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `Obsidian Web Clipper`
 - date : 2026-06-27T11:25:00.234Z
 - domaine : `obsidian.md`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-Obsidian Web Clipper permet de capturer, surligner et sauvegarder des pages web vers Obsidian. L'interet KM est direct pour la collecte de sources, la prise de notes et la transformation de lecture web en fiches locales.
+Obsidian Web Clipper is a KM watch item classified as Veille outil KM / capture web vers Obsidian. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

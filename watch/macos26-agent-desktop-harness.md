@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor / agent desktop macOS et harness agentique.
 
 ## Tags
 
-raindrop-km-monitor, macos, desktop-agent, computer-use, coding, automation, sensible
+#macos, #desktop-agent, #computer-use, #coding, #automation, #sensible
 
 ## Appel canonique
 
 `watch:macos26-agent-desktop-harness`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source finale : `https://github.com/macos26/agent`
 
 Lecture KM : 2026-08-03
@@ -27,14 +25,9 @@ Source Raindrop :
 - auteur/source : `macos26`
 - tags detectes : aucun tag Raindrop
 
-Resolution :
-
-- URL canonique nettoyee : `https://github.com/macos26/agent`
-- Verification HEAD directe : HTTP 200.
-
 ## Resume court
 
-Harness agentique pour Mac Desktop couvrant computer use, automatisation, scripting, coding et plusieurs fournisseurs LLM locaux ou cloud.
+MacOS26 Agent Desktop Harness is a KM watch item classified as Veille Raindrop KM Monitor / agent desktop macOS et harness agentique. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

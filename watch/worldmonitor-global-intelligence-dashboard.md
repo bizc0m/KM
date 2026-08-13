@@ -6,15 +6,13 @@ Veille outil OSINT / tableau de bord geostrategique.
 
 ## Tags
 
-raindrop-km-monitor, osint, dashboard, conflict-monitoring, geoint, sensible
+#osint, #dashboard, #conflict-monitoring, #geoint, #sensible
 
 ## Appel canonique
 
 `watch:worldmonitor-global-intelligence-dashboard`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/xiaoying_eth/status/2070782487824089533`
 - GitHub resolu : `https://github.com/koala73/worldmonitor`
 
@@ -24,7 +22,7 @@ Source Raindrop : titre `Realtime global intelligence dashboard`, date 2026-06-2
 
 ## Resume court
 
-WorldMonitor est signale comme un tableau de bord open source en navigateur pour suivre conflits, activites militaires, infrastructures, protestations et signaux de marche. Licence annoncee MIT.
+WorldMonitor Global Intelligence Dashboard is a KM watch item classified as Veille outil OSINT / tableau de bord geostrategique. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

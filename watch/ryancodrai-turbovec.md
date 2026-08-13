@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-A vector index built on TurboQuant, written in Rust with Python bindings - RyanCodrai/turbovec
+TurboVec Vector Index is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

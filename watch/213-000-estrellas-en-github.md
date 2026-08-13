@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-No es un modelo. No es una app. No es un framework. Es el sistema que hace que tu agente de IA trabaje mejor. Se llama ECC y empaqueta en un solo repo todo lo que necesitas para que Claude Code, Codex, Cursor u OpenCode funcionen como los usan los
+GitHub Repository With 213,000 Stars is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

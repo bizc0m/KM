@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-1) AutoHedge: https://t.co/BrOKvdNbBC 2) Vibe - trading: https://t.co/CLOUK00gKK 3) Claude Ads: https://t.co/GFD5QawMby 4) Tporank: https://t.co/S2h4YktpXF 5) Fincept Terminal:
+GitHub Repositories For Automated Income Projects is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary - mvanhorn/last30days-skill
+Last 30 Days Research Agent Skill is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

@@ -6,7 +6,7 @@ Veille IA transversale.
 
 ## Tags
 
-ia, open-source, github, devtools, agents, saas, osint, local-first, privacy
+#ia, #open-source, #github, #devtools, #agents, #saas, #osint, #local-first, #privacy
 
 ## Source
 
@@ -27,7 +27,7 @@ Lecture effectuee via FxTwitter API publique, sans compte X.
 
 ## Resume court
 
-Lot de veille sur des outils IA et open source utiles pour remplacer des SaaS, construire des agents, travailler localement, faire de l'OSINT image, generer de la video ou documenter des alternatives privacy-first.
+AI Open Source Tools Watch is a KM watch item classified as Veille IA transversale. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Sources lues
 

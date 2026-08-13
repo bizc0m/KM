@@ -6,7 +6,7 @@ Veille outils IA / generation automatique de shorts video.
 
 ## Tags
 
-ai-video, shortvideo, tiktok, automation, llm, moviepy, python, content-generation, social-media, sensitive
+#ai-video, #shortvideo, #tiktok, #automation, #llm, #moviepy, #python, #content-generation, #social-media, #sensitive
 
 ## Appel canonique
 
@@ -15,7 +15,7 @@ ai-video, shortvideo, tiktok, automation, llm, moviepy, python, content-generati
 ## Sources
 
 - Repo : `https://github.com/harry0703/MoneyPrinterTurbo`
-- Source X secondaire : `https://x.com/xamto_ai/status/2070335993421722010`
+- Source sociale secondaire : `https://x.com/xamto_ai/status/2070335993421722010`
 
 Lecture : 2026-05-25
 
@@ -43,7 +43,7 @@ Signal Raindrop secondaire :
 
 ## Resume court
 
-MoneyPrinterTurbo est un outil open source de generation automatique de videos courtes avec IA. Le projet vise des workflows de type script, assets, montage et export video, avec un positionnement fort sur les formats courts et TikTok.
+MoneyPrinterTurbo - AI Short Video Generator is a KM watch item classified as Veille outils IA / generation automatique de shorts video. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Usage utile
 

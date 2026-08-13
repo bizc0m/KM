@@ -6,7 +6,7 @@ Veille outils IA / intelligence de sessions agents.
 
 ## Tags
 
-agents, coding-agents, session-intelligence, local-first, search, analytics, token-costs, devtools, sensitive
+#agents, #coding-agents, #session-intelligence, #local-first, #search, #analytics, #token-costs, #devtools, #sensitive
 
 ## Appel canonique
 
@@ -31,9 +31,7 @@ Verification GitHub API :
 
 ## Resume court
 
-AgentsView est une app desktop/web local-first pour parcourir, chercher et analyser les sessions d'agents IA de code. Elle indexe les fichiers de sessions locaux dans SQLite, fournit une recherche full-text, des tableaux de bord, des statistiques d'usage et des rapports de couts/tokens.
-
-Agents cites comme supportes ou visibles dans la documentation : Claude Code, Codex, Gemini, Copilot, Cursor, OpenCode, OpenHands, Amp, VS Code Copilot, Kiro, Warp et autres.
+AgentsView - Session Intelligence is a KM watch item classified as Veille outils IA / intelligence de sessions agents. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Usage utile
 

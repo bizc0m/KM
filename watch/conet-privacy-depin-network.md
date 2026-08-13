@@ -6,7 +6,7 @@ Veille infra privacy / DePIN / reseau decentralise.
 
 ## Tags
 
-privacy, depin, crypto, wallet-address, decentralized-network, encrypted-routing, vpn-alternative, tokenomics, sensitive, to-verify
+#privacy, #depin, #crypto, #wallet-address, #decentralized-network, #encrypted-routing, #vpn-alternative, #tokenomics, #sensitive, #to-verify
 
 ## Appel canonique
 
@@ -25,9 +25,7 @@ Lecture KM : 2026-05-25
 
 ## Resume court
 
-CONET se presente comme une infrastructure DePIN orientee privacy. Le projet affirme remplacer les adresses IP par des adresses wallet chiffrees comme identifiants reseau, faire transiter des messages chiffrés via des noeuds, et recompenser des noeuds/miners pour le relais de paquets.
-
-Ces promesses doivent rester classees comme claims projet tant qu'il n'y a pas d'audit technique independant, de verification code/source, de test reseau et de cadre legal clair pour l'exploitation de noeuds.
+CONET - Privacy DePIN Network is a KM watch item classified as Veille infra privacy / DePIN / reseau decentralise. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Verification source
 

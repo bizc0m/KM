@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-Y es completamente gratis. → 435 lecciones → 320 horas de contenido → Python, TypeScript, Rust → agentes, LLMs y MCP → ejercicios prácticos en cada lección todo en GitHub. todo open source. repo ⬇️ https://t.co/8WytJBXaWU
+AI Engineering From Scratch Repository is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

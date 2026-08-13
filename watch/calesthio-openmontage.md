@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio. - calesthio/OpenMontage
+OpenMontage Agentic Video Production System is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

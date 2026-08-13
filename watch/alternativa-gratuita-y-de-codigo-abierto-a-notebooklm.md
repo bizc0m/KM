@@ -27,7 +27,7 @@ Source Raindrop :
 
 ## Resume court
 
-Genera podcasts y chatea con tus documentos fácil. Sin suscripciones, desde tu máquina y usas la IA que quieras. 100% privado: https://t.co/otT4EB81tG
+Open Source NotebookLM Alternative is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

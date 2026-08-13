@@ -6,7 +6,7 @@ Inventaire outils issu de veille X et sources web verifiees.
 
 ## Tags
 
-ia, open-source, github, tools, devtools, agents, saas, osint, inventory
+#ia, #open-source, #github, #tools, #devtools, #agents, #saas, #osint, #inventory
 
 ## Appel canonique
 

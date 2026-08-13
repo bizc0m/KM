@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor / ressource de marque et assets publics.
 
 ## Tags
 
-raindrop-km-monitor, brand-assets, logos, design, api, actif
+#brand-assets, #logos, #design, #api, #actif
 
 ## Appel canonique
 
 `watch:brandfetch`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source finale : `https://brandfetch.com/`
 
 Lecture KM : 2026-08-02
@@ -24,19 +22,13 @@ Source Raindrop :
 - titre : `Brandfetch`
 - date : 2026-08-02T13:46:13.538Z
 - domaine : `brandfetch.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 - note Raindrop : `Tout les logos de marque`
 
-Resolution :
-
-- URL canonique nettoyee : `https://brandfetch.com/`
-- Verification HEAD directe : HTTP 403 Cloudflare challenge, page non resolue automatiquement.
-- Confirmation secondaire : `/feed` Raindrop publie le dernier build le 2026-08-02 13:46:30 UTC.
-
 ## Resume court
 
-Service de recherche et recuperation d'identites de marque, logos et assets publics. Signal utile pour design produit, enrichissement CRM, pages commerciales et normalisation de visuels de marques dans des workflows KM.
+Brandfetch is a KM watch item classified as Veille Raindrop KM Monitor / ressource de marque et assets publics. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

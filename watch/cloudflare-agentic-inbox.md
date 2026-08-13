@@ -6,15 +6,13 @@ Veille outil IA / client email agentique self-hosted.
 
 ## Tags
 
-agent, email, cloudflare-workers, self-hosted, privacy-sensitive, github
+#agent, #email, #cloudflare-workers, #self-hosted, #privacy-sensitive, #github
 
 ## Appel canonique
 
 `watch:cloudflare-agentic-inbox`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Repo GitHub : `https://github.com/cloudflare/agentic-inbox`
 
 Lecture KM : 2026-06-24
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `cloudflare/agentic-inbox: A self-hosted email client with an AI agent, running entirely on Cloudflare Workers`
 - date : 2026-06-24T16:27:28.892Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-Agentic Inbox est un client email self-hosted avec agent IA, deploye sur Cloudflare Workers. La valeur KM est la veille sur les interfaces email agentiques et les patterns de validation humaine.
+Cloudflare Agentic Inbox is a KM watch item classified as Veille outil IA / client email agentique self-hosted. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

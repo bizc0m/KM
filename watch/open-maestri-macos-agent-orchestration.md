@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor / orchestration visuelle multi-agents macOS.
 
 ## Tags
 
-raindrop-km-monitor, macos, multi-agent, orchestration, claude-code, codex, opencode, sensible
+#macos, #multi-agent, #orchestration, #claude-code, #codex, #opencode, #sensible
 
 ## Appel canonique
 
 `watch:open-maestri-macos-agent-orchestration`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source finale : `https://github.com/zlh-428/open-maestri`
 
 Lecture KM : 2026-08-03
@@ -27,14 +25,9 @@ Source Raindrop :
 - auteur/source : `zlh-428`
 - tags detectes : aucun tag Raindrop
 
-Resolution :
-
-- URL canonique nettoyee : `https://github.com/zlh-428/open-maestri`
-- Verification HEAD directe : HTTP 200.
-
 ## Resume court
 
-Alternative open source a Maestri pour coordonner visuellement des agents Claude Code, Codex, OpenCode et Gemini CLI sur macOS.
+Open Maestri macOS Agent Orchestration is a KM watch item classified as Veille Raindrop KM Monitor / orchestration visuelle multi-agents macOS. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

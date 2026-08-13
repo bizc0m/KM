@@ -6,7 +6,7 @@ Veille OSINT transversale.
 
 ## Tags
 
-osint, vehicle-search, vin, license-plate, threat-intelligence, privacy-sensitive
+#osint, #vehicle-search, #vin, #license-plate, #threat-intelligence, #privacy-sensitive
 
 ## Source
 
@@ -25,17 +25,7 @@ Lecture effectuee via FxTwitter API publique, sans compte X.
 
 ## Resume court
 
-Le post reference une section "Vehicle Search Tools" du repo GitHub `awesome-hacker-search-engines`, avec des outils de recherche de plaques, VIN et historiques de vehicules.
-
-Source citee par le post :
-`https://github.com/edoardottt/awesome-hacker-search-engines#vehicle`
-
-Verification :
-
-- Repo verifie via GitHub API : `https://github.com/edoardottt/awesome-hacker-search-engines`
-- Statut : accessible.
-- Licence GitHub : MIT.
-- Garde-fou : ne pas extraire ni stocker de donnees personnelles vehicules dans KM.
+OSINT Tools Watch is a KM watch item classified as Veille OSINT transversale. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Sources lues
 

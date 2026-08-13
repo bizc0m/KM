@@ -6,7 +6,7 @@ Veille outils sensibles `#ROUGE`.
 
 ## Tags
 
-#ROUGE, dual-use, offensive-risk, osint, anti-detection, privacy, threat-intelligence
+#rouge, #dual-use, #offensive-risk, #osint, #anti-detection, #privacy, #threat-intelligence
 
 ## Appel canonique
 

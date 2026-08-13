@@ -6,15 +6,13 @@ Veille ressource KM / template Notion pour preparation de projet IA.
 
 ## Tags
 
-raindrop-km-monitor, notion, documentation, agents, project-planning, ai-workflow, a-verifier, actif
+#notion, #documentation, #agents, #project-planning, #ai-workflow, #a-verifier, #actif
 
 ## Appel canonique
 
 `watch:notion-les-7-docs-avant-de-coder-avec-ia`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://app.notion.com/p/Les-7-Docs-avant-de-coder-avec-l-IA-Template-complet-3679af7a5100817091a8e3a482f3341c`
 
 Lecture KM : 2026-07-09
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `Notion | Where teams and agents work together`
 - date : 2026-07-09T05:11:41.035Z
 - domaine : `app.notion.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-Page Notion liee a un template nomme dans l'URL `Les 7 Docs avant de coder avec l'IA - Template complet`. Les metadonnees publiques de Notion decrivent un workspace collaboratif avec contexte d'entreprise et orchestration d'agents a cote des projets, reunions et apps connectees.
+Notion - Les 7 Docs avant de coder avec l'IA is a KM watch item classified as Veille ressource KM / template Notion pour preparation de projet IA. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

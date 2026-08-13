@@ -6,15 +6,13 @@ Ressource longue / veille droits humains.
 
 ## Tags
 
-raindrop-km-monitor, resources, civil-society, sex-work, human-rights, a-verifier
+#resources, #civil-society, #sex-work, #human-rights, #a-verifier
 
 ## Appel canonique
 
 `resource:global-network-sex-work-projects-resources`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://www.nswp.org`
 
 Lecture KM : 2026-06-27
@@ -34,7 +32,7 @@ Verification directe :
 
 ## Resume court
 
-Page de ressources du Global Network of Sex Work Projects. L'interet KM est de garder une source longue sur les droits, politiques publiques, sante communautaire et documentation internationale autour du travail du sexe.
+Global Network of Sex Work Projects - Latest Resources is a KM watch item classified as Ressource longue / veille droits humains. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

@@ -6,15 +6,13 @@ Veille outil IA / gestion de taches agentique.
 
 ## Tags
 
-task-management, agent, coding, cursor, windsurf, github
+#task-management, #agent, #coding, #cursor, #windsurf, #github
 
 ## Appel canonique
 
 `watch:claude-task-master-ai-task-management`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Repo GitHub : `https://github.com/eyaltoledano/claude-task-master`
 
 Lecture KM : 2026-06-24
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `eyaltoledano/claude-task-master: An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.`
 - date : 2026-06-24T16:25:20.192Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-Claude Task Master est un systeme de gestion de taches pour workflows IA dans des environnements comme Cursor, Lovable, Windsurf ou Roo.
+Claude Task Master is a KM watch item classified as Veille outil IA / gestion de taches agentique. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

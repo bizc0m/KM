@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, llm, jailbreak-risk, sensible
+#llm, #jailbreak-risk, #sensible
 
 ## Appel canonique
 
 `watch:removes-llm-censorship-with-a-single-click`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/0x0sojalsec/status/2063664329208344701`
 
 Lecture KM : 2026-06-26
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `Removes LLM censorship with a single click.`
 - date : 2026-06-08T16:19:41.619Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-credit via @elder_plinius bro, Obliteratus, the open-source weapon that hunts down the exact weights causing refusals and surgically projects them out, is helpful for cybersec. Obliteratus uses advanced techniques (SVD, https://t.co/qI09UJI0x4
+Removes LLM censorship with a single click. is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

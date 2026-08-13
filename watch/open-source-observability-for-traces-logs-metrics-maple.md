@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, osint, privacy-sensitive
+#osint, #privacy-sensitive
 
 ## Appel canonique
 
 `watch:open-source-observability-for-traces-logs-metrics-maple`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://maple.dev`
 
 Lecture KM : 2026-06-26
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `Open Source Observability for Traces, Logs & Metrics · Maple`
 - date : 2026-06-14T10:53:58.720Z
 - domaine : `maple.dev`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-Open-source observability platform built on OpenTelemetry. Collect, visualize, and analyze distributed traces, logs, and metrics from your services with AI-powered diagnostics.
+Open Source Observability for Traces, Logs & Metrics · Maple is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

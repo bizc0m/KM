@@ -6,7 +6,7 @@ Fragment poetique / ressource culturelle KM.
 
 ## Tags
 
-proton, luna, poeme, nuit, etoiles, silence, transformation, flamme, memoire, lore, culture
+#proton, #luna, #poeme, #nuit, #etoiles, #silence, #transformation, #flamme, #memoire, #lore, #culture
 
 ## Appel canonique
 

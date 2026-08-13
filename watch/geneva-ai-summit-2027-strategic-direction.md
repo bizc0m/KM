@@ -23,7 +23,7 @@ Lecture KM : 2026-08-13
 
 ## Resume court
 
-The Swiss Federal Council has set the strategic direction for the Geneva AI Summit 2027. The summit will focus on AI as a driver of innovation and social progress, while also framing trustworthy and responsible AI development.
+Geneva AI Summit 2027 Strategic Direction is a KM watch item classified as Strategic AI governance watch / public policy signal. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

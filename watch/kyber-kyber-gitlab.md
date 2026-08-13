@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, raindrop, to-verify
+#raindrop, #to-verify
 
 ## Appel canonique
 
 `watch:kyber-kyber-gitlab`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://gitlab.com/kyber/kyber`
 
 Lecture KM : 2026-06-26
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `kyber / Kyber · GitLab`
 - date : 2026-06-11T09:28:08.977Z
 - domaine : `gitlab.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-GitLab.com
+kyber / Kyber · GitLab is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

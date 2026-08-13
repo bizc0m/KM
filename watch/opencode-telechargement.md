@@ -28,9 +28,7 @@ Source Raindrop :
 
 ## Resume court
 
-Download OpenCode for macOS, Windows, and Linux
-
-Mise a jour 2026-08-03 : la page racine `https://opencode.ai/` est aussi suivie dans Raindrop comme agent de coding open source. Elle est dedupliquee dans cette fiche au lieu de creer une entree separee.
+OpenCode Download is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

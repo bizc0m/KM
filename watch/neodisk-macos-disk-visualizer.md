@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor / outil macOS open source.
 
 ## Tags
 
-raindrop-km-monitor, macos, disk-analyzer, swift, open-source
+#macos, #disk-analyzer, #swift, #open-source
 
 ## Appel canonique
 
 `watch:neodisk-macos-disk-visualizer`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source finale : `https://github.com/tkslucas/Neodisk`
 - Site projet : `https://neodisk.app`
 
@@ -38,7 +36,7 @@ Source GitHub :
 
 ## Resume court
 
-Application macOS open source en Swift pour visualiser l'espace disque en treemap et sunburst, avec positionnement read-only.
+Neodisk macOS Disk Visualizer is a KM watch item classified as Veille Raindrop KM Monitor / outil macOS open source. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

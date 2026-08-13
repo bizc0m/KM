@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:claude-code-ya-es-potente-solo`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/fluyeporlaweb/status/2066581711031238805`
 
 Lecture KM : 2026-06-26
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `Claude Code ya es potente solo.`
 - date : 2026-06-16T09:16:24.293Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-Pero hay algo que convierte Claude Code en un enjambre de 100+ agentes trabajando en paralelo. Se llama Ruflo. 59.5k estrellas. 6.9k forks. 1.533 releases. MIT. Antes se llamaba Claude Flow. Lo renombraron en febrero 2026 y de paso reescribieron
+Claude Code ya es potente solo. is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, osint, privacy-sensitive
+#osint, #privacy-sensitive
 
 ## Appel canonique
 
 `watch:offline-maps-and-gps-app-without-ads-or-tracking`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/tom_doerr/status/2064810037210497235`
 
 Lecture KM : 2026-06-26
@@ -24,7 +22,7 @@ Source Raindrop :
 - titre : `Offline maps and GPS app without ads or tracking`
 - date : 2026-06-12T03:15:25.631Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

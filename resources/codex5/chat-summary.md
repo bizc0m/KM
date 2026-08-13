@@ -9,7 +9,7 @@
 
 ## Resume court
 
-Ressource de consolidation pour le projet Urgence V5 : radar nightlife multi-villes, vues Party et Urgence GlouGlou, World Love Radar, endpoints multi-villes, schema Event/Venue/Source/User, scraping, coordination inter-chat et generation de wiki.
+CODEX5 - synthese ressource is a KM watch item classified as KM watch item. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Usage
 

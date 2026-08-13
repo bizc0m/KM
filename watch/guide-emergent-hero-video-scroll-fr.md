@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:guide-emergent-hero-video-scroll-fr`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://docs.google.com/document/u/0/d/14hEalys0NrtHDhY8GiFX_FZ3BRATRIrsrGm16I96E5I/mobilebasic`
 
 Lecture KM : 2026-06-26
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `Guide_Emergent_Hero_Video_Scroll_FR`
 - date : 2026-06-13T09:55:21.481Z
 - domaine : `docs.google.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-GUIDE EMERGENT Hero Vidéo Contrôlée au Scroll Le workflow exact pour créer une landing page avec une vidéo hero pilotée par le scroll — en gardant le style du site de référence, sans écrire une ligne de code. 11 étapes détaillées avec screenshots Méthode simple + méthode enrichie Guide de choix ...
+Guide_Emergent_Hero_Video_Scroll_FR is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

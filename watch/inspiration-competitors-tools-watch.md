@@ -6,7 +6,7 @@ Veille inspirations / concurrents / outils.
 
 ## Tags
 
-inspiration, competitors, tools, product-watch, social-planning, nightintel, privacy
+#inspiration, #competitors, #tools, #product-watch, #social-planning, #nightintel, #privacy
 
 ## Appel canonique
 

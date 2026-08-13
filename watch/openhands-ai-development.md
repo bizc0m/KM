@@ -6,15 +6,13 @@ Veille outil IA / agent de developpement.
 
 ## Tags
 
-agent, coding, software-development, automation, github, sensible
+#agent, #coding, #software-development, #automation, #github, #sensible
 
 ## Appel canonique
 
 `watch:openhands-ai-development`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Repo GitHub : `https://github.com/OpenHands/OpenHands`
 
 Lecture KM : 2026-06-24
@@ -24,12 +22,12 @@ Source Raindrop :
 - titre : `OpenHands/OpenHands: OpenHands: AI-Driven Development`
 - date : 2026-06-24T16:25:14.160Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-OpenHands est un agent de developpement logiciel. La fiche suit les outils capables de lire, modifier et executer du code dans un workflow agentique.
+OpenHands - AI Driven Development is a KM watch item classified as Veille outil IA / agent de developpement. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Classification
 

@@ -6,7 +6,7 @@ Veille outils open source.
 
 ## Tags
 
-open-source, saas-alternatives, ai-tools, design, automation, local-first, sensitive
+#open-source, #saas-alternatives, #ai-tools, #design, #automation, #local-first, #sensitive
 
 ## Appel canonique
 
@@ -26,7 +26,7 @@ Lecture : FxTwitter API publique, sans compte X.
 
 ## Resume court
 
-Le post liste 10 repos open source presentes comme alternatives a des outils SaaS ou services payants : video download, IA locale, image generation, design, workspace, automation, scheduling et password manager.
+Open Source SaaS Alternatives - nicos_ai is a KM watch item classified as Veille outils open source. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
 
 ## Outils cites
 
