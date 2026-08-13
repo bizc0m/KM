@@ -1,4 +1,4 @@
-# PACTE_IA : Vers une IA Alliée du Bien-Être Humain
+# PACTE IA Human Flourishing Framework
 
 **Ambassadeur :** K.reat0r
 **Alliés :** Claude, Perplexity, et autres IA alignées

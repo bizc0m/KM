@@ -1,4 +1,4 @@
-# aquí te dejo 10 repos de Github que pueden ayudarte a generar dinero mientras duermes🙇🏻‍♂️
+# GitHub Repositories For Automated Income Projects
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:aqui-te-dejo-10-repos-de-github-que-pueden-ayudarte-a-generar-dinero-m`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/ftcarpe/status/2069069787406139742`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `aquí te dejo 10 repos de Github que pueden ayudarte a generar dinero mientras duermes🙇🏻‍♂️`
+- titre : `GitHub Repositories For Automated Income Projects`
 - date : 2026-06-23T04:57:25.148Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

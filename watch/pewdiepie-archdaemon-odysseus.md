@@ -1,4 +1,4 @@
-# pewdiepie-archdaemon/odysseus: Self-hosted AI workspace.
+# Odysseus Self-Hosted AI Workspace
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:pewdiepie-archdaemon-odysseus`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://github.com/pewdiepie-archdaemon/odysseus`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `pewdiepie-archdaemon/odysseus: Self-hosted AI workspace.`
+- titre : `Odysseus Self-Hosted AI Workspace`
 - date : 2026-06-12T17:34:54.859Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

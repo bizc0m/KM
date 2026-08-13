@@ -1,6 +1,6 @@
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
-# visualisation du monde gamifie , gros format car mondial trouves moi tout les sites meilleurs methode de visualisation
+# Gamified World Visualization Methods
 
 Direct — voici une sélection ciblée des meilleures méthodes et sites pour créer une visualisation du monde gamifiée en gros format, avec conseils pratiques pour chaque option.[^1_1]
 
@@ -72,7 +72,6 @@ Quelle option préférez-vous pour la suite ?
 
 [^1_10]: https://www.lemonde.fr/sciences/article/2020/07/20/des-astrophysiciens-devoilent-la-plus-grande-carte-en-3d-de-l-univers-jamais-realisee_6046729_1650684.html
 
-
 ---
 
 # as tu regarder du coté de la scene demos ?
@@ -93,11 +92,9 @@ Oui — le **cœur demo scene** est très pertinent pour votre visualisation mon
 - **Vulkan / bgfx / OpenGL** si vous visez une version desktop ultra-performante ou des effets plus bas niveau. `bgfx` est explicitement cross-platform et API-agnostic, très adapté à des rendus stylisés et robustes.[^2_11][^2_12]
 - **Live coding / shader tooling** comme Bonzomatic, Shiba, conversion GLSL et pipelines de sizecoding. L’awesome-demoscene liste aussi des outils pensés pour produire rapidement des effets et intros.[^2_1]
 
-
 ## Repos GitHub utiles
 
 Voici les repos que je regarderais en premier pour votre use case “monde + love + gamification + gros format” :
-
 
 | Repo | Utilité |
 | :-- | :-- |
@@ -120,7 +117,6 @@ Voici les repos que je regarderais en premier pour votre use case “monde + lov
 - **GPU-driven rendering** pour les milliers de points, arcs et pulsations sur globe. `three-globe` et les démos WebGL s’inscrivent dans cette logique.[^2_7][^2_2]
 - **Procedural generation** pour les particules, routes, pulsations, clusters et événements “love map” dynamiques. C’est très compatible avec l’ADN demoscene.[^2_17][^2_1]
 - **Audio-reactive visuals** si vous voulez une couche musicale, très dans l’esprit scène. Les intros 4k et les demos HTML/WebGL du type VIRGO-1302 prouvent que c’est viable en navigateur.[^2_17]
-
 
 ## Architecture recommandée
 

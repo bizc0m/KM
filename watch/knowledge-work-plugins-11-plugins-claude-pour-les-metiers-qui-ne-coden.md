@@ -1,4 +1,4 @@
-# knowledge-work-plugins — 11 plugins Claude pour les métiers qui ne codent pas — L'Atelier
+# Claude Plugins For Knowledge Work
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-coden`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://atelierformation-ia.fr/ressource/knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-codent-pas`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `knowledge-work-plugins — 11 plugins Claude pour les métiers qui ne codent pas — L'Atelier`
+- titre : `Claude Plugins For Knowledge Work`
 - date : 2026-06-21T07:23:15.751Z
 - domaine : `atelierformation-ia.fr`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

@@ -1,4 +1,4 @@
-# 一个 IM 风格的多 Agent 协作平台，让 Claude Code、Codex、OpenCode 等 AI 编码 Agent 在共享工作区中并行协作开发软件
+# IM-Style Multi-Agent Coding Workspace
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:im-agent-claude-code-codex-opencode-ai-agent`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/qingq77/status/2065347371496804818`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `一个 IM 风格的多 Agent 协作平台，让 Claude Code、Codex、OpenCode 等 AI 编码 Agent 在共享工作区中并行协作开发软件`
+- titre : `IM-Style Multi-Agent Coding Workspace`
 - date : 2026-06-13T04:32:56.473Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

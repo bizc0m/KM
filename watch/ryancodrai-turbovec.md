@@ -1,4 +1,4 @@
-# RyanCodrai/turbovec: A vector index built on TurboQuant, written in Rust with Python bindings
+# TurboVec Vector Index
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:ryancodrai-turbovec`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://github.com/RyanCodrai/turbovec`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `RyanCodrai/turbovec: A vector index built on TurboQuant, written in Rust with Python bindings`
+- titre : `TurboVec Vector Index`
 - date : 2026-06-06T11:05:17.321Z
 - domaine : `github.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

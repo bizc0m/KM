@@ -1,4 +1,4 @@
-# UN DÉVELOPPEUR A CLONÉ NETFLIX, SPOTIFY, INSTAGRAM, AIRBNB ET AMAZON.
+# Clone Projects For Netflix, Spotify, Instagram, Airbnb And Amazon
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:un-developpeur-a-clone-netflix-spotify-instagram-airbnb-et-amazon`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/silencecaprompt/status/2066622453720445094`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `UN DÉVELOPPEUR A CLONÉ NETFLIX, SPOTIFY, INSTAGRAM, AIRBNB ET AMAZON.`
+- titre : `Clone Projects For Netflix, Spotify, Instagram, Airbnb And Amazon`
 - date : 2026-06-16T09:15:42.921Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

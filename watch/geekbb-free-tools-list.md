@@ -1,4 +1,4 @@
-# 收集了一批开源、免注册、不开账号直接用工具，整理成一个列表。
+# Free Open Source No-Signup Tools List
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, raindrop, to-verify
+#raindrop, #to-verify
 
 ## Appel canonique
 
 `watch:xamto-ai-understand-anything-x-post-2`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/geekbb/status/2065823256746352712`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `收集了一批开源、免注册、不开账号直接用工具，整理成一个列表。`
+- titre : `Free Open Source No-Signup Tools List`
 - date : 2026-06-13T23:09:19.562Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

@@ -1,4 +1,4 @@
-# Alternativa gratuita y de código abierto a NotebookLM
+# Open Source NotebookLM Alternative
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, llm, to-verify
+#llm, #to-verify
 
 ## Appel canonique
 
 `watch:alternativa-gratuita-y-de-codigo-abierto-a-notebooklm`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/midudev/status/2062525515441815843`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `Alternativa gratuita y de código abierto a NotebookLM`
+- titre : `Open Source NotebookLM Alternative`
 - date : 2026-06-05T06:50:11.879Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

@@ -1,4 +1,4 @@
-# 2️⃣ Lafys
+# Lafys
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, raindrop, to-verify
+#raindrop, #to-verify
 
 ## Appel canonique
 
 `watch:2-lafys`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/franpradasai/status/2065038920534921457`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `2️⃣ Lafys`
+- titre : `Lafys`
 - date : 2026-06-12T03:16:14.561Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

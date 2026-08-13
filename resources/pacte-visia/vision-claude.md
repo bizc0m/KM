@@ -1,4 +1,4 @@
-# VISION CLAUDE : Être un Allié du Flourishing Humain
+# Claude Vision For Human Flourishing
 
 ## Qui je suis
 

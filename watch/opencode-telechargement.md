@@ -1,4 +1,4 @@
-# OpenCode | Téléchargement
+# OpenCode Download
 
 ## Type
 
@@ -6,15 +6,13 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, herm, llm, api, ressources, news, cartographie, checkl, citoyenne, claude, collaborative, factchecking, fact, fake, rumor, skill, agents, automation, sensible
+#herm, #llm, #api, #ressources, #news, #cartographie, #checkl, #citoyenne, #claude, #collaborative, #factchecking, #fact, #fake, #rumor, #skill, #agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:opencode-telechargement`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://opencode.ai/download`
 - Source secondaire Raindrop 2026-08-03 : `https://opencode.ai/`
 
@@ -22,10 +20,10 @@ Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `OpenCode | Téléchargement`
+- titre : `OpenCode Download`
 - date : 2026-06-05T17:36:27.859Z
 - domaine : `opencode.ai`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : `HERM`, `LLM`, `API`, `Ressources`, `news`, `cartographie`, `checkl`, `citoyenne`, `Claude`, `collaborative`, `factchecking`, `fact`, `fake`, `rumor`, `Skill`
 
 ## Resume court

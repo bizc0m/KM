@@ -1,4 +1,4 @@
-# ÇOK ÇILGINCA BİR AI ARACI BULDUM.
+# Experimental AI Tool Discovery
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, llm, to-verify
+#llm, #to-verify
 
 ## Appel canonique
 
 `watch:cok-cilginca-bir-ai-araci-buldum`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/yigitakinkaya/status/2066620510218465621`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `ÇOK ÇILGINCA BİR AI ARACI BULDUM.`
+- titre : `Experimental AI Tool Discovery`
 - date : 2026-06-16T09:17:04.787Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

@@ -1,4 +1,4 @@
-# L'IA vient de tuer le métier de commercial en vendant à ta place 24h/24, formée sur le cerveau d'un vendeur à 1,2M$/an.
+# AI Sales Automation Agent
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:l-ia-vient-de-tuer-le-metier-de-commercial-en-vendant-a-ta-place-24h-2`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/silencecaprompt/status/2062488448410497231`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `L'IA vient de tuer le métier de commercial en vendant à ta place 24h/24, formée sur le cerveau d'un vendeur à 1,2M$/an.`
+- titre : `AI Sales Automation Agent`
 - date : 2026-06-05T06:51:51.936Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

@@ -1,4 +1,4 @@
-# 213.000 estrellas en GitHub.
+# GitHub Repository With 213,000 Stars
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:213-000-estrellas-en-github`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/fluyeporlaweb/status/2065434208655352118`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `213.000 estrellas en GitHub.`
+- titre : `GitHub Repository With 213,000 Stars`
 - date : 2026-06-13T04:32:26.500Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

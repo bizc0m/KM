@@ -1,4 +1,4 @@
-# Un `SKILL.md` signé Google Chrome pour injecter les bonnes pratiques web modernes directement dans vos agents de code — APIs natives, performance, accessibilité, au lieu des vieux patterns que les LLMs reproduisent par défaut.
+# Google Chrome Web Best Practices Skill
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/camilleroux/status/2062504651463729480`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `Un 'SKILL.md' signé Google Chrome pour injecter les bonnes pratiques web modernes directement dans vos agents de code — APIs natives, performance, accessibilité, au lieu des vieux patterns que les LLMs reproduisent par défaut.`
+- titre : `Google Chrome Web Best Practices Skill`
 - date : 2026-06-05T05:53:34.314Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

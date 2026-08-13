@@ -1,4 +1,4 @@
-# Sabtu malem, jam 2 pagi, gue masih melek 😅
+# Late Night AI Tool Discovery
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, llm, to-verify
+#llm, #to-verify
 
 ## Appel canonique
 
 `watch:sabtu-malem-jam-2-pagi-gue-masih-melek`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/stellarprtcol/status/2065690636129575297`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `Sabtu malem, jam 2 pagi, gue masih melek 😅`
+- titre : `Late Night AI Tool Discovery`
 - date : 2026-06-13T23:08:52.410Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

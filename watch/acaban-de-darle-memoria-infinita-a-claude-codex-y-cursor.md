@@ -1,4 +1,4 @@
-# ACABAN DE DARLE MEMORIA INFINITA A CLAUDE, CODEX Y CURSOR
+# Infinite Memory For Claude, Codex And Cursor
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/aialecs/status/2066225435705307629`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `ACABAN DE DARLE MEMORIA INFINITA A CLAUDE, CODEX Y CURSOR`
+- titre : `Infinite Memory For Claude, Codex And Cursor`
 - date : 2026-06-15T13:02:47.098Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

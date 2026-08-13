@@ -1,4 +1,4 @@
-# 10 GitHub repos that automate real work while you sleep in 2026.
+# GitHub Repositories For Work Automation
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:10-github-repos-that-automate-real-work-while-you-sleep-in-2026`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/heynavtoor/status/2065348690605400376`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `10 GitHub repos that automate real work while you sleep in 2026.`
+- titre : `GitHub Repositories For Work Automation`
 - date : 2026-06-13T04:31:04.740Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

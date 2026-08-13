@@ -1,4 +1,4 @@
-# 🔎 How I Automate Google Dorking for Faster OSINT Investigations
+# Google Dorking Automation For OSINT
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, #ROUGE, offensive-risk, privacy-risk
+#rouge, #offensive-risk, #privacy-risk
 
 ## Appel canonique
 
 `watch:how-i-automate-google-dorking-for-faster-osint-investigations`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/cyber_sudo/status/2062489706147836223`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `🔎 How I Automate Google Dorking for Faster OSINT Investigations`
+- titre : `Google Dorking Automation For OSINT`
 - date : 2026-06-05T06:50:27.393Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

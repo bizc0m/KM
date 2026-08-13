@@ -1,4 +1,4 @@
-# Bug Hunter 📍
+# Bug Hunter
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, #ROUGE, offensive-risk, privacy-risk
+#rouge, #offensive-risk, #privacy-risk
 
 ## Appel canonique
 
 `watch:bug-hunter`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/7h3h4ckv157/status/2066569330280759720`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `Bug Hunter 📍`
+- titre : `Bug Hunter`
 - date : 2026-06-16T09:17:38.058Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

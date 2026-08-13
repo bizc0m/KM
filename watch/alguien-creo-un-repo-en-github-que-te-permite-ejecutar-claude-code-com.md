@@ -1,4 +1,4 @@
-# ALGUIEN CREÓ UN REPO EN GITHUB QUE TE PERMITE EJECUTAR CLAUDE CODE COMPLETAMENTE GRATIS, PARA SIEMPRE.
+# Free Claude Code Execution Repository
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:alguien-creo-un-repo-en-github-que-te-permite-ejecutar-claude-code-com`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/arceyul/status/2062314626528756152`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `ALGUIEN CREÓ UN REPO EN GITHUB QUE TE PERMITE EJECUTAR CLAUDE CODE COMPLETAMENTE GRATIS, PARA SIEMPRE.`
+- titre : `Free Claude Code Execution Repository`
 - date : 2026-06-05T06:20:49.137Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

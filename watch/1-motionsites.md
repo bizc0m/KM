@@ -1,4 +1,4 @@
-# 1️⃣ Motionsites
+# Motionsites
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, raindrop, to-verify
+#raindrop, #to-verify
 
 ## Appel canonique
 
 `watch:1-motionsites`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/franpradasai/status/2065038918559449477`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `1️⃣ Motionsites`
+- titre : `Motionsites`
 - date : 2026-06-12T03:16:01.435Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

@@ -1,4 +1,4 @@
-# this github repo contains 50 of the most essential MCP servers that give your AI agents superpowers.
+# Essential MCP Servers Collection
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/explorax_/status/2062584596328243214`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `this github repo contains 50 of the most essential MCP servers that give your AI agents superpowers.`
+- titre : `Essential MCP Servers Collection`
 - date : 2026-06-05T06:49:49.340Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

@@ -1,4 +1,4 @@
-# Top 5 Sites pour Vibe Coders — Édition Niche
+# Top 5 Niche Sites For Vibe Coders
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:top-5-sites-pour-vibe-coders-edition-niche`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://rocky-cannon-2d6.notion.site/Top-5-Sites-pour-Vibe-Coders-dition-Niche-3861bf8e666f8084bfecdbd085110e90`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `Top 5 Sites pour Vibe Coders — Édition Niche`
+- titre : `Top 5 Niche Sites For Vibe Coders`
 - date : 2026-06-21T12:51:35.045Z
 - domaine : `rocky-cannon-2d6.notion.site`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

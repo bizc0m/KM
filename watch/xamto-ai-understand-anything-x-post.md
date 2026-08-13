@@ -1,4 +1,4 @@
-# 兄弟们，程序员跪着啃源码的时代终于要翻篇了！🔥
+# Understand Anything Code Knowledge Graph
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:xamto-ai-understand-anything-x-post`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/xamto_ai/status/2066302597586403400`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `兄弟们，程序员跪着啃源码的时代终于要翻篇了！🔥`
+- titre : `Understand Anything Code Knowledge Graph`
 - date : 2026-06-15T13:04:27.984Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

@@ -1,4 +1,4 @@
-# Ahora puedes darle memoria infinita a Claude, Codex y Cursor.
+# Infinite Memory For Claude, Codex And Cursor
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/nicos_ai/status/2062627106786566373`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `Ahora puedes darle memoria infinita a Claude, Codex y Cursor.`
+- titre : `Infinite Memory For Claude, Codex And Cursor`
 - date : 2026-06-05T06:51:25.081Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

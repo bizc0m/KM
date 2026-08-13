@@ -1,4 +1,4 @@
-# 卧槽兄弟们，GitHub 上真的有一堆免费到离谱的项目。
+# Free GitHub Project Collection
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:waveking-free-github-projects`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/waveking1314/status/2063184011770671115`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `卧槽兄弟们，GitHub 上真的有一堆免费到离谱的项目。`
+- titre : `Free GitHub Project Collection`
 - date : 2026-06-08T16:18:36.739Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

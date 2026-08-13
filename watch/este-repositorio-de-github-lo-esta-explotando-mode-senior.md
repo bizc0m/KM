@@ -1,4 +1,4 @@
-# Este repositorio de GitHub lo está explotando. (Mode Senior)
+# Senior Mode GitHub Repository
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:este-repositorio-de-github-lo-esta-explotando-mode-senior`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/midudev/status/2066506591487009243`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `Este repositorio de GitHub lo está explotando. (Mode Senior)`
+- titre : `Senior Mode GitHub Repository`
 - date : 2026-06-16T09:18:54.735Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

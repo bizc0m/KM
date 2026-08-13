@@ -1,6 +1,6 @@
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
-# sors moi tout le champs semantique de la nuit / Fete / Amitié Party en Anglais et francais
+# Night, Party And Friendship Semantic Field
 
 Marques ceux qui sont proches en Anglaisq / Francais sors en 100
 
@@ -21,7 +21,6 @@ Voici un champ sémantique structuré autour de **la nuit / fête / amitié / pa
 | Ambiance | Atmosphere |
 | Ambiance de fête | Party vibe |
 | Énergie de groupe | Group energy |
-
 
 ***
 
@@ -50,7 +49,6 @@ Voici un champ sémantique structuré autour de **la nuit / fête / amitié / pa
 | Nuit fiévreuse | Feverish night |
 | Nuit épique | Epic night |
 | Nuit mémorable | Memorable night |
-
 
 ***
 
@@ -106,7 +104,6 @@ Voici un champ sémantique structuré autour de **la nuit / fête / amitié / pa
 | BYOB / apporter son alcool | BYOB |
 | Last call / dernier service | Last call |
 | Closing time / fermeture | Closing time |
-
 
 ***
 
@@ -296,7 +293,6 @@ Voici un champ sémantique structuré autour de **la nuit / fête / amitié / pa
 [^1_1]: https://translate.google.com/?hl=fr\&langpair=en|fr
 
 [^1_2]: https://geoferlebon.com
-
 
 ---
 

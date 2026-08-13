@@ -1,4 +1,4 @@
-# ByteDance acaba de abrir el código del agente que controla tu ordenador completo.
+# ByteDance Open Source Computer Control Agent
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:bytedance-acaba-de-abrir-el-codigo-del-agente-que-controla-tu-ordenado`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/fluyeporlaweb/status/2066762822420177030`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `ByteDance acaba de abrir el código del agente que controla tu ordenador completo.`
+- titre : `ByteDance Open Source Computer Control Agent`
 - date : 2026-06-16T13:59:09.883Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

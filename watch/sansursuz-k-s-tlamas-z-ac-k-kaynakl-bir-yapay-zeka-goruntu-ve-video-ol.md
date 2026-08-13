@@ -1,4 +1,4 @@
-# Sansürsüz,🚨 kısıtlamasız açık kaynaklı bir yapay zeka görüntü ve video oluşturma aracı geldi! Bu çok tatmin edici! 🫪
+# Uncensored Open Source Image And Video AI Tool
 
 ## Type
 
@@ -6,30 +6,28 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, media, creative-ai, to-verify
+#media, #creative-ai, #to-verify
 
 ## Appel canonique
 
 `watch:sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/deeptechtr/status/2066056043981943251`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `Sansürsüz,🚨 kısıtlamasız açık kaynaklı bir yapay zeka görüntü ve video oluşturma aracı geldi! Bu çok tatmin edici! 🫪`
+- titre : `Uncensored Open Source Image And Video AI Tool`
 - date : 2026-06-15T10:55:37.911Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
 
-Flux, Kling, Sora ve Veo gibi üst düzey modelleri kullanarak görüntü ve video oluşturmak istiyor ancak platform kısıtlamaları ve ücretli aboneliklerle mi
+Watch signal for an open source image and video AI tool positioned as an alternative to restricted or subscription-based generation platforms. Claims must be verified before any public use or integration.
 
 ## Classification
 

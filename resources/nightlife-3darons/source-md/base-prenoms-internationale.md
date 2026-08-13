@@ -1,6 +1,6 @@
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 
-# prompt pour récupérer l'integralilité des prenoms dans le monde
+# International First Names Dataset Prompt
 
 Il n’existe pas de base publique qui contienne **l’intégralité absolue** des prénoms du monde (le nombre de variantes, orthographes, néologismes et cultures locales rend une telle liste exhaustive quasiment impossible à obtenir).[^1_5][^1_7]
 
@@ -29,7 +29,6 @@ Format de sortie :
 - Liste brute, un prénom par ligne, sans numérotation ni explication.
 ```
 
-
 ***
 
 ### Variante pour un fichier (CSV / JSON)
@@ -48,7 +47,6 @@ Consignes :
 Fichier / données :
 [... données CSV / JSON ...]
 ```
-
 
 ***
 
@@ -83,7 +81,6 @@ Souhaites‑tu que je t’aide à formuler un prompt orienté **API** (ex: appel
 [^1_9]: https://play.google.com/store/apps/details?id=com.olewebaffairs.firstnames\&hl=fr
 
 [^1_10]: https://www.pampers.fr/grossesse/prenoms-de-bebe/article/prenoms-de-bebes-internationaux-et-populaires
-
 
 ---
 

@@ -1,4 +1,4 @@
-# ‼️ Lancement de notre Projet - NEXUS_OSINT V1
+# Nexus OSINT V1 Launch
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, osint, privacy-sensitive
+#osint, #privacy-sensitive
 
 ## Appel canonique
 
 `watch:lancement-de-notre-projet-nexus-osint-v1`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/nexus_osint/status/2062580178727899394`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `‼️ Lancement de notre Projet - NEXUS_OSINT V1`
+- titre : `Nexus OSINT V1 Launch`
 - date : 2026-06-05T06:51:03.864Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

@@ -1,4 +1,4 @@
-# you can run google gemini 2.5 pro with a massive 2 milion "FREE" token context window for $0😲
+# Free Google Gemini 2.5 Pro Token Context
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:you-can-run-google-gemini-2-5-pro-with-a-massive-2-milion-free-token-c`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/nahid_pro09/status/2066785772431397317`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `you can run google gemini 2.5 pro with a massive 2 milion "FREE" token context window for $0😲`
+- titre : `Free Google Gemini 2.5 Pro Token Context`
 - date : 2026-06-16T13:59:51.776Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court

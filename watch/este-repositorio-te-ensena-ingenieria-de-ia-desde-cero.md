@@ -1,4 +1,4 @@
-# ESTE REPOSITORIO TE ENSEÑA INGENIERÍA DE IA DESDE CERO
+# AI Engineering From Scratch Repository
 
 ## Type
 
@@ -6,25 +6,23 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-raindrop-km-monitor, agents, automation, sensible
+#agents, #automation, #sensible
 
 ## Appel canonique
 
 `watch:este-repositorio-te-ensena-ingenieria-de-ia-desde-cero`
 
 ## Sources
-
-- Raindrop KM Monitor : `https://arno-vltn.raindrop.page/km-monitor-71629567`
 - Source : `https://x.com/marcusyul/status/2063615048065351843`
 
 Lecture KM : 2026-06-26
 
 Source Raindrop :
 
-- titre : `ESTE REPOSITORIO TE ENSEÑA INGENIERÍA DE IA DESDE CERO`
+- titre : `AI Engineering From Scratch Repository`
 - date : 2026-06-08T16:19:54.427Z
 - domaine : `x.com`
-- auteur/source : `arnaud-velten`
+- auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
 ## Resume court
