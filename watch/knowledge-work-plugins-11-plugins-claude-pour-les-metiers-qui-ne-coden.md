@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-coden`
 
 ## Sources
-- Source : `https://atelierformation-ia.fr/ressource/knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-codent-pas`
+- Source : [https://atelierformation-ia.fr/ressource/knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-codent-pas](https://atelierformation-ia.fr/ressource/knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-codent-pas)
 
 Lecture KM : 2026-06-26
 

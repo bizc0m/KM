@@ -13,7 +13,7 @@ Veille outil OSINT / investigation Instagram.
 `watch:ig-detective-instagram-osint-suite`
 
 ## Sources
-- Source : `https://x.com/esgeeks/status/2070949896304128046`
+- Source : [https://x.com/esgeeks/status/2070949896304128046](https://x.com/esgeeks/status/2070949896304128046)
 
 Lecture KM : 2026-06-28
 

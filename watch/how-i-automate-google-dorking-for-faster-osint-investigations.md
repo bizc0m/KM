@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:how-i-automate-google-dorking-for-faster-osint-investigations`
 
 ## Sources
-- Source : `https://x.com/cyber_sudo/status/2062489706147836223`
+- Source : [https://x.com/cyber_sudo/status/2062489706147836223](https://x.com/cyber_sudo/status/2062489706147836223)
 
 Lecture KM : 2026-06-26
 

@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:pewdiepie-archdaemon-odysseus`
 
 ## Sources
-- Source : `https://github.com/pewdiepie-archdaemon/odysseus`
+- Source : [https://github.com/pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus)
 
 Lecture KM : 2026-06-26
 

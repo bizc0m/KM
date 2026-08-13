@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:alternativa-gratuita-y-de-codigo-abierto-a-notebooklm`
 
 ## Sources
-- Source : `https://x.com/midudev/status/2062525515441815843`
+- Source : [https://x.com/midudev/status/2062525515441815843](https://x.com/midudev/status/2062525515441815843)
 
 Lecture KM : 2026-06-26
 

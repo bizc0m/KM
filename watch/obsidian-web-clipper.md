@@ -13,7 +13,7 @@ Veille outil KM / capture web vers Obsidian.
 `watch:obsidian-web-clipper`
 
 ## Sources
-- Source : `https://obsidian.md/clipper`
+- Source : [https://obsidian.md/clipper](https://obsidian.md/clipper)
 
 Lecture KM : 2026-06-27
 

@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / orchestration multi-agents autonome.
 `watch:auto-company-autonomous-ai-company`
 
 ## Sources
-- Source finale : `https://github.com/MaxMiksa/Auto-Company`
+- Source finale : [https://github.com/MaxMiksa/Auto-Company](https://github.com/MaxMiksa/Auto-Company)
 - Metadata GitHub API : `https://api.github.com/repos/MaxMiksa/Auto-Company`
 
 Lecture KM : 2026-07-22

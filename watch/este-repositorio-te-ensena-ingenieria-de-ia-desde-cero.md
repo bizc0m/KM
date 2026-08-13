@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:este-repositorio-te-ensena-ingenieria-de-ia-desde-cero`
 
 ## Sources
-- Source : `https://x.com/marcusyul/status/2063615048065351843`
+- Source : [https://x.com/marcusyul/status/2063615048065351843](https://x.com/marcusyul/status/2063615048065351843)
 
 Lecture KM : 2026-06-26
 

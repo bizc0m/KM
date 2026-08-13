@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:guide-claude-code-remotion-ia-boss`
 
 ## Sources
-- Source : `https://docs.google.com/document/u/0/d/1oAATWl9iCTVELCmEUv1PvMYbxig86ezjncWkEPl1YoY/mobilebasic`
+- Source : [https://docs.google.com/document/u/0/d/1oAATWl9iCTVELCmEUv1PvMYbxig86ezjncWkEPl1YoY/mobilebasic](https://docs.google.com/document/u/0/d/1oAATWl9iCTVELCmEUv1PvMYbxig86ezjncWkEPl1YoY/mobilebasic)
 
 Lecture KM : 2026-06-26
 

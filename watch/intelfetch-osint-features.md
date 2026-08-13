@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / plateforme OSINT.
 `watch:intelfetch-osint-features`
 
 ## Sources
-- Source finale : `https://intelfetch.net/features`
+- Source finale : [https://intelfetch.net/features](https://intelfetch.net/features)
 
 Lecture KM : 2026-08-09
 

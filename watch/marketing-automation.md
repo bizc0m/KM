@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:marketing-automation`
 
 ## Sources
-- Source : `https://x.com/robiartec/status/2066582651247452308`
+- Source : [https://x.com/robiartec/status/2066582651247452308](https://x.com/robiartec/status/2066582651247452308)
 
 Lecture KM : 2026-06-26
 

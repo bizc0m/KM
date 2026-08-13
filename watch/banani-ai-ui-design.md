@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / outil design IA.
 `watch:banani-ai-ui-design`
 
 ## Sources
-- Source finale : `https://www.banani.co/`
+- Source finale : [https://www.banani.co/](https://www.banani.co/)
 
 Lecture KM : 2026-08-04
 

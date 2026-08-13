@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:ideogram-4-0-the-open-model-for-visual-intelligence`
 
 ## Sources
-- Source : `https://ideogram.ai`
+- Source : [https://ideogram.ai](https://ideogram.ai)
 
 Lecture KM : 2026-06-26
 

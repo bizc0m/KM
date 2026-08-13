@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / connecteur MCP pour notes, taches et calendrier.
 `watch:noteplan-mcp-server`
 
 ## Sources
-- Source finale : `https://help.noteplan.co/article/277-how-to-install-the-noteplan-mcp-server`
+- Source finale : [https://help.noteplan.co/article/277-how-to-install-the-noteplan-mcp-server](https://help.noteplan.co/article/277-how-to-install-the-noteplan-mcp-server)
 
 Lecture KM : 2026-08-03
 

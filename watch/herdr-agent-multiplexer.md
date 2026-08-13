@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / orchestration agents terminal.
 `watch:herdr-agent-multiplexer`
 
 ## Sources
-- Source finale : `https://github.com/herdrdev/herdr`
+- Source finale : [https://github.com/herdrdev/herdr](https://github.com/herdrdev/herdr)
 
 Lecture KM : 2026-08-09
 

@@ -13,7 +13,7 @@ Veille outils / scraping et extraction web.
 `watch:internet-scraping-github-repos-lucy-love-ai`
 
 ## Sources
-- Source : `https://x.com/lucy_love_ai/status/2071040656634732984`
+- Source : [https://x.com/lucy_love_ai/status/2071040656634732984](https://x.com/lucy_love_ai/status/2071040656634732984)
 - Lien court resolu partiellement : `https://github.com/firecrawl/firecrawl`
 
 Lecture KM : 2026-06-28

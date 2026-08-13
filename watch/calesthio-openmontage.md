@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:calesthio-openmontage`
 
 ## Sources
-- Source : `https://github.com/calesthio/OpenMontage`
+- Source : [https://github.com/calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
 
 Lecture KM : 2026-06-26
 

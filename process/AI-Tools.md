@@ -294,7 +294,7 @@ Hysteria = proxy rapide + resistance censure + infrastructure reseau.
 ## GitHub Spec Kit
 
 URL : https://github.com/github/spec-kit
-Source : https://x.com/nicos_ai/status/2056478886280753455
+Source : [https://x.com/nicos_ai/status/2056478886280753455](https://x.com/nicos_ai/status/2056478886280753455)
 
 Resume en 3 lignes :
 Spec Kit est un toolkit open source de GitHub pour faire du spec-driven development avec des agents IA.
@@ -314,7 +314,7 @@ Spec Kit = workflow spec-first pour agents IA + planification avant code.
 ## agency-agents
 
 URL : https://github.com/msitarzewski/agency-agents
-Source : https://x.com/NFTCPS/status/2056188353490595903
+Source : [https://x.com/NFTCPS/status/2056188353490595903](https://x.com/NFTCPS/status/2056188353490595903)
 
 Resume en 3 lignes :
 agency-agents est une bibliotheque de roles d'agents IA specialises.
@@ -334,7 +334,7 @@ agency-agents = bibliotheque de personas experts pour agents IA.
 ## Streambert
 
 URL : https://github.com/truelockmc/streambert
-Source : https://x.com/sukh_saroy/status/2056368727684452809
+Source : [https://x.com/sukh_saroy/status/2056368727684452809](https://x.com/sukh_saroy/status/2056368727684452809)
 
 Resume en 3 lignes :
 Streambert est une application desktop Electron pour chercher, streamer et telecharger films, series et anime.
@@ -354,7 +354,7 @@ Streambert = app desktop media streaming/download + sources tierces + verifier l
 ## freeLLMAPI
 
 URL : https://github.com/tashfeenahmed/freellmapi
-Source : https://x.com/david_attisaas/status/2056343039183147440
+Source : [https://x.com/david_attisaas/status/2056343039183147440](https://x.com/david_attisaas/status/2056343039183147440)
 
 Resume en 3 lignes :
 freeLLMAPI est un projet GitHub partage comme API gratuite pour modeles LLM.
@@ -374,7 +374,7 @@ freeLLMAPI = API LLM gratuite pour tests rapides, a verifier avant usage serieux
 ## OpenWA
 
 URL : https://github.com/rmyndharis/OpenWA
-Source : https://x.com/_guillecasaus/status/2056316078888820874
+Source : [https://x.com/_guillecasaus/status/2056316078888820874](https://x.com/_guillecasaus/status/2056316078888820874)
 
 Resume en 3 lignes :
 OpenWA est une passerelle WhatsApp API open source et self-hosted.
@@ -394,7 +394,7 @@ OpenWA = API WhatsApp self-hosted + webhooks + dashboard.
 ## yt-dlp
 
 URL : https://github.com/yt-dlp/yt-dlp
-Source : https://x.com/HowToAI_/status/2056497305780457685
+Source : [https://x.com/HowToAI_/status/2056497305780457685](https://x.com/HowToAI_/status/2056497305780457685)
 
 Resume en 3 lignes :
 yt-dlp est un CLI open source pour telecharger videos, audio, sous-titres et metadonnees depuis de nombreuses plateformes.
@@ -415,7 +415,7 @@ yt-dlp = CLI media download/archivage + formats + sous-titres.
 
 URL repo : https://github.com/opencut-app/opencut
 URL site : https://opencut.io/
-Source : https://x.com/KanikaBK/status/2056412075434659960
+Source : [https://x.com/KanikaBK/status/2056412075434659960](https://x.com/KanikaBK/status/2056412075434659960)
 
 Resume en 3 lignes :
 OpenCut est un editeur video open source presente comme alternative a CapCut.
@@ -435,7 +435,7 @@ OpenCut = editeur video open source type CapCut + sans watermark.
 ## OSINT Cabal Live Center
 
 URL : https://osintcabal.org/livecenter/
-Source : https://x.com/cyb_detective/status/2056325264246706649
+Source : [https://x.com/cyb_detective/status/2056325264246706649](https://x.com/cyb_detective/status/2056325264246706649)
 
 Resume en 3 lignes :
 OSINT Cabal Live Center regroupe des versions web de plusieurs outils OSINT en ligne.
@@ -455,7 +455,7 @@ OSINT Cabal Live Center = hub web d'outils OSINT.
 ## MoneyPrinter
 
 URL : https://github.com/FujiwaraChoki/MoneyPrinter
-Source : https://x.com/tom_doerr/status/2056509860162756860
+Source : [https://x.com/tom_doerr/status/2056509860162756860](https://x.com/tom_doerr/status/2056509860162756860)
 
 Resume en 3 lignes :
 MoneyPrinter automatise la creation de YouTube Shorts a partir de sujets video.
@@ -475,7 +475,7 @@ MoneyPrinter = generation automatisee de YouTube Shorts.
 ## free-claude-code
 
 URL : https://github.com/Alishahryar1/free-claude-code
-Source : https://x.com/dr_cintas/status/2056077614113325373
+Source : [https://x.com/dr_cintas/status/2056077614113325373](https://x.com/dr_cintas/status/2056077614113325373)
 
 Resume en 3 lignes :
 free-claude-code est un proxy Anthropic-compatible pour utiliser Claude Code avec d'autres providers.
@@ -495,7 +495,7 @@ free-claude-code = proxy Claude Code vers NVIDIA NIM/local/OpenRouter/autres.
 ## Open-Generative-AI
 
 URL : https://github.com/Anil-matcha/Open-Generative-AI
-Source : https://x.com/InduTripat82427/status/2056408789327462486
+Source : [https://x.com/InduTripat82427/status/2056408789327462486](https://x.com/InduTripat82427/status/2056408789327462486)
 
 Resume en 3 lignes :
 Open-Generative-AI est un studio open source pour generation image et video.
@@ -515,7 +515,7 @@ Open-Generative-AI = studio open source image/video multi-modeles.
 ## Superpowers
 
 URL : https://github.com/obra/superpowers
-Source : https://x.com/arceyul/status/2056108436224430139
+Source : [https://x.com/arceyul/status/2056108436224430139](https://x.com/arceyul/status/2056108436224430139)
 
 Resume en 3 lignes :
 Superpowers est un framework de skills et methodologie pour agents de code.
@@ -535,7 +535,7 @@ Superpowers = skills + workflow TDD pour agents coding.
 ## ViMax
 
 URL : https://github.com/HKUDS/ViMax
-Source : https://x.com/NFTCPS/status/2056190651939848534
+Source : [https://x.com/NFTCPS/status/2056190651939848534](https://x.com/NFTCPS/status/2056190651939848534)
 
 Resume en 3 lignes :
 ViMax est un systeme multi-agent pour generation video a partir d'idee, script ou roman.
@@ -555,7 +555,7 @@ ViMax = multi-agent video generation depuis idee/script/roman.
 ## J.A.R.V.I.S
 
 URL : https://github.com/GauravSingh9356/J.A.R.V.I.S
-Source : https://x.com/tom_doerr/status/2056514018135642189
+Source : [https://x.com/tom_doerr/status/2056514018135642189](https://x.com/tom_doerr/status/2056514018135642189)
 
 Resume en 3 lignes :
 J.A.R.V.I.S est un assistant personnel Python avec OCR et controle vocal.
@@ -575,7 +575,7 @@ J.A.R.V.I.S = assistant Python vocal + OCR + automatisation web.
 ## Open Design
 
 URL : https://github.com/nexu-io/open-design
-Source : https://x.com/tuturetom/status/2056258502050357334
+Source : [https://x.com/tuturetom/status/2056258502050357334](https://x.com/tuturetom/status/2056258502050357334)
 
 Resume en 3 lignes :
 Open Design est une alternative open source orientee Claude Design.
@@ -595,7 +595,7 @@ Open Design = alternative open source Claude Design + templates + skills UI.
 ## ip.guide
 
 URL : https://ip.guide
-Source : https://x.com/midudev/status/2056030422778196039
+Source : [https://x.com/midudev/status/2056030422778196039](https://x.com/midudev/status/2056030422778196039)
 
 Resume en 3 lignes :
 ip.guide est une API gratuite pour obtenir la localisation d'une adresse IP.

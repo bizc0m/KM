@@ -13,7 +13,7 @@ Veille outil IA / generation video agentique.
 `watch:hyperframes-ai-video-generation-skill`
 
 ## Sources
-- Source : `https://x.com/ayi_ainotes/status/2070790079585436135`
+- Source : [https://x.com/ayi_ainotes/status/2070790079585436135](https://x.com/ayi_ainotes/status/2070790079585436135)
 - Lien resolu : `https://hyperframes.heygen.com/`
 - GitHub signale : `heygen-com/hyperframes`
 

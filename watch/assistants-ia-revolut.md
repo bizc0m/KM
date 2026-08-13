@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / notice legale service financier IA.
 `watch:assistants-ia-revolut`
 
 ## Sources
-- Source finale : `https://www.revolut.com/fr-FR/legal/rita-disclaimer`
+- Source finale : [https://www.revolut.com/fr-FR/legal/rita-disclaimer](https://www.revolut.com/fr-FR/legal/rita-disclaimer)
 
 Lecture KM : 2026-07-17
 

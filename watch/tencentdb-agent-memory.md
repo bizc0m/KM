@@ -37,7 +37,7 @@ Source Raindrop secondaire dedupliquee :
 
 - date : 2026-08-07T19:19:38.301Z
 - titre : `Repositorio:`
-- source sociale : `https://x.com/franpradasai/status/2085663764100337989?s=12`
+- source sociale : [https://x.com/franpradasai/status/2085663764100337989?s=12](https://x.com/franpradasai/status/2085663764100337989?s=12)
 - lien resolu : `https://github.com/TencentCloud/TencentDB-Agent-Memory`
 - decision : pas de nouvelle fiche, deja couvert par `watch:tencentdb-agent-memory`.
 

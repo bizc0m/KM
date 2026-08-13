@@ -13,7 +13,7 @@ Veille outil dev / workflow specification avant code.
 `watch:spec-kit-vibe-coding-specification-workflow`
 
 ## Sources
-- Source : `https://x.com/zaynmcps/status/2070813494979530934`
+- Source : [https://x.com/zaynmcps/status/2070813494979530934](https://x.com/zaynmcps/status/2070813494979530934)
 
 Lecture KM : 2026-06-28
 

@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:xamto-ai-understand-anything-x-post`
 
 ## Sources
-- Source : `https://x.com/xamto_ai/status/2066302597586403400`
+- Source : [https://x.com/xamto_ai/status/2066302597586403400](https://x.com/xamto_ai/status/2066302597586403400)
 
 Lecture KM : 2026-06-26
 

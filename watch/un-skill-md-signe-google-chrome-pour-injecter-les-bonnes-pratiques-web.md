@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web`
 
 ## Sources
-- Source : `https://x.com/camilleroux/status/2062504651463729480`
+- Source : [https://x.com/camilleroux/status/2062504651463729480](https://x.com/camilleroux/status/2062504651463729480)
 
 Lecture KM : 2026-06-26
 

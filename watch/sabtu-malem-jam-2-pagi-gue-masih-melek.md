@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:sabtu-malem-jam-2-pagi-gue-masih-melek`
 
 ## Sources
-- Source : `https://x.com/stellarprtcol/status/2065690636129575297`
+- Source : [https://x.com/stellarprtcol/status/2065690636129575297](https://x.com/stellarprtcol/status/2065690636129575297)
 
 Lecture KM : 2026-06-26
 

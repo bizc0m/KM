@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / bibliotheque Swift pour macOS Accessibility.
 `watch:axorcist-macos-accessibility`
 
 ## Sources
-- Source finale : `https://github.com/openclaw/AXorcist`
+- Source finale : [https://github.com/openclaw/AXorcist](https://github.com/openclaw/AXorcist)
 
 Lecture KM : 2026-08-03
 

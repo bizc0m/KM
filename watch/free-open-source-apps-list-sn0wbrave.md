@@ -13,7 +13,7 @@ Veille outil / annuaire applications gratuites open source.
 `watch:free-open-source-apps-list-sn0wbrave`
 
 ## Sources
-- Source sociale : `https://x.com/sn0wbrave/status/2070657216835633364`
+- Source sociale : [https://x.com/sn0wbrave/status/2070657216835633364](https://x.com/sn0wbrave/status/2070657216835633364)
 
 Lecture KM : 2026-06-27
 

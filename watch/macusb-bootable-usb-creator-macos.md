@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / outil macOS.
 `watch:macusb-bootable-usb-creator-macos`
 
 ## Sources
-- Source finale : `https://www.macusb.app/`
+- Source finale : [https://www.macusb.app/](https://www.macusb.app/)
 
 Lecture KM : 2026-08-03
 

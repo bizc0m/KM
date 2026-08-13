@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:claude-code-ya-es-potente-solo`
 
 ## Sources
-- Source : `https://x.com/fluyeporlaweb/status/2066581711031238805`
+- Source : [https://x.com/fluyeporlaweb/status/2066581711031238805](https://x.com/fluyeporlaweb/status/2066581711031238805)
 
 Lecture KM : 2026-06-26
 

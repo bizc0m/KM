@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / agent IA local pour macOS.
 `watch:openfelix-local-ai-agent-macos`
 
 ## Sources
-- Source finale : `https://openfelix.com/`
+- Source finale : [https://openfelix.com/](https://openfelix.com/)
 
 Lecture KM : 2026-08-03
 

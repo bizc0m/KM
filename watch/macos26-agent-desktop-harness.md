@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / agent desktop macOS et harness agentique.
 `watch:macos26-agent-desktop-harness`
 
 ## Sources
-- Source finale : `https://github.com/macos26/agent`
+- Source finale : [https://github.com/macos26/agent](https://github.com/macos26/agent)
 
 Lecture KM : 2026-08-03
 

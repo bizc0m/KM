@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:este-repositorio-de-github-lo-esta-explotando-mode-senior`
 
 ## Sources
-- Source : `https://x.com/midudev/status/2066506591487009243`
+- Source : [https://x.com/midudev/status/2066506591487009243](https://x.com/midudev/status/2066506591487009243)
 
 Lecture KM : 2026-06-26
 

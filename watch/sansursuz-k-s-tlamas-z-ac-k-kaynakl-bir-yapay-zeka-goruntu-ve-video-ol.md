@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol`
 
 ## Sources
-- Source : `https://x.com/deeptechtr/status/2066056043981943251`
+- Source : [https://x.com/deeptechtr/status/2066056043981943251](https://x.com/deeptechtr/status/2066056043981943251)
 
 Lecture KM : 2026-06-26
 

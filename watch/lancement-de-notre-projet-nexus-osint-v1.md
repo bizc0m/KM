@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:lancement-de-notre-projet-nexus-osint-v1`
 
 ## Sources
-- Source : `https://x.com/nexus_osint/status/2062580178727899394`
+- Source : [https://x.com/nexus_osint/status/2062580178727899394](https://x.com/nexus_osint/status/2062580178727899394)
 
 Lecture KM : 2026-06-26
 

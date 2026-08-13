@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / outil design IA.
 `watch:ui-design-made-easy-powered-by-ai-uizard`
 
 ## Sources
-- Source finale : `https://uizard.io/`
+- Source finale : [https://uizard.io/](https://uizard.io/)
 
 Lecture KM : 2026-08-04
 

@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor`
 
 ## Sources
-- Source : `https://x.com/aialecs/status/2066225435705307629`
+- Source : [https://x.com/aialecs/status/2066225435705307629](https://x.com/aialecs/status/2066225435705307629)
 
 Lecture KM : 2026-06-26
 

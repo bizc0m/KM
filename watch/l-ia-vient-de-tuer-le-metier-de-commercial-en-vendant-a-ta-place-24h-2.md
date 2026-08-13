@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:l-ia-vient-de-tuer-le-metier-de-commercial-en-vendant-a-ta-place-24h-2`
 
 ## Sources
-- Source : `https://x.com/silencecaprompt/status/2062488448410497231`
+- Source : [https://x.com/silencecaprompt/status/2062488448410497231](https://x.com/silencecaprompt/status/2062488448410497231)
 
 Lecture KM : 2026-06-26
 

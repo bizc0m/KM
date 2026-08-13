@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:mvanhorn-last30days-skill`
 
 ## Sources
-- Source : `https://github.com/mvanhorn/last30days-skill`
+- Source : [https://github.com/mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
 
 Lecture KM : 2026-06-26
 

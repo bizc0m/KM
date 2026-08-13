@@ -13,7 +13,7 @@ Veille ressource KM / template Notion pour preparation de projet IA.
 `watch:notion-les-7-docs-avant-de-coder-avec-ia`
 
 ## Sources
-- Source : `https://app.notion.com/p/Les-7-Docs-avant-de-coder-avec-l-IA-Template-complet-3679af7a5100817091a8e3a482f3341c`
+- Source : [https://app.notion.com/p/Les-7-Docs-avant-de-coder-avec-l-IA-Template-complet-3679af7a5100817091a8e3a482f3341c](https://app.notion.com/p/Les-7-Docs-avant-de-coder-avec-l-IA-Template-complet-3679af7a5100817091a8e3a482f3341c)
 
 Lecture KM : 2026-07-09
 

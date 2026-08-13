@@ -13,7 +13,7 @@ Veille workflow agents / configuration AGENTS.md.
 `watch:claude-agents-md-config-alexsoyes`
 
 ## Sources
-- Source sociale : `https://x.com/alexsoyes/status/2070522733608292544`
+- Source sociale : [https://x.com/alexsoyes/status/2070522733608292544](https://x.com/alexsoyes/status/2070522733608292544)
 
 Lecture KM : 2026-06-27
 

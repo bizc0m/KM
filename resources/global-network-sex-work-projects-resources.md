@@ -13,7 +13,7 @@ Ressource longue / veille droits humains.
 `resource:global-network-sex-work-projects-resources`
 
 ## Sources
-- Source : `https://www.nswp.org`
+- Source : [https://www.nswp.org](https://www.nswp.org)
 
 Lecture KM : 2026-06-27
 

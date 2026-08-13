@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:cok-cilginca-bir-ai-araci-buldum`
 
 ## Sources
-- Source : `https://x.com/yigitakinkaya/status/2066620510218465621`
+- Source : [https://x.com/yigitakinkaya/status/2066620510218465621](https://x.com/yigitakinkaya/status/2066620510218465621)
 
 Lecture KM : 2026-06-26
 

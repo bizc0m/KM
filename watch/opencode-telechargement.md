@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:opencode-telechargement`
 
 ## Sources
-- Source : `https://opencode.ai/download`
+- Source : [https://opencode.ai/download](https://opencode.ai/download)
 - Source secondaire Raindrop 2026-08-03 : `https://opencode.ai/`
 
 Lecture KM : 2026-06-26

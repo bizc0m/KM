@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:kyber-kyber-gitlab`
 
 ## Sources
-- Source : `https://gitlab.com/kyber/kyber`
+- Source : [https://gitlab.com/kyber/kyber](https://gitlab.com/kyber/kyber)
 
 Lecture KM : 2026-06-26
 

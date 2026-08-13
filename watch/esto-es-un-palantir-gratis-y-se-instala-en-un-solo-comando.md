@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:esto-es-un-palantir-gratis-y-se-instala-en-un-solo-comando`
 
 ## Sources
-- Source : `https://x.com/marcusyul/status/2063710599679263141`
+- Source : [https://x.com/marcusyul/status/2063710599679263141](https://x.com/marcusyul/status/2063710599679263141)
 
 Lecture KM : 2026-06-26
 

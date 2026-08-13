@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:you-can-run-google-gemini-2-5-pro-with-a-massive-2-milion-free-token-c`
 
 ## Sources
-- Source : `https://x.com/nahid_pro09/status/2066785772431397317`
+- Source : [https://x.com/nahid_pro09/status/2066785772431397317](https://x.com/nahid_pro09/status/2066785772431397317)
 
 Lecture KM : 2026-06-26
 

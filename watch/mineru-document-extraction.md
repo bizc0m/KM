@@ -13,7 +13,7 @@ Veille outil IA / extraction documents.
 `watch:mineru-document-extraction`
 
 ## Sources
-- Source sociale : `https://x.com/yerocode0/status/2070221861976183259`
+- Source sociale : [https://x.com/yerocode0/status/2070221861976183259](https://x.com/yerocode0/status/2070221861976183259)
 
 Lecture KM : 2026-06-27
 

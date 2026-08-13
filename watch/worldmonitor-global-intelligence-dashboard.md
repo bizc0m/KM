@@ -13,7 +13,7 @@ Veille outil OSINT / tableau de bord geostrategique.
 `watch:worldmonitor-global-intelligence-dashboard`
 
 ## Sources
-- Source : `https://x.com/xiaoying_eth/status/2070782487824089533`
+- Source : [https://x.com/xiaoying_eth/status/2070782487824089533](https://x.com/xiaoying_eth/status/2070782487824089533)
 - GitHub resolu : `https://github.com/koala73/worldmonitor`
 
 Lecture KM : 2026-06-28

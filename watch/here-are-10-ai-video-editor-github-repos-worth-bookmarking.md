@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:here-are-10-ai-video-editor-github-repos-worth-bookmarking`
 
 ## Sources
-- Source : `https://x.com/kanikabk/status/2065780534148731148`
+- Source : [https://x.com/kanikabk/status/2065780534148731148](https://x.com/kanikabk/status/2065780534148731148)
 
 Lecture KM : 2026-06-26
 

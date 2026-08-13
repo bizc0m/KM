@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / bibliotheque extraction PDF.
 `watch:firecrawl-pdf-inspector`
 
 ## Sources
-- Source finale : `https://github.com/firecrawl/pdf-inspector`
+- Source finale : [https://github.com/firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector)
 
 Lecture KM : 2026-08-09
 

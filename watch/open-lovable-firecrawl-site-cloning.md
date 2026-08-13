@@ -13,7 +13,7 @@ Veille outil dev / clonage de sites en React.
 `watch:open-lovable-firecrawl-site-cloning`
 
 ## Sources
-- Source : `https://x.com/jolyne_ai/status/2070839598155186425`
+- Source : [https://x.com/jolyne_ai/status/2070839598155186425](https://x.com/jolyne_ai/status/2070839598155186425)
 - GitHub resolu : `https://github.com/firecrawl/open-lovable`
 
 Lecture KM : 2026-06-28

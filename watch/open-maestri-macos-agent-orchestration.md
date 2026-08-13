@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / orchestration visuelle multi-agents macOS.
 `watch:open-maestri-macos-agent-orchestration`
 
 ## Sources
-- Source finale : `https://github.com/zlh-428/open-maestri`
+- Source finale : [https://github.com/zlh-428/open-maestri](https://github.com/zlh-428/open-maestri)
 
 Lecture KM : 2026-08-03
 

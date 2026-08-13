@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / detection tendances GitHub.
 `watch:trendshift-github-momentum`
 
 ## Sources
-- Source finale : `https://trendshift.io/`
+- Source finale : [https://trendshift.io/](https://trendshift.io/)
 
 Lecture KM : 2026-08-09
 

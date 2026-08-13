@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi`
 
 ## Sources
-- Source : `https://x.com/explorax_/status/2062584596328243214`
+- Source : [https://x.com/explorax_/status/2062584596328243214](https://x.com/explorax_/status/2062584596328243214)
 
 Lecture KM : 2026-06-26
 

@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor`
 
 ## Sources
-- Source : `https://x.com/nicos_ai/status/2062627106786566373`
+- Source : [https://x.com/nicos_ai/status/2062627106786566373](https://x.com/nicos_ai/status/2062627106786566373)
 
 Lecture KM : 2026-06-26
 

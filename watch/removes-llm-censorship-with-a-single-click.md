@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:removes-llm-censorship-with-a-single-click`
 
 ## Sources
-- Source : `https://x.com/0x0sojalsec/status/2063664329208344701`
+- Source : [https://x.com/0x0sojalsec/status/2063664329208344701](https://x.com/0x0sojalsec/status/2063664329208344701)
 
 Lecture KM : 2026-06-26
 

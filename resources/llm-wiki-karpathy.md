@@ -13,7 +13,7 @@ Ressource longue / reference LLM.
 `resource:llm-wiki-karpathy`
 
 ## Sources
-- Source : `https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f`
+- Source : [https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 
 Lecture KM : 2026-06-27
 

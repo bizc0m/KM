@@ -13,7 +13,7 @@ Veille outil cyber / threat intelligence.
 `watch:openthreat-threat-intelligence-platform`
 
 ## Sources
-- Source : `https://x.com/vivekintel/status/2071112289173041586`
+- Source : [https://x.com/vivekintel/status/2071112289173041586](https://x.com/vivekintel/status/2071112289173041586)
 
 Lecture KM : 2026-06-28
 

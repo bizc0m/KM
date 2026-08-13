@@ -13,7 +13,7 @@ Veille outils / scraping et extraction web.
 `watch:internet-scraping-github-repos-ecommartinez`
 
 ## Sources
-- Source : `https://x.com/ecommartinez/status/2071360257906168143`
+- Source : [https://x.com/ecommartinez/status/2071360257906168143](https://x.com/ecommartinez/status/2071360257906168143)
 
 Lecture KM : 2026-06-29
 

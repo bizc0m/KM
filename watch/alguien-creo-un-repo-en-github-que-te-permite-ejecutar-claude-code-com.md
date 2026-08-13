@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:alguien-creo-un-repo-en-github-que-te-permite-ejecutar-claude-code-com`
 
 ## Sources
-- Source : `https://x.com/arceyul/status/2062314626528756152`
+- Source : [https://x.com/arceyul/status/2062314626528756152](https://x.com/arceyul/status/2062314626528756152)
 
 Lecture KM : 2026-06-26
 

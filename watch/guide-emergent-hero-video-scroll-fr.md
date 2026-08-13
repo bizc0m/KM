@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:guide-emergent-hero-video-scroll-fr`
 
 ## Sources
-- Source : `https://docs.google.com/document/u/0/d/14hEalys0NrtHDhY8GiFX_FZ3BRATRIrsrGm16I96E5I/mobilebasic`
+- Source : [https://docs.google.com/document/u/0/d/14hEalys0NrtHDhY8GiFX_FZ3BRATRIrsrGm16I96E5I/mobilebasic](https://docs.google.com/document/u/0/d/14hEalys0NrtHDhY8GiFX_FZ3BRATRIrsrGm16I96E5I/mobilebasic)
 
 Lecture KM : 2026-06-26
 

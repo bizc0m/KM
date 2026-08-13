@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / annuaire projets compagnons IA.
 `watch:awesome-ai-companion`
 
 ## Sources
-- Source finale : `https://github.com/DasterProkio/awesome-ai-companion`
+- Source finale : [https://github.com/DasterProkio/awesome-ai-companion](https://github.com/DasterProkio/awesome-ai-companion)
 
 Lecture KM : 2026-08-09
 

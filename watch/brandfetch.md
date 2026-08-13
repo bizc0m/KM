@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / ressource de marque et assets publics.
 `watch:brandfetch`
 
 ## Sources
-- Source finale : `https://brandfetch.com/`
+- Source finale : [https://brandfetch.com/](https://brandfetch.com/)
 
 Lecture KM : 2026-08-02
 

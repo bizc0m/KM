@@ -13,7 +13,7 @@ Veille `#ROUGE` / OSINT identifiants publics.
 `watch:ghosttrack-digital-footprint-osint`
 
 ## Sources
-- Source sociale : `https://x.com/jolyne_ai/status/2070447077524664696`
+- Source sociale : [https://x.com/jolyne_ai/status/2070447077524664696](https://x.com/jolyne_ai/status/2070447077524664696)
 - Repo final resolu : `https://github.com/HunxByts/GhostTrack`
 
 Lecture KM : 2026-06-27

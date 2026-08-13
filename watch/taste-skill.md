@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / kit frontend pour agents IA.
 `watch:taste-skill`
 
 ## Sources
-- Source finale : `https://www.tasteskill.dev/`
+- Source finale : [https://www.tasteskill.dev/](https://www.tasteskill.dev/)
 
 Lecture KM : 2026-08-05
 

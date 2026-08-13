@@ -13,7 +13,7 @@ Veille source sociale / pack plugins et skills video IA.
 `watch:ai-video-plugins-skills-ayi-ainotes`
 
 ## Sources
-- Source : `https://x.com/ayi_ainotes/status/2070790064418767263`
+- Source : [https://x.com/ayi_ainotes/status/2070790064418767263](https://x.com/ayi_ainotes/status/2070790064418767263)
 
 Lecture KM : 2026-06-28
 

@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:im-agent-claude-code-codex-opencode-ai-agent`
 
 ## Sources
-- Source : `https://x.com/qingq77/status/2065347371496804818`
+- Source : [https://x.com/qingq77/status/2065347371496804818](https://x.com/qingq77/status/2065347371496804818)
 
 Lecture KM : 2026-06-26
 

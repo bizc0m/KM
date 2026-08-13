@@ -13,7 +13,7 @@ Veille `#ROUGE` / competences hacker et reverse engineering.
 `watch:reverse-skill-hacker-skills`
 
 ## Sources
-- Source sociale : `https://x.com/0xeduu/status/2070469529210163370`
+- Source sociale : [https://x.com/0xeduu/status/2070469529210163370](https://x.com/0xeduu/status/2070469529210163370)
 
 Lecture KM : 2026-06-27
 

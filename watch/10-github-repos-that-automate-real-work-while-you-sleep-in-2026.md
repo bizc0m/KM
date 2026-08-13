@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:10-github-repos-that-automate-real-work-while-you-sleep-in-2026`
 
 ## Sources
-- Source : `https://x.com/heynavtoor/status/2065348690605400376`
+- Source : [https://x.com/heynavtoor/status/2065348690605400376](https://x.com/heynavtoor/status/2065348690605400376)
 
 Lecture KM : 2026-06-26
 

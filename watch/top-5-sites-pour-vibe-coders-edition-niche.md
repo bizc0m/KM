@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor.
 `watch:top-5-sites-pour-vibe-coders-edition-niche`
 
 ## Sources
-- Source : `https://rocky-cannon-2d6.notion.site/Top-5-Sites-pour-Vibe-Coders-dition-Niche-3861bf8e666f8084bfecdbd085110e90`
+- Source : [https://rocky-cannon-2d6.notion.site/Top-5-Sites-pour-Vibe-Coders-dition-Niche-3861bf8e666f8084bfecdbd085110e90](https://rocky-cannon-2d6.notion.site/Top-5-Sites-pour-Vibe-Coders-dition-Niche-3861bf8e666f8084bfecdbd085110e90)
 
 Lecture KM : 2026-06-26
 

@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / topic GitHub.
 `watch:github-digital-life-topic`
 
 ## Sources
-- Source finale : `https://github.com/topics/digital-life`
+- Source finale : [https://github.com/topics/digital-life](https://github.com/topics/digital-life)
 
 Lecture KM : 2026-08-09
 

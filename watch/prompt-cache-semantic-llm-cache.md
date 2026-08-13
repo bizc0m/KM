@@ -15,7 +15,7 @@ Veille liens utilisateur / cache semantique LLM.
 ## Sources
 
 - Repo GitHub : `https://github.com/messkan/prompt-cache`
-- Source sociale : `https://x.com/tom_doerr/status/2087156753204973610?s=12`
+- Source sociale : [https://x.com/tom_doerr/status/2087156753204973610?s=12](https://x.com/tom_doerr/status/2087156753204973610?s=12)
 
 Lecture KM : 2026-08-12
 

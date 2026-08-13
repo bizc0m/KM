@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / generateur web IA.
 `watch:lovable-build-for-the-web-20x-faster`
 
 ## Sources
-- Source finale : `https://lovable.dev/dashboard`
+- Source finale : [https://lovable.dev/dashboard](https://lovable.dev/dashboard)
 
 Lecture KM : 2026-08-04
 

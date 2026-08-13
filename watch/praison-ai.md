@@ -13,7 +13,7 @@ Veille Raindrop KM Monitor / plateforme d'agents IA.
 `watch:praison-ai`
 
 ## Sources
-- Source finale : `https://praison.ai/`
+- Source finale : [https://praison.ai/](https://praison.ai/)
 
 Lecture KM : 2026-08-09
 
