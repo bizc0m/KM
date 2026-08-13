@@ -310,13 +310,13 @@ html,body{height:100%}body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif
 </head>
 <body>
 <main class="app">
-  <div class="topbar"><div class="brandblock"><div class="brand"><span>KM</span> Search <b class="version-badge">v1.12</b></div><div class="subtitle">Recherche · index · fiches Markdown · vues partageables</div></div><div class="statsbar" id="statsbar"></div><div class="tool-actions"><button class="btn dark" id="toggleFicheTop">Masquer fiche</button><button class="btn" id="copyShare">Copier lien</button><button class="btn" id="copySelection">Copier selection</button><button class="btn" id="exportSelection">Export .md</button><button class="btn dark" id="exportJson">JSON</button></div></div>
+  <div class="topbar"><div class="brandblock"><div class="brand"><span>KM</span> Search <b class="version-badge">v1.12</b></div><div class="subtitle">Recherche · index · fiches Markdown · vues partageables</div></div><div class="statsbar" id="statsbar"></div><div class="tool-actions"><button class="btn dark" id="toggleFicheTop">Afficher fiche</button><button class="btn" id="copyShare">Copier lien</button><button class="btn" id="copySelection">Copier selection</button><button class="btn" id="exportSelection">Export .md</button><button class="btn dark" id="exportJson">JSON</button></div></div>
   <div class="topic-rail" id="topics"></div>
-  <section class="workspace" id="workspace">
+  <section class="workspace fiche-collapsed" id="workspace">
     <aside class="col"><header><h2>Corpus</h2><span class="headnote" id="feedCount">0 resultats</span></header><div class="scroll"><div class="feed-tools"><input id="search" type="search" autocomplete="off" placeholder="Chercher source, outil..."><input id="tagFilter" placeholder="Filtre tag"><button class="btn red" id="clearSearch">Effacer</button><select id="sort"><option value="date">Date recente</option><option value="status">Statut</option><option value="title">Titre</option><option value="type">Type</option></select><select id="statusFilter"><option value="all">Tous statuts</option><option value="#ROUGE">#ROUGE</option><option value="sensible">Sensible</option><option value="a verifier">A verifier</option><option value="actif">Actif</option></select><select id="folderFilter"></select><select id="themeFilter"></select><select id="conceptFilter"></select></div><div class="article-status" id="articleStatus"></div><div id="feed"></div></div></aside>
     <section class="col" id="ficheCol"><header><h2>Fiche</h2><button class="btn" id="toggleFicheHeader">Replier</button></header><div class="scroll"><div id="detail"></div></div></section>
   </section>
-  <button class="btn dark collapse-tab" id="openFiche">Fiche</button>
+  <button class="btn dark collapse-tab on" id="openFiche">Fiche</button>
   <footer class="footer"><span><b>KM Search v1.12</b> · HTML autonome · vue publique nettoyee</span><span>${index.length} fiches · ${generatedAt}</span></footer>
 </main>
 <div class="toast" id="toast"></div>
