@@ -1,0 +1,3 @@
+[14:50] RAINDROP_FULL_INGEST | public page | pages 30/30/30/30/5/0/0, 125 raw, 124 canonical, newest Praison AI 2026-08-08T08:34:10.755Z | no new item since 2026-08-12T12:48:35.741Z
+[14:50] RAINDROP_FULL_INGEST | local coverage | 0 missing local fiche after URL/title/slug canonical comparison | no fiche or index write needed
+[14:50] DASHBOARD | search-v1.12.html | rebuilt with scripts/build-search-v1.12-html.mjs, 142 indexed documents, 8 public share pages | no retained temp fetch artifact

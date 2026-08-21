@@ -26,6 +26,22 @@ Source Raindrop :
 - auteur/source : `source-raindrop-anonymisee`
 - tags detectes : `LLM`, `Company`, `Auto`
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `MaxMiksa/Auto-Company`
+- URL : `https://github.com/MaxMiksa/Auto-Company`
+- description : An auto-company works for 24/7 on your own PC - Windows/Linux/macOS.
+- licence : non renseignee
+- etoiles relevees : 2274
+- topics releves : aucun topic public
+- derniere activite relevee : 2026-05-20T15:53:06Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Auto Company Autonomous AI Company is a KM watch item classified as Veille Raindrop KM Monitor / orchestration multi-agents autonome. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

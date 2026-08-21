@@ -20,6 +20,22 @@ Lecture KM : 2026-06-28
 
 Source Raindrop : titre `Realtime global intelligence dashboard`, date 2026-06-28T18:09:35.275Z, domaine `x.com`, auteur/source `xiaoying_eth`, tags detectes aucun.
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `koala73/worldmonitor`
+- URL : `https://github.com/koala73/worldmonitor`
+- description : Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
+- licence : AGPL-3.0
+- etoiles relevees : 83587
+- topics releves : agent, ai, dashboard, geopolitics, mcp, mcp-server, monitoring, news, opensource, osint, palantir, situation
+- derniere activite relevee : 2026-08-21T08:32:49Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 WorldMonitor Global Intelligence Dashboard is a KM watch item classified as Veille outil OSINT / tableau de bord geostrategique. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

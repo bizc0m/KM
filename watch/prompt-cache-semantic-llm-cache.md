@@ -37,6 +37,22 @@ Verification GitHub API :
 - dernier push lu : 2026-08-11T16:47:43Z
 - topics releves : ai, cache, claude, cost-optimization, go, langchain, llm, middleware, openai, performance, rag, semantic-search
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `messkan/prompt-cache`
+- URL : `https://github.com/messkan/prompt-cache`
+- description : Cut LLM costs by up to 80% and unlock sub-millisecond responses with intelligent semantic caching.A drop-in, provider-agnostic LLM proxy written in Go with sub-millisecond response
+- licence : MIT
+- etoiles relevees : 389
+- topics releves : ai, badgerdb, cache, claude, cost-optimization, go, langchain, llm, middleware, mistral, openai, performance, rag, rag-ai, semantic-search, vector-database
+- derniere activite relevee : 2026-08-18T10:41:51Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Prompt Cache - Semantic LLM Cache is a KM watch item classified as Veille liens utilisateur / cache semantique LLM. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

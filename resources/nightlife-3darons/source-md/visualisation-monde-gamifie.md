@@ -193,3 +193,30 @@ Je peux maintenant vous faire soit une **liste exhaustive de repos GitHub class√
 [^2_28]: https://news.ycombinator.com/item?id=27254838
 
 [^2_29]: https://github.com/vinjn/awesome-vulkan
+
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+| Repo | Licence | Etoiles | Topics releves | Derniere activite | Archived | Fork |
+| --- | --- | --- | --- | --- | --- | --- |
+| `psykon/awesome-demoscene` | CC0-1.0 | 469 | 4k, 4k-demoscene, demos, demoscene, demotool, intro, real-time | 2026-08-15T11:27:39Z | non | non |
+| `shuding/cobe` | MIT | 5638 | globe, webgl | 2026-07-18T01:14:36Z | non | non |
+| `zoran995/terriajs-cesium` | Apache-2.0 | 1 | aucun topic public | 2025-01-23T08:55:34Z | non | oui |
+| `vasturiano/three-globe` | MIT | 1614 | data-visualization, globe, threejs, webgl | 2026-04-04T22:19:08Z | non | non |
+| `MartinBspheroid/GLSLtunnel` | non renseignee | 0 | aucun topic public | 2013-11-23T09:20:04Z | non | non |
+| `bkaradzic/bgfx` | BSD-2-Clause | 17417 | d3d11, d3d12, directx, directx-11, directx-12, engine, gamedev, gles, glfw, graphics, metal, opengl, rendering, sdl, vulkan, vulkan-api, webgl | 2026-08-21T04:06:47Z | non | non |
+| `SaschaWillems/Vulkan` | MIT | 12119 | glsl, hlsl, slang, vulkan, vulkan-api | 2026-08-18T05:47:03Z | non | non |
+| `dataarts/webgl-globe` | NOASSERTION | 3770 | aucun topic public | 2020-09-04T17:30:33Z | oui | non |
+| `CesiumGS/cesium-google-earth-examples` | Apache-2.0 | 103 | cesium, google-earth | 2022-05-09T15:37:54Z | non | non |
+| `meetar/globe-terrain` | MIT | 44 | aucun topic public | 2021-11-20T05:16:01Z | non | non |
+| `ubilabs/esa-webgl-globe` | NOASSERTION | 8 | aucun topic public | 2026-03-03T07:42:33Z | non | non |
+| `Bercon/VIRGO-1302` | Apache-2.0 | 57 | aucun topic public | 2020-10-25T10:32:14Z | non | non |
+| `aras-p/demo-pd-cranktheworld` | Unlicense | 79 | demoscene, playdate | 2024-05-25T19:05:43Z | non | non |
+| `psenough/teach_yourself_demoscene_in_14_days` | MIT | 2286 | demo-scene, demoscene, guide | 2024-07-25T21:07:55Z | non | non |
+| `VicentGJ/Water_Temple_Godot-Demo` | MIT | 17 | aucun topic public | 2020-01-16T01:07:27Z | non | non |
+| `JohnClarking/CoolEngines` | GPL-3.0 | 112 | aucun topic public | 2022-09-07T15:13:25Z | non | non |
+| `nvpro-samples/gl_vk_meshlet_cadscene` | Apache-2.0 | 461 | mesh-shaders, opengl, vulkan | 2024-01-30T11:11:46Z | non | non |
+| `vinjn/awesome-vulkan` | non renseignee | 3712 | amd, arm, khronos, nvidia, opengl, qualcomm, vulkan, vulkan-api, vulkan-libraries | 2026-05-11T04:37:02Z | non | non |
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.

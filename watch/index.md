@@ -26,6 +26,8 @@ Index des sources de veille transversales KM.
 | `watch:prompt-cache-semantic-llm-cache` | `prompt-cache-semantic-llm-cache.md` | Proxy LLM en Go pour cache semantique et reduction de couts ; prompts et reponses a proteger. | sensible |
 | `watch:graft-codebase-context-for-coding-agents` | `graft-codebase-context-for-coding-agents.md` | Contexte local de codebase pour agents Codex/Claude/Cursor/Gemini ; depots prives a filtrer. | sensible |
 | `watch:memory-engineering-agent-past` | `memory-engineering-agent-past.md` | Article X sur memory engineering pour agents IA ; source stable et projet concret a retrouver. | a verifier |
+| `watch:chat2pdf-convertissez-les-conversations-chatgpt-en-pdf` | `chat2pdf-convertissez-les-conversations-chatgpt-en-pdf.md` | Export PDF de conversations ChatGPT ; nettoyer secrets et donnees privees avant usage tiers. | sensible |
+| `watch:chatgpt-exporter-extract-chat-convos-easily` | `chatgpt-exporter-extract-chat-convos-easily.md` | Export ChatGPT multi-format pour archivage KM ; verifier retention, formats et nettoyage. | sensible |
 | `watch:nanoclaw-personal-agent` | `nanoclaw-personal-agent.md` | Agent IA personnel multi-canaux, containerise, avec vault credentials | actif |
 | `watch:autoresearchclaw-autonomous-research` | `autoresearchclaw-autonomous-research.md` | Agent de recherche autonome idee -> papier, avec experiments, citations et HITL | actif |
 | `watch:moneyprinterturbo-ai-short-video` | `moneyprinterturbo-ai-short-video.md` | Generation automatique de shorts IA / TikTok, utile RS avec validation humaine | sensible |

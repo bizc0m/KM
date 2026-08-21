@@ -20,6 +20,22 @@ Lecture KM : 2026-06-28
 
 Source Raindrop : titre `Open Lovable by Firecrawl`, date 2026-06-28T18:10:31.683Z, domaine `x.com`, auteur/source `jolyne_ai`, tags detectes aucun.
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `firecrawl/open-lovable`
+- URL : `https://github.com/firecrawl/open-lovable`
+- description : 🔥 Clone and recreate any website as a modern React app in seconds
+- licence : MIT
+- etoiles relevees : 28310
+- topics releves : aucun topic public
+- derniere activite relevee : 2025-11-19T15:29:48Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Open Lovable Firecrawl Site Cloning is a KM watch item classified as Veille outil dev / clonage de sites en React. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

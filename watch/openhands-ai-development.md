@@ -25,6 +25,22 @@ Source Raindrop :
 - auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `OpenHands/OpenHands`
+- URL : `https://github.com/OpenHands/OpenHands`
+- description : 🙌 OpenHands: AI-Driven Development
+- licence : MIT
+- etoiles relevees : 84670
+- topics releves : agent, artificial-intelligence, chatgpt, claude-ai, cli, developer-tools, gpt, llm, openai
+- derniere activite relevee : 2026-08-21T07:41:19Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 OpenHands - AI Driven Development is a KM watch item classified as Veille outil IA / agent de developpement. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

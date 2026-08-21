@@ -26,6 +26,22 @@ Source Raindrop :
 - tags detectes : aucun tag Raindrop
 - note Raindrop : inspection, classification et extraction texte PDF en Rust.
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `firecrawl/pdf-inspector`
+- URL : `https://github.com/firecrawl/pdf-inspector`
+- description : Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.
+- licence : MIT
+- etoiles relevees : 16403
+- topics releves : markdown, nodejs, ocr-routing, pdf, pdf-classification, pdf-extraction, pdf-parser, python, rust, text-extraction
+- derniere activite relevee : 2026-08-21T00:12:25Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Firecrawl PDF Inspector is a KM watch item classified as Veille Raindrop KM Monitor / bibliotheque extraction PDF. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

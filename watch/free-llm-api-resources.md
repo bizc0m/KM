@@ -30,6 +30,16 @@ Verification GitHub API :
 - archived : false
 - dernier push lu : 2026-05-22
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+
+Repos non resolus via API GitHub :
+- `cheahjs/free-llm-api-resources` : gh: Not Found (HTTP 404)
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Free LLM API Resources is a KM watch item classified as Veille outils IA / ressources API. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

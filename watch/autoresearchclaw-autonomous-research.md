@@ -29,6 +29,22 @@ Verification GitHub API :
 - archived : false
 - dernier push lu : 2026-05-22
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `aiming-lab/AutoResearchClaw`
+- URL : `https://github.com/aiming-lab/AutoResearchClaw`
+- description : Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞
+- licence : MIT
+- etoiles relevees : 14051
+- topics releves : autonomous-research, citation-verification, llm-agents, metaclaw, multi-agent-debate, openclaw, paper-generation, scientific-discovery, self-evolving
+- derniere activite relevee : 2026-08-19T03:35:13Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 AutoResearchClaw - Autonomous Research Agent is a KM watch item classified as Veille outils IA / agent de recherche autonome. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

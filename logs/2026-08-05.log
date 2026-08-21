@@ -1,0 +1,6 @@
+[01:42] ACTION | KM_RAINDROP_FULL_INGEST | public_page=30/30/30/26/0 unique=116 covered=116 new_since_last_run=0 feed=50 dashboard=search-v1.11.html:133 | ERREUR=none
+[05:42] ACTION | KM_RAINDROP_FULL_INGEST | public_page=30/30/30/26/0 unique=116 covered=116 new_since_last_run=0 feed=50 dashboard=search-v1.11.html:133 | ERREUR=none
+[09:43] ACTION | KM_RAINDROP_FULL_INGEST | page publique 116 items, feed secondaire 50 items, delta nouveau 0, dashboard v1.11 regenere 133 fiches | OK
+[13:44] ACTION | KM_RAINDROP_FULL_INGEST | page publique 30/30/30/26 unique=116, feed secondaire 50, delta nouveau=0, faux delta odysseus deja couvert sans mcp_token, dashboard search-v1.11.html=133 sha256=adecf2ae0264c667b781b14e0bb6aeb1bce4064696b44db597fd485877d30ada | OK
+[17:46] RAINDROP | watch/taste-skill.md,index.md,watch/index.md,km/history.md | ajout Taste Skill depuis page publique 117 bookmarks | -
+[21:47] ACTION | KM_RAINDROP_FULL_INGEST | page publique 30/30/30/27/0 unique=117, feed secondaire 50, delta nouveau=0, dashboard search-v1.11.html=134 | OK

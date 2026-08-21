@@ -34,6 +34,22 @@ Source GitHub :
 - description : Read-only treemap and sunburst macOS disk space visualizer.
 - derniere mise a jour source : 2026-07-16T20:28:58Z
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `tkslucas/Neodisk`
+- URL : `https://github.com/tkslucas/Neodisk`
+- description : Read-only treemap and sunburst macOS disk space visualizer
+- licence : GPL-3.0
+- etoiles relevees : 533
+- topics releves : disk-analyzer, macos, swift
+- derniere activite relevee : 2026-07-26T02:39:52Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Neodisk macOS Disk Visualizer is a KM watch item classified as Veille Raindrop KM Monitor / outil macOS open source. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

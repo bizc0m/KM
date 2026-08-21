@@ -25,6 +25,22 @@ Source Raindrop :
 - auteur/source : `macos26`
 - tags detectes : aucun tag Raindrop
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `macOS26/Agent`
+- URL : `https://github.com/macOS26/Agent`
+- description : Mac Agent for macOS 26: the agentic AI harness for your Mac Desktop. Computer use, automation, scripting, coding, and more. Powered by 18+ providers across local and cloud LLMs.
+- licence : MIT
+- etoiles relevees : 578
+- topics releves : accessibility, agentic-framework, agentic-workflow, ai, ai-agent, apple-intelligence, applescript, automation, claude, imessage, javascript, jxa, llm, macos, mcp, ollama, swift, swiftui, xcode, xpc
+- derniere activite relevee : 2026-08-05T23:19:39Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 MacOS26 Agent Desktop Harness is a KM watch item classified as Veille Raindrop KM Monitor / agent desktop macOS et harness agentique. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

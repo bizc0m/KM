@@ -25,6 +25,22 @@ Source Raindrop :
 - auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `odysseus-dev/odysseus`
+- URL : `https://github.com/odysseus-dev/odysseus`
+- description : Self-hosted AI workspace.
+- licence : AGPL-3.0
+- etoiles relevees : 85845
+- topics releves : aucun topic public
+- derniere activite relevee : 2026-08-20T17:39:01Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Odysseus Self-Hosted AI Workspace is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

@@ -25,6 +25,22 @@ Source Raindrop :
 - auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `browser-use/browser-use`
+- URL : `https://github.com/browser-use/browser-use`
+- description : 🌐 Make websites accessible for AI agents. Automate tasks online with ease.
+- licence : MIT
+- etoiles relevees : 109939
+- topics releves : ai-agents, ai-tools, browser-automation, browser-use, llm, playwright, python
+- derniere activite relevee : 2026-08-21T00:00:12Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Browser Use - Web Automation For AI Agents is a KM watch item classified as Veille outil IA / automatisation navigateur. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

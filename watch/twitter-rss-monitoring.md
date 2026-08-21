@@ -24,6 +24,22 @@ Date source : 2023-04-20
 
 Lecture KM : 2026-05-22
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `zedeus/nitter`
+- URL : `https://github.com/zedeus/nitter`
+- description : Alternative Twitter front-end
+- licence : AGPL-3.0
+- etoiles relevees : 13467
+- topics releves : nim, privacy, self-hosted, twitter, x
+- derniere activite relevee : 2026-08-19T01:16:29Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Twitter RSS Monitoring is a KM watch item classified as Veille process / source monitoring. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

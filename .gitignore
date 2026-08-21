@@ -16,3 +16,5 @@ secure/
 __pycache__/
 *.pyc
 *.pyo
+node_modules/
+.test-dist/

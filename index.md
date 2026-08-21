@@ -32,6 +32,8 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | `watch:prompt-cache-semantic-llm-cache` | `watch/prompt-cache-semantic-llm-cache.md` | veille | #llm, #cache, #cost-optimization, #semantic-search | sensible |
 | `watch:graft-codebase-context-for-coding-agents` | `watch/graft-codebase-context-for-coding-agents.md` | veille | #coding-agents, #context-engineering, #code-graph, #mcp | sensible |
 | `watch:memory-engineering-agent-past` | `watch/memory-engineering-agent-past.md` | veille | #agents, #memory-engineering, #context-engineering | a verifier |
+| `watch:chat2pdf-convertissez-les-conversations-chatgpt-en-pdf` | `watch/chat2pdf-convertissez-les-conversations-chatgpt-en-pdf.md` | veille | #chatgpt, #export, #pdf, #knowledge-management, #privacy-sensitive | sensible |
+| `watch:chatgpt-exporter-extract-chat-convos-easily` | `watch/chatgpt-exporter-extract-chat-convos-easily.md` | veille | #chatgpt, #export, #pdf, #markdown, #json, #privacy-sensitive | sensible |
 | `watch:geneva-ai-summit-2027-strategic-direction` | `watch/geneva-ai-summit-2027-strategic-direction.md` | veille | #ai-governance, #switzerland, #geneva, #ai-summit, #public-policy | actif |
 | `watch:nanoclaw-personal-agent` | `watch/nanoclaw-personal-agent.md` | veille | #agents, #messaging, #containers, #credentials | actif |
 | `watch:autoresearchclaw-autonomous-research` | `watch/autoresearchclaw-autonomous-research.md` | veille | #research-agent, #papers, #citations, #experiments | actif |

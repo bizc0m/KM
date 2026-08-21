@@ -1,0 +1,19 @@
+{
+  "noteplan.minAppVersion": "3.6.1",
+  "macOS.minVersion": "10.13.0",
+  "plugin.id": "av.sort-today-tasks",
+  "plugin.name": "Sort Priority",
+  "plugin.description": "Sorts current note task blocks by inherited priority.",
+  "plugin.author": "AV/JOB",
+  "plugin.version": "0.1.0",
+  "plugin.script": "script.js",
+  "plugin.isRemote": "false",
+  "plugin.commands": [
+    {
+      "name": "tri",
+      "alias": [],
+      "description": "Sort tasks by priority in the current note.",
+      "jsFunction": "sortCurrentNoteTasksByPriority"
+    }
+  ]
+}

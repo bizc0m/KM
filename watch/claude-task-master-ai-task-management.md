@@ -25,6 +25,22 @@ Source Raindrop :
 - auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `eyaltoledano/claude-task-master`
+- URL : `https://github.com/eyaltoledano/claude-task-master`
+- description : An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.
+- licence : NOASSERTION
+- etoiles relevees : 28009
+- topics releves : ai, cursor, cursor-ai, cursorai, lovable, lovable-dev, roocode, task-manager, tasks, tasks-list, windsurf, windsurf-ai
+- derniere activite relevee : 2026-04-28T13:27:12Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Claude Task Master is a KM watch item classified as Veille outil IA / gestion de taches agentique. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

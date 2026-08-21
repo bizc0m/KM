@@ -5,6 +5,7 @@
 
 | Date | Action | Fichiers touches | Risques | Rollback |
 | --- | --- | --- | --- | --- |
+| 2026-08-20 | Integration Raindrop KM Monitor : Chat2PDF et ChatGPT Exporter | `watch/chat2pdf-convertissez-les-conversations-chatgpt-en-pdf.md`, `watch/chatgpt-exporter-extract-chat-convos-easily.md`, `watch/index.md`, `index.md`, `km/history.md`, `search-v1.12.html` | Export conversations IA classe sensible ; pas de #ROUGE ; nettoyer secrets, donnees personnelles et contenu client avant usage | Supprimer les 2 fiches et retirer les lignes d'index |
 | 2026-05-19 | Creation racine KM canonique | `README.md`, `km/`, `resources/`, `themes/`, `process/`, `watch/`, `inbox/`, `archive/` | Duplication temporaire | Supprimer l'ancienne racine KM |
 | 2026-05-19 | Copie des ressources CODEX | `resources/` | Divergence si anciennes sources evoluent | Resynchroniser depuis `CODEX/resources/` |
 | 2026-05-19 | Copie des themes CODEX | `themes/` | Divergence si anciens themes evoluent | Resynchroniser depuis `CODEX/themes/` |

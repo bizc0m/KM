@@ -38,6 +38,22 @@ Verification GitHub API :
 - dernier push lu : 2026-08-12T11:57:44Z
 - topics releves : ai-agents, claude-code, cli, code-graph, codex, context-engineering, cursor, developer-tools, knowledge-graph, llm, mcp, tree-sitter
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `NanoNets/Graft`
+- URL : `https://github.com/NanoNets/Graft`
+- description : Turbocharge Claude Code, Cursor, Codex, Gemini & every coding agent: faster, cheaper, with contextual understanding specific to your codebase.
+- licence : MIT
+- etoiles relevees : 3874
+- topics releves : ai-agents, anthropic, claude-code, cli, code-graph, codex, context-engineering, cursor, developer-tools, gemini, knowledge-graph, llm, mcp, mcp-server, open-source, openai, tree-sitter
+- derniere activite relevee : 2026-08-21T08:22:11Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Graft - Codebase Context For Coding Agents is a KM watch item classified as Veille liens utilisateur / contexte codebase pour agents de code. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

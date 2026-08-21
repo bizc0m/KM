@@ -41,6 +41,22 @@ Signal Raindrop secondaire :
 - auteur/source : `xamto_ai`
 - resolution : `https://t.co/5RCmytlCvM` -> `https://github.com/harry0703/MoneyPrinterTurbo/`
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `harry0703/MoneyPrinterTurbo`
+- URL : `https://github.com/harry0703/MoneyPrinterTurbo`
+- description : 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
+- licence : MIT
+- etoiles relevees : 113378
+- topics releves : ai-video-generator, content-creation, ffmpeg, instagram-reels, llm, python, short-video, subtitles, text-to-speech, tiktok, video-automation, video-workflow, workflow-automation, youtube-shorts
+- derniere activite relevee : 2026-08-21T08:32:55Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 MoneyPrinterTurbo - AI Short Video Generator is a KM watch item classified as Veille outils IA / generation automatique de shorts video. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

@@ -25,6 +25,22 @@ Source Raindrop :
 - auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `crewAIInc/crewAI`
+- URL : `https://github.com/crewAIInc/crewAI`
+- description : Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.
+- licence : MIT
+- etoiles relevees : 57410
+- topics releves : agents, ai, ai-agents, aiagentframework, llms
+- derniere activite relevee : 2026-08-21T08:44:40Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 CrewAI - Agent Orchestration is a KM watch item classified as Veille framework IA / orchestration multi-agents. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

@@ -35,6 +35,22 @@ Metadonnees GitHub publiques au 2026-06-24 :
 - archived : non
 - topics : `codebase-analysis`, `knowledge-graph`, `codex`, `claude-code`, `vibe-coding`
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `Egonex-AI/Understand-Anything`
+- URL : `https://github.com/Egonex-AI/Understand-Anything`
+- description : Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
+- licence : MIT
+- etoiles relevees : 79971
+- topics releves : antigravity-skills, business-knowledge, claude-code, claude-skills, codebase-analysis, codex, codex-skills, developer-tools-ai-agent, gemini-cli-skills, karpathy-llm-wiki, knowledge-base, knowledge-graph, memory, opencode-skills, pi-agent, understandcode, vibe-coding
+- derniere activite relevee : 2026-08-11T14:13:37Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Understand Anything - Code Knowledge Graph is a KM watch item classified as Veille outil IA / analyse de code. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

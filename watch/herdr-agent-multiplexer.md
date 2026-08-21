@@ -26,6 +26,22 @@ Source Raindrop :
 - tags detectes : aucun tag Raindrop
 - note Raindrop : `agent multiplexer that lives in your terminal`
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `herdrdev/herdr`
+- URL : `https://github.com/herdrdev/herdr`
+- description : the runtime your coding agents live on
+- licence : Apache-2.0
+- etoiles relevees : 31176
+- topics releves : agent, agent-orchestration, ai, ai-agents, claude-code, cli, codex, coding-agents, developer-tools, devtools, multiplexer, rust, terminal, terminal-multiplexer, terminal-ui, tmux, tui, workspace-manager
+- derniere activite relevee : 2026-08-20T22:39:03Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Herdr Multiplexer is a KM watch item classified as Veille Raindrop KM Monitor / orchestration agents terminal. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

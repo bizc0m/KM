@@ -25,6 +25,22 @@ Source Raindrop :
 - auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `RyanCodrai/turbovec`
+- URL : `https://github.com/RyanCodrai/turbovec`
+- description : A vector index built on TurboQuant, written in Rust with Python bindings
+- licence : MIT
+- etoiles relevees : 16070
+- topics releves : ann, avx512, embedding, embeddings, faiss, nearest-neighbor, neon, python, quant, quantization, rag, rust, simd, turboquant, vector-search
+- derniere activite relevee : 2026-08-21T08:53:17Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 TurboVec Vector Index is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

@@ -28,6 +28,22 @@ Verification GitHub API :
 - archived : false
 - dernier push lu : 2026-05-22
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `mnfst/awesome-free-llm-apis`
+- URL : `https://github.com/mnfst/awesome-free-llm-apis`
+- description : List of Permanent Free LLM API  (API Keys)
+- licence : CC0-1.0
+- etoiles relevees : 6881
+- topics releves : ai-agents, anthropic, awesome, awesome-list, gemini, llm, llm-router, llm-routing, ollama, openai, openclaw, openclaw-plugin, router
+- derniere activite relevee : 2026-08-21T05:32:48Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Awesome Free LLM APIs is a KM watch item classified as Veille outils IA / ressources API LLM gratuites. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

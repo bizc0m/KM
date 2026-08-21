@@ -25,6 +25,22 @@ Source Raindrop :
 - auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `ibnaleem/gosearch`
+- URL : `https://github.com/ibnaleem/gosearch`
+- description : 🔍 Search anyone's digital footprint across 300+ websites
+- licence : GPL-3.0
+- etoiles relevees : 3629
+- topics releves : cti, cybersecurity, digital-footprint, digital-footprint-lookup, golang, information-gathering, osint, osint-framework, osint-reconnaissance, osint-resources, osint-tool, pentesting, redteam, sherlock, sherlock-alternatives, social-media, username-checker, username-osint, username-scanner, username-search
+- derniere activite relevee : 2026-07-08T10:06:43Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 GoSearch - Digital Footprint Search is a KM watch item classified as Veille `#ROUGE` / recherche OSINT de profils. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

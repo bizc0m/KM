@@ -25,6 +25,22 @@ Source Raindrop :
 - auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `punkpeye/awesome-mcp-servers`
+- URL : `https://github.com/punkpeye/awesome-mcp-servers`
+- description : A collection of MCP servers.
+- licence : MIT
+- etoiles relevees : 92642
+- topics releves : ai, mcp
+- derniere activite relevee : 2026-08-17T21:28:42Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Awesome MCP Servers is a KM watch item classified as Veille ressource / annuaire MCP. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

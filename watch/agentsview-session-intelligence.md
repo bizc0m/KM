@@ -29,6 +29,22 @@ Verification GitHub API :
 - archived : false
 - dernier push lu : 2026-05-22
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `kenn-io/agentsview`
+- URL : `https://github.com/kenn-io/agentsview`
+- description : Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.
+- licence : MIT
+- etoiles relevees : 5187
+- topics releves : aucun topic public
+- derniere activite relevee : 2026-08-21T02:37:06Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 AgentsView - Session Intelligence is a KM watch item classified as Veille outils IA / intelligence de sessions agents. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

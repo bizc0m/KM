@@ -41,6 +41,22 @@ Source Raindrop secondaire dedupliquee :
 - lien resolu : `https://github.com/TencentCloud/TencentDB-Agent-Memory`
 - decision : pas de nouvelle fiche, deja couvert par `watch:tencentdb-agent-memory`.
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `TencentCloud/TencentDB-Agent-Memory`
+- URL : `https://github.com/TencentCloud/TencentDB-Agent-Memory`
+- description : TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.
+- licence : NOASSERTION
+- etoiles relevees : 23563
+- topics releves : agent, ai-agent, embedding, llm, local-first, long-term-memory, memory, openclaw-plugin, vector-search
+- derniere activite relevee : 2026-08-15T10:06:58Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 TencentDB Agent Memory - Local Agent Memory is a KM watch item classified as Veille Raindrop KM Monitor / memoire long terme pour agents IA. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

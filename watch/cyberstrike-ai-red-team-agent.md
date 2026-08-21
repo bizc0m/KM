@@ -34,6 +34,22 @@ Source Raindrop secondaire :
 - auteur/source : `dinosn`
 - resolution : `https://t.co/IMTnJF3pht` -> `https://github.com/CyberStrikeus/CyberStrike`
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `CyberStrikeus/CyberStrike`
+- URL : `https://github.com/CyberStrikeus/CyberStrike`
+- description : Open-source AI-augmented offensive security harness. 13+ autonomous agents, 150+ LLM providers, 5,300+ models, 7,600+ Ed25519-signed attack skills, 56+ built-in tools, 176+ MCP tools. MITRE ATT&CK, OWASP WSTG, CIS Benchmarks. Post-exploit: Linux/Windows/macOS/AWS/Azure/K8s/CI-CD. Web UI + Cloudflare Tunnel. Your AI red team.
+- licence : AGPL-3.0
+- etoiles relevees : 1907
+- topics releves : ai, ai-agent, ai-security, bug-bounty, cybersecurity, devsecops, ethical-hacking, hacking, hacking-tool, llm, mcp, mcp-server, mitre-attack, offensive-security, owasp, penetration-testing, pentest, red-team, security, security-tools
+- derniere activite relevee : 2026-08-20T12:29:16Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 CyberStrike - AI Red Team Agent is a KM watch item classified as Veille `#ROUGE` / agent IA offensif de red team. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

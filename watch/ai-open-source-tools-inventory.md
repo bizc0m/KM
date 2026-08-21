@@ -121,6 +121,57 @@ Corrections importantes :
 - Les outils de redirection IA doivent etre audites avant usage : secrets, licences, conditions d'utilisation, exposition des prompts.
 - Les outils anti-detection doivent etre cadrés legalement et ethniquement avant tout usage.
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+| Repo | Licence | Etoiles | Topics releves | Derniere activite | Archived | Fork |
+| --- | --- | --- | --- | --- | --- | --- |
+| `calcom/cal.diy` | MIT | 47843 | next-auth, nextjs, open-source, postgresql, prisma, t3-stack, tailwindcss, trpc, turborepo, typescript, zod | 2026-08-08T17:13:42Z | non | non |
+| `plausible/analytics` | AGPL-3.0 | 28688 | analytics, analytics-dashboard, clickhouse, elixir, google-analytics, marketing, open-source-analytics, phoenix, plausible-analytics, postgresql, privacy, privacy-friendly, self-hosted, simple-analytics, statistics, tailwindcss, web-analytics, website-analytics, website-stats, website-tracking | 2026-08-20T13:51:17Z | non | non |
+| `TryGhost/Ghost` | MIT | 54838 | blogging, cms, ghost, javascript, journalism, nodejs, publishing, web-application | 2026-08-21T08:41:38Z | non | non |
+| `n8n-io/n8n` | NOASSERTION | 201448 | ai, apis, automation, cli, data-flow, development, integration-framework, integrations, ipaas, low-code, low-code-platform, mcp, mcp-client, mcp-server, n8n, no-code, self-hosted, typescript, workflow, workflow-automation | 2026-08-21T08:55:03Z | non | non |
+| `supabase/supabase` | Apache-2.0 | 108225 | ai, alternative, auth, database, deno, embeddings, example, firebase, nextjs, oauth2, pgvector, postgis, postgres, postgresql, postgrest, realtime, supabase, vectors, websockets | 2026-08-21T08:49:36Z | non | non |
+| `medusajs/medusa` | NOASSERTION | 35930 | ai-coding, ai-tools, commerce, e-commerce, ecommerce, framework, javascript, medusa, nodejs, react, typescript | 2026-08-21T05:55:49Z | non | non |
+| `AppFlowy-IO/AppFlowy` | AGPL-3.0 | 75798 | blog, confluence-alternative, content-management, content-services, documentation, flutter, note-taking, notion-alternative, project-management, task-management, team-collaboration, wiki | 2026-08-11T13:01:19Z | non | non |
+| `coollabsio/coolify` | Apache-2.0 | 60827 | coolify, databases, deployment, docker, docker-compose, inertiajs, laravel, mariadb, mysql, nextjs, nodejs, php, postgres, redis, self-hosted, self-hosting, server, static-site, svelte, svelte5 | 2026-08-20T20:29:31Z | non | non |
+| `knadh/listmonk` | AGPL-3.0 | 23018 | campaign, campaign-management, email-marketing, email-subscription, listmonk, mailing-list, newsletter, newsletter-management, newsletter-software, self-hosted, sms-gateway, smtp, transactional-emails | 2026-08-19T19:10:39Z | non | non |
+| `penpot/penpot` | MPL-2.0 | 58966 | clojure, clojurescript, design, prototyping, ui, ux-design, ux-experience | 2026-08-21T08:16:31Z | non | non |
+| `HKUDS/ViMax` | MIT | 12044 | agentic-aigc, video-generation | 2026-07-29T08:56:47Z | non | non |
+| `pipecat-ai/pipecat` | BSD-2-Clause | 14380 | ai, chatbot-framework, chatbots, real-time, voice, voice-assistant | 2026-08-21T08:13:01Z | non | non |
+| `siddharthvaddem/openscreen` | MIT | 39876 | electron, open-source, pixijs, screen-capture, screen-recorder | 2026-06-17T02:34:20Z | oui | non |
+| `jamiepine/voicebox` | MIT | 51010 | ai, cuda, mlx, qwen3-tts, qwen3-tts-ui, voice-ai, voice-clone, whisper | 2026-08-09T00:03:42Z | non | non |
+| `mutonby/openshorts` | NOASSERTION | 3314 | agent-skills, ai-clip-generator, ai-video-editor, clip-generator, mcp-server, open-source, opus-clip-alternative, shorts, tiktok, ugc-platform, video-editing, video-generation, youtube-shorts | 2026-08-20T20:54:54Z | non | oui |
+| `tashfeenahmed/freellmapi` | MIT | 19197 | aucun topic public | 2026-08-20T21:06:53Z | non | non |
+| `microsoft/playwright-mcp` | Apache-2.0 | 36327 | mcp, playwright | 2026-08-20T17:47:50Z | non | non |
+| `HKUDS/Vibe-Trading` | MIT | 31380 | ai-agent, algorithmic-trading, backtesting, fintech, llm, mcp, multi-agent, python, quantitative-finance, trading | 2026-08-21T08:12:22Z | non | non |
+| `openai/whisper` | MIT | 107711 | aucun topic public | 2026-07-28T20:18:29Z | non | non |
+| `gitroomhq/postiz-app` | AGPL-3.0 | 34935 | nextjs, open-source, open-source-social-media-scheduling-tool, oss, redis, scheduling-tool, social-media-scheduling-tool, typescript | 2026-08-21T08:42:24Z | non | non |
+| `dani-garcia/vaultwarden` | AGPL-3.0 | 65736 | bitwarden, bitwarden-rs, docker, rocket, rust, vaultwarden | 2026-08-20T20:03:56Z | non | non |
+| `xark-argo/argo` | NOASSERTION | 816 | agent, agentic-ai, ai, aigc, anthropic, artifacts, assistant, chatbot, deepresearch, deepseek, desktop, langgraph, llm, local, manus, mcp, mermaid, ollama, openai, rag | 2026-01-06T03:43:08Z | non | non |
+| `The-Swarm-Corporation/AutoHedge` | MIT | 4247 | ai, blackrock, finance, goldmansachs, hedgefund, jpmorgan, ml, quant, quantitative-finance, quantitative-trading, trading | 2026-05-11T05:44:09Z | non | non |
+| `Fincept-Corporation/FinceptTerminal` | NOASSERTION | 30445 | ai-agents, algorithmic-trading, bloomberg-terminal, cpp, finance, financial-markets, fintech, good-first-issue, investment, investment-research, machine-learning, opensource, python, qt, quantitative-finance, stock-market, trading | 2026-08-20T08:31:29Z | non | non |
+| `danny-avila/LibreChat` | MIT | 42296 | ai, anthropic, artifacts, aws, azure, chatgpt, chatgpt-clone, claude, clone, deepseek, gemini, google, gpt-5, librechat, mcp, o1, openai, responses-api, vision, webui | 2026-08-21T08:52:11Z | non | non |
+| `Anil-matcha/Open-Generative-AI` | MIT | 26760 | ai-art-generator, ai-image-generation, ai-video-generation, creative-tools, fal-ai-alternative, flux-1, generative-ai, image-to-video, javascript, kling-ai, lipsync, midjourney-alternative, muapi, open-source, seedance2, sora-alternative, text-to-image, text-to-video, uncensored, wan-video | 2026-08-20T21:47:52Z | non | non |
+| `Open-LLM-VTuber/Open-LLM-VTuber` | NOASSERTION | 13385 | ai, ai-companion, ai-vtuber, ai-waifu, chatbots, live2d, live2d-web, llm, neuro-sama, ollama | 2026-05-15T07:18:04Z | non | non |
+| `AgriciDaniel/claude-ads` | MIT | 8328 | agent-skills, ai, ai-marketing, claude-code, claude-code-skill, google-ads, marketing-automation, meta-ads, open-source, paid-advertising, ppc | 2026-07-13T20:22:29Z | non | non |
+| `cloudflare/agentic-inbox` | Apache-2.0 | 6899 | aucun topic public | 2026-04-23T21:04:17Z | non | non |
+| `jo-inc/camofox-browser` | MIT | 8755 | ai-agent, anti-bot, antidetect-browser, automation, bot-detection, browser-automation, cloudflare-bypass, headless-browser, javascript, nodejs, playwright, puppeteer, scraping, stealth-browser, web-scraping | 2026-08-19T20:30:53Z | non | non |
+| `heygen-com/hyperframes` | Apache-2.0 | 41898 | ai, animation, ffmpeg, framework, gsap, html, mcp, puppeteer, rendering, typescript, video | 2026-08-21T08:56:40Z | non | non |
+| `yt-dlp/yt-dlp` | Unlicense | 185962 | cli, downloader, python, sponsorblock, youtube-dl, youtube-downloader, yt-dlp | 2026-08-20T22:26:03Z | non | non |
+| `ollama/ollama` | MIT | 179089 | deepseek, gemma, gemma3, glm, go, golang, gpt-oss, llama, llama3, llm, llms, minimax, mistral, ollama, qwen | 2026-08-21T01:59:47Z | non | non |
+| `lllyasviel/Fooocus` | GPL-3.0 | 52458 | aucun topic public | 2025-12-01T19:17:07Z | non | non |
+| `Diolinux/PhotoGIMP` | GPL-3.0 | 17519 | aucun topic public | 2026-08-15T17:17:40Z | non | non |
+| `nexu-io/open-design` | Apache-2.0 | 89941 | agent-skills, ai-design, byok, claude-code-for-design, claude-design, codex-design, coding-agents, cursor-design, deepseek, deepseek-harness, design-systems, desktop-app, dsh, dsh-plugin, figma-alternative, hermes-agent, local-first, prototyping, ui-generator, vibe-coding | 2026-08-21T08:55:59Z | non | non |
+| `bitwarden/server` | NOASSERTION | 19906 | api, aspnet, aspnetcore, bitwarden, csharp, docker, dotnet, dotnet-core, signalr, sql, sql-server | 2026-08-21T08:56:49Z | non | non |
+| `kenn-io/agentsview` | MIT | 5187 | aucun topic public | 2026-08-21T02:37:06Z | non | non |
+| `nanocoai/nanoclaw` | MIT | 30582 | ai-agents, ai-assistant, claude-code, claude-skills, openclaw | 2026-08-21T06:59:57Z | non | non |
+| `aiming-lab/AutoResearchClaw` | MIT | 14051 | autonomous-research, citation-verification, llm-agents, metaclaw, multi-agent-debate, openclaw, paper-generation, scientific-discovery, self-evolving | 2026-08-19T03:35:13Z | non | non |
+| `mnfst/awesome-free-llm-apis` | CC0-1.0 | 6881 | ai-agents, anthropic, awesome, awesome-list, gemini, llm, llm-router, llm-routing, ollama, openai, openclaw, openclaw-plugin, router | 2026-08-21T05:32:48Z | non | non |
+| `GreyDGL/PentestGPT` | MIT | 14985 | large-language-models, llm, penetration-testing, python | 2026-07-14T12:58:31Z | non | non |
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Classification abus possible
 
 | Outil / famille | Usage utile | Usage abusif possible | Classement |

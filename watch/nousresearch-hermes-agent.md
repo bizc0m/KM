@@ -25,6 +25,22 @@ Source Raindrop :
 - auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `NousResearch/hermes-agent`
+- URL : `https://github.com/NousResearch/hermes-agent`
+- description : The agent that grows with you
+- licence : MIT
+- etoiles relevees : 233724
+- topics releves : ai, ai-agent, ai-agents, anthropic, chatgpt, claude, claude-code, codex, hermes, hermes-agent, llm, nous-research, openai
+- derniere activite relevee : 2026-08-21T07:54:44Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 NousResearch Hermes Agent is a KM watch item classified as Veille outil IA / agent personnel. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

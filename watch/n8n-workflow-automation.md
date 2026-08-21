@@ -25,6 +25,22 @@ Source Raindrop :
 - auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `n8n-io/n8n`
+- URL : `https://github.com/n8n-io/n8n`
+- description : Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+- licence : NOASSERTION
+- etoiles relevees : 201448
+- topics releves : ai, apis, automation, cli, data-flow, development, integration-framework, integrations, ipaas, low-code, low-code-platform, mcp, mcp-client, mcp-server, n8n, no-code, self-hosted, typescript, workflow, workflow-automation
+- derniere activite relevee : 2026-08-21T08:55:03Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 n8n Workflow Automation is a KM watch item classified as Veille outil / automatisation workflows. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

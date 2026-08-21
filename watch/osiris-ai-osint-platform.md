@@ -77,3 +77,19 @@ Web app (SPA) — style "poste de commandement" avec carte interactive
 - Source de contexte géopolitique temps réel
 - Peut être forkée et customisée pour nos besoins
 - Discord communautaire → veille et networking
+
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `simplifaisoul/osiris`
+- URL : `https://github.com/simplifaisoul/osiris`
+- description : Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative -                            2nZNHm3Lr9umG3DVrzYwHgktwkuKuJRXqqRqs3ewpump
+- licence : MIT
+- etoiles relevees : 7790
+- topics releves : aucun topic public
+- derniere activite relevee : 2026-08-21T03:39:30Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.

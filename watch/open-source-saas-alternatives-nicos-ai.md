@@ -24,6 +24,25 @@ Date post : 2026-05-21
 
 Lecture : FxTwitter API publique, sans compte X.
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+| Repo | Licence | Etoiles | Topics releves | Derniere activite | Archived | Fork |
+| --- | --- | --- | --- | --- | --- | --- |
+| `yt-dlp/yt-dlp` | Unlicense | 185962 | cli, downloader, python, sponsorblock, youtube-dl, youtube-downloader, yt-dlp | 2026-08-20T22:26:03Z | non | non |
+| `ollama/ollama` | MIT | 179089 | deepseek, gemma, gemma3, glm, go, golang, gpt-oss, llama, llama3, llm, llms, minimax, mistral, ollama, qwen | 2026-08-21T01:59:47Z | non | non |
+| `lllyasviel/Fooocus` | GPL-3.0 | 52458 | aucun topic public | 2025-12-01T19:17:07Z | non | non |
+| `Diolinux/PhotoGIMP` | GPL-3.0 | 17519 | aucun topic public | 2026-08-15T17:17:40Z | non | non |
+| `nexu-io/open-design` | Apache-2.0 | 89941 | agent-skills, ai-design, byok, claude-code-for-design, claude-design, codex-design, coding-agents, cursor-design, deepseek, deepseek-harness, design-systems, desktop-app, dsh, dsh-plugin, figma-alternative, hermes-agent, local-first, prototyping, ui-generator, vibe-coding | 2026-08-21T08:55:59Z | non | non |
+| `AppFlowy-IO/AppFlowy` | AGPL-3.0 | 75798 | blog, confluence-alternative, content-management, content-services, documentation, flutter, note-taking, notion-alternative, project-management, task-management, team-collaboration, wiki | 2026-08-11T13:01:19Z | non | non |
+| `penpot/penpot` | MPL-2.0 | 58966 | clojure, clojurescript, design, prototyping, ui, ux-design, ux-experience | 2026-08-21T08:16:31Z | non | non |
+| `n8n-io/n8n` | NOASSERTION | 201448 | ai, apis, automation, cli, data-flow, development, integration-framework, integrations, ipaas, low-code, low-code-platform, mcp, mcp-client, mcp-server, n8n, no-code, self-hosted, typescript, workflow, workflow-automation | 2026-08-21T08:55:03Z | non | non |
+| `calcom/cal.diy` | MIT | 47843 | next-auth, nextjs, open-source, postgresql, prisma, t3-stack, tailwindcss, trpc, turborepo, typescript, zod | 2026-08-08T17:13:42Z | non | non |
+| `bitwarden/server` | NOASSERTION | 19906 | api, aspnet, aspnetcore, bitwarden, csharp, docker, dotnet, dotnet-core, signalr, sql, sql-server | 2026-08-21T08:56:49Z | non | non |
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Open Source SaaS Alternatives - nicos_ai is a KM watch item classified as Veille outils open source. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

@@ -25,6 +25,22 @@ Source Raindrop :
 - auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `mvanhorn/last30days-skill`
+- URL : `https://github.com/mvanhorn/last30days-skill`
+- description : AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
+- licence : MIT
+- etoiles relevees : 58845
+- topics releves : ai-prompts, ai-skill, bluesky, claude, claude-code, clawhub, deep-research, hackernews, instagram, openclaw, polymarket, recency, reddit, research, social-media, tiktok, trends, twitter, web-search, youtube
+- derniere activite relevee : 2026-08-20T07:31:53Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Last 30 Days Research Agent Skill is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

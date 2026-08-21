@@ -25,6 +25,22 @@ Source Raindrop :
 - auteur/source : `zlh-428`
 - tags detectes : aucun tag Raindrop
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `zlh-428/open-maestri`
+- URL : `https://github.com/zlh-428/open-maestri`
+- description : Open-source alternative to Maestri. Native macOS multi-agent orchestration canvas — connect, coordinate & deploy Claude Code, Codex, OpenCode, Gemini CLI agents visually.
+- licence : GPL-3.0
+- etoiles relevees : 54
+- topics releves : agent, agentic-workflow, canvas, claude-code, claudecode, codex, gemini-cli, maestri, multi-agent, opencode, vibecoding, workflow
+- derniere activite relevee : 2026-07-12T09:28:47Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Open Maestri macOS Agent Orchestration is a KM watch item classified as Veille Raindrop KM Monitor / orchestration visuelle multi-agents macOS. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

@@ -26,6 +26,22 @@ Source Raindrop :
 - tags detectes : aucun tag Raindrop
 - note Raindrop : liste de projets open source pour compagnons IA long-terme.
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `DasterProkio/awesome-ai-companion`
+- URL : `https://github.com/DasterProkio/awesome-ai-companion`
+- description : Curated index of open-source AI companion projects: long-term memory, proactive behavior, voice, embodiment, and shared activities. 157 entries tagged by language, platform and readiness. 构建长期 AI 伴侣关系的开源基础设施索引。
+- licence : CC0-1.0
+- etoiles relevees : 486
+- topics releves : ai-agents, ai-companion, ai-girlfriend, awesome, awesome-list, character-ai, chatbot, companion-ai, conversational-ai, desktop-pet, live2d, llm, local-llm, long-term-memory, memory, open-source, personal-assistant, self-hosted, sillytavern, virtual-companion
+- derniere activite relevee : 2026-08-21T03:17:06Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Awesome AI Companion is a KM watch item classified as Veille Raindrop KM Monitor / annuaire projets compagnons IA. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

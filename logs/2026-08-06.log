@@ -1,0 +1,3 @@
+[01:47] ACTION | KM_RAINDROP_FULL_INGEST | page publique 30/30/30/27/0 unique=117 covered=117 delta nouveau=0, feed secondaire 50, dashboard search-v1.11.html=134, statuses=#ROUGE:18/sensible:70/a-verifier:37/actif:9 | OK
+[05:47] ACTION | KM_RAINDROP_FULL_INGEST | page publique prioritaire verifiee 30/30/30/27/0 total=117, couverture fiches=117/117, delta nouveau=0, dashboard search-v1.11.html regenere=134 documents | OK
+[09:49] ACTION | KM_RAINDROP_FULL_INGEST | page publique prioritaire verifiee 30/30/30/27/0 total=117, couverture fiches=117/117, delta nouveau=0, feed secondaire=50, dashboard search-v1.11.html regenere=134 documents, statuts=#ROUGE:18/sensible:70/a-verifier:37/actif:9 | OK

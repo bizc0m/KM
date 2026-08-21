@@ -25,6 +25,22 @@ Source Raindrop :
 - auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `langchain-ai/langgraph`
+- URL : `https://github.com/langchain-ai/langgraph`
+- description : Build resilient agents.
+- licence : MIT
+- etoiles relevees : 40151
+- topics releves : agents, ai, ai-agents, chatgpt, deepagents, enterprise, framework, gemini, generative-ai, langchain, langgraph, llm, multiagent, open-source, openai, pydantic, python, rag
+- derniere activite relevee : 2026-08-20T07:50:25Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 LangGraph - Resilient Agents is a KM watch item classified as Veille framework IA / agents resilients. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

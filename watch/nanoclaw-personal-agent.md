@@ -31,6 +31,22 @@ Verification GitHub API :
 - archived : false
 - dernier push lu : 2026-05-20
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `nanocoai/nanoclaw`
+- URL : `https://github.com/nanocoai/nanoclaw`
+- description : A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK
+- licence : MIT
+- etoiles relevees : 30582
+- topics releves : ai-agents, ai-assistant, claude-code, claude-skills, openclaw
+- derniere activite relevee : 2026-08-21T06:59:57Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 NanoClaw - Personal AI Agent is a KM watch item classified as Veille outils IA / agent personnel multi-canaux. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

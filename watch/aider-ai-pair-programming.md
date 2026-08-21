@@ -25,6 +25,22 @@ Source Raindrop :
 - auteur/source : `source-raindrop-anonymisee`
 - tags detectes : aucun tag Raindrop
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `Aider-AI/aider`
+- URL : `https://github.com/Aider-AI/aider`
+- description : aider is AI pair programming in your terminal
+- licence : Apache-2.0
+- etoiles relevees : 48371
+- topics releves : anthropic, chatgpt, claude-3, cli, command-line, gemini, gpt-3, gpt-35-turbo, gpt-4, gpt-4o, llama, openai, sonnet
+- derniere activite relevee : 2026-05-22T14:02:20Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 Aider AI Pair Programming is a KM watch item classified as Veille outil IA / pair programming terminal. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.

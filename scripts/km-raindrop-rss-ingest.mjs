@@ -67,20 +67,20 @@ function classify(item) {
   if (/(pentest|red.?team|offensive|malware|exploit|dark.?web|leak|dork|osint|recon|forensic|bounty)/i.test(haystack)) {
     return {
       status: "#ROUGE",
-      tags: ["raindrop-km-monitor", "#ROUGE", "offensive-risk", "privacy-risk"],
+      tags: ["#ROUGE", "#offensive-risk", "#privacy-risk"],
       usage: "#ROUGE : veille defensive uniquement, sans procedure operationnelle.",
     };
   }
   if (/(scrap|crawler|automation|agent|workflow|memory|github|api|browser|email|llm|mcp|vector|search)/i.test(haystack)) {
     return {
       status: "sensible",
-      tags: ["raindrop-km-monitor", "agents", "automation", "sensible"],
+      tags: ["#agents", "#automation", "#sensible"],
       usage: "Signal utile pour veille agents/outils, a auditer avant reutilisation.",
     };
   }
   return {
     status: "a verifier",
-    tags: ["raindrop-km-monitor", "raindrop", "to-verify"],
+    tags: ["#source", "#a-verifier"],
     usage: "Signal Raindrop a qualifier manuellement.",
   };
 }
@@ -168,7 +168,6 @@ ${classification.tags.join(", ")}
 
 ## Sources
 
-- Raindrop KM Monitor : \`${PUBLIC_PAGE}\`
 - Source : \`${source}\`
 
 Lecture KM : ${date}

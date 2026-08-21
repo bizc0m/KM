@@ -25,6 +25,22 @@ Source Raindrop :
 - auteur/source : `openclaw`
 - tags detectes : aucun tag Raindrop
 
+## Metadata GitHub publique
+
+Releve API GitHub : 2026-08-21
+
+- repo : `openclaw/AXorcist`
+- URL : `https://github.com/openclaw/AXorcist`
+- description : AXorcist • Swift wrapper for macOS Accessibility—chainable, fuzzy-matched queries that read, click, and inspect any UI. The power of Swift compels your UI to obey!
+- licence : MIT
+- etoiles relevees : 319
+- topics releves : accessibility, macos, swift
+- derniere activite relevee : 2026-08-18T06:35:22Z
+- archived : non
+- fork : non
+
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+
 ## Resume court
 
 AXorcist macOS Accessibility is a KM watch item classified as Veille Raindrop KM Monitor / bibliotheque Swift pour macOS Accessibility. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
