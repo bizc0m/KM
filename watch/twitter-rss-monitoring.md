@@ -22,8 +22,6 @@ Auteur : Scott Yoshinaga
 
 Date source : 2023-04-20
 
-Lecture KM : 2026-05-22
-
 ## Metadata GitHub publique
 
 Releve API GitHub : 2026-08-21
@@ -42,7 +40,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-Twitter RSS Monitoring is a KM watch item classified as Veille process / source monitoring. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+Twitter RSS Monitoring est une fiche KM de veille Veille process / source monitoring. Source finale conservee dans la fiche.
 
 ## Outils cites
 
@@ -100,27 +98,6 @@ Points verifies :
 - Reduire l'exposition a l'interface addictive de X.
 - Surveiller les comptes source utiles pour KM sans connexion directe a X.
 - Alimenter une veille manuelle non intrusive.
-
-## Usage abusif possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Surveillance abusive | suivre systematiquement une personne sans cadre legitime | #ROUGE si cible personne privee |
-| Scraping agressif | multiplier flux et requetes au-dela d'une veille raisonnable | sensible ; #ROUGE si automatisation furtive ou massive |
-| Contournement plateforme | utiliser des services alternatifs pour contourner limites/API sans respecter conditions | sensible |
-| Profilage | croiser flux publics pour profiler une personne ou un groupe | sensible ; #ROUGE si ciblage individuel non consenti |
-
-## Garde-fous
-
-- Utiliser uniquement des comptes publics et pertinents pour la veille.
-- Ne pas suivre de personnes privees sans raison legitime.
-- Ne pas stocker donnees personnelles issues de flux.
-- Ne pas automatiser a grande echelle.
-- Respecter les limites des services tiers et les conditions applicables.
-- Preferer la veille thematique aux listes nominatives.
-- Usage OpenRSS : personnel, non commercial, frequence raisonnable.
-- Ne pas redistribuer les flux OpenRSS dans une app publique ou payante sans verifier les conditions.
-- Usage Nitter : limiter a une veille manuelle ou faible frequence ; ne pas dependra d'instances publiques pour un produit.
 
 ## Relations
 

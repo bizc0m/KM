@@ -6,7 +6,7 @@ Veille outils IA / editeur vibe coding multi-engine.
 
 ## Tags
 
-#vibe-coding, #ai-editor, #developer-tools, #claude-code, #codex, #opencode, #gemini, #multi-engine, #sensitive, #to-verify
+#vibe-coding, #ai-editor, #developer-tools, #claude-code, #codex, #opencode, #gemini, #multi-engine, #to-verify
 
 ## Appel canonique
 
@@ -17,8 +17,6 @@ Veille outils IA / editeur vibe coding multi-engine.
 - Page Vibe Shit : `https://vibeshit.org/product/ccgui`
 - Site associe : `https://www.mossx.ai/`
 
-Lecture : 2026-05-22
-
 ## Statut verification
 
 `a verifier`
@@ -27,7 +25,7 @@ La page Vibe Shit annonce un lien GitHub et un auteur `zhukunpenglinyutong`, mai
 
 ## Resume court
 
-CC-GUI / MossX - VibeCoding Editor is a KM watch item classified as Veille outils IA / editeur vibe coding multi-engine. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+CC-GUI / MossX - VibeCoding Editor est une fiche KM de veille Veille outils IA / editeur vibe coding multi-engine. Source finale conservee dans la fiche.
 
 ## Usage utile
 
@@ -35,25 +33,6 @@ CC-GUI / MossX - VibeCoding Editor is a KM watch item classified as Veille outil
 - Surveiller les patterns UI pour agents de code : terminal, git, kanban, memoire, workflows.
 - Inspirer des outils internes de pilotage agents et revue de plans.
 - Identifier les risques d'integration multi-provider et multi-agent dans un IDE.
-
-## Usage abusif possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Code disclosure | envoyer code prive ou prompts sensibles a des providers non verifies | sensible |
-| Key leakage | stocker cles API / tokens dans config, logs ou plugins | sensible critique |
-| Tool execution | laisser un agent modifier fichiers, git ou terminal sans validation | sensible |
-| Supply chain | installer plugins, MCP ou skills non audites | sensible |
-| False authority | UI professionnelle pouvant masquer des claims non verifies | sensible |
-
-## Garde-fous
-
-- Verifier repo, licence, permissions et modele de securite avant usage.
-- Ne pas ouvrir de repo sensible dans un editeur non audite.
-- Ne pas stocker secrets en clair dans l'outil.
-- Desactiver execution terminal/git automatique sans validation humaine.
-- Tester uniquement sur repo sandbox avant integration.
-- Auditer MCP, skills et plugins ajoutes.
 
 ## Relations
 

@@ -6,7 +6,7 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#osint, #privacy-sensitive
+#osint, #privacy
 
 ## Appel canonique
 
@@ -15,43 +15,13 @@ Veille Raindrop KM Monitor.
 ## Sources
 - Source : [https://x.com/cyb_detective/status/2065733663887634911](https://x.com/cyb_detective/status/2065733663887634911)
 
-Lecture KM : 2026-06-26
-
-Source Raindrop :
-
-- titre : `Multi-search launcher`
-- date : 2026-06-14T10:53:05.949Z
-- domaine : `x.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
-
 ## Resume court
 
-Multi-search launcher is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : source utile en veille mais pouvant toucher a la privacy ou a la collecte de traces.
-
-## Usage KM
-
-Suivre les sources OSINT et privacy avec garde-fous.
-
-## Risque d'abus possible
-
-Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+Multi-search launcher est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
 
 ## A_VERIFIER
 
 - post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
-
-## Garde-fous
-
-- Ne pas stocker de secrets, donnees personnelles ou contenu source complet.
-- Ne pas transformer une source sensible en tutoriel operationnel.
-- Valider manuellement avant usage public ou integration produit.
 
 ## Relations
 

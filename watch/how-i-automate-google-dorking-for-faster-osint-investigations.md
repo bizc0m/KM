@@ -15,43 +15,13 @@ Veille Raindrop KM Monitor.
 ## Sources
 - Source : [https://x.com/cyber_sudo/status/2062489706147836223](https://x.com/cyber_sudo/status/2062489706147836223)
 
-Lecture KM : 2026-06-26
-
-Source Raindrop :
-
-- titre : `Google Dorking Automation For OSINT`
-- date : 2026-06-05T06:50:27.393Z
-- domaine : `x.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
-
 ## Resume court
 
-Google Dorking Automation For OSINT is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`#ROUGE`
-
-Raison : source liee a recherche offensive, contournement, collecte intrusive ou risque privacy direct.
-
-## Usage KM
-
-Veille risque et prevention des abus, meta uniquement.
-
-## Risque d'abus possible
-
-Abus possible direct ou facilite : collecte intrusive, reconnaissance, contournement, automatisation offensive ou atteinte privacy.
+Google Dorking Automation For OSINT est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
 
 ## A_VERIFIER
 
 - post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
-
-## Garde-fous
-
-- Ne pas stocker de secrets, donnees personnelles ou contenu source complet.
-- Ne pas transformer une source sensible en tutoriel operationnel.
-- Valider manuellement avant usage public ou integration produit.
 
 ## Relations
 

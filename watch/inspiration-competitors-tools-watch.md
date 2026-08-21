@@ -65,8 +65,8 @@ Orbit aide des groupes d'amis a trouver des disponibilites communes via calendri
 
 | Risque | Description | Classement |
 | --- | --- | --- |
-| Tracking relationnel | mesurer qui voit qui et a quelle frequence | sensible |
-| Pression sociale | relancer trop souvent les personnes moins presentes | sensible |
+| Tracking relationnel | mesurer qui voit qui et a quelle frequence | actif |
+| Pression sociale | relancer trop souvent les personnes moins presentes | actif |
 | Profilage social | inferer habitudes, groupes ou disponibilites | sensible ; #ROUGE si ciblage/stalking non consenti |
 
 ## Fiche courte - Oh My Pizza!
@@ -94,7 +94,7 @@ Blog personnel de Scott Yoshinaga avec archives, updates, posts culturels et not
 | Risque | Description | Classement |
 | --- | --- | --- |
 | Surinterpretation | traiter un blog personnel comme source officielle | faible |
-| Copie de contenu | reprendre la curation ou le texte sans attribution | sensible |
+| Copie de contenu | reprendre la curation ou le texte sans attribution | actif |
 | Tracking culturel individuel | profiler les gouts d'une personne a partir de ses archives | sensible ; #ROUGE si harcelement/ciblage non consenti |
 
 ### Garde-fous

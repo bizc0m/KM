@@ -6,7 +6,7 @@ Veille OSINT transversale.
 
 ## Tags
 
-#osint, #vehicle-search, #vin, #license-plate, #threat-intelligence, #privacy-sensitive
+#osint, #vehicle-search, #vin, #license-plate, #threat-intelligence, #privacy
 
 ## Source
 
@@ -25,13 +25,13 @@ Lecture effectuee via FxTwitter API publique, sans compte X.
 
 ## Resume court
 
-OSINT Tools Watch is a KM watch item classified as Veille OSINT transversale. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+OSINT Tools Watch est une fiche KM de veille Veille OSINT transversale. Source finale conservee dans la fiche.
 
 ## Sources lues
 
 | Date post | Auteur | URL | Sujet | Statut |
 | --- | --- | --- | --- | --- |
-| 2026-05-21 | `cyb_detective` | `https://x.com/cyb_detective/status/2057462395568558157` | Vehicle Search Tools : license plate search, VIN check, vehicle history records | sensible |
+| 2026-05-21 | `cyb_detective` | `https://x.com/cyb_detective/status/2057462395568558157` | Vehicle Search Tools : license plate search, VIN check, vehicle history records | actif |
 
 ## Arbitrage
 
@@ -40,19 +40,6 @@ OSINT Tools Watch is a KM watch item classified as Veille OSINT transversale. Th
 | Vehicle search OSINT | garder avec prudence | utile pour veille OSINT, mais donnees potentiellement personnelles |
 | Plaques / VIN / historique vehicule | a cadrer | risque privacy, stalking, doxxing, usage abusif |
 | Repo awesome-hacker-search-engines | garder comme source | index public, a verifier avant utilisation |
-
-## Garde-fous
-
-- Usage uniquement defensif, recherche legitime, audit, investigation autorisee ou apprentissage.
-- Pas de doxxing, stalking, surveillance abusive ou identification de particuliers sans base legitime.
-- Ne pas stocker plaques, VIN, noms, adresses ou resultats personnels dans KM.
-- Verifier legalite locale avant usage de tout outil lie aux vehicules.
-
-## Risques
-
-- Outils externes variables.
-- Donnees vehicules possiblement personnelles.
-- Resultats pouvant etre faux, obsoletes ou hors cadre legal selon pays.
 
 ## Prochaines actions
 

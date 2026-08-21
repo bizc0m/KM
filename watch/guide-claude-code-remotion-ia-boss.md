@@ -6,7 +6,7 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation, #sensible
+#agents, #automation
 
 ## Appel canonique
 
@@ -15,43 +15,13 @@ Veille Raindrop KM Monitor.
 ## Sources
 - Source : [https://docs.google.com/document/u/0/d/1oAATWl9iCTVELCmEUv1PvMYbxig86ezjncWkEPl1YoY/mobilebasic](https://docs.google.com/document/u/0/d/1oAATWl9iCTVELCmEUv1PvMYbxig86ezjncWkEPl1YoY/mobilebasic)
 
-Lecture KM : 2026-06-26
-
-Source Raindrop :
-
-- titre : `Guide_Claude_Code_Remotion_IA_Boss`
-- date : 2026-06-13T09:54:55.867Z
-- domaine : `docs.google.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
-
 ## Resume court
 
-Guide_Claude_Code_Remotion_IA_Boss is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : outil ou ressource agentique pouvant manipuler code, workflows, comptes ou donnees sensibles.
-
-## Usage KM
-
-Suivre les outils et references creative production / media IA.
-
-## Risque d'abus possible
-
-Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+Guide_Claude_Code_Remotion_IA_Boss est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
 
 ## A_VERIFIER
 
 - ressource longue referencee sans copie du contenu complet
-
-## Garde-fous
-
-- Ne pas stocker de secrets, donnees personnelles ou contenu source complet.
-- Ne pas transformer une source sensible en tutoriel operationnel.
-- Valider manuellement avant usage public ou integration produit.
 
 ## Relations
 

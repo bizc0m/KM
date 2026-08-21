@@ -55,32 +55,32 @@ Bilan actuel :
 | 16 | openshorts | `https://github.com/mutonby/openshorts` | AI shorts / subtitles | `exploraX_` | verifie GitHub via recherche web |
 | 17 | freellmapi | `https://github.com/tashfeenahmed/freellmapi` | multi-provider LLM API | `exploraX_` | verifie GitHub via recherche web |
 | 18 | playwright-mcp | `https://github.com/microsoft/playwright-mcp` | browser automation MCP | `exploraX_` | verifie GitHub |
-| 19 | vibe-trading | `https://github.com/HKUDS/Vibe-Trading` | finance agent / trading | `exploraX_`, `DeepTechTR` | verifie GitHub, doublon fusionne, sensible |
+| 19 | vibe-trading | `https://github.com/HKUDS/Vibe-Trading` | finance agent / trading | `exploraX_`, `DeepTechTR` | verifie GitHub, doublon fusionne |
 | 20 | whisper | `https://github.com/openai/whisper` | speech-to-text | `exploraX_` | verifie GitHub |
 | 21 | postiz | `https://github.com/gitroomhq/postiz-app` | social scheduler | `exploraX_` | verifie GitHub |
 | 22 | vaultwarden | `https://github.com/dani-garcia/vaultwarden` | password manager server | `exploraX_` | verifie GitHub |
 | 23 | ARGO | `https://github.com/xark-argo/argo` | local agent / RAG / MCP | `Fluyeporlaweb` | verifie GitHub via recherche web |
-| 24 | AutoHedge | `https://github.com/The-Swarm-Corporation/AutoHedge` | finance agent / trading | `DeepTechTR` | verifie GitHub, sensible |
-| 25 | Fincept Terminal | `https://github.com/Fincept-Corporation/FinceptTerminal` | finance terminal | `DeepTechTR` | verifie GitHub, sensible |
+| 24 | AutoHedge | `https://github.com/The-Swarm-Corporation/AutoHedge` | finance agent / trading | `DeepTechTR` | verifie GitHub |
+| 25 | Fincept Terminal | `https://github.com/Fincept-Corporation/FinceptTerminal` | finance terminal | `DeepTechTR` | verifie GitHub |
 | 26 | LibreChat | `https://github.com/danny-avila/LibreChat` | self-hosted chat UI | `DeepTechTR` | verifie GitHub, site `https://librechat.ai` redirige |
 | 27 | Open Higgsfield AI / Open Generative AI | `https://github.com/Anil-matcha/Open-Generative-AI` | local AI cinema studio | `DeepTechTR` | verifie GitHub |
 | 28 | Open-LLM-VTuber | `https://github.com/Open-LLM-VTuber/Open-LLM-VTuber` | AI companion / Live2D | `DeepTechTR` | verifie GitHub |
 | 29 | Claude Ads | `https://github.com/AgriciDaniel/claude-ads` | ads optimization skill | `DeepTechTR` | verifie GitHub |
 | 30 | Agentic Inbox | `https://github.com/cloudflare/agentic-inbox` | AI email client | `DeepTechTR` | verifie GitHub |
-| 31 | Camofox Browser | `https://github.com/jo-inc/camofox-browser` | headless browser / anti-detection | `DeepTechTR` | verifie GitHub, sensible |
+| 31 | Camofox Browser | `https://github.com/jo-inc/camofox-browser` | headless browser / anti-detection | `DeepTechTR` | verifie GitHub |
 | 32 | Hyperframes | `https://github.com/heygen-com/hyperframes` | video rendering framework | `DeepTechTR` | verifie GitHub |
-| 33 | yt-dlp | `https://github.com/yt-dlp/yt-dlp` | media download / archiving | `nicos_ai` | verifie GitHub, sensible |
+| 33 | yt-dlp | `https://github.com/yt-dlp/yt-dlp` | media download / archiving | `nicos_ai` | verifie GitHub |
 | 34 | Ollama | `https://github.com/ollama/ollama` | local LLM runtime | `nicos_ai` | verifie GitHub |
-| 35 | Fooocus | `https://github.com/lllyasviel/Fooocus` | local image generation | `nicos_ai` | verifie GitHub, sensible |
+| 35 | Fooocus | `https://github.com/lllyasviel/Fooocus` | local image generation | `nicos_ai` | verifie GitHub |
 | 36 | PhotoGIMP | `https://github.com/Diolinux/PhotoGIMP` | GIMP Photoshop-like workflow | `nicos_ai` | verifie GitHub |
 | 37 | Open Design | `https://github.com/nexu-io/open-design` | AI/UI design workflow | `nicos_ai` | verifie GitHub |
 | 38 | Bitwarden Server | `https://github.com/bitwarden/server` | password manager server | `nicos_ai` | verifie GitHub, interne critique |
-| 39 | AgentsView | `https://github.com/kenn-io/agentsview` | session intelligence / analytics agents | `agentsview.io` | verifie GitHub, sensible |
-| 40 | NanoClaw | `https://github.com/nanocoai/nanoclaw` | personal AI agent / messaging / containers | `nanoclaw.dev` | verifie GitHub, sensible |
-| 41 | AutoResearchClaw | `https://github.com/aiming-lab/AutoResearchClaw` | autonomous research / papers / experiments | GitHub | verifie GitHub, sensible |
-| 42 | Awesome Free LLM APIs | `https://github.com/mnfst/awesome-free-llm-apis` | free LLM API providers / OpenAI-compatible endpoints | GitHub | verifie GitHub, sensible |
+| 39 | AgentsView | `https://github.com/kenn-io/agentsview` | session intelligence / analytics agents | `agentsview.io` | verifie GitHub |
+| 40 | NanoClaw | `https://github.com/nanocoai/nanoclaw` | personal AI agent / messaging / containers | `nanoclaw.dev` | verifie GitHub |
+| 41 | AutoResearchClaw | `https://github.com/aiming-lab/AutoResearchClaw` | autonomous research / papers / experiments | GitHub | verifie GitHub |
+| 42 | Awesome Free LLM APIs | `https://github.com/mnfst/awesome-free-llm-apis` | free LLM API providers / OpenAI-compatible endpoints | GitHub | verifie GitHub |
 | 43 | PentestGPT | `https://github.com/GreyDGL/PentestGPT` | autonomous penetration testing agent | Vibe Shit / pentestgpt.com | verifie GitHub, #ROUGE |
-| 44 | CC-GUI / MossX | `https://vibeshit.org/product/ccgui` | vibe coding editor / multi-engine AI dev panels | Vibe Shit / mossx.ai | a verifier, sensible |
+| 44 | CC-GUI / MossX | `https://vibeshit.org/product/ccgui` | vibe coding editor / multi-engine AI dev panels | Vibe Shit / mossx.ai | a verifier |
 
 ## Verification liens
 
@@ -91,7 +91,7 @@ Verification effectuee le 2026-05-22.
 | Verifies GitHub/API | 30 | Repos existants et accessibles via GitHub API |
 | Verifies HTTP/site | 2 | `Spacesuit`, `Voicebox` site officiel HTTP 200 ; Voicebox repo aussi verifie |
 | Corriges depuis recherche web | 6 | `ViMax`, `openscreen`, `voicebox`, `openshorts`, `freellmapi`, `ARGO` |
-| Sensibles | 5 | finance/trading, vehicle/OSINT, anti-detection |
+| A controler | 5 | finance/trading, vehicle/OSINT, anti-detection |
 
 Corrections importantes :
 
@@ -113,13 +113,6 @@ Corrections importantes :
 - `Cal.com` / `CalCom`.
 - `Vibe-Trading`.
 - Lien `sweexx9` fourni deux fois, compte une seule source.
-
-## Garde-fous
-
-- Les outils finance/trading ne sont pas des conseils financiers.
-- Les outils OSINT et vehicle search restent privacy-sensitive.
-- Les outils de redirection IA doivent etre audites avant usage : secrets, licences, conditions d'utilisation, exposition des prompts.
-- Les outils anti-detection doivent etre cadrés legalement et ethniquement avant tout usage.
 
 ## Metadata GitHub publique
 
@@ -171,37 +164,6 @@ Releve API GitHub : 2026-08-21
 | `GreyDGL/PentestGPT` | MIT | 14985 | large-language-models, llm, penetration-testing, python | 2026-07-14T12:58:31Z | non | non |
 
 Note : metadata volatile, a reverifier avant decision produit ou execution locale.
-
-## Classification abus possible
-
-| Outil / famille | Usage utile | Usage abusif possible | Classement |
-| --- | --- | --- | --- |
-| Spacesuit, AppFlowy, Penpot | organisation, design, documentation | fuite de donnees si documents sensibles mal partages | interne |
-| Cal.com | scheduling, events, rendez-vous | collecte abusive de contacts, spam d'invitations | interne |
-| Plausible Analytics | analytics privacy-first | tracking sans consentement si mal configure | interne |
-| Ghost, Listmonk, Postiz | publication, newsletter, social scheduling | spam, manipulation sociale, diffusion non validee | interne |
-| n8n | automatisation workflows | automatisation de spam, scraping, exfiltration si connecteurs mal controles | #ROUGE si connecte a donnees sensibles |
-| Supabase, Medusa, Coolify | backend, ecommerce, deploy | fuite de donnees, mauvaise config auth/secrets | interne |
-| ViMax, OpenShorts, Hyperframes | creation video, demos | deepfake, usurpation, contenu trompeur | sensible ; #ROUGE seulement si usurpation/deepfake cible |
-| Pipecat, Voicebox, Whisper | agents vocaux, TTS/STT, transcription | clonage vocal non consenti, usurpation, enregistrement non consenti | sensible ; #ROUGE seulement si usurpation cible |
-| FreeLLMAPI, LibreChat, ARGO | routage LLM, chat self-hosted, agent local | fuite de prompts/secrets, contournement quotas/conditions, automatisation non surveillee | #ROUGE si secrets ou comptes tiers |
-| Playwright MCP | tests navigateur, QA | scraping abusif, actions automatisees non autorisees | #ROUGE si cible externe sans autorisation |
-| Vibe-Trading, AutoHedge, Fincept Terminal | recherche finance, simulation | conseil financier automatise, trading non supervise, pertes financieres | sensible finance |
-| Vaultwarden | hygiene secrets | coffre mal configure exposant secrets | interne critique |
-| Open-LLM-VTuber | avatar/compagnon IA | manipulation affective, captation de publics vulnerables | sensible |
-| Claude Ads | audit campagnes ads | manipulation publicitaire, contournement policies plateformes | sensible |
-| Agentic Inbox | tri email, brouillons | envoi non valide, fuite email, usurpation | sensible ; #ROUGE si envoi autonome abusif |
-| Camofox Browser | tests anti-bot legitimes | contournement detection, scraping furtif, abus plateformes | #ROUGE non diffusable |
-| Vehicle Search Tools | investigation autorisee | doxxing, stalking, identification de particuliers | #ROUGE non diffusable |
-| Image OSINT tools | verification images, threat intel | geolocalisation abusive, identification non consentie | #ROUGE non diffusable |
-| yt-dlp | archivage legitime, recuperation de contenus autorises | telechargement non autorise, violation copyright, contournement plateformes | sensible |
-| Ollama | IA locale privacy-first | execution non controlee, mauvaise hygiene prompts/secrets | interne |
-| Fooocus | generation image locale | images trompeuses, usurpation visuelle | sensible |
-| PhotoGIMP | design local | confusion marque/interface si redistribution trompeuse | interne |
-| Open Design | generation UI/design | copie de designs ou confusion avec outils proprietaires | interne |
-| Bitwarden Server | gestion secrets | mauvaise configuration exposant secrets | interne critique |
-
-Regle : `#ROUGE` = risque offensif direct, a connaitre pour defense et prevention, pas a diffuser comme tutoriel, pas d'exploitation operationnelle. `Sensible` = utile mais garde-fous forts selon contexte.
 
 ## Prochaines actions
 

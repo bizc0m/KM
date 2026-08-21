@@ -16,8 +16,6 @@ Veille liens utilisateur / article X sur memoire agentique.
 
 - Source sociale article : `https://x.com/0xwast3/status/2084625810112032849?s=12`
 
-Lecture KM : 2026-08-12
-
 Source sociale :
 
 - titre lu : `Memory Engineering: The Discipline That Decides Whether Your AI Agent Has a Past`
@@ -27,23 +25,7 @@ Source sociale :
 
 ## Resume court
 
-Memory Engineering - Agent Past is a KM watch item classified as Veille liens utilisateur / article X sur memoire agentique. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`a verifier`
-
-Raison : source editorialisee sur X Article ; utile comme concept, mais pas encore rattachee a un projet, une implementation ou une documentation technique stable.
-
-## Usage KM
-
-- Servir de signal conceptuel pour les fiches sur memoire agentique.
-- Comparer avec Graft, TencentDB Agent Memory, AgentsView et prompts de contexte projet.
-- Extraire ensuite une note interne si l'article complet apporte une taxonomie exploitable.
-
-## Risque d'abus possible
-
-Retention excessive de contexte, confusion entre memoire utile et surveillance, memorisation de secrets ou de donnees personnelles, extraction de patterns utilisateur sans consentement.
+Memory Engineering - Agent Past est une fiche KM de veille Veille liens utilisateur / article X sur memoire agentique. Source finale conservee dans la fiche.
 
 ## A_VERIFIER
 

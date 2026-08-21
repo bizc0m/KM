@@ -6,7 +6,7 @@ Veille education IA / API keys.
 
 ## Tags
 
-#api-keys, #llm, #education, #credentials, #sensible
+#api-keys, #llm, #education, #credentials
 
 ## Appel canonique
 
@@ -14,16 +14,6 @@ Veille education IA / API keys.
 
 ## Sources
 - Reel Instagram : `https://www.instagram.com/reel/DZkw-DEh_Dl/`
-
-Lecture KM : 2026-06-27
-
-Source Raindrop :
-
-- titre : `Free Api Key`
-- date : 2026-06-27T07:33:05.923Z
-- domaine : `instagram.com`
-- auteur/source : `workflow_aitools`
-- tags detectes : aucun tag Raindrop
 
 Metadonnees Raindrop :
 
@@ -33,33 +23,7 @@ Metadonnees Raindrop :
 
 ## Resume court
 
-Free Api Key - Instagram Reel is a KM watch item classified as Veille education IA / API keys. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : le sujet concerne les cles API, l'authentification, la facturation et la securite de comptes. Aucune cle ni secret n'est stocke dans cette fiche ; pas de capacite offensive directe, donc pas de `#ROUGE`.
-
-## Usage KM
-
-- Suivre les contenus courts qui popularisent les concepts d'API keys et de securite IA.
-- Alimenter une checklist pedagogique : ne jamais exposer une cle, rotation, scopes, quotas, logs.
-- Reperer les risques de confusion entre "free API key", essai gratuit et exposition de credentials.
-
-## Risque d'abus possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Exposition de secrets | utilisateurs debutants pouvant coller une cle dans un outil public | sensible |
-| Phishing / bait | promesse de cle gratuite pouvant mener a collecte abusive | sensible |
-| Depenses non controlees | mauvaise gestion de quotas ou facturation API | sensible |
-
-## Garde-fous
-
-- Ne jamais stocker de cle API dans la KM.
-- Verifier le fournisseur reel avant tout lien "free API key".
-- Utiliser variables d'environnement, rotation et quotas stricts.
+Free Api Key - Instagram Reel est une fiche KM de veille Veille education IA / API keys. Source finale conservee dans la fiche.
 
 ## Relations
 

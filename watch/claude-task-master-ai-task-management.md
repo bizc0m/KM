@@ -15,16 +15,6 @@ Veille outil IA / gestion de taches agentique.
 ## Sources
 - Repo GitHub : `https://github.com/eyaltoledano/claude-task-master`
 
-Lecture KM : 2026-06-24
-
-Source Raindrop :
-
-- titre : `eyaltoledano/claude-task-master: An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.`
-- date : 2026-06-24T16:25:20.192Z
-- domaine : `github.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
-
 ## Metadata GitHub publique
 
 Releve API GitHub : 2026-08-21
@@ -43,33 +33,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-Claude Task Master is a KM watch item classified as Veille outil IA / gestion de taches agentique. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`actif`
-
-Raison : outil de productivite agentique sans risque offensif direct identifie dans le signal Raindrop.
-
-## Usage KM
-
-- Comparer les patterns de decomposition de taches pour agents.
-- Evaluer l'interoperabilite avec editeurs IA.
-- Repérer des pratiques de backlog agentique reutilisables.
-
-## Risque d'abus possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Sur-automatisation | execution de plans sans validation humaine | sensible |
-| Donnees projet | fuite de specs ou chemins internes si mal configure | sensible |
-| Claims | capacites a verifier dans le repo | a verifier |
-
-## Garde-fous
-
-- Ne pas injecter secrets, specs privees ou chemins exposables.
-- Garder une validation humaine sur les actions d'edition.
-- Tester sur projet de sandbox avant usage reel.
+Claude Task Master est une fiche KM de veille Veille outil IA / gestion de taches agentique. Source finale conservee dans la fiche.
 
 ## Relations
 

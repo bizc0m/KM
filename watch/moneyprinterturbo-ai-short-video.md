@@ -6,7 +6,7 @@ Veille outils IA / generation automatique de shorts video.
 
 ## Tags
 
-#ai-video, #shortvideo, #tiktok, #automation, #llm, #moviepy, #python, #content-generation, #social-media, #sensitive
+#ai-video, #shortvideo, #tiktok, #automation, #llm, #moviepy, #python, #content-generation, #social-media
 
 ## Appel canonique
 
@@ -16,8 +16,6 @@ Veille outils IA / generation automatique de shorts video.
 
 - Repo : `https://github.com/harry0703/MoneyPrinterTurbo`
 - Source sociale secondaire : `https://x.com/xamto_ai/status/2070335993421722010`
-
-Lecture : 2026-05-25
 
 Verification GitHub API :
 
@@ -59,7 +57,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-MoneyPrinterTurbo - AI Short Video Generator is a KM watch item classified as Veille outils IA / generation automatique de shorts video. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+MoneyPrinterTurbo - AI Short Video Generator est une fiche KM de veille Veille outils IA / generation automatique de shorts video. Source finale conservee dans la fiche.
 
 ## Usage utile
 
@@ -68,25 +66,6 @@ MoneyPrinterTurbo - AI Short Video Generator is a KM watch item classified as Ve
 - Etudier une architecture Python/MoviePy pour montage automatise.
 - Produire des demos internes ou variations de formats courts.
 - Alimenter le futur framework RS comme brique de generation, pas comme publication automatique.
-
-## Usage abusif possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Spam video | production massive de contenus bas qualite ou dupliques | sensible ; #ROUGE si manipulation coordonnee |
-| Desinformation | generation de videos trompeuses, sorties de contexte ou non signalees | sensible ; #ROUGE si campagne malveillante |
-| Impersonation | imitation d'une personne, marque ou voix sans consentement | #ROUGE |
-| Copyright | reutilisation d'assets, musiques, images ou scripts non autorises | sensible |
-| Platform abuse | contournement de limites ou conditions des plateformes sociales | sensible ; #ROUGE si automatisation abusive |
-
-## Garde-fous
-
-- Validation humaine avant toute publication.
-- Pas d'usurpation d'identite, voix, image ou marque.
-- Sources, assets et musiques avec droits clairs.
-- Signalement du contenu genere par IA quand requis.
-- Pas de publication massive non sollicitee.
-- Pas de donnees personnelles dans prompts, assets, logs ou exports.
 
 ## Relations
 

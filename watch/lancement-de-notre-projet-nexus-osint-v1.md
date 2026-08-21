@@ -6,7 +6,7 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#osint, #privacy-sensitive
+#osint, #privacy
 
 ## Appel canonique
 
@@ -15,43 +15,13 @@ Veille Raindrop KM Monitor.
 ## Sources
 - Source : [https://x.com/nexus_osint/status/2062580178727899394](https://x.com/nexus_osint/status/2062580178727899394)
 
-Lecture KM : 2026-06-26
-
-Source Raindrop :
-
-- titre : `Nexus OSINT V1 Launch`
-- date : 2026-06-05T06:51:03.864Z
-- domaine : `x.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
-
 ## Resume court
 
-Nexus OSINT V1 Launch is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : source OSINT sensible a auditer, sans procedure offensive stockee ici.
-
-## Usage KM
-
-Veille risque et prevention des abus, meta uniquement.
-
-## Risque d'abus possible
-
-Risque sensible : claims non verifies, conditions de diffusion ou usages pouvant exposer des donnees et workflows.
+Nexus OSINT V1 Launch est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
 
 ## A_VERIFIER
 
 - post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
-
-## Garde-fous
-
-- Ne pas stocker de secrets, donnees personnelles ou contenu source complet.
-- Ne pas transformer une source sensible en tutoriel operationnel.
-- Valider manuellement avant usage public ou integration produit.
 
 ## Relations
 

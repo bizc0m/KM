@@ -6,7 +6,7 @@ Veille OSINT / annuaire d'outils d'investigation.
 
 ## Tags
 
-#osint, #threat-intelligence, #investigation, #curated-tools, #privacy-sensitive, #a-verifier
+#osint, #threat-intelligence, #investigation, #curated-tools, #privacy, #a-verifier
 
 ## Appel canonique
 
@@ -15,45 +15,9 @@ Veille OSINT / annuaire d'outils d'investigation.
 ## Sources
 - Site : `https://osintrack.com/`
 
-Lecture KM : 2026-06-24
-
-Source Raindrop :
-
-- titre : `The OSINT Rack | Curated Intelligence Tools`
-- date : 2026-06-24T05:51:13.768Z
-- domaine : `osintrack.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
-
 ## Resume court
 
-The OSINT Rack - Curated Intelligence Tools is a KM watch item classified as Veille OSINT / annuaire d'outils d'investigation. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : OSINT utile pour veille et investigations legitimes, mais certains outils peuvent toucher a la vie privee, au doxxing ou a la surveillance abusive selon usage.
-
-## Usage KM
-
-- Source de veille pour identifier des categories d'outils OSINT.
-- Point d'entree pour cartographier les familles utiles en threat intelligence.
-- Reserve d'outils a verifier un par un avant toute recommandation.
-
-## Risque d'abus possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Vie privee | identification ou correlation de personnes sans base legitime | sensible |
-| Doxxing | usage d'outils d'investigation contre des particuliers | sensible |
-| Donnees variables | sources externes non auditees et potentiellement obsoletes | a verifier |
-
-## Garde-fous
-
-- Ne pas stocker de donnees personnelles extraites.
-- Verifier chaque outil avant integration dans une fiche dediee.
-- Limiter l'usage aux cadres defensifs, recherches legitimes et investigations autorisees.
+The OSINT Rack - Curated Intelligence Tools est une fiche KM de veille Veille OSINT / annuaire d'outils d'investigation. Source finale conservee dans la fiche.
 
 ## Relations
 

@@ -15,45 +15,9 @@ Veille outil / annuaire applications gratuites open source.
 ## Sources
 - Source sociale : [https://x.com/sn0wbrave/status/2070657216835633364](https://x.com/sn0wbrave/status/2070657216835633364)
 
-Lecture KM : 2026-06-27
-
-Source Raindrop :
-
-- titre : post X en arabe sur une liste d'applications gratuites open source
-- date : 2026-06-27T11:19:32.409Z
-- domaine : `x.com`
-- auteur/source : `sn0wbrave`
-- tags detectes : aucun tag Raindrop
-
 ## Resume court
 
-Free Open Source Apps List - sn0wbrave is a KM watch item classified as Veille outil / annuaire applications gratuites open source. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`a verifier`
-
-Raison : annuaire potentiellement utile, mais la source finale n'est pas encore identifiee. Pas de risque offensif direct dans les metadonnees lues.
-
-## Usage KM
-
-- Ajouter a la veille annuaires d'outils gratuits/open source.
-- Identifier le depot ou site final avant toute integration dans `AI-Tools.md`.
-- Comparer avec les listes existantes de SaaS alternatives et free tools.
-
-## Risque d'abus possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Source secondaire | post X sans lien final resolu dans la fiche | a verifier |
-| Logiciels non audites | applications potentiellement obsoletes ou non maintenues | sensible |
-| Securite poste | installation d'outils inconnus sur machine principale | sensible |
-
-## Garde-fous
-
-- Verifier le repo/site final et la licence avant recommandation.
-- Tester en sandbox si installation necessaire.
-- Ne pas installer d'applications non verifiees sur environnement principal.
+Free Open Source Apps List - sn0wbrave est une fiche KM de veille Veille outil / annuaire applications gratuites open source. Source finale conservee dans la fiche.
 
 ## Relations
 

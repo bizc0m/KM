@@ -15,43 +15,13 @@ Veille Raindrop KM Monitor.
 ## Sources
 - Source : [https://x.com/tom_doerr/status/2066334739758305748](https://x.com/tom_doerr/status/2066334739758305748)
 
-Lecture KM : 2026-06-26
-
-Source Raindrop :
-
-- titre : `Remotely accesses webcams, microphones, and location data`
-- date : 2026-06-16T09:16:46.004Z
-- domaine : `x.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
-
 ## Resume court
 
-Remotely accesses webcams, microphones, and location data is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`#ROUGE`
-
-Raison : source liee a recherche offensive, contournement, collecte intrusive ou risque privacy direct.
-
-## Usage KM
-
-Veille risque et prevention des abus, meta uniquement.
-
-## Risque d'abus possible
-
-Abus possible direct ou facilite : collecte intrusive, reconnaissance, contournement, automatisation offensive ou atteinte privacy.
+Remotely accesses webcams, microphones, and location data est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
 
 ## A_VERIFIER
 
 - post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
-
-## Garde-fous
-
-- Ne pas stocker de secrets, donnees personnelles ou contenu source complet.
-- Ne pas transformer une source sensible en tutoriel operationnel.
-- Valider manuellement avant usage public ou integration produit.
 
 ## Relations
 

@@ -15,29 +15,9 @@ Veille outil OSINT / recherche d'empreinte numerique.
 ## Sources
 - Source : [https://x.com/untalnixon_exe/status/2070860935762211251](https://x.com/untalnixon_exe/status/2070860935762211251)
 
-Lecture KM : 2026-06-29
-
-Source Raindrop : titre `Sherlock ya no es suficiente.`, date 2026-06-29T15:52:31.133Z, domaine `x.com`, auteur/source `untalnixon_exe`, tags detectes aucun.
-
 ## Resume court
 
-Aliens Eye AI OSINT Platform is a KM watch item classified as Veille outil OSINT / recherche d'empreinte numerique. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`#ROUGE`
-
-Raison : l'outil annonce une recherche d'empreinte numerique multi-plateformes, directement abusable pour correlation de comptes, doxxing ou ciblage de personnes.
-
-## Usage KM
-
-- Meta-veille uniquement : suivre les capacites OSINT automatisees par IA.
-- Comparer aux fiches `GhostTrack`, `GoSearch`, `IG-Detective` et `Multi-search launcher`.
-- Ne pas executer contre des personnes sans cadre legal, consentement ou autorisation.
-
-## Risque d'abus possible
-
-Doxxing #ROUGE, correlation de comptes #ROUGE, stalking #ROUGE, collecte de donnees personnelles #ROUGE.
+Aliens Eye AI OSINT Platform est une fiche KM de veille Veille outil OSINT / recherche d'empreinte numerique. Source finale conservee dans la fiche.
 
 ## A verifier
 

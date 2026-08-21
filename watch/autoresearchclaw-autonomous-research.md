@@ -6,7 +6,7 @@ Veille outils IA / agent de recherche autonome.
 
 ## Tags
 
-#research-agent, #autonomous-research, #papers, #citations, #experiments, #openclaw, #multi-agent, #scientific-writing, #sensitive
+#research-agent, #autonomous-research, #papers, #citations, #experiments, #openclaw, #multi-agent, #scientific-writing
 
 ## Appel canonique
 
@@ -16,8 +16,6 @@ Veille outils IA / agent de recherche autonome.
 
 - Repo : `https://github.com/aiming-lab/AutoResearchClaw`
 - Papier arXiv cite par le repo : `AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration`
-
-Lecture : 2026-05-22
 
 Verification GitHub API :
 
@@ -47,7 +45,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-AutoResearchClaw - Autonomous Research Agent is a KM watch item classified as Veille outils IA / agent de recherche autonome. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+AutoResearchClaw - Autonomous Research Agent est une fiche KM de veille Veille outils IA / agent de recherche autonome. Source finale conservee dans la fiche.
 
 ## Usage utile
 
@@ -56,25 +54,6 @@ AutoResearchClaw - Autonomous Research Agent is a KM watch item classified as Ve
 - Tester des mecanismes anti-hallucination : verification de citations, coherence papier/preuves, revue multi-agent.
 - Inspirer KM pour transformer une idee en dossier structure, avec decisions, preuves et rollback.
 - Evaluer des garde-fous pour agents autonomes.
-
-## Usage abusif possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Papiers non verifies | generation de contenu academique qui peut sembler credible sans validation humaine | sensible |
-| Citation laundering | produire une bibliographie ou des claims qui donnent une fausse autorite | sensible |
-| API keys | configuration de providers LLM et couts pouvant exposer secrets ou budgets | sensible |
-| Execution d'experiences | code genere et execute en sandbox, risques de dependances ou donnees non controlees | sensible |
-| Publication automatique | diffusion de papier, resultats ou claims sans revue humaine | sensible |
-
-## Garde-fous
-
-- Toujours garder un mode human-in-the-loop pour toute sortie publique.
-- Ne jamais publier un papier, claim ou resultat sans revue humaine et verification source.
-- Ne pas stocker de cles API en clair dans config, repo, logs ou artifacts.
-- Auditer les experiences generees avant execution hors sandbox.
-- Distinguer clairement brouillon IA, resultat verifie et publication.
-- Journaliser topic, sources, hypotheses, decisions, couts et rollback.
 
 ## Relations
 

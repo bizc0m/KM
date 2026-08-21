@@ -6,7 +6,7 @@ Veille outils IA / intelligence de sessions agents.
 
 ## Tags
 
-#agents, #coding-agents, #session-intelligence, #local-first, #search, #analytics, #token-costs, #devtools, #sensitive
+#agents, #coding-agents, #session-intelligence, #local-first, #search, #analytics, #token-costs, #devtools
 
 ## Appel canonique
 
@@ -16,8 +16,6 @@ Veille outils IA / intelligence de sessions agents.
 
 - Site : `https://www.agentsview.io/`
 - Repo : `https://github.com/kenn-io/agentsview`
-
-Lecture : 2026-05-22
 
 Verification GitHub API :
 
@@ -47,7 +45,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-AgentsView - Session Intelligence is a KM watch item classified as Veille outils IA / intelligence de sessions agents. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+AgentsView - Session Intelligence est une fiche KM de veille Veille outils IA / intelligence de sessions agents. Source finale conservee dans la fiche.
 
 ## Usage utile
 
@@ -56,23 +54,6 @@ AgentsView - Session Intelligence is a KM watch item classified as Veille outils
 - Mesurer couts/tokens et usage par agent/projet.
 - Alimenter KM avec des resumes de sessions, apres nettoyage privacy.
 - Comparer l'activite agents par projet.
-
-## Usage abusif possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Exposition de prompts | les sessions peuvent contenir secrets, chemins locaux, donnees personnelles ou contexte client | sensible |
-| Sync distante | PostgreSQL sync peut sortir les historiques du poste local | sensible |
-| Partage d'archives | import/export de chats peut diffuser images, prompts ou tool calls sensibles | sensible |
-| Monitoring humain | usage en equipe pouvant surveiller les pratiques individuelles sans consentement clair | sensible |
-
-## Garde-fous
-
-- Garder l'usage local-first par defaut.
-- Ne pas pousser la base SQLite, exports ou historiques bruts dans Git.
-- Nettoyer secrets, chemins personnels, noms et donnees sensibles avant toute fiche KM.
-- Activer la sync distante seulement avec consentement, auth et perimetre clair.
-- Ne jamais exposer l'interface au reseau sans authentification.
 
 ## Relations
 

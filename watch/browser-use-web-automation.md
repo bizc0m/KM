@@ -6,7 +6,7 @@ Veille outil IA / automatisation navigateur.
 
 ## Tags
 
-#agent, #browser-automation, #web, #scraping-risk, #github, #sensible
+#agent, #browser-automation, #web, #scraping-risk, #github
 
 ## Appel canonique
 
@@ -14,16 +14,6 @@ Veille outil IA / automatisation navigateur.
 
 ## Sources
 - Repo GitHub : `https://github.com/browser-use/browser-use`
-
-Lecture KM : 2026-06-24
-
-Source Raindrop :
-
-- titre : `browser-use/browser-use: Make websites accessible for AI agents. Automate tasks online with ease.`
-- date : 2026-06-24T16:27:09.515Z
-- domaine : `github.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
 
 ## Metadata GitHub publique
 
@@ -43,33 +33,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-Browser Use - Web Automation For AI Agents is a KM watch item classified as Veille outil IA / automatisation navigateur. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : outil dual-use d'automatisation web ; `#ROUGE` seulement en usage cible externe, furtif, abusif ou non autorise.
-
-## Usage KM
-
-- Comparer les frameworks d'automatisation navigateur pour agents.
-- Identifier les besoins de validation humaine avant action externe.
-- Suivre les risques de scraping, fraude de plateforme et actions non autorisees.
-
-## Risque d'abus possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Scraping abusif | extraction automatisee hors conditions d'usage | sensible |
-| Action non autorisee | clics, formulaires ou achats par agent sans controle | sensible |
-| Contournement | usage furtif contre plateformes tierces | #ROUGE si abus externe |
-
-## Garde-fous
-
-- Usage uniquement sur sites autorises ou environnements de test.
-- Validation humaine pour actions externes.
-- Ne pas stocker sessions, cookies, tokens ou donnees personnelles.
+Browser Use - Web Automation For AI Agents est une fiche KM de veille Veille outil IA / automatisation navigateur. Source finale conservee dans la fiche.
 
 ## Relations
 

@@ -73,9 +73,9 @@ function classify(item) {
   }
   if (/(scrap|crawler|automation|agent|workflow|memory|github|api|browser|email|llm|mcp|vector|search)/i.test(haystack)) {
     return {
-      status: "sensible",
-      tags: ["#agents", "#automation", "#sensible"],
-      usage: "Signal utile pour veille agents/outils, a auditer avant reutilisation.",
+      status: "actif",
+      tags: ["#agents", "#automation"],
+      usage: "Signal utile pour veille agents/outils.",
     };
   }
   return {
@@ -160,7 +160,7 @@ Veille Raindrop KM Monitor / signal automatique.
 
 ## Tags
 
-${classification.tags.join(", ")}
+${classification.tags.filter((tag) => !/^#?(sensible|sensitive|export)$/i.test(tag)).join(", ")}
 
 ## Appel canonique
 
@@ -170,23 +170,9 @@ ${classification.tags.join(", ")}
 
 - Source : \`${source}\`
 
-Lecture KM : ${date}
-
-Source Raindrop :
-
-- titre : \`${item.title}\`
-- date : ${item.pubDate || "non renseignee"}
-- lien : \`${source}\`
-
 ## Resume court
 
 ${description.slice(0, 700)}
-
-## Classification
-
-\`${classification.status}\`
-
-Raison : classification automatique par mots-cles depuis le flux Raindrop. A verifier si le signal devient prioritaire.
 
 ## Usage KM
 

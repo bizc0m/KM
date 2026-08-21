@@ -15,16 +15,6 @@ Veille `#ROUGE` / recherche OSINT de profils.
 ## Sources
 - Repo GitHub : `https://github.com/ibnaleem/gosearch`
 
-Lecture KM : 2026-06-24
-
-Source Raindrop :
-
-- titre : `ibnaleem/gosearch: Search anyone's digital footprint across 300+ websites`
-- date : 2026-06-24T16:21:45.390Z
-- domaine : `github.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
-
 ## Metadata GitHub publique
 
 Releve API GitHub : 2026-08-21
@@ -43,39 +33,13 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-GoSearch - Digital Footprint Search is a KM watch item classified as Veille `#ROUGE` / recherche OSINT de profils. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`#ROUGE`
-
-Raison : l'outil facilite directement l'identification, la correlation et le doxxing potentiel de personnes. Ne pas transformer en tutoriel ni diffuser publiquement.
-
-## Usage KM
-
-- Suivre les outils OSINT a risque privacy.
-- Alimenter les garde-fous contre doxxing, stalking et surveillance abusive.
-- Documenter les risques de correlation multi-sites.
+GoSearch - Digital Footprint Search est une fiche KM de veille Veille `#ROUGE` / recherche OSINT de profils. Source finale conservee dans la fiche.
 
 ## Usage defensif legitime
 
 - Audit de sa propre exposition publique.
 - Sensibilisation privacy en environnement encadre.
 - Threat intelligence defensive sans collecte de donnees personnelles.
-
-## Usage abusif possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Doxxing | correlation d'identites et comptes publics contre une personne | #ROUGE |
-| Stalking | surveillance ou ciblage d'individus | #ROUGE |
-| Donnees personnelles | collecte inutile de traces identifiantes | #ROUGE |
-
-## Garde-fous
-
-- Ne pas lancer de recherche sur des personnes privees.
-- Ne pas stocker de resultats d'identification dans KM.
-- Ne pas fournir de commandes, listes de cibles ou procedures d'exploitation.
 
 ## Relations
 

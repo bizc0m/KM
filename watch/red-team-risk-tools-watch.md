@@ -51,27 +51,19 @@ Critere strict : `#ROUGE` uniquement si l'outil facilite directement un usage of
 | IG-Detective Instagram OSINT | investigation autorisee et sensibilisation privacy | enumeration de contacts, geolocalisation, contournement et ciblage de profils | #ROUGE non public |
 | Aliens_eye AI OSINT | audit de sa propre exposition publique, veille privacy autorisee | correlation de comptes, doxxing, stalking et ciblage de personnes | #ROUGE non public |
 | Pentagi autonomous pentest agents | evaluation en lab isole et autorise, threat intelligence defensive | reconnaissance, exploitation et chainage de penetration testing non autorises | #ROUGE non public |
+| Project Eyes On | audit defensif d'exposition cameras dans un perimetre autorise | reperage de cameras ouvertes, surveillance non consentie et ciblage geographique | #ROUGE non public |
 
-## Sensible mais pas #ROUGE par defaut
+## A controler hors #ROUGE
 
-| Outil / famille | Pourquoi sensible | Classement |
+| Outil / famille | Point de vigilance | Classement |
 | --- | --- | --- |
-| Voicebox / Pipecat / Whisper | voix, transcription, consentement | sensible |
-| ViMax / OpenShorts / Hyperframes | generation media, risque deepfake selon contenu | sensible |
-| Agentic Inbox | email, validation humaine requise | sensible |
-| Claude Ads | manipulation publicitaire possible selon usage | sensible |
+| Voicebox / Pipecat / Whisper | voix, transcription, consentement | actif |
+| ViMax / OpenShorts / Hyperframes | generation media, risque deepfake selon contenu | actif |
+| Agentic Inbox | email, validation humaine requise | actif |
+| Claude Ads | manipulation publicitaire possible selon usage | actif |
 | AutoHedge / Vibe-Trading / Fincept Terminal | risque financier | sensible finance |
-| Twitter RSS / Nitter / OpenRSS | veille publique pouvant deriver en surveillance | sensible |
-| Orbit / social planning | tracking relationnel possible si non consenti | sensible |
-
-## Garde-fous generaux
-
-- Usage uniquement autorise, defensif ou educatif.
-- Validation humaine obligatoire pour toute action externe.
-- Aucune diffusion publique de procedure offensive.
-- Aucune collecte de personnes privees.
-- Aucune execution sur cible tierce sans autorisation.
-- Journaliser les sources, pas les donnees sensibles.
+| Twitter RSS / Nitter / OpenRSS | veille publique pouvant deriver en surveillance | actif |
+| Orbit / social planning | tracking relationnel possible si non consenti | actif |
 
 ## Relations
 
@@ -145,3 +137,10 @@ Critere strict : `#ROUGE` uniquement si l'outil facilite directement un usage of
 - Fichiers touches : `watch/red-team-risk-tools-watch.md`, `watch/pentagi-autonomous-pentest-agents.md`, `index.md`, `watch/index.md`, `km/history.md`.
 - Risques : automatisation offensive directement abusable.
 - Rollback possible : retirer la ligne Pentagi et la fiche dediee.
+
+### v0.10 - 2026-08-21
+
+- Objectif : ajouter Project Eyes On comme source `#ROUGE` privacy/OSINT.
+- Fichiers touches : `watch/red-team-risk-tools-watch.md`, `watch/project-eyes-on-open-ip-camera-osint.md`, `index.md`, `watch/index.md`, `km/history.md`.
+- Risques : detection de cameras IP ouvertes et surveillance non consentie.
+- Rollback possible : retirer la ligne Project Eyes On et la fiche dediee.

@@ -6,7 +6,7 @@ Veille liens utilisateur / cache semantique LLM.
 
 ## Tags
 
-#llm, #cache, #cost-optimization, #semantic-search, #proxy, #sensible
+#llm, #cache, #cost-optimization, #semantic-search, #proxy
 
 ## Appel canonique
 
@@ -16,8 +16,6 @@ Veille liens utilisateur / cache semantique LLM.
 
 - Repo GitHub : `https://github.com/messkan/prompt-cache`
 - Source sociale : [https://x.com/tom_doerr/status/2087156753204973610?s=12](https://x.com/tom_doerr/status/2087156753204973610?s=12)
-
-Lecture KM : 2026-08-12
 
 Source sociale :
 
@@ -55,33 +53,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-Prompt Cache - Semantic LLM Cache is a KM watch item classified as Veille liens utilisateur / cache semantique LLM. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : un cache LLM peut conserver prompts, reponses, contexte projet, fragments de code, donnees client ou informations confidentielles.
-
-## Usage KM
-
-- Evaluer comme brique locale de reduction de couts LLM.
-- Comparer avec gateway, memoisation applicative et caches RAG.
-- Tester uniquement sur prompts factices avant tout usage projet.
-
-## Risque d'abus possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Retention de prompts | stockage durable de prompts ou reponses contenant donnees privees | sensible |
-| Collision semantique | reutilisation d'une reponse proche mais fausse pour un autre contexte | sensible |
-| Observabilite | proxy place entre app et fournisseur LLM, donc point de collecte central | sensible |
-
-## Garde-fous
-
-- Ne jamais cacher secrets, tokens, emails prives, donnees personnelles ou briefs clients non nettoyes.
-- Prevoir TTL, purge, chiffrement et separation par projet/utilisateur.
-- Verifier precision du matching avant usage en production.
+Prompt Cache - Semantic LLM Cache est une fiche KM de veille Veille liens utilisateur / cache semantique LLM. Source finale conservee dans la fiche.
 
 ## Relations
 

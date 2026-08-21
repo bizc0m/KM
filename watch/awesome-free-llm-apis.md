@@ -6,7 +6,7 @@ Veille outils IA / ressources API LLM gratuites.
 
 ## Tags
 
-#llm, #api, #free-tier, #providers, #inference, #openai-compatible, #ai-tools, #sensitive
+#llm, #api, #free-tier, #providers, #inference, #openai-compatible, #ai-tools
 
 ## Appel canonique
 
@@ -15,8 +15,6 @@ Veille outils IA / ressources API LLM gratuites.
 ## Sources
 
 - Repo : `https://github.com/mnfst/awesome-free-llm-apis`
-
-Lecture : 2026-05-22
 
 Verification GitHub API :
 
@@ -46,7 +44,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-Awesome Free LLM APIs is a KM watch item classified as Veille outils IA / ressources API LLM gratuites. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+Awesome Free LLM APIs est une fiche KM de veille Veille outils IA / ressources API LLM gratuites. Source finale conservee dans la fiche.
 
 ## Usage utile
 
@@ -55,25 +53,6 @@ Awesome Free LLM APIs is a KM watch item classified as Veille outils IA / ressou
 - Prototyper sans exposer une cle principale.
 - Alimenter un routeur LLM interne avec limites documentees.
 - Croiser avec `watch:free-llm-api-resources`.
-
-## Usage abusif possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Abuse quotas | creation de comptes ou automatisation pour contourner les limites | sensible ; #ROUGE si abus organise |
-| Donnees sensibles | envoi de secrets, prompts prives ou donnees personnelles a des providers tiers | sensible |
-| Terms mismatch | usage commercial ou production alors que le free tier l'interdit | sensible |
-| Provider volatile | limites, regions, prix et politiques data peuvent changer vite | sensible |
-| Key leakage | cles API copiees dans repo, logs ou prompts | sensible critique |
-
-## Garde-fous
-
-- Verifier chaque provider a la source officielle avant usage.
-- Ne jamais stocker de cle API en clair.
-- Documenter region, limite, cout reel, politique data et usage autorise.
-- Ne pas contourner quotas, paywalls ou conditions commerciales.
-- Preferer comptes/projets separes pour prototypes.
-- Ne pas envoyer de donnees personnelles ou confidentielles a un provider gratuit non audite.
 
 ## Relations
 

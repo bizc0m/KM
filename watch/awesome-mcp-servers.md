@@ -15,16 +15,6 @@ Veille ressource / annuaire MCP.
 ## Sources
 - Repo GitHub : `https://github.com/punkpeye/awesome-mcp-servers`
 
-Lecture KM : 2026-06-24
-
-Source Raindrop :
-
-- titre : `punkpeye/awesome-mcp-servers`
-- date : 2026-06-24T16:25:28.219Z
-- domaine : `github.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
-
 ## Metadata GitHub publique
 
 Releve API GitHub : 2026-08-21
@@ -43,33 +33,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-Awesome MCP Servers is a KM watch item classified as Veille ressource / annuaire MCP. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`a verifier`
-
-Raison : annuaire externe variable, contenant potentiellement des connecteurs a donnees sensibles.
-
-## Usage KM
-
-- Identifier des integrations MCP utiles.
-- Alimenter une liste de serveurs a auditer.
-- Reperer les categories de connecteurs agents.
-
-## Risque d'abus possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Connecteurs sensibles | acces fichiers, messagerie, navigateur, cloud ou secrets | sensible |
-| Supply chain | serveurs tiers non verifies | a verifier |
-| Donnees personnelles | exposition via outils MCP mal cadres | sensible |
-
-## Garde-fous
-
-- Auditer le code et les permissions avant installation.
-- Ne pas connecter de secrets ou comptes reels sans revue.
-- Preferer sandbox et scopes minimaux.
+Awesome MCP Servers est une fiche KM de veille Veille ressource / annuaire MCP. Source finale conservee dans la fiche.
 
 ## Relations
 

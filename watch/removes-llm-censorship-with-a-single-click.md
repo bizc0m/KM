@@ -6,7 +6,7 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#llm, #jailbreak-risk, #sensible
+#llm, #jailbreak-risk
 
 ## Appel canonique
 
@@ -15,43 +15,13 @@ Veille Raindrop KM Monitor.
 ## Sources
 - Source : [https://x.com/0x0sojalsec/status/2063664329208344701](https://x.com/0x0sojalsec/status/2063664329208344701)
 
-Lecture KM : 2026-06-26
-
-Source Raindrop :
-
-- titre : `Removes LLM censorship with a single click.`
-- date : 2026-06-08T16:19:41.619Z
-- domaine : `x.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
-
 ## Resume court
 
-Removes LLM censorship with a single click. is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : outil de contournement potentiel a surveiller, sans details operationnels ni tutoriel.
-
-## Usage KM
-
-Veille risque et prevention des abus, meta uniquement.
-
-## Risque d'abus possible
-
-Risque sensible : claims non verifies, conditions de diffusion ou usages pouvant exposer des donnees et workflows.
+Removes LLM censorship with a single click. est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
 
 ## A_VERIFIER
 
 - post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
-
-## Garde-fous
-
-- Ne pas stocker de secrets, donnees personnelles ou contenu source complet.
-- Ne pas transformer une source sensible en tutoriel operationnel.
-- Valider manuellement avant usage public ou integration produit.
 
 ## Relations
 

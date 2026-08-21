@@ -21,7 +21,7 @@ Matrice KM outil -> projet.
 
 ## Resume court
 
-Tool Project Fit Scan is a KM watch item classified as Matrice KM outil -> projet. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+Tool Project Fit Scan est une fiche KM de veille Matrice KM outil -> projet. Source finale conservee dans la fiche.
 
 ## Projets scannes
 

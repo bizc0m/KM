@@ -15,10 +15,6 @@ Ressource longue / reference LLM.
 ## Sources
 - Source : [https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 
-Lecture KM : 2026-06-27
-
-Source Raindrop :
-
 - titre : `llm-wiki`
 - date : 2026-06-27T11:21:21.839Z
 - domaine : `gist.github.com`
@@ -27,7 +23,7 @@ Source Raindrop :
 
 ## Resume court
 
-llm-wiki - Karpathy Gist is a KM watch item classified as Ressource longue / reference LLM. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+llm-wiki - Karpathy Gist est une fiche KM de veille Ressource longue / reference LLM. Source finale conservee dans la fiche.
 
 ## Classification
 

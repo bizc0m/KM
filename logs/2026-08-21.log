@@ -1,1 +1,24 @@
 [10:56] ACTION | GITHUB_METADATA_ENRICH | RESULTAT 49 fiches enrichies, 100 repos lus, 1 repo non resolu, dashboards v1.11/v1.12 regeneres | ERREUR cheahjs/free-llm-api-resources API non resolu
+[11:09] ACTION | GITHUB_TOPICS_LINKS | RESULTAT resume Chat2PDF supprime, topics GitHub rendus cliquables dans search-v1.11.html et search-v1.12.html | ERREUR aucune
+[11:16] ACTION | GITHUB_TOPICS_INDEX | RESULTAT champ githubTopics ajoute au dashboard, 37 fiches avec topics visibles en chips cliquables, dashboards v1.11/v1.12 regeneres | ERREUR aucune
+[11:22] ACTION | DASHBOARD_RESUME_DEDUP | RESULTAT section Resume court filtree du corps public, resume conserve uniquement en accroche, dashboards v1.11/v1.12 regeneres | ERREUR aucune
+[13:19] ACTION | DASHBOARD_SUMMARY_FALLBACK | RESULTAT resume de secours nettoye, plus de Markdown compacte pour Chat2PDF, dashboards v1.11/v1.12 regeneres | ERREUR aucune
+[14:02] ACTION | DASHBOARD_ACTIONABLE_UI | RESULTAT liste compacte, recherche sticky visible, doublon fiche inline supprime, search-v1.12 regenere et verifie | ERREUR aucune
+[14:08] ACTION | DASHBOARD_INLINE_CONTENT_REMOVED | RESULTAT contenu fiche inline retire du code et de la visualisation, search-v1.12 regenere et verifie | ERREUR aucune
+[14:15] ACTION | DASHBOARD_USEFUL_CARD_ZONES_RESTORE | RESULTAT resume carte et actions restaurés sans bloc inline duplique, search-v1.12 regenere et verifie | ERREUR aucune
+[14:22] ACTION | DASHBOARD_SEARCH_RELEVANCE | RESULTAT recherche par tokens et score ponderee, gpt ne matche plus chatgpt par sous-chaine, search-v1.12 regenere et verifie | ERREUR aucune
+[14:17] ACTION | DASHBOARD_NAV_BUTTONS | RESULTAT boutons Retour/Avancer/Home ajoutes, Home remet la liste et la recherche, search-v1.12 regenere | ERREUR aucune
+[14:18] ACTION | DASHBOARD_NAV_BUTTONS_VERIFY | RESULTAT boutons visibles dans navigateur, Home nettoie la vue et focus recherche, 145 fiches visibles | ERREUR aucune
+[14:32] ACTION | DASHBOARD_REMOVE_GENERIC_SUMMARIES | RESULTAT resumes de remplissage retires, descriptions GitHub utilisees quand disponibles, 53 accroches utiles, 0 texte generique visible | ERREUR aucune
+[14:41] ACTION | DASHBOARD_KEYWORDS_NOT_BLABLA | RESULTAT textes resumes remplaces par chips mots-cles, 0 paragraphe carte, topics GitHub cliquables conserves, search-v1.12 regenere et verifie | ERREUR aucune
+[14:49] ACTION | DASHBOARD_RESTORE_USEFUL_INFO | RESULTAT resume court utile restaure, sources multiples dont X/Twitter extraites, topics GitHub cliquables prioritaires, doublons repo dedupes, search-v1.12 regenere et verifie | ERREUR aucune
+[14:56] ACTION | RAINDROP_FULL_INGEST | RESULTAT 131 items publics, 2 nouveautes post-cutoff, 2 absents backlog couverts, 4 fiches watch creees | ERREUR aucune
+[15:05] ACTION | X_THREAD_REPO_INGEST | RESULTAT Project Eyes On integre depuis thread X, repo final Y0oshi/Project-Eyes-On, topics GitHub ajoutes, classe #ROUGE | ERREUR aucune
+[14:56] ACTION | DASHBOARD_NAV_SELECTION_PERSIST | RESULTAT navigation historique via pushState/popstate, Home conserve selection, selection persistante localStorage jusqu export, handler Backspace hors champs ajoute, search-v1.12 regenere et verifie | ERREUR test clavier automatise limite par in-app browser mais code present
+[15:00] ACTION | DASHBOARD_FUNCTION_ONLY | RESULTAT champ Resume remplace par Fonction, contenu priorise depuis type nettoye, descriptions marketing evitees, search-v1.12 regenere et verifie | ERREUR aucune
+[15:42] ACTION | DASHBOARD_ACTION_FUNCTION_TOPICS_VISIBLE | RESULTAT Fonction reformulee en action concrete, ligne Topics visible ajoutee, fallback tags si pas de topics GitHub, topics GitHub cliquables verifies | ERREUR aucune
+[15:48] ACTION | DASHBOARD_TWO_KEYWORD_LINES | RESULTAT descriptions remplacees par deux lignes de mots-cles Fonction/Topics, mots generiques filtres, topics GitHub conserves cliquables, search-v1.12 regenere et verifie | ERREUR aucune
+[15:52] ACTION | DASHBOARD_FUNCTION_APP_AND_GITHUB_TOPICS_ONLY | RESULTAT Fonction derivee usage app uniquement, description GitHub retiree de Fonction, Topics affiches seulement si topics GitHub presents, search-v1.12 regenere et verifie | ERREUR aucune
+[19:39] ACTION | DASHBOARD_HOME_FIRST_TWITTER_POST_LABEL | RESULTAT Home place en premier, sources sociales renommees Post Twitter, 65 fiches avec post Twitter detectees, search-v1.12 regenere | ERREUR aucune
+[19:40] ACTION | DASHBOARD_POST_TWITTER_ON_INDEX_CARD | RESULTAT Post Twitter ajoute comme ligne source visible dans les cartes index, en plus des boutons action, search-v1.12 regenere et verifie | ERREUR aucune
+[19:46] ACTION | LARO_FINISH_BUILD_TEST_DEPLOY | RESULTAT build v1.12 OK, npm build OK, npm test OK, local HTTP 200, deploy serveur v1.11 ignore, push GitHub prepare | ERREUR aucune

@@ -6,7 +6,7 @@ Veille outil IA / client email agentique self-hosted.
 
 ## Tags
 
-#agent, #email, #cloudflare-workers, #self-hosted, #privacy-sensitive, #github
+#agent, #email, #cloudflare-workers, #self-hosted, #privacy, #github
 
 ## Appel canonique
 
@@ -14,16 +14,6 @@ Veille outil IA / client email agentique self-hosted.
 
 ## Sources
 - Repo GitHub : `https://github.com/cloudflare/agentic-inbox`
-
-Lecture KM : 2026-06-24
-
-Source Raindrop :
-
-- titre : `cloudflare/agentic-inbox: A self-hosted email client with an AI agent, running entirely on Cloudflare Workers`
-- date : 2026-06-24T16:27:28.892Z
-- domaine : `github.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
 
 ## Metadata GitHub publique
 
@@ -43,33 +33,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-Cloudflare Agentic Inbox is a KM watch item classified as Veille outil IA / client email agentique self-hosted. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : l'outil touche aux emails, aux donnees personnelles et a l'action agentique. Il n'est pas offensif par nature, mais doit rester cadre.
-
-## Usage KM
-
-- Suivre les patterns d'inbox agentique.
-- Comparer self-hosting, validation humaine et surface de donnees.
-- Identifier les garde-fous utiles pour agents connectes a une messagerie.
-
-## Risque d'abus possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Donnees email | exposition de messages, contacts ou pieces jointes | sensible |
-| Action agentique | envoi ou tri automatique sans validation suffisante | sensible |
-| Secrets | mauvaise gestion de tokens ou credentials email | sensible |
-
-## Garde-fous
-
-- Ne pas connecter a une boite reelle sans audit.
-- Ne pas stocker d'emails prives dans KM.
-- Validation humaine obligatoire avant envoi ou action irreversible.
+Cloudflare Agentic Inbox est une fiche KM de veille Veille outil IA / client email agentique self-hosted. Source finale conservee dans la fiche.
 
 ## Relations
 

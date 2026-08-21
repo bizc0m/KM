@@ -27,7 +27,7 @@ Lecture effectuee via FxTwitter API publique, sans compte X.
 
 ## Resume court
 
-AI Open Source Tools Watch is a KM watch item classified as Veille IA transversale. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+AI Open Source Tools Watch est une fiche KM de veille Veille IA transversale. Source finale conservee dans la fiche.
 
 ## Sources lues
 
@@ -40,7 +40,7 @@ AI Open Source Tools Watch is a KM watch item classified as Veille IA transversa
 | 2026-05-21 | `exploraX_` | `https://x.com/exploraX_/status/2057460324349915497` | Repos gratuits remplacant des SaaS : screen recording, voice, shorts, LLM API, browser automation, scheduling, transcription, social scheduling, password vault | a verifier |
 | 2026-05-21 | `Fluyeporlaweb` | `https://x.com/Fluyeporlaweb/status/2057461670977372344` | ARGO, alternative locale/open source a Manus avec RAG, Ollama et MCP | a verifier |
 | 2026-05-21 | `DeepTechTR` | `https://x.com/DeepTechTR/status/2057512199912923177` | Repos IA GitHub puissants, surtout trading/agents financiers | a cadrer |
-| 2026-05-21 | `DailyDarkWeb` | `https://x.com/DailyDarkWeb/status/2057534159313096859` | Liste d'outils Image OSINT | sensible |
+| 2026-05-21 | `DailyDarkWeb` | `https://x.com/DailyDarkWeb/status/2057534159313096859` | Liste d'outils Image OSINT | actif |
 | 2026-05-21 | `sweexx9` | `https://x.com/sweexx9/status/2057560520916414628` | Redirection Claude Code vers fournisseurs gratuits | a verifier |
 
 ## Deduplication
@@ -60,14 +60,6 @@ AI Open Source Tools Watch is a KM watch item classified as Veille IA transversa
 | Image OSINT | garder avec prudence | utile renseignement, mais sensible |
 | Trading agents | a cadrer | risques financiers, ne pas traiter comme recommandation |
 | Redirection Claude Code gratuite | a verifier | risque legal, securite, tokens, conditions d'usage |
-
-## Risques
-
-- Posts X promotionnels ou incomplets.
-- Claims GitHub/stars/prix a reverifier avant usage.
-- Outils financiers : ne pas utiliser comme conseil financier.
-- OSINT image : usage privacy-first, pas de doxxing, pas de surveillance abusive.
-- Redirection de trafic IA : verifier securite, licences, conditions d'utilisation, exposition de prompts et secrets.
 
 ## Prochaines actions
 

@@ -15,29 +15,9 @@ Veille outil OSINT / investigation Instagram.
 ## Sources
 - Source : [https://x.com/esgeeks/status/2070949896304128046](https://x.com/esgeeks/status/2070949896304128046)
 
-Lecture KM : 2026-06-28
-
-Source Raindrop : titre `IG-Detective | Advanced forensic OSINT suite for Instagram`, date 2026-06-28T18:08:47.140Z, domaine `x.com`, auteur/source `esgeeks`, tags detectes aucun.
-
 ## Resume court
 
-IG-Detective Instagram OSINT Suite is a KM watch item classified as Veille outil OSINT / investigation Instagram. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`#ROUGE`
-
-Raison : outil d'enumeration et analyse de profils Instagram avec fonctions de contournement et cartographie, directement abusable contre des personnes.
-
-## Usage KM
-
-- Meta-veille uniquement : comprendre le risque et les capacites annoncees.
-- Ne pas executer contre des comptes tiers.
-- A utiliser seulement dans cadre legal, defensif et autorise si jamais audite.
-
-## Risque d'abus possible
-
-Doxxing #ROUGE, contournement #ROUGE, harcelement #ROUGE.
+IG-Detective Instagram OSINT Suite est une fiche KM de veille Veille outil OSINT / investigation Instagram. Source finale conservee dans la fiche.
 
 ## Historique
 

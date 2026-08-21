@@ -16,18 +16,6 @@ Veille `#ROUGE` / agent IA offensif de red team.
 - Repo GitHub : `https://github.com/CyberStrikeus/CyberStrike`
 - Source sociale secondaire : `https://x.com/dinosn/status/2070446054701490193`
 
-Lecture KM : 2026-06-24
-
-Source Raindrop :
-
-- titre : `CyberStrikeus/CyberStrike: AI-powered offensive security agent with 7,300+ actionable security skills. Autonomous pentesting powered by MITRE ATT&CK (2,000+ Atomic tests), CIS Benchmarks (1,500+ controls), OWASP, NIST. Lazy-loading, zero context pollution. Your AI red team.`
-- date : 2026-06-24T05:52:53.350Z
-- domaine : `github.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
-
-Source Raindrop secondaire :
-
 - titre : post X reprenant la description CyberStrike avec lien `t.co`
 - date : 2026-06-27T11:15:59.835Z
 - domaine : `x.com`
@@ -52,40 +40,13 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-CyberStrike - AI Red Team Agent is a KM watch item classified as Veille `#ROUGE` / agent IA offensif de red team. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`#ROUGE`
-
-Raison : l'outil facilite directement des usages offensifs et d'automatisation de red team. Il doit rester une source de veille defensive, sans mode d'emploi ni procedure operationnelle.
-
-## Usage KM
-
-- Suivre l'evolution des agents de pentest autonomes.
-- Comparer les promesses de couverture MITRE / benchmarks avec les risques reels.
-- Alimenter la veille interne sur l'automatisation offensive par IA.
+CyberStrike - AI Red Team Agent est une fiche KM de veille Veille `#ROUGE` / agent IA offensif de red team. Source finale conservee dans la fiche.
 
 ## Usage defensif legitime
 
 - Etude en laboratoire isole et autorise.
 - Threat intelligence sur les capacites d'agents offensifs.
 - Benchmark defensif, detection, journalisation et containment.
-
-## Usage abusif possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Recon non autorisee | automatisation de collecte sur cibles tierces | #ROUGE |
-| Exploitation | aide a l'enchainement d'actions offensives | #ROUGE |
-| Abaissement de barriere | usage par profils non qualifies contre des systemes reels | #ROUGE |
-
-## Garde-fous
-
-- Ne pas fournir de commandes, payloads, procedures ou chaines d'exploitation.
-- Ne pas tester sur cible externe sans autorisation ecrite.
-- Ne pas connecter a des secrets, comptes, VPN ou reseaux reels sans cadrage.
-- Ne pas integrer dans un produit public.
 
 ## Relations
 

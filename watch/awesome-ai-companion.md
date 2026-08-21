@@ -6,7 +6,7 @@ Veille Raindrop KM Monitor / annuaire projets compagnons IA.
 
 ## Tags
 
-#ai-companion, #agents, #memory, #privacy, #sensible
+#ai-companion, #agents, #memory, #privacy
 
 ## Appel canonique
 
@@ -14,17 +14,6 @@ Veille Raindrop KM Monitor / annuaire projets compagnons IA.
 
 ## Sources
 - Source finale : [https://github.com/DasterProkio/awesome-ai-companion](https://github.com/DasterProkio/awesome-ai-companion)
-
-Lecture KM : 2026-08-09
-
-Source Raindrop :
-
-- titre : `DasterProkio/awesome-ai-companion`
-- date : 2026-08-07T07:53:43.703Z
-- domaine : `github.com`
-- auteur/source : `DasterProkio`
-- tags detectes : aucun tag Raindrop
-- note Raindrop : liste de projets open source pour compagnons IA long-terme.
 
 ## Metadata GitHub publique
 
@@ -44,29 +33,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-Awesome AI Companion is a KM watch item classified as Veille Raindrop KM Monitor / annuaire projets compagnons IA. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : sujet lie a memoire personnelle, relations IA, donnees intimes et integrations persistantes ; pas de capacite offensive directe identifiee.
-
-## Usage KM
-
-- Cartographier les briques compagnon IA et memoire long-terme.
-- Identifier les architectures locales exploitables sans cloud.
-- Suivre les risques UX, dependance et gouvernance des donnees.
-
-## Risque d'abus possible
-
-Collecte de donnees intimes, persuasion ou attachement non cadre, retention excessive, usurpation relationnelle ou integrations trop permissives.
-
-## Points a controler
-
-- Licences et maturite des projets listes.
-- Gestion de la memoire, suppression et export utilisateur.
-- Limites de securite pour integrations monde reel.
+Awesome AI Companion est une fiche KM de veille Veille Raindrop KM Monitor / annuaire projets compagnons IA. Source finale conservee dans la fiche.
 
 ## Relations
 

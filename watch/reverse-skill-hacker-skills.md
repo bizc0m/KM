@@ -15,45 +15,9 @@ Veille `#ROUGE` / competences hacker et reverse engineering.
 ## Sources
 - Source sociale : [https://x.com/0xeduu/status/2070469529210163370](https://x.com/0xeduu/status/2070469529210163370)
 
-Lecture KM : 2026-06-27
-
-Source Raindrop :
-
-- titre : post X en espagnol sur `reverse-skill`
-- date : 2026-06-27T11:17:18.106Z
-- domaine : `x.com`
-- auteur/source : `0xeduu`
-- tags detectes : aucun tag Raindrop
-
 ## Resume court
 
-Reverse Skill - Hacker Skills Repo is a KM watch item classified as Veille `#ROUGE` / competences hacker et reverse engineering. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`#ROUGE`
-
-Raison : le contenu decrit des competences hacker et reverse engineering utilisables pour analyse offensive. La source finale reste a verifier, mais le risque annonce est direct.
-
-## Usage KM
-
-- Surveiller l'emergence de packs de skills offensifs pour agents IA.
-- Evaluer les risques de `routing.md` et de skills specialisees injectees a un agent.
-- Alimenter les garde-fous HERMES sur skills externes.
-
-## Usage abusif possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Reverse non autorise | analyse d'applications, firmware ou binaires tiers | #ROUGE |
-| Automation agentique | delegation de taches offensives a Claude via skills | #ROUGE |
-| Diffusion de procedures | transformation d'un pack de skills en tutoriel operationnel | #ROUGE |
-
-## Garde-fous
-
-- Ne pas installer ni executer sans audit manuel.
-- Ne pas recopier de procedure offensive.
-- Usage limite a la threat intelligence et a des labs autorises.
+Reverse Skill - Hacker Skills Repo est une fiche KM de veille Veille `#ROUGE` / competences hacker et reverse engineering. Source finale conservee dans la fiche.
 
 ## Relations
 

@@ -15,16 +15,6 @@ Veille framework IA / orchestration multi-agents.
 ## Sources
 - Repo GitHub : `https://github.com/crewaiinc/crewai`
 
-Lecture KM : 2026-06-24
-
-Source Raindrop :
-
-- titre : `crewAIInc/crewAI: Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.`
-- date : 2026-06-24T16:24:56.066Z
-- domaine : `github.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
-
 ## Metadata GitHub publique
 
 Releve API GitHub : 2026-08-21
@@ -43,33 +33,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-CrewAI - Agent Orchestration is a KM watch item classified as Veille framework IA / orchestration multi-agents. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`actif`
-
-Raison : framework agentique generaliste ; les risques dependent des outils et donnees connectes.
-
-## Usage KM
-
-- Cartographier les frameworks multi-agents.
-- Comparer roles, delegation et orchestration.
-- Identifier les besoins de supervision et journalisation.
-
-## Risque d'abus possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Actions externes | agents connectes a outils tiers sans validation | sensible |
-| Donnees sensibles | propagation de secrets ou donnees projet entre agents | sensible |
-| Automation abusive | scraping, spam ou workflows non autorises selon outils | #ROUGE si abus externe |
-
-## Garde-fous
-
-- Scopes d'outils minimaux.
-- Journalisation des actions agentiques.
-- Validation humaine pour actions externes.
+CrewAI - Agent Orchestration est une fiche KM de veille Veille framework IA / orchestration multi-agents. Source finale conservee dans la fiche.
 
 ## Relations
 

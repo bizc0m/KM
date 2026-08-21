@@ -6,7 +6,7 @@ Veille Raindrop KM Monitor / connectivite Zero Trust et reseau prive.
 
 ## Tags
 
-#tailscale, #zero-trust, #vpn, #network-security, #infrastructure, #sensible
+#tailscale, #zero-trust, #vpn, #network-security, #infrastructure
 
 ## Appel canonique
 
@@ -15,47 +15,9 @@ Veille Raindrop KM Monitor / connectivite Zero Trust et reseau prive.
 ## Sources
 - Source finale : [https://tailscale.com](https://tailscale.com)
 
-Lecture KM : 2026-07-31
-
-Source Raindrop :
-
-- titre : `Tailscale | Secure Connectivity for AI, IoT & Multi-Cloud`
-- date : 2026-07-31T08:30:39.196Z
-- domaine : `tailscale.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
-
 ## Resume court
 
-Tailscale Secure Connectivity For AI IoT Multi Cloud is a KM watch item classified as Veille Raindrop KM Monitor / connectivite Zero Trust et reseau prive. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : solution d'acces reseau et d'infrastructure pouvant exposer des environnements internes si mal configuree. Aucune capacite offensive directe n'est identifiee dans la source, donc la fiche reste en niveau sensible.
-
-## Usage KM
-
-- Suivre les patterns d'acces Zero Trust pour agents IA, serveurs, dashboards internes et ressources multi-cloud.
-- Comparer Tailscale aux options VPN, mesh networking, identity-aware proxy et acces prive pour environnements Codex/automation.
-- Alimenter les decisions d'architecture sur segmentation, permissions par identite et exposition minimale des services.
-
-## Risque d'abus possible
-
-Risque de mauvaise configuration : partage involontaire de services internes, droits trop larges, acces persistant a des machines sensibles, confusion entre reseau prive et controle applicatif, journalisation insuffisante et exposition de ressources d'agents ou de dashboards.
-
-## Points a controler
-
-- Verifier les ACL, groupes, tags machines, expirations de cles et posture device avant tout usage production.
-- Auditer les partages externes, exit nodes, subnet routers et permissions admin.
-- Eviter de documenter des noms de machines, chemins internes, emails, tokens ou topologies privees dans les fiches publiques.
-
-## Garde-fous
-
-- Ne pas stocker de secrets, emails prives, noms de machines internes ou topologies personnelles.
-- Ne pas traiter Tailscale comme frontiere de securite unique sans controle applicatif.
-- Ne pas connecter d'agents autonomes a des reseaux sensibles sans isolation, journaux et rollback.
+Tailscale Secure Connectivity For AI IoT Multi Cloud est une fiche KM de veille Veille Raindrop KM Monitor / connectivite Zero Trust et reseau prive. Source finale conservee dans la fiche.
 
 ## Relations
 

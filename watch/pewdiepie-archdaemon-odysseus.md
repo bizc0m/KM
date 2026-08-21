@@ -6,7 +6,7 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation, #sensible
+#agents, #automation
 
 ## Appel canonique
 
@@ -14,16 +14,6 @@ Veille Raindrop KM Monitor.
 
 ## Sources
 - Source : [https://github.com/pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus)
-
-Lecture KM : 2026-06-26
-
-Source Raindrop :
-
-- titre : `Odysseus Self-Hosted AI Workspace`
-- date : 2026-06-12T17:34:54.859Z
-- domaine : `github.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
 
 ## Metadata GitHub publique
 
@@ -43,31 +33,11 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-Odysseus Self-Hosted AI Workspace is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : outil ou ressource agentique pouvant manipuler code, workflows, comptes ou donnees sensibles.
-
-## Usage KM
-
-Maintenir un radar KM des ressources et outils a auditer.
-
-## Risque d'abus possible
-
-Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+Odysseus Self-Hosted AI Workspace est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
 
 ## A_VERIFIER
 
 - Verifier source, date, claims et conditions avant usage operationnel.
-
-## Garde-fous
-
-- Ne pas stocker de secrets, donnees personnelles ou contenu source complet.
-- Ne pas transformer une source sensible en tutoriel operationnel.
-- Valider manuellement avant usage public ou integration produit.
 
 ## Relations
 

@@ -6,7 +6,7 @@ Veille Raindrop KM Monitor / kit frontend pour agents IA.
 
 ## Tags
 
-#frontend, #design-system, #ai-agents, #prompt-engineering, #sensible
+#frontend, #design-system, #ai-agents, #prompt-engineering
 
 ## Appel canonique
 
@@ -15,42 +15,9 @@ Veille Raindrop KM Monitor / kit frontend pour agents IA.
 ## Sources
 - Source finale : [https://www.tasteskill.dev/](https://www.tasteskill.dev/)
 
-Lecture KM : 2026-08-05
-
-Source Raindrop :
-
-- titre : `Taste Skill`
-- date : 2026-08-05T12:09:43.474Z
-- domaine : `tasteskill.dev`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
-- note Raindrop : aucune
-
 ## Resume court
 
-Taste Skill is a KM watch item classified as Veille Raindrop KM Monitor / kit frontend pour agents IA. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : outil de pilotage d'agents IA et de generation frontend ; pas de capacite offensive directe identifiee, mais risque de publication, copie visuelle, fuite de contexte ou usage sans verification humaine.
-
-## Usage KM
-
-- Evaluer comme reference de prompt/design pour ameliorer les productions frontend agentiques.
-- Comparer avec les skills/design-guidelines deja utilises dans les projets web locaux.
-- Tester uniquement sur projets sandbox avant reutilisation dans un produit client ou public.
-
-## Risque d'abus possible
-
-Risque de generer rapidement des interfaces imitant des produits existants, d'integrer des assets non autorises ou d'exposer dans les prompts des briefs clients, chemins locaux, captures ou donnees internes.
-
-## Points a controler
-
-- Verifier licence, conditions d'usage et droit de reutilisation des consignes.
-- Tester la valeur reelle sur un composant existant plutot que l'adopter comme regle globale.
-- Eviter tout prompt contenant secrets, donnees personnelles ou contexte client non nettoye.
+Taste Skill est une fiche KM de veille Veille Raindrop KM Monitor / kit frontend pour agents IA. Source finale conservee dans la fiche.
 
 ## Relations
 

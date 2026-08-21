@@ -6,7 +6,7 @@ Veille outils IA / agent personnel multi-canaux.
 
 ## Tags
 
-#ai-agent, #personal-agent, #messaging, #containers, #claude-agent-sdk, #credential-vault, #local-first, #automation, #sensitive
+#ai-agent, #personal-agent, #messaging, #containers, #claude-agent-sdk, #credential-vault, #local-first, #automation
 
 ## Appel canonique
 
@@ -18,8 +18,6 @@ Veille outils IA / agent personnel multi-canaux.
 - Site : `https://nanoclaw.dev/`
 - Site FR : `https://nanoclaw.dev/fr/`
 - Repo : `https://github.com/nanocoai/nanoclaw`
-
-Lecture : 2026-05-22
 
 Verification GitHub API :
 
@@ -37,7 +35,7 @@ Releve API GitHub : 2026-08-21
 
 - repo : `nanocoai/nanoclaw`
 - URL : `https://github.com/nanocoai/nanoclaw`
-- description : A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK
+- description : A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK
 - licence : MIT
 - etoiles relevees : 30582
 - topics releves : ai-agents, ai-assistant, claude-code, claude-skills, openclaw
@@ -49,7 +47,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-NanoClaw - Personal AI Agent is a KM watch item classified as Veille outils IA / agent personnel multi-canaux. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+NanoClaw - Personal AI Agent est une fiche KM de veille Veille outils IA / agent personnel multi-canaux. Source finale conservee dans la fiche.
 
 ## Usage utile
 
@@ -58,25 +56,6 @@ NanoClaw - Personal AI Agent is a KM watch item classified as Veille outils IA /
 - Relier messagerie, jobs planifies, memoire et providers IA.
 - Inspirer les workflows NightIntel de transmission, bots et operations locales.
 - Etudier une architecture agent simple, auditable et containerisee.
-
-## Usage abusif possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Automation messaging | envoi de messages automatises non consentis ou spam multi-canaux | sensible ; #ROUGE si spam/phishing |
-| Credential routing | mauvaise configuration du vault ou exposition de providers | sensible |
-| Workspace mounts | montage de dossiers contenant secrets ou donnees personnelles | sensible |
-| Agent impersonation | bot qui parle comme une personne sans signalement clair | sensible |
-| Scheduled tasks | jobs recurrents pouvant surveiller ou contacter sans opt-in | sensible ; #ROUGE si surveillance abusive |
-
-## Garde-fous
-
-- Usage opt-in sur chaque canal de messagerie.
-- Aucun secret en clair dans repo, logs ou sessions.
-- Monter seulement les dossiers necessaires dans les conteneurs.
-- Distinguer clairement agent, humain et automatisation.
-- Desactiver tout broadcast, scraping ou contact massif non sollicite.
-- Auditer chaque skill installe avant usage.
 
 ## Relations
 

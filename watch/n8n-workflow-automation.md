@@ -6,7 +6,7 @@ Veille outil / automatisation workflows.
 
 ## Tags
 
-#automation, #workflows, #integrations, #ai, #self-hosted, #github, #sensible
+#automation, #workflows, #integrations, #ai, #self-hosted, #github
 
 ## Appel canonique
 
@@ -14,16 +14,6 @@ Veille outil / automatisation workflows.
 
 ## Sources
 - Repo GitHub : `https://github.com/n8n-io/n8n`
-
-Lecture KM : 2026-06-24
-
-Source Raindrop :
-
-- titre : `n8n-io/n8n: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.`
-- date : 2026-06-24T16:23:44.143Z
-- domaine : `github.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
 
 ## Metadata GitHub publique
 
@@ -43,33 +33,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-n8n Workflow Automation is a KM watch item classified as Veille outil / automatisation workflows. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : automatisation puissante avec connecteurs ; `#ROUGE` seulement si connectee a secrets, donnees sensibles, spam, exfiltration ou scraping abusif.
-
-## Usage KM
-
-- Suivre les outils d'orchestration workflow.
-- Comparer self-hosting, connecteurs, logs et validation humaine.
-- Evaluer les usages internes autorises.
-
-## Risque d'abus possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Exfiltration | workflows connectes a donnees sensibles ou comptes tiers | #ROUGE si abus |
-| Spam | automatisation de messages ou outreach non consenti | #ROUGE si abus |
-| Secrets | stockage de credentials dans workflows | sensible |
-
-## Garde-fous
-
-- Segmentation des credentials et scopes minimaux.
-- Logs et revues avant activation de workflows externes.
-- Pas de scraping, spam ou exfiltration non autorises.
+n8n Workflow Automation est une fiche KM de veille Veille outil / automatisation workflows. Source finale conservee dans la fiche.
 
 ## Relations
 

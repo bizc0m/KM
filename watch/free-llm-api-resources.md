@@ -6,7 +6,7 @@ Veille outils IA / ressources API.
 
 ## Tags
 
-#llm, #api, #free-tier, #inference, #providers, #ai-tools, #sensitive
+#llm, #api, #free-tier, #inference, #providers, #ai-tools
 
 ## Appel canonique
 
@@ -17,8 +17,6 @@ Veille outils IA / ressources API.
 Repo : `https://github.com/cheahjs/free-llm-api-resources`
 
 Auteur repo : `cheahjs`
-
-Lecture : 2026-05-22
 
 Verification GitHub API :
 
@@ -34,7 +32,6 @@ Verification GitHub API :
 
 Releve API GitHub : 2026-08-21
 
-
 Repos non resolus via API GitHub :
 - `cheahjs/free-llm-api-resources` : gh: Not Found (HTTP 404)
 
@@ -42,7 +39,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-Free LLM API Resources is a KM watch item classified as Veille outils IA / ressources API. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+Free LLM API Resources est une fiche KM de veille Veille outils IA / ressources API. Source finale conservee dans la fiche.
 
 ## Fournisseurs principaux cites
 
@@ -85,24 +82,6 @@ Free LLM API Resources is a KM watch item classified as Veille outils IA / resso
 - Identifier des alternatives temporaires pour tests.
 - Alimenter `process:ai-tools`.
 - Completer `watch:ai-open-source-tools-inventory`.
-
-## Usage abusif possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Abuse quotas | multiplier comptes/requetes pour contourner les limites | sensible ; #ROUGE si automatisation abusive |
-| Fuite donnees | envoyer secrets, donnees privees ou prompts sensibles a des providers gratuits | sensible |
-| Terms bypass | utiliser des routes gratuites pour contourner conditions commerciales | sensible |
-| Non legitimate providers | utiliser services reverse-engineeres ou non autorises | #ROUGE |
-
-## Garde-fous
-
-- Respecter limites et conditions de chaque fournisseur.
-- Ne pas envoyer secrets, tokens, donnees personnelles ou prompts confidentiels.
-- Verifier la politique d'entrainement des donnees.
-- Ne pas automatiser de contournement de quotas.
-- Preferer fournisseurs officiels et documentes.
-- Documenter provider, modele, limites, usage et cout reel avant integration.
 
 ## Relations
 

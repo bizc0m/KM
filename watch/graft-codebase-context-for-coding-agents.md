@@ -6,7 +6,7 @@ Veille liens utilisateur / contexte codebase pour agents de code.
 
 ## Tags
 
-#coding-agents, #context-engineering, #code-graph, #mcp, #codex, #claude-code, #sensible
+#coding-agents, #context-engineering, #code-graph, #mcp, #codex, #claude-code
 
 ## Appel canonique
 
@@ -17,8 +17,6 @@ Veille liens utilisateur / contexte codebase pour agents de code.
 - Repo GitHub : `https://github.com/NanoNets/Graft`
 - Source sociale thread : `https://x.com/nozelcode/status/2087160371140243573?s=12`
 - Source sociale repo : `https://x.com/nozelcode/status/2087160374797668418?s=12`
-
-Lecture KM : 2026-08-12
 
 Source sociale :
 
@@ -56,33 +54,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-Graft - Codebase Context For Coding Agents is a KM watch item classified as Veille liens utilisateur / contexte codebase pour agents de code. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : analyse de depot, generation de contexte persistant et exposition possible d'architecture, code proprietaire, secrets ou chemins internes.
-
-## Usage KM
-
-- Tester comme alternative locale a la memoire vectorielle pour projets de code.
-- Comparer avec `Understand Anything`, AgentsView et conventions AGENTS/README.
-- Evaluer sur un depot sandbox avant tout usage sur code client ou prive.
-
-## Risque d'abus possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Exposition codebase | fiches generees pouvant reveler architecture ou logique interne | sensible |
-| Secrets indexes | risque si fichiers env, logs ou credentials sont lus par erreur | sensible |
-| Confiance excessive | contexte genere peut etre obsolete ou incomplet | sensible |
-
-## Garde-fous
-
-- Exclure secrets, logs, `.env`, donnees client et artefacts volumineux.
-- Versionner les fiches generees seulement si elles sont relues et nettoyees.
-- Controler les claims de reduction de couts sur un benchmark local.
+Graft - Codebase Context For Coding Agents est une fiche KM de veille Veille liens utilisateur / contexte codebase pour agents de code. Source finale conservee dans la fiche.
 
 ## Relations
 

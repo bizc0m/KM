@@ -9,7 +9,7 @@
 
 ## Resume court
 
-CODEX5 - synthese ressource is a KM watch item classified as KM watch item. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+CODEX5 - synthese ressource est une fiche KM de veille KM watch item. Source finale conservee dans la fiche.
 
 ## Usage
 

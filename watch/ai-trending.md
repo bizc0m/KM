@@ -26,12 +26,6 @@ Suivre les projets open source IA en tendance : agents, skills, LLM, RAG, chat, 
 
 Cette ressource appartient a KM / veille IA transversale, pas a NightIntel par defaut.
 
-## Risques
-
-- Classements volatils.
-- Donnees externes a reverifier avant integration produit.
-- Ne pas transformer une tendance en decision sans cadrage.
-
 ## Changelog
 
 ### v0.1 - 2026-05-19

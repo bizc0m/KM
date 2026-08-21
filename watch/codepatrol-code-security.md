@@ -6,7 +6,7 @@ Veille outils dev/security / code review et SAST.
 
 ## Tags
 
-#code-security, #sast, #code-review, #vulnerability-scanning, #appsec, #devtools, #sensitive, #to-verify
+#code-security, #sast, #code-review, #vulnerability-scanning, #appsec, #devtools, #to-verify
 
 ## Appel canonique
 
@@ -17,8 +17,6 @@ Veille outils dev/security / code review et SAST.
 - URL fournie : `https://codepatrol-2.polsia.app/`
 - Source secondaire trouvee : `https://sourceforge.net/software/product/CodePatrol/`
 
-Lecture : 2026-05-22
-
 ## Statut verification
 
 `a verifier`
@@ -27,7 +25,7 @@ L'URL fournie n'a pas donne de contenu exploitable dans la lecture actuelle. Les
 
 ## Resume court
 
-CodePatrol - Code Security Watch is a KM watch item classified as Veille outils dev/security / code review et SAST. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+CodePatrol - Code Security Watch est une fiche KM de veille Veille outils dev/security / code review et SAST. Source finale conservee dans la fiche.
 
 ## Usage utile
 
@@ -35,23 +33,6 @@ CodePatrol - Code Security Watch is a KM watch item classified as Veille outils 
 - Comparer avec CodeQL, Semgrep, Checkmarx, Veracode, Codacy ou plateformes AI-native AppSec.
 - Inspirer un flux KM de verification de projets : secrets, vulnerabilites, dependances, IaC, qualite code.
 - Relier aux guardrails agents avant execution ou publication de code.
-
-## Usage abusif possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Upload code prive | envoyer un repo sensible vers un SaaS non verifie | sensible critique |
-| Secrets exposure | scan d'un repo contenant tokens, credentials ou donnees client | sensible critique |
-| False confidence | croire qu'un scan SAST remplace audit humain ou tests dynamiques | sensible |
-| Supply chain | installer un outil ou plugin non verifie dans CI/CD | sensible |
-
-## Garde-fous
-
-- Ne pas connecter de repo prive avant verification du fournisseur, des conditions et du traitement des donnees.
-- Scanner localement ou sur repo test quand possible.
-- Ne jamais uploader secrets, `.env`, dumps, logs ou donnees personnelles.
-- Verifier provenance, integrations, permissions GitHub/GitLab et politique de retention.
-- Traiter les resultats comme signal, pas comme preuve absolue.
 
 ## Relations
 

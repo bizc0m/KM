@@ -15,16 +15,6 @@ Veille outil IA / pair programming terminal.
 ## Sources
 - Repo GitHub : `https://github.com/Aider-AI/aider`
 
-Lecture KM : 2026-06-24
-
-Source Raindrop :
-
-- titre : `Aider-AI/aider: aider is AI pair programming in your terminal`
-- date : 2026-06-24T16:23:55.339Z
-- domaine : `github.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
-
 ## Metadata GitHub publique
 
 Releve API GitHub : 2026-08-21
@@ -43,33 +33,7 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-Aider AI Pair Programming is a KM watch item classified as Veille outil IA / pair programming terminal. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`actif`
-
-Raison : outil de developpement ; risques lies a la configuration projet et aux secrets, pas a un usage offensif direct dans le signal.
-
-## Usage KM
-
-- Comparer les agents de code en terminal.
-- Evaluer les workflows de patch, review et commit.
-- Identifier les bonnes pratiques pour limiter la fuite de contexte.
-
-## Risque d'abus possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Secrets | inclusion involontaire de fichiers sensibles dans le contexte | sensible |
-| Modifications non relues | patchs appliques sans verification | sensible |
-| Dependances | commandes ou installations non auditees | sensible |
-
-## Garde-fous
-
-- Exclure secrets et fichiers prives.
-- Relire les diffs avant commit.
-- Tester sur branche ou sandbox.
+Aider AI Pair Programming est une fiche KM de veille Veille outil IA / pair programming terminal. Source finale conservee dans la fiche.
 
 ## Relations
 

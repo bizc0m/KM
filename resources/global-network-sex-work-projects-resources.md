@@ -15,10 +15,6 @@ Ressource longue / veille droits humains.
 ## Sources
 - Source : [https://www.nswp.org](https://www.nswp.org)
 
-Lecture KM : 2026-06-27
-
-Source Raindrop :
-
 - titre : `Latest Resources | Global Network of Sex Work Projects`
 - date : 2026-06-27T08:13:51.340Z
 - domaine : `nswp.org`
@@ -32,7 +28,7 @@ Verification directe :
 
 ## Resume court
 
-Global Network of Sex Work Projects - Latest Resources is a KM watch item classified as Ressource longue / veille droits humains. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+Global Network of Sex Work Projects - Latest Resources est une fiche KM de veille Ressource longue / veille droits humains. Source finale conservee dans la fiche.
 
 ## Classification
 

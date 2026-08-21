@@ -6,7 +6,7 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation, #sensible
+#agents, #automation
 
 ## Appel canonique
 
@@ -15,43 +15,13 @@ Veille Raindrop KM Monitor.
 ## Sources
 - Source : [https://x.com/marcusyul/status/2063615048065351843](https://x.com/marcusyul/status/2063615048065351843)
 
-Lecture KM : 2026-06-26
-
-Source Raindrop :
-
-- titre : `AI Engineering From Scratch Repository`
-- date : 2026-06-08T16:19:54.427Z
-- domaine : `x.com`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : aucun tag Raindrop
-
 ## Resume court
 
-AI Engineering From Scratch Repository is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : outil ou ressource agentique pouvant manipuler code, workflows, comptes ou donnees sensibles.
-
-## Usage KM
-
-Suivre les outils agents, automatisation et workflows IA.
-
-## Risque d'abus possible
-
-Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+AI Engineering From Scratch Repository est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
 
 ## A_VERIFIER
 
 - post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
-
-## Garde-fous
-
-- Ne pas stocker de secrets, donnees personnelles ou contenu source complet.
-- Ne pas transformer une source sensible en tutoriel operationnel.
-- Valider manuellement avant usage public ou integration produit.
 
 ## Relations
 

@@ -2,7 +2,7 @@
 
 ## Resume court
 
-NOREGRESSION - Chat Codex sanitise is a KM watch item classified as KM watch item. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+NOREGRESSION - Chat Codex sanitise est une fiche KM de veille KM watch item. Source finale conservee dans la fiche.
 
 ## Source
 

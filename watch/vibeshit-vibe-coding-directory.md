@@ -6,7 +6,7 @@ Veille outils IA / annuaire projets vibe coding.
 
 ## Tags
 
-#vibe-coding, #ai-tools, #agents, #llm, #devtools, #directory, #inspiration, #sensitive
+#vibe-coding, #ai-tools, #agents, #llm, #devtools, #directory, #inspiration
 
 ## Appel canonique
 
@@ -16,11 +16,9 @@ Veille outils IA / annuaire projets vibe coding.
 
 Site : `https://vibeshit.org/`
 
-Lecture : 2026-05-22
-
 ## Resume court
 
-Vibe Shit - Vibe Coding Directory is a KM watch item classified as Veille outils IA / annuaire projets vibe coding. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+Vibe Shit - Vibe Coding Directory est une fiche KM de veille Veille outils IA / annuaire projets vibe coding. Source finale conservee dans la fiche.
 
 ## Usage utile
 
@@ -28,23 +26,6 @@ Vibe Shit - Vibe Coding Directory is a KM watch item classified as Veille outils
 - Alimenter `watch:ai-open-source-tools-inventory`.
 - Identifier des inspirations UI/produit pour KM, NightIntel et outils internes.
 - Suivre les tendances vibe coding sans dependre uniquement de X/GitHub trending.
-
-## Usage abusif possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Hype non verifiee | descriptions courtes pouvant amplifier des claims produit | sensible |
-| Outils dual-use | certains projets peuvent toucher OSINT, automation, remote access ou scraping | sensible ; #ROUGE seulement si offensif direct |
-| Copie non critique | recopier des idees sans verification ni attribution | sensible |
-| Envoi de donnees tiers | tester des services externes avec donnees privees ou secrets | sensible |
-
-## Garde-fous
-
-- Verifier chaque outil a la source officielle avant integration.
-- Ne pas importer de claims comme faits sans verification.
-- Ne pas stocker tokens, prompts confidentiels ou donnees personnelles dans des tests.
-- Classer `#ROUGE` uniquement les outils directement offensifs ou abusables operationnellement.
-- Garder l'attribution de la source et du projet original.
 
 ## Relations
 

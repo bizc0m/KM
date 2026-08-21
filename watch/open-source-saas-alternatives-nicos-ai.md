@@ -6,7 +6,7 @@ Veille outils open source.
 
 ## Tags
 
-#open-source, #saas-alternatives, #ai-tools, #design, #automation, #local-first, #sensitive
+#open-source, #saas-alternatives, #ai-tools, #design, #automation, #local-first
 
 ## Appel canonique
 
@@ -21,8 +21,6 @@ URL : `https://x.com/nicos_ai/status/2057511065802469432`
 Auteur : `nicos_ai` / Nico
 
 Date post : 2026-05-21
-
-Lecture : FxTwitter API publique, sans compte X.
 
 ## Metadata GitHub publique
 
@@ -45,15 +43,15 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 ## Resume court
 
-Open Source SaaS Alternatives - nicos_ai is a KM watch item classified as Veille outils open source. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+Open Source SaaS Alternatives - nicos_ai est une fiche KM de veille Veille outils open source. Source finale conservee dans la fiche.
 
 ## Outils cites
 
 | Outil | URL verifiee | Statut | Classement |
 | --- | --- | --- | --- |
-| yt-dlp | `https://github.com/yt-dlp/yt-dlp` | verifie GitHub | sensible |
+| yt-dlp | `https://github.com/yt-dlp/yt-dlp` | verifie GitHub | actif |
 | Ollama | `https://github.com/ollama/ollama` | verifie GitHub | interne |
-| Fooocus | `https://github.com/lllyasviel/Fooocus` | verifie GitHub | sensible |
+| Fooocus | `https://github.com/lllyasviel/Fooocus` | verifie GitHub | actif |
 | PhotoGIMP | `https://github.com/Diolinux/PhotoGIMP` | verifie GitHub | interne |
 | Open Design | `https://github.com/nexu-io/open-design` | verifie GitHub | interne |
 | AppFlowy | `https://github.com/AppFlowy-IO/AppFlowy` | deja verifie | interne |
@@ -79,26 +77,6 @@ Deja presents dans KM :
 - `Penpot`
 - `n8n`
 - `Cal.com`
-
-## Usage abusif possible
-
-| Outil | Usage utile | Usage abusif possible | Classement |
-| --- | --- | --- | --- |
-| yt-dlp | archivage legitime, recuperation de ses propres contenus, veille media | telechargement non autorise, violation copyright, contournement plateformes | sensible |
-| Ollama | IA locale privacy-first | execution de modeles non controles, fuite via prompts si mal gere | interne |
-| Fooocus | generation image locale | images trompeuses, usurpation visuelle | sensible |
-| PhotoGIMP | workflow design local | confusion marque/interface si redistribution commerciale trompeuse | interne |
-| Open Design | generation UI/design | copie de designs, confusion avec outils proprietaires | interne |
-| n8n | automation | spam, scraping, exfiltration si connecteurs sensibles | sensible ; #ROUGE si abus operationnel |
-| Bitwarden Server | gestion secrets | mauvaise configuration exposant secrets | interne critique |
-
-## Garde-fous
-
-- Ne pas promouvoir yt-dlp pour contourner droits d'auteur ou restrictions.
-- Verifier licences et conditions des plateformes avant usage media.
-- IA locale : ne pas stocker secrets dans prompts ou historiques.
-- Automation : validation humaine obligatoire avant actions externes.
-- Secrets : aucun token en clair dans repo.
 
 ## Relations
 

@@ -6,7 +6,7 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#herm, #llm, #api, #ressources, #news, #cartographie, #checkl, #citoyenne, #claude, #collaborative, #factchecking, #fact, #fake, #rumor, #skill, #agents, #automation, #sensible
+#herm, #llm, #api, #ressources, #news, #cartographie, #checkl, #citoyenne, #claude, #collaborative, #factchecking, #fact, #fake, #rumor, #skill, #agents, #automation
 
 ## Appel canonique
 
@@ -16,43 +16,13 @@ Veille Raindrop KM Monitor.
 - Source : [https://opencode.ai/download](https://opencode.ai/download)
 - Source secondaire Raindrop 2026-08-03 : `https://opencode.ai/`
 
-Lecture KM : 2026-06-26
-
-Source Raindrop :
-
-- titre : `OpenCode Download`
-- date : 2026-06-05T17:36:27.859Z
-- domaine : `opencode.ai`
-- auteur/source : `source-raindrop-anonymisee`
-- tags detectes : `HERM`, `LLM`, `API`, `Ressources`, `news`, `cartographie`, `checkl`, `citoyenne`, `Claude`, `collaborative`, `factchecking`, `fact`, `fake`, `rumor`, `Skill`
-
 ## Resume court
 
-OpenCode Download is a KM watch item classified as Veille Raindrop KM Monitor. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
-
-## Classification
-
-`sensible`
-
-Raison : outil ou ressource agentique pouvant manipuler code, workflows, comptes ou donnees sensibles.
-
-## Usage KM
-
-Maintenir un radar KM des ressources et outils a auditer.
-
-## Risque d'abus possible
-
-Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+OpenCode Download est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
 
 ## A_VERIFIER
 
 - Verifier source, date, claims et conditions avant usage operationnel.
-
-## Garde-fous
-
-- Ne pas stocker de secrets, donnees personnelles ou contenu source complet.
-- Ne pas transformer une source sensible en tutoriel operationnel.
-- Valider manuellement avant usage public ou integration produit.
 
 ## Relations
 
@@ -65,7 +35,7 @@ Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, 
 
 - Objectif : dedupliquer la nouveaute Raindrop KM Monitor `OpenCode | The open source AI coding agent` avec la fiche existante.
 - Fichiers touches : `watch/opencode-telechargement.md`, `index.md`, `watch/index.md`, `km/history.md`.
-- Risques : agent de coding sensible, execution de commandes et acces repo a cadrer.
+- Risques : agent de coding execution de commandes et acces repo a cadrer.
 - Rollback possible : retirer la source secondaire et cette entree de changelog.
 
 ### v0.1 - 2026-06-26

@@ -6,7 +6,7 @@ Veille infra privacy / DePIN / reseau decentralise.
 
 ## Tags
 
-#privacy, #depin, #crypto, #wallet-address, #decentralized-network, #encrypted-routing, #vpn-alternative, #tokenomics, #sensitive, #to-verify
+#privacy, #depin, #crypto, #wallet-address, #decentralized-network, #encrypted-routing, #vpn-alternative, #tokenomics, #to-verify
 
 ## Appel canonique
 
@@ -21,11 +21,9 @@ Veille infra privacy / DePIN / reseau decentralise.
 - Silent Pass : `https://conet.network/silent-pass/`
 - Privacy policy : `https://conet.network/privacy-cookies/`
 
-Lecture KM : 2026-05-25
-
 ## Resume court
 
-CONET - Privacy DePIN Network is a KM watch item classified as Veille infra privacy / DePIN / reseau decentralise. The final source is preserved in the fiche and must be verified before product use, public reuse or operational integration.
+CONET - Privacy DePIN Network est une fiche KM de veille Veille infra privacy / DePIN / reseau decentralise. Source finale conservee dans la fiche.
 
 ## Verification source
 
@@ -35,7 +33,7 @@ CONET - Privacy DePIN Network is a KM watch item classified as Veille infra priv
 | Docs | `doceng.conet.network` decrit DePIN, wallet address et relay encrypted data | verifie source officielle |
 | Privacy policy | annonce peu ou pas de donnees personnelles, Google Analytics avec IP anonymisee | a auditer |
 | GitHub | lien officiel non confirme dans cette passe | a verifier |
-| Tokenomics | modele crypto/mining present dans l'ecosysteme | sensible |
+| Tokenomics | modele crypto/mining present dans l'ecosysteme | actif |
 
 ## Usage utile
 
@@ -44,27 +42,6 @@ CONET - Privacy DePIN Network is a KM watch item classified as Veille infra priv
 - Comprendre les promesses de reseaux sans IP visible.
 - Evaluer une piste anti-censure dans un cadre legal.
 - Alimenter KM sur privacy tech, crypto infra et risques de relais.
-
-## Usage abusif possible
-
-| Risque | Description | Classement |
-| --- | --- | --- |
-| Relay abuse | faire transiter du trafic tiers illegal ou non maitrise via un noeud | sensible ; #ROUGE si facilite abus externe |
-| Overclaim privacy | croire a un anonymat complet sans audit ni modele de menace | sensible |
-| Crypto speculation | achat token/mining motive par rendement non verifie | sensible finance |
-| Juridiction | responsabilite legale variable selon pays et type de trafic relaye | sensible |
-| Contournement | usage pour contourner restrictions sans cadre legitime | sensible ; #ROUGE si usage illegal |
-| Metadata leakage | fuite possible via endpoint, wallet, analytics, app, bridges ou erreurs de config | sensible |
-
-## Garde-fous
-
-- Ne pas traiter les claims d'anonymat comme prouves.
-- Ne pas lancer de noeud public sans analyse legale.
-- Ne pas engager d'argent sans audit tokenomics et risque finance.
-- Tester seulement en lab avec trafic controle.
-- Documenter le modele de menace : qui voit quoi, a quel niveau, avec quels logs.
-- Verifier code, clients, smart contracts, bridge, analytics et conditions d'usage.
-- Ne jamais relayer de trafic tiers non maitrise pour un projet public.
 
 ## Questions d'audit
 
