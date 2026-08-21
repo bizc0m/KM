@@ -1,8 +1,10 @@
 import { mkdirSync, readdirSync, readFileSync, writeFileSync, statSync } from "node:fs";
-import { join, relative } from "node:path";
+import { join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const root = fileURLToPath(new URL("..", import.meta.url)).replace(/\/$/, "");
+const root = process.env.KM_ROOT
+  ? resolve(process.env.KM_ROOT)
+  : fileURLToPath(new URL("..", import.meta.url)).replace(/\/$/, "");
 const config = JSON.parse(readFileSync(join(root, "km.config.json"), "utf8"));
 const ontology = JSON.parse(readFileSync(join(root, "km.ontology.json"), "utf8"));
 const version = config.project?.version || "1.12";
