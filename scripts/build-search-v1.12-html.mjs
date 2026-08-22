@@ -345,7 +345,12 @@ const dateValue = (item) => Date.parse(item.integratedAt || "") || 0;
 const index = files.map(itemFrom).filter(Boolean).sort((a, b) =>
   dateValue(b) - dateValue(a) || (a.canonical || a.title).localeCompare(b.canonical || b.title)
 );
-const generatedAt = new Date().toISOString();
+const latestIndexedDate = index
+  .map((item) => item.integratedAt)
+  .filter(Boolean)
+  .sort()
+  .at(-1);
+const generatedAt = process.env.KM_BUILD_TIMESTAMP || `donnees ${latestIndexedDate || "n/a"}`;
 
 function htmlEscape(value) {
   return String(value ?? "").replace(/[&<>"']/g, (char) => ({

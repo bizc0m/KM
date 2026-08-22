@@ -1,0 +1,37 @@
+{
+  "noteplan.minAppVersion": "3.6.1",
+  "macOS.minVersion": "10.13.0",
+  "plugin.id": "av.km-bridge",
+  "plugin.name": "KM Bridge",
+  "plugin.description": "Importe des fiches KM dans NotePlan depuis le presse-papiers.",
+  "plugin.author": "AV/JOB",
+  "plugin.version": "0.1.0",
+  "plugin.script": "script.js",
+  "plugin.isRemote": "false",
+  "plugin.commands": [
+    {
+      "name": "km fiche",
+      "alias": ["km"],
+      "description": "Ajoute une fiche KM nettoyee depuis le presse-papiers.",
+      "jsFunction": "kmPasteFiche"
+    },
+    {
+      "name": "km action",
+      "alias": ["kma"],
+      "description": "Ajoute une fiche KM avec checklist actionnable.",
+      "jsFunction": "kmPasteAction"
+    },
+    {
+      "name": "km inbox",
+      "alias": ["kmi"],
+      "description": "Ajoute la fiche dans une section KM A traiter.",
+      "jsFunction": "kmPasteInbox"
+    },
+    {
+      "name": "km clean",
+      "alias": ["kmc"],
+      "description": "Nettoie une fiche KM et la remet dans le presse-papiers.",
+      "jsFunction": "kmCopyClean"
+    }
+  ]
+}

@@ -45,6 +45,14 @@ KM sert a centraliser les fiches, ressources, themes, process, veille et archive
 - Principe : HTML autonome avec index embarque depuis `km/`, `watch/`, `themes/`, `process/` et les index racine.
 - Garde-fou : ne pas indexer `resources/`, `archive/` ou `inbox/` avant nettoyage privacy.
 
+## Kprompt
+
+- Fichier : `kprompt.html`
+- Index stable : `kprompt-index.json`
+- Regeneration : `npm run km:kprompt`
+- Principe : rechercher dans la KM, selectionner des fiches, puis generer un prompt contextualise avec liens sources.
+- Modes : `Dev`, `Veille`, `Audit`, `Synthese`, `Agent`.
+
 ## Versions front recherche
 
 | Version | Fichier | Generateur | Statut |
