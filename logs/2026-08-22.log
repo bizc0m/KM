@@ -1,0 +1,5 @@
+[14:50] RAINDROP_FULL_INGEST | page publique KM Monitor | 131 items publics, pagination 30/30/30/30/11/0, 0 nouveaute post-cutoff 2026-08-21T12:48:00.528Z | -
+[14:50] COVERAGE | watch/km/resources | couverture locale 131/131 apres normalisation URL+titre/slug | -
+[14:50] DASHBOARD | search-v1.12.html | regenere avec 150 documents indexes, 13 pages publiques sous public/ | -
+[14:50] RSS | /feed secondaire | lastBuildDate Thu, 20 Aug 2026 17:27:21 GMT, premier item Quick RSS | -
+[14:50] HYGIENE | artefacts temporaires | suppression prevue apres verification, aucun push ni commit | -
