@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { createServer } from "node:http";
-import { readFile, writeFile, mkdir, access, rename } from "node:fs/promises";
+import { readFile, writeFile, mkdir, access, rename, readdir, stat } from "node:fs/promises";
 import { constants } from "node:fs";
 import { basename, dirname, join, relative, resolve } from "node:path";
 import { execFile } from "node:child_process";
@@ -18,6 +18,9 @@ const HOST = process.env.KM_LOCAL_APP_HOST || "127.0.0.1";
 const defaultConfig = {
   kmRoot: APP_ROOT,
   dashboard: "search-v1.12.html",
+  noteplanPath: "/Users/JOB/Library/Containers/co.noteplan.NotePlan-setapp/Data/Library/Application Support/co.noteplan.NotePlan-setapp/Calendar",
+  noteplanInboxRoot: "/Users/JOB/Library/Containers/co.noteplan.NotePlan-setapp/Data/Library/Application Support/co.noteplan.NotePlan-setapp/Notes/## KM",
+  noteplanProject: "DEV",
   sources: {
     rss: [],
     twitter: [],
@@ -61,6 +64,16 @@ function sendHtml(res, body) {
     "Access-Control-Allow-Origin": "*",
     "Content-Type": "text/html; charset=utf-8",
     "Content-Length": Buffer.byteLength(body)
+  });
+  res.end(body);
+}
+
+async function sendFile(res, filePath, contentType = "text/html; charset=utf-8") {
+  const body = await readFile(filePath);
+  res.writeHead(200, {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Type": contentType,
+    "Content-Length": body.length
   });
   res.end(body);
 }
@@ -124,6 +137,454 @@ function safeMarkdownPath(kmRoot, requestedPath) {
   return { root, full, rel };
 }
 
+function safeReadableRoot(requestedPath) {
+  const root = resolve(String(requestedPath || "").trim());
+  if (!root || root === "/") throw new Error("Path NotePlan invalide.");
+  return root;
+}
+
+function isoDay(value) {
+  const text = String(value || "").trim();
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(text)) throw new Error("Date invalide, format attendu YYYY-MM-DD.");
+  return text;
+}
+
+function dateFromFilename(name) {
+  const compact = String(name).match(/(^|[^\d])(\d{4})(\d{2})(\d{2})([^\d]|$)/);
+  if (compact) return `${compact[2]}-${compact[3]}-${compact[4]}`;
+  const dashed = String(name).match(/(^|[^\d])(\d{4})-(\d{2})-(\d{2})([^\d]|$)/);
+  if (dashed) return `${dashed[2]}-${dashed[3]}-${dashed[4]}`;
+  return "";
+}
+
+async function walkMarkdown(dir, limit = 2000) {
+  const out = [];
+  async function walk(current) {
+    if (out.length >= limit) return;
+    const entries = await readdir(current, { withFileTypes: true });
+    for (const entry of entries) {
+      if (entry.name.startsWith(".") || entry.name === "node_modules") continue;
+      const full = join(current, entry.name);
+      if (entry.isDirectory()) await walk(full);
+      if (entry.isFile() && entry.name.endsWith(".md")) out.push(full);
+      if (out.length >= limit) return;
+    }
+  }
+  await walk(dir);
+  return out;
+}
+
+function extractUrls(content) {
+  const urls = new Set();
+  const pattern = /https?:\/\/[^\s<>)\]]+/g;
+  for (const match of String(content || "").matchAll(pattern)) {
+    urls.add(match[0].replace(/[`"']+$/g, "").replace(/[.,;:!?]+$/, ""));
+  }
+  return [...urls];
+}
+
+function canonicalUrl(url) {
+  try {
+    const parsed = new URL(url);
+    parsed.hash = "";
+    parsed.hostname = parsed.hostname.toLowerCase().replace(/^www\./, "");
+    if (parsed.hostname === "twitter.com") parsed.hostname = "x.com";
+    for (const key of [...parsed.searchParams.keys()]) {
+      if (/^utm_/i.test(key) || /^(fbclid|gclid|yclid|mc_cid|mc_eid|s)$/i.test(key)) parsed.searchParams.delete(key);
+    }
+    return parsed.toString().replace(/\/$/, "");
+  } catch {
+    return String(url || "").trim();
+  }
+}
+
+async function existingKmUrls(kmRoot) {
+  const root = resolve(kmRoot);
+  const files = [];
+  for (const folder of ["watch", "resources", "km"]) {
+    const full = join(root, folder);
+    if (await exists(full)) files.push(...await walkMarkdown(full, 5000));
+  }
+  const urls = new Map();
+  for (const file of files) {
+    const rel = relative(root, file);
+    const content = await readFile(file, "utf8");
+    for (const url of extractUrls(content)) {
+      const key = canonicalUrl(url);
+      if (!urls.has(key)) urls.set(key, []);
+      urls.get(key).push(rel);
+    }
+  }
+  return urls;
+}
+
+function classifyCandidate(url) {
+  let domain = "";
+  try { domain = new URL(url).hostname.replace(/^www\./, ""); } catch {}
+  const lower = url.toLowerCase();
+  const targetFolder = /paper|pdf|docs|book|arxiv|github\.com\/[^/]+\/[^/]+\/blob/i.test(lower) ? "resources" : "watch";
+  let classification = "a verifier";
+  if (/github\.com|x\.com|twitter\.com|rss|feed|docs|arxiv|paper|pdf/i.test(lower)) classification = "sensible";
+  if (/exploit|malware|phishing|pentest|redteam|c2|payload|ransomware/i.test(lower)) classification = "#ROUGE";
+  return { domain, targetFolder, classification };
+}
+
+function noteplanScope(url) {
+  let parsed;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return { scope: "autre", keepForWatch: false, reason: "url invalide" };
+  }
+  const domain = parsed.hostname.replace(/^www\./, "").toLowerCase();
+  const text = `${domain} ${parsed.pathname}`.toLowerCase();
+  if (/^(127\.0\.0\.1|localhost)$/.test(domain) || /\.local$|\.ts\.net$/.test(domain)) {
+    return { scope: "local", keepForWatch: false, reason: "lien local/dev" };
+  }
+  if (/^(chatgpt\.com|claude\.ai|perplexity\.ai|mail\.google\.com|gmail\.com)$/.test(domain)) {
+    return { scope: "conversation-privee", keepForWatch: false, reason: "conversation ou compte prive" };
+  }
+  if (/apple\.com\/.*vieworder|app\.notion\.com|ksuite\.infomaniak\.com|debank\.com\/profile|societe\.com|service-public\.fr|legalstart\.fr/.test(text)) {
+    return { scope: "perso-admin", keepForWatch: false, reason: "admin/perso probable" };
+  }
+  if (/x\.com|twitter\.com|github\.com|gitlab\.com|huggingface\.co|arxiv\.org|paperswithcode\.com|reddit\.com|news\.ycombinator\.com|producthunt\.com/.test(domain)) {
+    return { scope: "veille", keepForWatch: true, reason: "domaine veille/source" };
+  }
+  if (/(ai|agent|llm|mcp|osint|cyber|security|github|open-source|opensource|rss|feed|scrap|automation|workflow|prompt|claude|chatgpt|codex|research|paper|tool|devtool|macos|accessibility)/.test(text)) {
+    return { scope: "veille", keepForWatch: true, reason: "mot-cle veille" };
+  }
+  if (/youtube\.com|youtu\.be|medium\.com|substack\.com|patreon\.com/.test(domain)) {
+    return { scope: "contenu", keepForWatch: false, reason: "contenu a confirmer" };
+  }
+  return { scope: "autre", keepForWatch: false, reason: "hors veille par defaut" };
+}
+
+function sourceKindFromHeading(heading) {
+  const key = String(heading || "").toLowerCase();
+  if (/x|twitter/.test(key)) return "x";
+  if (/github|git/.test(key)) return "github";
+  if (/reddit/.test(key)) return "reddit";
+  if (/resource|ressource|docs|paper|book/.test(key)) return "resources";
+  if (/ignore|ignorer/.test(key)) return "ignore";
+  if (/article|doc|web/.test(key)) return "articles";
+  return "inbox";
+}
+
+function extractInboxEntries(content) {
+  const entries = [];
+  let heading = "Inbox";
+  for (const line of String(content || "").split("\n")) {
+    const h = line.match(/^##\s+(.+?)\s*$/);
+    if (h) {
+      heading = h[1].trim();
+      continue;
+    }
+    for (const url of extractUrls(line)) entries.push({ url, heading, sourceKind: sourceKindFromHeading(heading) });
+  }
+  return entries;
+}
+
+async function scanProjectInbox({ inboxRoot, project, kmRoot, scope = "watch" }) {
+  const root = safeReadableRoot(inboxRoot);
+  const cleanProject = String(project || "DEV").trim() || "DEV";
+  const inboxFile = join(root, cleanProject, "Inbox.md");
+  if (!(await exists(inboxFile))) throw new Error(`Inbox projet introuvable: ${inboxFile}`);
+  const content = await readFile(inboxFile, "utf8");
+  const kmUrls = await existingKmUrls(kmRoot);
+  const candidates = new Map();
+  for (const entry of extractInboxEntries(content)) {
+    if (entry.sourceKind === "ignore") continue;
+    const canonical = canonicalUrl(entry.url);
+    const scoped = noteplanScope(canonical);
+    if (scope === "watch" && !scoped.keepForWatch && entry.sourceKind === "inbox") continue;
+    const duplicatePaths = kmUrls.get(canonical) || [];
+    const meta = classifyCandidate(canonical);
+    const targetFolder = entry.sourceKind === "resources" ? "resources" : meta.targetFolder;
+    const current = candidates.get(canonical) || {
+      url: entry.url,
+      canonical,
+      domain: meta.domain,
+      scope: scoped.scope,
+      reason: entry.sourceKind === "inbox" ? scoped.reason : `chapitre ${entry.heading}`,
+      sourceKind: entry.sourceKind,
+      project: cleanProject,
+      targetFolder,
+      classification: meta.classification,
+      duplicate: duplicatePaths.length > 0,
+      duplicatePaths,
+      notes: []
+    };
+    current.notes.push({ path: `${cleanProject}/Inbox.md#${entry.heading}`, date: new Date().toISOString().slice(0, 10) });
+    candidates.set(canonical, current);
+  }
+  const rows = [...candidates.values()].sort((a, b) => Number(a.duplicate) - Number(b.duplicate) || a.sourceKind.localeCompare(b.sourceKind) || a.domain.localeCompare(b.domain));
+  return {
+    ok: true,
+    mode: "dry-run",
+    source: "project-inbox",
+    scope,
+    project: cleanProject,
+    noteplanPath: inboxFile,
+    range: { start: "inbox", end: "inbox" },
+    notesRead: 1,
+    notes: [{ path: `${cleanProject}/Inbox.md`, date: "inbox", urls: rows.length }],
+    urlsFound: rows.length,
+    duplicates: rows.filter((item) => item.duplicate).length,
+    newCandidates: rows.filter((item) => !item.duplicate).length,
+    candidates: rows,
+    next: "Aucune injection effectuee. Valider explicitement avant creation de fiches."
+  };
+}
+
+function slugify(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/https?:\/\/\S+/g, " ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 90) || "noteplan-url";
+}
+
+function titleFromUrl(url) {
+  try {
+    const parsed = new URL(url);
+    const host = parsed.hostname.replace(/^www\./, "");
+    const tail = parsed.pathname.split("/").filter(Boolean).slice(-2).join(" ");
+    const raw = `${host} ${tail || ""}`.trim();
+    return raw
+      .replace(/[-_]+/g, " ")
+      .replace(/\b\w/g, (char) => char.toUpperCase())
+      .slice(0, 140);
+  } catch {
+    return String(url || "NotePlan URL").slice(0, 140);
+  }
+}
+
+async function uniqueMarkdownPath(root, folder, slug) {
+  let current = slug;
+  let counter = 2;
+  while (true) {
+    const rel = `${folder}/${current}.md`;
+    const full = join(root, rel);
+    if (!(await exists(full))) return { rel, full, slug: current };
+    current = `${slug}-${counter}`;
+    counter += 1;
+  }
+}
+
+function appendUniqueText(content, line) {
+  return content.includes(line) ? content : `${content.replace(/\s*$/, "\n")}${line}\n`;
+}
+
+async function appendUniqueFile(file, line) {
+  const content = await readFile(file, "utf8").catch(() => "");
+  const next = appendUniqueText(content, line);
+  if (next !== content) await writeFile(file, next, "utf8");
+}
+
+function noteplanFicheMarkdown(item, target, date) {
+  const notes = item.notes.map((note) => `- ${note.date} : \`${note.path}\``).join("\n");
+  const tags = [
+    "#noteplan",
+    "#url",
+    item.domain === "x.com" ? "#x" : "",
+    item.domain === "github.com" ? "#github" : "",
+    item.classification === "a verifier" ? "#a-verifier" : "",
+    item.classification === "#ROUGE" ? "#ROUGE" : ""
+  ].filter(Boolean).join(", ");
+  return `# ${titleFromUrl(item.canonical)}
+
+## Type
+
+Veille NotePlan / lien extrait automatiquement.
+
+## Tags
+
+${tags}
+
+## Appel canonique
+
+\`${target.folder}:${target.slug}\`
+
+## Source
+
+URL : \`${item.canonical}\`
+
+Domaine : ${item.domain || "inconnu"}
+
+## Projet
+
+${item.project || "Non renseigne"}
+
+## Notes NotePlan
+
+${notes}
+
+## Resume court
+
+Lien extrait de NotePlan sur la periode scannee. Contexte source a verifier avant usage KM.
+
+## Usage KM
+
+- Creer un point d'entree KM depuis les notes quotidiennes.
+- Reprendre le lien, verifier la source, puis completer titre, auteur/source et resume si utile.
+- Garder cette fiche comme brouillon de veille tant que la source n'est pas qualifiee.
+
+## Risque d'abus possible
+
+- Classification automatique imparfaite.
+- Ne pas executer de code, scripts, payloads ou outils externes depuis cette fiche.
+- Ne pas stocker de contenu complet tiers, secrets, emails prives ou donnees personnelles inutiles.
+
+## Classification
+
+${item.classification}
+
+## Relations
+
+- \`source:noteplan\`
+${item.project ? `- \`projet:${item.project}\`` : ""}
+
+## Historique
+
+### v0.1 - ${date}
+
+- Objectif : injection depuis scan NotePlan apres validation utilisateur.
+- Fichiers touches : \`${target.rel}\`, \`index.md\`${target.folder === "watch" ? ", `watch/index.md`" : ""}.
+- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+`;
+}
+
+async function ingestNotePlan({ noteplanPath, startDate, endDate, kmRoot, scope = "watch", sourceMode = "calendar", inboxRoot = "", project = "" }) {
+  const report = sourceMode === "inbox"
+    ? await scanProjectInbox({ inboxRoot, project, kmRoot, scope })
+    : await scanNotePlan({ noteplanPath, startDate, endDate, kmRoot, scope });
+  const root = resolve(kmRoot);
+  const date = new Date().toISOString().slice(0, 10);
+  const created = [];
+  const skipped = [];
+  for (const item of report.candidates) {
+    if (item.duplicate) {
+      skipped.push({ url: item.canonical, reason: "duplicate", duplicatePaths: item.duplicatePaths });
+      continue;
+    }
+    const folder = item.targetFolder === "resources" ? "resources" : "watch";
+    const slug = slugify(`${item.domain} ${new URL(item.canonical).pathname || ""}`);
+    const target = await uniqueMarkdownPath(root, folder, slug);
+    target.folder = folder;
+    await mkdir(dirname(target.full), { recursive: true });
+    await writeFile(target.full, noteplanFicheMarkdown(item, target, date), "utf8");
+    const canonical = `${folder}:${target.slug}`;
+    const tags = folder === "watch" ? "noteplan, url, watch" : "noteplan, url, resources";
+    const globalLine = `| \`${canonical}\` | \`${target.rel}\` | veille-noteplan | ${tags} | ${item.classification} |`;
+    await appendUniqueFile(join(root, "index.md"), globalLine);
+    if (folder === "watch") await appendUniqueFile(join(root, "watch", "index.md"), globalLine);
+    if (await exists(join(root, "km", "history.md"))) {
+      const historyLine = `| ${date} | Creation fiche ${canonical} depuis NotePlan | ${target.rel}, index.md | ${item.classification} | Supprimer la fiche et retirer les lignes d'index |`;
+      await appendUniqueFile(join(root, "km", "history.md"), historyLine);
+    }
+    created.push({ path: target.rel, canonical, url: item.canonical, classification: item.classification });
+  }
+  const searchBuild = await runNodeScript("build-search-v1.12-html.mjs", root);
+  const kpromptBuild = await runNodeScript("build-kprompt-html.mjs", root);
+  return {
+    ok: true,
+    action: "noteplan-ingest",
+    noteplanPath: report.noteplanPath,
+    range: report.range,
+    created,
+    skipped,
+    totalCandidates: report.candidates.length,
+    searchBuild,
+    kpromptBuild
+  };
+}
+
+async function scanNotePlan({ noteplanPath, startDate, endDate, kmRoot, scope = "watch" }) {
+  const root = safeReadableRoot(noteplanPath);
+  const start = isoDay(startDate);
+  const end = isoDay(endDate);
+  if (start > end) throw new Error("La date de debut doit etre avant la date de fin.");
+  const rootStat = await stat(root);
+  const files = rootStat.isFile() ? [root] : await walkMarkdown(root);
+  const kmUrls = await existingKmUrls(kmRoot);
+  const notes = [];
+  const candidates = new Map();
+  for (const file of files) {
+    const info = await stat(file);
+    const fileDate = dateFromFilename(basename(file)) || info.mtime.toISOString().slice(0, 10);
+    if (fileDate < start || fileDate > end) continue;
+    const content = await readFile(file, "utf8");
+    const rel = relative(root, file) || basename(file);
+    const urls = extractUrls(content);
+    notes.push({ path: rel, date: fileDate, urls: urls.length });
+    for (const url of urls) {
+      const canonical = canonicalUrl(url);
+      const scoped = noteplanScope(canonical);
+      if (scope === "watch" && !scoped.keepForWatch) continue;
+      const duplicatePaths = kmUrls.get(canonical) || [];
+      const meta = classifyCandidate(canonical);
+      const current = candidates.get(canonical) || {
+        url,
+        canonical,
+        domain: meta.domain,
+        scope: scoped.scope,
+        reason: scoped.reason,
+        targetFolder: meta.targetFolder,
+        classification: meta.classification,
+        duplicate: duplicatePaths.length > 0,
+        duplicatePaths,
+        notes: []
+      };
+      current.notes.push({ path: rel, date: fileDate });
+      candidates.set(canonical, current);
+    }
+  }
+  const rows = [...candidates.values()].sort((a, b) => Number(a.duplicate) - Number(b.duplicate) || a.domain.localeCompare(b.domain) || a.canonical.localeCompare(b.canonical));
+  return {
+    ok: true,
+    mode: "dry-run",
+    scope,
+    noteplanPath: root,
+    range: { start, end },
+    notesRead: notes.length,
+    notes,
+    urlsFound: rows.length,
+    duplicates: rows.filter((item) => item.duplicate).length,
+    newCandidates: rows.filter((item) => !item.duplicate).length,
+    candidates: rows,
+    next: "Aucune injection effectuee. Valider explicitement avant creation de fiches."
+  };
+}
+
+function safeStaticPath(kmRoot, requestedPath) {
+  const root = resolve(kmRoot);
+  const raw = String(requestedPath || "").replace(/^\/+/, "");
+  if (!/\.(html|json)$/i.test(raw)) throw new Error("Fichier non servi.");
+  const full = resolve(root, raw);
+  const rel = relative(root, full);
+  if (rel.startsWith("..") || rel.startsWith("/") || rel.includes("\0")) throw new Error("Chemin statique invalide.");
+  return { full, rel };
+}
+
+function appMenu(current = "app") {
+  const items = [
+    ["index", "Accueil", "/index.html"],
+    ["search", "Recherche", "/search-v1.12.html"],
+    ["watch", "Watch", "/public/folders/watch.html"],
+    ["resources", "Resources", "/public/folders/resources.html"],
+    ["kprompt", "Kprompt", "/kprompt.html"],
+    ["app", "App locale", "/"]
+  ];
+  return `<nav class="global-menu" aria-label="Menu principal">${items.map(([id, label, href]) => `<a class="${id === current ? "active" : ""}" href="${escapeHtml(href)}">${escapeHtml(label)}</a>`).join("")}</nav>`;
+}
+
+function appBreadcrumb(items) {
+  return `<nav class="breadcrumb" aria-label="Fil d'ariane">${items.map((item, index) => index === items.length - 1 ? `<span>${escapeHtml(item.label)}</span>` : `<a href="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a>`).join("<b>/</b>")}</nav>`;
+}
+
 function editHtml(filePath, content) {
   return `<!doctype html>
 <html lang="fr">
@@ -133,8 +594,10 @@ function editHtml(filePath, content) {
   <title>Modifier fiche KM</title>
   <style>
     :root{font-family:Arial,sans-serif;color:#161616;background:#f7f5ef}
-    body{margin:0;padding:18px}
+    body{margin:0;padding:0 18px 18px}
     main{max-width:1120px;margin:0 auto}
+    .global-menu{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:0 -18px 0;padding:7px 18px;background:#fff;border-bottom:1px solid #d8d2c6}.global-menu a{border:1px solid #d8d2c6;background:#fff;color:#151515;padding:6px 8px;font-size:9px;font-weight:950;text-transform:uppercase;text-decoration:none}.global-menu a:hover,.global-menu a.active{background:#151515;border-color:#151515;color:#fff}
+    .breadcrumb{display:flex;gap:7px;flex-wrap:wrap;align-items:center;margin:0 -18px 14px;padding:6px 18px;background:#fbfaf6;border-bottom:2px solid #151515;font-size:10px;font-weight:900;text-transform:uppercase;color:#666}.breadcrumb a{color:#151515;text-decoration:none}.breadcrumb b{color:#b0a99c}
     header{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:12px}
     h1{font-size:22px;line-height:1.15;margin:0}
     .path{font-family:Menlo,monospace;font-size:12px;background:#fff;border:1px solid #d8d2c6;padding:8px;overflow:auto;margin-bottom:10px}
@@ -147,12 +610,15 @@ function editHtml(filePath, content) {
   </style>
 </head>
 <body>
+${appMenu("app")}
+${appBreadcrumb([{ label: "KM", href: "/index.html" }, { label: "App locale", href: "/" }, { label: "Edition" }, { label: filePath }])}
 <main>
   <header>
     <h1>Modifier fiche KM</h1>
     <div class="row">
-      <a class="secondary" href="/">Cockpit</a>
-      <a class="secondary" href="http://127.0.0.1:8766/search-v1.12.html">Fiches</a>
+      <a class="secondary" href="/search-v1.12.html">KM</a>
+      <a class="secondary" href="/kprompt.html">Kprompt</a>
+      <a href="/">Veille</a>
       <button id="save">Enregistrer</button>
       <button class="danger" id="archive">Archiver</button>
     </div>
@@ -189,6 +655,12 @@ async function chooseFolder() {
   return stdout.trim().replace(/\/$/, "");
 }
 
+async function chooseNotePlanFolder() {
+  const script = 'POSIX path of (choose folder with prompt "Choisir le dossier NotePlan a scanner")';
+  const { stdout } = await execFileAsync("osascript", ["-e", script], { timeout: 120000 });
+  return stdout.trim().replace(/\/$/, "");
+}
+
 async function runNodeScript(scriptName, kmRoot) {
   const scriptPath = join(APP_ROOT, "scripts", scriptName);
   const result = await execFileAsync(process.execPath, [scriptPath], {
@@ -201,6 +673,16 @@ async function runNodeScript(scriptName, kmRoot) {
     stdout: result.stdout.slice(-8000),
     stderr: result.stderr.slice(-8000)
   };
+}
+
+async function appendLog(message, kmRoot = APP_ROOT) {
+  const day = new Date().toISOString().slice(0, 10);
+  const hhmm = new Date().toISOString().slice(11, 16);
+  const logDir = join(resolve(kmRoot), "logs");
+  const file = join(logDir, `${day}.log`);
+  await mkdir(logDir, { recursive: true });
+  const prior = await readFile(file, "utf8").catch(() => "");
+  await writeFile(file, `${prior}[${hhmm}] ${message}\n`, "utf8");
 }
 
 function html(config) {
@@ -221,33 +703,49 @@ function html(config) {
   <title>KM Monitor Local</title>
   <style>
     :root{font-family:Arial,sans-serif;color:#161616;background:#f7f5ef}
-    body{margin:0;padding:24px}
+    body{margin:0;padding:0 24px 24px}
     main{max-width:920px;margin:0 auto}
+    .global-menu{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:0 -24px 0;padding:7px 24px;background:#fff;border-bottom:1px solid #d8d2c6}.global-menu a{border:1px solid #d8d2c6;background:#fff;color:#151515;padding:6px 8px;font-size:9px;font-weight:950;text-transform:uppercase;text-decoration:none}.global-menu a:hover,.global-menu a.active{background:#151515;border-color:#151515;color:#fff}
+    .breadcrumb{display:flex;gap:7px;flex-wrap:wrap;align-items:center;margin:0 -24px 18px;padding:6px 24px;background:#fbfaf6;border-bottom:2px solid #151515;font-size:10px;font-weight:900;text-transform:uppercase;color:#666}.breadcrumb a{color:#151515;text-decoration:none}.breadcrumb b{color:#b0a99c}
     header{display:flex;gap:12px;align-items:center;justify-content:space-between;margin-bottom:20px}
     h1{font-size:28px;margin:0}
     h2{font-size:18px;margin:24px 0 10px}
     button,a.button{border:2px solid #151515;background:#151515;color:#fff;font-weight:800;padding:10px 14px;text-decoration:none;cursor:pointer}
     button.secondary,a.secondary{background:#fff;color:#151515}
     input,textarea{box-sizing:border-box;width:100%;border:2px solid #d8d2c6;background:#fff;padding:10px;font:inherit}
+    input[type="date"]{min-width:170px}
     textarea{min-height:90px;resize:vertical}
     .panel{border:2px solid #d8d2c6;background:#fff;padding:16px;margin:14px 0}
+    .tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}.tab{border:2px solid #151515;background:#fff;color:#151515;font-weight:900;padding:10px 14px;text-transform:uppercase}.tab.active{background:#151515;color:#fff}.tab-panel[hidden]{display:none}
     .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    .range{display:grid;grid-template-columns:repeat(2,minmax(170px,1fr)) 1fr auto;gap:10px;align-items:end}
+    .field{display:grid;gap:5px;min-width:0}.field label{font-size:11px;font-weight:900;text-transform:uppercase;color:#666}
     .path{font-family:Menlo,monospace;font-size:13px;background:#f1eee7;padding:10px;overflow:auto}
     .muted{color:#666}
-    .status{white-space:pre-wrap;font-family:Menlo,monospace;font-size:12px;background:#111;color:#f5f5f5;padding:12px;min-height:80px}
+    .status{white-space:pre-wrap;font-family:Menlo,monospace;font-size:12px;background:#111;color:#f5f5f5;padding:12px;min-height:80px}.status a{color:#9bd3ff;font-weight:900}
     ul{padding-left:18px}
+    @media(max-width:760px){.range{grid-template-columns:1fr}.tabs .tab{flex:1 1 auto}}
   </style>
 </head>
 <body>
+${appMenu("app")}
+${appBreadcrumb([{ label: "KM", href: "/index.html" }, { label: "App locale" }])}
 <main>
   <header>
     <h1>KM Monitor Local</h1>
     <div class="row">
-      <a class="button secondary" href="http://127.0.0.1:8766/${escapeHtml(config.dashboard || "search-v1.12.html")}">Fiches</a>
-      <a class="button secondary" href="http://127.0.0.1:8766/kprompt.html">Kprompt</a>
+      <a class="button secondary" href="/${escapeHtml(config.dashboard || "search-v1.12.html")}">KM</a>
+      <a class="button secondary" href="/kprompt.html">Kprompt</a>
+      <a class="button" href="/">Veille</a>
     </div>
   </header>
 
+  <nav class="tabs" aria-label="Onglets app">
+    <button class="tab active" data-tab="veille" type="button">Veille</button>
+    <button class="tab" data-tab="noteplan" type="button">NotePlan</button>
+  </nav>
+
+  <div class="tab-panel" id="tab-veille">
   <section class="panel">
     <h2>Dossier des fiches</h2>
     <div class="path" id="kmRoot">${escapeHtml(config.kmRoot)}</div>
@@ -303,13 +801,92 @@ function html(config) {
     <h2>Log</h2>
     <div class="status" id="status">Pret.</div>
   </section>
+  </div>
+
+  <div class="tab-panel" id="tab-noteplan" hidden>
+  <section class="panel">
+    <h2>NotePlan dry-run</h2>
+    <p class="muted">Scan uniquement. Aucune fiche creee, aucun index modifie.</p>
+    <div class="range" style="margin-top:12px">
+      <div class="field">
+        <label for="noteplanMode">Source</label>
+        <select id="noteplanMode"><option value="inbox">Inbox projet</option><option value="calendar">Calendar periode</option></select>
+      </div>
+      <div class="field">
+        <label for="noteplanProject">Projet KM</label>
+        <select id="noteplanProject"><option value="DEV">DEV</option><option value="Mirae">Mirae</option><option value="NightIntel">NightIntel</option></select>
+      </div>
+      <div class="field">
+        <label for="noteplanInboxRoot">Root Inbox</label>
+        <input id="noteplanInboxRoot" value="${escapeHtml(config.noteplanInboxRoot || defaultConfig.noteplanInboxRoot)}">
+      </div>
+      <div class="field">
+        <label for="noteplanScope">Portee</label>
+        <select id="noteplanScope"><option value="watch">Veille uniquement</option><option value="all">Tous les liens</option></select>
+      </div>
+      <div class="field">
+        <label for="noteplanPath">Path Calendar</label>
+        <input id="noteplanPath" value="${escapeHtml(config.noteplanPath || defaultConfig.noteplanPath)}" placeholder="/Users/JOB/Library/Containers/.../Calendar">
+      </div>
+      <button class="secondary" id="chooseNotePlanPath" type="button">Choisir</button>
+      <div class="field">
+        <label for="noteplanStart">Debut</label>
+        <input id="noteplanStart" type="date">
+      </div>
+      <div class="field">
+        <label for="noteplanEnd">Fin</label>
+        <input id="noteplanEnd" type="date">
+      </div>
+      <button id="scanNotePlan" type="button">Scanner</button>
+      <button class="secondary" id="ingestNotePlan" type="button">Injecter les nouveaux</button>
+    </div>
+  </section>
+  <section class="panel">
+    <h2>Rapport avant injection</h2>
+    <div class="status" id="noteplanReport">Pret. Donne un path NotePlan, choisis une periode, puis scanne.</div>
+  </section>
+  </div>
 </main>
 <script>
 const statusEl = document.getElementById("status");
+const noteplanReportEl = document.getElementById("noteplanReport");
 const kmRootEl = document.getElementById("kmRoot");
 function lines(id){return document.getElementById(id).value.split("\\n").map(x=>x.trim()).filter(Boolean)}
 function keyvals(id){return Object.fromEntries(document.getElementById(id).value.split("\\n").map(x=>x.trim()).filter(Boolean).map(line=>line.split(/[=:]/)).filter(parts=>parts.length>=2).map(parts=>[parts.shift().trim(),parts.join("=").trim()]).filter(([k,v])=>k&&v))}
 function setStatus(value){statusEl.textContent = typeof value === "string" ? value : JSON.stringify(value,null,2)}
+function escHtml(value){return String(value == null ? "" : value).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]})}
+function renderNotePlanReport(json){
+  if(!json || typeof json !== "object") return escHtml(json || "");
+  if(json.action === "noteplan-ingest"){
+    var created = json.created || [], skipped = json.skipped || [];
+    return [
+      "<strong>INJECTION NOTEPLAN</strong>",
+      "Periode: " + escHtml((json.range && json.range.start) || "-") + " -> " + escHtml((json.range && json.range.end) || "-"),
+      "Candidats: " + escHtml(json.totalCandidates || 0),
+      "Fiches creees: " + created.length,
+      "Doublons ignores: " + skipped.length,
+      created.length ? "\\nFICHES CREEES\\n" + created.map(function(item){return "- <a href=\\"/" + escHtml(item.path) + "\\" target=\\"_blank\\">" + escHtml(item.path) + "</a> | " + escHtml(item.classification) + " | " + escHtml(item.url)}).join("\\n") : "\\nAUCUNE FICHE CREEE. La liste Search ne change pas.",
+      skipped.length ? "\\nDOUBLONS\\n" + skipped.map(function(item){return "- " + escHtml(item.url) + " -> " + escHtml((item.duplicatePaths || []).join(", "))}).join("\\n") : "",
+      '\\n<a href="/search-v1.12.html">Ouvrir Search</a> · <a href="/public/folders/watch.html">Ouvrir Watch</a>'
+    ].filter(Boolean).join("\\n");
+  }
+  if(json.mode === "dry-run"){
+    var candidates = json.candidates || [];
+    return [
+      "<strong>SCAN NOTEPLAN DRY-RUN</strong>",
+      "Source: " + escHtml(json.source || "calendar"),
+      "Projet: " + escHtml(json.project || "-"),
+      "Notes lues: " + escHtml(json.notesRead || 0),
+      "Portee: " + escHtml(json.scope || "watch"),
+      "URLs trouvees: " + escHtml(json.urlsFound || 0),
+      "Nouveaux candidats: " + escHtml(json.newCandidates || 0),
+      "Doublons: " + escHtml(json.duplicates || 0),
+      candidates.length ? "\\nCANDIDATS\\n" + candidates.slice(0,80).map(function(item){return "- " + escHtml(item.duplicate ? "DOUBLON" : "NOUVEAU") + " | " + escHtml(item.scope || "-") + " | " + escHtml(item.reason || "-") + " | " + escHtml(item.classification) + " | " + escHtml(item.targetFolder) + " | " + escHtml(item.canonical)}).join("\\n") : "\\nAucun lien trouve sur cette periode."
+    ].join("\\n");
+  }
+  return escHtml(JSON.stringify(json,null,2));
+}
+function setNotePlanReport(value){noteplanReportEl.innerHTML = renderNotePlanReport(value)}
 async function api(path, body){
   setStatus("Execution...");
   const res = await fetch(path,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body||{})});
@@ -318,6 +895,9 @@ async function api(path, body){
   if(json.config?.kmRoot) kmRootEl.textContent = json.config.kmRoot;
   return json;
 }
+function today(){return new Date().toISOString().slice(0,10)}
+function setDefaultDates(){const end=today();const d=new Date(end+"T00:00:00");d.setDate(d.getDate()-7);document.getElementById("noteplanEnd").value=end;document.getElementById("noteplanStart").value=d.toISOString().slice(0,10)}
+document.querySelectorAll("[data-tab]").forEach(btn=>btn.onclick=()=>{document.querySelectorAll("[data-tab]").forEach(item=>item.classList.toggle("active",item===btn));document.querySelectorAll(".tab-panel").forEach(panel=>panel.hidden=panel.id!=="tab-"+btn.dataset.tab)});
 document.getElementById("chooseRoot").onclick = () => api("/api/choose-root");
 document.getElementById("validateRoot").onclick = () => api("/api/validate-root");
 document.getElementById("saveSources").onclick = () => api("/api/save-sources",{sources:{rss:lines("rss"),twitter:lines("twitter"),reddit:lines("reddit")}});
@@ -325,6 +905,27 @@ document.getElementById("saveThemes").onclick = () => api("/api/save-themes",{th
 document.getElementById("reloadThemes").onclick = () => location.reload();
 document.getElementById("build").onclick = () => api("/api/build");
 document.getElementById("ingest").onclick = () => api("/api/ingest-raindrop");
+document.getElementById("scanNotePlan").onclick = async () => {
+  setNotePlanReport("Scan NotePlan...");
+  const res = await fetch("/api/noteplan-scan",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({sourceMode:document.getElementById("noteplanMode").value,project:document.getElementById("noteplanProject").value,inboxRoot:document.getElementById("noteplanInboxRoot").value,noteplanPath:document.getElementById("noteplanPath").value,scope:document.getElementById("noteplanScope").value,startDate:document.getElementById("noteplanStart").value,endDate:document.getElementById("noteplanEnd").value})});
+  const json = await res.json();
+  setNotePlanReport(json);
+};
+document.getElementById("ingestNotePlan").onclick = async () => {
+  if(!confirm("Injecter les nouveaux candidats NotePlan dans KM ? Les doublons seront ignores.")) return;
+  setNotePlanReport("Injection NotePlan...");
+  const res = await fetch("/api/noteplan-ingest",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({sourceMode:document.getElementById("noteplanMode").value,project:document.getElementById("noteplanProject").value,inboxRoot:document.getElementById("noteplanInboxRoot").value,noteplanPath:document.getElementById("noteplanPath").value,scope:document.getElementById("noteplanScope").value,startDate:document.getElementById("noteplanStart").value,endDate:document.getElementById("noteplanEnd").value})});
+  const json = await res.json();
+  setNotePlanReport(json);
+};
+document.getElementById("chooseNotePlanPath").onclick = async () => {
+  setNotePlanReport("Selection dossier NotePlan...");
+  const res = await fetch("/api/choose-noteplan-root",{method:"POST",headers:{"Content-Type":"application/json"},body:"{}"});
+  const json = await res.json();
+  if(json.ok) document.getElementById("noteplanPath").value = json.noteplanPath;
+  setNotePlanReport(json);
+};
+setDefaultDates();
 </script>
 </body>
 </html>`;
@@ -347,6 +948,11 @@ const server = createServer(async (req, res) => {
     } catch {}
     const url = new URL(req.url || "/", `http://${HOST}:${DEFAULT_PORT}`);
     if (req.method === "GET" && url.pathname === "/") return sendHtml(res, html(config));
+    if (req.method === "GET" && /\.(html|json)$/i.test(url.pathname)) {
+      const staticFile = safeStaticPath(config.kmRoot, decodeURIComponent(url.pathname));
+      const contentType = staticFile.rel.endsWith(".json") ? "application/json; charset=utf-8" : "text/html; charset=utf-8";
+      return sendFile(res, staticFile.full, contentType);
+    }
     if (req.method === "GET" && url.pathname === "/edit") {
       const fiche = safeMarkdownPath(config.kmRoot, url.searchParams.get("path"));
       return sendHtml(res, editHtml(fiche.rel, await readFile(fiche.full, "utf8")));
@@ -438,6 +1044,50 @@ const server = createServer(async (req, res) => {
       const ingest = await runNodeScript("km-raindrop-rss-ingest.mjs", validation.root);
       const build = await runNodeScript("build-search-v1.12-html.mjs", validation.root);
       return sendJson(res, 200, { ok: true, action: "ingest-raindrop", ingest, build });
+    }
+
+    if (url.pathname === "/api/noteplan-scan") {
+      const body = await readBody(req);
+      const validation = await validateKmRoot(config.kmRoot);
+      if (!validation.ok) return sendJson(res, 422, { ok: false, validation });
+      const nextConfig = { ...config };
+      if (body.noteplanPath) nextConfig.noteplanPath = body.noteplanPath;
+      if (body.inboxRoot) nextConfig.noteplanInboxRoot = body.inboxRoot;
+      if (body.project) nextConfig.noteplanProject = body.project;
+      await writeConfig(nextConfig);
+      const report = body.sourceMode === "inbox"
+        ? await scanProjectInbox({ inboxRoot: body.inboxRoot || nextConfig.noteplanInboxRoot, project: body.project || nextConfig.noteplanProject, kmRoot: validation.root, scope: body.scope === "all" ? "all" : "watch" })
+        : await scanNotePlan({ noteplanPath: body.noteplanPath, startDate: body.startDate, endDate: body.endDate, kmRoot: validation.root, scope: body.scope === "all" ? "all" : "watch" });
+      return sendJson(res, 200, report);
+    }
+
+    if (url.pathname === "/api/noteplan-ingest") {
+      const body = await readBody(req);
+      const validation = await validateKmRoot(config.kmRoot);
+      if (!validation.ok) return sendJson(res, 422, { ok: false, validation });
+      const nextConfig = { ...config };
+      if (body.noteplanPath) nextConfig.noteplanPath = body.noteplanPath;
+      if (body.inboxRoot) nextConfig.noteplanInboxRoot = body.inboxRoot;
+      if (body.project) nextConfig.noteplanProject = body.project;
+      await writeConfig(nextConfig);
+      const report = await ingestNotePlan({
+        noteplanPath: body.noteplanPath,
+        startDate: body.startDate,
+        endDate: body.endDate,
+        kmRoot: validation.root,
+        scope: body.scope === "all" ? "all" : "watch",
+        sourceMode: body.sourceMode === "inbox" ? "inbox" : "calendar",
+        inboxRoot: body.inboxRoot || nextConfig.noteplanInboxRoot,
+        project: body.project || nextConfig.noteplanProject
+      });
+      await appendLog(`NOTEPLAN_INGEST | created=${report.created.length} skipped=${report.skipped.length} range=${report.range.start}..${report.range.end}`, validation.root);
+      return sendJson(res, 200, report);
+    }
+
+    if (url.pathname === "/api/choose-noteplan-root") {
+      const noteplanPath = await chooseNotePlanFolder();
+      await writeConfig({ ...config, noteplanPath });
+      return sendJson(res, 200, { ok: true, noteplanPath });
     }
 
     return sendJson(res, 404, { ok: false, error: "not_found" });

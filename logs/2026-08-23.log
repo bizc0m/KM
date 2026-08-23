@@ -1,0 +1,24 @@
+[14:23] UX_FIX | search-v1.12 | statuts corriges: tags lifecycle + default watch sensible ; boutons Recherche/Watch/Raindrop/RSS visibles | OK
+[14:23] VERIFY | search-v1.12.html | 150 docs, dupPaths=0, actif=11, sensible=92, #ROUGE=16, a_verifier=31 | OK
+[14:31] UX_FIX | index.html | hub pages KM cree: recherche, watch, resources, kprompt, exports publics, archives ; 33 liens verifies | OK
+[15:53] UX_FIX | km-local-app.mjs | app locale 8767 corrigee: liens internes /search-v1.12.html et /kprompt.html, service statique html/json, ancien port 8766 retire | OK
+[15:53] VERIFY | http://127.0.0.1:8767 | app running PID 31062 ; search-v1.12=200 ; kprompt=200 ; aucun lien 8766 sur home | OK
+[17:56] UX_FIX | menu-breadcrumb | menu global + fil d'ariane ajoutes sur index, search, kprompt, app locale, edit, folders publics et themes publics | OK
+[17:56] VERIFY | pages KM | 15/15 pages publiques avec global-menu + breadcrumb ; app locale 8767 OK ; edit watch/index.md OK ; finance vide regeneree | OK
+[18:00] APP_BUILD | dist/KM Monitor.app | builder corrige: dashboard 8767/search-v1.12.html, cockpit 8767, ancien serveur 8766 retire | OK
+[18:00] VERIFY | KM Monitor.app | plist OK, executable OK, process lance PID 40561, dashboard 8767/search-v1.12.html=200 | OK
+[18:15] APP_FIX | dist/KM Monitor.app | signature ad-hoc ajoutee, retry de chargement 8767, detection node Homebrew/usr/local, ancien process relance | OK
+[18:15] VERIFY | KM Monitor.app | codesign verify OK, process lance PID 43111, 1 fenetre macOS, dashboard 8767/search-v1.12.html=200 | OK
+[18:24] UX_ADD | km-local-app.mjs | onglet NotePlan ajoute: selecteur path, range debut/fin, scan dry-run, rapport avant injection | OK
+[18:24] VERIFY | /api/noteplan-scan | test range 2026-08-21: 1 note, 2 URLs, X canonicalise sans ?s=12, aucune injection | OK
+[18:33] UX_ADD | km-local-app.mjs | bouton Injecter les nouveaux + endpoint /api/noteplan-ingest ajoutes ; creation fiches, index, history, rebuild search/kprompt | OK
+[18:33] VERIFY | /api/noteplan-ingest | test doublon zedeus/nitter: created=0, skipped=duplicate watch/twitter-rss-monitoring.md, rebuild OK | OK
+[18:43] DIAG | noteplan-ingest | aucune injection reelle detectee: search reste a 150 fiches, pas de fiche noteplan nouvelle dans watch/resources | OK
+[18:43] UX_FIX | km-local-app.mjs | rapport injection explicite: Fiches creees, Doublons ignores, message AUCUNE FICHE CREEE et liens Search/Watch | OK
+[18:49] CONFIG | km-local-app.mjs | path NotePlan Setapp Calendar ajoute par defaut et persiste au scan/injection | OK
+[18:49] VERIFY | noteplanPath | dossier existe et champ NotePlan prerempli dans http://127.0.0.1:8767 | OK
+[19:00] UX_FIX | noteplan-scope | selecteur Veille uniquement/Tous les liens ajoute ; local/dev, admin/perso et conversations privees exclus de la veille par defaut | OK
+[19:00] VERIFY | noteplan-scope | scan 2026-08-21: mode veille=2 liens GitHub, mode all=26 liens ; filtre strict OK | OK
+[19:12] STRUCTURE | NotePlan ## KM | Inbox projet creees: DEV/Inbox.md, Mirae/Inbox.md, NightIntel/Inbox.md avec chapitres X/GitHub/Articles/Reddit/Resources/Ignore | OK
+[19:12] UX_ADD | km-local-app.mjs | mode NotePlan Inbox projet ajoute avec root, projet, fallback Calendar ; scan/injection supportent projet/sourceKind | OK
+[19:12] VERIFY | project-inbox | test DEV/Inbox.md chapitre GitHub: 1 candidat detecte, projet DEV conserve ; lien de test retire | OK

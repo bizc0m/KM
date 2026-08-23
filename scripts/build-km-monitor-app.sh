@@ -55,7 +55,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     var webView: WKWebView!
     var ownedProcesses: [Process] = []
     let cockpitURL = URL(string: "http://127.0.0.1:8767/")!
-    let dashboardURL = URL(string: "http://127.0.0.1:8766/search-v1.12.html")!
+    let dashboardURL = URL(string: "http://127.0.0.1:8767/search-v1.12.html")!
     lazy var kmRoot: String = {
         if let path = Bundle.main.path(forResource: "KMRoot", ofType: "txt"),
            let value = try? String(contentsOfFile: path, encoding: .utf8) {
@@ -67,7 +67,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         startLocalServices()
         buildWindow()
-        loadDashboardAfterDelay()
+        loadDashboardWhenReady()
     }
 
     func applicationWillTerminate(_ notification: Notification) {
@@ -103,9 +103,17 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         NSApp.mainMenu = menu
     }
 
-    func loadDashboardAfterDelay() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
-            self.webView.load(URLRequest(url: self.dashboardURL))
+    func loadDashboardWhenReady(attempt: Int = 0) {
+        if portHasListener(8767) {
+            webView.load(URLRequest(url: dashboardURL))
+            return
+        }
+        if attempt >= 30 {
+            webView.load(URLRequest(url: cockpitURL))
+            return
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            self.loadDashboardWhenReady(attempt: attempt + 1)
         }
     }
 
@@ -122,22 +130,12 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func startLocalServices() {
-        ensureDashboardServer()
         ensureCockpit()
-    }
-
-    func ensureDashboardServer() {
-        if portHasListener(8766) { return }
-        startProcess(
-            executable: "/usr/bin/python3",
-            arguments: ["-m", "http.server", "8766", "--bind", "127.0.0.1"],
-            cwd: kmRoot
-        )
     }
 
     func ensureCockpit() {
         if portHasListener(8767) { return }
-        let node = shell("command -v node").trimmingCharacters(in: .whitespacesAndNewlines)
+        let node = shell("command -v node || if [ -x /opt/homebrew/bin/node ]; then echo /opt/homebrew/bin/node; elif [ -x /usr/local/bin/node ]; then echo /usr/local/bin/node; fi").trimmingCharacters(in: .whitespacesAndNewlines)
         if node.isEmpty { return }
         startProcess(
             executable: node,
@@ -198,6 +196,7 @@ EOF_SWIFT
 swiftc "$SWIFT" -o "$EXEC" -framework Cocoa -framework WebKit
 chmod +x "$EXEC"
 plutil -lint "$CONTENTS/Info.plist" >/dev/null
+codesign --force --deep --sign - "$APP" >/dev/null
 
 echo "KM Monitor.app build OK:"
 echo "$APP"

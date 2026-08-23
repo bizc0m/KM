@@ -135,8 +135,7 @@
       "#web",
       "#motion",
       "#shader",
-      "#creative-ai",
-      "#actif"
+      "#creative-ai"
     ],
     "topics": [],
     "integratedAt": "2026-08-21"
@@ -224,8 +223,7 @@
       "#github",
       "#prompt-engineering",
       "#llm",
-      "#generative-models",
-      "#actif"
+      "#generative-models"
     ],
     "topics": [],
     "integratedAt": "2026-08-21"
@@ -249,8 +247,7 @@
       "#rss",
       "#macos",
       "#desktop-app",
-      "#knowledge-management",
-      "#actif"
+      "#knowledge-management"
     ],
     "topics": [],
     "integratedAt": "2026-08-21"
@@ -262,7 +259,7 @@
     "title": "Chat2PDF",
     "summary": "export conversationnel ChatGPT vers PDF",
     "type": "Veille Raindrop KM Monitor / export conversationnel ChatGPT vers PDF.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "privacy",
     "themeLabel": "Privacy",
     "folder": "watch",
@@ -286,7 +283,7 @@
     "title": "ChatGPT Exporter",
     "summary": "export conversations ChatGPT multi-format",
     "type": "Veille Raindrop KM Monitor / export conversations ChatGPT multi-format.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "privacy",
     "themeLabel": "Privacy",
     "folder": "watch",
@@ -311,7 +308,7 @@
     "title": "Geneva AI Summit 2027 Strategic Direction",
     "summary": "suit les signaux de gouvernance IA et politique publique",
     "type": "Strategic AI governance watch / public policy signal.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "governance",
     "themeLabel": "AI Governance",
     "folder": "watch",
@@ -338,7 +335,7 @@
     "title": "Graft - Codebase Context For Coding Agents",
     "summary": "fournit le contexte codebase aux agents de code",
     "type": "Veille liens utilisateur / contexte codebase pour agents de code.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -377,7 +374,7 @@
     "title": "Memory Engineering - Agent Past",
     "summary": "article X sur memoire agentique",
     "type": "Veille liens utilisateur / article X sur memoire agentique.",
-    "status": "actif",
+    "status": "a verifier",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -389,8 +386,7 @@
       "#agents",
       "#memory-engineering",
       "#context-engineering",
-      "#long-term-memory",
-      "#a-verifier"
+      "#long-term-memory"
     ],
     "topics": [],
     "integratedAt": "2026-08-12"
@@ -402,7 +398,7 @@
     "title": "Prompt Cache - Semantic LLM Cache",
     "summary": "cache semantique LLM",
     "type": "Veille liens utilisateur / cache semantique LLM.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "tool",
     "themeLabel": "Tools",
     "folder": "watch",
@@ -440,7 +436,7 @@
     "title": "Awesome AI Companion",
     "summary": "recense et classe des ressources",
     "type": "Veille Raindrop KM Monitor / annuaire projets compagnons IA.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "privacy",
     "themeLabel": "Privacy",
     "folder": "watch",
@@ -477,7 +473,7 @@
     "title": "Firecrawl PDF Inspector",
     "summary": "fournit une base technique reusable",
     "type": "Veille Raindrop KM Monitor / bibliotheque extraction PDF.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -512,7 +508,7 @@
     "title": "GitHub Digital Life Topic",
     "summary": "topic GitHub",
     "type": "Veille Raindrop KM Monitor / topic GitHub.",
-    "status": "actif",
+    "status": "a verifier",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -524,8 +520,7 @@
       "#github",
       "#digital-life",
       "#curation",
-      "#agents",
-      "#a-verifier"
+      "#agents"
     ],
     "topics": [],
     "integratedAt": "2026-08-09"
@@ -537,7 +532,7 @@
     "title": "Herdr Multiplexer",
     "summary": "orchestre des agents IA",
     "type": "Veille Raindrop KM Monitor / orchestration agents terminal.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -574,7 +569,7 @@
     "title": "IntelFetch OSINT Features",
     "summary": "plateforme OSINT",
     "type": "Veille Raindrop KM Monitor / plateforme OSINT.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "osint",
     "themeLabel": "OSINT",
     "folder": "watch",
@@ -598,7 +593,7 @@
     "title": "Praison AI",
     "summary": "plateforme d'agents IA",
     "type": "Veille Raindrop KM Monitor / plateforme d'agents IA.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -633,8 +628,7 @@
       "#github",
       "#trending",
       "#discovery",
-      "#veille",
-      "#actif"
+      "#veille"
     ],
     "topics": [],
     "integratedAt": "2026-08-09"
@@ -646,7 +640,7 @@
     "title": "Taste Skill",
     "summary": "kit frontend pour agents IA",
     "type": "Veille Raindrop KM Monitor / kit frontend pour agents IA.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "media",
     "themeLabel": "Media",
     "folder": "watch",
@@ -682,8 +676,7 @@
       "#ui-design",
       "#wireframe",
       "#ai-design",
-      "#prototype",
-      "#actif"
+      "#prototype"
     ],
     "topics": [],
     "integratedAt": "2026-08-04"
@@ -695,7 +688,7 @@
     "title": "Lovable Build For The Web 20x Faster",
     "summary": "generateur web IA",
     "type": "Veille Raindrop KM Monitor / generateur web IA.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -731,8 +724,7 @@
       "#ui-design",
       "#prototype",
       "#wireframe",
-      "#product-design",
-      "#actif"
+      "#product-design"
     ],
     "topics": [],
     "integratedAt": "2026-08-04"
@@ -744,7 +736,7 @@
     "title": "AXorcist macOS Accessibility",
     "summary": "fournit une base technique reusable",
     "type": "Veille Raindrop KM Monitor / bibliotheque Swift pour macOS Accessibility.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -773,7 +765,7 @@
     "title": "MacOS26 Agent Desktop Harness",
     "summary": "agent desktop macOS et harness agentique",
     "type": "Veille Raindrop KM Monitor / agent desktop macOS et harness agentique.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -823,8 +815,7 @@
       "#macos",
       "#usb",
       "#bootable-media",
-      "#recovery",
-      "#actif"
+      "#recovery"
     ],
     "topics": [],
     "integratedAt": "2026-08-03"
@@ -836,7 +827,7 @@
     "title": "NotePlan MCP Server",
     "summary": "connecteur MCP pour notes, taches et calendrier",
     "type": "Veille Raindrop KM Monitor / connecteur MCP pour notes, taches et calendrier.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -862,7 +853,7 @@
     "title": "Open Felix - Local AI Agent for macOS",
     "summary": "automatise des taches avec un agent IA",
     "type": "Veille Raindrop KM Monitor / agent IA local pour macOS.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "privacy",
     "themeLabel": "Privacy",
     "folder": "watch",
@@ -887,7 +878,7 @@
     "title": "Open Maestri macOS Agent Orchestration",
     "summary": "orchestre des agents IA",
     "type": "Veille Raindrop KM Monitor / orchestration visuelle multi-agents macOS.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -926,7 +917,7 @@
     "title": "OpenCode Download",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "osint",
     "themeLabel": "OSINT",
     "folder": "watch",
@@ -968,8 +959,7 @@
       "#brand-assets",
       "#logos",
       "#design",
-      "#api",
-      "#actif"
+      "#api"
     ],
     "topics": [],
     "integratedAt": "2026-08-02"
@@ -981,7 +971,7 @@
     "title": "Tailscale Secure Connectivity For AI IoT Multi Cloud",
     "summary": "connectivite Zero Trust et reseau prive",
     "type": "Veille Raindrop KM Monitor / connectivite Zero Trust et reseau prive.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "governance",
     "themeLabel": "AI Governance",
     "folder": "watch",
@@ -1006,7 +996,7 @@
     "title": "Auto Company Autonomous AI Company",
     "summary": "orchestre des agents IA",
     "type": "Veille Raindrop KM Monitor / orchestration multi-agents autonome.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -1031,7 +1021,7 @@
     "title": "Assistants IA Revolut",
     "summary": "notice legale service financier IA",
     "type": "Veille Raindrop KM Monitor / notice legale service financier IA.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "privacy",
     "themeLabel": "Privacy",
     "folder": "watch",
@@ -1056,7 +1046,7 @@
     "title": "Neodisk macOS Disk Visualizer",
     "summary": "macOS open source",
     "type": "Veille Raindrop KM Monitor / outil macOS open source.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "source",
     "themeLabel": "Sources",
     "folder": "watch",
@@ -1084,7 +1074,7 @@
     "title": "Agency Agents - AI Agency Agents",
     "summary": "fournit une base technique reusable",
     "type": "Veille Raindrop KM Monitor / bibliotheque d'agents IA specialises.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -1108,7 +1098,7 @@
     "title": "Alook - AI Workforce Collaboration",
     "summary": "orchestre des agents IA",
     "type": "Veille Raindrop KM Monitor / orchestration d'agents collaboratifs.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -1185,7 +1175,7 @@
     "title": "Scrapling - Web Scraping Modern Web",
     "summary": "fournit une base technique reusable",
     "type": "Veille Raindrop KM Monitor / framework de scraping web.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -1209,7 +1199,7 @@
     "title": "TencentDB Agent Memory - Local Agent Memory",
     "summary": "memoire long terme pour agents IA",
     "type": "Veille Raindrop KM Monitor / memoire long terme pour agents IA.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -1244,7 +1234,7 @@
     "title": "Notion - Les 7 Docs avant de coder avec l'IA",
     "summary": "KM / template Notion pour preparation de projet IA",
     "type": "Veille ressource KM / template Notion pour preparation de projet IA.",
-    "status": "actif",
+    "status": "a verifier",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -1257,9 +1247,7 @@
       "#documentation",
       "#agents",
       "#project-planning",
-      "#ai-workflow",
-      "#a-verifier",
-      "#actif"
+      "#ai-workflow"
     ],
     "topics": [],
     "integratedAt": "2026-07-09"
@@ -1344,7 +1332,7 @@
     "title": "AI Video Plugins And Skills Ayi AInotes",
     "summary": "pack plugins et skills video IA",
     "type": "Veille source sociale / pack plugins et skills video IA.",
-    "status": "actif",
+    "status": "a verifier",
     "theme": "media",
     "themeLabel": "Media",
     "folder": "watch",
@@ -1355,8 +1343,7 @@
     "tags": [
       "#ai-video",
       "#agent-skill",
-      "#plugins",
-      "#a-verifier"
+      "#plugins"
     ],
     "topics": [],
     "integratedAt": "2026-06-28"
@@ -1368,7 +1355,7 @@
     "title": "HyperFrames AI Video Generation Skill",
     "summary": "generation video agentique",
     "type": "Veille outil IA / generation video agentique.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "media",
     "themeLabel": "Media",
     "folder": "watch",
@@ -1416,7 +1403,7 @@
     "title": "Internet Scraping GitHub Repos Lucy Love AI",
     "summary": "extrait des donnees depuis des sources web ou documents",
     "type": "Veille outils / scraping et extraction web.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -1453,7 +1440,7 @@
     "title": "Open Lovable Firecrawl Site Cloning",
     "summary": "dev / clonage de sites en React",
     "type": "Veille outil dev / clonage de sites en React.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -1490,8 +1477,7 @@
       "#cve",
       "#kev",
       "#fastapi",
-      "#nextjs",
-      "#actif"
+      "#nextjs"
     ],
     "topics": [],
     "integratedAt": "2026-06-28"
@@ -1539,8 +1525,7 @@
       "#vibe-coding",
       "#spec",
       "#github",
-      "#coding-agent",
-      "#actif"
+      "#coding-agent"
     ],
     "topics": [],
     "integratedAt": "2026-06-28"
@@ -1552,7 +1537,7 @@
     "title": "WorldMonitor Global Intelligence Dashboard",
     "summary": "OSINT / tableau de bord geostrategique",
     "type": "Veille outil OSINT / tableau de bord geostrategique.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "osint",
     "themeLabel": "OSINT",
     "folder": "watch",
@@ -1589,7 +1574,7 @@
     "title": "Claude AGENTS.md Config - alexsoyes",
     "summary": "workflow agents / configuration AGENTS.md",
     "type": "Veille workflow agents / configuration AGENTS.md.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -1613,7 +1598,7 @@
     "title": "Free Api Key - Instagram Reel",
     "summary": "education IA / API keys",
     "type": "Veille education IA / API keys.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "llm",
     "themeLabel": "LLM / API",
     "folder": "watch",
@@ -1637,7 +1622,7 @@
     "title": "Free Open Source Apps List - sn0wbrave",
     "summary": "recense et classe des ressources",
     "type": "Veille outil / annuaire applications gratuites open source.",
-    "status": "actif",
+    "status": "a verifier",
     "theme": "source",
     "themeLabel": "Sources",
     "folder": "watch",
@@ -1649,8 +1634,7 @@
       "#open-source",
       "#apps",
       "#directory",
-      "#free-tools",
-      "#a-verifier"
+      "#free-tools"
     ],
     "topics": [],
     "integratedAt": "2026-06-27"
@@ -1714,8 +1698,7 @@
       "#resources",
       "#civil-society",
       "#sex-work",
-      "#human-rights",
-      "#a-verifier"
+      "#human-rights"
     ],
     "topics": [],
     "integratedAt": "2026-06-27"
@@ -1740,8 +1723,7 @@
       "#wiki",
       "#karpathy",
       "#gist",
-      "#learning-resource",
-      "#a-verifier"
+      "#learning-resource"
     ],
     "topics": [],
     "integratedAt": "2026-06-27"
@@ -1753,7 +1735,7 @@
     "title": "MinerU - Document Extraction",
     "summary": "extrait des donnees depuis des sources web ou documents",
     "type": "Veille outil IA / extraction documents.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "tool",
     "themeLabel": "Tools",
     "folder": "watch",
@@ -1790,8 +1772,7 @@
       "#obsidian",
       "#web-clipper",
       "#knowledge-management",
-      "#browser-extension",
-      "#actif"
+      "#browser-extension"
     ],
     "topics": [],
     "integratedAt": "2026-06-27"
@@ -1817,8 +1798,7 @@
       "#hacking-skills",
       "#claude",
       "#routing-md",
-      "#offensive-risk",
-      "#a-verifier"
+      "#offensive-risk"
     ],
     "topics": [],
     "integratedAt": "2026-06-27"
@@ -1830,7 +1810,7 @@
     "title": "AI Engineering From Scratch Repository",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -1852,7 +1832,7 @@
     "title": "AI Sales Automation Agent",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -1896,7 +1876,7 @@
     "title": "ByteDance Open Source Computer Control Agent",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -1918,7 +1898,7 @@
     "title": "Claude Code ya es potente solo.",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -1940,7 +1920,7 @@
     "title": "Claude Plugins For Knowledge Work",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -1962,7 +1942,7 @@
     "title": "Clone Projects For Netflix, Spotify, Instagram, Airbnb And Amazon",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -1994,8 +1974,7 @@
     "sourceUrl": "https://www.instagram.com/reel/DXt_oJeMvat",
     "tags": [
       "#media",
-      "#creative-ai",
-      "#to-verify"
+      "#creative-ai"
     ],
     "topics": [],
     "integratedAt": "2026-06-26"
@@ -2007,7 +1986,7 @@
     "title": "Essential MCP Servers Collection",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2038,8 +2017,7 @@
     "repoUrl": "https://github.com/bizc0m/KM/blob/main/watch/esto-es-un-palantir-gratis-y-se-instala-en-un-solo-comando.md",
     "sourceUrl": "https://x.com/marcusyul/status/2063710599679263141",
     "tags": [
-      "#raindrop",
-      "#to-verify"
+      "#raindrop"
     ],
     "topics": [],
     "integratedAt": "2026-06-26"
@@ -2052,16 +2030,15 @@
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
     "status": "a verifier",
-    "theme": "source",
-    "themeLabel": "Sources",
+    "theme": "llm",
+    "themeLabel": "LLM / API",
     "folder": "watch",
     "folderLabel": "Watch",
     "path": "watch/cok-cilginca-bir-ai-araci-buldum.md",
     "repoUrl": "https://github.com/bizc0m/KM/blob/main/watch/cok-cilginca-bir-ai-araci-buldum.md",
     "sourceUrl": "https://x.com/yigitakinkaya/status/2066620510218465621",
     "tags": [
-      "#llm",
-      "#to-verify"
+      "#llm"
     ],
     "topics": [],
     "integratedAt": "2026-06-26"
@@ -2073,7 +2050,7 @@
     "title": "Free Claude Code Execution Repository",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2095,7 +2072,7 @@
     "title": "Free GitHub Project Collection",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2117,7 +2094,7 @@
     "title": "Free Google Gemini 2.5 Pro Token Context",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2148,8 +2125,7 @@
     "repoUrl": "https://github.com/bizc0m/KM/blob/main/watch/geekbb-free-tools-list.md",
     "sourceUrl": "https://x.com/geekbb/status/2065823256746352712",
     "tags": [
-      "#raindrop",
-      "#to-verify"
+      "#raindrop"
     ],
     "topics": [],
     "integratedAt": "2026-06-26"
@@ -2161,7 +2137,7 @@
     "title": "GitHub Repositories For Automated Income Projects",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2183,7 +2159,7 @@
     "title": "GitHub Repositories For Work Automation",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2205,7 +2181,7 @@
     "title": "GitHub Repository With 213, 000 Stars",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2227,7 +2203,7 @@
     "title": "Google Chrome Web Best Practices Skill",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2271,7 +2247,7 @@
     "title": "Guide_Claude_Code_Remotion_IA_Boss",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2293,7 +2269,7 @@
     "title": "Guide_Emergent_Hero_Video_Scroll_FR",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2315,7 +2291,7 @@
     "title": "Guide_ScrapeGraph_AI_IA_Boss.pdf",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2337,7 +2313,7 @@
     "title": "Here are 10 AI video editor GitHub repos worth bookmarking:",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2359,7 +2335,7 @@
     "title": "Ideogram 4.0 — The open model for visual intelligence",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2381,7 +2357,7 @@
     "title": "IM-Style Multi-Agent Coding Workspace",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2403,7 +2379,7 @@
     "title": "Infinite Memory For Claude, Codex And Cursor",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2425,7 +2401,7 @@
     "title": "Infinite Memory For Claude, Codex And Cursor",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2458,8 +2434,7 @@
     "tags": [
       "#llm",
       "#ai-os",
-      "#github",
-      "#to-verify"
+      "#github"
     ],
     "topics": [],
     "integratedAt": "2026-06-26"
@@ -2480,8 +2455,7 @@
     "repoUrl": "https://github.com/bizc0m/KM/blob/main/watch/kyber-kyber-gitlab.md",
     "sourceUrl": "https://gitlab.com/kyber/kyber",
     "tags": [
-      "#raindrop",
-      "#to-verify"
+      "#raindrop"
     ],
     "topics": [],
     "integratedAt": "2026-06-26"
@@ -2502,8 +2476,7 @@
     "repoUrl": "https://github.com/bizc0m/KM/blob/main/watch/2-lafys.md",
     "sourceUrl": "https://x.com/franpradasai/status/2065038920534921457",
     "tags": [
-      "#raindrop",
-      "#to-verify"
+      "#raindrop"
     ],
     "topics": [],
     "integratedAt": "2026-06-26"
@@ -2515,7 +2488,7 @@
     "title": "Last 30 Days Research Agent Skill",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2551,16 +2524,15 @@
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
     "status": "a verifier",
-    "theme": "source",
-    "themeLabel": "Sources",
+    "theme": "llm",
+    "themeLabel": "LLM / API",
     "folder": "watch",
     "folderLabel": "Watch",
     "path": "watch/sabtu-malem-jam-2-pagi-gue-masih-melek.md",
     "repoUrl": "https://github.com/bizc0m/KM/blob/main/watch/sabtu-malem-jam-2-pagi-gue-masih-melek.md",
     "sourceUrl": "https://x.com/stellarprtcol/status/2065690636129575297",
     "tags": [
-      "#llm",
-      "#to-verify"
+      "#llm"
     ],
     "topics": [],
     "integratedAt": "2026-06-26"
@@ -2572,7 +2544,7 @@
     "title": "Marketing Automation",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2594,7 +2566,7 @@
     "title": "Miranda - Start.me",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "osint",
     "themeLabel": "OSINT",
     "folder": "watch",
@@ -2629,8 +2601,7 @@
     "repoUrl": "https://github.com/bizc0m/KM/blob/main/watch/mobile-app-raindrop-io-help.md",
     "sourceUrl": "https://help.raindrop.io/mobile-app#add-to-unsorted-action",
     "tags": [
-      "#raindrop",
-      "#to-verify"
+      "#raindrop"
     ],
     "topics": [],
     "integratedAt": "2026-06-26"
@@ -2651,8 +2622,7 @@
     "repoUrl": "https://github.com/bizc0m/KM/blob/main/watch/1-motionsites.md",
     "sourceUrl": "https://x.com/franpradasai/status/2065038918559449477",
     "tags": [
-      "#raindrop",
-      "#to-verify"
+      "#raindrop"
     ],
     "topics": [],
     "integratedAt": "2026-06-26"
@@ -2664,7 +2634,7 @@
     "title": "Multi-search launcher",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "osint",
     "themeLabel": "OSINT",
     "folder": "watch",
@@ -2686,7 +2656,7 @@
     "title": "Nexus OSINT V1 Launch",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "osint",
     "themeLabel": "OSINT",
     "folder": "watch",
@@ -2708,7 +2678,7 @@
     "title": "Odysseus Self-Hosted AI Workspace",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2730,7 +2700,7 @@
     "title": "Offline maps and GPS app without ads or tracking",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "osint",
     "themeLabel": "OSINT",
     "folder": "watch",
@@ -2753,16 +2723,15 @@
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
     "status": "a verifier",
-    "theme": "source",
-    "themeLabel": "Sources",
+    "theme": "llm",
+    "themeLabel": "LLM / API",
     "folder": "watch",
     "folderLabel": "Watch",
     "path": "watch/alternativa-gratuita-y-de-codigo-abierto-a-notebooklm.md",
     "repoUrl": "https://github.com/bizc0m/KM/blob/main/watch/alternativa-gratuita-y-de-codigo-abierto-a-notebooklm.md",
     "sourceUrl": "https://x.com/midudev/status/2062525515441815843",
     "tags": [
-      "#llm",
-      "#to-verify"
+      "#llm"
     ],
     "topics": [],
     "integratedAt": "2026-06-26"
@@ -2774,7 +2743,7 @@
     "title": "Open Source Observability for Traces, Logs & Metrics · Maple",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "osint",
     "themeLabel": "OSINT",
     "folder": "watch",
@@ -2796,7 +2765,7 @@
     "title": "OpenMontage Agentic Video Production System",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2853,7 +2822,7 @@
     "title": "Removes LLM censorship with a single click.",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "source",
     "themeLabel": "Sources",
     "folder": "watch",
@@ -2875,7 +2844,7 @@
     "title": "Repository Link",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2897,7 +2866,7 @@
     "title": "Senior Mode GitHub Repository",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2919,7 +2888,7 @@
     "title": "Top 5 Niche Sites For Vibe Coders",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2941,7 +2910,7 @@
     "title": "TurboVec Vector Index",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -2986,8 +2955,7 @@
     "sourceUrl": "https://x.com/deeptechtr/status/2066056043981943251",
     "tags": [
       "#media",
-      "#creative-ai",
-      "#to-verify"
+      "#creative-ai"
     ],
     "topics": [],
     "integratedAt": "2026-06-26"
@@ -2999,7 +2967,7 @@
     "title": "Understand Anything Code Knowledge Graph",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "agent",
     "themeLabel": "Agents IA",
     "folder": "watch",
@@ -3021,7 +2989,7 @@
     "title": "Web Page To Desktop App Converter",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "osint",
     "themeLabel": "OSINT",
     "folder": "watch",
@@ -3051,7 +3019,7 @@
     "title": "Aider AI Pair Programming",
     "summary": "pair programming terminal",
     "type": "Veille outil IA / pair programming terminal.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -3089,7 +3057,7 @@
     "title": "Awesome MCP Servers",
     "summary": "recense et classe des ressources",
     "type": "Veille ressource / annuaire MCP.",
-    "status": "actif",
+    "status": "a verifier",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -3103,8 +3071,7 @@
       "#agents",
       "#integrations",
       "#directory",
-      "#github",
-      "#a-verifier"
+      "#github"
     ],
     "topics": [
       "ai",
@@ -3119,7 +3086,7 @@
     "title": "Browser Use - Web Automation For AI Agents",
     "summary": "automatisation navigateur",
     "type": "Veille outil IA / automatisation navigateur.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -3191,7 +3158,7 @@
     "title": "Cloudflare Agentic Inbox",
     "summary": "client email agentique self-hosted",
     "type": "Veille outil IA / client email agentique self-hosted.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -3217,7 +3184,7 @@
     "title": "CrewAI - Agent Orchestration",
     "summary": "orchestre des agents IA",
     "type": "Veille framework IA / orchestration multi-agents.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -3326,7 +3293,7 @@
     "title": "LangGraph - Resilient Agents",
     "summary": "fournit une base technique reusable",
     "type": "Veille framework IA / agents resilients.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -3365,7 +3332,7 @@
     "title": "n8n Workflow Automation",
     "summary": "automatisation workflows",
     "type": "Veille outil / automatisation workflows.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -3416,8 +3383,7 @@
       "#agent",
       "#personal-agent",
       "#nousresearch",
-      "#github",
-      "#a-verifier"
+      "#github"
     ],
     "topics": [
       "ai",
@@ -3442,7 +3408,7 @@
     "title": "OpenHands - AI Driven Development",
     "summary": "automatise le developpement avec un agent IA",
     "type": "Veille outil IA / agent de developpement.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -3477,7 +3443,7 @@
     "title": "The OSINT Rack - Curated Intelligence Tools",
     "summary": "recense et classe des ressources",
     "type": "Veille OSINT / annuaire d'outils d'investigation.",
-    "status": "actif",
+    "status": "a verifier",
     "theme": "osint",
     "themeLabel": "OSINT",
     "folder": "watch",
@@ -3490,8 +3456,7 @@
       "#threat-intelligence",
       "#investigation",
       "#curated-tools",
-      "#privacy",
-      "#a-verifier"
+      "#privacy"
     ],
     "topics": [],
     "integratedAt": "2026-06-24"
@@ -3503,7 +3468,7 @@
     "title": "Understand Anything - Code Knowledge Graph",
     "summary": "analyse de code",
     "type": "Veille outil IA / analyse de code.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -3587,8 +3552,7 @@
       "#decentralized-network",
       "#encrypted-routing",
       "#vpn-alternative",
-      "#tokenomics",
-      "#to-verify"
+      "#tokenomics"
     ],
     "topics": [],
     "integratedAt": "2026-05-25"
@@ -3600,7 +3564,7 @@
     "title": "MoneyPrinterTurbo - AI Short Video Generator",
     "summary": "generation automatique de shorts video",
     "type": "Veille outils IA / generation automatique de shorts video.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "media",
     "themeLabel": "Media",
     "folder": "watch",
@@ -3669,7 +3633,7 @@
     "title": "AgentsView - Session Intelligence",
     "summary": "intelligence de sessions agents",
     "type": "Veille outils IA / intelligence de sessions agents.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "osint",
     "themeLabel": "OSINT",
     "folder": "watch",
@@ -3755,7 +3719,7 @@
     "title": "AutoResearchClaw - Autonomous Research Agent",
     "summary": "automatise la recherche et la synthese",
     "type": "Veille outils IA / agent de recherche autonome.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "research",
     "themeLabel": "Research",
     "folder": "watch",
@@ -3793,7 +3757,7 @@
     "title": "Awesome Free LLM APIs",
     "summary": "ressources API LLM gratuites",
     "type": "Veille outils IA / ressources API LLM gratuites.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "llm",
     "themeLabel": "LLM / API",
     "folder": "watch",
@@ -3849,8 +3813,7 @@
       "#codex",
       "#opencode",
       "#gemini",
-      "#multi-engine",
-      "#to-verify"
+      "#multi-engine"
     ],
     "topics": [],
     "integratedAt": "2026-05-22"
@@ -3876,8 +3839,7 @@
       "#code-review",
       "#vulnerability-scanning",
       "#appsec",
-      "#devtools",
-      "#to-verify"
+      "#devtools"
     ],
     "topics": [],
     "integratedAt": "2026-05-22"
@@ -3889,7 +3851,7 @@
     "title": "Free LLM API Resources",
     "summary": "ressources API",
     "type": "Veille outils IA / ressources API.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "llm",
     "themeLabel": "LLM / API",
     "folder": "watch",
@@ -3915,7 +3877,7 @@
     "title": "Inspiration Competitors Tools Watch",
     "summary": "inspirations / concurrents / outils",
     "type": "Veille inspirations / concurrents / outils.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "privacy",
     "themeLabel": "Privacy",
     "folder": "watch",
@@ -3942,7 +3904,7 @@
     "title": "NanoClaw - Personal AI Agent",
     "summary": "automatise des taches avec un agent IA",
     "type": "Veille outils IA / agent personnel multi-canaux.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "privacy",
     "themeLabel": "Privacy",
     "folder": "watch",
@@ -3976,7 +3938,7 @@
     "title": "Open Source SaaS Alternatives - nicos_ai",
     "summary": "open source",
     "type": "Veille outils open source.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "media",
     "themeLabel": "Media",
     "folder": "watch",
@@ -4087,7 +4049,7 @@
     "title": "Twitter RSS Monitoring",
     "summary": "process / source monitoring",
     "type": "Veille process / source monitoring.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "privacy",
     "themeLabel": "Privacy",
     "folder": "watch",
@@ -4121,7 +4083,7 @@
     "title": "Vibe Shit - Vibe Coding Directory",
     "summary": "recense et classe des ressources",
     "type": "Veille outils IA / annuaire projets vibe coding.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "dev",
     "themeLabel": "Dev tools",
     "folder": "watch",
@@ -4148,7 +4110,7 @@
     "title": "X Source Authors Log",
     "summary": "Log sources X pour veille KM",
     "type": "Log sources X pour veille KM.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "source",
     "themeLabel": "Sources",
     "folder": "watch",
@@ -4173,7 +4135,7 @@
     "title": "AI Trending",
     "summary": "IA transversale",
     "type": "Veille IA transversale.",
-    "status": "actif",
+    "status": "sensible",
     "theme": "tool",
     "themeLabel": "Tools",
     "folder": "watch",

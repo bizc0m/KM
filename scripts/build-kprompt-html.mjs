@@ -129,11 +129,13 @@ const html = `<!doctype html>
 :root{--ink:#151515;--muted:#66615a;--line:#d7d0c4;--paper:#f4f1ea;--panel:#fffefa;--soft:#ebe6dc;--red:#d90000;--blue:#245f8f}
 body{margin:0;min-height:100vh;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}
 button,input,select,textarea{font:inherit}button{cursor:pointer}
+.global-menu{display:flex;gap:6px;flex-wrap:wrap;align-items:center;padding:7px 12px;background:#fff;border-bottom:1px solid var(--line)}.global-menu a{border:1px solid var(--line);background:#fff;color:var(--ink);padding:6px 8px;font-size:9px;font-weight:950;text-transform:uppercase;text-decoration:none}.global-menu a:hover,.global-menu a.active{background:var(--ink);border-color:var(--ink);color:#fff}
+.breadcrumb{display:flex;gap:7px;flex-wrap:wrap;align-items:center;padding:6px 12px;background:#fbfaf6;border-bottom:2px solid var(--ink);font-size:10px;font-weight:900;text-transform:uppercase;color:var(--muted)}.breadcrumb a{color:var(--ink);text-decoration:none}.breadcrumb b{color:#b0a99c}
 .top{position:sticky;top:0;z-index:5;background:var(--panel);border-bottom:3px solid var(--ink);display:grid;grid-template-columns:220px 1fr auto;gap:12px;align-items:center;padding:10px 12px}
 .brand{font-size:22px;font-weight:950;text-transform:uppercase;line-height:1}.brand span{color:var(--red)}
 .sub{font-size:10px;font-weight:900;text-transform:uppercase;color:var(--muted)}
 .stats{display:flex;gap:1px;background:var(--ink);border:1px solid var(--ink);width:max-content}.stat{background:#fff;padding:5px 8px;font-size:10px;font-weight:900;text-transform:uppercase}.stat b{font-size:14px}
-.actions{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}.btn{border:1px solid var(--line);background:#fff;color:var(--ink);padding:7px 9px;font-size:10px;font-weight:950;text-transform:uppercase;text-decoration:none}.btn:hover{background:var(--ink);border-color:var(--ink);color:#fff}.btn.dark{background:var(--ink);border-color:var(--ink);color:#fff}.btn.red{background:var(--red);border-color:var(--red);color:#fff}
+.actions{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}.btn{border:1px solid var(--line);background:#fff;color:var(--ink);padding:7px 9px;font-size:10px;font-weight:950;text-transform:uppercase;text-decoration:none;white-space:nowrap}.btn:hover{background:var(--ink);border-color:var(--ink);color:#fff}.btn.dark{background:var(--ink);border-color:var(--ink);color:#fff}.btn.red{background:var(--red);border-color:var(--red);color:#fff}
 .grid{display:grid;grid-template-columns:minmax(320px,.95fr) minmax(340px,1fr) minmax(360px,1.05fr);gap:10px;padding:10px;height:calc(100vh - 61px)}
 .panel{min-height:0;background:var(--panel);border:2px solid var(--ink);box-shadow:4px 4px 0 rgba(217,0,0,.18);display:flex;flex-direction:column}
 .panel header{min-height:38px;border-bottom:2px solid var(--ink);display:flex;align-items:center;justify-content:space-between;gap:8px;padding:0 10px}
@@ -148,16 +150,27 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
 </style>
 </head>
 <body>
+<nav class="global-menu" aria-label="Menu principal">
+  <a href="index.html">Accueil</a>
+  <a href="search-v1.12.html">Recherche</a>
+  <a href="public/folders/watch.html">Watch</a>
+  <a href="public/folders/resources.html">Resources</a>
+  <a class="active" href="kprompt.html">Kprompt</a>
+  <a href="http://127.0.0.1:8767/">App locale</a>
+</nav>
 <header class="top">
   <div><div class="brand"><span>K</span>prompt</div><div class="sub">Prompts · dossiers · fiches KM</div></div>
   <div class="stats" id="stats"></div>
   <div class="actions">
-    <a class="btn" href="search-v1.12.html">KM Search</a>
+    <a class="btn" href="search-v1.12.html">KM</a>
+    <a class="btn dark" href="kprompt.html">Kprompt</a>
+    <a class="btn" href="http://127.0.0.1:8767/">Veille</a>
     <a class="btn" href="kprompt-index.json">JSON</a>
     <button class="btn dark" id="copyBtn">Copier prompt</button>
     <button class="btn red" id="downloadBtn">Export .md</button>
   </div>
 </header>
+<nav class="breadcrumb" id="breadcrumb" aria-label="Fil d'ariane"></nav>
 <main class="grid">
   <section class="panel">
     <header><h2>Recherche</h2><span class="note" id="count"></span></header>
@@ -306,7 +319,13 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
       '<div><b>Dossier</b>'+esc(item.promptFolder || "-")+'</div><div><b>Tags</b>'+esc(item.tags.join(", ") || "-")+'</div><div><b>Topics</b>'+esc(item.topics.join(", ") || "-")+'</div>' +
       (item.prompt ? '<div><b>Prompt</b><pre>'+esc(item.prompt)+'</pre></div>' : '') + '</section>';
   }
-  function renderAll(){ renderStats(); renderFeed(); renderDetail(); el("prompt").textContent = buildPrompt(); }
+  function renderBreadcrumb(){
+    var item = activeItem();
+    var parts = ['<a href="index.html">KM</a>','<a href="kprompt.html">Kprompt</a>'];
+    if(item){ parts.push('<span>'+esc(item.kind)+'</span>'); parts.push('<span>'+esc(item.title)+'</span>'); }
+    el("breadcrumb").innerHTML = parts.join("<b>/</b>");
+  }
+  function renderAll(){ renderStats(); renderFeed(); renderDetail(); renderBreadcrumb(); el("prompt").textContent = buildPrompt(); }
   document.addEventListener("click", function(event){
     var open = event.target.getAttribute("data-open");
     var select = event.target.getAttribute("data-select");

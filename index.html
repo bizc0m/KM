@@ -3,20 +3,230 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="0; url=search-v1.12.html">
-  <title>MnemosynIA KM</title>
+  <title>KM Pages</title>
   <style>
-    body{margin:0;min-height:100vh;display:grid;place-items:center;background:#fbfaf6;color:#171717;font-family:Arial,Helvetica,sans-serif}
-    main{border:2px solid #171717;background:#fff;padding:24px;box-shadow:6px 6px 0 rgba(229,0,0,.22);max-width:520px}
-    h1{margin:0 0 8px;font-size:24px;text-transform:uppercase}
-    a{color:#e50000;font-weight:900}
+    :root {
+      --bg: #f7f3ea;
+      --ink: #151515;
+      --muted: #68635c;
+      --line: #222;
+      --paper: #fffef9;
+      --accent: #d71920;
+      --soft: #ece4d7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.45;
+    }
+    main {
+      width: min(1120px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+    header {
+      display: grid;
+      gap: 12px;
+      border-bottom: 3px solid var(--line);
+      padding-bottom: 18px;
+      margin-bottom: 24px;
+    }
+    .global-menu {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      align-items: center;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 10px;
+      margin-bottom: 14px;
+    }
+    .global-menu a {
+      border: 1px solid var(--line);
+      background: var(--paper);
+      color: var(--ink);
+      padding: 6px 8px;
+      font-size: 9px;
+      font-weight: 950;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+    .global-menu a:hover,
+    .global-menu a.active {
+      background: var(--ink);
+      border-color: var(--ink);
+      color: #fff;
+    }
+    .breadcrumb {
+      display: flex;
+      gap: 7px;
+      flex-wrap: wrap;
+      align-items: center;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+    .breadcrumb a {
+      color: var(--ink);
+      text-decoration: none;
+    }
+    .breadcrumb b {
+      color: #b0a99c;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(34px, 6vw, 72px);
+      line-height: .92;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+    .lead {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+    .quick {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin: 20px 0 30px;
+    }
+    .quick a,
+    .link {
+      display: flex;
+      min-height: 48px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border: 2px solid var(--line);
+      background: var(--paper);
+      color: var(--ink);
+      padding: 12px 14px;
+      text-decoration: none;
+      font-weight: 800;
+    }
+    .quick a:first-child {
+      background: var(--accent);
+      color: white;
+    }
+    .quick span,
+    .link span {
+      color: inherit;
+      opacity: .72;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    section {
+      border-top: 2px solid var(--line);
+      padding: 18px 0 26px;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .link {
+      min-height: 58px;
+      background: var(--paper);
+    }
+    .archive .link {
+      background: var(--soft);
+      color: #35302a;
+    }
+    .note {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    @media (max-width: 760px) {
+      main { width: min(100vw - 20px, 1120px); padding-top: 18px; }
+      .quick,
+      .grid { grid-template-columns: 1fr; }
+      .quick a,
+      .link { min-height: 52px; }
+    }
   </style>
 </head>
 <body>
   <main>
-    <h1>MnemosynIA KM</h1>
-    <p>Ouverture de KM Search...</p>
-    <p><a href="search-v1.12.html">Ouvrir le dashboard</a></p>
+    <header>
+      <nav class="global-menu" aria-label="Menu principal">
+        <a class="active" href="index.html">Accueil</a>
+        <a href="search-v1.12.html">Recherche</a>
+        <a href="public/folders/watch.html">Watch</a>
+        <a href="public/folders/resources.html">Resources</a>
+        <a href="kprompt.html">Kprompt</a>
+        <a href="http://127.0.0.1:8767/">App locale</a>
+      </nav>
+      <nav class="breadcrumb" aria-label="Fil d'ariane"><span>KM</span><b>/</b><span>Accueil</span></nav>
+      <h1>KM Pages</h1>
+      <p class="lead">Point d'entree unique vers la recherche, la veille Watch/RSS/Raindrop, Kprompt, les exports publics et les anciennes versions gardees en archive.</p>
+    </header>
+
+    <nav class="quick" aria-label="Pages principales">
+      <a href="search-v1.12.html">Recherche KM <span>actuel</span></a>
+      <a href="public/folders/watch.html">Watch <span>rss</span></a>
+      <a href="kprompt.html">Kprompt <span>prompts</span></a>
+      <a href="public/folders/resources.html">Resources <span>long</span></a>
+    </nav>
+
+    <section>
+      <h2>Pages actives</h2>
+      <div class="grid">
+        <a class="link" href="search-v1.12.html">Search v1.12 <span>dashboard courant</span></a>
+        <a class="link" href="search-v1.11.html">Search v1.11 <span>stable precedent</span></a>
+        <a class="link" href="search.html">Search legacy <span>ancien alias</span></a>
+        <a class="link" href="kprompt.html">Kprompt <span>assistant prompt</span></a>
+        <a class="link" href="secure/index.html">Secure index <span>local</span></a>
+        <a class="link" href="resources/design/urgence-lol-standalone-charte.html">Charte Urgence LOL <span>design</span></a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Exports publics</h2>
+      <div class="grid">
+        <a class="link" href="public/folders/watch.html">Folder Watch <span>veille</span></a>
+        <a class="link" href="public/folders/resources.html">Folder Resources <span>ressources</span></a>
+        <a class="link" href="public/themes/security.html">Theme Security <span>theme</span></a>
+        <a class="link" href="public/themes/osint.html">Theme OSINT <span>theme</span></a>
+        <a class="link" href="public/themes/llm.html">Theme LLM <span>theme</span></a>
+        <a class="link" href="public/themes/source.html">Theme Source <span>theme</span></a>
+        <a class="link" href="public/themes/tool.html">Theme Tool <span>theme</span></a>
+        <a class="link" href="public/themes/research.html">Theme Research <span>theme</span></a>
+        <a class="link" href="public/themes/privacy.html">Theme Privacy <span>theme</span></a>
+        <a class="link" href="public/themes/dev.html">Theme Dev <span>theme</span></a>
+        <a class="link" href="public/themes/agent.html">Theme Agent <span>theme</span></a>
+        <a class="link" href="public/themes/media.html">Theme Media <span>theme</span></a>
+        <a class="link" href="public/themes/finance.html">Theme Finance <span>theme</span></a>
+        <a class="link" href="public/themes/governance.html">Theme Governance <span>theme</span></a>
+      </div>
+    </section>
+
+    <section class="archive">
+      <h2>Archives</h2>
+      <div class="grid">
+        <a class="link" href="search-v1.10.html">Search v1.10 <span>archive</span></a>
+        <a class="link" href="search-v1.9.html">Search v1.9 <span>archive</span></a>
+        <a class="link" href="search-v1.8.html">Search v1.8 <span>archive</span></a>
+        <a class="link" href="search-v1.7.html">Search v1.7 <span>archive</span></a>
+        <a class="link" href="search-v1.6.html">Search v1.6 <span>archive</span></a>
+        <a class="link" href="search-v1.5.html">Search v1.5 <span>archive</span></a>
+        <a class="link" href="search-v1.4.html">Search v1.4 <span>archive</span></a>
+        <a class="link" href="search-v1.3.html">Search v1.3 <span>archive</span></a>
+        <a class="link" href="tmp/page-test.html">Page test <span>tmp</span></a>
+      </div>
+      <p class="note">Les versions archive restent accessibles mais ne doivent plus etre l'entree principale.</p>
+    </section>
   </main>
 </body>
 </html>

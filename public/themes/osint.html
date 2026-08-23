@@ -7,6 +7,8 @@
 <style>
 body{margin:0;font-family:Inter,Arial,sans-serif;background:#f3f0e8;color:#151515}
 header{position:sticky;top:0;background:#fffefb;border-bottom:3px solid #151515;padding:18px 22px;z-index:2}
+.global-menu{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:0 0 10px}.global-menu a{border:1px solid #d8d3c8;background:#fff;color:#151515;padding:7px 9px;font-size:10px;font-weight:950;text-transform:uppercase;text-decoration:none}.global-menu a:hover,.global-menu a.active{background:#151515;border-color:#151515;color:#fff}
+.breadcrumb{display:flex;gap:7px;flex-wrap:wrap;align-items:center;margin:0 0 10px;font-size:11px;font-weight:900;text-transform:uppercase;color:#64615b}.breadcrumb a{color:#151515;text-decoration:none}.breadcrumb b{color:#b0a99c}
 h1{font-size:28px;line-height:1;margin:0 0 5px;text-transform:uppercase}p{margin:0;color:#64615b}
 main{max-width:1120px;margin:0 auto;padding:18px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:10px}
@@ -20,7 +22,7 @@ a{color:#0b5cad;font-weight:800}
 </style>
 </head>
 <body>
-<header><h1>Theme OSINT</h1><p>Vue KM partageable par theme · 21 fiches · donnees 2026-08-21</p></header>
+<header><nav class="global-menu" aria-label="Menu principal"><a class="" href="../../index.html">Accueil</a><a class="active" href="../../search-v1.12.html">Recherche</a><a class="" href="../../public/folders/watch.html">Watch</a><a class="" href="../../public/folders/resources.html">Resources</a><a class="" href="../../kprompt.html">Kprompt</a><a class="" href="http://127.0.0.1:8767/">App locale</a></nav><nav class="breadcrumb" aria-label="Fil d'ariane"><a href="../../index.html">KM</a><b>/</b><a href="../../index.html">Exports publics</a><b>/</b><span>Theme OSINT</span></nav><h1>Theme OSINT</h1><p>Vue KM partageable par theme · 21 fiches · donnees 2026-08-21</p></header>
 <main><section class="grid">
 <article>
 <h2>Project Eyes On - Open IP Camera OSINT</h2>

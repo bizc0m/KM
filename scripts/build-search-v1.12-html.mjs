@@ -168,6 +168,24 @@ function cleanUrl(url) {
     .replace(/[)\].,;:]+$/, "");
 }
 
+function canonicalSourceUrl(url) {
+  try {
+    const parsed = new URL(cleanUrl(url));
+    parsed.hash = "";
+    for (const key of [...parsed.searchParams.keys()]) {
+      if (/^(utm_|fbclid|gclid|yclid|mc_|mcp_token|token|auth|signature|expires)$/i.test(key)) {
+        parsed.searchParams.delete(key);
+      }
+    }
+    parsed.hostname = parsed.hostname.toLowerCase().replace(/^www\./, "");
+    if (parsed.hostname === "twitter.com") parsed.hostname = "x.com";
+    parsed.pathname = parsed.pathname.replace(/\/+$/, "");
+    return parsed.toString().replace(/\/$/, "").toLowerCase();
+  } catch {
+    return cleanUrl(url).replace(/\/$/, "").toLowerCase();
+  }
+}
+
 function publicSourceUrl(content) {
   const urls = [...content.matchAll(/https?:\/\/[^\s`<>"']+/g)].map((m) => cleanUrl(m[0]));
   return urls.find((url) => !/github\.com\/bizc0m\//i.test(url) && !/localhost|127\.0\.0\.1/i.test(url)) || "";
@@ -178,7 +196,10 @@ function publicSources(content) {
   return [...String(content || "").matchAll(/https?:\/\/[^\s`<>"']+/g)]
     .map((m) => cleanUrl(m[0]))
     .filter((url) => !/github\.com\/bizc0m\//i.test(url) && !/localhost|127\.0\.0\.1/i.test(url))
-    .filter((url) => !seen.has(url) && seen.add(url))
+    .filter((url) => {
+      const canonical = canonicalSourceUrl(url);
+      return !seen.has(canonical) && seen.add(canonical);
+    })
     .slice(0, 8)
     .map((url) => ({
       url,
@@ -255,16 +276,22 @@ function folderMeta(path) {
   return folderByPath.get(folderPath) || { id: bucketOf(path), label: bucketOf(path), publishable: true, shareable: true };
 }
 
-function statusOf(content) {
+function statusOf(content, folder) {
   const explicit = [section(content, "Type"), section(content, "Tags"), section(content, "Classification")].join("\n");
   if (/#ROUGE/i.test(explicit)) return "#ROUGE";
-  if (/a verifier|à vérifier|to-verify/i.test(content)) return "a verifier";
+  if (/#?a[-_ ]?verifier|à vérifier|#?to-verify/i.test(explicit)) return "a verifier";
   if (/sensible|sensitive/i.test(explicit)) return "sensible";
+  if (/#?actif|active/i.test(explicit)) return "actif";
+  if (/a verifier|à vérifier|to-verify/i.test(content)) return "a verifier";
+  if (/risques?\s*:|secrets?|tokens?|donnees? privees?|privacy|autonomous|automation|agent|mcp|scraping|osint|cache|memory|codebase|credentials?|workflow/i.test(content)) {
+    return "sensible";
+  }
+  if (folder?.defaultClassification) return folder.defaultClassification;
   return "actif";
 }
 
 function displayTags(tags) {
-  return tags.filter((tag) => !/^#?(watch|sensible|sensitive|export)$/i.test(tag));
+  return tags.filter((tag) => !/^#?(watch|sensible|sensitive|a-verifier|to-verify|actif|active|export)$/i.test(tag));
 }
 
 function githubTopicsFrom(content) {
@@ -303,14 +330,14 @@ function itemFrom(file) {
   if (privatePublicExcludedPaths.has(path)) return null;
   if (internalPattern.test(path)) return null;
   const title = first(content, /^#\s+(.+)$/m) || path;
-  const status = statusOf(content);
+  const status = statusOf(content, folder);
   const tags = section(content, "Tags")
     .split(/,|\n/)
     .map(clean)
     .filter(Boolean)
     .map((tag) => /^#?privacy-sensitive$/i.test(tag) ? "#privacy" : tag)
     .filter((tag) => !(status === "#ROUGE" && /^#?rouge$/i.test(tag)))
-    .filter((tag) => !/^#?(sensible|sensitive|export)$/i.test(tag))
+    .filter((tag) => !/^#?(sensible|sensitive|a-verifier|to-verify|actif|active|export)$/i.test(tag))
     .filter((tag) => !/sensitive/i.test(tag))
     .slice(0, 12);
   const raw = publicDetail(content);
@@ -381,7 +408,25 @@ function slugSafe(value) {
     .replace(/^-|-$/g, "") || "all";
 }
 
+function globalMenu(current = "", prefix = "") {
+  const items = [
+    ["index", "Accueil", `${prefix}index.html`],
+    ["search", "Recherche", `${prefix}search-v1.12.html`],
+    ["watch", "Watch", `${prefix}public/folders/watch.html`],
+    ["resources", "Resources", `${prefix}public/folders/resources.html`],
+    ["kprompt", "Kprompt", `${prefix}kprompt.html`],
+    ["app", "App locale", "http://127.0.0.1:8767/"]
+  ];
+  return `<nav class="global-menu" aria-label="Menu principal">${items.map(([id, label, href]) => `<a class="${id === current ? "active" : ""}" href="${htmlEscape(href)}">${htmlEscape(label)}</a>`).join("")}</nav>`;
+}
+
+function breadcrumb(items) {
+  return `<nav class="breadcrumb" aria-label="Fil d'ariane">${items.map((item, index) => index === items.length - 1 ? `<span>${htmlEscape(item.label)}</span>` : `<a href="${htmlEscape(item.href)}">${htmlEscape(item.label)}</a>`).join("<b>/</b>")}</nav>`;
+}
+
 function sharePage(title, subtitle, rows) {
+  const lower = title.toLowerCase();
+  const current = lower.includes("watch") ? "watch" : lower.includes("resources") ? "resources" : "search";
   return `<!doctype html>
 <html lang="fr">
 <head>
@@ -391,6 +436,8 @@ function sharePage(title, subtitle, rows) {
 <style>
 body{margin:0;font-family:Inter,Arial,sans-serif;background:#f3f0e8;color:#151515}
 header{position:sticky;top:0;background:#fffefb;border-bottom:3px solid #151515;padding:18px 22px;z-index:2}
+.global-menu{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:0 0 10px}.global-menu a{border:1px solid #d8d3c8;background:#fff;color:#151515;padding:7px 9px;font-size:10px;font-weight:950;text-transform:uppercase;text-decoration:none}.global-menu a:hover,.global-menu a.active{background:#151515;border-color:#151515;color:#fff}
+.breadcrumb{display:flex;gap:7px;flex-wrap:wrap;align-items:center;margin:0 0 10px;font-size:11px;font-weight:900;text-transform:uppercase;color:#64615b}.breadcrumb a{color:#151515;text-decoration:none}.breadcrumb b{color:#b0a99c}
 h1{font-size:28px;line-height:1;margin:0 0 5px;text-transform:uppercase}p{margin:0;color:#64615b}
 main{max-width:1120px;margin:0 auto;padding:18px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:10px}
@@ -404,7 +451,7 @@ a{color:#0b5cad;font-weight:800}
 </style>
 </head>
 <body>
-<header><h1>${htmlEscape(title)}</h1><p>${htmlEscape(subtitle)} · ${rows.length} fiches · ${generatedAt}</p></header>
+<header>${globalMenu(current, "../../")}${breadcrumb([{ label: "KM", href: "../../index.html" }, { label: "Exports publics", href: "../../index.html" }, { label: title }])}<h1>${htmlEscape(title)}</h1><p>${htmlEscape(subtitle)} · ${rows.length} fiches · ${generatedAt}</p></header>
 <main><section class="grid">
 ${rows.map((item) => `<article>
 <h2>${htmlEscape(item.title)}</h2>
@@ -424,7 +471,6 @@ function writeSharePages(rows) {
   mkdirSync(join(shareOutputDir, "folders"), { recursive: true });
   for (const theme of themeConfigs) {
     const subset = published.filter((item) => item.theme === theme.id);
-    if (!subset.length) continue;
     const file = join(shareOutputDir, "themes", `${slugSafe(theme.id)}.html`);
     writeFileSync(file, sharePage(`Theme ${theme.label || theme.id}`, "Vue KM partageable par theme", subset), "utf8");
     written.push(relative(root, file));
@@ -449,7 +495,7 @@ const html = `<!doctype html>
 *,*::before,*::after{box-sizing:border-box}
 :root{--ink:#151515;--muted:#64615b;--line:#d8d3c8;--paper:#f3f0e8;--panel:#fffefb;--soft:#ebe6dc;--red:#e50000;--red-soft:#fff0ef;--blue:#245f8f;--gold:#8b6914;--shadow:4px 4px 0 rgba(229,0,0,.22);--shadow-strong:7px 7px 0 rgba(21,21,21,.12)}
 html,body{height:100%}body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;background:var(--paper);color:var(--ink);overflow:hidden}button,input,select{font:inherit}button{cursor:pointer}
-.app{height:100vh;display:grid;grid-template-rows:auto auto 1fr auto}.topbar{min-height:38px;background:var(--panel);border-bottom:3px solid var(--ink);display:grid;grid-template-columns:minmax(210px,max-content) minmax(0,1fr) max-content;align-items:center;gap:8px;padding:5px 10px}.brandblock{min-width:0;align-self:center;display:grid;grid-template-columns:max-content max-content;align-items:end;gap:8px}.brand{font-size:18px;font-weight:950;text-transform:uppercase;line-height:.92;display:flex;align-items:flex-end;gap:6px;white-space:nowrap}.brand span{color:var(--red)}.version-badge{border:1px solid var(--ink);background:var(--red);color:#fff;font-size:9px;font-weight:950;line-height:1;padding:3px 5px;text-transform:uppercase}.subtitle{font-size:8px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:850;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.tool-actions{display:flex;align-items:center;gap:4px;justify-content:flex-end;justify-self:end;flex-wrap:wrap}
+.app{height:100vh;display:grid;grid-template-rows:auto auto auto 1fr auto}.global-menu{display:flex;gap:6px;flex-wrap:wrap;align-items:center;padding:7px 10px;background:#fff;border-bottom:1px solid var(--line)}.global-menu a{border:1px solid var(--line);background:#fff;color:var(--ink);padding:6px 8px;font-size:9px;font-weight:950;text-transform:uppercase;text-decoration:none}.global-menu a:hover,.global-menu a.active{background:var(--ink);border-color:var(--ink);color:#fff}.breadcrumb{display:flex;gap:7px;flex-wrap:wrap;align-items:center;padding:6px 10px;background:#fbfaf6;border-bottom:2px solid var(--ink);font-size:10px;font-weight:900;text-transform:uppercase;color:var(--muted)}.breadcrumb a{color:var(--ink);text-decoration:none}.breadcrumb b{color:#b0a99c}.crumb-action{border:0;background:transparent;color:var(--ink);font-size:10px;font-weight:950;text-transform:uppercase;padding:0;text-decoration:underline;text-underline-offset:2px}.topbar{min-height:38px;background:var(--panel);border-bottom:3px solid var(--ink);display:grid;grid-template-columns:minmax(210px,max-content) minmax(0,1fr) max-content;align-items:center;gap:8px;padding:5px 10px}.brandblock{min-width:0;align-self:center;display:grid;grid-template-columns:max-content max-content;align-items:end;gap:8px}.brand{font-size:18px;font-weight:950;text-transform:uppercase;line-height:.92;display:flex;align-items:flex-end;gap:6px;white-space:nowrap}.brand span{color:var(--red)}.version-badge{border:1px solid var(--ink);background:var(--red);color:#fff;font-size:9px;font-weight:950;line-height:1;padding:3px 5px;text-transform:uppercase}.subtitle{font-size:8px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:850;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.tool-actions{display:flex;align-items:center;gap:4px;justify-content:flex-end;justify-self:end;flex-wrap:wrap}
 .btn{border:1px solid var(--line);background:#fff;color:var(--ink);padding:5px 8px;font-size:9px;font-weight:900;text-transform:uppercase;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:5px;min-height:26px;white-space:nowrap}.btn:hover{background:var(--ink);border-color:var(--ink);color:#fff}.btn.dark{background:var(--ink);color:#fff;border-color:var(--ink)}.btn.red{background:var(--red);color:#fff;border-color:var(--red)}.icon-btn{width:30px;min-width:30px;height:28px;padding:0}.icon-btn svg{width:15px;height:15px;stroke:currentColor;stroke-width:2.4;fill:none;stroke-linecap:round;stroke-linejoin:round;display:block}
 .statsbar{display:flex;align-items:center;gap:1px;background:var(--ink);border:1px solid var(--ink);min-width:0;overflow:hidden}.stat{background:#fbfaf6;padding:3px 6px;display:flex;align-items:baseline;justify-content:center;gap:4px;min-width:0}.stat.danger{background:var(--red);color:#fff}.stat.danger span{color:#fff}.stat b{font-size:12px;line-height:1;font-weight:950}.stat span{font-size:7px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted);font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .topic-rail{display:flex;gap:4px;flex-wrap:wrap;align-items:flex-start;padding:5px 10px;border-bottom:2px solid var(--ink);background:#fbfaf6}.topic{white-space:nowrap;border:1px solid var(--line);background:#fff;padding:4px 7px;font-size:9px;font-weight:900;text-transform:uppercase}.topic.active{background:var(--ink);border-color:var(--ink);color:#fff}
@@ -462,12 +508,14 @@ html,body{height:100%}body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif
 .index-grid{display:grid;grid-template-columns:118px repeat(4,1fr);border:1px solid var(--line);background:#fff;margin-bottom:12px}.index-grid div{min-height:31px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:center;padding:4px;font-size:10px;font-weight:950;text-align:center}.index-grid .label{justify-content:flex-start;text-align:left;color:var(--muted);background:#fbfbf8}.index-grid .cell.hot{background:var(--red);color:#fff}.index-grid .cell.warm{background:#fff2ce}.index-grid .cell.cool{background:#eef4fb;color:var(--blue)}
 .note,.cluster{border:1px solid var(--line);background:#fff;padding:10px;margin-bottom:8px}.note strong{display:block;font-size:11px;text-transform:uppercase;margin-bottom:5px}.note p{font-size:12px;line-height:1.42;color:#333;margin:0}.cluster{display:flex;justify-content:space-between;gap:8px;font-size:12px}.cluster b{text-transform:uppercase}.cluster span{color:var(--muted);overflow-wrap:anywhere}.brief-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin-bottom:10px}.brief{border:1px solid var(--line);background:#fbfbf8;padding:7px;min-width:0}.brief b{display:block;font-size:8px;text-transform:uppercase;color:var(--muted);margin-bottom:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.brief span{display:block;font-size:12px;font-weight:950;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.detail-body{border:1px solid var(--line);background:#fff;padding:14px;margin-bottom:12px;font-size:13px;line-height:1.5;color:#222}.detail-body h1,.detail-body h2,.detail-body h3{font-weight:950;line-height:1.12;margin:12px 0 8px}.detail-body h1{font-size:22px}.detail-body h2{font-size:17px;border-bottom:1px solid var(--line);padding-bottom:5px}.detail-body h3{font-size:14px}.detail-body p{margin:0 0 9px}.detail-body ul{margin:0 0 10px 18px;padding:0}.detail-body li{margin:4px 0}.detail-body code{background:#f3f0e8;border:1px solid var(--line);padding:1px 4px}.detail-body a{color:#0b5cad;font-weight:800;text-decoration:underline;text-underline-offset:2px}.detail-body a.github-topic{display:inline-block;border:1px solid #b8cce0;background:#eef4fb;color:#245f8f;padding:1px 5px;margin:1px 2px 1px 0;text-decoration:none;font-size:11px;font-weight:900}.detail-body table{width:100%;border-collapse:collapse;margin:8px 0 12px;font-size:11px}.detail-body th,.detail-body td{border:1px solid var(--line);padding:5px;text-align:left;vertical-align:top}.date-chip{display:inline-flex;border:1px solid var(--line);background:#fbfbf8;color:var(--muted);font-size:10px;font-weight:900;text-transform:uppercase;padding:4px 6px;margin-bottom:7px}
 .toast{position:fixed;right:18px;top:78px;background:#fff;border:1px solid var(--line);border-left:4px solid var(--blue);padding:10px 13px;font-size:11px;box-shadow:0 4px 18px rgba(0,0,0,.12);z-index:20;display:none}.toast.on{display:block}.footer{border-top:2px solid var(--line);background:#fff;color:var(--muted);font-size:10px;display:flex;justify-content:space-between;gap:12px;padding:8px 14px}.footer b{color:var(--ink)}mark{background:rgba(229,0,0,.12);color:inherit;padding:0 2px}
-@media(max-width:1240px){.topbar{grid-template-columns:1fr max-content}.statsbar{grid-column:1/2;grid-row:2}.subtitle{display:none}.workspace{grid-template-columns:minmax(300px,.9fr) minmax(360px,1.1fr);gap:10px;padding:10px}.feed-tools{grid-template-columns:minmax(160px,1fr) 72px 88px 106px}.feed-tools input:last-child{grid-column:1/-1}}@media(max-width:760px){body{overflow:auto}.app{height:auto;min-height:100vh}.topbar,.footer{height:auto;align-items:stretch;padding:8px 10px}.brandblock{min-width:0}.statsbar{grid-column:auto;grid-row:auto;display:grid;grid-template-columns:1fr 1fr}.workspace{grid-template-columns:1fr;padding:8px}.workspace:not(.fiche-collapsed) aside.col{display:none}.col{min-height:520px}.feed-tools{grid-template-columns:1fr}.feed-tools input:last-child{grid-column:auto}.brief-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.index-grid{grid-template-columns:100px repeat(4,72px);overflow:auto}.titleline{flex-direction:column}.statusbox{width:100%}}
+@media(max-width:1240px){.topbar{grid-template-columns:1fr max-content}.statsbar{grid-column:1/2;grid-row:2}.subtitle{display:none}.workspace{grid-template-columns:minmax(300px,.9fr) minmax(360px,1.1fr);gap:10px;padding:10px}.feed-tools{grid-template-columns:minmax(160px,1fr) 72px 88px 106px}.feed-tools input:last-child{grid-column:1/-1}}@media(max-width:760px){body{overflow:auto}.app{height:auto;min-height:100vh}.topbar,.footer{height:auto;align-items:stretch;padding:8px 10px}.global-menu{padding:8px 10px}.global-menu a{flex:1 1 auto}.brandblock{min-width:0}.statsbar{grid-column:auto;grid-row:auto;display:grid;grid-template-columns:1fr 1fr}.workspace{grid-template-columns:1fr;padding:8px}.workspace:not(.fiche-collapsed) aside.col{display:none}.col{min-height:520px}.feed-tools{grid-template-columns:1fr}.feed-tools input:last-child{grid-column:auto}.brief-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.index-grid{grid-template-columns:100px repeat(4,72px);overflow:auto}.titleline{flex-direction:column}.statusbox{width:100%}}
 </style>
 </head>
 <body>
 <main class="app">
-  <div class="topbar"><div class="brandblock"><div class="brand"><span>KM</span> Search <b class="version-badge">v1.12</b></div><div class="subtitle">Recherche · index · fiches Markdown · vues partageables</div></div><div class="statsbar" id="statsbar"></div><div class="tool-actions"><button class="btn dark icon-btn" id="navHome" aria-label="Home" title="Home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8"></path><path d="M5 10v10h14V10"></path><path d="M9 20v-6h6v6"></path></svg></button><button class="btn icon-btn" id="navBack" aria-label="Retour" title="Retour"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg></button><button class="btn icon-btn" id="navForward" aria-label="Avancer" title="Avancer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg></button><a class="btn dark" href="http://127.0.0.1:8767/">Cockpit</a><a class="btn" href="kprompt.html">Kprompt</a><button class="btn dark" id="toggleFicheTop">Afficher fiche</button><button class="btn" id="copyShare">Copier lien</button><button class="btn" id="copySelection">Copier selection</button><button class="btn" id="exportSelection">Export .md</button><button class="btn dark" id="exportJson">JSON</button></div></div>
+  ${globalMenu("search")}
+  <div class="topbar"><div class="brandblock"><div class="brand"><span>KM</span> Search <b class="version-badge">v1.12</b></div><div class="subtitle">Recherche · Watch · RSS/Raindrop · fiches Markdown</div></div><div class="statsbar" id="statsbar"></div><div class="tool-actions"><button class="btn dark icon-btn" id="navHome" aria-label="Home" title="Home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8"></path><path d="M5 10v10h14V10"></path><path d="M9 20v-6h6v6"></path></svg></button><button class="btn icon-btn" id="navBack" aria-label="Retour" title="Retour"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg></button><button class="btn icon-btn" id="navForward" aria-label="Avancer" title="Avancer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg></button><a class="btn dark" href="search-v1.12.html">Recherche</a><button class="btn" id="watchShortcut">Watch</button><a class="btn" href="${config.sources?.raindropPublicPage || "#"}" target="_blank" rel="noopener noreferrer">Raindrop</a><a class="btn" href="${config.sources?.raindropFeedFallback || "#"}" target="_blank" rel="noopener noreferrer">RSS</a><a class="btn" href="kprompt.html">Kprompt</a><a class="btn" href="http://127.0.0.1:8767/">Veille locale</a><button class="btn dark" id="toggleFicheTop">Afficher fiche</button><button class="btn" id="copyShare">Copier lien</button><button class="btn" id="copySelection">Copier selection</button><button class="btn" id="exportSelection">Export .md</button><button class="btn dark" id="exportJson">JSON</button></div></div>
+  <div class="breadcrumb" id="breadcrumb"></div>
   <div class="topic-rail" id="topics"></div>
   <section class="workspace fiche-collapsed" id="workspace">
     <aside class="col"><div class="scroll"><div class="feed-tools"><input id="search" type="search" autocomplete="off" placeholder="Rechercher dans toutes les fiches"><input id="tagFilter" placeholder="Filtre tag/topic"><button class="btn red" id="clearSearch">Effacer</button><select id="sort"><option value="date">Date recente</option><option value="status">Risque</option><option value="title">Titre</option><option value="type">Type</option></select><select id="statusFilter"><option value="all">Tous</option><option value="#ROUGE">#ROUGE</option><option value="sensible">Sensible</option><option value="a verifier">A verifier</option><option value="actif">Actif</option></select><select id="folderFilter"></select><select id="themeFilter"></select><select id="conceptFilter"></select></div><div class="article-status" id="articleStatus"></div><div id="feed"></div></div></aside>
@@ -508,10 +556,11 @@ function highlight(text){let safe=esc(text);for(const term of queryTerms()){if(t
 function themeOfTag(tag,fallback){const text=norm(tag);if(/rouge|pentest|red|offensive|security/.test(text))return"security";if(/osint|threat|image|vehicle/.test(text))return"osint";if(/source|rss|x|twitter|monitor/.test(text))return"source";if(/github|code|dev|editor|coding/.test(text))return"dev";if(/llm|api|openai|provider/.test(text))return"llm";if(/agent|automation|ia|ai/.test(text))return"agent";if(/research|paper|citation/.test(text))return"research";if(/privacy|local|session|analytics/.test(text))return"privacy";if(/finance|trading/.test(text))return"finance";if(/directory|watch|inspiration|competitor|vibe/.test(text))return"watchlist";if(/media|video|voice|design/.test(text))return"media";return fallback||"tool"}
 function inlineMd(text){const tick=String.fromCharCode(96);const links=[];let safe=esc(text).replace(new RegExp("\\\\[([^\\\\]]+)\\\\]\\\\((https?:\\\\/\\\\/[^)]+)\\\\)","g"),(_,label,url)=>{const id="@@LINK"+links.length+"@@";links.push('<a href="'+url+'" target="_blank" rel="noopener noreferrer">'+label+'</a>');return id});safe=safe.replace(new RegExp("(https?:\\\\/\\\\/[^\\\\s<]+)","g"),'<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>').replace(new RegExp(tick+"([^"+tick+"]+)"+tick,"g"),"<code>$1</code>");links.forEach((link,i)=>{safe=safe.replace("@@LINK"+i+"@@",link)});return safe}
 function markdown(md){const lines=String(md||"").split("\\n");let out="", inList=false, inTable=false, tableHeaders=[];const close=()=>{if(inList){out+="</ul>";inList=false}if(inTable){out+="</tbody></table>";inTable=false;tableHeaders=[]}};for(const line of lines){if(/^\\|(.+)\\|$/.test(line)&&!/^\\|\\s*-/.test(line)){const cells=line.slice(1,-1).split("|").map(c=>c.trim());let isHeader=false;if(!inTable){close();tableHeaders=cells.map(c=>norm(c));out+="<table><tbody>";inTable=true;isHeader=true}out+="<tr>"+cells.map((c,i)=>"<td>"+(isHeader?inlineMd(c):inlineMdWithContext(c,/topics releves/.test(tableHeaders[i]||"")?"github-topic-list":""))+"</td>").join("")+"</tr>";continue}if(/^\\|\\s*-/.test(line))continue;if(inTable&&!/^\\|/.test(line))close();if(/^###\\s+/.test(line)){close();out+="<h3>"+inlineMd(line.replace(/^###\\s+/,""))+"</h3>";continue}if(/^##\\s+/.test(line)){close();out+="<h2>"+inlineMd(line.replace(/^##\\s+/,""))+"</h2>";continue}if(/^#\\s+/.test(line)){close();out+="<h1>"+inlineMd(line.replace(/^#\\s+/,""))+"</h1>";continue}if(/^[-*]\\s+/.test(line)){if(!inList){close();out+="<ul>";inList=true}out+="<li>"+inlineMdWithContext(line.replace(/^[-*]\\s+/,""),"")+"</li>";continue}if(!line.trim()){close();continue}close();out+="<p>"+inlineMdWithContext(line,"")+"</p>"}close();return out}
-function renderStats(){const red=KM_INDEX.filter(i=>i.status==="#ROUGE").length, sen=KM_INDEX.filter(i=>i.status==="sensible").length, ver=KM_INDEX.filter(i=>i.status==="a verifier").length, resources=KM_INDEX.filter(i=>i.folder==="resources").length;byId("statsbar").innerHTML='<div class="stat"><span>Fiches</span><b>'+KM_INDEX.length+'</b></div><div class="stat danger"><span>#ROUGE</span><b>'+red+'</b></div><div class="stat"><span>Sensible</span><b>'+sen+'</b></div><div class="stat"><span>A verifier</span><b>'+ver+'</b></div><div class="stat"><span>Resources</span><b>'+resources+'</b></div>'}
+function renderStats(){const red=KM_INDEX.filter(i=>i.status==="#ROUGE").length, sen=KM_INDEX.filter(i=>i.status==="sensible").length, ver=KM_INDEX.filter(i=>i.status==="a verifier").length, watch=KM_INDEX.filter(i=>i.folder==="watch").length, resources=KM_INDEX.filter(i=>i.folder==="resources").length;byId("statsbar").innerHTML='<div class="stat"><span>Fiches</span><b>'+KM_INDEX.length+'</b></div><div class="stat"><span>Watch</span><b>'+watch+'</b></div><div class="stat danger"><span>#ROUGE</span><b>'+red+'</b></div><div class="stat"><span>Sensible</span><b>'+sen+'</b></div><div class="stat"><span>A verifier</span><b>'+ver+'</b></div><div class="stat"><span>Resources</span><b>'+resources+'</b></div>'}
 function conceptDepth(c){let n=0,p=c.parent;while(p){n++;p=(KM_CONFIG.concepts.find(x=>x.id===p)||{}).parent}return n}
 function renderFilters(){const folder=byId("folderFilter").value||"all", theme=byId("themeFilter").value||"all", concept=byId("conceptFilter").value||"all";byId("folderFilter").innerHTML='<option value="all">Tous dossiers</option>'+KM_CONFIG.folders.map(f=>'<option value="'+esc(f.id)+'" '+(folder===f.id?'selected':'')+'>'+esc(f.label)+'</option>').join("");byId("themeFilter").innerHTML='<option value="all">Tous themes</option>'+KM_CONFIG.themes.map(t=>'<option value="'+esc(t.id)+'" '+(theme===t.id?'selected':'')+'>'+esc(t.label)+'</option>').join("");byId("conceptFilter").innerHTML='<option value="all">Toute ontologie</option>'+KM_CONFIG.concepts.map(c=>'<option value="'+esc(c.id)+'" '+(concept===c.id?'selected':'')+'>'+esc(".".repeat(conceptDepth(c))+c.label)+'</option>').join("")}
 function renderTopics(){const themes=[...new Set(KM_INDEX.map(i=>i.theme))].filter(Boolean);const topics=["Tous",...themes];byId("topics").innerHTML=topics.map(t=>'<button class="topic '+(t===topic?"active":"")+'" data-topic="'+esc(t)+'">'+esc(t==="Tous"?"Tous":(KM_CONFIG.themes.find(x=>x.id===t)?.label||t))+'</button>').join("")}
+function renderBreadcrumb(){const item=activeItem();const parts=['<a href="index.html">KM</a>','<a href="search-v1.12.html">Recherche</a>'];if(item){parts.push('<button class="crumb-action" data-crumb-folder="'+esc(item.folder)+'">'+esc(item.folderLabel||item.folder)+'</button>');parts.push('<span>'+esc(item.title)+'</span>')}else{parts.push('<span>Aucune fiche</span>')}byId("breadcrumb").innerHTML=parts.join("<b>/</b>")}
 function tagButton(label,cls){return '<button type="button" class="tag tag-btn '+esc(cls||"")+'" data-action="tag" data-tag="'+esc(label)+'">'+highlight(label)+'</button>'}
 function sameTagTheme(tag,theme){const a=norm(tag).replace(/^#/,"").replace(/s$/,""),b=norm(theme).replace(/s$/,"");return a===b}
 function githubTopicUrl(topic){return "https://github.com/topics/"+encodeURIComponent(String(topic||"").trim().toLowerCase())}
@@ -541,7 +590,7 @@ function exportMarkdown(items){const rows=items.length?items:[activeItem()];cons
 function download(name,text){const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([text],{type:"text/plain"}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500)}
 async function copy(text){await navigator.clipboard.writeText(text)}
 function currentShareUrl(){const params=new URLSearchParams();const q=byId("search").value.trim(), folder=byId("folderFilter").value, theme=byId("themeFilter").value, concept=byId("conceptFilter").value, status=byId("statusFilter").value, tag=byId("tagFilter").value.trim();if(q)params.set("q",q);if(folder&&folder!=="all")params.set("folder",folder);if(theme&&theme!=="all")params.set("theme",theme);if(concept&&concept!=="all")params.set("concept",concept);if(status&&status!=="all")params.set("status",status);if(tag)params.set("tag",tag);if(activeItem())params.set("fiche",activeItem().id);return location.href.split("#")[0]+"#"+params.toString()}
-function renderAll(){renderStats();renderFilters();renderTopics();renderFeed();renderDetail()}
+function renderAll(){renderStats();renderFilters();renderTopics();renderFeed();renderDetail();renderBreadcrumb()}
 function setFicheCollapsed(collapsed){byId("workspace").classList.toggle("fiche-collapsed",collapsed);byId("openFiche").classList.toggle("on",collapsed);const top=byId("toggleFicheTop");if(top)top.textContent=collapsed?"Afficher fiche":"Toutes les fiches";if(collapsed)setTimeout(()=>byId("search")?.focus(),0)}
 function resetHomeState(){topic="Tous";byId("search").value="";byId("tagFilter").value="";byId("sort").value="date";byId("statusFilter").value="all";byId("folderFilter").value="all";byId("themeFilter").value="all";byId("conceptFilter").value="all";activeId=KM_INDEX[0]?.id||"";setFicheCollapsed(true);renderAll();byId("search").focus()}
 function goHome(){history.pushState(null,"",location.href.split("#")[0]);resetHomeState();toast("Accueil KM")}
@@ -554,6 +603,8 @@ byId("copySelection").onclick=()=>{const items=KM_INDEX.filter(i=>selected.has(i
 byId("exportSelection").onclick=()=>{const items=KM_INDEX.filter(i=>selected.has(i.id));download("km-search-v1.12-selection.md",exportMarkdown(items))};
 byId("exportJson").onclick=()=>download("km-search-v1.12-index.json",JSON.stringify(KM_INDEX,null,2));
 byId("copyShare").onclick=()=>copy(currentShareUrl()).then(()=>toast("Lien de vue copie"));
+byId("watchShortcut").onclick=()=>{topic="Tous";byId("folderFilter").value="watch";byId("themeFilter").value="all";byId("conceptFilter").value="all";renderAll();toast("Watch affiche");byId("search").focus()};
+byId("breadcrumb").addEventListener("click",e=>{const btn=e.target.closest("[data-crumb-folder]");if(!btn)return;byId("folderFilter").value=btn.dataset.crumbFolder;renderAll()});
 byId("navBack").onclick=()=>history.back();
 byId("navForward").onclick=()=>history.forward();
 byId("navHome").onclick=goHome;
