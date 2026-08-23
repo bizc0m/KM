@@ -1,6 +1,124 @@
 [
   {
+    "id": "prompt-README-md",
+    "kind": "prompt",
+    "promptFolder": "prompts",
+    "title": "Prompts",
+    "summary": "# Prompts Arborescence de prompts reutilisables pour Kprompt. Organisation recommandee : Chaque fichier .md devient une entree Kprompt. Les sous-dossiers sont conserves comme filtres.",
+    "type": "Prompt",
+    "status": "prompt",
+    "theme": "prompt",
+    "themeLabel": "Prompt",
+    "folder": "prompts",
+    "folderLabel": "Prompts",
+    "path": "prompts/README.md",
+    "repoUrl": "prompts/README.md",
+    "sourceUrl": "",
+    "tags": [],
+    "topics": [],
+    "prompt": "# Prompts\n\nArborescence de prompts reutilisables pour Kprompt.\n\nOrganisation recommandee :\n\n```text\nprompts/\n  dev/\n  veille/\n  audit/\n  agent/\n  noteplan/\n  km/\n```\n\nChaque fichier `.md` devient une entree Kprompt. Les sous-dossiers sont conserves comme filtres.",
+    "integratedAt": ""
+  },
+  {
+    "id": "prompt-agent-mission-km-ingest-md",
+    "kind": "prompt",
+    "promptFolder": "agent",
+    "title": "Mission agent ingest KM",
+    "summary": "Cadre de mission pour un agent charge d'ingestion KM.",
+    "type": "Prompt agent",
+    "status": "prompt",
+    "theme": "prompt",
+    "themeLabel": "Prompt",
+    "folder": "prompts",
+    "folderLabel": "Prompts",
+    "path": "prompts/agent/mission-km-ingest.md",
+    "repoUrl": "prompts/agent/mission-km-ingest.md",
+    "sourceUrl": "",
+    "tags": [
+      "agent",
+      "ingest",
+      "km"
+    ],
+    "topics": [],
+    "prompt": "# Mission agent ingest KM\n\n## Type\nPrompt agent\n\n## Tags\nagent, ingest, km\n\n## Objectif\nCadre de mission pour un agent charge d'ingestion KM.\n\n## Prompt\nIngere les sources fournies, deduplique par URL finale et titre, cree ou enrichit les fiches, garde les sources, classe les risques et regenere les index. Ne stocke pas de secrets ni de contenu copyright complet.",
+    "integratedAt": ""
+  },
+  {
+    "id": "prompt-dev-code-review-km-md",
+    "kind": "prompt",
+    "promptFolder": "dev",
+    "title": "Code review KM",
+    "summary": "Auditer une modification du systeme KM avant commit.",
+    "type": "Prompt dev",
+    "status": "prompt",
+    "theme": "prompt",
+    "themeLabel": "Prompt",
+    "folder": "prompts",
+    "folderLabel": "Prompts",
+    "path": "prompts/dev/code-review-km.md",
+    "repoUrl": "prompts/dev/code-review-km.md",
+    "sourceUrl": "",
+    "tags": [
+      "dev",
+      "review",
+      "km"
+    ],
+    "topics": [],
+    "prompt": "# Code review KM\n\n## Type\nPrompt dev\n\n## Tags\ndev, review, km\n\n## Objectif\nAuditer une modification du systeme KM avant commit.\n\n## Prompt\nAnalyse le diff fourni. Priorise bugs, regressions, securite, pertes de donnees, chemins locaux exposes et tests manquants. Repond avec findings, risques, verification et next.",
+    "integratedAt": ""
+  },
+  {
+    "id": "prompt-km-fiche-action-md",
+    "kind": "prompt",
+    "promptFolder": "km",
+    "title": "Fiche KM actionnable",
+    "summary": "Transformer une fiche brute en fiche KM courte, sourcee et actionnable.",
+    "type": "Prompt KM",
+    "status": "prompt",
+    "theme": "prompt",
+    "themeLabel": "Prompt",
+    "folder": "prompts",
+    "folderLabel": "Prompts",
+    "path": "prompts/km/fiche-action.md",
+    "repoUrl": "prompts/km/fiche-action.md",
+    "sourceUrl": "",
+    "tags": [
+      "km",
+      "fiche",
+      "action"
+    ],
+    "topics": [],
+    "prompt": "# Fiche KM actionnable\n\n## Type\nPrompt KM\n\n## Tags\nkm, fiche, action\n\n## Objectif\nTransformer une fiche brute en fiche KM courte, sourcee et actionnable.\n\n## Prompt\nLis la fiche fournie. Garde uniquement la fonction, les sources, les signaux utiles, les risques et les actions suivantes. Ne duplique pas les informations. Ne rajoute pas de contenu non source.",
+    "integratedAt": ""
+  },
+  {
+    "id": "prompt-veille-source-triage-md",
+    "kind": "prompt",
+    "promptFolder": "veille",
+    "title": "Triage source veille",
+    "summary": "Qualifier un signal RSS, Twitter, Reddit ou GitHub avant creation de fiche.",
+    "type": "Prompt veille",
+    "status": "prompt",
+    "theme": "prompt",
+    "themeLabel": "Prompt",
+    "folder": "prompts",
+    "folderLabel": "Prompts",
+    "path": "prompts/veille/source-triage.md",
+    "repoUrl": "prompts/veille/source-triage.md",
+    "sourceUrl": "",
+    "tags": [
+      "veille",
+      "source",
+      "triage"
+    ],
+    "topics": [],
+    "prompt": "# Triage source veille\n\n## Type\nPrompt veille\n\n## Tags\nveille, source, triage\n\n## Objectif\nQualifier un signal RSS, Twitter, Reddit ou GitHub avant creation de fiche.\n\n## Prompt\nClasse le signal en garder, ignorer, fusionner ou verifier. Identifie la source primaire, l'URL finale, le risque d'abus, la fonction concrete et le prochain geste KM.",
+    "integratedAt": ""
+  },
+  {
     "id": "watch-demoforge-scene-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "DemoForge Scene",
     "summary": "scene web generative",
     "type": "Veille Raindrop KM Monitor / scene web generative.",
@@ -25,6 +143,8 @@
   },
   {
     "id": "watch-parall-mac-app-multi-instance-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Parall Mac App Multi Instance",
     "summary": "utilitaire macOS",
     "type": "Veille Raindrop KM Monitor / utilitaire macOS.",
@@ -47,6 +167,8 @@
   },
   {
     "id": "watch-project-eyes-on-open-ip-camera-osint-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Project Eyes On - Open IP Camera OSINT",
     "summary": "outil OSINT de detection de cameras IP ouvertes",
     "type": "Veille #ROUGE / outil OSINT de detection de cameras IP ouvertes.",
@@ -85,6 +207,8 @@
   },
   {
     "id": "watch-promptslab-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "PromptsLab",
     "summary": "profil GitHub generative models",
     "type": "Veille Raindrop KM Monitor / profil GitHub generative models.",
@@ -108,6 +232,8 @@
   },
   {
     "id": "watch-quick-rss-desktop-reader-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Quick RSS Desktop Reader",
     "summary": "lecteur RSS macOS",
     "type": "Veille Raindrop KM Monitor / lecteur RSS macOS.",
@@ -131,6 +257,8 @@
   },
   {
     "id": "watch-chat2pdf-convertissez-les-conversations-chatgpt-en-pdf-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Chat2PDF",
     "summary": "export conversationnel ChatGPT vers PDF",
     "type": "Veille Raindrop KM Monitor / export conversationnel ChatGPT vers PDF.",
@@ -153,6 +281,8 @@
   },
   {
     "id": "watch-chatgpt-exporter-extract-chat-convos-easily-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "ChatGPT Exporter",
     "summary": "export conversations ChatGPT multi-format",
     "type": "Veille Raindrop KM Monitor / export conversations ChatGPT multi-format.",
@@ -176,6 +306,8 @@
   },
   {
     "id": "watch-geneva-ai-summit-2027-strategic-direction-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Geneva AI Summit 2027 Strategic Direction",
     "summary": "suit les signaux de gouvernance IA et politique publique",
     "type": "Strategic AI governance watch / public policy signal.",
@@ -201,6 +333,8 @@
   },
   {
     "id": "watch-graft-codebase-context-for-coding-agents-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Graft - Codebase Context For Coding Agents",
     "summary": "fournit le contexte codebase aux agents de code",
     "type": "Veille liens utilisateur / contexte codebase pour agents de code.",
@@ -238,6 +372,8 @@
   },
   {
     "id": "watch-memory-engineering-agent-past-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Memory Engineering - Agent Past",
     "summary": "article X sur memoire agentique",
     "type": "Veille liens utilisateur / article X sur memoire agentique.",
@@ -261,6 +397,8 @@
   },
   {
     "id": "watch-prompt-cache-semantic-llm-cache-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Prompt Cache - Semantic LLM Cache",
     "summary": "cache semantique LLM",
     "type": "Veille liens utilisateur / cache semantique LLM.",
@@ -297,6 +435,8 @@
   },
   {
     "id": "watch-awesome-ai-companion-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Awesome AI Companion",
     "summary": "recense et classe des ressources",
     "type": "Veille Raindrop KM Monitor / annuaire projets compagnons IA.",
@@ -332,6 +472,8 @@
   },
   {
     "id": "watch-firecrawl-pdf-inspector-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Firecrawl PDF Inspector",
     "summary": "fournit une base technique reusable",
     "type": "Veille Raindrop KM Monitor / bibliotheque extraction PDF.",
@@ -365,6 +507,8 @@
   },
   {
     "id": "watch-github-digital-life-topic-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "GitHub Digital Life Topic",
     "summary": "topic GitHub",
     "type": "Veille Raindrop KM Monitor / topic GitHub.",
@@ -388,6 +532,8 @@
   },
   {
     "id": "watch-herdr-agent-multiplexer-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Herdr Multiplexer",
     "summary": "orchestre des agents IA",
     "type": "Veille Raindrop KM Monitor / orchestration agents terminal.",
@@ -423,6 +569,8 @@
   },
   {
     "id": "watch-intelfetch-osint-features-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "IntelFetch OSINT Features",
     "summary": "plateforme OSINT",
     "type": "Veille Raindrop KM Monitor / plateforme OSINT.",
@@ -445,6 +593,8 @@
   },
   {
     "id": "watch-praison-ai-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Praison AI",
     "summary": "plateforme d'agents IA",
     "type": "Veille Raindrop KM Monitor / plateforme d'agents IA.",
@@ -466,6 +616,8 @@
   },
   {
     "id": "watch-trendshift-github-momentum-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Trendshift GitHub Momentum",
     "summary": "detection tendances GitHub",
     "type": "Veille Raindrop KM Monitor / detection tendances GitHub.",
@@ -489,6 +641,8 @@
   },
   {
     "id": "watch-taste-skill-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Taste Skill",
     "summary": "kit frontend pour agents IA",
     "type": "Veille Raindrop KM Monitor / kit frontend pour agents IA.",
@@ -511,6 +665,8 @@
   },
   {
     "id": "watch-banani-ai-ui-design-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Banani AI UI Design",
     "summary": "design IA",
     "type": "Veille Raindrop KM Monitor / outil design IA.",
@@ -534,6 +690,8 @@
   },
   {
     "id": "watch-lovable-build-for-the-web-20x-faster-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Lovable Build For The Web 20x Faster",
     "summary": "generateur web IA",
     "type": "Veille Raindrop KM Monitor / generateur web IA.",
@@ -556,6 +714,8 @@
   },
   {
     "id": "watch-ui-design-made-easy-powered-by-ai-uizard-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "UI Design Made Easy Powered By AI Uizard",
     "summary": "design IA",
     "type": "Veille Raindrop KM Monitor / outil design IA.",
@@ -579,6 +739,8 @@
   },
   {
     "id": "watch-axorcist-macos-accessibility-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "AXorcist macOS Accessibility",
     "summary": "fournit une base technique reusable",
     "type": "Veille Raindrop KM Monitor / bibliotheque Swift pour macOS Accessibility.",
@@ -606,6 +768,8 @@
   },
   {
     "id": "watch-macos26-agent-desktop-harness-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "MacOS26 Agent Desktop Harness",
     "summary": "agent desktop macOS et harness agentique",
     "type": "Veille Raindrop KM Monitor / agent desktop macOS et harness agentique.",
@@ -642,6 +806,8 @@
   },
   {
     "id": "watch-macusb-bootable-usb-creator-macos-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "macUSB Bootable USB Creator macOS",
     "summary": "macOS",
     "type": "Veille Raindrop KM Monitor / outil macOS.",
@@ -665,6 +831,8 @@
   },
   {
     "id": "watch-noteplan-mcp-server-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "NotePlan MCP Server",
     "summary": "connecteur MCP pour notes, taches et calendrier",
     "type": "Veille Raindrop KM Monitor / connecteur MCP pour notes, taches et calendrier.",
@@ -689,6 +857,8 @@
   },
   {
     "id": "watch-openfelix-local-ai-agent-macos-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Open Felix - Local AI Agent for macOS",
     "summary": "automatise des taches avec un agent IA",
     "type": "Veille Raindrop KM Monitor / agent IA local pour macOS.",
@@ -712,6 +882,8 @@
   },
   {
     "id": "watch-open-maestri-macos-agent-orchestration-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Open Maestri macOS Agent Orchestration",
     "summary": "orchestre des agents IA",
     "type": "Veille Raindrop KM Monitor / orchestration visuelle multi-agents macOS.",
@@ -749,6 +921,8 @@
   },
   {
     "id": "watch-opencode-telechargement-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "OpenCode Download",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -777,6 +951,8 @@
   },
   {
     "id": "watch-brandfetch-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Brandfetch",
     "summary": "de marque et assets publics",
     "type": "Veille Raindrop KM Monitor / ressource de marque et assets publics.",
@@ -800,6 +976,8 @@
   },
   {
     "id": "watch-tailscale-secure-connectivity-for-ai-iot-multi-cloud-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Tailscale Secure Connectivity For AI IoT Multi Cloud",
     "summary": "connectivite Zero Trust et reseau prive",
     "type": "Veille Raindrop KM Monitor / connectivite Zero Trust et reseau prive.",
@@ -823,6 +1001,8 @@
   },
   {
     "id": "watch-auto-company-autonomous-ai-company-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Auto Company Autonomous AI Company",
     "summary": "orchestre des agents IA",
     "type": "Veille Raindrop KM Monitor / orchestration multi-agents autonome.",
@@ -846,6 +1026,8 @@
   },
   {
     "id": "watch-assistants-ia-revolut-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Assistants IA Revolut",
     "summary": "notice legale service financier IA",
     "type": "Veille Raindrop KM Monitor / notice legale service financier IA.",
@@ -869,6 +1051,8 @@
   },
   {
     "id": "watch-neodisk-macos-disk-visualizer-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Neodisk macOS Disk Visualizer",
     "summary": "macOS open source",
     "type": "Veille Raindrop KM Monitor / outil macOS open source.",
@@ -895,6 +1079,8 @@
   },
   {
     "id": "watch-agency-agents-ai-agency-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Agency Agents - AI Agency Agents",
     "summary": "fournit une base technique reusable",
     "type": "Veille Raindrop KM Monitor / bibliotheque d'agents IA specialises.",
@@ -917,6 +1103,8 @@
   },
   {
     "id": "watch-alook-ai-workforce-collaboration-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Alook - AI Workforce Collaboration",
     "summary": "orchestre des agents IA",
     "type": "Veille Raindrop KM Monitor / orchestration d'agents collaboratifs.",
@@ -954,6 +1142,8 @@
   },
   {
     "id": "watch-pentagi-autonomous-pentest-agents-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Pentagi - Autonomous Pentest Agents",
     "summary": "agents IA autonomes de penetration testing",
     "type": "Veille #ROUGE / agents IA autonomes de penetration testing.",
@@ -990,6 +1180,8 @@
   },
   {
     "id": "watch-scrapling-web-scraping-modern-web-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Scrapling - Web Scraping Modern Web",
     "summary": "fournit une base technique reusable",
     "type": "Veille Raindrop KM Monitor / framework de scraping web.",
@@ -1012,6 +1204,8 @@
   },
   {
     "id": "watch-tencentdb-agent-memory-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "TencentDB Agent Memory - Local Agent Memory",
     "summary": "memoire long terme pour agents IA",
     "type": "Veille Raindrop KM Monitor / memoire long terme pour agents IA.",
@@ -1045,6 +1239,8 @@
   },
   {
     "id": "watch-notion-les-7-docs-avant-de-coder-avec-ia-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Notion - Les 7 Docs avant de coder avec l'IA",
     "summary": "KM / template Notion pour preparation de projet IA",
     "type": "Veille ressource KM / template Notion pour preparation de projet IA.",
@@ -1070,6 +1266,8 @@
   },
   {
     "id": "watch-aliens-eye-ai-osint-platform-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Aliens Eye AI OSINT Platform",
     "summary": "automatise la recherche et la synthese",
     "type": "Veille outil OSINT / recherche d'empreinte numerique.",
@@ -1092,6 +1290,8 @@
   },
   {
     "id": "watch-google-ai-studio-free-token-tier-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Google AI Studio Free Token Tier",
     "summary": "quotas API",
     "type": "Veille ressource IA / quotas API.",
@@ -1115,6 +1315,8 @@
   },
   {
     "id": "watch-internet-scraping-github-repos-ecommartinez-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Internet Scraping GitHub Repos Ecommartinez",
     "summary": "extrait des donnees depuis des sources web ou documents",
     "type": "Veille outils / scraping et extraction web.",
@@ -1137,6 +1339,8 @@
   },
   {
     "id": "watch-ai-video-plugins-skills-ayi-ainotes-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "AI Video Plugins And Skills Ayi AInotes",
     "summary": "pack plugins et skills video IA",
     "type": "Veille source sociale / pack plugins et skills video IA.",
@@ -1159,6 +1363,8 @@
   },
   {
     "id": "watch-hyperframes-ai-video-generation-skill-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "HyperFrames AI Video Generation Skill",
     "summary": "generation video agentique",
     "type": "Veille outil IA / generation video agentique.",
@@ -1181,6 +1387,8 @@
   },
   {
     "id": "watch-ig-detective-instagram-osint-suite-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "IG-Detective Instagram OSINT Suite",
     "summary": "OSINT / investigation Instagram",
     "type": "Veille outil OSINT / investigation Instagram.",
@@ -1203,6 +1411,8 @@
   },
   {
     "id": "watch-internet-scraping-github-repos-lucy-love-ai-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Internet Scraping GitHub Repos Lucy Love AI",
     "summary": "extrait des donnees depuis des sources web ou documents",
     "type": "Veille outils / scraping et extraction web.",
@@ -1238,6 +1448,8 @@
   },
   {
     "id": "watch-open-lovable-firecrawl-site-cloning-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Open Lovable Firecrawl Site Cloning",
     "summary": "dev / clonage de sites en React",
     "type": "Veille outil dev / clonage de sites en React.",
@@ -1260,6 +1472,8 @@
   },
   {
     "id": "watch-openthreat-threat-intelligence-platform-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "OpenThreat Threat Intelligence Platform",
     "summary": "cyber / threat intelligence",
     "type": "Veille outil cyber / threat intelligence.",
@@ -1284,6 +1498,8 @@
   },
   {
     "id": "watch-serus-dark-web-leak-search-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Serus Dark Web Leak Search",
     "summary": "automatise la recherche et la synthese",
     "type": "Veille outil privacy / recherche fuites dark web.",
@@ -1306,6 +1522,8 @@
   },
   {
     "id": "watch-spec-kit-vibe-coding-specification-workflow-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Spec Kit Vibe Coding Specification Workflow",
     "summary": "dev / workflow specification avant code",
     "type": "Veille outil dev / workflow specification avant code.",
@@ -1329,6 +1547,8 @@
   },
   {
     "id": "watch-worldmonitor-global-intelligence-dashboard-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "WorldMonitor Global Intelligence Dashboard",
     "summary": "OSINT / tableau de bord geostrategique",
     "type": "Veille outil OSINT / tableau de bord geostrategique.",
@@ -1364,6 +1584,8 @@
   },
   {
     "id": "watch-claude-agents-md-config-alexsoyes-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Claude AGENTS.md Config - alexsoyes",
     "summary": "workflow agents / configuration AGENTS.md",
     "type": "Veille workflow agents / configuration AGENTS.md.",
@@ -1386,6 +1608,8 @@
   },
   {
     "id": "watch-free-api-key-instagram-reel-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Free Api Key - Instagram Reel",
     "summary": "education IA / API keys",
     "type": "Veille education IA / API keys.",
@@ -1408,6 +1632,8 @@
   },
   {
     "id": "watch-free-open-source-apps-list-sn0wbrave-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Free Open Source Apps List - sn0wbrave",
     "summary": "recense et classe des ressources",
     "type": "Veille outil / annuaire applications gratuites open source.",
@@ -1431,6 +1657,8 @@
   },
   {
     "id": "watch-ghosttrack-digital-footprint-osint-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "GhostTrack - Digital Footprint OSINT",
     "summary": "OSINT identifiants publics",
     "type": "Veille #ROUGE / OSINT identifiants publics.",
@@ -1469,6 +1697,8 @@
   },
   {
     "id": "resources-global-network-sex-work-projects-resources-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Global Network of Sex Work Projects - Latest Resources",
     "summary": "veille droits humains",
     "type": "Ressource longue / veille droits humains.",
@@ -1492,6 +1722,8 @@
   },
   {
     "id": "resources-llm-wiki-karpathy-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "llm-wiki - Karpathy Gist",
     "summary": "reference LLM",
     "type": "Ressource longue / reference LLM.",
@@ -1516,6 +1748,8 @@
   },
   {
     "id": "watch-mineru-document-extraction-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "MinerU - Document Extraction",
     "summary": "extrait des donnees depuis des sources web ou documents",
     "type": "Veille outil IA / extraction documents.",
@@ -1539,6 +1773,8 @@
   },
   {
     "id": "watch-obsidian-web-clipper-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Obsidian Web Clipper",
     "summary": "KM / capture web vers Obsidian",
     "type": "Veille outil KM / capture web vers Obsidian.",
@@ -1562,6 +1798,8 @@
   },
   {
     "id": "watch-reverse-skill-hacker-skills-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Reverse Skill - Hacker Skills Repo",
     "summary": "competences hacker et reverse engineering",
     "type": "Veille #ROUGE / competences hacker et reverse engineering.",
@@ -1587,6 +1825,8 @@
   },
   {
     "id": "watch-este-repositorio-te-ensena-ingenieria-de-ia-desde-cero-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "AI Engineering From Scratch Repository",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1607,6 +1847,8 @@
   },
   {
     "id": "watch-l-ia-vient-de-tuer-le-metier-de-commercial-en-vendant-a-ta-place-24h-2-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "AI Sales Automation Agent",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1627,6 +1869,8 @@
   },
   {
     "id": "watch-bug-hunter-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Bug Hunter",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1647,6 +1891,8 @@
   },
   {
     "id": "watch-bytedance-acaba-de-abrir-el-codigo-del-agente-que-controla-tu-ordenado-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "ByteDance Open Source Computer Control Agent",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1667,6 +1913,8 @@
   },
   {
     "id": "watch-claude-code-ya-es-potente-solo-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Claude Code ya es potente solo.",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1687,6 +1935,8 @@
   },
   {
     "id": "watch-knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-coden-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Claude Plugins For Knowledge Work",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1707,6 +1957,8 @@
   },
   {
     "id": "watch-un-developpeur-a-clone-netflix-spotify-instagram-airbnb-et-amazon-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Clone Projects For Netflix, Spotify, Instagram, Airbnb And Amazon",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1727,6 +1979,8 @@
   },
   {
     "id": "watch-danyltn-ia-automatisation-danyltn-instagram-reel-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Danyltn | IA & Automatisation (@danyltn) • Instagram reel",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1748,6 +2002,8 @@
   },
   {
     "id": "watch-this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Essential MCP Servers Collection",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1768,6 +2024,8 @@
   },
   {
     "id": "watch-esto-es-un-palantir-gratis-y-se-instala-en-un-solo-comando-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "ESTO ES UN PALANTIR GRATIS Y SE INSTALA EN UN SOLO COMANDO",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1788,6 +2046,8 @@
   },
   {
     "id": "watch-cok-cilginca-bir-ai-araci-buldum-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Experimental AI Tool Discovery",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1808,6 +2068,8 @@
   },
   {
     "id": "watch-alguien-creo-un-repo-en-github-que-te-permite-ejecutar-claude-code-com-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Free Claude Code Execution Repository",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1828,6 +2090,8 @@
   },
   {
     "id": "watch-waveking-free-github-projects-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Free GitHub Project Collection",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1848,6 +2112,8 @@
   },
   {
     "id": "watch-you-can-run-google-gemini-2-5-pro-with-a-massive-2-milion-free-token-c-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Free Google Gemini 2.5 Pro Token Context",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1868,6 +2134,8 @@
   },
   {
     "id": "watch-geekbb-free-tools-list-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Free Open Source No-Signup Tools List",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1888,6 +2156,8 @@
   },
   {
     "id": "watch-aqui-te-dejo-10-repos-de-github-que-pueden-ayudarte-a-generar-dinero-m-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "GitHub Repositories For Automated Income Projects",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1908,6 +2178,8 @@
   },
   {
     "id": "watch-10-github-repos-that-automate-real-work-while-you-sleep-in-2026-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "GitHub Repositories For Work Automation",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1928,6 +2200,8 @@
   },
   {
     "id": "watch-213-000-estrellas-en-github-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "GitHub Repository With 213, 000 Stars",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1948,6 +2222,8 @@
   },
   {
     "id": "watch-un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Google Chrome Web Best Practices Skill",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1968,6 +2244,8 @@
   },
   {
     "id": "watch-how-i-automate-google-dorking-for-faster-osint-investigations-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Google Dorking Automation For OSINT",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -1988,6 +2266,8 @@
   },
   {
     "id": "watch-guide-claude-code-remotion-ia-boss-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Guide_Claude_Code_Remotion_IA_Boss",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2008,6 +2288,8 @@
   },
   {
     "id": "watch-guide-emergent-hero-video-scroll-fr-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Guide_Emergent_Hero_Video_Scroll_FR",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2028,6 +2310,8 @@
   },
   {
     "id": "watch-guide-scrapegraph-ai-ia-boss-pdf-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Guide_ScrapeGraph_AI_IA_Boss.pdf",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2048,6 +2332,8 @@
   },
   {
     "id": "watch-here-are-10-ai-video-editor-github-repos-worth-bookmarking-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Here are 10 AI video editor GitHub repos worth bookmarking:",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2068,6 +2354,8 @@
   },
   {
     "id": "watch-ideogram-4-0-the-open-model-for-visual-intelligence-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Ideogram 4.0 — The open model for visual intelligence",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2088,6 +2376,8 @@
   },
   {
     "id": "watch-im-agent-claude-code-codex-opencode-ai-agent-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "IM-Style Multi-Agent Coding Workspace",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2108,6 +2398,8 @@
   },
   {
     "id": "watch-acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Infinite Memory For Claude, Codex And Cursor",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2128,6 +2420,8 @@
   },
   {
     "id": "watch-ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Infinite Memory For Claude, Codex And Cursor",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2148,6 +2442,8 @@
   },
   {
     "id": "watch-jarvis-os-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "JARVIS OS",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2170,6 +2466,8 @@
   },
   {
     "id": "watch-kyber-kyber-gitlab-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "kyber / Kyber · GitLab",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2190,6 +2488,8 @@
   },
   {
     "id": "watch-2-lafys-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Lafys",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2210,6 +2510,8 @@
   },
   {
     "id": "watch-mvanhorn-last30days-skill-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Last 30 Days Research Agent Skill",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2243,6 +2545,8 @@
   },
   {
     "id": "watch-sabtu-malem-jam-2-pagi-gue-masih-melek-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Late Night AI Tool Discovery",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2263,6 +2567,8 @@
   },
   {
     "id": "watch-marketing-automation-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Marketing Automation",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2283,6 +2589,8 @@
   },
   {
     "id": "watch-miranda-start-me-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Miranda - Start.me",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2307,6 +2615,8 @@
   },
   {
     "id": "watch-mobile-app-raindrop-io-help-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Mobile app - Raindrop.io Help",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2327,6 +2637,8 @@
   },
   {
     "id": "watch-1-motionsites-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Motionsites",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2347,6 +2659,8 @@
   },
   {
     "id": "watch-multi-search-launcher-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Multi-search launcher",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2367,6 +2681,8 @@
   },
   {
     "id": "watch-lancement-de-notre-projet-nexus-osint-v1-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Nexus OSINT V1 Launch",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2387,6 +2703,8 @@
   },
   {
     "id": "watch-pewdiepie-archdaemon-odysseus-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Odysseus Self-Hosted AI Workspace",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2407,6 +2725,8 @@
   },
   {
     "id": "watch-offline-maps-and-gps-app-without-ads-or-tracking-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Offline maps and GPS app without ads or tracking",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2427,6 +2747,8 @@
   },
   {
     "id": "watch-alternativa-gratuita-y-de-codigo-abierto-a-notebooklm-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Open Source NotebookLM Alternative",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2447,6 +2769,8 @@
   },
   {
     "id": "watch-open-source-observability-for-traces-logs-metrics-maple-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Open Source Observability for Traces, Logs & Metrics · Maple",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2467,6 +2791,8 @@
   },
   {
     "id": "watch-calesthio-openmontage-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "OpenMontage Agentic Video Production System",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2500,6 +2826,8 @@
   },
   {
     "id": "watch-remotely-accesses-webcams-microphones-and-location-data-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Remotely accesses webcams, microphones, and location data",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2520,6 +2848,8 @@
   },
   {
     "id": "watch-removes-llm-censorship-with-a-single-click-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Removes LLM censorship with a single click.",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2540,6 +2870,8 @@
   },
   {
     "id": "watch-link-del-repo-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Repository Link",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2560,6 +2892,8 @@
   },
   {
     "id": "watch-este-repositorio-de-github-lo-esta-explotando-mode-senior-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Senior Mode GitHub Repository",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2580,6 +2914,8 @@
   },
   {
     "id": "watch-top-5-sites-pour-vibe-coders-edition-niche-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Top 5 Niche Sites For Vibe Coders",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2600,6 +2936,8 @@
   },
   {
     "id": "watch-ryancodrai-turbovec-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "TurboVec Vector Index",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2633,6 +2971,8 @@
   },
   {
     "id": "watch-sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Uncensored Open Source Image And Video AI Tool",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2654,6 +2994,8 @@
   },
   {
     "id": "watch-xamto-ai-understand-anything-x-post-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Understand Anything Code Knowledge Graph",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2674,6 +3016,8 @@
   },
   {
     "id": "watch-vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Web Page To Desktop App Converter",
     "summary": "Veille Raindrop KM Monitor.",
     "type": "Veille Raindrop KM Monitor.",
@@ -2702,6 +3046,8 @@
   },
   {
     "id": "watch-aider-ai-pair-programming-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Aider AI Pair Programming",
     "summary": "pair programming terminal",
     "type": "Veille outil IA / pair programming terminal.",
@@ -2738,6 +3084,8 @@
   },
   {
     "id": "watch-awesome-mcp-servers-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Awesome MCP Servers",
     "summary": "recense et classe des ressources",
     "type": "Veille ressource / annuaire MCP.",
@@ -2766,6 +3114,8 @@
   },
   {
     "id": "watch-browser-use-web-automation-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Browser Use - Web Automation For AI Agents",
     "summary": "automatisation navigateur",
     "type": "Veille outil IA / automatisation navigateur.",
@@ -2797,6 +3147,8 @@
   },
   {
     "id": "watch-claude-task-master-ai-task-management-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Claude Task Master",
     "summary": "gestion de taches agentique",
     "type": "Veille outil IA / gestion de taches agentique.",
@@ -2834,6 +3186,8 @@
   },
   {
     "id": "watch-cloudflare-agentic-inbox-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Cloudflare Agentic Inbox",
     "summary": "client email agentique self-hosted",
     "type": "Veille outil IA / client email agentique self-hosted.",
@@ -2858,6 +3212,8 @@
   },
   {
     "id": "watch-crewai-agent-orchestration-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "CrewAI - Agent Orchestration",
     "summary": "orchestre des agents IA",
     "type": "Veille framework IA / orchestration multi-agents.",
@@ -2887,6 +3243,8 @@
   },
   {
     "id": "watch-cyberstrike-ai-red-team-agent-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "CyberStrike - AI Red Team Agent",
     "summary": "automatise des taches avec un agent IA",
     "type": "Veille #ROUGE / agent IA offensif de red team.",
@@ -2925,6 +3283,8 @@
   },
   {
     "id": "watch-gosearch-digital-footprint-search-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "GoSearch - Digital Footprint Search",
     "summary": "automatise la recherche et la synthese",
     "type": "Veille #ROUGE / recherche OSINT de profils.",
@@ -2961,6 +3321,8 @@
   },
   {
     "id": "watch-langgraph-resilient-agents-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "LangGraph - Resilient Agents",
     "summary": "fournit une base technique reusable",
     "type": "Veille framework IA / agents resilients.",
@@ -2998,6 +3360,8 @@
   },
   {
     "id": "watch-n8n-workflow-automation-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "n8n Workflow Automation",
     "summary": "automatisation workflows",
     "type": "Veille outil / automatisation workflows.",
@@ -3035,6 +3399,8 @@
   },
   {
     "id": "watch-nousresearch-hermes-agent-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "NousResearch Hermes Agent",
     "summary": "automatise des taches avec un agent IA",
     "type": "Veille outil IA / agent personnel.",
@@ -3071,6 +3437,8 @@
   },
   {
     "id": "watch-openhands-ai-development-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "OpenHands - AI Driven Development",
     "summary": "automatise le developpement avec un agent IA",
     "type": "Veille outil IA / agent de developpement.",
@@ -3104,6 +3472,8 @@
   },
   {
     "id": "watch-osint-rack-curated-tools-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "The OSINT Rack - Curated Intelligence Tools",
     "summary": "recense et classe des ressources",
     "type": "Veille OSINT / annuaire d'outils d'investigation.",
@@ -3128,6 +3498,8 @@
   },
   {
     "id": "watch-understand-anything-code-knowledge-graph-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Understand Anything - Code Knowledge Graph",
     "summary": "analyse de code",
     "type": "Veille outil IA / analyse de code.",
@@ -3164,6 +3536,8 @@
   },
   {
     "id": "watch-vxunderground-malware-source-code-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "vxunderground MalwareSourceCode",
     "summary": "corpus public de code source malware",
     "type": "Veille #ROUGE / corpus public de code source malware.",
@@ -3192,6 +3566,8 @@
   },
   {
     "id": "watch-conet-privacy-depin-network-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "CONET - Privacy DePIN Network",
     "summary": "infra privacy / DePIN / reseau decentralise",
     "type": "Veille infra privacy / DePIN / reseau decentralise.",
@@ -3219,6 +3595,8 @@
   },
   {
     "id": "watch-moneyprinterturbo-ai-short-video-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "MoneyPrinterTurbo - AI Short Video Generator",
     "summary": "generation automatique de shorts video",
     "type": "Veille outils IA / generation automatique de shorts video.",
@@ -3259,6 +3637,8 @@
   },
   {
     "id": "watch-promptspy-ai-android-malware-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "PromptSpy - AI Android Malware",
     "summary": "menace mobile IA / malware Android agentique",
     "type": "Veille menace mobile IA / malware Android agentique.",
@@ -3284,6 +3664,8 @@
   },
   {
     "id": "watch-agentsview-session-intelligence-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "AgentsView - Session Intelligence",
     "summary": "intelligence de sessions agents",
     "type": "Veille outils IA / intelligence de sessions agents.",
@@ -3310,6 +3692,8 @@
   },
   {
     "id": "watch-ai-open-source-tools-inventory-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "AI Open Source Tools Inventory",
     "summary": "Inventaire outils issu de veille X et sources web verifiees",
     "type": "Inventaire outils issu de veille X et sources web verifiees.",
@@ -3337,6 +3721,8 @@
   },
   {
     "id": "watch-ai-open-source-tools-watch-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "AI Open Source Tools Watch",
     "summary": "IA transversale",
     "type": "Veille IA transversale.",
@@ -3364,6 +3750,8 @@
   },
   {
     "id": "watch-autoresearchclaw-autonomous-research-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "AutoResearchClaw - Autonomous Research Agent",
     "summary": "automatise la recherche et la synthese",
     "type": "Veille outils IA / agent de recherche autonome.",
@@ -3400,6 +3788,8 @@
   },
   {
     "id": "watch-awesome-free-llm-apis-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Awesome Free LLM APIs",
     "summary": "ressources API LLM gratuites",
     "type": "Veille outils IA / ressources API LLM gratuites.",
@@ -3438,6 +3828,8 @@
   },
   {
     "id": "watch-ccgui-mossx-vibecoding-editor-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "CC-GUI / MossX - VibeCoding Editor",
     "summary": "editeur vibe coding multi-engine",
     "type": "Veille outils IA / editeur vibe coding multi-engine.",
@@ -3465,6 +3857,8 @@
   },
   {
     "id": "watch-codepatrol-code-security-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "CodePatrol - Code Security Watch",
     "summary": "dev/security / code review et SAST",
     "type": "Veille outils dev/security / code review et SAST.",
@@ -3490,6 +3884,8 @@
   },
   {
     "id": "watch-free-llm-api-resources-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Free LLM API Resources",
     "summary": "ressources API",
     "type": "Veille outils IA / ressources API.",
@@ -3514,6 +3910,8 @@
   },
   {
     "id": "watch-inspiration-competitors-tools-watch-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Inspiration Competitors Tools Watch",
     "summary": "inspirations / concurrents / outils",
     "type": "Veille inspirations / concurrents / outils.",
@@ -3539,6 +3937,8 @@
   },
   {
     "id": "watch-nanoclaw-personal-agent-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "NanoClaw - Personal AI Agent",
     "summary": "automatise des taches avec un agent IA",
     "type": "Veille outils IA / agent personnel multi-canaux.",
@@ -3571,6 +3971,8 @@
   },
   {
     "id": "watch-open-source-saas-alternatives-nicos-ai-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Open Source SaaS Alternatives - nicos_ai",
     "summary": "open source",
     "type": "Veille outils open source.",
@@ -3595,6 +3997,8 @@
   },
   {
     "id": "watch-osint-tools-watch-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "OSINT Tools Watch",
     "summary": "OSINT transversale",
     "type": "Veille OSINT transversale.",
@@ -3619,6 +4023,8 @@
   },
   {
     "id": "watch-pentestgpt-autonomous-pentest-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "PentestGPT - Autonomous Penetration Testing",
     "summary": "outil IA de pentest autonome",
     "type": "Veille #ROUGE / outil IA de pentest autonome.",
@@ -3650,6 +4056,8 @@
   },
   {
     "id": "watch-red-team-risk-tools-watch-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Red Team Risk Tools Watch",
     "summary": "sensibles #ROUGE",
     "type": "Veille outils sensibles #ROUGE.",
@@ -3674,6 +4082,8 @@
   },
   {
     "id": "watch-twitter-rss-monitoring-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Twitter RSS Monitoring",
     "summary": "process / source monitoring",
     "type": "Veille process / source monitoring.",
@@ -3706,6 +4116,8 @@
   },
   {
     "id": "watch-vibeshit-vibe-coding-directory-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "Vibe Shit - Vibe Coding Directory",
     "summary": "recense et classe des ressources",
     "type": "Veille outils IA / annuaire projets vibe coding.",
@@ -3731,6 +4143,8 @@
   },
   {
     "id": "watch-x-source-authors-log-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "X Source Authors Log",
     "summary": "Log sources X pour veille KM",
     "type": "Log sources X pour veille KM.",
@@ -3754,6 +4168,8 @@
   },
   {
     "id": "watch-ai-trending-md",
+    "kind": "fiche",
+    "promptFolder": "fiches",
     "title": "AI Trending",
     "summary": "IA transversale",
     "type": "Veille IA transversale.",

@@ -7,6 +7,7 @@
   "scripts": {
     "build": "npm run typecheck && esbuild src/noteplan/commands.ts --bundle --format=iife --global-name=SortPriorityPlugin --platform=browser --target=es2020 --outfile=dist/script.js --footer:js=\"function sortCurrentNoteTasksByPriority(){return SortPriorityPlugin.sortCurrentNoteTasksByPriority()}\" && cp plugin.json dist/plugin.json && cp README.smart-sort.md dist/README.md",
     "km:app": "node scripts/km-local-app.mjs",
+    "km:app:build": "bash scripts/build-km-monitor-app.sh",
     "km:finish": "bash scripts/km-finish.sh",
     "km:finish:push": "bash scripts/km-finish.sh --push",
     "km:install": "bash scripts/install-km-local-app.sh",

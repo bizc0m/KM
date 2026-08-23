@@ -1,5 +1,5 @@
-import { readFileSync, writeFileSync } from "node:fs";
-import { join, resolve } from "node:path";
+import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = process.env.KM_ROOT
@@ -11,8 +11,10 @@ const match = sourceHtml.match(/const KM_INDEX=([\s\S]*?);\nconst KM_CONFIG=/);
 if (!match) throw new Error("KM_INDEX not found in search-v1.12.html");
 
 const sourceIndex = JSON.parse(match[1]);
-const index = sourceIndex.map((item) => ({
+const kmIndex = sourceIndex.map((item) => ({
   id: item.id,
+  kind: "fiche",
+  promptFolder: "fiches",
   title: item.title || item.path,
   summary: item.summary || item.type || "",
   type: item.type || "",
@@ -28,6 +30,76 @@ const index = sourceIndex.map((item) => ({
   topics: (item.githubTopics || []).slice(0, 12),
   integratedAt: item.integratedAt || ""
 }));
+
+const promptsRoot = join(root, "prompts");
+mkdirSync(promptsRoot, { recursive: true });
+
+function clean(value) {
+  return String(value || "")
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/`([^`]+)`/g, "$1")
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/[>*_|]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function walkMarkdown(dir) {
+  if (!existsSync(dir)) return [];
+  return readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
+    const full = join(dir, entry.name);
+    if (entry.isDirectory()) return walkMarkdown(full);
+    return entry.isFile() && entry.name.endsWith(".md") ? [full] : [];
+  });
+}
+
+function section(content, heading) {
+  const escaped = heading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const match = content.match(new RegExp(`## ${escaped}\\n+([\\s\\S]*?)(\\n## |$)`, "i"));
+  return match ? match[1].trim() : "";
+}
+
+function first(content, pattern) {
+  const match = content.match(pattern);
+  return match ? match[1].trim() : "";
+}
+
+function promptItem(file) {
+  const path = relative(root, file);
+  const relPrompt = relative(promptsRoot, file);
+  const content = readFileSync(file, "utf8");
+  const parts = relPrompt.split("/");
+  const folder = parts.slice(0, -1).join("/") || "prompts";
+  const title = first(content, /^#\s+(.+)$/m) || parts.at(-1).replace(/\.md$/, "");
+  const tags = section(content, "Tags")
+    .split(/,|\n/)
+    .map(clean)
+    .filter(Boolean)
+    .slice(0, 12);
+  return {
+    id: `prompt-${relPrompt.replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "")}`,
+    kind: "prompt",
+    promptFolder: folder,
+    title,
+    summary: clean(section(content, "Usage") || section(content, "Objectif") || content).slice(0, 260),
+    type: clean(section(content, "Type") || "Prompt"),
+    status: "prompt",
+    theme: "prompt",
+    themeLabel: "Prompt",
+    folder: "prompts",
+    folderLabel: "Prompts",
+    path,
+    repoUrl: path,
+    sourceUrl: "",
+    tags,
+    topics: [],
+    prompt: content.trim(),
+    integratedAt: ""
+  };
+}
+
+const promptIndex = walkMarkdown(promptsRoot).map(promptItem);
+const index = [...promptIndex, ...kmIndex];
 
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -77,7 +149,7 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
 </head>
 <body>
 <header class="top">
-  <div><div class="brand"><span>K</span>prompt</div><div class="sub">KM v1.12 vers prompt</div></div>
+  <div><div class="brand"><span>K</span>prompt</div><div class="sub">Prompts · dossiers · fiches KM</div></div>
   <div class="stats" id="stats"></div>
   <div class="actions">
     <a class="btn" href="search-v1.12.html">KM Search</a>
@@ -93,8 +165,12 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
       <div class="tools">
         <input id="q" type="search" autocomplete="off" placeholder="chercher agent, osint, llm, github...">
         <div class="row">
+          <select id="promptFolder"></select>
+          <select id="kind"><option value="all">Tout</option><option value="prompt">Prompts</option><option value="fiche">Fiches KM</option></select>
+        </div>
+        <div class="row">
           <select id="theme"></select>
-          <select id="status"><option value="all">Tous statuts</option><option value="#ROUGE">#ROUGE</option><option value="sensible">Sensible</option><option value="a verifier">A verifier</option><option value="actif">Actif</option></select>
+          <select id="status"><option value="all">Tous statuts</option><option value="prompt">Prompt</option><option value="#ROUGE">#ROUGE</option><option value="sensible">Sensible</option><option value="a verifier">A verifier</option><option value="actif">Actif</option></select>
         </div>
       </div>
       <div class="meta"><span id="visible"></span><span id="selected"></span></div>
@@ -136,7 +212,7 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
   function el(id){ return document.getElementById(id); }
   function esc(v){ return String(v == null ? "" : v).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]; }); }
   function norm(v){ return String(v == null ? "" : v).toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g,""); }
-  function tokenText(item){ return norm([item.title,item.summary,item.type,item.status,item.themeLabel,item.folderLabel,item.tags.join(" "),item.topics.join(" ")].join(" ")); }
+  function tokenText(item){ return norm([item.title,item.summary,item.type,item.status,item.themeLabel,item.folderLabel,item.promptFolder,item.tags.join(" "),item.topics.join(" "),item.prompt].join(" ")); }
   function score(item, terms){
     if(!terms.length) return 1;
     var text = tokenText(item);
@@ -153,9 +229,11 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
   }
   function terms(){ return norm(el("q").value).split(/\\s+/).filter(Boolean); }
   function filtered(){
-    var ts = terms(), theme = el("theme").value, status = el("status").value;
+    var ts = terms(), theme = el("theme").value, status = el("status").value, kind = el("kind").value, promptFolder = el("promptFolder").value;
     return ITEMS.map(function(item){ return Object.assign({_score: score(item, ts)}, item); })
       .filter(function(item){ return item._score > 0; })
+      .filter(function(item){ return kind === "all" || item.kind === kind; })
+      .filter(function(item){ return promptFolder === "all" || item.promptFolder === promptFolder; })
       .filter(function(item){ return theme === "all" || item.theme === theme; })
       .filter(function(item){ return status === "all" || item.status === status; })
       .sort(function(a,b){ return b._score - a._score || String(b.integratedAt).localeCompare(String(a.integratedAt)) || a.title.localeCompare(b.title); })
@@ -169,6 +247,7 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
     return rows.length ? rows : filtered().slice(0, 5);
   }
   function itemPrompt(item){
+    if(item.kind === "prompt") return "- prompt: "+item.title+"\\n  dossier: "+item.promptFolder+"\\n  chemin: "+item.path+"\\n  contenu:\\n"+String(item.prompt || "").split("\\n").map(function(line){return "    "+line;}).join("\\n");
     var lines = ["- titre: "+item.title, "  statut: "+item.status, "  theme: "+item.themeLabel, "  fiche: "+item.repoUrl];
     if(item.sourceUrl) lines.push("  source: "+item.sourceUrl);
     lines.push("  resume: "+(item.summary || item.type || "").replace(/\\s+/g," ").trim());
@@ -184,19 +263,23 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
       modes[el("mode").value] + "\\n\\n" +
       "## Objectif\\n" + (el("objective").value.trim() || "Analyse ces fiches KM et propose la prochaine action utile.") + "\\n\\n" +
       "## Contraintes\\n" + (el("constraints").value.trim() || "Reponse courte, factuelle, avec liens vers fiches et sources. Ne pas inventer.") + "\\n\\n" +
-      "## Contexte KM\\n" + rows.map(itemPrompt).join("\\n\\n") + "\\n\\n" +
+      "## Prompts et contexte\\n" + rows.map(itemPrompt).join("\\n\\n") + "\\n\\n" +
       "## Sortie attendue\\n- Synthese utile\\n- Points importants\\n- Risques ou limites\\n- Actions suivantes\\n- Sources utilisees";
   }
   function activeItem(){ return ITEMS.find(function(item){ return item.id === activeId; }) || filtered()[0] || ITEMS[0]; }
   function renderStats(){
+    var prompts = ITEMS.filter(function(item){ return item.kind === "prompt"; }).length;
+    var fiches = ITEMS.filter(function(item){ return item.kind === "fiche"; }).length;
     var red = ITEMS.filter(function(item){ return item.status === "#ROUGE"; }).length;
-    var active = ITEMS.filter(function(item){ return item.status === "actif"; }).length;
-    el("stats").innerHTML = '<div class="stat"><b>'+ITEMS.length+'</b> fiches</div><div class="stat"><b>'+active+'</b> actif</div><div class="stat"><b>'+red+'</b> #ROUGE</div><div class="stat"><b>'+selectedCount()+'</b> selection</div>';
+    el("stats").innerHTML = '<div class="stat"><b>'+prompts+'</b> prompts</div><div class="stat"><b>'+fiches+'</b> fiches</div><div class="stat"><b>'+red+'</b> #ROUGE</div><div class="stat"><b>'+selectedCount()+'</b> selection</div>';
   }
   function renderFilters(){
     var seen = {};
     var themes = ITEMS.map(function(item){ return [item.theme, item.themeLabel]; }).filter(function(row){ if(!row[0] || seen[row[0]]) return false; seen[row[0]] = true; return true; }).sort(function(a,b){ return a[1].localeCompare(b[1]); });
+    seen = {};
+    var folders = ITEMS.map(function(item){ return item.promptFolder; }).filter(function(folder){ if(!folder || seen[folder]) return false; seen[folder] = true; return true; }).sort();
     el("theme").innerHTML = '<option value="all">Tous themes</option>' + themes.map(function(row){ return '<option value="'+esc(row[0])+'">'+esc(row[1])+'</option>'; }).join("");
+    el("promptFolder").innerHTML = '<option value="all">Tous dossiers</option>' + folders.map(function(folder){ return '<option value="'+esc(folder)+'">'+esc(folder)+'</option>'; }).join("");
   }
   function renderFeed(){
     var rows = filtered();
@@ -206,7 +289,7 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
     el("selected").textContent = selectedCount() + " selectionnees";
     el("feed").innerHTML = rows.map(function(item){
       return '<article class="card '+(item.id===activeId?'active ':'')+(selected[item.id]?'selected':'')+'" data-id="'+esc(item.id)+'">' +
-        '<div class="chips">'+chip(item.status,statusClass(item.status))+chip(item.themeLabel)+chip(item.folderLabel)+'</div>' +
+        '<div class="chips">'+chip(item.kind)+chip(item.status,statusClass(item.status))+chip(item.promptFolder||item.themeLabel)+chip(item.folderLabel)+'</div>' +
         '<h3><button data-open="'+esc(item.id)+'">'+esc(item.title)+'</button></h3>' +
         '<p>'+esc(item.summary || item.type)+'</p>' +
         '<div class="actions" style="justify-content:flex-start;margin-top:8px"><button class="btn red" data-select="'+esc(item.id)+'">Selection</button><a class="btn" href="'+esc(item.repoUrl)+'">Fiche</a></div>' +
@@ -217,10 +300,11 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
     var item = activeItem();
     if(!item) return;
     el("path").textContent = item.path;
-    el("detail").innerHTML = '<section class="detail-title"><h1>'+esc(item.title)+'</h1><p>'+esc(item.summary || item.type)+'</p><div class="chips">'+chip(item.status,statusClass(item.status))+chip(item.themeLabel)+item.tags.slice(0,6).map(function(t){return chip(t)}).join("")+'</div></section>' +
+    el("detail").innerHTML = '<section class="detail-title"><h1>'+esc(item.title)+'</h1><p>'+esc(item.summary || item.type)+'</p><div class="chips">'+chip(item.kind)+chip(item.status,statusClass(item.status))+chip(item.promptFolder||item.themeLabel)+item.tags.slice(0,6).map(function(t){return chip(t)}).join("")+'</div></section>' +
       '<section class="detail-list"><div><b>Fiche</b><a href="'+esc(item.repoUrl)+'">'+esc(item.repoUrl)+'</a></div>' +
       (item.sourceUrl ? '<div><b>Source</b><a href="'+esc(item.sourceUrl)+'">'+esc(item.sourceUrl)+'</a></div>' : '') +
-      '<div><b>Tags</b>'+esc(item.tags.join(", ") || "-")+'</div><div><b>Topics</b>'+esc(item.topics.join(", ") || "-")+'</div></section>';
+      '<div><b>Dossier</b>'+esc(item.promptFolder || "-")+'</div><div><b>Tags</b>'+esc(item.tags.join(", ") || "-")+'</div><div><b>Topics</b>'+esc(item.topics.join(", ") || "-")+'</div>' +
+      (item.prompt ? '<div><b>Prompt</b><pre>'+esc(item.prompt)+'</pre></div>' : '') + '</section>';
   }
   function renderAll(){ renderStats(); renderFeed(); renderDetail(); el("prompt").textContent = buildPrompt(); }
   document.addEventListener("click", function(event){
@@ -229,7 +313,7 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
     if(open){ activeId = open; renderAll(); }
     if(select){ selected[select] ? delete selected[select] : selected[select] = true; renderAll(); }
   });
-  ["q","theme","status","mode","depth","objective","constraints"].forEach(function(id){
+  ["q","promptFolder","kind","theme","status","mode","depth","objective","constraints"].forEach(function(id){
     el(id).addEventListener("input", renderAll);
     el(id).addEventListener("change", renderAll);
   });
@@ -258,5 +342,5 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
 
 writeFileSync(join(root, "kprompt-index.json"), `${JSON.stringify(index, null, 2)}\n`, "utf8");
 writeFileSync(join(root, "kprompt.html"), html, "utf8");
-console.log(`Wrote kprompt.html with ${index.length} documents.`);
+console.log(`Wrote kprompt.html with ${promptIndex.length} prompts and ${kmIndex.length} KM fiches.`);
 console.log("Open kprompt.html directly; no server required.");

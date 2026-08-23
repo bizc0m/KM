@@ -16,7 +16,14 @@
     "defaultSort": "date",
     "defaultFolder": "all",
     "defaultTheme": "all",
-    "stats": ["total", "watch", "resources", "red", "sensitive", "verify"],
+    "stats": [
+      "total",
+      "watch",
+      "resources",
+      "red",
+      "sensitive",
+      "verify"
+    ],
     "exports": {
       "markdown": true,
       "json": true,
@@ -105,35 +112,208 @@
     }
   ],
   "themes": [
-    { "id": "agent", "label": "Agents IA", "keywords": ["agent", "agents", "ia", "ai", "automation", "workflow", "mcp"] },
-    { "id": "governance", "label": "AI Governance", "keywords": ["governance", "policy", "summit", "trust", "switzerland", "geneva"] },
-    { "id": "llm", "label": "LLM / API", "keywords": ["llm", "api", "openai", "provider", "inference", "model"] },
-    { "id": "dev", "label": "Dev tools", "keywords": ["github", "code", "devtools", "editor", "coding", "repo"] },
-    { "id": "osint", "label": "OSINT", "keywords": ["osint", "threat", "recon", "footprint", "intelligence"] },
-    { "id": "security", "label": "Security", "keywords": ["rouge", "pentest", "red team", "offensive", "vulnerability", "exploit", "malware"] },
-    { "id": "source", "label": "Sources", "keywords": ["rss", "source", "authors", "monitoring", "twitter", "x", "openrss"] },
-    { "id": "research", "label": "Research", "keywords": ["research", "paper", "citation", "scientific", "wiki"] },
-    { "id": "privacy", "label": "Privacy", "keywords": ["privacy", "local first", "session", "analytics", "tracking"] },
-    { "id": "media", "label": "Media", "keywords": ["design", "video", "image", "media", "voice", "remotion"] },
-    { "id": "watchlist", "label": "Watchlist", "keywords": ["directory", "watch", "inspiration", "competitor", "vibe"] },
-    { "id": "finance", "label": "Finance", "keywords": ["finance", "trading", "hedge", "terminal"] },
-    { "id": "tool", "label": "Tools", "keywords": ["tool", "outil", "saas", "app"] }
+    {
+      "id": "agent",
+      "label": "Agents IA",
+      "keywords": [
+        "agent",
+        "agents",
+        "ia",
+        "ai",
+        "automation",
+        "workflow",
+        "mcp"
+      ]
+    },
+    {
+      "id": "governance",
+      "label": "AI Governance",
+      "keywords": [
+        "governance",
+        "policy",
+        "summit",
+        "trust",
+        "switzerland",
+        "geneva"
+      ]
+    },
+    {
+      "id": "llm",
+      "label": "LLM / API",
+      "keywords": [
+        "llm",
+        "api",
+        "openai",
+        "provider",
+        "inference",
+        "model"
+      ]
+    },
+    {
+      "id": "dev",
+      "label": "Dev tools",
+      "keywords": [
+        "github",
+        "code",
+        "devtools",
+        "editor",
+        "coding",
+        "repo"
+      ]
+    },
+    {
+      "id": "osint",
+      "label": "OSINT",
+      "keywords": [
+        "osint",
+        "threat",
+        "recon",
+        "footprint",
+        "intelligence"
+      ]
+    },
+    {
+      "id": "security",
+      "label": "Security",
+      "keywords": [
+        "rouge",
+        "pentest",
+        "red team",
+        "offensive",
+        "vulnerability",
+        "exploit",
+        "malware"
+      ]
+    },
+    {
+      "id": "source",
+      "label": "Sources",
+      "keywords": [
+        "rss",
+        "source",
+        "authors",
+        "monitoring",
+        "twitter",
+        "x",
+        "openrss"
+      ]
+    },
+    {
+      "id": "research",
+      "label": "Research",
+      "keywords": [
+        "research",
+        "paper",
+        "citation",
+        "scientific",
+        "wiki"
+      ]
+    },
+    {
+      "id": "privacy",
+      "label": "Privacy",
+      "keywords": [
+        "privacy",
+        "local first",
+        "session",
+        "analytics",
+        "tracking"
+      ]
+    },
+    {
+      "id": "media",
+      "label": "Media",
+      "keywords": [
+        "design",
+        "video",
+        "image",
+        "media",
+        "voice",
+        "remotion"
+      ]
+    },
+    {
+      "id": "watchlist",
+      "label": "Watchlist",
+      "keywords": [
+        "directory",
+        "watch",
+        "inspiration",
+        "competitor",
+        "vibe"
+      ]
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "keywords": [
+        "finance",
+        "trading",
+        "hedge",
+        "terminal"
+      ]
+    },
+    {
+      "id": "tool",
+      "label": "Tools",
+      "keywords": [
+        "tool",
+        "outil",
+        "saas",
+        "app"
+      ]
+    }
   ],
+  "themeRouting": {
+    "folderDefaults": {},
+    "fileOverrides": {}
+  },
   "classification": {
     "red": {
       "status": "#ROUGE",
       "meaning": "outil offensif ou directement abusable",
-      "keywords": ["pentest", "red.?team", "offensive", "malware", "exploit", "anti-detection", "doxx", "stalking", "dark.?web", "leak"]
+      "keywords": [
+        "pentest",
+        "red.?team",
+        "offensive",
+        "malware",
+        "exploit",
+        "anti-detection",
+        "doxx",
+        "stalking",
+        "dark.?web",
+        "leak"
+      ]
     },
     "sensitive": {
       "status": "sensible",
       "meaning": "outil puissant, automation, scraping, donnees ou usage a cadrer",
-      "keywords": ["scrap", "crawler", "automation", "agent", "workflow", "memory", "api", "browser", "email", "vector", "search", "privacy"]
+      "keywords": [
+        "scrap",
+        "crawler",
+        "automation",
+        "agent",
+        "workflow",
+        "memory",
+        "api",
+        "browser",
+        "email",
+        "vector",
+        "search",
+        "privacy"
+      ]
     },
     "verify": {
       "status": "a verifier",
       "meaning": "signal incomplet ou source a qualifier",
-      "keywords": ["verifier", "verify", "unknown", "candidate", "a verifier", "à vérifier"]
+      "keywords": [
+        "verifier",
+        "verify",
+        "unknown",
+        "candidate",
+        "a verifier",
+        "à vérifier"
+      ]
     },
     "active": {
       "status": "actif",
@@ -141,7 +321,9 @@
     }
   },
   "hygiene": {
-    "excludedTags": ["raindrop-km-monitor"],
+    "excludedTags": [
+      "raindrop-km-monitor"
+    ],
     "forbiddenContent": [
       "secrets",
       "tokens",

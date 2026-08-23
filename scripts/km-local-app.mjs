@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 import { createServer } from "node:http";
-import { readFile, writeFile, mkdir, access } from "node:fs/promises";
+import { readFile, writeFile, mkdir, access, rename } from "node:fs/promises";
 import { constants } from "node:fs";
-import { dirname, join, resolve } from "node:path";
+import { basename, dirname, join, relative, resolve } from "node:path";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { fileURLToPath } from "node:url";
@@ -25,9 +25,31 @@ const defaultConfig = {
   }
 };
 
+function parseKeyValueLines(value) {
+  return String(value || "")
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => line && !line.startsWith("#"))
+    .reduce((acc, line) => {
+      const match = line.match(/^([^:=]+)\s*[:=]\s*(.+)$/);
+      if (!match) return acc;
+      acc[match[1].trim()] = match[2].trim();
+      return acc;
+    }, {});
+}
+
+function keyValueLines(value) {
+  return Object.entries(value || {})
+    .map(([key, val]) => `${key}=${val}`)
+    .join("\n");
+}
+
 function sendJson(res, status, payload) {
   const body = JSON.stringify(payload, null, 2);
   res.writeHead(status, {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
     "Content-Type": "application/json; charset=utf-8",
     "Content-Length": Buffer.byteLength(body)
   });
@@ -36,6 +58,7 @@ function sendJson(res, status, payload) {
 
 function sendHtml(res, body) {
   res.writeHead(200, {
+    "Access-Control-Allow-Origin": "*",
     "Content-Type": "text/html; charset=utf-8",
     "Content-Length": Buffer.byteLength(body)
   });
@@ -83,6 +106,83 @@ async function validateKmRoot(kmRoot) {
   return { root, ok: missing.length === 0, missing };
 }
 
+async function readProjectConfig(kmRoot) {
+  return JSON.parse(await readFile(join(resolve(kmRoot), "km.config.json"), "utf8"));
+}
+
+async function writeProjectConfig(kmRoot, projectConfig) {
+  await writeFile(join(resolve(kmRoot), "km.config.json"), `${JSON.stringify(projectConfig, null, 2)}\n`, "utf8");
+}
+
+function safeMarkdownPath(kmRoot, requestedPath) {
+  const root = resolve(kmRoot);
+  const raw = String(requestedPath || "").replace(/^\/+/, "");
+  if (!raw.endsWith(".md")) throw new Error("Fiche Markdown requise.");
+  const full = resolve(root, raw);
+  const rel = relative(root, full);
+  if (rel.startsWith("..") || rel.startsWith("/") || rel.includes("\0")) throw new Error("Chemin fiche invalide.");
+  return { root, full, rel };
+}
+
+function editHtml(filePath, content) {
+  return `<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modifier fiche KM</title>
+  <style>
+    :root{font-family:Arial,sans-serif;color:#161616;background:#f7f5ef}
+    body{margin:0;padding:18px}
+    main{max-width:1120px;margin:0 auto}
+    header{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:12px}
+    h1{font-size:22px;line-height:1.15;margin:0}
+    .path{font-family:Menlo,monospace;font-size:12px;background:#fff;border:1px solid #d8d2c6;padding:8px;overflow:auto;margin-bottom:10px}
+    textarea{box-sizing:border-box;width:100%;min-height:70vh;border:2px solid #151515;background:#fff;padding:12px;font:13px/1.45 Menlo,Consolas,monospace;resize:vertical}
+    button,a{border:2px solid #151515;background:#151515;color:#fff;font-weight:900;padding:9px 12px;text-decoration:none;cursor:pointer;font-size:12px;text-transform:uppercase}
+    .secondary{background:#fff;color:#151515}
+    .danger{background:#e50000;border-color:#e50000}
+    .row{display:flex;gap:8px;flex-wrap:wrap}
+    .status{white-space:pre-wrap;font-family:Menlo,monospace;font-size:12px;background:#111;color:#fff;padding:10px;margin-top:10px;min-height:42px}
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Modifier fiche KM</h1>
+    <div class="row">
+      <a class="secondary" href="/">Cockpit</a>
+      <a class="secondary" href="http://127.0.0.1:8766/search-v1.12.html">Fiches</a>
+      <button id="save">Enregistrer</button>
+      <button class="danger" id="archive">Archiver</button>
+    </div>
+  </header>
+  <div class="path" id="path">${escapeHtml(filePath)}</div>
+  <textarea id="content">${escapeHtml(content)}</textarea>
+  <div class="status" id="status">Pret.</div>
+</main>
+<script>
+const path=${JSON.stringify(filePath)};
+const statusEl=document.getElementById("status");
+function setStatus(value){statusEl.textContent=typeof value==="string"?value:JSON.stringify(value,null,2)}
+async function post(url,body){
+  setStatus("Execution...");
+  const res=await fetch(url,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)});
+  const json=await res.json();
+  setStatus(json);
+  return json;
+}
+document.getElementById("save").onclick=async()=>post("/api/save-fiche",{path,content:document.getElementById("content").value});
+document.getElementById("archive").onclick=async()=>{
+  if(!confirm("Archiver cette fiche ?"))return;
+  const json=await post("/api/archive-fiche",{path});
+  if(json.ok) setTimeout(()=>location.href="/",800);
+};
+</script>
+</body>
+</html>`;
+}
+
 async function chooseFolder() {
   const script = 'POSIX path of (choose folder with prompt "Choisir le dossier KM qui stocke les fiches")';
   const { stdout } = await execFileAsync("osascript", ["-e", script], { timeout: 120000 });
@@ -107,6 +207,12 @@ function html(config) {
   const sourceRows = (type) => (config.sources?.[type] || [])
     .map((url) => `<li><span>${escapeHtml(url)}</span></li>`)
     .join("") || "<li class=\"muted\">Aucune source</li>";
+  const projectConfig = config.projectConfig || {};
+  const themes = projectConfig.themes || [];
+  const folders = projectConfig.folders || [];
+  const routing = projectConfig.themeRouting || {};
+  const themeLegend = themes.map((theme) => `${theme.id} = ${theme.label}`).join(" · ");
+  const folderLegend = folders.map((folder) => `${folder.id} (${folder.path})`).join(" · ");
   return `<!doctype html>
 <html lang="fr">
 <head>
@@ -136,7 +242,10 @@ function html(config) {
 <main>
   <header>
     <h1>KM Monitor Local</h1>
-    <a class="button secondary" href="http://127.0.0.1:8766/${escapeHtml(config.dashboard || "search-v1.12.html")}">Dashboard</a>
+    <div class="row">
+      <a class="button secondary" href="http://127.0.0.1:8766/${escapeHtml(config.dashboard || "search-v1.12.html")}">Fiches</a>
+      <a class="button secondary" href="http://127.0.0.1:8766/kprompt.html">Kprompt</a>
+    </div>
   </header>
 
   <section class="panel">
@@ -158,6 +267,20 @@ function html(config) {
     <textarea id="reddit" placeholder="Un subreddit, thread ou flux par ligne">${escapeHtml((config.sources?.reddit || []).join("\\n"))}</textarea>
     <div class="row" style="margin-top:12px">
       <button id="saveSources">Enregistrer</button>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Themes dossiers / fiches</h2>
+    <p class="muted">Themes disponibles : ${escapeHtml(themeLegend || "aucun")}</p>
+    <p class="muted">Dossiers : ${escapeHtml(folderLegend || "aucun")}</p>
+    <label>Themes par dossier</label>
+    <textarea id="folderThemes" placeholder="watch=tool&#10;resources=research">${escapeHtml(keyValueLines(routing.folderDefaults))}</textarea>
+    <label>Themes forces par fiche</label>
+    <textarea id="fileThemes" placeholder="watch/ma-fiche.md=dev">${escapeHtml(keyValueLines(routing.fileOverrides))}</textarea>
+    <div class="row" style="margin-top:12px">
+      <button id="saveThemes">Enregistrer themes</button>
+      <button class="secondary" id="reloadThemes">Recharger</button>
     </div>
   </section>
 
@@ -185,6 +308,7 @@ function html(config) {
 const statusEl = document.getElementById("status");
 const kmRootEl = document.getElementById("kmRoot");
 function lines(id){return document.getElementById(id).value.split("\\n").map(x=>x.trim()).filter(Boolean)}
+function keyvals(id){return Object.fromEntries(document.getElementById(id).value.split("\\n").map(x=>x.trim()).filter(Boolean).map(line=>line.split(/[=:]/)).filter(parts=>parts.length>=2).map(parts=>[parts.shift().trim(),parts.join("=").trim()]).filter(([k,v])=>k&&v))}
 function setStatus(value){statusEl.textContent = typeof value === "string" ? value : JSON.stringify(value,null,2)}
 async function api(path, body){
   setStatus("Execution...");
@@ -197,6 +321,8 @@ async function api(path, body){
 document.getElementById("chooseRoot").onclick = () => api("/api/choose-root");
 document.getElementById("validateRoot").onclick = () => api("/api/validate-root");
 document.getElementById("saveSources").onclick = () => api("/api/save-sources",{sources:{rss:lines("rss"),twitter:lines("twitter"),reddit:lines("reddit")}});
+document.getElementById("saveThemes").onclick = () => api("/api/save-themes",{themeRouting:{folderDefaults:keyvals("folderThemes"),fileOverrides:keyvals("fileThemes")}});
+document.getElementById("reloadThemes").onclick = () => location.reload();
 document.getElementById("build").onclick = () => api("/api/build");
 document.getElementById("ingest").onclick = () => api("/api/ingest-raindrop");
 </script>
@@ -215,11 +341,20 @@ function escapeHtml(value) {
 const server = createServer(async (req, res) => {
   try {
     const config = await readConfig();
-    if (req.method === "GET" && req.url === "/") return sendHtml(res, html(config));
-    if (req.method === "GET" && req.url === "/api/config") return sendJson(res, 200, { ok: true, config });
+    if (req.method === "OPTIONS") return sendJson(res, 200, { ok: true });
+    try {
+      config.projectConfig = await readProjectConfig(config.kmRoot);
+    } catch {}
+    const url = new URL(req.url || "/", `http://${HOST}:${DEFAULT_PORT}`);
+    if (req.method === "GET" && url.pathname === "/") return sendHtml(res, html(config));
+    if (req.method === "GET" && url.pathname === "/edit") {
+      const fiche = safeMarkdownPath(config.kmRoot, url.searchParams.get("path"));
+      return sendHtml(res, editHtml(fiche.rel, await readFile(fiche.full, "utf8")));
+    }
+    if (req.method === "GET" && url.pathname === "/api/config") return sendJson(res, 200, { ok: true, config });
     if (req.method !== "POST") return sendJson(res, 404, { ok: false, error: "not_found" });
 
-    if (req.url === "/api/choose-root") {
+    if (url.pathname === "/api/choose-root") {
       const picked = await chooseFolder();
       const validation = await validateKmRoot(picked);
       const next = { ...config, kmRoot: validation.root };
@@ -227,12 +362,12 @@ const server = createServer(async (req, res) => {
       return sendJson(res, validation.ok ? 200 : 422, { ok: validation.ok, config: next, validation });
     }
 
-    if (req.url === "/api/validate-root") {
+    if (url.pathname === "/api/validate-root") {
       const validation = await validateKmRoot(config.kmRoot);
       return sendJson(res, validation.ok ? 200 : 422, { ok: validation.ok, config, validation });
     }
 
-    if (req.url === "/api/save-sources") {
+    if (url.pathname === "/api/save-sources") {
       const body = await readBody(req);
       const next = {
         ...config,
@@ -246,14 +381,58 @@ const server = createServer(async (req, res) => {
       return sendJson(res, 200, { ok: true, config: next });
     }
 
-    if (req.url === "/api/build") {
+    if (url.pathname === "/api/save-themes") {
+      const body = await readBody(req);
+      const validation = await validateKmRoot(config.kmRoot);
+      if (!validation.ok) return sendJson(res, 422, { ok: false, validation });
+      const projectConfig = await readProjectConfig(validation.root);
+      const themeIds = new Set((projectConfig.themes || []).map((theme) => theme.id));
+      const cleanRouting = {
+        folderDefaults: Object.fromEntries(
+          Object.entries(body.themeRouting?.folderDefaults || {}).filter(([, theme]) => themeIds.has(theme))
+        ),
+        fileOverrides: Object.fromEntries(
+          Object.entries(body.themeRouting?.fileOverrides || {}).filter(([, theme]) => themeIds.has(theme))
+        )
+      };
+      projectConfig.themeRouting = cleanRouting;
+      await writeProjectConfig(validation.root, projectConfig);
+      const result = await runNodeScript("build-search-v1.12-html.mjs", validation.root);
+      return sendJson(res, 200, { ok: true, action: "save-themes", themeRouting: cleanRouting, build: result });
+    }
+
+    if (url.pathname === "/api/save-fiche") {
+      const body = await readBody(req);
+      const validation = await validateKmRoot(config.kmRoot);
+      if (!validation.ok) return sendJson(res, 422, { ok: false, validation });
+      const fiche = safeMarkdownPath(validation.root, body.path);
+      await writeFile(fiche.full, String(body.content || "").replace(/\s*$/, "\n"), "utf8");
+      const build = await runNodeScript("build-search-v1.12-html.mjs", validation.root);
+      return sendJson(res, 200, { ok: true, action: "save-fiche", path: fiche.rel, build });
+    }
+
+    if (url.pathname === "/api/archive-fiche") {
+      const body = await readBody(req);
+      const validation = await validateKmRoot(config.kmRoot);
+      if (!validation.ok) return sendJson(res, 422, { ok: false, validation });
+      const fiche = safeMarkdownPath(validation.root, body.path);
+      const day = new Date().toISOString().slice(0, 10);
+      const archiveDir = join(validation.root, "archive", day);
+      await mkdir(archiveDir, { recursive: true });
+      const target = join(archiveDir, basename(fiche.full));
+      await rename(fiche.full, target);
+      const build = await runNodeScript("build-search-v1.12-html.mjs", validation.root);
+      return sendJson(res, 200, { ok: true, action: "archive-fiche", from: fiche.rel, to: relative(validation.root, target), build });
+    }
+
+    if (url.pathname === "/api/build") {
       const validation = await validateKmRoot(config.kmRoot);
       if (!validation.ok) return sendJson(res, 422, { ok: false, validation });
       const result = await runNodeScript("build-search-v1.12-html.mjs", validation.root);
       return sendJson(res, 200, { ok: true, action: "build", ...result });
     }
 
-    if (req.url === "/api/ingest-raindrop") {
+    if (url.pathname === "/api/ingest-raindrop") {
       const validation = await validateKmRoot(config.kmRoot);
       if (!validation.ok) return sendJson(res, 422, { ok: false, validation });
       const ingest = await runNodeScript("km-raindrop-rss-ingest.mjs", validation.root);
