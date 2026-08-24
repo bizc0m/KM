@@ -414,6 +414,7 @@ function globalMenu(current = "", prefix = "") {
     ["search", "Recherche", `${prefix}search-v1.12.html`],
     ["watch", "Watch", `${prefix}public/folders/watch.html`],
     ["resources", "Resources", `${prefix}public/folders/resources.html`],
+    ["books", "Books", `${prefix}public/folders/books.html`],
     ["kprompt", "Kprompt", `${prefix}kprompt.html`],
     ["app", "App locale", "http://127.0.0.1:8767/"]
   ];
@@ -426,7 +427,7 @@ function breadcrumb(items) {
 
 function sharePage(title, subtitle, rows) {
   const lower = title.toLowerCase();
-  const current = lower.includes("watch") ? "watch" : lower.includes("resources") ? "resources" : "search";
+  const current = lower.includes("watch") ? "watch" : lower.includes("resources") ? "resources" : lower.includes("books") ? "books" : "search";
   return `<!doctype html>
 <html lang="fr">
 <head>

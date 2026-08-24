@@ -14,6 +14,7 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | `km:history` | `km/history.md` | historique | #km, #changelog | actif |
 | `km:proton-luna-poeme` | `km/proton-luna-poeme.md` | fragment poetique | #proton, #luna, #poeme, #nuit, #flamme, #lore | actif |
 | `watch:index` | `watch/index.md` | index | #veille | actif |
+| `book:index` | `books/index.md` | index | #books, #livres, #ocr | actif |
 | `watch:ai-trending` | `watch/ai-trending.md` | veille | #ia, #github, #trending | actif |
 | `watch:ai-open-source-tools-watch` | `watch/ai-open-source-tools-watch.md` | veille | #ia, #open-source, #devtools, #saas, #osint | actif |
 | `watch:ai-open-source-tools-inventory` | `watch/ai-open-source-tools-inventory.md` | inventaire | #ia, #tools, #github, #inventory | actif |

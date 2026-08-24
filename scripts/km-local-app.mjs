@@ -21,6 +21,7 @@ const defaultConfig = {
   noteplanPath: "/Users/JOB/Library/Containers/co.noteplan.NotePlan-setapp/Data/Library/Application Support/co.noteplan.NotePlan-setapp/Calendar",
   noteplanInboxRoot: "/Users/JOB/Library/Containers/co.noteplan.NotePlan-setapp/Data/Library/Application Support/co.noteplan.NotePlan-setapp/Notes/## KM",
   noteplanProject: "DEV",
+  bookInboxPath: join(APP_ROOT, "books", "_inbox"),
   sources: {
     rss: [],
     twitter: [],
@@ -172,6 +173,30 @@ async function walkMarkdown(dir, limit = 2000) {
   }
   await walk(dir);
   return out;
+}
+
+async function walkImages(path, limit = 200) {
+  const root = resolve(path);
+  const rootStat = await stat(root);
+  const images = [];
+  const imagePattern = /\.(jpe?g|png|heic|heif|tiff?|webp)$/i;
+  async function walk(current) {
+    if (images.length >= limit) return;
+    const entries = await readdir(current, { withFileTypes: true });
+    for (const entry of entries) {
+      if (entry.name.startsWith(".") || entry.name === "node_modules") continue;
+      const full = join(current, entry.name);
+      if (entry.isDirectory()) await walk(full);
+      if (entry.isFile() && imagePattern.test(entry.name)) images.push(full);
+      if (images.length >= limit) return;
+    }
+  }
+  if (rootStat.isFile()) {
+    if (!imagePattern.test(root)) throw new Error("Image attendue : jpg, png, heic, tiff ou webp.");
+    return [root];
+  }
+  await walk(root);
+  return images;
 }
 
 function extractUrls(content) {
@@ -347,6 +372,20 @@ function slugify(value) {
     .slice(0, 90) || "noteplan-url";
 }
 
+function bookSlug(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 90) || "livre-a-verifier";
+}
+
+function compactText(value, limit = 800) {
+  return String(value || "").replace(/\s+/g, " ").trim().slice(0, limit);
+}
+
 function titleFromUrl(url) {
   try {
     const parsed = new URL(url);
@@ -455,6 +494,375 @@ ${item.project ? `- \`projet:${item.project}\`` : ""}
 - Fichiers touches : \`${target.rel}\`, \`index.md\`${target.folder === "watch" ? ", `watch/index.md`" : ""}.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
 `;
+}
+
+async function commandAvailable(command) {
+  try {
+    await execFileAsync("which", [command], { timeout: 10000 });
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function ocrImage(imagePath) {
+  const visionScript = join(APP_ROOT, "scripts", "km-ocr-vision.swift");
+  if (await exists(visionScript) && await commandAvailable("swift")) {
+    try {
+      const result = await execFileAsync("swift", [visionScript, imagePath], {
+        timeout: 120000,
+        maxBuffer: 1024 * 1024 * 2
+      });
+      return { available: true, engine: "macos-vision", text: result.stdout, stderr: result.stderr };
+    } catch (error) {
+      if (!(await commandAvailable("tesseract"))) {
+        return { available: false, engine: "macos-vision", text: error.stdout || "", stderr: error.stderr || error.message };
+      }
+    }
+  }
+  if (!(await commandAvailable("tesseract"))) {
+    return { available: false, engine: "none", text: "", stderr: "OCR indisponible" };
+  }
+  try {
+    const result = await execFileAsync("tesseract", [imagePath, "stdout", "-l", "fra+eng"], {
+      timeout: 120000,
+      maxBuffer: 1024 * 1024 * 2
+    });
+    return { available: true, engine: "tesseract", text: result.stdout, stderr: result.stderr };
+  } catch (error) {
+    return { available: true, engine: "tesseract", text: error.stdout || "", stderr: error.stderr || error.message };
+  }
+}
+
+function extractIsbn(text) {
+  const candidates = String(text || "").match(/(?:ISBN(?:-1[03])?[:\s]*)?(97[89][-\s]?)?\d[-\s]?\d{2,5}[-\s]?\d{2,7}[-\s]?[\dXx]/g) || [];
+  for (const candidate of candidates) {
+    const compact = candidate.replace(/^ISBN(?:-1[03])?[:\s]*/i, "").replace(/[-\s]/g, "").toUpperCase();
+    if (/^(97[89])?\d{9}[\dX]$/.test(compact)) return compact;
+  }
+  return "";
+}
+
+async function fetchJson(url) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 12000);
+  try {
+    const response = await fetch(url, {
+      redirect: "follow",
+      signal: controller.signal,
+      headers: { "Accept": "application/json", "User-Agent": "KM-Local-App/1.0" }
+    });
+    if (!response.ok) return null;
+    return await response.json();
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+async function lookupOpenLibraryByIsbn(isbn) {
+  const cleanIsbn = String(isbn || "").replace(/[-\s]/g, "").toUpperCase();
+  if (!/^(97[89])?\d{9}[\dX]$/.test(cleanIsbn)) return null;
+  const work = await fetchJson(`https://openlibrary.org/isbn/${encodeURIComponent(cleanIsbn)}.json`);
+  if (!work) return { isbn: cleanIsbn, found: false, provider: "openlibrary" };
+  const authorNames = [];
+  for (const author of (work.authors || []).slice(0, 4)) {
+    const key = author?.key;
+    if (!key) continue;
+    const authorData = await fetchJson(`https://openlibrary.org${key}.json`);
+    if (authorData?.name) authorNames.push(authorData.name);
+  }
+  return {
+    isbn: cleanIsbn,
+    found: true,
+    provider: "openlibrary",
+    title: compactText(work.title || "", 180),
+    subtitle: compactText(work.subtitle || "", 180),
+    authors: [...new Set(authorNames)],
+    publishers: (work.publishers || []).slice(0, 4).map((value) => compactText(value, 120)).filter(Boolean),
+    publishDate: compactText(work.publish_date || "", 80),
+    pages: work.number_of_pages || "",
+    languages: (work.languages || []).map((lang) => String(lang.key || "").replace("/languages/", "")).filter(Boolean),
+    openLibraryUrl: `https://openlibrary.org/isbn/${cleanIsbn}`
+  };
+}
+
+function mergeBookReference(fields, reference) {
+  if (!reference?.found) return { ...fields, reference: reference || null };
+  const titleParts = [reference.title, reference.subtitle].filter(Boolean);
+  return {
+    ...fields,
+    title: fields.title && fields.title !== basename(fields.imagePath || "").replace(/\.[^.]+$/, "").replace(/[-_]+/g, " ")
+      ? fields.title
+      : compactText(titleParts.join(" - ") || fields.title, 180),
+    author: fields.author || reference.authors.join(", "),
+    source: fields.source || reference.openLibraryUrl || "photo locale non stockee",
+    reference
+  };
+}
+
+function extractBookFields({ imagePath, ocrText, title = "", author = "", isbn = "", source = "", tags = "" }) {
+  const lines = String(ocrText || "")
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => line && line.length >= 3 && !/^isbn\b/i.test(line))
+    .slice(0, 8);
+  const inferredTitle = title || lines[0] || basename(imagePath).replace(/\.[^.]+$/, "").replace(/[-_]+/g, " ");
+  const inferredAuthor = author || lines.find((line, index) => index > 0 && !/\d{4}|edition|publisher|isbn/i.test(line)) || "";
+  const cleanTags = String(tags || "livre, photo, ocr, km")
+    .split(",")
+    .map((tag) => bookSlug(tag.trim()))
+    .filter(Boolean);
+  return {
+    imagePath,
+    title: compactText(inferredTitle, 160),
+    author: compactText(inferredAuthor, 120),
+    isbn: compactText(isbn || extractIsbn(ocrText), 32),
+    source: compactText(source || "photo locale non stockee", 220),
+    tags: [...new Set(cleanTags)],
+    ocrPreview: compactText(ocrText, 1200)
+  };
+}
+
+async function existingBookKeys(kmRoot) {
+  const root = resolve(kmRoot);
+  const files = [];
+  for (const folder of ["books", "resources", "km"]) {
+    const full = join(root, folder);
+    if (await exists(full)) files.push(...await walkMarkdown(full, 5000));
+  }
+  const keys = new Map();
+  for (const file of files) {
+    const rel = relative(root, file);
+    const content = await readFile(file, "utf8");
+    for (const isbn of String(content).match(/\b(?:97[89])?\d{9}[\dX]\b/gi) || []) {
+      const key = `isbn:${isbn.toUpperCase()}`;
+      if (!keys.has(key)) keys.set(key, []);
+      keys.get(key).push(rel);
+    }
+    const heading = firstMarkdownHeading(content);
+    if (heading) {
+      const key = `title:${bookSlug(heading)}`;
+      if (!keys.has(key)) keys.set(key, []);
+      keys.get(key).push(rel);
+    }
+  }
+  return keys;
+}
+
+function firstMarkdownHeading(content) {
+  return String(content || "").match(/^#\s+(.+)$/m)?.[1]?.trim() || "";
+}
+
+async function scanBookPhotos({ bookPath, kmRoot, title = "", author = "", isbn = "", source = "", tags = "" }) {
+  const root = safeReadableRoot(bookPath);
+  const images = await walkImages(root);
+  const keys = await existingBookKeys(kmRoot);
+  const candidates = [];
+  let ocrAvailable = null;
+  for (const imagePath of images) {
+    const ocr = await ocrImage(imagePath);
+    ocrAvailable = ocr.available;
+    let fields = extractBookFields({
+      imagePath,
+      ocrText: ocr.text,
+      title: images.length === 1 ? title : "",
+      author: images.length === 1 ? author : "",
+      isbn: images.length === 1 ? isbn : "",
+      source: images.length === 1 ? source : "",
+      tags
+    });
+    const reference = await lookupOpenLibraryByIsbn(fields.isbn);
+    fields = mergeBookReference(fields, reference);
+    const fileTitle = basename(imagePath).replace(/\.[^.]+$/, "").replace(/[-_]+/g, " ");
+    if (!title && reference?.found && (!fields.title || fields.title === fileTitle)) {
+      fields.title = compactText([reference.title, reference.subtitle].filter(Boolean).join(" - "), 180);
+    }
+    if (!author && reference?.found && reference.authors.length) fields.author = compactText(reference.authors.join(", "), 180);
+    const titleKey = `title:${bookSlug(fields.title)}`;
+    const isbnKey = fields.isbn ? `isbn:${fields.isbn}` : "";
+    const duplicatePaths = [...new Set([...(isbnKey ? keys.get(isbnKey) || [] : []), ...(keys.get(titleKey) || [])])];
+    candidates.push({
+      imagePath,
+      imageName: basename(imagePath),
+      title: fields.title,
+      author: fields.author,
+      isbn: fields.isbn,
+      source: fields.source,
+      reference: fields.reference,
+      tags: fields.tags,
+      ocrAvailable: ocr.available,
+      ocrEngine: ocr.engine || "",
+      ocrWarning: ocr.stderr ? compactText(ocr.stderr, 300) : "",
+      ocrPreview: fields.ocrPreview,
+      duplicate: duplicatePaths.length > 0,
+      duplicatePaths,
+      classification: "a verifier",
+      targetFolder: "books"
+    });
+  }
+  return {
+    ok: true,
+    mode: "dry-run",
+    source: "books-photo",
+    bookPath: root,
+    imagesFound: images.length,
+    ocrAvailable: Boolean(ocrAvailable),
+    duplicates: candidates.filter((item) => item.duplicate).length,
+    newCandidates: candidates.filter((item) => !item.duplicate).length,
+    candidates,
+    next: "Aucune injection effectuee. Corriger titre/auteur/ISBN si besoin puis injecter."
+  };
+}
+
+function bookFicheMarkdown(item, target, date) {
+  const tags = item.tags.map((tag) => `#${tag}`).join(", ");
+  const sourceLine = item.source || "photo locale non stockee";
+  const ref = item.reference || {};
+  const referenceLines = ref?.found ? [
+    `- Provider : ${ref.provider}`,
+    `- URL reference : ${ref.openLibraryUrl}`,
+    `- Titre reference : ${ref.title || "A verifier"}`,
+    ref.subtitle ? `- Sous-titre : ${ref.subtitle}` : "",
+    ref.authors?.length ? `- Auteur(s) reference : ${ref.authors.join(", ")}` : "",
+    ref.publishers?.length ? `- Editeur(s) : ${ref.publishers.join(", ")}` : "",
+    ref.publishDate ? `- Date publication : ${ref.publishDate}` : "",
+    ref.pages ? `- Pages : ${ref.pages}` : "",
+    ref.languages?.length ? `- Langue(s) : ${ref.languages.join(", ")}` : ""
+  ].filter(Boolean).join("\n") : "- Reference externe : A verifier";
+  return `# ${item.title}
+
+## Type
+
+Fiche synthese livre depuis photo / OCR.
+
+## Tags
+
+${tags}
+
+## Appel canonique
+
+\`${target.canonical}\`
+
+## Donnees bibliographiques
+
+- Titre : ${item.title}
+- Auteur/source : ${item.author || "A verifier"}
+- ISBN : ${item.isbn || "A verifier"}
+- Date d'integration : ${date}
+- Source : ${sourceLine}
+- Image locale analysee : ${item.imageName} (non stockee dans KM)
+
+## Reference conservee
+
+${referenceLines}
+
+## Synthese
+
+Livre identifie depuis une photo locale. Cette fiche conserve la reference bibliographique exploitable et sert de point d'entree pour une future note de lecture.
+
+### Ce qui est etabli
+
+- Titre detecte ou renseigne : ${item.title}
+- Auteur detecte ou renseigne : ${item.author || "A verifier"}
+- ISBN detecte ou renseigne : ${item.isbn || "A verifier"}
+- Reference externe : ${ref?.found ? "trouvee" : "non confirmee"}
+
+### A completer apres lecture
+
+- These du livre.
+- Idees fortes.
+- Concepts reutilisables.
+- Liens avec projets KM.
+
+## Usage KM
+
+- Indexer le livre sans copier le contenu sous copyright.
+- Relier ensuite aux projets, concepts, notes de lecture et ressources.
+- Completer par une synthese originale apres lecture.
+
+## Extrait OCR court
+
+${item.ocrPreview || "OCR indisponible ou non exploitable. Completer manuellement depuis la couverture/page ISBN."}
+
+## Risque d'abus possible
+
+- ISBN ou auteur mal detecte si la photo est floue.
+- Ne pas stocker de scan, photo brute, PDF complet ou longs passages sous copyright.
+- Verifier les metadonnees avant usage public.
+
+## Classification
+
+a verifier
+
+## Relations
+
+- \`source:photo-livre\`
+- \`bucket:books\`
+${item.isbn ? `- \`isbn:${item.isbn}\`` : ""}
+${ref?.openLibraryUrl ? `- \`reference:${ref.openLibraryUrl}\`` : ""}
+
+## Historique
+
+### v0.1 - ${date}
+
+- Objectif : creation depuis onglet Books / Photo.
+- Fichiers touches : \`${target.rel}\`, \`books/index.md\`, \`index.md\`.
+- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+`;
+}
+
+async function ensureMarkdownIndex(path, title) {
+  if (await exists(path)) return;
+  await mkdir(dirname(path), { recursive: true });
+  await writeFile(path, `# ${title}
+
+| Appel | Fichier | Type | Tags | Statut |
+| --- | --- | --- | --- | --- |
+`, "utf8");
+}
+
+async function ingestBookPhotos({ bookPath, kmRoot, title = "", author = "", isbn = "", source = "", tags = "" }) {
+  const report = await scanBookPhotos({ bookPath, kmRoot, title, author, isbn, source, tags });
+  const root = resolve(kmRoot);
+  const date = new Date().toISOString().slice(0, 10);
+  await ensureMarkdownIndex(join(root, "books", "index.md"), "Books Index");
+  const created = [];
+  const skipped = [];
+  for (const item of report.candidates) {
+    if (item.duplicate) {
+      skipped.push({ title: item.title, isbn: item.isbn, reason: "duplicate", duplicatePaths: item.duplicatePaths });
+      continue;
+    }
+    const slug = bookSlug(`${item.title} ${item.author || ""}`);
+    const target = await uniqueMarkdownPath(root, "books", slug);
+    target.folder = "books";
+    target.canonical = `book:${target.slug}`;
+    await mkdir(dirname(target.full), { recursive: true });
+    await writeFile(target.full, bookFicheMarkdown(item, target, date), "utf8");
+    const tagsText = item.tags.join(", ");
+    const globalLine = `| \`${target.canonical}\` | \`${target.rel}\` | book-photo | ${tagsText} | a verifier |`;
+    await appendUniqueFile(join(root, "index.md"), globalLine);
+    await appendUniqueFile(join(root, "books", "index.md"), globalLine);
+    if (await exists(join(root, "km", "history.md"))) {
+      const historyLine = `| ${date} | Creation fiche ${target.canonical} depuis photo livre | ${target.rel}, books/index.md, index.md | OCR/metadonnees a verifier ; photo brute non stockee | Supprimer la fiche et retirer les lignes d'index |`;
+      await appendUniqueFile(join(root, "km", "history.md"), historyLine);
+    }
+    created.push({ path: target.rel, canonical: target.canonical, title: item.title, isbn: item.isbn, classification: "a verifier" });
+  }
+  const searchBuild = await runNodeScript("build-search-v1.12-html.mjs", root);
+  const kpromptBuild = await runNodeScript("build-kprompt-html.mjs", root);
+  return {
+    ok: true,
+    action: "books-photo-ingest",
+    bookPath: report.bookPath,
+    created,
+    skipped,
+    totalCandidates: report.candidates.length,
+    searchBuild,
+    kpromptBuild
+  };
 }
 
 async function ingestNotePlan({ noteplanPath, startDate, endDate, kmRoot, scope = "watch", sourceMode = "calendar", inboxRoot = "", project = "" }) {
@@ -575,6 +983,7 @@ function appMenu(current = "app") {
     ["search", "Recherche", "/search-v1.12.html"],
     ["watch", "Watch", "/public/folders/watch.html"],
     ["resources", "Resources", "/public/folders/resources.html"],
+    ["books", "Books", "/public/folders/books.html"],
     ["kprompt", "Kprompt", "/kprompt.html"],
     ["app", "App locale", "/"]
   ];
@@ -743,6 +1152,7 @@ ${appBreadcrumb([{ label: "KM", href: "/index.html" }, { label: "App locale" }])
   <nav class="tabs" aria-label="Onglets app">
     <button class="tab active" data-tab="veille" type="button">Veille</button>
     <button class="tab" data-tab="noteplan" type="button">NotePlan</button>
+    <button class="tab" data-tab="books" type="button">Books / Photo</button>
   </nav>
 
   <div class="tab-panel" id="tab-veille">
@@ -846,10 +1256,52 @@ ${appBreadcrumb([{ label: "KM", href: "/index.html" }, { label: "App locale" }])
     <div class="status" id="noteplanReport">Pret. Donne un path NotePlan, choisis une periode, puis scanne.</div>
   </section>
   </div>
+
+  <div class="tab-panel" id="tab-books" hidden>
+  <section class="panel">
+    <h2>Books / Photo dry-run</h2>
+    <p class="muted">Analyse une photo ou un dossier d'images. Les photos ne sont pas copiees dans KM.</p>
+    <div class="field" style="margin-top:12px">
+      <label for="bookPath">Path photo ou dossier</label>
+      <input id="bookPath" value="${escapeHtml(config.bookInboxPath || defaultConfig.bookInboxPath)}" placeholder="/Users/JOB/.../books/_inbox">
+    </div>
+    <div class="range" style="margin-top:12px">
+      <div class="field">
+        <label for="bookTitle">Titre manuel</label>
+        <input id="bookTitle" placeholder="Optionnel, utile si OCR absent">
+      </div>
+      <div class="field">
+        <label for="bookAuthor">Auteur manuel</label>
+        <input id="bookAuthor" placeholder="Optionnel">
+      </div>
+      <div class="field">
+        <label for="bookIsbn">ISBN manuel</label>
+        <input id="bookIsbn" placeholder="Optionnel">
+      </div>
+      <div class="field">
+        <label for="bookTags">Tags</label>
+        <input id="bookTags" value="livre, photo, ocr, km">
+      </div>
+    </div>
+    <div class="field" style="margin-top:12px">
+      <label for="bookSource">Source / contexte</label>
+      <input id="bookSource" placeholder="photo locale non stockee">
+    </div>
+    <div class="row" style="margin-top:12px">
+      <button id="scanBooks" type="button">Scanner photo</button>
+      <button class="secondary" id="ingestBooks" type="button">Injecter livres</button>
+    </div>
+  </section>
+  <section class="panel">
+    <h2>Rapport Books avant injection</h2>
+    <div class="status" id="booksReport">Pret. Donne une photo ou un dossier, scanne, puis injecte uniquement si le rapport est correct.</div>
+  </section>
+  </div>
 </main>
 <script>
 const statusEl = document.getElementById("status");
 const noteplanReportEl = document.getElementById("noteplanReport");
+const booksReportEl = document.getElementById("booksReport");
 const kmRootEl = document.getElementById("kmRoot");
 function lines(id){return document.getElementById(id).value.split("\\n").map(x=>x.trim()).filter(Boolean)}
 function keyvals(id){return Object.fromEntries(document.getElementById(id).value.split("\\n").map(x=>x.trim()).filter(Boolean).map(line=>line.split(/[=:]/)).filter(parts=>parts.length>=2).map(parts=>[parts.shift().trim(),parts.join("=").trim()]).filter(([k,v])=>k&&v))}
@@ -887,6 +1339,36 @@ function renderNotePlanReport(json){
   return escHtml(JSON.stringify(json,null,2));
 }
 function setNotePlanReport(value){noteplanReportEl.innerHTML = renderNotePlanReport(value)}
+function renderBooksReport(json){
+  if(!json || typeof json !== "object") return escHtml(json || "");
+  if(json.action === "books-photo-ingest"){
+    var created = json.created || [], skipped = json.skipped || [];
+    return [
+      "<strong>INJECTION BOOKS / PHOTO</strong>",
+      "Source: " + escHtml(json.bookPath || "-"),
+      "Candidats: " + escHtml(json.totalCandidates || 0),
+      "Fiches creees: " + created.length,
+      "Doublons ignores: " + skipped.length,
+      created.length ? "\\nFICHES CREEES\\n" + created.map(function(item){return "- <a href=\\"/edit?path=" + encodeURIComponent(item.path) + "\\" target=\\"_blank\\">" + escHtml(item.path) + "</a> | " + escHtml(item.title) + " | ISBN " + escHtml(item.isbn || "A_VERIFIER")}).join("\\n") : "\\nAUCUNE FICHE CREEE.",
+      skipped.length ? "\\nDOUBLONS\\n" + skipped.map(function(item){return "- " + escHtml(item.title || item.isbn || "-") + " -> " + escHtml((item.duplicatePaths || []).join(", "))}).join("\\n") : "",
+      '\\n<a href="/search-v1.12.html">Ouvrir Search</a>'
+    ].filter(Boolean).join("\\n");
+  }
+  if(json.mode === "dry-run" && json.source === "books-photo"){
+    var candidates = json.candidates || [];
+    return [
+      "<strong>SCAN BOOKS / PHOTO DRY-RUN</strong>",
+      "Path: " + escHtml(json.bookPath || "-"),
+      "Images trouvees: " + escHtml(json.imagesFound || 0),
+      "OCR local: " + escHtml(json.ocrAvailable ? "actif" : "indisponible"),
+      "Nouveaux candidats: " + escHtml(json.newCandidates || 0),
+      "Doublons: " + escHtml(json.duplicates || 0),
+      candidates.length ? "\\nCANDIDATS\\n" + candidates.slice(0,80).map(function(item){var ref=item.reference&&item.reference.found?(" | ref " + item.reference.provider):" | ref A_VERIFIER";return "- " + escHtml(item.duplicate ? "DOUBLON" : "NOUVEAU") + " | " + escHtml(item.imageName) + " | " + escHtml(item.ocrEngine || "ocr") + " | " + escHtml(item.title) + " | " + escHtml(item.author || "Auteur A_VERIFIER") + " | ISBN " + escHtml(item.isbn || "A_VERIFIER") + escHtml(ref) + (item.ocrWarning ? " | " + escHtml(item.ocrWarning) : "")}).join("\\n") : "\\nAucune image exploitable."
+    ].join("\\n");
+  }
+  return escHtml(JSON.stringify(json,null,2));
+}
+function setBooksReport(value){booksReportEl.innerHTML = renderBooksReport(value)}
 async function api(path, body){
   setStatus("Execution...");
   const res = await fetch(path,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body||{})});
@@ -924,6 +1406,29 @@ document.getElementById("chooseNotePlanPath").onclick = async () => {
   const json = await res.json();
   if(json.ok) document.getElementById("noteplanPath").value = json.noteplanPath;
   setNotePlanReport(json);
+};
+function bookPayload(){
+  return {
+    bookPath: document.getElementById("bookPath").value,
+    title: document.getElementById("bookTitle").value,
+    author: document.getElementById("bookAuthor").value,
+    isbn: document.getElementById("bookIsbn").value,
+    source: document.getElementById("bookSource").value,
+    tags: document.getElementById("bookTags").value
+  };
+}
+document.getElementById("scanBooks").onclick = async () => {
+  setBooksReport("Scan Books / Photo...");
+  const res = await fetch("/api/books-scan",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(bookPayload())});
+  const json = await res.json();
+  setBooksReport(json);
+};
+document.getElementById("ingestBooks").onclick = async () => {
+  if(!confirm("Injecter ces livres dans KM ? Les photos ne seront pas copiees.")) return;
+  setBooksReport("Injection Books / Photo...");
+  const res = await fetch("/api/books-ingest",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(bookPayload())});
+  const json = await res.json();
+  setBooksReport(json);
 };
 setDefaultDates();
 </script>
@@ -1081,6 +1586,45 @@ const server = createServer(async (req, res) => {
         project: body.project || nextConfig.noteplanProject
       });
       await appendLog(`NOTEPLAN_INGEST | created=${report.created.length} skipped=${report.skipped.length} range=${report.range.start}..${report.range.end}`, validation.root);
+      return sendJson(res, 200, report);
+    }
+
+    if (url.pathname === "/api/books-scan") {
+      const body = await readBody(req);
+      const validation = await validateKmRoot(config.kmRoot);
+      if (!validation.ok) return sendJson(res, 422, { ok: false, validation });
+      const nextConfig = { ...config };
+      if (body.bookPath) nextConfig.bookInboxPath = body.bookPath;
+      await writeConfig(nextConfig);
+      const report = await scanBookPhotos({
+        bookPath: body.bookPath || nextConfig.bookInboxPath,
+        kmRoot: validation.root,
+        title: body.title,
+        author: body.author,
+        isbn: body.isbn,
+        source: body.source,
+        tags: body.tags
+      });
+      return sendJson(res, 200, report);
+    }
+
+    if (url.pathname === "/api/books-ingest") {
+      const body = await readBody(req);
+      const validation = await validateKmRoot(config.kmRoot);
+      if (!validation.ok) return sendJson(res, 422, { ok: false, validation });
+      const nextConfig = { ...config };
+      if (body.bookPath) nextConfig.bookInboxPath = body.bookPath;
+      await writeConfig(nextConfig);
+      const report = await ingestBookPhotos({
+        bookPath: body.bookPath || nextConfig.bookInboxPath,
+        kmRoot: validation.root,
+        title: body.title,
+        author: body.author,
+        isbn: body.isbn,
+        source: body.source,
+        tags: body.tags
+      });
+      await appendLog(`BOOKS_PHOTO_INGEST | created=${report.created.length} skipped=${report.skipped.length} source=${report.bookPath}`, validation.root);
       return sendJson(res, 200, report);
     }
 

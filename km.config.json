@@ -84,6 +84,15 @@
       "defaultClassification": "actif"
     },
     {
+      "id": "books",
+      "path": "books",
+      "label": "Books",
+      "role": "livres, photos de couverture, ISBN, notes de lecture",
+      "publishable": true,
+      "shareable": true,
+      "defaultClassification": "a verifier"
+    },
+    {
       "id": "km",
       "path": "km",
       "label": "KM",
