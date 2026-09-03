@@ -14,7 +14,7 @@ Veille Raindrop KM Monitor / utilitaire macOS open source pour controle avance d
 
 ## Sources
 
-- Source Raindrop : `https://arno-vltn.raindrop.page/km-monitor-71629567`
+- Source Raindrop : `KM Monitor public feed`
 - URL finale verifiee : `https://github.com/waydabber/BetterDisplay`
 - Domaine : `github.com`
 - Source/auteur : `waydabber`
