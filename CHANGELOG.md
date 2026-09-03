@@ -73,3 +73,34 @@ Risques :
 Rollback possible :
 - revenir au commit precedent ou au tag Git `v0.2` si disponible ;
 - sinon restaurer `scripts/build-search-v1.12-html.mjs`, `search-v1.12.html`, `public/` et les titres de fiches depuis Git.
+
+## v0.5 - 2026-09-01
+
+Objectif : integrer le scan NotePlan des 3 jours precedents dans KM.
+
+Fichiers touches :
+- `watch/osaurus-local-ai-agents-mac.md`
+- `watch/chathub-multi-llm-workspace.md`
+- `watch/alpinechain-workshop-2026.md`
+- `watch/x-watch-d3-20260829-20260831.md`
+- `watch/noteplan-km-indexing-workflow.md`
+- `watch/km-d3-scan-integration-20260901.md`
+- `watch/index.md`
+- `index.md`
+- `km/history.md`
+- `search-v1.12.html`
+
+Changements :
+- scan des notes NotePlan 2026-08-29, 2026-08-30 et 2026-08-31 via snapshot temporaire autorise ;
+- integration de 6 fiches KM utiles ;
+- exclusion des liens prives, medicaux, fichiers locaux, achats et deeplinks internes ;
+- dashboard regenere avec 160 documents indexes.
+
+Risques :
+- liens X non verifies en profondeur ;
+- certains sujets restent `A_VERIFIER`.
+
+Rollback possible :
+- supprimer les 6 fiches D3 ;
+- retirer les lignes D3 de `index.md` et `watch/index.md` ;
+- regenerer `search-v1.12.html`.

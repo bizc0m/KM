@@ -9,6 +9,9 @@ Index des sources de veille transversales KM.
 | Appel | Source | Usage | Statut |
 | --- | --- | --- | --- |
 | `watch:ai-trending` | `ai-trending.md` | Radar outils IA, tendances GitHub, agents, LLM, RAG, devtools | actif |
+| `watch:right-click-prompt-browser-prompt-library` | `right-click-prompt-browser-prompt-library.md` | Bibliotheque de prompts accessible depuis clic droit navigateur ; stockage, partage et prompts sensibles a verifier. | sensible |
+| `watch:betterdisplay-macos-display-control` | `betterdisplay-macos-display-control.md` | Utilitaire macOS de controle avance des ecrans ; permissions, streaming et ecrans virtuels a verifier. | actif |
+| `watch:kata-tracker-local-first-issue-tracker` | `kata-tracker-local-first-issue-tracker.md` | Issue tracker local-first pour humains et agents de code ; stockage, exports et injection de tickets a verifier. | actif |
 | `watch:ai-open-source-tools-watch` | `ai-open-source-tools-watch.md` | Lot sources sociales : outils IA/open source, alternatives SaaS, agents, OSINT, local-first | actif |
 | `watch:ai-open-source-tools-inventory` | `ai-open-source-tools-inventory.md` | Inventaire detaille : 32 outils nommes uniques extraits du lot X | actif |
 | `watch:osint-tools-watch` | `osint-tools-watch.md` | Outils OSINT sensibles : vehicle search, VIN, plaques, historiques vehicules | actif |
@@ -317,3 +320,9 @@ Index des sources de veille transversales KM.
 - Objectif : creer l'index de veille KM.
 - Risques : sources externes variables.
 - Rollback possible : supprimer `watch/`.
+| `watch:osaurus-local-ai-agents-mac` | `osaurus-local-ai-agents-mac.md` | Agents IA locaux sur Mac ; permissions et privacy a verifier. | a verifier |
+| `watch:chathub-multi-llm-workspace` | `chathub-multi-llm-workspace.md` | Comparaison multi-LLM pour arbitrage prompts et controle croise KM. | a verifier |
+| `watch:alpinechain-workshop-2026` | `alpinechain-workshop-2026.md` | Workshop AlpineChain 2026 ; source evenementielle crypto a qualifier. | a verifier |
+| `watch:x-watch-d3-20260829-20260831` | `x-watch-d3-20260829-20260831.md` | Lot de liens X issus des notes NotePlan D3 ; auteurs et sujets a verifier. | a verifier |
+| `watch:noteplan-km-indexing-workflow` | `noteplan-km-indexing-workflow.md` | Workflow de scan NotePlan vers KM avec deeplink, statut, scoring et privacy. | actif |
+| `watch:km-d3-scan-integration-20260901` | `km-d3-scan-integration-20260901.md` | Log coche de l integration D3 NotePlan vers KM. | actif |

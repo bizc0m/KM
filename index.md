@@ -14,6 +14,9 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | `km:history` | `km/history.md` | historique | #km, #changelog | actif |
 | `km:proton-luna-poeme` | `km/proton-luna-poeme.md` | fragment poetique | #proton, #luna, #poeme, #nuit, #flamme, #lore | actif |
 | `watch:index` | `watch/index.md` | index | #veille | actif |
+| `watch:right-click-prompt-browser-prompt-library` | `watch/right-click-prompt-browser-prompt-library.md` | veille | #prompt-library, #browser, #llm, #productivity, #privacy | sensible |
+| `watch:betterdisplay-macos-display-control` | `watch/betterdisplay-macos-display-control.md` | veille | #macos, #display, #hidpi, #open-source, #github | actif |
+| `watch:kata-tracker-local-first-issue-tracker` | `watch/kata-tracker-local-first-issue-tracker.md` | veille | #issue-tracking, #agents, #local-first, #project-management, #devtools | actif |
 | `book:index` | `books/index.md` | index | #books, #livres, #ocr | actif |
 | `watch:ai-trending` | `watch/ai-trending.md` | veille | #ia, #github, #trending | actif |
 | `watch:ai-open-source-tools-watch` | `watch/ai-open-source-tools-watch.md` | veille | #ia, #open-source, #devtools, #saas, #osint | actif |
@@ -172,6 +175,13 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | `watch:alook-ai-workforce-collaboration` | `watch/alook-ai-workforce-collaboration.md` | veille | #agents, #multi-agent, #email, #memory | actif |
 | `watch:pentagi-autonomous-pentest-agents` | `watch/pentagi-autonomous-pentest-agents.md` | veille | #ROUGE, #pentest, #offensive-security, #autonomous-agents | #ROUGE |
 | `watch:project-eyes-on-open-ip-camera-osint` | `watch/project-eyes-on-open-ip-camera-osint.md` | veille | #ROUGE, #osint, #ip-camera, #surveillance, #dorking, #web-scraping, #privacy-risk | #ROUGE |
+| `watch:osaurus-local-ai-agents-mac` | `watch/osaurus-local-ai-agents-mac.md` | veille | #local-ai, #macos, #agents, #privacy | a verifier |
+| `watch:chathub-multi-llm-workspace` | `watch/chathub-multi-llm-workspace.md` | veille | #llm, #prompt, #comparison, #privacy | a verifier |
+| `watch:alpinechain-workshop-2026` | `watch/alpinechain-workshop-2026.md` | veille | #event, #crypto, #workshop, #to-verify | a verifier |
+| `watch:x-watch-d3-20260829-20260831` | `watch/x-watch-d3-20260829-20260831.md` | veille | #x, #twitter, #osint, #veille, #to-verify | a verifier |
+| `watch:noteplan-km-indexing-workflow` | `watch/noteplan-km-indexing-workflow.md` | process | #noteplan, #km, #index, #workflow, #privacy | actif |
+| `watch:km-d3-scan-integration-20260901` | `watch/km-d3-scan-integration-20260901.md` | log | #km, #noteplan, #d3, #integration | actif |
+
 ## Regle automatique
 
 Quand le contenu est clair, KM choisit automatiquement le nom canonique en kebab-case, cree la fiche, met a jour l'index global, puis met a jour l'index specialise.
