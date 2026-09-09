@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille agents IA / automatisation.
 
 ## Tags
 
@@ -13,15 +13,21 @@ Veille Raindrop KM Monitor.
 `watch:bytedance-acaba-de-abrir-el-codigo-del-agente-que-controla-tu-ordenado`
 
 ## Sources
-- Source : [https://x.com/fluyeporlaweb/status/2066762822420177030](https://x.com/fluyeporlaweb/status/2066762822420177030)
+- Source: [https://x.com/fluyeporlaweb/status/2066762822420177030](https://x.com/fluyeporlaweb/status/2066762822420177030)
 
 ## Resume court
 
-ByteDance Open Source Computer Control Agent est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
+Sert a suivre un outil d'automatisation ou d'agents IA.
+
+
+
+## Usage KM
+
+- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
 
 ## A_VERIFIER
 
-- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
+- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
 
 ## Relations
 
@@ -32,7 +38,7 @@ ByteDance Open Source Computer Control Agent est une fiche KM de veille Veille R
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/bytedance-acaba-de-abrir-el-codigo-del-agente-que-controla-tu-ordenado.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/bytedance-acaba-de-abrir-el-codigo-del-agente-que-controla-tu-ordenado.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille agents IA / automatisation.
 
 ## Tags
 
@@ -13,15 +13,19 @@ Veille Raindrop KM Monitor.
 `watch:un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web`
 
 ## Sources
-- Source : [https://x.com/camilleroux/status/2062504651463729480](https://x.com/camilleroux/status/2062504651463729480)
+- Source: [https://x.com/camilleroux/status/2062504651463729480](https://x.com/camilleroux/status/2062504651463729480)
 
 ## Resume court
 
 https://t.co/Kt18SjxPKC
 
+## Usage KM
+
+- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
+
 ## A_VERIFIER
 
-- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
+- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
 
 ## Relations
 
@@ -32,7 +36,7 @@ https://t.co/Kt18SjxPKC
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

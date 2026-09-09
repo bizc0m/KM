@@ -156,7 +156,7 @@ function ficheMarkdown(item, slug, classification) {
 
 ## Type
 
-Veille Raindrop KM Monitor / signal automatique.
+signal automatique.
 
 ## Tags
 

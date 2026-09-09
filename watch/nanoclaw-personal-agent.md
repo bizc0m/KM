@@ -14,40 +14,42 @@ Veille outils IA / agent personnel multi-canaux.
 
 ## Sources
 
-- Page Vibe Shit : `https://vibeshit.org/product/nanoclaw`
-- Site : `https://nanoclaw.dev/`
-- Site FR : `https://nanoclaw.dev/fr/`
-- Repo : `https://github.com/nanocoai/nanoclaw`
+- Page Vibe Shit: `https://vibeshit.org/product/nanoclaw`
+- Site: `https://nanoclaw.dev/`
+- Site FR: `https://nanoclaw.dev/fr/`
+- Repo: `https://github.com/nanocoai/nanoclaw`
 
-Verification GitHub API :
+Verification GitHub API:
 
-- repo : `nanocoai/nanoclaw`
-- description : lightweight alternative to OpenClaw running in containers, with messaging apps, memory and scheduled jobs
-- stars lus : 29269
-- forks lus : 12855
-- licence : MIT
-- archived : false
-- dernier push lu : 2026-05-20
+- repo: `nanocoai/nanoclaw`
+- description: lightweight alternative to OpenClaw running in containers, with messaging apps, memory and scheduled jobs
+- stars lus: 29269
+- forks lus: 12855
+- licence: MIT
+- archived: false
+- dernier push lu: 2026-05-20
 
 ## Metadata GitHub publique
 
-Releve API GitHub : 2026-08-21
+Releve API GitHub: 2026-08-21
 
-- repo : `nanocoai/nanoclaw`
-- URL : `https://github.com/nanocoai/nanoclaw`
-- description : A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK
-- licence : MIT
-- etoiles relevees : 30582
-- topics releves : ai-agents, ai-assistant, claude-code, claude-skills, openclaw
-- derniere activite relevee : 2026-08-21T06:59:57Z
-- archived : non
-- fork : non
+- repo: `nanocoai/nanoclaw`
+- URL: `https://github.com/nanocoai/nanoclaw`
+- description: A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK
+- licence: MIT
+- etoiles relevees: 30582
+- topics releves: ai-agents, ai-assistant, claude-code, claude-skills, openclaw
+- derniere activite relevee: 2026-08-21T06:59:57Z
+- archived: non
+- fork: non
 
-Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+Note: metadata volatile, a reverifier avant decision produit ou execution locale.
 
 ## Resume court
 
-NanoClaw - Personal AI Agent est une fiche KM de veille Veille outils IA / agent personnel multi-canaux. Source finale conservee dans la fiche.
+Sert a suivre un outil d'automatisation ou d'agents IA.
+
+
 
 ## Usage utile
 
@@ -56,6 +58,15 @@ NanoClaw - Personal AI Agent est une fiche KM de veille Veille outils IA / agent
 - Relier messagerie, jobs planifies, memoire et providers IA.
 - Inspirer les workflows NightIntel de transmission, bots et operations locales.
 - Etudier une architecture agent simple, auditable et containerisee.
+
+## Usage KM
+
+- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
+
+## Topics GitHub
+
+- Repo : `https://github.com/nanocoai/nanoclaw`
+- Topics releves : ai-agents, ai-assistant, claude-code, claude-skills, openclaw
 
 ## Relations
 
@@ -83,21 +94,21 @@ Garder comme source prioritaire a surveiller. Classification `sensible`, pas `#R
 
 ### v0.1 - 2026-05-22
 
-- Objectif : integrer `NanoClaw` comme agent personnel multi-canaux.
-- Fichiers touches : `watch/nanoclaw-personal-agent.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
-- Risques : messagerie automatisee, credentials, prompts et donnees personnelles.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer `NanoClaw` comme agent personnel multi-canaux.
+- Fichiers touches: `watch/nanoclaw-personal-agent.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
+- Risques: messagerie automatisee, credentials, prompts et donnees personnelles.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
 
 ### v0.2 - 2026-05-22
 
-- Objectif : ajouter la page Vibe Shit comme source annuaire.
-- Fichiers touches : `watch/nanoclaw-personal-agent.md`, `process/AI-Tools.md`, `km/history.md`.
-- Risques : page annuaire externe variable.
-- Rollback possible : retirer la ligne `Page Vibe Shit`.
+- Objectif: ajouter la page Vibe Shit comme source annuaire.
+- Fichiers touches: `watch/nanoclaw-personal-agent.md`, `process/AI-Tools.md`, `km/history.md`.
+- Risques: page annuaire externe variable.
+- Rollback possible: retirer la ligne `Page Vibe Shit`.
 
 ### v0.3 - 2026-05-22
 
-- Objectif : ajouter la page francaise officielle fournie dans le lot.
-- Fichiers touches : `watch/nanoclaw-personal-agent.md`, `process/AI-Tools.md`, `km/history.md`.
-- Risques : contenu localise pouvant diverger du site EN.
-- Rollback possible : retirer la ligne `Site FR`.
+- Objectif: ajouter la page francaise officielle fournie dans le lot.
+- Fichiers touches: `watch/nanoclaw-personal-agent.md`, `process/AI-Tools.md`, `km/history.md`.
+- Risques: contenu localise pouvant diverger du site EN.
+- Rollback possible: retirer la ligne `Site FR`.

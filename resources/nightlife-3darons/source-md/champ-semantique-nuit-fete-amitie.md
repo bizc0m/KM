@@ -11,7 +11,7 @@ Voici un champ sémantique structuré autour de **la nuit / fête / amitié / pa
 ### 0. Mots‑clé de base (top level)
 
 | Français | Anglais (le plus proche) |
-| :-- | :-- |
+|:-- |:-- |
 | Nuit | Night |
 | Fête | Party |
 | Soirée | Evening / Night out |
@@ -27,7 +27,7 @@ Voici un champ sémantique structuré autour de **la nuit / fête / amitié / pa
 ### 1. Concepts de “nuit / vie nocturne”
 
 | Français | Anglais (équivalent proche) |
-| :-- | :-- |
+|:-- |:-- |
 | Vie nocturne | Nightlife |
 | Scène nocturne | Night scene |
 | Sortie nocturne | Night out |
@@ -55,7 +55,7 @@ Voici un champ sémantique structuré autour de **la nuit / fête / amitié / pa
 ### 2. Concepts de “fête / party / ambiance”
 
 | Français | Anglais (équivalent proche) |
-| :-- | :-- |
+|:-- |:-- |
 | Fêter | Celebrate |
 | Festivités | Celebrations |
 | Bulle festive | Party bubble / Festive vibe |
@@ -110,7 +110,7 @@ Voici un champ sémantique structuré autour de **la nuit / fête / amitié / pa
 ### 3. Concepts de “amitié / relations sociales”
 
 | Français | Anglais (équivalent proche) |
-| :-- | :-- |
+|:-- |:-- |
 | Amis / copains | Friends / Pals |
 | Cercle d’amis | Circle of friends |
 | Gang / bande d’amis | Crew / Friend group |
@@ -305,12 +305,12 @@ Voici un tableau bilingue **français–anglais** de **100 termes** centrés sur
 ### Tableau bilingue (100 entrées)
 
 | FR (français) | EN (anglais naturel) | Proximité thème (nuit / party / amitié) | Faux‑amis \& nuances |
-| :-- | :-- | :-- | :-- |
-| Nuit | **Night** | Très forte (nuit) | “Night” = “la nuit” ; pas de faux‑ami ici. |
+|:-- |:-- |:-- |:-- |
+| Nuit | **Night** | Très forte (nuit) | “Night” = “la nuit”; pas de faux‑ami ici. |
 | Soirée | **Evening / Night out** | Très forte (nuit + party) | “Evening” = soirée tôt, “night out” = sortie nocturne. |
 | Fête | **Party** | Très forte (party) | “Party” = fête organisée, pas “scrutin” com. |
 | Vie nocturne | **Nightlife** | Très forte (nuit + party) | “Nightlife” = ensemble des activités nocturnes. |
-| Amitié | **Friendship** | Très forte (amitié) | Tiré du français “amitié” ; très proche. |
+| Amitié | **Friendship** | Très forte (amitié) | Tiré du français “amitié”; très proche. |
 | Groupe d’amis | **Friend group / Squad** | Très forte (amitié + party) | “Squad” = slang très courant en anglais. |
 | Ambiance | **Atmosphere / Vibe** | Très forte (nuit + party) | “Vibe” = clause plus informelle que “atmosphere”. |
 | Bulle festive | **Party bubble / Festive vibe** | Très forte (party) | Image métaphorique partagée. |
@@ -447,3 +447,11 @@ Voici un tableau bilingue **français–anglais** de **100 termes** centrés sur
 [^2_9]: https://fr.wikipedia.org/wiki/Wikipédia:Oracle/semaine_38_2007
 
 [^2_10]: https://olst.ling.umontreal.ca/static/pdf/Le_SERREC_2008_MA.pdf
+
+## Resume court
+
+Night, Party And Friendship Semantic Field reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

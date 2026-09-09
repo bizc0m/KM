@@ -13,28 +13,30 @@ Ressource longue / veille droits humains.
 `resource:global-network-sex-work-projects-resources`
 
 ## Sources
-- Source : [https://www.nswp.org](https://www.nswp.org)
+- Source: [https://www.nswp.org](https://www.nswp.org)
 
-- titre : `Latest Resources | Global Network of Sex Work Projects`
-- date : 2026-06-27T08:13:51.340Z
-- domaine : `nswp.org`
-- auteur/source : `Global Network of Sex Work Projects`
-- tags detectes : aucun tag Raindrop
+- titre: `Latest Resources | Global Network of Sex Work Projects`
+- date: 2026-06-27T08:13:51.340Z
+- domaine: `nswp.org`
+- auteur/source: `Global Network of Sex Work Projects`
+- tags detectes: aucun tag Raindrop
 
-Verification directe :
+Verification directe:
 
-- resolution HTTP : tentative effectuee le 2026-06-27, reponse `429` cote site.
+- resolution HTTP: tentative effectuee le 2026-06-27, reponse `429` cote site.
 - contenu complet non stocke.
 
 ## Resume court
 
-Global Network of Sex Work Projects - Latest Resources est une fiche KM de veille Ressource longue / veille droits humains. Source finale conservee dans la fiche.
+Veille droits humains.
+
+
 
 ## Classification
 
 `a verifier`
 
-Raison : source publique de documentation et plaidoyer, sans capacite offensive directe. La verification directe du contenu est limitee par un `429`, donc la fiche reste a verifier.
+Raison: source publique de documentation et plaidoyer, sans capacite offensive directe. La verification directe du contenu est limitee par un `429`, donc la fiche reste a verifier.
 
 ## Usage KM
 
@@ -64,7 +66,7 @@ Raison : source publique de documentation et plaidoyer, sans capacite offensive 
 
 ### v0.1 - 2026-06-27
 
-- Objectif : integrer la ressource NSWP depuis Raindrop KM Monitor.
-- Fichiers touches : `resources/global-network-sex-work-projects-resources.md`, `resources/RESOURCES.md`, `index.md`, `km/history.md`.
-- Risques : sujet sensible et verification directe limitee par `429`.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer la ressource NSWP depuis Raindrop KM Monitor.
+- Fichiers touches: `resources/global-network-sex-work-projects-resources.md`, `resources/RESOURCES.md`, `index.md`, `km/history.md`.
+- Risques: sujet sensible et verification directe limitee par `429`.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

@@ -14,7 +14,7 @@ Inventaire outils issu de veille X et sources web verifiees.
 
 ## Source
 
-Inventaire detaille extrait de :
+Inventaire detaille extrait de:
 
 - `watch:ai-open-source-tools-watch`
 - `watch:osint-tools-watch`
@@ -25,13 +25,13 @@ Inventaire detaille extrait de :
 
 Les posts X fournis ont bien ete indexes comme sources. Le chiffre precedent comptait les posts uniques, pas les outils cites dans ces posts.
 
-Bilan actuel :
+Bilan actuel:
 
 - 11 liens X fournis aujourd'hui.
 - 10 liens X uniques apres deduplication.
 - 44 outils nommes uniques extraits.
-- 2 doublons outils identifies : `Cal.com`, `Vibe-Trading`.
-- 3 elements non detailles a verifier : liste Image OSINT 26 outils, repo Claude Code redirect non nomme, section vehicle search.
+- 2 doublons outils identifies: `Cal.com`, `Vibe-Trading`.
+- 3 elements non detailles a verifier: liste Image OSINT 26 outils, repo Claude Code redirect non nomme, section vehicle search.
 
 ## Outils nommes uniques
 
@@ -89,16 +89,16 @@ Verification effectuee le 2026-05-22.
 | Statut | Nombre | Note |
 | --- | --- | --- |
 | Verifies GitHub/API | 30 | Repos existants et accessibles via GitHub API |
-| Verifies HTTP/site | 2 | `Spacesuit`, `Voicebox` site officiel HTTP 200 ; Voicebox repo aussi verifie |
+| Verifies HTTP/site | 2 | `Spacesuit`, `Voicebox` site officiel HTTP 200; Voicebox repo aussi verifie |
 | Corriges depuis recherche web | 6 | `ViMax`, `openscreen`, `voicebox`, `openshorts`, `freellmapi`, `ARGO` |
 | A controler | 5 | finance/trading, vehicle/OSINT, anti-detection |
 
-Corrections importantes :
+Corrections importantes:
 
-- `Cal.com` : le lien tweet `github.com/calcom/cal.com` resout via GitHub vers `github.com/calcom/cal.diy`.
-- `FreeLLMAPI` : deux repos trouves ; `tashfeenahmed/freellmapi` correspond au claim de popularite, `platoba/freellmapi` existe mais a 0 star au moment de la verification.
-- `LibreChat` : le tweet cite `librechat.ai`, le repo verifie est `danny-avila/LibreChat`.
-- `ARGO` : repo verifie `xark-argo/argo`.
+- `Cal.com`: le lien tweet `github.com/calcom/cal.com` resout via GitHub vers `github.com/calcom/cal.diy`.
+- `FreeLLMAPI`: deux repos trouves; `tashfeenahmed/freellmapi` correspond au claim de popularite, `platoba/freellmapi` existe mais a 0 star au moment de la verification.
+- `LibreChat`: le tweet cite `librechat.ai`, le repo verifie est `danny-avila/LibreChat`.
+- `ARGO`: repo verifie `xark-argo/argo`.
 
 ## Elements non indexes individuellement
 
@@ -116,7 +116,7 @@ Corrections importantes :
 
 ## Metadata GitHub publique
 
-Releve API GitHub : 2026-08-21
+Releve API GitHub: 2026-08-21
 
 | Repo | Licence | Etoiles | Topics releves | Derniere activite | Archived | Fork |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -163,7 +163,7 @@ Releve API GitHub : 2026-08-21
 | `mnfst/awesome-free-llm-apis` | CC0-1.0 | 6881 | ai-agents, anthropic, awesome, awesome-list, gemini, llm, llm-router, llm-routing, ollama, openai, openclaw, openclaw-plugin, router | 2026-08-21T05:32:48Z | non | non |
 | `GreyDGL/PentestGPT` | MIT | 14985 | large-language-models, llm, penetration-testing, python | 2026-07-14T12:58:31Z | non | non |
 
-Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+Note: metadata volatile, a reverifier avant decision produit ou execution locale.
 
 ## Prochaines actions
 
@@ -172,46 +172,182 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 3. Transformer chaque outil utile en fiche individuelle si integration.
 4. Mettre a jour `process:ai-tools` seulement apres verification.
 
+## Resume court
+
+Sert a surveiller un outil ou signal OSINT.
+
+## Usage KM
+
+- Alimenter la veille OSINT defensive et documenter les limites legales, sources et risques d'abus.
+
+## Topics GitHub
+
+- Repo : `https://github.com/calcom/cal.diy`
+- Topics releves : next-auth, nextjs, open-source, postgresql, prisma, t3-stack, tailwindcss, trpc, turborepo, typescript, zod
+
+- Repo : `https://github.com/plausible/analytics`
+- Topics releves : analytics, analytics-dashboard, clickhouse, elixir, google-analytics, marketing, open-source-analytics, phoenix, plausible-analytics, postgresql, privacy, privacy-friendly, self-hosted, simple-analytics, statistics, tailwindcss, web-analytics, website-analytics, website-stats, website-tracking
+
+- Repo : `https://github.com/TryGhost/Ghost`
+- Topics releves : blogging, cms, ghost, javascript, journalism, nodejs, publishing, web-application
+
+- Repo : `https://github.com/n8n-io/n8n`
+- Topics releves : ai, apis, automation, cli, data-flow, development, integration-framework, integrations, ipaas, low-code, low-code-platform, mcp, mcp-client, mcp-server, n8n, no-code, self-hosted, typescript, workflow, workflow-automation
+
+- Repo : `https://github.com/supabase/supabase`
+- Topics releves : ai, alternative, auth, database, deno, embeddings, example, firebase, nextjs, oauth2, pgvector, postgis, postgres, postgresql, postgrest, realtime, supabase, vectors, websockets
+
+- Repo : `https://github.com/medusajs/medusa`
+- Topics releves : ai-coding, ai-tools, commerce, e-commerce, ecommerce, framework, javascript, medusa, nodejs, react, typescript
+
+- Repo : `https://github.com/AppFlowy-IO/AppFlowy`
+- Topics releves : blog, confluence-alternative, content-management, content-services, documentation, flutter, note-taking, notion-alternative, project-management, task-management, team-collaboration, wiki
+
+- Repo : `https://github.com/coollabsio/coolify`
+- Topics releves : coolify, databases, deployment, docker, docker-compose, inertiajs, laravel, mariadb, mysql, nextjs, nodejs, php, postgres, redis, self-hosted, self-hosting, server, static-site, svelte, svelte5
+
+- Repo : `https://github.com/knadh/listmonk`
+- Topics releves : campaign, campaign-management, email-marketing, email-subscription, listmonk, mailing-list, newsletter, newsletter-management, newsletter-software, self-hosted, sms-gateway, smtp, transactional-emails
+
+- Repo : `https://github.com/penpot/penpot`
+- Topics releves : clojure, clojurescript, design, prototyping, ui, ux-design, ux-experience
+
+- Repo : `https://github.com/HKUDS/ViMax`
+- Topics releves : agentic-aigc, video-generation
+
+- Repo : `https://github.com/pipecat-ai/pipecat`
+- Topics releves : ai, chatbot-framework, chatbots, real-time, voice, voice-assistant
+
+- Repo : `https://github.com/siddharthvaddem/openscreen`
+- Topics releves : electron, open-source, pixijs, screen-capture, screen-recorder
+
+- Repo : `https://github.com/jamiepine/voicebox`
+- Topics releves : ai, cuda, mlx, qwen3-tts, qwen3-tts-ui, voice-ai, voice-clone, whisper
+
+- Repo : `https://github.com/mutonby/openshorts`
+- Topics releves : agent-skills, ai-clip-generator, ai-video-editor, clip-generator, mcp-server, open-source, opus-clip-alternative, shorts, tiktok, ugc-platform, video-editing, video-generation, youtube-shorts
+
+- Repo : `https://github.com/tashfeenahmed/freellmapi`
+- Aucun topic public releve via GitHub API.
+
+- Repo : `https://github.com/microsoft/playwright-mcp`
+- Topics releves : mcp, playwright
+
+- Repo : `https://github.com/HKUDS/Vibe-Trading`
+- Topics releves : ai-agent, algorithmic-trading, backtesting, fintech, llm, mcp, multi-agent, python, quantitative-finance, trading
+
+- Repo : `https://github.com/openai/whisper`
+- Aucun topic public releve via GitHub API.
+
+- Repo : `https://github.com/gitroomhq/postiz-app`
+- Topics releves : nextjs, open-source, open-source-social-media-scheduling-tool, oss, redis, scheduling-tool, social-media-scheduling-tool, typescript
+
+- Repo : `https://github.com/dani-garcia/vaultwarden`
+- Topics releves : bitwarden, bitwarden-rs, docker, rocket, rust, vaultwarden
+
+- Repo : `https://github.com/xark-argo/argo`
+- Topics releves : agent, agentic-ai, ai, aigc, anthropic, artifacts, assistant, chatbot, deepresearch, deepseek, desktop, langgraph, llm, local, manus, mcp, mermaid, ollama, openai, rag
+
+- Repo : `https://github.com/The-Swarm-Corporation/AutoHedge`
+- Topics releves : ai, blackrock, finance, goldmansachs, hedgefund, jpmorgan, ml, quant, quantitative-finance, quantitative-trading, trading
+
+- Repo : `https://github.com/Fincept-Corporation/FinceptTerminal`
+- Topics releves : ai-agents, algorithmic-trading, bloomberg-terminal, cpp, finance, financial-markets, fintech, good-first-issue, investment, investment-research, machine-learning, opensource, python, qt, quantitative-finance, stock-market, trading
+
+- Repo : `https://github.com/danny-avila/LibreChat`
+- Topics releves : ai, anthropic, artifacts, aws, azure, chatgpt, chatgpt-clone, claude, clone, deepseek, gemini, google, gpt-5, librechat, mcp, o1, openai, responses-api, vision, webui
+
+- Repo : `https://github.com/Anil-matcha/Open-Generative-AI`
+- Topics releves : ai-art-generator, ai-image-generation, ai-video-generation, creative-tools, fal-ai-alternative, flux-1, generative-ai, image-to-video, javascript, kling-ai, lipsync, midjourney-alternative, muapi, open-source, seedance2, sora-alternative, text-to-image, text-to-video, uncensored, wan-video
+
+- Repo : `https://github.com/Open-LLM-VTuber/Open-LLM-VTuber`
+- Topics releves : ai, ai-companion, ai-vtuber, ai-waifu, chatbots, live2d, live2d-web, llm, neuro-sama, ollama
+
+- Repo : `https://github.com/AgriciDaniel/claude-ads`
+- Topics releves : agent-skills, ai, ai-marketing, claude-code, claude-code-skill, google-ads, marketing-automation, meta-ads, open-source, paid-advertising, ppc
+
+- Repo : `https://github.com/cloudflare/agentic-inbox`
+- Aucun topic public releve via GitHub API.
+
+- Repo : `https://github.com/jo-inc/camofox-browser`
+- Topics releves : ai-agent, anti-bot, antidetect-browser, automation, bot-detection, browser-automation, cloudflare-bypass, headless-browser, javascript, nodejs, playwright, puppeteer, scraping, stealth-browser, web-scraping
+
+- Repo : `https://github.com/heygen-com/hyperframes`
+- Topics releves : ai, animation, ffmpeg, framework, gsap, html, mcp, puppeteer, rendering, typescript, video
+
+- Repo : `https://github.com/yt-dlp/yt-dlp`
+- Topics releves : cli, downloader, python, sponsorblock, youtube-dl, youtube-downloader, yt-dlp
+
+- Repo : `https://github.com/ollama/ollama`
+- Topics releves : deepseek, gemma, gemma3, glm, go, golang, gpt-oss, llama, llama3, llm, llms, minimax, mistral, ollama, qwen
+
+- Repo : `https://github.com/lllyasviel/Fooocus`
+- Aucun topic public releve via GitHub API.
+
+- Repo : `https://github.com/Diolinux/PhotoGIMP`
+- Aucun topic public releve via GitHub API.
+
+- Repo : `https://github.com/nexu-io/open-design`
+- Topics releves : agent-skills, ai-design, byok, claude-code-for-design, claude-design, codex-design, coding-agents, cursor-design, deepseek, deepseek-harness, design-systems, desktop-app, dsh, dsh-plugin, figma-alternative, hermes-agent, local-first, prototyping, ui-generator, vibe-coding
+
+- Repo : `https://github.com/bitwarden/server`
+- Topics releves : api, aspnet, aspnetcore, bitwarden, csharp, docker, dotnet, dotnet-core, signalr, sql, sql-server
+
+- Repo : `https://github.com/kenn-io/agentsview`
+- Aucun topic public releve via GitHub API.
+
+- Repo : `https://github.com/nanocoai/nanoclaw`
+- Topics releves : ai-agents, ai-assistant, claude-code, claude-skills, openclaw
+
+- Repo : `https://github.com/aiming-lab/AutoResearchClaw`
+- Topics releves : autonomous-research, citation-verification, llm-agents, metaclaw, multi-agent-debate, openclaw, paper-generation, scientific-discovery, self-evolving
+
+- Repo : `https://github.com/mnfst/awesome-free-llm-apis`
+- Topics releves : ai-agents, anthropic, awesome, awesome-list, gemini, llm, llm-router, llm-routing, ollama, openai, openclaw, openclaw-plugin, router
+
+- Repo : `https://github.com/GreyDGL/PentestGPT`
+- Topics releves : large-language-models, llm, penetration-testing, python
+
 ## Changelog
 
 ### v0.1 - 2026-05-22
 
-- Objectif : corriger le comptage en separant sources X et outils cites.
-- Fichiers touches : `watch/ai-open-source-tools-inventory.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : certains noms viennent de posts promotionnels non verifies.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: corriger le comptage en separant sources X et outils cites.
+- Fichiers touches: `watch/ai-open-source-tools-inventory.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: certains noms viennent de posts promotionnels non verifies.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
 
 ### v0.2 - 2026-05-22
 
-- Objectif : ajouter une colonne URL outil par outil.
-- Fichiers touches : `watch/ai-open-source-tools-inventory.md`.
-- Risques : plusieurs URLs restent `a confirmer` quand le post ne donnait pas de lien direct.
-- Rollback possible : revenir a la table v0.1 sans URLs.
+- Objectif: ajouter une colonne URL outil par outil.
+- Fichiers touches: `watch/ai-open-source-tools-inventory.md`.
+- Risques: plusieurs URLs restent `a confirmer` quand le post ne donnait pas de lien direct.
+- Rollback possible: revenir a la table v0.1 sans URLs.
 
 ### v0.3 - 2026-05-22
 
-- Objectif : verifier les URLs et corriger les liens canoniques.
-- Fichiers touches : `watch/ai-open-source-tools-inventory.md`, `watch/x-source-authors-log.md`.
-- Risques : stars/licences GitHub variables dans le temps.
-- Rollback possible : revenir a la table v0.2.
+- Objectif: verifier les URLs et corriger les liens canoniques.
+- Fichiers touches: `watch/ai-open-source-tools-inventory.md`, `watch/x-source-authors-log.md`.
+- Risques: stars/licences GitHub variables dans le temps.
+- Rollback possible: revenir a la table v0.2.
 
 ### v0.4 - 2026-05-22
 
-- Objectif : ajouter l'analyse des usages abusifs et la classification `#ROUGE`.
-- Fichiers touches : `watch/ai-open-source-tools-inventory.md`, `watch/red-team-risk-tools-watch.md`.
-- Risques : sujets dual-use ; ne pas diffuser en mode tutoriel.
-- Rollback possible : retirer la section `Classification abus possible`.
+- Objectif: ajouter l'analyse des usages abusifs et la classification `#ROUGE`.
+- Fichiers touches: `watch/ai-open-source-tools-inventory.md`, `watch/red-team-risk-tools-watch.md`.
+- Risques: sujets dual-use; ne pas diffuser en mode tutoriel.
+- Rollback possible: retirer la section `Classification abus possible`.
 
 ### v0.5 - 2026-05-22
 
-- Objectif : resserrer `#ROUGE` aux offensifs directs et passer les risques contextuels en `sensible`.
-- Fichiers touches : `watch/ai-open-source-tools-inventory.md`, `watch/red-team-risk-tools-watch.md`.
-- Risques : reclassification a reviser selon usage concret.
-- Rollback possible : revenir a v0.4.
+- Objectif: resserrer `#ROUGE` aux offensifs directs et passer les risques contextuels en `sensible`.
+- Fichiers touches: `watch/ai-open-source-tools-inventory.md`, `watch/red-team-risk-tools-watch.md`.
+- Risques: reclassification a reviser selon usage concret.
+- Rollback possible: revenir a v0.4.
 
 ### v0.6 - 2026-05-22
 
-- Objectif : ajouter le lot nicos_ai et 6 nouveaux outils verifies.
-- Fichiers touches : `watch/ai-open-source-tools-inventory.md`, `watch/open-source-saas-alternatives-nicos-ai.md`.
-- Risques : yt-dlp et generation image sont sensibles selon usage.
-- Rollback possible : retirer les lignes 33-38.
+- Objectif: ajouter le lot nicos_ai et 6 nouveaux outils verifies.
+- Fichiers touches: `watch/ai-open-source-tools-inventory.md`, `watch/open-source-saas-alternatives-nicos-ai.md`.
+- Risques: yt-dlp et generation image sont sensibles selon usage.
+- Rollback possible: retirer les lignes 33-38.

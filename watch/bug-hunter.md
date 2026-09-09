@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille #ROUGE / outil ou source a risque offensif.
 
 ## Tags
 
@@ -13,15 +13,21 @@ Veille Raindrop KM Monitor.
 `watch:bug-hunter`
 
 ## Sources
-- Source : [https://x.com/7h3h4ckv157/status/2066569330280759720](https://x.com/7h3h4ckv157/status/2066569330280759720)
+- Source: [https://x.com/7h3h4ckv157/status/2066569330280759720](https://x.com/7h3h4ckv157/status/2066569330280759720)
 
 ## Resume court
 
-Bug Hunter est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
+Signale un outil ou une source directement sensible cote abus.
+
+
+
+## Usage KM
+
+- Conserver comme signal de risque; verifier uniquement en contexte defensif, autorise et documente.
 
 ## A_VERIFIER
 
-- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
+- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
 
 ## Relations
 
@@ -32,7 +38,7 @@ Bug Hunter est une fiche KM de veille Veille Raindrop KM Monitor. Source finale 
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/bug-hunter.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Abus possible direct ou facilite : collecte intrusive, reconnaissance, contournement, automatisation offensive ou atteinte privacy.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/bug-hunter.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Abus possible direct ou facilite: collecte intrusive, reconnaissance, contournement, automatisation offensive ou atteinte privacy.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

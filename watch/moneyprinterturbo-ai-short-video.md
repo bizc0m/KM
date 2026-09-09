@@ -14,50 +14,52 @@ Veille outils IA / generation automatique de shorts video.
 
 ## Sources
 
-- Repo : `https://github.com/harry0703/MoneyPrinterTurbo`
-- Source sociale secondaire : `https://x.com/xamto_ai/status/2070335993421722010`
+- Repo: `https://github.com/harry0703/MoneyPrinterTurbo`
+- Source sociale secondaire: `https://x.com/xamto_ai/status/2070335993421722010`
 
-Verification GitHub API :
+Verification GitHub API:
 
-- repo : `harry0703/MoneyPrinterTurbo`
-- description : utilise les LLM IA pour generer des videos courtes en un clic
-- stars lus : 58078
-- forks lus : 8407
-- langage principal : Python
-- licence : MIT
-- archived : false
-- issues ouvertes lues : 2
-- creation lue : 2024-03-11
-- dernier push lu : 2026-05-25
-- topics lus : ai, automation, chatgpt, moviepy, python, shortvideo, tiktok
+- repo: `harry0703/MoneyPrinterTurbo`
+- description: utilise les LLM IA pour generer des videos courtes en un clic
+- stars lus: 58078
+- forks lus: 8407
+- langage principal: Python
+- licence: MIT
+- archived: false
+- issues ouvertes lues: 2
+- creation lue: 2024-03-11
+- dernier push lu: 2026-05-25
+- topics lus: ai, automation, chatgpt, moviepy, python, shortvideo, tiktok
 
-Signal Raindrop secondaire :
+Signal Raindrop secondaire:
 
-- titre : post X en chinois sur un outil automatisant la production de videos courtes
-- date : 2026-06-27T11:18:32.213Z
-- domaine : `x.com`
-- auteur/source : `xamto_ai`
-- resolution : `https://t.co/5RCmytlCvM` -> `https://github.com/harry0703/MoneyPrinterTurbo/`
+- titre: post X en chinois sur un outil automatisant la production de videos courtes
+- date: 2026-06-27T11:18:32.213Z
+- domaine: `x.com`
+- auteur/source: `xamto_ai`
+- resolution: `https://t.co/5RCmytlCvM` -> `https://github.com/harry0703/MoneyPrinterTurbo/`
 
 ## Metadata GitHub publique
 
-Releve API GitHub : 2026-08-21
+Releve API GitHub: 2026-08-21
 
-- repo : `harry0703/MoneyPrinterTurbo`
-- URL : `https://github.com/harry0703/MoneyPrinterTurbo`
-- description : 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
-- licence : MIT
-- etoiles relevees : 113378
-- topics releves : ai-video-generator, content-creation, ffmpeg, instagram-reels, llm, python, short-video, subtitles, text-to-speech, tiktok, video-automation, video-workflow, workflow-automation, youtube-shorts
-- derniere activite relevee : 2026-08-21T08:32:55Z
-- archived : non
-- fork : non
+- repo: `harry0703/MoneyPrinterTurbo`
+- URL: `https://github.com/harry0703/MoneyPrinterTurbo`
+- description: 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
+- licence: MIT
+- etoiles relevees: 113378
+- topics releves: ai-video-generator, content-creation, ffmpeg, instagram-reels, llm, python, short-video, subtitles, text-to-speech, tiktok, video-automation, video-workflow, workflow-automation, youtube-shorts
+- derniere activite relevee: 2026-08-21T08:32:55Z
+- archived: non
+- fork: non
 
-Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+Note: metadata volatile, a reverifier avant decision produit ou execution locale.
 
 ## Resume court
 
-MoneyPrinterTurbo - AI Short Video Generator est une fiche KM de veille Veille outils IA / generation automatique de shorts video. Source finale conservee dans la fiche.
+Sert a suivre une ressource LLM ou API.
+
+
 
 ## Usage utile
 
@@ -66,6 +68,15 @@ MoneyPrinterTurbo - AI Short Video Generator est une fiche KM de veille Veille o
 - Etudier une architecture Python/MoviePy pour montage automatise.
 - Produire des demos internes ou variations de formats courts.
 - Alimenter le futur framework RS comme brique de generation, pas comme publication automatique.
+
+## Usage KM
+
+- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
+
+## Topics GitHub
+
+- Repo : `https://github.com/harry0703/MoneyPrinterTurbo`
+- Topics releves : ai-video-generator, content-creation, ffmpeg, instagram-reels, llm, python, short-video, subtitles, text-to-speech, tiktok, video-automation, video-workflow, workflow-automation, youtube-shorts
 
 ## Relations
 
@@ -90,14 +101,14 @@ Garder en veille `sensible`, pas `#ROUGE` par defaut. Basculer en `#ROUGE` uniqu
 
 ### v0.1 - 2026-05-25
 
-- Objectif : integrer `MoneyPrinterTurbo` comme outil de generation de shorts IA utile au framework RS.
-- Fichiers touches : `watch/moneyprinterturbo-ai-short-video.md`, `watch/index.md`, `index.md`, `km/history.md`, `scripts/build-search-v1.10-html.mjs`, `search-v1.10.html`.
-- Risques : spam video, impersonation, copyright, desinformation et automation abusive.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer `MoneyPrinterTurbo` comme outil de generation de shorts IA utile au framework RS.
+- Fichiers touches: `watch/moneyprinterturbo-ai-short-video.md`, `watch/index.md`, `index.md`, `km/history.md`, `scripts/build-search-v1.10-html.mjs`, `search-v1.10.html`.
+- Risques: spam video, impersonation, copyright, desinformation et automation abusive.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
 
 ### v0.2 - 2026-06-27
 
-- Objectif : ajouter le signal X secondaire detecte dans Raindrop, deduplique vers le repo existant.
-- Fichiers touches : `watch/moneyprinterturbo-ai-short-video.md`, `km/history.md`.
-- Risques : promotion d'automatisation de shorts ; classement reste `sensible`.
-- Rollback possible : retirer la source secondaire et ce changelog.
+- Objectif: ajouter le signal X secondaire detecte dans Raindrop, deduplique vers le repo existant.
+- Fichiers touches: `watch/moneyprinterturbo-ai-short-video.md`, `km/history.md`.
+- Risques: promotion d'automatisation de shorts; classement reste `sensible`.
+- Rollback possible: retirer la source secondaire et ce changelog.

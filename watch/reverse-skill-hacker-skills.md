@@ -13,11 +13,17 @@ Veille `#ROUGE` / competences hacker et reverse engineering.
 `watch:reverse-skill-hacker-skills`
 
 ## Sources
-- Source sociale : [https://x.com/0xeduu/status/2070469529210163370](https://x.com/0xeduu/status/2070469529210163370)
+- Source sociale: [https://x.com/0xeduu/status/2070469529210163370](https://x.com/0xeduu/status/2070469529210163370)
 
 ## Resume court
 
-Reverse Skill - Hacker Skills Repo est une fiche KM de veille Veille `#ROUGE` / competences hacker et reverse engineering. Source finale conservee dans la fiche.
+Signale un outil ou une source directement sensible cote abus.
+
+
+
+## Usage KM
+
+- Conserver comme signal de risque; verifier uniquement en contexte defensif, autorise et documente.
 
 ## Relations
 
@@ -29,7 +35,7 @@ Reverse Skill - Hacker Skills Repo est une fiche KM de veille Veille `#ROUGE` / 
 
 ### v0.1 - 2026-06-27
 
-- Objectif : integrer le signal `reverse-skill` en veille `#ROUGE`.
-- Fichiers touches : `watch/reverse-skill-hacker-skills.md`, `watch/index.md`, `watch/red-team-risk-tools-watch.md`, `index.md`, `km/history.md`.
-- Risques : reverse engineering et skills offensives pour agents IA ; source finale a verifier.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le signal `reverse-skill` en veille `#ROUGE`.
+- Fichiers touches: `watch/reverse-skill-hacker-skills.md`, `watch/index.md`, `watch/red-team-risk-tools-watch.md`, `index.md`, `km/history.md`.
+- Risques: reverse engineering et skills offensives pour agents IA; source finale a verifier.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

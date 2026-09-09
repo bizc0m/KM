@@ -13,14 +13,20 @@ Veille outil privacy / recherche fuites dark web.
 `watch:serus-dark-web-leak-search`
 
 ## Sources
-- Source : [https://x.com/alghali/status/2071203576198635859](https://x.com/alghali/status/2071203576198635859)
+- Source: [https://x.com/alghali/status/2071203576198635859](https://x.com/alghali/status/2071203576198635859)
 
 ## Resume court
 
-Serus Dark Web Leak Search est une fiche KM de veille Veille outil privacy / recherche fuites dark web. Source finale conservee dans la fiche.
+Automatise la recherche, la synthese ou la verification d'information.
+
+
 
 ## Historique
 
 ### v0.1 - 2026-06-28
 
 - Integration depuis Raindrop KM Monitor.
+
+## Usage KM
+
+- Conserver comme signal de risque; verifier uniquement en contexte defensif, autorise et documente.

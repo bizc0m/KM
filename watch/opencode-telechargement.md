@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille LLM / API.
 
 ## Tags
 
@@ -13,12 +13,18 @@ Veille Raindrop KM Monitor.
 `watch:opencode-telechargement`
 
 ## Sources
-- Source : [https://opencode.ai/download](https://opencode.ai/download)
-- Source secondaire Raindrop 2026-08-03 : `https://opencode.ai/`
+- Source: [https://opencode.ai/download](https://opencode.ai/download)
+- Source secondaire Raindrop 2026-08-03: `https://opencode.ai/`
 
 ## Resume court
 
-OpenCode Download est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
+Sert a suivre une ressource LLM ou API.
+
+
+
+## Usage KM
+
+- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
 
 ## A_VERIFIER
 
@@ -33,14 +39,14 @@ OpenCode Download est une fiche KM de veille Veille Raindrop KM Monitor. Source 
 
 ### v0.2 - 2026-08-03
 
-- Objectif : dedupliquer la nouveaute Raindrop KM Monitor `OpenCode | The open source AI coding agent` avec la fiche existante.
-- Fichiers touches : `watch/opencode-telechargement.md`, `index.md`, `watch/index.md`, `km/history.md`.
-- Risques : agent de coding execution de commandes et acces repo a cadrer.
-- Rollback possible : retirer la source secondaire et cette entree de changelog.
+- Objectif: dedupliquer la nouveaute Raindrop KM Monitor `OpenCode | The open source AI coding agent` avec la fiche existante.
+- Fichiers touches: `watch/opencode-telechargement.md`, `index.md`, `watch/index.md`, `km/history.md`.
+- Risques: agent de coding execution de commandes et acces repo a cadrer.
+- Rollback possible: retirer la source secondaire et cette entree de changelog.
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/opencode-telechargement.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/opencode-telechargement.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

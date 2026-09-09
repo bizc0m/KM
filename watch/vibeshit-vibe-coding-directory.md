@@ -14,11 +14,13 @@ Veille outils IA / annuaire projets vibe coding.
 
 ## Source
 
-Site : `https://vibeshit.org/`
+Site: `https://vibeshit.org/`
 
 ## Resume court
 
-Vibe Shit - Vibe Coding Directory est une fiche KM de veille Veille outils IA / annuaire projets vibe coding. Source finale conservee dans la fiche.
+Sert a suivre une ressource LLM ou API.
+
+
 
 ## Usage utile
 
@@ -26,6 +28,10 @@ Vibe Shit - Vibe Coding Directory est une fiche KM de veille Veille outils IA / 
 - Alimenter `watch:ai-open-source-tools-inventory`.
 - Identifier des inspirations UI/produit pour KM, NightIntel et outils internes.
 - Suivre les tendances vibe coding sans dependre uniquement de X/GitHub trending.
+
+## Usage KM
+
+- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
 
 ## Relations
 
@@ -37,13 +43,13 @@ Vibe Shit - Vibe Coding Directory est une fiche KM de veille Veille outils IA / 
 
 ## Decision KM
 
-Garder comme source de veille et d'inspiration. Ne pas la traiter comme source d'autorite ; chaque outil extrait doit avoir sa propre verification.
+Garder comme source de veille et d'inspiration. Ne pas la traiter comme source d'autorite; chaque outil extrait doit avoir sa propre verification.
 
 ## Changelog
 
 ### v0.1 - 2026-05-22
 
-- Objectif : integrer `https://vibeshit.org/` comme source de veille vibe coding.
-- Fichiers touches : `watch/vibeshit-vibe-coding-directory.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : annuaire externe, claims variables, presence possible d'outils dual-use.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer `https://vibeshit.org/` comme source de veille vibe coding.
+- Fichiers touches: `watch/vibeshit-vibe-coding-directory.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: annuaire externe, claims variables, presence possible d'outils dual-use.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

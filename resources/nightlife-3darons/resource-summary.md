@@ -66,3 +66,11 @@ Non copies dans cette ressource:
 - chemins personnels explicites
 
 Les donnees de prenoms restent limitees a un usage lexical et de generation fictive de pseudos.
+
+## Resume court
+
+Resource Summary - NightLife 3Darons reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

@@ -13,11 +13,17 @@ Veille OSINT / annuaire d'outils d'investigation.
 `watch:osint-rack-curated-tools`
 
 ## Sources
-- Site : `https://osintrack.com/`
+- Site: `https://osintrack.com/`
 
 ## Resume court
 
-The OSINT Rack - Curated Intelligence Tools est une fiche KM de veille Veille OSINT / annuaire d'outils d'investigation. Source finale conservee dans la fiche.
+Sert a surveiller un outil ou signal OSINT.
+
+
+
+## Usage KM
+
+- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
 
 ## Relations
 
@@ -34,7 +40,7 @@ The OSINT Rack - Curated Intelligence Tools est une fiche KM de veille Veille OS
 
 ### v0.1 - 2026-06-24
 
-- Objectif : integrer The OSINT Rack depuis Raindrop KM Monitor.
-- Fichiers touches : `watch/osint-rack-curated-tools.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : outils OSINT sensibles et non verifies.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer The OSINT Rack depuis Raindrop KM Monitor.
+- Fichiers touches: `watch/osint-rack-curated-tools.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: outils OSINT sensibles et non verifies.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

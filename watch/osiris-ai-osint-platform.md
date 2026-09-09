@@ -5,7 +5,7 @@
 
 ## Description
 
-Dashboard OSINT tout-en-un avec live tracking et data layers multiples :
+Dashboard OSINT tout-en-un avec live tracking et data layers multiples:
 
 **Aviation** — Vols commerciaux, privés, jets privés, militaires
 **Maritime & Space** — Naval (49), Satellites
@@ -80,16 +80,42 @@ Web app (SPA) — style "poste de commandement" avec carte interactive
 
 ## Metadata GitHub publique
 
-Releve API GitHub : 2026-08-21
+Releve API GitHub: 2026-08-21
 
-- repo : `simplifaisoul/osiris`
-- URL : `https://github.com/simplifaisoul/osiris`
-- description : Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative -                            2nZNHm3Lr9umG3DVrzYwHgktwkuKuJRXqqRqs3ewpump
-- licence : MIT
-- etoiles relevees : 7790
-- topics releves : aucun topic public
-- derniere activite relevee : 2026-08-21T03:39:30Z
-- archived : non
-- fork : non
+- repo: `simplifaisoul/osiris`
+- URL: `https://github.com/simplifaisoul/osiris`
+- description: Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative -                            2nZNHm3Lr9umG3DVrzYwHgktwkuKuJRXqqRqs3ewpump
+- licence: MIT
+- etoiles relevees: 7790
+- topics releves: aucun topic public
+- derniere activite relevee: 2026-08-21T03:39:30Z
+- archived: non
+- fork: non
 
-Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+Note: metadata volatile, a reverifier avant decision produit ou execution locale.
+
+## Resume court
+
+OSIRIS — Open Source Intelligence Platform reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.
+
+## Topics GitHub
+
+- Repo : `https://github.com/simplifaisoul/osiris`
+- Aucun topic public releve via GitHub API.
+
+
+
+
+
+
+
+
+
+
+
+
+

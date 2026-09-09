@@ -14,6 +14,9 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | `km:history` | `km/history.md` | historique | #km, #changelog | actif |
 | `km:proton-luna-poeme` | `km/proton-luna-poeme.md` | fragment poetique | #proton, #luna, #poeme, #nuit, #flamme, #lore | actif |
 | `watch:index` | `watch/index.md` | index | #veille | actif |
+| `watch:right-click-prompt-browser-prompt-library` | `watch/right-click-prompt-browser-prompt-library.md` | veille | #prompt-library, #browser, #llm, #productivity, #privacy | sensible |
+| `watch:betterdisplay-macos-display-control` | `watch/betterdisplay-macos-display-control.md` | veille | #macos, #display, #hidpi, #open-source, #github | actif |
+| `watch:kata-tracker-local-first-issue-tracker` | `watch/kata-tracker-local-first-issue-tracker.md` | veille | #issue-tracking, #agents, #local-first, #project-management, #devtools | actif |
 | `book:index` | `books/index.md` | index | #books, #livres, #ocr | actif |
 | `watch:ai-trending` | `watch/ai-trending.md` | veille | #ia, #github, #trending | actif |
 | `watch:ai-open-source-tools-watch` | `watch/ai-open-source-tools-watch.md` | veille | #ia, #open-source, #devtools, #saas, #osint | actif |

@@ -426,3 +426,11 @@ Les seuils et scores doivent s'adapter aux zones denses/rares, nouveaux/experts,
 
 Principe:
 Une action rare dans une petite zone peut valoir autant qu'une action frequente dans une grande ville.
+
+## Resume court
+
+Nightlife V6 - Ideas Queue reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

@@ -13,11 +13,17 @@ Veille outil / annuaire applications gratuites open source.
 `watch:free-open-source-apps-list-sn0wbrave`
 
 ## Sources
-- Source sociale : [https://x.com/sn0wbrave/status/2070657216835633364](https://x.com/sn0wbrave/status/2070657216835633364)
+- Source sociale: [https://x.com/sn0wbrave/status/2070657216835633364](https://x.com/sn0wbrave/status/2070657216835633364)
 
 ## Resume court
 
-Free Open Source Apps List - sn0wbrave est une fiche KM de veille Veille outil / annuaire applications gratuites open source. Source finale conservee dans la fiche.
+Sert a suivre un projet open source ou devtool.
+
+
+
+## Usage KM
+
+- Verifier maturite, licence, activite GitHub et integration possible dans les projets KM/dev.
 
 ## Relations
 
@@ -29,7 +35,7 @@ Free Open Source Apps List - sn0wbrave est une fiche KM de veille Veille outil /
 
 ### v0.1 - 2026-06-27
 
-- Objectif : integrer le signal X sur une liste d'applications gratuites open source.
-- Fichiers touches : `watch/free-open-source-apps-list-sn0wbrave.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : source finale non resolue, applications non auditees.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le signal X sur une liste d'applications gratuites open source.
+- Fichiers touches: `watch/free-open-source-apps-list-sn0wbrave.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: source finale non resolue, applications non auditees.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

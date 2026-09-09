@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor / agent IA local pour macOS.
+agent IA local pour macOS.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor / agent IA local pour macOS.
 `watch:openfelix-local-ai-agent-macos`
 
 ## Sources
-- Source finale : [https://openfelix.com/](https://openfelix.com/)
+- Source finale: [https://openfelix.com/](https://openfelix.com/)
 
 ## Resume court
 
-Open Felix - Local AI Agent for macOS est une fiche KM de veille Veille Raindrop KM Monitor / agent IA local pour macOS. Source finale conservee dans la fiche.
+Sert a evaluer un enjeu privacy ou donnees exposees.
+
+
+
+## Usage KM
+
+- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
 
 ## Relations
 
@@ -29,7 +35,7 @@ Open Felix - Local AI Agent for macOS est une fiche KM de veille Veille Raindrop
 
 ### v0.1 - 2026-08-03
 
-- Objectif : integrer la nouveaute Raindrop KM Monitor `Open Felix`.
-- Fichiers touches : `watch/openfelix-local-ai-agent-macos.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : permissions macOS, fichiers locaux et actions agentiques.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer la nouveaute Raindrop KM Monitor `Open Felix`.
+- Fichiers touches: `watch/openfelix-local-ai-agent-macos.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: permissions macOS, fichiers locaux et actions agentiques.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

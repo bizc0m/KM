@@ -18,3 +18,11 @@ Render the chaos legible.
 - `nightcrawl-dashboard.html` - static experimental dashboard.
 - `nightcrawl-bot.html` - bot/transmission interface with NightLife design.
 - `nightcrawl-scan.html` - scan/radar interface for events and city signals.
+
+## Resume court
+
+NightCrawl reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

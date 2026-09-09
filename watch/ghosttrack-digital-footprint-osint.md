@@ -13,28 +13,39 @@ Veille `#ROUGE` / OSINT identifiants publics.
 `watch:ghosttrack-digital-footprint-osint`
 
 ## Sources
-- Source sociale : [https://x.com/jolyne_ai/status/2070447077524664696](https://x.com/jolyne_ai/status/2070447077524664696)
-- Repo final resolu : `https://github.com/HunxByts/GhostTrack`
+- Source sociale: [https://x.com/jolyne_ai/status/2070447077524664696](https://x.com/jolyne_ai/status/2070447077524664696)
+- Repo final resolu: `https://github.com/HunxByts/GhostTrack`
 
 ## Metadata GitHub publique
 
-Releve API GitHub : 2026-08-21
+Releve API GitHub: 2026-08-21
 
-- repo : `HunxByts/GhostTrack`
-- URL : `https://github.com/HunxByts/GhostTrack`
-- description : Useful tool to track location or mobile number
-- licence : non renseignee
-- etoiles relevees : 14888
-- topics releves : cybersecurity, fyp, hacking, hacking-tool, indonesia, information, information-gathering, ip-geolocation, linux, osint, osint-python, osint-tool, pentesting, phone-number, python, python-hacking, termux, termux-hacks, termux-tool
-- derniere activite relevee : 2024-01-11T15:36:46Z
-- archived : non
-- fork : non
+- repo: `HunxByts/GhostTrack`
+- URL: `https://github.com/HunxByts/GhostTrack`
+- description: Useful tool to track location or mobile number
+- licence: non renseignee
+- etoiles relevees: 14888
+- topics releves: cybersecurity, fyp, hacking, hacking-tool, indonesia, information, information-gathering, ip-geolocation, linux, osint, osint-python, osint-tool, pentesting, phone-number, python, python-hacking, termux, termux-hacks, termux-tool
+- derniere activite relevee: 2024-01-11T15:36:46Z
+- archived: non
+- fork: non
 
-Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+Note: metadata volatile, a reverifier avant decision produit ou execution locale.
 
 ## Resume court
 
-GhostTrack - Digital Footprint OSINT est une fiche KM de veille Veille `#ROUGE` / OSINT identifiants publics. Source finale conservee dans la fiche.
+Signale un outil ou une source directement sensible cote abus.
+
+
+
+## Usage KM
+
+- Conserver comme signal de risque; verifier uniquement en contexte defensif, autorise et documente.
+
+## Topics GitHub
+
+- Repo : `https://github.com/HunxByts/GhostTrack`
+- Topics releves : cybersecurity, fyp, hacking, hacking-tool, indonesia, information, information-gathering, ip-geolocation, linux, osint, osint-python, osint-tool, pentesting, phone-number, python, python-hacking, termux, termux-hacks, termux-tool
 
 ## Relations
 
@@ -46,7 +57,7 @@ GhostTrack - Digital Footprint OSINT est une fiche KM de veille Veille `#ROUGE` 
 
 ### v0.1 - 2026-06-27
 
-- Objectif : integrer GhostTrack en veille `#ROUGE` privacy/OSINT.
-- Fichiers touches : `watch/ghosttrack-digital-footprint-osint.md`, `watch/index.md`, `watch/red-team-risk-tools-watch.md`, `index.md`, `km/history.md`.
-- Risques : doxxing, stalking, correlation de comptes et donnees personnelles.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer GhostTrack en veille `#ROUGE` privacy/OSINT.
+- Fichiers touches: `watch/ghosttrack-digital-footprint-osint.md`, `watch/index.md`, `watch/red-team-risk-tools-watch.md`, `index.md`, `km/history.md`.
+- Risques: doxxing, stalking, correlation de comptes et donnees personnelles.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

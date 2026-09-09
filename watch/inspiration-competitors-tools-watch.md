@@ -16,11 +16,11 @@ Veille inspirations / concurrents / outils.
 
 Centraliser les sites inspirants, concurrents, references produit et outils potentiellement utiles aux projets.
 
-Objectif : veiller sans copier. Extraire les patterns utiles, les risques, les garde-fous et les opportunites d'integration.
+Objectif: veiller sans copier. Extraire les patterns utiles, les risques, les garde-fous et les opportunites d'integration.
 
 ## Regles
 
-- Distinguer : inspiration, concurrent, outil utilisable, source technique.
+- Distinguer: inspiration, concurrent, outil utilisable, source technique.
 - Ajouter l'URL, la date de lecture, le role, les projets lies, les risques.
 - Ne pas copier l'identite visuelle ou le wording d'un concurrent.
 - Identifier l'usage abusif possible quand l'outil touche social, data, OSINT, IA, tracking ou automation.
@@ -49,9 +49,9 @@ Orbit aide des groupes d'amis a trouver des disponibilites communes via calendri
 
 ### Liens projets
 
-- NightLife : organiser sorties, groupes, RSVP, opt-in calendrier.
-- NightCrawl : cercles de veille / transmissions de groupe.
-- Annecy Intel : coordination locale et sorties.
+- NightLife: organiser sorties, groupes, RSVP, opt-in calendrier.
+- NightCrawl: cercles de veille / transmissions de groupe.
+- Annecy Intel: coordination locale et sorties.
 
 ### Garde-fous
 
@@ -67,7 +67,7 @@ Orbit aide des groupes d'amis a trouver des disponibilites communes via calendri
 | --- | --- | --- |
 | Tracking relationnel | mesurer qui voit qui et a quelle frequence | actif |
 | Pression sociale | relancer trop souvent les personnes moins presentes | actif |
-| Profilage social | inferer habitudes, groupes ou disponibilites | sensible ; #ROUGE si ciblage/stalking non consenti |
+| Profilage social | inferer habitudes, groupes ou disponibilites | sensible; #ROUGE si ciblage/stalking non consenti |
 
 ## Fiche courte - Oh My Pizza!
 
@@ -85,9 +85,9 @@ Blog personnel de Scott Yoshinaga avec archives, updates, posts culturels et not
 
 ### Liens projets
 
-- KM : source de veille et methode de curation.
-- Night Intel / NightLife : veille culturelle et signaux faibles.
-- Inspiration contenu : formats listes, favoris annuels, liens outils.
+- KM: source de veille et methode de curation.
+- Night Intel / NightLife: veille culturelle et signaux faibles.
+- Inspiration contenu: formats listes, favoris annuels, liens outils.
 
 ### Usage abusif possible
 
@@ -95,7 +95,7 @@ Blog personnel de Scott Yoshinaga avec archives, updates, posts culturels et not
 | --- | --- | --- |
 | Surinterpretation | traiter un blog personnel comme source officielle | faible |
 | Copie de contenu | reprendre la curation ou le texte sans attribution | actif |
-| Tracking culturel individuel | profiler les gouts d'une personne a partir de ses archives | sensible ; #ROUGE si harcelement/ciblage non consenti |
+| Tracking culturel individuel | profiler les gouts d'une personne a partir de ses archives | sensible; #ROUGE si harcelement/ciblage non consenti |
 
 ### Garde-fous
 
@@ -110,6 +110,14 @@ Blog personnel de Scott Yoshinaga avec archives, updates, posts culturels et not
 2. Creer une fiche dediee seulement si une reference devient structurante.
 3. Relier aux themes privacy, social planning, Night Intel.
 
+## Resume court
+
+Sert a evaluer un enjeu privacy ou donnees exposees.
+
+## Usage KM
+
+- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
+
 ## Relations
 
 - `watch:tool-project-fit-scan`
@@ -121,21 +129,21 @@ Blog personnel de Scott Yoshinaga avec archives, updates, posts culturels et not
 
 ### v0.1 - 2026-05-22
 
-- Objectif : creer un fichier de veille pour sites inspirants, concurrents et outils.
-- Fichiers touches : `watch/inspiration-competitors-tools-watch.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : ne pas copier les concurrents, seulement analyser les patterns.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: creer un fichier de veille pour sites inspirants, concurrents et outils.
+- Fichiers touches: `watch/inspiration-competitors-tools-watch.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: ne pas copier les concurrents, seulement analyser les patterns.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
 
 ### v0.2 - 2026-05-22
 
-- Objectif : ajouter `ohmypizza.com` comme source inspirante de veille personnelle.
-- Fichiers touches : `watch/inspiration-competitors-tools-watch.md`, `km/history.md`.
-- Risques : source personnelle, a ne pas traiter comme reference officielle.
-- Rollback possible : retirer l'entree Oh My Pizza.
+- Objectif: ajouter `ohmypizza.com` comme source inspirante de veille personnelle.
+- Fichiers touches: `watch/inspiration-competitors-tools-watch.md`, `km/history.md`.
+- Risques: source personnelle, a ne pas traiter comme reference officielle.
+- Rollback possible: retirer l'entree Oh My Pizza.
 
 ### v0.3 - 2026-05-22
 
-- Objectif : resserrer `#ROUGE` aux abus offensifs directs et classer le reste en sensible.
-- Fichiers touches : `watch/inspiration-competitors-tools-watch.md`.
-- Risques : social planning et blogs personnels restent privacy-sensitive.
-- Rollback possible : revenir a v0.2.
+- Objectif: resserrer `#ROUGE` aux abus offensifs directs et classer le reste en sensible.
+- Fichiers touches: `watch/inspiration-competitors-tools-watch.md`.
+- Risques: social planning et blogs personnels restent privacy-sensitive.
+- Rollback possible: revenir a v0.2.

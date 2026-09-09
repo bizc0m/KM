@@ -191,3 +191,11 @@ Chaque mecanique V6 respecte les garde-fous avant ajout de features.
 ## Prochaine action recommandee
 
 Generer `v6_queue/V6_REPUTATION_MODEL.md`, car la NyxConomy depend d'un modele sain avant toute mecanique economique.
+
+## Resume court
+
+Nightlife V6 - Integration Plan reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

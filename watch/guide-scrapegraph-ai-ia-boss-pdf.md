@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille agents IA / automatisation.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor.
 `watch:guide-scrapegraph-ai-ia-boss-pdf`
 
 ## Sources
-- Source : [https://api.raindrop.io/v2/raindrop/1748687500/file?type=application/pdf](https://api.raindrop.io/v2/raindrop/1748687500/file?type=application/pdf)
+- Source: [https://api.raindrop.io/v2/raindrop/1748687500/file?type=application/pdf](https://api.raindrop.io/v2/raindrop/1748687500/file?type=application/pdf)
 
 ## Resume court
 
-Guide_ScrapeGraph_AI_IA_Boss.pdf est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
+Sert a suivre un outil d'automatisation ou d'agents IA.
+
+
+
+## Usage KM
+
+- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
 
 ## A_VERIFIER
 
@@ -32,7 +38,7 @@ Guide_ScrapeGraph_AI_IA_Boss.pdf est une fiche KM de veille Veille Raindrop KM M
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/guide-scrapegraph-ai-ia-boss-pdf.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/guide-scrapegraph-ai-ia-boss-pdf.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

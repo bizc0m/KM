@@ -57,3 +57,11 @@ Ordre:
 5. Ajouter privacy/opt-in.
 6. Brancher modules PIPI / Capote plus tard.
 7. Ajouter marketplace artistes apres stabilisation data.
+
+## Resume court
+
+V6 - Product Guardrails reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille agents IA / automatisation.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor.
 `watch:knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-coden`
 
 ## Sources
-- Source : [https://atelierformation-ia.fr/ressource/knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-codent-pas](https://atelierformation-ia.fr/ressource/knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-codent-pas)
+- Source: [https://atelierformation-ia.fr/ressource/knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-codent-pas](https://atelierformation-ia.fr/ressource/knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-codent-pas)
 
 ## Resume court
 
-Claude Plugins For Knowledge Work est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
+Sert a suivre un outil d'automatisation ou d'agents IA.
+
+
+
+## Usage KM
+
+- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
 
 ## A_VERIFIER
 
@@ -32,7 +38,7 @@ Claude Plugins For Knowledge Work est une fiche KM de veille Veille Raindrop KM 
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-coden.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-coden.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

@@ -2,13 +2,13 @@
 
 # Intégration des éléments DJ Mag Top 100 Clubs dans le portail et le jeu
 
-Source principale : urlDJ Mag Top 100 Clubshttps://djmag.com/top100clubs
+Source principale: urlDJ Mag Top 100 Clubshttps://djmag.com/top100clubs
 
 ---
 
 # Objectif stratégique
 
-Transformer les clubs réels, leur réputation, leurs codes sociaux et leurs dynamiques économiques en :
+Transformer les clubs réels, leur réputation, leurs codes sociaux et leurs dynamiques économiques en:
 
 - système de progression sociale
 - mécanique de découverte mondiale
@@ -25,7 +25,7 @@ Transformer les clubs réels, leur réputation, leurs codes sociaux et leurs dyn
 
 ### Proposition 1
 Les joueurs débloquent les clubs comme des « territoires culturels ».
-Chaque club visité, documenté ou analysé donne :
+Chaque club visité, documenté ou analysé donne:
 - XP culturelle
 - badges géographiques
 - réputation locale
@@ -33,7 +33,7 @@ Chaque club visité, documenté ou analysé donne :
 
 ### Proposition 2
 Création d’un système « Insider Level ».
-Le joueur progresse via :
+Le joueur progresse via:
 - reviews qualitatives
 - photos validées
 - micro-reportages
@@ -43,7 +43,7 @@ Le joueur progresse via :
 ### Proposition 3
 Système de guildes locales.
 Les joueurs représentent une ville ou un club.
-Classement saisonnier :
+Classement saisonnier:
 - Genève
 - Berlin
 - Ibiza
@@ -53,25 +53,25 @@ Classement saisonnier :
 
 ---
 
-## NyxConomy : économie du jeu
+## NyxConomy: économie du jeu
 
 ### Proposition 1
 Les clubs possèdent une valeur économique dynamique.
-Plus un club reçoit :
+Plus un club reçoit:
 - interactions
 - événements
 - contenus
 - trafic
 plus sa valeur augmente.
 
-Possibilité :
+Possibilité:
 - acheter des parts symboliques
 - spéculation réputationnelle
 - staking social.
 
 ### Proposition 2
 Création de « Night Assets ».
-Objets numériques liés à :
+Objets numériques liés à:
 - tables VIP
 - événements historiques
 - flyers rares
@@ -81,7 +81,7 @@ Objets numériques liés à :
 ### Proposition 3
 Système de franchises virtuelles.
 Un joueur peut ouvrir une version virtuelle d’un concept inspiré d’un club réel.
-Exemple :
+Exemple:
 - mini club social
 - espace curator
 - room privée.
@@ -92,7 +92,7 @@ Exemple :
 
 ### Proposition 1
 Partenariats avec clubs réels.
-Le portail devient :
+Le portail devient:
 - moteur de visibilité
 - système d’analytics communautaire
 - outil d’influence.
@@ -104,7 +104,7 @@ Présence physique = bonus uniques.
 
 ### Proposition 3
 Système d’ambassadeurs locaux.
-Les meilleurs contributeurs deviennent :
+Les meilleurs contributeurs deviennent:
 - scouts
 - curateurs
 - référents ville.
@@ -121,7 +121,7 @@ Le joueur construit une bibliothèque culturelle.
 
 ### Proposition 2
 Quêtes narratives autour des DJs.
-Exemple :
+Exemple:
 - retrouver les influences
 - reconstruire une timeline musicale
 - découvrir les clubs fondateurs.
@@ -141,7 +141,7 @@ Les playlists et sélections gagnent de la valeur selon leur influence.
 
 ### Proposition 2
 Licences numériques événementielles.
-Un DJ peut débloquer :
+Un DJ peut débloquer:
 - skins
 - ambiance sonore
 - scénographie.
@@ -179,7 +179,7 @@ Explorer des scènes peu connues rapporte plus.
 
 ### Proposition 3
 Défis culturels régionaux.
-Exemple :
+Exemple:
 - Balkan nights
 - Tokyo underground
 - Swiss precision nights.
@@ -190,7 +190,7 @@ Exemple :
 
 ### Proposition 1
 Économie locale dynamique.
-Chaque ville possède :
+Chaque ville possède:
 - inflation sociale
 - rareté
 - prestige.
@@ -258,7 +258,7 @@ Les scènes montantes prennent de la valeur.
 ## Lien avec le réel
 
 ### Proposition 1
-Classements hybrides :
+Classements hybrides:
 - data réelle
 - communauté
 - fréquentation.
@@ -281,7 +281,7 @@ Pas juste avatar.
 
 ### Proposition 2
 Archétypes nightlife.
-Exemple :
+Exemple:
 - curator
 - connector
 - explorer
@@ -302,7 +302,7 @@ Le capital social devient ressource.
 
 ### Proposition 2
 Marketplace expérientielle.
-Échange de :
+Échange de:
 - accès
 - recommandations
 - invitations.
@@ -356,11 +356,11 @@ Communautés locales hybrides.
 
 Le point fort potentiel n’est pas le nightlife.
 
-Le vrai différenciateur :
+Le vrai différenciateur:
 
 « transformer la vie nocturne mondiale en couche culturelle et économique persistante ».
 
-Donc :
+Donc:
 - moins “guide de clubs”
 - plus “MMO culturel du monde réel”.
 
@@ -397,3 +397,11 @@ ou
 ou
 
 « Mapping nightlife as a living world »
+
+## Resume court
+
+PISTES.MD reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille source Raindrop / a verifier.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor.
 `watch:mobile-app-raindrop-io-help`
 
 ## Sources
-- Source : [https://help.raindrop.io/mobile-app#add-to-unsorted-action](https://help.raindrop.io/mobile-app#add-to-unsorted-action)
+- Source: [https://help.raindrop.io/mobile-app#add-to-unsorted-action](https://help.raindrop.io/mobile-app#add-to-unsorted-action)
 
 ## Resume court
 
-Mobile app - Raindrop.io Help est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
+Source Raindrop / a verifier.
+
+
+
+## Usage KM
+
+- Utiliser comme source de veille ou point d'entree a verifier avant enrichissement KM.
 
 ## A_VERIFIER
 
@@ -32,7 +38,7 @@ Mobile app - Raindrop.io Help est une fiche KM de veille Veille Raindrop KM Moni
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/mobile-app-raindrop-io-help.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/mobile-app-raindrop-io-help.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Risque principal: claims non verifies, source secondaire ou lien final non resolu.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

@@ -13,11 +13,17 @@ Veille outil IA / extraction documents.
 `watch:mineru-document-extraction`
 
 ## Sources
-- Source sociale : [https://x.com/yerocode0/status/2070221861976183259](https://x.com/yerocode0/status/2070221861976183259)
+- Source sociale: [https://x.com/yerocode0/status/2070221861976183259](https://x.com/yerocode0/status/2070221861976183259)
 
 ## Resume court
 
-MinerU - Document Extraction est une fiche KM de veille Veille outil IA / extraction documents. Source finale conservee dans la fiche.
+Extrait ou structure des donnees depuis des sources web ou documents.
+
+
+
+## Usage KM
+
+- Tester l'usage pour convertir, extraire ou structurer des contenus sans exposer de donnees sensibles.
 
 ## Relations
 
@@ -28,7 +34,7 @@ MinerU - Document Extraction est une fiche KM de veille Veille outil IA / extrac
 
 ### v0.1 - 2026-06-27
 
-- Objectif : integrer MinerU comme veille extraction documentaire.
-- Fichiers touches : `watch/mineru-document-extraction.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : documents sensibles, copyright, erreurs OCR.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer MinerU comme veille extraction documentaire.
+- Fichiers touches: `watch/mineru-document-extraction.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: documents sensibles, copyright, erreurs OCR.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

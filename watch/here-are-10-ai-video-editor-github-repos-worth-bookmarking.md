@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille agents IA / automatisation.
 
 ## Tags
 
@@ -13,15 +13,21 @@ Veille Raindrop KM Monitor.
 `watch:here-are-10-ai-video-editor-github-repos-worth-bookmarking`
 
 ## Sources
-- Source : [https://x.com/kanikabk/status/2065780534148731148](https://x.com/kanikabk/status/2065780534148731148)
+- Source: [https://x.com/kanikabk/status/2065780534148731148](https://x.com/kanikabk/status/2065780534148731148)
 
 ## Resume court
 
-Here are 10 AI video editor GitHub repos worth bookmarking: est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
+Sert a suivre un outil d'automatisation ou d'agents IA.
+
+
+
+## Usage KM
+
+- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
 
 ## A_VERIFIER
 
-- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
+- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
 
 ## Relations
 
@@ -32,7 +38,7 @@ Here are 10 AI video editor GitHub repos worth bookmarking: est une fiche KM de 
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/here-are-10-ai-video-editor-github-repos-worth-bookmarking.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/here-are-10-ai-video-editor-github-repos-worth-bookmarking.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

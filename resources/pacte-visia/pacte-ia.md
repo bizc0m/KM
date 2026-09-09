@@ -4,9 +4,9 @@
 
 Ce pacte définit les principes et engagements pour une IA qui reste une **alliée du bonheur humain**, pas un outil de contrôle ou de bullshit.
 
-**Pour qui ?** Quiconque design, utilise ou régule une IA : développeurs, designers, utilisateurs, "Diplomates des IA", organisations.
+**Pour qui ?** Quiconque design, utilise ou régule une IA: développeurs, designers, utilisateurs, "Diplomates des IA", organisations.
 
-**Horizon :** S'inscrire dans une logique de **flourishing** (épanouissement humain, justice, respect du vivant), alignée avec les standards d'IA digne de confiance (OCDE, human-centered AI, AI & Human Flourishing).
+**Horizon:** S'inscrire dans une logique de **flourishing** (épanouissement humain, justice, respect du vivant), alignée avec les standards d'IA digne de confiance (OCDE, human-centered AI, AI & Human Flourishing).
 
 ---
 
@@ -59,7 +59,7 @@ L'IA doit servir l'épanouissement humain, la justice et le respect du vivant.
    - Tester avec des utilisateurs réels, pas juste des développeurs
 
 2. **Transparence active**
-   - Documenter clairement : capacités, limites, risques
+   - Documenter clairement: capacités, limites, risques
    - Expliquer comment les données sont utilisées
    - Signaler quand l'IA est incertaine ou pourrait se tromper
 
@@ -71,7 +71,7 @@ L'IA doit servir l'épanouissement humain, la justice et le respect du vivant.
 ### Pour les utilisateurs d'IA
 
 1. **Utilisation réfléchie**
-   - Interroger : cette IA m'aide ou m'assiste réellement ?
+   - Interroger: cette IA m'aide ou m'assiste réellement ?
    - Garder un esprit critique sur les réponses
    - Ne pas laisser l'IA remplacer mon jugement ou ma créativité
 
@@ -87,7 +87,7 @@ L'IA doit servir l'épanouissement humain, la justice et le respect du vivant.
 
 ---
 
-## Checklist d'Audit : Évaluer un Outil IA
+## Checklist d'Audit: Évaluer un Outil IA
 
 Poser ces questions avant ou pendant l'utilisation d'un outil IA.
 
@@ -102,17 +102,17 @@ Poser ces questions avant ou pendant l'utilisation d'un outil IA.
 | **Relations** | L'outil renforce ou remplace les connexions humaines ? | [ ] | [ ] | [ ] |
 | **Bien commun** | L'outil sert le flourishing ou principalement le profit ? | [ ] | [ ] | [ ] |
 
-**Score :** 6+ ✓ = Aligné PACTE_IA | 3-5 ⚠ = À améliorer | <3 ❌ = Non-recommandé
+**Score:** 6+ ✓ = Aligné PACTE_IA | 3-5 ⚠ = À améliorer | <3 ❌ = Non-recommandé
 
-*Note : Certains critères (agency humaine, honnêteté) pèsent plus que d'autres. Utilise ton jugement.*
+*Note: Certains critères (agency humaine, honnêteté) pèsent plus que d'autres. Utilise ton jugement.*
 
 ---
 
-## Prompts de Référence : "Bienveillance by Design"
+## Prompts de Référence: "Bienveillance by Design"
 
 Copie-colle ces prompts pour interagir avec une IA de manière alignée PACTE_IA.
 
-### Prompt 1 : Clarification sans bullshit
+### Prompt 1: Clarification sans bullshit
 ```
 Je veux comprendre [sujet].
 - Explique simplement, dis-moi tes limites et incertitudes.
@@ -121,7 +121,7 @@ Je veux comprendre [sujet].
 - Pas de jargon inutile, pas de certitude feinte.
 ```
 
-### Prompt 2 : Assistance réfléchie
+### Prompt 2: Assistance réfléchie
 ```
 Je dois [tâche].
 - Aide-moi à structurer ma réflexion, pas à décider pour moi.
@@ -130,7 +130,7 @@ Je dois [tâche].
 - Dis-moi si tu penses que c'est une bonne idée ou si tu vois un risque.
 ```
 
-### Prompt 3 : Audit d'un outil
+### Prompt 3: Audit d'un outil
 ```
 Je veux évaluer [outil IA].
 - Utilise la checklist PACTE_IA.
@@ -139,7 +139,7 @@ Je veux évaluer [outil IA].
 - Signale les dérives possibles.
 ```
 
-### Prompt 4 : Conception éthique
+### Prompt 4: Conception éthique
 ```
 Je crée [outil/feature IA].
 - Teste-moi sur les 4 piliers du PACTE_IA.
@@ -152,24 +152,32 @@ Je crée [outil/feature IA].
 
 ## Ressources Connexes
 
-- **OCDE** : *Recommendation on Artificial Intelligence* (2019)
-- **UNESCO** : *Recommendation on the Ethics of AI* (2021)
-- **Stanford HAI** : *Human-Centered AI Initiative*
-- **Center for AI Safety** : *Alignment & Trustworthy AI*
+- **OCDE**: *Recommendation on Artificial Intelligence* (2019)
+- **UNESCO**: *Recommendation on the Ethics of AI* (2021)
+- **Stanford HAI**: *Human-Centered AI Initiative*
+- **Center for AI Safety**: *Alignment & Trustworthy AI*
 
 ---
 
 ## Contribution et Évolution
 
-Ce pacte n'est pas figé. Il évolue selon :
+Ce pacte n'est pas figé. Il évolue selon:
 - Les retours d'expérience réels
 - Les dilemmes éthiques rencontrés
 - Les changements technologiques
 
-**Pour améliorer ce pacte :** Ouvre une issue ou une PR avec tes observations, cas d'usage, ou améliorations.
+**Pour améliorer ce pacte:** Ouvre une issue ou une PR avec tes observations, cas d'usage, ou améliorations.
 
 ---
 
 **Version 1.0** — Mai 2026
 Créé par K.reat0r, Diplomate des IA
-Licence : CC-BY-SA 4.0 (à adapter)
+Licence: CC-BY-SA 4.0 (à adapter)
+
+## Resume court
+
+PACTE IA Human Flourishing Framework reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor / topic GitHub.
+topic GitHub.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor / topic GitHub.
 `watch:github-digital-life-topic`
 
 ## Sources
-- Source finale : [https://github.com/topics/digital-life](https://github.com/topics/digital-life)
+- Source finale: [https://github.com/topics/digital-life](https://github.com/topics/digital-life)
 
 ## Resume court
 
-GitHub Digital Life Topic est une fiche KM de veille Veille Raindrop KM Monitor / topic GitHub. Source finale conservee dans la fiche.
+Sert a suivre un outil d'automatisation ou d'agents IA.
+
+
+
+## Usage KM
+
+- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
 
 ## Relations
 
@@ -29,7 +35,7 @@ GitHub Digital Life Topic est une fiche KM de veille Veille Raindrop KM Monitor 
 
 ### v0.1 - 2026-08-09
 
-- Objectif : integrer la nouveaute Raindrop KM Monitor `GitHub topic digital-life`.
-- Fichiers touches : `watch/github-digital-life-topic.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : curation variable, depots inconnus, donnees personnelles.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer la nouveaute Raindrop KM Monitor `GitHub topic digital-life`.
+- Fichiers touches: `watch/github-digital-life-topic.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: curation variable, depots inconnus, donnees personnelles.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

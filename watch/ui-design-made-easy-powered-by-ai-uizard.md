@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor / outil design IA.
+outil design IA.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor / outil design IA.
 `watch:ui-design-made-easy-powered-by-ai-uizard`
 
 ## Sources
-- Source finale : [https://uizard.io/](https://uizard.io/)
+- Source finale: [https://uizard.io/](https://uizard.io/)
 
 ## Resume court
 
-UI Design Made Easy Powered By AI Uizard est une fiche KM de veille Veille Raindrop KM Monitor / outil design IA. Source finale conservee dans la fiche.
+Design IA.
+
+
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.
 
 ## Relations
 
@@ -29,7 +35,7 @@ UI Design Made Easy Powered By AI Uizard est une fiche KM de veille Veille Raind
 
 ### v0.1 - 2026-08-04
 
-- Objectif : integrer la nouveaute Raindrop KM Monitor `Uizard`.
-- Fichiers touches : `watch/ui-design-made-easy-powered-by-ai-uizard.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : fuite de contexte produit, droits des designs, donnees client dans maquettes.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer la nouveaute Raindrop KM Monitor `Uizard`.
+- Fichiers touches: `watch/ui-design-made-easy-powered-by-ai-uizard.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: fuite de contexte produit, droits des designs, donnees client dans maquettes.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

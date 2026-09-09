@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille OSINT / privacy.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor.
 `watch:open-source-observability-for-traces-logs-metrics-maple`
 
 ## Sources
-- Source : [https://maple.dev](https://maple.dev)
+- Source: [https://maple.dev](https://maple.dev)
 
 ## Resume court
 
-Open Source Observability for Traces, Logs & Metrics · Maple est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
+Sert a surveiller un outil ou signal OSINT.
+
+
+
+## Usage KM
+
+- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
 
 ## A_VERIFIER
 
@@ -32,7 +38,7 @@ Open Source Observability for Traces, Logs & Metrics · Maple est une fiche KM d
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/open-source-observability-for-traces-logs-metrics-maple.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/open-source-observability-for-traces-logs-metrics-maple.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor / export conversationnel ChatGPT vers PDF.
+export conversationnel ChatGPT vers PDF.
 
 ## Tags
 
@@ -14,7 +14,15 @@ Veille Raindrop KM Monitor / export conversationnel ChatGPT vers PDF.
 
 ## Sources
 
-- Source finale : `https://www.chat2pdf.org/fr`
+- Source finale: `https://www.chat2pdf.org/fr`
+
+## Resume court
+
+Sert a evaluer un enjeu privacy ou donnees exposees.
+
+## Usage KM
+
+- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
 
 ## Relations
 
@@ -26,7 +34,7 @@ Veille Raindrop KM Monitor / export conversationnel ChatGPT vers PDF.
 
 ### v0.1 - 2026-08-20
 
-- Objectif : integrer la nouveaute Raindrop KM Monitor `Chat2PDF`.
-- Fichiers touches : `watch/chat2pdf-convertissez-les-conversations-chatgpt-en-pdf.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : conversations IA potentiellement privees, donnees personnelles, secrets et contenu client.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer la nouveaute Raindrop KM Monitor `Chat2PDF`.
+- Fichiers touches: `watch/chat2pdf-convertissez-les-conversations-chatgpt-en-pdf.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: conversations IA potentiellement privees, donnees personnelles, secrets et contenu client.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

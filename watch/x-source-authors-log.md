@@ -39,11 +39,19 @@ Identifier les auteurs des posts utilises comme sources de veille, sans les trai
 - Les followers sont informatifs et variables.
 - Ne pas inferer fiabilite uniquement depuis le nombre de followers.
 
+## Resume court
+
+Sert a suivre ou organiser des sources de veille.
+
+## Usage KM
+
+- Utiliser comme source de veille ou point d'entree a verifier avant enrichissement KM.
+
 ## Changelog
 
 ### v0.1 - 2026-05-22
 
-- Objectif : logger les auteurs des posts X utilises comme sources KM.
-- Fichiers touches : `watch/x-source-authors-log.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : metadonnees X variables.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: logger les auteurs des posts X utilises comme sources KM.
+- Fichiers touches: `watch/x-source-authors-log.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: metadonnees X variables.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

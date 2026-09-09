@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille source Raindrop / a verifier.
 
 ## Tags
 
@@ -13,15 +13,21 @@ Veille Raindrop KM Monitor.
 `watch:1-motionsites`
 
 ## Sources
-- Source : [https://x.com/franpradasai/status/2065038918559449477](https://x.com/franpradasai/status/2065038918559449477)
+- Source: [https://x.com/franpradasai/status/2065038918559449477](https://x.com/franpradasai/status/2065038918559449477)
 
 ## Resume court
 
-Motionsites est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
+Source Raindrop / a verifier.
+
+
+
+## Usage KM
+
+- Utiliser comme source de veille ou point d'entree a verifier avant enrichissement KM.
 
 ## A_VERIFIER
 
-- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
+- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
 
 ## Relations
 
@@ -32,7 +38,7 @@ Motionsites est une fiche KM de veille Veille Raindrop KM Monitor. Source finale
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/1-motionsites.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/1-motionsites.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Risque principal: claims non verifies, source secondaire ou lien final non resolu.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

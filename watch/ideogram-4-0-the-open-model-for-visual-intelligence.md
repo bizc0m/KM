@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille agents IA / automatisation.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor.
 `watch:ideogram-4-0-the-open-model-for-visual-intelligence`
 
 ## Sources
-- Source : [https://ideogram.ai](https://ideogram.ai)
+- Source: [https://ideogram.ai](https://ideogram.ai)
 
 ## Resume court
 
-Ideogram 4.0 — The open model for visual intelligence est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
+Sert a suivre un outil d'automatisation ou d'agents IA.
+
+
+
+## Usage KM
+
+- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
 
 ## A_VERIFIER
 
@@ -32,7 +38,7 @@ Ideogram 4.0 — The open model for visual intelligence est une fiche KM de veil
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/ideogram-4-0-the-open-model-for-visual-intelligence.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/ideogram-4-0-the-open-model-for-visual-intelligence.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

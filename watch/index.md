@@ -9,6 +9,9 @@ Index des sources de veille transversales KM.
 | Appel | Source | Usage | Statut |
 | --- | --- | --- | --- |
 | `watch:ai-trending` | `ai-trending.md` | Radar outils IA, tendances GitHub, agents, LLM, RAG, devtools | actif |
+| `watch:right-click-prompt-browser-prompt-library` | `right-click-prompt-browser-prompt-library.md` | Bibliotheque de prompts accessible depuis clic droit navigateur ; stockage, partage et prompts sensibles a verifier. | sensible |
+| `watch:betterdisplay-macos-display-control` | `betterdisplay-macos-display-control.md` | Utilitaire macOS de controle avance des ecrans ; permissions, streaming et ecrans virtuels a verifier. | actif |
+| `watch:kata-tracker-local-first-issue-tracker` | `kata-tracker-local-first-issue-tracker.md` | Issue tracker local-first pour humains et agents de code ; stockage, exports et injection de tickets a verifier. | actif |
 | `watch:ai-open-source-tools-watch` | `ai-open-source-tools-watch.md` | Lot sources sociales : outils IA/open source, alternatives SaaS, agents, OSINT, local-first | actif |
 | `watch:ai-open-source-tools-inventory` | `ai-open-source-tools-inventory.md` | Inventaire detaille : 32 outils nommes uniques extraits du lot X | actif |
 | `watch:osint-tools-watch` | `osint-tools-watch.md` | Outils OSINT sensibles : vehicle search, VIN, plaques, historiques vehicules | actif |

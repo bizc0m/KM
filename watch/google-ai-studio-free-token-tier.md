@@ -13,11 +13,17 @@ Veille ressource IA / quotas API.
 `watch:google-ai-studio-free-token-tier`
 
 ## Sources
-- Source : [https://x.com/engmoelgaraihy/status/2071356188944441625](https://x.com/engmoelgaraihy/status/2071356188944441625)
+- Source: [https://x.com/engmoelgaraihy/status/2071356188944441625](https://x.com/engmoelgaraihy/status/2071356188944441625)
 
 ## Resume court
 
-Google AI Studio Free Token Tier est une fiche KM de veille Veille ressource IA / quotas API. Source finale conservee dans la fiche.
+Sert a suivre une ressource LLM ou API.
+
+
+
+## Usage KM
+
+- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
 
 ## A verifier
 

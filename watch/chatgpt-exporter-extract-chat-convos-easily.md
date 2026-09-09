@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor / export conversations ChatGPT multi-format.
+export conversations ChatGPT multi-format.
 
 ## Tags
 
@@ -14,11 +14,15 @@ Veille Raindrop KM Monitor / export conversations ChatGPT multi-format.
 
 ## Sources
 
-- Source finale : `https://www.chatgptexporter.com/en`
+- Source finale: `https://www.chatgptexporter.com/en`
 
 ## Resume court
 
 ChatGPT Exporter propose d'extraire et sauvegarder des conversations ChatGPT en PDF, Markdown, texte, CSV, JSON ou image. Le signal est interessant pour archivage KM et migration de conversations, mais doit etre audite avant usage sur des donnees sensibles.
+
+## Usage KM
+
+- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
 
 ## Relations
 
@@ -30,7 +34,7 @@ ChatGPT Exporter propose d'extraire et sauvegarder des conversations ChatGPT en 
 
 ### v0.1 - 2026-08-20
 
-- Objectif : integrer la nouveaute Raindrop KM Monitor `ChatGPT Exporter`.
-- Fichiers touches : `watch/chatgpt-exporter-extract-chat-convos-easily.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : export massif de conversations, donnees personnelles, secrets et contenu proprietaire.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer la nouveaute Raindrop KM Monitor `ChatGPT Exporter`.
+- Fichiers touches: `watch/chatgpt-exporter-extract-chat-convos-easily.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: export massif de conversations, donnees personnelles, secrets et contenu proprietaire.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

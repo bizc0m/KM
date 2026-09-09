@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor / notice legale service financier IA.
+notice legale service financier IA.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor / notice legale service financier IA.
 `watch:assistants-ia-revolut`
 
 ## Sources
-- Source finale : [https://www.revolut.com/fr-FR/legal/rita-disclaimer](https://www.revolut.com/fr-FR/legal/rita-disclaimer)
+- Source finale: [https://www.revolut.com/fr-FR/legal/rita-disclaimer](https://www.revolut.com/fr-FR/legal/rita-disclaimer)
 
 ## Resume court
 
-Assistants IA Revolut est une fiche KM de veille Veille Raindrop KM Monitor / notice legale service financier IA. Source finale conservee dans la fiche.
+Sert a evaluer un enjeu privacy ou donnees exposees.
+
+
+
+## Usage KM
+
+- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
 
 ## Relations
 
@@ -27,7 +33,7 @@ Assistants IA Revolut est une fiche KM de veille Veille Raindrop KM Monitor / no
 
 ### v0.1 - 2026-07-17
 
-- Objectif : integrer la nouveaute Raindrop KM Monitor `ASSISTANTS IA REVOLUT`.
-- Fichiers touches : `watch/assistants-ia-revolut.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : service financier IA, donnees personnelles et interpretation juridique a controler.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer la nouveaute Raindrop KM Monitor `ASSISTANTS IA REVOLUT`.
+- Fichiers touches: `watch/assistants-ia-revolut.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: service financier IA, donnees personnelles et interpretation juridique a controler.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

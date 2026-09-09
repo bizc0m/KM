@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor / kit frontend pour agents IA.
+kit frontend pour agents IA.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor / kit frontend pour agents IA.
 `watch:taste-skill`
 
 ## Sources
-- Source finale : [https://www.tasteskill.dev/](https://www.tasteskill.dev/)
+- Source finale: [https://www.tasteskill.dev/](https://www.tasteskill.dev/)
 
 ## Resume court
 
-Taste Skill est une fiche KM de veille Veille Raindrop KM Monitor / kit frontend pour agents IA. Source finale conservee dans la fiche.
+Kit frontend pour agents IA.
+
+
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.
 
 ## Relations
 
@@ -30,7 +36,7 @@ Taste Skill est une fiche KM de veille Veille Raindrop KM Monitor / kit frontend
 
 ### v0.1 - 2026-08-05
 
-- Objectif : integrer la nouveaute Raindrop KM Monitor `Taste Skill`.
-- Fichiers touches : `watch/taste-skill.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : prompts sensibles, copie visuelle, publication de contexte interne.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer la nouveaute Raindrop KM Monitor `Taste Skill`.
+- Fichiers touches: `watch/taste-skill.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: prompts sensibles, copie visuelle, publication de contexte interne.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

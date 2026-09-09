@@ -1,56 +1,56 @@
 # CDD Urgence V5 15-May DOC_TECH
 
-- Nom du projet : CDD / Urgence V5 - Nightlife Radar
-- Date de génération : 15 May 2026
-- Version suggérée : v5.10
-- Changements majeurs : stabilisation V5 beta, radar monde, endpoints multi-villes, données nightlife, gamification love, documentation de coordination.
-- Statut : complète les précédentes docs et sert de base wiki contributeur.
+- Nom du projet: CDD / Urgence V5 - Nightlife Radar
+- Date de génération: 15 May 2026
+- Version suggérée: v5.10
+- Changements majeurs: stabilisation V5 beta, radar monde, endpoints multi-villes, données nightlife, gamification love, documentation de coordination.
+- Statut: complète les précédentes docs et sert de base wiki contributeur.
 
 # Concepts détectés
-- #CoreLoop : choisir une ville, consulter les lieux/events, agir ou contribuer.
-- #Action : ouvrir un dashboard, filtrer, cliquer un lieu, envoyer du love, scanner une zone.
-- #Feedback : scores, distances, badges, feed live, listes filtrées, statuts de scan.
-- #Progression : points, missions, validations, contribution aux données.
-- #Reward : Aura, Karma, visibilité, badges, accès à des vues mieux renseignées.
-- #Engagement : radar live, love signals, missions Night Agent, contribution communautaire.
-- #Rule : sources vérifiées, schémas stables, pas de doublons, données datées.
-- #State : ville sélectionnée, filtre actif, utilisateur connecté, scan prêt, fallback local.
-- #Trigger : géolocalisation, clic ville, refresh, contribution, validation, deploy beta.
+- #CoreLoop: choisir une ville, consulter les lieux/events, agir ou contribuer.
+- #Action: ouvrir un dashboard, filtrer, cliquer un lieu, envoyer du love, scanner une zone.
+- #Feedback: scores, distances, badges, feed live, listes filtrées, statuts de scan.
+- #Progression: points, missions, validations, contribution aux données.
+- #Reward: Aura, Karma, visibilité, badges, accès à des vues mieux renseignées.
+- #Engagement: radar live, love signals, missions Night Agent, contribution communautaire.
+- #Rule: sources vérifiées, schémas stables, pas de doublons, données datées.
+- #State: ville sélectionnée, filtre actif, utilisateur connecté, scan prêt, fallback local.
+- #Trigger: géolocalisation, clic ville, refresh, contribution, validation, deploy beta.
 
 # Vue d’ensemble
-- Objectif du système : aider à trouver rapidement où sortir, quoi faire et quels lieux/events sont pertinents selon la ville.
-- Type de projet : plateforme nightlife gamifiée, dashboard data, radar mondial et outil OSINT léger.
-- Logique globale : agréger des sources nightlife, normaliser events/venues/sources, afficher des vues par ville, puis encourager la contribution utile.
+- Objectif du système: aider à trouver rapidement où sortir, quoi faire et quels lieux/events sont pertinents selon la ville.
+- Type de projet: plateforme nightlife gamifiée, dashboard data, radar mondial et outil OSINT léger.
+- Logique globale: agréger des sources nightlife, normaliser events/venues/sources, afficher des vues par ville, puis encourager la contribution utile.
 
 # Mécaniques
-- Radar ville : centrale. Affiche events, lieux, scores, quartiers, sources.
-- Urgence GlouGlou : centrale. Propose rapidement des lieux proches ou pertinents.
-- Party : centrale. Liste les événements actifs ou à venir.
-- World Love Radar : centrale. Visualise les hotspots mondiaux et signaux de love.
-- Scan de zone : support. Génère une vue locale à partir d’une position.
-- Sources scraping : support. Registre de sources et vérification des URLs.
-- Gamification : secondaire. Points, missions, badges, validation et love signals.
-- Agents/documentation : support. Coordonne les chats, règles, schémas et handoffs.
+- Radar ville: centrale. Affiche events, lieux, scores, quartiers, sources.
+- Urgence GlouGlou: centrale. Propose rapidement des lieux proches ou pertinents.
+- Party: centrale. Liste les événements actifs ou à venir.
+- World Love Radar: centrale. Visualise les hotspots mondiaux et signaux de love.
+- Scan de zone: support. Génère une vue locale à partir d’une position.
+- Sources scraping: support. Registre de sources et vérification des URLs.
+- Gamification: secondaire. Points, missions, badges, validation et love signals.
+- Agents/documentation: support. Coordonne les chats, règles, schémas et handoffs.
 
 # Boucles et systèmes de gamification
-- Core loop : choisir ville -> voir lieux/events -> filtrer -> cliquer/agir -> recevoir feedback.
-- Reward loop : contribuer/valider/scanner -> points ou statut -> meilleure donnée -> reconnaissance.
-- Progression loop : missions régulières -> score utilisateur -> accès/visibilité -> plus d’impact.
-- Points : Karma, Aura, points de contribution, streaks potentiels.
-- Engagement : radar live, feed love, badges, Night Agents, challenges personnels.
+- Core loop: choisir ville -> voir lieux/events -> filtrer -> cliquer/agir -> recevoir feedback.
+- Reward loop: contribuer/valider/scanner -> points ou statut -> meilleure donnée -> reconnaissance.
+- Progression loop: missions régulières -> score utilisateur -> accès/visibilité -> plus d’impact.
+- Points: Karma, Aura, points de contribution, streaks potentiels.
+- Engagement: radar live, feed love, badges, Night Agents, challenges personnels.
 
 # Logique interne
 - Une ville doit exister dans `backend/cities/*.json`.
-- Les vues front consomment des champs stables : events, venues, radars, districts, vibe_colors, version.
+- Les vues front consomment des champs stables: events, venues, radars, districts, vibe_colors, version.
 - Les events passés peuvent être masqués sauf cas de vue historique.
 - Les endpoints multi-villes sont servis localement et en beta via `/api/cities/:cityId/*`.
 - Les sources doivent conserver un lien source.
 - Les changements structurants vont dans `AGENTS.md`, `progress.md`, `SYNC.md`, `SCHEMA.md` ou docs dédiées.
 
 # Architecture simplifiée
-- Inputs : fichiers ville JSON, sources scraping, géoloc, clics utilisateur, registres docs.
-- Process : normalisation, scoring, filtrage, déduplication, fallback local, rendu React.
-- Outputs : dashboards ville, GlouGlou, Party, World Radar, APIs JSON, rapports docs.
+- Inputs: fichiers ville JSON, sources scraping, géoloc, clics utilisateur, registres docs.
+- Process: normalisation, scoring, filtrage, déduplication, fallback local, rendu React.
+- Outputs: dashboards ville, GlouGlou, Party, World Radar, APIs JSON, rapports docs.
 
 # Cas d’usage
 - Un utilisateur ouvre `/party`, filtre les événements futurs et clique une billetterie.
@@ -73,11 +73,11 @@
 | Coordination agents | 4 | 4 | 3 | 3 | 2 | 2 | 3.0 |
 
 # Dark patterns
-- Love score : risque moyen. Peut devenir une métrique sociale opaque. Alternative : expliquer les signaux et permettre de désactiver l’affichage.
-- Streaks/missions : risque moyen. Peut pousser à revenir sans vraie valeur. Alternative : missions utiles, non pénalisantes.
-- Classements premium : risque faible à moyen. Peut créer une hiérarchie artificielle. Alternative : indiquer les critères et garder des filtres neutres.
-- Géolocalisation : risque moyen. Donnée sensible. Alternative : fallback manuel, consentement clair, pas de tracking inutile.
-- Notifications futures : risque moyen. Éviter pression abusive et messages trompeurs.
+- Love score: risque moyen. Peut devenir une métrique sociale opaque. Alternative: expliquer les signaux et permettre de désactiver l’affichage.
+- Streaks/missions: risque moyen. Peut pousser à revenir sans vraie valeur. Alternative: missions utiles, non pénalisantes.
+- Classements premium: risque faible à moyen. Peut créer une hiérarchie artificielle. Alternative: indiquer les critères et garder des filtres neutres.
+- Géolocalisation: risque moyen. Donnée sensible. Alternative: fallback manuel, consentement clair, pas de tracking inutile.
+- Notifications futures: risque moyen. Éviter pression abusive et messages trompeurs.
 
 # Mapping MTG / game theory
 
@@ -108,3 +108,11 @@
 | SYNC inter-chat | Éviter conflits entre chats | Lire/mettre à jour `SYNC.md` | contributeur | essentielle |
 | Gamification love | Récompenser signaux utiles | Envoyer love, valider, contribuer | joueur | utile |
 | Premium tag | Identifier lieux très prisés | Filtrer premium/prenium dans radar | joueur | optionnelle |
+
+## Resume court
+
+CDD Urgence V5 15-May DOC TECH reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

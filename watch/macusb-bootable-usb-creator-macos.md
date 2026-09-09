@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor / outil macOS.
+outil macOS.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor / outil macOS.
 `watch:macusb-bootable-usb-creator-macos`
 
 ## Sources
-- Source finale : [https://www.macusb.app/](https://www.macusb.app/)
+- Source finale: [https://www.macusb.app/](https://www.macusb.app/)
 
 ## Resume court
 
-macUSB Bootable USB Creator macOS est une fiche KM de veille Veille Raindrop KM Monitor / outil macOS. Source finale conservee dans la fiche.
+MacOS.
+
+
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.
 
 ## Relations
 
@@ -28,7 +34,7 @@ macUSB Bootable USB Creator macOS est une fiche KM de veille Veille Raindrop KM 
 
 ### v0.1 - 2026-08-03
 
-- Objectif : integrer la nouveaute Raindrop KM Monitor `macUSB`.
-- Fichiers touches : `watch/macusb-bootable-usb-creator-macos.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : effacement de disque, media bootable non fiable, confiance dans un outil tiers.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer la nouveaute Raindrop KM Monitor `macUSB`.
+- Fichiers touches: `watch/macusb-bootable-usb-creator-macos.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: effacement de disque, media bootable non fiable, confiance dans un outil tiers.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille source Raindrop / a verifier.
 
 ## Tags
 
@@ -13,15 +13,19 @@ Veille Raindrop KM Monitor.
 `watch:xamto-ai-understand-anything-x-post-2`
 
 ## Sources
-- Source : [https://x.com/geekbb/status/2065823256746352712](https://x.com/geekbb/status/2065823256746352712)
+- Source: [https://x.com/geekbb/status/2065823256746352712](https://x.com/geekbb/status/2065823256746352712)
 
 ## Resume court
 
 https://t.co/ShXmoBk02U
 
+## Usage KM
+
+- Utiliser comme source de veille ou point d'entree a verifier avant enrichissement KM.
+
 ## A_VERIFIER
 
-- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
+- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
 
 ## Relations
 
@@ -32,7 +36,7 @@ https://t.co/ShXmoBk02U
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/geekbb-free-tools-list.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/geekbb-free-tools-list.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Risque principal: claims non verifies, source secondaire ou lien final non resolu.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

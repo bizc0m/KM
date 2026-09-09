@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor / detection tendances GitHub.
+detection tendances GitHub.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor / detection tendances GitHub.
 `watch:trendshift-github-momentum`
 
 ## Sources
-- Source finale : [https://trendshift.io/](https://trendshift.io/)
+- Source finale: [https://trendshift.io/](https://trendshift.io/)
 
 ## Resume court
 
-Trendshift GitHub Momentum est une fiche KM de veille Veille Raindrop KM Monitor / detection tendances GitHub. Source finale conservee dans la fiche.
+Sert a suivre un projet open source ou devtool.
+
+
+
+## Usage KM
+
+- Verifier maturite, licence, activite GitHub et integration possible dans les projets KM/dev.
 
 ## Relations
 
@@ -29,7 +35,7 @@ Trendshift GitHub Momentum est une fiche KM de veille Veille Raindrop KM Monitor
 
 ### v0.1 - 2026-08-09
 
-- Objectif : integrer la nouveaute Raindrop KM Monitor `Trendshift`.
-- Fichiers touches : `watch/trendshift-github-momentum.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : signaux de popularite instables, projets non audites.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer la nouveaute Raindrop KM Monitor `Trendshift`.
+- Fichiers touches: `watch/trendshift-github-momentum.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: signaux de popularite instables, projets non audites.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

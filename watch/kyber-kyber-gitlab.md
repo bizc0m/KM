@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille source Raindrop / a verifier.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor.
 `watch:kyber-kyber-gitlab`
 
 ## Sources
-- Source : [https://gitlab.com/kyber/kyber](https://gitlab.com/kyber/kyber)
+- Source: [https://gitlab.com/kyber/kyber](https://gitlab.com/kyber/kyber)
 
 ## Resume court
 
-kyber / Kyber · GitLab est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
+Source Raindrop / a verifier.
+
+
+
+## Usage KM
+
+- Utiliser comme source de veille ou point d'entree a verifier avant enrichissement KM.
 
 ## A_VERIFIER
 
@@ -32,7 +38,7 @@ kyber / Kyber · GitLab est une fiche KM de veille Veille Raindrop KM Monitor. S
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/kyber-kyber-gitlab.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/kyber-kyber-gitlab.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Risque principal: claims non verifies, source secondaire ou lien final non resolu.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

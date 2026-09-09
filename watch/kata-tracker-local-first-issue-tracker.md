@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor / outil issue tracking local-first pour humains et agents de code.
+outil issue tracking local-first pour humains et agents de code.
 
 ## Tags
 
@@ -14,11 +14,11 @@ Veille Raindrop KM Monitor / outil issue tracking local-first pour humains et ag
 
 ## Sources
 
-- Source Raindrop : `KM Monitor public feed`
-- URL finale verifiee : `https://www.katatracker.com/`
-- Domaine : `katatracker.com`
-- Curateur Raindrop : `KM Monitor`
-- Date Raindrop : `2026-08-27T12:36:43.532Z`
+- Source Raindrop: `https://arno-vltn.raindrop.page/km-monitor-71629567`
+- URL finale verifiee: `https://www.katatracker.com/`
+- Domaine: `katatracker.com`
+- Curateur Raindrop: `arnaud-velten`
+- Date Raindrop: `2026-08-27T12:36:43.532Z`
 
 ## Resume court
 
@@ -32,9 +32,9 @@ Kata se presente comme un issue tracker leger, local-first, concu pour des humai
 
 ## Risque d'abus possible
 
-- `sensible` : un issue tracker local peut contenir objectifs projet, clients, secrets accidentels, chemins locaux ou contexte proprietaire.
+- `sensible`: un issue tracker local peut contenir objectifs projet, clients, secrets accidentels, chemins locaux ou contexte proprietaire.
 - Risque d'injection indirecte si des agents executent des consignes trouvees dans des tickets sans validation humaine.
-- Pas de classification `#ROUGE` : l'item n'est pas un outil offensif directement abusable d'apres la source publique consultee.
+- Pas de classification `#ROUGE`: l'item n'est pas un outil offensif directement abusable d'apres la source publique consultee.
 
 ## Classification
 
@@ -42,9 +42,9 @@ Kata se presente comme un issue tracker leger, local-first, concu pour des humai
 
 ## A verifier
 
-- Modele de donnees exact : fichiers locaux, base embarquee ou service cloud.
+- Modele de donnees exact: fichiers locaux, base embarquee ou service cloud.
 - Licence, prix, possibilite d'export et compatibilite multi-machine.
-- Comportement avec des agents de code : permissions, journalisation, conflits, rollback.
+- Comportement avec des agents de code: permissions, journalisation, conflits, rollback.
 
 ## Relations
 
@@ -55,7 +55,7 @@ Kata se presente comme un issue tracker leger, local-first, concu pour des humai
 
 ### v0.1 - 2026-08-27
 
-- Objectif : integrer la nouveaute Raindrop KM Monitor `kata`.
-- Fichiers touches : `watch/kata-tracker-local-first-issue-tracker.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : tickets locaux sensibles, injection de consignes pour agents, compatibilite multi-machine a verifier.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer la nouveaute Raindrop KM Monitor `kata`.
+- Fichiers touches: `watch/kata-tracker-local-first-issue-tracker.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: tickets locaux sensibles, injection de consignes pour agents, compatibilite multi-machine a verifier.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

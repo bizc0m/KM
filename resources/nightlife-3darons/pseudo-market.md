@@ -60,3 +60,11 @@ Score initial sur 100:
 - Pas d'exploitation de donnees personnelles.
 - Pas de classement humiliant des personnes.
 - Moderation obligatoire avant pseudos publics premium.
+
+## Resume court
+
+V6 - Bourse Pseudo reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

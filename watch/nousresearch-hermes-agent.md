@@ -13,27 +13,38 @@ Veille outil IA / agent personnel.
 `watch:nousresearch-hermes-agent`
 
 ## Sources
-- Repo GitHub : `https://github.com/nousresearch/hermes-agent`
+- Repo GitHub: `https://github.com/nousresearch/hermes-agent`
 
 ## Metadata GitHub publique
 
-Releve API GitHub : 2026-08-21
+Releve API GitHub: 2026-08-21
 
-- repo : `NousResearch/hermes-agent`
-- URL : `https://github.com/NousResearch/hermes-agent`
-- description : The agent that grows with you
-- licence : MIT
-- etoiles relevees : 233724
-- topics releves : ai, ai-agent, ai-agents, anthropic, chatgpt, claude, claude-code, codex, hermes, hermes-agent, llm, nous-research, openai
-- derniere activite relevee : 2026-08-21T07:54:44Z
-- archived : non
-- fork : non
+- repo: `NousResearch/hermes-agent`
+- URL: `https://github.com/NousResearch/hermes-agent`
+- description: The agent that grows with you
+- licence: MIT
+- etoiles relevees: 233724
+- topics releves: ai, ai-agent, ai-agents, anthropic, chatgpt, claude, claude-code, codex, hermes, hermes-agent, llm, nous-research, openai
+- derniere activite relevee: 2026-08-21T07:54:44Z
+- archived: non
+- fork: non
 
-Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+Note: metadata volatile, a reverifier avant decision produit ou execution locale.
 
 ## Resume court
 
-NousResearch Hermes Agent est une fiche KM de veille Veille outil IA / agent personnel. Source finale conservee dans la fiche.
+Sert a suivre un outil d'automatisation ou d'agents IA.
+
+
+
+## Usage KM
+
+- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
+
+## Topics GitHub
+
+- Repo : `https://github.com/NousResearch/hermes-agent`
+- Topics releves : ai, ai-agent, ai-agents, anthropic, chatgpt, claude, claude-code, codex, hermes, hermes-agent, llm, nous-research, openai
 
 ## Relations
 
@@ -45,7 +56,7 @@ NousResearch Hermes Agent est une fiche KM de veille Veille outil IA / agent per
 
 ### v0.1 - 2026-06-24
 
-- Objectif : integrer Hermes Agent depuis Raindrop KM Monitor.
-- Fichiers touches : `watch/nousresearch-hermes-agent.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : agent personnel a verifier.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer Hermes Agent depuis Raindrop KM Monitor.
+- Fichiers touches: `watch/nousresearch-hermes-agent.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: agent personnel a verifier.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

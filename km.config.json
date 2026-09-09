@@ -1,7 +1,7 @@
 {
   "project": {
     "name": "KM Search",
-    "version": "1.12",
+    "version": "2",
     "description": "Recherche, veille, fiches Markdown et vues partageables par theme."
   },
   "sources": {
@@ -10,7 +10,7 @@
     "useFeedFallback": true
   },
   "dashboard": {
-    "mainOutput": "search-v1.12.html",
+    "mainOutput": "search-v2.html",
     "stableOutput": "search-v1.11.html",
     "shareOutputDir": "public",
     "defaultSort": "date",

@@ -14,33 +14,35 @@ Veille process / source monitoring.
 
 ## Source
 
-Article : `Keeping Up With Twitter Via RSS Feeds`
+Article: `Keeping Up With Twitter Via RSS Feeds`
 
-URL : `https://ohmypizza.com/2023/04/keeping-up-with-twitter-via-rss`
+URL: `https://ohmypizza.com/2023/04/keeping-up-with-twitter-via-rss`
 
-Auteur : Scott Yoshinaga
+Auteur: Scott Yoshinaga
 
-Date source : 2023-04-20
+Date source: 2023-04-20
 
 ## Metadata GitHub publique
 
-Releve API GitHub : 2026-08-21
+Releve API GitHub: 2026-08-21
 
-- repo : `zedeus/nitter`
-- URL : `https://github.com/zedeus/nitter`
-- description : Alternative Twitter front-end
-- licence : AGPL-3.0
-- etoiles relevees : 13467
-- topics releves : nim, privacy, self-hosted, twitter, x
-- derniere activite relevee : 2026-08-19T01:16:29Z
-- archived : non
-- fork : non
+- repo: `zedeus/nitter`
+- URL: `https://github.com/zedeus/nitter`
+- description: Alternative Twitter front-end
+- licence: AGPL-3.0
+- etoiles relevees: 13467
+- topics releves: nim, privacy, self-hosted, twitter, x
+- derniere activite relevee: 2026-08-19T01:16:29Z
+- archived: non
+- fork: non
 
-Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+Note: metadata volatile, a reverifier avant decision produit ou execution locale.
 
 ## Resume court
 
-Twitter RSS Monitoring est une fiche KM de veille Veille process / source monitoring. Source finale conservee dans la fiche.
+Sert a evaluer un enjeu privacy ou donnees exposees.
+
+
 
 ## Outils cites
 
@@ -51,20 +53,20 @@ Twitter RSS Monitoring est une fiche KM de veille Veille process / source monito
 
 ## Nitter - verification officielle
 
-Sources :
+Sources:
 
-- Instance : `https://nitter.net/`
-- Repo : `https://github.com/zedeus/nitter`
+- Instance: `https://nitter.net/`
+- Repo: `https://github.com/zedeus/nitter`
 
-Verification 2026-05-22 :
+Verification 2026-05-22:
 
 - `https://nitter.net/` repond, mais la page chargee est minimale.
-- Repo GitHub verifie via GitHub API : `zedeus/nitter`.
-- Licence GitHub : AGPL-3.0.
+- Repo GitHub verifie via GitHub API: `zedeus/nitter`.
+- Licence GitHub: AGPL-3.0.
 - Repo non archive au moment de la verification.
-- Dernier push lu via GitHub API : 2026-04-16.
+- Dernier push lu via GitHub API: 2026-04-16.
 
-Notes de contexte :
+Notes de contexte:
 
 - Nitter est un frontend alternatif Twitter/X centre privacy/performance.
 - Le projet a connu une forte instabilite apres les changements d'acces de Twitter/X.
@@ -73,21 +75,21 @@ Notes de contexte :
 
 ## OpenRSS - verification officielle
 
-Source officielle : `https://openrss.org/`
+Source officielle: `https://openrss.org/`
 
-Guides / conditions lues :
+Guides / conditions lues:
 
 - `https://openrss.org/guides/how-to-use-an-open-rss-feed`
 - `https://openrss.org/terms`
 
-Points verifies :
+Points verifies:
 
 - Page racine relue le 2026-05-22 depuis le lot fourni.
 - OpenRSS permet d'ajouter `openrss.org/` devant une URL pour obtenir un flux RSS quand la page est supportee.
 - Le service annonce des flux sans algorithmes de recommandation.
 - Le service indique retirer certains scripts, tracking links et contenus invasifs des flux.
 - OpenRSS est presente comme organisation nonprofit 501(c)(3).
-- Usage annonce : personnel, informatif, non commercial.
+- Usage annonce: personnel, informatif, non commercial.
 - Les conditions demandent de limiter la frequence des requetes.
 - Les conditions interdisent l'usage illegal, le contournement de restrictions, l'acces a du contenu payant, l'espionnage, le harcelement et le monitoring de contenu non public.
 
@@ -98,6 +100,15 @@ Points verifies :
 - Reduire l'exposition a l'interface addictive de X.
 - Surveiller les comptes source utiles pour KM sans connexion directe a X.
 - Alimenter une veille manuelle non intrusive.
+
+## Usage KM
+
+- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
+
+## Topics GitHub
+
+- Repo : `https://github.com/zedeus/nitter`
+- Topics releves : nim, privacy, self-hosted, twitter, x
 
 ## Relations
 
@@ -118,35 +129,35 @@ Supprimer `watch/twitter-rss-monitoring.md` et retirer les lignes correspondante
 
 ### v0.1 - 2026-05-22
 
-- Objectif : integrer la methode RSS pour suivre Twitter/X dans KM.
-- Fichiers touches : `watch/twitter-rss-monitoring.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : usage abusif possible pour surveillance ou scraping.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer la methode RSS pour suivre Twitter/X dans KM.
+- Fichiers touches: `watch/twitter-rss-monitoring.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: usage abusif possible pour surveillance ou scraping.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
 
 ### v0.2 - 2026-05-22
 
-- Objectif : verifier la source officielle OpenRSS et ajouter les limites d'usage.
-- Fichiers touches : `watch/twitter-rss-monitoring.md`, `km/history.md`.
-- Risques : conditions OpenRSS variables dans le temps.
-- Rollback possible : retirer le bloc `OpenRSS - verification officielle`.
+- Objectif: verifier la source officielle OpenRSS et ajouter les limites d'usage.
+- Fichiers touches: `watch/twitter-rss-monitoring.md`, `km/history.md`.
+- Risques: conditions OpenRSS variables dans le temps.
+- Rollback possible: retirer le bloc `OpenRSS - verification officielle`.
 
 ### v0.3 - 2026-05-22
 
-- Objectif : verifier Nitter et ajouter le statut d'instabilite.
-- Fichiers touches : `watch/twitter-rss-monitoring.md`, `km/history.md`.
-- Risques : instances Nitter variables, RSS parfois indisponible.
-- Rollback possible : retirer le bloc `Nitter - verification officielle`.
+- Objectif: verifier Nitter et ajouter le statut d'instabilite.
+- Fichiers touches: `watch/twitter-rss-monitoring.md`, `km/history.md`.
+- Risques: instances Nitter variables, RSS parfois indisponible.
+- Rollback possible: retirer le bloc `Nitter - verification officielle`.
 
 ### v0.4 - 2026-05-22
 
-- Objectif : resserrer la classification `#ROUGE` aux abus offensifs directs.
-- Fichiers touches : `watch/twitter-rss-monitoring.md`.
-- Risques : usage de veille pouvant deriver en surveillance.
-- Rollback possible : revenir a v0.3.
+- Objectif: resserrer la classification `#ROUGE` aux abus offensifs directs.
+- Fichiers touches: `watch/twitter-rss-monitoring.md`.
+- Risques: usage de veille pouvant deriver en surveillance.
+- Rollback possible: revenir a v0.3.
 
 ### v0.5 - 2026-05-22
 
-- Objectif : confirmer `https://openrss.org/` comme source directe du nouveau lot.
-- Fichiers touches : `watch/twitter-rss-monitoring.md`, `km/history.md`.
-- Risques : conditions et disponibilite variables.
-- Rollback possible : retirer la mention de relecture.
+- Objectif: confirmer `https://openrss.org/` comme source directe du nouveau lot.
+- Fichiers touches: `watch/twitter-rss-monitoring.md`, `km/history.md`.
+- Risques: conditions et disponibilite variables.
+- Rollback possible: retirer la mention de relecture.

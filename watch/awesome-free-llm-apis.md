@@ -14,37 +14,39 @@ Veille outils IA / ressources API LLM gratuites.
 
 ## Sources
 
-- Repo : `https://github.com/mnfst/awesome-free-llm-apis`
+- Repo: `https://github.com/mnfst/awesome-free-llm-apis`
 
-Verification GitHub API :
+Verification GitHub API:
 
-- repo : `mnfst/awesome-free-llm-apis`
-- description : list of permanent free LLM API keys
-- stars lus : 4477
-- forks lus : 430
-- licence : CC0-1.0
-- archived : false
-- dernier push lu : 2026-05-22
+- repo: `mnfst/awesome-free-llm-apis`
+- description: list of permanent free LLM API keys
+- stars lus: 4477
+- forks lus: 430
+- licence: CC0-1.0
+- archived: false
+- dernier push lu: 2026-05-22
 
 ## Metadata GitHub publique
 
-Releve API GitHub : 2026-08-21
+Releve API GitHub: 2026-08-21
 
-- repo : `mnfst/awesome-free-llm-apis`
-- URL : `https://github.com/mnfst/awesome-free-llm-apis`
-- description : List of Permanent Free LLM API  (API Keys)
-- licence : CC0-1.0
-- etoiles relevees : 6881
-- topics releves : ai-agents, anthropic, awesome, awesome-list, gemini, llm, llm-router, llm-routing, ollama, openai, openclaw, openclaw-plugin, router
-- derniere activite relevee : 2026-08-21T05:32:48Z
-- archived : non
-- fork : non
+- repo: `mnfst/awesome-free-llm-apis`
+- URL: `https://github.com/mnfst/awesome-free-llm-apis`
+- description: List of Permanent Free LLM API  (API Keys)
+- licence: CC0-1.0
+- etoiles relevees: 6881
+- topics releves: ai-agents, anthropic, awesome, awesome-list, gemini, llm, llm-router, llm-routing, ollama, openai, openclaw, openclaw-plugin, router
+- derniere activite relevee: 2026-08-21T05:32:48Z
+- archived: non
+- fork: non
 
-Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+Note: metadata volatile, a reverifier avant decision produit ou execution locale.
 
 ## Resume court
 
-Awesome Free LLM APIs est une fiche KM de veille Veille outils IA / ressources API LLM gratuites. Source finale conservee dans la fiche.
+Sert a suivre une ressource LLM ou API.
+
+
 
 ## Usage utile
 
@@ -53,6 +55,15 @@ Awesome Free LLM APIs est une fiche KM de veille Veille outils IA / ressources A
 - Prototyper sans exposer une cle principale.
 - Alimenter un routeur LLM interne avec limites documentees.
 - Croiser avec `watch:free-llm-api-resources`.
+
+## Usage KM
+
+- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
+
+## Topics GitHub
+
+- Repo : `https://github.com/mnfst/awesome-free-llm-apis`
+- Topics releves : ai-agents, anthropic, awesome, awesome-list, gemini, llm, llm-router, llm-routing, ollama, openai, openclaw, openclaw-plugin, router
 
 ## Relations
 
@@ -69,14 +80,14 @@ Garder comme source sœur de `watch:free-llm-api-resources`. Classification `sen
 
 ### v0.1 - 2026-05-22
 
-- Objectif : integrer `mnfst/awesome-free-llm-apis`.
-- Fichiers touches : `watch/awesome-free-llm-apis.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
-- Risques : providers variables, conditions d'usage, cles API, donnees envoyees a tiers.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer `mnfst/awesome-free-llm-apis`.
+- Fichiers touches: `watch/awesome-free-llm-apis.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
+- Risques: providers variables, conditions d'usage, cles API, donnees envoyees a tiers.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
 
 ### v0.2 - 2026-05-22
 
-- Objectif : confirmer que le lien du nouveau lot est un doublon deja indexe.
-- Fichiers touches : `watch/awesome-free-llm-apis.md`, `km/history.md`.
-- Risques : aucun changement fonctionnel.
-- Rollback possible : retirer ce changelog.
+- Objectif: confirmer que le lien du nouveau lot est un doublon deja indexe.
+- Fichiers touches: `watch/awesome-free-llm-apis.md`, `km/history.md`.
+- Risques: aucun changement fonctionnel.
+- Rollback possible: retirer ce changelog.

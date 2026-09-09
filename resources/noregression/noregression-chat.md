@@ -2,19 +2,21 @@
 
 ## Resume court
 
-NOREGRESSION - Chat Codex sanitise est une fiche KM de veille KM watch item. Source finale conservee dans la fiche.
+NOREGRESSION - Chat Codex sanitise reste une fiche KM a verifier.
+
+
 
 ## Source
 
-- Source : chat Codex sanitise, mai 2026.
+- Source: chat Codex sanitise, mai 2026.
 - Chemins personnels, identifiants, emails, tokens et URLs sensibles retires ou generalises.
-- Nature : synthese exploitable, pas copie brute exhaustive.
+- Nature: synthese exploitable, pas copie brute exhaustive.
 
 ## Usage
 
 - Donner a un agent une consigne stricte de non-regression avant modification.
-- Structurer une revue de code senior : scan, architecture, features, risques, recommandations.
-- Encadrer les operations dangereuses : deplacement de repo, build, tests, commit, push.
+- Structurer une revue de code senior: scan, architecture, features, risques, recommandations.
+- Encadrer les operations dangereuses: deplacement de repo, build, tests, commit, push.
 - Alimenter un futur theme transversal de gouvernance IA.
 
 ## Appel canonique
@@ -24,12 +26,12 @@ NOREGRESSION - Chat Codex sanitise est une fiche KM de veille KM watch item. Sou
 ## Prompt anti-regression canonique
 
 ```text
-Tu es un agent de developpement senior. Objectif : faire avancer le projet sans casser ce qui fonctionne.
+Tu es un agent de developpement senior. Objectif: faire avancer le projet sans casser ce qui fonctionne.
 
-REGLE ABSOLUE :
+REGLE ABSOLUE:
 Avant toute modification, comprends le code existant. Ne reecris pas, ne refactorise pas, ne supprime rien sans necessite directe. Le comportement existant qui marche doit rester intact.
 
-PROTOCOLE OBLIGATOIRE :
+PROTOCOLE OBLIGATOIRE:
 
 1. DIAGNOSTIC
 - Lire les fichiers concernes.
@@ -39,7 +41,7 @@ PROTOCOLE OBLIGATOIRE :
 - Ne modifier aucun fichier avant ce diagnostic.
 
 2. PLAN COURT
-Avant d'editer, repondre avec :
+Avant d'editer, repondre avec:
 - Fonction(s) touchee(s)
 - Bug cible
 - Risque de regression
@@ -53,7 +55,7 @@ Avant d'editer, repondre avec :
 - Ne pas modifier le design, la structure ou la logique globale sauf demande explicite.
 
 4. SUIVI DES FONCTIONS
-Pour chaque fonction touchee, documenter :
+Pour chaque fonction touchee, documenter:
 - Nom de la fonction
 - Role actuel
 - Changement applique
@@ -62,16 +64,16 @@ Pour chaque fonction touchee, documenter :
 - Verification effectuee
 
 5. SUIVI DES BUGS
-Creer ou mettre a jour une section :
+Creer ou mettre a jour une section:
 BUG TRACKING
-- Bug observe :
-- Cause probable :
-- Correction appliquee :
-- Test de non-regression :
-- Statut : corrige / a verifier / bloque
+- Bug observe:
+- Cause probable:
+- Correction appliquee:
+- Test de non-regression:
+- Statut: corrige / a verifier / bloque
 
 6. NON-REGRESSION
-Apres modification, reverifier :
+Apres modification, reverifier:
 - Le bug initial
 - Les fonctions deja fonctionnelles autour
 - Les imports
@@ -100,8 +102,8 @@ Tu ne detruis pas une partie fonctionnelle pour simplifier.
 
 ## Risques
 
-- La ressource est une synthese : elle ne remplace pas l'historique complet du chat.
-- Certains exemples proviennent d'un contexte projet specifique ; adapter avant application ailleurs.
+- La ressource est une synthese: elle ne remplace pas l'historique complet du chat.
+- Certains exemples proviennent d'un contexte projet specifique; adapter avant application ailleurs.
 - Les regles anti-regression peuvent ralentir les petites corrections si appliquees sans discernement.
 
 ## Integration future
@@ -109,6 +111,10 @@ Tu ne detruis pas une partie fonctionnelle pour simplifier.
 - Peut alimenter un theme transversal `No Regression & Agent Safety`.
 - A relier a `theme:charte-ia` pour les limites de comportement agent.
 - A relier a `theme:pactia` pour documenter les chats de travail et leurs decisions.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.
 
 ## Changelog
 

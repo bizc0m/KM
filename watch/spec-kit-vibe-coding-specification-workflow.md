@@ -13,14 +13,20 @@ Veille outil dev / workflow specification avant code.
 `watch:spec-kit-vibe-coding-specification-workflow`
 
 ## Sources
-- Source : [https://x.com/zaynmcps/status/2070813494979530934](https://x.com/zaynmcps/status/2070813494979530934)
+- Source: [https://x.com/zaynmcps/status/2070813494979530934](https://x.com/zaynmcps/status/2070813494979530934)
 
 ## Resume court
 
-Spec Kit Vibe Coding Specification Workflow est une fiche KM de veille Veille outil dev / workflow specification avant code. Source finale conservee dans la fiche.
+Sert a suivre un projet open source ou devtool.
+
+
 
 ## Historique
 
 ### v0.1 - 2026-06-28
 
 - Integration depuis Raindrop KM Monitor.
+
+## Usage KM
+
+- Verifier maturite, licence, activite GitHub et integration possible dans les projets KM/dev.

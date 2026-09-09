@@ -2,14 +2,16 @@
 
 ## Source
 
-- Type : chat Codex et documents de travail sanitises.
-- Date source : 2026-05-14 a 2026-05-16.
-- Projet lie : CDD / Urgence V5 - Nightlife Radar.
-- Copie : documents wiki `doc-tech.md`, `doc-web.md`, archive `doc.zip`.
+- Type: chat Codex et documents de travail sanitises.
+- Date source: 2026-05-14 a 2026-05-16.
+- Projet lie: CDD / Urgence V5 - Nightlife Radar.
+- Copie: documents wiki `doc-tech.md`, `doc-web.md`, archive `doc.zip`.
 
 ## Resume court
 
-CODEX5 - synthese ressource est une fiche KM de veille KM watch item. Source finale conservee dans la fiche.
+CODEX5 - synthese ressource reste une fiche KM a verifier.
+
+
 
 ## Usage
 
@@ -21,13 +23,13 @@ CODEX5 - synthese ressource est une fiche KM de veille KM watch item. Source fin
 
 ## Themes/projets lies
 
-- Projet : Urgence V5 / Nightlife Radar.
-- Theme parent : Night Intel global.
-- Themes candidats : Data Sources & Scraping, Gamification & Aura, City Intelligence, Nightlife Radar OSINT.
+- Projet: Urgence V5 / Nightlife Radar.
+- Theme parent: Night Intel global.
+- Themes candidats: Data Sources & Scraping, Gamification & Aura, City Intelligence, Nightlife Radar OSINT.
 
 ## Risques
 
-- Synthese non exhaustive : ce n'est pas une copie brute complete du chat.
+- Synthese non exhaustive: ce n'est pas une copie brute complete du chat.
 - Certaines informations produit restent experimentales.
 - Les endpoints et URLs de deploy peuvent evoluer.
 - Les donnees nightlife doivent etre reverifiees avant usage public.
@@ -39,3 +41,7 @@ CODEX5 - synthese ressource est une fiche KM de veille KM watch item. Source fin
 - `resource:codex5/doc-tech`
 - `resource:codex5/doc-web`
 - `resource:codex5/doc`
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor / profil GitHub generative models.
+profil GitHub generative models.
 
 ## Tags
 
@@ -14,8 +14,8 @@ Veille Raindrop KM Monitor / profil GitHub generative models.
 
 ## Sources
 
-- Source finale : [https://github.com/promptslab](https://github.com/promptslab)
-- Source Raindrop : page publique KM Monitor, item cree le 2026-08-14T19:22:47.742Z.
+- Source finale: [https://github.com/promptslab](https://github.com/promptslab)
+- Source Raindrop: page publique KM Monitor, item cree le 2026-08-14T19:22:47.742Z.
 
 ## Resume court
 
@@ -42,7 +42,7 @@ actif
 
 ### v0.1 - 2026-08-21
 
-- Objectif : couvrir un item Raindrop plus ancien absent localement, `PromptsLab`.
-- Fichiers touches : `watch/promptslab.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : depots associes a auditer avant reutilisation ou execution.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: couvrir un item Raindrop plus ancien absent localement, `PromptsLab`.
+- Fichiers touches: `watch/promptslab.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: depots associes a auditer avant reutilisation ou execution.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

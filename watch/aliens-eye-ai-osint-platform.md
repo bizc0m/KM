@@ -13,11 +13,17 @@ Veille outil OSINT / recherche d'empreinte numerique.
 `watch:aliens-eye-ai-osint-platform`
 
 ## Sources
-- Source : [https://x.com/untalnixon_exe/status/2070860935762211251](https://x.com/untalnixon_exe/status/2070860935762211251)
+- Source: [https://x.com/untalnixon_exe/status/2070860935762211251](https://x.com/untalnixon_exe/status/2070860935762211251)
 
 ## Resume court
 
-Aliens Eye AI OSINT Platform est une fiche KM de veille Veille outil OSINT / recherche d'empreinte numerique. Source finale conservee dans la fiche.
+Automatise la recherche, la synthese ou la verification d'information.
+
+
+
+## Usage KM
+
+- Conserver comme signal de risque; verifier uniquement en contexte defensif, autorise et documente.
 
 ## A verifier
 

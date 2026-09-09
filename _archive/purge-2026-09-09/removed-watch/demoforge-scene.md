@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor / scene web generative.
+scene web generative.
 
 ## Tags
 
@@ -14,8 +14,8 @@ Veille Raindrop KM Monitor / scene web generative.
 
 ## Sources
 
-- Source finale : [https://bizc0m.github.io/Demoforge-Scene/](https://bizc0m.github.io/Demoforge-Scene/)
-- Source Raindrop : page publique KM Monitor, item cree le 2026-08-18T15:34:32.007Z.
+- Source finale: [https://bizc0m.github.io/Demoforge-Scene/](https://bizc0m.github.io/Demoforge-Scene/)
+- Source Raindrop: page publique KM Monitor, item cree le 2026-08-18T15:34:32.007Z.
 
 ## Resume court
 
@@ -42,7 +42,7 @@ actif
 
 ### v0.1 - 2026-08-21
 
-- Objectif : couvrir un item Raindrop plus ancien absent localement, `DemoForge Scene`.
-- Fichiers touches : `watch/demoforge-scene.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : provenance d'assets et performance a auditer avant publication.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: couvrir un item Raindrop plus ancien absent localement, `DemoForge Scene`.
+- Fichiers touches: `watch/demoforge-scene.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: provenance d'assets et performance a auditer avant publication.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

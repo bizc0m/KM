@@ -69,3 +69,11 @@ Reach and freshness modifiers:
 - Consider a transversal theme for `Data Sources & Scraping`.
 - Consider a transversal theme for `City Intelligence` if the heatmap, pulse, signal, and scoring language is reused.
 - Keep original project files untouched and copy only sanitized references into resources.
+
+## Resume court
+
+NoctIntel Pro Dashboard Chat reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

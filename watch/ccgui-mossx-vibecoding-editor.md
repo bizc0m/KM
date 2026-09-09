@@ -14,8 +14,8 @@ Veille outils IA / editeur vibe coding multi-engine.
 
 ## Sources
 
-- Page Vibe Shit : `https://vibeshit.org/product/ccgui`
-- Site associe : `https://www.mossx.ai/`
+- Page Vibe Shit: `https://vibeshit.org/product/ccgui`
+- Site associe: `https://www.mossx.ai/`
 
 ## Statut verification
 
@@ -25,14 +25,20 @@ La page Vibe Shit annonce un lien GitHub et un auteur `zhukunpenglinyutong`, mai
 
 ## Resume court
 
-CC-GUI / MossX - VibeCoding Editor est une fiche KM de veille Veille outils IA / editeur vibe coding multi-engine. Source finale conservee dans la fiche.
+Sert a suivre une ressource LLM ou API.
+
+
 
 ## Usage utile
 
-- Comparer les interfaces AI coding : Cursor, Claude Code GUI, Codex, OpenCode, Gemini.
-- Surveiller les patterns UI pour agents de code : terminal, git, kanban, memoire, workflows.
+- Comparer les interfaces AI coding: Cursor, Claude Code GUI, Codex, OpenCode, Gemini.
+- Surveiller les patterns UI pour agents de code: terminal, git, kanban, memoire, workflows.
 - Inspirer des outils internes de pilotage agents et revue de plans.
 - Identifier les risques d'integration multi-provider et multi-agent dans un IDE.
+
+## Usage KM
+
+- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
 
 ## Relations
 
@@ -51,7 +57,7 @@ Garder en veille `sensible` avec statut `a verifier`. Pas `#ROUGE` par defaut, c
 
 ### v0.1 - 2026-05-22
 
-- Objectif : integrer `ccgui` depuis Vibe Shit comme editeur vibe coding multi-engine.
-- Fichiers touches : `watch/ccgui-mossx-vibecoding-editor.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
-- Risques : repo GitHub non confirme, plugins/MCP/skills a auditer.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer `ccgui` depuis Vibe Shit comme editeur vibe coding multi-engine.
+- Fichiers touches: `watch/ccgui-mossx-vibecoding-editor.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
+- Risques: repo GitHub non confirme, plugins/MCP/skills a auditer.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

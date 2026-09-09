@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille media IA / creation.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor.
 `watch:danyltn-ia-automatisation-danyltn-instagram-reel`
 
 ## Sources
-- Source : [https://www.instagram.com/reel/DXt_oJeMvat](https://www.instagram.com/reel/DXt_oJeMvat)
+- Source: [https://www.instagram.com/reel/DXt_oJeMvat](https://www.instagram.com/reel/DXt_oJeMvat)
 
 ## Resume court
 
-Danyltn | IA & Automatisation (@danyltn) • Instagram reel est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
+Sert a suivre un outil de generation ou production media IA.
+
+
+
+## Usage KM
+
+- Suivre les capacites media IA et garder les risques de droits, deepfake et provenance sous controle.
 
 ## A_VERIFIER
 
@@ -32,7 +38,7 @@ Danyltn | IA & Automatisation (@danyltn) • Instagram reel est une fiche KM de 
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/danyltn-ia-automatisation-danyltn-instagram-reel.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/danyltn-ia-automatisation-danyltn-instagram-reel.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Risque principal: claims non verifies, source secondaire ou lien final non resolu.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille LLM / API.
 
 ## Tags
 
@@ -13,15 +13,21 @@ Veille Raindrop KM Monitor.
 `watch:sabtu-malem-jam-2-pagi-gue-masih-melek`
 
 ## Sources
-- Source : [https://x.com/stellarprtcol/status/2065690636129575297](https://x.com/stellarprtcol/status/2065690636129575297)
+- Source: [https://x.com/stellarprtcol/status/2065690636129575297](https://x.com/stellarprtcol/status/2065690636129575297)
 
 ## Resume court
 
-Late Night AI Tool Discovery est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
+Sert a suivre une ressource LLM ou API.
+
+
+
+## Usage KM
+
+- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
 
 ## A_VERIFIER
 
-- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
+- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
 
 ## Relations
 
@@ -32,7 +38,7 @@ Late Night AI Tool Discovery est une fiche KM de veille Veille Raindrop KM Monit
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/sabtu-malem-jam-2-pagi-gue-masih-melek.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/sabtu-malem-jam-2-pagi-gue-masih-melek.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Risque principal: claims non verifies, source secondaire ou lien final non resolu.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

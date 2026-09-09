@@ -14,16 +14,18 @@ Veille infra privacy / DePIN / reseau decentralise.
 
 ## Sources
 
-- Site officiel : `https://conet.network/`
-- Documentation officielle : `https://doceng.conet.network/`
-- Introduction docs : `https://doceng.conet.network/welcome-to-conet/introduction`
-- Fonctionnement docs : `https://doceng.conet.network/core-technology/how-conet-works-decentralized-private-and-secure`
-- Silent Pass : `https://conet.network/silent-pass/`
-- Privacy policy : `https://conet.network/privacy-cookies/`
+- Site officiel: `https://conet.network/`
+- Documentation officielle: `https://doceng.conet.network/`
+- Introduction docs: `https://doceng.conet.network/welcome-to-conet/introduction`
+- Fonctionnement docs: `https://doceng.conet.network/core-technology/how-conet-works-decentralized-private-and-secure`
+- Silent Pass: `https://conet.network/silent-pass/`
+- Privacy policy: `https://conet.network/privacy-cookies/`
 
 ## Resume court
 
-CONET - Privacy DePIN Network est une fiche KM de veille Veille infra privacy / DePIN / reseau decentralise. Source finale conservee dans la fiche.
+Sert a evaluer un enjeu privacy ou donnees exposees.
+
+
 
 ## Verification source
 
@@ -53,6 +55,10 @@ CONET - Privacy DePIN Network est une fiche KM de veille Veille infra privacy / 
 6. Quel risque juridique pour l'operateur d'un noeud ?
 7. Le token est-il necessaire a l'usage ou seulement a l'incitation ?
 
+## Usage KM
+
+- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
+
 ## Relations
 
 - `watch:twitter-rss-monitoring`
@@ -76,7 +82,7 @@ Garder comme veille `sensible / a verifier`. Pas `#ROUGE` par defaut. Devient `#
 
 ### v0.1 - 2026-05-25
 
-- Objectif : integrer CONET comme veille privacy DePIN apres demande utilisateur.
-- Fichiers touches : `watch/conet-privacy-depin-network.md`, `watch/index.md`, `index.md`, `km/history.md`, `search-v1.10.html`.
-- Risques : claims privacy non audites, crypto/tokenomics, responsabilite de relais, confusion anonymat reel/promis.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer CONET comme veille privacy DePIN apres demande utilisateur.
+- Fichiers touches: `watch/conet-privacy-depin-network.md`, `watch/index.md`, `index.md`, `km/history.md`, `search-v1.10.html`.
+- Risques: claims privacy non audites, crypto/tokenomics, responsabilite de relais, confusion anonymat reel/promis.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

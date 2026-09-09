@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille agents IA / automatisation.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor.
 `watch:top-5-sites-pour-vibe-coders-edition-niche`
 
 ## Sources
-- Source : [https://rocky-cannon-2d6.notion.site/Top-5-Sites-pour-Vibe-Coders-dition-Niche-3861bf8e666f8084bfecdbd085110e90](https://rocky-cannon-2d6.notion.site/Top-5-Sites-pour-Vibe-Coders-dition-Niche-3861bf8e666f8084bfecdbd085110e90)
+- Source: [https://rocky-cannon-2d6.notion.site/Top-5-Sites-pour-Vibe-Coders-dition-Niche-3861bf8e666f8084bfecdbd085110e90](https://rocky-cannon-2d6.notion.site/Top-5-Sites-pour-Vibe-Coders-dition-Niche-3861bf8e666f8084bfecdbd085110e90)
 
 ## Resume court
 
-Top 5 Niche Sites For Vibe Coders est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
+Sert a suivre un outil d'automatisation ou d'agents IA.
+
+
+
+## Usage KM
+
+- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
 
 ## A_VERIFIER
 
@@ -32,7 +38,7 @@ Top 5 Niche Sites For Vibe Coders est une fiche KM de veille Veille Raindrop KM 
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/top-5-sites-pour-vibe-coders-edition-niche.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/top-5-sites-pour-vibe-coders-edition-niche.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

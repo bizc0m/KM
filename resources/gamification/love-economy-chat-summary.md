@@ -2,10 +2,10 @@
 
 ## Source
 
-- Type : chat projet sanitise.
-- Date : 2026-05-16.
-- Statut : ressource de synthese, non transcript complet.
-- Chemin source : non expose dans cette ressource.
+- Type: chat projet sanitise.
+- Date: 2026-05-16.
+- Statut: ressource de synthese, non transcript complet.
+- Chemin source: non expose dans cette ressource.
 
 ## Appel canonique
 
@@ -24,26 +24,26 @@ Servir de base aux futures specs de gamification NightIntel autour d'une economi
 
 ## Concepts a conserver
 
-- Trois monnaies / ressources internes : `Yes`, `Or`, `Diamants`.
-- Scores non monetaires : `Reputation`, `Aura`, `Karma`.
+- Trois monnaies / ressources internes: `Yes`, `Or`, `Diamants`.
+- Scores non monetaires: `Reputation`, `Aura`, `Karma`.
 - `Karma` = signal rare, lie a des actions fortes et difficiles a tricher.
-- L'argent interne reste secondaire : le Love, le care, la presence et l'impact social pilotent les meilleurs bonus.
-- Anti pay-to-win strict : l'argent externe ne doit pas acheter la puissance sociale ou economique.
-- Principe a hacker : passer de `pay to win` a `love to pay`, puis a des mecaniques ou payer pour les autres peut etre valorise sans devenir ostentatoire.
+- L'argent interne reste secondaire: le Love, le care, la presence et l'impact social pilotent les meilleurs bonus.
+- Anti pay-to-win strict: l'argent externe ne doit pas acheter la puissance sociale ou economique.
+- Principe a hacker: passer de `pay to win` a `love to pay`, puis a des mecaniques ou payer pour les autres peut etre valorise sans devenir ostentatoire.
 - Celui qui aide, coordonne, protege ou cree du lien augmente ses chances de bonus.
 - Celui qui se vante ou instrumentalise l'aide doit perdre en aura / reputation.
 
 ## Mecaniques proposees
 
-- Rareté progressive type blocs : une reserve finie de Diamants peut etre distribuee par paliers de Love cumule, avec une emission de plus en plus rare.
-- Phases :
-  - Alpha : gros gains pour amorcer la boucle et recompenser les premiers contributeurs.
-  - Public : beaux gains, plus lisibles, adaptes a une communaute large.
-  - Maturite : gains plus rares, davantage lies a l'impact collectif et a la qualite des actions.
-- Bonus de repos inspire du rested XP : si un joueur revient apres absence, il peut gagner plus temporairement.
-- Bonus de presence : si un joueur ne touche pas son telephone en presence de proches, il peut gagner plus.
-- Combos collectifs : plus les joueurs agissent ensemble avec du care, plus le Love cumule booste les recompenses internes.
-- Combos geo-sociaux : actions cooperatives entre personnes situees dans des zones opposees, tendues ou en conflit peuvent declencher un bonus special.
+- Rareté progressive type blocs: une reserve finie de Diamants peut etre distribuee par paliers de Love cumule, avec une emission de plus en plus rare.
+- Phases:
+  - Alpha: gros gains pour amorcer la boucle et recompenser les premiers contributeurs.
+  - Public: beaux gains, plus lisibles, adaptes a une communaute large.
+  - Maturite: gains plus rares, davantage lies a l'impact collectif et a la qualite des actions.
+- Bonus de repos inspire du rested XP: si un joueur revient apres absence, il peut gagner plus temporairement.
+- Bonus de presence: si un joueur ne touche pas son telephone en presence de proches, il peut gagner plus.
+- Combos collectifs: plus les joueurs agissent ensemble avec du care, plus le Love cumule booste les recompenses internes.
+- Combos geo-sociaux: actions cooperatives entre personnes situees dans des zones opposees, tendues ou en conflit peuvent declencher un bonus special.
 - Les recompenses doivent rester fonction du Love apporte, pas seulement du temps passe ou du volume d'actions.
 
 ## Garde-fous
@@ -64,11 +64,19 @@ Servir de base aux futures specs de gamification NightIntel autour d'une economi
 
 ## Prochaine etape recommandee
 
-Transformer cette ressource en spec quantitative :
+Transformer cette ressource en spec quantitative:
 
-- courbes d'emission des Diamants ;
-- definition precise de `Yes`, `Or`, `Diamants` ;
-- formules Reputation / Aura / Karma ;
-- plafonds journaliers ;
-- anti-abus ;
+- courbes d'emission des Diamants;
+- definition precise de `Yes`, `Or`, `Diamants`;
+- formules Reputation / Aura / Karma;
+- plafonds journaliers;
+- anti-abus;
 - exemples de parcours Alpha, Public et Maturite.
+
+## Resume court
+
+Love Economy Gamification - Chat Summary reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

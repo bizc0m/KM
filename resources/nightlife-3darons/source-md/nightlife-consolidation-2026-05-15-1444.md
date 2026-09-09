@@ -2,8 +2,8 @@
 
 Consolidation des idees issues du chat et des documents `DOC_TECH.md` / `DOC_WEB.md`.
 
-Date : 2026-05-15 14:44:07 CEST
-Projet : Urgence GlouGlou / Urgence V5 Nightlife Radar
+Date: 2026-05-15 14:44:07 CEST
+Projet: Urgence GlouGlou / Urgence V5 Nightlife Radar
 
 ## Regles durables
 
@@ -20,7 +20,7 @@ Projet : Urgence GlouGlou / Urgence V5 Nightlife Radar
 1. Choisir une ville ou utiliser la geoloc.
 2. Recevoir 4 lieux proches via Urgence GlouGlou ou 4 events proches via Urgence Party.
 3. Filtrer selon distance, date, prix, score, ambiance, mixite ou ouverture.
-4. Agir : sortir, sauvegarder, partager, verifier, confirmer ou signaler.
+4. Agir: sortir, sauvegarder, partager, verifier, confirmer ou signaler.
 5. Gagner de la confiance, des badges, de l'XP/Aura ou une reconnaissance positive.
 6. Ameliorer la base pour les prochains utilisateurs.
 
@@ -46,7 +46,7 @@ Cette source etablit les modules et garde-fous suivants:
 
 ## Priorites d'implementation
 
-1. Stabiliser Urgence GlouGlou et Urgence Party : 4 resultats proches fiables.
+1. Stabiliser Urgence GlouGlou et Urgence Party: 4 resultats proches fiables.
 2. Clarifier les missions Night Agent.
 3. Formaliser XP/Aura/badges/scores sans confusion.
 4. Ajouter seuils equitables par zone.
@@ -62,3 +62,11 @@ Cette source etablit les modules et garde-fous suivants:
 - Forcer la geoloc.
 - Creer des scores invisibles ou incomprehensibles.
 - Ouvrir la monetisation sans licence claire.
+
+## Resume court
+
+!!!! Nightlife reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

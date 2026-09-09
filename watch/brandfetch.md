@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor / ressource de marque et assets publics.
+ressource de marque et assets publics.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor / ressource de marque et assets publics.
 `watch:brandfetch`
 
 ## Sources
-- Source finale : [https://brandfetch.com/](https://brandfetch.com/)
+- Source finale: [https://brandfetch.com/](https://brandfetch.com/)
 
 ## Resume court
 
-Brandfetch est une fiche KM de veille Veille Raindrop KM Monitor / ressource de marque et assets publics. Source finale conservee dans la fiche.
+Sert a suivre une ressource LLM ou API.
+
+
+
+## Usage KM
+
+- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
 
 ## Relations
 
@@ -29,7 +35,7 @@ Brandfetch est une fiche KM de veille Veille Raindrop KM Monitor / ressource de 
 
 ### v0.1 - 2026-08-02
 
-- Objectif : integrer la nouveaute Raindrop KM Monitor `Brandfetch`.
-- Fichiers touches : `watch/brandfetch.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : droits de marque, impersonation visuelle, dependance a metadonnees externes.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer la nouveaute Raindrop KM Monitor `Brandfetch`.
+- Fichiers touches: `watch/brandfetch.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: droits de marque, impersonation visuelle, dependance a metadonnees externes.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

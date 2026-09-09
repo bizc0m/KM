@@ -14,38 +14,40 @@ Veille outils IA / intelligence de sessions agents.
 
 ## Sources
 
-- Site : `https://www.agentsview.io/`
-- Repo : `https://github.com/kenn-io/agentsview`
+- Site: `https://www.agentsview.io/`
+- Repo: `https://github.com/kenn-io/agentsview`
 
-Verification GitHub API :
+Verification GitHub API:
 
-- repo : `kenn-io/agentsview`
-- description : local-first session intelligence and analytics for coding agents
-- stars lus : 1087
-- forks lus : 139
-- licence : MIT
-- archived : false
-- dernier push lu : 2026-05-22
+- repo: `kenn-io/agentsview`
+- description: local-first session intelligence and analytics for coding agents
+- stars lus: 1087
+- forks lus: 139
+- licence: MIT
+- archived: false
+- dernier push lu: 2026-05-22
 
 ## Metadata GitHub publique
 
-Releve API GitHub : 2026-08-21
+Releve API GitHub: 2026-08-21
 
-- repo : `kenn-io/agentsview`
-- URL : `https://github.com/kenn-io/agentsview`
-- description : Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.
-- licence : MIT
-- etoiles relevees : 5187
-- topics releves : aucun topic public
-- derniere activite relevee : 2026-08-21T02:37:06Z
-- archived : non
-- fork : non
+- repo: `kenn-io/agentsview`
+- URL: `https://github.com/kenn-io/agentsview`
+- description: Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.
+- licence: MIT
+- etoiles relevees: 5187
+- topics releves: aucun topic public
+- derniere activite relevee: 2026-08-21T02:37:06Z
+- archived: non
+- fork: non
 
-Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+Note: metadata volatile, a reverifier avant decision produit ou execution locale.
 
 ## Resume court
 
-AgentsView - Session Intelligence est une fiche KM de veille Veille outils IA / intelligence de sessions agents. Source finale conservee dans la fiche.
+Sert a suivre un outil d'automatisation ou d'agents IA.
+
+
 
 ## Usage utile
 
@@ -54,6 +56,15 @@ AgentsView - Session Intelligence est une fiche KM de veille Veille outils IA / 
 - Mesurer couts/tokens et usage par agent/projet.
 - Alimenter KM avec des resumes de sessions, apres nettoyage privacy.
 - Comparer l'activite agents par projet.
+
+## Usage KM
+
+- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
+
+## Topics GitHub
+
+- Repo : `https://github.com/kenn-io/agentsview`
+- Aucun topic public releve via GitHub API.
 
 ## Relations
 
@@ -79,7 +90,7 @@ Garder comme outil prioritaire a tester localement. Classification `sensible`, p
 
 ### v0.1 - 2026-05-22
 
-- Objectif : integrer `AgentsView` comme outil de session intelligence pour agents IA.
-- Fichiers touches : `watch/agentsview-session-intelligence.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `km/history.md`.
-- Risques : historiques de sessions potentiellement sensibles.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer `AgentsView` comme outil de session intelligence pour agents IA.
+- Fichiers touches: `watch/agentsview-session-intelligence.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `km/history.md`.
+- Risques: historiques de sessions potentiellement sensibles.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

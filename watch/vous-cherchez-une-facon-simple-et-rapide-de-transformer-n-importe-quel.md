@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille LLM / API.
 
 ## Tags
 
@@ -13,15 +13,21 @@ Veille Raindrop KM Monitor.
 `watch:vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel`
 
 ## Sources
-- Source : [https://x.com/sibyog13/status/2063609591485567189](https://x.com/sibyog13/status/2063609591485567189)
+- Source: [https://x.com/sibyog13/status/2063609591485567189](https://x.com/sibyog13/status/2063609591485567189)
 
 ## Resume court
 
-Web Page To Desktop App Converter est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
+Sert a suivre une ressource LLM ou API.
+
+
+
+## Usage KM
+
+- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
 
 ## A_VERIFIER
 
-- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
+- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
 
 ## Relations
 
@@ -32,7 +38,7 @@ Web Page To Desktop App Converter est une fiche KM de veille Veille Raindrop KM 
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

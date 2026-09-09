@@ -6,15 +6,23 @@ Veille IA transversale.
 
 ## Source
 
-NGJOO AI Trending / Open Source Heat Tracker : `https://www.ngjoo.com/en/trending/`
+NGJOO AI Trending / Open Source Heat Tracker: `https://www.ngjoo.com/en/trending/`
 
 ## Usage
 
-Suivre les projets open source IA en tendance : agents, skills, LLM, RAG, chat, multimodal, infrastructure et devtools.
+Suivre les projets open source IA en tendance: agents, skills, LLM, RAG, chat, multimodal, infrastructure et devtools.
 
 ## Appel canonique
 
 `watch:ai-trending`
+
+## Resume court
+
+IA transversale.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.
 
 ## Relations
 
@@ -30,6 +38,6 @@ Cette ressource appartient a KM / veille IA transversale, pas a NightIntel par d
 
 ### v0.1 - 2026-05-19
 
-- Objectif : enregistrer NGJOO comme source de veille KM.
-- Fichiers touches : `watch/index.md`, `watch/ai-trending.md`.
-- Rollback possible : supprimer cette fiche.
+- Objectif: enregistrer NGJOO comme source de veille KM.
+- Fichiers touches: `watch/index.md`, `watch/ai-trending.md`.
+- Rollback possible: supprimer cette fiche.

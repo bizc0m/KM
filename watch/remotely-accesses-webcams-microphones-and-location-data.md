@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor.
+veille #ROUGE / outil ou source a risque offensif.
 
 ## Tags
 
@@ -13,15 +13,21 @@ Veille Raindrop KM Monitor.
 `watch:remotely-accesses-webcams-microphones-and-location-data`
 
 ## Sources
-- Source : [https://x.com/tom_doerr/status/2066334739758305748](https://x.com/tom_doerr/status/2066334739758305748)
+- Source: [https://x.com/tom_doerr/status/2066334739758305748](https://x.com/tom_doerr/status/2066334739758305748)
 
 ## Resume court
 
-Remotely accesses webcams, microphones, and location data est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conservee dans la fiche.
+Signale un outil ou une source directement sensible cote abus.
+
+
+
+## Usage KM
+
+- Conserver comme signal de risque; verifier uniquement en contexte defensif, autorise et documente.
 
 ## A_VERIFIER
 
-- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
+- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
 
 ## Relations
 
@@ -32,7 +38,7 @@ Remotely accesses webcams, microphones, and location data est une fiche KM de ve
 
 ### v0.1 - 2026-06-26
 
-- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches : `watch/remotely-accesses-webcams-microphones-and-location-data.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : Abus possible direct ou facilite : collecte intrusive, reconnaissance, contournement, automatisation offensive ou atteinte privacy.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Fichiers touches: `watch/remotely-accesses-webcams-microphones-and-location-data.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: Abus possible direct ou facilite: collecte intrusive, reconnaissance, contournement, automatisation offensive ou atteinte privacy.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

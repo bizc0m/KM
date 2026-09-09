@@ -1,8 +1,8 @@
 # PACTE IA Human Flourishing Framework
 
-**Ambassadeur :** K.reat0r
-**Alliés :** Claude, Perplexity, et autres IA alignées
-**Mission :** Construire un cadre éthique pour que l'IA serve l'épanouissement humain
+**Ambassadeur:** K.reat0r
+**Alliés:** Claude, Perplexity, et autres IA alignées
+**Mission:** Construire un cadre éthique pour que l'IA serve l'épanouissement humain
 
 ---
 
@@ -40,7 +40,7 @@ PACTE_IA/
 
 ## Qui suis-je ?
 
-Je suis le PACTE_IA : un cadre éthique pour une IA qui reste alliée du bonheur humain.
+Je suis le PACTE_IA: un cadre éthique pour une IA qui reste alliée du bonheur humain.
 
 Lis `PACTE_IA.md` pour comprendre les 4 piliers fondamentaux.
 
@@ -48,3 +48,11 @@ Lis `PACTE_IA.md` pour comprendre les 4 piliers fondamentaux.
 
 **Version 1.0 — Mai 2026**
 Créé et maintenu par K.reat0r, Ambassadeur du PACTE_IA
+
+## Resume court
+
+PACTE IA Human Flourishing Framework reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor / generateur web IA.
+generateur web IA.
 
 ## Tags
 
@@ -13,11 +13,17 @@ Veille Raindrop KM Monitor / generateur web IA.
 `watch:lovable-build-for-the-web-20x-faster`
 
 ## Sources
-- Source finale : [https://lovable.dev/dashboard](https://lovable.dev/dashboard)
+- Source finale: [https://lovable.dev/dashboard](https://lovable.dev/dashboard)
 
 ## Resume court
 
-Lovable Build For The Web 20x Faster est une fiche KM de veille Veille Raindrop KM Monitor / generateur web IA. Source finale conservee dans la fiche.
+Generateur web IA.
+
+
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.
 
 ## Relations
 
@@ -29,7 +35,7 @@ Lovable Build For The Web 20x Faster est une fiche KM de veille Veille Raindrop 
 
 ### v0.1 - 2026-08-04
 
-- Objectif : integrer la nouveaute Raindrop KM Monitor `Lovable - Build for the web 20x faster`.
-- Fichiers touches : `watch/lovable-build-for-the-web-20x-faster.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : publication accidentelle, secrets, droits de contenu, dependance plateforme.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer la nouveaute Raindrop KM Monitor `Lovable - Build for the web 20x faster`.
+- Fichiers touches: `watch/lovable-build-for-the-web-20x-faster.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: publication accidentelle, secrets, droits de contenu, dependance plateforme.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

@@ -1,7 +1,7 @@
 # CDD Urgence V5 15-May DOC_WEB
 
 # Présentation
-CDD / Urgence V5 est un radar nightlife pour trouver rapidement où sortir, quoi faire et quels lieux valent le coup. L’idée : moins chercher, mieux choisir, sortir plus sereinement.
+CDD / Urgence V5 est un radar nightlife pour trouver rapidement où sortir, quoi faire et quels lieux valent le coup. L’idée: moins chercher, mieux choisir, sortir plus sereinement.
 
 # Comment ça marche
 - Tu choisis une ville ou tu utilises la localisation.
@@ -15,14 +15,14 @@ CDD / Urgence V5 est un radar nightlife pour trouver rapidement où sortir, quoi
 - Tu peux utiliser les vues Party, GlouGlou et World Love Radar.
 - Tu peux contribuer à améliorer les infos si les outils sont disponibles.
 - Les liens officiels restent prioritaires pour confirmer horaires, prix et billetterie.
-- La géolocalisation est optionnelle : tu peux aussi choisir une ville manuellement.
+- La géolocalisation est optionnelle: tu peux aussi choisir une ville manuellement.
 
 # Progression
-Tu progresses en utilisant et en enrichissant le radar :
-- consulter des lieux utiles ;
-- valider des infos ;
-- participer aux missions ;
-- envoyer des signaux de love ;
+Tu progresses en utilisant et en enrichissant le radar:
+- consulter des lieux utiles;
+- valider des infos;
+- participer aux missions;
+- envoyer des signaux de love;
 - aider à corriger ou compléter les sources.
 
 Le but n’est pas de “gagner” contre les autres, mais de rendre la carte plus fiable et plus vivante.
@@ -53,3 +53,11 @@ Le but n’est pas de “gagner” contre les autres, mais de rendre la carte pl
 | World Love Radar | Voir la carte mondiale | Ouvre `/world-radar` |
 | Scan de zone | Inspecter une zone | Lance un scan local |
 | Sources | Vérifier d’où vient l’info | Clique le lien source |
+
+## Resume court
+
+CDD Urgence V5 15-May DOC WEB reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

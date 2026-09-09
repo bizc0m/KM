@@ -357,3 +357,11 @@ Night, Signal, Pulse, Cells, Operators, Intel, Heat, Mood, District, Discovery, 
 ---
 
 # END OF FILE
+
+## Resume court
+
+NIGHT INTEL reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.

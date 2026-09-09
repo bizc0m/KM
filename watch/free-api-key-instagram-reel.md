@@ -13,17 +13,23 @@ Veille education IA / API keys.
 `watch:free-api-key-instagram-reel`
 
 ## Sources
-- Reel Instagram : `https://www.instagram.com/reel/DZkw-DEh_Dl/`
+- Reel Instagram: `https://www.instagram.com/reel/DZkw-DEh_Dl/`
 
-Metadonnees Raindrop :
+Metadonnees Raindrop:
 
-- source sociale : reel Instagram public
-- sujet annonce : cle API LLM, authentification et securite d'usage
-- URL nettoyee : parametre de commentaire retire car inutile pour la fiche KM
+- source sociale: reel Instagram public
+- sujet annonce: cle API LLM, authentification et securite d'usage
+- URL nettoyee: parametre de commentaire retire car inutile pour la fiche KM
 
 ## Resume court
 
-Free Api Key - Instagram Reel est une fiche KM de veille Veille education IA / API keys. Source finale conservee dans la fiche.
+Sert a suivre une ressource LLM ou API.
+
+
+
+## Usage KM
+
+- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
 
 ## Relations
 
@@ -35,7 +41,7 @@ Free Api Key - Instagram Reel est une fiche KM de veille Veille education IA / A
 
 ### v0.1 - 2026-06-27
 
-- Objectif : integrer le reel `Free Api Key` depuis Raindrop KM Monitor.
-- Fichiers touches : `watch/free-api-key-instagram-reel.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : credentials, phishing possible et couts API.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le reel `Free Api Key` depuis Raindrop KM Monitor.
+- Fichiers touches: `watch/free-api-key-instagram-reel.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: credentials, phishing possible et couts API.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

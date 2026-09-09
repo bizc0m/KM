@@ -18,6 +18,10 @@ Lecture effectuee via FxTwitter API publique, sans compte X.
 
 `watch:ai-open-source-tools-watch`
 
+## Usage KM
+
+- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
+
 ## Relations
 
 - `watch:ai-trending`
@@ -27,17 +31,19 @@ Lecture effectuee via FxTwitter API publique, sans compte X.
 
 ## Resume court
 
-AI Open Source Tools Watch est une fiche KM de veille Veille IA transversale. Source finale conservee dans la fiche.
+Sert a surveiller un outil ou signal OSINT.
+
+
 
 ## Sources lues
 
 | Date post | Auteur | URL | Sujet | Statut |
 | --- | --- | --- | --- | --- |
 | 2026-04-09 | `spacesuit_app` | `https://x.com/spacesuit_app/status/2042343866389442668` | Spacesuit, canvas/adaptive workspace multiplateforme | a verifier |
-| 2026-05-21 | `xiaoying_eth` | `https://x.com/xiaoying_eth/status/2057388194711368074` | Repos open source monetisables : Cal.com, Plausible, Ghost, n8n, Supabase, Medusa, AppFlowy, Coolify, Listmonk | a verifier |
+| 2026-05-21 | `xiaoying_eth` | `https://x.com/xiaoying_eth/status/2057388194711368074` | Repos open source monetisables: Cal.com, Plausible, Ghost, n8n, Supabase, Medusa, AppFlowy, Coolify, Listmonk | a verifier |
 | 2026-05-21 | `KanikaBK` | `https://x.com/KanikaBK/status/2057446142150066607` | ViMax, outil open source pour transformer une idee en court film | a verifier |
 | 2026-05-21 | `Sumanth_077` | `https://x.com/Sumanth_077/status/2057458115323539734` | Pipecat, framework Python pour agents vocaux temps reel | a verifier |
-| 2026-05-21 | `exploraX_` | `https://x.com/exploraX_/status/2057460324349915497` | Repos gratuits remplacant des SaaS : screen recording, voice, shorts, LLM API, browser automation, scheduling, transcription, social scheduling, password vault | a verifier |
+| 2026-05-21 | `exploraX_` | `https://x.com/exploraX_/status/2057460324349915497` | Repos gratuits remplacant des SaaS: screen recording, voice, shorts, LLM API, browser automation, scheduling, transcription, social scheduling, password vault | a verifier |
 | 2026-05-21 | `Fluyeporlaweb` | `https://x.com/Fluyeporlaweb/status/2057461670977372344` | ARGO, alternative locale/open source a Manus avec RAG, Ollama et MCP | a verifier |
 | 2026-05-21 | `DeepTechTR` | `https://x.com/DeepTechTR/status/2057512199912923177` | Repos IA GitHub puissants, surtout trading/agents financiers | a cadrer |
 | 2026-05-21 | `DailyDarkWeb` | `https://x.com/DailyDarkWeb/status/2057534159313096859` | Liste d'outils Image OSINT | actif |
@@ -47,7 +53,7 @@ AI Open Source Tools Watch est une fiche KM de veille Veille IA transversale. So
 
 - 10 liens fournis.
 - 9 liens uniques.
-- Doublon retire : `https://x.com/sweexx9/status/2057560520916414628`.
+- Doublon retire: `https://x.com/sweexx9/status/2057560520916414628`.
 
 ## Arbitrage
 
@@ -72,7 +78,7 @@ AI Open Source Tools Watch est une fiche KM de veille Veille IA transversale. So
 
 ### v0.1 - 2026-05-22
 
-- Objectif : integrer automatiquement le lot X dans KM Watch.
-- Fichiers touches : `index.md`, `watch/index.md`, `watch/ai-open-source-tools-watch.md`.
-- Risques : sources externes volatiles, claims non verifies.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer automatiquement le lot X dans KM Watch.
+- Fichiers touches: `index.md`, `watch/index.md`, `watch/ai-open-source-tools-watch.md`.
+- Risques: sources externes volatiles, claims non verifies.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

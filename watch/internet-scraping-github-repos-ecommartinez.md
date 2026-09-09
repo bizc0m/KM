@@ -13,11 +13,17 @@ Veille outils / scraping et extraction web.
 `watch:internet-scraping-github-repos-ecommartinez`
 
 ## Sources
-- Source : [https://x.com/ecommartinez/status/2071360257906168143](https://x.com/ecommartinez/status/2071360257906168143)
+- Source: [https://x.com/ecommartinez/status/2071360257906168143](https://x.com/ecommartinez/status/2071360257906168143)
 
 ## Resume court
 
-Internet Scraping GitHub Repos Ecommartinez est une fiche KM de veille Veille outils / scraping et extraction web. Source finale conservee dans la fiche.
+Extrait ou structure des donnees depuis des sources web ou documents.
+
+
+
+## Usage KM
+
+- Verifier maturite, licence, activite GitHub et integration possible dans les projets KM/dev.
 
 ## A verifier
 

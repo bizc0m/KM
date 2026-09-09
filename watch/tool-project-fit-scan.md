@@ -21,7 +21,9 @@ Matrice KM outil -> projet.
 
 ## Resume court
 
-Tool Project Fit Scan est une fiche KM de veille Matrice KM outil -> projet. Source finale conservee dans la fiche.
+Sert a evaluer un enjeu privacy ou donnees exposees.
+
+
 
 ## Projets scannes
 
@@ -32,7 +34,7 @@ Tool Project Fit Scan est une fiche KM de veille Matrice KM outil -> projet. Sou
 | Nocturne Intel | `CODEX/Nocturne-Intel` | dashboard intelligence nightlife, collecteur RSS JSONL | source de verite |
 | NightCrawl | `CODEX/NightCrawl` | radar culturel nightlife, bots Telegram/Discord, scans ville | archive / ressource |
 | Tracker URL Resolver | `CODEX/tracker-url-resolver` | resolver URL, nettoyage tracking, pro scan | utilitaire candidat |
-| DemoForge Clean | `Projets/Demoforge-clean` | outils HTML visuels : shader, ANSI motion, CNC studio | actif propre |
+| DemoForge Clean | `Projets/Demoforge-clean` | outils HTML visuels: shader, ANSI motion, CNC studio | actif propre |
 | PACTE_IA | `PACTE_IA` | cadre ethique IA, docs, protocoles, audits | actif |
 | croKETT | `CODEX/croKETT` | clone Biscuit / share actionable approach | actif leger |
 | Annecy Intel | `Projets/Annecy-Intel`, `Projets/BANANE` | versions HTML Annecy Intel | archive / produit local |
@@ -80,11 +82,15 @@ Tool Project Fit Scan est une fiche KM de veille Matrice KM outil -> projet. Sou
 - `process:ai-tools`
 - `theme:charte-ia`
 
+## Usage KM
+
+- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
+
 ## Changelog
 
 ### v0.1 - 2026-05-22
 
-- Objectif : scanner les projets locaux et proposer les outils utiles par projet.
-- Fichiers touches : `watch/tool-project-fit-scan.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : scan rapide base sur README/index, pas audit complet du code.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: scanner les projets locaux et proposer les outils utiles par projet.
+- Fichiers touches: `watch/tool-project-fit-scan.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: scan rapide base sur README/index, pas audit complet du code.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

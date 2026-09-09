@@ -18,6 +18,10 @@ Lecture effectuee via FxTwitter API publique, sans compte X.
 
 `watch:osint-tools-watch`
 
+## Usage KM
+
+- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
+
 ## Relations
 
 - `watch:ai-open-source-tools-watch`
@@ -25,13 +29,15 @@ Lecture effectuee via FxTwitter API publique, sans compte X.
 
 ## Resume court
 
-OSINT Tools Watch est une fiche KM de veille Veille OSINT transversale. Source finale conservee dans la fiche.
+Sert a surveiller un outil ou signal OSINT.
+
+
 
 ## Sources lues
 
 | Date post | Auteur | URL | Sujet | Statut |
 | --- | --- | --- | --- | --- |
-| 2026-05-21 | `cyb_detective` | `https://x.com/cyb_detective/status/2057462395568558157` | Vehicle Search Tools : license plate search, VIN check, vehicle history records | actif |
+| 2026-05-21 | `cyb_detective` | `https://x.com/cyb_detective/status/2057462395568558157` | Vehicle Search Tools: license plate search, VIN check, vehicle history records | actif |
 
 ## Arbitrage
 
@@ -51,14 +57,14 @@ OSINT Tools Watch est une fiche KM de veille Veille OSINT transversale. Source f
 
 ### v0.1 - 2026-05-22
 
-- Objectif : integrer automatiquement le lien Cyb Detective dans KM Watch.
-- Fichiers touches : `watch/osint-tools-watch.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : sujet privacy-sensitive.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer automatiquement le lien Cyb Detective dans KM Watch.
+- Fichiers touches: `watch/osint-tools-watch.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: sujet privacy-sensitive.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
 
 ### v0.2 - 2026-05-22
 
-- Objectif : verifier le repo source Vehicle Search Tools.
-- Fichiers touches : `watch/osint-tools-watch.md`.
-- Risques : contenu privacy-sensitive.
-- Rollback possible : retirer le bloc Verification.
+- Objectif: verifier le repo source Vehicle Search Tools.
+- Fichiers touches: `watch/osint-tools-watch.md`.
+- Risques: contenu privacy-sensitive.
+- Rollback possible: retirer le bloc Verification.

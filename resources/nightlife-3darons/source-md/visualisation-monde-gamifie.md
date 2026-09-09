@@ -42,7 +42,7 @@ Ressources et liens utiles (lecture rapide)
 - Mapbox / Deck.gl / Kepler.gl docs pour tuiles vectorielles et rendus GPU.[^1_1]
 - QGIS/TileMill pour export haute-résolution print.[^1_2]
 
-Souhaitez-vous que je :
+Souhaitez-vous que je:
 
 - génère un cahier des charges technique (3 pages) pour une installation murale gamifiée, ou
 - prépare un prototype minimal WebGL (Three.js + tuiles Mapbox) avec instructions de déploiement ?
@@ -94,10 +94,10 @@ Oui — le **cœur demo scene** est très pertinent pour votre visualisation mon
 
 ## Repos GitHub utiles
 
-Voici les repos que je regarderais en premier pour votre use case “monde + love + gamification + gros format” :
+Voici les repos que je regarderais en premier pour votre use case “monde + love + gamification + gros format”:
 
 | Repo | Utilité |
-| :-- | :-- |
+|:-- |:-- |
 | `psykon/awesome-demoscene` | Base de repérage des frameworks, outils, shaders et références demoscene. [^2_1] |
 | `shuding/cobe` | Globe WebGL ultra léger, parfait pour intégration rapide et esthétique propre. [^2_3] |
 | `vasturiano/three-globe` | Globe data-viz très riche avec arcs, points, heatmap, etc. [^2_7] |
@@ -196,7 +196,7 @@ Je peux maintenant vous faire soit une **liste exhaustive de repos GitHub class�
 
 ## Metadata GitHub publique
 
-Releve API GitHub : 2026-08-21
+Releve API GitHub: 2026-08-21
 
 | Repo | Licence | Etoiles | Topics releves | Derniere activite | Archived | Fork |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -219,4 +219,85 @@ Releve API GitHub : 2026-08-21
 | `nvpro-samples/gl_vk_meshlet_cadscene` | Apache-2.0 | 461 | mesh-shaders, opengl, vulkan | 2024-01-30T11:11:46Z | non | non |
 | `vinjn/awesome-vulkan` | non renseignee | 3712 | amd, arm, khronos, nvidia, opengl, qualcomm, vulkan, vulkan-api, vulkan-libraries | 2026-05-11T04:37:02Z | non | non |
 
-Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+Note: metadata volatile, a reverifier avant decision produit ou execution locale.
+
+## Resume court
+
+Gamified World Visualization Methods reste une fiche KM a verifier.
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.
+
+## Topics GitHub
+
+- Repo : `https://github.com/psykon/awesome-demoscene`
+- Topics releves : 4k, 4k-demoscene, demos, demoscene, demotool, intro, real-time
+
+- Repo : `https://github.com/shuding/cobe`
+- Topics releves : globe, webgl
+
+- Repo : `https://github.com/zoran995/terriajs-cesium`
+- Aucun topic public releve via GitHub API.
+
+- Repo : `https://github.com/vasturiano/three-globe`
+- Topics releves : data-visualization, globe, threejs, webgl
+
+- Repo : `https://github.com/MartinBspheroid/GLSLtunnel`
+- Aucun topic public releve via GitHub API.
+
+- Repo : `https://github.com/bkaradzic/bgfx`
+- Topics releves : d3d11, d3d12, directx, directx-11, directx-12, engine, gamedev, gles, glfw, graphics, metal, opengl, rendering, sdl, vulkan, vulkan-api, webgl
+
+- Repo : `https://github.com/SaschaWillems/Vulkan`
+- Topics releves : glsl, hlsl, slang, vulkan, vulkan-api
+
+- Repo : `https://github.com/dataarts/webgl-globe`
+- Aucun topic public releve via GitHub API.
+
+- Repo : `https://github.com/CesiumGS/cesium-google-earth-examples`
+- Topics releves : cesium, google-earth
+
+- Repo : `https://github.com/meetar/globe-terrain`
+- Aucun topic public releve via GitHub API.
+
+- Repo : `https://github.com/ubilabs/esa-webgl-globe`
+- Aucun topic public releve via GitHub API.
+
+- Repo : `https://github.com/Bercon/VIRGO-1302`
+- Aucun topic public releve via GitHub API.
+
+- Repo : `https://github.com/aras-p/demo-pd-cranktheworld`
+- Topics releves : demoscene, playdate
+
+- Repo : `https://github.com/psenough/teach_yourself_demoscene_in_14_days`
+- Topics releves : demo-scene, demoscene, guide
+
+- Repo : `https://github.com/VicentGJ/Water_Temple_Godot-Demo`
+- Aucun topic public releve via GitHub API.
+
+- Repo : `https://github.com/JohnClarking/CoolEngines`
+- Aucun topic public releve via GitHub API.
+
+- Repo : `https://github.com/nvpro-samples/gl_vk_meshlet_cadscene`
+- Topics releves : mesh-shaders, opengl, vulkan
+
+- Repo : `https://github.com/vinjn/awesome-vulkan`
+- Topics releves : amd, arm, khronos, nvidia, opengl, qualcomm, vulkan, vulkan-api, vulkan-libraries
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

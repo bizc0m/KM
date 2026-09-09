@@ -14,18 +14,24 @@ Veille liens utilisateur / article X sur memoire agentique.
 
 ## Sources
 
-- Source sociale article : `https://x.com/0xwast3/status/2084625810112032849?s=12`
+- Source sociale article: `https://x.com/0xwast3/status/2084625810112032849?s=12`
 
-Source sociale :
+Source sociale:
 
-- titre lu : `Memory Engineering: The Discipline That Decides Whether Your AI Agent Has a Past`
-- date : 2026-08-04T13:01:38Z
-- auteur/source : `0xWast3`
-- nature : X Article, pas de repo final identifie pendant cette lecture
+- titre lu: `Memory Engineering: The Discipline That Decides Whether Your AI Agent Has a Past`
+- date: 2026-08-04T13:01:38Z
+- auteur/source: `0xWast3`
+- nature: X Article, pas de repo final identifie pendant cette lecture
 
 ## Resume court
 
-Memory Engineering - Agent Past est une fiche KM de veille Veille liens utilisateur / article X sur memoire agentique. Source finale conservee dans la fiche.
+Sert a suivre un outil d'automatisation ou d'agents IA.
+
+
+
+## Usage KM
+
+- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
 
 ## A_VERIFIER
 
@@ -43,7 +49,7 @@ Memory Engineering - Agent Past est une fiche KM de veille Veille liens utilisat
 
 ### v0.1 - 2026-08-12
 
-- Objectif : conserver le signal fourni sans recopier l'article complet.
-- Fichiers touches : `watch/memory-engineering-agent-past.md`, `watch/index.md`, `index.md`, `km/history.md`, `search-v1.11.html`.
-- Risques : source sociale volatile, claims non verifies, pas de repo final identifie.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: conserver le signal fourni sans recopier l'article complet.
+- Fichiers touches: `watch/memory-engineering-agent-past.md`, `watch/index.md`, `index.md`, `km/history.md`, `search-v1.11.html`.
+- Risques: source sociale volatile, claims non verifies, pas de repo final identifie.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

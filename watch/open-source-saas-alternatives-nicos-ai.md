@@ -16,15 +16,15 @@ Veille outils open source.
 
 Post X public fourni le 2026-05-22.
 
-URL : `https://x.com/nicos_ai/status/2057511065802469432`
+URL: `https://x.com/nicos_ai/status/2057511065802469432`
 
-Auteur : `nicos_ai` / Nico
+Auteur: `nicos_ai` / Nico
 
-Date post : 2026-05-21
+Date post: 2026-05-21
 
 ## Metadata GitHub publique
 
-Releve API GitHub : 2026-08-21
+Releve API GitHub: 2026-08-21
 
 | Repo | Licence | Etoiles | Topics releves | Derniere activite | Archived | Fork |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -39,11 +39,13 @@ Releve API GitHub : 2026-08-21
 | `calcom/cal.diy` | MIT | 47843 | next-auth, nextjs, open-source, postgresql, prisma, t3-stack, tailwindcss, trpc, turborepo, typescript, zod | 2026-08-08T17:13:42Z | non | non |
 | `bitwarden/server` | NOASSERTION | 19906 | api, aspnet, aspnetcore, bitwarden, csharp, docker, dotnet, dotnet-core, signalr, sql, sql-server | 2026-08-21T08:56:49Z | non | non |
 
-Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+Note: metadata volatile, a reverifier avant decision produit ou execution locale.
 
 ## Resume court
 
-Open Source SaaS Alternatives - nicos_ai est une fiche KM de veille Veille outils open source. Source finale conservee dans la fiche.
+Sert a suivre un outil d'automatisation ou d'agents IA.
+
+
 
 ## Outils cites
 
@@ -56,7 +58,7 @@ Open Source SaaS Alternatives - nicos_ai est une fiche KM de veille Veille outil
 | Open Design | `https://github.com/nexu-io/open-design` | verifie GitHub | interne |
 | AppFlowy | `https://github.com/AppFlowy-IO/AppFlowy` | deja verifie | interne |
 | Penpot | `https://github.com/penpot/penpot` | deja verifie | interne |
-| n8n | `https://github.com/n8n-io/n8n` | deja verifie | sensible ; #ROUGE si exfiltration/spam |
+| n8n | `https://github.com/n8n-io/n8n` | deja verifie | sensible; #ROUGE si exfiltration/spam |
 | Cal | `https://github.com/calcom/cal.diy` | deja verifie, ancien lien redirige | interne |
 | Bitwarden Server | `https://github.com/bitwarden/server` | verifie GitHub | interne critique |
 
@@ -71,12 +73,48 @@ Open Source SaaS Alternatives - nicos_ai est une fiche KM de veille Veille outil
 
 ## Deduplication
 
-Deja presents dans KM :
+Deja presents dans KM:
 
 - `AppFlowy`
 - `Penpot`
 - `n8n`
 - `Cal.com`
+
+## Usage KM
+
+- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
+
+## Topics GitHub
+
+- Repo : `https://github.com/yt-dlp/yt-dlp`
+- Topics releves : cli, downloader, python, sponsorblock, youtube-dl, youtube-downloader, yt-dlp
+
+- Repo : `https://github.com/ollama/ollama`
+- Topics releves : deepseek, gemma, gemma3, glm, go, golang, gpt-oss, llama, llama3, llm, llms, minimax, mistral, ollama, qwen
+
+- Repo : `https://github.com/lllyasviel/Fooocus`
+- Aucun topic public releve via GitHub API.
+
+- Repo : `https://github.com/Diolinux/PhotoGIMP`
+- Aucun topic public releve via GitHub API.
+
+- Repo : `https://github.com/nexu-io/open-design`
+- Topics releves : agent-skills, ai-design, byok, claude-code-for-design, claude-design, codex-design, coding-agents, cursor-design, deepseek, deepseek-harness, design-systems, desktop-app, dsh, dsh-plugin, figma-alternative, hermes-agent, local-first, prototyping, ui-generator, vibe-coding
+
+- Repo : `https://github.com/AppFlowy-IO/AppFlowy`
+- Topics releves : blog, confluence-alternative, content-management, content-services, documentation, flutter, note-taking, notion-alternative, project-management, task-management, team-collaboration, wiki
+
+- Repo : `https://github.com/penpot/penpot`
+- Topics releves : clojure, clojurescript, design, prototyping, ui, ux-design, ux-experience
+
+- Repo : `https://github.com/n8n-io/n8n`
+- Topics releves : ai, apis, automation, cli, data-flow, development, integration-framework, integrations, ipaas, low-code, low-code-platform, mcp, mcp-client, mcp-server, n8n, no-code, self-hosted, typescript, workflow, workflow-automation
+
+- Repo : `https://github.com/calcom/cal.diy`
+- Topics releves : next-auth, nextjs, open-source, postgresql, prisma, t3-stack, tailwindcss, trpc, turborepo, typescript, zod
+
+- Repo : `https://github.com/bitwarden/server`
+- Topics releves : api, aspnet, aspnetcore, bitwarden, csharp, docker, dotnet, dotnet-core, signalr, sql, sql-server
 
 ## Relations
 
@@ -89,7 +127,7 @@ Deja presents dans KM :
 
 ### v0.1 - 2026-05-22
 
-- Objectif : integrer le post nicos_ai et dedupliquer les outils open source cites.
-- Fichiers touches : `watch/open-source-saas-alternatives-nicos-ai.md`, `watch/ai-open-source-tools-inventory.md`, `watch/x-source-authors-log.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : claims promotionnels, usages sensibles de yt-dlp/n8n/Fooocus.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le post nicos_ai et dedupliquer les outils open source cites.
+- Fichiers touches: `watch/open-source-saas-alternatives-nicos-ai.md`, `watch/ai-open-source-tools-inventory.md`, `watch/x-source-authors-log.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: claims promotionnels, usages sensibles de yt-dlp/n8n/Fooocus.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

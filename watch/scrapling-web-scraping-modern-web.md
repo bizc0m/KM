@@ -2,7 +2,7 @@
 
 ## Type
 
-Veille Raindrop KM Monitor / framework de scraping web.
+framework de scraping web.
 
 ## Tags
 
@@ -13,16 +13,22 @@ Veille Raindrop KM Monitor / framework de scraping web.
 `watch:scrapling-web-scraping-modern-web`
 
 ## Sources
-- Documentation : `https://scrapling.readthedocs.io/`
+- Documentation: `https://scrapling.readthedocs.io/`
 
-Source publique :
+Source publique:
 
-- titre HTML : `Index - Scrapling`
-- description : `Scrapling - Effortless Web Scraping for the Modern Web!`
+- titre HTML: `Index - Scrapling`
+- description: `Scrapling - Effortless Web Scraping for the Modern Web!`
 
 ## Resume court
 
-Scrapling - Web Scraping Modern Web est une fiche KM de veille Veille Raindrop KM Monitor / framework de scraping web. Source finale conservee dans la fiche.
+Extrait ou structure des donnees depuis des sources web ou documents.
+
+
+
+## Usage KM
+
+- Classer, relier et reevaluer la fiche lors du prochain scan KM.
 
 ## Relations
 
@@ -34,7 +40,7 @@ Scrapling - Web Scraping Modern Web est une fiche KM de veille Veille Raindrop K
 
 ### v0.1 - 2026-07-11
 
-- Objectif : integrer le nouveau signal Scrapling depuis Raindrop KM Monitor.
-- Fichiers touches : `watch/scrapling-web-scraping-modern-web.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : scraping abusif, conditions d'usage et donnees personnelles.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Objectif: integrer le nouveau signal Scrapling depuis Raindrop KM Monitor.
+- Fichiers touches: `watch/scrapling-web-scraping-modern-web.md`, `watch/index.md`, `index.md`, `km/history.md`.
+- Risques: scraping abusif, conditions d'usage et donnees personnelles.
+- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

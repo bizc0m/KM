@@ -6,31 +6,6 @@ const root = process.env.KM_ROOT
   ? resolve(process.env.KM_ROOT)
   : fileURLToPath(new URL("..", import.meta.url)).replace(/\/$/, "");
 
-const sourceHtml = readFileSync(join(root, "search-v1.12.html"), "utf8");
-const match = sourceHtml.match(/const KM_INDEX=([\s\S]*?);\nconst KM_CONFIG=/);
-if (!match) throw new Error("KM_INDEX not found in search-v1.12.html");
-
-const sourceIndex = JSON.parse(match[1]);
-const kmIndex = sourceIndex.map((item) => ({
-  id: item.id,
-  kind: "fiche",
-  promptFolder: "fiches",
-  title: item.title || item.path,
-  summary: item.summary || item.type || "",
-  type: item.type || "",
-  status: item.status || "",
-  theme: item.theme || "",
-  themeLabel: item.themeLabel || item.theme || "",
-  folder: item.folder || "",
-  folderLabel: item.folderLabel || item.folder || "",
-  path: item.path,
-  repoUrl: item.repoUrl,
-  sourceUrl: item.sourceUrl || item.github || "",
-  tags: (item.tags || []).slice(0, 10),
-  topics: (item.githubTopics || []).slice(0, 12),
-  integratedAt: item.integratedAt || ""
-}));
-
 const promptsRoot = join(root, "prompts");
 mkdirSync(promptsRoot, { recursive: true });
 
@@ -99,7 +74,7 @@ function promptItem(file) {
 }
 
 const promptIndex = walkMarkdown(promptsRoot).map(promptItem);
-const index = [...promptIndex, ...kmIndex];
+const index = promptIndex;
 
 function escapeHtml(value) {
   return String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -153,13 +128,12 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
 <nav class="global-menu" aria-label="Menu principal">
   <a href="index.html">Accueil</a>
   <a href="search-v1.12.html">Recherche</a>
-  <a href="public/folders/watch.html">Watch</a>
   <a href="public/folders/resources.html">Resources</a>
   <a class="active" href="kprompt.html">Kprompt</a>
   <a href="http://127.0.0.1:8767/">App locale</a>
 </nav>
 <header class="top">
-  <div><div class="brand"><span>K</span>prompt</div><div class="sub">Prompts · dossiers · fiches KM</div></div>
+  <div><div class="brand"><span>K</span>prompt</div><div class="sub">Prompts · dossiers</div></div>
   <div class="stats" id="stats"></div>
   <div class="actions">
     <a class="btn" href="search-v1.12.html">KM</a>
@@ -179,11 +153,10 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
         <input id="q" type="search" autocomplete="off" placeholder="chercher agent, osint, llm, github...">
         <div class="row">
           <select id="promptFolder"></select>
-          <select id="kind"><option value="all">Tout</option><option value="prompt">Prompts</option><option value="fiche">Fiches KM</option></select>
+          <select id="theme"></select>
         </div>
         <div class="row">
-          <select id="theme"></select>
-          <select id="status"><option value="all">Tous statuts</option><option value="prompt">Prompt</option><option value="#ROUGE">#ROUGE</option><option value="sensible">Sensible</option><option value="a verifier">A verifier</option><option value="actif">Actif</option></select>
+          <select id="status"><option value="all">Tous statuts</option><option value="prompt">Prompt</option></select>
         </div>
       </div>
       <div class="meta"><span id="visible"></span><span id="selected"></span></div>
@@ -191,11 +164,11 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
     </div>
   </section>
   <section class="panel">
-    <header><h2>Fiche active</h2><span class="note" id="path"></span></header>
+    <header><h2>Prompt actif</h2><span class="note" id="path"></span></header>
     <div class="scroll" id="detail"></div>
   </section>
   <section class="panel">
-    <header><h2>Prompt</h2><span class="note">selection KM</span></header>
+    <header><h2>Prompt</h2><span class="note">selection prompts</span></header>
     <div class="scroll compose">
       <div class="row">
         <select id="mode"><option value="dev">Dev</option><option value="veille">Veille</option><option value="audit">Audit</option><option value="synthese">Synthese</option><option value="agent">Agent</option></select>
@@ -242,10 +215,9 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
   }
   function terms(){ return norm(el("q").value).split(/\\s+/).filter(Boolean); }
   function filtered(){
-    var ts = terms(), theme = el("theme").value, status = el("status").value, kind = el("kind").value, promptFolder = el("promptFolder").value;
+    var ts = terms(), theme = el("theme").value, status = el("status").value, promptFolder = el("promptFolder").value;
     return ITEMS.map(function(item){ return Object.assign({_score: score(item, ts)}, item); })
       .filter(function(item){ return item._score > 0; })
-      .filter(function(item){ return kind === "all" || item.kind === kind; })
       .filter(function(item){ return promptFolder === "all" || item.promptFolder === promptFolder; })
       .filter(function(item){ return theme === "all" || item.theme === theme; })
       .filter(function(item){ return status === "all" || item.status === status; })
@@ -253,38 +225,27 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
       .slice(0, 30);
   }
   function chip(text, cls){ return '<span class="chip '+(cls||"")+'">'+esc(text)+'</span>'; }
-  function statusClass(value){ return value === "#ROUGE" ? "red" : "blue"; }
   function selectedCount(){ return Object.keys(selected).length; }
   function selectedItems(){
     var rows = ITEMS.filter(function(item){ return selected[item.id]; });
     return rows.length ? rows : filtered().slice(0, 5);
   }
   function itemPrompt(item){
-    if(item.kind === "prompt") return "- prompt: "+item.title+"\\n  dossier: "+item.promptFolder+"\\n  chemin: "+item.path+"\\n  contenu:\\n"+String(item.prompt || "").split("\\n").map(function(line){return "    "+line;}).join("\\n");
-    var lines = ["- titre: "+item.title, "  statut: "+item.status, "  theme: "+item.themeLabel, "  fiche: "+item.repoUrl];
-    if(item.sourceUrl) lines.push("  source: "+item.sourceUrl);
-    lines.push("  resume: "+(item.summary || item.type || "").replace(/\\s+/g," ").trim());
-    if(el("depth").value === "normal"){
-      if(item.tags.length) lines.push("  tags: "+item.tags.join(", "));
-      if(item.topics.length) lines.push("  topics: "+item.topics.join(", "));
-    }
-    return lines.join("\\n");
+    return "- prompt: "+item.title+"\\n  dossier: "+item.promptFolder+"\\n  chemin: "+item.path+"\\n  contenu:\\n"+String(item.prompt || "").split("\\n").map(function(line){return "    "+line;}).join("\\n");
   }
   function buildPrompt(){
     var rows = selectedItems();
     return "# Kprompt\\n\\n" +
       modes[el("mode").value] + "\\n\\n" +
-      "## Objectif\\n" + (el("objective").value.trim() || "Analyse ces fiches KM et propose la prochaine action utile.") + "\\n\\n" +
-      "## Contraintes\\n" + (el("constraints").value.trim() || "Reponse courte, factuelle, avec liens vers fiches et sources. Ne pas inventer.") + "\\n\\n" +
-      "## Prompts et contexte\\n" + rows.map(itemPrompt).join("\\n\\n") + "\\n\\n" +
+      "## Objectif\\n" + (el("objective").value.trim() || "Analyse ces prompts KM et propose la prochaine action utile.") + "\\n\\n" +
+      "## Contraintes\\n" + (el("constraints").value.trim() || "Reponse courte, factuelle, avec liens vers les prompts utiles. Ne pas inventer.") + "\\n\\n" +
+      "## Prompts\\n" + rows.map(itemPrompt).join("\\n\\n") + "\\n\\n" +
       "## Sortie attendue\\n- Synthese utile\\n- Points importants\\n- Risques ou limites\\n- Actions suivantes\\n- Sources utilisees";
   }
   function activeItem(){ return ITEMS.find(function(item){ return item.id === activeId; }) || filtered()[0] || ITEMS[0]; }
   function renderStats(){
     var prompts = ITEMS.filter(function(item){ return item.kind === "prompt"; }).length;
-    var fiches = ITEMS.filter(function(item){ return item.kind === "fiche"; }).length;
-    var red = ITEMS.filter(function(item){ return item.status === "#ROUGE"; }).length;
-    el("stats").innerHTML = '<div class="stat"><b>'+prompts+'</b> prompts</div><div class="stat"><b>'+fiches+'</b> fiches</div><div class="stat"><b>'+red+'</b> #ROUGE</div><div class="stat"><b>'+selectedCount()+'</b> selection</div>';
+    el("stats").innerHTML = '<div class="stat"><b>'+prompts+'</b> prompts</div><div class="stat"><b>'+selectedCount()+'</b> selection</div>';
   }
   function renderFilters(){
     var seen = {};
@@ -302,10 +263,10 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
     el("selected").textContent = selectedCount() + " selectionnees";
     el("feed").innerHTML = rows.map(function(item){
       return '<article class="card '+(item.id===activeId?'active ':'')+(selected[item.id]?'selected':'')+'" data-id="'+esc(item.id)+'">' +
-        '<div class="chips">'+chip(item.kind)+chip(item.status,statusClass(item.status))+chip(item.promptFolder||item.themeLabel)+chip(item.folderLabel)+'</div>' +
+        '<div class="chips">'+chip(item.kind)+chip(item.status,"blue")+chip(item.promptFolder||item.themeLabel)+chip(item.folderLabel)+'</div>' +
         '<h3><button data-open="'+esc(item.id)+'">'+esc(item.title)+'</button></h3>' +
         '<p>'+esc(item.summary || item.type)+'</p>' +
-        '<div class="actions" style="justify-content:flex-start;margin-top:8px"><button class="btn red" data-select="'+esc(item.id)+'">Selection</button><a class="btn" href="'+esc(item.repoUrl)+'">Fiche</a></div>' +
+        '<div class="actions" style="justify-content:flex-start;margin-top:8px"><button class="btn red" data-select="'+esc(item.id)+'">Selection</button><a class="btn" href="'+esc(item.repoUrl)+'">Prompt</a></div>' +
       '</article>';
     }).join("") || '<div class="empty">Aucun resultat.</div>';
   }
@@ -313,8 +274,8 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
     var item = activeItem();
     if(!item) return;
     el("path").textContent = item.path;
-    el("detail").innerHTML = '<section class="detail-title"><h1>'+esc(item.title)+'</h1><p>'+esc(item.summary || item.type)+'</p><div class="chips">'+chip(item.kind)+chip(item.status,statusClass(item.status))+chip(item.promptFolder||item.themeLabel)+item.tags.slice(0,6).map(function(t){return chip(t)}).join("")+'</div></section>' +
-      '<section class="detail-list"><div><b>Fiche</b><a href="'+esc(item.repoUrl)+'">'+esc(item.repoUrl)+'</a></div>' +
+    el("detail").innerHTML = '<section class="detail-title"><h1>'+esc(item.title)+'</h1><p>'+esc(item.summary || item.type)+'</p><div class="chips">'+chip(item.kind)+chip(item.status,"blue")+chip(item.promptFolder||item.themeLabel)+item.tags.slice(0,6).map(function(t){return chip(t)}).join("")+'</div></section>' +
+      '<section class="detail-list"><div><b>Prompt</b><a href="'+esc(item.repoUrl)+'">'+esc(item.repoUrl)+'</a></div>' +
       (item.sourceUrl ? '<div><b>Source</b><a href="'+esc(item.sourceUrl)+'">'+esc(item.sourceUrl)+'</a></div>' : '') +
       '<div><b>Dossier</b>'+esc(item.promptFolder || "-")+'</div><div><b>Tags</b>'+esc(item.tags.join(", ") || "-")+'</div><div><b>Topics</b>'+esc(item.topics.join(", ") || "-")+'</div>' +
       (item.prompt ? '<div><b>Prompt</b><pre>'+esc(item.prompt)+'</pre></div>' : '') + '</section>';
@@ -332,7 +293,7 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
     if(open){ activeId = open; renderAll(); }
     if(select){ selected[select] ? delete selected[select] : selected[select] = true; renderAll(); }
   });
-  ["q","promptFolder","kind","theme","status","mode","depth","objective","constraints"].forEach(function(id){
+  ["q","promptFolder","theme","status","mode","depth","objective","constraints"].forEach(function(id){
     el(id).addEventListener("input", renderAll);
     el(id).addEventListener("change", renderAll);
   });
@@ -361,5 +322,5 @@ h1,h2,h3,p{margin:0}h2{font-size:12px;font-weight:950;text-transform:uppercase}.
 
 writeFileSync(join(root, "kprompt-index.json"), `${JSON.stringify(index, null, 2)}\n`, "utf8");
 writeFileSync(join(root, "kprompt.html"), html, "utf8");
-console.log(`Wrote kprompt.html with ${promptIndex.length} prompts and ${kmIndex.length} KM fiches.`);
+console.log(`Wrote kprompt.html with ${promptIndex.length} prompts.`);
 console.log("Open kprompt.html directly; no server required.");
