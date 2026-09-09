@@ -12,6 +12,30 @@ Index des sources de veille transversales KM.
 | `watch:right-click-prompt-browser-prompt-library` | `right-click-prompt-browser-prompt-library.md` | Bibliotheque de prompts accessible depuis clic droit navigateur ; stockage, partage et prompts sensibles a verifier. | sensible |
 | `watch:betterdisplay-macos-display-control` | `betterdisplay-macos-display-control.md` | Utilitaire macOS de controle avance des ecrans ; permissions, streaming et ecrans virtuels a verifier. | actif |
 | `watch:kata-tracker-local-first-issue-tracker` | `kata-tracker-local-first-issue-tracker.md` | Issue tracker local-first pour humains et agents de code ; stockage, exports et injection de tickets a verifier. | actif |
+| `watch:calyx-macos-agent-terminal` | `calyx-macos-agent-terminal.md` | Terminal macOS natif pour lancer et superviser des agents de code. | sensible |
+| `watch:pake-web-page-to-desktop-app` | `vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel.md` | Transforme une page web en app desktop legere via Tauri. | actif |
+| `watch:openbot-ai-coworkers` | `openbot-ai-coworkers.md` | Coworkers IA avec navigateur, fichiers, outils et journal d'actions. | sensible |
+| `watch:espanso-text-expander` | `espanso-text-expander.md` | Text expander privacy-first pour snippets, prompts et commandes. | actif |
+| `watch:losslesscut-video-audio-editing` | `losslesscut-video-audio-editing.md` | Edition video/audio sans recompression pour captures, demos et rushs. | actif |
+| `watch:type-for-obsidian-quick-capture` | `type-for-obsidian-quick-capture.md` | Capture rapide vers Obsidian, a comparer avec NotePlan. | sensible |
+| `watch:devin-desktop-agent-app` | `devin-desktop-agent-app.md` | App desktop Devin comme reference UX agentique. | sensible |
+| `watch:agent-skills-library` | `agent-skills-library.md` | Bibliotheque publique de skills agents a auditer avant reutilisation. | sensible |
+| `watch:obs-shaderfilter` | `obs-shaderfilter.md` | Plugin OBS pour appliquer des shaders a une source. | actif |
+| `watch:veejay-live-video-sampler` | `veejay-live-video-sampler.md` | Instrument visuel et sampler video temps reel. | actif |
+| `watch:openvj-web-vj-tool` | `openvj-web-vj-tool.md` | VJ web avec mapping, shaders, Three.js et WebGL. | actif |
+| `watch:anyv2v-video-editing-framework` | `anyv2v-video-editing-framework.md` | Framework de recherche video-to-video editing. | sensible |
+| `watch:vace-video-creation-editing` | `vace-video-creation-editing.md` | Creation et edition video IA tout-en-un. | sensible |
+| `watch:kiwi-edit-video-editing` | `kiwi-edit-video-editing.md` | Edition video guidee par instruction et reference. | sensible |
+| `watch:vista-video-style-transfer` | `vista-video-style-transfer.md` | Style transfer video par diffusion transformers. | sensible |
+| `watch:airi-ai-companion` | `airi-ai-companion.md` | Companion IA self-hosted avec voix, apps et memoire. | sensible |
+| `watch:echovessel-persona-memory-engine` | `echovessel-persona-memory-engine.md` | Moteur persona local-first avec memoire longue. | sensible |
+| `watch:book-to-skill` | `book-to-skill.md` | Conversion de livre technique PDF vers skill agent. | sensible |
+| `watch:agent-rules-books` | `agent-rules-books.md` | Regles AGENTS.md et skills pour agents de code. | sensible |
+| `watch:hermes-vps-setup-skill` | `hermes-vps-setup-skill.md` | Skill d'installation VPS a auditer avant execution. | sensible |
+| `watch:web-check-website-osint` | `web-check-website-osint.md` | Analyse OSINT defensive de site web. | sensible |
+| `watch:claude-osint-skills` | `claude-osint-skills.md` | #ROUGE : pack de skills Claude OSINT directement abusable hors cadre autorise. | #ROUGE |
+| `watch:adaptixc2-c2-risk-article` | `adaptixc2-c2-risk-article.md` | #ROUGE : article de veille sur outil C2. | #ROUGE |
+| `watch:shadowbroker-osint-surveillance-dashboard` | `shadowbroker-osint-surveillance-dashboard.md` | #ROUGE : dashboard OSINT de suivi et surveillance. | #ROUGE |
 | `watch:ai-open-source-tools-watch` | `ai-open-source-tools-watch.md` | Lot sources sociales : outils IA/open source, alternatives SaaS, agents, OSINT, local-first | actif |
 | `watch:ai-open-source-tools-inventory` | `ai-open-source-tools-inventory.md` | Inventaire detaille : 32 outils nommes uniques extraits du lot X | actif |
 | `watch:osint-tools-watch` | `osint-tools-watch.md` | Outils OSINT sensibles : vehicle search, VIN, plaques, historiques vehicules | actif |
@@ -119,7 +143,6 @@ Index des sources de veille transversales KM.
 | `watch:waveking-free-github-projects` | `waveking-free-github-projects.md` | 很多能力已经能直接干掉你正在月付的软件。 1. TradingAgents AI 多 Agent 量化交易框架 https://t.co/vDzagj93aY 2. LibreChat 一个 | actif |
 | `watch:mvanhorn-last30days-skill` | `mvanhorn-last30days-skill.md` | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web | actif |
 | `watch:guide-scrapegraph-ai-ia-boss-pdf` | `guide-scrapegraph-ai-ia-boss-pdf.md` | Guide_ScrapeGraph_AI_IA_Boss.pdf | actif |
-| `watch:vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel` | `vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel.md` | Découvrez Pake, un outil léger et facile à utiliser qui vous permet de créer des applications e | actif |
 | `watch:calesthio-openmontage` | `calesthio-openmontage.md` | World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent  | actif |
 | `watch:ryancodrai-turbovec` | `ryancodrai-turbovec.md` | A vector index built on TurboQuant, written in Rust with Python bindings - RyanCodrai/turbovec | actif |
 | `watch:opencode-telechargement` | `opencode-telechargement.md` | Download OpenCode for macOS, Windows, and Linux | actif |

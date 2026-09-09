@@ -13,10 +13,35 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | `km:index` | `km/index.md` | index | #km | actif |
 | `km:history` | `km/history.md` | historique | #km, #changelog | actif |
 | `km:proton-luna-poeme` | `km/proton-luna-poeme.md` | fragment poetique | #proton, #luna, #poeme, #nuit, #flamme, #lore | actif |
+| `resource:noteplan-captures-archive-2026` | `resources/noteplan-captures-archive-2026.md` | archive | #km, #noteplan, #capture, #archive, #veille, #github | a verifier |
 | `watch:index` | `watch/index.md` | index | #veille | actif |
 | `watch:right-click-prompt-browser-prompt-library` | `watch/right-click-prompt-browser-prompt-library.md` | veille | #prompt-library, #browser, #llm, #productivity, #privacy | sensible |
 | `watch:betterdisplay-macos-display-control` | `watch/betterdisplay-macos-display-control.md` | veille | #macos, #display, #hidpi, #open-source, #github | actif |
 | `watch:kata-tracker-local-first-issue-tracker` | `watch/kata-tracker-local-first-issue-tracker.md` | veille | #issue-tracking, #agents, #local-first, #project-management, #devtools | actif |
+| `watch:calyx-macos-agent-terminal` | `watch/calyx-macos-agent-terminal.md` | veille | #macos, #terminal, #agents, #codex, #mcp | sensible |
+| `watch:pake-web-page-to-desktop-app` | `watch/vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel.md` | veille | #desktop-app, #tauri, #rust, #macos, #packaging | actif |
+| `watch:openbot-ai-coworkers` | `watch/openbot-ai-coworkers.md` | veille | #agents, #browser-automation, #ag-ui, #mcp, #governance | sensible |
+| `watch:espanso-text-expander` | `watch/espanso-text-expander.md` | veille | #macos, #productivity, #text-expander, #rust, #privacy | actif |
+| `watch:losslesscut-video-audio-editing` | `watch/losslesscut-video-audio-editing.md` | veille | #video, #audio, #editing, #ffmpeg, #media | actif |
+| `watch:type-for-obsidian-quick-capture` | `watch/type-for-obsidian-quick-capture.md` | veille | #obsidian, #capture, #knowledge-management, #notes | sensible |
+| `watch:devin-desktop-agent-app` | `watch/devin-desktop-agent-app.md` | veille | #desktop-agent, #agents, #coding, #devtools, #ux | sensible |
+| `watch:agent-skills-library` | `watch/agent-skills-library.md` | veille | #agents, #skills, #prompt-engineering, #library | sensible |
+| `watch:obs-shaderfilter` | `watch/obs-shaderfilter.md` | veille | #obs, #shader, #video, #streaming, #media | actif |
+| `watch:veejay-live-video-sampler` | `watch/veejay-live-video-sampler.md` | veille | #video, #vj, #live-video, #visuals, #media | actif |
+| `watch:openvj-web-vj-tool` | `watch/openvj-web-vj-tool.md` | veille | #webgl, #threejs, #vj, #projection-mapping, #video | actif |
+| `watch:anyv2v-video-editing-framework` | `watch/anyv2v-video-editing-framework.md` | veille | #ai-video, #video-editing, #generative-ai, #research | sensible |
+| `watch:vace-video-creation-editing` | `watch/vace-video-creation-editing.md` | veille | #ai-video, #video-generation, #video-editing, #research | sensible |
+| `watch:kiwi-edit-video-editing` | `watch/kiwi-edit-video-editing.md` | veille | #ai-video, #video-editing, #video-generation | sensible |
+| `watch:vista-video-style-transfer` | `watch/vista-video-style-transfer.md` | veille | #ai-video, #style-transfer, #diffusion, #research | sensible |
+| `watch:airi-ai-companion` | `watch/airi-ai-companion.md` | veille | #ai-companion, #agents, #memory, #voice, #privacy | sensible |
+| `watch:echovessel-persona-memory-engine` | `watch/echovessel-persona-memory-engine.md` | veille | #ai-companion, #agents, #memory, #rag, #python | sensible |
+| `watch:book-to-skill` | `watch/book-to-skill.md` | veille | #agent-skills, #knowledge-management, #pdf, #rag, #llm | sensible |
+| `watch:agent-rules-books` | `watch/agent-rules-books.md` | veille | #agents-md, #agent-skills, #codex, #claude-code, #cursor | sensible |
+| `watch:hermes-vps-setup-skill` | `watch/hermes-vps-setup-skill.md` | veille | #agents, #skills, #vps, #infrastructure, #security | sensible |
+| `watch:web-check-website-osint` | `watch/web-check-website-osint.md` | veille | #osint, #website-analysis, #security-tools, #privacy | sensible |
+| `watch:claude-osint-skills` | `watch/claude-osint-skills.md` | veille | #ROUGE, #osint, #claude, #skills, #privacy-risk | #ROUGE |
+| `watch:adaptixc2-c2-risk-article` | `watch/adaptixc2-c2-risk-article.md` | veille | #ROUGE, #c2, #red-team, #offensive-security | #ROUGE |
+| `watch:shadowbroker-osint-surveillance-dashboard` | `watch/shadowbroker-osint-surveillance-dashboard.md` | veille | #ROUGE, #osint, #surveillance, #tracking, #privacy-risk | #ROUGE |
 | `book:index` | `books/index.md` | index | #books, #livres, #ocr | actif |
 | `watch:ai-trending` | `watch/ai-trending.md` | veille | #ia, #github, #trending | actif |
 | `watch:ai-open-source-tools-watch` | `watch/ai-open-source-tools-watch.md` | veille | #ia, #open-source, #devtools, #saas, #osint | actif |
@@ -133,7 +158,6 @@ Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
 | `watch:waveking-free-github-projects` | `watch/waveking-free-github-projects.md` | veille | #agents, #automation, | actif |
 | `watch:mvanhorn-last30days-skill` | `watch/mvanhorn-last30days-skill.md` | veille | #agents, #automation, | actif |
 | `watch:guide-scrapegraph-ai-ia-boss-pdf` | `watch/guide-scrapegraph-ai-ia-boss-pdf.md` | veille | #agents, #automation, | actif |
-| `watch:vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel` | `watch/vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel.md` | veille | #claude, #skill, #news, #rumor, #checkl, #api, #cartographie, #citoyenne, #collaborative, #fact, #factchecking, #fake, #herm, #ressources, #kroko, #llm, #agents, #automation, | actif |
 | `watch:calesthio-openmontage` | `watch/calesthio-openmontage.md` | veille | #agents, #automation, | actif |
 | `watch:ryancodrai-turbovec` | `watch/ryancodrai-turbovec.md` | veille | #agents, #automation, | actif |
 | `watch:opencode-telechargement` | `watch/opencode-telechargement.md` | veille | #herm, #llm, #api, #ressources, #news, #cartographie, #checkl, #citoyenne, #claude, #collaborative, #factchecking, #fact, #fake, #rumor, #skill, #agents, #automation, | actif |

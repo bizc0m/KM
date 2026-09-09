@@ -88,6 +88,7 @@ Regle : les ressources gardent les sources lisibles et nommees de facon stable. 
 | --- | --- | --- | --- | --- | --- |
 | `resource:global-network-sex-work-projects-resources` | `global-network-sex-work-projects-resources.md` | Raindrop KM Monitor / NSWP | 2026-06-27 | Ressources droits humains et politiques publiques a verifier avant citation | Sujet sensible, verification directe limitee par 429 |
 | `resource:llm-wiki-karpathy` | `llm-wiki-karpathy.md` | Raindrop KM Monitor / GitHub Gist | 2026-06-27 | Ressource longue de reference LLM a relire avant extraction | Contenu long a verifier, ne pas recopier completement |
+| `resource:noteplan-captures-archive-2026` | `noteplan-captures-archive-2026.md` | NotePlan local, lecture seule | 2026-09-09 | Archive courte des captures publiques 2026 utiles a transformer en fiches | Sources sociales incompletes, repos non audites, liens prives exclus |
 
 ## Regles d'appel
 

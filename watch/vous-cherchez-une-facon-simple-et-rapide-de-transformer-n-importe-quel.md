@@ -1,44 +1,55 @@
-# Web Page To Desktop App Converter
+# Pake Web Page To Desktop App
 
 ## Type
 
-veille LLM / API.
+ transforme une page web en application desktop.
 
 ## Tags
 
-#claude, #skill, #news, #rumor, #checkl, #api, #cartographie, #citoyenne, #collaborative, #fact, #factchecking, #fake, #herm, #ressources, #kroko, #llm, #agents, #automation
-
-## Appel canonique
-
-`watch:vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel`
+#desktop-app, #tauri, #rust, #macos, #packaging, #github
 
 ## Sources
-- Source: [https://x.com/sibyog13/status/2063609591485567189](https://x.com/sibyog13/status/2063609591485567189)
+
+- Source finale: [https://github.com/tw93/Pake](https://github.com/tw93/Pake)
+- Origine: archive NotePlan captures 2026, capture du 2026-09-02.
+- Source sociale historique: [https://x.com/sibyog13/status/2063609591485567189](https://x.com/sibyog13/status/2063609591485567189)
+- Domaine: `github.com`
+- Auteur/source: `tw93`
 
 ## Resume court
 
-Sert a suivre une ressource LLM ou API.
-
-
+Pake package une page web en app desktop legere via Tauri.
 
 ## Usage KM
 
-- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
+Utile pour transformer dashboards KM, outils locaux ou pages de consultation en app desktop.
 
-## A_VERIFIER
+## Topics GitHub
 
-- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
+- Repo: `https://github.com/tw93/Pake`
+- Topics: chatgpt, claude, desktop, gemini, hight-performance, linux, macos, no-electron, package, rust, tauri, windows, youtube
+- Licence relevee: GPL-3.0
+- Etoiles relevees: 61355
+- Derniere activite relevee: 2026-09-09T09:00:40Z
 
-## Relations
+## Risque d'abus possible
 
-- `watch:index`
-- `watch:ai-open-source-tools-watch`
+- `sensible`: une page packagee peut embarquer trackers, comptes connectes ou permissions desktop.
+- Verifier la page cible avant packaging.
+
+## Classification
+
+`actif`
+
+## A verifier
+
+- Permissions generees par app.
+- Signature/notarisation macOS.
+- Difference entre wrapper local et vraie app maintenable.
 
 ## Changelog
 
-### v0.1 - 2026-06-26
+### v0.2 - 2026-09-09
 
-- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches: `watch/vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif: remplacer la fiche faible issue de source sociale par une fiche Pake dediee.
+- Rollback possible: restaurer la version precedente du fichier.
