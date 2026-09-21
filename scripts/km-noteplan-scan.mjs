@@ -118,6 +118,11 @@ async function scanNotePlan() {
   for (const base of ["Notes", "Calendar"]) {
     const baseDir = path.join(NOTEPLAN_ROOT, base);
     if (!existsSync(baseDir)) continue;
+    try {
+      await readdir(baseDir);
+    } catch (error) {
+      throw new Error(`NotePlan ${base} illisible: ${baseDir} (${error.code || error.message})`);
+    }
     const files = await walkMarkdown(baseDir);
     for (const file of files) {
       const info = await stat(file);
