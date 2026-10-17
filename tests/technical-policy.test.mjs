@@ -35,11 +35,13 @@ test('NotePlan reader reads Calendar only and exports no raw notes or filenames'
  const root=mkdtempSync(path.join(tmpdir(),'km-technical-reader-'));
  try{
   mkdirSync(path.join(root,'Calendar'),{recursive:true});mkdirSync(path.join(root,'Notes','Technique'),{recursive:true});mkdirSync(path.join(root,'Calendar','Perso'),{recursive:true});
-  writeFileSync(path.join(root,'Calendar','20261017.md'),'# SQLite Python\n\nLe logiciel SQLite expose une API Python pour les transactions.');
+  writeFileSync(path.join(root,'Calendar','20261017.md'),'# SQLite Python\n\nLe logiciel SQLite expose une API Python pour les transactions.\n\nContexte à ne pas exporter avec le lien https://x.com/example/status/12345');
   writeFileSync(path.join(root,'Calendar','Perso','intime.md'),'# Journal intime\n\nBDSM sexe Python API.');
   writeFileSync(path.join(root,'Notes','Technique','database.md'),'# OUTSIDE_CALENDAR Python API\n\nSDK technique hors périmètre.');
   const r=spawnSync(process.execPath,[fileURLToPath(new URL('../scripts/km-noteplan-technical-read.mjs',import.meta.url))],{env:{...process.env,NOTEPLAN_ROOT:root},encoding:'utf8',timeout:10000});
   assert.equal(r.status,0,r.stderr);const d=JSON.parse(r.stdout);assert.equal(d.ok,true);assert.equal(d.scope,'calendar-only');assert.equal(d.notes.length,1);assert.equal(d.notes[0].allowText,true);
   assert.equal(/BDSM|OUTSIDE_CALENDAR|intime\.md|database\.md|"body"|"path"/.test(r.stdout),false);
+  assert.ok(d.notes[0].segments.includes('https://x.com/example/status/12345'));
+  assert.equal(r.stdout.includes('Contexte à ne pas exporter'),false);
  }finally{rmSync(root,{recursive:true,force:true});}
 });

@@ -22,7 +22,13 @@ for(const root of roots){
   try{
    if((await stat(file)).size>512000)continue;
    const body=await readFile(file,'utf8');scanned++;
-   const segments=body.split(/\n(?=#{1,6}\s)|\n\s*\n/).filter(s=>!blocked(s) && technicalSignal(s)).map(s=>s.slice(0,16000));
+   const segments=body.split(/\n(?=#{1,6}\s)|\n\s*\n/).filter(s=>!blocked(s)).flatMap(s=>{
+    if(technicalSignal(s))return [s.slice(0,16000)];
+    // A bare X link must be read before its topic can be determined.
+    // Forward URLs only, without the surrounding nontechnical/private context.
+    const links=s.match(/https?:\/\/(?:www\.)?(?:x\.com|twitter\.com)\/[^\s/]+\/status\/\d+[^\s<>"'\[\]]*/g) || [];
+    return links.map(u=>u.replace(/[).,;!}`]+$/g,''));
+   });
    const allowText=!blocked(body);
    notes.push({id:hash(file),digest:hash(body),segments,allowText});
   }catch{unreadable++;}
