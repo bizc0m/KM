@@ -11,7 +11,7 @@ Mise en place le 17 octobre 2026. Le M2 exécute la collecte et construit `searc
 
 ## Traitement
 
-Le collecteur lit réellement les sources publiques. Les dépôts GitHub utilisent les métadonnées et le README ; les liens X utilisent le service public FxTwitter, puis jusqu'à trois liens externes présents dans le texte. L'indisponibilité de ce service ou d'une page laisse la source en attente. Aucune connexion à un compte X n'est configurée.
+Le collecteur lit réellement les sources publiques. Les dépôts GitHub utilisent les métadonnées et le README ; les liens X utilisent le service public FxTwitter, puis tous les liens du tweet, avec exploration des sources techniques jusqu’à trois niveaux. L'indisponibilité de ce service ou d'une page laisse la source en attente. Aucune connexion à un compte X n'est configurée.
 
 Ollama, sur le M2 (`qwen3:8b`), décide si la source est exclusivement technique et en extrait un titre, un résumé et des faits attribués. Le résultat doit respecter un schéma et passer un second filtre déterministe. Une décision ambiguë n'entre pas dans les fiches. Les affirmations sont relevées dans les sources ; elles ne constituent pas une validation indépendante de leurs promesses.
 
@@ -63,3 +63,15 @@ Deux premières fiches NotePlan ont été créées et contrôlées dans watch, l
 ## Périmètre restreint à Calendar
 
 À la demande explicite de utilisateur, seul le dossier Calendar est désormais parcouru. Le dossier Notes ne sert plus de source. Le cache de dernier scan quotidien a été invalidé et le traitement relancé. Les fiches déjà créées ne sont pas supprimées rétroactivement. Un test ajoute une note technique dans Notes et vérifie son exclusion.
+
+## Exploration X reconfigurée
+
+Version `depth3-all-links-v1` : le tweet est le niveau zéro. Tous ses liens sont recensés, les liens directs lus en priorité (niveau un), puis les liens utiles des pages techniques aux niveaux deux et trois. Les redirections HTTP ne consomment pas de niveau supplémentaire. Les boucles et variantes X/Twitter sont dédupliquées. Les pages non techniques, privées ou sexuelles sont exclues ; les pages avec des liens techniques peuvent servir de relais.
+
+Budget par tweet : 120 pages maximum et 180 secondes de collecte réseau (une requête déjà commencée peut finir après ce délai). Le temps de classement Ollama vient ensuite et dépend du nombre de pages. Les pages dépassant le budget ou la profondeur restent explicitement signalées, ainsi que les erreurs. Chaque page technique est analysée séparément ; les pages de plus de 18 000 caractères sont traitées sur un extrait et marquées comme telles. Les résumés et faits validés des sources liées sont ajoutés dans la fiche, avec leurs URL et profondeur.
+
+La section Exploration des liens donne les compteurs de couverture. Le cache privé `pipeline/crawls/` conserve les URL publiques du graphe, les statuts et les résumés techniques validés, sans texte brut des pages ni des notes. Les décisions réutilisables sont associées à une empreinte de contenu. Les résumés des sources ambiguës ne sont pas conservés.
+
+La nouvelle version force le retraitement des tweets déjà traités avec la limite de trois liens. Les notes Calendar contenant des tweets sont réexaminées, et priorisées. Les fiches existantes sont enrichies à leur emplacement ; elles ne sont pas supprimées. Le dashboard est reconstruit et le placement vérifié après chaque fiche créée ou enrichie.
+
+Tests : `node --test tests/technical-policy.test.mjs tests/source-crawl.test.mjs`, dont un graphe de 30 liens directs, trois niveaux, une boucle, les budgets, le cache et les index de fiches existantes.

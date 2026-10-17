@@ -7,6 +7,7 @@ import {execFile} from 'node:child_process';
 import {promisify} from 'node:util';
 import {fileURLToPath} from 'node:url';
 import {blocked,technicalSignal,canonical,publicFetch,validDecision,POLICY_VERSION} from './km-technical-policy.mjs';
+import {crawlSource,analyzeCrawl,crawlKey,loadPublicPage,CRAWL_VERSION} from './km-source-crawl.mjs';
 
 const exec=promisify(execFile);
 const ROOT=process.env.KM_ROOT || fileURLToPath(new URL('..',import.meta.url)).replace(/\/$/,'');
@@ -30,39 +31,34 @@ export async function classify(evidence){
   if(!response.ok)throw new Error(`model_http_${response.status}`);
   return JSON.parse((await response.json()).response);
 }
-async function resolveSource(url){
-  const u=new URL(url);let source;
-  if(/^(x\.com|twitter\.com)$/.test(u.hostname) && /\/status\/\d+/.test(u.pathname)){
-    const id=u.pathname.match(/\/status\/(\d+)/)[1];
-    const data=JSON.parse((await publicFetch(`https://api.fxtwitter.com/status/${id}`)).text);
-    if(!data.tweet?.text)throw new Error('x_content_unavailable');
-    source={url,text:data.tweet.text};
-    const external=[...urls(data.tweet.text),...(data.tweet.urls || []).map(x=>x.expanded_url || x.url || '')];
-    source.links=external.filter(x=>/^https:\/\//.test(x) && !/^https:\/\/(?:t\.co|x\.com|twitter\.com)\//.test(x));
-  }else if(u.hostname==='github.com' && /^\/[^/]+\/[^/]+\/?$/.test(u.pathname)){
-    const repo=u.pathname.replace(/^\/|\/$/g,'');
-    const metadata=JSON.parse((await publicFetch(`https://api.github.com/repos/${repo}`)).text);
-    let readme='';try{const r=JSON.parse((await publicFetch(`https://api.github.com/repos/${repo}/readme`)).text);readme=Buffer.from(r.content || '','base64').toString('utf8');}catch{}
-    source={url,text:`Logiciel ${metadata.full_name}. ${metadata.description || ''}\n${readme}`,links:[]};
-  }else{
-    const r=await publicFetch(url);
-    source={url:r.url,text:plain(r.text).slice(0,25000),links:[]};
-    if(u.hostname==='t.co' && new URL(r.url).hostname!=='t.co')return resolveSource(r.url);
-  }
-  if(blocked(source.text))return {blocked:true};
-  const resolved=[];
-  for(const link of [...new Set(source.links)].slice(0,3)){
-    try{const r=await publicFetch(link);const text=plain(r.text).slice(0,10000);if(!blocked(text) && technicalSignal(text)){resolved.push({url:r.url,text});}}catch{}
-  }
-  return {url:source.url,text:[source.text,...resolved.map(r=>r.text)].join('\n').slice(0,24000),sources:[source.url,...resolved.map(r=>r.url)]};
+async function resolveSource(url,onProgress=async()=>{}){
+  const u=new URL(url);const isTweet=/^(x\.com|twitter\.com)$/.test(u.hostname)&&/\/status\/\d+/.test(u.pathname);
+  if(!isTweet){const page=await loadPublicPage(url);return blocked(page.text)?{blocked:true}:{url:page.url,text:page.text.slice(0,24000),sources:[page.url]};}
+  const dir=path.join(DATA,'crawls');await mkdir(dir,{recursive:true,mode:0o700});
+  const file=path.join(dir,hash(crawlKey(url))+'.json');
+  const old=await readJson(file,{});const cache=old.version===CRAWL_VERSION?old.decisions || {}:{};
+  const crawl=await crawlSource(url,{onProgress});
+  if(crawl.blocked)return {blocked:true,crawl:crawl.report};
+  const analysis=await analyzeCrawl(crawl,classify,{cache,onProgress:async part=>{
+    await atomic(file,JSON.stringify({version:CRAWL_VERSION,at:now(),...part,decisions:{...cache,...part.decisions}}));
+    await onProgress(part.report);
+  }});
+  await atomic(file,JSON.stringify({version:CRAWL_VERSION,at:now(),...analysis,decisions:{...cache,...analysis.decisions}}));
+  const evidence=analysis.details.map(d=>`${d.title}\n${d.summary}\n${d.facts.join('\n')}`).join('\n\n');
+  const decision=analysis.details.find(d=>d.depth===0) || (analysis.details.length?await classify(evidence.slice(0,18000)):{decision:analysis.report.unread || analysis.report.review?'review':'ignore'});
+  return {url:crawlKey(url),text:evidence,decision,details:analysis.details.filter(d=>d.depth>0),sources:[crawlKey(url),...analysis.details.filter(d=>d.depth>0).map(d=>d.url)],crawl:analysis.report};
 }
-async function addFiche(key,d,sources,origin){
-  const id=hash(key).slice(0,20);const rel=`watch/technical-${id}.md`;const p=path.join(ROOT,rel);
+export async function addFiche(key,d,sources,origin,analysis){
+  const id=hash(/https?:\/\/(?:x\.com|twitter\.com)\/.*\/status\//.test(key)?crawlKey(key):key).slice(0,20);const rel=analysis?.target || `watch/technical-${id}.md`;const p=path.join(ROOT,rel);
   const esc=s=>s.replace(/[<>]/g,'').replace(/^#/gm,'').trim();
   const body=`# ${esc(d.title)}\n\n## Type\n\nVeille technique informatique\n\n## Statut\n\n${d.risk==='dual-use'?'#ROUGE':'actif'}\n\n## Tags\n\n#technique, #informatique${d.risk==='dual-use'?', #ROUGE':''}\n\n## Résumé\n\n${esc(d.summary)}\n\n## Faits relevés dans la source\n\n${d.facts.slice(0,4).map(f=>'- '+esc(f)).join('\n')}\n\n## Sources\n\n${sources.map(s=>'- '+s).join('\n')}\n\n## Traçabilité\n\n- Origine : ${origin}\n- Identifiant source : ${hash(key)}\n- Politique : ${POLICY_VERSION}\n- Lecture KM : ${now().slice(0,10)}\n- Résumé automatique local ; les affirmations restent attribuées aux sources.\n`;
-  await atomic(p,body);
-  for(const [index,line] of [['index.md',`| \`watch:technical-${id}\` | \`${rel}\` | veille technique | #technique, #informatique | ${d.risk==='dual-use'?'#ROUGE':'actif'} |`],['watch/index.md',`| \`watch:technical-${id}\` | \`technical-${id}.md\` | Veille technique | ${d.risk==='dual-use'?'#ROUGE':'actif'} |`]]){
-    const ip=path.join(ROOT,index);let text=await readFile(ip,'utf8');if(!text.includes('`technical-'+id+'.md`') && !text.includes('`'+rel+'`'))await atomic(ip,text.trimEnd()+'\n'+line+'\n');
+  const details=analysis?.details || [];
+  const report=analysis?.crawl;
+  const exploration=report?`\n## Exploration des liens\n\n- Configuration : ${report.version} ; profondeur ${report.maxDepth}, maximum ${report.maxPages} pages par tweet.\n- Liens distincts recensés : ${report.found}.\n- Pages lues, tweet compris : ${report.read}.\n- Sources techniques analysées : ${report.technical}.\n- Sources à vérifier : ${report.review} ; analyses non terminées : ${report.analysisPending} ; erreurs du modèle : ${report.analysisErrors}.\n- Liens non lus : ${report.unread} (profondeur : ${report.depthLimited}, budget de pages : ${report.pageLimited}, délai : ${report.timeLimited}, erreurs : ${report.errors}).\n- Pages résumées sur extrait : ${report.excerpted}.\n- Éléments exclus : ${report.excluded} ; doublons ignorés : ${report.duplicates}.\n- Couverture complète : ${report.complete?'oui':'non ; limites ou sources non accessibles détaillées ci-dessus'}.\n`+details.map(x=>`\n### ${esc(x.title)}\n\n${esc(x.summary)}\n\n${x.facts.map(f=>'- '+esc(f)).join('\n')}\n\nSource : ${x.url} ; niveau ${x.depth}.\n`).join(''):'';
+  await atomic(p,body+exploration);
+  const actualName=path.basename(rel);const actualId=path.basename(rel,'.md');
+  for(const [index,line] of [['index.md',`| \`watch:${actualId}\` | \`${rel}\` | veille technique | #technique, #informatique | ${d.risk==='dual-use'?'#ROUGE':'actif'} |`],['watch/index.md',`| \`watch:${actualId}\` | \`${actualName}\` | Veille technique | ${d.risk==='dual-use'?'#ROUGE':'actif'} |`]]){
+    const ip=path.join(ROOT,index);let text=await readFile(ip,'utf8');if(!text.includes('`'+actualName+'`') && !text.includes('`'+rel+'`'))await atomic(ip,text.trimEnd()+'\n'+line+'\n');
   }
   return rel;
 }
@@ -74,37 +70,54 @@ async function main(){
   const status={startedAt:now(),policy:POLICY_VERSION,created:0,updated:0,ignored:0,review:0,failures:0,noteplan:{ok:false},raindrop:{ok:false},errors:[]};
   const state=await readJson(path.join(DATA,'state.json'),{urls:{},notes:{}});
   state.firstRun ||= now();
-  let processed=0;
-  async function checkpoint(){await atomic(path.join(DATA,'state.json'),JSON.stringify(state));await atomic(path.join(DATA,'progress.json'),JSON.stringify({...status,processed,limit:LIMIT,updatedAt:now()}));}
-  const known=new Set();
-  for(const folder of ['watch','resources','books']){for(const file of await walk(path.join(ROOT,folder))){for(const u of urls(await readFile(file,'utf8'))){try{known.add(canonical(u));}catch{}}}}
-  async function processCandidate(key,evidence,sources,origin){
+  let processed=0,builtCount=0;
+  async function checkpoint(){
+    await atomic(path.join(DATA,'state.json'),JSON.stringify(state));
+    const changed=status.created+status.updated;
+    if(changed>builtCount){
+      await exec(process.execPath,[path.join(ROOT,'scripts/build-search-v1.12-html.mjs')],{cwd:ROOT,timeout:120000,maxBuffer:1000000});
+      await exec(process.execPath,[path.join(ROOT,'scripts/km-verify-placement.mjs')],{cwd:ROOT,env:process.env,timeout:30000,maxBuffer:1000000});
+      builtCount=changed;status.dashboard={ok:true,file:'search-v2.html',updatedAt:now()};
+    }
+    await atomic(path.join(DATA,'progress.json'),JSON.stringify({...status,processed,limit:LIMIT,updatedAt:now()}));
+  }
+  const known=new Set(),tweetFiles=new Map();
+  for(const folder of ['watch','resources','books']){for(const file of await walk(path.join(ROOT,folder))){
+    const text=await readFile(file,'utf8');
+    for(const u of urls(text)){try{known.add(canonical(u));}catch{}}
+    if(/^technical-/.test(path.basename(file))){const first=urls(text.split('## Sources')[1]?.split('\n## ')[0] || '')[0];if(first && /^https?:\/\/(?:x\.com|twitter\.com)\/.*\/status\/\d+/.test(first))tweetFiles.set(crawlKey(first),path.relative(ROOT,file));}
+  }}
+  async function processCandidate(key,evidence,sources,origin,analysis){
     if(blocked(evidence) || !technicalSignal(evidence)){status.ignored++;return 'ignored';}
-    const d=await classify(evidence);
+    const d=analysis?.decision || await classify(evidence);
     if(d.decision==='ignore'){status.ignored++;return 'ignored';}
     if(!validDecision(d,evidence)){status.review++;return 'review';}
-    const existing=origin==='NotePlan' && state.notes[key]?.fiche?.endsWith('.md');
-    const fiche=await addFiche(key,d,sources,origin);status[existing?'updated':'created']++;
+    const existing=Boolean(analysis?.target) || origin==='NotePlan' && state.notes[key]?.fiche?.endsWith('.md');
+    const fiche=await addFiche(key,d,sources,origin,analysis);status[existing?'updated':'created']++;
     return fiche;
   }
   async function processUrl(url,origin){
     let key;try{key=canonical(url);}catch{return;}
     if(blocked(key)){status.ignored++;return;}
     const k=hash(key);const old=state.urls[k];
-    if(old?.status==='done' || (old?.status==='ignored' && old.policy===POLICY_VERSION))return;
-    if(old?.status==='retry' && Date.now()-Date.parse(old.at)<5*3600000)return;
-    if(known.has(key)){state.urls[k]={status:'done',at:now(),existing:true};return;}
+    const isTweet=/^https?:\/\/(?:x\.com|twitter\.com)\/.*\/status\/\d+/.test(key);
+    const needsRecrawl=isTweet && old?.crawlVersion!==CRAWL_VERSION;
+    if(!needsRecrawl && (old?.status==='done' || (old?.status==='ignored' && old.policy===POLICY_VERSION)))return;
+    if(!needsRecrawl && old?.status==='retry' && Date.now()-Date.parse(old.at)<5*3600000)return;
+    if(!isTweet && known.has(key)){state.urls[k]={status:'done',at:now(),existing:true};return;}
     if(processed>=LIMIT)return;processed++;
     try{
-      const s=await resolveSource(key);
-      if(!s.blocked && s.sources.some(u=>{try{return known.has(canonical(u));}catch{return false;}})){
+      const s=await resolveSource(key,async report=>{status.currentExploration=report;await checkpoint();});
+      if(isTweet)s.target=tweetFiles.get(crawlKey(key));
+      const incomplete=s.crawl && (s.crawl.errors || s.crawl.analysisErrors || s.crawl.review || s.crawl.analysisPending || s.crawl.pageLimited || s.crawl.timeLimited);
+      if(!isTweet && !s.blocked && s.sources.some(u=>{try{return known.has(canonical(u));}catch{return false;}})){
         state.urls[k]={status:'done',at:now(),existing:true};await checkpoint();return;
       }
-      const result=s.blocked?'ignored':await processCandidate(key,s.text,s.sources,origin);
-      state.urls[k]={status:result==='review'?'retry':result==='ignored'?'ignored':'done',policy:POLICY_VERSION,at:now(),...(result?.endsWith('.md')?{fiche:result}:{})};
+      const result=s.blocked?'ignored':!s.text&&incomplete?'review':await processCandidate(key,s.text,s.sources,origin,s);
+      state.urls[k]={status:result==='review'||incomplete?'retry':result==='ignored'?'ignored':'done',policy:POLICY_VERSION,at:now(),...(isTweet?{crawlVersion:CRAWL_VERSION,crawl:s.crawl}:{}),...(result?.endsWith('.md')?{fiche:result}:{})};
       if(result==='review')status.failures++;
-      if(result?.endsWith('.md'))for(const u of s.sources)known.add(canonical(u));
-    }catch(e){status.failures++;state.urls[k]={status:'retry',at:now(),reason:String(e.message).replace(/https?:\/\/\S+/g,'[source]').slice(0,80)};}
+      if(result?.endsWith('.md')){for(const u of s.sources)known.add(canonical(u));if(isTweet)tweetFiles.set(crawlKey(key),result);}
+    }catch(e){status.failures++;state.urls[k]={status:'retry',at:now(),...(isTweet?{crawlVersion:CRAWL_VERSION}:{}),reason:String(e.message).replace(/https?:\/\/\S+/g,'[source]').slice(0,80)};}
     await checkpoint();
   }
   try{
@@ -126,13 +139,13 @@ async function main(){
       if(!scan.ok){status.errors.push(scan.reason || 'NOTEPLAN_PARTIAL_READ');status.noteplan={ok:false,reason:scan.reason==='NOTEPLAN_PERMISSION_DENIED'?'Autorisation macOS nécessaire pour accéder à NotePlan':scan.reason==='NOTEPLAN_READ_TIMEOUT'?'Lecture NotePlan bloquée ou autorisation macOS en attente (limite 30 secondes)':'Données NotePlan indisponibles ou partiellement lisibles'};}
       else{
         let complete=true;status.noteplan={ok:true,scope:scan.scope,scanned:scan.scanned};
-        for(const note of scan.notes){
+        for(const note of scan.notes.sort((a,b)=>Number(b.segments.some(s=>/\/status\/\d+/.test(s)))-Number(a.segments.some(s=>/\/status\/\d+/.test(s))))){
           const k=note.id;const digest=note.digest;
           if(state.notes[k]?.hash===digest)continue;
-          const segments=note.segments;
+          const segments=[...note.segments].sort((a,b)=>Number(/\/status\/\d+/.test(b))-Number(/\/status\/\d+/.test(a)));
           let done=true;
           for(const segment of segments){
-            for(const u of urls(segment)){
+            for(const u of urls(segment).sort((a,b)=>Number(/\/status\/\d+/.test(b))-Number(/\/status\/\d+/.test(a)))){
               if(processed>=LIMIT){done=false;complete=false;break;}
               await processUrl(u,'NotePlan');
               try { const record=state.urls[hash(canonical(u))];if(!blocked(u) && (!record || record.status==='retry')){done=false;complete=false;} } catch {}

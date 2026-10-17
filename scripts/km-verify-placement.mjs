@@ -4,6 +4,7 @@ import path from 'node:path';
 import os from 'node:os';
 import {fileURLToPath} from 'node:url';
 import {canonical,blocked,technicalSignal} from './km-technical-policy.mjs';
+import {crawlKey} from './km-source-crawl.mjs';
 const root=process.env.KM_ROOT || fileURLToPath(new URL('..',import.meta.url));
 const data=process.env.KM_PIPELINE_DATA || path.join(os.homedir(),'Library/Application Support/KM/pipeline');
 const files=(await fs.readdir(path.join(root,'watch'))).filter(n=>/^technical-[a-f0-9]+\.md$/.test(n));
@@ -13,7 +14,8 @@ for(const doc of documents){
  const section=doc.text.split('## Sources')[1]?.split('\n## ')[0] || '';
  const sources=section.match(/https?:\/\/[^\s<>]+/g) || [];
  const repositories=[...new Set(sources.filter(s=>{try{const u=new URL(s);return u.hostname==='github.com' && /^\/[^/]+\/[^/]+\/?$/.test(u.pathname);}catch{return false;}}).map(canonical))];
- const first=repositories.length===1?repositories[0]:sources[0];
+ const tweet=sources[0] && /^https?:\/\/(?:x\.com|twitter\.com)\/.*\/status\/\d+/.test(sources[0]);
+ const first=tweet?crawlKey(sources[0]):repositories.length===1?repositories[0]:sources[0];
  if(!first)continue;
  try{const key=canonical(first);if(!groups.has(key))groups.set(key,[]);groups.get(key).push(doc);}catch{}
 }
