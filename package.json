@@ -12,13 +12,16 @@
     "km:finish:push": "bash scripts/km-finish.sh --push",
     "km:install": "bash scripts/install-km-local-app.sh",
     "km:noteplan:install": "bash scripts/install-noteplan-km-bridge.sh",
-    "km:noteplan:launchd:install": "bash scripts/km-noteplan-install-launchd.sh",
-    "km:noteplan:scan": "bash scripts/km-noteplan-scan.sh",
-    "km:noteplan:scan:ollama": "bash scripts/km-noteplan-scan.sh --ollama",
+    "km:noteplan:launchd:install": "bash scripts/km-technical-install.sh",
+    "km:noteplan:scan": "node scripts/km-noteplan-scan.mjs",
+    "km:noteplan:scan:ollama": "node scripts/km-noteplan-scan.mjs",
     "km:kprompt": "node scripts/build-kprompt-html.mjs",
     "km:search": "node scripts/build-search-v1.12-html.mjs",
     "typecheck": "tsc --noEmit",
-    "test": "npm run typecheck && rm -rf .test-dist && esbuild tests/core/*.test.ts --bundle --platform=node --format=esm --target=node22 --outdir=.test-dist/tests/core && cp -R tests/fixtures .test-dist/tests/fixtures && node --test .test-dist/tests/core/*.js"
+    "test": "npm run typecheck && rm -rf .test-dist && esbuild tests/core/*.test.ts --bundle --platform=node --format=esm --target=node22 --outdir=.test-dist/tests/core && cp -R tests/fixtures .test-dist/tests/fixtures && node --test .test-dist/tests/core/*.js",
+    "km:technical:run": "node scripts/km-technical-pipeline.mjs",
+    "km:technical:install": "bash scripts/km-technical-install.sh",
+    "km:technical:test": "node --test tests/technical-policy.test.mjs"
   },
   "repository": {
     "type": "git",

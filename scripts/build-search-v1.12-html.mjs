@@ -1,6 +1,7 @@
 import { mkdirSync, readdirSync, readFileSync, writeFileSync, statSync } from "node:fs";
 import { join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { blocked, technicalSignal } from './km-technical-policy.mjs';
 
 const root = process.env.KM_ROOT
   ? resolve(process.env.KM_ROOT)
@@ -338,6 +339,7 @@ function githubTopicsFrom(content) {
 function itemFrom(file) {
   const path = relative(root, file);
   const content = readFileSync(file, "utf8");
+  if (blocked(path + '\n' + content) || !technicalSignal(content)) return null;
   const folder = folderMeta(path);
   if (privatePublicExcludedPaths.has(path)) return null;
   if (internalPattern.test(path)) return null;
