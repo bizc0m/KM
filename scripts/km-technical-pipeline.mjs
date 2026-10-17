@@ -125,7 +125,7 @@ async function main(){
       } catch { scan={ok:false,notes:[],scanned:0,reason:'NOTEPLAN_READ_TIMEOUT'}; }
       if(!scan.ok){status.errors.push(scan.reason || 'NOTEPLAN_PARTIAL_READ');status.noteplan={ok:false,reason:scan.reason==='NOTEPLAN_PERMISSION_DENIED'?'Autorisation macOS nécessaire pour accéder à NotePlan':scan.reason==='NOTEPLAN_READ_TIMEOUT'?'Lecture NotePlan bloquée ou autorisation macOS en attente (limite 30 secondes)':'Données NotePlan indisponibles ou partiellement lisibles'};}
       else{
-        let complete=true;status.noteplan={ok:true,scanned:scan.scanned};
+        let complete=true;status.noteplan={ok:true,scope:scan.scope,scanned:scan.scanned};
         for(const note of scan.notes){
           const k=note.id;const digest=note.digest;
           if(state.notes[k]?.hash===digest)continue;
@@ -138,7 +138,7 @@ async function main(){
               try { const record=state.urls[hash(canonical(u))];if(!blocked(u) && (!record || record.status==='retry')){done=false;complete=false;} } catch {}
             }
           }
-          // Text-only captures require an explicitly technical folder and a wholly clean note.
+          // Text-only Calendar captures require a wholly clean note and technical segments.
           if(note.allowText && segments.length && !segments.some(s=>urls(s).length)){
             if(processed>=LIMIT){done=false;complete=false;}else{processed++;try{const r=await processCandidate(k,segments.join('\n').slice(0,16000),[],'NotePlan');if(r==='review'){done=false;complete=false;}else state.notes[k]={hash:digest,fiche:r,at:now()};}catch{done=false;complete=false;status.failures++;}}
           }

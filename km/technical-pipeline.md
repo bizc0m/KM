@@ -5,7 +5,7 @@ Mise en place le 17 octobre 2026. Le M2 exécute la collecte et construit `searc
 ## Sources et cadence
 
 - Raindrop : collection publique KM Monitor, données structurées de chaque page, pagination et vérification du nombre d'identifiants distincts par rapport au total annoncé. RSS complémentaire, jamais utilisé comme preuve d'exhaustivité.
-- NotePlan : notes et calendrier nouveaux ou modifiés, suivis par empreinte de contenu. Le premier passage peut parcourir tout l'historique accessible. Les notes brutes ne sont pas exportées. Les blocs mixtes sont séparés avant le filtre ; les dossiers personnels et contenus exclus sont ignorés. Les captures sans lien exigent un dossier explicitement technique et une note entière sans contenu exclu.
+- NotePlan : **Calendar uniquement**, éléments nouveaux ou modifiés suivis par empreinte de contenu. Le dossier Notes est exclu. Le premier passage peut parcourir tout l'historique accessible. Les notes brutes ne sont pas exportées. Les blocs mixtes sont séparés avant le filtre ; les dossiers personnels et contenus exclus sont ignorés. Les captures Calendar sans lien exigent une note entière sans contenu exclu et des passages techniques validés.
 - Horaires du M2 : 02:30, 08:30, 14:30, 20:30. NotePlan est parcouru au plus une fois toutes les 20 heures, donc normalement une fois par jour. Si le scan est incomplet, il reprend au passage suivant.
 - 80 nouvelles sources maximum par lot ; le service enchaîne les lots de rattrapage sans attendre le prochain horaire. Les sources temporairement inaccessibles attendent au moins cinq heures avant une nouvelle tentative. Un verrou empêche les exécutions concurrentes. Les sources temporairement indisponibles ou ambiguës restent à réessayer, sans fiche inventée.
 
@@ -59,3 +59,7 @@ Après confirmation explicite, le réglage Session à distance « Accorder aux u
 Le LaunchAgent définit désormais `KM_NOTEPLAN_SSH=1` : seul le lecteur isolé NotePlan passe par SSH vers `JOB@127.0.0.1`, avec la clé existante `~/.ssh/id_ed25519_atn_core`, déjà autorisée. Aucun nouveau couple de clés ni nouvel utilisateur autorisé ne sont créés. La connexion reste locale au M2. Le filtrage est effectué avant le retour des segments techniques au processus principal ; aucun export des notes brutes.
 
 Deux premières fiches NotePlan ont été créées et contrôlées dans watch, les deux index et le dashboard, qui comptait alors 248 fiches (76 nouvelles fiches techniques, dont 2 NotePlan). Le rattrapage se poursuit en arrière-plan.
+
+## Périmètre restreint à Calendar
+
+À la demande explicite de utilisateur, seul le dossier Calendar est désormais parcouru. Le dossier Notes ne sert plus de source. Le cache de dernier scan quotidien a été invalidé et le traitement relancé. Les fiches déjà créées ne sont pas supprimées rétroactivement. Un test ajoute une note technique dans Notes et vérifie son exclusion.

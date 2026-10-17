@@ -14,19 +14,19 @@ const roots=process.env.NOTEPLAN_ROOT?[process.env.NOTEPLAN_ROOT]:[
 let denied=false,found=false;const notes=[];let scanned=0,unreadable=0;
 for(const root of roots){
  let files;
- try{files=await walk(path.join(root,'Notes'));try{files.push(...await walk(path.join(root,'Calendar')));}catch(e){if(e.code!=='ENOENT')throw e;}}
+ try{files=await walk(path.join(root,'Calendar'));}
  catch(e){if(['EPERM','EACCES'].includes(e.code))denied=true;continue;}
- if(!files.length)continue;found=true;
+ found=true;
  for(const file of files){
   const rel=path.relative(root,file);if(blocked(rel))continue;
   try{
    if((await stat(file)).size>512000)continue;
    const body=await readFile(file,'utf8');scanned++;
    const segments=body.split(/\n(?=#{1,6}\s)|\n\s*\n/).filter(s=>!blocked(s) && technicalSignal(s)).map(s=>s.slice(0,16000));
-   const allowText=!blocked(body) && /(?:^|[/\\])[^/\\]*(?:technique|technical|informatique|développement|developpement|programmation|## KM|_Outils IA)[^/\\]*(?:[/\\])/i.test(rel);
+   const allowText=!blocked(body);
    notes.push({id:hash(file),digest:hash(body),segments,allowText});
   }catch{unreadable++;}
  }
  break;
 }
-console.log(JSON.stringify({ok:found && unreadable===0,scanned,unreadable,reason:!found?(denied?'NOTEPLAN_PERMISSION_DENIED':'NOTEPLAN_NOT_FOUND'):unreadable?'NOTEPLAN_PARTIAL_READ':null,notes}));
+console.log(JSON.stringify({scope:'calendar-only',ok:found && unreadable===0,scanned,unreadable,reason:!found?(denied?'NOTEPLAN_PERMISSION_DENIED':'NOTEPLAN_NOT_FOUND'):unreadable?'NOTEPLAN_PARTIAL_READ':null,notes}));
