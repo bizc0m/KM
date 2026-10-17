@@ -113,7 +113,14 @@ async function main(){
     if(!state.lastNoteplanSuccess || Date.now()-Date.parse(state.lastNoteplanSuccess)>20*3600000 || process.argv.includes('--noteplan')){
       let scan;
       try {
-        const result=await exec(process.execPath,[path.join(ROOT,'scripts/km-noteplan-technical-read.mjs')],{env:process.env,timeout:30000,maxBuffer:32*1024*1024});
+        const reader=path.join(ROOT,'scripts/km-noteplan-technical-read.mjs');
+        let command=process.execPath,args=[reader];
+        if(process.env.KM_NOTEPLAN_SSH==='1'){
+          const quote=s=>"'"+s.replaceAll("'","'\\''")+"'";
+          const remote=['env',...(process.env.NOTEPLAN_ROOT?[`NOTEPLAN_ROOT=${process.env.NOTEPLAN_ROOT}`]:[]),process.execPath,reader].map(quote).join(' ');
+          command='/usr/bin/ssh';args=['-o','BatchMode=yes','-o','IdentitiesOnly=yes','-o','StrictHostKeyChecking=yes','-o','ConnectTimeout=5','-i',path.join(os.homedir(),'.ssh/id_ed25519_atn_core'),`${os.userInfo().username}@127.0.0.1`,remote];
+        }
+        const result=await exec(command,args,{env:process.env,timeout:30000,maxBuffer:32*1024*1024});
         scan=JSON.parse(result.stdout);
       } catch { scan={ok:false,notes:[],scanned:0,reason:'NOTEPLAN_READ_TIMEOUT'}; }
       if(!scan.ok){status.errors.push(scan.reason || 'NOTEPLAN_PARTIAL_READ');status.noteplan={ok:false,reason:scan.reason==='NOTEPLAN_PERMISSION_DENIED'?'Autorisation macOS nécessaire pour accéder à NotePlan':scan.reason==='NOTEPLAN_READ_TIMEOUT'?'Lecture NotePlan bloquée ou autorisation macOS en attente (limite 30 secondes)':'Données NotePlan indisponibles ou partiellement lisibles'};}

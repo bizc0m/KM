@@ -51,3 +51,11 @@ Sauvegardes initiales : `~/Library/Application Support/KM/backups/m2-before-pipe
 Pour arrêter : `launchctl bootout gui/$(id -u)/com.bizc0m.km-technical-pipeline` puis arrêter de même les services `server` et `health`. Déplacer leurs plists hors de `~/Library/LaunchAgents/` pour empêcher leur rechargement à la prochaine session. Examiner les sauvegardes avant toute restauration afin de préserver les fiches ajoutées depuis l'installation.
 
 Les scripts de déploiement serveur ont été réalignés sur v2 avec contrôle de checksum, sauvegardes distinctes et remplacement de fichier atomique. Le serveur distant était inaccessible pendant l'installation : aucune publication distante ni activation de ses minuteurs n'a été vérifiée. La publication des vues secondaires et le retour arrière automatique d'une publication complète restent à traiter avant de réactiver une publication serveur régulière.
+
+## Accès NotePlan corrigé le 17 octobre
+
+Après confirmation explicite, le réglage Session à distance « Accorder aux utilisateurs distants accès à ensemble du disque » a été activé dans la session graphique du M2. La lecture SSH réelle a réussi : 1 434 notes, aucune erreur de lecture.
+
+Le LaunchAgent définit désormais `KM_NOTEPLAN_SSH=1` : seul le lecteur isolé NotePlan passe par SSH vers `JOB@127.0.0.1`, avec la clé existante `~/.ssh/id_ed25519_atn_core`, déjà autorisée. Aucun nouveau couple de clés ni nouvel utilisateur autorisé ne sont créés. La connexion reste locale au M2. Le filtrage est effectué avant le retour des segments techniques au processus principal ; aucun export des notes brutes.
+
+Deux premières fiches NotePlan ont été créées et contrôlées dans watch, les deux index et le dashboard, qui comptait alors 248 fiches (76 nouvelles fiches techniques, dont 2 NotePlan). Le rattrapage se poursuit en arrière-plan.
