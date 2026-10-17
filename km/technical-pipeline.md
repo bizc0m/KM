@@ -17,7 +17,7 @@ Ollama, sur le M2 (`qwen3:8b`), décide si la source est exclusivement technique
 
 Sont exclus : contenus BDSM/sexuels, contexte intime ou personnel, coordonnées et secrets détectés. Le classement automatique n'est pas une garantie parfaite : des faux positifs/négatifs restent possibles. Le filtre du générateur s'applique aussi aux anciennes fiches affichées. Les anciennes sources originales ne sont pas supprimées.
 
-Les fiches admises sont écrites dans `watch/technical-<empreinte>.md` avec sources, politique et date. Les index sont actualisés, puis le dashboard et ses vues publiques sont reconstruits. Les états stockent des empreintes et des statuts ; aucune copie des notes, noms de fichiers privés ni extraits exclus n'y est enregistrée. Les URL de sources sont publiées uniquement dans les fiches admises. Les téléchargements refusent les destinations locales/privées, les ports inhabituels et les contenus volumineux.
+Les fiches admises sont écrites dans `watch/technical-<empreinte>.md` avec sources, politique et date. Les index sont actualisés, puis le dashboard et ses vues publiques sont reconstruits. Le vérificateur contrôle ensuite chaque fiche générée dans les deux index et dans le HTML, avec détection des doublons par dépôt source. Le rapport est conservé dans `~/Library/Application Support/KM/pipeline/placement.json`. Les états stockent des empreintes et des statuts ; aucune copie des notes, noms de fichiers privés ni extraits exclus n'y est enregistrée. Les URL de sources sont publiées uniquement dans les fiches admises. Les téléchargements refusent les destinations locales/privées, les ports inhabituels et les contenus volumineux.
 
 ## Services et état
 
@@ -36,6 +36,7 @@ Ouvrir sur le M2 : `http://127.0.0.1:8766/search-v2.html`. État lisible et prog
 ```sh
 cd '/Users/JOB/#DEV/06-km/KM'
 /opt/homebrew/bin/node --test tests/technical-policy.test.mjs
+/opt/homebrew/bin/node scripts/km-verify-placement.mjs
 /opt/homebrew/bin/node scripts/km-technical-pipeline.mjs
 bash scripts/km-technical-install.sh
 launchctl kickstart gui/$(id -u)/com.bizc0m.km-technical-pipeline

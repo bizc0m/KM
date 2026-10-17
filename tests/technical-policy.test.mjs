@@ -10,11 +10,14 @@ test('exclude adult and private content even when technical',()=>{
  for(const value of ['BDSM API software','NSFW github','sexual content Python','mon couple et mon serveur','mot de passe : secret'])assert.equal(blocked(value),true);
  assert.equal(technicalSignal('restaurant vacances'),false);
  assert.equal(technicalSignal('Documentation du SDK Python'),true);
+ assert.equal(technicalSignal('Veille technique informatique : modèles de langage'),true);
 });
 test('dedup keeps meaningful URL parameters',()=>{
  assert.notEqual(canonical('https://example.com/watch?v=1'),canonical('https://example.com/watch?v=2'));
  assert.equal(canonical('https://example.com/a?utm_source=x&v=1#part'),'https://example.com/a?v=1');
  assert.equal(canonical('https://twitter.com/name/status/123'),'https://x.com/name/status/123');
+ assert.equal(canonical('https://github.com/Owner/REPO.git'),'https://github.com/owner/repo');
+ assert.equal(canonical('https://github.com/Owner/REPO/blob/Branch/README.md'),'https://github.com/owner/repo/blob/Branch/README.md');
  assert.throws(()=>canonical('https://user:password@example.com'));
 });
 test('deny internal network and metadata destinations',async()=>{

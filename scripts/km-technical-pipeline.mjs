@@ -97,6 +97,9 @@ async function main(){
     if(processed>=LIMIT)return;processed++;
     try{
       const s=await resolveSource(key);
+      if(!s.blocked && s.sources.some(u=>{try{return known.has(canonical(u));}catch{return false;}})){
+        state.urls[k]={status:'done',at:now(),existing:true};await checkpoint();return;
+      }
       const result=s.blocked?'ignored':await processCandidate(key,s.text,s.sources,origin);
       state.urls[k]={status:result==='review'?'retry':result==='ignored'?'ignored':'done',policy:POLICY_VERSION,at:now(),...(result?.endsWith('.md')?{fiche:result}:{})};
       if(result==='review')status.failures++;
@@ -177,6 +180,7 @@ async function main(){
     await exec(process.execPath,[path.join(ROOT,'scripts/build-search-v1.12-html.mjs')],{cwd:ROOT,timeout:120000,maxBuffer:1000000});
     const html=await readFile(path.join(ROOT,'search-v2.html'),'utf8');
     if(!html.includes('KM Search v2') || !html.includes('const KM_INDEX='))throw new Error('dashboard_verification_failed');
+    await exec(process.execPath,[path.join(ROOT,'scripts/km-verify-placement.mjs')],{cwd:ROOT,env:process.env,timeout:30000,maxBuffer:1000000});
     status.dashboard={ok:true,file:'search-v2.html'};
     if(!status.noteplan.ok || !status.raindrop.ok || status.failures || status.errors.length)status.health='attention';else status.health='ok';
     state.lastRun=now();if(status.health==='ok')state.lastSuccess=now();await checkpoint();

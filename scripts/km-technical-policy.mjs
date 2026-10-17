@@ -8,7 +8,7 @@ const excluded = /\b(bdsm|bondage|fetish\w*|fétich\w*|porn\w*|nsfw|onlyfans|sex
 const privateText = /\b(ma vie|vie privée|vie privee|journal intime|mes sentiments|ma relation|mon couple|mon adresse|mon téléphone|mon telephone|my diary|my relationship|mot de passe|password\s*[:=]|api[_ -]?key\s*[:=]|bearer\s+[a-z0-9_-]{12})\b/i;
 const technical = /\b(github|gitlab|codeberg|huggingface|software|logiciel|développe\w*|developpe\w*|programm\w*|coding|code|api|sdk|cli|llm|mcp|agent\w*|framework|python|javascript|typescript|rust|golang|docker|kubernetes|linux|macos|swift|database|sql|postgres|sqlite|réseau|reseau|network|server|serveur|cybersecurity|sécurité informatique|securite informatique|machine learning|open.source|automation|automatisation|workflow|noteplan|obsidian|encryption|chiffrement|computer|algorithm\w*|benchmark|webassembly)\b/i;
 export function blocked(text) { return excluded.test(String(text)) || privateText.test(String(text)) || /(?:^|[/\\])(?:perso|personnel|personnelle|private|intime)(?:[/\\]|$)/i.test(String(text)); }
-export function technicalSignal(text) { return technical.test(String(text)) && !blocked(text); }
+export function technicalSignal(text) { return (technical.test(String(text)) || /\b(informatique|intelligence artificielle|mod[eè]les? de langage|apprentissage automatique)\b/i.test(String(text))) && !blocked(text); }
 export function canonical(value) {
   const u = new URL(value);
   if (u.username || u.password || !['http:', 'https:'].includes(u.protocol)) throw new Error('url_rejected');
@@ -16,6 +16,12 @@ export function canonical(value) {
   for (const k of [...u.searchParams.keys()]) if (/^utm_/i.test(k) || /^(fbclid|gclid|mc_cid|mc_eid)$/i.test(k)) u.searchParams.delete(k);
   u.searchParams.sort();
   u.hostname = u.hostname.toLowerCase().replace(/^www\./, '').replace(/^twitter\.com$/, 'x.com');
+  if(u.hostname==='github.com'){
+    const parts=u.pathname.split('/');
+    if(parts[1])parts[1]=parts[1].toLowerCase();
+    if(parts[2])parts[2]=parts[2].replace(/\.git$/i,'').toLowerCase();
+    u.pathname=parts.join('/');
+  }
   return u.toString().replace(/\/$/, '');
 }
 export function publicAddress(address) {
