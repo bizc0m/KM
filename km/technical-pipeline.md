@@ -95,3 +95,5 @@ La taxonomie partagée `scripts/km-tags.mjs` est utilisée par la génération, 
 ### Exécution automatique sur le M2
 
 Le LaunchAgent lance `km-technical-run.mjs` à 02:30, 08:30, 14:30 et 20:30. Ce point d’entrée attend la fin d’un retraitement ciblé de tweet, évite les migrations concurrentes, normalise les hashtags existants, reconstruit et vérifie KM, puis lance la collecte. Toute fiche créée ou enrichie passe déjà par la taxonomie partagée dans `addFiche`. Un contrôle de couverture termine l’exécution. L’état des étapes est enregistré dans `pipeline/automation-status.json` ; aucun nouveau service récurrent n’est ajouté.
+
+Le bilan de reprise, les correctifs de redirection, la fusion réversible, le rapprochement Calendar et la procédure de récupération sont documentés dans [reprise-m2-2026-10-19.md](reprise-m2-2026-10-19.md). Les fusions et le rapprochement des liens sont exécutés avant la collecte par le point d’entrée automatique.

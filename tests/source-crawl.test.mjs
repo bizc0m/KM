@@ -67,3 +67,12 @@ test('publish one fiche per canonical repository and enrich it on subsequent twe
  const second=await publishTools(details.slice(0,1),{root,targets,parent:'https://x.com/i/status/2',origin:'NotePlan',addFiche});assert.equal(second.updated,1);assert.ok(calls[2].sources.includes('https://x.com/i/status/1'));assert.ok(calls[2].sources.includes('https://x.com/i/status/2'));assert.equal(repositoryKey('https://github.com/OWNER/Repo.git'),'https://github.com/owner/repo');
  }finally{fs.rmSync(root,{recursive:true,force:true});}
 });
+test('merge repository duplicates preserves sources, backups and note links while leaving ambiguous lists intact',()=>{
+ const root=fs.mkdtempSync(path.join(os.tmpdir(),'km-merge-'));try{
+ for(const d of ['watch','Library/Application Support/KM/pipeline'])fs.mkdirSync(path.join(root,d),{recursive:true});
+ const make=(n,s)=>fs.writeFileSync(path.join(root,'watch',n),'# Repo\n\n## Tags\n\n#python\n\n## Sources\n\n'+s.map(u=>'- '+u).join('\n')+'\n\n## Traçabilité\n\n- Origine : NotePlan\n');
+ make('technical-aa.md',['https://github.com/Owner/Repo','https://x.com/i/status/1']);make('technical-bb.md',['https://github.com/owner/repo','https://x.com/i/status/2']);make('technical-cc.md',['https://github.com/a/one','https://github.com/b/two']);
+ fs.writeFileSync(path.join(root,'index.md'),'`watch/technical-aa.md`\n`watch/technical-bb.md`\n');fs.writeFileSync(path.join(root,'watch/index.md'),'`technical-aa.md`\n`technical-bb.md`\n');const data=path.join(root,'Library/Application Support/KM/pipeline');fs.writeFileSync(path.join(data,'state.json'),JSON.stringify({notes:{x:{fiches:['watch/technical-bb.md']}},urls:{x:{fiche:'watch/technical-bb.md'}}}));
+ const r=spawnSync(process.execPath,[path.resolve('scripts/km-merge-tool-fiches.mjs')],{env:{...process.env,HOME:root,KM_ROOT:root,KM_PIPELINE_DATA:data},encoding:'utf8'});assert.equal(r.status,0,r.stderr);const report=JSON.parse(r.stdout);assert.equal(report.archivedFiches,1);assert.ok(fs.existsSync(path.join(report.backup,'watch/technical-bb.md')));assert.ok(fs.existsSync(path.join(root,'watch/technical-cc.md')));assert.match(fs.readFileSync(path.join(root,'watch/technical-aa.md'),'utf8'),/status\/2/);assert.equal(JSON.parse(fs.readFileSync(path.join(data,'state.json'))).notes.x.fiches[0],'watch/technical-aa.md');
+ }finally{fs.rmSync(root,{recursive:true,force:true});}
+});

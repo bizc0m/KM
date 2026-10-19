@@ -32,8 +32,12 @@ export function publicAddress(address) {
   if (net.isIP(address) === 6) return /^2[0-9a-f]{3}:/i.test(address) && !/^2001:(db8|0:|10:|20:)/i.test(address);
   return false;
 }
+export function transportUrl(value) {
+  canonical(value); // Validate credentials and scheme, without rewriting the actual request.
+  const u=new URL(value);u.hash='';return u;
+}
 export async function safeUrl(value) {
-  const u = new URL(canonical(value));
+  const u = transportUrl(value);
   if (u.port && !['80','443'].includes(u.port)) throw new Error('port_rejected');
   const host = u.hostname.replace(/^\[|\]$/g, '');
   if (/localhost|\.local$|\.lan$|\.ts\.net$/i.test(host)) throw new Error('host_rejected');

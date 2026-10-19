@@ -5,7 +5,7 @@ import {tmpdir} from 'node:os';
 import path from 'node:path';
 import {spawnSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
-import {blocked,technicalSignal,canonical,publicAddress,safeUrl,validDecision} from '../scripts/km-technical-policy.mjs';
+import {blocked,technicalSignal,canonical,publicAddress,safeUrl,validDecision,transportUrl} from '../scripts/km-technical-policy.mjs';
 test('exclude adult and private content even when technical',()=>{
  for(const value of ['BDSM API software','NSFW github','sexual content Python','mon couple et mon serveur','mot de passe : secret'])assert.equal(blocked(value),true);
  assert.equal(technicalSignal('restaurant vacances'),false);
@@ -44,4 +44,11 @@ test('NotePlan reader reads Calendar only and exports no raw notes or filenames'
   assert.ok(d.notes[0].segments.includes('https://x.com/example/status/12345'));
   assert.equal(r.stdout.includes('Contexte à ne pas exporter'),false);
  }finally{rmSync(root,{recursive:true,force:true});}
+});
+
+test('HTTP transport preserves www, path case and redirect parameters independently from dedup identity',()=>{
+ const value='https://www.example.com/SomePath?utm_source=redirect&v=1#section';
+ assert.equal(transportUrl(value).href,'https://www.example.com/SomePath?utm_source=redirect&v=1');
+ assert.equal(canonical(value),'https://example.com/SomePath?v=1');
+ assert.throws(()=>transportUrl('https://user:secret@example.com'));
 });
