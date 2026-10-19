@@ -210,6 +210,7 @@ async function main(){
     await checkpoint();
     const ordered=[...candidates].sort(([a],[b])=>Number(/github\.com|gitlab\.com|huggingface\.co/.test(b))-Number(/github\.com|gitlab\.com|huggingface\.co/.test(a)));
     for(const [u,origin] of ordered)await processUrl(u,origin);
+    status.pendingCalendar=Object.values(state.notes || {}).filter(n=>!n.hash).length;
     status.pending=[...candidates.keys()].filter(u=>{try{const r=state.urls[hash(canonical(u))];return !r || r.status==='retry';}catch{return false;}}).length;
     // Rebuild even on an empty run: current policy must also gate older fiches.
     await exec(process.execPath,[path.join(ROOT,'scripts/build-search-v1.12-html.mjs')],{cwd:ROOT,timeout:120000,maxBuffer:1000000});
@@ -235,6 +236,6 @@ async function main(){
   if(status.health!=='ok')process.exitCode=1;
   // Catch up in bounded batches without waiting six hours between batches.
   // Failed/ambiguous URLs have a retry delay, so a retry-only queue ends here.
-  if(process.argv.includes('--backfill') && status.pending>0 && processed>=LIMIT)return main();
+  if(process.argv.includes('--backfill') && (status.pending>0 || status.pendingCalendar>0) && processed>=LIMIT)return main();
 }
 if(process.argv[1] && path.resolve(process.argv[1])===fileURLToPath(import.meta.url))main().catch(e=>{console.error('KM pipeline failed:',e.code || e.name);process.exitCode=1;});
