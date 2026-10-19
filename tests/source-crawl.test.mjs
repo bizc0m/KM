@@ -55,3 +55,15 @@ test('rewriting an existing tweet fiche preserves both index paths',()=>{
   assert.equal(fs.readFileSync(path.join(root,'watch/index.md'),'utf8').split('\n').filter(l=>l.startsWith('|')).length,1);
  }finally{fs.rmSync(root,{recursive:true,force:true});}
 });
+test('X article body and expanded facets expose all repository links',async()=>{
+ const p=await loadPublicPage('https://x.com/i/status/42',{fetch:async()=>({text:JSON.stringify({tweet:{text:'GitHub tools',raw_text:{facets:[{replacement:'https://github.com/A/One'}]},article:{content:{blocks:[{text:'Second https://github.com/B/Two'}]}},quote:{id:'43',article:{content:{blocks:[{text:'Embedded https://github.com/C/Three'}]}}}}})})});
+ assert.ok(p.links.includes('https://github.com/A/One'));assert.ok(p.links.includes('https://github.com/B/Two'));assert.ok(p.links.includes('https://x.com/i/status/43'));assert.match(p.text,/Second/);assert.ok(p.links.includes('https://github.com/C/Three'));assert.match(p.text,/Embedded/);
+});
+test('publish one fiche per canonical repository and enrich it on subsequent tweets',async()=>{
+ const {publishTools,repositoryKey}=await import('../scripts/km-tool-fiches.mjs');const root=fs.mkdtempSync(path.join(os.tmpdir(),'km-tools-'));fs.mkdirSync(path.join(root,'watch'));
+ try{const targets=new Map();let calls=[];const addFiche=async(key,d,sources,origin,a)=>{const file=a.target||'watch/technical-'+calls.length+'.md';fs.writeFileSync(path.join(root,file),'# Tool\n\n## Sources\n\n'+sources.join('\n'));calls.push({key,sources,a});return file;};
+ const details=[{url:'https://github.com/Owner/Repo'},{url:'https://github.com/owner/repo/'},{url:'https://github.com/other/tool'},{url:'https://github.com/owner/repo/blob/main/README.md'}];
+ const first=await publishTools(details,{root,targets,parent:'https://x.com/i/status/1',origin:'NotePlan',addFiche});assert.equal(first.created,2);assert.equal(first.duplicateReferences,1);
+ const second=await publishTools(details.slice(0,1),{root,targets,parent:'https://x.com/i/status/2',origin:'NotePlan',addFiche});assert.equal(second.updated,1);assert.ok(calls[2].sources.includes('https://x.com/i/status/1'));assert.ok(calls[2].sources.includes('https://x.com/i/status/2'));assert.equal(repositoryKey('https://github.com/OWNER/Repo.git'),'https://github.com/owner/repo');
+ }finally{fs.rmSync(root,{recursive:true,force:true});}
+});

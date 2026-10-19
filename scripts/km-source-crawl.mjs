@@ -1,6 +1,6 @@
 import {canonical,publicFetch,blocked,technicalSignal,validDecision} from './km-technical-policy.mjs';
 import crypto from 'node:crypto';
-export const CRAWL_VERSION='depth3-all-links-v1';
+export const CRAWL_VERSION='depth3-per-tool-v2';
 export const CRAWL_DEFAULTS={maxDepth:3,maxPages:120,maxElapsedMs:180000};
 let githubApiAvailable=true;
 export function crawlKey(value){const u=new URL(canonical(value));const id=/^(x\.com)$/.test(u.hostname)&&u.pathname.match(/\/status\/(\d+)/)?.[1];if(id)return `https://x.com/i/status/${id}`;return u.href.replace(/\/$/,'');}
@@ -16,10 +16,14 @@ function plain(s){return s.replace(/<(script|style|nav|header|footer|aside)\b[^>
 export async function loadPublicPage(url,{fetch=publicFetch}={}){
  const u=new URL(url);const tweet=/^(x\.com|twitter\.com)$/.test(u.hostname)&&u.pathname.match(/\/status\/(\d+)/)?.[1];
  if(tweet){
-  const j=JSON.parse((await fetch(`https://api.fxtwitter.com/status/${tweet}`)).text);const t=j.tweet;if(!t?.text)throw new Error('x_content_unavailable');
-  const links=[...sourceLinks(t.text,url),...(t.urls||[]).map(x=>x.expanded_url||x.url),...(t.raw_text?.facets||[]).flatMap(x=>(x.features||[]).map(f=>f.url))].filter(Boolean);
+  const j=JSON.parse((await fetch(`https://api.fxtwitter.com/status/${tweet}`)).text);const t=j.tweet;if(!t || !(t.text || t.article))throw new Error('x_content_unavailable');
+  const links=[...sourceLinks(t.text || '',url),...(t.urls||[]).map(x=>x.expanded_url||x.url),...(t.raw_text?.facets||[]).flatMap(x=>[x.replacement,...(x.features||[]).map(f=>f.url)])].filter(Boolean);
   const quote=t.quote || t.quoted_tweet;if(quote?.id)links.push(`https://x.com/i/status/${quote.id}`);
-  return {url:crawlKey(url),text:t.text,links};
+  const articles=[t.article,quote?.article].filter(Boolean);
+  const blocks=articles.flatMap(a=>a.content?.blocks || a.content_state?.blocks || a.blocks || []);
+  const article=blocks.map(b=>b.text||'').join('\n');
+  links.push(...sourceLinks(article,url));
+  return {url:crawlKey(url),text:[t.text,article].filter(Boolean).join('\n\n'),links:[...new Set(links)]};
  }
  if(u.hostname==='github.com'&&/^\/[^/]+\/[^/]+\/?$/.test(u.pathname)){
   const repo=u.pathname.replace(/^\/|\/$/g,'');let meta={full_name:repo,default_branch:'HEAD'},metadataOk=false,readme='';

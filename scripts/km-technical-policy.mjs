@@ -65,7 +65,9 @@ export async function publicFetch(url) {
 export function validDecision(d, evidence) {
   if (!d || d.decision !== 'technical' || d.personal !== false || d.adult !== false) return false;
   if (typeof d.title !== 'string' || typeof d.summary !== 'string' || !Array.isArray(d.facts) || !d.facts.length) return false;
-  const output=[d.title,d.summary,...d.facts].join(' ');
+  if (d.utility !== undefined && (typeof d.utility !== 'string' || d.utility.length>1000)) return false;
+  for(const key of ['usage','limitations']) if(d[key] !== undefined && (!Array.isArray(d[key]) || d[key].some(v=>typeof v!=='string' || v.length>600)))return false;
+  const output=[d.title,d.summary,...d.facts,d.utility || '',...(d.usage || []),...(d.limitations || [])].join(' ');
   const privateOutput=/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}|\/Users\/|\b(?:\+?33[ .-]?[1-9]|0[1-9])(?:[ .-]?\d{2}){4}\b|\bsk-[a-z0-9_-]{12,}/i.test(output);
   return !privateOutput && ['ordinary','dual-use'].includes(d.risk) && !blocked(output) && technicalSignal(evidence) && !blocked(evidence) && d.title.length <= 160 && d.summary.length <= 1000 && d.facts.every(f=>typeof f==='string' && f.length<=600) && !/https?:\/\//.test(output);
 }

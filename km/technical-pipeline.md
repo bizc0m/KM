@@ -75,3 +75,15 @@ La section Exploration des liens donne les compteurs de couverture. Le cache pri
 La nouvelle version force le retraitement des tweets déjà traités avec la limite de trois liens. Les notes Calendar contenant des tweets sont réexaminées, et priorisées. Les fiches existantes sont enrichies à leur emplacement ; elles ne sont pas supprimées. Le dashboard est reconstruit et le placement vérifié après chaque fiche créée ou enrichie.
 
 Tests : `node --test tests/technical-policy.test.mjs tests/source-crawl.test.mjs`, dont un graphe de 30 liens directs, trois niveaux, une boucle, les budgets, le cache et les index de fiches existantes.
+
+### Fiches par outil
+
+Depuis `depth3-per-tool-v2`, les articles X sont lus avec leurs blocs de texte et leurs liens développés. Les dépôts GitHub validés par le modèle local produisent chacun une fiche ; un dépôt déjà associé à une fiche enrichit celle-ci en conservant ses sources et son origine. Les pages README ou issues ne créent pas de nouveaux outils. Les listes de plusieurs dépôts ne deviennent pas propriétaires de tous les projets cités. La profondeur reste limitée à trois niveaux et 120 pages ; les limites et erreurs restent visibles.
+
+Le retraitement ciblé `node scripts/km-process-tweet.mjs URL` écrit son avancement dans `~/Library/Application Support/KM/pipeline/tweet-tools-report.json`. Il doit tourner avec le LaunchAgent de collecte arrêté pour éviter les écritures concurrentes. Une nouvelle fiche issue d’un lien fourni directement est marquée `Origine : X`, et non NotePlan. Le compteur `created` mesure des fichiers créés, pas des notes Calendar converties.
+
+### Contrôle et publication
+
+Les règles permanentes sont dans `AGENTS.md`. `node scripts/km-coverage.mjs` distingue les fiches des notes Calendar lues et indique explicitement que l’attribution historique aux notes est partielle. Les nouveaux traitements mémorisent les fichiers liés à chaque note. Un changement de version d’extraction invalide les empreintes de lecture des notes pour retraiter l’existant, sans supprimer les fiches ni leurs sources.
+
+Après validation, pousser le code sur la branche de travail GitHub et rapporter son commit. Le rapport de déploiement doit distinguer le code installé sur M2, l’état du traitement et le code effectivement poussé. Les données privées, caches et sauvegardes ne doivent jamais être ajoutés à Git.
