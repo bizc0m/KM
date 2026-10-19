@@ -1,0 +1,24 @@
+// Shared taxonomy: generation, migration and dashboard use the same rules.
+const aliases={'agent':'agents','workflow':'workflows','scraping':'extraction-web','web-extraction':'extraction-web','memory':'memoire-agents','long-term-memory':'memoire-agents','browser-automation':'automatisation-navigateur','video-editing':'montage-video','video-generation':'generation-video','ai-video':'generation-video','coding-agents':'agents-code','agent-skills':'skills-agents'};
+const generic=new Set(['technique','informatique','github','raindrop','veille','km','ai-tools','devtools','productivity','automation','agents','media','data','research','privacy','workflows','open-source','to-verify','a-verifier','active','actif','sensible','sensitive','risk-watch']);
+const parasites=new Set(['cartographie','citoyenne','collaborative','factchecking','fact','checkl','herm','rumor','checklist']);
+const rules=[
+ ['clonage-sites',/clon.*(?:sites?|react)|(?:sites?|react).*clon/],['react',/\breact\b/],['animation-svg',/animat.*svg|svg.*animat/],['comparaison-modeles',/comparaison.*modeles|modeles.*comparaison/],['inference-locale',/execution locale|inference locale/],['osint',/osint|tracage.*informations|ghosttrack/],['recherche-privee',/recherche privee|contenus? web.*prive|index de recherche prive/],['recherche-documentaire',/recherch.*stock.*contenus?/],
+ ['transcription',/transcri|speech.to.text|\basr\b/],['traduction-audio',/tradui.*(?:audio|voix|video)|(?:audio|voix|video).*tradui/],['synthese-vocale',/synthese vocale|text.to.speech|\btts\b/],['clonage-vocal',/clon\w* (?:une |des |de )?voix|voice clon/],['identification-audio',/fingerprint.*audio|audio.*fingerprint|identifi.*(?:morceaux|audio)/],['dedoublonnage',/dedoubl|doublons/],
+ ['backtesting',/backtest/],['simulation',/backtest|paper trading|simulat/],['marches-predictifs',/polymarket|kalshi|prediction market|marches? (?:de )?pre(?:di|vi)ction/],['previsions-meteo',/weather|meteo|temperature/],['publication-sociale',/publi.*(?:reseaux|plateformes|contenus)|social.*(?:publish|schedul)/],
+ ['detection-bots',/detect.*bots?|botd/],['securite-web',/detect.*bots?|securite web|web security/],['analyse-malware',/malware|logiciels malveillants/],['pentest',/pentest|penetration test|test.*penetration/],['analyse-vulnerabilites',/vulnerabilit/],['extraction-web',/scrap\w*|extract.*(?:web|sites)|collect.*(?:donnees web|pages web)/],
+ ['compression-images',/compress.*images?/],['montage-video',/montage|video edit|decoup.*video/],['generation-video',/gener.*video|video gener/],['generation-images',/gener.*images?|image gener/],['generation-3d',/\b3d\b/],
+ ['memoire-agents',/infinite memory|(?:memoire|memory|contexte|context).*(?:agents?|sessions?|llm)|(?:agents?|sessions?).*(?:memoire|memory|contexte|context)/],['orchestration-agents',/orchestrat|multi.agent|coordina.*agents/],['agents-code',/agents? (?:de |d[’'])?cod|coding agents?|pair programming/],['skills-agents',/\bskills?\b|competences.*agents/],['automatisation-navigateur',/browser.?(?:use|automation)|automatis.*navigateur/],
+ ['conversion-documents',/convert.*(?:documents?|pdf|markdown)|(?:documents?|pdf).*convert/],['export-conversations',/export.*conversations?/],['capture-notes',/captur.*(?:notes|idees|contexte)|prise de notes/],['metadonnees-notes',/frontmatter|metadonnees.*notes/],['planification-taches',/planifi.*taches|task schedul/],['anonymisation',/anonymis/],['chiffrement',/chiffr|encryption/],['sans-suivi',/sans suivi|sans tracking|without tracking/],['recherche-documentaire',/recherche documentaire|research agent|researcher|recherche.*rapports?/],['conversion-web',/sites? web.*applications? (?:de )?bureau|applications? (?:de )?bureau.*sites? web|web page to desktop/],['application-bureau',/desktop|applications? (?:de )?bureau/],
+ ['macos',/\bmacos\b|\bmac os\b/],['python',/\bpython\b/],['mcp',/\bmcp\b/],['pdf',/\bpdf\b/],['rss',/\brss\b/],['terminal',/\bterminal\b|\bcli\b/]
+];
+const norm=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+export function preciseTags({title='',evidence='',existing=[]}={}){
+ const text=norm(title+'\n'+evidence);const result=[];
+ const add=t=>{if(!result.includes(t))result.push(t);};
+ for(const t of existing){const clean=norm(t).replace(/^#/,'').trim();const tag=aliases[clean]||clean;if(!/^[a-z0-9][a-z0-9-]{0,48}$/.test(tag)||generic.has(tag)||parasites.has(tag)||tag==='rouge')continue;add('#'+tag);}
+ const inferred=rules.filter(([,re])=>re.test(text)).map(([tag])=>'#'+tag);
+ // Put specific functions before existing broad platform and format labels.
+ return [...new Set([...inferred,...result])].slice(0,4);
+}
+export function tagEvidence(content){return content.split(/\n## Sources\b|\n## Traçabilité\b|\n## Exploration des liens\b/)[0].replace(/## Tags\n[\s\S]*?(?=\n## |$)/,'');}

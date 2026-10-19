@@ -87,3 +87,7 @@ Le retraitement ciblé `node scripts/km-process-tweet.mjs URL` écrit son avance
 Les règles permanentes sont dans `AGENTS.md`. `node scripts/km-coverage.mjs` distingue les fiches des notes Calendar lues et indique explicitement que l’attribution historique aux notes est partielle. Les nouveaux traitements mémorisent les fichiers liés à chaque note. Un changement de version d’extraction invalide les empreintes de lecture des notes pour retraiter l’existant, sans supprimer les fiches ni leurs sources.
 
 Après validation, pousser le code sur la branche de travail GitHub et rapporter son commit. Le rapport de déploiement doit distinguer le code installé sur M2, l’état du traitement et le code effectivement poussé. Les données privées, caches et sauvegardes ne doivent jamais être ajoutés à Git.
+
+### Hashtags précis
+
+La taxonomie partagée `scripts/km-tags.mjs` est utilisée par la génération, le tableau KM et la migration `node scripts/km-retag.mjs`. Elle harmonise les alias, retire les catégories génériques et tags parasites, puis retient jusqu’à quatre fonctions/compatibilités documentées. Les titres, résumés et faits de la fiche servent de contexte ; les URL et les pages annexes sont exclues pour éviter de récupérer leurs technologies. La migration sauvegarde les originaux et utilise les anciens résumés sauvegardés pour les fiches qui n’affichent désormais qu’un intérêt court. Les fiches insuffisamment documentées peuvent garder moins de deux tags. Les statuts de risque sont conservés séparément.

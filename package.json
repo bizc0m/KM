@@ -21,7 +21,7 @@
     "test": "npm run typecheck && rm -rf .test-dist && esbuild tests/core/*.test.ts --bundle --platform=node --format=esm --target=node22 --outdir=.test-dist/tests/core && cp -R tests/fixtures .test-dist/tests/fixtures && node --test .test-dist/tests/core/*.js",
     "km:technical:run": "node scripts/km-technical-pipeline.mjs",
     "km:technical:install": "bash scripts/km-technical-install.sh",
-    "km:technical:test": "node --test tests/technical-policy.test.mjs tests/source-crawl.test.mjs"
+    "km:technical:test": "node --test tests/technical-policy.test.mjs tests/source-crawl.test.mjs tests/tags.test.mjs"
   },
   "repository": {
     "type": "git",

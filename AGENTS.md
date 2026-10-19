@@ -10,3 +10,4 @@
 - Annoncer séparément installé, en cours et terminé. Donner les preuves et limites ; ne pas annoncer une collecte complète si le rapport indique une couverture partielle.
 - Après une correction autorisée, exécuter les tests pertinents, commiter et pousser sur la branche de travail GitHub ; ne pas fusionner dans main sans demande. Rapporter le hash et distinguer le déploiement M2 du push GitHub.
 - Continuer les opérations déjà autorisées sans redemander confirmation ; ne pas supprimer de contenu utilisateur ni publier de données privées.
+- Hashtags : 2 à 4 tags précis quand les sources le permettent ; fonction, usage et compatibilité utile. Réutiliser le vocabulaire existant et harmoniser ses variantes. Pas de #technique, #informatique, #github, #raindrop ni tags publicitaires ou issus de texte parasite. Ne pas inventer des tags pour atteindre un quota. Garder le statut de risque séparé du classement fonctionnel.

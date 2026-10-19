@@ -1,6 +1,7 @@
 import { mkdirSync, readdirSync, readFileSync, writeFileSync, statSync } from "node:fs";
 import { join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import {preciseTags,tagEvidence} from './km-tags.mjs';
 import { blocked, technicalSignal } from './km-technical-policy.mjs';
 
 const root = process.env.KM_ROOT
@@ -345,7 +346,7 @@ function itemFrom(file) {
   if (internalPattern.test(path)) return null;
   const title = first(content, /^#\s+(.+)$/m) || path;
   const status = statusOf(content, folder);
-  const tags = section(content, "Tags")
+  let tags = section(content, "Tags")
     .split(/,|\n/)
     .map(clean)
     .filter(Boolean)
@@ -354,6 +355,7 @@ function itemFrom(file) {
     .filter((tag) => !/^#?(sensible|sensitive|a-verifier|to-verify|actif|active|export)$/i.test(tag))
     .filter((tag) => !/sensitive/i.test(tag))
     .slice(0, 12);
+  tags = preciseTags({title,evidence:tagEvidence(content),existing:tags});
   const raw = publicDetail(content);
   const type = section(content, "Type");
   const summary = section(content, "Intérêts") || section(content, "Résumé") || section(content, "Ce que ça fait") || englishSummary(title, typeSummary(type), section(content, "Role"));

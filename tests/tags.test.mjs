@@ -1,0 +1,13 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {preciseTags,tagEvidence} from '../scripts/km-tags.mjs';
+test('audio fingerprints get functional tags and not generic source tags',()=>{const t=preciseTags({title:'Chromaprint',evidence:'Identifier les morceaux par fingerprints audio et détecter les doublons.',existing:['#technique','#informatique','#github']});assert.deepEqual(t,['#identification-audio','#dedoublonnage']);});
+test('retains useful precise vocabulary, normalizes aliases and caps at four',()=>{const t=preciseTags({title:'BotD',evidence:'Détecter les bots dans une application web',existing:['#privacy','#detection-bots','#python','#api','#security-tools']});assert.equal(t.length,4);assert.ok(t.includes('#detection-bots'));assert.ok(t.includes('#securite-web'));assert.ok(!t.includes('#privacy'));});
+test('source links and unrelated child documentation do not become tool tags',()=>{const e=tagEvidence('# Pake\n\n## Tags\n\n#informatique\n\n## Intérêts\n\nCréer une application de bureau depuis un site web.\n\n## Sources\n\nhttps://python.org\n\n## Exploration des liens\n\nAudio transcription');const t=preciseTags({title:'Pake',evidence:e});assert.ok(t.includes('#conversion-web'));assert.ok(!t.includes('#python'));assert.ok(!t.includes('#transcription'));});
+test('removes corrupted tags and does not invent replacements from no evidence',()=>{assert.deepEqual(preciseTags({title:'Unidentified',existing:['#technique','#checkl','#citoyenne','#raindrop']}),[]);});
+test('retag migration preserves following sections when tags are empty, including repeated runs',async()=>{
+ const fs=await import('node:fs/promises'),os=await import('node:os'),path=await import('node:path'),{spawnSync}=await import('node:child_process');
+ const dir=await fs.mkdtemp(path.join(os.tmpdir(),'km-retag-'));
+ try{for(const d of ['watch','resources','books','Library/Application Support/KM/pipeline'])await fs.mkdir(path.join(dir,d),{recursive:true});await fs.writeFile(path.join(dir,'index.md'),'');const file=path.join(dir,'watch/test.md');await fs.writeFile(file,'# Test\n\n## Tags\n\n\n\n## Appel canonique\n\n`watch:test`\n\n## Sources\n\nhttps://example.com\n');
+ for(let i=0;i<2;i++){const result=spawnSync(process.execPath,[path.resolve('scripts/km-retag.mjs')],{env:{...process.env,HOME:dir,KM_ROOT:dir},encoding:'utf8'});assert.equal(result.status,0,result.stderr);const t=await fs.readFile(file,'utf8');assert.match(t,/## Appel canonique\n\n`watch:test`/);assert.match(t,/https:\/\/example.com/);}
+ }finally{await fs.rm(dir,{recursive:true,force:true});}
+});
