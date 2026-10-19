@@ -233,7 +233,7 @@ async function main(){
     }
     await atomic(path.join(DATA,'notification.json'),JSON.stringify({signature,at:now()}));
   }
-  if(status.health!=='ok')process.exitCode=1;
+  process.exitCode=status.health==='ok'?0:1;
   // Catch up in bounded batches without waiting six hours between batches.
   // Failed/ambiguous URLs have a retry delay, so a retry-only queue ends here.
   if(process.argv.includes('--backfill') && (status.pending>0 || status.pendingCalendar>0) && processed>=LIMIT)return main();
