@@ -21,4 +21,4 @@ export function preciseTags({title='',evidence='',existing=[]}={}){
  // Put specific functions before existing broad platform and format labels.
  return [...new Set([...inferred,...result])].slice(0,4);
 }
-export function tagEvidence(content){return content.split(/\n## Sources\b|\n## Traçabilité\b|\n## Exploration des liens\b/)[0].replace(/## Tags\n[\s\S]*?(?=\n## |$)/,'');}
+export function tagEvidence(content){return content.split(/\n## Sources\b|\n## Traçabilité\b|\n## Ontologie\b|\n## Exploration des liens\b/)[0].replace(/## Tags\n[\s\S]*?(?=\n## |$)/,'');}

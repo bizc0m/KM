@@ -12,6 +12,7 @@ import {crawlSource,analyzeCrawl,crawlKey,loadPublicPage,CRAWL_VERSION} from './
 import {INTEREST_PROMPT,validInterest} from './km-interest-text.mjs';
 import {publishTools,toolTargets} from './km-tool-fiches.mjs';
 import {preciseTags} from './km-tags.mjs';
+import {classifyFiche,classificationMarkdown} from './km-ontology.mjs';
 const exec=promisify(execFile);
 const ROOT=process.env.KM_ROOT || fileURLToPath(new URL('..',import.meta.url)).replace(/\/$/,'');
 const DATA=process.env.KM_PIPELINE_DATA || path.join(os.homedir(),'Library/Application Support/KM/pipeline');
@@ -55,7 +56,8 @@ export async function addFiche(key,d,sources,origin,analysis){
   const id=hash(/https?:\/\/(?:x\.com|twitter\.com)\/.*\/status\//.test(key)?crawlKey(key):key).slice(0,20);const rel=analysis?.target || `watch/technical-${id}.md`;const p=path.join(ROOT,rel);
   const esc=s=>s.replace(/[<>]/g,'').replace(/^#/gm,'').trim();
   const tags=preciseTags({title:d.title,evidence:[d.summary,...d.facts,d.utility||''].join(' ')});
-  const body=`# ${esc(d.title)}\n\n## Statut\n\n${d.risk==='dual-use'?'#ROUGE':'actif'}\n\n## Tags\n\n${[...tags,...(d.risk==='dual-use'?['#ROUGE']:[])].join(', ')}\n\n## Intérêts\n\n${esc(validInterest(d.utility)?d.utility:"Intérêt à vérifier").replace(/\s+/g,' ')}\n\n## Sources\n\n${sources.map(s=>'- '+s).join('\n')}\n\n## Traçabilité\n\n- Origine : ${origin}\n- Identifiant source : ${hash(key)}\n- Politique : ${POLICY_VERSION}\n- Lecture KM : ${now().slice(0,10)}\n- Résumé automatique local ; les affirmations restent attribuées aux sources.\n`;
+  const classification=classifyFiche({tags,title:d.title,evidence:[d.summary,...d.facts].join(' '),status:d.risk==='dual-use'?'#ROUGE':'actif',sources,origin});
+  const body=`# ${esc(d.title)}\n\n## Statut\n\n${d.risk==='dual-use'?'#ROUGE':'actif'}\n\n## Tags\n\n${[...tags,...(d.risk==='dual-use'?['#ROUGE']:[])].join(', ')}\n\n## Intérêts\n\n${esc(validInterest(d.utility)?d.utility:"Intérêt à vérifier").replace(/\s+/g,' ')}\n\n${classificationMarkdown(classification)}## Sources\n\n${sources.map(s=>'- '+s).join('\n')}\n\n## Traçabilité\n\n- Origine : ${origin}\n- Identifiant source : ${hash(key)}\n- Politique : ${POLICY_VERSION}\n- Lecture KM : ${now().slice(0,10)}\n- Résumé automatique local ; les affirmations restent attribuées aux sources.\n`;
   const details=analysis?.details || [];
   const report=analysis?.crawl;
   const exploration=report?`\n## Exploration des liens\n\n- Configuration : ${report.version} ; profondeur ${report.maxDepth}, maximum ${report.maxPages} pages par tweet.\n- Liens distincts recensés : ${report.found}.\n- Pages lues, tweet compris : ${report.read}.\n- Sources techniques analysées : ${report.technical}.\n- Sources à vérifier : ${report.review} ; analyses non terminées : ${report.analysisPending} ; erreurs du modèle : ${report.analysisErrors}.\n- Liens non lus : ${report.unread} (profondeur : ${report.depthLimited}, budget de pages : ${report.pageLimited}, délai : ${report.timeLimited}, erreurs : ${report.errors}).\n- Pages résumées sur extrait : ${report.excerpted}.\n- Éléments exclus : ${report.excluded} ; doublons ignorés : ${report.duplicates}.\n- Couverture complète : ${report.complete?'oui':'non ; limites ou sources non accessibles détaillées ci-dessus'}.\n`+details.map(x=>`\n### ${esc(x.title)}\n\n${esc(x.summary)}\n\n${x.facts.map(f=>'- '+esc(f)).join('\n')}\n\nSource : ${x.url} ; niveau ${x.depth}.\n`).join(''):'';

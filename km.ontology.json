@@ -1,162 +1,1568 @@
 {
-  "version": "0.1",
-  "roots": ["domain", "capability", "risk", "source", "lifecycle"],
+  "version": "1.0",
+  "roots": [
+    "domain",
+    "capability",
+    "compatibility",
+    "risk",
+    "source",
+    "lifecycle"
+  ],
+  "redirects": {
+    "risk.verify": "lifecycle.review",
+    "lifecycle.inbox": "lifecycle.review"
+  },
   "concepts": [
     {
       "id": "domain",
-      "label": "Domaines",
+      "label": "Sujets",
       "parent": null,
-      "description": "Grand domaine de connaissance."
-    },
-    {
-      "id": "domain.ai",
-      "label": "IA",
-      "parent": "domain",
-      "aliases": ["#ai", "#ia", "#llm", "#openai-compatible"],
-      "description": "Modeles, assistants, agents, inference et tooling IA."
-    },
-    {
-      "id": "domain.ai.agents",
-      "label": "Agents IA",
-      "parent": "domain.ai",
-      "aliases": ["#agent", "#agents", "#personal-agent", "#autonomous-agent", "#coding-agents", "#research-agent", "#ai-companion"],
-      "description": "Agents autonomes, compagnons IA, orchestration et boucles d'action."
-    },
-    {
-      "id": "domain.ai.llm",
-      "label": "LLM / Providers",
-      "parent": "domain.ai",
-      "aliases": ["#llm", "#api", "#providers", "#inference", "#free-tier", "#openai-compatible"],
-      "description": "Modeles, APIs, providers, routage et couts."
-    },
-    {
-      "id": "domain.dev",
-      "label": "Developpement",
-      "parent": "domain",
-      "aliases": ["#github", "#coding", "#devtools", "#repo", "#editor", "#codex", "#claude-code", "#opencode"],
-      "description": "Outils de code, IDE, depots, automatisation dev."
-    },
-    {
-      "id": "domain.osint",
-      "label": "OSINT",
-      "parent": "domain",
-      "aliases": ["#osint", "#digital-footprint", "#threat-intelligence", "#recon", "#factchecking", "#cartographie"],
-      "description": "Recherche ouverte, empreinte numerique, threat intelligence et verification."
-    },
-    {
-      "id": "domain.media",
-      "label": "Media / Design",
-      "parent": "domain",
-      "aliases": ["#media", "#video", "#ai-video", "#image", "#design", "#ui-design", "#wireframe", "#prototype", "#creative-ai"],
-      "description": "Creation visuelle, video, design, interfaces et assets."
-    },
-    {
-      "id": "domain.privacy",
-      "label": "Privacy",
-      "parent": "domain",
-      "aliases": ["#privacy", "#local-first", "#tracking", "#analytics", "#session-intelligence"],
-      "description": "Vie privee, tracking, local-first et exposition de donnees."
+      "aliases": []
     },
     {
       "id": "capability",
-      "label": "Capacites",
+      "label": "Fonctions",
       "parent": null,
-      "description": "Ce que permet l'outil ou la ressource."
+      "aliases": []
     },
     {
-      "id": "capability.automation",
-      "label": "Automation",
-      "parent": "capability",
-      "aliases": ["#automation", "#workflow", "#workflows", "#orchestration", "#multi-agent", "#integrations", "#ui-automation"],
-      "description": "Automatiser des actions, workflows ou integrations."
-    },
-    {
-      "id": "capability.scraping",
-      "label": "Extraction web",
-      "parent": "capability",
-      "aliases": ["#scraping", "#web-extraction", "#crawler", "#search", "#ai-search"],
-      "description": "Scraping, crawling, recherche et extraction de donnees."
-    },
-    {
-      "id": "capability.documents",
-      "label": "Documents",
-      "parent": "capability",
-      "aliases": ["#pdf", "#document-ai", "#extraction", "#documentation", "#papers", "#citations"],
-      "description": "Extraction, analyse ou generation documentaire."
-    },
-    {
-      "id": "capability.memory",
-      "label": "Memoire / Contexte",
-      "parent": "capability",
-      "aliases": ["#memory", "#context-engineering", "#knowledge-graph", "#vector"],
-      "description": "Memoire agentique, graphe, contexte long et indexation semantique."
+      "id": "compatibility",
+      "label": "Compatibilités",
+      "parent": null,
+      "aliases": []
     },
     {
       "id": "risk",
       "label": "Risques",
       "parent": null,
-      "description": "Niveau ou famille de risque."
-    },
-    {
-      "id": "risk.sensitive",
-      "label": "Sensible",
-      "parent": "risk",
-      "aliases": ["#sensible", "#sensitive", "#privacy-sensitive"],
-      "description": "Puissant ou delicat, mais pas forcement offensif directement."
-    },
-    {
-      "id": "risk.verify",
-      "label": "A verifier",
-      "parent": "risk",
-      "aliases": ["#a-verifier", "#to-verify"],
-      "description": "Source, interet ou classification encore incertaine."
-    },
-    {
-      "id": "risk.offensive",
-      "label": "Offensif / #ROUGE",
-      "parent": "risk",
-      "aliases": ["#rouge", "#ROUGE", "#offensive-risk", "#pentest", "#red-team", "#offensive-security", "#malware", "#reverse-engineering"],
-      "description": "Outils ou contenus directement abusables, a traiter en veille defensive."
+      "aliases": []
     },
     {
       "id": "source",
-      "label": "Sources",
+      "label": "Provenance",
       "parent": null,
-      "description": "Origine ou forme de collecte."
+      "aliases": []
+    },
+    {
+      "id": "lifecycle",
+      "label": "État",
+      "parent": null,
+      "aliases": []
+    },
+    {
+      "id": "domain.ai",
+      "label": "Intelligence artificielle",
+      "parent": "domain",
+      "aliases": [
+        "#ia",
+        "#ai",
+        "#generative-ai",
+        "#ai-assistant",
+        "#creative-ai"
+      ],
+      "patterns": [
+        "\\bia\\b",
+        "\\bai\\b",
+        "intelligence artificielle",
+        "artificial intelligence"
+      ]
+    },
+    {
+      "id": "domain.ai.agents",
+      "label": "Agents IA",
+      "parent": "domain.ai",
+      "aliases": [
+        "#agent",
+        "#agents",
+        "#ai-agents",
+        "#personal-agent",
+        "#autonomous-agent",
+        "#ai-companion",
+        "#autonomous-company",
+        "#autonomous-research"
+      ],
+      "patterns": [
+        "\\bagents?\\b",
+        "agentique",
+        "\\bopenclaw\\b"
+      ]
+    },
+    {
+      "id": "domain.ai.agents.memory",
+      "label": "Mémoire des agents",
+      "parent": "domain.ai.agents",
+      "aliases": [
+        "#memoire-agents",
+        "#memory",
+        "#long-term-memory",
+        "#context-engineering"
+      ],
+      "patterns": [
+        "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
+        "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
+      ]
+    },
+    {
+      "id": "domain.ai.agents.orchestration",
+      "label": "Orchestration des agents",
+      "parent": "domain.ai.agents",
+      "aliases": [
+        "#orchestration-agents",
+        "#multi-agent",
+        "#orchestration",
+        "#ai-agency"
+      ]
+    },
+    {
+      "id": "domain.ai.agents.coding",
+      "label": "Agents de développement",
+      "parent": "domain.ai.agents",
+      "aliases": [
+        "#agents-code",
+        "#coding-agents"
+      ],
+      "patterns": [
+        "claude code",
+        "\\bcodex\\b",
+        "coding agents?",
+        "agents? de cod"
+      ]
+    },
+    {
+      "id": "domain.ai.agents.skills",
+      "label": "Compétences des agents",
+      "parent": "domain.ai.agents",
+      "aliases": [
+        "#skills-agents",
+        "#agent-skills",
+        "#skills"
+      ],
+      "patterns": [
+        "\\bskills?\\b"
+      ]
+    },
+    {
+      "id": "domain.ai.llm",
+      "label": "Modèles de langage",
+      "parent": "domain.ai",
+      "aliases": [
+        "#llm",
+        "#inference",
+        "#providers",
+        "#openai-compatible",
+        "#comparaison-modeles",
+        "#inference-locale"
+      ],
+      "patterns": [
+        "\\bllm\\b",
+        "\\bqwen\\w*",
+        "\\bdeepseek\\b",
+        "\\bnotebooklm\\b",
+        "\\bgemini\\b",
+        "\\bgpt[ -]?\\d",
+        "mistral vibe"
+      ]
+    },
+    {
+      "id": "domain.dev",
+      "label": "Développement logiciel",
+      "parent": "domain",
+      "aliases": [
+        "#coding",
+        "#devtools",
+        "#editor",
+        "#code-quality"
+      ],
+      "patterns": [
+        "developpement logiciel",
+        "software development",
+        "ingenierie logicielle",
+        "developpement",
+        "programmat",
+        "modifier.*fichiers.*projet",
+        "modifier un projet"
+      ]
+    },
+    {
+      "id": "domain.dev.web",
+      "label": "Développement web",
+      "parent": "domain.dev",
+      "aliases": [
+        "#react",
+        "#clonage-sites",
+        "#conversion-web"
+      ]
+    },
+    {
+      "id": "domain.dev.quality",
+      "label": "Qualité du code",
+      "parent": "domain.dev",
+      "aliases": [
+        "#code-review",
+        "#sast",
+        "#tests",
+        "#linting"
+      ],
+      "patterns": [
+        "reformat.*code",
+        "code python",
+        "codage",
+        "linting"
+      ]
+    },
+    {
+      "id": "domain.media",
+      "label": "Audio, vidéo et création",
+      "parent": "domain",
+      "aliases": []
+    },
+    {
+      "id": "domain.media.audio",
+      "label": "Audio",
+      "parent": "domain.media",
+      "aliases": [
+        "#audio"
+      ],
+      "patterns": [
+        "\\baudio\\b",
+        "creation musicale",
+        "\\bvoix\\b",
+        "\\bvocale\\b"
+      ]
+    },
+    {
+      "id": "domain.media.audio.voice",
+      "label": "Voix",
+      "parent": "domain.media.audio",
+      "aliases": [
+        "#synthese-vocale",
+        "#clonage-vocal",
+        "#transcription",
+        "#traduction-audio",
+        "#voice",
+        "#tts",
+        "#speech-to-text"
+      ]
+    },
+    {
+      "id": "domain.media.audio.identification",
+      "label": "Identification audio",
+      "parent": "domain.media.audio",
+      "aliases": [
+        "#identification-audio",
+        "#audio-fingerprinting"
+      ]
+    },
+    {
+      "id": "domain.media.video",
+      "label": "Vidéo",
+      "parent": "domain.media",
+      "aliases": [
+        "#montage-video",
+        "#video-editing",
+        "#generation-video",
+        "#video-generation",
+        "#ai-video",
+        "#video",
+        "#shortvideo",
+        "#ai-video-generator"
+      ],
+      "patterns": [
+        "\\bvideos?\\b",
+        "\\bvideo\\b"
+      ]
+    },
+    {
+      "id": "domain.media.image",
+      "label": "Images et graphisme",
+      "parent": "domain.media",
+      "aliases": [
+        "#compression-images",
+        "#generation-images",
+        "#animation-svg",
+        "#image",
+        "#design",
+        "#svg",
+        "#inspiration"
+      ],
+      "patterns": [
+        "\\bimages?\\b",
+        "\\bsvg\\b",
+        "visual intelligence"
+      ]
+    },
+    {
+      "id": "domain.media.3d",
+      "label": "Création 3D",
+      "parent": "domain.media",
+      "aliases": [
+        "#generation-3d",
+        "#3d"
+      ]
+    },
+    {
+      "id": "domain.security",
+      "label": "Cybersécurité",
+      "parent": "domain",
+      "aliases": [
+        "#cybersecurity",
+        "#security-tools"
+      ],
+      "patterns": [
+        "cybersecurite",
+        "cybersecurity"
+      ]
+    },
+    {
+      "id": "domain.security.web",
+      "label": "Sécurité web",
+      "parent": "domain.security",
+      "aliases": [
+        "#securite-web",
+        "#detection-bots",
+        "#web-security"
+      ]
+    },
+    {
+      "id": "domain.security.malware",
+      "label": "Analyse de logiciels malveillants",
+      "parent": "domain.security",
+      "aliases": [
+        "#analyse-malware",
+        "#malware",
+        "#malware-research",
+        "#malware-detection",
+        "#reverse-engineering"
+      ]
+    },
+    {
+      "id": "domain.security.testing",
+      "label": "Tests de sécurité",
+      "parent": "domain.security",
+      "aliases": [
+        "#pentest",
+        "#red-team",
+        "#offensive-security",
+        "#analyse-vulnerabilites",
+        "#vulnerability-scanning"
+      ],
+      "patterns": [
+        "bug hunter",
+        "vulnerabilit",
+        "pentest"
+      ]
+    },
+    {
+      "id": "domain.osint",
+      "label": "Renseignement en sources ouvertes",
+      "parent": "domain.security",
+      "aliases": [
+        "#osint",
+        "#recon",
+        "#digital-footprint",
+        "#threat-intelligence"
+      ],
+      "patterns": [
+        "\\bosint\\b",
+        "localisation.*ip"
+      ]
+    },
+    {
+      "id": "domain.privacy",
+      "label": "Protection des données",
+      "parent": "domain.security",
+      "aliases": [
+        "#privacy",
+        "#anonymisation",
+        "#chiffrement",
+        "#sans-suivi",
+        "#recherche-privee"
+      ],
+      "patterns": [
+        "anonymis",
+        "chiffr",
+        "sans suivi"
+      ]
+    },
+    {
+      "id": "domain.infrastructure",
+      "label": "Infrastructure",
+      "parent": "domain",
+      "aliases": [
+        "#infrastructure",
+        "#network-security",
+        "#vpn",
+        "#tailscale",
+        "#server",
+        "#linux-server"
+      ],
+      "patterns": [
+        "\\bvps\\b",
+        "serveurs?",
+        "\\bservers?\\b"
+      ]
+    },
+    {
+      "id": "domain.infrastructure.network",
+      "label": "Réseaux",
+      "parent": "domain.infrastructure",
+      "aliases": [
+        "#network",
+        "#zero-trust",
+        "#encrypted-routing",
+        "#depin",
+        "#decentralized-network"
+      ],
+      "patterns": [
+        "filtres de reseau"
+      ]
+    },
+    {
+      "id": "domain.data",
+      "label": "Données et connaissances",
+      "parent": "domain",
+      "aliases": []
+    },
+    {
+      "id": "domain.data.web",
+      "label": "Collecte web",
+      "parent": "domain.data",
+      "aliases": [
+        "#extraction-web",
+        "#scraping",
+        "#web-extraction",
+        "#crawler"
+      ]
+    },
+    {
+      "id": "domain.data.documents",
+      "label": "Documents",
+      "parent": "domain.data",
+      "aliases": [
+        "#conversion-documents",
+        "#document-ai",
+        "#documents",
+        "#ocr",
+        "#documentation"
+      ]
+    },
+    {
+      "id": "domain.data.notes",
+      "label": "Notes et organisation",
+      "parent": "domain.data",
+      "aliases": [
+        "#capture-notes",
+        "#metadonnees-notes",
+        "#planification-taches",
+        "#knowledge-management",
+        "#notes"
+      ],
+      "patterns": [
+        "prise de notes",
+        "gestion.*notes",
+        "planification.*taches",
+        "proprietes.*notes"
+      ]
+    },
+    {
+      "id": "domain.data.research",
+      "label": "Recherche documentaire",
+      "parent": "domain.data",
+      "aliases": [
+        "#recherche-documentaire",
+        "#research-agent",
+        "#citations",
+        "#papers"
+      ],
+      "patterns": [
+        "recherche documentaire",
+        "recherche.*rapports?",
+        "research agent"
+      ]
+    },
+    {
+      "id": "domain.finance",
+      "label": "Analyse financière",
+      "parent": "domain",
+      "aliases": [
+        "#finance",
+        "#trading",
+        "#algotrading",
+        "#fintech",
+        "#banking",
+        "#crypto"
+      ],
+      "patterns": [
+        "\\btrading\\b",
+        "\\btrades?\\b",
+        "\\btraders?\\b",
+        "liquidites",
+        "\\barbitrage\\b"
+      ]
+    },
+    {
+      "id": "domain.finance.prediction",
+      "label": "Marchés prédictifs",
+      "parent": "domain.finance",
+      "aliases": [
+        "#marches-predictifs",
+        "#polymarket",
+        "#prediction-markets",
+        "#kalshi"
+      ],
+      "patterns": [
+        "polymarket",
+        "kalshi",
+        "marches? (?:de )?prediction",
+        "marches? (?:de )?prevision",
+        "forecasttrader"
+      ]
+    },
+    {
+      "id": "domain.finance.quant",
+      "label": "Simulation et analyse quantitative",
+      "parent": "domain.finance",
+      "aliases": [
+        "#backtesting",
+        "#backtesting-engine",
+        "#backtesting-tools"
+      ],
+      "patterns": [
+        "backtest"
+      ]
+    },
+    {
+      "id": "domain.science",
+      "label": "Sciences et prévision",
+      "parent": "domain",
+      "aliases": []
+    },
+    {
+      "id": "domain.science.weather",
+      "label": "Prévisions météorologiques",
+      "parent": "domain.science",
+      "aliases": [
+        "#previsions-meteo",
+        "#weather",
+        "#forecasting"
+      ]
+    },
+    {
+      "id": "domain.communication",
+      "label": "Communication et publication",
+      "parent": "domain",
+      "aliases": [
+        "#publication-sociale",
+        "#social-media",
+        "#email"
+      ],
+      "patterns": [
+        "publication.*(?:contenus|reseaux)",
+        "client email"
+      ]
+    },
+    {
+      "id": "capability.voice",
+      "label": "Traitement de la voix",
+      "parent": "capability",
+      "aliases": []
+    },
+    {
+      "id": "capability.voice.transcribe",
+      "label": "Transcrire",
+      "parent": "capability.voice",
+      "aliases": [
+        "#transcription",
+        "#speech-to-text",
+        "#asr"
+      ]
+    },
+    {
+      "id": "capability.voice.synthesize",
+      "label": "Synthétiser une voix",
+      "parent": "capability.voice",
+      "aliases": [
+        "#synthese-vocale",
+        "#tts"
+      ]
+    },
+    {
+      "id": "capability.voice.clone",
+      "label": "Cloner une voix",
+      "parent": "capability.voice",
+      "aliases": [
+        "#clonage-vocal"
+      ]
+    },
+    {
+      "id": "capability.voice.translate",
+      "label": "Traduire un enregistrement",
+      "parent": "capability.voice",
+      "aliases": [
+        "#traduction-audio"
+      ]
+    },
+    {
+      "id": "capability.audio.identify",
+      "label": "Identifier un enregistrement",
+      "parent": "capability",
+      "aliases": [
+        "#identification-audio",
+        "#audio-fingerprinting"
+      ]
+    },
+    {
+      "id": "capability.deduplicate",
+      "label": "Détecter les doublons",
+      "parent": "capability",
+      "aliases": [
+        "#dedoublonnage"
+      ]
+    },
+    {
+      "id": "capability.memory",
+      "label": "Conserver le contexte",
+      "parent": "capability",
+      "aliases": [
+        "#memoire-agents",
+        "#memory",
+        "#long-term-memory",
+        "#context-engineering"
+      ]
+    },
+    {
+      "id": "capability.automation",
+      "label": "Automatiser des actions",
+      "parent": "capability",
+      "aliases": [
+        "#automation",
+        "#workflow",
+        "#workflows",
+        "#ui-automation"
+      ],
+      "patterns": [
+        "automatise.*tests",
+        "automatisation"
+      ]
+    },
+    {
+      "id": "capability.automation.browser",
+      "label": "Automatiser le navigateur",
+      "parent": "capability.automation",
+      "aliases": [
+        "#automatisation-navigateur",
+        "#browser-automation"
+      ]
+    },
+    {
+      "id": "capability.automation.orchestrate",
+      "label": "Coordonner des agents",
+      "parent": "capability.automation",
+      "aliases": [
+        "#orchestration-agents",
+        "#multi-agent",
+        "#orchestration"
+      ]
+    },
+    {
+      "id": "capability.automation.publish",
+      "label": "Publier sur plusieurs réseaux",
+      "parent": "capability.automation",
+      "aliases": [
+        "#publication-sociale"
+      ]
+    },
+    {
+      "id": "capability.automation.schedule",
+      "label": "Planifier des tâches",
+      "parent": "capability.automation",
+      "aliases": [
+        "#planification-taches"
+      ]
+    },
+    {
+      "id": "capability.scraping",
+      "label": "Extraire des données web",
+      "parent": "capability",
+      "aliases": [
+        "#extraction-web",
+        "#scraping",
+        "#web-extraction",
+        "#crawler"
+      ]
+    },
+    {
+      "id": "capability.documents",
+      "label": "Traiter des documents",
+      "parent": "capability",
+      "aliases": []
+    },
+    {
+      "id": "capability.documents.convert",
+      "label": "Convertir des documents",
+      "parent": "capability.documents",
+      "aliases": [
+        "#conversion-documents"
+      ]
+    },
+    {
+      "id": "capability.documents.export",
+      "label": "Exporter des conversations",
+      "parent": "capability.documents",
+      "aliases": [
+        "#export-conversations"
+      ]
+    },
+    {
+      "id": "capability.notes.capture",
+      "label": "Capturer des notes",
+      "parent": "capability",
+      "aliases": [
+        "#capture-notes",
+        "#capture"
+      ]
+    },
+    {
+      "id": "capability.notes.metadata",
+      "label": "Modifier les propriétés des notes",
+      "parent": "capability",
+      "aliases": [
+        "#metadonnees-notes"
+      ]
+    },
+    {
+      "id": "capability.research",
+      "label": "Rechercher des documents",
+      "parent": "capability",
+      "aliases": [
+        "#recherche-documentaire"
+      ]
+    },
+    {
+      "id": "capability.security.detectbots",
+      "label": "Détecter les bots",
+      "parent": "capability",
+      "aliases": [
+        "#detection-bots"
+      ]
+    },
+    {
+      "id": "capability.security.malware",
+      "label": "Analyser un logiciel malveillant",
+      "parent": "capability",
+      "aliases": [
+        "#analyse-malware",
+        "#malware-analysis"
+      ]
+    },
+    {
+      "id": "capability.security.vulnerabilities",
+      "label": "Détecter des vulnérabilités",
+      "parent": "capability",
+      "aliases": [
+        "#analyse-vulnerabilites",
+        "#vulnerability-scanning",
+        "#sast"
+      ]
+    },
+    {
+      "id": "capability.security.pentest",
+      "label": "Tester la sécurité",
+      "parent": "capability",
+      "aliases": [
+        "#pentest"
+      ]
+    },
+    {
+      "id": "capability.privacy.anonymize",
+      "label": "Anonymiser",
+      "parent": "capability",
+      "aliases": [
+        "#anonymisation"
+      ]
+    },
+    {
+      "id": "capability.privacy.encrypt",
+      "label": "Chiffrer",
+      "parent": "capability",
+      "aliases": [
+        "#chiffrement"
+      ]
+    },
+    {
+      "id": "capability.search.private",
+      "label": "Rechercher dans un index privé",
+      "parent": "capability",
+      "aliases": [
+        "#recherche-privee"
+      ]
+    },
+    {
+      "id": "capability.simulate",
+      "label": "Simuler et tester",
+      "parent": "capability",
+      "aliases": [
+        "#simulation"
+      ]
+    },
+    {
+      "id": "capability.simulate.backtest",
+      "label": "Tester sur des données historiques",
+      "parent": "capability.simulate",
+      "aliases": [
+        "#backtesting"
+      ]
+    },
+    {
+      "id": "capability.forecast",
+      "label": "Prévoir des mesures",
+      "parent": "capability",
+      "aliases": [
+        "#previsions-meteo"
+      ]
+    },
+    {
+      "id": "capability.compare",
+      "label": "Comparer des modèles",
+      "parent": "capability",
+      "aliases": [
+        "#comparaison-modeles"
+      ]
+    },
+    {
+      "id": "capability.generate",
+      "label": "Générer des contenus",
+      "parent": "capability",
+      "aliases": []
+    },
+    {
+      "id": "capability.generate.video",
+      "label": "Générer une vidéo",
+      "parent": "capability.generate",
+      "aliases": [
+        "#generation-video",
+        "#video-generation",
+        "#ai-video"
+      ]
+    },
+    {
+      "id": "capability.generate.image",
+      "label": "Générer une image",
+      "parent": "capability.generate",
+      "aliases": [
+        "#generation-images"
+      ]
+    },
+    {
+      "id": "capability.generate.3d",
+      "label": "Générer un objet 3D",
+      "parent": "capability.generate",
+      "aliases": [
+        "#generation-3d"
+      ]
+    },
+    {
+      "id": "capability.edit.video",
+      "label": "Monter une vidéo",
+      "parent": "capability",
+      "aliases": [
+        "#montage-video",
+        "#video-editing"
+      ]
+    },
+    {
+      "id": "capability.edit.image",
+      "label": "Compresser une image",
+      "parent": "capability",
+      "aliases": [
+        "#compression-images"
+      ]
+    },
+    {
+      "id": "capability.animate.svg",
+      "label": "Animer du SVG",
+      "parent": "capability",
+      "aliases": [
+        "#animation-svg"
+      ]
+    },
+    {
+      "id": "capability.web.clone",
+      "label": "Reproduire un site",
+      "parent": "capability",
+      "aliases": [
+        "#clonage-sites"
+      ]
+    },
+    {
+      "id": "capability.web.desktop",
+      "label": "Créer une application depuis un site",
+      "parent": "capability",
+      "aliases": [
+        "#conversion-web"
+      ]
+    },
+    {
+      "id": "capability.code.assist",
+      "label": "Assister le développement",
+      "parent": "capability",
+      "aliases": [
+        "#agents-code",
+        "#coding-agents",
+        "#pair-programming"
+      ],
+      "patterns": [
+        "reformat.*code",
+        "assistance de codage",
+        "modifier.*fichiers.*projet"
+      ]
+    },
+    {
+      "id": "capability.skills",
+      "label": "Étendre les compétences d’un agent",
+      "parent": "capability",
+      "aliases": [
+        "#skills-agents",
+        "#agent-skills"
+      ]
+    },
+    {
+      "id": "compatibility.os",
+      "label": "Systèmes",
+      "parent": "compatibility",
+      "aliases": []
+    },
+    {
+      "id": "compatibility.os.macos",
+      "label": "macOS",
+      "parent": "compatibility.os",
+      "aliases": [
+        "#macos"
+      ]
+    },
+    {
+      "id": "compatibility.os.windows",
+      "label": "Windows",
+      "parent": "compatibility.os",
+      "aliases": [
+        "#windows"
+      ]
+    },
+    {
+      "id": "compatibility.os.linux",
+      "label": "Linux",
+      "parent": "compatibility.os",
+      "aliases": [
+        "#linux"
+      ]
+    },
+    {
+      "id": "compatibility.language",
+      "label": "Langages",
+      "parent": "compatibility",
+      "aliases": []
+    },
+    {
+      "id": "compatibility.language.python",
+      "label": "Python",
+      "parent": "compatibility.language",
+      "aliases": [
+        "#python"
+      ]
+    },
+    {
+      "id": "compatibility.language.rust",
+      "label": "Rust",
+      "parent": "compatibility.language",
+      "aliases": [
+        "#rust"
+      ]
+    },
+    {
+      "id": "compatibility.language.javascript",
+      "label": "JavaScript",
+      "parent": "compatibility.language",
+      "aliases": [
+        "#javascript"
+      ]
+    },
+    {
+      "id": "compatibility.language.typescript",
+      "label": "TypeScript",
+      "parent": "compatibility.language",
+      "aliases": [
+        "#typescript"
+      ]
+    },
+    {
+      "id": "compatibility.language.swift",
+      "label": "Swift",
+      "parent": "compatibility.language",
+      "aliases": [
+        "#swift"
+      ]
+    },
+    {
+      "id": "compatibility.protocol",
+      "label": "Protocoles",
+      "parent": "compatibility",
+      "aliases": []
+    },
+    {
+      "id": "compatibility.protocol.mcp",
+      "label": "MCP",
+      "parent": "compatibility.protocol",
+      "aliases": [
+        "#mcp",
+        "#mcp-server"
+      ]
+    },
+    {
+      "id": "compatibility.protocol.rss",
+      "label": "RSS",
+      "parent": "compatibility.protocol",
+      "aliases": [
+        "#rss"
+      ]
+    },
+    {
+      "id": "compatibility.format",
+      "label": "Formats",
+      "parent": "compatibility",
+      "aliases": []
+    },
+    {
+      "id": "compatibility.format.pdf",
+      "label": "PDF",
+      "parent": "compatibility.format",
+      "aliases": [
+        "#pdf"
+      ]
+    },
+    {
+      "id": "compatibility.format.markdown",
+      "label": "Markdown",
+      "parent": "compatibility.format",
+      "aliases": [
+        "#markdown"
+      ]
+    },
+    {
+      "id": "compatibility.format.svg",
+      "label": "SVG",
+      "parent": "compatibility.format",
+      "aliases": [
+        "#svg"
+      ]
+    },
+    {
+      "id": "compatibility.format.csv",
+      "label": "CSV",
+      "parent": "compatibility.format",
+      "aliases": [
+        "#csv"
+      ]
+    },
+    {
+      "id": "compatibility.deployment",
+      "label": "Exécution",
+      "parent": "compatibility",
+      "aliases": []
+    },
+    {
+      "id": "compatibility.deployment.local",
+      "label": "Exécution locale",
+      "parent": "compatibility.deployment",
+      "aliases": [
+        "#inference-locale",
+        "#local-first",
+        "#local-ai"
+      ]
+    },
+    {
+      "id": "compatibility.deployment.selfhosted",
+      "label": "Auto-hébergement",
+      "parent": "compatibility.deployment",
+      "aliases": [
+        "#self-hosted"
+      ]
+    },
+    {
+      "id": "compatibility.interface",
+      "label": "Interfaces",
+      "parent": "compatibility",
+      "aliases": []
+    },
+    {
+      "id": "compatibility.interface.terminal",
+      "label": "Terminal",
+      "parent": "compatibility.interface",
+      "aliases": [
+        "#terminal",
+        "#cli"
+      ]
+    },
+    {
+      "id": "compatibility.interface.desktop",
+      "label": "Application de bureau",
+      "parent": "compatibility.interface",
+      "aliases": [
+        "#application-bureau",
+        "#desktop-app"
+      ]
+    },
+    {
+      "id": "compatibility.integration",
+      "label": "Intégrations",
+      "parent": "compatibility",
+      "aliases": []
+    },
+    {
+      "id": "compatibility.integration.claude",
+      "label": "Claude Code",
+      "parent": "compatibility.integration",
+      "aliases": [
+        "#claude-code"
+      ]
+    },
+    {
+      "id": "compatibility.integration.codex",
+      "label": "Codex",
+      "parent": "compatibility.integration",
+      "aliases": [
+        "#codex"
+      ]
+    },
+    {
+      "id": "compatibility.integration.cursor",
+      "label": "Cursor",
+      "parent": "compatibility.integration",
+      "aliases": [
+        "#cursor"
+      ]
+    },
+    {
+      "id": "compatibility.integration.opencode",
+      "label": "OpenCode",
+      "parent": "compatibility.integration",
+      "aliases": [
+        "#opencode"
+      ]
+    },
+    {
+      "id": "risk.offensive",
+      "label": "Usage offensif explicite",
+      "parent": "risk",
+      "aliases": [
+        "#rouge",
+        "#offensive-risk"
+      ]
+    },
+    {
+      "id": "risk.sensitive",
+      "label": "Risque signalé",
+      "parent": "risk",
+      "aliases": [
+        "#sensible",
+        "#sensitive",
+        "#privacy-risk"
+      ]
     },
     {
       "id": "source.github",
       "label": "GitHub",
       "parent": "source",
-      "aliases": ["#github", "#repo", "#open-source", "#self-hosted"],
-      "description": "Depot ou ressource issue de GitHub/open-source."
+      "aliases": []
+    },
+    {
+      "id": "source.x",
+      "label": "X / Twitter",
+      "parent": "source",
+      "aliases": []
+    },
+    {
+      "id": "source.noteplan",
+      "label": "NotePlan Calendar",
+      "parent": "source",
+      "aliases": []
     },
     {
       "id": "source.raindrop",
       "label": "Raindrop",
       "parent": "source",
-      "aliases": ["#raindrop", "#watch"],
-      "description": "Signal importe ou qualifie depuis Raindrop."
-    },
-    {
-      "id": "lifecycle",
-      "label": "Cycle de vie",
-      "parent": null,
-      "description": "Etat de qualification et d'exploitation."
+      "aliases": []
     },
     {
       "id": "lifecycle.active",
       "label": "Actif",
       "parent": "lifecycle",
-      "aliases": ["#actif"],
-      "description": "Fiche exploitable."
+      "aliases": [
+        "#actif",
+        "#active"
+      ]
     },
     {
-      "id": "lifecycle.inbox",
-      "label": "Inbox / veille",
+      "id": "lifecycle.review",
+      "label": "À vérifier",
       "parent": "lifecycle",
-      "aliases": ["#watch", "#directory", "#inspiration", "#ai-tools", "#tools"],
-      "description": "Signal a trier, liste ou repertoire de veille."
+      "aliases": [
+        "#a-verifier",
+        "#to-verify"
+      ]
+    },
+    {
+      "id": "domain.dev.desktop",
+      "label": "Applications et interfaces de bureau",
+      "parent": "domain.dev",
+      "aliases": [
+        "#accessibility",
+        "#display",
+        "#hidpi",
+        "#text-expander",
+        "#apps",
+        "#desktop-agent"
+      ],
+      "patterns": [
+        "applications? de bureau",
+        "text expander",
+        "ecrans?",
+        "multi.instance",
+        "bootable usb"
+      ]
+    },
+    {
+      "id": "domain.dev.ui",
+      "label": "Conception d’interfaces",
+      "parent": "domain.dev",
+      "aliases": [
+        "#ui-design",
+        "#wireframe",
+        "#prototype",
+        "#ai-design",
+        "#vibe-coding",
+        "#ai-editor",
+        "#developer-tools"
+      ],
+      "patterns": [
+        "\\bui design\\b",
+        "\\bwireframe",
+        "vibe coding",
+        "editeur.*code",
+        "\\bpenpot\\b"
+      ]
+    },
+    {
+      "id": "domain.ai.agents.integration",
+      "label": "Connecteurs et outils des agents",
+      "parent": "domain.ai.agents",
+      "aliases": [
+        "#mcp",
+        "#mcp-server",
+        "#integrations",
+        "#agent-instructions",
+        "#agents-md",
+        "#agent-skill",
+        "#plugins"
+      ],
+      "patterns": []
+    },
+    {
+      "id": "domain.ai.prompts",
+      "label": "Instructions et prompts",
+      "parent": "domain.ai",
+      "aliases": [
+        "#prompt-engineering",
+        "#prompt-ops",
+        "#prompts"
+      ],
+      "patterns": []
+    },
+    {
+      "id": "domain.ai.governance",
+      "label": "Gouvernance de l’IA",
+      "parent": "domain.ai",
+      "aliases": [
+        "#ai-governance",
+        "#public-policy"
+      ],
+      "patterns": []
+    },
+    {
+      "id": "domain.data.catalogues",
+      "label": "Catalogues de ressources",
+      "parent": "domain.data",
+      "aliases": [
+        "#directory",
+        "#curation",
+        "#curated-tools",
+        "#library"
+      ],
+      "patterns": [
+        "annuaire",
+        "inventaire.*outils",
+        "collection.*outils",
+        "list.*(?:apps|applications|tools)",
+        "catalogue",
+        "alternatives.*saas"
+      ]
+    },
+    {
+      "id": "domain.data.search",
+      "label": "Recherche et indexation",
+      "parent": "domain.data",
+      "aliases": [
+        "#search",
+        "#ai-search",
+        "#extraction"
+      ],
+      "patterns": []
+    },
+    {
+      "id": "domain.security.c2",
+      "label": "Infrastructure de contrôle et commande",
+      "parent": "domain.security",
+      "aliases": [
+        "#c2"
+      ],
+      "patterns": []
+    },
+    {
+      "id": "domain.media.live",
+      "label": "Création et diffusion en direct",
+      "parent": "domain.media",
+      "aliases": [
+        "#vj",
+        "#shader",
+        "#motion"
+      ],
+      "patterns": []
+    },
+    {
+      "id": "compatibility.interface.api",
+      "label": "API",
+      "parent": "compatibility.interface",
+      "aliases": [
+        "#api"
+      ],
+      "patterns": []
+    },
+    {
+      "id": "compatibility.integration.claude-general",
+      "label": "Claude",
+      "parent": "compatibility.integration",
+      "aliases": [
+        "#claude"
+      ],
+      "patterns": []
+    },
+    {
+      "id": "compatibility.integration.noteplan",
+      "label": "NotePlan",
+      "parent": "compatibility.integration",
+      "aliases": [
+        "#noteplan"
+      ],
+      "patterns": []
+    },
+    {
+      "id": "compatibility.integration.obsidian",
+      "label": "Obsidian",
+      "parent": "compatibility.integration",
+      "aliases": [
+        "#obsidian"
+      ],
+      "patterns": []
+    },
+    {
+      "id": "compatibility.integration.chatgpt",
+      "label": "ChatGPT",
+      "parent": "compatibility.integration",
+      "aliases": [
+        "#chatgpt"
+      ],
+      "patterns": []
+    },
+    {
+      "id": "compatibility.integration.pytorch",
+      "label": "PyTorch",
+      "parent": "compatibility.integration",
+      "aliases": [
+        "#pytorch"
+      ],
+      "patterns": []
+    },
+    {
+      "id": "domain.unclassified",
+      "label": "À qualifier",
+      "parent": "domain",
+      "aliases": [],
+      "description": "Aucun sujet suffisamment établi par les informations disponibles."
+    },
+    {
+      "id": "domain.dev.dependencies",
+      "label": "Paquets et dépendances",
+      "parent": "domain.dev",
+      "aliases": [
+        "#package-manager",
+        "#dependencies"
+      ],
+      "patterns": [
+        "gestionnaire de paquets",
+        "gestion.*dependances",
+        "resol.*dependances",
+        "ger.*dependances"
+      ]
+    },
+    {
+      "id": "domain.dev.runtime",
+      "label": "Environnements d’exécution",
+      "parent": "domain.dev",
+      "aliases": [
+        "#javascript-runtime"
+      ],
+      "patterns": [
+        "javascript.typescript",
+        "runtime javascript"
+      ]
+    },
+    {
+      "id": "domain.dev.testing",
+      "label": "Tests logiciels",
+      "parent": "domain.dev",
+      "aliases": [
+        "#testing",
+        "#test-automation"
+      ],
+      "patterns": [
+        "tests web",
+        "test smtp",
+        "plan de test",
+        "type python"
+      ]
+    },
+    {
+      "id": "domain.dev.api",
+      "label": "API et services applicatifs",
+      "parent": "domain.dev",
+      "aliases": [
+        "#rest-api"
+      ],
+      "patterns": [
+        "api rest"
+      ]
+    },
+    {
+      "id": "domain.infrastructure.deployment",
+      "label": "Déploiement et hébergement",
+      "parent": "domain.infrastructure",
+      "aliases": [
+        "#deployment",
+        "#hosting",
+        "#docker"
+      ],
+      "patterns": [
+        "deployer.*applications",
+        "hebergement",
+        "docker compose"
+      ]
+    },
+    {
+      "id": "domain.infrastructure.database",
+      "label": "Bases de données",
+      "parent": "domain.infrastructure",
+      "aliases": [
+        "#database",
+        "#postgres",
+        "#sqlite"
+      ],
+      "patterns": [
+        "base de donnees",
+        "\\bsqlite\\b",
+        "\\bpostgres"
+      ]
+    },
+    {
+      "id": "domain.data.analytics",
+      "label": "Analyse de fréquentation",
+      "parent": "domain.data",
+      "aliases": [
+        "#web-analytics",
+        "#analytics"
+      ],
+      "patterns": [
+        "analytics",
+        "suiv.*visites",
+        "statistiques.*visites"
+      ]
+    },
+    {
+      "id": "domain.communication.publishing",
+      "label": "Publication de contenus",
+      "parent": "domain.communication",
+      "aliases": [
+        "#publishing",
+        "#cms"
+      ],
+      "patterns": [
+        "plateforme de publication",
+        "site de publication",
+        "articles markdown"
+      ]
+    },
+    {
+      "id": "domain.communication.messaging",
+      "label": "Messagerie",
+      "parent": "domain.communication",
+      "aliases": [
+        "#smtp",
+        "#slack"
+      ],
+      "patterns": [
+        "e.mails?",
+        "\\bslack\\b",
+        "rechercher des tweets"
+      ]
+    },
+    {
+      "id": "domain.finance.commerce",
+      "label": "Commerce numérique",
+      "parent": "domain.finance",
+      "aliases": [
+        "#ecommerce"
+      ],
+      "patterns": [
+        "applications commerce",
+        "commerce.*personnalise"
+      ]
+    },
+    {
+      "id": "domain.data.organization",
+      "label": "Organisation du travail",
+      "parent": "domain.data",
+      "aliases": [
+        "#project-management",
+        "#calendar",
+        "#rendez-vous"
+      ],
+      "patterns": [
+        "projets et taches",
+        "gestion de projet",
+        "planification",
+        "rendez.vous"
+      ]
+    },
+    {
+      "id": "domain.dev.browser",
+      "label": "Outils de navigateur",
+      "parent": "domain.dev",
+      "aliases": [
+        "#browser-profiles",
+        "#browser-automation",
+        "#automatisation-navigateur"
+      ],
+      "patterns": [
+        "profils de navigateur"
+      ]
     }
   ]
 }
