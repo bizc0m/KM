@@ -91,3 +91,7 @@ Après validation, pousser le code sur la branche de travail GitHub et rapporter
 ### Hashtags précis
 
 La taxonomie partagée `scripts/km-tags.mjs` est utilisée par la génération, le tableau KM et la migration `node scripts/km-retag.mjs`. Elle harmonise les alias, retire les catégories génériques et tags parasites, puis retient jusqu’à quatre fonctions/compatibilités documentées. Les titres, résumés et faits de la fiche servent de contexte ; les URL et les pages annexes sont exclues pour éviter de récupérer leurs technologies. La migration sauvegarde les originaux et utilise les anciens résumés sauvegardés pour les fiches qui n’affichent désormais qu’un intérêt court. Les fiches insuffisamment documentées peuvent garder moins de deux tags. Les statuts de risque sont conservés séparément.
+
+### Exécution automatique sur le M2
+
+Le LaunchAgent lance `km-technical-run.mjs` à 02:30, 08:30, 14:30 et 20:30. Ce point d’entrée attend la fin d’un retraitement ciblé de tweet, évite les migrations concurrentes, normalise les hashtags existants, reconstruit et vérifie KM, puis lance la collecte. Toute fiche créée ou enrichie passe déjà par la taxonomie partagée dans `addFiche`. Un contrôle de couverture termine l’exécution. L’état des étapes est enregistré dans `pipeline/automation-status.json` ; aucun nouveau service récurrent n’est ajouté.
