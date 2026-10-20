@@ -5,6 +5,7 @@ import {execFileSync} from 'node:child_process';
 import {INTEREST_PROMPT,validInterest} from './km-interest-text.mjs';
 import {loadPublicPage} from './km-source-crawl.mjs';
 import {blocked} from './km-technical-policy.mjs';
+import {ownedRepositories} from './km-tool-fiches.mjs';
 const base=path.join(os.homedir(),'Library/Application Support/KM');
 const backups=path.join(base,'backups');
 const prior=(await fs.readdir(backups)).filter(n=>n.startsWith('interests-')).sort().reverse();
@@ -19,7 +20,7 @@ for(const name of files){
  source=source||current;
  // Only pre-existing filtered summaries and facts; no raw NotePlan text.
  let evidence=source.split('## Sources')[0];
- if(reviewOnly){const primary=(current.split('## Sources')[1]||'').match(/https?:\/\/[^\s]+/)?.[0];if(primary)try{const page=await loadPublicPage(primary);if(!blocked(page.text))evidence=page.text.slice(0,12000);}catch{}}
+ if(reviewOnly){const primary=ownedRepositories(current)[0];if(!primary)continue;try{const page=await loadPublicPage(primary);if(blocked(page.text)||!page.text.trim())continue;evidence=page.text.slice(0,12000);}catch{continue;}}
  let text='Intérêt à vérifier';
  if(!blocked(evidence))for(let attempt=0;attempt<2;attempt++)try{
   const r=await fetch('http://127.0.0.1:11434/api/generate',{method:'POST',headers:{'content-type':'application/json'},signal:AbortSignal.timeout(60000),body:JSON.stringify({model:'qwen3:8b',stream:false,think:false,system:INTEREST_PROMPT,prompt:JSON.stringify({source:evidence,correction:attempt?'Respecte strictement 6 à 15 mots.':''}),options:{temperature:0,num_predict:100,num_ctx:4096}})});
