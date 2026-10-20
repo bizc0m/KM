@@ -603,7 +603,7 @@ function resourceLine(item){const r=item.resource;const subjects=(item.classific
 function functionTagsLine(item){const entries=item.keywords||[];const chips=entries.map(k=>k.subjectId?'<button class="tag tag-btn '+esc(k.color)+'" data-action="subject" data-subject="'+esc(k.subjectId)+'" title="'+esc(k.fullLabel||k.label)+'" aria-label="'+esc(k.fullLabel||k.label)+'">'+esc(k.label)+'</button>':tagButton(k.label,k.color,k.tag||k.label,k.fullLabel||k.label)).join(" ");return chips?'<div class="info-line keywords" aria-label="Mots-clés">'+chips+'</div>':""}
 function topicsLine(item,limit){const chips=topicChips(item,limit);return chips?'<div class="info-line"><span class="info-label">Topics</span>'+chips+'</div>':""}
 function statusBadge(item){return item.status==="#ROUGE"?tagButton(statusLabel(item.status),statusClass(item.status)):""}
-function cardGithubUrl(item){return item.github||(item.sources||[]).find(source=>source.kind==="github")?.url||""}
+function cardGithubUrl(item){return item.github||""}
 function isRaindropUrl(url){const value=norm(url);return value.includes("raindrop.page/")||value.includes("raindrop.io/")}
 function cardWebSource(item){return (item.sources||[]).find(source=>source.role==="officialSite")||null}
 function cardOriginSources(item,webSource){const seen=new Set();const webKey=webSource?norm(webSource.url).replace(/\\/$/,""):"";return (item.sources||[]).filter(source=>source.kind!=="github").filter(source=>{const key=norm(source.url).replace(/\\/$/,"");if(!source.url||key===webKey||seen.has(key))return false;seen.add(key);return true})}
