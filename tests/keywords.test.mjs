@@ -8,7 +8,7 @@ test('cards preserve precise keywords without hierarchy paths',()=>{
 });
 test('research and API keywords have stable family colors',()=>{
  for(const t of ['recherche-documentaire','research-agent','autonomous-research','papers'])assert.equal(keywordColor(t),'research');
- for(const t of ['llm','api','free-tier','providers'])assert.equal(keywordColor(t),'llm');
+ for(const t of ['llm','free-tier','providers'])assert.equal(keywordColor(t),'llm');
  assert.equal(keywordColor('#CODEBASE-ANALYSIS'),'dev');
 });
 test('fallback shows final specific term, never generic parents',()=>{
@@ -49,4 +49,14 @@ test('search cards use project names and no generic fallback descriptions',async
  assert.equal(cardInterest({title:'X',summary:'Ajouter des rôles pour des conseils spécialisés.'}),'');
  assert.equal(cardInterest({title:'X',type:'outil'}),'');assert.equal(cardInterest({summary:'fournit une base technique reusable'}),'');assert.equal(cardTitle({title:'Archive NotePlan Captures 2026',github:'https://github.com/example/Calyx'}),'Archive NotePlan Captures 2026');
  assert.equal(cardInterest({title:'Whisper',summary:'Transcrire des entretiens et distinguer les intervenants.'}),'Transcrire des entretiens et distinguer les intervenants.');
+});
+
+test('abbreviations preserve canonical filters, full names and concept colors',async()=>{
+ const {labelInfo}=await import('../scripts/km-labels.mjs');
+ assert.equal(labelInfo('transcription').short,'STT');assert.equal(labelInfo('synthese-vocale').short,'TTS');
+ for(const tag of ['stt','tts','images'])assert.equal(keywordColor(tag),'media');
+ assert.equal(keywordColor('cyber'),'security');assert.equal(keywordColor('api'),'dev');
+ assert.equal(keywordColor('api',{tags:['#llm','#api']}),'llm');
+ const [entry]=cardKeywords({tags:['#transcription']});assert.equal(entry.label,'#STT');assert.equal(entry.tag,'#transcription');assert.equal(entry.color,'media');assert.match(entry.fullLabel,/Transcription/);
+ assert.equal(labelInfo('MIT').short,'MIT');assert.equal(labelInfo('Collection de skills').short,'Collection de skills');
 });
