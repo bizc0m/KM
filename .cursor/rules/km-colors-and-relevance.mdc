@@ -11,3 +11,5 @@ alwaysApply: true
 - Tester les couleurs des mots-clés et les métadonnées neutres ; vérifier les cartes dans le navigateur.
 
 - Cartes de recherche : aucune ligne de nature/thème/OS/licence. Ces axes restent dans les filtres et le détail. Garder les mots-clés précis colorés.
+
+- Abréviations : appliquer la liste de `km/couleurs-et-pertinence.md` uniquement aux libellés visibles ; nom complet en infobulle et accessibilité, identifiants/filtres canoniques inchangés. Une abréviation garde la couleur de son concept. Aucune modification de l’interface sans demande d’implémentation.

@@ -24,3 +24,5 @@
 - Résultats de recherche : titre, liens principaux, intérêt concret et mots-clés précis colorés uniquement. Ne pas y afficher la ligne de nature/thème/OS/licence ni les inconnues « Nature à vérifier » ou « Non précisée ». Ces métadonnées restent dans la fiche et les filtres. Ne pas répéter un hashtag sous forme de catégorie supplémentaire.
 
 - Titre des résultats : nom du projet seulement, sans sous-titre descriptif ni slogan ; conserver le titre complet dans la fiche et la recherche. L’intérêt doit ajouter une fonction concrète ; ne pas remplacer un intérêt absent par le type ou par le titre. Masquer les phrases génériques plutôt que fabriquer un bénéfice.
+
+- Abréviations : convention dans `km/couleurs-et-pertinence.md` (IA, LLM, CLI, API, SDK, OS, App, Dev, Docs, Cyber, OSINT, TTS, STT et libellés courts). Conserver les identifiants et la couleur du concept complet. L’intégration de la règle ne vaut pas autorisation de modifier l’affichage.

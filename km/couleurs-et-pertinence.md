@@ -40,3 +40,15 @@ La règle s’applique au pipeline, aux fiches existantes, au viewer M2 et à la
 - Résultats de recherche : titre, liens principaux, intérêt concret et mots-clés précis colorés uniquement. Ne pas y afficher la ligne de nature/thème/OS/licence ni les inconnues « Nature à vérifier » ou « Non précisée ». Ces métadonnées restent dans la fiche et les filtres. Ne pas répéter un hashtag sous forme de catégorie supplémentaire.
 
 - Titre des résultats : nom du projet seulement, sans sous-titre descriptif ni slogan ; conserver le titre complet dans la fiche et la recherche. L’intérêt doit ajouter une fonction concrète ; ne pas remplacer un intérêt absent par le type ou par le titre. Masquer les phrases génériques plutôt que fabriquer un bénéfice.
+
+## Abréviations et libellés courts — règle permanente
+
+- Intelligence artificielle → IA ; modèle de langage → LLM ; ligne de commande → CLI ; interface de programmation → API ; bibliothèque de développement → SDK ; système d’exploitation → OS.
+- Application → App ; développement → Dev ; documentation → Docs ; cybersécurité → Cyber ; recherche en sources ouvertes → OSINT ; synthèse vocale → TTS ; reconnaissance vocale → STT.
+- Libellés de sélection courts : Compétences des agents → Skills ; Mémoire des agents → Mémoire ; Orchestration des agents → Orchestration ; Recherche documentaire → Recherche ; Génération d’images → Images ; Génération vidéo → Vidéo.
+- « Collection de skills » peut se lire « Skills » dans un libellé compact. Conserver la distinction individuel/collection dans la fiche et les filtres. Ne pas créer de nouvelles métadonnées sur la carte pour afficher ces abréviations.
+- Fournir le libellé complet en infobulle et dans le nom accessible. Les identifiants, valeurs de filtrage, hashtags canoniques et chemins de hiérarchie restent stables : seul le libellé visible change lors d’une implémentation explicitement demandée.
+- Conserver tels quels les noms des projets, MIT, Apache-2.0, macOS, Windows et Linux. Éviter les abréviations inventées comme « Coll. sk. » ou « Rech. doc. ». Ne pas couper les phrases d’intérêt en abréviations.
+- Une abréviation conserve exactement la famille de couleur du concept complet : LLM/API IA violet ; Dev bleu ; Skills/Mémoire/Orchestration des agents vert turquoise ; Recherche bleu ardoise ; Images/Vidéo/TTS/STT rose ; OSINT orange doux ; Cyber rouge pâle. App, OS, licence, prix et accès restent gris. API générale de développement : bleu, sans la confondre avec une API IA.
+- La palette immuable par défaut est `km.colors.json` (texte, fond et bordure) ; ne pas créer une nouvelle couleur pour une abréviation. « Cyber » rouge pâle ne signifie pas statut `#ROUGE`.
+- État de cette demande : convention intégrée seulement ; aucune transformation des libellés du viewer ni migration de données effectuée.
