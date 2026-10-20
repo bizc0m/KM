@@ -47,6 +47,6 @@ test('search cards use project names and no generic fallback descriptions',async
  assert.equal(cardTitle({title:"agency-agents : Bibliothèque de rôles d’agents"}),'agency-agents');
  assert.equal(cardTitle({title:'Agent de conception AI open-source',github:'https://github.com/example/design-agent'}),'design-agent');
  assert.equal(cardInterest({title:'X',summary:'Ajouter des rôles pour des conseils spécialisés.'}),'');
- assert.equal(cardInterest({title:'X',type:'outil'}),'');
+ assert.equal(cardInterest({title:'X',type:'outil'}),'');assert.equal(cardInterest({summary:'fournit une base technique reusable'}),'');assert.equal(cardTitle({title:'Archive NotePlan Captures 2026',github:'https://github.com/example/Calyx'}),'Archive NotePlan Captures 2026');
  assert.equal(cardInterest({title:'Whisper',summary:'Transcrire des entretiens et distinguer les intervenants.'}),'Transcrire des entretiens et distinguer les intervenants.');
 });
