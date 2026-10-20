@@ -20,3 +20,5 @@
 - Métadonnées : Nature, Thème, Fonction, OS, Licence, Tarification et Accès sont des axes indépendants. Palette historique par domaine dans `km.colors.json` : thèmes et mots-clés précis colorés ; nature, OS, licence, tarification et accès neutres. Ne pas déduire une licence libre ou la gratuité de GitHub, ni un OS d’un langage. Conserver les métadonnées lors de l’enrichissement ; les informations sans preuve restent « À vérifier ».
 
 - Règle de base obligatoire : `km/couleurs-et-pertinence.md`. La couleur sert au repérage du domaine, jamais à noter la qualité. Un tag visible doit être étayé, utile pour sélectionner une ressource et non redondant. Ne pas supprimer les couleurs historiques lors des évolutions du viewer.
+
+- Résultats de recherche : titre, liens principaux, intérêt concret et mots-clés précis colorés uniquement. Ne pas y afficher la ligne de nature/thème/OS/licence ni les inconnues « Nature à vérifier » ou « Non précisée ». Ces métadonnées restent dans la fiche et les filtres. Ne pas répéter un hashtag sous forme de catégorie supplémentaire.

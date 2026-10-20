@@ -17,3 +17,5 @@ Sur une carte : mots-clés précis et thème colorés par domaine ; nature, OS e
 Les informations non étayées restent « À vérifier ». Une licence du code associé ne garantit pas la licence d’un modèle, d’un service ni de ses dépendances. Ne pas déduire le prix de la licence, ni un OS du langage de programmation. Conserver les preuves et les métadonnées lors des enrichissements.
 
 Référentiels partagés : `km.resources.json` pour les natures et axes techniques ; `km.ontology.json` pour les thèmes et fonctions ; `km.colors.json` pour la palette.
+
+- Résultats de recherche : titre, liens principaux, intérêt concret et mots-clés précis colorés uniquement. Ne pas y afficher la ligne de nature/thème/OS/licence ni les inconnues « Nature à vérifier » ou « Non précisée ». Ces métadonnées restent dans la fiche et les filtres. Ne pas répéter un hashtag sous forme de catégorie supplémentaire.

@@ -36,3 +36,5 @@ L’intérêt décrit en 6 à 15 mots l’action utile et son résultat, documen
 ## Application et limites
 
 La règle s’applique au pipeline, aux fiches existantes, au viewer M2 et à la publication GitHub. Les tests doivent couvrir la stabilité des familles, la palette historique, l’affichage coloré des mots-clés, les métadonnées neutres et la séparation avec les risques. Le contrôle automatique filtre les tags génériques et les doublons ; il ne certifie pas à lui seul la pertinence sémantique de toutes les anciennes fiches.
+
+- Résultats de recherche : titre, liens principaux, intérêt concret et mots-clés précis colorés uniquement. Ne pas y afficher la ligne de nature/thème/OS/licence ni les inconnues « Nature à vérifier » ou « Non précisée ». Ces métadonnées restent dans la fiche et les filtres. Ne pas répéter un hashtag sous forme de catégorie supplémentaire.
