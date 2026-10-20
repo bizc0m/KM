@@ -11,10 +11,18 @@ Veille Raindrop KM Monitor / plateforme OSINT.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.osint risk.sensitive
+- Version : 1.1
+- Identifiants : domain.osint
 - Sujets : Cybersécurité > Renseignement en sources ouvertes
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://intelfetch.net/features](https://intelfetch.net/features)

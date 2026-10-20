@@ -15,13 +15,22 @@ Crée des diapositives avec un agent sans configuration complexe
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.coding domain.dev.quality domain.media.image domain.dev.web capability.code.assist compatibility.format.pdf risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.dev.quality domain.media.image domain.dev.web capability.code.assist compatibility.format.pdf source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel > Qualité du code ; Audio, vidéo et création > Images et graphisme ; Développement logiciel > Développement web
 - Fonctions : Assister le développement
 - Compatibilités : Formats > PDF
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/open-slide/open-slide
 
 ## Sources
 

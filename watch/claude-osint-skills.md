@@ -11,13 +11,22 @@
 
 ## Ontologie
 
-- Version : 1.0
+- Version : 1.1
 - Identifiants : domain.ai.agents.skills domain.osint capability.skills compatibility.integration.claude-general risk.offensive source.github
 - Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Cybersécurité > Renseignement en sources ouvertes
 - Fonctions : Étendre les compétences d’un agent
 - Compatibilités : Intégrations > Claude
 - Risques : Usage offensif explicite
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : Collection de skills
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

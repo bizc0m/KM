@@ -11,10 +11,18 @@ Veille ressource KM / template Notion pour preparation de projet IA.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.data.documents risk.sensitive
+- Version : 1.1
+- Identifiants : domain.ai domain.data.documents
 - Sujets : Intelligence artificielle ; Données et connaissances > Documents
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://app.notion.com/p/Les-7-Docs-avant-de-coder-avec-l-IA-Template-complet-3679af7a5100817091a8e3a482f3341c](https://app.notion.com/p/Les-7-Docs-avant-de-coder-avec-l-IA-Template-complet-3679af7a5100817091a8e3a482f3341c)

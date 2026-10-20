@@ -15,12 +15,21 @@ Mise à jour immédiate des connaissances pour un chatbot sans retard.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified capability.deduplicate risk.sensitive source.noteplan
+- Version : 1.1
+- Identifiants : domain.unclassified capability.deduplicate source.noteplan lifecycle.active
 - Sujets : À qualifier
 - Fonctions : Détecter les doublons
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

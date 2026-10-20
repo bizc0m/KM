@@ -24,3 +24,12 @@ test('verified GitHub forks resolve to one upstream project',async()=>{
  assert.equal(repositoryKey('https://github.com/abdullakala/anthropic-cybersecurity-skills'),'https://github.com/mukul975/anthropic-cybersecurity-skills');
  assert.equal(repositoryKey('https://github.com/other/independent-project'),'https://github.com/other/independent-project');
 });
+test('resource axes preserve evidence and never equate GitHub with free or open source',async()=>{
+ const {resourceMetadata,resourceMarkdown}=await import('../scripts/km-resource-metadata.mjs');
+ const unknown=resourceMetadata('# Free LLM API\n\n## Sources\n\nhttps://github.com/example/tool');
+ assert.equal(unknown.license,'À vérifier');assert.equal(unknown.pricing,'À vérifier');assert.deepEqual(unknown.os,['À vérifier']);
+ const saved=resourceMetadata('# Toolkit\n'+resourceMarkdown({nature:'CLI',os:['macOS','Linux'],license:'MIT',pricing:'Payant',access:['Terminal'],evidence:'https://github.com/example/tool'}));
+ assert.equal(saved.license,'MIT');assert.equal(saved.pricing,'Payant');assert.deepEqual(saved.os,['macOS','Linux']);
+ assert.deepEqual(resourceMetadata('# Python SDK\n## Tags\n#python').os,['À vérifier']);
+ assert.deepEqual(resourceMetadata('# App\n## Tags\n#macos').os,['macOS']);
+});

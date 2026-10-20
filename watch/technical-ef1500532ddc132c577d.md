@@ -15,12 +15,21 @@ Convertir une idée en court-métrage sans édition
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.media.video capability.generate.video source.noteplan source.x lifecycle.review
+- Version : 1.1
+- Identifiants : domain.ai domain.media.video capability.generate.video source.noteplan source.x lifecycle.active
 - Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
 - Fonctions : Générer des contenus > Générer une vidéo
 - Provenance : NotePlan Calendar ; X / Twitter
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

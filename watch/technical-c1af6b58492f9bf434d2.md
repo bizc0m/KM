@@ -15,12 +15,21 @@ Exécute des tâches web complexes avec un navigateur contrôlé par un modèle 
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.dev.browser capability.automation.browser risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.dev.browser capability.automation.browser source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Développement logiciel > Outils de navigateur
 - Fonctions : Automatiser des actions > Automatiser le navigateur
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/browser-use/browser-use
 
 ## Sources
 

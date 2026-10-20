@@ -15,12 +15,21 @@ Automatisation des recherches OSINT via des requêtes Google dorking avancées.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.osint domain.security.testing capability.automation capability.security.pentest risk.sensitive source.raindrop source.x
+- Version : 1.1
+- Identifiants : domain.osint domain.security.testing capability.automation capability.security.pentest source.raindrop source.x lifecycle.active
 - Sujets : Cybersécurité > Renseignement en sources ouvertes ; Cybersécurité > Tests de sécurité
 - Fonctions : Automatiser des actions ; Tester la sécurité
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

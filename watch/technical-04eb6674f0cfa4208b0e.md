@@ -13,11 +13,20 @@ Génère un plan de test pour une migration de base de données.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.llm domain.dev.testing domain.infrastructure.database risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.llm domain.dev.testing domain.infrastructure.database source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Modèles de langage ; Développement logiciel > Tests logiciels ; Infrastructure > Bases de données
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Anil-matcha/awesome-gpt-6-astra
 
 ## Sources
 

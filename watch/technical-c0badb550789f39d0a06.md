@@ -15,12 +15,21 @@ Analyse de site pour identifier les problèmes SEO
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.data.analytics domain.communication capability.automation.publish risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.data.analytics domain.communication capability.automation.publish source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Données et connaissances > Analyse de fréquentation ; Communication et publication
 - Fonctions : Automatiser des actions > Publier sur plusieurs réseaux
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : Extension / plugin
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/nowork-studio/notfair-plugin
 
 ## Sources
 

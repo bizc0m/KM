@@ -23,3 +23,13 @@ Source: NotePlan M5 Calendar 2026-08-29..2026-08-31
 Aucune suppression effectuee. Integration faite dans KM/Base/watch sur M5 via fichiers Markdown.
 
 ## Tags
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

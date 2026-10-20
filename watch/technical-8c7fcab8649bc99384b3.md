@@ -15,12 +15,21 @@ Rejoindre des serveurs MCP pour accéder à des outils et données.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.infrastructure domain.ai.agents.integration compatibility.protocol.mcp risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.infrastructure domain.ai.agents.integration compatibility.protocol.mcp source.noteplan source.github source.x lifecycle.active
 - Sujets : Infrastructure ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
 - Compatibilités : Protocoles > MCP
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/nowork-studio/awesome-public-mcp-servers
 
 ## Sources
 

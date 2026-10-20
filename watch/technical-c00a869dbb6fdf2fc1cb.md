@@ -13,11 +13,20 @@ Télécharger des fichiers via des torrents et les stocker en cloud
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.active
 - Sujets : À qualifier
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/jpillora/node-torrent-cloud
 
 ## Sources
 

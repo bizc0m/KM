@@ -13,11 +13,20 @@ Organiser des tâches, notes et événements dans un seul espace.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.data.notes risk.sensitive source.noteplan
+- Version : 1.1
+- Identifiants : domain.data.notes source.noteplan lifecycle.active
 - Sujets : Données et connaissances > Notes et organisation
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

@@ -13,11 +13,20 @@ Réduction du temps de démarrage froid grâce à des optimisations de charge et
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents risk.sensitive source.noteplan source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents source.noteplan source.github lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

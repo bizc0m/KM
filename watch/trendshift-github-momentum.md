@@ -11,10 +11,18 @@ Veille Raindrop KM Monitor / detection tendances GitHub.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified risk.sensitive
+- Version : 1.1
+- Identifiants : domain.unclassified
 - Sujets : À qualifier
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://trendshift.io/](https://trendshift.io/)

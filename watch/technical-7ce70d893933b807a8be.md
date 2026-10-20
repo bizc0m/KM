@@ -15,12 +15,21 @@ Capturer et stocker le contexte des conversations IA pour le réutiliser dans d'
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.memory domain.data.notes capability.memory capability.notes.capture risk.sensitive source.noteplan
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory domain.data.notes capability.memory capability.notes.capture source.noteplan lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Mémoire des agents ; Données et connaissances > Notes et organisation
 - Fonctions : Conserver le contexte ; Capturer des notes
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

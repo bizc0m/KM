@@ -15,13 +15,22 @@ Propose des corrections de code en temps réel via un terminal interactif
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.coding domain.ai.llm domain.dev.quality domain.infrastructure capability.code.assist compatibility.interface.terminal risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.ai.llm domain.dev.quality domain.infrastructure capability.code.assist compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Modèles de langage ; Développement logiciel > Qualité du code ; Infrastructure
 - Fonctions : Assister le développement
 - Compatibilités : Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/ovh/shai
 
 ## Sources
 

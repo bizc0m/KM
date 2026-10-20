@@ -11,12 +11,20 @@ Veille Raindrop KM Monitor.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.skills domain.data.research capability.skills capability.research risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills domain.data.research capability.skills capability.research source.github
 - Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Données et connaissances > Recherche documentaire
 - Fonctions : Étendre les compétences d’un agent ; Rechercher des documents
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : Skill individuel
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://github.com/mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)

@@ -12,6 +12,22 @@ veille agents IA / automatisation.
 
 `watch:top-5-sites-pour-vibe-coders-edition-niche`
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents capability.automation
+- Sujets : Intelligence artificielle > Agents IA
+- Fonctions : Automatiser des actions
+
 ## Sources
 - Source: [https://rocky-cannon-2d6.notion.site/Top-5-Sites-pour-Vibe-Coders-dition-Niche-3861bf8e666f8084bfecdbd085110e90](https://rocky-cannon-2d6.notion.site/Top-5-Sites-pour-Vibe-Coders-dition-Niche-3861bf8e666f8084bfecdbd085110e90)
 

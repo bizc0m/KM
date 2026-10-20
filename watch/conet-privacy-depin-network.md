@@ -11,10 +11,18 @@ Veille infra privacy / DePIN / reseau decentralise.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.infrastructure.network domain.finance lifecycle.review
+- Version : 1.1
+- Identifiants : domain.infrastructure.network domain.finance
 - Sujets : Infrastructure > Réseaux ; Analyse financière
-- État : À vérifier
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

@@ -15,12 +15,21 @@ Planifier des tâches avec des marques pour afficher des points bleus dans le ca
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.data.notes domain.data.organization capability.automation.schedule risk.sensitive source.noteplan
+- Version : 1.1
+- Identifiants : domain.data.notes domain.data.organization capability.automation.schedule source.noteplan lifecycle.active
 - Sujets : Données et connaissances > Notes et organisation ; Données et connaissances > Organisation du travail
 - Fonctions : Automatiser des actions > Planifier des tâches
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

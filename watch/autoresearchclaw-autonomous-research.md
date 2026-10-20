@@ -11,12 +11,20 @@ Veille outils IA / agent de recherche autonome.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.data.research capability.research risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.data.research capability.research source.github
 - Sujets : Intelligence artificielle > Agents IA ; Données et connaissances > Recherche documentaire
 - Fonctions : Rechercher des documents
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : Agent spécialisé
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

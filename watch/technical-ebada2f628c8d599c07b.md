@@ -15,12 +15,21 @@ Sauvegarder et organiser le contexte des sessions IA pour retrouver facilement l
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.memory capability.memory risk.sensitive source.raindrop source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory capability.memory source.raindrop source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Mémoire des agents
 - Fonctions : Conserver le contexte
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

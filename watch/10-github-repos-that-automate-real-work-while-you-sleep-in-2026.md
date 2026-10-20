@@ -9,11 +9,19 @@ Veille Raindrop KM Monitor.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified risk.sensitive source.x
+- Version : 1.1
+- Identifiants : domain.unclassified source.x
 - Sujets : À qualifier
-- Risques : Risque signalé
 - Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/heynavtoor/status/2065348690605400376](https://x.com/heynavtoor/status/2065348690605400376)

@@ -13,11 +13,20 @@ Ajouter des rôles d'agents pour des conseils spécialisés.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents source.noteplan source.x source.github lifecycle.review
+- Version : 1.1
+- Identifiants : domain.ai.agents source.noteplan source.x source.github lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

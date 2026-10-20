@@ -13,11 +13,20 @@ Suivre les prix des actions en temps réel et activer des alertes personnalisée
 
 ## Ontologie
 
-- Version : 1.0
+- Version : 1.1
 - Identifiants : domain.unclassified source.raindrop source.github lifecycle.active
 - Sujets : À qualifier
 - Provenance : Raindrop ; GitHub
 - État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : AGPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Open-Dev-Society/OpenStock
 
 ## Sources
 

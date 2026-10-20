@@ -15,12 +15,21 @@ Supprime des éléments indésirables d'images en ligne
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.media.image capability.edit.image source.noteplan source.x lifecycle.review
+- Version : 1.1
+- Identifiants : domain.ai domain.media.image capability.edit.image source.noteplan source.x lifecycle.active
 - Sujets : Intelligence artificielle ; Audio, vidéo et création > Images et graphisme
 - Fonctions : Compresser une image
 - Provenance : NotePlan Calendar ; X / Twitter
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

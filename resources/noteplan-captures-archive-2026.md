@@ -11,12 +11,20 @@ archive KM / captures NotePlan.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified capability.notes.capture compatibility.integration.noteplan compatibility.os.macos lifecycle.review
+- Version : 1.1
+- Identifiants : domain.unclassified capability.notes.capture compatibility.integration.noteplan compatibility.os.macos
 - Sujets : À qualifier
 - Fonctions : Capturer des notes
 - Compatibilités : Intégrations > NotePlan ; Systèmes > macOS
-- État : À vérifier
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

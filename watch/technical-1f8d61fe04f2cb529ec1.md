@@ -13,11 +13,20 @@ Exécute des scripts et des tests rapidement sans dépendances externes
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.runtime risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.dev.runtime source.noteplan source.github source.x lifecycle.active
 - Sujets : Développement logiciel > Environnements d’exécution
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/oven-sh/bun
 
 ## Sources
 

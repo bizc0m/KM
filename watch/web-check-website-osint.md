@@ -11,11 +11,19 @@
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.osint risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.osint source.github
 - Sujets : Cybersécurité > Renseignement en sources ouvertes
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

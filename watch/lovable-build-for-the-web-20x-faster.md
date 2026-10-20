@@ -11,10 +11,18 @@ Veille Raindrop KM Monitor / generateur web IA.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.dev.ui domain.infrastructure.deployment risk.sensitive
+- Version : 1.1
+- Identifiants : domain.ai domain.dev.ui domain.infrastructure.deployment
 - Sujets : Intelligence artificielle ; Développement logiciel > Conception d’interfaces ; Infrastructure > Déploiement et hébergement
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://lovable.dev/dashboard](https://lovable.dev/dashboard)

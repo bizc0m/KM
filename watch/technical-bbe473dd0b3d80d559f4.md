@@ -15,12 +15,21 @@ actif
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified capability.simulate risk.sensitive source.noteplan
+- Version : 1.1
+- Identifiants : domain.unclassified capability.simulate source.noteplan lifecycle.active
 - Sujets : À qualifier
 - Fonctions : Simuler et tester
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

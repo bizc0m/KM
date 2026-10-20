@@ -15,12 +15,21 @@ Permet la reconstruction 3D de plans avec précision et contours nets.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.video domain.media.3d capability.generate.3d risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.media.video domain.media.3d capability.generate.3d source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Création 3D
 - Fonctions : Générer des contenus > Générer un objet 3D
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/THU-LYJ-Lab/AlphaTablets
 
 ## Sources
 

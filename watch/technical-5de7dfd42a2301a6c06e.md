@@ -15,12 +15,21 @@ Détecte les bots sur les applications web sans serveur.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.infrastructure domain.security.web capability.security.detectbots risk.sensitive source.raindrop source.github
+- Version : 1.1
+- Identifiants : domain.infrastructure domain.security.web capability.security.detectbots source.raindrop source.github lifecycle.active
 - Sujets : Infrastructure ; Cybersécurité > Sécurité web
 - Fonctions : Détecter les bots
-- Risques : Risque signalé
 - Provenance : Raindrop ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/fingerprintjs/BotD
 
 ## Sources
 

@@ -15,11 +15,20 @@ Identifier des plateformes en ligne liées à un utilisateur.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.osint risk.sensitive source.raindrop source.x
+- Version : 1.1
+- Identifiants : domain.osint source.raindrop source.x lifecycle.active
 - Sujets : Cybersécurité > Renseignement en sources ouvertes
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

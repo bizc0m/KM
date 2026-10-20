@@ -15,12 +15,21 @@ Analyse technique SEO pour optimiser le référencement
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.coding domain.ai.agents.skills capability.skills risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.ai.agents.skills capability.skills source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents
 - Fonctions : Étendre les compétences d’un agent
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : CC0-1.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/nowork-studio/awesome-seo-agent-skills
 
 ## Sources
 

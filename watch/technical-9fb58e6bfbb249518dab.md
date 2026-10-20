@@ -15,12 +15,21 @@ Crée des canevas adaptatifs pour l'usage personnel
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified compatibility.os.macos source.noteplan source.x lifecycle.review
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.os.macos source.noteplan source.x lifecycle.active
 - Sujets : À qualifier
 - Compatibilités : Systèmes > macOS
 - Provenance : NotePlan Calendar ; X / Twitter
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

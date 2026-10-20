@@ -15,12 +15,21 @@ exécuter des commandes projet spécifiques sans complexité
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified compatibility.os.macos risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.os.macos source.noteplan source.github source.x lifecycle.active
 - Sujets : À qualifier
 - Compatibilités : Systèmes > macOS
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : CC0-1.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/casey/just
 
 ## Sources
 

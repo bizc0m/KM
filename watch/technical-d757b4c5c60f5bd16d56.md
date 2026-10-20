@@ -13,11 +13,20 @@ Fournit des alternatives open-source aux outils SaaS payants
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.data.catalogues risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.data.catalogues source.noteplan source.github source.x lifecycle.active
 - Sujets : Données et connaissances > Catalogues de ressources
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : Application web
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Anil-matcha/awesome-vibecoded-saas
 
 ## Sources
 

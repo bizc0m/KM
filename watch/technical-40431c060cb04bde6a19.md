@@ -13,11 +13,20 @@ Résout efficacement les dépendances logicielles avec des messages d'erreur cla
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.dependencies risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.dev.dependencies source.noteplan source.github source.x lifecycle.active
 - Sujets : Développement logiciel > Paquets et dépendances
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MPL-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/pubgrub-rs/pubgrub
 
 ## Sources
 

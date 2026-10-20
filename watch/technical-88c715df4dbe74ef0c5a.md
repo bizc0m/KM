@@ -15,12 +15,21 @@ Crée des vidéos MP4 à partir de textes avec des agents AI.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.video domain.dev.web domain.ai.agents.skills capability.edit.video capability.generate.video capability.skills risk.sensitive source.raindrop source.x
+- Version : 1.1
+- Identifiants : domain.media.video domain.dev.web domain.ai.agents.skills capability.edit.video capability.generate.video capability.skills source.raindrop source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Vidéo ; Développement logiciel > Développement web ; Intelligence artificielle > Agents IA > Compétences des agents
 - Fonctions : Monter une vidéo ; Générer des contenus > Générer une vidéo ; Étendre les compétences d’un agent
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

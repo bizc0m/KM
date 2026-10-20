@@ -15,12 +15,21 @@ Visualiser et modifier des fichiers CSV avec interface intuitive et fonctionnali
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified compatibility.os.macos risk.sensitive source.raindrop source.github
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.os.macos source.raindrop source.github lifecycle.active
 - Sujets : À qualifier
 - Compatibilités : Systèmes > macOS
-- Risques : Risque signalé
 - Provenance : Raindrop ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/323Works/csv-viewer-macos
 
 ## Sources
 

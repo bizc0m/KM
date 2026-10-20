@@ -9,11 +9,19 @@ Veille Raindrop KM Monitor.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.llm risk.sensitive source.x
+- Version : 1.1
+- Identifiants : domain.ai.llm source.x
 - Sujets : Intelligence artificielle > Modèles de langage
-- Risques : Risque signalé
 - Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/nahid_pro09/status/2066785772431397317](https://x.com/nahid_pro09/status/2066785772431397317)

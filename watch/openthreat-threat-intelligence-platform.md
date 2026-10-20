@@ -12,6 +12,22 @@ Veille outil cyber / threat intelligence.
 
 `watch:openthreat-threat-intelligence-platform`
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint source.x
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Provenance : X / Twitter
+
 ## Sources
 - Source: [https://x.com/vivekintel/status/2071112289173041586](https://x.com/vivekintel/status/2071112289173041586)
 

@@ -15,11 +15,20 @@ Afficher des articles NotFair avec Next.js et un API privé
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.image domain.dev.web risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.media.image domain.dev.web source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Images et graphisme ; Développement logiciel > Développement web
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/nowork-studio/notfair-nextjs-blog
 
 ## Sources
 

@@ -15,12 +15,21 @@ Lire des vidéos YouTube via mov-cli avec options audio et shorts
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.audio domain.media.video compatibility.interface.terminal risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.media.audio domain.media.video compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo
 - Compatibilités : Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : CLI
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/mov-cli/mov-cli-youtube
 
 ## Sources
 

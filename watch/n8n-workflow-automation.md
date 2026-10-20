@@ -11,13 +11,21 @@ Veille outil / automatisation workflows.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.integration capability.automation compatibility.deployment.selfhosted risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents.integration capability.automation compatibility.deployment.selfhosted source.github
 - Sujets : Intelligence artificielle > Agents IA > Connecteurs et outils des agents
 - Fonctions : Automatiser des actions
 - Compatibilités : Exécution > Auto-hébergement
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/n8n-io/n8n`

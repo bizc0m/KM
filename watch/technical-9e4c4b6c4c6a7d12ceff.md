@@ -13,11 +13,20 @@ Ajoute des pages wiki pour des entités et concepts clés.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.ai.llm risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.ai.llm source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Intelligence artificielle > Modèles de langage
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/SamurAIGPT/llm-wiki-agent
 
 ## Sources
 

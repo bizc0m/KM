@@ -11,13 +11,21 @@ Veille outils IA / intelligence de sessions agents.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.coding domain.data.search capability.code.assist compatibility.deployment.local risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.data.search capability.code.assist compatibility.deployment.local source.github
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Données et connaissances > Recherche et indexation
 - Fonctions : Assister le développement
 - Compatibilités : Exécution > Exécution locale
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

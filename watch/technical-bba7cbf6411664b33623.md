@@ -13,11 +13,20 @@ Permet d'automatiser la communication avec les utilisateurs sur XianYu.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.image risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.media.image source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Images et graphisme
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/cv-cat/XianYuApis
 
 ## Sources
 

@@ -15,12 +15,21 @@ Génère un script à partir d'un sujet avec GPT
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.media.video capability.generate.video risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai domain.media.video capability.generate.video source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
 - Fonctions : Générer des contenus > Générer une vidéo
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/SamurAIGPT/AI-Faceless-Video-Generator
 
 ## Sources
 

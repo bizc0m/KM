@@ -11,11 +11,19 @@ Veille Raindrop KM Monitor / lecteur RSS macOS.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified compatibility.interface.desktop compatibility.os.macos compatibility.protocol.rss lifecycle.active
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.interface.desktop compatibility.os.macos compatibility.protocol.rss
 - Sujets : À qualifier
 - Compatibilités : Interfaces > Application de bureau ; Systèmes > macOS ; Protocoles > RSS
-- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

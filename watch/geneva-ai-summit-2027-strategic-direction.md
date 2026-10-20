@@ -12,6 +12,21 @@ Strategic AI governance watch / public policy signal.
 
 `watch:geneva-ai-summit-2027-strategic-direction`
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.governance
+- Sujets : Intelligence artificielle > Gouvernance de l’IA
+
 ## Sources
 
 - Source final: `https://www.ictjournal.ch/news/2026-08-12/le-conseil-federal-fixe-le-cap-du-geneva-ai-summit-2027`

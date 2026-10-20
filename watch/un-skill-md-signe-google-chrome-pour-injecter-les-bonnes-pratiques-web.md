@@ -11,12 +11,20 @@ Veille Raindrop KM Monitor.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.skills capability.skills risk.sensitive source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills capability.skills source.x
 - Sujets : Intelligence artificielle > Agents IA > Compétences des agents
 - Fonctions : Étendre les compétences d’un agent
-- Risques : Risque signalé
 - Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : Skill individuel
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/camilleroux/status/2062504651463729480](https://x.com/camilleroux/status/2062504651463729480)

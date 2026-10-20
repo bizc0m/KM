@@ -13,11 +13,20 @@ Extraire automatiquement des moments viraux d'une vidéo YouTube.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.video risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.media.video source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Vidéo
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/SamurAIGPT/ai-clipping-generator
 
 ## Sources
 

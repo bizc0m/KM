@@ -12,6 +12,22 @@ veille agents IA / automatisation.
 
 `watch:guide-claude-code-remotion-ia-boss`
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents capability.automation
+- Sujets : Intelligence artificielle > Agents IA
+- Fonctions : Automatiser des actions
+
 ## Sources
 - Source: [https://docs.google.com/document/u/0/d/1oAATWl9iCTVELCmEUv1PvMYbxig86ezjncWkEPl1YoY/mobilebasic](https://docs.google.com/document/u/0/d/1oAATWl9iCTVELCmEUv1PvMYbxig86ezjncWkEPl1YoY/mobilebasic)
 

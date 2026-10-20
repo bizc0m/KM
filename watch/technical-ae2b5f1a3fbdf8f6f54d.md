@@ -15,12 +15,21 @@ Permet de créer des bots multiplateformes avec des adaptateurs prédéfinis
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev compatibility.language.python compatibility.interface.terminal risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.dev compatibility.language.python compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
 - Sujets : Développement logiciel
 - Compatibilités : Langages > Python ; Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Kaguya233qwq/myfish
 
 ## Sources
 

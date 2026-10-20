@@ -13,11 +13,20 @@ Gérer les disponibilités et planifier des rendez-vous localement
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.data.organization source.noteplan source.github source.x lifecycle.review
+- Version : 1.1
+- Identifiants : domain.data.organization source.noteplan source.github source.x lifecycle.active
 - Sujets : Données et connaissances > Organisation du travail
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/calcom/cal.diy
 
 ## Sources
 

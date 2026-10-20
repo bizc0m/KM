@@ -13,11 +13,20 @@ Gère les emails via Cloudflare Workers avec isolation par boîte aux lettres et
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.communication domain.infrastructure.database risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.communication domain.infrastructure.database source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Communication et publication ; Infrastructure > Bases de données
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/cloudflare/agentic-inbox
 
 ## Sources
 

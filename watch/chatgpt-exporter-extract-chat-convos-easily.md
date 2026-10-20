@@ -12,6 +12,22 @@ export conversations ChatGPT multi-format.
 
 `watch:chatgpt-exporter-extract-chat-convos-easily`
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.integration.chatgpt compatibility.format.pdf compatibility.format.markdown
+- Sujets : À qualifier
+- Compatibilités : Intégrations > ChatGPT ; Formats > PDF ; Formats > Markdown
+
 ## Sources
 
 - Source finale: `https://www.chatgptexporter.com/en`

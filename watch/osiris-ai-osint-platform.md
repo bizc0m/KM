@@ -46,6 +46,23 @@ Web app (SPA) — style "poste de commandement" avec carte interactive
 - Framer Motion, Lucide React
 - Multi-stage node:22-alpine Docker
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.image domain.osint domain.dev.web domain.science.weather capability.forecast compatibility.protocol.rss
+- Sujets : Audio, vidéo et création > Images et graphisme ; Cybersécurité > Renseignement en sources ouvertes ; Développement logiciel > Développement web ; Sciences et prévision > Prévisions météorologiques
+- Fonctions : Prévoir des mesures
+- Compatibilités : Protocoles > RSS
+
 ## Sources de données
 - **Aviation:** OpenSky Network
 - **CCTV:** TfL, WSDOT, Caltrans, NYC DOT, VicRoads

@@ -15,12 +15,21 @@ Convertit des maillages texturés en voxel O-Voxel en quelques secondes.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.image domain.communication.messaging domain.media.3d capability.generate.image capability.generate.3d risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.media.image domain.communication.messaging domain.media.3d capability.generate.image capability.generate.3d source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Images et graphisme ; Communication et publication > Messagerie ; Audio, vidéo et création > Création 3D
 - Fonctions : Générer des contenus > Générer une image ; Générer des contenus > Générer un objet 3D
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/microsoft/TRELLIS.2
 
 ## Sources
 

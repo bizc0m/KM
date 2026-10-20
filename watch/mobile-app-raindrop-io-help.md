@@ -12,6 +12,21 @@ veille source Raindrop / a verifier.
 
 `watch:mobile-app-raindrop-io-help`
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified
+- Sujets : À qualifier
+
 ## Sources
 - Source: [https://help.raindrop.io/mobile-app#add-to-unsorted-action](https://help.raindrop.io/mobile-app#add-to-unsorted-action)
 

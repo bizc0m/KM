@@ -15,10 +15,18 @@ Identifier les auteurs des posts utilises comme sources de veille, sans les trai
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified risk.sensitive
+- Version : 1.1
+- Identifiants : domain.unclassified
 - Sujets : À qualifier
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources auteurs
 

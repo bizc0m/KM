@@ -15,12 +15,21 @@ Structurer le développement avec des spécifications
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.coding domain.dev.quality capability.code.assist risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.dev.quality capability.code.assist source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel > Qualité du code
 - Fonctions : Assister le développement
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/github/spec-kit
 
 ## Sources
 

@@ -13,11 +13,20 @@ Déployer Odysseus via Docker pour gérer des tâches IA localement.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai risk.sensitive source.raindrop source.github
+- Version : 1.1
+- Identifiants : domain.ai source.raindrop source.github lifecycle.active
 - Sujets : Intelligence artificielle
-- Risques : Risque signalé
 - Provenance : Raindrop ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : AGPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/odysseus-dev/odysseus
 
 ## Sources
 

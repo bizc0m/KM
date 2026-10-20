@@ -15,13 +15,22 @@ Permet d'interagir avec un avatar IA en temps réel
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.llm domain.media.audio.voice capability.voice.synthesize compatibility.interface.desktop risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.llm domain.media.audio.voice capability.voice.synthesize compatibility.interface.desktop source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Modèles de langage ; Audio, vidéo et création > Audio > Voix
 - Fonctions : Traitement de la voix > Synthétiser une voix
 - Compatibilités : Interfaces > Application de bureau
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Open-LLM-VTuber/Open-LLM-VTuber
 
 ## Sources
 

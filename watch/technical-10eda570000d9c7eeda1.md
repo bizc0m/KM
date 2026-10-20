@@ -15,12 +15,21 @@ Crée des images sociales à partir de Markdown
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.image domain.dev.web domain.data.documents capability.generate.image capability.documents.convert risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.media.image domain.dev.web domain.data.documents capability.generate.image capability.documents.convert source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Images et graphisme ; Développement logiciel > Développement web ; Données et connaissances > Documents
 - Fonctions : Générer des contenus > Générer une image ; Traiter des documents > Convertir des documents
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/gcui-art/markdown-to-image
 
 ## Sources
 

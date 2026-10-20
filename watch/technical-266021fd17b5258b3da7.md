@@ -15,12 +15,21 @@ PentestGPT détecte des vulnérabilités sans intervention humaine.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.security.testing capability.security.pentest capability.security.vulnerabilities risk.sensitive source.raindrop source.x
+- Version : 1.1
+- Identifiants : domain.ai domain.security.testing capability.security.pentest capability.security.vulnerabilities source.raindrop source.x lifecycle.active
 - Sujets : Intelligence artificielle ; Cybersécurité > Tests de sécurité
 - Fonctions : Tester la sécurité ; Détecter des vulnérabilités
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

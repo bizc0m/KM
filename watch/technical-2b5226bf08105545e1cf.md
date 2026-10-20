@@ -13,11 +13,20 @@ Crée une API REST sans configuration complexe
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.dev.api domain.infrastructure.database risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai domain.dev.api domain.infrastructure.database source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle ; Développement logiciel > API et services applicatifs ; Infrastructure > Bases de données
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/supabase/supabase
 
 ## Sources
 

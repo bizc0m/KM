@@ -15,11 +15,20 @@ Exécute des ordres de trading en temps réel sur des marchés de prédiction
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.finance.prediction risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
 - Sujets : Analyse financière > Marchés prédictifs
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/HarrierOnChain/Fanatics-Markets
 
 ## Sources
 

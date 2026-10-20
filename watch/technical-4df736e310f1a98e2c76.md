@@ -15,12 +15,21 @@ Enregistre des démos nettoyées sans abonnement
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.media.video domain.infrastructure domain.dev.desktop domain.data.organization domain.media.audio.voice capability.voice.synthesize capability.generate.video source.noteplan source.x lifecycle.review
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.media.video domain.infrastructure domain.dev.desktop domain.data.organization domain.media.audio.voice capability.voice.synthesize capability.generate.video source.noteplan source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Audio, vidéo et création > Vidéo ; Infrastructure ; Développement logiciel > Applications et interfaces de bureau ; Données et connaissances > Organisation du travail ; Audio, vidéo et création > Audio > Voix
 - Fonctions : Traitement de la voix > Synthétiser une voix ; Générer des contenus > Générer une vidéo
 - Provenance : NotePlan Calendar ; X / Twitter
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : Application web
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

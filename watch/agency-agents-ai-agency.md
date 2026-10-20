@@ -11,11 +11,19 @@ Veille Raindrop KM Monitor / bibliotheque d'agents IA specialises.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.orchestration risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents.orchestration source.github
 - Sujets : Intelligence artificielle > Agents IA > Orchestration des agents
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/msitarzewski/agency-agents`

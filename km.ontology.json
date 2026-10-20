@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "roots": [
     "domain",
     "capability",
@@ -1562,6 +1562,55 @@
       ],
       "patterns": [
         "profils de navigateur"
+      ]
+    },
+    {
+      "id": "domain.productivity",
+      "label": "Productivité",
+      "parent": "domain",
+      "aliases": []
+    },
+    {
+      "id": "domain.productivity.tasks",
+      "label": "Tâches et agenda",
+      "parent": "domain.productivity",
+      "aliases": [
+        "#gestion-taches",
+        "#agenda",
+        "#calendar",
+        "#task-management"
+      ]
+    },
+    {
+      "id": "domain.productivity.automation",
+      "label": "Automatisation personnelle",
+      "parent": "domain.productivity",
+      "aliases": [
+        "#automatisation-personnelle"
+      ]
+    },
+    {
+      "id": "domain.education",
+      "label": "Formation",
+      "parent": "domain",
+      "aliases": []
+    },
+    {
+      "id": "domain.education.learning",
+      "label": "Apprentissage et exercices",
+      "parent": "domain.education",
+      "aliases": [
+        "#apprentissage",
+        "#exercices",
+        "#learning"
+      ]
+    },
+    {
+      "id": "domain.education.languages",
+      "label": "Apprentissage des langues",
+      "parent": "domain.education",
+      "aliases": [
+        "#apprentissage-langues"
       ]
     }
   ]

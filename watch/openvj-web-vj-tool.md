@@ -11,11 +11,19 @@
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.live source.github lifecycle.active
+- Version : 1.1
+- Identifiants : domain.media.live source.github
 - Sujets : Audio, vidéo et création > Création et diffusion en direct
 - Provenance : GitHub
-- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

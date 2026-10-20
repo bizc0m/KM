@@ -12,6 +12,22 @@ veille agents IA / automatisation.
 
 `watch:ideogram-4-0-the-open-model-for-visual-intelligence`
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.media.image capability.automation
+- Sujets : Intelligence artificielle > Agents IA ; Audio, vidéo et création > Images et graphisme
+- Fonctions : Automatiser des actions
+
 ## Sources
 - Source: [https://ideogram.ai](https://ideogram.ai)
 

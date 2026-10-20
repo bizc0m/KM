@@ -15,13 +15,22 @@ Génère des scripts Python pour automatiser des tâches récurrentes.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai capability.automation compatibility.os.macos compatibility.language.python compatibility.interface.terminal risk.sensitive source.raindrop
+- Version : 1.1
+- Identifiants : domain.ai capability.automation compatibility.os.macos compatibility.language.python compatibility.interface.terminal source.raindrop lifecycle.active
 - Sujets : Intelligence artificielle
 - Fonctions : Automatiser des actions
 - Compatibilités : Systèmes > macOS ; Langages > Python ; Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : Raindrop
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

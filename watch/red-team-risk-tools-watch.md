@@ -110,3 +110,13 @@ Critere strict : `#ROUGE` uniquement si l'outil facilite directement un usage of
 
 - Objectif : ajouter Project Eyes On comme source `#ROUGE` privacy/OSINT.
 - Risques : detection de cameras IP ouvertes et surveillance non consentie.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

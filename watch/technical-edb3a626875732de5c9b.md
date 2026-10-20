@@ -15,12 +15,21 @@ Améliore la productivité en optimisant les tâches de codage.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.quality domain.ai.agents.memory capability.memory risk.sensitive source.raindrop source.github
+- Version : 1.1
+- Identifiants : domain.dev.quality domain.ai.agents.memory capability.memory source.raindrop source.github lifecycle.active
 - Sujets : Développement logiciel > Qualité du code ; Intelligence artificielle > Agents IA > Mémoire des agents
 - Fonctions : Conserver le contexte
-- Risques : Risque signalé
 - Provenance : Raindrop ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/affaan-m/ECC
 
 ## Sources
 

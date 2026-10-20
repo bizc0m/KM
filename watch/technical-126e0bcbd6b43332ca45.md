@@ -15,12 +15,21 @@ Gérer et publier des contenus sur 14 plateformes depuis un seul outil.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.communication capability.automation.publish source.noteplan source.x lifecycle.review
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.communication capability.automation.publish source.noteplan source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Communication et publication
 - Fonctions : Automatiser des actions > Publier sur plusieurs réseaux
 - Provenance : NotePlan Calendar ; X / Twitter
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

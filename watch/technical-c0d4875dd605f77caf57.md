@@ -13,11 +13,20 @@ Permet de collaborer en temps réel sur des projets de conception
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.image domain.dev.ui risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.media.image domain.dev.ui source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Images et graphisme ; Développement logiciel > Conception d’interfaces
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MPL-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/penpot/penpot
 
 ## Sources
 

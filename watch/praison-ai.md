@@ -11,10 +11,18 @@ Veille Raindrop KM Monitor / plateforme d'agents IA.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.orchestration risk.sensitive
+- Version : 1.1
+- Identifiants : domain.ai.agents.orchestration
 - Sujets : Intelligence artificielle > Agents IA > Orchestration des agents
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://praison.ai/](https://praison.ai/)

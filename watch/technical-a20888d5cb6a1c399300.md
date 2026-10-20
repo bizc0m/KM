@@ -13,11 +13,20 @@ Génère des logos professionnels rapidement avec des outils prêts à l'emploi.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/SamurAIGPT/ai-logo-studio
 
 ## Sources
 

@@ -13,11 +13,20 @@ Accéder aux fichiers téléchargés via HTTP
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.infrastructure risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.infrastructure source.noteplan source.github source.x lifecycle.active
 - Sujets : Infrastructure
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : AGPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/jpillora/cloud-torrent
 
 ## Sources
 

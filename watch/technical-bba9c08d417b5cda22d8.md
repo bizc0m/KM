@@ -15,13 +15,22 @@ Contrôle à distance des navigateurs et ordinateurs via interface graphique
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.browser domain.ai.agents.integration capability.automation.browser compatibility.interface.desktop compatibility.interface.terminal compatibility.protocol.mcp risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.dev.browser domain.ai.agents.integration capability.automation.browser compatibility.interface.desktop compatibility.interface.terminal compatibility.protocol.mcp source.noteplan source.github source.x lifecycle.active
 - Sujets : Développement logiciel > Outils de navigateur ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
 - Fonctions : Automatiser des actions > Automatiser le navigateur
 - Compatibilités : Interfaces > Application de bureau ; Interfaces > Terminal ; Protocoles > MCP
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : CLI
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/bytedance/UI-TARS-desktop
 
 ## Sources
 

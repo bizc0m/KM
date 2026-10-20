@@ -11,11 +11,19 @@ Veille Raindrop KM Monitor / profil GitHub generative models.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.prompts domain.ai.llm source.github lifecycle.active
+- Version : 1.1
+- Identifiants : domain.ai.prompts domain.ai.llm source.github
 - Sujets : Intelligence artificielle > Instructions et prompts ; Intelligence artificielle > Modèles de langage
 - Provenance : GitHub
-- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

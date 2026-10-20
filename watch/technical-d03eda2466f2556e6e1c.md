@@ -15,12 +15,21 @@ Automatise les tests web avec des scripts.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.testing domain.dev.browser capability.automation.browser risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.dev.testing domain.dev.browser capability.automation.browser source.noteplan source.github source.x lifecycle.active
 - Sujets : Développement logiciel > Tests logiciels ; Développement logiciel > Outils de navigateur
 - Fonctions : Automatiser des actions > Automatiser le navigateur
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/SeleniumHQ/selenium
 
 ## Sources
 

@@ -74,3 +74,13 @@ Deja presents dans KM :
 
 - Objectif : integrer le post nicos_ai et dedupliquer les outils open source cites.
 - Risques : claims promotionnels, usages sensibles de yt-dlp/n8n/Fooocus.
+
+## Métadonnées
+
+- Nature : Application web
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

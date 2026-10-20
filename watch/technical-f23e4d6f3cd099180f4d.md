@@ -15,12 +15,21 @@ Gère des tâches de codage via GitHub avec l'étiquette "jules".
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.coding domain.dev.quality capability.code.assist risk.sensitive source.noteplan
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.dev.quality capability.code.assist source.noteplan lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel > Qualité du code
 - Fonctions : Assister le développement
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

@@ -11,13 +11,21 @@ Veille Raindrop KM Monitor.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.web capability.web.desktop compatibility.interface.desktop compatibility.integration.claude-general risk.sensitive source.x
+- Version : 1.1
+- Identifiants : domain.dev.web capability.web.desktop compatibility.interface.desktop compatibility.integration.claude-general source.x
 - Sujets : Développement logiciel > Développement web
 - Fonctions : Créer une application depuis un site
 - Compatibilités : Interfaces > Application de bureau ; Intégrations > Claude
-- Risques : Risque signalé
 - Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : Application bureau
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/sibyog13/status/2063609591485567189](https://x.com/sibyog13/status/2063609591485567189)

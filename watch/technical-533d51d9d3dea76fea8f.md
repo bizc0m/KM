@@ -15,13 +15,22 @@ Génère des codes et corrige les erreurs dans un projet.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.coding domain.dev.quality domain.infrastructure domain.data.notes capability.code.assist capability.automation.schedule compatibility.interface.terminal risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.dev.quality domain.infrastructure domain.data.notes capability.code.assist capability.automation.schedule compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel > Qualité du code ; Infrastructure ; Données et connaissances > Notes et organisation
 - Fonctions : Assister le développement ; Automatiser des actions > Planifier des tâches
 - Compatibilités : Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/cline/cline
 
 ## Sources
 

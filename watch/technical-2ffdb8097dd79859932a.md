@@ -15,12 +15,21 @@ CloakBrowser permet de naviguer en mode discret, évitant la détection de bot.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.security.web domain.ai.agents.memory domain.ai.agents.skills capability.security.detectbots capability.memory capability.skills source.noteplan source.x source.github lifecycle.review
+- Version : 1.1
+- Identifiants : domain.security.web domain.ai.agents.memory domain.ai.agents.skills capability.security.detectbots capability.memory capability.skills source.noteplan source.x source.github lifecycle.active
 - Sujets : Cybersécurité > Sécurité web ; Intelligence artificielle > Agents IA > Mémoire des agents ; Intelligence artificielle > Agents IA > Compétences des agents
 - Fonctions : Détecter les bots ; Conserver le contexte ; Étendre les compétences d’un agent
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

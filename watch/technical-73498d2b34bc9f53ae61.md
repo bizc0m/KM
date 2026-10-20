@@ -15,12 +15,21 @@ Rechercher et ouvrir des fichiers via des requêtes textuelles.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified compatibility.interface.terminal risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
 - Sujets : À qualifier
 - Compatibilités : Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : CLI
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/mov-cli/mov-cli-files
 
 ## Sources
 

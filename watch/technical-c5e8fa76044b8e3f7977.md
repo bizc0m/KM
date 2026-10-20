@@ -15,12 +15,21 @@ Analyse les probabilités météorologiques pour des dérivés de température.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.science.weather capability.forecast risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.science.weather capability.forecast source.x source.github lifecycle.active
 - Sujets : Sciences et prévision > Prévisions météorologiques
 - Fonctions : Prévoir des mesures
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : AGPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/yangyuan-zhen/PolyWeather
 
 ## Sources
 

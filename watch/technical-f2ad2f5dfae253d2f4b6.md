@@ -15,11 +15,20 @@ Accéder à des contenus multimédia via des liens.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.web risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.dev.web source.noteplan source.github source.x lifecycle.active
 - Sujets : Développement logiciel > Développement web
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/popcorntime/popcorntime
 
 ## Sources
 

@@ -11,11 +11,19 @@ Veille Raindrop KM Monitor / topic GitHub.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.data.catalogues risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.data.catalogues source.github
 - Sujets : Données et connaissances > Catalogues de ressources
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://github.com/topics/digital-life](https://github.com/topics/digital-life)

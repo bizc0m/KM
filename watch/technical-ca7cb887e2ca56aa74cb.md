@@ -15,12 +15,21 @@ Anonymise les données sensibles avant transmission
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.privacy domain.security.testing capability.privacy.anonymize capability.security.pentest source.noteplan source.x source.github lifecycle.review
+- Version : 1.1
+- Identifiants : domain.privacy domain.security.testing capability.privacy.anonymize capability.security.pentest source.noteplan source.x source.github lifecycle.active
 - Sujets : Cybersécurité > Protection des données ; Cybersécurité > Tests de sécurité
 - Fonctions : Anonymiser ; Tester la sécurité
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/openbashok/promptzero
 
 ## Sources
 

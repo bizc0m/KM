@@ -15,12 +15,21 @@ Analyse de site web pour créer des campagnes marquées par l'IA
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.data.web capability.scraping risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai domain.data.web capability.scraping source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle ; Données et connaissances > Collecte web
 - Fonctions : Extraire des données web
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/SamurAIGPT/Open-Pomelli
 
 ## Sources
 

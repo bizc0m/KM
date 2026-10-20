@@ -11,11 +11,20 @@ Veille Raindrop KM Monitor.
 
 ## Ontologie
 
-- Version : 1.0
+- Version : 1.1
 - Identifiants : domain.security.testing risk.offensive risk.sensitive source.x
 - Sujets : Cybersécurité > Tests de sécurité
 - Risques : Usage offensif explicite ; Risque signalé
 - Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/7h3h4ckv157/status/2066569330280759720](https://x.com/7h3h4ckv157/status/2066569330280759720)

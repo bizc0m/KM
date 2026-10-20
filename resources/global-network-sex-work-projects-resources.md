@@ -12,6 +12,22 @@ Ressource longue / veille droits humains.
 
 `resource:global-network-sex-work-projects-resources`
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified lifecycle.review
+- Sujets : À qualifier
+- État : À vérifier
+
 ## Sources
 - Source: [https://www.nswp.org](https://www.nswp.org)
 

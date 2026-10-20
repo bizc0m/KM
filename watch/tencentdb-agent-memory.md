@@ -11,13 +11,21 @@ Veille Raindrop KM Monitor / memoire long terme pour agents IA.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.memory capability.memory compatibility.deployment.local risk.sensitive source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory capability.memory compatibility.deployment.local source.github source.x
 - Sujets : Intelligence artificielle > Agents IA > Mémoire des agents
 - Fonctions : Conserver le contexte
 - Compatibilités : Exécution > Exécution locale
-- Risques : Risque signalé
 - Provenance : GitHub ; X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/TencentCloud/TencentDB-Agent-Memory`

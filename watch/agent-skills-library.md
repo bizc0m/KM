@@ -11,11 +11,19 @@ catalogue public de skills agents reutilisables.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.skills domain.data.catalogues domain.ai.prompts capability.skills risk.sensitive
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills domain.data.catalogues domain.ai.prompts capability.skills
 - Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Données et connaissances > Catalogues de ressources ; Intelligence artificielle > Instructions et prompts
 - Fonctions : Étendre les compétences d’un agent
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : Collection de skills
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

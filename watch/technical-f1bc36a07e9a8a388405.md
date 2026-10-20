@@ -13,11 +13,20 @@ Gère des profils de navigateur avec des paramètres uniques
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.browser risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.dev.browser source.noteplan source.github source.x lifecycle.active
 - Sujets : Développement logiciel > Outils de navigateur
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/CloakHQ/CloakBrowser-Manager
 
 ## Sources
 

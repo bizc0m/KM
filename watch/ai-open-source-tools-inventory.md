@@ -191,3 +191,13 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : ajouter le lot nicos_ai et 6 nouveaux outils verifies.
 - Risques : yt-dlp et generation image sont sensibles selon usage.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

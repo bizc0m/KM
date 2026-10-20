@@ -9,11 +9,19 @@ Veille Raindrop KM Monitor.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents risk.sensitive source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents source.x
 - Sujets : Intelligence artificielle > Agents IA
-- Risques : Risque signalé
 - Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/fluyeporlaweb/status/2066762822420177030](https://x.com/fluyeporlaweb/status/2066762822420177030)

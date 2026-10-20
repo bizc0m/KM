@@ -37,7 +37,7 @@ export async function loadPublicPage(url,{fetch=publicFetch}={}){
   for(const filename of ['README.md','readme.md','README.rst']){try{readme=(await fetch(base+filename)).text;if(readme)break;}catch{}}
   if(!readme&&githubApiAvailable){try{const r=JSON.parse((await fetch(`https://api.github.com/repos/${repo}/readme`)).text);readme=Buffer.from(r.content||'','base64').toString('utf8');}catch(e){if(/^http_(403|429)$/.test(e.message))githubApiAvailable=false;}}
   if(!metadataOk&&!readme)throw new Error('github_content_unavailable');
-  return {url:canonicalRepo||u.href,text:`Dépôt GitHub ${meta.full_name || repo}. ${meta.description||''}\n${readme}`,links:sourceLinks(readme,base),partial:!readme};
+  return {resource:metadataOk?{license:meta.license?.spdx_id&&meta.license.spdx_id!=='NOASSERTION'?meta.license.spdx_id:'Non précisée',source:'https://github.com/'+(meta.full_name||repo)}:{},url:canonicalRepo||u.href,text:`Dépôt GitHub ${meta.full_name || repo}. ${meta.description||''}\n${readme}`,links:sourceLinks(readme,base),partial:!readme};
  }
  const r=await fetch(url);const final=new URL(r.url);
  if(crawlKey(r.url)!==crawlKey(url) && (/^(x\.com|twitter\.com)$/.test(final.hostname)&&final.pathname.includes('/status/') || final.hostname==='github.com'&&/^\/[^/]+\/[^/]+\/?$/.test(final.pathname)))return loadPublicPage(r.url,{fetch});
@@ -56,7 +56,7 @@ export async function crawlSource(start,{fetchPage=loadPublicPage,onProgress=asy
    if(aliases.has(finalKey)){node.status='duplicate';continue;}aliases.add(finalKey);node.url=finalKey;
    if(blocked(page.text)){node.status='excluded';node.url=undefined;if(node.depth===0)queue.length=0;continue;}
    if(node.depth>0&&!technicalSignal(page.text)&&!(page.links||[]).some(u=>technicalSignal(u))){node.status='nontechnical';continue;}
-   node.status='read';node.text=page.text;node.partial=Boolean(page.partial);node.analysis='pending';
+   node.status='read';node.resource=page.resource;node.text=page.text;node.partial=Boolean(page.partial);node.analysis='pending';
    for(const link of page.links || [])enqueue(link,node.depth+1,key);
   }catch(e){node.status='error';node.reason=/^(http_\d+|x_content_unavailable|address_rejected|host_rejected|port_rejected|content_type_unsupported|response_too_large)$/.test(e.message)?e.message:'unavailable';}
   await onProgress(summarizeCrawl([...nodes.values()],limits));
@@ -87,6 +87,6 @@ export async function analyzeCrawl(crawl,classify,{cache={},onProgress=async()=>
   await onProgress({decisions,nodes:crawl.nodes.map(({text,...n})=>n),report:crawl.report});
  }
  crawl.report=summarizeCrawl(crawl.nodes,crawl.limits);
- const details=crawl.nodes.filter(n=>n.analysis==='technical').map(n=>({url:n.url,depth:n.depth,...decisions[n.url].decision}));
+ const details=crawl.nodes.filter(n=>n.analysis==='technical').map(n=>({url:n.url,depth:n.depth,resource:n.resource,...decisions[n.url].decision}));
  return {details,decisions,report:crawl.report,nodes:crawl.nodes.map(({text,...n})=>n)};
 }

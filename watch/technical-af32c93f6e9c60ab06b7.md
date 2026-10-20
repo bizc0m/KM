@@ -15,12 +15,21 @@ Créez et gérez des agents AI sans coder, via une interface unique.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.skills capability.skills risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills capability.skills source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Compétences des agents
 - Fonctions : Étendre les compétences d’un agent
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Anil-matcha/open-ai-agents-hub
 
 ## Sources
 

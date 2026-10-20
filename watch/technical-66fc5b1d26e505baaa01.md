@@ -15,12 +15,21 @@ Analyse le code Python pour détecter les erreurs de type.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.quality domain.dev.testing compatibility.language.python risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.dev.quality domain.dev.testing compatibility.language.python source.noteplan source.github source.x lifecycle.active
 - Sujets : Développement logiciel > Qualité du code ; Développement logiciel > Tests logiciels
 - Compatibilités : Langages > Python
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/astral-sh/ty
 
 ## Sources
 

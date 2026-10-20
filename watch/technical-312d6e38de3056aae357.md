@@ -15,12 +15,21 @@ Rédiger des notes et tâches en style chat pour une meilleure mémorisation.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.data.notes capability.notes.capture risk.sensitive source.noteplan
+- Version : 1.1
+- Identifiants : domain.data.notes capability.notes.capture source.noteplan lifecycle.active
 - Sujets : Données et connaissances > Notes et organisation
 - Fonctions : Capturer des notes
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

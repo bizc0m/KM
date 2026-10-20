@@ -21,3 +21,13 @@ Site : `https://vibeshit.org/`
 
 - Objectif : integrer `https://vibeshit.org/` comme source de veille vibe coding.
 - Risques : annuaire externe, claims variables, presence possible d'outils dual-use.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

@@ -15,12 +15,21 @@ Télécharger des contenus depuis divers sites web.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified compatibility.interface.terminal source.noteplan source.x lifecycle.review
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.interface.terminal source.noteplan source.x lifecycle.active
 - Sujets : À qualifier
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; X / Twitter
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

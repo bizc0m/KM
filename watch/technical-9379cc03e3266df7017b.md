@@ -15,12 +15,21 @@ Structurer la collaboration pour améliorer la précision du code généré.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.dev.quality domain.dev.ui compatibility.interface.terminal risk.sensitive source.raindrop source.x
+- Version : 1.1
+- Identifiants : domain.ai domain.dev.quality domain.dev.ui compatibility.interface.terminal source.raindrop source.x lifecycle.active
 - Sujets : Intelligence artificielle ; Développement logiciel > Qualité du code ; Développement logiciel > Conception d’interfaces
 - Compatibilités : Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

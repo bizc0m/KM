@@ -15,12 +15,21 @@ Intérêt à vérifier
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.llm domain.ai.agents.memory capability.memory source.noteplan source.github source.x lifecycle.review
+- Version : 1.1
+- Identifiants : domain.ai.llm domain.ai.agents.memory capability.memory source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Modèles de langage ; Intelligence artificielle > Agents IA > Mémoire des agents
 - Fonctions : Conserver le contexte
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/humanlayer/12-factor-agents
 
 ## Sources
 

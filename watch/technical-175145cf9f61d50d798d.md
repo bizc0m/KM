@@ -15,13 +15,22 @@ Contrôle un navigateur web via des commandes vocales pour une navigation sans c
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.audio domain.science.weather capability.forecast compatibility.language.python source.noteplan source.x source.github lifecycle.review
+- Version : 1.1
+- Identifiants : domain.media.audio domain.science.weather capability.forecast compatibility.language.python source.noteplan source.x source.github lifecycle.active
 - Sujets : Audio, vidéo et création > Audio ; Sciences et prévision > Prévisions météorologiques
 - Fonctions : Prévoir des mesures
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/GauravSingh9356/J.A.R.V.I.S
 
 ## Sources
 

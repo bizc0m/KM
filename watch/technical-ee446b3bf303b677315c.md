@@ -13,11 +13,20 @@ Visualiser les e-mails envoyés sans les envoyer réellement.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.communication.messaging risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.communication.messaging source.noteplan source.github source.x lifecycle.active
 - Sujets : Communication et publication > Messagerie
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/mailhog/MailHog
 
 ## Sources
 

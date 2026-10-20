@@ -15,13 +15,22 @@ Permet de streamer des médias via des plugins configurés.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.data.web capability.scraping compatibility.language.python compatibility.interface.terminal risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.data.web capability.scraping compatibility.language.python compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
 - Sujets : Données et connaissances > Collecte web
 - Fonctions : Extraire des données web
 - Compatibilités : Langages > Python ; Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : CLI
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/mov-cli/mov-cli
 
 ## Sources
 

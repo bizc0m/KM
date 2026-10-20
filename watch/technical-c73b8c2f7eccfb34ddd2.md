@@ -13,11 +13,20 @@ Optimise le code IA, réduit le volume et accélère l'exécution.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents risk.sensitive source.raindrop source.x source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents source.raindrop source.x source.github lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/DietrichGebert/ponytail
 
 ## Sources
 

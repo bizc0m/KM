@@ -9,11 +9,19 @@ Veille Raindrop KM Monitor.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.unclassified source.github
 - Sujets : À qualifier
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://github.com/RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec)

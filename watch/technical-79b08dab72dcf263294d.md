@@ -15,12 +15,21 @@ Permet une collaboration IA par canal avec un agent IA partagé
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.memory capability.memory risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory capability.memory source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Mémoire des agents
 - Fonctions : Conserver le contexte
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Anil-matcha/open-claude-tag
 
 ## Sources
 

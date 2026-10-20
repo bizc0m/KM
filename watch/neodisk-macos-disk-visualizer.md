@@ -11,12 +11,20 @@ Veille Raindrop KM Monitor / outil macOS open source.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified compatibility.os.macos compatibility.language.swift risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.os.macos compatibility.language.swift source.github
 - Sujets : À qualifier
 - Compatibilités : Systèmes > macOS ; Langages > Swift
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://github.com/tkslucas/Neodisk](https://github.com/tkslucas/Neodisk)

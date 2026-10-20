@@ -15,13 +15,22 @@ Crée des images et vidéos sans filtre de contenu
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.media.video domain.media.image capability.generate.video capability.generate.image compatibility.os.macos risk.sensitive source.raindrop source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai domain.media.video domain.media.image capability.generate.video capability.generate.image compatibility.os.macos source.raindrop source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
 - Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
 - Compatibilités : Systèmes > macOS
-- Risques : Risque signalé
 - Provenance : Raindrop ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Anil-matcha/Open-Generative-AI
 
 ## Sources
 

@@ -13,11 +13,20 @@ Crée des applications LLM avec des modèles et outils.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.ai.llm risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.ai.llm source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Intelligence artificielle > Modèles de langage
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : GPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/cyber-albsecop/Awesome-AI-Repos
 
 ## Sources
 

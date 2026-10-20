@@ -11,12 +11,20 @@ Veille outil dev / clonage de sites en React.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.web capability.web.clone risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.dev.web capability.web.clone source.x source.github
 - Sujets : Développement logiciel > Développement web
 - Fonctions : Reproduire un site
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/jolyne_ai/status/2070839598155186425](https://x.com/jolyne_ai/status/2070839598155186425)

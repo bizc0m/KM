@@ -15,12 +15,21 @@ Exécution locale avec 12 Go de mémoire. Performance sur benchmarks.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.llm compatibility.deployment.local compatibility.interface.terminal risk.sensitive source.raindrop source.x
+- Version : 1.1
+- Identifiants : domain.ai.llm compatibility.deployment.local compatibility.interface.terminal source.raindrop source.x lifecycle.active
 - Sujets : Intelligence artificielle > Modèles de langage
 - Compatibilités : Exécution > Exécution locale ; Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

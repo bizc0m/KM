@@ -15,11 +15,20 @@ Le bot gère les ordres et ajuste les prix.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.finance.prediction risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
 - Sujets : Analyse financière > Marchés prédictifs
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/lihanyu81/polymarket_lp_tool
 
 ## Sources
 

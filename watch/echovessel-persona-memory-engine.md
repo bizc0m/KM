@@ -11,13 +11,21 @@
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.audio domain.ai.agents.memory capability.memory compatibility.language.python risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.media.audio domain.ai.agents.memory capability.memory compatibility.language.python source.github
 - Sujets : Audio, vidéo et création > Audio ; Intelligence artificielle > Agents IA > Mémoire des agents
 - Fonctions : Conserver le contexte
 - Compatibilités : Langages > Python
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

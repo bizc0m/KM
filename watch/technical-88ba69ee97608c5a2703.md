@@ -15,13 +15,22 @@ Exporter des conversations d'IA vers Notion pour archiver facilement.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai capability.documents.export compatibility.format.pdf risk.sensitive source.noteplan
+- Version : 1.1
+- Identifiants : domain.ai capability.documents.export compatibility.format.pdf source.noteplan lifecycle.active
 - Sujets : Intelligence artificielle
 - Fonctions : Traiter des documents > Exporter des conversations
 - Compatibilités : Formats > PDF
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

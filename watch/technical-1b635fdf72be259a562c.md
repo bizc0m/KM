@@ -15,12 +15,21 @@ Coordination de 100+ agents spécialisés via plusieurs topologies.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.coding domain.ai.agents.orchestration capability.automation.orchestrate risk.sensitive source.raindrop source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.ai.agents.orchestration capability.automation.orchestrate source.raindrop source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Orchestration des agents
 - Fonctions : Automatiser des actions > Coordonner des agents
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

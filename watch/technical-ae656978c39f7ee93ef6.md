@@ -13,11 +13,20 @@ Permet de formater des articles Markdown avec des thèmes adaptés.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.communication.publishing risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.communication.publishing source.noteplan source.github source.x lifecycle.active
 - Sujets : Communication et publication > Publication de contenus
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : GPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/mdnice/markdown-nice
 
 ## Sources
 

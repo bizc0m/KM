@@ -11,12 +11,20 @@
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.desktop compatibility.os.macos compatibility.language.rust compatibility.deployment.local source.github lifecycle.active
+- Version : 1.1
+- Identifiants : domain.dev.desktop compatibility.os.macos compatibility.language.rust compatibility.deployment.local source.github
 - Sujets : Développement logiciel > Applications et interfaces de bureau
 - Compatibilités : Systèmes > macOS ; Langages > Rust ; Exécution > Exécution locale
 - Provenance : GitHub
-- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

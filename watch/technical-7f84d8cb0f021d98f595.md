@@ -15,12 +15,21 @@ Découpe des images en sections facilement.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.image domain.media.video capability.edit.video source.noteplan source.x source.github lifecycle.review
+- Version : 1.1
+- Identifiants : domain.media.image domain.media.video capability.edit.video source.noteplan source.x source.github lifecycle.active
 - Sujets : Audio, vidéo et création > Images et graphisme ; Audio, vidéo et création > Vidéo
 - Fonctions : Monter une vidéo
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/OpenCut-app/OpenCut
 
 ## Sources
 

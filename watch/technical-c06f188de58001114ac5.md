@@ -15,12 +15,21 @@ Visualiser les dépendances entre fonctions et classes pour mieux comprendre le 
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified compatibility.interface.terminal risk.sensitive source.raindrop source.x source.github
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.interface.terminal source.raindrop source.x source.github lifecycle.active
 - Sujets : À qualifier
 - Compatibilités : Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Egonex-AI/Understand-Anything
 
 ## Sources
 

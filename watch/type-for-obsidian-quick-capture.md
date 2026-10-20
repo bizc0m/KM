@@ -11,12 +11,20 @@
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.data.notes capability.notes.capture compatibility.integration.obsidian risk.sensitive
+- Version : 1.1
+- Identifiants : domain.data.notes capability.notes.capture compatibility.integration.obsidian
 - Sujets : Données et connaissances > Notes et organisation
 - Fonctions : Capturer des notes
 - Compatibilités : Intégrations > Obsidian
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

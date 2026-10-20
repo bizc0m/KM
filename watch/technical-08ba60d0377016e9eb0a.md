@@ -15,12 +15,21 @@ Extraire des données web pour alimenter des applications IA.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.data.web domain.data.documents capability.scraping capability.documents.convert risk.sensitive source.raindrop source.x source.github
+- Version : 1.1
+- Identifiants : domain.ai domain.data.web domain.data.documents capability.scraping capability.documents.convert source.raindrop source.x source.github lifecycle.active
 - Sujets : Intelligence artificielle ; Données et connaissances > Collecte web ; Données et connaissances > Documents
 - Fonctions : Extraire des données web ; Traiter des documents > Convertir des documents
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : AGPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/firecrawl/firecrawl
 
 ## Sources
 

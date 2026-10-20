@@ -15,13 +15,22 @@ Lire, modifier et exécuter des fichiers dans un projet
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.quality capability.code.assist compatibility.interface.desktop compatibility.interface.terminal risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.dev.quality capability.code.assist compatibility.interface.desktop compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
 - Sujets : Développement logiciel > Qualité du code
 - Fonctions : Assister le développement
 - Compatibilités : Interfaces > Application de bureau ; Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/esengine/DeepSeek-Reasonix
 
 ## Sources
 

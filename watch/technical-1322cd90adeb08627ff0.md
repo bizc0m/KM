@@ -13,11 +13,20 @@ Suivre les visites sans collecte de données personnelles
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.data.analytics risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.data.analytics source.noteplan source.github source.x lifecycle.active
 - Sujets : Données et connaissances > Analyse de fréquentation
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : AGPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/plausible/analytics
 
 ## Sources
 

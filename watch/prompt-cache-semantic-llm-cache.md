@@ -11,11 +11,19 @@ Veille liens utilisateur / cache semantique LLM.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.llm risk.sensitive source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.llm source.github source.x
 - Sujets : Intelligence artificielle > Modèles de langage
-- Risques : Risque signalé
 - Provenance : GitHub ; X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

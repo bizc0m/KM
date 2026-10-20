@@ -11,12 +11,21 @@ Veille `#ROUGE` / agent IA offensif de red team.
 
 ## Ontologie
 
-- Version : 1.0
+- Version : 1.1
 - Identifiants : domain.ai.agents domain.security.testing capability.security.pentest risk.offensive source.github source.x
 - Sujets : Intelligence artificielle > Agents IA ; Cybersécurité > Tests de sécurité
 - Fonctions : Tester la sécurité
 - Risques : Usage offensif explicite
 - Provenance : GitHub ; X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/CyberStrikeus/CyberStrike`

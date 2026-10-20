@@ -15,12 +15,21 @@ Permet d'accéder à des ressources éducatives sans connexion internet.
 
 ## Ontologie
 
-- Version : 1.0
+- Version : 1.1
 - Identifiants : domain.infrastructure compatibility.interface.terminal risk.offensive source.raindrop source.github
 - Sujets : Infrastructure
 - Compatibilités : Interfaces > Terminal
 - Risques : Usage offensif explicite
 - Provenance : Raindrop ; GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Crosstalk-Solutions/project-nomad
 
 ## Sources
 

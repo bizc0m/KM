@@ -11,11 +11,19 @@ Veille Raindrop KM Monitor / agent IA local pour macOS.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents compatibility.os.macos compatibility.deployment.local risk.sensitive
+- Version : 1.1
+- Identifiants : domain.ai.agents compatibility.os.macos compatibility.deployment.local
 - Sujets : Intelligence artificielle > Agents IA
 - Compatibilités : Systèmes > macOS ; Exécution > Exécution locale
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://openfelix.com/](https://openfelix.com/)

@@ -15,12 +15,21 @@ Transforme un prompt en code exécutable directement depuis le terminal.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified compatibility.interface.terminal risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
 - Sujets : À qualifier
 - Compatibilités : Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/MiniMax-AI/minimax-code
 
 ## Sources
 

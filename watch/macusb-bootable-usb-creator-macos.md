@@ -11,11 +11,19 @@ Veille Raindrop KM Monitor / outil macOS.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.desktop compatibility.os.macos risk.sensitive
+- Version : 1.1
+- Identifiants : domain.dev.desktop compatibility.os.macos
 - Sujets : Développement logiciel > Applications et interfaces de bureau
 - Compatibilités : Systèmes > macOS
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://www.macusb.app/](https://www.macusb.app/)

@@ -15,13 +15,22 @@ Installation de serveurs MCP pour agents IA : optimisation des tâches technique
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.infrastructure domain.ai.agents.integration domain.ai.agents.memory capability.memory compatibility.protocol.mcp compatibility.interface.terminal risk.sensitive source.raindrop source.x source.github
+- Version : 1.1
+- Identifiants : domain.infrastructure domain.ai.agents.integration domain.ai.agents.memory capability.memory compatibility.protocol.mcp compatibility.interface.terminal source.raindrop source.x source.github lifecycle.active
 - Sujets : Infrastructure ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents ; Intelligence artificielle > Agents IA > Mémoire des agents
 - Fonctions : Conserver le contexte
 - Compatibilités : Protocoles > MCP ; Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

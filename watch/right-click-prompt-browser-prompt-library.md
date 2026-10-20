@@ -11,10 +11,18 @@ Veille Raindrop KM Monitor / bibliotheque de prompts accessible depuis le menu c
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.llm risk.sensitive
+- Version : 1.1
+- Identifiants : domain.ai.llm
 - Sujets : Intelligence artificielle > Modèles de langage
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

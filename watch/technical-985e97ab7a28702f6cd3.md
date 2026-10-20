@@ -15,13 +15,22 @@ Permettre à l'IA d'explorer des plateformes via CLI sans frais d'API.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.data.web domain.dev.browser capability.scraping capability.automation.browser compatibility.interface.terminal risk.sensitive source.raindrop source.x source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.data.web domain.dev.browser capability.scraping capability.automation.browser compatibility.interface.terminal source.raindrop source.x source.github lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Données et connaissances > Collecte web ; Développement logiciel > Outils de navigateur
 - Fonctions : Extraire des données web ; Automatiser des actions > Automatiser le navigateur
 - Compatibilités : Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

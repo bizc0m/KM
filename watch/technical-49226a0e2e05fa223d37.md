@@ -15,12 +15,21 @@ Crée des documents professionnels avec des modèles prédéfinis
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents compatibility.format.pdf risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents compatibility.format.pdf source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA
 - Compatibilités : Formats > PDF
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/tw93/Kami
 
 ## Sources
 

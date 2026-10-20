@@ -11,11 +11,19 @@ Veille Raindrop KM Monitor / kit frontend pour agents IA.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.skills capability.skills risk.sensitive
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills capability.skills
 - Sujets : Intelligence artificielle > Agents IA > Compétences des agents
 - Fonctions : Étendre les compétences d’un agent
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : Skill individuel
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://www.tasteskill.dev/](https://www.tasteskill.dev/)

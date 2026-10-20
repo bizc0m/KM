@@ -15,12 +15,21 @@ Rechercher et stocker des contenus web de manière privée et organisée.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.privacy domain.data.research capability.search.private capability.research risk.sensitive source.raindrop
+- Version : 1.1
+- Identifiants : domain.privacy domain.data.research capability.search.private capability.research source.raindrop lifecycle.active
 - Sujets : Cybersécurité > Protection des données ; Données et connaissances > Recherche documentaire
 - Fonctions : Rechercher dans un index privé ; Rechercher des documents
-- Risques : Risque signalé
 - Provenance : Raindrop
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

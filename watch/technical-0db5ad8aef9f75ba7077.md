@@ -15,12 +15,21 @@ Crée des chansons à partir de paroles et d'un style musical.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.audio compatibility.os.macos compatibility.language.python risk.sensitive source.raindrop source.github
+- Version : 1.1
+- Identifiants : domain.media.audio compatibility.os.macos compatibility.language.python source.raindrop source.github lifecycle.active
 - Sujets : Audio, vidéo et création > Audio
 - Compatibilités : Systèmes > macOS ; Langages > Python
-- Risques : Risque signalé
 - Provenance : Raindrop ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/arinltte/YuE2Mac
 
 ## Sources
 

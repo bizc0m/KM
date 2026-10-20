@@ -13,11 +13,20 @@ Exécute des stratégies de trading sur des marchés de prévision avec un moteu
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.finance.prediction risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
 - Sujets : Analyse financière > Marchés prédictifs
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits
 
 ## Sources
 

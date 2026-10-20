@@ -15,12 +15,21 @@ Cloner des voix sans connexion internet.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.video domain.media.audio.voice capability.voice.transcribe capability.voice.clone capability.voice.translate capability.voice.synthesize source.noteplan source.x source.github lifecycle.review
+- Version : 1.1
+- Identifiants : domain.media.video domain.media.audio.voice capability.voice.transcribe capability.voice.clone capability.voice.translate capability.voice.synthesize source.noteplan source.x source.github lifecycle.active
 - Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Audio > Voix
 - Fonctions : Traitement de la voix > Transcrire ; Traitement de la voix > Cloner une voix ; Traitement de la voix > Traduire un enregistrement ; Traitement de la voix > Synthétiser une voix
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/elevenlabs/elevenlabs-python
 
 ## Sources
 

@@ -11,12 +11,20 @@ Veille Raindrop KM Monitor / orchestration d'agents collaboratifs.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.orchestration domain.communication domain.ai.agents.memory capability.automation.orchestrate capability.memory risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents.orchestration domain.communication domain.ai.agents.memory capability.automation.orchestrate capability.memory source.github
 - Sujets : Intelligence artificielle > Agents IA > Orchestration des agents ; Communication et publication ; Intelligence artificielle > Agents IA > Mémoire des agents
 - Fonctions : Automatiser des actions > Coordonner des agents ; Conserver le contexte
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/alookai/alook`

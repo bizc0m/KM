@@ -1,0 +1,64 @@
+{
+  "nature": {
+    "Modèle": [
+      "LLM",
+      "Multimodal",
+      "Embedding / reranking"
+    ],
+    "Service": [
+      "API hébergée",
+      "Application web",
+      "Passerelle de modèles"
+    ],
+    "Outil": [
+      "Application bureau",
+      "Application mobile",
+      "CLI",
+      "Bibliothèque / SDK",
+      "Extension / plugin",
+      "Serveur MCP"
+    ],
+    "Skill": [
+      "Skill individuel",
+      "Collection de skills"
+    ],
+    "Agent": [
+      "Agent spécialisé",
+      "Système multi-agents"
+    ],
+    "Documentation": [
+      "Guide / tutoriel",
+      "Article / recherche",
+      "Catalogue / benchmark"
+    ]
+  },
+  "os": [
+    "macOS",
+    "Windows",
+    "Linux",
+    "iOS / iPadOS",
+    "Android"
+  ],
+  "access": [
+    "Navigateur",
+    "Application native",
+    "Terminal",
+    "Auto-hébergement"
+  ],
+  "license": [
+    "MIT",
+    "Apache-2.0",
+    "GPL-3.0",
+    "AGPL-3.0",
+    "BSD-3-Clause",
+    "Propriétaire",
+    "Non précisée"
+  ],
+  "pricing": [
+    "Gratuit",
+    "Freemium",
+    "Payant",
+    "À l’usage",
+    "Essai gratuit"
+  ]
+}

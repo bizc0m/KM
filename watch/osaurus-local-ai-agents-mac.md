@@ -17,3 +17,13 @@ Osaurus est une piste d outil pour faire tourner ou piloter des agents IA locale
 ## Tags
 
 #macos
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

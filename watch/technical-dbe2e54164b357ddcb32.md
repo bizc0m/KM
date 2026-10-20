@@ -15,12 +15,21 @@ Génère des vidéos publicitaires UGC en quelques secondes avec des acteurs IA
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.media.video domain.media.image capability.generate.video capability.generate.image risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai domain.media.video domain.media.image capability.generate.video capability.generate.image source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
 - Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Anil-matcha/Open-AI-UGC
 
 ## Sources
 

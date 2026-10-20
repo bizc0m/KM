@@ -15,12 +15,21 @@ Apprendre l'ingénierie de l'IA via des leçons et exercices pratiques.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.integration compatibility.language.python compatibility.protocol.mcp risk.sensitive source.raindrop source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.integration compatibility.language.python compatibility.protocol.mcp source.raindrop source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Connecteurs et outils des agents
 - Compatibilités : Langages > Python ; Protocoles > MCP
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

@@ -32,4 +32,6 @@ Sur une carte : un badge de type coloré ; 2 à 4 mots-clés précis neutres. So
 
 Exemples : Claude = Modèle > LLM ; API Anthropic = Service > API hébergée ; Ollama = Outil > CLI ; Anthropic Cybersecurity Skills = Skill > Collection de skills. Une fiche peut avoir une nature principale et des relations vers d’autres ressources ; ne pas confondre API hébergée et modèle servi. Ces exemples définissent la taxonomie, sans certifier les propriétés de chaque fiche existante.
 
-État : sources supplémentaires retirées des cartes ; palette et hiérarchie ci-dessus proposées pour la prochaine migration du référentiel.
+État : axes Nature, Thème, Fonction, OS, Licence, Tarification et Accès intégrés au générateur et aux fiches. Nature et OS/licence en métadonnées neutres ; thème coloré ; hashtags d’usage neutres. Les topics GitHub restent dans la fiche détaillée. Les données non étayées restent « À vérifier ». « Non précisée » signifie que GitHub ne fournit pas de licence SPDX reconnue, pas que le projet est libre ou propriétaire.
+
+Le référentiel des natures et des axes techniques est `km.resources.json`, celui des thèmes et fonctions est `km.ontology.json`. Les licences vérifiées comportent une URL de preuve. Les champs inconnus ne sont pas complétés par déduction du prix, du langage ou du domaine GitHub. Le traitement futur conserve les métadonnées et utilise la licence renvoyée par l’API GitHub lorsque disponible.

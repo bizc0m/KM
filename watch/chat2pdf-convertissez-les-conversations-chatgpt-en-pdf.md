@@ -12,6 +12,23 @@ export conversationnel ChatGPT vers PDF.
 
 `watch:chat2pdf-convertissez-les-conversations-chatgpt-en-pdf`
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.data.notes domain.data.documents capability.documents.convert compatibility.integration.chatgpt compatibility.format.pdf
+- Sujets : Données et connaissances > Notes et organisation ; Données et connaissances > Documents
+- Fonctions : Traiter des documents > Convertir des documents
+- Compatibilités : Intégrations > ChatGPT ; Formats > PDF
+
 ## Sources
 
 - Source finale: `https://www.chat2pdf.org/fr`

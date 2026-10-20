@@ -13,11 +13,20 @@ Démarre Plausible avec Docker Compose pour hébergement local.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.infrastructure.deployment risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.infrastructure.deployment source.noteplan source.github source.x lifecycle.active
 - Sujets : Infrastructure > Déploiement et hébergement
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/plausible/community-edition
 
 ## Sources
 

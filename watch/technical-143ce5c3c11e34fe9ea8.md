@@ -15,12 +15,21 @@ Cloner des voix pour des agents IA sans dépendance externe
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.media.audio.voice capability.voice.synthesize capability.voice.clone source.noteplan source.x source.github lifecycle.review
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.media.audio.voice capability.voice.synthesize capability.voice.clone source.noteplan source.x source.github lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Audio, vidéo et création > Audio > Voix
 - Fonctions : Traitement de la voix > Synthétiser une voix ; Traitement de la voix > Cloner une voix
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/jamiepine/voicebox
 
 ## Sources
 

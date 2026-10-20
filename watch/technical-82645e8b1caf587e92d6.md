@@ -15,12 +15,21 @@ Personnalise les workflows via des extensions, modèles et configurations.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.skills capability.skills risk.sensitive source.raindrop
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills capability.skills source.raindrop lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Compétences des agents
 - Fonctions : Étendre les compétences d’un agent
-- Risques : Risque signalé
 - Provenance : Raindrop
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

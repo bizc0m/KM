@@ -11,12 +11,20 @@
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.skills domain.infrastructure capability.skills risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills domain.infrastructure capability.skills source.github
 - Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Infrastructure
 - Fonctions : Étendre les compétences d’un agent
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : Skill individuel
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

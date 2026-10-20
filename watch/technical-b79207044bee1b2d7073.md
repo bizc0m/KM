@@ -13,11 +13,20 @@ Crée des agents avec un système de type sécurisé.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.dev risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.dev source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Développement logiciel
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/BoundaryML/baml
 
 ## Sources
 

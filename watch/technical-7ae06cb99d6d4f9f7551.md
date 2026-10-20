@@ -13,11 +13,20 @@ Gère les agents sur des périodes prolongées avec un noyau d'état durable.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents risk.sensitive source.raindrop source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents source.raindrop source.github lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA
-- Risques : Risque signalé
 - Provenance : Raindrop ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/loopx-project/loopx
 
 ## Sources
 

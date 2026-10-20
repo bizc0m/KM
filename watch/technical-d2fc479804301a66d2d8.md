@@ -15,12 +15,21 @@ Génère des rapports de recherche avec des sources multiples et des citations
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.data.research capability.research risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.data.research capability.research source.x source.github lifecycle.active
 - Sujets : Données et connaissances > Recherche documentaire
 - Fonctions : Rechercher des documents
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/assafelovic/gpt-researcher
 
 ## Sources
 

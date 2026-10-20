@@ -13,11 +13,20 @@ Gère les trades autonomes sur plusieurs marchés
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.finance risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.finance source.x source.github lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Analyse financière
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/alsk1992/CloddsBot
 
 ## Sources
 

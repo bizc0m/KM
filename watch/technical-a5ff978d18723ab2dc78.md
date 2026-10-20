@@ -15,13 +15,22 @@ Crée un agent personnalisé pour chaque projet. Améliore la performance du cod
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.coding domain.dev.quality domain.ai.agents.skills capability.code.assist capability.skills compatibility.interface.desktop compatibility.interface.terminal risk.sensitive source.raindrop source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.dev.quality domain.ai.agents.skills capability.code.assist capability.skills compatibility.interface.desktop compatibility.interface.terminal source.raindrop source.github lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel > Qualité du code ; Intelligence artificielle > Agents IA > Compétences des agents
 - Fonctions : Assister le développement ; Étendre les compétences d’un agent
 - Compatibilités : Interfaces > Application de bureau ; Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : Raindrop ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Wholiver/metis
 
 ## Sources
 

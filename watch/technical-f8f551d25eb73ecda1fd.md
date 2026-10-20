@@ -15,13 +15,22 @@ Génère des images avec des paramètres de résolution et de format.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.image domain.media.video capability.generate.image capability.generate.video compatibility.language.python risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.media.image domain.media.video capability.generate.image capability.generate.video compatibility.language.python source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Images et graphisme ; Audio, vidéo et création > Vidéo
 - Fonctions : Générer des contenus > Générer une image ; Générer des contenus > Générer une vidéo
 - Compatibilités : Langages > Python
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Anil-matcha/OpenAI-API
 
 ## Sources
 

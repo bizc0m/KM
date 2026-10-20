@@ -13,12 +13,21 @@ Génère des résumés et alertes en Slack pour suivre les discussions.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.communication.messaging capability.automation risk.sensitive source.noteplan
+- Version : 1.1
+- Identifiants : domain.communication.messaging capability.automation source.noteplan lifecycle.active
 - Sujets : Communication et publication > Messagerie
 - Fonctions : Automatiser des actions
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

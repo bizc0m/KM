@@ -11,11 +11,19 @@ Veille outil IA / agent personnel.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents source.github lifecycle.review
+- Version : 1.1
+- Identifiants : domain.ai.agents source.github
 - Sujets : Intelligence artificielle > Agents IA
 - Provenance : GitHub
-- État : À vérifier
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/nousresearch/hermes-agent`

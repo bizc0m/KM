@@ -12,6 +12,21 @@ Matrice KM outil -> projet.
 
 `watch:tool-project-fit-scan`
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified
+- Sujets : À qualifier
+
 ## Sources
 
 - `watch:ai-open-source-tools-inventory`

@@ -14,3 +14,13 @@ Lien evenement/workshop AlpineChain 2026. A qualifier : blockchain, atelier, res
 - Peut nourrir veille crypto / communaute / ateliers.
 
 ## Tags
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

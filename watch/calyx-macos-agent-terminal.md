@@ -11,13 +11,21 @@
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.coding capability.code.assist compatibility.os.macos compatibility.interface.terminal compatibility.integration.codex risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding capability.code.assist compatibility.os.macos compatibility.interface.terminal compatibility.integration.codex source.github
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement
 - Fonctions : Assister le développement
 - Compatibilités : Systèmes > macOS ; Interfaces > Terminal ; Intégrations > Codex
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

@@ -12,6 +12,22 @@ veille agents IA / automatisation.
 
 `watch:knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-coden`
 
+## Métadonnées
+
+- Nature : Extension / plugin
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents capability.automation
+- Sujets : Intelligence artificielle > Agents IA
+- Fonctions : Automatiser des actions
+
 ## Sources
 - Source: [https://atelierformation-ia.fr/ressource/knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-codent-pas](https://atelierformation-ia.fr/ressource/knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-codent-pas)
 

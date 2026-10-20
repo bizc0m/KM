@@ -11,13 +11,21 @@ regles AGENTS.md et skills pour agents de code.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.coding domain.ai.agents.skills domain.ai.agents.integration capability.code.assist capability.skills compatibility.integration.codex risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.ai.agents.skills domain.ai.agents.integration capability.code.assist capability.skills compatibility.integration.codex source.github
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
 - Fonctions : Assister le développement ; Étendre les compétences d’un agent
 - Compatibilités : Intégrations > Codex
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

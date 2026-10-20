@@ -28,3 +28,13 @@ Idee de workflow pour indexer NotePlan dans KM : prompt, sujet, deeplink, statut
 ## Tags
 
 #dedoublonnage, #macos
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

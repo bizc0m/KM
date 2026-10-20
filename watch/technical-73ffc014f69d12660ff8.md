@@ -15,12 +15,21 @@ Génère des vidéos de qualité avec des paramètres précis
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.video capability.generate.video risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.media.video capability.generate.video source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Vidéo
 - Fonctions : Générer des contenus > Générer une vidéo
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Anil-matcha/awesome-seedance-2.5-api-prompts
 
 ## Sources
 

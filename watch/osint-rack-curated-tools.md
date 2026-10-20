@@ -11,10 +11,18 @@ Veille OSINT / annuaire d'outils d'investigation.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.osint domain.data.catalogues risk.sensitive
+- Version : 1.1
+- Identifiants : domain.osint domain.data.catalogues
 - Sujets : Cybersécurité > Renseignement en sources ouvertes ; Données et connaissances > Catalogues de ressources
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Site : `https://osintrack.com/`

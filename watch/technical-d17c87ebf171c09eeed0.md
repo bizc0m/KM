@@ -13,11 +13,20 @@ Exécute plusieurs harnesses d'agents localement via une interface unique.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents risk.sensitive source.raindrop source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents source.raindrop source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

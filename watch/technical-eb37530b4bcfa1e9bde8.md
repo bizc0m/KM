@@ -15,12 +15,21 @@ Gère les dépendances et les environnements
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.dependencies domain.data.organization compatibility.language.python risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.dev.dependencies domain.data.organization compatibility.language.python source.noteplan source.github source.x lifecycle.active
 - Sujets : Développement logiciel > Paquets et dépendances ; Données et connaissances > Organisation du travail
 - Compatibilités : Langages > Python
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/njsmith/posy
 
 ## Sources
 

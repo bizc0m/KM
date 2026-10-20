@@ -15,12 +15,21 @@ Vérifie et corrige le code Python rapidement avec une grande couverture de règ
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.quality compatibility.language.python risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.dev.quality compatibility.language.python source.x source.github lifecycle.active
 - Sujets : Développement logiciel > Qualité du code
 - Compatibilités : Langages > Python
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/astral-sh/ruff
 
 ## Sources
 

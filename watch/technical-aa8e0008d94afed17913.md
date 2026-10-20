@@ -13,11 +13,20 @@ Gère automatiquement les réponses et commandes sur Xianyu.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.infrastructure.deployment risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai domain.infrastructure.deployment source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle ; Infrastructure > Déploiement et hébergement
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : AGPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/GuDong2003/xianyu-auto-reply-fix
 
 ## Sources
 

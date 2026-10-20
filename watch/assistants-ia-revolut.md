@@ -12,6 +12,21 @@ notice legale service financier IA.
 
 `watch:assistants-ia-revolut`
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.finance
+- Sujets : Intelligence artificielle ; Analyse financière
+
 ## Sources
 - Source finale: [https://www.revolut.com/fr-FR/legal/rita-disclaimer](https://www.revolut.com/fr-FR/legal/rita-disclaimer)
 

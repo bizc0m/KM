@@ -15,12 +15,21 @@ Migrer les configurations vers le nouveau CLI pour continuer à utiliser les ser
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.infrastructure domain.ai.agents.integration compatibility.protocol.mcp compatibility.interface.terminal risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.infrastructure domain.ai.agents.integration compatibility.protocol.mcp compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
 - Sujets : Infrastructure ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
 - Compatibilités : Protocoles > MCP ; Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : CLI
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/MoonshotAI/kimi-cli
 
 ## Sources
 

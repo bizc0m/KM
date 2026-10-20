@@ -11,12 +11,20 @@ Veille liens utilisateur / contexte codebase pour agents de code.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.memory domain.ai.agents.coding capability.memory capability.code.assist risk.sensitive source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory domain.ai.agents.coding capability.memory capability.code.assist source.github source.x
 - Sujets : Intelligence artificielle > Agents IA > Mémoire des agents ; Intelligence artificielle > Agents IA > Agents de développement
 - Fonctions : Conserver le contexte ; Assister le développement
-- Risques : Risque signalé
 - Provenance : GitHub ; X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

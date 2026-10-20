@@ -13,11 +13,20 @@ Unpaywall.org permet d'accéder gratuitement aux articles de recherche.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev domain.data.organization risk.sensitive source.raindrop source.x
+- Version : 1.1
+- Identifiants : domain.dev domain.data.organization source.raindrop source.x lifecycle.active
 - Sujets : Développement logiciel ; Données et connaissances > Organisation du travail
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

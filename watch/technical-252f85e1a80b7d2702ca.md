@@ -13,11 +13,20 @@ Financer la recherche pour des ordinateurs quantiques.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev source.noteplan source.x lifecycle.review
+- Version : 1.1
+- Identifiants : domain.dev source.noteplan source.x lifecycle.active
 - Sujets : Développement logiciel
 - Provenance : NotePlan Calendar ; X / Twitter
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

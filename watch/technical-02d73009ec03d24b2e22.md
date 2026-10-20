@@ -14,12 +14,21 @@ Guider les investigations de sécurité des agents avec des procédures MITRE et
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.coding domain.security.testing domain.ai.agents.skills capability.security.vulnerabilities capability.skills risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.security.testing domain.ai.agents.skills capability.security.vulnerabilities capability.skills source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Cybersécurité > Tests de sécurité ; Intelligence artificielle > Agents IA > Compétences des agents
 - Fonctions : Détecter des vulnérabilités ; Étendre les compétences d’un agent
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : Collection de skills
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/mukul975/Anthropic-Cybersecurity-Skills
 
 ## Sources
 

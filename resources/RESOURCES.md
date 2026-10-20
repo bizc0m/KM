@@ -158,3 +158,13 @@ Regle : les ressources gardent les sources lisibles et nommees de facon stable. 
 - Fichiers touches : `resources/RESOURCES.md`, `resources/noregression/noregression-chat.md`, `themes/THEMES.md`.
 - Risques : document de synthese, pas une copie exhaustive du chat.
 - Rollback possible : supprimer `resources/noregression/` et cette entree d'index.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

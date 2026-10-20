@@ -15,12 +15,21 @@ Intérêt à vérifier
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.audio domain.media.video domain.infrastructure capability.generate.video source.noteplan source.github source.x lifecycle.review
+- Version : 1.1
+- Identifiants : domain.media.audio domain.media.video domain.infrastructure capability.generate.video source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo ; Infrastructure
 - Fonctions : Générer des contenus > Générer une vidéo
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/webtor-io/self-hosted
 
 ## Sources
 

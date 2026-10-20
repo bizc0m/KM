@@ -11,11 +11,19 @@ Veille outils dev/security / code review et SAST.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.quality domain.security.testing capability.security.vulnerabilities lifecycle.review
+- Version : 1.1
+- Identifiants : domain.dev.quality domain.security.testing capability.security.vulnerabilities
 - Sujets : Développement logiciel > Qualité du code ; Cybersécurité > Tests de sécurité
 - Fonctions : Détecter des vulnérabilités
-- État : À vérifier
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

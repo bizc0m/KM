@@ -15,12 +15,21 @@ Crée un site de publication avec un CMS open source
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.communication.publishing capability.automation.publish risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.communication.publishing capability.automation.publish source.noteplan source.github source.x lifecycle.active
 - Sujets : Communication et publication > Publication de contenus
 - Fonctions : Automatiser des actions > Publier sur plusieurs réseaux
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/TryGhost/Ghost
 
 ## Sources
 

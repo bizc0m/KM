@@ -15,12 +15,21 @@ Permet d'explorer et de modifier le codebase avec des commandes naturelles
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.ai.llm domain.dev compatibility.interface.terminal risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.ai.llm domain.dev compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Intelligence artificielle > Modèles de langage ; Développement logiciel
 - Compatibilités : Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/mistralai/mistral-vibe
 
 ## Sources
 

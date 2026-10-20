@@ -11,12 +11,20 @@ Veille outil IA / client email agentique self-hosted.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.communication compatibility.deployment.selfhosted risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.communication compatibility.deployment.selfhosted source.github
 - Sujets : Intelligence artificielle > Agents IA ; Communication et publication
 - Compatibilités : Exécution > Auto-hébergement
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/cloudflare/agentic-inbox`

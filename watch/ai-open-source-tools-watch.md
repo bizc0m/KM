@@ -17,11 +17,19 @@ Lecture effectuee via FxTwitter API publique, sans compte X.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.osint compatibility.deployment.local lifecycle.review
+- Version : 1.1
+- Identifiants : domain.ai domain.osint compatibility.deployment.local
 - Sujets : Intelligence artificielle ; Cybersécurité > Renseignement en sources ouvertes
 - Compatibilités : Exécution > Exécution locale
-- État : À vérifier
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources lues
 

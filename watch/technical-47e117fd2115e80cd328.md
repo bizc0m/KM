@@ -15,13 +15,22 @@ Crée des fingerprints audio pour identifier des morceaux similaires rapidement.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.audio.identification capability.audio.identify capability.deduplicate compatibility.language.python risk.sensitive source.raindrop source.github
+- Version : 1.1
+- Identifiants : domain.media.audio.identification capability.audio.identify capability.deduplicate compatibility.language.python source.raindrop source.github lifecycle.active
 - Sujets : Audio, vidéo et création > Audio > Identification audio
 - Fonctions : Identifier un enregistrement ; Détecter les doublons
 - Compatibilités : Langages > Python
-- Risques : Risque signalé
 - Provenance : Raindrop ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/acoustid/chromaprint
 
 ## Sources
 

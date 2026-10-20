@@ -11,11 +11,19 @@ Veille outil dev / workflow specification avant code.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.ui risk.sensitive source.x
+- Version : 1.1
+- Identifiants : domain.dev.ui source.x
 - Sujets : Développement logiciel > Conception d’interfaces
-- Risques : Risque signalé
 - Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/zaynmcps/status/2070813494979530934](https://x.com/zaynmcps/status/2070813494979530934)

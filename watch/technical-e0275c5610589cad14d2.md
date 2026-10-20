@@ -15,12 +15,21 @@ Générer une vidéo en quelques secondes avec un prix clair et des résolutions
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.video domain.ai.llm domain.media.image capability.compare capability.generate.video capability.generate.image risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.media.video domain.ai.llm domain.media.image capability.compare capability.generate.video capability.generate.image source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Vidéo ; Intelligence artificielle > Modèles de langage ; Audio, vidéo et création > Images et graphisme
 - Fonctions : Comparer des modèles ; Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Anil-matcha/awesome-ai-video-models
 
 ## Sources
 

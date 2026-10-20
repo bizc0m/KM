@@ -11,10 +11,18 @@ Ressource longue / reference LLM.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.llm lifecycle.review
+- Version : 1.1
+- Identifiants : domain.ai.llm
 - Sujets : Intelligence artificielle > Modèles de langage
-- État : À vérifier
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)

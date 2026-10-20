@@ -15,12 +15,21 @@ Automatise les tâches web sans déclencher de détection anti-bot
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.security.web capability.security.detectbots risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.security.web capability.security.detectbots source.noteplan source.github source.x lifecycle.active
 - Sujets : Cybersécurité > Sécurité web
 - Fonctions : Détecter les bots
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/CloakHQ/CloakBrowser
 
 ## Sources
 

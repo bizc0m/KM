@@ -11,11 +11,19 @@ Veille Raindrop KM Monitor.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.osint risk.sensitive source.x
+- Version : 1.1
+- Identifiants : domain.osint source.x
 - Sujets : Cybersécurité > Renseignement en sources ouvertes
-- Risques : Risque signalé
 - Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/cyb_detective/status/2065733663887634911](https://x.com/cyb_detective/status/2065733663887634911)

@@ -15,11 +15,20 @@ Permet aux agents d'intégrer instantanément la plateforme pour trader.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.finance domain.dev.web risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.finance domain.dev.web source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Analyse financière ; Développement logiciel > Développement web
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/HKUDS/AI-Trader
 
 ## Sources
 

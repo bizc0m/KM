@@ -15,12 +15,21 @@ Intérêt à vérifier
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.media.video domain.media.image capability.generate.video capability.generate.image source.noteplan source.github source.x lifecycle.review
+- Version : 1.1
+- Identifiants : domain.ai domain.media.video domain.media.image capability.generate.video capability.generate.image source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
 - Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/SamurAIGPT/seedance-2-generator
 
 ## Sources
 

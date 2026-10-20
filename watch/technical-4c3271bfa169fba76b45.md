@@ -15,12 +15,21 @@ Prévoir la température maximale pour optimiser les trades
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.finance domain.science.weather capability.forecast risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.finance domain.science.weather capability.forecast source.x source.github lifecycle.active
 - Sujets : Analyse financière ; Sciences et prévision > Prévisions météorologiques
 - Fonctions : Prévoir des mesures
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/AruneshDev/Automated-Trading-System-Kalshi-Weather-Model
 
 ## Sources
 

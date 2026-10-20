@@ -17,3 +17,13 @@ Suivre les projets open source IA en tendance : agents, skills, LLM, RAG, chat, 
 ### v0.1 - 2026-05-19
 
 - Objectif : enregistrer NGJOO comme source de veille KM.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

@@ -15,12 +15,21 @@ Crée des agents capables de planifier et d'utiliser des sous-agents pour des t�
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.ai.llm domain.data.notes capability.automation.schedule risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.ai.llm domain.data.notes capability.automation.schedule source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Intelligence artificielle > Modèles de langage ; Données et connaissances > Notes et organisation
 - Fonctions : Automatiser des actions > Planifier des tâches
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/langchain-ai/langchain
 
 ## Sources
 

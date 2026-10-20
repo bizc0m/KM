@@ -15,12 +15,21 @@ Crée des prototypes web avec des modèles d'IA
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.ai.llm domain.media.video domain.media.image domain.data.documents capability.documents.convert source.noteplan source.x source.github lifecycle.review
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.ai.llm domain.media.video domain.media.image domain.data.documents capability.documents.convert source.noteplan source.x source.github lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Intelligence artificielle > Modèles de langage ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Données et connaissances > Documents
 - Fonctions : Traiter des documents > Convertir des documents
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/nexu-io/open-design
 
 ## Sources
 

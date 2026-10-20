@@ -15,12 +15,21 @@ Recherche locale sans connexion. Analyse de données sans cloud.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.data.notes domain.data.organization capability.automation.schedule source.noteplan source.x lifecycle.review
+- Version : 1.1
+- Identifiants : domain.data.notes domain.data.organization capability.automation.schedule source.noteplan source.x lifecycle.active
 - Sujets : Données et connaissances > Notes et organisation ; Données et connaissances > Organisation du travail
 - Fonctions : Automatiser des actions > Planifier des tâches
 - Provenance : NotePlan Calendar ; X / Twitter
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

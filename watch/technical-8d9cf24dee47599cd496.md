@@ -15,12 +15,21 @@ Afficher les quotas d'IA en temps réel pour gérer efficacement les ressources.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.llm compatibility.interface.terminal risk.sensitive source.raindrop source.github
+- Version : 1.1
+- Identifiants : domain.ai.llm compatibility.interface.terminal source.raindrop source.github lifecycle.active
 - Sujets : Intelligence artificielle > Modèles de langage
 - Compatibilités : Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : Raindrop ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/ZeroClue/llm-quota-tracker
 
 ## Sources
 

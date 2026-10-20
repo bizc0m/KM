@@ -13,11 +13,20 @@ Génère des messages ciblés pour des campagnes marketing. Augmente la conversi
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified risk.sensitive source.raindrop source.x source.github
+- Version : 1.1
+- Identifiants : domain.unclassified source.raindrop source.x source.github lifecycle.active
 - Sujets : À qualifier
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/AICMO/AiCMO-Marketing-Prompt-Collection
 
 ## Sources
 

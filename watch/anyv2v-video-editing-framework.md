@@ -11,13 +11,21 @@ edition video-to-video IA sans tuning.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.media.video capability.edit.video capability.generate.video compatibility.integration.pytorch risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.ai domain.media.video capability.edit.video capability.generate.video compatibility.integration.pytorch source.github
 - Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
 - Fonctions : Monter une vidéo ; Générer des contenus > Générer une vidéo
 - Compatibilités : Intégrations > PyTorch
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

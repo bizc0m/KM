@@ -15,12 +15,21 @@ Crée des animations SVG à partir de descriptions ou d'images. Résultat utilis
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.media.image capability.animate.svg capability.generate.image risk.sensitive source.raindrop
+- Version : 1.1
+- Identifiants : domain.ai domain.media.image capability.animate.svg capability.generate.image source.raindrop lifecycle.active
 - Sujets : Intelligence artificielle ; Audio, vidéo et création > Images et graphisme
 - Fonctions : Animer du SVG ; Générer des contenus > Générer une image
-- Risques : Risque signalé
 - Provenance : Raindrop
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

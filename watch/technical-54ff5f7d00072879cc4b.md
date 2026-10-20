@@ -15,11 +15,20 @@ Installe rapidement des outils OSINT et de sécurité sur plusieurs systèmes.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.osint risk.sensitive source.raindrop source.x source.github
+- Version : 1.1
+- Identifiants : domain.osint source.raindrop source.x source.github lifecycle.active
 - Sujets : Cybersécurité > Renseignement en sources ouvertes
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/rawfilejson/awesome-osint-arsenal
 
 ## Sources
 

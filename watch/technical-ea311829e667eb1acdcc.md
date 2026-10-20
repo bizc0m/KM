@@ -15,13 +15,22 @@ Stocke automatiquement les actions de l'agent pour une utilisation future
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.memory domain.ai.agents.coding domain.dev.quality capability.memory capability.code.assist compatibility.interface.terminal risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory domain.ai.agents.coding domain.dev.quality capability.memory capability.code.assist compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Mémoire des agents ; Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel > Qualité du code
 - Fonctions : Conserver le contexte ; Assister le développement
 - Compatibilités : Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/rohitg00/agentmemory
 
 ## Sources
 

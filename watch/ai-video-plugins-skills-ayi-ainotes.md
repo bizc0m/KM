@@ -11,12 +11,20 @@ Veille source sociale / pack plugins et skills video IA.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.skills domain.media.video domain.ai.agents.integration capability.skills capability.generate.video risk.sensitive source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills domain.media.video domain.ai.agents.integration capability.skills capability.generate.video source.x
 - Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Audio, vidéo et création > Vidéo ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
 - Fonctions : Étendre les compétences d’un agent ; Générer des contenus > Générer une vidéo
-- Risques : Risque signalé
 - Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : Collection de skills
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/ayi_ainotes/status/2070790064418767263](https://x.com/ayi_ainotes/status/2070790064418767263)

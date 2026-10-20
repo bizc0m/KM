@@ -11,12 +11,20 @@
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.media.video capability.generate.video capability.edit.video risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.ai domain.media.video capability.generate.video capability.edit.video source.github
 - Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
 - Fonctions : Générer des contenus > Générer une vidéo ; Monter une vidéo
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

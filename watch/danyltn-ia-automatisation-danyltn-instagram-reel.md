@@ -11,11 +11,19 @@ Veille Raindrop KM Monitor.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai capability.automation risk.sensitive
+- Version : 1.1
+- Identifiants : domain.ai capability.automation
 - Sujets : Intelligence artificielle
 - Fonctions : Automatiser des actions
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://www.instagram.com/reel/DXt_oJeMvat](https://www.instagram.com/reel/DXt_oJeMvat)

@@ -11,11 +11,19 @@ Veille outil OSINT / tableau de bord geostrategique.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.osint risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.osint source.x source.github
 - Sujets : Cybersécurité > Renseignement en sources ouvertes
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/xiaoying_eth/status/2070782487824089533](https://x.com/xiaoying_eth/status/2070782487824089533)

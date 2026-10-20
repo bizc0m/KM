@@ -15,13 +15,22 @@ Analyser les processus pour détecter des anomalies
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.security.malware capability.security.malware compatibility.os.macos source.noteplan source.x lifecycle.review
+- Version : 1.1
+- Identifiants : domain.security.malware capability.security.malware compatibility.os.macos source.noteplan source.x lifecycle.active
 - Sujets : Cybersécurité > Analyse de logiciels malveillants
 - Fonctions : Analyser un logiciel malveillant
 - Compatibilités : Systèmes > macOS
 - Provenance : NotePlan Calendar ; X / Twitter
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

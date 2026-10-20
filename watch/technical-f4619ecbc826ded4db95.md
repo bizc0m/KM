@@ -13,11 +13,20 @@ Affiche des vidéos torrent avec sous-titres et personnalisation.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.video risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.media.video source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Vidéo
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : Bibliothèque / SDK
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/webtor-io/embed-sdk-js
 
 ## Sources
 

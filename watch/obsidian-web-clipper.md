@@ -11,11 +11,19 @@ Veille outil KM / capture web vers Obsidian.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.data.notes compatibility.integration.obsidian risk.sensitive
+- Version : 1.1
+- Identifiants : domain.data.notes compatibility.integration.obsidian
 - Sujets : Données et connaissances > Notes et organisation
 - Compatibilités : Intégrations > Obsidian
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://obsidian.md/clipper](https://obsidian.md/clipper)

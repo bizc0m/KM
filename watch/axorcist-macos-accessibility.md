@@ -11,13 +11,21 @@ Veille Raindrop KM Monitor / bibliotheque Swift pour macOS Accessibility.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.desktop capability.automation compatibility.os.macos compatibility.language.swift risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.dev.desktop capability.automation compatibility.os.macos compatibility.language.swift source.github
 - Sujets : Développement logiciel > Applications et interfaces de bureau
 - Fonctions : Automatiser des actions
 - Compatibilités : Systèmes > macOS ; Langages > Swift
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://github.com/openclaw/AXorcist](https://github.com/openclaw/AXorcist)

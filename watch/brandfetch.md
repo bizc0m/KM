@@ -11,11 +11,19 @@ Veille Raindrop KM Monitor / ressource de marque et assets publics.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.image compatibility.interface.api risk.sensitive
+- Version : 1.1
+- Identifiants : domain.media.image compatibility.interface.api
 - Sujets : Audio, vidéo et création > Images et graphisme
 - Compatibilités : Interfaces > API
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://brandfetch.com/](https://brandfetch.com/)

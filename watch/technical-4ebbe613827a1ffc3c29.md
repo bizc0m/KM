@@ -15,12 +15,21 @@ Fixer un style visuel avant génération de code pour éviter les templates inad
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.skills domain.dev.web capability.skills source.noteplan source.github source.x lifecycle.review
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills domain.dev.web capability.skills source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Développement logiciel > Développement web
 - Fonctions : Étendre les compétences d’un agent
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : Collection de skills
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/anthropics/skills
 
 ## Sources
 

@@ -15,13 +15,22 @@ Intérêt à vérifier
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.data.web domain.dev.browser capability.scraping capability.automation.browser compatibility.language.python source.noteplan source.github source.x lifecycle.review
+- Version : 1.1
+- Identifiants : domain.data.web domain.dev.browser capability.scraping capability.automation.browser compatibility.language.python source.noteplan source.github source.x lifecycle.active
 - Sujets : Données et connaissances > Collecte web ; Développement logiciel > Outils de navigateur
 - Fonctions : Extraire des données web ; Automatiser des actions > Automatiser le navigateur
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/apify/crawlee-python
 
 ## Sources
 

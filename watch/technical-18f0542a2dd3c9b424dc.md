@@ -15,12 +15,21 @@ Facilite le logging avec des fonctionnalités avancées sans configuration compl
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified compatibility.language.python risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.language.python source.noteplan source.github source.x lifecycle.active
 - Sujets : À qualifier
 - Compatibilités : Langages > Python
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Delgan/loguru
 
 ## Sources
 

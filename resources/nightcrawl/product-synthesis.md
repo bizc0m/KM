@@ -65,6 +65,12 @@ NightCrawl peut devenir un radar NightLife gratuit ou quasi gratuit:
    - validation possible par QR code, geofence, photo horodatee ou Operator;
    - les points servent au statut, a la reputation et a l'acces, pas a une economie speculative.
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.infrastructure.database
+- Sujets : Infrastructure > Bases de données
+
 ## Sources prioritaires
 
 Sources a brancher en premier:

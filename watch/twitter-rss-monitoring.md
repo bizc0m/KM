@@ -114,3 +114,13 @@ Points verifies :
 
 - Objectif : confirmer `https://openrss.org/` comme source directe du nouveau lot.
 - Risques : conditions et disponibilite variables.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

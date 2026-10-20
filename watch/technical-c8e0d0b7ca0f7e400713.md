@@ -15,12 +15,21 @@ Génère des vidéos à partir de code React.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.video domain.dev.web capability.automation capability.generate.video risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.media.video domain.dev.web capability.automation capability.generate.video source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Vidéo ; Développement logiciel > Développement web
 - Fonctions : Automatiser des actions ; Générer des contenus > Générer une vidéo
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/remotion-dev/remotion
 
 ## Sources
 

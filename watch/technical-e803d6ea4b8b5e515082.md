@@ -15,12 +15,21 @@ Génère des vidéos à partir de textes et images. Résultat : contenu visuel a
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.media.video domain.media.image capability.generate.video capability.generate.image risk.sensitive source.raindrop source.x
+- Version : 1.1
+- Identifiants : domain.ai domain.media.video domain.media.image capability.generate.video capability.generate.image source.raindrop source.x lifecycle.active
 - Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
 - Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

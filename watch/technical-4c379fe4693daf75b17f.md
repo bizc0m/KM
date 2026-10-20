@@ -13,11 +13,20 @@ Rédige des textes précis et utiles pour des tâches de bureau. Améliore la pr
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified risk.sensitive source.raindrop
+- Version : 1.1
+- Identifiants : domain.unclassified source.raindrop lifecycle.active
 - Sujets : À qualifier
-- Risques : Risque signalé
 - Provenance : Raindrop
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

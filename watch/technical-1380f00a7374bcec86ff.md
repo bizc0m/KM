@@ -15,11 +15,20 @@ Réalise des attaques de phishing pour récupérer des données sensibles
 
 ## Ontologie
 
-- Version : 1.0
+- Version : 1.1
 - Identifiants : domain.infrastructure risk.offensive source.noteplan source.github source.x
 - Sujets : Infrastructure
 - Risques : Usage offensif explicite
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : BSD-3-Clause
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/kgretzky/evilginx2
 
 ## Sources
 

@@ -15,12 +15,21 @@ Permet aux agents IA d'executer des tâches avec plus d'efficacité.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.security.testing domain.ai.agents.skills capability.security.vulnerabilities capability.skills risk.sensitive source.raindrop source.x
+- Version : 1.1
+- Identifiants : domain.security.testing domain.ai.agents.skills capability.security.vulnerabilities capability.skills source.raindrop source.x lifecycle.active
 - Sujets : Cybersécurité > Tests de sécurité ; Intelligence artificielle > Agents IA > Compétences des agents
 - Fonctions : Détecter des vulnérabilités ; Étendre les compétences d’un agent
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

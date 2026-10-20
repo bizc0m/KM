@@ -15,13 +15,22 @@ Identifier automatiquement des vulnérabilités et générer des rapports exploi
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.security.testing capability.security.vulnerabilities compatibility.interface.terminal risk.sensitive source.raindrop source.x source.github
+- Version : 1.1
+- Identifiants : domain.ai domain.security.testing capability.security.vulnerabilities compatibility.interface.terminal source.raindrop source.x source.github lifecycle.active
 - Sujets : Intelligence artificielle ; Cybersécurité > Tests de sécurité
 - Fonctions : Détecter des vulnérabilités
 - Compatibilités : Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/awarexone/Agentic-Bug-Hunter
 
 ## Sources
 

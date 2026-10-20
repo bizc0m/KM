@@ -11,12 +11,20 @@ Veille outils / scraping et extraction web.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.data.web capability.scraping risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.ai domain.data.web capability.scraping source.x source.github
 - Sujets : Intelligence artificielle ; Données et connaissances > Collecte web
 - Fonctions : Extraire des données web
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/lucy_love_ai/status/2071040656634732984](https://x.com/lucy_love_ai/status/2071040656634732984)

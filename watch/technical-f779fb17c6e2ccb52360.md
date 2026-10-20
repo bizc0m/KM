@@ -13,11 +13,20 @@ Gérer des documents, générer des podcasts, interagir avec des modèles d'IA.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai risk.sensitive source.raindrop source.x source.github
+- Version : 1.1
+- Identifiants : domain.ai source.raindrop source.x source.github lifecycle.active
 - Sujets : Intelligence artificielle
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/lfnovo/open-notebook
 
 ## Sources
 

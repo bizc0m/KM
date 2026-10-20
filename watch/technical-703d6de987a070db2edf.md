@@ -15,13 +15,22 @@ Convertir des documents PDF, Word, Excel ou images en Markdown pour une utilisat
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.image domain.data.documents capability.documents.convert compatibility.format.pdf compatibility.language.python compatibility.interface.terminal risk.sensitive source.raindrop source.x
+- Version : 1.1
+- Identifiants : domain.media.image domain.data.documents capability.documents.convert compatibility.format.pdf compatibility.language.python compatibility.interface.terminal source.raindrop source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Images et graphisme ; Données et connaissances > Documents
 - Fonctions : Traiter des documents > Convertir des documents
 - Compatibilités : Formats > PDF ; Langages > Python ; Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

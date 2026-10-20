@@ -15,13 +15,22 @@ Permet d'installer des compétences pour mieux répondre aux demandes spécifiqu
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.skills capability.skills compatibility.interface.terminal risk.sensitive source.noteplan source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills capability.skills compatibility.interface.terminal source.noteplan source.github lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Compétences des agents
 - Fonctions : Étendre les compétences d’un agent
 - Compatibilités : Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : Collection de skills
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

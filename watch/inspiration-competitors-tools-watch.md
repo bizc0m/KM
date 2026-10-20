@@ -86,3 +86,13 @@ Blog personnel de Scott Yoshinaga avec archives, updates, posts culturels et not
 
 - Objectif : resserrer `#ROUGE` aux abus offensifs directs et classer le reste en sensible.
 - Risques : social planning et blogs personnels restent privacy-sensitive.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

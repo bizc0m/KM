@@ -11,13 +11,21 @@
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.browser domain.ai.agents.integration capability.automation.browser compatibility.protocol.mcp risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.dev.browser domain.ai.agents.integration capability.automation.browser compatibility.protocol.mcp source.github
 - Sujets : Développement logiciel > Outils de navigateur ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
 - Fonctions : Automatiser des actions > Automatiser le navigateur
 - Compatibilités : Protocoles > MCP
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

@@ -11,13 +11,21 @@
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.memory domain.media.audio.voice capability.memory compatibility.interface.desktop risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory domain.media.audio.voice capability.memory compatibility.interface.desktop source.github
 - Sujets : Intelligence artificielle > Agents IA > Mémoire des agents ; Audio, vidéo et création > Audio > Voix
 - Fonctions : Conserver le contexte
 - Compatibilités : Interfaces > Application de bureau
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

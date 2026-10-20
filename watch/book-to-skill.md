@@ -11,13 +11,21 @@
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.coding domain.ai.agents.skills domain.data.notes capability.skills compatibility.format.pdf risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.ai.agents.skills domain.data.notes capability.skills compatibility.format.pdf source.github
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents ; Données et connaissances > Notes et organisation
 - Fonctions : Étendre les compétences d’un agent
 - Compatibilités : Formats > PDF
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : Skill individuel
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

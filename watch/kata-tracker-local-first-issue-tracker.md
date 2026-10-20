@@ -11,12 +11,20 @@ Veille Raindrop KM Monitor / outil issue tracking local-first pour humains et ag
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.coding domain.data.organization capability.code.assist compatibility.deployment.local lifecycle.active
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.data.organization capability.code.assist compatibility.deployment.local
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Données et connaissances > Organisation du travail
 - Fonctions : Assister le développement
 - Compatibilités : Exécution > Exécution locale
-- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

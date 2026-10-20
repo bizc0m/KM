@@ -15,12 +15,21 @@ Analyse de données en temps réel pour comprendre les tendances et comportement
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.skills capability.skills risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills capability.skills source.x source.github lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Compétences des agents
 - Fonctions : Étendre les compétences d’un agent
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : Skill individuel
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/mvanhorn/last30days-skill
 
 ## Sources
 

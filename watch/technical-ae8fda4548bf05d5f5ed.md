@@ -15,12 +15,21 @@ Intérêt pratique : Oriente vers des solutions modernes et compatibles navigate
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.coding domain.ai.agents.skills capability.code.assist capability.skills risk.sensitive source.raindrop source.x source.github
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.ai.agents.skills capability.code.assist capability.skills source.raindrop source.x source.github lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents
 - Fonctions : Assister le développement ; Étendre les compétences d’un agent
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : Skill individuel
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/GoogleChrome/modern-web-guidance
 
 ## Sources
 

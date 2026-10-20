@@ -15,12 +15,21 @@ Gère les dépendances de projet avec des lockfiles.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.dependencies domain.data.organization compatibility.language.python risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.dev.dependencies domain.data.organization compatibility.language.python source.x source.github lifecycle.active
 - Sujets : Développement logiciel > Paquets et dépendances ; Données et connaissances > Organisation du travail
 - Compatibilités : Langages > Python
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/astral-sh/uv
 
 ## Sources
 

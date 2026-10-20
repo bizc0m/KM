@@ -11,12 +11,20 @@ Veille outils IA / ressources API LLM gratuites.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.llm compatibility.interface.api risk.sensitive source.github
+- Version : 1.1
+- Identifiants : domain.ai.llm compatibility.interface.api source.github
 - Sujets : Intelligence artificielle > Modèles de langage
 - Compatibilités : Interfaces > API
-- Risques : Risque signalé
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

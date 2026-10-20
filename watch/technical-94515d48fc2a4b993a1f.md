@@ -15,11 +15,20 @@ Permet d'utiliser des outils informatiques sans inscription ni email.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.web risk.sensitive source.raindrop source.x source.github
+- Version : 1.1
+- Identifiants : domain.dev.web source.raindrop source.x source.github lifecycle.active
 - Sujets : Développement logiciel > Développement web
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : GPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/BraveOPotato/NoSignups
 
 ## Sources
 

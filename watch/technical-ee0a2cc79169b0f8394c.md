@@ -15,12 +15,21 @@ Lecture de fichiers audio et vidéo sans logiciel propriétaire. Supporte format
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.audio domain.media.video domain.data.catalogues compatibility.os.macos compatibility.interface.terminal risk.sensitive source.raindrop source.github
+- Version : 1.1
+- Identifiants : domain.media.audio domain.media.video domain.data.catalogues compatibility.os.macos compatibility.interface.terminal source.raindrop source.github lifecycle.active
 - Sujets : Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo ; Données et connaissances > Catalogues de ressources
 - Compatibilités : Systèmes > macOS ; Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : Raindrop ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/onmyway133/awesome-open-source-mac-apps
 
 ## Sources
 

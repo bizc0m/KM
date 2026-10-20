@@ -15,11 +15,20 @@ Collecte d'informations précise via 840 plateformes.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.osint risk.sensitive source.raindrop source.x
+- Version : 1.1
+- Identifiants : domain.ai domain.osint source.raindrop source.x lifecycle.active
 - Sujets : Intelligence artificielle ; Cybersécurité > Renseignement en sources ouvertes
-- Risques : Risque signalé
 - Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

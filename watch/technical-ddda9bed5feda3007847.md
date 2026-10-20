@@ -13,11 +13,20 @@ Facilite la création d'interfaces cohérentes avec un design système.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/VoltAgent/awesome-design-md
 
 ## Sources
 

@@ -15,13 +15,22 @@ Crée une vidéo 3D expliquant un sujet scientifique avec narration.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.media.video domain.media.3d capability.generate.video capability.generate.3d capability.edit.video compatibility.language.python risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai domain.media.video domain.media.3d capability.generate.video capability.generate.3d capability.edit.video compatibility.language.python source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Création 3D
 - Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer un objet 3D ; Monter une vidéo
 - Compatibilités : Langages > Python
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Anil-matcha/zack-d-films-ai-video-generator
 
 ## Sources
 

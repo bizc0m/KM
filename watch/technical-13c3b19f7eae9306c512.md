@@ -13,11 +13,20 @@ Tester des stratégies de trading et exécuter automatiquement des ordres
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.finance risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.finance source.x source.github lifecycle.active
 - Sujets : Analyse financière
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : AGPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/dodid/minitrade
 
 ## Sources
 

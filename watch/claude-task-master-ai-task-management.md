@@ -11,12 +11,20 @@ Veille outil IA / gestion de taches agentique.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.dev compatibility.integration.cursor source.github lifecycle.review
-- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.dev domain.productivity.tasks compatibility.integration.cursor source.github
+- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel ; Productivité > Tâches et agenda
 - Compatibilités : Intégrations > Cursor
 - Provenance : GitHub
-- État : À vérifier
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/eyaltoledano/claude-task-master`

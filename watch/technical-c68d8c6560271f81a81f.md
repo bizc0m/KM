@@ -15,12 +15,21 @@ Analyse des performances des stratégies de marché de prédiction
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.finance.prediction domain.finance.quant capability.simulate.backtest risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.finance.prediction domain.finance.quant capability.simulate.backtest source.x source.github lifecycle.active
 - Sujets : Analyse financière > Marchés prédictifs ; Analyse financière > Simulation et analyse quantitative
 - Fonctions : Simuler et tester > Tester sur des données historiques
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/evan-kolberg/prediction-market-backtesting
 
 ## Sources
 

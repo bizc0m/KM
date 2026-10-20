@@ -13,11 +13,20 @@ Permet de rechercher des tweets via des requêtes spécifiques
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents domain.communication.messaging risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.communication.messaging source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Communication et publication > Messagerie
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : Extension / plugin
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Xquik-dev/tweetclaw
 
 ## Sources
 

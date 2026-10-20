@@ -13,11 +13,20 @@ Génère des données pour entraîner un modèle de visionnage optimal.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.data.organization risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.data.organization source.noteplan source.github source.x lifecycle.active
 - Sujets : Données et connaissances > Organisation du travail
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Surean233/PC-NBV
 
 ## Sources
 

@@ -15,12 +15,21 @@ Rédige et analyse du code avec des outils adaptés aux développeurs.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified compatibility.os.macos compatibility.language.python risk.sensitive source.noteplan
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.os.macos compatibility.language.python source.noteplan lifecycle.active
 - Sujets : À qualifier
 - Compatibilités : Systèmes > macOS ; Langages > Python
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

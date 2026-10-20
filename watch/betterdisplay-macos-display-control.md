@@ -11,12 +11,20 @@ Veille Raindrop KM Monitor / utilitaire macOS open source pour controle avance d
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.dev.desktop compatibility.os.macos source.github lifecycle.active
+- Version : 1.1
+- Identifiants : domain.dev.desktop compatibility.os.macos source.github
 - Sujets : Développement logiciel > Applications et interfaces de bureau
 - Compatibilités : Systèmes > macOS
 - Provenance : GitHub
-- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

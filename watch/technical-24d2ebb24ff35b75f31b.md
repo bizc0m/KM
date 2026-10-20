@@ -15,12 +15,21 @@ Transcrire un audio en anglais avec un modèle optimisé.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.audio.voice capability.voice.transcribe capability.voice.translate risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.media.audio.voice capability.voice.transcribe capability.voice.translate source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Audio > Voix
 - Fonctions : Traitement de la voix > Transcrire ; Traitement de la voix > Traduire un enregistrement
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/openai/whisper
 
 ## Sources
 

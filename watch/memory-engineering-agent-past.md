@@ -11,12 +11,20 @@ Veille liens utilisateur / article X sur memoire agentique.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.memory capability.memory risk.sensitive source.x
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory capability.memory source.x
 - Sujets : Intelligence artificielle > Agents IA > Mémoire des agents
 - Fonctions : Conserver le contexte
-- Risques : Risque signalé
 - Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

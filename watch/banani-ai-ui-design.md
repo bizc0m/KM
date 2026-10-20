@@ -12,6 +12,21 @@ outil design IA.
 
 `watch:banani-ai-ui-design`
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.dev.ui
+- Sujets : Intelligence artificielle ; Développement logiciel > Conception d’interfaces
+
 ## Sources
 - Source finale: [https://www.banani.co/](https://www.banani.co/)
 

@@ -12,6 +12,22 @@ veille agents IA / automatisation.
 
 `watch:guide-emergent-hero-video-scroll-fr`
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.media.video capability.automation
+- Sujets : Intelligence artificielle > Agents IA ; Audio, vidéo et création > Vidéo
+- Fonctions : Automatiser des actions
+
 ## Sources
 - Source: [https://docs.google.com/document/u/0/d/14hEalys0NrtHDhY8GiFX_FZ3BRATRIrsrGm16I96E5I/mobilebasic](https://docs.google.com/document/u/0/d/14hEalys0NrtHDhY8GiFX_FZ3BRATRIrsrGm16I96E5I/mobilebasic)
 

@@ -13,11 +13,20 @@ Exécute des stratégies de trading avec gestion de risques en temps réel
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.finance risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.finance source.x source.github lifecycle.active
 - Sujets : Analyse financière
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/HarrierOnChain/Projection-Finance
 
 ## Sources
 

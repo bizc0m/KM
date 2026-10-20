@@ -15,12 +15,21 @@ Créer des campagnes de phishing pour tests de sécurité
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.unclassified capability.simulate risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.unclassified capability.simulate source.noteplan source.github source.x lifecycle.active
 - Sujets : À qualifier
 - Fonctions : Simuler et tester
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/kgretzky/gophish
 
 ## Sources
 

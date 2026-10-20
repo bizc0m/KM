@@ -13,11 +13,20 @@ Crée des applications de commerce personnalisées sans réinventer la logique.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.finance.commerce risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.finance.commerce source.noteplan source.github source.x lifecycle.active
 - Sujets : Analyse financière > Commerce numérique
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/medusajs/medusa
 
 ## Sources
 

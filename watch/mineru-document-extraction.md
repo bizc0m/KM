@@ -12,6 +12,23 @@ Veille outil IA / extraction documents.
 
 `watch:mineru-document-extraction`
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.data.documents domain.data.search compatibility.format.pdf source.x
+- Sujets : Intelligence artificielle ; Données et connaissances > Documents ; Données et connaissances > Recherche et indexation
+- Compatibilités : Formats > PDF
+- Provenance : X / Twitter
+
 ## Sources
 - Source sociale: [https://x.com/yerocode0/status/2070221861976183259](https://x.com/yerocode0/status/2070221861976183259)
 

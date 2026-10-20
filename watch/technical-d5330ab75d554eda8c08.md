@@ -15,12 +15,21 @@ Ajouter des rappels fiables avec Apple Reminders.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.agents.integration compatibility.protocol.mcp risk.sensitive source.noteplan
+- Version : 1.1
+- Identifiants : domain.ai.agents.integration compatibility.protocol.mcp source.noteplan lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Connecteurs et outils des agents
 - Compatibilités : Protocoles > MCP
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

@@ -15,13 +15,22 @@ Génère des images, vidéos et sons à partir de prompts.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.video domain.media.image domain.ai.agents.integration capability.generate.video capability.generate.image compatibility.protocol.mcp compatibility.interface.terminal risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.media.video domain.media.image domain.ai.agents.integration capability.generate.video capability.generate.image compatibility.protocol.mcp compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
 - Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
 - Compatibilités : Protocoles > MCP ; Interfaces > Terminal
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/SamurAIGPT/muapi-skills
 
 ## Sources
 

@@ -15,12 +15,21 @@ Gère les ordres et positions de trading avec des outils d'analyse et de sécuri
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.infrastructure domain.finance.prediction domain.ai.agents.integration compatibility.protocol.mcp risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.infrastructure domain.finance.prediction domain.ai.agents.integration compatibility.protocol.mcp source.x source.github lifecycle.active
 - Sujets : Infrastructure ; Analyse financière > Marchés prédictifs ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
 - Compatibilités : Protocoles > MCP
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : Serveur MCP
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/caiovicentino/polymarket-mcp-server
 
 ## Sources
 

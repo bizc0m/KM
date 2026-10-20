@@ -13,11 +13,20 @@ Exécute des stratégies de trading en temps réel avec des ordres avancés
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.finance risk.sensitive source.x source.github
+- Version : 1.1
+- Identifiants : domain.finance source.x source.github lifecycle.active
 - Sujets : Analyse financière
-- Risques : Risque signalé
 - Provenance : X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : LGPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/nautechsystems/nautilus_trader
 
 ## Sources
 

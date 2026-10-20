@@ -82,3 +82,13 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : confirmer que le lien du nouveau lot est un doublon deja indexe.
 - Risques : aucun changement fonctionnel.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

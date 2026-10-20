@@ -11,12 +11,20 @@ Veille Raindrop KM Monitor / framework de scraping web.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.data.web domain.data.documents capability.scraping compatibility.language.python risk.sensitive
+- Version : 1.1
+- Identifiants : domain.data.web domain.data.documents capability.scraping compatibility.language.python
 - Sujets : Données et connaissances > Collecte web ; Données et connaissances > Documents
 - Fonctions : Extraire des données web
 - Compatibilités : Langages > Python
-- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Documentation : `https://scrapling.readthedocs.io/`

@@ -11,11 +11,19 @@ Veille Raindrop KM Monitor.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai.llm source.github lifecycle.review
+- Version : 1.1
+- Identifiants : domain.ai.llm source.github
 - Sujets : Intelligence artificielle > Modèles de langage
 - Provenance : GitHub
-- État : À vérifier
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://jarvisoslinux.org](https://jarvisoslinux.org)

@@ -11,10 +11,19 @@
 
 ## Ontologie
 
-- Version : 1.0
+- Version : 1.1
 - Identifiants : domain.security.c2 domain.security.testing risk.offensive
 - Sujets : Cybersécurité > Infrastructure de contrôle et commande ; Cybersécurité > Tests de sécurité
 - Risques : Usage offensif explicite
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

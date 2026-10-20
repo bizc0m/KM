@@ -15,12 +15,21 @@ Crée automatiquement des vidéos YouTube Shorts avec MoviePy.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.video domain.media.image capability.automation capability.generate.video capability.generate.image source.noteplan source.x source.github lifecycle.review
+- Version : 1.1
+- Identifiants : domain.media.video domain.media.image capability.automation capability.generate.video capability.generate.image source.noteplan source.x source.github lifecycle.active
 - Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
 - Fonctions : Automatiser des actions ; Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/FujiwaraChoki/MoneyPrinter
 
 ## Sources
 

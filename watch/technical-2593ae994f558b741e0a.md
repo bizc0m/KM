@@ -15,13 +15,22 @@ Facilite la création de visuels à partir de texte pour des présentations.
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.ai domain.media.image domain.data.documents domain.media.audio.voice domain.media.video capability.documents.convert capability.voice.transcribe capability.voice.synthesize capability.voice.clone capability.generate.video compatibility.format.pdf source.noteplan source.x lifecycle.review
+- Version : 1.1
+- Identifiants : domain.ai domain.media.image domain.data.documents domain.media.audio.voice domain.media.video capability.documents.convert capability.voice.transcribe capability.voice.synthesize capability.voice.clone capability.generate.video compatibility.format.pdf source.noteplan source.x lifecycle.active
 - Sujets : Intelligence artificielle ; Audio, vidéo et création > Images et graphisme ; Données et connaissances > Documents ; Audio, vidéo et création > Audio > Voix ; Audio, vidéo et création > Vidéo
 - Fonctions : Traiter des documents > Convertir des documents ; Traitement de la voix > Transcrire ; Traitement de la voix > Synthétiser une voix ; Traitement de la voix > Cloner une voix ; Générer des contenus > Générer une vidéo
 - Compatibilités : Formats > PDF
 - Provenance : NotePlan Calendar ; X / Twitter
-- État : À vérifier
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

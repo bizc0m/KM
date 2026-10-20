@@ -11,11 +11,20 @@ Veille `#ROUGE` / recherche OSINT de profils.
 
 ## Ontologie
 
-- Version : 1.0
+- Version : 1.1
 - Identifiants : domain.osint risk.offensive source.github
 - Sujets : Cybersécurité > Renseignement en sources ouvertes
 - Risques : Usage offensif explicite
 - Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/ibnaleem/gosearch`

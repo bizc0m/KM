@@ -13,11 +13,20 @@ Rechercher et visionner des films et séries en ligne
 
 ## Ontologie
 
-- Version : 1.0
-- Identifiants : domain.media.video risk.sensitive source.noteplan source.github source.x
+- Version : 1.1
+- Identifiants : domain.media.video source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Vidéo
-- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : GPL-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/justchokingaround/lobster
 
 ## Sources
 
