@@ -1,369 +1,527 @@
-# KM Global Index
+# KM — fiches publiables
 
-## Role
-
-Index global de la base KM.
-
-Tout ajout KM doit mettre a jour cet index, puis l'index specialise concerne.
-
-## Entrees principales
-
-| Appel | Fichier | Type | Tags | Statut |
+| Identifiant | Fichier | Type | Tags | Statut |
 | --- | --- | --- | --- | --- |
-| `km:index` | `km/index.md` | index | #km | actif |
-| `km:history` | `km/history.md` | historique | #km, #changelog | actif |
-| `km:proton-luna-poeme` | `km/proton-luna-poeme.md` | fragment poetique | #proton, #luna, #poeme, #nuit, #flamme, #lore | actif |
-| `resource:noteplan-captures-archive-2026` | `resources/noteplan-captures-archive-2026.md` | archive | #km, #noteplan, #capture, #archive, #veille, #github | a verifier |
-| `watch:index` | `watch/index.md` | index | #veille | actif |
-| `watch:right-click-prompt-browser-prompt-library` | `watch/right-click-prompt-browser-prompt-library.md` | veille | #prompt-library, #browser, #llm, #productivity, #privacy | sensible |
-| `watch:betterdisplay-macos-display-control` | `watch/betterdisplay-macos-display-control.md` | veille | #macos, #display, #hidpi, #open-source, #github | actif |
-| `watch:kata-tracker-local-first-issue-tracker` | `watch/kata-tracker-local-first-issue-tracker.md` | veille | #issue-tracking, #agents, #local-first, #project-management, #devtools | actif |
-| `watch:calyx-macos-agent-terminal` | `watch/calyx-macos-agent-terminal.md` | veille | #macos, #terminal, #agents, #codex, #mcp | sensible |
-| `watch:pake-web-page-to-desktop-app` | `watch/vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel.md` | veille | #desktop-app, #tauri, #rust, #macos, #packaging | actif |
-| `watch:openbot-ai-coworkers` | `watch/openbot-ai-coworkers.md` | veille | #agents, #browser-automation, #ag-ui, #mcp, #governance | sensible |
-| `watch:espanso-text-expander` | `watch/espanso-text-expander.md` | veille | #macos, #productivity, #text-expander, #rust, #privacy | actif |
-| `watch:losslesscut-video-audio-editing` | `watch/losslesscut-video-audio-editing.md` | veille | #video, #audio, #editing, #ffmpeg, #media | actif |
-| `watch:type-for-obsidian-quick-capture` | `watch/type-for-obsidian-quick-capture.md` | veille | #obsidian, #capture, #knowledge-management, #notes | sensible |
-| `watch:devin-desktop-agent-app` | `watch/devin-desktop-agent-app.md` | veille | #desktop-agent, #agents, #coding, #devtools, #ux | sensible |
-| `watch:agent-skills-library` | `watch/agent-skills-library.md` | veille | #agents, #skills, #prompt-engineering, #library | sensible |
-| `watch:obs-shaderfilter` | `watch/obs-shaderfilter.md` | veille | #obs, #shader, #video, #streaming, #media | actif |
-| `watch:veejay-live-video-sampler` | `watch/veejay-live-video-sampler.md` | veille | #video, #vj, #live-video, #visuals, #media | actif |
-| `watch:openvj-web-vj-tool` | `watch/openvj-web-vj-tool.md` | veille | #webgl, #threejs, #vj, #projection-mapping, #video | actif |
-| `watch:anyv2v-video-editing-framework` | `watch/anyv2v-video-editing-framework.md` | veille | #ai-video, #video-editing, #generative-ai, #research | sensible |
-| `watch:vace-video-creation-editing` | `watch/vace-video-creation-editing.md` | veille | #ai-video, #video-generation, #video-editing, #research | sensible |
-| `watch:kiwi-edit-video-editing` | `watch/kiwi-edit-video-editing.md` | veille | #ai-video, #video-editing, #video-generation | sensible |
-| `watch:vista-video-style-transfer` | `watch/vista-video-style-transfer.md` | veille | #ai-video, #style-transfer, #diffusion, #research | sensible |
-| `watch:airi-ai-companion` | `watch/airi-ai-companion.md` | veille | #ai-companion, #agents, #memory, #voice, #privacy | sensible |
-| `watch:echovessel-persona-memory-engine` | `watch/echovessel-persona-memory-engine.md` | veille | #ai-companion, #agents, #memory, #rag, #python | sensible |
-| `watch:book-to-skill` | `watch/book-to-skill.md` | veille | #agent-skills, #knowledge-management, #pdf, #rag, #llm | sensible |
-| `watch:agent-rules-books` | `watch/agent-rules-books.md` | veille | #agents-md, #agent-skills, #codex, #claude-code, #cursor | sensible |
-| `watch:hermes-vps-setup-skill` | `watch/hermes-vps-setup-skill.md` | veille | #agents, #skills, #vps, #infrastructure, #security | sensible |
-| `watch:web-check-website-osint` | `watch/web-check-website-osint.md` | veille | #osint, #website-analysis, #security-tools, #privacy | sensible |
-| `watch:claude-osint-skills` | `watch/claude-osint-skills.md` | veille | #ROUGE, #osint, #claude, #skills, #privacy-risk | #ROUGE |
-| `watch:adaptixc2-c2-risk-article` | `watch/adaptixc2-c2-risk-article.md` | veille | #ROUGE, #c2, #red-team, #offensive-security | #ROUGE |
-| `watch:shadowbroker-osint-surveillance-dashboard` | `watch/shadowbroker-osint-surveillance-dashboard.md` | veille | #ROUGE, #osint, #surveillance, #tracking, #privacy-risk | #ROUGE |
-| `book:index` | `books/index.md` | index | #books, #livres, #ocr | actif |
-| `watch:ai-trending` | `watch/ai-trending.md` | veille | #ia, #github, #trending | actif |
-| `watch:ai-open-source-tools-watch` | `watch/ai-open-source-tools-watch.md` | veille | #ia, #open-source, #devtools, #saas, #osint | actif |
-| `watch:ai-open-source-tools-inventory` | `watch/ai-open-source-tools-inventory.md` | inventaire | #ia, #tools, #github, #inventory | actif |
-| `watch:osint-tools-watch` | `watch/osint-tools-watch.md` | veille | #osint, #vehicle-search, #privacy | actif |
-| `watch:x-source-authors-log` | `watch/x-source-authors-log.md` | source-log | #x, #authors, #watch | actif |
-| `watch:tool-project-fit-scan` | `watch/tool-project-fit-scan.md` | matrice | #tools, #project-fit, #km | actif |
-| `watch:red-team-risk-tools-watch` | `watch/red-team-risk-tools-watch.md` | veille | #ROUGE, #dual-use, #risk | actif |
-| `watch:twitter-rss-monitoring` | `watch/twitter-rss-monitoring.md` | veille | #rss, #twitter, #x, #monitoring | actif |
-| `watch:inspiration-competitors-tools` | `watch/inspiration-competitors-tools-watch.md` | veille | #inspiration, #competitors, #tools | actif |
-| `watch:open-source-saas-alternatives-nicos-ai` | `watch/open-source-saas-alternatives-nicos-ai.md` | veille | #open-source, #saas, #tools | actif |
-| `watch:free-llm-api-resources` | `watch/free-llm-api-resources.md` | veille | #llm, #api, #providers | actif |
-| `watch:awesome-free-llm-apis` | `watch/awesome-free-llm-apis.md` | veille | #llm, #api, #free-tier, #providers | actif |
-| `watch:vibeshit-vibe-coding-directory` | `watch/vibeshit-vibe-coding-directory.md` | veille | #vibe-coding, #ia, #agents, #devtools | actif |
-| `watch:ccgui-mossx-vibecoding-editor` | `watch/ccgui-mossx-vibecoding-editor.md` | veille | #vibe-coding, #ai-editor, #multi-engine, #to-verify | a verifier |
-| `watch:agentsview-session-intelligence` | `watch/agentsview-session-intelligence.md` | veille | #agents, #sessions, #analytics, #local-first | actif |
-| `watch:prompt-cache-semantic-llm-cache` | `watch/prompt-cache-semantic-llm-cache.md` | veille | #llm, #cache, #cost-optimization, #semantic-search | actif |
-| `watch:graft-codebase-context-for-coding-agents` | `watch/graft-codebase-context-for-coding-agents.md` | veille | #coding-agents, #context-engineering, #code-graph, #mcp | actif |
-| `watch:memory-engineering-agent-past` | `watch/memory-engineering-agent-past.md` | veille | #agents, #memory-engineering, #context-engineering | a verifier |
-| `watch:chat2pdf-convertissez-les-conversations-chatgpt-en-pdf` | `watch/chat2pdf-convertissez-les-conversations-chatgpt-en-pdf.md` | veille | #chatgpt, #pdf, #knowledge-management, #privacy | actif |
-| `watch:chatgpt-exporter-extract-chat-convos-easily` | `watch/chatgpt-exporter-extract-chat-convos-easily.md` | veille | #chatgpt, #pdf, #markdown, #json, #privacy | actif |
-| `watch:quick-rss-desktop-reader` | `watch/quick-rss-desktop-reader.md` | veille | #rss, #macos, #desktop-app, #knowledge-management | actif |
-| `watch:parall-mac-app-multi-instance` | `watch/parall-mac-app-multi-instance.md` | veille | #macos, #desktop-app, #multi-instance, #privacy | sensible |
-| `watch:demoforge-scene` | `watch/demoforge-scene.md` | veille | #demo, #web, #motion, #shader, #creative-ai | actif |
-| `watch:promptslab` | `watch/promptslab.md` | veille | #github, #prompt-engineering, #llm, #generative-models | actif |
-| `watch:geneva-ai-summit-2027-strategic-direction` | `watch/geneva-ai-summit-2027-strategic-direction.md` | veille | #ai-governance, #switzerland, #geneva, #ai-summit, #public-policy | actif |
-| `watch:nanoclaw-personal-agent` | `watch/nanoclaw-personal-agent.md` | veille | #agents, #messaging, #containers, #credentials | actif |
-| `watch:autoresearchclaw-autonomous-research` | `watch/autoresearchclaw-autonomous-research.md` | veille | #research-agent, #papers, #citations, #experiments | actif |
-| `watch:moneyprinterturbo-ai-short-video` | `watch/moneyprinterturbo-ai-short-video.md` | veille | #ai-video, #shortvideo, #tiktok, #automation, #social-media | actif |
-| `watch:conet-privacy-depin-network` | `watch/conet-privacy-depin-network.md` | veille | #privacy, #depin, #crypto, #decentralized-network, #encrypted-routing | a verifier |
-| `watch:pentestgpt-autonomous-pentest` | `watch/pentestgpt-autonomous-pentest.md` | veille | #ROUGE, #pentest, #autonomous-agent, #offensive-risk | interne |
-| `watch:promptspy-ai-android-malware` | `watch/promptspy-ai-android-malware.md` | veille | #ROUGE, #android-security, #mobile-security, #ai-malware | interne |
-| `watch:codepatrol-code-security` | `watch/codepatrol-code-security.md` | veille | #code-security, #sast, #appsec, #to-verify | a verifier |
-| `watch:cyberstrike-ai-red-team-agent` | `watch/cyberstrike-ai-red-team-agent.md` | veille | #ROUGE, #pentest, #red-team, #offensive-security | interne |
-| `watch:osint-rack-curated-tools` | `watch/osint-rack-curated-tools.md` | veille | #osint, #threat-intelligence, #curated-tools, #privacy | actif |
-| `watch:vxunderground-malware-source-code` | `watch/vxunderground-malware-source-code.md` | veille | #ROUGE, #malware, #threat-intelligence, #offensive-risk | interne |
-| `watch:cloudflare-agentic-inbox` | `watch/cloudflare-agentic-inbox.md` | veille | #agent, #email, #cloudflare-workers, #privacy | actif |
-| `watch:browser-use-web-automation` | `watch/browser-use-web-automation.md` | veille | #agent, #browser-automation, #web, #scraping-risk | actif |
-| `watch:awesome-mcp-servers` | `watch/awesome-mcp-servers.md` | veille | #mcp, #servers, #agents, #integrations | a verifier |
-| `watch:claude-task-master-ai-task-management` | `watch/claude-task-master-ai-task-management.md` | veille | #task-management, #agent, #coding | actif |
-| `watch:openhands-ai-development` | `watch/openhands-ai-development.md` | veille | #agent, #coding, #software-development | actif |
-| `watch:nousresearch-hermes-agent` | `watch/nousresearch-hermes-agent.md` | veille | #agent, #personal-agent, #nousresearch | a verifier |
-| `watch:crewai-agent-orchestration` | `watch/crewai-agent-orchestration.md` | veille | #agents, #orchestration, #workflows | actif |
-| `watch:aider-ai-pair-programming` | `watch/aider-ai-pair-programming.md` | veille | #coding, #pair-programming, #terminal | actif |
-| `watch:n8n-workflow-automation` | `watch/n8n-workflow-automation.md` | veille | #automation, #workflows, #integrations | actif |
-| `watch:langgraph-resilient-agents` | `watch/langgraph-resilient-agents.md` | veille | #agents, #langchain, #graph, #workflows | actif |
-| `watch:gosearch-digital-footprint-search` | `watch/gosearch-digital-footprint-search.md` | veille | #ROUGE, #osint, #digital-footprint, #privacy | interne |
-| `watch:understand-anything-code-knowledge-graph` | `watch/understand-anything-code-knowledge-graph.md` | veille | #codebase-analysis, #knowledge-graph, #agents, #coding | actif |
-| `theme:index` | `themes/THEMES.md` | index | #themes | actif |
-| `resource:index` | `resources/RESOURCES.md` | index | #ressources | actif |
-| `process:km-resource-import-prompt` | `process/km-resource-import-prompt.md` | process | #km, #import | actif |
-| `process:km-auto-operating-prompt-v1.0` | `process/km-auto-operating-prompt-v1.0.md` | process | #km, #prompt, #v1.0 | actif |
-| `process:ai-tools` | `process/AI-Tools.md` | process | #ia, #outils | actif |
-| `process:km-systematic-fiche-pipeline` | `process/km-systematic-fiche-pipeline.md` | process | #km, #ingestion, #fiche, #automation, #dashboard | actif |
-| `watch:aqui-te-dejo-10-repos-de-github-que-pueden-ayudarte-a-generar-dinero-m` | `watch/aqui-te-dejo-10-repos-de-github-que-pueden-ayudarte-a-generar-dinero-m.md` | veille | #agents, #automation, | actif |
-| `watch:top-5-sites-pour-vibe-coders-edition-niche` | `watch/top-5-sites-pour-vibe-coders-edition-niche.md` | veille | #agents, #automation, | actif |
-| `watch:knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-coden` | `watch/knowledge-work-plugins-11-plugins-claude-pour-les-metiers-qui-ne-coden.md` | veille | #agents, #automation, | actif |
-| `watch:jarvis-os` | `watch/jarvis-os.md` | veille | #llm, #ai-os, #github, #to-verify | a verifier |
-| `watch:neodisk-macos-disk-visualizer` | `watch/neodisk-macos-disk-visualizer.md` | veille | #macos, #disk-analyzer, #swift, #open-source | actif |
-| `watch:assistants-ia-revolut` | `watch/assistants-ia-revolut.md` | veille | #ai-assistant, #fintech, #banking, #legal, #privacy | actif |
-| `watch:auto-company-autonomous-ai-company` | `watch/auto-company-autonomous-ai-company.md` | veille | #agents, #autonomous-company, #codex-cli, #claude-code, #daemon | actif |
-| `watch:tailscale-secure-connectivity-for-ai-iot-multi-cloud` | `watch/tailscale-secure-connectivity-for-ai-iot-multi-cloud.md` | veille | #tailscale, #zero-trust, #vpn, #network-security, #infrastructure | actif |
-| `watch:brandfetch` | `watch/brandfetch.md` | veille | #brand-assets, #logos, #design, #api | actif |
-| `watch:macusb-bootable-usb-creator-macos` | `watch/macusb-bootable-usb-creator-macos.md` | veille | #macos, #usb, #bootable-media, #recovery | actif |
-| `watch:banani-ai-ui-design` | `watch/banani-ai-ui-design.md` | veille | #ui-design, #wireframe, #ai-design, #prototype | actif |
-| `watch:lovable-build-for-the-web-20x-faster` | `watch/lovable-build-for-the-web-20x-faster.md` | veille | #ai-web-builder, #vibe-coding, #app-generation, #deployment | actif |
-| `watch:ui-design-made-easy-powered-by-ai-uizard` | `watch/ui-design-made-easy-powered-by-ai-uizard.md` | veille | #ui-design, #prototype, #wireframe, #product-design | actif |
-| `watch:taste-skill` | `watch/taste-skill.md` | veille | #frontend, #design-system, #ai-agents, #prompt-engineering | actif |
-| `watch:praison-ai` | `watch/praison-ai.md` | veille | #agents, #ai-agency, #automation | actif |
-| `watch:herdr-agent-multiplexer` | `watch/herdr-agent-multiplexer.md` | veille | #agents, #terminal, #orchestration, #cli | actif |
-| `watch:firecrawl-pdf-inspector` | `watch/firecrawl-pdf-inspector.md` | veille | #pdf, #rust, #extraction, #document-ai | actif |
-| `watch:awesome-ai-companion` | `watch/awesome-ai-companion.md` | veille | #ai-companion, #agents, #memory, #privacy | actif |
-| `watch:github-digital-life-topic` | `watch/github-digital-life-topic.md` | veille | #github, #digital-life, #curation, #agents | a verifier |
-| `watch:trendshift-github-momentum` | `watch/trendshift-github-momentum.md` | veille | #github, #trending, #discovery, #veille | actif |
-| `watch:intelfetch-osint-features` | `watch/intelfetch-osint-features.md` | veille | #osint, #breach-search, #threat-intelligence, #privacy | actif |
-| `watch:noteplan-mcp-server` | `watch/noteplan-mcp-server.md` | veille | #noteplan, #mcp, #notes, #tasks, #calendar, #agents | actif |
-| `watch:axorcist-macos-accessibility` | `watch/axorcist-macos-accessibility.md` | veille | #macos, #accessibility, #swift, #ui-automation, #agents | actif |
-| `watch:openfelix-local-ai-agent-macos` | `watch/openfelix-local-ai-agent-macos.md` | veille | #macos, #local-ai, #agent, #privacy, #automation | actif |
-| `watch:macos26-agent-desktop-harness` | `watch/macos26-agent-desktop-harness.md` | veille | #macos, #desktop-agent, #computer-use, #coding, #automation | actif |
-| `watch:open-maestri-macos-agent-orchestration` | `watch/open-maestri-macos-agent-orchestration.md` | veille | #macos, #multi-agent, #orchestration, #claude-code, #codex, #opencode | actif |
-| `watch:you-can-run-google-gemini-2-5-pro-with-a-massive-2-milion-free-token-c` | `watch/you-can-run-google-gemini-2-5-pro-with-a-massive-2-milion-free-token-c.md` | veille | #agents, #automation, | actif |
-| `watch:bytedance-acaba-de-abrir-el-codigo-del-agente-que-controla-tu-ordenado` | `watch/bytedance-acaba-de-abrir-el-codigo-del-agente-que-controla-tu-ordenado.md` | veille | #agents, #automation, | actif |
-| `watch:este-repositorio-de-github-lo-esta-explotando-mode-senior` | `watch/este-repositorio-de-github-lo-esta-explotando-mode-senior.md` | veille | #agents, #automation, | actif |
-| `watch:bug-hunter` | `watch/bug-hunter.md` | veille | #ROUGE, #offensive-risk, #privacy-risk | interne |
-| `watch:cok-cilginca-bir-ai-araci-buldum` | `watch/cok-cilginca-bir-ai-araci-buldum.md` | veille | #llm, #to-verify | a verifier |
-| `watch:remotely-accesses-webcams-microphones-and-location-data` | `watch/remotely-accesses-webcams-microphones-and-location-data.md` | veille | #ROUGE, #offensive-risk, #privacy-risk | interne |
-| `watch:claude-code-ya-es-potente-solo` | `watch/claude-code-ya-es-potente-solo.md` | veille | #agents, #automation, | actif |
-| `watch:un-developpeur-a-clone-netflix-spotify-instagram-airbnb-et-amazon` | `watch/un-developpeur-a-clone-netflix-spotify-instagram-airbnb-et-amazon.md` | veille | #agents, #automation, | actif |
-| `watch:marketing-automation` | `watch/marketing-automation.md` | veille | #agents, #automation, | actif |
-| `watch:miranda-start-me` | `watch/miranda-start-me.md` | veille | #osint, #cyber, #search, #crime, #watch, #privacy | actif |
-| `watch:xamto-ai-understand-anything-x-post` | `watch/xamto-ai-understand-anything-x-post.md` | veille | #agents, #automation, | actif |
-| `watch:acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor` | `watch/acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor.md` | veille | #agents, #automation, | actif |
-| `watch:sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol` | `watch/sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol.md` | veille | #ROUGE, #offensive-risk, #privacy-risk | a verifier |
-| `watch:ideogram-4-0-the-open-model-for-visual-intelligence` | `watch/ideogram-4-0-the-open-model-for-visual-intelligence.md` | veille | #agents, #automation, | actif |
-| `watch:here-are-10-ai-video-editor-github-repos-worth-bookmarking` | `watch/here-are-10-ai-video-editor-github-repos-worth-bookmarking.md` | veille | #agents, #automation, | actif |
-| `watch:open-source-observability-for-traces-logs-metrics-maple` | `watch/open-source-observability-for-traces-logs-metrics-maple.md` | veille | #osint, #privacy | actif |
-| `watch:multi-search-launcher` | `watch/multi-search-launcher.md` | veille | #osint, #privacy | actif |
-| `watch:xamto-ai-understand-anything-x-post-2` | `watch/geekbb-free-tools-list.md` | veille | #raindrop, #to-verify | a verifier |
-| `watch:sabtu-malem-jam-2-pagi-gue-masih-melek` | `watch/sabtu-malem-jam-2-pagi-gue-masih-melek.md` | veille | #llm, #to-verify | a verifier |
-| `watch:danyltn-ia-automatisation-danyltn-instagram-reel` | `watch/danyltn-ia-automatisation-danyltn-instagram-reel.md` | veille | #ROUGE, #offensive-risk, #privacy-risk | a verifier |
-| `watch:guide-emergent-hero-video-scroll-fr` | `watch/guide-emergent-hero-video-scroll-fr.md` | veille | #agents, #automation, | actif |
-| `watch:guide-claude-code-remotion-ia-boss` | `watch/guide-claude-code-remotion-ia-boss.md` | veille | #agents, #automation, | actif |
-| `watch:im-agent-claude-code-codex-opencode-ai-agent` | `watch/im-agent-claude-code-codex-opencode-ai-agent.md` | veille | #agents, #automation, | actif |
-| `watch:213-000-estrellas-en-github` | `watch/213-000-estrellas-en-github.md` | veille | #agents, #automation, | actif |
-| `watch:10-github-repos-that-automate-real-work-while-you-sleep-in-2026` | `watch/10-github-repos-that-automate-real-work-while-you-sleep-in-2026.md` | veille | #agents, #automation, | actif |
-| `watch:pewdiepie-archdaemon-odysseus` | `watch/pewdiepie-archdaemon-odysseus.md` | veille | #agents, #automation, | actif |
-| `watch:2-lafys` | `watch/2-lafys.md` | veille | #raindrop, #to-verify | a verifier |
-| `watch:1-motionsites` | `watch/1-motionsites.md` | veille | #raindrop, #to-verify | a verifier |
-| `watch:offline-maps-and-gps-app-without-ads-or-tracking` | `watch/offline-maps-and-gps-app-without-ads-or-tracking.md` | veille | #osint, #privacy | actif |
-| `watch:kyber-kyber-gitlab` | `watch/kyber-kyber-gitlab.md` | veille | #raindrop, #to-verify | a verifier |
-| `watch:este-repositorio-te-ensena-ingenieria-de-ia-desde-cero` | `watch/este-repositorio-te-ensena-ingenieria-de-ia-desde-cero.md` | veille | #agents, #automation, | actif |
-| `watch:removes-llm-censorship-with-a-single-click` | `watch/removes-llm-censorship-with-a-single-click.md` | veille | #ROUGE, #offensive-risk, #privacy-risk | actif |
-| `watch:esto-es-un-palantir-gratis-y-se-instala-en-un-solo-comando` | `watch/esto-es-un-palantir-gratis-y-se-instala-en-un-solo-comando.md` | veille | #raindrop, #to-verify | a verifier |
-| `watch:waveking-free-github-projects` | `watch/waveking-free-github-projects.md` | veille | #agents, #automation, | actif |
-| `watch:mvanhorn-last30days-skill` | `watch/mvanhorn-last30days-skill.md` | veille | #agents, #automation, | actif |
-| `watch:guide-scrapegraph-ai-ia-boss-pdf` | `watch/guide-scrapegraph-ai-ia-boss-pdf.md` | veille | #agents, #automation, | actif |
-| `watch:calesthio-openmontage` | `watch/calesthio-openmontage.md` | veille | #agents, #automation, | actif |
-| `watch:ryancodrai-turbovec` | `watch/ryancodrai-turbovec.md` | veille | #agents, #automation, | actif |
-| `watch:opencode-telechargement` | `watch/opencode-telechargement.md` | veille | #herm, #llm, #api, #ressources, #news, #cartographie, #checkl, #citoyenne, #claude, #collaborative, #factchecking, #fact, #fake, #rumor, #skill, #agents, #automation, | actif |
-| `watch:l-ia-vient-de-tuer-le-metier-de-commercial-en-vendant-a-ta-place-24h-2` | `watch/l-ia-vient-de-tuer-le-metier-de-commercial-en-vendant-a-ta-place-24h-2.md` | veille | #agents, #automation, | actif |
-| `watch:ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor` | `watch/ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor.md` | veille | #agents, #automation, | actif |
-| `watch:lancement-de-notre-projet-nexus-osint-v1` | `watch/lancement-de-notre-projet-nexus-osint-v1.md` | veille | #ROUGE, #offensive-risk, #privacy-risk | actif |
-| `watch:how-i-automate-google-dorking-for-faster-osint-investigations` | `watch/how-i-automate-google-dorking-for-faster-osint-investigations.md` | veille | #ROUGE, #offensive-risk, #privacy-risk | interne |
-| `watch:alternativa-gratuita-y-de-codigo-abierto-a-notebooklm` | `watch/alternativa-gratuita-y-de-codigo-abierto-a-notebooklm.md` | veille | #llm, #to-verify | a verifier |
-| `watch:this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi` | `watch/this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi.md` | veille | #agents, #automation, | actif |
-| `watch:link-del-repo` | `watch/link-del-repo.md` | veille | #agents, #automation, | actif |
-| `watch:alguien-creo-un-repo-en-github-que-te-permite-ejecutar-claude-code-com` | `watch/alguien-creo-un-repo-en-github-que-te-permite-ejecutar-claude-code-com.md` | veille | #agents, #automation, | actif |
-| `watch:un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web` | `watch/un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web.md` | veille | #agents, #automation, | actif |
-| `watch:mobile-app-raindrop-io-help` | `watch/mobile-app-raindrop-io-help.md` | veille | #raindrop, #to-verify | a verifier |
-| `resource:global-network-sex-work-projects-resources` | `resources/global-network-sex-work-projects-resources.md` | ressource | #resources, #civil-society, #sex-work, #human-rights | a verifier |
-| `watch:free-api-key-instagram-reel` | `watch/free-api-key-instagram-reel.md` | veille | #api-keys, #llm, #credentials | actif |
-| `watch:obsidian-web-clipper` | `watch/obsidian-web-clipper.md` | veille | #obsidian, #web-clipper, #knowledge-management | actif |
-| `resource:llm-wiki-karpathy` | `resources/llm-wiki-karpathy.md` | ressource | #llm, #wiki, #karpathy, #gist | a verifier |
-| `watch:free-open-source-apps-list-sn0wbrave` | `watch/free-open-source-apps-list-sn0wbrave.md` | veille | #open-source, #apps, #directory | a verifier |
-| `watch:ghosttrack-digital-footprint-osint` | `watch/ghosttrack-digital-footprint-osint.md` | veille | #ROUGE, #osint, #privacy-risk | #ROUGE |
-| `watch:claude-agents-md-config-alexsoyes` | `watch/claude-agents-md-config-alexsoyes.md` | veille | #claude, #agents-md, #prompt-ops | actif |
-| `watch:reverse-skill-hacker-skills` | `watch/reverse-skill-hacker-skills.md` | veille | #ROUGE, #reverse-engineering, #offensive-risk | #ROUGE |
-| `watch:mineru-document-extraction` | `watch/mineru-document-extraction.md` | veille | #document-ai, #pdf, #extraction | actif |
-| `watch:hyperframes-ai-video-generation-skill` | `watch/hyperframes-ai-video-generation-skill.md` | veille | #ai-video, #agent-skill, #html-rendering, #github | actif |
-| `watch:ai-video-plugins-skills-ayi-ainotes` | `watch/ai-video-plugins-skills-ayi-ainotes.md` | veille | #ai-video, #agent-skill, #plugins, #to-verify | a verifier |
-| `watch:internet-scraping-github-repos-lucy-love-ai` | `watch/internet-scraping-github-repos-lucy-love-ai.md` | veille | #scraping, #github, #web-extraction, #data | actif |
-| `watch:open-lovable-firecrawl-site-cloning` | `watch/open-lovable-firecrawl-site-cloning.md` | veille | #firecrawl, #react, #site-cloning, #vibe-coding | actif |
-| `watch:serus-dark-web-leak-search` | `watch/serus-dark-web-leak-search.md` | veille | #ROUGE, #dark-web, #leaked-data, #privacy-risk | #ROUGE |
-| `watch:worldmonitor-global-intelligence-dashboard` | `watch/worldmonitor-global-intelligence-dashboard.md` | veille | #osint, #dashboard, #conflict-monitoring, #geoint | actif |
-| `watch:openthreat-threat-intelligence-platform` | `watch/openthreat-threat-intelligence-platform.md` | veille | #threat-intelligence, #cve, #kev, #defensive | actif |
-| `watch:ig-detective-instagram-osint-suite` | `watch/ig-detective-instagram-osint-suite.md` | veille | #ROUGE, #osint, #instagram, #forensic, #privacy-risk | #ROUGE |
-| `watch:spec-kit-vibe-coding-specification-workflow` | `watch/spec-kit-vibe-coding-specification-workflow.md` | veille | #vibe-coding, #spec, #github, #coding-agent | actif |
-| `watch:aliens-eye-ai-osint-platform` | `watch/aliens-eye-ai-osint-platform.md` | veille | #ROUGE, #osint, #ai-search, #digital-footprint, #privacy-risk | #ROUGE |
-| `watch:google-ai-studio-free-token-tier` | `watch/google-ai-studio-free-token-tier.md` | veille | #llm, #google-ai-studio, #api, #free-tier, #quotas | actif |
-| `watch:internet-scraping-github-repos-ecommartinez` | `watch/internet-scraping-github-repos-ecommartinez.md` | veille | #scraping, #github, #web-extraction, #data | actif |
-| `watch:notion-les-7-docs-avant-de-coder-avec-ia` | `watch/notion-les-7-docs-avant-de-coder-avec-ia.md` | veille | #notion, #documentation, #agents, #project-planning, #a-verifier | actif |
-| `watch:agency-agents-ai-agency` | `watch/agency-agents-ai-agency.md` | veille | #agents, #ai-agency, #github, #workflows | actif |
-| `watch:scrapling-web-scraping-modern-web` | `watch/scrapling-web-scraping-modern-web.md` | veille | #scraping, #web-extraction, #python, #documentation | actif |
-| `watch:tencentdb-agent-memory` | `watch/tencentdb-agent-memory.md` | veille | #agents, #memory, #vector-search, #local-first | actif |
-| `watch:alook-ai-workforce-collaboration` | `watch/alook-ai-workforce-collaboration.md` | veille | #agents, #multi-agent, #email, #memory | actif |
-| `watch:pentagi-autonomous-pentest-agents` | `watch/pentagi-autonomous-pentest-agents.md` | veille | #ROUGE, #pentest, #offensive-security, #autonomous-agents | #ROUGE |
-| `watch:project-eyes-on-open-ip-camera-osint` | `watch/project-eyes-on-open-ip-camera-osint.md` | veille | #ROUGE, #osint, #ip-camera, #surveillance, #dorking, #web-scraping, #privacy-risk | #ROUGE |
-## Regle automatique
-
-Quand le contenu est clair, KM choisit automatiquement le nom canonique en kebab-case, cree la fiche, met a jour l'index global, puis met a jour l'index specialise.
-
-Si le contenu est ambigu ou risque de casser une structure existante, le lot va dans `inbox/`.
-
-## Changelog
-
-### v0.1 - 2026-05-22
-
-- Objectif : ajouter un index global KM et activer le mode automatique.
-- Fichiers touches : `index.md`, `watch/index.md`, `watch/ai-open-source-tools-watch.md`, `process/km-resource-import-prompt.md`.
-- Risques : classement automatique imparfait.
-- Rollback possible : retirer les lignes ajoutees et revenir au prompt avec validation.
-
-### v0.2 - 2026-05-22
-
-- Objectif : ajouter la veille OSINT vehicule avec garde-fous privacy.
-- Fichiers touches : `index.md`, `watch/index.md`, `watch/osint-tools-watch.md`, `km/history.md`.
-- Risques : sujet privacy-sensitive.
-- Rollback possible : retirer l'entree `watch:osint-tools-watch`.
-
-### v0.3 - 2026-05-22
-
-- Objectif : ajouter le prompt KM automatique complet v1.0.
-- Fichiers touches : `process/km-auto-operating-prompt-v1.0.md`, `index.md`, `km/history.md`.
-- Risques : prompt large a maintenir.
-- Rollback possible : retirer l'entree et revenir a `process/km-resource-import-prompt`.
-
-### v0.4 - 2026-05-22
-
-- Objectif : ajouter la source de veille Vibe Shit.
-- Fichiers touches : `watch/vibeshit-vibe-coding-directory.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : claims externes variables, certains outils potentiellement dual-use.
-- Rollback possible : retirer l'entree `watch:vibeshit-vibe-coding-directory`.
-
-### v0.5 - 2026-05-22
-
-- Objectif : ajouter AgentsView.
-- Fichiers touches : `watch/agentsview-session-intelligence.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `km/history.md`.
-- Risques : lecture d'historiques agents sensibles.
-- Rollback possible : retirer l'entree `watch:agentsview-session-intelligence`.
-
-### v0.6 - 2026-05-22
-
-- Objectif : ajouter NanoClaw.
-- Fichiers touches : `watch/nanoclaw-personal-agent.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
-- Risques : messagerie automatisee, credentials et donnees personnelles.
-- Rollback possible : retirer l'entree `watch:nanoclaw-personal-agent`.
-
-### v0.7 - 2026-05-22
-
-- Objectif : ajouter AutoResearchClaw.
-- Fichiers touches : `watch/autoresearchclaw-autonomous-research.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
-- Risques : claims scientifiques, citations, couts API et publication non verifiee.
-- Rollback possible : retirer l'entree `watch:autoresearchclaw-autonomous-research`.
-
-### v0.8 - 2026-05-22
-
-- Objectif : ajouter Awesome Free LLM APIs.
-- Fichiers touches : `watch/awesome-free-llm-apis.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
-- Risques : providers variables, cles API, conditions d'usage et donnees tiers.
-- Rollback possible : retirer l'entree `watch:awesome-free-llm-apis`.
-
-### v0.9 - 2026-05-22
-
-- Objectif : ajouter PentestGPT en veille `#ROUGE`.
-- Fichiers touches : `watch/pentestgpt-autonomous-pentest.md`, `watch/red-team-risk-tools-watch.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
-- Risques : outil offensif directement operationnel.
-- Rollback possible : retirer l'entree `watch:pentestgpt-autonomous-pentest`.
-
-### v1.0 - 2026-05-22
-
-- Objectif : traiter le lot OpenRSS, LLM APIs, CodePatrol et NanoClaw FR.
-- Fichiers touches : `watch/codepatrol-code-security.md`, `watch/twitter-rss-monitoring.md`, `watch/nanoclaw-personal-agent.md`, `watch/free-llm-api-resources.md`, `watch/awesome-free-llm-apis.md`, `watch/index.md`, `index.md`, `process/AI-Tools.md`, `km/history.md`.
-- Risques : CodePatrol source directe non exploitable.
-- Rollback possible : retirer l'entree `watch:codepatrol-code-security` et les changelogs de lot.
-
-### v1.1 - 2026-05-22
-
-- Objectif : ajouter CC-GUI / MossX depuis Vibe Shit.
-- Fichiers touches : `watch/ccgui-mossx-vibecoding-editor.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `process/AI-Tools.md`, `km/history.md`.
-- Risques : repo GitHub non confirme, plugins et MCP a auditer.
-- Rollback possible : retirer l'entree `watch:ccgui-mossx-vibecoding-editor`.
-
-### v1.2 - 2026-05-23
-
-- Objectif : ajouter PromptSpy en veille menace Android IA `#ROUGE`.
-- Fichiers touches : `watch/promptspy-ai-android-malware.md`, `watch/index.md`, `watch/red-team-risk-tools-watch.md`, `index.md`, `km/history.md`.
-- Risques : source secondaire non verifiee ; URLs blog/podcast tronquees.
-- Rollback possible : retirer l'entree `watch:promptspy-ai-android-malware`.
-
-### v1.3 - 2026-05-25
-
-- Objectif : ajouter MoneyPrinterTurbo comme outil IA de generation de shorts video.
-- Fichiers touches : `watch/moneyprinterturbo-ai-short-video.md`, `watch/index.md`, `index.md`, `km/history.md`, `scripts/build-search-v1.10-html.mjs`.
-- Risques : spam video, impersonation, copyright, desinformation et automation RS abusive.
-- Rollback possible : retirer l'entree `watch:moneyprinterturbo-ai-short-video`.
-
-### v1.4 - 2026-05-25
-
-- Objectif : ajouter CONET comme veille privacy DePIN.
-- Fichiers touches : `watch/conet-privacy-depin-network.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : claims privacy non audites, crypto/tokenomics, responsabilite legale de relais.
-- Rollback possible : retirer l'entree `watch:conet-privacy-depin-network`.
-
-### v1.5 - 2026-05-26
-
-- Objectif : ajouter le fragment poetique Proton Luna.
-- Fichiers touches : `km/proton-luna-poeme.md`, `km/index.md`, `index.md`, `km/history.md`.
-- Risques : sur-interpretation symbolique.
-- Rollback possible : retirer l'entree `km:proton-luna-poeme`.
-
-### v1.6 - 2026-06-24
-
-- Objectif : integrer 3 nouveautes Raindrop KM Monitor.
-- Fichiers touches : `watch/cyberstrike-ai-red-team-agent.md`, `watch/osint-rack-curated-tools.md`, `watch/vxunderground-malware-source-code.md`, `watch/index.md`, `watch/red-team-risk-tools-watch.md`, `index.md`, `km/history.md`.
-- Risques : CyberStrike et MalwareSourceCode sont `#ROUGE`; OSINT Rack reste sensible/a verifier.
-- Rollback possible : supprimer les 3 fiches et retirer les lignes d'index.
-
-### v1.7 - 2026-06-24
-
-- Objectif : rendre la creation de fiches systematique via `km-add`.
-- Fichiers touches : `scripts/km-add.mjs`, `km-add.sh`, `process/km-systematic-fiche-pipeline.md`, `index.md`, `km/history.md`.
-- Risques : le build public actuel reste limite au perimetre configure.
-- Rollback possible : supprimer `scripts/km-add.mjs`, restaurer `km-add.sh`, retirer la fiche process et les lignes d'index.
-
-### v1.8 - 2026-06-24
-
-- Objectif : integrer 11 nouveautes Raindrop KM Monitor ajoutees apres le checkpoint 15:30Z.
-- Fichiers touches : `watch/cloudflare-agentic-inbox.md`, `watch/browser-use-web-automation.md`, `watch/awesome-mcp-servers.md`, `watch/claude-task-master-ai-task-management.md`, `watch/openhands-ai-development.md`, `watch/nousresearch-hermes-agent.md`, `watch/crewai-agent-orchestration.md`, `watch/aider-ai-pair-programming.md`, `watch/n8n-workflow-automation.md`, `watch/langgraph-resilient-agents.md`, `watch/gosearch-digital-footprint-search.md`, `watch/index.md`, `watch/red-team-risk-tools-watch.md`, `index.md`, `km/history.md`.
-- Risques : GoSearch est `#ROUGE`; Agentic Inbox, Browser Use, OpenHands et n8n sont sensibles ; Awesome MCP Servers et Hermes Agent sont a verifier.
-- Rollback possible : supprimer les 11 fiches et retirer les lignes d'index.
-
-### v1.9 - 2026-07-11
-
-- Objectif : integrer 5 nouveautes Raindrop KM Monitor apres le checkpoint 2026-07-11T07:24:34.890Z.
-- Fichiers touches : `watch/agency-agents-ai-agency.md`, `watch/scrapling-web-scraping-modern-web.md`, `watch/tencentdb-agent-memory.md`, `watch/alook-ai-workforce-collaboration.md`, `watch/pentagi-autonomous-pentest-agents.md`, `watch/index.md`, `watch/red-team-risk-tools-watch.md`, `index.md`, `km/history.md`.
-- Risques : Pentagi est `#ROUGE`; agents, memoire, email et scraping restent sensibles.
-- Rollback possible : supprimer les 5 fiches et retirer les lignes d'index.
-
-### v1.10 - 2026-07-17
-
-- Objectif : integrer la nouveaute Raindrop KM Monitor `tkslucas/Neodisk`.
-- Fichiers touches : `watch/neodisk-macos-disk-visualizer.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : chemins locaux potentiellement prives si captures ou exports sont partages.
-- Rollback possible : supprimer la fiche et retirer les lignes d'index.
-
-### v1.11 - 2026-07-17
-
-- Objectif : integrer la nouveaute Raindrop KM Monitor `ASSISTANTS IA REVOLUT`.
-- Fichiers touches : `watch/assistants-ia-revolut.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : service financier IA, donnees personnelles et interpretation juridique a verifier.
-- Rollback possible : supprimer la fiche et retirer les lignes d'index.
-
-### v1.12 - 2026-08-02
-
-- Objectif : integrer la nouveaute Raindrop KM Monitor `Brandfetch`.
-- Fichiers touches : `watch/brandfetch.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : droits de marque, impersonation visuelle, resolution directe bloquee par Cloudflare.
-- Rollback possible : supprimer la fiche et retirer les lignes d'index.
-
-### v1.13 - 2026-08-03
-
-- Objectif : integrer 6 nouveautes Raindrop KM Monitor post-Brandfetch, dont OpenCode deduplique.
-- Fichiers touches : `watch/noteplan-mcp-server.md`, `watch/axorcist-macos-accessibility.md`, `watch/openfelix-local-ai-agent-macos.md`, `watch/macos26-agent-desktop-harness.md`, `watch/open-maestri-macos-agent-orchestration.md`, `watch/opencode-telechargement.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : connecteurs MCP, Accessibility macOS, agents desktop, orchestration multi-agents et acces repo sensibles.
-- Rollback possible : supprimer les 5 fiches, retirer les lignes d'index et restaurer la fiche OpenCode.
+| `watch-technical-53b65313df1efd7a5d72-md` | `watch/technical-53b65313df1efd7a5d72.md` | outil | #analyse-malware, #macos | a verifier |
+| `watch-technical-7ae9451cd62fb317043f-md` | `watch/technical-7ae9451cd62fb317043f.md` | outil |  | a verifier |
+| `watch-technical-1e83b6596b947b071d50-md` | `watch/technical-1e83b6596b947b071d50.md` | outil | #simulation, #memoire-agents | a verifier |
+| `watch-technical-b3d97a6bcd67a3be76f1-md` | `watch/technical-b3d97a6bcd67a3be76f1.md` | outil |  | a verifier |
+| `watch-technical-34d5505e0a9890ad64f6-md` | `watch/technical-34d5505e0a9890ad64f6.md` | outil | #generation-video, #generation-images | sensible |
+| `watch-technical-48dbbdd8fd0d302995a7-md` | `watch/technical-48dbbdd8fd0d302995a7.md` | outil | #skills-agents | sensible |
+| `watch-technical-67561f37cefd0f845e9c-md` | `watch/technical-67561f37cefd0f845e9c.md` | outil |  | sensible |
+| `watch-technical-ea311829e667eb1acdcc-md` | `watch/technical-ea311829e667eb1acdcc.md` | outil | #memoire-agents, #agents-code, #terminal | sensible |
+| `watch-technical-900c2911ad71cf6d2191-md` | `watch/technical-900c2911ad71cf6d2191.md` | outil |  | a verifier |
+| `watch-technical-a20888d5cb6a1c399300-md` | `watch/technical-a20888d5cb6a1c399300.md` | outil |  | sensible |
+| `watch-technical-696f5b09666c81fe3adc-md` | `watch/technical-696f5b09666c81fe3adc.md` | outil | #react | sensible |
+| `watch-technical-937b200dbfd957aae460-md` | `watch/technical-937b200dbfd957aae460.md` | outil |  | sensible |
+| `watch-technical-252e5a55f7318a7eec1e-md` | `watch/technical-252e5a55f7318a7eec1e.md` | outil | #publication-sociale, #generation-video, #generation-images | sensible |
+| `watch-technical-ca3c69add82754901cf6-md` | `watch/technical-ca3c69add82754901cf6.md` | outil | #generation-3d | sensible |
+| `watch-technical-14991362ba170a15ca07-md` | `watch/technical-14991362ba170a15ca07.md` | outil |  | sensible |
+| `watch-technical-2993f5bd5143a68eff85-md` | `watch/technical-2993f5bd5143a68eff85.md` | outil | #terminal, #extraction-web | sensible |
+| `watch-technical-42965a7ae63080ec3407-md` | `watch/technical-42965a7ae63080ec3407.md` | outil | #extraction-web | sensible |
+| `watch-technical-0f4a7a816c8952dbf731-md` | `watch/technical-0f4a7a816c8952dbf731.md` | outil | #skills-agents | sensible |
+| `watch-technical-27f8c0ff8cca3df6ea0d-md` | `watch/technical-27f8c0ff8cca3df6ea0d.md` | outil | #skills-agents | sensible |
+| `watch-technical-2a2385aa51cfbadadbca-md` | `watch/technical-2a2385aa51cfbadadbca.md` | outil | #skills-agents | sensible |
+| `watch-technical-2c221e92f077be44fa03-md` | `watch/technical-2c221e92f077be44fa03.md` | outil | #skills-agents | sensible |
+| `watch-technical-2d1f0c27d1a7e6276bbb-md` | `watch/technical-2d1f0c27d1a7e6276bbb.md` | outil | #skills-agents, #memoire-agents | sensible |
+| `watch-technical-31af1c826591a4dae157-md` | `watch/technical-31af1c826591a4dae157.md` | outil | #skills-agents | sensible |
+| `watch-technical-33d3e0927f1fc753958b-md` | `watch/technical-33d3e0927f1fc753958b.md` | outil | #skills-agents | sensible |
+| `watch-technical-68739c32800acb892db3-md` | `watch/technical-68739c32800acb892db3.md` | outil | #skills-agents | sensible |
+| `watch-technical-8755e3cc18887d19677c-md` | `watch/technical-8755e3cc18887d19677c.md` | outil | #skills-agents | sensible |
+| `watch-technical-937202ed2e51dfc8964b-md` | `watch/technical-937202ed2e51dfc8964b.md` | outil | #skills-agents | sensible |
+| `watch-technical-b9dabe0bb617bae09e38-md` | `watch/technical-b9dabe0bb617bae09e38.md` | outil | #skills-agents | sensible |
+| `watch-technical-c552ac9f4733aa3ba7eb-md` | `watch/technical-c552ac9f4733aa3ba7eb.md` | outil | #skills-agents | sensible |
+| `watch-technical-d983544200f52aad525a-md` | `watch/technical-d983544200f52aad525a.md` | outil | #skills-agents | sensible |
+| `watch-technical-f01b945b8bb55d94764f-md` | `watch/technical-f01b945b8bb55d94764f.md` | outil | #skills-agents | sensible |
+| `watch-technical-f18f47e3a17a4b6c1a22-md` | `watch/technical-f18f47e3a17a4b6c1a22.md` | outil | #skills-agents | sensible |
+| `watch-technical-fe96049f587d9e1e842a-md` | `watch/technical-fe96049f587d9e1e842a.md` | outil | #skills-agents | sensible |
+| `watch-technical-4ebbe613827a1ffc3c29-md` | `watch/technical-4ebbe613827a1ffc3c29.md` | outil | #skills-agents, #react | a verifier |
+| `watch-technical-40cd4bcbc0fb8cf86c20-md` | `watch/technical-40cd4bcbc0fb8cf86c20.md` | outil |  | sensible |
+| `watch-technical-e3f44ce252af9ba887f8-md` | `watch/technical-e3f44ce252af9ba887f8.md` | outil | #planification-taches | a verifier |
+| `watch-technical-674690abd042252d5376-md` | `watch/technical-674690abd042252d5376.md` | outil | #generation-3d, #python | sensible |
+| `watch-technical-1f02bc8ebd550362cbc2-md` | `watch/technical-1f02bc8ebd550362cbc2.md` | outil |  | sensible |
+| `watch-technical-411490b28204e94a3778-md` | `watch/technical-411490b28204e94a3778.md` | outil |  | a verifier |
+| `watch-technical-42c5a49b8cf68812c97a-md` | `watch/technical-42c5a49b8cf68812c97a.md` | outil | #skills-agents | sensible |
+| `watch-technical-8e516fbfe344018b3245-md` | `watch/technical-8e516fbfe344018b3245.md` | outil | #terminal, #mcp | sensible |
+| `watch-technical-c68d8c6560271f81a81f-md` | `watch/technical-c68d8c6560271f81a81f.md` | outil | #backtesting, #simulation, #marches-predictifs | sensible |
+| `watch-technical-b79207044bee1b2d7073-md` | `watch/technical-b79207044bee1b2d7073.md` | outil |  | sensible |
+| `watch-technical-994bb8c95881181b98b3-md` | `watch/technical-994bb8c95881181b98b3.md` | outil | #chiffrement | sensible |
+| `watch-technical-104ad8ef475db3f7384a-md` | `watch/technical-104ad8ef475db3f7384a.md` | outil | #marches-predictifs | sensible |
+| `watch-technical-c1af6b58492f9bf434d2-md` | `watch/technical-c1af6b58492f9bf434d2.md` | outil | #automatisation-navigateur | sensible |
+| `watch-technical-1f8d61fe04f2cb529ec1-md` | `watch/technical-1f8d61fe04f2cb529ec1.md` | outil |  | sensible |
+| `watch-technical-553d2fe81671c153a6e0-md` | `watch/technical-553d2fe81671c153a6e0.md` | outil |  | a verifier |
+| `watch-technical-cb5d126cbda2eedef29e-md` | `watch/technical-cb5d126cbda2eedef29e.md` | outil |  | sensible |
+| `watch-technical-05a714c23543244771cf-md` | `watch/technical-05a714c23543244771cf.md` | outil | #transcription, #extraction-web | sensible |
+| `watch-technical-d757b4c5c60f5bd16d56-md` | `watch/technical-d757b4c5c60f5bd16d56.md` | outil |  | sensible |
+| `watch-technical-4f72d6274858ca1e8190-md` | `watch/technical-4f72d6274858ca1e8190.md` | outil | #generation-3d | sensible |
+| `watch-technical-8eec6dc58fee3af126d1-md` | `watch/technical-8eec6dc58fee3af126d1.md` | outil | #publication-sociale | sensible |
+| `watch-technical-227e249fa68647e0ca82-md` | `watch/technical-227e249fa68647e0ca82.md` | outil |  | a verifier |
+| `watch-technical-6e8858c6b6c8c8c1712a-md` | `watch/technical-6e8858c6b6c8c8c1712a.md` | outil | #compression-images | a verifier |
+| `watch-technical-6693a84665174f39d08b-md` | `watch/technical-6693a84665174f39d08b.md` | outil |  | sensible |
+| `watch-technical-533d51d9d3dea76fea8f-md` | `watch/technical-533d51d9d3dea76fea8f.md` | outil | #agents-code, #planification-taches, #terminal | sensible |
+| `watch-technical-7e23e27f5e0938bac417-md` | `watch/technical-7e23e27f5e0938bac417.md` | outil | #detection-bots, #securite-web | sensible |
+| `watch-technical-d6a24343d25ffd74d14c-md` | `watch/technical-d6a24343d25ffd74d14c.md` | outil |  | sensible |
+| `watch-technical-fca1fec32410e408c140-md` | `watch/technical-fca1fec32410e408c140.md` | outil |  | sensible |
+| `watch-technical-4ae9875513059238a6b2-md` | `watch/technical-4ae9875513059238a6b2.md` | outil | #agents-code, #terminal, #mcp | sensible |
+| `watch-technical-8c3dc2a0187cafccea2a-md` | `watch/technical-8c3dc2a0187cafccea2a.md` | outil | #terminal | sensible |
+| `watch-technical-02d73009ec03d24b2e22-md` | `watch/technical-02d73009ec03d24b2e22.md` | outil | #skills-agents, #analyse-vulnerabilites | sensible |
+| `watch-technical-18d04c59111a0ef60037-md` | `watch/technical-18d04c59111a0ef60037.md` | outil | #skills-agents | sensible |
+| `watch-technical-1a96b96052a0c881d102-md` | `watch/technical-1a96b96052a0c881d102.md` | outil | #skills-agents | sensible |
+| `watch-technical-36aa7eee4746770fcda3-md` | `watch/technical-36aa7eee4746770fcda3.md` | outil | #skills-agents, #analyse-vulnerabilites | sensible |
+| `watch-technical-570dd0657c06ecf2451b-md` | `watch/technical-570dd0657c06ecf2451b.md` | outil | #skills-agents | sensible |
+| `watch-technical-5794b85350d1d45ac52f-md` | `watch/technical-5794b85350d1d45ac52f.md` | outil | #skills-agents | sensible |
+| `watch-technical-79bed09262cc44d98990-md` | `watch/technical-79bed09262cc44d98990.md` | outil | #skills-agents | sensible |
+| `watch-technical-89d5f664cb5f7ff3416f-md` | `watch/technical-89d5f664cb5f7ff3416f.md` | outil | #skills-agents | sensible |
+| `watch-technical-a80dbff462f192c01fb9-md` | `watch/technical-a80dbff462f192c01fb9.md` | outil | #skills-agents, #analyse-malware, #memoire-agents | sensible |
+| `watch-technical-e951214a3b33e5131590-md` | `watch/technical-e951214a3b33e5131590.md` | outil | #skills-agents | sensible |
+| `watch-technical-f26c6abfcce6e427cbf6-md` | `watch/technical-f26c6abfcce6e427cbf6.md` | outil | #skills-agents | sensible |
+| `watch-technical-e0275c5610589cad14d2-md` | `watch/technical-e0275c5610589cad14d2.md` | outil | #comparaison-modeles, #generation-video, #generation-images | sensible |
+| `watch-technical-668711a6e10728221dfc-md` | `watch/technical-668711a6e10728221dfc.md` | outil | #memoire-agents | sensible |
+| `watch-technical-cf13d710b766f0f10a31-md` | `watch/technical-cf13d710b766f0f10a31.md` | outil |  | sensible |
+| `watch-technical-d9575f3020769f3b284b-md` | `watch/technical-d9575f3020769f3b284b.md` | outil |  | sensible |
+| `watch-technical-37abca5ae9be9ed91364-md` | `watch/technical-37abca5ae9be9ed91364.md` | outil | #extraction-web, #automatisation-navigateur, #python | a verifier |
+| `watch-technical-57435869059c16d7e579-md` | `watch/technical-57435869059c16d7e579.md` | outil | #skills-agents | sensible |
+| `watch-technical-c7981ee6b566fce67d68-md` | `watch/technical-c7981ee6b566fce67d68.md` | outil | #marches-predictifs | sensible |
+| `watch-technical-21a78e48d74a8e6ab07f-md` | `watch/technical-21a78e48d74a8e6ab07f.md` | outil | #generation-video, #generation-images | sensible |
+| `watch-technical-74dc45b5f749db3d46d0-md` | `watch/technical-74dc45b5f749db3d46d0.md` | outil |  | sensible |
+| `watch-technical-c5cd3a5c95630c792129-md` | `watch/technical-c5cd3a5c95630c792129.md` | outil | #generation-video, #generation-images | sensible |
+| `watch-technical-35aadf0372281812cd07-md` | `watch/technical-35aadf0372281812cd07.md` | outil |  | sensible |
+| `watch-technical-ddda9bed5feda3007847-md` | `watch/technical-ddda9bed5feda3007847.md` | outil |  | sensible |
+| `watch-technical-80c1535b6e69bb84082c-md` | `watch/technical-80c1535b6e69bb84082c.md` | outil | #generation-3d, #generation-images | sensible |
+| `watch-technical-f1fa1897837db4db2e4d-md` | `watch/technical-f1fa1897837db4db2e4d.md` | outil | #generation-3d | sensible |
+| `watch-technical-832b1113a3474e30413a-md` | `watch/technical-832b1113a3474e30413a.md` | outil |  | sensible |
+| `watch-technical-1380f00a7374bcec86ff-md` | `watch/technical-1380f00a7374bcec86ff.md` | outil |  | #ROUGE |
+| `watch-technical-b837a3f7fa0f746e59c5-md` | `watch/technical-b837a3f7fa0f746e59c5.md` | outil | #marches-predictifs | sensible |
+| `watch-technical-2ee41fd0d683c0958502-md` | `watch/technical-2ee41fd0d683c0958502.md` | outil |  | sensible |
+| `watch-technical-812162d99641f3f436b1-md` | `watch/technical-812162d99641f3f436b1.md` | outil | #chiffrement | a verifier |
+| `watch-technical-7c881fd189f1ece84c8b-md` | `watch/technical-7c881fd189f1ece84c8b.md` | outil | #terminal | sensible |
+| `watch-technical-28efa5970d38e5616943-md` | `watch/technical-28efa5970d38e5616943.md` | outil | #generation-video | sensible |
+| `watch-technical-e7559ed70d863d3b8f6d-md` | `watch/technical-e7559ed70d863d3b8f6d.md` | outil | #generation-video, #generation-3d, #montage-video, #python | sensible |
+| `watch-technical-d85e8aba072628b2e82b-md` | `watch/technical-d85e8aba072628b2e82b.md` | outil | #generation-video | sensible |
+| `watch-technical-8d8cf40ff98876dc4965-md` | `watch/technical-8d8cf40ff98876dc4965.md` | outil | #generation-video | sensible |
+| `watch-technical-4ff70387f0be38c9fbad-md` | `watch/technical-4ff70387f0be38c9fbad.md` | outil | #generation-video, #generation-images | sensible |
+| `watch-technical-0c9607a1c8e9eb918265-md` | `watch/technical-0c9607a1c8e9eb918265.md` | outil | #generation-images | sensible |
+| `watch-technical-1158f7d0b091e0866c17-md` | `watch/technical-1158f7d0b091e0866c17.md` | outil | #generation-images, #generation-3d | a verifier |
+| `watch-technical-041ee9bffa76ace2d6ef-md` | `watch/technical-041ee9bffa76ace2d6ef.md` | outil | #generation-video, #orchestration-agents | sensible |
+| `watch-technical-37356cc78499d8e4af94-md` | `watch/technical-37356cc78499d8e4af94.md` | outil | #generation-images, #generation-3d | sensible |
+| `watch-technical-cfc247fd5cb1bebffe4a-md` | `watch/technical-cfc247fd5cb1bebffe4a.md` | outil | #generation-video, #generation-images | sensible |
+| `watch-technical-cc687e91ee3b0302f92e-md` | `watch/technical-cc687e91ee3b0302f92e.md` | outil | #generation-video, #generation-images, #python | sensible |
+| `watch-technical-d93ed6a02625034b1939-md` | `watch/technical-d93ed6a02625034b1939.md` | outil | #identification-audio, #macos | a verifier |
+| `watch-technical-aa8e0008d94afed17913-md` | `watch/technical-aa8e0008d94afed17913.md` | outil |  | sensible |
+| `watch-technical-f1bc36a07e9a8a388405-md` | `watch/technical-f1bc36a07e9a8a388405.md` | outil |  | sensible |
+| `watch-technical-c750bc2f9f73e8e1f5bd-md` | `watch/technical-c750bc2f9f73e8e1f5bd.md` | outil | #publication-sociale | sensible |
+| `watch-technical-c185cfb5713fdfdca685-md` | `watch/technical-c185cfb5713fdfdca685.md` | outil | #simulation | sensible |
+| `watch-technical-75e00de51f7cccf3faba-md` | `watch/technical-75e00de51f7cccf3faba.md` | outil | #simulation | sensible |
+| `watch-technical-d2fc479804301a66d2d8-md` | `watch/technical-d2fc479804301a66d2d8.md` | outil | #recherche-documentaire | sensible |
+| `watch-technical-cc7d258f82fc4f055019-md` | `watch/technical-cc7d258f82fc4f055019.md` | outil | #agents-code, #terminal | sensible |
+| `watch-technical-383ec76df0f9b9e99e36-md` | `watch/technical-383ec76df0f9b9e99e36.md` | outil | #generation-3d | sensible |
+| `watch-technical-1805682cce69c18558d8-md` | `watch/technical-1805682cce69c18558d8.md` | outil | #osint, #extraction-web, #python, #terminal | sensible |
+| `watch-technical-2c77d6ac468e756216f6-md` | `watch/technical-2c77d6ac468e756216f6.md` | outil |  | sensible |
+| `watch-technical-a17476e9d79551521382-md` | `watch/technical-a17476e9d79551521382.md` | outil | #memoire-agents | sensible |
+| `watch-technical-4f5360b51f5e48b701f2-md` | `watch/technical-4f5360b51f5e48b701f2.md` | outil | #marches-predictifs, #previsions-meteo | sensible |
+| `watch-technical-6e18aa23e1f0d14413d5-md` | `watch/technical-6e18aa23e1f0d14413d5.md` | outil | #generation-video, #terminal | sensible |
+| `watch-technical-457a0ceb1c2bf60a2841-md` | `watch/technical-457a0ceb1c2bf60a2841.md` | outil |  | sensible |
+| `watch-technical-3f991f224eb64ace6e0c-md` | `watch/technical-3f991f224eb64ace6e0c.md` | outil |  | sensible |
+| `watch-technical-1fca81e0d4c208d8ff35-md` | `watch/technical-1fca81e0d4c208d8ff35.md` | outil | #react | sensible |
+| `watch-technical-8a9178e6e40f90af4053-md` | `watch/technical-8a9178e6e40f90af4053.md` | outil |  | sensible |
+| `watch-technical-f8f551d25eb73ecda1fd-md` | `watch/technical-f8f551d25eb73ecda1fd.md` | outil | #generation-images, #generation-video, #python | sensible |
+| `watch-technical-175145cf9f61d50d798d-md` | `watch/technical-175145cf9f61d50d798d.md` | outil | #python, #previsions-meteo | a verifier |
+| `watch-technical-5e7f5b459d52bc0badc8-md` | `watch/technical-5e7f5b459d52bc0badc8.md` | outil | #macos | sensible |
+| `watch-technical-49226a0e2e05fa223d37-md` | `watch/technical-49226a0e2e05fa223d37.md` | outil | #pdf | sensible |
+| `watch-technical-3de5fe321bc7be772fd3-md` | `watch/technical-3de5fe321bc7be772fd3.md` | outil | #previsions-meteo | sensible |
+| `watch-technical-6cc3ec716443f80c37a3-md` | `watch/technical-6cc3ec716443f80c37a3.md` | outil | #generation-video, #generation-images | sensible |
+| `watch-technical-5ea1d4fd1ccb4341a6ba-md` | `watch/technical-5ea1d4fd1ccb4341a6ba.md` | outil |  | sensible |
+| `watch-technical-c5a32632e586ab2c7c9c-md` | `watch/technical-c5a32632e586ab2c7c9c.md` | outil | #planification-taches | sensible |
+| `watch-technical-b88590c43555a909e1ff-md` | `watch/technical-b88590c43555a909e1ff.md` | outil | #skills-agents | sensible |
+| `watch-technical-2eb5b1b4690cd51d126c-md` | `watch/technical-2eb5b1b4690cd51d126c.md` | outil | #skills-agents | sensible |
+| `watch-technical-ff4abb9b63459f4d12ec-md` | `watch/technical-ff4abb9b63459f4d12ec.md` | outil | #skills-agents | sensible |
+| `watch-technical-98601a8248a8eb261f28-md` | `watch/technical-98601a8248a8eb261f28.md` | outil | #publication-sociale | sensible |
+| `watch-technical-c9538405e52eaa888eec-md` | `watch/technical-c9538405e52eaa888eec.md` | outil | #publication-sociale | sensible |
+| `watch-technical-0ddca6b2cefbbbc15347-md` | `watch/technical-0ddca6b2cefbbbc15347.md` | outil | #mcp | sensible |
+| `watch-technical-8c7fcab8649bc99384b3-md` | `watch/technical-8c7fcab8649bc99384b3.md` | outil | #mcp | sensible |
+| `watch-technical-0c47943ed87a19d125dc-md` | `watch/technical-0c47943ed87a19d125dc.md` | outil |  | sensible |
+| `watch-technical-8f4d2163b5e697a72c77-md` | `watch/technical-8f4d2163b5e697a72c77.md` | outil | #memoire-agents | sensible |
+| `watch-technical-9e4c4b6c4c6a7d12ceff-md` | `watch/technical-9e4c4b6c4c6a7d12ceff.md` | outil |  | sensible |
+| `watch-technical-0ebd1f1b56ff3fc73866-md` | `watch/technical-0ebd1f1b56ff3fc73866.md` | outil |  | sensible |
+| `watch-technical-18f0542a2dd3c9b424dc-md` | `watch/technical-18f0542a2dd3c9b424dc.md` | outil | #python | sensible |
+| `watch-technical-f0066d78062c33a0cb18-md` | `watch/technical-f0066d78062c33a0cb18.md` | outil |  | a verifier |
+| `watch-technical-6d84c860baa5311d1e0f-md` | `watch/technical-6d84c860baa5311d1e0f.md` | outil | #pdf | sensible |
+| `watch-technical-0812a3e04271e2d82124-md` | `watch/technical-0812a3e04271e2d82124.md` | outil |  | sensible |
+| `watch-technical-ee446b3bf303b677315c-md` | `watch/technical-ee446b3bf303b677315c.md` | outil |  | sensible |
+| `watch-technical-ae656978c39f7ee93ef6-md` | `watch/technical-ae656978c39f7ee93ef6.md` | outil |  | sensible |
+| `watch-technical-10eda570000d9c7eeda1-md` | `watch/technical-10eda570000d9c7eeda1.md` | outil | #react, #generation-images, #conversion-documents | sensible |
+| `watch-technical-0096fb39d8f5defe169d-md` | `watch/technical-0096fb39d8f5defe169d.md` | outil |  | sensible |
+| `watch-technical-15ae02c43b612a6e8c46-md` | `watch/technical-15ae02c43b612a6e8c46.md` | outil | #mcp, #terminal | sensible |
+| `watch-technical-13c3b19f7eae9306c512-md` | `watch/technical-13c3b19f7eae9306c512.md` | outil |  | sensible |
+| `watch-technical-4fed931d247d6cb2a3df-md` | `watch/technical-4fed931d247d6cb2a3df.md` | outil | #terminal | sensible |
+| `watch-technical-9bd95807fef95eea1d8c-md` | `watch/technical-9bd95807fef95eea1d8c.md` | outil | #generation-video, #generation-images | a verifier |
+| `watch-technical-9e0cc8c5c3c327b3c50b-md` | `watch/technical-9e0cc8c5c3c327b3c50b.md` | outil | #terminal, #extraction-web, #python | sensible |
+| `watch-technical-ae2b5f1a3fbdf8f6f54d-md` | `watch/technical-ae2b5f1a3fbdf8f6f54d.md` | outil | #python, #terminal | sensible |
+| `watch-technical-c37165a31cd3fc399e84-md` | `watch/technical-c37165a31cd3fc399e84.md` | outil | #python | sensible |
+| `watch-technical-d5417dd0599d69bd651b-md` | `watch/technical-d5417dd0599d69bd651b.md` | outil | #generation-images | sensible |
+| `watch-technical-2593ae994f558b741e0a-md` | `watch/technical-2593ae994f558b741e0a.md` | outil | #transcription, #synthese-vocale, #clonage-vocal, #generation-video | a verifier |
+| `watch-technical-f9593f1f67353de2f728-md` | `watch/technical-f9593f1f67353de2f728.md` | outil |  | sensible |
+| `watch-technical-7e07682fe36ee14ea7b5-md` | `watch/technical-7e07682fe36ee14ea7b5.md` | outil |  | sensible |
+| `watch-technical-78d472c25b2758a70776-md` | `watch/technical-78d472c25b2758a70776.md` | outil | #python, #terminal, #generation-video | a verifier |
+| `watch-technical-c0badb550789f39d0a06-md` | `watch/technical-c0badb550789f39d0a06.md` | outil | #publication-sociale | sensible |
+| `watch-technical-712121d9735431107601-md` | `watch/technical-712121d9735431107601.md` | outil | #generation-3d | sensible |
+| `watch-technical-e966a9e737e6ac681d51-md` | `watch/technical-e966a9e737e6ac681d51.md` | outil |  | sensible |
+| `watch-technical-5ba505eac127e82e4362-md` | `watch/technical-5ba505eac127e82e4362.md` | outil | #clonage-vocal, #transcription, #traduction-audio, #synthese-vocale | a verifier |
+| `watch-technical-2d163384adb685d9a51a-md` | `watch/technical-2d163384adb685d9a51a.md` | outil | #skills-agents | sensible |
+| `watch-technical-af32c93f6e9c60ab06b7-md` | `watch/technical-af32c93f6e9c60ab06b7.md` | outil | #skills-agents | sensible |
+| `watch-technical-79b08dab72dcf263294d-md` | `watch/technical-79b08dab72dcf263294d.md` | outil | #memoire-agents | sensible |
+| `watch-technical-78faa425ad9343a870b8-md` | `watch/technical-78faa425ad9343a870b8.md` | outil | #generation-video, #generation-images, #macos | sensible |
+| `watch-technical-00898489ed72fd55e12d-md` | `watch/technical-00898489ed72fd55e12d.md` | outil | #synthese-vocale, #application-bureau | sensible |
+| `watch-technical-e9402eee8021703f0e94-md` | `watch/technical-e9402eee8021703f0e94.md` | outil | #extraction-web | sensible |
+| `watch-technical-690719855ba11af8d90c-md` | `watch/technical-690719855ba11af8d90c.md` | outil | #react, #agents-code, #pdf | sensible |
+| `watch-technical-0b5c4741d1c147be5fdd-md` | `watch/technical-0b5c4741d1c147be5fdd.md` | outil |  | sensible |
+| `watch-technical-ffccace0ba14fd154d90-md` | `watch/technical-ffccace0ba14fd154d90.md` | outil |  | sensible |
+| `watch-technical-7f84d8cb0f021d98f595-md` | `watch/technical-7f84d8cb0f021d98f595.md` | outil | #montage-video | a verifier |
+| `watch-technical-757ce536b0a4cbc2f860-md` | `watch/technical-757ce536b0a4cbc2f860.md` | outil | #conversion-documents | a verifier |
+| `watch-technical-aabd475730fdd2c418b7-md` | `watch/technical-aabd475730fdd2c418b7.md` | outil | #react | a verifier |
+| `watch-technical-d07066251c23560c4586-md` | `watch/technical-d07066251c23560c4586.md` | outil | #python | sensible |
+| `watch-technical-6bb0ffb5ad3771787603-md` | `watch/technical-6bb0ffb5ad3771787603.md` | outil |  | sensible |
+| `watch-technical-1049081f67e5576ca9e6-md` | `watch/technical-1049081f67e5576ca9e6.md` | outil | #osint | a verifier |
+| `watch-technical-e89b211cd062814b9628-md` | `watch/technical-e89b211cd062814b9628.md` | outil | #skills-agents | a verifier |
+| `watch-technical-02e627709adedd541e23-md` | `watch/technical-02e627709adedd541e23.md` | outil | #conversion-documents, #generation-images, #pdf | sensible |
+| `watch-technical-dbe2e54164b357ddcb32-md` | `watch/technical-dbe2e54164b357ddcb32.md` | outil | #generation-video, #generation-images | sensible |
+| `watch-technical-2d1ac4652650774f6f7f-md` | `watch/technical-2d1ac4652650774f6f7f.md` | outil | #marches-predictifs | sensible |
+| `watch-technical-1a1b1c01fccbb652af5e-md` | `watch/technical-1a1b1c01fccbb652af5e.md` | outil |  | sensible |
+| `watch-technical-b8cbc6e661d7a948ed3d-md` | `watch/technical-b8cbc6e661d7a948ed3d.md` | outil | #generation-video, #generation-images, #mcp, #terminal | sensible |
+| `watch-technical-987ba513f79cc0f52b4c-md` | `watch/technical-987ba513f79cc0f52b4c.md` | outil |  | sensible |
+| `watch-technical-f41dcfa5b02bba010122-md` | `watch/technical-f41dcfa5b02bba010122.md` | outil |  | sensible |
+| `watch-technical-e7e75eb94cdcb10fd9a8-md` | `watch/technical-e7e75eb94cdcb10fd9a8.md` | outil |  | sensible |
+| `watch-technical-4df736e310f1a98e2c76-md` | `watch/technical-4df736e310f1a98e2c76.md` | outil | #synthese-vocale, #generation-video | a verifier |
+| `watch-technical-1579309e1b490fa5279c-md` | `watch/technical-1579309e1b490fa5279c.md` | outil |  | sensible |
+| `watch-technical-c88e811a1a66f8cd57ba-md` | `watch/technical-c88e811a1a66f8cd57ba.md` | outil |  | sensible |
+| `watch-technical-c0d4875dd605f77caf57-md` | `watch/technical-c0d4875dd605f77caf57.md` | outil |  | sensible |
+| `watch-technical-97416d4ba88591c565b7-md` | `watch/technical-97416d4ba88591c565b7.md` | outil |  | sensible |
+| `watch-technical-c133b93b912dffd605a2-md` | `watch/technical-c133b93b912dffd605a2.md` | outil | #terminal | sensible |
+| `watch-technical-70340542d5688b508dea-md` | `watch/technical-70340542d5688b508dea.md` | outil | #synthese-vocale, #python | a verifier |
+| `watch-technical-62ff8b189d833243b52d-md` | `watch/technical-62ff8b189d833243b52d.md` | outil | #generation-images, #generation-3d | sensible |
+| `watch-technical-140649096e6d8069b2f4-md` | `watch/technical-140649096e6d8069b2f4.md` | outil | #generation-video, #generation-images | sensible |
+| `watch-technical-1322cd90adeb08627ff0-md` | `watch/technical-1322cd90adeb08627ff0.md` | outil |  | sensible |
+| `watch-technical-73498d2b34bc9f53ae61-md` | `watch/technical-73498d2b34bc9f53ae61.md` | outil | #terminal | sensible |
+| `watch-technical-08055b9ca2497bd87108-md` | `watch/technical-08055b9ca2497bd87108.md` | outil | #terminal | sensible |
+| `watch-technical-52593ff508c40e9e2d49-md` | `watch/technical-52593ff508c40e9e2d49.md` | outil | #terminal | sensible |
+| `watch-technical-bf179dd30e4dd348176a-md` | `watch/technical-bf179dd30e4dd348176a.md` | outil | #marches-predictifs | sensible |
+| `watch-technical-8d9e2cbc1b07a2267825-md` | `watch/technical-8d9e2cbc1b07a2267825.md` | outil | #marches-predictifs | sensible |
+| `watch-technical-b7dba4ff7fb5c82d8a8c-md` | `watch/technical-b7dba4ff7fb5c82d8a8c.md` | outil | #marches-predictifs | sensible |
+| `watch-technical-c5e8fa76044b8e3f7977-md` | `watch/technical-c5e8fa76044b8e3f7977.md` | outil | #previsions-meteo | sensible |
+| `watch-technical-f2ad2f5dfae253d2f4b6-md` | `watch/technical-f2ad2f5dfae253d2f4b6.md` | outil | #react | sensible |
+| `watch-technical-eb37530b4bcfa1e9bde8-md` | `watch/technical-eb37530b4bcfa1e9bde8.md` | outil | #python | sensible |
+| `watch-technical-e9eb05e2bf38f125a62f-md` | `watch/technical-e9eb05e2bf38f125a62f.md` | outil | #memoire-agents | a verifier |
+| `watch-technical-9430291e7ebea78d5bfa-md` | `watch/technical-9430291e7ebea78d5bfa.md` | outil |  | sensible |
+| `watch-technical-ca7cb887e2ca56aa74cb-md` | `watch/technical-ca7cb887e2ca56aa74cb.md` | outil | #anonymisation, #pentest | a verifier |
+| `watch-technical-252f85e1a80b7d2702ca-md` | `watch/technical-252f85e1a80b7d2702ca.md` | outil |  | a verifier |
+| `watch-technical-40431c060cb04bde6a19-md` | `watch/technical-40431c060cb04bde6a19.md` | outil |  | sensible |
+| `watch-technical-e916d975160d16b98553-md` | `watch/technical-e916d975160d16b98553.md` | outil | #python | sensible |
+| `watch-technical-897197daef92f370c451-md` | `watch/technical-897197daef92f370c451.md` | outil | #agents-code, #terminal | sensible |
+| `watch-technical-991d8b9d9433d93423eb-md` | `watch/technical-991d8b9d9433d93423eb.md` | outil | #orchestration-agents, #memoire-agents, #terminal | sensible |
+| `watch-technical-c292611ef4a4a5e37455-md` | `watch/technical-c292611ef4a4a5e37455.md` | outil | #application-bureau, #terminal | sensible |
+| `watch-technical-7cf0ee8352dc6af0478e-md` | `watch/technical-7cf0ee8352dc6af0478e.md` | outil |  | sensible |
+| `watch-technical-c8e0d0b7ca0f7e400713-md` | `watch/technical-c8e0d0b7ca0f7e400713.md` | outil | #react, #generation-video | sensible |
+| `watch-technical-40c2c54a4c6490e8e3bc-md` | `watch/technical-40c2c54a4c6490e8e3bc.md` | outil | #python | sensible |
+| `watch-technical-a352cd98ee30cd20d69a-md` | `watch/technical-a352cd98ee30cd20d69a.md` | outil | #extraction-web, #python, #terminal | sensible |
+| `watch-technical-f4619ecbc826ded4db95-md` | `watch/technical-f4619ecbc826ded4db95.md` | outil |  | sensible |
+| `watch-technical-ad3b72610e20f4f2c9a6-md` | `watch/technical-ad3b72610e20f4f2c9a6.md` | outil | #generation-video, #generation-images | a verifier |
+| `watch-technical-73ffc014f69d12660ff8-md` | `watch/technical-73ffc014f69d12660ff8.md` | outil | #generation-video | sensible |
+| `watch-technical-d03eda2466f2556e6e1c-md` | `watch/technical-d03eda2466f2556e6e1c.md` | outil | #automatisation-navigateur | sensible |
+| `watch-technical-dabb4187a6c2e7d576c7-md` | `watch/technical-dabb4187a6c2e7d576c7.md` | outil | #marches-predictifs, #mcp | sensible |
+| `watch-technical-8d55a0f0b5e9b3b01fac-md` | `watch/technical-8d55a0f0b5e9b3b01fac.md` | outil | #python | a verifier |
+| `watch-technical-0879775e9d9de16c47b9-md` | `watch/technical-0879775e9d9de16c47b9.md` | outil | #agents-code, #terminal | sensible |
+| `watch-technical-637c99109af31ed2fe7b-md` | `watch/technical-637c99109af31ed2fe7b.md` | outil | #skills-agents | sensible |
+| `watch-technical-125acf8b08c34d868099-md` | `watch/technical-125acf8b08c34d868099.md` | outil | #skills-agents, #terminal | sensible |
+| `watch-technical-ce8a12d1c4391a2f858c-md` | `watch/technical-ce8a12d1c4391a2f858c.md` | outil | #skills-agents, #terminal | sensible |
+| `watch-technical-9fb58e6bfbb249518dab-md` | `watch/technical-9fb58e6bfbb249518dab.md` | outil | #macos | a verifier |
+| `watch-technical-f4e0adf84666b0c986e7-md` | `watch/technical-f4e0adf84666b0c986e7.md` | outil | #agents-code | sensible |
+| `watch-technical-94c4f976278cef504540-md` | `watch/technical-94c4f976278cef504540.md` | outil | #generation-images, #macos | sensible |
+| `watch-technical-39708b126c037da50e56-md` | `watch/technical-39708b126c037da50e56.md` | outil | #generation-images, #generation-3d | sensible |
+| `watch-technical-2b5226bf08105545e1cf-md` | `watch/technical-2b5226bf08105545e1cf.md` | outil |  | sensible |
+| `watch-technical-f7ea866b53ea3110371c-md` | `watch/technical-f7ea866b53ea3110371c.md` | outil | #generation-3d | sensible |
+| `watch-technical-f2f0cf932a4277169ee7-md` | `watch/technical-f2f0cf932a4277169ee7.md` | outil | #dedoublonnage | sensible |
+| `watch-technical-4c3271bfa169fba76b45-md` | `watch/technical-4c3271bfa169fba76b45.md` | outil | #previsions-meteo | sensible |
+| `watch-technical-763a276cbab62cfc7a39-md` | `watch/technical-763a276cbab62cfc7a39.md` | outil | #generation-3d | sensible |
+| `watch-technical-c00a869dbb6fdf2fc1cb-md` | `watch/technical-c00a869dbb6fdf2fc1cb.md` | outil |  | sensible |
+| `watch-technical-83811fe337d142092d4c-md` | `watch/technical-83811fe337d142092d4c.md` | outil | #previsions-meteo | a verifier |
+| `watch-technical-8a1d416625950ae0abb8-md` | `watch/technical-8a1d416625950ae0abb8.md` | outil | #generation-3d, #generation-images | sensible |
+| `watch-technical-611db130b2bc64852596-md` | `watch/technical-611db130b2bc64852596.md` | outil | #generation-images | sensible |
+| `watch-technical-1916507fd0ec17c5d818-md` | `watch/technical-1916507fd0ec17c5d818.md` | outil |  | sensible |
+| `watch-technical-66fc5b1d26e505baaa01-md` | `watch/technical-66fc5b1d26e505baaa01.md` | outil | #python | sensible |
+| `watch-technical-bba9c08d417b5cda22d8-md` | `watch/technical-bba9c08d417b5cda22d8.md` | outil | #application-bureau, #terminal, #automatisation-navigateur, #mcp | sensible |
+| `watch-technical-270127c4040820721fee-md` | `watch/technical-270127c4040820721fee.md` | outil | #detection-bots, #securite-web, #automatisation-navigateur, #python | sensible |
+| `watch-technical-acb8c4977c9c6f208a52-md` | `watch/technical-acb8c4977c9c6f208a52.md` | outil |  | sensible |
+| `watch-technical-24684c1ecca249c03e58-md` | `watch/technical-24684c1ecca249c03e58.md` | outil | #terminal, #generation-images, #mcp | sensible |
+| `watch-technical-04eb6674f0cfa4208b0e-md` | `watch/technical-04eb6674f0cfa4208b0e.md` | outil |  | sensible |
+| `watch-technical-e8ac251258a46bd1e943-md` | `watch/technical-e8ac251258a46bd1e943.md` | outil | #terminal | sensible |
+| `watch-technical-30e283a9b3f70e35d81a-md` | `watch/technical-30e283a9b3f70e35d81a.md` | outil | #python | sensible |
+| `watch-technical-75510e336991262df5d4-md` | `watch/technical-75510e336991262df5d4.md` | outil | #generation-video, #generation-images | sensible |
+| `watch-technical-6ccb86641ecc996a74b9-md` | `watch/technical-6ccb86641ecc996a74b9.md` | outil | #generation-video, #generation-images | sensible |
+| `watch-technical-0b33f78c53b5945bc0bf-md` | `watch/technical-0b33f78c53b5945bc0bf.md` | outil |  | sensible |
+| `watch-technical-ef1500532ddc132c577d-md` | `watch/technical-ef1500532ddc132c577d.md` | outil | #generation-video | a verifier |
+| `watch-technical-47bd68997bedeb6edcef-md` | `watch/technical-47bd68997bedeb6edcef.md` | outil | #generation-video, #generation-images | sensible |
+| `watch-technical-dbbe9adbe528f3b77e3a-md` | `watch/technical-dbbe9adbe528f3b77e3a.md` | outil |  | sensible |
+| `watch-technical-143ce5c3c11e34fe9ea8-md` | `watch/technical-143ce5c3c11e34fe9ea8.md` | outil | #synthese-vocale, #clonage-vocal | a verifier |
+| `watch-technical-37a1c9a401fe305b58a5-md` | `watch/technical-37a1c9a401fe305b58a5.md` | outil | #generation-video, #synthese-vocale, #generation-images, #generation-3d | sensible |
+| `watch-technical-c45c04c570d8ed1549e8-md` | `watch/technical-c45c04c570d8ed1549e8.md` | outil | #generation-video | a verifier |
+| `watch-technical-24d2ebb24ff35b75f31b-md` | `watch/technical-24d2ebb24ff35b75f31b.md` | outil | #transcription, #traduction-audio | sensible |
+| `watch-technical-bba7cbf6411664b33623-md` | `watch/technical-bba7cbf6411664b33623.md` | outil |  | sensible |
+| `watch-technical-60d78a24f5ceb1c0cf35-md` | `watch/technical-60d78a24f5ceb1c0cf35.md` | outil | #terminal | a verifier |
+| `watch-technical-126e0bcbd6b43332ca45-md` | `watch/technical-126e0bcbd6b43332ca45.md` | outil | #publication-sociale | a verifier |
+| `watch-technical-1b568dfd20e94e409912-md` | `watch/technical-1b568dfd20e94e409912.md` | outil | #mcp | sensible |
+| `watch-technical-dae9f02535f7c22f84f1-md` | `watch/technical-dae9f02535f7c22f84f1.md` | outil | #agents-code, #skills-agents, #terminal | sensible |
+| `watch-technical-f52ece2572fe00c08e7a-md` | `watch/technical-f52ece2572fe00c08e7a.md` | outil | #analyse-vulnerabilites, #terminal | sensible |
+| `watch-technical-4125f24a0a6925019b78-md` | `watch/technical-4125f24a0a6925019b78.md` | outil | #agents-code, #python | sensible |
+| `watch-technical-88ba69ee97608c5a2703-md` | `watch/technical-88ba69ee97608c5a2703.md` | outil | #export-conversations, #pdf | sensible |
+| `watch-technical-b36267bf0446d3c6c504-md` | `watch/technical-b36267bf0446d3c6c504.md` | outil | #osint | sensible |
+| `watch-technical-20a53ace05cd6a858833-md` | `watch/technical-20a53ace05cd6a858833.md` | outil | #memoire-agents, #pdf | sensible |
+| `watch-technical-951824f2cb44006850b3-md` | `watch/technical-951824f2cb44006850b3.md` | outil | #python, #mcp | sensible |
+| `watch-technical-4c42d700bc595b9a8941-md` | `watch/technical-4c42d700bc595b9a8941.md` | outil | #macos, #python, #terminal | sensible |
+| `watch-technical-a0d33ab6f207041a354b-md` | `watch/technical-a0d33ab6f207041a354b.md` | outil |  | sensible |
+| `watch-technical-5de7dfd42a2301a6c06e-md` | `watch/technical-5de7dfd42a2301a6c06e.md` | outil | #detection-bots, #securite-web | sensible |
+| `watch-technical-7ce70d893933b807a8be-md` | `watch/technical-7ce70d893933b807a8be.md` | outil | #memoire-agents, #capture-notes | sensible |
+| `watch-technical-47e117fd2115e80cd328-md` | `watch/technical-47e117fd2115e80cd328.md` | outil | #identification-audio, #dedoublonnage, #python | sensible |
+| `watch-technical-f39d8a91723d2198d9aa-md` | `watch/technical-f39d8a91723d2198d9aa.md` | outil | #clonage-sites, #react | sensible |
+| `watch-technical-b3d3480734d063a13c32-md` | `watch/technical-b3d3480734d063a13c32.md` | outil | #comparaison-modeles, #generation-images | sensible |
+| `watch-technical-bbe473dd0b3d80d559f4-md` | `watch/technical-bbe473dd0b3d80d559f4.md` | outil | #simulation | sensible |
+| `watch-technical-2e59154698a1039a3b4c-md` | `watch/technical-2e59154698a1039a3b4c.md` | outil |  | sensible |
+| `watch-technical-10db716cdc10688fde39-md` | `watch/technical-10db716cdc10688fde39.md` | outil | #macos, #python | sensible |
+| `watch-technical-e95a45b39a93e52db3c8-md` | `watch/technical-e95a45b39a93e52db3c8.md` | outil | #macos | sensible |
+| `watch-technical-4245bb054777914967a6-md` | `watch/technical-4245bb054777914967a6.md` | outil | #pentest, #analyse-vulnerabilites, #terminal | sensible |
+| `watch-technical-edb3a626875732de5c9b-md` | `watch/technical-edb3a626875732de5c9b.md` | outil | #memoire-agents | sensible |
+| `watch-technical-cac46266b186a438c4a0-md` | `watch/technical-cac46266b186a438c4a0.md` | outil | #analyse-vulnerabilites, #skills-agents | sensible |
+| `watch-technical-52638d59170c3cd934c2-md` | `watch/technical-52638d59170c3cd934c2.md` | outil | #metadonnees-notes, #macos | sensible |
+| `watch-technical-e801c8461341300bbd00-md` | `watch/technical-e801c8461341300bbd00.md` | outil |  | sensible |
+| `watch-technical-81d6a7fc9d142fbd431c-md` | `watch/technical-81d6a7fc9d142fbd431c.md` | outil | #skills-agents, #terminal | sensible |
+| `watch-technical-08ba60d0377016e9eb0a-md` | `watch/technical-08ba60d0377016e9eb0a.md` | outil | #extraction-web, #conversion-documents | sensible |
+| `watch-technical-ed04309efb95c4f777fa-md` | `watch/technical-ed04309efb95c4f777fa.md` | outil |  | sensible |
+| `watch-technical-b65fc5880997df07fd20-md` | `watch/technical-b65fc5880997df07fd20.md` | outil | #osint | sensible |
+| `watch-technical-d17c87ebf171c09eeed0-md` | `watch/technical-d17c87ebf171c09eeed0.md` | outil |  | sensible |
+| `watch-technical-ef6994e092dfd931bb79-md` | `watch/technical-ef6994e092dfd931bb79.md` | outil | #recherche-privee, #recherche-documentaire | sensible |
+| `watch-technical-5b451526a581e371b108-md` | `watch/technical-5b451526a581e371b108.md` | outil |  | sensible |
+| `watch-technical-f23e4d6f3cd099180f4d-md` | `watch/technical-f23e4d6f3cd099180f4d.md` | outil | #agents-code | sensible |
+| `watch-technical-0e8704838f621e59d725-md` | `watch/technical-0e8704838f621e59d725.md` | outil | #python | sensible |
+| `watch-technical-38ffa19f0aa61b7d0805-md` | `watch/technical-38ffa19f0aa61b7d0805.md` | outil |  | #ROUGE |
+| `watch-technical-ee0a2cc79169b0f8394c-md` | `watch/technical-ee0a2cc79169b0f8394c.md` | outil | #macos, #terminal | sensible |
+| `watch-technical-8d9cf24dee47599cd496-md` | `watch/technical-8d9cf24dee47599cd496.md` | outil | #terminal | sensible |
+| `watch-technical-84aeec11b9701e1a5103-md` | `watch/technical-84aeec11b9701e1a5103.md` | outil |  | #ROUGE |
+| `watch-technical-7ae06cb99d6d4f9f7551-md` | `watch/technical-7ae06cb99d6d4f9f7551.md` | outil |  | sensible |
+| `watch-technical-ebada2f628c8d599c07b-md` | `watch/technical-ebada2f628c8d599c07b.md` | outil | #memoire-agents | sensible |
+| `watch-technical-e023d0af39eda2c902cb-md` | `watch/technical-e023d0af39eda2c902cb.md` | outil | #memoire-agents | sensible |
+| `watch-technical-e88bf76aa79a7c56f5d0-md` | `watch/technical-e88bf76aa79a7c56f5d0.md` | outil | #memoire-agents | sensible |
+| `watch-technical-a5ff978d18723ab2dc78-md` | `watch/technical-a5ff978d18723ab2dc78.md` | outil | #agents-code, #skills-agents, #application-bureau, #terminal | sensible |
+| `watch-technical-703d6de987a070db2edf-md` | `watch/technical-703d6de987a070db2edf.md` | outil | #conversion-documents, #pdf, #python, #terminal | sensible |
+| `watch-technical-4c379fe4693daf75b17f-md` | `watch/technical-4c379fe4693daf75b17f.md` | outil |  | sensible |
+| `watch-technical-5988479fbd7cb793e30f-md` | `watch/technical-5988479fbd7cb793e30f.md` | outil |  | sensible |
+| `watch-technical-ae8fda4548bf05d5f5ed-md` | `watch/technical-ae8fda4548bf05d5f5ed.md` | outil | #agents-code, #skills-agents | sensible |
+| `watch-technical-dadce991a8f588c0eb73-md` | `watch/technical-dadce991a8f588c0eb73.md` | outil |  | sensible |
+| `watch-technical-94515d48fc2a4b993a1f-md` | `watch/technical-94515d48fc2a4b993a1f.md` | outil | #react | sensible |
+| `watch-technical-e1f8a790d58a19d10194-md` | `watch/technical-e1f8a790d58a19d10194.md` | outil |  | sensible |
+| `watch-technical-d5330ab75d554eda8c08-md` | `watch/technical-d5330ab75d554eda8c08.md` | outil | #mcp | sensible |
+| `watch-technical-187af07c5c79815c0323-md` | `watch/technical-187af07c5c79815c0323.md` | outil | #memoire-agents, #terminal | sensible |
+| `watch-technical-a8c5ca7589de2b644bba-md` | `watch/technical-a8c5ca7589de2b644bba.md` | outil |  | sensible |
+| `watch-technical-51c74448ee9079430332-md` | `watch/technical-51c74448ee9079430332.md` | outil | #clonage-sites, #react | sensible |
+| `watch-technical-b1a37537c70048612638-md` | `watch/technical-b1a37537c70048612638.md` | outil | #orchestration-agents, #planification-taches | sensible |
+| `watch-technical-f779fb17c6e2ccb52360-md` | `watch/technical-f779fb17c6e2ccb52360.md` | outil |  | sensible |
+| `watch-technical-2c64eee2496753661f63-md` | `watch/technical-2c64eee2496753661f63.md` | outil | #analyse-vulnerabilites | sensible |
+| `watch-technical-e613d35c39dc20230888-md` | `watch/technical-e613d35c39dc20230888.md` | outil | #traduction-audio, #synthese-vocale, #generation-video, #generation-images | sensible |
+| `watch-technical-dbdae85ce1af2381e65e-md` | `watch/technical-dbdae85ce1af2381e65e.md` | outil |  | #ROUGE |
+| `watch-technical-5162276ebf713c38b60b-md` | `watch/technical-5162276ebf713c38b60b.md` | outil |  | actif |
+| `watch-technical-37a5c753c0c9dc1a3d4f-md` | `watch/technical-37a5c753c0c9dc1a3d4f.md` | outil | #terminal | sensible |
+| `watch-technical-628ab56284832636cfac-md` | `watch/technical-628ab56284832636cfac.md` | outil |  | sensible |
+| `watch-technical-54ff5f7d00072879cc4b-md` | `watch/technical-54ff5f7d00072879cc4b.md` | outil | #osint | sensible |
+| `watch-technical-e95daab6824047f93490-md` | `watch/technical-e95daab6824047f93490.md` | outil | #osint | sensible |
+| `watch-technical-266021fd17b5258b3da7-md` | `watch/technical-266021fd17b5258b3da7.md` | outil | #pentest, #analyse-vulnerabilites | sensible |
+| `watch-technical-99260b2f64304ae31048-md` | `watch/technical-99260b2f64304ae31048.md` | outil |  | sensible |
+| `watch-technical-c2b6bc61f64db5dde9f2-md` | `watch/technical-c2b6bc61f64db5dde9f2.md` | outil |  | sensible |
+| `watch-technical-88c715df4dbe74ef0c5a-md` | `watch/technical-88c715df4dbe74ef0c5a.md` | outil | #react, #montage-video, #generation-video, #skills-agents | sensible |
+| `watch-technical-985e97ab7a28702f6cd3-md` | `watch/technical-985e97ab7a28702f6cd3.md` | outil | #extraction-web, #terminal, #automatisation-navigateur | sensible |
+| `watch-technical-fd14133ed8619a60ddb0-md` | `watch/technical-fd14133ed8619a60ddb0.md` | outil | #conversion-web, #application-bureau, #macos | sensible |
+| `watch-technical-82645e8b1caf587e92d6-md` | `watch/technical-82645e8b1caf587e92d6.md` | outil | #skills-agents | sensible |
+| `watch-technical-fcb3c753c1859c7ada32-md` | `watch/technical-fcb3c753c1859c7ada32.md` | outil | #planification-taches | sensible |
+| `watch-technical-c73b8c2f7eccfb34ddd2-md` | `watch/technical-c73b8c2f7eccfb34ddd2.md` | outil |  | sensible |
+| `watch-technical-3d7c7b2843ae85360da7-md` | `watch/technical-3d7c7b2843ae85360da7.md` | outil | #terminal | #ROUGE |
+| `watch-technical-ab7348c75fefe7a67600-md` | `watch/technical-ab7348c75fefe7a67600.md` | outil | #inference-locale, #terminal | sensible |
+| `watch-technical-40c6bcb62189c3a832b0-md` | `watch/technical-40c6bcb62189c3a832b0.md` | outil |  | sensible |
+| `watch-technical-7b8e03d6451fa9dc855f-md` | `watch/technical-7b8e03d6451fa9dc855f.md` | outil | #mcp, #memoire-agents, #terminal | sensible |
+| `watch-technical-e803d6ea4b8b5e515082-md` | `watch/technical-e803d6ea4b8b5e515082.md` | outil | #generation-video, #generation-images | sensible |
+| `watch-technical-ef5aab160b2c3c97dd30-md` | `watch/technical-ef5aab160b2c3c97dd30.md` | outil | #python, #mcp | sensible |
+| `watch-technical-1b635fdf72be259a562c-md` | `watch/technical-1b635fdf72be259a562c.md` | outil | #orchestration-agents | sensible |
+| `watch-technical-007dad49f4c2947287e5-md` | `watch/technical-007dad49f4c2947287e5.md` | outil | #osint, #pentest | sensible |
+| `watch-technical-03c3b9b214032004d035-md` | `watch/technical-03c3b9b214032004d035.md` | outil | #agents-code, #terminal | a verifier |
+| `watch-technical-312d6e38de3056aae357-md` | `watch/technical-312d6e38de3056aae357.md` | outil | #capture-notes | sensible |
+| `watch-technical-56f27bb0e80ff344bf72-md` | `watch/technical-56f27bb0e80ff344bf72.md` | outil | #agents-code, #terminal | a verifier |
+| `watch-technical-2ffdb8097dd79859932a-md` | `watch/technical-2ffdb8097dd79859932a.md` | outil | #detection-bots, #securite-web, #memoire-agents, #skills-agents | a verifier |
+| `watch-technical-9940f1a421428d85e06e-md` | `watch/technical-9940f1a421428d85e06e.md` | outil | #application-bureau, #macos | sensible |
+| `watch-technical-c06f188de58001114ac5-md` | `watch/technical-c06f188de58001114ac5.md` | outil | #terminal | sensible |
+| `watch-technical-95204b762614cb0e8692-md` | `watch/technical-95204b762614cb0e8692.md` | outil | #generation-images, #application-bureau | sensible |
+| `watch-technical-608ce5a66bf90d5c0383-md` | `watch/technical-608ce5a66bf90d5c0383.md` | outil | #animation-svg, #generation-images | sensible |
+| `watch-technical-9379cc03e3266df7017b-md` | `watch/technical-9379cc03e3266df7017b.md` | outil | #terminal | sensible |
+| `watch-technical-4911737ece418414569d-md` | `watch/technical-4911737ece418414569d.md` | outil | #macos | sensible |
+| `watch-technical-0db5ad8aef9f75ba7077-md` | `watch/technical-0db5ad8aef9f75ba7077.md` | outil | #macos, #python | sensible |
+| `watch-adaptixc2-c2-risk-article-md` | `watch/adaptixc2-c2-risk-article.md` | outil | #c2, #red-team, #offensive-security | #ROUGE |
+| `watch-agent-rules-books-md` | `watch/agent-rules-books.md` | outil | #agents-code, #skills-agents, #agents-md, #codex | sensible |
+| `watch-agent-skills-library-md` | `watch/agent-skills-library.md` | outil | #skills-agents, #skills, #prompt-engineering, #library | sensible |
+| `watch-airi-ai-companion-md` | `watch/airi-ai-companion.md` | outil | #application-bureau, #ai-companion, #memoire-agents, #voice | sensible |
+| `watch-anyv2v-video-editing-framework-md` | `watch/anyv2v-video-editing-framework.md` | outil | #montage-video, #generation-video, #generative-ai, #pytorch | sensible |
+| `resources-noteplan-captures-archive-2026-md` | `resources/noteplan-captures-archive-2026.md` | outil | #noteplan, #capture, #archive, #macos | a verifier |
+| `watch-book-to-skill-md` | `watch/book-to-skill.md` | outil | #skills-agents, #pdf, #knowledge-management, #document-processing | sensible |
+| `watch-calyx-macos-agent-terminal-md` | `watch/calyx-macos-agent-terminal.md` | outil | #agents-code, #macos, #terminal, #codex | sensible |
+| `watch-claude-osint-skills-md` | `watch/claude-osint-skills.md` | outil | #osint, #skills-agents, #claude, #skills | #ROUGE |
+| `watch-devin-desktop-agent-app-md` | `watch/devin-desktop-agent-app.md` | outil | #application-bureau, #desktop-agent, #coding, #ux | sensible |
+| `watch-echovessel-persona-memory-engine-md` | `watch/echovessel-persona-memory-engine.md` | outil | #ai-companion, #memoire-agents, #rag, #python | sensible |
+| `watch-espanso-text-expander-md` | `watch/espanso-text-expander.md` | outil | #macos, #text-expander, #rust, #local-first | actif |
+| `watch-hermes-vps-setup-skill-md` | `watch/hermes-vps-setup-skill.md` | outil | #skills-agents, #skills, #vps, #infrastructure | sensible |
+| `watch-kiwi-edit-video-editing-md` | `watch/kiwi-edit-video-editing.md` | outil | #montage-video, #generation-video, #natural-language | sensible |
+| `watch-losslesscut-video-audio-editing-md` | `watch/losslesscut-video-audio-editing.md` | outil | #video, #audio, #editing, #ffmpeg | actif |
+| `watch-obs-shaderfilter-md` | `watch/obs-shaderfilter.md` | outil | #obs, #shader, #video, #streaming | actif |
+| `watch-openbot-ai-coworkers-md` | `watch/openbot-ai-coworkers.md` | outil | #automatisation-navigateur, #ag-ui, #mcp, #governance | sensible |
+| `watch-openvj-web-vj-tool-md` | `watch/openvj-web-vj-tool.md` | outil | #webgl, #threejs, #vj, #projection-mapping | actif |
+| `watch-type-for-obsidian-quick-capture-md` | `watch/type-for-obsidian-quick-capture.md` | outil | #obsidian, #capture, #knowledge-management, #notes | sensible |
+| `watch-vace-video-creation-editing-md` | `watch/vace-video-creation-editing.md` | outil | #generation-video, #montage-video | sensible |
+| `watch-veejay-live-video-sampler-md` | `watch/veejay-live-video-sampler.md` | outil | #video, #vj, #live-video, #visuals | actif |
+| `watch-vista-video-style-transfer-md` | `watch/vista-video-style-transfer.md` | outil | #generation-video, #style-transfer, #diffusion | sensible |
+| `watch-web-check-website-osint-md` | `watch/web-check-website-osint.md` | outil | #osint, #website-analysis, #security-tools, #audit | sensible |
+| `watch-alpinechain-workshop-2026-md` | `watch/alpinechain-workshop-2026.md` | outil |  | sensible |
+| `watch-chathub-multi-llm-workspace-md` | `watch/chathub-multi-llm-workspace.md` | outil |  | sensible |
+| `watch-km-d3-scan-integration-20260901-md` | `watch/km-d3-scan-integration-20260901.md` | outil |  | sensible |
+| `watch-noteplan-km-indexing-workflow-md` | `watch/noteplan-km-indexing-workflow.md` | outil | #dedoublonnage, #macos | sensible |
+| `watch-osaurus-local-ai-agents-mac-md` | `watch/osaurus-local-ai-agents-mac.md` | outil | #macos | a verifier |
+| `watch-betterdisplay-macos-display-control-md` | `watch/betterdisplay-macos-display-control.md` | outil | #macos, #display, #hidpi | actif |
+| `watch-right-click-prompt-browser-prompt-library-md` | `watch/right-click-prompt-browser-prompt-library.md` | outil | #prompt-library, #browser, #llm | sensible |
+| `watch-x-watch-d3-20260829-20260831-md` | `watch/x-watch-d3-20260829-20260831.md` | outil |  | a verifier |
+| `watch-kata-tracker-local-first-issue-tracker-md` | `watch/kata-tracker-local-first-issue-tracker.md` | outil | #agents-code, #issue-tracking, #local-first, #project-management | actif |
+| `watch-parall-mac-app-multi-instance-md` | `watch/parall-mac-app-multi-instance.md` | outil | #macos, #desktop-app, #multi-instance | sensible |
+| `watch-project-eyes-on-open-ip-camera-osint-md` | `watch/project-eyes-on-open-ip-camera-osint.md` | outil | #osint, #ip-camera, #surveillance, #dorking | #ROUGE |
+| `watch-promptslab-md` | `watch/promptslab.md` | outil | #prompt-engineering, #llm, #generative-models | actif |
+| `watch-quick-rss-desktop-reader-md` | `watch/quick-rss-desktop-reader.md` | outil | #application-bureau, #macos, #rss, #desktop-app | actif |
+| `watch-graft-codebase-context-for-coding-agents-md` | `watch/graft-codebase-context-for-coding-agents.md` | outil | #memoire-agents, #agents-code, #context-engineering, #code-graph | sensible |
+| `watch-memory-engineering-agent-past-md` | `watch/memory-engineering-agent-past.md` | outil | #memoire-agents, #memory-engineering, #context-engineering | sensible |
+| `watch-prompt-cache-semantic-llm-cache-md` | `watch/prompt-cache-semantic-llm-cache.md` | outil | #llm, #cache, #cost-optimization, #semantic-search | sensible |
+| `watch-awesome-ai-companion-md` | `watch/awesome-ai-companion.md` | outil | #ai-companion, #memoire-agents | sensible |
+| `watch-firecrawl-pdf-inspector-md` | `watch/firecrawl-pdf-inspector.md` | outil | #pdf, #rust, #extraction, #document-ai | sensible |
+| `watch-github-digital-life-topic-md` | `watch/github-digital-life-topic.md` | outil | #digital-life, #curation | sensible |
+| `watch-herdr-agent-multiplexer-md` | `watch/herdr-agent-multiplexer.md` | outil | #orchestration-agents, #terminal, #orchestration, #cli | sensible |
+| `watch-intelfetch-osint-features-md` | `watch/intelfetch-osint-features.md` | outil | #osint, #breach-search, #threat-intelligence | sensible |
+| `watch-praison-ai-md` | `watch/praison-ai.md` | outil | #ai-agency | sensible |
+| `watch-trendshift-github-momentum-md` | `watch/trendshift-github-momentum.md` | outil | #trending, #discovery | sensible |
+| `watch-taste-skill-md` | `watch/taste-skill.md` | outil | #skills-agents, #frontend, #design-system, #ai-agents | sensible |
+| `watch-lovable-build-for-the-web-20x-faster-md` | `watch/lovable-build-for-the-web-20x-faster.md` | outil | #ai-web-builder, #vibe-coding, #app-generation, #deployment | sensible |
+| `watch-axorcist-macos-accessibility-md` | `watch/axorcist-macos-accessibility.md` | outil | #macos, #accessibility, #swift, #ui-automation | sensible |
+| `watch-macos26-agent-desktop-harness-md` | `watch/macos26-agent-desktop-harness.md` | outil | #application-bureau, #macos, #desktop-agent, #computer-use | sensible |
+| `watch-macusb-bootable-usb-creator-macos-md` | `watch/macusb-bootable-usb-creator-macos.md` | outil | #macos, #usb, #bootable-media, #recovery | sensible |
+| `watch-noteplan-mcp-server-md` | `watch/noteplan-mcp-server.md` | outil | #mcp, #noteplan, #notes, #tasks | sensible |
+| `watch-openfelix-local-ai-agent-macos-md` | `watch/openfelix-local-ai-agent-macos.md` | outil | #macos, #local-ai | sensible |
+| `watch-open-maestri-macos-agent-orchestration-md` | `watch/open-maestri-macos-agent-orchestration.md` | outil | #orchestration-agents, #macos, #multi-agent, #orchestration | sensible |
+| `watch-opencode-telechargement-md` | `watch/opencode-telechargement.md` | outil | #llm, #api, #ressources, #news | sensible |
+| `watch-brandfetch-md` | `watch/brandfetch.md` | outil | #brand-assets, #logos, #design, #api | sensible |
+| `watch-tailscale-secure-connectivity-for-ai-iot-multi-cloud-md` | `watch/tailscale-secure-connectivity-for-ai-iot-multi-cloud.md` | outil | #tailscale, #zero-trust, #vpn, #network-security | sensible |
+| `watch-auto-company-autonomous-ai-company-md` | `watch/auto-company-autonomous-ai-company.md` | outil | #orchestration-agents, #autonomous-company, #codex-cli, #claude-code | sensible |
+| `watch-neodisk-macos-disk-visualizer-md` | `watch/neodisk-macos-disk-visualizer.md` | outil | #macos, #disk-analyzer, #swift | sensible |
+| `watch-agency-agents-ai-agency-md` | `watch/agency-agents-ai-agency.md` | outil | #ai-agency | sensible |
+| `watch-alook-ai-workforce-collaboration-md` | `watch/alook-ai-workforce-collaboration.md` | outil | #orchestration-agents, #multi-agent, #email, #memoire-agents | sensible |
+| `watch-pentagi-autonomous-pentest-agents-md` | `watch/pentagi-autonomous-pentest-agents.md` | outil | #pentest, #offensive-security, #autonomous-agents, #security-automation | #ROUGE |
+| `watch-scrapling-web-scraping-modern-web-md` | `watch/scrapling-web-scraping-modern-web.md` | outil | #extraction-web, #python, #documentation | sensible |
+| `watch-tencentdb-agent-memory-md` | `watch/tencentdb-agent-memory.md` | outil | #memoire-agents, #vector-search, #local-first | sensible |
+| `watch-notion-les-7-docs-avant-de-coder-avec-ia-md` | `watch/notion-les-7-docs-avant-de-coder-avec-ia.md` | outil | #notion, #documentation, #project-planning, #ai-workflow | sensible |
+| `watch-aliens-eye-ai-osint-platform-md` | `watch/aliens-eye-ai-osint-platform.md` | outil | #osint, #ai-search, #digital-footprint, #privacy-risk | #ROUGE |
+| `watch-google-ai-studio-free-token-tier-md` | `watch/google-ai-studio-free-token-tier.md` | outil | #llm, #google-ai-studio, #api, #free-tier | a verifier |
+| `watch-internet-scraping-github-repos-ecommartinez-md` | `watch/internet-scraping-github-repos-ecommartinez.md` | outil | #extraction-web | a verifier |
+| `watch-ai-video-plugins-skills-ayi-ainotes-md` | `watch/ai-video-plugins-skills-ayi-ainotes.md` | outil | #skills-agents, #generation-video, #agent-skill, #plugins | sensible |
+| `watch-hyperframes-ai-video-generation-skill-md` | `watch/hyperframes-ai-video-generation-skill.md` | outil | #generation-video, #skills-agents, #agent-skill, #html-rendering | sensible |
+| `watch-ig-detective-instagram-osint-suite-md` | `watch/ig-detective-instagram-osint-suite.md` | outil | #osint, #instagram, #forensic, #privacy-risk | #ROUGE |
+| `watch-internet-scraping-github-repos-lucy-love-ai-md` | `watch/internet-scraping-github-repos-lucy-love-ai.md` | outil | #extraction-web | sensible |
+| `watch-open-lovable-firecrawl-site-cloning-md` | `watch/open-lovable-firecrawl-site-cloning.md` | outil | #clonage-sites, #react, #firecrawl, #site-cloning | sensible |
+| `watch-serus-dark-web-leak-search-md` | `watch/serus-dark-web-leak-search.md` | outil | #dark-web, #leaked-data, #privacy-risk, #osint | #ROUGE |
+| `watch-spec-kit-vibe-coding-specification-workflow-md` | `watch/spec-kit-vibe-coding-specification-workflow.md` | outil | #vibe-coding, #spec, #coding-agent | sensible |
+| `watch-worldmonitor-global-intelligence-dashboard-md` | `watch/worldmonitor-global-intelligence-dashboard.md` | outil | #osint, #dashboard, #conflict-monitoring, #geoint | sensible |
+| `watch-claude-agents-md-config-alexsoyes-md` | `watch/claude-agents-md-config-alexsoyes.md` | outil | #claude, #agents-md, #prompt-ops, #agent-instructions | sensible |
+| `watch-free-api-key-instagram-reel-md` | `watch/free-api-key-instagram-reel.md` | outil | #api-keys, #llm, #education, #credentials | sensible |
+| `watch-free-open-source-apps-list-sn0wbrave-md` | `watch/free-open-source-apps-list-sn0wbrave.md` | outil | #apps, #directory, #free-tools | sensible |
+| `watch-ghosttrack-digital-footprint-osint-md` | `watch/ghosttrack-digital-footprint-osint.md` | outil | #osint, #digital-footprint, #username-search, #phone-search | #ROUGE |
+| `resources-llm-wiki-karpathy-md` | `resources/llm-wiki-karpathy.md` | outil | #llm, #wiki, #karpathy, #gist | a verifier |
+| `watch-obsidian-web-clipper-md` | `watch/obsidian-web-clipper.md` | outil | #obsidian, #web-clipper, #knowledge-management, #browser-extension | sensible |
+| `watch-reverse-skill-hacker-skills-md` | `watch/reverse-skill-hacker-skills.md` | outil | #skills-agents, #reverse-engineering, #firmware-analysis, #hacking-skills | #ROUGE |
+| `watch-este-repositorio-te-ensena-ingenieria-de-ia-desde-cero-md` | `watch/este-repositorio-te-ensena-ingenieria-de-ia-desde-cero.md` | outil |  | sensible |
+| `watch-l-ia-vient-de-tuer-le-metier-de-commercial-en-vendant-a-ta-place-24h-2-md` | `watch/l-ia-vient-de-tuer-le-metier-de-commercial-en-vendant-a-ta-place-24h-2.md` | outil |  | sensible |
+| `watch-bug-hunter-md` | `watch/bug-hunter.md` | outil | #offensive-risk, #privacy-risk | #ROUGE |
+| `watch-bytedance-acaba-de-abrir-el-codigo-del-agente-que-controla-tu-ordenado-md` | `watch/bytedance-acaba-de-abrir-el-codigo-del-agente-que-controla-tu-ordenado.md` | outil |  | sensible |
+| `watch-claude-code-ya-es-potente-solo-md` | `watch/claude-code-ya-es-potente-solo.md` | outil |  | sensible |
+| `watch-un-developpeur-a-clone-netflix-spotify-instagram-airbnb-et-amazon-md` | `watch/un-developpeur-a-clone-netflix-spotify-instagram-airbnb-et-amazon.md` | outil |  | sensible |
+| `watch-danyltn-ia-automatisation-danyltn-instagram-reel-md` | `watch/danyltn-ia-automatisation-danyltn-instagram-reel.md` | outil | #creative-ai | sensible |
+| `watch-this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi-md` | `watch/this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi.md` | outil | #mcp | sensible |
+| `watch-esto-es-un-palantir-gratis-y-se-instala-en-un-solo-comando-md` | `watch/esto-es-un-palantir-gratis-y-se-instala-en-un-solo-comando.md` | outil |  | sensible |
+| `watch-cok-cilginca-bir-ai-araci-buldum-md` | `watch/cok-cilginca-bir-ai-araci-buldum.md` | outil | #llm | sensible |
+| `watch-alguien-creo-un-repo-en-github-que-te-permite-ejecutar-claude-code-com-md` | `watch/alguien-creo-un-repo-en-github-que-te-permite-ejecutar-claude-code-com.md` | outil |  | sensible |
+| `watch-waveking-free-github-projects-md` | `watch/waveking-free-github-projects.md` | outil |  | sensible |
+| `watch-you-can-run-google-gemini-2-5-pro-with-a-massive-2-milion-free-token-c-md` | `watch/you-can-run-google-gemini-2-5-pro-with-a-massive-2-milion-free-token-c.md` | outil |  | sensible |
+| `watch-geekbb-free-tools-list-md` | `watch/geekbb-free-tools-list.md` | outil |  | sensible |
+| `watch-aqui-te-dejo-10-repos-de-github-que-pueden-ayudarte-a-generar-dinero-m-md` | `watch/aqui-te-dejo-10-repos-de-github-que-pueden-ayudarte-a-generar-dinero-m.md` | outil |  | sensible |
+| `watch-10-github-repos-that-automate-real-work-while-you-sleep-in-2026-md` | `watch/10-github-repos-that-automate-real-work-while-you-sleep-in-2026.md` | outil |  | sensible |
+| `watch-213-000-estrellas-en-github-md` | `watch/213-000-estrellas-en-github.md` | outil |  | sensible |
+| `watch-un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web-md` | `watch/un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web.md` | outil | #skills-agents | sensible |
+| `watch-how-i-automate-google-dorking-for-faster-osint-investigations-md` | `watch/how-i-automate-google-dorking-for-faster-osint-investigations.md` | outil | #osint, #offensive-risk, #privacy-risk | #ROUGE |
+| `watch-guide-scrapegraph-ai-ia-boss-pdf-md` | `watch/guide-scrapegraph-ai-ia-boss-pdf.md` | outil | #extraction-web, #pdf | sensible |
+| `watch-here-are-10-ai-video-editor-github-repos-worth-bookmarking-md` | `watch/here-are-10-ai-video-editor-github-repos-worth-bookmarking.md` | outil | #montage-video | sensible |
+| `watch-im-agent-claude-code-codex-opencode-ai-agent-md` | `watch/im-agent-claude-code-codex-opencode-ai-agent.md` | outil | #orchestration-agents, #agents-code | sensible |
+| `watch-acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor-md` | `watch/acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor.md` | outil | #memoire-agents | sensible |
+| `watch-ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor-md` | `watch/ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor.md` | outil | #memoire-agents | sensible |
+| `watch-jarvis-os-md` | `watch/jarvis-os.md` | outil | #llm, #ai-os | a verifier |
+| `watch-kyber-kyber-gitlab-md` | `watch/kyber-kyber-gitlab.md` | outil |  | sensible |
+| `watch-2-lafys-md` | `watch/2-lafys.md` | outil |  | sensible |
+| `watch-mvanhorn-last30days-skill-md` | `watch/mvanhorn-last30days-skill.md` | outil | #skills-agents, #recherche-documentaire | sensible |
+| `watch-sabtu-malem-jam-2-pagi-gue-masih-melek-md` | `watch/sabtu-malem-jam-2-pagi-gue-masih-melek.md` | outil | #llm | sensible |
+| `watch-marketing-automation-md` | `watch/marketing-automation.md` | outil |  | sensible |
+| `watch-miranda-start-me-md` | `watch/miranda-start-me.md` | outil | #osint, #cyber, #search, #crime | sensible |
+| `watch-1-motionsites-md` | `watch/1-motionsites.md` | outil |  | sensible |
+| `watch-multi-search-launcher-md` | `watch/multi-search-launcher.md` | outil | #osint | sensible |
+| `watch-lancement-de-notre-projet-nexus-osint-v1-md` | `watch/lancement-de-notre-projet-nexus-osint-v1.md` | outil | #osint | sensible |
+| `watch-pewdiepie-archdaemon-odysseus-md` | `watch/pewdiepie-archdaemon-odysseus.md` | outil |  | sensible |
+| `watch-offline-maps-and-gps-app-without-ads-or-tracking-md` | `watch/offline-maps-and-gps-app-without-ads-or-tracking.md` | outil | #osint | sensible |
+| `watch-alternativa-gratuita-y-de-codigo-abierto-a-notebooklm-md` | `watch/alternativa-gratuita-y-de-codigo-abierto-a-notebooklm.md` | outil | #llm | sensible |
+| `watch-open-source-observability-for-traces-logs-metrics-maple-md` | `watch/open-source-observability-for-traces-logs-metrics-maple.md` | outil | #osint | sensible |
+| `watch-calesthio-openmontage-md` | `watch/calesthio-openmontage.md` | outil | #montage-video | sensible |
+| `watch-remotely-accesses-webcams-microphones-and-location-data-md` | `watch/remotely-accesses-webcams-microphones-and-location-data.md` | outil | #offensive-risk, #privacy-risk | #ROUGE |
+| `watch-removes-llm-censorship-with-a-single-click-md` | `watch/removes-llm-censorship-with-a-single-click.md` | outil | #llm, #jailbreak-risk | sensible |
+| `watch-link-del-repo-md` | `watch/link-del-repo.md` | outil |  | sensible |
+| `watch-este-repositorio-de-github-lo-esta-explotando-mode-senior-md` | `watch/este-repositorio-de-github-lo-esta-explotando-mode-senior.md` | outil |  | sensible |
+| `watch-ryancodrai-turbovec-md` | `watch/ryancodrai-turbovec.md` | outil |  | sensible |
+| `watch-sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol-md` | `watch/sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol.md` | outil | #creative-ai | sensible |
+| `watch-xamto-ai-understand-anything-x-post-md` | `watch/xamto-ai-understand-anything-x-post.md` | outil |  | sensible |
+| `watch-vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel-md` | `watch/vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel.md` | outil | #conversion-web, #application-bureau, #claude, #skill | sensible |
+| `watch-aider-ai-pair-programming-md` | `watch/aider-ai-pair-programming.md` | outil | #agents-code, #terminal, #coding, #pair-programming | sensible |
+| `watch-awesome-mcp-servers-md` | `watch/awesome-mcp-servers.md` | outil | #mcp, #servers, #integrations, #directory | sensible |
+| `watch-browser-use-web-automation-md` | `watch/browser-use-web-automation.md` | outil | #automatisation-navigateur, #web, #scraping-risk | sensible |
+| `watch-claude-task-master-ai-task-management-md` | `watch/claude-task-master-ai-task-management.md` | outil | #task-management, #coding, #cursor, #windsurf | a verifier |
+| `watch-cloudflare-agentic-inbox-md` | `watch/cloudflare-agentic-inbox.md` | outil | #email, #cloudflare-workers, #self-hosted | sensible |
+| `watch-crewai-agent-orchestration-md` | `watch/crewai-agent-orchestration.md` | outil | #orchestration-agents, #orchestration | sensible |
+| `watch-cyberstrike-ai-red-team-agent-md` | `watch/cyberstrike-ai-red-team-agent.md` | outil | #pentest, #red-team, #offensive-security, #mitre-attack | #ROUGE |
+| `watch-gosearch-digital-footprint-search-md` | `watch/gosearch-digital-footprint-search.md` | outil | #osint, #digital-footprint, #doxxing-risk | #ROUGE |
+| `watch-langgraph-resilient-agents-md` | `watch/langgraph-resilient-agents.md` | outil | #langchain, #graph, #state | sensible |
+| `watch-n8n-workflow-automation-md` | `watch/n8n-workflow-automation.md` | outil | #integrations, #ai, #self-hosted | sensible |
+| `watch-nousresearch-hermes-agent-md` | `watch/nousresearch-hermes-agent.md` | outil | #personal-agent, #nousresearch | a verifier |
+| `watch-openhands-ai-development-md` | `watch/openhands-ai-development.md` | outil | #coding, #software-development | sensible |
+| `watch-osint-rack-curated-tools-md` | `watch/osint-rack-curated-tools.md` | outil | #osint, #threat-intelligence, #investigation, #curated-tools | sensible |
+| `watch-understand-anything-code-knowledge-graph-md` | `watch/understand-anything-code-knowledge-graph.md` | outil | #codebase-analysis, #knowledge-graph, #coding | sensible |
+| `watch-vxunderground-malware-source-code-md` | `watch/vxunderground-malware-source-code.md` | outil | #analyse-malware, #malware, #threat-intelligence, #reverse-engineering | #ROUGE |
+| `watch-conet-privacy-depin-network-md` | `watch/conet-privacy-depin-network.md` | outil | #depin, #crypto, #wallet-address, #decentralized-network | a verifier |
+| `watch-moneyprinterturbo-ai-short-video-md` | `watch/moneyprinterturbo-ai-short-video.md` | outil | #generation-video, #shortvideo, #tiktok, #llm | sensible |
+| `watch-promptspy-ai-android-malware-md` | `watch/promptspy-ai-android-malware.md` | outil | #osint, #analyse-malware, #android-security, #mobile-security | #ROUGE |
+| `watch-agentsview-session-intelligence-md` | `watch/agentsview-session-intelligence.md` | outil | #agents-code, #session-intelligence, #local-first, #search | sensible |
+| `watch-ai-open-source-tools-inventory-md` | `watch/ai-open-source-tools-inventory.md` | outil | #react, #inference-locale, #osint, #transcription | a verifier |
+| `watch-ai-open-source-tools-watch-md` | `watch/ai-open-source-tools-watch.md` | outil | #ia, #saas, #osint, #local-first | a verifier |
+| `watch-autoresearchclaw-autonomous-research-md` | `watch/autoresearchclaw-autonomous-research.md` | outil | #recherche-documentaire, #research-agent, #autonomous-research, #papers | sensible |
+| `watch-awesome-free-llm-apis-md` | `watch/awesome-free-llm-apis.md` | outil | #llm, #api, #free-tier, #providers | sensible |
+| `watch-ccgui-mossx-vibecoding-editor-md` | `watch/ccgui-mossx-vibecoding-editor.md` | outil | #vibe-coding, #ai-editor, #developer-tools, #claude-code | a verifier |
+| `watch-codepatrol-code-security-md` | `watch/codepatrol-code-security.md` | outil | #code-security, #sast, #code-review, #vulnerability-scanning | a verifier |
+| `watch-free-llm-api-resources-md` | `watch/free-llm-api-resources.md` | outil | #inference-locale, #llm, #api, #free-tier | sensible |
+| `watch-inspiration-competitors-tools-watch-md` | `watch/inspiration-competitors-tools-watch.md` | outil | #osint, #extraction-web, #rss, #inspiration | sensible |
+| `watch-nanoclaw-personal-agent-md` | `watch/nanoclaw-personal-agent.md` | outil | #ai-agent, #personal-agent, #messaging, #containers | sensible |
+| `watch-open-source-saas-alternatives-nicos-ai-md` | `watch/open-source-saas-alternatives-nicos-ai.md` | outil | #inference-locale, #skills-agents, #application-bureau, #python | sensible |
+| `watch-osint-tools-watch-md` | `watch/osint-tools-watch.md` | outil | #osint, #vehicle-search, #vin, #license-plate | a verifier |
+| `watch-pentestgpt-autonomous-pentest-md` | `watch/pentestgpt-autonomous-pentest.md` | outil | #pentest, #red-team, #autonomous-agent, #exploitation | #ROUGE |
+| `watch-red-team-risk-tools-watch-md` | `watch/red-team-risk-tools-watch.md` | outil | #osint, #transcription, #detection-bots, #securite-web | #ROUGE |
+| `watch-twitter-rss-monitoring-md` | `watch/twitter-rss-monitoring.md` | outil | #inference-locale, #extraction-web, #rss, #twitter | sensible |
+| `watch-vibeshit-vibe-coding-directory-md` | `watch/vibeshit-vibe-coding-directory.md` | outil | #vibe-coding, #llm, #directory, #inspiration | sensible |
+| `watch-x-source-authors-log-md` | `watch/x-source-authors-log.md` | outil | #x, #sources, #authors, #watch | sensible |
+| `watch-ai-trending-md` | `watch/ai-trending.md` | outil | #skills-agents | sensible |

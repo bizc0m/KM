@@ -13,9 +13,4 @@ Lien evenement/workshop AlpineChain 2026. A qualifier : blockchain, atelier, res
 - Source evenementielle potentielle.
 - Peut nourrir veille crypto / communaute / ateliers.
 
-## Risques
-- Verifier legitimite, organisateurs et conditions.
-- Ne pas engager d identifiants ou paiement sans verification.
-
 ## Tags
-#KM #EVENT #CRYPTO #WORKSHOP #A_VERIFIER

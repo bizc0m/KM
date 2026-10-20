@@ -6,29 +6,25 @@ Veille outil IA / generation video agentique.
 
 ## Tags
 
-#ai-video, #agent-skill, #html-rendering, #github
+#generation-video, #skills-agents, #agent-skill, #html-rendering
 
-## Appel canonique
 
-`watch:hyperframes-ai-video-generation-skill`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.agents.skills domain.media.video domain.ai.agents.integration capability.generate.video capability.skills risk.sensitive source.x
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Audio, vidéo et création > Vidéo ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
+- Fonctions : Générer des contenus > Générer une vidéo ; Étendre les compétences d’un agent
+- Risques : Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/ayi_ainotes/status/2070790079585436135](https://x.com/ayi_ainotes/status/2070790079585436135)
-- Lien resolu: `https://hyperframes.heygen.com/`
-- GitHub signale: `heygen-com/hyperframes`
-
-## Resume court
-
-Sert a suivre un outil de generation ou production media IA.
-
-
+- Source : [https://x.com/ayi_ainotes/status/2070790079585436135](https://x.com/ayi_ainotes/status/2070790079585436135)
+- Lien resolu : `https://hyperframes.heygen.com/`
+- GitHub signale : `heygen-com/hyperframes`
 
 ## Historique
 
 ### v0.1 - 2026-06-28
 
 - Integration depuis Raindrop KM Monitor.
-
-## Usage KM
-
-- Verifier maturite, licence, activite GitHub et integration possible dans les projets KM/dev.

@@ -1,0 +1,37 @@
+# Interface unifiée pour accéder aux modèles OpenAI via MuAPI
+
+## Statut
+
+actif
+
+## Tags
+
+#generation-images, #generation-video, #python
+
+## Intérêts
+
+Génère des images avec des paramètres de résolution et de format.
+
+
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.media.image domain.media.video capability.generate.image capability.generate.video compatibility.language.python risk.sensitive source.noteplan source.github source.x
+- Sujets : Audio, vidéo et création > Images et graphisme ; Audio, vidéo et création > Vidéo
+- Fonctions : Générer des contenus > Générer une image ; Générer des contenus > Générer une vidéo
+- Compatibilités : Langages > Python
+- Risques : Risque signalé
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+
+## Sources
+
+- https://github.com/anil-matcha/openai-api
+- https://x.com/i/status/2056408789327462486
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : f8f551d25eb73ecda1fd768f3eaf217f21ea1d1eb913988f442da6b3d1505818
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-19
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

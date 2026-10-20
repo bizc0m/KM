@@ -6,24 +6,20 @@ Veille outils / scraping et extraction web.
 
 ## Tags
 
-#scraping, #github, #web-extraction, #data
+#extraction-web
 
-## Appel canonique
 
-`watch:internet-scraping-github-repos-ecommartinez`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.data.web capability.scraping source.x lifecycle.review
+- Sujets : Données et connaissances > Collecte web
+- Fonctions : Extraire des données web
+- Provenance : X / Twitter
+- État : À vérifier
 
 ## Sources
-- Source: [https://x.com/ecommartinez/status/2071360257906168143](https://x.com/ecommartinez/status/2071360257906168143)
-
-## Resume court
-
-Extrait ou structure des donnees depuis des sources web ou documents.
-
-
-
-## Usage KM
-
-- Verifier maturite, licence, activite GitHub et integration possible dans les projets KM/dev.
+- Source : [https://x.com/ecommartinez/status/2071360257906168143](https://x.com/ecommartinez/status/2071360257906168143)
 
 ## A verifier
 

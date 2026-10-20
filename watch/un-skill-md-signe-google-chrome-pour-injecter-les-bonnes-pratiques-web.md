@@ -2,41 +2,30 @@
 
 ## Type
 
-veille agents IA / automatisation.
+Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+#skills-agents
 
-## Appel canonique
 
-`watch:un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.agents.skills capability.skills risk.sensitive source.x
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents
+- Fonctions : Étendre les compétences d’un agent
+- Risques : Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/camilleroux/status/2062504651463729480](https://x.com/camilleroux/status/2062504651463729480)
-
-## Resume court
-
-https://t.co/Kt18SjxPKC
-
-## Usage KM
-
-- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
+- Source : [https://x.com/camilleroux/status/2062504651463729480](https://x.com/camilleroux/status/2062504651463729480)
 
 ## A_VERIFIER
 
-- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
-
-## Relations
-
-- `watch:index`
-- `watch:ai-open-source-tools-watch`
-
-## Changelog
+- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
 
 ### v0.1 - 2026-06-26
 
-- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches: `watch/un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.

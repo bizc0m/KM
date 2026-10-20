@@ -6,36 +6,22 @@ Veille `#ROUGE` / competences hacker et reverse engineering.
 
 ## Tags
 
-#rouge, #reverse-engineering, #firmware-analysis, #hacking-skills, #claude, #routing-md, #offensive-risk, #a-verifier
+#skills-agents, #reverse-engineering, #firmware-analysis, #hacking-skills, #ROUGE
 
-## Appel canonique
 
-`watch:reverse-skill-hacker-skills`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.agents.skills domain.security.malware capability.skills risk.offensive source.x
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Cybersécurité > Analyse de logiciels malveillants
+- Fonctions : Étendre les compétences d’un agent
+- Risques : Usage offensif explicite
+- Provenance : X / Twitter
 
 ## Sources
-- Source sociale: [https://x.com/0xeduu/status/2070469529210163370](https://x.com/0xeduu/status/2070469529210163370)
-
-## Resume court
-
-Signale un outil ou une source directement sensible cote abus.
-
-
-
-## Usage KM
-
-- Conserver comme signal de risque; verifier uniquement en contexte defensif, autorise et documente.
-
-## Relations
-
-- `watch:red-team-risk-tools-watch`
-- `watch:cyberstrike-ai-red-team-agent`
-- `watch:pentestgpt-autonomous-pentest`
-
-## Changelog
+- Source sociale : [https://x.com/0xeduu/status/2070469529210163370](https://x.com/0xeduu/status/2070469529210163370)
 
 ### v0.1 - 2026-06-27
 
-- Objectif: integrer le signal `reverse-skill` en veille `#ROUGE`.
-- Fichiers touches: `watch/reverse-skill-hacker-skills.md`, `watch/index.md`, `watch/red-team-risk-tools-watch.md`, `index.md`, `km/history.md`.
-- Risques: reverse engineering et skills offensives pour agents IA; source finale a verifier.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le signal `reverse-skill` en veille `#ROUGE`.
+- Risques : reverse engineering et skills offensives pour agents IA ; source finale a verifier.

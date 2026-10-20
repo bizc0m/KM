@@ -6,7 +6,18 @@ edition video-to-video IA sans tuning.
 
 ## Tags
 
-#ai-video, #video-editing, #generative-ai, #pytorch, #research
+#montage-video, #generation-video, #generative-ai, #pytorch
+
+
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai domain.media.video capability.edit.video capability.generate.video compatibility.integration.pytorch risk.sensitive source.github
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
+- Fonctions : Monter une vidéo ; Générer des contenus > Générer une vidéo
+- Compatibilités : Intégrations > PyTorch
+- Risques : Risque signalé
+- Provenance : GitHub
 
 ## Sources
 
@@ -14,14 +25,6 @@ edition video-to-video IA sans tuning.
 - Origine: archive NotePlan captures 2026, capture du 2026-08-24.
 - Domaine: `github.com`
 - Auteur/source: `TIGER-AI-Lab`
-
-## Resume court
-
-AnyV2V est un framework de recherche pour edition video-to-video sans tuning.
-
-## Usage KM
-
-Reference IA video pour comparer edition guidee, generation et pipelines media.
 
 ## Topics GitHub
 
@@ -31,24 +34,12 @@ Reference IA video pour comparer edition guidee, generation et pipelines media.
 - Etoiles relevees: 655
 - Derniere activite relevee: 2026-08-31T03:43:24Z
 
-## Risque d'abus possible
-
-- `sensible`: generation/edition video peut servir a manipuler des medias.
-- Pas de classification `#ROUGE` sans outil offensif direct.
-
-## Classification
-
-`sensible`
-
 ## A verifier
 
 - Conditions d'usage des modeles et donnees.
 - Qualite des resultats hors papier.
 - Requirements GPU et licences des poids.
 
-## Changelog
-
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

@@ -6,57 +6,37 @@ Veille outil IA / automatisation navigateur.
 
 ## Tags
 
-#agent, #browser-automation, #web, #scraping-risk, #github
+#automatisation-navigateur, #web, #scraping-risk
 
-## Appel canonique
 
-`watch:browser-use-web-automation`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.agents domain.dev.browser capability.automation.browser risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel > Outils de navigateur
+- Fonctions : Automatiser des actions > Automatiser le navigateur
+- Risques : Risque signalé
+- Provenance : GitHub
 
 ## Sources
-- Repo GitHub: `https://github.com/browser-use/browser-use`
+- Repo GitHub : `https://github.com/browser-use/browser-use`
 
 ## Metadata GitHub publique
 
-Releve API GitHub: 2026-08-21
+Releve API GitHub : 2026-08-21
 
-- repo: `browser-use/browser-use`
-- URL: `https://github.com/browser-use/browser-use`
-- description: 🌐 Make websites accessible for AI agents. Automate tasks online with ease.
-- licence: MIT
-- etoiles relevees: 109939
-- topics releves: ai-agents, ai-tools, browser-automation, browser-use, llm, playwright, python
-- derniere activite relevee: 2026-08-21T00:00:12Z
-- archived: non
-- fork: non
+- repo : `browser-use/browser-use`
+- URL : `https://github.com/browser-use/browser-use`
+- description : 🌐 Make websites accessible for AI agents. Automate tasks online with ease.
+- licence : MIT
+- etoiles relevees : 109939
+- derniere activite relevee : 2026-08-21T00:00:12Z
+- archived : non
+- fork : non
 
-Note: metadata volatile, a reverifier avant decision produit ou execution locale.
-
-## Resume court
-
-Sert a suivre un outil d'automatisation ou d'agents IA.
-
-
-
-## Usage KM
-
-- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
-
-## Topics GitHub
-
-- Repo : `https://github.com/browser-use/browser-use`
-- Topics releves : ai-agents, ai-tools, browser-automation, browser-use, llm, playwright, python
-
-## Relations
-
-- `watch:red-team-risk-tools-watch`
-- `watch:nanoclaw-personal-agent`
-- `watch:ai-open-source-tools-inventory`
-
-## Changelog
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
 
 ### v0.1 - 2026-06-24
 
-- Objectif: integrer Browser Use depuis Raindrop KM Monitor.
-- Fichiers touches: `watch/browser-use-web-automation.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: automatisation web dual-use.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer Browser Use depuis Raindrop KM Monitor.
+- Risques : automatisation web dual-use.

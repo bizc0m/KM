@@ -2,40 +2,25 @@
 
 ## Type
 
-ressource de marque et assets publics.
+Veille Raindrop KM Monitor / ressource de marque et assets publics.
 
 ## Tags
 
-#brand-assets, #logos, #design, #api, #actif
+#brand-assets, #logos, #design, #api
 
-## Appel canonique
 
-`watch:brandfetch`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.media.image compatibility.interface.api risk.sensitive
+- Sujets : Audio, vidéo et création > Images et graphisme
+- Compatibilités : Interfaces > API
+- Risques : Risque signalé
 
 ## Sources
-- Source finale: [https://brandfetch.com/](https://brandfetch.com/)
-
-## Resume court
-
-Sert a suivre une ressource LLM ou API.
-
-
-
-## Usage KM
-
-- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
-
-## Relations
-
-- `watch:index`
-- `watch:inspiration-competitors-tools`
-- `watch:agentsview-session-intelligence`
-
-## Changelog
+- Source finale : [https://brandfetch.com/](https://brandfetch.com/)
 
 ### v0.1 - 2026-08-02
 
-- Objectif: integrer la nouveaute Raindrop KM Monitor `Brandfetch`.
-- Fichiers touches: `watch/brandfetch.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: droits de marque, impersonation visuelle, dependance a metadonnees externes.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer la nouveaute Raindrop KM Monitor `Brandfetch`.
+- Risques : droits de marque, impersonation visuelle, dependance a metadonnees externes.

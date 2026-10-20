@@ -2,43 +2,27 @@
 
 ## Type
 
-veille agents IA / automatisation.
+Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
 
-## Appel canonique
+## Ontologie
 
-`watch:you-can-run-google-gemini-2-5-pro-with-a-massive-2-milion-free-token-c`
+- Version : 1.0
+- Identifiants : domain.ai.llm risk.sensitive source.x
+- Sujets : Intelligence artificielle > Modèles de langage
+- Risques : Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/nahid_pro09/status/2066785772431397317](https://x.com/nahid_pro09/status/2066785772431397317)
-
-## Resume court
-
-Sert a suivre un outil d'automatisation ou d'agents IA.
-
-
-
-## Usage KM
-
-- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
+- Source : [https://x.com/nahid_pro09/status/2066785772431397317](https://x.com/nahid_pro09/status/2066785772431397317)
 
 ## A_VERIFIER
 
-- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
-
-## Relations
-
-- `watch:index`
-- `watch:ai-open-source-tools-watch`
-
-## Changelog
+- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
 
 ### v0.1 - 2026-06-26
 
-- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches: `watch/you-can-run-google-gemini-2-5-pro-with-a-massive-2-milion-free-token-c.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.

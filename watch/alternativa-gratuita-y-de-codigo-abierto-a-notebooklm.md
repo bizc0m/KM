@@ -2,43 +2,29 @@
 
 ## Type
 
-veille LLM / API.
+Veille Raindrop KM Monitor.
 
 ## Tags
 
-#llm, #to-verify
+#llm
 
-## Appel canonique
 
-`watch:alternativa-gratuita-y-de-codigo-abierto-a-notebooklm`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.llm risk.sensitive source.x
+- Sujets : Intelligence artificielle > Modèles de langage
+- Risques : Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/midudev/status/2062525515441815843](https://x.com/midudev/status/2062525515441815843)
-
-## Resume court
-
-Sert a suivre une ressource LLM ou API.
-
-
-
-## Usage KM
-
-- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
+- Source : [https://x.com/midudev/status/2062525515441815843](https://x.com/midudev/status/2062525515441815843)
 
 ## A_VERIFIER
 
-- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
-
-## Relations
-
-- `watch:index`
-- `watch:ai-open-source-tools-watch`
-
-## Changelog
+- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
 
 ### v0.1 - 2026-06-26
 
-- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches: `watch/alternativa-gratuita-y-de-codigo-abierto-a-notebooklm.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: Risque principal: claims non verifies, source secondaire ou lien final non resolu.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.

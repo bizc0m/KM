@@ -6,24 +6,20 @@ Veille ressource IA / quotas API.
 
 ## Tags
 
-#llm, #google-ai-studio, #api, #free-tier, #quotas
+#llm, #google-ai-studio, #api, #free-tier
 
-## Appel canonique
 
-`watch:google-ai-studio-free-token-tier`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.llm compatibility.interface.api source.x lifecycle.review
+- Sujets : Intelligence artificielle > Modèles de langage
+- Compatibilités : Interfaces > API
+- Provenance : X / Twitter
+- État : À vérifier
 
 ## Sources
-- Source: [https://x.com/engmoelgaraihy/status/2071356188944441625](https://x.com/engmoelgaraihy/status/2071356188944441625)
-
-## Resume court
-
-Sert a suivre une ressource LLM ou API.
-
-
-
-## Usage KM
-
-- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
+- Source : [https://x.com/engmoelgaraihy/status/2071356188944441625](https://x.com/engmoelgaraihy/status/2071356188944441625)
 
 ## A verifier
 

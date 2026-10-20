@@ -6,27 +6,22 @@ Veille outil dev / workflow specification avant code.
 
 ## Tags
 
-#vibe-coding, #spec, #github, #coding-agent, #actif
+#vibe-coding, #spec, #coding-agent
 
-## Appel canonique
 
-`watch:spec-kit-vibe-coding-specification-workflow`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.dev.ui risk.sensitive source.x
+- Sujets : Développement logiciel > Conception d’interfaces
+- Risques : Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/zaynmcps/status/2070813494979530934](https://x.com/zaynmcps/status/2070813494979530934)
-
-## Resume court
-
-Sert a suivre un projet open source ou devtool.
-
-
+- Source : [https://x.com/zaynmcps/status/2070813494979530934](https://x.com/zaynmcps/status/2070813494979530934)
 
 ## Historique
 
 ### v0.1 - 2026-06-28
 
 - Integration depuis Raindrop KM Monitor.
-
-## Usage KM
-
-- Verifier maturite, licence, activite GitHub et integration possible dans les projets KM/dev.

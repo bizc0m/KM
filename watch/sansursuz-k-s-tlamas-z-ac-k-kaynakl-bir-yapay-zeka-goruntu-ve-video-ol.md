@@ -2,43 +2,29 @@
 
 ## Type
 
-veille media IA / creation.
+Veille Raindrop KM Monitor.
 
 ## Tags
 
-#media, #creative-ai, #to-verify
+#creative-ai
 
-## Appel canonique
 
-`watch:sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai domain.media.video domain.media.image risk.sensitive source.x
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
+- Risques : Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/deeptechtr/status/2066056043981943251](https://x.com/deeptechtr/status/2066056043981943251)
-
-## Resume court
-
-Sert a suivre un outil de generation ou production media IA.
-
-
-
-## Usage KM
-
-- Suivre les capacites media IA et garder les risques de droits, deepfake et provenance sous controle.
+- Source : [https://x.com/deeptechtr/status/2066056043981943251](https://x.com/deeptechtr/status/2066056043981943251)
 
 ## A_VERIFIER
 
-- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
-
-## Relations
-
-- `watch:index`
-- `watch:ai-open-source-tools-watch`
-
-## Changelog
+- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
 
 ### v0.1 - 2026-06-26
 
-- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches: `watch/sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: Risque principal: claims non verifies, source secondaire ou lien final non resolu.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.

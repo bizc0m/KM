@@ -6,27 +6,23 @@ Veille source sociale / pack plugins et skills video IA.
 
 ## Tags
 
-#ai-video, #agent-skill, #plugins, #a-verifier
+#skills-agents, #generation-video, #agent-skill, #plugins
 
-## Appel canonique
 
-`watch:ai-video-plugins-skills-ayi-ainotes`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.agents.skills domain.media.video domain.ai.agents.integration capability.skills capability.generate.video risk.sensitive source.x
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Audio, vidéo et création > Vidéo ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
+- Fonctions : Étendre les compétences d’un agent ; Générer des contenus > Générer une vidéo
+- Risques : Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/ayi_ainotes/status/2070790064418767263](https://x.com/ayi_ainotes/status/2070790064418767263)
-
-## Resume court
-
-Sert a suivre un outil de generation ou production media IA.
-
-
+- Source : [https://x.com/ayi_ainotes/status/2070790064418767263](https://x.com/ayi_ainotes/status/2070790064418767263)
 
 ## Historique
 
 ### v0.1 - 2026-06-28
 
 - Integration depuis Raindrop KM Monitor.
-
-## Usage KM
-
-- Suivre les capacites media IA et garder les risques de droits, deepfake et provenance sous controle.

@@ -6,16 +6,21 @@ Veille outils dev/security / code review et SAST.
 
 ## Tags
 
-#code-security, #sast, #code-review, #vulnerability-scanning, #appsec, #devtools, #to-verify
+#code-security, #sast, #code-review, #vulnerability-scanning
 
-## Appel canonique
 
-`watch:codepatrol-code-security`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.dev.quality domain.security.testing capability.security.vulnerabilities lifecycle.review
+- Sujets : Développement logiciel > Qualité du code ; Cybersécurité > Tests de sécurité
+- Fonctions : Détecter des vulnérabilités
+- État : À vérifier
 
 ## Sources
 
-- URL fournie: `https://codepatrol-2.polsia.app/`
-- Source secondaire trouvee: `https://sourceforge.net/software/product/CodePatrol/`
+- URL fournie : `https://codepatrol-2.polsia.app/`
+- Source secondaire trouvee : `https://sourceforge.net/software/product/CodePatrol/`
 
 ## Statut verification
 
@@ -23,39 +28,14 @@ Veille outils dev/security / code review et SAST.
 
 L'URL fournie n'a pas donne de contenu exploitable dans la lecture actuelle. Les resultats publics associent le nom CodePatrol a un outil de revue de code automatisee orientee securite, SAST, scan de vulnerabilites et agregation de resultats.
 
-## Resume court
-
-Sert a suivre un projet open source ou devtool.
-
-
-
 ## Usage utile
 
 - Surveiller les outils SAST et code review securite.
 - Comparer avec CodeQL, Semgrep, Checkmarx, Veracode, Codacy ou plateformes AI-native AppSec.
-- Inspirer un flux KM de verification de projets: secrets, vulnerabilites, dependances, IaC, qualite code.
+- Inspirer un flux KM de verification de projets : secrets, vulnerabilites, dependances, IaC, qualite code.
 - Relier aux guardrails agents avant execution ou publication de code.
-
-## Usage KM
-
-- Verifier maturite, licence, activite GitHub et integration possible dans les projets KM/dev.
-
-## Relations
-
-- `watch:ai-open-source-tools-inventory`
-- `watch:red-team-risk-tools-watch`
-- `process:ai-tools`
-- `theme:charte-ia`
-
-## Decision KM
-
-Garder en veille `sensible` avec statut `a verifier`. Pas `#ROUGE` par defaut car l'usage principal est defensif/code security. Devient `#ROUGE` seulement si l'outil sert a exfiltrer du code, collecter secrets ou scanner des repos sans autorisation.
-
-## Changelog
 
 ### v0.1 - 2026-05-22
 
-- Objectif: integrer l'URL `codepatrol-2.polsia.app` en veille code security.
-- Fichiers touches: `watch/codepatrol-code-security.md`, `watch/index.md`, `index.md`, `process/AI-Tools.md`, `km/history.md`.
-- Risques: source directe non exploitable, confusion possible avec autres produits CodePatrol.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer l'URL `codepatrol-2.polsia.app` en veille code security.
+- Risques : source directe non exploitable, confusion possible avec autres produits CodePatrol.

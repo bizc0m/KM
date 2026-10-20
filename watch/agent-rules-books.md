@@ -6,7 +6,18 @@ regles AGENTS.md et skills pour agents de code.
 
 ## Tags
 
-#agents-md, #agent-skills, #codex, #claude-code, #cursor, #code-quality
+#agents-code, #skills-agents, #agents-md, #codex
+
+
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.agents.coding domain.ai.agents.skills domain.ai.agents.integration capability.code.assist capability.skills compatibility.integration.codex risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
+- Fonctions : Assister le développement ; Étendre les compétences d’un agent
+- Compatibilités : Intégrations > Codex
+- Risques : Risque signalé
+- Provenance : GitHub
 
 ## Sources
 
@@ -14,14 +25,6 @@ regles AGENTS.md et skills pour agents de code.
 - Origine: archive NotePlan captures 2026, capture du 2026-05-27.
 - Domaine: `github.com`
 - Auteur/source: `ciembor`
-
-## Resume court
-
-Agent Rules Books rassemble des regles AGENTS.md et skills inspires de livres de programmation.
-
-## Usage KM
-
-Alimenter les prompts systematiques, conventions Codex et standards de qualite agents.
 
 ## Topics GitHub
 
@@ -31,24 +34,12 @@ Alimenter les prompts systematiques, conventions Codex et standards de qualite a
 - Etoiles relevees: 2730
 - Derniere activite relevee: 2026-09-09T08:31:43Z
 
-## Risque d'abus possible
-
-- `sensible`: appliquer des regles externes sans audit peut modifier comportement agent, commandes et style projet.
-- Pas de classification `#ROUGE`.
-
-## Classification
-
-`sensible`
-
 ## A verifier
 
 - Qualite reelle des regles.
 - Compatibilite avec AGENTS.md local.
 - Presence de commandes ou hypotheses incompatibles.
 
-## Changelog
-
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

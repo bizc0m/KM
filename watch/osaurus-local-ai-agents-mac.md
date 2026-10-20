@@ -14,10 +14,6 @@ Osaurus est une piste d outil pour faire tourner ou piloter des agents IA locale
 - Potentiel pour automatisations sans cloud obligatoire.
 - Alignement possible avec KM autonome fichiers Markdown.
 
-## Risques
-- Permissions systeme macOS a cadrer.
-- Acces fichiers locaux et donnees personnelles.
-- Verifier modele economique, licence et stockage.
-
 ## Tags
-#KM #IA #LOCAL_FIRST #MACOS #AGENTS #A_VERIFIER
+
+#macos

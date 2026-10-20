@@ -1,0 +1,36 @@
+# Whisper : modèle de reconnaissance vocale
+
+## Statut
+
+actif
+
+## Tags
+
+#transcription, #traduction-audio
+
+## Intérêts
+
+Transcrire un audio en anglais avec un modèle optimisé.
+
+
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.media.audio.voice capability.voice.transcribe capability.voice.translate risk.sensitive source.noteplan source.github source.x
+- Sujets : Audio, vidéo et création > Audio > Voix
+- Fonctions : Traitement de la voix > Transcrire ; Traitement de la voix > Traduire un enregistrement
+- Risques : Risque signalé
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+
+## Sources
+
+- https://github.com/openai/whisper
+- https://x.com/i/status/2057218131685146713
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : 24d2ebb24ff35b75f31b1ebea440e9a7ede373c9794c62b2d92a1b95f87d8255
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-19
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

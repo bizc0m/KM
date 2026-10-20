@@ -2,41 +2,25 @@
 
 ## Type
 
-kit frontend pour agents IA.
+Veille Raindrop KM Monitor / kit frontend pour agents IA.
 
 ## Tags
 
-#frontend, #design-system, #ai-agents, #prompt-engineering
+#skills-agents, #frontend, #design-system, #ai-agents
 
-## Appel canonique
 
-`watch:taste-skill`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.agents.skills capability.skills risk.sensitive
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents
+- Fonctions : Étendre les compétences d’un agent
+- Risques : Risque signalé
 
 ## Sources
-- Source finale: [https://www.tasteskill.dev/](https://www.tasteskill.dev/)
-
-## Resume court
-
-Kit frontend pour agents IA.
-
-
-
-## Usage KM
-
-- Classer, relier et reevaluer la fiche lors du prochain scan KM.
-
-## Relations
-
-- `watch:index`
-- `watch:banani-ai-ui-design`
-- `watch:ui-design-made-easy-powered-by-ai-uizard`
-- `watch:lovable-build-for-the-web-20x-faster`
-
-## Changelog
+- Source finale : [https://www.tasteskill.dev/](https://www.tasteskill.dev/)
 
 ### v0.1 - 2026-08-05
 
-- Objectif: integrer la nouveaute Raindrop KM Monitor `Taste Skill`.
-- Fichiers touches: `watch/taste-skill.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: prompts sensibles, copie visuelle, publication de contexte interne.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer la nouveaute Raindrop KM Monitor `Taste Skill`.
+- Risques : prompts sensibles, copie visuelle, publication de contexte interne.

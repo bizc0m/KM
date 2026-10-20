@@ -1,4 +1,4 @@
-# Books Index
+# books
 
-| Appel | Fichier | Type | Tags | Statut |
-| --- | --- | --- | --- | --- |
+| Identifiant | Fichier | Type | Statut |
+| --- | --- | --- | --- |

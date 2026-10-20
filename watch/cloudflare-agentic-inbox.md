@@ -6,57 +6,37 @@ Veille outil IA / client email agentique self-hosted.
 
 ## Tags
 
-#agent, #email, #cloudflare-workers, #self-hosted, #privacy, #github
+#email, #cloudflare-workers, #self-hosted
 
-## Appel canonique
 
-`watch:cloudflare-agentic-inbox`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.agents domain.communication compatibility.deployment.selfhosted risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA ; Communication et publication
+- Compatibilités : Exécution > Auto-hébergement
+- Risques : Risque signalé
+- Provenance : GitHub
 
 ## Sources
-- Repo GitHub: `https://github.com/cloudflare/agentic-inbox`
+- Repo GitHub : `https://github.com/cloudflare/agentic-inbox`
 
 ## Metadata GitHub publique
 
-Releve API GitHub: 2026-08-21
+Releve API GitHub : 2026-08-21
 
-- repo: `cloudflare/agentic-inbox`
-- URL: `https://github.com/cloudflare/agentic-inbox`
-- description: A self-hosted email client with an AI agent, running entirely on Cloudflare Workers
-- licence: Apache-2.0
-- etoiles relevees: 6899
-- topics releves: aucun topic public
-- derniere activite relevee: 2026-04-23T21:04:17Z
-- archived: non
-- fork: non
+- repo : `cloudflare/agentic-inbox`
+- URL : `https://github.com/cloudflare/agentic-inbox`
+- description : A self-hosted email client with an AI agent, running entirely on Cloudflare Workers
+- licence : Apache-2.0
+- etoiles relevees : 6899
+- derniere activite relevee : 2026-04-23T21:04:17Z
+- archived : non
+- fork : non
 
-Note: metadata volatile, a reverifier avant decision produit ou execution locale.
-
-## Resume court
-
-Sert a evaluer un enjeu privacy ou donnees exposees.
-
-
-
-## Usage KM
-
-- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
-
-## Topics GitHub
-
-- Repo : `https://github.com/cloudflare/agentic-inbox`
-- Aucun topic public releve via GitHub API.
-
-## Relations
-
-- `watch:nanoclaw-personal-agent`
-- `watch:red-team-risk-tools-watch`
-- `watch:ai-open-source-tools-inventory`
-
-## Changelog
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
 
 ### v0.1 - 2026-06-24
 
-- Objectif: integrer Agentic Inbox depuis Raindrop KM Monitor.
-- Fichiers touches: `watch/cloudflare-agentic-inbox.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: donnees email et actions agentiques.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer Agentic Inbox depuis Raindrop KM Monitor.
+- Risques : donnees email et actions agentiques.

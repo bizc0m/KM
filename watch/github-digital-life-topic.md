@@ -2,40 +2,25 @@
 
 ## Type
 
-topic GitHub.
+Veille Raindrop KM Monitor / topic GitHub.
 
 ## Tags
 
-#github, #digital-life, #curation, #agents, #a-verifier
+#digital-life, #curation
 
-## Appel canonique
 
-`watch:github-digital-life-topic`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.data.catalogues risk.sensitive source.github
+- Sujets : Données et connaissances > Catalogues de ressources
+- Risques : Risque signalé
+- Provenance : GitHub
 
 ## Sources
-- Source finale: [https://github.com/topics/digital-life](https://github.com/topics/digital-life)
-
-## Resume court
-
-Sert a suivre un outil d'automatisation ou d'agents IA.
-
-
-
-## Usage KM
-
-- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
-
-## Relations
-
-- `watch:awesome-ai-companion`
-- `watch:nanoclaw-personal-agent`
-- `watch:tencentdb-agent-memory`
-
-## Changelog
+- Source finale : [https://github.com/topics/digital-life](https://github.com/topics/digital-life)
 
 ### v0.1 - 2026-08-09
 
-- Objectif: integrer la nouveaute Raindrop KM Monitor `GitHub topic digital-life`.
-- Fichiers touches: `watch/github-digital-life-topic.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: curation variable, depots inconnus, donnees personnelles.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer la nouveaute Raindrop KM Monitor `GitHub topic digital-life`.
+- Risques : curation variable, depots inconnus, donnees personnelles.

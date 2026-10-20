@@ -6,27 +6,23 @@ archive KM / captures NotePlan.
 
 ## Tags
 
-#km, #noteplan, #capture, #archive, #veille, #github, #agents, #macos, #video, #privacy, #a-verifier
+#noteplan, #capture, #archive, #macos
 
-## Appel canonique
 
-`resource:noteplan-captures-archive-2026`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.unclassified capability.notes.capture compatibility.integration.noteplan compatibility.os.macos lifecycle.review
+- Sujets : À qualifier
+- Fonctions : Capturer des notes
+- Compatibilités : Intégrations > NotePlan ; Systèmes > macOS
+- État : À vérifier
 
 ## Sources
 
 - Origine: scan local NotePlan en lecture seule, notes calendrier `2026-01-01` a `2026-09-09`.
 - Perimetre: lignes publiques avec URL, tags `#capture`, `#KM`, `#DEV`, ou signal veille.
 - Exclusions: conversations privees, liens locaux, IP, emails, tokens, chemins personnels, plateformes sociales sans contexte exploitable.
-
-## Resume court
-
-Archive courte des captures NotePlan 2026 utiles pour alimenter KM sans publier de donnees privees.
-
-## Usage KM
-
-- Retrouver les signaux NotePlan non encore transformes en fiche.
-- Prioriser les outils qui servent a Codex, NotePlan, capture, agents, recherche, OSINT, media ou dashboard.
-- Garder une trace des doublons deja couverts pour eviter de recreer les memes fiches.
 
 ## Candidats prioritaires
 
@@ -89,11 +85,7 @@ Archive courte des captures NotePlan 2026 utiles pour alimenter KM sans publier 
 - Les repos GitHub sans topics releves doivent etre revus avant classification definitive.
 - Les liens App Store, Reddit et pages produits doivent etre rattaches a une page finale publique si possible.
 
-## Changelog
-
 ### v0.1 - 2026-09-09
 
 - Objectif: archiver les captures NotePlan publiques depuis le debut 2026 sans publier de contenu prive.
-- Fichiers touches: `resources/noteplan-captures-archive-2026.md`, `resources/RESOURCES.md`, `index.md`, `km/history.md`, `search-v2.html`.
 - Risques: sources sociales incompletes, repos non audites, sujets OSINT/offensifs classes `sensible` ou `#ROUGE`.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

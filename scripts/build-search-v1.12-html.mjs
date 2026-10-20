@@ -11,6 +11,7 @@ const root = process.env.KM_ROOT
 const config = JSON.parse(readFileSync(join(root, "km.config.json"), "utf8"));
 const ontology = JSON.parse(readFileSync(join(root, "km.ontology.json"), "utf8"));
 const version = config.project?.version || "1.12";
+const githubRef = process.env.KM_GITHUB_REF || config.project?.githubRef || 'main';
 const dashboardName = `KM Search v${version}`;
 const dashboardFile = config.dashboard?.mainOutput || `search-v${version}.html`;
 const outputFile = join(root, dashboardFile);
@@ -345,7 +346,7 @@ function itemFrom(file) {
     tags,
     status,
     path,
-    repoUrl: `https://github.com/bizc0m/KM/blob/main/${path}`,
+    repoUrl: `https://github.com/bizc0m/KM/blob/${githubRef}/${path}`,
     sourceUrl: publicSourceUrl(content),
     sources: publicSources(content),
     github: publicGithub(content),

@@ -2,45 +2,31 @@
 
 ## Type
 
-framework de scraping web.
+Veille Raindrop KM Monitor / framework de scraping web.
 
 ## Tags
 
-#scraping, #web-extraction, #python, #documentation
+#extraction-web, #python, #documentation
 
-## Appel canonique
 
-`watch:scrapling-web-scraping-modern-web`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.data.web domain.data.documents capability.scraping compatibility.language.python risk.sensitive
+- Sujets : Données et connaissances > Collecte web ; Données et connaissances > Documents
+- Fonctions : Extraire des données web
+- Compatibilités : Langages > Python
+- Risques : Risque signalé
 
 ## Sources
-- Documentation: `https://scrapling.readthedocs.io/`
+- Documentation : `https://scrapling.readthedocs.io/`
 
-Source publique:
+Source publique :
 
-- titre HTML: `Index - Scrapling`
-- description: `Scrapling - Effortless Web Scraping for the Modern Web!`
-
-## Resume court
-
-Extrait ou structure des donnees depuis des sources web ou documents.
-
-
-
-## Usage KM
-
-- Classer, relier et reevaluer la fiche lors du prochain scan KM.
-
-## Relations
-
-- `watch:internet-scraping-github-repos-ecommartinez`
-- `watch:internet-scraping-github-repos-lucy-love-ai`
-- `watch:open-lovable-firecrawl-site-cloning`
-
-## Changelog
+- titre HTML : `Index - Scrapling`
+- description : `Scrapling - Effortless Web Scraping for the Modern Web!`
 
 ### v0.1 - 2026-07-11
 
-- Objectif: integrer le nouveau signal Scrapling depuis Raindrop KM Monitor.
-- Fichiers touches: `watch/scrapling-web-scraping-modern-web.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: scraping abusif, conditions d'usage et donnees personnelles.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le nouveau signal Scrapling depuis Raindrop KM Monitor.
+- Risques : scraping abusif, conditions d'usage et donnees personnelles.

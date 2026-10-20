@@ -2,43 +2,30 @@
 
 ## Type
 
-veille agents IA / automatisation.
+Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+#montage-video
 
-## Appel canonique
 
-`watch:here-are-10-ai-video-editor-github-repos-worth-bookmarking`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai domain.media.video capability.edit.video risk.sensitive source.x
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
+- Fonctions : Monter une vidéo
+- Risques : Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/kanikabk/status/2065780534148731148](https://x.com/kanikabk/status/2065780534148731148)
-
-## Resume court
-
-Sert a suivre un outil d'automatisation ou d'agents IA.
-
-
-
-## Usage KM
-
-- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
+- Source : [https://x.com/kanikabk/status/2065780534148731148](https://x.com/kanikabk/status/2065780534148731148)
 
 ## A_VERIFIER
 
-- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
-
-## Relations
-
-- `watch:index`
-- `watch:ai-open-source-tools-watch`
-
-## Changelog
+- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
 
 ### v0.1 - 2026-06-26
 
-- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches: `watch/here-are-10-ai-video-editor-github-repos-worth-bookmarking.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.

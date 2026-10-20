@@ -2,43 +2,30 @@
 
 ## Type
 
-veille agents IA / automatisation.
+Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+#extraction-web, #pdf
 
-## Appel canonique
 
-`watch:guide-scrapegraph-ai-ia-boss-pdf`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai domain.data.web capability.scraping compatibility.format.pdf risk.sensitive
+- Sujets : Intelligence artificielle ; Données et connaissances > Collecte web
+- Fonctions : Extraire des données web
+- Compatibilités : Formats > PDF
+- Risques : Risque signalé
 
 ## Sources
-- Source: [https://api.raindrop.io/v2/raindrop/1748687500/file?type=application/pdf](https://api.raindrop.io/v2/raindrop/1748687500/file?type=application/pdf)
-
-## Resume court
-
-Sert a suivre un outil d'automatisation ou d'agents IA.
-
-
-
-## Usage KM
-
-- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
+- Source : [https://api.raindrop.io/v2/raindrop/1748687500/file?type=application/pdf](https://api.raindrop.io/v2/raindrop/1748687500/file?type=application/pdf)
 
 ## A_VERIFIER
 
 - Verifier source, date, claims et conditions avant usage operationnel.
 
-## Relations
-
-- `watch:index`
-- `watch:ai-open-source-tools-watch`
-
-## Changelog
-
 ### v0.1 - 2026-06-26
 
-- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches: `watch/guide-scrapegraph-ai-ia-boss-pdf.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.

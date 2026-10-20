@@ -2,61 +2,42 @@
 
 ## Type
 
-orchestration agents terminal.
+Veille Raindrop KM Monitor / orchestration agents terminal.
 
 ## Tags
 
-#agents, #terminal, #orchestration, #cli
+#orchestration-agents, #terminal, #orchestration, #cli
 
-## Appel canonique
 
-`watch:herdr-agent-multiplexer`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.agents.orchestration capability.automation.orchestrate compatibility.interface.terminal risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA > Orchestration des agents
+- Fonctions : Automatiser des actions > Coordonner des agents
+- Compatibilités : Interfaces > Terminal
+- Risques : Risque signalé
+- Provenance : GitHub
 
 ## Sources
-- Source finale: [https://github.com/herdrdev/herdr](https://github.com/herdrdev/herdr)
+- Source finale : [https://github.com/herdrdev/herdr](https://github.com/herdrdev/herdr)
 
 ## Metadata GitHub publique
 
-Releve API GitHub: 2026-08-21
+Releve API GitHub : 2026-08-21
 
-- repo: `herdrdev/herdr`
-- URL: `https://github.com/herdrdev/herdr`
-- description: the runtime your coding agents live on
-- licence: Apache-2.0
-- etoiles relevees: 31176
-- topics releves: agent, agent-orchestration, ai, ai-agents, claude-code, cli, codex, coding-agents, developer-tools, devtools, multiplexer, rust, terminal, terminal-multiplexer, terminal-ui, tmux, tui, workspace-manager
-- derniere activite relevee: 2026-08-20T22:39:03Z
-- archived: non
-- fork: non
+- repo : `herdrdev/herdr`
+- URL : `https://github.com/herdrdev/herdr`
+- description : the runtime your coding agents live on
+- licence : Apache-2.0
+- etoiles relevees : 31176
+- derniere activite relevee : 2026-08-20T22:39:03Z
+- archived : non
+- fork : non
 
-Note: metadata volatile, a reverifier avant decision produit ou execution locale.
-
-## Resume court
-
-Orchestre des agents IA ou des workflows multi-agents.
-
-
-
-## Usage KM
-
-- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
-
-## Topics GitHub
-
-- Repo : `https://github.com/herdrdev/herdr`
-- Topics releves : agent, agent-orchestration, ai, ai-agents, claude-code, cli, codex, coding-agents, developer-tools, devtools, multiplexer, rust, terminal, terminal-multiplexer, terminal-ui, tmux, tui, workspace-manager
-
-## Relations
-
-- `watch:open-maestri-macos-agent-orchestration`
-- `watch:macos26-agent-desktop-harness`
-- `watch:claude-task-master-ai-task-management`
-
-## Changelog
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
 
 ### v0.1 - 2026-08-09
 
-- Objectif: integrer la nouveaute Raindrop KM Monitor `herdrdev/herdr`.
-- Fichiers touches: `watch/herdr-agent-multiplexer.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: shell local, agents concurrents, secrets et contexte repo.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer la nouveaute Raindrop KM Monitor `herdrdev/herdr`.
+- Risques : shell local, agents concurrents, secrets et contexte repo.

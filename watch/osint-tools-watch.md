@@ -6,7 +6,7 @@ Veille OSINT transversale.
 
 ## Tags
 
-#osint, #vehicle-search, #vin, #license-plate, #threat-intelligence, #privacy
+#osint, #vehicle-search, #vin, #license-plate
 
 ## Source
 
@@ -14,30 +14,19 @@ Post X public fourni le 2026-05-22.
 
 Lecture effectuee via FxTwitter API publique, sans compte X.
 
-## Appel canonique
 
-`watch:osint-tools-watch`
+## Ontologie
 
-## Usage KM
-
-- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
-
-## Relations
-
-- `watch:ai-open-source-tools-watch`
-- `theme:charte-ia`
-
-## Resume court
-
-Sert a surveiller un outil ou signal OSINT.
-
-
+- Version : 1.0
+- Identifiants : domain.ai domain.osint lifecycle.review
+- Sujets : Intelligence artificielle ; Cybersécurité > Renseignement en sources ouvertes
+- État : À vérifier
 
 ## Sources lues
 
 | Date post | Auteur | URL | Sujet | Statut |
 | --- | --- | --- | --- | --- |
-| 2026-05-21 | `cyb_detective` | `https://x.com/cyb_detective/status/2057462395568558157` | Vehicle Search Tools: license plate search, VIN check, vehicle history records | actif |
+| 2026-05-21 | `cyb_detective` | `https://x.com/cyb_detective/status/2057462395568558157` | Vehicle Search Tools : license plate search, VIN check, vehicle history records | actif |
 
 ## Arbitrage
 
@@ -53,18 +42,12 @@ Sert a surveiller un outil ou signal OSINT.
 2. Extraire uniquement les categories utiles et licites.
 3. Creer une fiche dediee si un outil devient actionnable.
 
-## Changelog
-
 ### v0.1 - 2026-05-22
 
-- Objectif: integrer automatiquement le lien Cyb Detective dans KM Watch.
-- Fichiers touches: `watch/osint-tools-watch.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: sujet privacy-sensitive.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer automatiquement le lien Cyb Detective dans KM Watch.
+- Risques : sujet privacy-sensitive.
 
 ### v0.2 - 2026-05-22
 
-- Objectif: verifier le repo source Vehicle Search Tools.
-- Fichiers touches: `watch/osint-tools-watch.md`.
-- Risques: contenu privacy-sensitive.
-- Rollback possible: retirer le bloc Verification.
+- Objectif : verifier le repo source Vehicle Search Tools.
+- Risques : contenu privacy-sensitive.

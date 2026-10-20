@@ -2,7 +2,8 @@
   "project": {
     "name": "KM Search",
     "version": "2",
-    "description": "Recherche, veille, fiches Markdown et vues partageables par theme."
+    "description": "Recherche, veille, fiches Markdown et vues partageables par theme.",
+    "githubRef": "codex/km-technical-pipeline"
   },
   "sources": {
     "raindropPublicPage": "https://arno-vltn.raindrop.page/km-monitor-71629567",

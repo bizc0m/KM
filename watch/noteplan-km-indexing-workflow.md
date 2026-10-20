@@ -25,10 +25,6 @@ Idee de workflow pour indexer NotePlan dans KM : prompt, sujet, deeplink, statut
 - projet
 - action_recommandee
 
-## Risques
-- Notes privees : scan explicite seulement.
-- TCC macOS : privilegier snapshot temporaire autorise.
-- Ne jamais integrer liens medicaux, secrets, tokens ou identifiants.
-
 ## Tags
-#KM #NOTEPLAN #WORKFLOW #INDEX #PRIVACY
+
+#dedoublonnage, #macos

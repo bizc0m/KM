@@ -2,41 +2,29 @@
 
 ## Type
 
-veille OSINT / privacy.
+Veille Raindrop KM Monitor.
 
 ## Tags
 
-#osint, #privacy
+#osint
 
-## Appel canonique
 
-`watch:offline-maps-and-gps-app-without-ads-or-tracking`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.osint risk.sensitive source.x
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Risques : Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/tom_doerr/status/2064810037210497235](https://x.com/tom_doerr/status/2064810037210497235)
-
-## Resume court
-
-https://t.co/e88xTEZH6N
-
-## Usage KM
-
-- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
+- Source : [https://x.com/tom_doerr/status/2064810037210497235](https://x.com/tom_doerr/status/2064810037210497235)
 
 ## A_VERIFIER
 
-- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
-
-## Relations
-
-- `watch:index`
-- `watch:ai-open-source-tools-watch`
-
-## Changelog
+- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
 
 ### v0.1 - 2026-06-26
 
-- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches: `watch/offline-maps-and-gps-app-without-ads-or-tracking.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.

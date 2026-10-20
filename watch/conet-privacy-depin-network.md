@@ -6,26 +6,24 @@ Veille infra privacy / DePIN / reseau decentralise.
 
 ## Tags
 
-#privacy, #depin, #crypto, #wallet-address, #decentralized-network, #encrypted-routing, #vpn-alternative, #tokenomics, #to-verify
+#depin, #crypto, #wallet-address, #decentralized-network
 
-## Appel canonique
 
-`watch:conet-privacy-depin-network`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.infrastructure.network domain.finance lifecycle.review
+- Sujets : Infrastructure > Réseaux ; Analyse financière
+- État : À vérifier
 
 ## Sources
 
-- Site officiel: `https://conet.network/`
-- Documentation officielle: `https://doceng.conet.network/`
-- Introduction docs: `https://doceng.conet.network/welcome-to-conet/introduction`
-- Fonctionnement docs: `https://doceng.conet.network/core-technology/how-conet-works-decentralized-private-and-secure`
-- Silent Pass: `https://conet.network/silent-pass/`
-- Privacy policy: `https://conet.network/privacy-cookies/`
-
-## Resume court
-
-Sert a evaluer un enjeu privacy ou donnees exposees.
-
-
+- Site officiel : `https://conet.network/`
+- Documentation officielle : `https://doceng.conet.network/`
+- Introduction docs : `https://doceng.conet.network/welcome-to-conet/introduction`
+- Fonctionnement docs : `https://doceng.conet.network/core-technology/how-conet-works-decentralized-private-and-secure`
+- Silent Pass : `https://conet.network/silent-pass/`
+- Privacy policy : `https://conet.network/privacy-cookies/`
 
 ## Verification source
 
@@ -55,34 +53,7 @@ Sert a evaluer un enjeu privacy ou donnees exposees.
 6. Quel risque juridique pour l'operateur d'un noeud ?
 7. Le token est-il necessaire a l'usage ou seulement a l'incitation ?
 
-## Usage KM
-
-- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
-
-## Relations
-
-- `watch:twitter-rss-monitoring`
-- `watch:osint-tools-watch`
-- `watch:red-team-risk-tools-watch`
-- `watch:ai-open-source-tools-inventory`
-
-## Fit projets
-
-| Projet | Fit | Raison |
-| --- | --- | --- |
-| KM | fort | veille privacy infra et DePIN |
-| PACTE_IA | moyen | sujet gouvernance, autonomie, infrastructures alternatives |
-| NightIntel | faible/moyen | possible inspiration privacy, pas d'integration avant audit |
-
-## Decision KM
-
-Garder comme veille `sensible / a verifier`. Pas `#ROUGE` par defaut. Devient `#ROUGE` seulement si l'usage vise contournement illegal, relais abusif, anonymisation d'abus ou diffusion operationnelle non cadre.
-
-## Changelog
-
 ### v0.1 - 2026-05-25
 
-- Objectif: integrer CONET comme veille privacy DePIN apres demande utilisateur.
-- Fichiers touches: `watch/conet-privacy-depin-network.md`, `watch/index.md`, `index.md`, `km/history.md`, `search-v1.10.html`.
-- Risques: claims privacy non audites, crypto/tokenomics, responsabilite de relais, confusion anonymat reel/promis.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer CONET comme veille privacy DePIN apres demande utilisateur.
+- Risques : claims privacy non audites, crypto/tokenomics, responsabilite de relais, confusion anonymat reel/promis.

@@ -2,41 +2,24 @@
 
 ## Type
 
-connectivite Zero Trust et reseau prive.
+Veille Raindrop KM Monitor / connectivite Zero Trust et reseau prive.
 
 ## Tags
 
-#tailscale, #zero-trust, #vpn, #network-security, #infrastructure
+#tailscale, #zero-trust, #vpn, #network-security
 
-## Appel canonique
 
-`watch:tailscale-secure-connectivity-for-ai-iot-multi-cloud`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai domain.infrastructure.network risk.sensitive
+- Sujets : Intelligence artificielle ; Infrastructure > Réseaux
+- Risques : Risque signalé
 
 ## Sources
-- Source finale: [https://tailscale.com](https://tailscale.com)
-
-## Resume court
-
-Connectivite Zero Trust et reseau prive.
-
-
-
-## Usage KM
-
-- Classer, relier et reevaluer la fiche lors du prochain scan KM.
-
-## Relations
-
-- `watch:index`
-- `watch:cloudflare-agentic-inbox`
-- `watch:auto-company-autonomous-ai-company`
-- `watch:alook-ai-workforce-collaboration`
-
-## Changelog
+- Source finale : [https://tailscale.com](https://tailscale.com)
 
 ### v0.1 - 2026-07-31
 
-- Objectif: integrer la nouveaute Raindrop KM Monitor `Tailscale | Secure Connectivity for AI, IoT & Multi-Cloud`.
-- Fichiers touches: `watch/tailscale-secure-connectivity-for-ai-iot-multi-cloud.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: configuration reseau, acces prive, exposition de ressources internes, agents connectes.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer la nouveaute Raindrop KM Monitor `Tailscale | Secure Connectivity for AI, IoT & Multi-Cloud`.
+- Risques : configuration reseau, acces prive, exposition de ressources internes, agents connectes.

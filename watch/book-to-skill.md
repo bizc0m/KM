@@ -6,7 +6,18 @@
 
 ## Tags
 
-#agent-skills, #knowledge-management, #pdf, #document-processing, #rag, #llm
+#skills-agents, #pdf, #knowledge-management, #document-processing
+
+
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.agents.coding domain.ai.agents.skills domain.data.notes capability.skills compatibility.format.pdf risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents ; Données et connaissances > Notes et organisation
+- Fonctions : Étendre les compétences d’un agent
+- Compatibilités : Formats > PDF
+- Risques : Risque signalé
+- Provenance : GitHub
 
 ## Sources
 
@@ -14,14 +25,6 @@
 - Origine: archive NotePlan captures 2026, capture du 2026-05-22.
 - Domaine: `github.com`
 - Auteur/source: `virgiliojr94`
-
-## Resume court
-
-Book to Skill transforme des livres techniques en skills consultables par agent pendant le travail.
-
-## Usage KM
-
-Utile pour convertir ressources longues en fiches, skills et bases de reference operables.
 
 ## Topics GitHub
 
@@ -31,24 +34,12 @@ Utile pour convertir ressources longues en fiches, skills et bases de reference 
 - Etoiles relevees: 29224
 - Derniere activite relevee: 2026-09-09T10:23:53Z
 
-## Risque d'abus possible
-
-- `sensible`: risque copyright si un livre complet est extrait ou republie sans droit.
-- Pas de classification `#ROUGE`.
-
-## Classification
-
-`sensible`
-
 ## A verifier
 
 - Respect copyright et licences des livres sources.
 - Qualite de conversion PDF.
 - Format exact de skill produit.
 
-## Changelog
-
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

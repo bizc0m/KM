@@ -2,43 +2,29 @@
 
 ## Type
 
-veille #ROUGE / outil ou source a risque offensif.
+Veille Raindrop KM Monitor.
 
 ## Tags
 
-#rouge, #offensive-risk, #privacy-risk
+#osint, #offensive-risk, #privacy-risk, #ROUGE
 
-## Appel canonique
 
-`watch:how-i-automate-google-dorking-for-faster-osint-investigations`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.osint risk.offensive risk.sensitive source.x
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Risques : Usage offensif explicite ; Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/cyber_sudo/status/2062489706147836223](https://x.com/cyber_sudo/status/2062489706147836223)
-
-## Resume court
-
-Signale un outil ou une source directement sensible cote abus.
-
-
-
-## Usage KM
-
-- Conserver comme signal de risque; verifier uniquement en contexte defensif, autorise et documente.
+- Source : [https://x.com/cyber_sudo/status/2062489706147836223](https://x.com/cyber_sudo/status/2062489706147836223)
 
 ## A_VERIFIER
 
-- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
-
-## Relations
-
-- `watch:index`
-- `watch:ai-open-source-tools-watch`
-
-## Changelog
+- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
 
 ### v0.1 - 2026-06-26
 
-- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches: `watch/how-i-automate-google-dorking-for-faster-osint-investigations.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: Abus possible direct ou facilite: collecte intrusive, reconnaissance, contournement, automatisation offensive ou atteinte privacy.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Risques : Abus possible direct ou facilite : collecte intrusive, reconnaissance, contournement, automatisation offensive ou atteinte privacy.

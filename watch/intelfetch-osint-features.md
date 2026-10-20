@@ -2,40 +2,24 @@
 
 ## Type
 
-plateforme OSINT.
+Veille Raindrop KM Monitor / plateforme OSINT.
 
 ## Tags
 
-#osint, #breach-search, #threat-intelligence, #privacy
+#osint, #breach-search, #threat-intelligence
 
-## Appel canonique
 
-`watch:intelfetch-osint-features`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.osint risk.sensitive
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Risques : Risque signalé
 
 ## Sources
-- Source finale: [https://intelfetch.net/features](https://intelfetch.net/features)
-
-## Resume court
-
-Sert a surveiller un outil ou signal OSINT.
-
-
-
-## Usage KM
-
-- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
-
-## Relations
-
-- `watch:osint-rack-curated-tools`
-- `watch:openthreat-threat-intelligence-platform`
-- `watch:gosearch-digital-footprint-search`
-
-## Changelog
+- Source finale : [https://intelfetch.net/features](https://intelfetch.net/features)
 
 ### v0.1 - 2026-08-09
 
-- Objectif: integrer la nouveaute Raindrop KM Monitor `IntelFetch`.
-- Fichiers touches: `watch/intelfetch-osint-features.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: OSINT, breach search, donnees personnelles et surveillance ciblee.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer la nouveaute Raindrop KM Monitor `IntelFetch`.
+- Risques : OSINT, breach search, donnees personnelles et surveillance ciblee.

@@ -2,40 +2,24 @@
 
 ## Type
 
-detection tendances GitHub.
+Veille Raindrop KM Monitor / detection tendances GitHub.
 
 ## Tags
 
-#github, #trending, #discovery, #veille, #actif
+#trending, #discovery
 
-## Appel canonique
 
-`watch:trendshift-github-momentum`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.unclassified risk.sensitive
+- Sujets : À qualifier
+- Risques : Risque signalé
 
 ## Sources
-- Source finale: [https://trendshift.io/](https://trendshift.io/)
-
-## Resume court
-
-Sert a suivre un projet open source ou devtool.
-
-
-
-## Usage KM
-
-- Verifier maturite, licence, activite GitHub et integration possible dans les projets KM/dev.
-
-## Relations
-
-- `watch:ai-trending`
-- `watch:vibeshit-vibe-coding-directory`
-- `watch:github-digital-life-topic`
-
-## Changelog
+- Source finale : [https://trendshift.io/](https://trendshift.io/)
 
 ### v0.1 - 2026-08-09
 
-- Objectif: integrer la nouveaute Raindrop KM Monitor `Trendshift`.
-- Fichiers touches: `watch/trendshift-github-momentum.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: signaux de popularite instables, projets non audites.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer la nouveaute Raindrop KM Monitor `Trendshift`.
+- Risques : signaux de popularite instables, projets non audites.

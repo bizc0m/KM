@@ -8,40 +8,24 @@ Veille education IA / API keys.
 
 #api-keys, #llm, #education, #credentials
 
-## Appel canonique
 
-`watch:free-api-key-instagram-reel`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.llm risk.sensitive
+- Sujets : Intelligence artificielle > Modèles de langage
+- Risques : Risque signalé
 
 ## Sources
-- Reel Instagram: `https://www.instagram.com/reel/DZkw-DEh_Dl/`
+- Reel Instagram : `https://www.instagram.com/reel/DZkw-DEh_Dl/`
 
-Metadonnees Raindrop:
+Metadonnees Raindrop :
 
-- source sociale: reel Instagram public
-- sujet annonce: cle API LLM, authentification et securite d'usage
-- URL nettoyee: parametre de commentaire retire car inutile pour la fiche KM
-
-## Resume court
-
-Sert a suivre une ressource LLM ou API.
-
-
-
-## Usage KM
-
-- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
-
-## Relations
-
-- `watch:free-llm-api-resources`
-- `watch:awesome-free-llm-apis`
-- `process:ai-tools`
-
-## Changelog
+- source sociale : reel Instagram public
+- sujet annonce : cle API LLM, authentification et securite d'usage
+- URL nettoyee : parametre de commentaire retire car inutile pour la fiche KM
 
 ### v0.1 - 2026-06-27
 
-- Objectif: integrer le reel `Free Api Key` depuis Raindrop KM Monitor.
-- Fichiers touches: `watch/free-api-key-instagram-reel.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: credentials, phishing possible et couts API.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le reel `Free Api Key` depuis Raindrop KM Monitor.
+- Risques : credentials, phishing possible et couts API.

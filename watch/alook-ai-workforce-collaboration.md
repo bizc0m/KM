@@ -2,69 +2,48 @@
 
 ## Type
 
-orchestration d'agents collaboratifs.
+Veille Raindrop KM Monitor / orchestration d'agents collaboratifs.
 
 ## Tags
 
-#agents, #multi-agent, #email, #memory, #collaboration, #github
+#orchestration-agents, #multi-agent, #email, #memoire-agents
 
-## Appel canonique
 
-`watch:alook-ai-workforce-collaboration`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.agents.orchestration domain.communication domain.ai.agents.memory capability.automation.orchestrate capability.memory risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA > Orchestration des agents ; Communication et publication ; Intelligence artificielle > Agents IA > Mémoire des agents
+- Fonctions : Automatiser des actions > Coordonner des agents ; Conserver le contexte
+- Risques : Risque signalé
+- Provenance : GitHub
 
 ## Sources
-- Repo GitHub: `https://github.com/alookai/alook`
+- Repo GitHub : `https://github.com/alookai/alook`
 
-Source GitHub publique:
+Source GitHub publique :
 
-- depot: `alookai/alook`
-- licence: Apache-2.0
-- etoiles relevees: 864
-- topics releves: agent-automation, ai-agents, ai-collaboration, ai-memory, autonomous-agents, claude-code, codex, multi-agent
-- derniere activite relevee: 2026-07-11T11:00:26Z
+- depot : `alookai/alook`
+- licence : Apache-2.0
+- etoiles relevees : 864
+- derniere activite relevee : 2026-07-11T11:00:26Z
 
 ## Metadata GitHub publique
 
-Releve API GitHub: 2026-08-21
+Releve API GitHub : 2026-08-21
 
-- repo: `alookai/alook`
-- URL: `https://github.com/alookai/alook`
-- description: Rooms for people and agents.
-- licence: Apache-2.0
-- etoiles relevees: 1157
-- topics releves: agent-automation, agent-orchestration, agent-workflow, ai-agents, ai-collaboration, ai-memory, ai-workforce, autonomous-agents, claude-code, claude-code-skills, codex, coding-agent, multi-agent, multiple-agent, one-person-business, one-person-company, one-person-team, opencode, solopreneur
-- derniere activite relevee: 2026-08-21T08:52:36Z
-- archived: non
-- fork: non
+- repo : `alookai/alook`
+- URL : `https://github.com/alookai/alook`
+- description : Rooms for people and agents.
+- licence : Apache-2.0
+- etoiles relevees : 1157
+- derniere activite relevee : 2026-08-21T08:52:36Z
+- archived : non
+- fork : non
 
-Note: metadata volatile, a reverifier avant decision produit ou execution locale.
-
-## Resume court
-
-Orchestre des agents IA ou des workflows multi-agents.
-
-
-
-## Usage KM
-
-- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
-
-## Topics GitHub
-
-- Repo : `https://github.com/alookai/alook`
-- Topics releves : agent-automation, agent-orchestration, agent-workflow, ai-agents, ai-collaboration, ai-memory, ai-workforce, autonomous-agents, claude-code, claude-code-skills, codex, coding-agent, multi-agent, multiple-agent, one-person-business, one-person-company, one-person-team, opencode, solopreneur
-
-## Relations
-
-- `watch:agency-agents-ai-agency`
-- `watch:cloudflare-agentic-inbox`
-- `watch:nousresearch-hermes-agent`
-
-## Changelog
+Note : metadata volatile, a reverifier avant decision produit ou execution locale.
 
 ### v0.1 - 2026-07-11
 
-- Objectif: integrer le nouveau signal Alook depuis Raindrop KM Monitor.
-- Fichiers touches: `watch/alook-ai-workforce-collaboration.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: agents autonomes, email, memoire et actions externes.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le nouveau signal Alook depuis Raindrop KM Monitor.
+- Risques : agents autonomes, email, memoire et actions externes.

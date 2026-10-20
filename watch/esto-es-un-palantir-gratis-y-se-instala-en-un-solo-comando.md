@@ -2,43 +2,27 @@
 
 ## Type
 
-veille source Raindrop / a verifier.
+Veille Raindrop KM Monitor.
 
 ## Tags
 
-#raindrop, #to-verify
 
-## Appel canonique
+## Ontologie
 
-`watch:esto-es-un-palantir-gratis-y-se-instala-en-un-solo-comando`
+- Version : 1.0
+- Identifiants : domain.unclassified risk.sensitive source.x
+- Sujets : À qualifier
+- Risques : Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/marcusyul/status/2063710599679263141](https://x.com/marcusyul/status/2063710599679263141)
-
-## Resume court
-
-Source Raindrop / a verifier.
-
-
-
-## Usage KM
-
-- Utiliser comme source de veille ou point d'entree a verifier avant enrichissement KM.
+- Source : [https://x.com/marcusyul/status/2063710599679263141](https://x.com/marcusyul/status/2063710599679263141)
 
 ## A_VERIFIER
 
-- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
-
-## Relations
-
-- `watch:index`
-- `watch:ai-open-source-tools-watch`
-
-## Changelog
+- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
 
 ### v0.1 - 2026-06-26
 
-- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches: `watch/esto-es-un-palantir-gratis-y-se-instala-en-un-solo-comando.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: Risque principal: claims non verifies, source secondaire ou lien final non resolu.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.

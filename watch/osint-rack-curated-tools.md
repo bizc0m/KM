@@ -6,41 +6,25 @@ Veille OSINT / annuaire d'outils d'investigation.
 
 ## Tags
 
-#osint, #threat-intelligence, #investigation, #curated-tools, #privacy, #a-verifier
+#osint, #threat-intelligence, #investigation, #curated-tools
 
-## Appel canonique
 
-`watch:osint-rack-curated-tools`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.osint domain.data.catalogues risk.sensitive
+- Sujets : Cybersécurité > Renseignement en sources ouvertes ; Données et connaissances > Catalogues de ressources
+- Risques : Risque signalé
 
 ## Sources
-- Site: `https://osintrack.com/`
-
-## Resume court
-
-Sert a surveiller un outil ou signal OSINT.
-
-
-
-## Usage KM
-
-- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
-
-## Relations
-
-- `watch:osint-tools-watch`
-- `watch:red-team-risk-tools-watch`
-- `watch:ai-open-source-tools-inventory`
+- Site : `https://osintrack.com/`
 
 ## Prochaines actions
 
 1. Auditer les categories et isoler les outils a risque.
 2. Creer des fiches dediees uniquement pour les outils utiles et licites.
 
-## Changelog
-
 ### v0.1 - 2026-06-24
 
-- Objectif: integrer The OSINT Rack depuis Raindrop KM Monitor.
-- Fichiers touches: `watch/osint-rack-curated-tools.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: outils OSINT sensibles et non verifies.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer The OSINT Rack depuis Raindrop KM Monitor.
+- Risques : outils OSINT sensibles et non verifies.

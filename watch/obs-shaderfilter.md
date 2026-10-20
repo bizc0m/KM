@@ -6,7 +6,16 @@
 
 ## Tags
 
-#obs, #shader, #video, #streaming, #media, #github
+#obs, #shader, #video, #streaming
+
+
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.media.live domain.media.video source.github lifecycle.active
+- Sujets : Audio, vidéo et création > Création et diffusion en direct ; Audio, vidéo et création > Vidéo
+- Provenance : GitHub
+- État : Actif
 
 ## Sources
 
@@ -14,14 +23,6 @@
 - Origine: archive NotePlan captures 2026, capture du 2026-08-24.
 - Domaine: `github.com`
 - Auteur/source: `exeldro`
-
-## Resume court
-
-OBS Shaderfilter ajoute des effets shader a des sources OBS.
-
-## Usage KM
-
-Utile pour demos, live, captures visuelles et experimentation media.
 
 ## Topics GitHub
 
@@ -32,24 +33,12 @@ Utile pour demos, live, captures visuelles et experimentation media.
 - Derniere activite relevee: 2026-09-07T13:59:06Z
 - Fork releve: oui
 
-## Risque d'abus possible
-
-- Faible: plugin media generaliste.
-- Verifier provenance des shaders avant usage.
-
-## Classification
-
-`actif`
-
 ## A verifier
 
 - Compatibilite version OBS.
 - Source amont du fork.
 - Stabilite sur macOS.
 
-## Changelog
-
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

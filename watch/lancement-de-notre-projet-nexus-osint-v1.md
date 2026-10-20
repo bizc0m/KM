@@ -2,43 +2,29 @@
 
 ## Type
 
-veille OSINT / privacy.
+Veille Raindrop KM Monitor.
 
 ## Tags
 
-#osint, #privacy
+#osint
 
-## Appel canonique
 
-`watch:lancement-de-notre-projet-nexus-osint-v1`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.osint risk.sensitive source.x
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Risques : Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/nexus_osint/status/2062580178727899394](https://x.com/nexus_osint/status/2062580178727899394)
-
-## Resume court
-
-Sert a surveiller un outil ou signal OSINT.
-
-
-
-## Usage KM
-
-- Evaluer les impacts privacy, les donnees manipulees et les conditions d'usage avant integration.
+- Source : [https://x.com/nexus_osint/status/2062580178727899394](https://x.com/nexus_osint/status/2062580178727899394)
 
 ## A_VERIFIER
 
-- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
-
-## Relations
-
-- `watch:index`
-- `watch:ai-open-source-tools-watch`
-
-## Changelog
+- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
 
 ### v0.1 - 2026-06-26
 
-- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches: `watch/lancement-de-notre-projet-nexus-osint-v1.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: Risque sensible: claims non verifies, conditions de diffusion ou usages pouvant exposer des donnees et workflows.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Risques : Risque sensible : claims non verifies, conditions de diffusion ou usages pouvant exposer des donnees et workflows.

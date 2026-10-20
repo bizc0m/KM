@@ -6,7 +6,18 @@
 
 ## Tags
 
-#agents, #browser-automation, #ag-ui, #mcp, #governance, #audit
+#automatisation-navigateur, #ag-ui, #mcp, #governance
+
+
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.dev.browser domain.ai.agents.integration capability.automation.browser compatibility.protocol.mcp risk.sensitive source.github
+- Sujets : Développement logiciel > Outils de navigateur ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
+- Fonctions : Automatiser des actions > Automatiser le navigateur
+- Compatibilités : Protocoles > MCP
+- Risques : Risque signalé
+- Provenance : GitHub
 
 ## Sources
 
@@ -14,14 +25,6 @@
 - Origine: archive NotePlan captures 2026, capture du 2026-08-28.
 - Domaine: `github.com`
 - Auteur/source: `CopilotKit`
-
-## Resume court
-
-OpenBot propose des agents avec environnement propre, decisions pre-action et traces post-action.
-
-## Usage KM
-
-Reference utile pour comparer gouvernance, auditabilite et controle humain des agents outilles.
 
 ## Topics GitHub
 
@@ -31,24 +34,12 @@ Reference utile pour comparer gouvernance, auditabilite et controle humain des a
 - Etoiles relevees: 4521
 - Derniere activite relevee: 2026-09-09T10:19:57Z
 
-## Risque d'abus possible
-
-- `sensible`: navigateur, fichiers et outils peuvent manipuler donnees privees ou comptes connectes.
-- Risque d'automatisation non desiree si les permissions ne sont pas strictement bornees.
-
-## Classification
-
-`sensible`
-
 ## A verifier
 
 - Modele de permissions.
 - Journalisation et export des actions.
 - Capacites reelles hors demo.
 
-## Changelog
-
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

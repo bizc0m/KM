@@ -2,43 +2,29 @@
 
 ## Type
 
-veille LLM / API.
+Veille Raindrop KM Monitor.
 
 ## Tags
 
-#llm, #to-verify
+#llm
 
-## Appel canonique
 
-`watch:sabtu-malem-jam-2-pagi-gue-masih-melek`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.llm risk.sensitive source.x
+- Sujets : Intelligence artificielle > Modèles de langage
+- Risques : Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/stellarprtcol/status/2065690636129575297](https://x.com/stellarprtcol/status/2065690636129575297)
-
-## Resume court
-
-Sert a suivre une ressource LLM ou API.
-
-
-
-## Usage KM
-
-- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
+- Source : [https://x.com/stellarprtcol/status/2065690636129575297](https://x.com/stellarprtcol/status/2065690636129575297)
 
 ## A_VERIFIER
 
-- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
-
-## Relations
-
-- `watch:index`
-- `watch:ai-open-source-tools-watch`
-
-## Changelog
+- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
 
 ### v0.1 - 2026-06-26
 
-- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches: `watch/sabtu-malem-jam-2-pagi-gue-masih-melek.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: Risque principal: claims non verifies, source secondaire ou lien final non resolu.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.

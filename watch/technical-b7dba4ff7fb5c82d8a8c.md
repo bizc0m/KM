@@ -1,0 +1,35 @@
+# Polymarket Trading Bot
+
+## Statut
+
+actif
+
+## Tags
+
+#marches-predictifs
+
+## Intérêts
+
+Exécute des trades automatisés sur Polymarket avec gestion de risques.
+
+
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.finance.prediction risk.sensitive source.x source.github
+- Sujets : Analyse financière > Marchés prédictifs
+- Risques : Risque signalé
+- Provenance : X / Twitter ; GitHub
+
+## Sources
+
+- https://github.com/harrieronchain/polymarket
+- https://x.com/i/status/2092332393172521418
+
+## Traçabilité
+
+- Origine : X
+- Identifiant source : b7dba4ff7fb5c82d8a8c34477dc5c94fd80d48b316eda7384e219c2c4a5334d1
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-19
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

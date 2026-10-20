@@ -8,33 +8,20 @@ Veille workflow agents / configuration AGENTS.md.
 
 #claude, #agents-md, #prompt-ops, #agent-instructions
 
-## Appel canonique
 
-`watch:claude-agents-md-config-alexsoyes`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.agents.integration domain.ai.prompts compatibility.integration.claude-general risk.sensitive source.x
+- Sujets : Intelligence artificielle > Agents IA > Connecteurs et outils des agents ; Intelligence artificielle > Instructions et prompts
+- Compatibilités : Intégrations > Claude
+- Risques : Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source sociale: [https://x.com/alexsoyes/status/2070522733608292544](https://x.com/alexsoyes/status/2070522733608292544)
-
-## Resume court
-
-Workflow agents / configuration AGENTS.md.
-
-
-
-## Usage KM
-
-- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
-
-## Relations
-
-- `process:km-auto-operating-prompt-v1.0`
-- `watch:un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web`
-
-## Changelog
+- Source sociale : [https://x.com/alexsoyes/status/2070522733608292544](https://x.com/alexsoyes/status/2070522733608292544)
 
 ### v0.1 - 2026-06-27
 
-- Objectif: integrer le signal `AGENTS.md` Claude depuis Raindrop KM Monitor.
-- Fichiers touches: `watch/claude-agents-md-config-alexsoyes.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: consignes agent externes a auditer avant reutilisation.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le signal `AGENTS.md` Claude depuis Raindrop KM Monitor.
+- Risques : consignes agent externes a auditer avant reutilisation.

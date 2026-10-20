@@ -2,43 +2,30 @@
 
 ## Type
 
-veille agents IA / automatisation.
+Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+#mcp
 
-## Appel canonique
 
-`watch:this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.infrastructure domain.ai.agents.integration compatibility.protocol.mcp risk.sensitive source.x
+- Sujets : Infrastructure ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
+- Compatibilités : Protocoles > MCP
+- Risques : Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/explorax_/status/2062584596328243214](https://x.com/explorax_/status/2062584596328243214)
-
-## Resume court
-
-Sert a suivre un outil d'automatisation ou d'agents IA.
-
-
-
-## Usage KM
-
-- Evaluer l'apport pour automatiser, orchestrer ou superviser des workflows agents.
+- Source : [https://x.com/explorax_/status/2062584596328243214](https://x.com/explorax_/status/2062584596328243214)
 
 ## A_VERIFIER
 
-- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
-
-## Relations
-
-- `watch:index`
-- `watch:ai-open-source-tools-watch`
-
-## Changelog
+- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
 
 ### v0.1 - 2026-06-26
 
-- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches: `watch/this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: Risque sensible: exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.

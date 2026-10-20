@@ -2,39 +2,25 @@
 
 ## Type
 
-outil macOS.
+Veille Raindrop KM Monitor / outil macOS.
 
 ## Tags
 
-#macos, #usb, #bootable-media, #recovery, #actif
+#macos, #usb, #bootable-media, #recovery
 
-## Appel canonique
 
-`watch:macusb-bootable-usb-creator-macos`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.dev.desktop compatibility.os.macos risk.sensitive
+- Sujets : Développement logiciel > Applications et interfaces de bureau
+- Compatibilités : Systèmes > macOS
+- Risques : Risque signalé
 
 ## Sources
-- Source finale: [https://www.macusb.app/](https://www.macusb.app/)
-
-## Resume court
-
-MacOS.
-
-
-
-## Usage KM
-
-- Classer, relier et reevaluer la fiche lors du prochain scan KM.
-
-## Relations
-
-- `watch:index`
-- `watch:neodisk-macos-disk-visualizer`
-
-## Changelog
+- Source finale : [https://www.macusb.app/](https://www.macusb.app/)
 
 ### v0.1 - 2026-08-03
 
-- Objectif: integrer la nouveaute Raindrop KM Monitor `macUSB`.
-- Fichiers touches: `watch/macusb-bootable-usb-creator-macos.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: effacement de disque, media bootable non fiable, confiance dans un outil tiers.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer la nouveaute Raindrop KM Monitor `macUSB`.
+- Risques : effacement de disque, media bootable non fiable, confiance dans un outil tiers.

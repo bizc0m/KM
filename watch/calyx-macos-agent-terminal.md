@@ -6,7 +6,18 @@
 
 ## Tags
 
-#macos, #terminal, #agents, #codex, #claude-code, #opencode, #mcp
+#agents-code, #macos, #terminal, #codex
+
+
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.agents.coding capability.code.assist compatibility.os.macos compatibility.interface.terminal compatibility.integration.codex risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement
+- Fonctions : Assister le développement
+- Compatibilités : Systèmes > macOS ; Interfaces > Terminal ; Intégrations > Codex
+- Risques : Risque signalé
+- Provenance : GitHub
 
 ## Sources
 
@@ -14,14 +25,6 @@
 - Origine: archive NotePlan captures 2026, capture du 2026-08-20.
 - Domaine: `github.com`
 - Auteur/source: `yuuichieguchi`
-
-## Resume court
-
-Calyx fournit une interface terminal macOS orientee supervision d'agents de code locaux.
-
-## Usage KM
-
-Comparer avec Codex, Claude Code, OpenCode, Maestri et les outils desktop d'orchestration locale.
 
 ## Topics GitHub
 
@@ -31,24 +34,12 @@ Comparer avec Codex, Claude Code, OpenCode, Maestri et les outils desktop d'orch
 - Etoiles relevees: 302
 - Derniere activite relevee: 2026-09-08T16:45:16Z
 
-## Risque d'abus possible
-
-- `sensible`: un terminal agentique peut exposer fichiers locaux, commandes, logs et contexte repo.
-- Pas de classification `#ROUGE`: pas d'usage offensif direct etabli par la source.
-
-## Classification
-
-`sensible`
-
 ## A verifier
 
 - Permissions locales exactes.
 - Mode de stockage des sessions et logs.
 - Isolation entre agents et depots.
 
-## Changelog
-
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.

@@ -2,43 +2,29 @@
 
 ## Type
 
-veille LLM / API.
+Veille Raindrop KM Monitor.
 
 ## Tags
 
 #llm, #jailbreak-risk
 
-## Appel canonique
 
-`watch:removes-llm-censorship-with-a-single-click`
+## Ontologie
+
+- Version : 1.0
+- Identifiants : domain.ai.llm risk.sensitive source.x
+- Sujets : Intelligence artificielle > Modèles de langage
+- Risques : Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/0x0sojalsec/status/2063664329208344701](https://x.com/0x0sojalsec/status/2063664329208344701)
-
-## Resume court
-
-Sert a suivre une ressource LLM ou API.
-
-
-
-## Usage KM
-
-- Comparer pour les workflows LLM, couts, contexte, routage et dependances API.
+- Source : [https://x.com/0x0sojalsec/status/2063664329208344701](https://x.com/0x0sojalsec/status/2063664329208344701)
 
 ## A_VERIFIER
 
-- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
-
-## Relations
-
-- `watch:index`
-- `watch:ai-open-source-tools-watch`
-
-## Changelog
+- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
 
 ### v0.1 - 2026-06-26
 
-- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches: `watch/removes-llm-censorship-with-a-single-click.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: Risque sensible: claims non verifies, conditions de diffusion ou usages pouvant exposer des donnees et workflows.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Risques : Risque sensible : claims non verifies, conditions de diffusion ou usages pouvant exposer des donnees et workflows.

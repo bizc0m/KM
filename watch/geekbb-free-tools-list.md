@@ -2,41 +2,27 @@
 
 ## Type
 
-veille source Raindrop / a verifier.
+Veille Raindrop KM Monitor.
 
 ## Tags
 
-#raindrop, #to-verify
 
-## Appel canonique
+## Ontologie
 
-`watch:xamto-ai-understand-anything-x-post-2`
+- Version : 1.0
+- Identifiants : domain.ai risk.sensitive source.x
+- Sujets : Intelligence artificielle
+- Risques : Risque signalé
+- Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/geekbb/status/2065823256746352712](https://x.com/geekbb/status/2065823256746352712)
-
-## Resume court
-
-https://t.co/ShXmoBk02U
-
-## Usage KM
-
-- Utiliser comme source de veille ou point d'entree a verifier avant enrichissement KM.
+- Source : [https://x.com/geekbb/status/2065823256746352712](https://x.com/geekbb/status/2065823256746352712)
 
 ## A_VERIFIER
 
-- post X non developpe ici; liens t.co internes non resolus dans cette ingestion
-
-## Relations
-
-- `watch:index`
-- `watch:ai-open-source-tools-watch`
-
-## Changelog
+- post X non developpe ici ; liens t.co internes non resolus dans cette ingestion
 
 ### v0.1 - 2026-06-26
 
-- Objectif: integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
-- Fichiers touches: `watch/geekbb-free-tools-list.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques: Risque principal: claims non verifies, source secondaire ou lien final non resolu.
-- Rollback possible: supprimer cette fiche et retirer les lignes d'index.
+- Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
+- Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.
