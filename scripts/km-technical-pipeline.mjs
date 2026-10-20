@@ -55,7 +55,9 @@ async function resolveSource(url,onProgress=async()=>{}){
 export async function addFiche(key,d,sources,origin,analysis){
   const id=hash(/https?:\/\/(?:x\.com|twitter\.com)\/.*\/status\//.test(key)?crawlKey(key):key).slice(0,20);const rel=analysis?.target || `watch/technical-${id}.md`;const p=path.join(ROOT,rel);
   const esc=s=>s.replace(/[<>]/g,'').replace(/^#/gm,'').trim();
-  const tags=preciseTags({title:d.title,evidence:[d.summary,...d.facts,d.utility||''].join(' ')});
+  const previous=await readFile(p,'utf8').catch(e=>{if(e.code==='ENOENT')return '';throw e;});
+  const existing=(previous.match(/## Tags[ \t]*\n([\s\S]*?)(?=\n## |$)/)?.[1]||'').split(/[,\n]/).map(t=>t.trim()).filter(Boolean);
+  const tags=preciseTags({title:d.title,evidence:[d.summary,...d.facts,d.utility||''].join(' '),existing});
   const classification=classifyFiche({tags,title:d.title,evidence:[d.summary,...d.facts].join(' '),status:d.risk==='dual-use'?'#ROUGE':'actif',sources,origin});
   const body=`# ${esc(d.title)}\n\n## Statut\n\n${d.risk==='dual-use'?'#ROUGE':'actif'}\n\n## Tags\n\n${[...tags,...(d.risk==='dual-use'?['#ROUGE']:[])].join(', ')}\n\n## Intérêts\n\n${esc(validInterest(d.utility)?d.utility:"Intérêt à vérifier").replace(/\s+/g,' ')}\n\n${classificationMarkdown(classification)}## Sources\n\n${sources.map(s=>'- '+s).join('\n')}\n\n## Traçabilité\n\n- Origine : ${origin}\n- Identifiant source : ${hash(key)}\n- Politique : ${POLICY_VERSION}\n- Lecture KM : ${now().slice(0,10)}\n- Résumé automatique local ; les affirmations restent attribuées aux sources.\n`;
   const details=analysis?.details || [];

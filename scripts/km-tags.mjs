@@ -18,7 +18,7 @@ export function preciseTags({title='',evidence='',existing=[]}={}){
  const add=t=>{if(!result.includes(t))result.push(t);};
  for(const t of existing){const clean=norm(t).replace(/^#/,'').trim();const tag=aliases[clean]||clean;if(tag==='recherche-documentaire'&&!/recherche documentaire|research agent|researcher|recherche.*(?:gener|produi).*rapports?/.test(text))continue;if(!/^[a-z0-9][a-z0-9-]{0,48}$/.test(tag)||generic.has(tag)||parasites.has(tag)||tag==='rouge')continue;add('#'+tag);}
  const inferred=rules.filter(([,re])=>re.test(text)).map(([tag])=>'#'+tag);
- // Put specific functions before existing broad platform and format labels.
- return [...new Set([...inferred,...result])].slice(0,4);
+ // Preserve precise existing keywords; inference only fills empty places.
+ return [...new Set([...result,...inferred])].slice(0,4);
 }
 export function tagEvidence(content){return content.split(/\n## Sources\b|\n## Traçabilité\b|\n## Ontologie\b|\n## Exploration des liens\b/)[0].replace(/## Tags\n[\s\S]*?(?=\n## |$)/,'');}
