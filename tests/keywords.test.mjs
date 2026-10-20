@@ -41,3 +41,12 @@ test('historical domains keep their palette and technical metadata remains neutr
  assert.equal(conceptColor('domain.ai.agents.skills'),'agent');assert.equal(conceptColor('domain.osint'),'osint');assert.equal(conceptColor('domain.privacy'),'privacy');
  assert.equal(keywordColor('#directory'),'watchlist');assert.equal(keywordColor('#transcription'),'media');assert.equal(keywordColor('unmapped-topic'),'tool');
 });
+
+test('search cards use project names and no generic fallback descriptions',async()=>{
+ const {cardTitle,cardInterest}=await import('../scripts/km-card-presentation.mjs');
+ assert.equal(cardTitle({title:"agency-agents : Bibliothèque de rôles d’agents"}),'agency-agents');
+ assert.equal(cardTitle({title:'Agent de conception AI open-source',github:'https://github.com/example/design-agent'}),'design-agent');
+ assert.equal(cardInterest({title:'X',summary:'Ajouter des rôles pour des conseils spécialisés.'}),'');
+ assert.equal(cardInterest({title:'X',type:'outil'}),'');
+ assert.equal(cardInterest({title:'Whisper',summary:'Transcrire des entretiens et distinguer les intervenants.'}),'Transcrire des entretiens et distinguer les intervenants.');
+});

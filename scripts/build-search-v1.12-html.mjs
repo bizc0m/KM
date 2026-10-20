@@ -1,3 +1,4 @@
+import {cardTitle,cardInterest} from './km-card-presentation.mjs';
 import { mkdirSync, readdirSync, readFileSync, writeFileSync, statSync } from "node:fs";
 import { join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -373,7 +374,7 @@ const files = [
   ...includeDirs.flatMap((dir) => walk(join(root, dir)))
 ].filter((file) => indexedPaths.has(relative(root, file)));
 const dateValue = (item) => Date.parse(item.integratedAt || "") || 0;
-const index = files.map(itemFrom).filter(Boolean).map(item=>({...item,keywords:cardKeywords(item)})).sort((a, b) =>
+const index = files.map(itemFrom).filter(Boolean).map(item=>({...item,keywords:cardKeywords(item),cardTitle:cardTitle(item),cardInterest:cardInterest(item)})).sort((a, b) =>
   dateValue(b) - dateValue(a) || (a.canonical || a.title).localeCompare(b.canonical || b.title)
 );
 const latestIndexedDate = index
@@ -600,10 +601,10 @@ function isRaindropUrl(url){const value=norm(url);return value.includes("raindro
 function cardWebSource(item){return (item.sources||[]).find(source=>source.kind!=="github"&&source.kind!=="social"&&!isRaindropUrl(source.url))||null}
 function cardOriginSources(item,webSource){const seen=new Set();const webKey=webSource?norm(webSource.url).replace(/\\/$/,""):"";return (item.sources||[]).filter(source=>source.kind!=="github").filter(source=>{const key=norm(source.url).replace(/\\/$/,"");if(!source.url||key===webKey||seen.has(key))return false;seen.add(key);return true})}
 function cardPrimaryLinks(item){const github=cardGithubUrl(item);const webSource=cardWebSource(item);const githubChip=github?'<a class="tag github-link" href="'+esc(github)+'" target="_blank" rel="noopener noreferrer">GitHub</a>':"";const webChip=webSource?'<a class="tag product-link" href="'+esc(webSource.url)+'" target="_blank" rel="noopener noreferrer">Site</a>':"";const origins=cardOriginSources(item,webSource);const source=origins.find(s=>s.kind==="social")||origins[0];const originChip=source?'<a class="tag origin-link" href="'+esc(source.url)+'" target="_blank" rel="noopener noreferrer">Source</a>':"";return '<div class="source-strip card-primary-strip title-links">'+githubChip+webChip+originChip+'</div>'}
-function cardFact(item){return item.summary||item.type||item.title}
+function cardFact(item){return item.cardInterest||""}
 function cardInfoLines(item){const desc=cardFact(item);return desc?'<div class="card-description-strip"><span class="card-description">'+highlight(desc)+'</span></div>':""}
 function cardActions(item){return""}
-function cardHtml(item){const active=item.id===activeId, sel=selected.has(item.id);return '<article class="news-card '+(active?"active":"")+' '+(sel?"selected":"")+'" data-id="'+esc(item.id)+'"><div><div class="title-row">'+statusBadge(item)+'<h3 class="news-title" data-action="open">'+highlight(item.title)+'</h3>'+cardPrimaryLinks(item)+'</div>'+cardInfoLines(item)+functionTagsLine(item,6)+cardActions(item)+'</div></article>'}
+function cardHtml(item){const active=item.id===activeId, sel=selected.has(item.id);return '<article class="news-card '+(active?"active":"")+' '+(sel?"selected":"")+'" data-id="'+esc(item.id)+'"><div><div class="title-row">'+statusBadge(item)+'<h3 class="news-title" data-action="open">'+highlight(item.cardTitle||item.title)+'</h3>'+cardPrimaryLinks(item)+'</div>'+cardInfoLines(item)+functionTagsLine(item,6)+cardActions(item)+'</div></article>'}
 function renderFeed(){const rows=filteredItems();if(!rows.some(i=>i.id===activeId)&&rows[0])activeId=rows[0].id;const feedCount=byId("feedCount");if(feedCount)feedCount.textContent=rows.length+" resultats";byId("articleStatus").innerHTML="<span>"+rows.length+" fiches visibles</span>";byId("feed").innerHTML=rows.map(cardHtml).join("")||'<section class="note"><strong>Aucun resultat</strong><p>Vide la recherche ou change les filtres.</p></section>'}
 function editUrl(item){return "http://127.0.0.1:8767/edit?path="+encodeURIComponent(item.path)}
 async function archiveActive(){const item=activeItem();if(!item||!confirm("Archiver cette fiche ?"))return;const res=await fetch("http://127.0.0.1:8767/api/archive-fiche",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({path:item.path})});const json=await res.json();if(!json.ok){toast(json.error||"Archive impossible");return}toast("Fiche archivee");setTimeout(()=>location.reload(),900)}
