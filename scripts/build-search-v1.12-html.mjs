@@ -264,12 +264,13 @@ function folderMeta(path) {
 }
 
 function statusOf(content, folder) {
-  const explicit = [section(content, "Type"), section(content, "Tags"), section(content, "Classification")].join("\n");
+  const explicit = [section(content, "Statut"), section(content, "Type"), section(content, "Tags"), section(content, "Classification")].join("\n");
   if (/#ROUGE/i.test(explicit)) return "#ROUGE";
   if (/#?a[-_ ]?verifier|à vérifier|#?to-verify/i.test(explicit)) return "a verifier";
   if (/sensible|sensitive/i.test(explicit)) return "sensible";
   if (/#?actif|active/i.test(explicit)) return "actif";
-  if (/a verifier|à vérifier|to-verify/i.test(content)) return "a verifier";
+  const statusEvidence=content.replace(/## Métadonnées[\s\S]*?(?=\n## |$)/g, "");
+  if (/a verifier|à vérifier|to-verify/i.test(statusEvidence)) return "a verifier";
   if (/risques?\s*:|secrets?|tokens?|donnees? privees?|privacy|autonomous|automation|agent|mcp|scraping|osint|cache|memory|codebase|credentials?|workflow/i.test(content)) {
     return "sensible";
   }
