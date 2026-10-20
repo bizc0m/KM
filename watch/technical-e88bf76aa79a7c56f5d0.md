@@ -12,6 +12,15 @@ actif
 
 Conserver et classer les informations contextuelles des sessions.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Conserver et classer les informations contextuelles des sessions.
 - Fonctions : Conserver le contexte
 - Provenance : Raindrop ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

@@ -10,15 +10,6 @@ actif
 
 Permet de rechercher des tweets via des requêtes spécifiques
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents domain.communication.messaging source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA ; Communication et publication > Messagerie
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : Extension / plugin
@@ -27,6 +18,15 @@ Permet de rechercher des tweets via des requêtes spécifiques
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/Xquik-dev/tweetclaw
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.communication.messaging source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA ; Communication et publication > Messagerie
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -38,5 +38,5 @@ Permet de rechercher des tweets via des requêtes spécifiques
 - Origine : NotePlan
 - Identifiant source : 1916507fd0ec17c5d818ed08521531575f5168a72bfa1e215bbead02fbd95e7f
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

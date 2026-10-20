@@ -12,6 +12,15 @@ actif
 
 Génère des modèles 3D à haute résolution avec efficacité.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/DreamTechAI/Direct3D-S2
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Génère des modèles 3D à haute résolution avec efficacité.
 - Fonctions : Générer des contenus > Générer un objet 3D
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/DreamTechAI/Direct3D-S2
 
 ## Sources
 
@@ -43,3 +43,33 @@ Génère des modèles 3D à haute résolution avec efficacité.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/dreamtechai/direct3d-s2
+
+## Capacités documentées
+
+- Permet la génération 3D à 1024³ avec 8 GPU.
+- Utilise Spatial Sparse Attention pour accélérer les calculs.
+- Améliore l'efficacité d'apprentissage avec un VAE unifié.
+- Réduit les coûts de formation par rapport aux méthodes antérieures.
+
+## Usages documentés
+
+- Installation des dépendances.
+- Utilisation du pipeline pour générer des modèles 3D.
+- Démonstration web via Gradio.
+
+## Limites
+
+- Exige une VRAM importante pour les résolutions élevées.
+- Compatibilité limitée aux systèmes Linux.
+- Dépendances spécifiques comme PyTorch et Torchsparse.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/dreamtechai/direct3d-s2
+- Analyse source : 2026-10-19T20:31:57.859Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

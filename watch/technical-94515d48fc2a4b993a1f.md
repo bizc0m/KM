@@ -12,15 +12,6 @@ actif
 
 Permet d'utiliser des outils informatiques sans inscription ni email.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.dev.web source.raindrop source.x source.github lifecycle.active
-- Sujets : Développement logiciel > Développement web
-- Provenance : Raindrop ; X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -30,10 +21,19 @@ Permet d'utiliser des outils informatiques sans inscription ni email.
 - Accès : À vérifier
 - Preuve : https://github.com/BraveOPotato/NoSignups
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.web source.raindrop source.x source.github lifecycle.active
+- Sujets : Développement logiciel > Développement web
+- Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
 ## Sources
 
+- https://github.com/braveopotato/nosignups
 - https://x.com/geekbb/status/2065823256746352712?s=12
-- https://github.com/BraveOPotato/NoSignups
 
 ## Traçabilité
 

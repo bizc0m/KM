@@ -12,6 +12,15 @@ actif
 
 Structurer la collaboration pour améliorer la précision du code généré.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Structurer la collaboration pour améliorer la précision du code généré.
 - Compatibilités : Interfaces > Terminal
 - Provenance : Raindrop ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

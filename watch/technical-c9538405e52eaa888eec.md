@@ -12,6 +12,15 @@ actif
 
 Génère du contenu marketing avec des outils comme Anyword et Jasper
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : CC-BY-4.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/tioraicom/awesome-ai-marketing-tools
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Génère du contenu marketing avec des outils comme Anyword et Jasper
 - Fonctions : Automatiser des actions > Publier sur plusieurs réseaux
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : CC-BY-4.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/tioraicom/awesome-ai-marketing-tools
 
 ## Sources
 
@@ -43,3 +43,20 @@ Génère du contenu marketing avec des outils comme Anyword et Jasper
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/tioraicom/awesome-ai-marketing-tools
+
+## Capacités documentées
+
+- Génère du contenu marketing avec des outils comme Anyword et Jasper
+- Planifie et programme des publications sur les réseaux sociaux avec des outils comme Buffer et Later
+- Crée et optimise des campagnes publicitaires avec des outils comme AdCreative.ai et Motion
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/tioraicom/awesome-ai-marketing-tools
+- Analyse source : 2026-10-19T19:20:40.954Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

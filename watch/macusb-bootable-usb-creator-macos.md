@@ -8,14 +8,6 @@ Veille Raindrop KM Monitor / outil macOS.
 
 #macos, #usb, #bootable-media, #recovery
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.dev.desktop compatibility.os.macos
-- Sujets : Développement logiciel > Applications et interfaces de bureau
-- Compatibilités : Systèmes > macOS
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,10 +17,15 @@ Veille Raindrop KM Monitor / outil macOS.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.desktop compatibility.os.macos risk.sensitive
+- Sujets : Développement logiciel > Applications et interfaces de bureau
+- Compatibilités : Systèmes > macOS
+- Risques : Risque signalé
+
 ## Sources
-- Source finale : [https://www.macusb.app/](https://www.macusb.app/)
 
-### v0.1 - 2026-08-03
-
-- Objectif : integrer la nouveaute Raindrop KM Monitor `macUSB`.
-- Risques : effacement de disque, media bootable non fiable, confiance dans un outil tiers.
+- https://www.macusb.app/](https://www.macusb.app/

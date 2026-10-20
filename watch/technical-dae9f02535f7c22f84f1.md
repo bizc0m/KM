@@ -12,6 +12,15 @@ actif
 
 Facilite la création de logiciels avec des workflows et des bonnes pratiques.
 
+## Métadonnées
+
+- Nature : Collection de skills
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/addyosmani/agent-skills
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Facilite la création de logiciels avec des workflows et des bonnes pratiques.
 - Compatibilités : Interfaces > Terminal
 - Provenance : Raindrop ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : Collection de skills
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/addyosmani/agent-skills
 
 ## Sources
 

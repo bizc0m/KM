@@ -1,3 +1,4 @@
+import {safeSource} from './km-source-roles.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {blocked,technicalSignal} from './km-technical-policy.mjs';
@@ -8,6 +9,7 @@ for(const row of snapshot.rows){
  let text=row.raw || '';if(blocked(text)||/\bsex[ -]?work\b/i.test(text)||!technicalSignal(text)){excluded++;continue;}
  // Contact details and local paths are not needed in a public technical fiche.
  text=text.split('\n').filter(line=>!/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}|\/Users\/|\bsk-[a-z0-9_-]{12,}/i.test(line)).join('\n').replace(/^[ \t]*-[ \t]+$/gm,'');
+ const refs=[...new Set((row.sources||[]).map(r=>safeSource(r.url)).filter(Boolean))];if(refs.length){const block='\n## Sources\n\n'+refs.map(u=>'- '+u).join('\n')+'\n';text=/\n## Sources\b/.test(text)?text.replace(/\n## Sources[^\n]*\n[\s\S]*?(?=\n## |$)/,block):text.trimEnd()+block;}
  if(row.classification)text=text.replace(/\n## Sources\b/,'\n\n'+classificationMarkdown(row.classification)+'## Sources');
  await fs.mkdir(path.dirname(row.path),{recursive:true});await fs.writeFile(row.path,text.trim()+'\n');rows.push(row);imported++;
 }

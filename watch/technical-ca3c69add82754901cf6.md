@@ -12,6 +12,15 @@ actif
 
 Permet la reconstruction 3D de plans avec précision et contours nets.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/THU-LYJ-Lab/AlphaTablets
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Permet la reconstruction 3D de plans avec précision et contours nets.
 - Fonctions : Générer des contenus > Générer un objet 3D
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Non précisée
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/THU-LYJ-Lab/AlphaTablets
 
 ## Sources
 

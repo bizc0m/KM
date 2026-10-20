@@ -12,6 +12,15 @@ actif
 
 Crée des fingerprints audio pour identifier des morceaux similaires rapidement.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/acoustid/chromaprint
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Crée des fingerprints audio pour identifier des morceaux similaires rapidement.
 - Compatibilités : Langages > Python
 - Provenance : Raindrop ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Non précisée
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/acoustid/chromaprint
 
 ## Sources
 

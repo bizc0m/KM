@@ -10,7 +10,16 @@ actif
 
 ## Intérêts
 
-Cloner des voix pour des agents IA sans dépendance externe
+Cloner des voix à partir d'audio
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/jamiepine/voicebox
 
 
 ## Ontologie
@@ -22,27 +31,18 @@ Cloner des voix pour des agents IA sans dépendance externe
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
 - État : Actif
 
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/jamiepine/voicebox
-
 ## Sources
 
-- https://x.com/i/status/2056627677420003656
 - https://github.com/jamiepine/voicebox
+- https://x.com/i/status/2056627677420003656
 - https://x.com/i/status/2056567907036098662
 - https://github.com/jamiepine/voicebox/releases
 - https://img.shields.io/github/downloads/jamiepine/voicebox/total?color=blue&style=flat
 - https://github.com/jamiepine/voicebox/releases/tag/v0.5.0
-- https://capy.ai
+- https://capy.ai/
 - https://trendshift.io/repositories/21213
-- https://voicebox.sh
-- https://docs.voicebox.sh
+- https://voicebox.sh/
+- https://docs.voicebox.sh/
 - https://voicebox.sh/built-with-capy
 - https://voicebox.sh/download?platform=macArm
 - https://voicebox.sh/download?platform=macIntel
@@ -51,7 +51,7 @@ Cloner des voix pour des agents IA sans dépendance externe
 - https://raw.githubusercontent.com/jamiepine/voicebox/main/docs/content/docs/overview/mcp-server.mdx
 - https://raw.githubusercontent.com/jamiepine/voicebox/main/docs/PROJECT_STATUS.md
 - https://github.com/casey/just
-- https://bun.sh
+- https://bun.sh/
 - https://v2.tauri.app/start/prerequisites
 - https://developer.apple.com/xcode
 - https://raw.githubusercontent.com/jamiepine/voicebox/main/docs/content/docs/developer/tts-engines.mdx
@@ -415,4 +415,4 @@ Source : https://raw.githubusercontent.com/jamiepine/voicebox/main/SECURITY.md ;
 
 ### Voicebox v0.2.1 - Outils de synthèse vocale avancée
 
-Voicebox v0.2.1 est une application de synthèse vocale locale qui intègre plusieurs moteurs TTS, permettant la génération de texte avec des effets sonores et de
+Voicebox v0.2.1

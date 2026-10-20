@@ -8,15 +8,6 @@ Veille outils IA / ressources API LLM gratuites.
 
 #llm, #api, #free-tier, #providers
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.llm compatibility.interface.api source.github
-- Sujets : Intelligence artificielle > Modèles de langage
-- Compatibilités : Interfaces > API
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,19 +17,19 @@ Veille outils IA / ressources API LLM gratuites.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm compatibility.interface.api risk.sensitive source.github
+- Sujets : Intelligence artificielle > Modèles de langage
+- Compatibilités : Interfaces > API
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
 
-- Repo : `https://github.com/mnfst/awesome-free-llm-apis`
-
-Verification GitHub API :
-
-- repo : `mnfst/awesome-free-llm-apis`
-- description : list of permanent free LLM API keys
-- stars lus : 4477
-- forks lus : 430
-- licence : CC0-1.0
-- archived : false
-- dernier push lu : 2026-05-22
+- https://github.com/mnfst/awesome-free-llm-apis
 
 ## Metadata GitHub publique
 

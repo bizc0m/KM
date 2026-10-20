@@ -8,13 +8,6 @@ Veille OSINT / annuaire d'outils d'investigation.
 
 #osint, #threat-intelligence, #investigation, #curated-tools
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.osint domain.data.catalogues
-- Sujets : Cybersécurité > Renseignement en sources ouvertes ; Données et connaissances > Catalogues de ressources
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -24,8 +17,17 @@ Veille OSINT / annuaire d'outils d'investigation.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint domain.data.catalogues risk.sensitive
+- Sujets : Cybersécurité > Renseignement en sources ouvertes ; Données et connaissances > Catalogues de ressources
+- Risques : Risque signalé
+
 ## Sources
-- Site : `https://osintrack.com/`
+
+- https://osintrack.com/
 
 ## Prochaines actions
 

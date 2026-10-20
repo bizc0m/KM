@@ -10,15 +10,6 @@ actif
 
 Gère des profils de navigateur avec des paramètres uniques
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.dev.browser source.noteplan source.github source.x lifecycle.active
-- Sujets : Développement logiciel > Outils de navigateur
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Gère des profils de navigateur avec des paramètres uniques
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/CloakHQ/CloakBrowser-Manager
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.browser source.noteplan source.github source.x lifecycle.active
+- Sujets : Développement logiciel > Outils de navigateur
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -40,3 +40,21 @@ Gère des profils de navigateur avec des paramètres uniques
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/cloakhq/cloakbrowser-manager
+
+## Capacités documentées
+
+- Gère des profils de navigateur avec des paramètres uniques.
+- Permet de lancer des navigateurs en tant que machines distinctes.
+- Fournit une interface web pour gérer les profils.
+- Supporte le déploiement via Docker et le code source.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/cloakhq/cloakbrowser-manager
+- Analyse source : 2026-10-19T14:40:42.779Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

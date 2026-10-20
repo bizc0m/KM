@@ -8,15 +8,6 @@ Veille framework IA / orchestration multi-agents.
 
 #orchestration-agents, #orchestration
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.orchestration capability.automation.orchestrate source.github
-- Sujets : Intelligence artificielle > Agents IA > Orchestration des agents
-- Fonctions : Automatiser des actions > Coordonner des agents
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,8 +17,19 @@ Veille framework IA / orchestration multi-agents.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.orchestration capability.automation.orchestrate risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA > Orchestration des agents
+- Fonctions : Automatiser des actions > Coordonner des agents
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
-- Repo GitHub : `https://github.com/crewaiinc/crewai`
+
+- https://github.com/crewaiinc/crewai
 
 ## Metadata GitHub publique
 

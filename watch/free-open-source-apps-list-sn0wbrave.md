@@ -8,14 +8,6 @@ Veille outil / annuaire applications gratuites open source.
 
 #apps, #directory, #free-tools
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.data.catalogues domain.dev.desktop source.x
-- Sujets : Données et connaissances > Catalogues de ressources ; Développement logiciel > Applications et interfaces de bureau
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,10 +17,15 @@ Veille outil / annuaire applications gratuites open source.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.data.catalogues domain.dev.desktop risk.sensitive source.x
+- Sujets : Données et connaissances > Catalogues de ressources ; Développement logiciel > Applications et interfaces de bureau
+- Risques : Risque signalé
+- Provenance : X / Twitter
+
 ## Sources
-- Source sociale : [https://x.com/sn0wbrave/status/2070657216835633364](https://x.com/sn0wbrave/status/2070657216835633364)
 
-### v0.1 - 2026-06-27
-
-- Objectif : integrer le signal X sur une liste d'applications gratuites open source.
-- Risques : source finale non resolue, applications non auditees.
+- https://x.com/sn0wbrave/status/2070657216835633364](https://x.com/sn0wbrave/status/2070657216835633364

@@ -10,15 +10,6 @@ actif
 
 Gère les agents sur des périodes prolongées avec un noyau d'état durable.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents source.raindrop source.github lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA
-- Provenance : Raindrop ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -28,9 +19,19 @@ Gère les agents sur des périodes prolongées avec un noyau d'état durable.
 - Accès : À vérifier
 - Preuve : https://github.com/loopx-project/loopx
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents source.raindrop source.github lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA
+- Provenance : Raindrop ; GitHub
+- État : Actif
+
 ## Sources
 
 - https://github.com/huangruiteng/loopx
+- https://github.com/loopx-project/loopx
 
 ## Traçabilité
 

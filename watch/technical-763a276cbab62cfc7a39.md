@@ -12,6 +12,15 @@ actif
 
 Comparer les performances des modèles de génération 3D.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/THU-LYJ-Lab/T3Bench
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Comparer les performances des modèles de génération 3D.
 - Fonctions : Générer des contenus > Générer un objet 3D
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Non précisée
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/THU-LYJ-Lab/T3Bench
 
 ## Sources
 
@@ -43,3 +43,31 @@ Comparer les performances des modèles de génération 3D.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/thu-lyj-lab/t3bench
+
+## Capacités documentées
+
+- T3Bench contient 300 prompts de difficulté croissante.
+- Deux métriques automatisées évaluent la qualité et l'alignement textuel.
+- Les résultats sont disponibles sous forme de maillages.
+- L'évaluation utilise des modèles de langage pour mesurer la cohérence textuelle-3D.
+
+## Usages documentés
+
+- Installer les packages requis pour l'évaluation.
+- Exécuter les scripts pour générer et évaluer les modèles 3D.
+
+## Limites
+
+- Requiert l'installation de ThreeStudio.
+- Nécessite des ressources GPU pour l'exécution.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/thu-lyj-lab/t3bench
+- Analyse source : 2026-10-19T20:31:57.859Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

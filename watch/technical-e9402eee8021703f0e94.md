@@ -12,6 +12,15 @@ actif
 
 Analyse de site web pour créer des campagnes marquées par l'IA
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/SamurAIGPT/Open-Pomelli
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Analyse de site web pour créer des campagnes marquées par l'IA
 - Fonctions : Extraire des données web
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/SamurAIGPT/Open-Pomelli
 
 ## Sources
 

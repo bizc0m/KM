@@ -10,15 +10,6 @@ actif
 
 Optimise le code IA, réduit le volume et accélère l'exécution.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents source.raindrop source.x source.github lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA
-- Provenance : Raindrop ; X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -28,10 +19,19 @@ Optimise le code IA, réduit le volume et accélère l'exécution.
 - Accès : À vérifier
 - Preuve : https://github.com/DietrichGebert/ponytail
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents source.raindrop source.x source.github lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA
+- Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
 ## Sources
 
+- https://github.com/dietrichgebert/ponytail
 - https://x.com/midudev/status/2066506591487009243?s=12
-- https://github.com/DietrichGebert/ponytail
 
 ## Traçabilité
 

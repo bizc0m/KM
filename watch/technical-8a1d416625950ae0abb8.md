@@ -12,6 +12,15 @@ actif
 
 Convertit des maillages texturés en voxel O-Voxel en quelques secondes.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/microsoft/TRELLIS.2
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Convertit des maillages texturés en voxel O-Voxel en quelques secondes.
 - Fonctions : Générer des contenus > Générer une image ; Générer des contenus > Générer un objet 3D
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/microsoft/TRELLIS.2
 
 ## Sources
 

@@ -10,15 +10,6 @@ actif
 
 Gérer des documents, générer des podcasts, interagir avec des modèles d'IA.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai source.raindrop source.x source.github lifecycle.active
-- Sujets : Intelligence artificielle
-- Provenance : Raindrop ; X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -28,10 +19,19 @@ Gérer des documents, générer des podcasts, interagir avec des modèles d'IA.
 - Accès : À vérifier
 - Preuve : https://github.com/lfnovo/open-notebook
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai source.raindrop source.x source.github lifecycle.active
+- Sujets : Intelligence artificielle
+- Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
 ## Sources
 
-- https://x.com/midudev/status/2062525515441815843?s=12
 - https://github.com/lfnovo/open-notebook
+- https://x.com/midudev/status/2062525515441815843?s=12
 
 ## Traçabilité
 

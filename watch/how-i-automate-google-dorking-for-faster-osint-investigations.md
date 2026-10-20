@@ -8,15 +8,6 @@ Veille Raindrop KM Monitor.
 
 #osint, #offensive-risk, #privacy-risk, #ROUGE
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.osint risk.offensive risk.sensitive source.x
-- Sujets : Cybersécurité > Renseignement en sources ouvertes
-- Risques : Usage offensif explicite ; Risque signalé
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,8 +17,18 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint risk.offensive risk.sensitive source.x
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Risques : Usage offensif explicite ; Risque signalé
+- Provenance : X / Twitter
+
 ## Sources
-- Source : [https://x.com/cyber_sudo/status/2062489706147836223](https://x.com/cyber_sudo/status/2062489706147836223)
+
+- https://x.com/cyber_sudo/status/2062489706147836223](https://x.com/cyber_sudo/status/2062489706147836223
 
 ## A_VERIFIER
 

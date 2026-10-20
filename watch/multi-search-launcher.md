@@ -8,14 +8,6 @@ Veille Raindrop KM Monitor.
 
 #osint
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.osint source.x
-- Sujets : Cybersécurité > Renseignement en sources ouvertes
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,8 +17,18 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint risk.sensitive source.x
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Risques : Risque signalé
+- Provenance : X / Twitter
+
 ## Sources
-- Source : [https://x.com/cyb_detective/status/2065733663887634911](https://x.com/cyb_detective/status/2065733663887634911)
+
+- https://x.com/cyb_detective/status/2065733663887634911](https://x.com/cyb_detective/status/2065733663887634911
 
 ## A_VERIFIER
 

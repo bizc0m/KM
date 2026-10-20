@@ -12,6 +12,15 @@ actif
 
 Génère des vidéos à partir de textes et images. Résultat : contenu visuel automatisé.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Génère des vidéos à partir de textes et images. Résultat : contenu visuel a
 - Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
 - Provenance : Raindrop ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

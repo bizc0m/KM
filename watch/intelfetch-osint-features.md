@@ -8,13 +8,6 @@ Veille Raindrop KM Monitor / plateforme OSINT.
 
 #osint, #breach-search, #threat-intelligence
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.osint
-- Sujets : Cybersécurité > Renseignement en sources ouvertes
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -24,10 +17,14 @@ Veille Raindrop KM Monitor / plateforme OSINT.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint risk.sensitive
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Risques : Risque signalé
+
 ## Sources
-- Source finale : [https://intelfetch.net/features](https://intelfetch.net/features)
 
-### v0.1 - 2026-08-09
-
-- Objectif : integrer la nouveaute Raindrop KM Monitor `IntelFetch`.
-- Risques : OSINT, breach search, donnees personnelles et surveillance ciblee.
+- https://intelfetch.net/features](https://intelfetch.net/features

@@ -12,6 +12,15 @@ actif
 
 Permet de modifier des splats 3D Gaussiens sans installation
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/playcanvas/supersplat
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Permet de modifier des splats 3D Gaussiens sans installation
 - Fonctions : Générer des contenus > Générer un objet 3D
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/playcanvas/supersplat
 
 ## Sources
 
@@ -43,3 +43,32 @@ Permet de modifier des splats 3D Gaussiens sans installation
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/playcanvas/supersplat
+
+## Capacités documentées
+
+- Permet d'inspecter des splats 3D Gaussiens
+- Facilite l'optimisation de splats 3D
+- Supporte la publication de splats 3D
+- Exécutable directement dans le navigateur
+
+## Usages documentés
+
+- Cloner le dépôt
+- Installer les dépendances
+- Lancer le serveur de développement
+
+## Limites
+
+- Requiert Node.js 20.19 ou plus récent
+- Fonctionne uniquement dans un navigateur
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/playcanvas/supersplat
+- Analyse source : 2026-10-19T14:40:42.779Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

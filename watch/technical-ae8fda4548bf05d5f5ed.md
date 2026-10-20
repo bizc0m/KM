@@ -12,6 +12,15 @@ actif
 
 Intérêt pratique : Oriente vers des solutions modernes et compatibles navigateurs.
 
+## Métadonnées
+
+- Nature : Skill individuel
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/GoogleChrome/modern-web-guidance
+
 
 ## Ontologie
 
@@ -22,19 +31,10 @@ Intérêt pratique : Oriente vers des solutions modernes et compatibles navigate
 - Provenance : Raindrop ; X / Twitter ; GitHub
 - État : Actif
 
-## Métadonnées
-
-- Nature : Skill individuel
-- OS : À vérifier
-- Licence : Apache-2.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/GoogleChrome/modern-web-guidance
-
 ## Sources
 
+- https://github.com/googlechrome/modern-web-guidance
 - https://x.com/camilleroux/status/2062504651463729480?s=46
-- https://github.com/GoogleChrome/modern-web-guidance
 
 ## Traçabilité
 

@@ -12,6 +12,15 @@ actif
 
 Ajouter des rappels fiables avec Apple Reminders.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Ajouter des rappels fiables avec Apple Reminders.
 - Compatibilités : Protocoles > MCP
 - Provenance : NotePlan Calendar
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

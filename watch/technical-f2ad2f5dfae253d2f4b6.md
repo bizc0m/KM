@@ -12,15 +12,6 @@ actif
 
 Accéder à des contenus multimédia via des liens.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.dev.web source.noteplan source.github source.x lifecycle.active
-- Sujets : Développement logiciel > Développement web
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -29,6 +20,15 @@ Accéder à des contenus multimédia via des liens.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/popcorntime/popcorntime
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.web source.noteplan source.github source.x lifecycle.active
+- Sujets : Développement logiciel > Développement web
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -42,3 +42,21 @@ Accéder à des contenus multimédia via des liens.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/popcorntime/popcorntime
+
+## Capacités documentées
+
+- Permet de visionner des films et séries via des liens.
+- Utilise des bases de données mise à jour hebdomadairement.
+- Interface basée sur React et TypeScript.
+- Backend développé en Rust avec Tauri.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/popcorntime/popcorntime
+- Analyse source : 2026-10-19T23:06:57.213Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

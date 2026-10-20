@@ -8,16 +8,6 @@ edition video-to-video IA sans tuning.
 
 #montage-video, #generation-video, #generative-ai, #pytorch
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai domain.media.video capability.edit.video capability.generate.video compatibility.integration.pytorch source.github
-- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
-- Fonctions : Monter une vidéo ; Générer des contenus > Générer une vidéo
-- Compatibilités : Intégrations > PyTorch
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,12 +17,21 @@ edition video-to-video IA sans tuning.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.media.video capability.edit.video capability.generate.video compatibility.integration.pytorch risk.sensitive source.github
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
+- Fonctions : Monter une vidéo ; Générer des contenus > Générer une vidéo
+- Compatibilités : Intégrations > PyTorch
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
 
-- Source finale: [https://github.com/TIGER-AI-Lab/AnyV2V](https://github.com/TIGER-AI-Lab/AnyV2V)
-- Origine: archive NotePlan captures 2026, capture du 2026-08-24.
-- Domaine: `github.com`
-- Auteur/source: `TIGER-AI-Lab`
+- https://github.com/tiger-ai-lab/anyv2v
+- https://github.com/TIGER-AI-Lab/AnyV2V](https://github.com/TIGER-AI-Lab/AnyV2V
 
 ## Topics GitHub
 

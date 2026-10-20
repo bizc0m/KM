@@ -12,15 +12,6 @@
 
 Analyser des décisions structurées avec précision et calibration optimisée.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.unclassified risk.offensive source.raindrop source.github
-- Sujets : À qualifier
-- Risques : Usage offensif explicite
-- Provenance : Raindrop ; GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -30,9 +21,18 @@ Analyser des décisions structurées avec précision et calibration optimisée.
 - Accès : À vérifier
 - Preuve : https://github.com/Heman10x-NGU/openJev-verdict-2.0
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified risk.offensive source.raindrop source.github
+- Sujets : À qualifier
+- Risques : Usage offensif explicite
+- Provenance : Raindrop ; GitHub
+
 ## Sources
 
-- https://github.com/Heman10x-NGU/openJev-verdict-2.0
+- https://github.com/heman10x-ngu/openjev-verdict-2.0
 
 ## Traçabilité
 

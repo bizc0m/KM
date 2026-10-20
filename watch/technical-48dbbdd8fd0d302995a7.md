@@ -1,4 +1,4 @@
-# Agent Skills - Format d'extension des agents IA
+# Agent Skills
 
 ## Statut
 
@@ -6,11 +6,20 @@ actif
 
 ## Tags
 
-#skills-agents
+#skills-agents, #specification
 
 ## Intérêts
 
-Ajouter des compétences pour améliorer les tâches spécifiques des agents IA.
+Définir un format ouvert pour partager les compétences des agents.
+
+## Métadonnées
+
+- Nature : Spécification
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/agentskills/agentskills
 
 
 ## Ontologie
@@ -22,18 +31,10 @@ Ajouter des compétences pour améliorer les tâches spécifiques des agents IA.
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
-## Métadonnées
-
-- Nature : Collection de skills
-- OS : À vérifier
-- Licence : Apache-2.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/agentskills/agentskills
-
 ## Sources
 
 - https://github.com/agentskills/agentskills
+- https://agentskills.io/
 - https://x.com/i/status/2056614332046467349
 
 ## Traçabilité
@@ -43,3 +44,9 @@ Ajouter des compétences pour améliorer les tâches spécifiques des agents IA.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/agentskills/agentskills
+- Site officiel : https://agentskills.io
+- Preuve de correction : https://github.com/agentskills/agentskills

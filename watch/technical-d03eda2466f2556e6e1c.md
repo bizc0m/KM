@@ -12,16 +12,6 @@ actif
 
 Automatise les tests web avec des scripts.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.dev.testing domain.dev.browser capability.automation.browser source.noteplan source.github source.x lifecycle.active
-- Sujets : Développement logiciel > Tests logiciels ; Développement logiciel > Outils de navigateur
-- Fonctions : Automatiser des actions > Automatiser le navigateur
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -30,6 +20,16 @@ Automatise les tests web avec des scripts.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/SeleniumHQ/selenium
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.browser domain.dev.testing capability.automation.browser source.noteplan source.github source.x lifecycle.active
+- Sujets : Développement logiciel > Outils de navigateur ; Développement logiciel > Tests logiciels
+- Fonctions : Automatiser des actions > Automatiser le navigateur
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -43,3 +43,21 @@ Automatise les tests web avec des scripts.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/seleniumhq/selenium
+
+## Capacités documentées
+
+- Automatise les navigateurs web via des scripts.
+- Interface compatible avec tous les navigateurs principaux.
+- Permet de tester et exécuter des scripts d'automatisation.
+- Facilite la contribution via des outils de développement.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/seleniumhq/selenium
+- Analyse source : 2026-10-19T14:40:42.779Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

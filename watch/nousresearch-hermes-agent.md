@@ -6,16 +6,6 @@ Veille outil IA / agent personnel.
 
 ## Tags
 
-#personal-agent, #nousresearch
-
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents source.github
-- Sujets : Intelligence artificielle > Agents IA
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,8 +15,26 @@ Veille outil IA / agent personnel.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+## Intérêts
+
+Permet d'utiliser des modèles d'IA via une interface terminale.
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory source.github source.x lifecycle.review
+- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents
+- Provenance : GitHub ; X / Twitter
+- État : À vérifier
+
 ## Sources
-- Repo GitHub : `https://github.com/nousresearch/hermes-agent`
+
+- https://github.com/nousresearch/hermes-agent
+- https://x.com/i/status/2056258502050357334
+- https://x.com/i/status/2057218131685146713
+- https://x.com/i/status/2056692982871388491
+- https://x.com/i/status/2057626171085398073
 
 ## Metadata GitHub publique
 
@@ -47,3 +55,32 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer Hermes Agent depuis Raindrop KM Monitor.
 - Risques : agent personnel a verifier.
+
+## Identité
+
+- Dépôt principal : https://github.com/nousresearch/hermes-agent
+
+## Capacités documentées
+
+- Permet l'utilisation de différents modèles d'IA sans changement de code.
+- Fournit une interface terminale avec édition multiligne.
+- Supporte plusieurs plateformes de messagerie en un seul processus.
+- Possède un système de mémoire et de compétences autonomes.
+
+## Usages documentés
+
+- hermes model
+- hermes tools
+- hermes config set
+- hermes gateway
+
+## Limites
+
+- Requiert un environnement compatible avec les outils mentionnés
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/nousresearch/hermes-agent
+- Analyse source : 2026-10-19T22:23:37.450Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

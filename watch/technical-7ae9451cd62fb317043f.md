@@ -10,15 +10,6 @@ actif
 
 Permet de signaler des contenus en violation de droits
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.media.video source.noteplan source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo
-- Provenance : NotePlan Calendar ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Permet de signaler des contenus en violation de droits
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.video source.noteplan source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo
+- Provenance : NotePlan Calendar ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -37,7 +37,7 @@ Permet de signaler des contenus en violation de droits
 - https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators
 - https://blog.youtube/news-and-events/youtube-conversational-ai-tool-available-smart-tvs
 - https://developers.google.com/search/docs/fundamentals/get-on-google?rd=1&visit_id=639280675264907420-1086185035
-- https://developers.google.com
+- https://developers.google.com/
 - https://developers.google.com/youtube/iframe_api_reference
 - https://developers.google.com/youtube/data/guides/ios_youtube_helper
 - https://developers.google.com/youtube/player_parameters

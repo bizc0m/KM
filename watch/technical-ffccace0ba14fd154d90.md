@@ -10,15 +10,6 @@ actif
 
 Génère du code à partir de requêtes textuelles.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Génère du code à partir de requêtes textuelles.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/anomalyco/opencode
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -40,3 +40,21 @@ Génère du code à partir de requêtes textuelles.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/anomalyco/opencode
+
+## Capacités documentées
+
+- Génère du code à partir de requêtes textuelles.
+- Permet l'exploration de code existant.
+- Fournit deux agents : build et plan.
+- Inclut un agent général pour des tâches complexes.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/anomalyco/opencode
+- Analyse source : 2026-10-19T20:05:01.347Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

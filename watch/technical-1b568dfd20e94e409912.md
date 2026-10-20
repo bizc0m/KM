@@ -12,6 +12,15 @@ actif
 
 Gérer le routage en temps réel pour optimiser les flux.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Gérer le routage en temps réel pour optimiser les flux.
 - Compatibilités : Protocoles > MCP
 - Provenance : Raindrop ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

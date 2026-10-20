@@ -6,22 +6,11 @@ actif
 
 ## Tags
 
-#generation-video, #generation-images, #macos
+#generation-video, #generation-images
 
 ## Intérêts
 
 Crée des images et vidéos sans filtre de contenu
-
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai domain.media.video domain.media.image capability.generate.video capability.generate.image compatibility.os.macos source.raindrop source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
-- Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
-- Compatibilités : Systèmes > macOS
-- Provenance : Raindrop ; GitHub ; X / Twitter
-- État : Actif
 
 ## Métadonnées
 
@@ -32,11 +21,20 @@ Crée des images et vidéos sans filtre de contenu
 - Accès : À vérifier
 - Preuve : https://github.com/Anil-matcha/Open-Generative-AI
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.media.video domain.media.image capability.generate.video capability.generate.image source.raindrop source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
+- Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
+- Provenance : Raindrop ; GitHub ; X / Twitter
+- État : Actif
+
 ## Sources
 
 - https://github.com/anil-matcha/open-generative-ai
 - https://x.com/deeptechtr/status/2066056043981943251?s=12
-- https://github.com/Anil-matcha/Open-Generative-AI
 - https://x.com/i/status/2056408789327462486
 - https://github.com/anil-matcha/awesome-generative-ai-apps
 - https://github.com/anil-matcha/openai-api
@@ -104,5 +102,23 @@ Crée des images et vidéos sans filtre de contenu
 - Origine : Raindrop
 - Identifiant source : 9b0ddf7fee7ec34b146b64c75c35ddce4d9f3d822c0387fe7a03ee0c89242852
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/anil-matcha/open-generative-ai
+
+## Capacités documentées
+
+- Génère des images et vidéos via 600+ modèles.
+- Pas de filtres de contenu ni abonnements.
+- Supporte la création locale via des moteurs dédiés.
+- Permet la personnalisation et le déploiement local.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/anil-matcha/open-generative-ai
+- Analyse source : 2026-10-20T07:40:16.556Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

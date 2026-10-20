@@ -8,16 +8,6 @@ Veille outil IA / pair programming terminal.
 
 #agents-code, #terminal, #coding, #pair-programming
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.dev capability.code.assist compatibility.interface.terminal source.github
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel
-- Fonctions : Assister le développement
-- Compatibilités : Interfaces > Terminal
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,8 +17,20 @@ Veille outil IA / pair programming terminal.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.dev capability.code.assist compatibility.interface.terminal risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel
+- Fonctions : Assister le développement
+- Compatibilités : Interfaces > Terminal
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
-- Repo GitHub : `https://github.com/Aider-AI/aider`
+
+- https://github.com/aider-ai/aider
 
 ## Metadata GitHub publique
 

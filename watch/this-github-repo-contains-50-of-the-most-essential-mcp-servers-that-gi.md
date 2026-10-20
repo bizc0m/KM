@@ -8,15 +8,6 @@ Veille Raindrop KM Monitor.
 
 #mcp
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.infrastructure domain.ai.agents.integration compatibility.protocol.mcp source.x
-- Sujets : Infrastructure ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
-- Compatibilités : Protocoles > MCP
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : Serveur MCP
@@ -26,8 +17,19 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.infrastructure domain.ai.agents.integration compatibility.protocol.mcp risk.sensitive source.x
+- Sujets : Infrastructure ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
+- Compatibilités : Protocoles > MCP
+- Risques : Risque signalé
+- Provenance : X / Twitter
+
 ## Sources
-- Source : [https://x.com/explorax_/status/2062584596328243214](https://x.com/explorax_/status/2062584596328243214)
+
+- https://x.com/explorax_/status/2062584596328243214](https://x.com/explorax_/status/2062584596328243214
 
 ## A_VERIFIER
 

@@ -12,15 +12,6 @@
 
 Convertir un LLM en modèle de décision Jev sans entraînement.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.llm risk.offensive source.raindrop source.github
-- Sujets : Intelligence artificielle > Modèles de langage
-- Risques : Usage offensif explicite
-- Provenance : Raindrop ; GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -30,9 +21,18 @@ Convertir un LLM en modèle de décision Jev sans entraînement.
 - Accès : À vérifier
 - Preuve : https://github.com/Yinsongxu/LLM2Jev
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm risk.offensive source.raindrop source.github
+- Sujets : Intelligence artificielle > Modèles de langage
+- Risques : Usage offensif explicite
+- Provenance : Raindrop ; GitHub
+
 ## Sources
 
-- https://github.com/Yinsongxu/LLM2Jev
+- https://github.com/yinsongxu/llm2jev
 
 ## Traçabilité
 

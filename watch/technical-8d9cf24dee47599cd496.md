@@ -12,6 +12,15 @@ actif
 
 Afficher les quotas d'IA en temps réel pour gérer efficacement les ressources.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/ZeroClue/llm-quota-tracker
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Afficher les quotas d'IA en temps réel pour gérer efficacement les ressources.
 - Compatibilités : Interfaces > Terminal
 - Provenance : Raindrop ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/ZeroClue/llm-quota-tracker
 
 ## Sources
 

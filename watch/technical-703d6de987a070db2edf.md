@@ -12,6 +12,15 @@ actif
 
 Convertir des documents PDF, Word, Excel ou images en Markdown pour une utilisation facile.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Convertir des documents PDF, Word, Excel ou images en Markdown pour une utilisat
 - Compatibilités : Formats > PDF ; Langages > Python ; Interfaces > Terminal
 - Provenance : Raindrop ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

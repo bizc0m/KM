@@ -10,15 +10,6 @@ actif
 
 Permet de déployer des agents modulaires et scalables.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Permet de déployer des agents modulaires et scalables.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/got-agents/agents
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -40,3 +40,21 @@ Permet de déployer des agents modulaires et scalables.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/got-agents/agents
+
+## Capacités documentées
+
+- Implémente des agents conformes aux principes 12 factor agents.
+- Fournit des exemples d'agents fonctionnels.
+- Facilite la mise en œuvre d'agents modulaires.
+- Sert de référence pour la conception d'agents distribués.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/got-agents/agents
+- Analyse source : 2026-10-19T13:51:17.213Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

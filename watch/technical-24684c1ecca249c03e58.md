@@ -6,11 +6,20 @@ actif
 
 ## Tags
 
-#terminal, #generation-images, #mcp
+#generation-images, #mcp, #terminal
 
 ## Intérêts
 
 Interagir avec Gemini via terminal pour exécuter des tâches de code
+
+## Métadonnées
+
+- Nature : CLI
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/google-gemini/gemini-cli
 
 
 ## Ontologie
@@ -22,15 +31,6 @@ Interagir avec Gemini via terminal pour exécuter des tâches de code
 - Compatibilités : Protocoles > MCP ; Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : CLI
-- OS : À vérifier
-- Licence : Apache-2.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/google-gemini/gemini-cli
 
 ## Sources
 
@@ -44,3 +44,31 @@ Interagir avec Gemini via terminal pour exécuter des tâches de code
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/google-gemini/gemini-cli
+
+## Capacités documentées
+
+- Accéder directement aux modèles Gemini depuis le terminal
+- Générer du code à partir de PDFs ou d'images
+- Automatiser des tâches avec des scripts
+- Intégrer des outils externes via MCP
+
+## Usages documentés
+
+- gemini
+- gemini -p "Explain the architecture of this codebase"
+
+## Limites
+
+- Non optimisé pour les modèles Gemini 4 Argon
+- Requiert une clé API ou un projet Google Cloud
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/google-gemini/gemini-cli
+- Analyse source : 2026-10-19T21:00:15.195Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

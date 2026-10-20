@@ -10,15 +10,6 @@ actif
 
 Suivre les prix des actions en temps réel et activer des alertes personnalisées.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.unclassified source.raindrop source.github lifecycle.active
-- Sujets : À qualifier
-- Provenance : Raindrop ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Suivre les prix des actions en temps réel et activer des alertes personnalisée
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/Open-Dev-Society/OpenStock
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.raindrop source.github lifecycle.active
+- Sujets : À qualifier
+- Provenance : Raindrop ; GitHub
+- État : Actif
 
 ## Sources
 

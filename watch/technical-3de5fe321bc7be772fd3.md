@@ -12,6 +12,15 @@ actif
 
 Analyse les marchés météorologiques pour détecter des opportunités de trading
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/MoonsatProtocol/Polymarket-Weather-Bot
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Analyse les marchés météorologiques pour détecter des opportunités de tradi
 - Fonctions : Prévoir des mesures
 - Provenance : X / Twitter ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Non précisée
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/MoonsatProtocol/Polymarket-Weather-Bot
 
 ## Sources
 

@@ -12,6 +12,15 @@ actif
 
 Rechercher et stocker des contenus web de manière privée et organisée.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Rechercher et stocker des contenus web de manière privée et organisée.
 - Fonctions : Rechercher dans un index privé ; Rechercher des documents
 - Provenance : Raindrop
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

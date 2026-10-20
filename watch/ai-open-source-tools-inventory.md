@@ -196,8 +196,61 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Nature : À vérifier
 - OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
+- Licence : À vér
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.ai.agents.skills domain.ai.llm domain.media.video domain.media.image domain.security.testing domain.osint domain.privacy domain.finance.quant domain.dev.ui domain.data.catalogues domain.infrastructure.database domain.data.analytics domain.dev.web domain.media.audio.voice capability.voice.transcribe compatibility.deployment.local lifecycle.review
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents ; Intelligence artificielle > Modèles de langage ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Cybersécurité > Tests de sécurité ; Cybersécurité > Renseignement en sources ouvertes ; Cybersécurité > Protection des données ; Analyse financière > Simulation et analyse quantitative ; Développement logiciel > Conception d’interfaces ; Données et connaissances > Catalogues de ressources ; Infrastructure > Bases de données ; Données et connaissances > Analyse de fréquentation ; Développement logiciel > Développement web ; Audio, vidéo et création > Audio > Voix
+- Fonctions : Traitement de la voix > Transcrire
+- Compatibilités : Exécution > Exécution locale
+- État : À vérifier
+
+## Sources
+
+- https://spacesuit.lightmode.io/
+- https://github.com/calcom/cal.diy
+- https://github.com/plausible/analytics
+- https://github.com/TryGhost/Ghost
+- https://github.com/n8n-io/n8n
+- https://github.com/supabase/supabase
+- https://github.com/medusajs/medusa
+- https://github.com/AppFlowy-IO/AppFlowy
+- https://github.com/coollabsio/coolify
+- https://github.com/knadh/listmonk
+- https://github.com/penpot/penpot
+- https://github.com/HKUDS/ViMax
+- https://github.com/pipecat-ai/pipecat
+- https://github.com/siddharthvaddem/openscreen
+- https://github.com/jamiepine/voicebox
+- https://github.com/mutonby/openshorts
+- https://github.com/tashfeenahmed/freellmapi
+- https://github.com/microsoft/playwright-mcp
+- https://github.com/HKUDS/Vibe-Trading
+- https://github.com/openai/whisper
+- https://github.com/gitroomhq/postiz-app
+- https://github.com/dani-garcia/vaultwarden
+- https://github.com/xark-argo/argo
+- https://github.com/The-Swarm-Corporation/AutoHedge
+- https://github.com/Fincept-Corporation/FinceptTerminal
+- https://github.com/danny-avila/LibreChat
+- https://librechat.ai/
+- https://github.com/Anil-matcha/Open-Generative-AI
+- https://github.com/Open-LLM-VTuber/Open-LLM-VTuber
+- https://github.com/AgriciDaniel/claude-ads
+- https://github.com/cloudflare/agentic-inbox
+- https://github.com/jo-inc/camofox-browser
+- https://github.com/heygen-com/hyperframes
+- https://github.com/yt-dlp/yt-dlp
+- https://github.com/ollama/ollama
+- https://github.com/lllyasviel/Fooocus
+- https://github.com/Diolinux/PhotoGIMP
+- https://github.com/nexu-io/open-design
+- https://github.com/bitwarden/server
+- https://github.com/kenn-io/agentsview
+- https://github.com/nanocoai/nanoclaw
+- https://github.com/aiming-lab/AutoResearchClaw
+- https://github.com/mnfst/awesome-free-llm-apis
+- https://github.com/GreyDGL/PentestGPT
+- https://vibeshit.org/product/ccgui

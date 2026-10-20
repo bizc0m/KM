@@ -6,13 +6,6 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.unclassified
-- Sujets : À qualifier
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -22,8 +15,17 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified risk.sensitive
+- Sujets : À qualifier
+- Risques : Risque signalé
+
 ## Sources
-- Source : [https://gitlab.com/kyber/kyber](https://gitlab.com/kyber/kyber)
+
+- https://gitlab.com/kyber/kyber](https://gitlab.com/kyber/kyber
 
 ## A_VERIFIER
 

@@ -12,6 +12,15 @@ actif
 
 Stocke automatiquement les actions de l'agent pour une utilisation future
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/rohitg00/agentmemory
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Stocke automatiquement les actions de l'agent pour une utilisation future
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Apache-2.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/rohitg00/agentmemory
 
 ## Sources
 
@@ -44,3 +44,30 @@ Stocke automatiquement les actions de l'agent pour une utilisation future
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/rohitg00/agentmemory
+
+## Capacités documentées
+
+- Permet aux agents de codage de ne pas avoir à expliquer à nouveau des informations déjà connues
+- Fonctionne avec plusieurs outils de codage tels que Claude Code, GitHub Copilot CLI, Cursor, etc.
+- Utilise l'engine iii pour gérer la mémoire persistante
+- Capte automatiquement les actions de l'agent et les stocke en mémoire
+
+## Usages documentés
+
+- npx -y @agentmemory/agentmemory@latest
+
+## Limites
+
+- Requiert Node.js 20 ou version ultérieure
+- Nécessite des outils comme curl, sh et tar sur macOS/Linux
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/rohitg00/agentmemory
+- Analyse source : 2026-10-19T14:40:42.779Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

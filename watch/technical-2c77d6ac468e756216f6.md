@@ -10,15 +10,6 @@ actif
 
 Exécute des stratégies de trading sur des marchés de prévision.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
-- Sujets : Analyse financière > Marchés prédictifs
-- Provenance : X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Exécute des stratégies de trading sur des marchés de prévision.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/HarrierOnChain/Hedgehog-Markets
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
+- Sujets : Analyse financière > Marchés prédictifs
+- Provenance : X / Twitter ; GitHub
+- État : Actif
 
 ## Sources
 

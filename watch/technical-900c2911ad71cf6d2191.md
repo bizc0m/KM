@@ -10,15 +10,6 @@ actif
 
 Crée automatiquement des présentations et vidéos sans intervention humaine.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai domain.media.video source.noteplan source.x lifecycle.active
-- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
-- Provenance : NotePlan Calendar ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Crée automatiquement des présentations et vidéos sans intervention humaine.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.media.video source.noteplan source.x lifecycle.active
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
+- Provenance : NotePlan Calendar ; X / Twitter
+- État : Actif
 
 ## Sources
 

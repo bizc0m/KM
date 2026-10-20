@@ -12,15 +12,6 @@ actif
 
 Collecte d'informations précise via 840 plateformes.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai domain.osint source.raindrop source.x lifecycle.active
-- Sujets : Intelligence artificielle ; Cybersécurité > Renseignement en sources ouvertes
-- Provenance : Raindrop ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -29,6 +20,15 @@ Collecte d'informations précise via 840 plateformes.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.osint source.raindrop source.x lifecycle.active
+- Sujets : Intelligence artificielle ; Cybersécurité > Renseignement en sources ouvertes
+- Provenance : Raindrop ; X / Twitter
+- État : Actif
 
 ## Sources
 

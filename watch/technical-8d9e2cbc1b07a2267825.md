@@ -12,15 +12,6 @@ actif
 
 Analyser les dynamiques des marchés de prévision avec des données brutes et traitées.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
-- Sujets : Analyse financière > Marchés prédictifs
-- Provenance : X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -29,6 +20,15 @@ Analyser les dynamiques des marchés de prévision avec des données brutes et t
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/SII-WANGZJ/Polymarket_data
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
+- Sujets : Analyse financière > Marchés prédictifs
+- Provenance : X / Twitter ; GitHub
+- État : Actif
 
 ## Sources
 

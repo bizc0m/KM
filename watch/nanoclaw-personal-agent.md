@@ -8,14 +8,6 @@ Veille outils IA / agent personnel multi-canaux.
 
 #ai-agent, #personal-agent, #messaging, #containers
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents source.github
-- Sujets : Intelligence artificielle > Agents IA
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,22 +17,21 @@ Veille outils IA / agent personnel multi-canaux.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
 
-- Page Vibe Shit : `https://vibeshit.org/product/nanoclaw`
-- Site : `https://nanoclaw.dev/`
-- Site FR : `https://nanoclaw.dev/fr/`
-- Repo : `https://github.com/nanocoai/nanoclaw`
-
-Verification GitHub API :
-
-- repo : `nanocoai/nanoclaw`
-- description : lightweight alternative to OpenClaw running in containers, with messaging apps, memory and scheduled jobs
-- stars lus : 29269
-- forks lus : 12855
-- licence : MIT
-- archived : false
-- dernier push lu : 2026-05-20
+- https://github.com/nanocoai/nanoclaw
+- https://vibeshit.org/product/nanoclaw
+- https://nanoclaw.dev/
+- https://nanoclaw.dev/fr/
 
 ## Metadata GitHub publique
 

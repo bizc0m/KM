@@ -12,6 +12,15 @@ actif
 
 Transforme un prompt en code exécutable directement depuis le terminal.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/MiniMax-AI/minimax-code
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Transforme un prompt en code exécutable directement depuis le terminal.
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/MiniMax-AI/minimax-code
 
 ## Sources
 
@@ -43,3 +43,21 @@ Transforme un prompt en code exécutable directement depuis le terminal.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/minimax-ai/minimax-code
+
+## Capacités documentées
+
+- Crée et teste du code à partir d'un prompt.
+- Permet d'itérer sur le code sans dépendance frontend.
+- Utilise un modèle ou un compte MiniMax pour exécuter des requêtes.
+- Fonctionne localement sans connexion internet pour les exemples finaux.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/minimax-ai/minimax-code
+- Analyse source : 2026-10-19T21:00:15.195Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

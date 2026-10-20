@@ -12,6 +12,15 @@ actif
 
 Mise à jour immédiate des connaissances pour un chatbot sans retard.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Mise à jour immédiate des connaissances pour un chatbot sans retard.
 - Fonctions : Détecter les doublons
 - Provenance : NotePlan Calendar
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

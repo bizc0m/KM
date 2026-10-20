@@ -3,7 +3,8 @@
     "Modèle": [
       "LLM",
       "Multimodal",
-      "Embedding / reranking"
+      "Embedding / reranking",
+      "Modèle de parole"
     ],
     "Service": [
       "API hébergée",
@@ -29,7 +30,8 @@
     "Documentation": [
       "Guide / tutoriel",
       "Article / recherche",
-      "Catalogue / benchmark"
+      "Catalogue / benchmark",
+      "Spécification"
     ]
   },
   "os": [

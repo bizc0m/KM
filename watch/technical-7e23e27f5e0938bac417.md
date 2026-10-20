@@ -12,6 +12,15 @@ actif
 
 Automatise les tâches web sans déclencher de détection anti-bot
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/CloakHQ/CloakBrowser
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Automatise les tâches web sans déclencher de détection anti-bot
 - Fonctions : Détecter les bots
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/CloakHQ/CloakBrowser
 
 ## Sources
 

@@ -119,4 +119,3 @@ Critere strict : `#ROUGE` uniquement si l'outil facilite directement un usage of
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
-

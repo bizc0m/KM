@@ -8,15 +8,6 @@ Veille liens utilisateur / article X sur memoire agentique.
 
 #memoire-agents, #memory-engineering, #context-engineering
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.memory capability.memory source.x
-- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents
-- Fonctions : Conserver le contexte
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,16 +17,19 @@ Veille liens utilisateur / article X sur memoire agentique.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory capability.memory risk.sensitive source.x
+- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents
+- Fonctions : Conserver le contexte
+- Risques : Risque signalé
+- Provenance : X / Twitter
+
 ## Sources
 
-- Source sociale article : `https://x.com/0xwast3/status/2084625810112032849?s=12`
-
-Source sociale :
-
-- titre lu : `Memory Engineering: The Discipline That Decides Whether Your AI Agent Has a Past`
-- date : 2026-08-04T13:01:38Z
-- auteur/source : `0xWast3`
-- nature : X Article, pas de repo final identifie pendant cette lecture
+- https://x.com/0xwast3/status/2084625810112032849?s=12
 
 ## A_VERIFIER
 

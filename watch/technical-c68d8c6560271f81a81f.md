@@ -12,6 +12,15 @@ actif
 
 Analyse des performances des stratégies de marché de prédiction
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/evan-kolberg/prediction-market-backtesting
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Analyse des performances des stratégies de marché de prédiction
 - Fonctions : Simuler et tester > Tester sur des données historiques
 - Provenance : X / Twitter ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Non précisée
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/evan-kolberg/prediction-market-backtesting
 
 ## Sources
 

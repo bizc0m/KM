@@ -10,15 +10,6 @@ actif
 
 Organiser des tâches, notes et événements dans un seul espace.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.data.notes source.noteplan lifecycle.active
-- Sujets : Données et connaissances > Notes et organisation
-- Provenance : NotePlan Calendar
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Organiser des tâches, notes et événements dans un seul espace.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.data.notes source.noteplan lifecycle.active
+- Sujets : Données et connaissances > Notes et organisation
+- Provenance : NotePlan Calendar
+- État : Actif
 
 ## Sources
 

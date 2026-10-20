@@ -8,15 +8,6 @@ Veille `#ROUGE` / OSINT identifiants publics.
 
 #osint, #digital-footprint, #username-search, #phone-search, #ROUGE
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.osint risk.offensive source.x source.github
-- Sujets : Cybersécurité > Renseignement en sources ouvertes
-- Risques : Usage offensif explicite
-- Provenance : X / Twitter ; GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,9 +17,19 @@ Veille `#ROUGE` / OSINT identifiants publics.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint risk.offensive source.x source.github
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Risques : Usage offensif explicite
+- Provenance : X / Twitter ; GitHub
+
 ## Sources
-- Source sociale : [https://x.com/jolyne_ai/status/2070447077524664696](https://x.com/jolyne_ai/status/2070447077524664696)
-- Repo final resolu : `https://github.com/HunxByts/GhostTrack`
+
+- https://github.com/hunxbyts/ghosttrack
+- https://x.com/jolyne_ai/status/2070447077524664696](https://x.com/jolyne_ai/status/2070447077524664696
 
 ## Metadata GitHub publique
 

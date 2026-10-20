@@ -8,6 +8,15 @@ Veille `#ROUGE` / competences hacker et reverse engineering.
 
 #skills-agents, #reverse-engineering, #firmware-analysis, #hacking-skills, #ROUGE
 
+## Métadonnées
+
+- Nature : Collection de skills
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -18,19 +27,6 @@ Veille `#ROUGE` / competences hacker et reverse engineering.
 - Risques : Usage offensif explicite
 - Provenance : X / Twitter
 
-## Métadonnées
-
-- Nature : Collection de skills
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
-
 ## Sources
-- Source sociale : [https://x.com/0xeduu/status/2070469529210163370](https://x.com/0xeduu/status/2070469529210163370)
 
-### v0.1 - 2026-06-27
-
-- Objectif : integrer le signal `reverse-skill` en veille `#ROUGE`.
-- Risques : reverse engineering et skills offensives pour agents IA ; source finale a verifier.
+- https://x.com/0xeduu/status/2070469529210163370](https://x.com/0xeduu/status/2070469529210163370

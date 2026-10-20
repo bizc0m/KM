@@ -12,6 +12,15 @@ actif
 
 Structurer le développement avec des spécifications
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/github/spec-kit
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Structurer le développement avec des spécifications
 - Fonctions : Assister le développement
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/github/spec-kit
 
 ## Sources
 
@@ -78,32 +78,32 @@ Structurer le développement avec des spécifications
 - https://github.github.io/spec-kit/community/presets.html
 - https://github.github.io/spec-kit/community/friends.html
 - https://github.github.io/spec-kit/local-development.html
-- https://docs.alquimia.ai
-- https://ampcode.com
+- https://docs.alquimia.ai/
+- https://ampcode.com/
 - https://docs.augmentcode.com/cli/overview
 - https://claude.com/product/claude-code
 - https://github.com/cline/cline
 - https://codebuddy.cn/docs/cli/installation
 - https://github.com/openai/codex
-- https://cursor.com
+- https://cursor.com/
 - https://docs.devin.ai/cli
 - https://docs.docker.com/ai/docker-agent
 - https://docs.factory.com/droid-cli/overview
-- https://forgecode.dev
+- https://forgecode.dev/
 - https://github.com/google-gemini/gemini-cli
-- https://goose-docs.ai
+- https://goose-docs.ai/
 - https://docs.x.ai/build/overview
 - https://github.com/nousresearch/hermes-agent
-- https://bob.ibm.com
+- https://bob.ibm.com/
 - https://kimi.com/code
 - https://kiro.dev/docs/cli
 - https://kiro.dev/docs/cli/chat/manage-prompts
 - https://github.com/github/spec-kit/issues/1926
-- https://lingma.aliyun.com
+- https://lingma.aliyun.com/
 - https://github.com/minimax-ai/minimax-code
 - https://github.com/mistralai/mistral-vibe
-- https://opencode.ai
-- https://pi.dev
+- https://opencode.ai/
+- https://pi.dev/
 - https://github.com/earendil-works/pi/tree/main/packages/coding-agent
 - https://github.com/qwenlm/qwen-code
 - https://atlassian.com/software/rovo-dev
@@ -117,3 +117,21 @@ Structurer le développement avec des spécifications
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/github/spec-kit
+
+## Capacités documentées
+
+- Permet de structurer le développement avec des spécifications
+- Facilite la réparation de bugs avec des étapes claires
+- Aide à évaluer des idées avec des preuves
+- Intègre des extensions pour personnaliser les processus
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/github/spec-kit
+- Analyse source : 2026-10-19T21:00:15.195Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

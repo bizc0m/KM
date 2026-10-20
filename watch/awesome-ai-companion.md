@@ -8,15 +8,6 @@ Veille Raindrop KM Monitor / annuaire projets compagnons IA.
 
 #ai-companion, #memoire-agents
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.data.catalogues domain.ai.agents.memory capability.memory source.github
-- Sujets : Données et connaissances > Catalogues de ressources ; Intelligence artificielle > Agents IA > Mémoire des agents
-- Fonctions : Conserver le contexte
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,8 +17,20 @@ Veille Raindrop KM Monitor / annuaire projets compagnons IA.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.data.catalogues domain.ai.agents.memory capability.memory risk.sensitive source.github
+- Sujets : Données et connaissances > Catalogues de ressources ; Intelligence artificielle > Agents IA > Mémoire des agents
+- Fonctions : Conserver le contexte
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
-- Source finale : [https://github.com/DasterProkio/awesome-ai-companion](https://github.com/DasterProkio/awesome-ai-companion)
+
+- https://github.com/dasterprokio/awesome-ai-companion
+- https://github.com/DasterProkio/awesome-ai-companion](https://github.com/DasterProkio/awesome-ai-companion
 
 ## Metadata GitHub publique
 

@@ -37,4 +37,3 @@ Idee de workflow pour indexer NotePlan dans KM : prompt, sujet, deeplink, statut
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
-

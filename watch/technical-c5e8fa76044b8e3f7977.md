@@ -12,6 +12,15 @@ actif
 
 Analyse les probabilités météorologiques pour des dérivés de température.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : AGPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/yangyuan-zhen/PolyWeather
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Analyse les probabilités météorologiques pour des dérivés de température.
 - Fonctions : Prévoir des mesures
 - Provenance : X / Twitter ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : AGPL-3.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/yangyuan-zhen/PolyWeather
 
 ## Sources
 

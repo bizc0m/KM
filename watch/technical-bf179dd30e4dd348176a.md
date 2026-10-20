@@ -12,15 +12,6 @@ actif
 
 Exécute des trades automatisés sur Polymarket
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
-- Sujets : Analyse financière > Marchés prédictifs
-- Provenance : X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -29,6 +20,15 @@ Exécute des trades automatisés sur Polymarket
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/ent0n29/polybot
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
+- Sujets : Analyse financière > Marchés prédictifs
+- Provenance : X / Twitter ; GitHub
+- État : Actif
 
 ## Sources
 

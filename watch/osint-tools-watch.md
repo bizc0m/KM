@@ -14,13 +14,6 @@ Post X public fourni le 2026-05-22.
 
 Lecture effectuee via FxTwitter API publique, sans compte X.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai domain.osint
-- Sujets : Intelligence artificielle ; Cybersécurité > Renseignement en sources ouvertes
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -30,11 +23,17 @@ Lecture effectuee via FxTwitter API publique, sans compte X.
 - Accès : À vérifier
 - Preuve : À vérifier
 
-## Sources lues
 
-| Date post | Auteur | URL | Sujet | Statut |
-| --- | --- | --- | --- | --- |
-| 2026-05-21 | `cyb_detective` | `https://x.com/cyb_detective/status/2057462395568558157` | Vehicle Search Tools : license plate search, VIN check, vehicle history records | actif |
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.osint lifecycle.review
+- Sujets : Intelligence artificielle ; Cybersécurité > Renseignement en sources ouvertes
+- État : À vérifier
+
+## Sources
+
+- https://x.com/cyb_detective/status/2057462395568558157
 
 ## Arbitrage
 

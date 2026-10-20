@@ -8,15 +8,6 @@
 
 #generation-video, #style-transfer, #diffusion
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.media.video capability.generate.video source.github
-- Sujets : Audio, vidéo et création > Vidéo
-- Fonctions : Générer des contenus > Générer une vidéo
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,12 +17,20 @@
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.video capability.generate.video risk.sensitive source.github
+- Sujets : Audio, vidéo et création > Vidéo
+- Fonctions : Générer des contenus > Générer une vidéo
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
 
-- Source finale: [https://github.com/showlab/VISTA](https://github.com/showlab/VISTA)
-- Origine: archive NotePlan captures 2026, capture du 2026-08-24.
-- Domaine: `github.com`
-- Auteur/source: `showlab`
+- https://github.com/showlab/vista
+- https://github.com/showlab/VISTA](https://github.com/showlab/VISTA
 
 ## Topics GitHub
 

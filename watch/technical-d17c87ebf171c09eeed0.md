@@ -10,15 +10,6 @@ actif
 
 Exécute plusieurs harnesses d'agents localement via une interface unique.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents source.raindrop source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA
-- Provenance : Raindrop ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Exécute plusieurs harnesses d'agents localement via une interface unique.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents source.raindrop source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA
+- Provenance : Raindrop ; X / Twitter
+- État : Actif
 
 ## Sources
 

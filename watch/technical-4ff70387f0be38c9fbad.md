@@ -12,6 +12,15 @@ actif
 
 Crée une vidéo expliquée en style Vox avec collage papier.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Anil-matcha/vox-ai-motion-graphics-generator
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Crée une vidéo expliquée en style Vox avec collage papier.
 - Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Non précisée
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/Anil-matcha/vox-ai-motion-graphics-generator
 
 ## Sources
 

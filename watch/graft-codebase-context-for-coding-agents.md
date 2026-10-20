@@ -8,15 +8,6 @@ Veille liens utilisateur / contexte codebase pour agents de code.
 
 #memoire-agents, #agents-code, #context-engineering, #code-graph
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.memory domain.ai.agents.coding capability.memory capability.code.assist source.github source.x
-- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents ; Intelligence artificielle > Agents IA > Agents de développement
-- Fonctions : Conserver le contexte ; Assister le développement
-- Provenance : GitHub ; X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,28 +17,21 @@ Veille liens utilisateur / contexte codebase pour agents de code.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory domain.ai.agents.coding capability.memory capability.code.assist risk.sensitive source.github source.x
+- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents ; Intelligence artificielle > Agents IA > Agents de développement
+- Fonctions : Conserver le contexte ; Assister le développement
+- Risques : Risque signalé
+- Provenance : GitHub ; X / Twitter
+
 ## Sources
 
-- Repo GitHub : `https://github.com/NanoNets/Graft`
-- Source sociale thread : `https://x.com/nozelcode/status/2087160371140243573?s=12`
-- Source sociale repo : `https://x.com/nozelcode/status/2087160374797668418?s=12`
-
-Source sociale :
-
-- titre lu : Graft reduit tokens, tool calls, temps et couts pour agents de code
-- date : 2026-08-11T12:53:04Z
-- auteur/source : `Nozelcode`
-- lien resolu : `https://github.com/nanonets/graft`
-
-Verification GitHub API :
-
-- repo : `NanoNets/Graft`
-- description : contexte specifique a la codebase pour Claude Code, Cursor, Codex, Gemini et agents de code
-- etoiles relevees : 1969
-- forks releves : 161
-- licence : MIT
-- archived : false
-- dernier push lu : 2026-08-12T11:57:44Z
+- https://github.com/nanonets/graft
+- https://x.com/nozelcode/status/2087160371140243573?s=12
+- https://x.com/nozelcode/status/2087160374797668418?s=12
 
 ## Metadata GitHub publique
 

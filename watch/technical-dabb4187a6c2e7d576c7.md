@@ -12,6 +12,15 @@ actif
 
 Gère les ordres et positions de trading avec des outils d'analyse et de sécurité
 
+## Métadonnées
+
+- Nature : Serveur MCP
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/caiovicentino/polymarket-mcp-server
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Gère les ordres et positions de trading avec des outils d'analyse et de sécuri
 - Compatibilités : Protocoles > MCP
 - Provenance : X / Twitter ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : Serveur MCP
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/caiovicentino/polymarket-mcp-server
 
 ## Sources
 

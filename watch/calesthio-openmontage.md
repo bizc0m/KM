@@ -8,15 +8,6 @@ Veille Raindrop KM Monitor.
 
 #montage-video
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.media.video capability.edit.video source.github
-- Sujets : Audio, vidéo et création > Vidéo
-- Fonctions : Monter une vidéo
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,8 +17,20 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.video capability.edit.video risk.sensitive source.github
+- Sujets : Audio, vidéo et création > Vidéo
+- Fonctions : Monter une vidéo
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
-- Source : [https://github.com/calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
+
+- https://github.com/calesthio/openmontage
+- https://github.com/calesthio/OpenMontage](https://github.com/calesthio/OpenMontage
 
 ## Metadata GitHub publique
 

@@ -8,15 +8,6 @@ Veille Raindrop KM Monitor.
 
 #orchestration-agents, #agents-code
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.ai.agents.orchestration capability.automation.orchestrate capability.code.assist source.x
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Orchestration des agents
-- Fonctions : Automatiser des actions > Coordonner des agents ; Assister le développement
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,8 +17,19 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.ai.agents.orchestration capability.automation.orchestrate capability.code.assist risk.sensitive source.x
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Orchestration des agents
+- Fonctions : Automatiser des actions > Coordonner des agents ; Assister le développement
+- Risques : Risque signalé
+- Provenance : X / Twitter
+
 ## Sources
-- Source : [https://x.com/qingq77/status/2065347371496804818](https://x.com/qingq77/status/2065347371496804818)
+
+- https://x.com/qingq77/status/2065347371496804818](https://x.com/qingq77/status/2065347371496804818
 
 ## A_VERIFIER
 

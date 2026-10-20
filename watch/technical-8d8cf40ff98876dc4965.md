@@ -12,6 +12,15 @@ actif
 
 Génère un script à partir d'un sujet avec GPT
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/SamurAIGPT/AI-Faceless-Video-Generator
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Génère un script à partir d'un sujet avec GPT
 - Fonctions : Générer des contenus > Générer une vidéo
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/SamurAIGPT/AI-Faceless-Video-Generator
 
 ## Sources
 

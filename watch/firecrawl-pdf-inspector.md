@@ -8,15 +8,6 @@ Veille Raindrop KM Monitor / bibliotheque extraction PDF.
 
 #pdf, #rust, #extraction, #document-ai
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.data.search domain.data.documents compatibility.format.pdf compatibility.language.rust source.github
-- Sujets : Données et connaissances > Recherche et indexation ; Données et connaissances > Documents
-- Compatibilités : Formats > PDF ; Langages > Rust
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,8 +17,20 @@ Veille Raindrop KM Monitor / bibliotheque extraction PDF.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.data.search domain.data.documents compatibility.format.pdf compatibility.language.rust risk.sensitive source.github
+- Sujets : Données et connaissances > Recherche et indexation ; Données et connaissances > Documents
+- Compatibilités : Formats > PDF ; Langages > Rust
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
-- Source finale : [https://github.com/firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector)
+
+- https://github.com/firecrawl/pdf-inspector
+- https://github.com/firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector
 
 ## Metadata GitHub publique
 

@@ -6,20 +6,11 @@ actif
 
 ## Tags
 
-#skills-agents, #analyse-vulnerabilites
+#skills-agents
 
 ## Intérêts
 
-Guider les investigations de sécurité des agents avec des procédures MITRE et NIST.
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.security.testing domain.ai.agents.skills capability.security.vulnerabilities capability.skills source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Cybersécurité > Tests de sécurité ; Intelligence artificielle > Agents IA > Compétences des agents
-- Fonctions : Détecter des vulnérabilités ; Étendre les compétences d’un agent
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
+Permet aux agents IA d'appliquer des workflows de sécurité professionnels.
 
 ## Métadonnées
 
@@ -29,6 +20,16 @@ Guider les investigations de sécurité des agents avec des procédures MITRE et
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/mukul975/Anthropic-Cybersecurity-Skills
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills domain.dev domain.security capability.skills source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Développement logiciel ; Cybersécurité
+- Fonctions : Étendre les compétences d’un agent
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -67,3 +68,22 @@ Guider les investigations de sécurité des agents avec des procédures MITRE et
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/mukul975/anthropic-cybersecurity-skills
+
+## Capacités documentées
+
+- Fournit des compétences structurées pour des agents IA dans 26 domaines de sécurité.
+- Mappage des compétences à cinq cadres d'analyse : MITRE ATT&CK, NIST CSF, MITRE ATLAS, MITRE D3FEND, NIST AI RMF.
+- Permet aux agents IA d'appliquer des workflows de sécurité professionnels.
+- Facilite la découverte et l'exécution des compétences via un format YAML et Markdown.
+- Compatibilité avec plusieurs plateformes d'IA et outils de développement.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/mukul975/anthropic-cybersecurity-skills
+- Analyse source : 2026-10-19T22:23:37.450Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

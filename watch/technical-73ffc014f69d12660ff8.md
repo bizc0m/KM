@@ -12,6 +12,15 @@ actif
 
 Génère des vidéos de qualité avec des paramètres précis
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Anil-matcha/awesome-seedance-2.5-api-prompts
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Génère des vidéos de qualité avec des paramètres précis
 - Fonctions : Générer des contenus > Générer une vidéo
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Non précisée
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/Anil-matcha/awesome-seedance-2.5-api-prompts
 
 ## Sources
 

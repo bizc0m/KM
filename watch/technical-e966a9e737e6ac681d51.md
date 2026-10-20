@@ -10,15 +10,6 @@ actif
 
 Analyse des liquidités et des spreads pour les traders
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
-- Sujets : Analyse financière > Marchés prédictifs
-- Provenance : X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Analyse des liquidités et des spreads pour les traders
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/aarora4/Awesome-Prediction-Market-Tools
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
+- Sujets : Analyse financière > Marchés prédictifs
+- Provenance : X / Twitter ; GitHub
+- État : Actif
 
 ## Sources
 

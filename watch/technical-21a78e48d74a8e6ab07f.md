@@ -1,4 +1,4 @@
-# Curriculum pour créer des services avec IA générative
+# AI Creator Academy - Curriculum pour créer des services avec IA
 
 ## Statut
 
@@ -6,21 +6,11 @@ actif
 
 ## Tags
 
-#generation-video, #generation-images
+#publication-sociale
 
 ## Intérêts
 
-Apprendre à vendre des services IA générative avec des modules structurés.
-
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai domain.media.video domain.media.image capability.generate.video capability.generate.image source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
-- Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
+Intérêt à vérifier
 
 ## Métadonnées
 
@@ -30,6 +20,16 @@ Apprendre à vendre des services IA générative avec des modules structurés.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/Anil-matcha/ai-creator-academy
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.media.audio domain.media.video domain.media.image domain.communication capability.automation.publish source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Communication et publication
+- Fonctions : Automatiser des actions > Publier sur plusieurs réseaux
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -41,5 +41,23 @@ Apprendre à vendre des services IA générative avec des modules structurés.
 - Origine : NotePlan
 - Identifiant source : 21a78e48d74a8e6ab07f347451324445c9ea923c460222db6e797c953442c5aa
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/anil-matcha/ai-creator-academy
+
+## Capacités documentées
+
+- Apprendre à vendre des contenus générés par IA
+- Créer des vidéos publicitaires et UGC
+- Développer des canaux YouTube/TikTok sans caméra
+- Produire des contenus à grande échelle
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/anil-matcha/ai-creator-academy
+- Analyse source : 2026-10-20T07:40:16.556Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -124,3 +124,21 @@ Points verifies :
 - Accès : À vérifier
 - Preuve : À vérifier
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm domain.data.web capability.scraping compatibility.deployment.local compatibility.protocol.rss risk.sensitive
+- Sujets : Intelligence artificielle > Modèles de langage ; Données et connaissances > Collecte web
+- Fonctions : Extraire des données web
+- Compatibilités : Exécution > Exécution locale ; Protocoles > RSS
+- Risques : Risque signalé
+
+## Sources
+
+- https://ohmypizza.com/2023/04/keeping-up-with-twitter-via-rss
+- https://github.com/zedeus/nitter
+- https://nitter.net/
+- https://openrss.org/twitter.com/
+- https://openrss.org/
+- https://openrss.org/guides/how-to-use-an-open-rss-feed
+- https://openrss.org/terms

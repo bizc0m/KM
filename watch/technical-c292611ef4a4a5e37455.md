@@ -12,6 +12,15 @@ actif
 
 Lire, modifier et exécuter des fichiers dans un projet
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/esengine/DeepSeek-Reasonix
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Lire, modifier et exécuter des fichiers dans un projet
 - Compatibilités : Interfaces > Application de bureau ; Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/esengine/DeepSeek-Reasonix
 
 ## Sources
 
@@ -44,3 +44,21 @@ Lire, modifier et exécuter des fichiers dans un projet
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/esengine/deepseek-reasonix
+
+## Capacités documentées
+
+- Lecture, modification et exécution de fichiers dans un projet
+- Gestion des permissions et approbations avant chaque action
+- Possibilité de revenir en arrière sans toucher à l'historique git
+- Utilisation d'un modèle de votre choix via une configuration
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/esengine/deepseek-reasonix
+- Analyse source : 2026-10-19T14:17:14.549Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

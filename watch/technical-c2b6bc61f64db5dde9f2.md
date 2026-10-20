@@ -10,15 +10,6 @@ actif
 
 Unpaywall.org permet d'accéder gratuitement aux articles de recherche.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.dev domain.data.organization source.raindrop source.x lifecycle.active
-- Sujets : Développement logiciel ; Données et connaissances > Organisation du travail
-- Provenance : Raindrop ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Unpaywall.org permet d'accéder gratuitement aux articles de recherche.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev domain.data.organization source.raindrop source.x lifecycle.active
+- Sujets : Développement logiciel ; Données et connaissances > Organisation du travail
+- Provenance : Raindrop ; X / Twitter
+- État : Actif
 
 ## Sources
 

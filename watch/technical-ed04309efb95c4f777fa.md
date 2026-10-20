@@ -10,15 +10,6 @@ actif
 
 Visualiser les ventes quotidiennes et les comparer à la semaine précédente.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.unclassified source.noteplan lifecycle.active
-- Sujets : À qualifier
-- Provenance : NotePlan Calendar
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Visualiser les ventes quotidiennes et les comparer à la semaine précédente.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.noteplan lifecycle.active
+- Sujets : À qualifier
+- Provenance : NotePlan Calendar
+- État : Actif
 
 ## Sources
 

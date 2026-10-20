@@ -92,3 +92,14 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 - Accès : À vérifier
 - Preuve : À vérifier
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm compatibility.deployment.local compatibility.interface.api risk.sensitive
+- Sujets : Intelligence artificielle > Modèles de langage
+- Compatibilités : Exécution > Exécution locale ; Interfaces > API
+- Risques : Risque signalé
+
+## Sources
+
+- https://github.com/cheahjs/free-llm-api-resources

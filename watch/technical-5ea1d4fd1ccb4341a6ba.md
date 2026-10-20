@@ -10,15 +10,6 @@ actif
 
 Crée des applications LLM avec des modèles et outils.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents domain.ai.llm source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA ; Intelligence artificielle > Modèles de langage
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Crée des applications LLM avec des modèles et outils.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/cyber-albsecop/Awesome-AI-Repos
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.ai.llm source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA ; Intelligence artificielle > Modèles de langage
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -40,3 +40,21 @@ Crée des applications LLM avec des modèles et outils.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/cyber-albsecop/awesome-ai-repos
+
+## Capacités documentées
+
+- Permet l'intégration de modèles, d'outils et de récupération.
+- Facilite la création d'applications LLM.
+- Supporte la construction d'agents.
+- Intègre des outils de récupération pour l'information.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/cyber-albsecop/awesome-ai-repos
+- Analyse source : 2026-10-19T19:20:40.954Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

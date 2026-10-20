@@ -8,15 +8,6 @@
 
 #montage-video, #generation-video, #natural-language
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.media.video capability.edit.video capability.generate.video source.github
-- Sujets : Audio, vidéo et création > Vidéo
-- Fonctions : Monter une vidéo ; Générer des contenus > Générer une vidéo
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,12 +17,20 @@
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.video capability.edit.video capability.generate.video risk.sensitive source.github
+- Sujets : Audio, vidéo et création > Vidéo
+- Fonctions : Monter une vidéo ; Générer des contenus > Générer une vidéo
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
 
-- Source finale: [https://github.com/showlab/Kiwi-Edit](https://github.com/showlab/Kiwi-Edit)
-- Origine: archive NotePlan captures 2026, capture du 2026-08-24.
-- Domaine: `github.com`
-- Auteur/source: `showlab`
+- https://github.com/showlab/kiwi-edit
+- https://github.com/showlab/Kiwi-Edit](https://github.com/showlab/Kiwi-Edit
 
 ## Topics GitHub
 

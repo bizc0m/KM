@@ -8,13 +8,6 @@ Veille infra privacy / DePIN / reseau decentralise.
 
 #depin, #crypto, #wallet-address, #decentralized-network
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.infrastructure.network domain.finance
-- Sujets : Infrastructure > Réseaux ; Analyse financière
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -24,14 +17,22 @@ Veille infra privacy / DePIN / reseau decentralise.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.infrastructure.network domain.finance lifecycle.review
+- Sujets : Infrastructure > Réseaux ; Analyse financière
+- État : À vérifier
+
 ## Sources
 
-- Site officiel : `https://conet.network/`
-- Documentation officielle : `https://doceng.conet.network/`
-- Introduction docs : `https://doceng.conet.network/welcome-to-conet/introduction`
-- Fonctionnement docs : `https://doceng.conet.network/core-technology/how-conet-works-decentralized-private-and-secure`
-- Silent Pass : `https://conet.network/silent-pass/`
-- Privacy policy : `https://conet.network/privacy-cookies/`
+- https://conet.network/
+- https://doceng.conet.network/
+- https://doceng.conet.network/welcome-to-conet/introduction
+- https://doceng.conet.network/core-technology/how-conet-works-decentralized-private-and-secure
+- https://conet.network/silent-pass/
+- https://conet.network/privacy-cookies/
 
 ## Verification source
 

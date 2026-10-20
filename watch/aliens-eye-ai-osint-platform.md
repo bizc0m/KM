@@ -8,15 +8,6 @@ Veille outil OSINT / recherche d'empreinte numerique.
 
 #osint, #ai-search, #digital-footprint, #privacy-risk, #ROUGE
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai domain.osint domain.data.search risk.sensitive risk.offensive source.x
-- Sujets : Intelligence artificielle ; Cybersécurité > Renseignement en sources ouvertes ; Données et connaissances > Recherche et indexation
-- Risques : Risque signalé ; Usage offensif explicite
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,8 +17,18 @@ Veille outil OSINT / recherche d'empreinte numerique.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.osint domain.data.search risk.sensitive risk.offensive source.x
+- Sujets : Intelligence artificielle ; Cybersécurité > Renseignement en sources ouvertes ; Données et connaissances > Recherche et indexation
+- Risques : Risque signalé ; Usage offensif explicite
+- Provenance : X / Twitter
+
 ## Sources
-- Source : [https://x.com/untalnixon_exe/status/2070860935762211251](https://x.com/untalnixon_exe/status/2070860935762211251)
+
+- https://x.com/untalnixon_exe/status/2070860935762211251](https://x.com/untalnixon_exe/status/2070860935762211251
 
 ## A verifier
 

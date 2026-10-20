@@ -10,15 +10,6 @@ actif
 
 Permet de contourner les filtres de réseau.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.infrastructure.network source.noteplan source.github source.x lifecycle.active
-- Sujets : Infrastructure > Réseaux
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -28,10 +19,20 @@ Permet de contourner les filtres de réseau.
 - Accès : À vérifier
 - Preuve : https://github.com/HyNetworks/hysteria
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.infrastructure.network source.noteplan source.github source.x lifecycle.active
+- Sujets : Infrastructure > Réseaux
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
 ## Sources
 
 - https://github.com/apernet/hysteria
 - https://x.com/i/status/2056302799508697343
+- https://github.com/HyNetworks/hysteria
 
 ## Traçabilité
 

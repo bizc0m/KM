@@ -12,15 +12,6 @@ actif
 
 Identifier des plateformes en ligne liées à un utilisateur.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.osint source.raindrop source.x lifecycle.active
-- Sujets : Cybersécurité > Renseignement en sources ouvertes
-- Provenance : Raindrop ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -29,6 +20,15 @@ Identifier des plateformes en ligne liées à un utilisateur.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint source.raindrop source.x lifecycle.active
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Provenance : Raindrop ; X / Twitter
+- État : Actif
 
 ## Sources
 

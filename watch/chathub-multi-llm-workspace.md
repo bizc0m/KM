@@ -25,3 +25,13 @@ ChatHub permet de comparer plusieurs LLM cote a cote. Utile pour arbitrer prompt
 - Accès : À vérifier
 - Preuve : À vérifier
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm lifecycle.review
+- Sujets : Intelligence artificielle > Modèles de langage
+- État : À vérifier
+
+## Sources
+
+- https://chathub.gg/fr

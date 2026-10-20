@@ -8,15 +8,6 @@
 
 #obsidian, #capture, #knowledge-management, #notes
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.data.notes capability.notes.capture compatibility.integration.obsidian
-- Sujets : Données et connaissances > Notes et organisation
-- Fonctions : Capturer des notes
-- Compatibilités : Intégrations > Obsidian
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,12 +17,19 @@
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.data.notes capability.notes.capture compatibility.integration.obsidian risk.sensitive
+- Sujets : Données et connaissances > Notes et organisation
+- Fonctions : Capturer des notes
+- Compatibilités : Intégrations > Obsidian
+- Risques : Risque signalé
+
 ## Sources
 
-- Source finale: [https://usetype.app/obsidian-quick-capture](https://usetype.app/obsidian-quick-capture)
-- Origine: archive NotePlan captures 2026, capture du 2026-08-22.
-- Domaine: `usetype.app`
-- Auteur/source: Type
+- https://usetype.app/obsidian-quick-capture](https://usetype.app/obsidian-quick-capture
 
 ## A verifier
 

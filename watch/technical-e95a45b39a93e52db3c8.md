@@ -12,6 +12,15 @@ actif
 
 Visualiser et modifier des fichiers CSV avec interface intuitive et fonctionnalités de tri et recherche.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/323Works/csv-viewer-macos
+
 
 ## Ontologie
 
@@ -22,18 +31,9 @@ Visualiser et modifier des fichiers CSV avec interface intuitive et fonctionnali
 - Provenance : Raindrop ; GitHub
 - État : Actif
 
-## Métadonnées
-
-- Nature : À vérifier
-- OS : macOS
-- Licence : Non précisée
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/323Works/csv-viewer-macos
-
 ## Sources
 
-- https://github.com/323Works/csv-viewer-macos
+- https://github.com/323works/csv-viewer-macos
 
 ## Traçabilité
 

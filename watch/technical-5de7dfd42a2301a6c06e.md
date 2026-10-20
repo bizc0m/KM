@@ -12,6 +12,15 @@ actif
 
 Détecte les bots sur les applications web sans serveur.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/fingerprintjs/BotD
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Détecte les bots sur les applications web sans serveur.
 - Fonctions : Détecter les bots
 - Provenance : Raindrop ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/fingerprintjs/BotD
 
 ## Sources
 

@@ -12,6 +12,15 @@ actif
 
 Permet d'installer des compétences pour des agents de IA
 
+## Métadonnées
+
+- Nature : Collection de skills
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/nowork-studio/agent-skills-es
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Permet d'installer des compétences pour des agents de IA
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : Collection de skills
-- OS : À vérifier
-- Licence : Non précisée
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/nowork-studio/agent-skills-es
 
 ## Sources
 
@@ -44,3 +44,27 @@ Permet d'installer des compétences pour des agents de IA
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/nowork-studio/agent-skills-es
+
+## Capacités documentées
+
+- Permet d'installer des compétences pour des agents de IA
+- Explique ce que fait chaque compétence
+- Donne des instructions d'installation
+- Fournit des exemples et des documents d'appui
+
+## Usages documentés
+
+- npx skills add owner/repo
+- npx skills add owner/repo -g
+- npx skills add owner/repo --skill nombre
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/nowork-studio/agent-skills-es
+- Analyse source : 2026-10-19T19:20:40.954Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

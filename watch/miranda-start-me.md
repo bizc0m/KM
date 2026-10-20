@@ -8,13 +8,6 @@ Veille Raindrop KM Monitor.
 
 #osint, #cyber, #search, #crime
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.osint domain.data.search
-- Sujets : Cybersécurité > Renseignement en sources ouvertes ; Données et connaissances > Recherche et indexation
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -24,8 +17,17 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint domain.data.search risk.sensitive
+- Sujets : Cybersécurité > Renseignement en sources ouvertes ; Données et connaissances > Recherche et indexation
+- Risques : Risque signalé
+
 ## Sources
-- Source : [https://start.me/u/xjqkAn/miranda](https://start.me/u/xjqkAn/miranda)
+
+- https://start.me/u/xjqkAn/miranda](https://start.me/u/xjqkAn/miranda
 
 ## A_VERIFIER
 

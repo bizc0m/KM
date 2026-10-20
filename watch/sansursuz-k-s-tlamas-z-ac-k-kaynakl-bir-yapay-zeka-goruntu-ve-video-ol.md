@@ -8,14 +8,6 @@ Veille Raindrop KM Monitor.
 
 #creative-ai
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai domain.media.video domain.media.image source.x
-- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,8 +17,18 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.media.video domain.media.image risk.sensitive source.x
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
+- Risques : Risque signalé
+- Provenance : X / Twitter
+
 ## Sources
-- Source : [https://x.com/deeptechtr/status/2066056043981943251](https://x.com/deeptechtr/status/2066056043981943251)
+
+- https://x.com/deeptechtr/status/2066056043981943251](https://x.com/deeptechtr/status/2066056043981943251
 
 ## A_VERIFIER
 

@@ -12,6 +12,15 @@ actif
 
 Enregistre des démos nettoyées sans abonnement
 
+## Métadonnées
+
+- Nature : Application web
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Enregistre des démos nettoyées sans abonnement
 - Fonctions : Traitement de la voix > Synthétiser une voix ; Générer des contenus > Générer une vidéo
 - Provenance : NotePlan Calendar ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : Application web
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

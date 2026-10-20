@@ -8,15 +8,6 @@ Veille Raindrop KM Monitor.
 
 #memoire-agents
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.ai.agents.memory capability.memory source.x
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Mémoire des agents
-- Fonctions : Conserver le contexte
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,8 +17,19 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.ai.agents.memory capability.memory risk.sensitive source.x
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Mémoire des agents
+- Fonctions : Conserver le contexte
+- Risques : Risque signalé
+- Provenance : X / Twitter
+
 ## Sources
-- Source : [https://x.com/nicos_ai/status/2062627106786566373](https://x.com/nicos_ai/status/2062627106786566373)
+
+- https://x.com/nicos_ai/status/2062627106786566373](https://x.com/nicos_ai/status/2062627106786566373
 
 ## A_VERIFIER
 

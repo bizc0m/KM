@@ -6,14 +6,6 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai source.github
-- Sujets : Intelligence artificielle
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -23,8 +15,19 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai risk.sensitive source.github
+- Sujets : Intelligence artificielle
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
-- Source : [https://github.com/pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus)
+
+- https://github.com/odysseus-dev/odysseus
+- https://github.com/pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus
 
 ## Metadata GitHub publique
 

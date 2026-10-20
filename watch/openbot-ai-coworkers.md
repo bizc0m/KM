@@ -8,16 +8,6 @@
 
 #automatisation-navigateur, #ag-ui, #mcp, #governance
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.dev.browser domain.ai.agents.integration capability.automation.browser compatibility.protocol.mcp source.github
-- Sujets : Développement logiciel > Outils de navigateur ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
-- Fonctions : Automatiser des actions > Automatiser le navigateur
-- Compatibilités : Protocoles > MCP
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,12 +17,21 @@
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.browser domain.ai.agents.integration capability.automation.browser compatibility.protocol.mcp risk.sensitive source.github
+- Sujets : Développement logiciel > Outils de navigateur ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
+- Fonctions : Automatiser des actions > Automatiser le navigateur
+- Compatibilités : Protocoles > MCP
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
 
-- Source finale: [https://github.com/CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot)
-- Origine: archive NotePlan captures 2026, capture du 2026-08-28.
-- Domaine: `github.com`
-- Auteur/source: `CopilotKit`
+- https://github.com/copilotkit/openbot
+- https://github.com/CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot
 
 ## Topics GitHub
 

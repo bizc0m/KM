@@ -8,14 +8,6 @@ Veille outils IA / editeur vibe coding multi-engine.
 
 #vibe-coding, #ai-editor, #developer-tools, #claude-code
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai domain.dev.ui compatibility.integration.claude
-- Sujets : Intelligence artificielle ; Développement logiciel > Conception d’interfaces
-- Compatibilités : Intégrations > Claude Code
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,10 +17,19 @@ Veille outils IA / editeur vibe coding multi-engine.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.dev.ui compatibility.integration.claude lifecycle.review
+- Sujets : Intelligence artificielle ; Développement logiciel > Conception d’interfaces
+- Compatibilités : Intégrations > Claude Code
+- État : À vérifier
+
 ## Sources
 
-- Page Vibe Shit : `https://vibeshit.org/product/ccgui`
-- Site associe : `https://www.mossx.ai/`
+- https://vibeshit.org/product/ccgui
+- https://www.mossx.ai/
 
 ## Statut verification
 

@@ -12,6 +12,15 @@ actif
 
 Recherche locale sans connexion. Analyse de données sans cloud.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Recherche locale sans connexion. Analyse de données sans cloud.
 - Fonctions : Automatiser des actions > Planifier des tâches
 - Provenance : NotePlan Calendar ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

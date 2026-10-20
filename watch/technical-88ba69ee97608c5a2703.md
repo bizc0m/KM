@@ -12,6 +12,15 @@ actif
 
 Exporter des conversations d'IA vers Notion pour archiver facilement.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Exporter des conversations d'IA vers Notion pour archiver facilement.
 - Compatibilités : Formats > PDF
 - Provenance : NotePlan Calendar
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

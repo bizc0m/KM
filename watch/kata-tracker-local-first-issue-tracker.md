@@ -8,15 +8,6 @@ Veille Raindrop KM Monitor / outil issue tracking local-first pour humains et ag
 
 #agents-code, #issue-tracking, #local-first, #project-management
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.data.organization capability.code.assist compatibility.deployment.local
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Données et connaissances > Organisation du travail
-- Fonctions : Assister le développement
-- Compatibilités : Exécution > Exécution locale
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,13 +17,19 @@ Veille Raindrop KM Monitor / outil issue tracking local-first pour humains et ag
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.data.organization capability.code.assist compatibility.deployment.local lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Données et connaissances > Organisation du travail
+- Fonctions : Assister le développement
+- Compatibilités : Exécution > Exécution locale
+- État : Actif
+
 ## Sources
 
-- Source Raindrop : `KM Monitor public feed`
-- URL finale verifiee : `https://www.katatracker.com/`
-- Domaine : `katatracker.com`
-- Curateur Raindrop : `KM Monitor`
-- Date Raindrop : `2026-08-27T12:36:43.532Z`
+- https://www.katatracker.com/
 
 ## A verifier
 

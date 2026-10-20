@@ -12,6 +12,15 @@ actif
 
 Crée des chansons à partir de paroles et d'un style musical.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/arinltte/YuE2Mac
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Crée des chansons à partir de paroles et d'un style musical.
 - Compatibilités : Systèmes > macOS ; Langages > Python
 - Provenance : Raindrop ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : macOS
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/arinltte/YuE2Mac
 
 ## Sources
 

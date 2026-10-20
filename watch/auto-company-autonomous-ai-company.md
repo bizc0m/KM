@@ -8,16 +8,6 @@ Veille Raindrop KM Monitor / orchestration multi-agents autonome.
 
 #orchestration-agents, #autonomous-company, #codex-cli, #claude-code
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.orchestration capability.automation.orchestrate compatibility.integration.claude source.github
-- Sujets : Intelligence artificielle > Agents IA > Orchestration des agents
-- Fonctions : Automatiser des actions > Coordonner des agents
-- Compatibilités : Intégrations > Claude Code
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,9 +17,22 @@ Veille Raindrop KM Monitor / orchestration multi-agents autonome.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.orchestration capability.automation.orchestrate compatibility.integration.claude risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA > Orchestration des agents
+- Fonctions : Automatiser des actions > Coordonner des agents
+- Compatibilités : Intégrations > Claude Code
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
-- Source finale : [https://github.com/MaxMiksa/Auto-Company](https://github.com/MaxMiksa/Auto-Company)
-- Metadata GitHub API : `https://api.github.com/repos/MaxMiksa/Auto-Company`
+
+- https://github.com/maxmiksa/auto-company
+- https://github.com/MaxMiksa/Auto-Company](https://github.com/MaxMiksa/Auto-Company
+- https://api.github.com/repos/MaxMiksa/Auto-Company
 
 ## Metadata GitHub publique
 

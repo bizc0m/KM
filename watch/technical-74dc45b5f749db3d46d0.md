@@ -10,15 +10,6 @@ actif
 
 Analyse des images RAW sombres avec détection de caractéristiques robuste
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.media.image source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Images et graphisme
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Analyse des images RAW sombres avec détection de caractéristiques robuste
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/THU-LYJ-Lab/DarkFeat
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.image source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Images et graphisme
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 

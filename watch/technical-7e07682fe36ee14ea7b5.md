@@ -10,15 +10,6 @@ actif
 
 Génère des cartes de profondeur alignées avec les poses.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.active
-- Sujets : À qualifier
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Génère des cartes de profondeur alignées avec les poses.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/weiyithu/NerfingMVS
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.active
+- Sujets : À qualifier
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 

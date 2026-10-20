@@ -8,15 +8,6 @@
 
 #skills-agents, #skills, #vps, #infrastructure
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.skills domain.infrastructure capability.skills source.github
-- Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Infrastructure
-- Fonctions : Étendre les compétences d’un agent
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : Skill individuel
@@ -26,13 +17,21 @@
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills domain.infrastructure capability.skills risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Infrastructure
+- Fonctions : Étendre les compétences d’un agent
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
 
-- Source finale: [https://github.com/alejandro-ao/skills/blob/main/skills/hermes-vps-setup/SKILL.md](https://github.com/alejandro-ao/skills/blob/main/skills/hermes-vps-setup/SKILL.md)
-- Repo GitHub: [https://github.com/alejandro-ao/skills](https://github.com/alejandro-ao/skills)
-- Origine: archive NotePlan captures 2026, capture du 2026-05-27.
-- Domaine: `github.com`
-- Auteur/source: `alejandro-ao`
+- https://github.com/alejandro-ao/skills/blob/main/skills/hermes-vps-setup/SKILL.md](https://github.com/alejandro-ao/skills/blob/main/skills/hermes-vps-setup/SKILL.md
+- https://github.com/alejandro-ao/skills](https://github.com/alejandro-ao/skills
+- https://github.com/alejandro-ao/skills
 
 ## Topics GitHub
 

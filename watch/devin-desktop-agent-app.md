@@ -8,14 +8,6 @@
 
 #application-bureau, #desktop-agent, #coding, #ux
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents domain.dev.desktop compatibility.interface.desktop
-- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel > Applications et interfaces de bureau
-- Compatibilités : Interfaces > Application de bureau
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,12 +17,18 @@
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.dev.desktop compatibility.interface.desktop risk.sensitive
+- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel > Applications et interfaces de bureau
+- Compatibilités : Interfaces > Application de bureau
+- Risques : Risque signalé
+
 ## Sources
 
-- Source finale: [https://devin.ai/desktop](https://devin.ai/desktop)
-- Origine: archive NotePlan captures 2026, capture du 2026-09-05.
-- Domaine: `devin.ai`
-- Auteur/source: Devin
+- https://devin.ai/desktop](https://devin.ai/desktop
 
 ## A verifier
 

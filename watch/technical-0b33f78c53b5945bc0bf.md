@@ -10,6 +10,15 @@ actif
 
 Génère des résumés et alertes en Slack pour suivre les discussions.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -19,15 +28,6 @@ Génère des résumés et alertes en Slack pour suivre les discussions.
 - Fonctions : Automatiser des actions
 - Provenance : NotePlan Calendar
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

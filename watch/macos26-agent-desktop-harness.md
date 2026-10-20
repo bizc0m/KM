@@ -8,15 +8,6 @@ Veille Raindrop KM Monitor / agent desktop macOS et harness agentique.
 
 #application-bureau, #macos, #desktop-agent, #computer-use
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents domain.dev.desktop compatibility.interface.desktop compatibility.os.macos source.github
-- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel > Applications et interfaces de bureau
-- Compatibilités : Interfaces > Application de bureau ; Systèmes > macOS
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,8 +17,20 @@ Veille Raindrop KM Monitor / agent desktop macOS et harness agentique.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.dev.desktop compatibility.interface.desktop compatibility.os.macos risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel > Applications et interfaces de bureau
+- Compatibilités : Interfaces > Application de bureau ; Systèmes > macOS
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
-- Source finale : [https://github.com/macos26/agent](https://github.com/macos26/agent)
+
+- https://github.com/macos26/agent
+- https://github.com/macos26/agent](https://github.com/macos26/agent
 
 ## Metadata GitHub publique
 

@@ -12,6 +12,15 @@ actif
 
 Rédige et analyse du code avec des outils adaptés aux développeurs.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Rédige et analyse du code avec des outils adaptés aux développeurs.
 - Compatibilités : Systèmes > macOS ; Langages > Python
 - Provenance : NotePlan Calendar
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : macOS
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

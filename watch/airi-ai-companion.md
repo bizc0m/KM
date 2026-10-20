@@ -8,16 +8,6 @@
 
 #application-bureau, #ai-companion, #memoire-agents, #voice
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.memory domain.media.audio.voice capability.memory compatibility.interface.desktop source.github
-- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents ; Audio, vidéo et création > Audio > Voix
-- Fonctions : Conserver le contexte
-- Compatibilités : Interfaces > Application de bureau
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,12 +17,21 @@
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory domain.media.audio.voice capability.memory compatibility.interface.desktop risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents ; Audio, vidéo et création > Audio > Voix
+- Fonctions : Conserver le contexte
+- Compatibilités : Interfaces > Application de bureau
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
 
-- Source finale: [https://github.com/moeru-ai/airi](https://github.com/moeru-ai/airi)
-- Origine: archive NotePlan captures 2026, capture du 2026-08-07.
-- Domaine: `github.com`
-- Auteur/source: `moeru-ai`
+- https://github.com/moeru-ai/airi
+- https://github.com/moeru-ai/airi](https://github.com/moeru-ai/airi
 
 ## Topics GitHub
 

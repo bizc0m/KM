@@ -12,6 +12,15 @@ actif
 
 Planifier des tâches avec des marques pour afficher des points bleus dans le calendrier.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Planifier des tâches avec des marques pour afficher des points bleus dans le ca
 - Fonctions : Automatiser des actions > Planifier des tâches
 - Provenance : NotePlan Calendar
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

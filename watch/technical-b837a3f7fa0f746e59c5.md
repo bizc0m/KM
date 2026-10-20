@@ -12,15 +12,6 @@ actif
 
 Exécute des ordres de trading en temps réel sur des marchés de prédiction
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
-- Sujets : Analyse financière > Marchés prédictifs
-- Provenance : X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -29,6 +20,15 @@ Exécute des ordres de trading en temps réel sur des marchés de prédiction
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/HarrierOnChain/Fanatics-Markets
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
+- Sujets : Analyse financière > Marchés prédictifs
+- Provenance : X / Twitter ; GitHub
+- État : Actif
 
 ## Sources
 

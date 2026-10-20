@@ -8,15 +8,6 @@ Veille outils / scraping et extraction web.
 
 #extraction-web
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.data.web capability.scraping source.x
-- Sujets : Données et connaissances > Collecte web
-- Fonctions : Extraire des données web
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,8 +17,19 @@ Veille outils / scraping et extraction web.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.data.web capability.scraping source.x lifecycle.review
+- Sujets : Données et connaissances > Collecte web
+- Fonctions : Extraire des données web
+- Provenance : X / Twitter
+- État : À vérifier
+
 ## Sources
-- Source : [https://x.com/ecommartinez/status/2071360257906168143](https://x.com/ecommartinez/status/2071360257906168143)
+
+- https://x.com/ecommartinez/status/2071360257906168143](https://x.com/ecommartinez/status/2071360257906168143
 
 ## A verifier
 

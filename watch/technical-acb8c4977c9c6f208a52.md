@@ -10,15 +10,6 @@ actif
 
 Accéder aux ressources sur le désarmement et la sécurité internationale
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.unclassified source.noteplan lifecycle.active
-- Sujets : À qualifier
-- Provenance : NotePlan Calendar
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Accéder aux ressources sur le désarmement et la sécurité internationale
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.noteplan lifecycle.active
+- Sujets : À qualifier
+- Provenance : NotePlan Calendar
+- État : Actif
 
 ## Sources
 

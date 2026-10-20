@@ -12,6 +12,15 @@ actif
 
 Identifier automatiquement des vulnérabilités et générer des rapports exploitables.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/awarexone/Agentic-Bug-Hunter
+
 
 ## Ontologie
 
@@ -23,19 +32,10 @@ Identifier automatiquement des vulnérabilités et générer des rapports exploi
 - Provenance : Raindrop ; X / Twitter ; GitHub
 - État : Actif
 
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/awarexone/Agentic-Bug-Hunter
-
 ## Sources
 
+- https://github.com/awarexone/agentic-bug-hunter
 - https://x.com/7h3h4ckv157/status/2066569330280759720?s=12
-- https://github.com/awarexone/Agentic-Bug-Hunter
 
 ## Traçabilité
 

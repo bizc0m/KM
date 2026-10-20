@@ -6,21 +6,9 @@ actif
 
 ## Tags
 
-#generation-video
-
 ## Intérêts
 
 Intérêt à vérifier
-
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.media.audio domain.media.video domain.infrastructure capability.generate.video source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo ; Infrastructure
-- Fonctions : Générer des contenus > Générer une vidéo
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
 
 ## Métadonnées
 
@@ -30,6 +18,15 @@ Intérêt à vérifier
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/webtor-io/self-hosted
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.audio domain.media.video domain.infrastructure source.noteplan source.github source.x lifecycle.review
+- Sujets : Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo ; Infrastructure
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : À vérifier
 
 ## Sources
 
@@ -43,3 +40,31 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/webtor-io/self-hosted
+
+## Capacités documentées
+
+- Permet le streaming vidéo/audio sans téléchargement préalable
+- Génère des archives ZIP des torrents en temps réel
+- Intègre des sous-titres et traduction en temps réel
+- Supporte des formats vidéo et audio variés
+
+## Usages documentés
+
+- docker run -d -p 8080:8080 -v data:/data -v pgdata:/pgdata -v storage:/storage --name webtor --restart=always ghcr.io/webtor-io/self-hosted:latest
+
+## Limites
+
+- Requiert Docker
+- Nécessite un stockage pour /storage
+- Nécessite un accès à internet pour les API
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/webtor-io/self-hosted
+- Analyse source : 2026-10-19T23:06:57.213Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

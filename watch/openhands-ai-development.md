@@ -8,14 +8,6 @@ Veille outil IA / agent de developpement.
 
 #coding, #software-development
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents domain.dev source.github
-- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,8 +17,18 @@ Veille outil IA / agent de developpement.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.dev risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
-- Repo GitHub : `https://github.com/OpenHands/OpenHands`
+
+- https://github.com/openhands/openhands
 
 ## Metadata GitHub publique
 

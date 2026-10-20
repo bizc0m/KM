@@ -10,15 +10,6 @@ actif
 
 Rechercher et visionner des films et séries en ligne
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.media.video source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Rechercher et visionner des films et séries en ligne
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/justchokingaround/lobster
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.video source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 

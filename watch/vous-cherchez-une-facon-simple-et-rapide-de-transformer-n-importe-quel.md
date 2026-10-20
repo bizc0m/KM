@@ -8,16 +8,6 @@ Veille Raindrop KM Monitor.
 
 #conversion-web, #application-bureau, #claude, #skill
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.dev.web capability.web.desktop compatibility.interface.desktop compatibility.integration.claude-general source.x
-- Sujets : Développement logiciel > Développement web
-- Fonctions : Créer une application depuis un site
-- Compatibilités : Interfaces > Application de bureau ; Intégrations > Claude
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : Application bureau
@@ -27,8 +17,20 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.web capability.web.desktop compatibility.interface.desktop compatibility.integration.claude-general risk.sensitive source.x
+- Sujets : Développement logiciel > Développement web
+- Fonctions : Créer une application depuis un site
+- Compatibilités : Interfaces > Application de bureau ; Intégrations > Claude
+- Risques : Risque signalé
+- Provenance : X / Twitter
+
 ## Sources
-- Source : [https://x.com/sibyog13/status/2063609591485567189](https://x.com/sibyog13/status/2063609591485567189)
+
+- https://x.com/sibyog13/status/2063609591485567189](https://x.com/sibyog13/status/2063609591485567189
 
 ## A_VERIFIER
 

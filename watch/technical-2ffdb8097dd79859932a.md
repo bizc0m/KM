@@ -12,6 +12,15 @@ actif
 
 CloakBrowser permet de naviguer en mode discret, évitant la détection de bot.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ CloakBrowser permet de naviguer en mode discret, évitant la détection de bot.
 - Fonctions : Détecter les bots ; Conserver le contexte ; Étendre les compétences d’un agent
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 
@@ -45,7 +45,7 @@ CloakBrowser permet de naviguer en mode discret, évitant la détection de bot.
 - https://hub.docker.com/r/cloakhq/cloakbrowser
 - https://raw.githubusercontent.com/CloakHQ/CloakBrowser/main/dotnet/README.md
 - https://raw.githubusercontent.com/CloakHQ/CloakBrowser/main/CHANGELOG.md
-- https://cloakbrowser.dev
+- https://cloakbrowser.dev/
 - https://github.com/cloakhq/cloakbrowser/releases
 - https://github.com/cloakhq/cloakbrowser-manager
 - https://github.com/cloakhq/cloakbrowser/issues/96
@@ -74,7 +74,7 @@ CloakBrowser permet de naviguer en mode discret, évitant la détection de bot.
 - https://raw.githubusercontent.com/yikart/AiToEarn/main/README_EN.md
 - https://raw.githubusercontent.com/yikart/AiToEarn/main/README_JA.md
 - https://github.com/yikart/aitoearn/releases/tag/v2.5.0
-- https://docs.aitoearn.cn
+- https://docs.aitoearn.cn/
 - https://github.com/yikart/aitoearn/releases/tag/v2.4.0
 
 ## Traçabilité
@@ -282,6 +282,4 @@ Ce script Python teste la détection de navigateurs headless et de fingerprints 
 
 Source : https://raw.githubusercontent.com/CloakHQ/CloakBrowser/main/examples/fingerprint_scan_test.py ; niveau 2.
 
-### Test de fuite de CloakBrowser
-
-Ce script JavaScript teste la capacité de CloakBrowser à passer des tests de détection de bots en utilisant des services
+### T

@@ -12,17 +12,6 @@ actif
 
 Convertir des fichiers en markdown et générer des documents HTML ou DOCX.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.media.audio domain.media.image domain.data.documents capability.generate.image capability.documents.convert compatibility.format.pdf source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Audio ; Audio, vidéo et création > Images et graphisme ; Données et connaissances > Documents
-- Fonctions : Générer des contenus > Générer une image ; Traiter des documents > Convertir des documents
-- Compatibilités : Formats > PDF
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -31,6 +20,17 @@ Convertir des fichiers en markdown et générer des documents HTML ou DOCX.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/alchaincyf/huashu-md-html
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.audio domain.media.image domain.data.documents capability.documents.convert capability.generate.image compatibility.format.pdf source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Audio ; Audio, vidéo et création > Images et graphisme ; Données et connaissances > Documents
+- Fonctions : Traiter des documents > Convertir des documents ; Générer des contenus > Générer une image
+- Compatibilités : Formats > PDF
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -42,5 +42,5 @@ Convertir des fichiers en markdown et générer des documents HTML ou DOCX.
 - Origine : NotePlan
 - Identifiant source : 02e627709adedd541e23b00b2de29f2f6ddcd361334e432a8acb6ffef0827533
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

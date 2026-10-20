@@ -12,15 +12,6 @@
 
 Analyser un texte en une passe pour identifier des décisions typées.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.unclassified risk.offensive source.raindrop source.github
-- Sujets : À qualifier
-- Risques : Usage offensif explicite
-- Provenance : Raindrop ; GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -30,9 +21,18 @@ Analyser un texte en une passe pour identifier des décisions typées.
 - Accès : À vérifier
 - Preuve : https://github.com/NandhaKishorM/laya
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified risk.offensive source.raindrop source.github
+- Sujets : À qualifier
+- Risques : Usage offensif explicite
+- Provenance : Raindrop ; GitHub
+
 ## Sources
 
-- https://github.com/NandhaKishorM/laya
+- https://github.com/nandhakishorm/laya
 
 ## Traçabilité
 

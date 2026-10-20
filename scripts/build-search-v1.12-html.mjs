@@ -1,3 +1,6 @@
+import {correctedResource} from './km-verified-resources.mjs';
+import {detailParts} from './km-detail-content.mjs';
+import {sourceRoles} from './km-source-roles.mjs';
 import {labelInfo} from './km-labels.mjs';
 import {cardTitle,cardInterest} from './km-card-presentation.mjs';
 import { mkdirSync, readdirSync, readFileSync, writeFileSync, statSync } from "node:fs";
@@ -172,7 +175,7 @@ function integrationDate(content) {
     || first(content, /(\d{4}-\d{2}-\d{2})/);
 }
 
-function publicGithub(content) {
+function legacyPublicGithub(content) {
   const urls = [...content.matchAll(/https:\/\/github\.com\/[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+/g)].map((m) => m[0]);
   return urls.find((url) => !/github\.com\/bizc0m\//i.test(url)) || "";
 }
@@ -215,7 +218,6 @@ function publicSources(content) {
       const canonical = canonicalSourceUrl(url);
       return !seen.has(canonical) && seen.add(canonical);
     })
-    .slice(0, 8)
     .map((url) => ({
       url,
       kind: /(?:^|\/\/)(?:www\.)?(?:x|twitter)\.com\//i.test(url) ? "social" : /github\.com\/[^/]+\/[^/]+/i.test(url) ? "github" : "source",
@@ -315,7 +317,7 @@ function githubTopicsFrom(content) {
 
 function itemFrom(file) {
   const path = relative(root, file);
-  const content = readFileSync(file, "utf8");
+  const content = correctedResource(readFileSync(file, "utf8"));
   if (blocked(path + '\n' + content) || !technicalSignal(content)) return null;
   const folder = folderMeta(path);
   if (privatePublicExcludedPaths.has(path)) return null;
@@ -334,7 +336,7 @@ function itemFrom(file) {
   tags = preciseTags({title,evidence:tagEvidence(content),existing:tags});
   const raw = publicDetail(content);
   const type = section(content, "Type");
-  const summary = section(content, "Intérêts") || section(content, "Résumé") || section(content, "Ce que ça fait") || englishSummary(title, typeSummary(type), section(content, "Role"));
+  const summary = section(content, "Intérêts") || section(content, "Résumé") || section(content, "Ce que ça fait") || "";
   const kmUsage = usageSummary(section(content, "Usage KM") || section(content, "Usage"));
   const folderFallback = validTheme(folderThemeDefaults[folder.id]) || validTheme(folderThemeDefaults[folder.path]) || "tool";
   const theme = validTheme(fileThemeOverrides[path]) || themeOf(title, tags, section(content, "Type"), folderFallback);
@@ -354,8 +356,9 @@ function itemFrom(file) {
     path,
     repoUrl: `https://github.com/bizc0m/KM/blob/${githubRef}/${path}`,
     sourceUrl: publicSourceUrl(content),
-    sources: publicSources(content),
-    github: publicGithub(content),
+    sources: sourceRoles(content).sources,
+    github: sourceRoles(content).github,
+    officialSite: sourceRoles(content).officialSite,
     githubTopics: githubTopicsFrom(content),
     summary,
     kmUsage,
@@ -375,7 +378,7 @@ const files = [
   ...includeDirs.flatMap((dir) => walk(join(root, dir)))
 ].filter((file) => indexedPaths.has(relative(root, file)));
 const dateValue = (item) => Date.parse(item.integratedAt || "") || 0;
-const index = files.map(itemFrom).filter(Boolean).map(item=>({...item,keywords:cardKeywords(item),cardTitle:cardTitle(item),cardInterest:cardInterest(item)})).sort((a, b) =>
+const index = files.map(itemFrom).filter(Boolean).map(item=>{const primary=(item.classification?.facets.domain||[]).map(id=>item.concepts.find(c=>c.id===id)).filter(Boolean).sort((a,b)=>b.path.length-a.path.length)[0];return {...item,theme:conceptColor(primary?.id||''),themeLabel:primary?.label||'À qualifier',keywords:cardKeywords(item),cardTitle:cardTitle(item),cardInterest:cardInterest(item),detail:detailParts(item.raw)}}).sort((a, b) =>
   dateValue(b) - dateValue(a) || (a.canonical || a.title).localeCompare(b.canonical || b.title)
 );
 const latestIndexedDate = index
@@ -529,6 +532,7 @@ const KM_CONFIG=${JSON.stringify({
   folders: folderConfigs.map(({ id, label, role, publishable, shareable }) => ({ id, label, role, publishable, shareable })),
   redirects: ontology.redirects || {},
   labels: Object.fromEntries([...new Set([...ontology.concepts.map(c=>c.label),...index.flatMap(i=>i.tags),...Object.keys(resourceTaxonomy.nature),...Object.values(resourceTaxonomy.nature).flat()])].map(v=>[v,labelInfo(v)])),
+  ficheRedirects: Object.fromEntries(Object.entries(JSON.parse(statSync(join(root,'km.fiche-redirects.json'),{throwIfNoEntry:false})?readFileSync(join(root,'km.fiche-redirects.json'),'utf8'):'{}')).map(([from,to])=>[from.replace(/[^a-z0-9]+/gi,'-').replace(/^-|-$/g,''),to.replace(/[^a-z0-9]+/gi,'-').replace(/^-|-$/g,'')])),
   conceptColors: Object.fromEntries(ontology.concepts.map(c=>[c.id,conceptColor(c.id)])),
   keywordColors: Object.fromEntries([...new Set(index.flatMap(item=>[...item.tags,...(item.githubTopics||[])]))].map(tag=>[tag.replace(/^#/,""),keywordColor(tag)])),
   themes: themeConfigs.map(({ id, label }) => ({ id, label })),
@@ -601,9 +605,9 @@ function topicsLine(item,limit){const chips=topicChips(item,limit);return chips?
 function statusBadge(item){return item.status==="#ROUGE"?tagButton(statusLabel(item.status),statusClass(item.status)):""}
 function cardGithubUrl(item){return item.github||(item.sources||[]).find(source=>source.kind==="github")?.url||""}
 function isRaindropUrl(url){const value=norm(url);return value.includes("raindrop.page/")||value.includes("raindrop.io/")}
-function cardWebSource(item){return (item.sources||[]).find(source=>source.kind!=="github"&&source.kind!=="social"&&!isRaindropUrl(source.url))||null}
+function cardWebSource(item){return (item.sources||[]).find(source=>source.role==="officialSite")||null}
 function cardOriginSources(item,webSource){const seen=new Set();const webKey=webSource?norm(webSource.url).replace(/\\/$/,""):"";return (item.sources||[]).filter(source=>source.kind!=="github").filter(source=>{const key=norm(source.url).replace(/\\/$/,"");if(!source.url||key===webKey||seen.has(key))return false;seen.add(key);return true})}
-function cardPrimaryLinks(item){const github=cardGithubUrl(item);const webSource=cardWebSource(item);const githubChip=github?'<a class="tag github-link" href="'+esc(github)+'" target="_blank" rel="noopener noreferrer">GitHub</a>':"";const webChip=webSource?'<a class="tag product-link" href="'+esc(webSource.url)+'" target="_blank" rel="noopener noreferrer">Site</a>':"";const origins=cardOriginSources(item,webSource);const source=origins.find(s=>s.kind==="social")||origins[0];const originChip=source?'<a class="tag origin-link" href="'+esc(source.url)+'" target="_blank" rel="noopener noreferrer">Source</a>':"";return '<div class="source-strip card-primary-strip title-links">'+githubChip+webChip+originChip+'</div>'}
+function cardPrimaryLinks(item){const github=cardGithubUrl(item);const webSource=cardWebSource(item);const githubChip=github?'<a class="tag github-link" href="'+esc(github)+'" target="_blank" rel="noopener noreferrer">GitHub</a>':"";const webChip=webSource?'<a class="tag product-link" href="'+esc(webSource.url)+'" target="_blank" rel="noopener noreferrer">Site</a>':"";const origins=cardOriginSources(item,webSource);const source=origins.find(s=>s.role==="originPost")||null;const originChip=source?'<a class="tag origin-link" href="'+esc(source.url)+'" target="_blank" rel="noopener noreferrer">Source</a>':"";return '<div class="source-strip card-primary-strip title-links">'+githubChip+webChip+originChip+'</div>'}
 function cardFact(item){return item.cardInterest||""}
 function cardInfoLines(item){const desc=cardFact(item);return desc?'<div class="card-description-strip"><span class="card-description">'+highlight(desc)+'</span></div>':""}
 function cardActions(item){return""}
@@ -612,7 +616,9 @@ function renderFeed(){const rows=filteredItems();if(!rows.some(i=>i.id===activeI
 function editUrl(item){return "http://127.0.0.1:8767/edit?path="+encodeURIComponent(item.path)}
 async function archiveActive(){const item=activeItem();if(!item||!confirm("Archiver cette fiche ?"))return;const res=await fetch("http://127.0.0.1:8767/api/archive-fiche",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({path:item.path})});const json=await res.json();if(!json.ok){toast(json.error||"Archive impossible");return}toast("Fiche archivee");setTimeout(()=>location.reload(),900)}
 function ficheBodyMarkdown(item){return String(item.raw||"").replace(/\\n## Sources?[^\\n]*\\n+[\\s\\S]*?(?=\\n## |$)/gi,"").replace(/\\n## Type[^\\n]*\\n+[\\s\\S]*?(?=\\n## |$)/gi,"")}
-function renderDetail(){const item=activeItem();if(!item)return;byId("detail").innerHTML='<section class="detail-title"><span class="eyebrow">Fiche</span><div class="titleline"><h1>'+esc(item.title)+'</h1></div><div class="source-strip"><span>'+esc(item.integratedAt||"date n/a")+'</span><span>'+esc(item.path)+'</span><span>'+esc(item.themeLabel)+'</span></div>'+resourceLine(item)+'<div class="source-strip">'+sourceButtons(item,'tag')+'</div>'+topicsLine(item,24)+functionTagsLine(item,16)+'<div class="detail-actions"><button class="btn dark" id="toggleFiche">Toutes les fiches</button><a class="btn" href="'+esc(editUrl(item))+'">Modifier</a><button class="btn" id="archiveActive">Archiver</button><a class="btn" href="'+esc(item.path)+'" target="_blank" rel="noopener noreferrer">Ouvrir .md</a><button class="btn" id="copyActive">Copier MD</button></div></section><section class="detail-body">'+markdown(ficheBodyMarkdown(item))+'</section>'}
+function detailMetadata(item){const r=item.resource;const entries=[["Nature",r.nature],["OS",r.os.join(" · ")],["Licence du code",r.license],["Prix",r.pricing],["Accès",r.access.join(" · ")]];const known=entries.filter(([,v])=>v&&v!=="À vérifier"),unknown=entries.filter(([,v])=>!v||v==="À vérifier");return '<section class="detail-body"><h2>Informations</h2>'+known.map(([label,value])=>'<p><b>'+esc(label)+' :</b> '+esc(value)+'</p>').join("")+(unknown.length?'<details><summary>Informations à qualifier ('+unknown.length+')</summary><p>'+esc(unknown.map(([label])=>label).join(" · "))+'</p></details>':"")+'</section>'}
+function allSourceLinks(item){return '<details class="detail-body"><summary>Sources ('+(item.sources||[]).length+')</summary><ul>'+(item.sources||[]).map(s=>'<li><b>'+esc(s.label)+' :</b> <a href="'+esc(s.url)+'" target="_blank" rel="noopener noreferrer">'+esc(s.url)+'</a></li>').join("")+'</ul></details>'}
+function renderDetail(){const item=activeItem();if(!item)return;byId("detail").innerHTML='<section class="detail-title"><span class="eyebrow">Fiche</span><div class="titleline"><h1>'+esc(item.cardTitle||item.title)+'</h1></div>'+cardInfoLines(item)+cardPrimaryLinks(item)+functionTagsLine(item,16)+'<div class="detail-actions"><button class="btn dark" id="toggleFiche">Toutes les fiches</button><details><summary>Actions</summary><a class="btn" href="'+esc(editUrl(item))+'">Modifier</a><button class="btn" id="archiveActive">Archiver</button><a class="btn" href="'+esc(item.path)+'" target="_blank" rel="noopener noreferrer">Ouvrir .md</a><button class="btn" id="copyActive">Copier MD</button></details></div></section>'+(item.detail?.body?'<section class="detail-body">'+markdown(item.detail.body)+'</section>':"")+detailMetadata(item)+allSourceLinks(item)+'<details class="detail-body"><summary>Détails techniques</summary><p>'+esc(item.title)+'</p><p>'+esc(item.path)+' · '+esc(item.integratedAt||"")+'</p>'+markdown(item.detail?.technical||"")+'</details>'}
 function itemMarkdown(item){return "## "+item.title+"\\n\\n- Type: "+item.type+"\\n\\n"+(item.raw||item.summary)+"\\n"}
 function exportMarkdown(items){const rows=items.length?items:[activeItem()];const chapter=rows.map(item=>"- "+item.title+(item.summary?" : "+item.summary.replace(/\\s+/g," ").trim():"")).join("\\n");return "# ${dashboardName} export\\n\\n## Chapitrage\\n\\n"+chapter+"\\n\\n## Fiches\\n\\n"+rows.map(itemMarkdown).join("\\n")}
 function download(name,text,type){const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([text],{type:type||"text/plain"}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500)}
@@ -627,7 +633,7 @@ function setFicheCollapsed(collapsed){byId("workspace").classList.toggle("fiche-
 function resetHomeState(){["natureFilter","osFilter","licenseFilter","pricingFilter","accessFilter","subjectFilter","capabilityFilter","compatibilityFilter"].forEach(id=>byId(id).value="all");topic="Tous";byId("search").value="";byId("tagFilter").value="";byId("sort").value="date";byId("statusFilter").value="all";byId("folderFilter").value="all";byId("themeFilter").value="all";byId("conceptFilter").value="all";activeId=KM_INDEX[0]?.id||"";setFicheCollapsed(true);renderAll();byId("search").focus()}
 function goHome(){history.pushState(null,"",baseUrl());resetHomeState();toast("Accueil KM")}
 function toggleSelection(id){selected.has(id)?selected.delete(id):selected.add(id);saveSelection();renderAll()}
-function applyHashState(){applyingHash=true;try{facetOptions();["natureFilter","osFilter","licenseFilter","pricingFilter","accessFilter","subjectFilter","capabilityFilter","compatibilityFilter"].forEach(id=>byId(id).value="all");const raw=location.hash.replace(/^#/,"");if(!raw){resetHomeState();return}if(raw.startsWith("/tag/")){let slug=raw.slice(5);if(slug.endsWith("+"))slug=slug.slice(0,-1);topic="Tous";byId("search").value="";byId("tagFilter").value=decodeSearchSlug(slug);byId("sort").value="date";byId("statusFilter").value="all";byId("folderFilter").value="all";byId("themeFilter").value="all";byId("conceptFilter").value="all";setFicheCollapsed(true);renderAll();return}if(raw.startsWith("/")){let slug=raw.slice(1);if(slug.endsWith("+"))slug=slug.slice(0,-1);topic="Tous";byId("search").value=decodeSearchSlug(slug);byId("tagFilter").value="";byId("sort").value="date";byId("statusFilter").value="all";byId("folderFilter").value="all";byId("themeFilter").value="all";byId("conceptFilter").value="all";setFicheCollapsed(true);renderAll();return}const hash=new URLSearchParams(raw);for(const [id,key] of [["natureFilter","nature"],["osFilter","os"],["licenseFilter","license"],["pricingFilter","pricing"],["accessFilter","access"],["subjectFilter","subject"],["capabilityFilter","function"],["compatibilityFilter","compatibility"]])byId(id).value=hash.get(key)||"all";if(hash.get("q")!==null)byId("search").value=hash.get("q")||"";if(hash.get("status"))byId("statusFilter").value=hash.get("status");if(hash.get("tag")!==null)byId("tagFilter").value=hash.get("tag")||"";if(hash.get("view"))topic=hash.get("view");if(hash.get("sort"))byId("sort").value=hash.get("sort");renderFilters();if(hash.get("folder"))byId("folderFilter").value=hash.get("folder");if(hash.get("theme"))byId("themeFilter").value=hash.get("theme");if(hash.get("concept"))byId("conceptFilter").value=KM_CONFIG.redirects[hash.get("concept")]||hash.get("concept");if(hash.get("fiche")&&KM_INDEX.some(i=>i.id===hash.get("fiche"))){activeId=hash.get("fiche");setFicheCollapsed(false)}else setFicheCollapsed(true);renderAll()}finally{applyingHash=false}}
+function applyHashState(){applyingHash=true;try{facetOptions();["natureFilter","osFilter","licenseFilter","pricingFilter","accessFilter","subjectFilter","capabilityFilter","compatibilityFilter"].forEach(id=>byId(id).value="all");const raw=location.hash.replace(/^#/,"");if(!raw){resetHomeState();return}if(raw.startsWith("/tag/")){let slug=raw.slice(5);if(slug.endsWith("+"))slug=slug.slice(0,-1);topic="Tous";byId("search").value="";byId("tagFilter").value=decodeSearchSlug(slug);byId("sort").value="date";byId("statusFilter").value="all";byId("folderFilter").value="all";byId("themeFilter").value="all";byId("conceptFilter").value="all";setFicheCollapsed(true);renderAll();return}if(raw.startsWith("/")){let slug=raw.slice(1);if(slug.endsWith("+"))slug=slug.slice(0,-1);topic="Tous";byId("search").value=decodeSearchSlug(slug);byId("tagFilter").value="";byId("sort").value="date";byId("statusFilter").value="all";byId("folderFilter").value="all";byId("themeFilter").value="all";byId("conceptFilter").value="all";setFicheCollapsed(true);renderAll();return}const hash=new URLSearchParams(raw);if(KM_CONFIG.ficheRedirects[hash.get("fiche")])hash.set("fiche",KM_CONFIG.ficheRedirects[hash.get("fiche")]);for(const [id,key] of [["natureFilter","nature"],["osFilter","os"],["licenseFilter","license"],["pricingFilter","pricing"],["accessFilter","access"],["subjectFilter","subject"],["capabilityFilter","function"],["compatibilityFilter","compatibility"]])byId(id).value=hash.get(key)||"all";if(hash.get("q")!==null)byId("search").value=hash.get("q")||"";if(hash.get("status"))byId("statusFilter").value=hash.get("status");if(hash.get("tag")!==null)byId("tagFilter").value=hash.get("tag")||"";if(hash.get("view"))topic=hash.get("view");if(hash.get("sort"))byId("sort").value=hash.get("sort");renderFilters();if(hash.get("folder"))byId("folderFilter").value=hash.get("folder");if(hash.get("theme"))byId("themeFilter").value=hash.get("theme");if(hash.get("concept"))byId("conceptFilter").value=KM_CONFIG.redirects[hash.get("concept")]||hash.get("concept");if(hash.get("fiche")&&KM_INDEX.some(i=>i.id===hash.get("fiche"))){activeId=hash.get("fiche");setFicheCollapsed(false)}else setFicheCollapsed(true);renderAll()}finally{applyingHash=false}}
 document.addEventListener("click",e=>{if(e.target.id==="toggleFiche"||e.target.id==="toggleFicheHeader"||e.target.id==="toggleFicheTop"){const collapsed=!byId("workspace").classList.contains("fiche-collapsed");setFicheCollapsed(collapsed);renderAll();toast(collapsed?"Liste affichee":"Fiche ouverte");return}if(e.target.id==="openFiche"){setFicheCollapsed(false);renderAll();toast("Fiche ouverte");return}const subjectBtn=e.target.closest('[data-action="subject"]');if(subjectBtn){byId("subjectFilter").value=subjectBtn.dataset.subject;renderAll();return}const tagBtn=e.target.closest('[data-action="tag"]');if(tagBtn){topic="Tous";byId("search").value="";byId("tagFilter").value=tagBtn.dataset.tag||"";setFicheCollapsed(true);renderAll();toast("Vue: "+(tagBtn.dataset.tag||""));return}const topicBtn=e.target.closest(".topic");if(topicBtn){topic=topicBtn.dataset.topic;byId("tagFilter").value="";byId("search").value="";setFicheCollapsed(true);renderAll();return}const card=e.target.closest(".news-card");if(card&&e.target.dataset.action==="select"){toggleSelection(card.dataset.id);return}if(card&&(e.target.dataset.action==="open"||!e.target.closest("a,button,.check"))){activeId=card.dataset.id;setFicheCollapsed(false);renderAll();return}if(e.target.id==="archiveActive"){archiveActive();return}if(e.target.id==="copyActive"){copy(itemMarkdown(activeItem())).then(()=>toast("Fiche active copiee"));return}if(e.target.id==="selectActive"){toggleSelection(activeItem().id);return}});
 ["search","sort","statusFilter","folderFilter","themeFilter","conceptFilter","tagFilter","natureFilter","osFilter","licenseFilter","pricingFilter","accessFilter","subjectFilter","capabilityFilter","compatibilityFilter"].forEach(id=>["input","change","search","keyup"].forEach(evt=>byId(id).addEventListener(evt,renderAll)));
 byId("clearSearch").onclick=()=>{["natureFilter","osFilter","licenseFilter","pricingFilter","accessFilter","subjectFilter","capabilityFilter","compatibilityFilter"].forEach(id=>byId(id).value="all");byId("search").value="";byId("tagFilter").value="";renderAll();byId("search").focus()};

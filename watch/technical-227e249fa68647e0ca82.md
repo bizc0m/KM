@@ -10,15 +10,6 @@ actif
 
 Convertir les appels API Anthropic en format NVIDIA NIM
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.coding source.noteplan source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement
-- Provenance : NotePlan Calendar ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Convertir les appels API Anthropic en format NVIDIA NIM
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding source.noteplan source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement
+- Provenance : NotePlan Calendar ; X / Twitter
+- État : Actif
 
 ## Sources
 

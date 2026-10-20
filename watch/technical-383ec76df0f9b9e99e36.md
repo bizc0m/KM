@@ -12,6 +12,15 @@ actif
 
 Génère des propositions de forme 3D pour segmenter des objets dans un nuage de points.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/ericyi/GSPN
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Génère des propositions de forme 3D pour segmenter des objets dans un nuage de
 - Fonctions : Générer des contenus > Générer un objet 3D
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/ericyi/GSPN
 
 ## Sources
 
@@ -43,3 +43,36 @@ Génère des propositions de forme 3D pour segmenter des objets dans un nuage de
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/ericyi/gspn
+
+## Capacités documentées
+
+- GSPN propose des formes génératives pour la segmentation d'instances 3D.
+- GSPN est intégré à R-PointNet pour la détection d'instances.
+- Le dépôt fournit des codes et modèles pré-entraînés pour GSPN et R-PointNet.
+- L'entraînement se fait en deux étapes avec des données de ScanNet.
+
+## Usages documentés
+
+- Compilé les opérateurs TensorFlow.
+- Prétraitement des données ScanNet.
+- Entraînement séparé de GSPN et R-PointNet.
+- Évaluation sur l'ensemble de validation.
+- Calcul des métriques avec le benchmark ScanNet.
+
+## Limites
+
+- Dépend du jeu de données ScanNet.
+- Requiert des ressources de calcul.
+- Nécessite une configuration spécifique.
+- Compatibilité limitée aux environnements TensorFlow.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/ericyi/gspn
+- Analyse source : 2026-10-19T20:31:57.859Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

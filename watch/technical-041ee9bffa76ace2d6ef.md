@@ -12,6 +12,15 @@ actif
 
 Crée un micro-drama vidéo à partir d'une idée
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Anil-matcha/Open-AI-Micro-Drama-Generator
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Crée un micro-drama vidéo à partir d'une idée
 - Fonctions : Générer des contenus > Générer une vidéo ; Automatiser des actions > Coordonner des agents
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Non précisée
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/Anil-matcha/Open-AI-Micro-Drama-Generator
 
 ## Sources
 
@@ -43,3 +43,35 @@ Crée un micro-drama vidéo à partir d'une idée
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/anil-matcha/open-ai-micro-drama-generator
+
+## Capacités documentées
+
+- Transforme une idée en micro-drama complet
+- Utilise un pipeline multi-agent pour la création
+- Génère des scènes, storyboard et vidéos
+- Intègre des modèles MuAPI pour la création visuelle
+
+## Usages documentés
+
+- Cloner le dépôt
+- Configurer le serveur avec un API key MuAPI
+- Démarrer le serveur
+- Configurer le client
+- Générer un micro-drama
+
+## Limites
+
+- Requiert Python 3.10+
+- Requiert Node.js 18+
+- Requiert un API key MuAPI
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/anil-matcha/open-ai-micro-drama-generator
+- Analyse source : 2026-10-20T07:40:16.556Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

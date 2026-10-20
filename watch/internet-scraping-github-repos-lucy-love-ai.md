@@ -8,15 +8,6 @@ Veille outils / scraping et extraction web.
 
 #extraction-web
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai domain.data.web capability.scraping source.x source.github
-- Sujets : Intelligence artificielle ; Données et connaissances > Collecte web
-- Fonctions : Extraire des données web
-- Provenance : X / Twitter ; GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,9 +17,20 @@ Veille outils / scraping et extraction web.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.data.web capability.scraping risk.sensitive source.x source.github
+- Sujets : Intelligence artificielle ; Données et connaissances > Collecte web
+- Fonctions : Extraire des données web
+- Risques : Risque signalé
+- Provenance : X / Twitter ; GitHub
+
 ## Sources
-- Source : [https://x.com/lucy_love_ai/status/2071040656634732984](https://x.com/lucy_love_ai/status/2071040656634732984)
-- Lien court resolu partiellement : `https://github.com/firecrawl/firecrawl`
+
+- https://x.com/lucy_love_ai/status/2071040656634732984](https://x.com/lucy_love_ai/status/2071040656634732984
+- https://github.com/firecrawl/firecrawl
 
 ## Metadata GitHub publique
 

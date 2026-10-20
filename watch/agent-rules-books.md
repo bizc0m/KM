@@ -8,16 +8,6 @@ regles AGENTS.md et skills pour agents de code.
 
 #agents-code, #skills-agents, #agents-md, #codex
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.ai.agents.skills domain.ai.agents.integration capability.code.assist capability.skills compatibility.integration.codex source.github
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
-- Fonctions : Assister le développement ; Étendre les compétences d’un agent
-- Compatibilités : Intégrations > Codex
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,12 +17,21 @@ regles AGENTS.md et skills pour agents de code.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.ai.agents.skills domain.ai.agents.integration capability.code.assist capability.skills compatibility.integration.codex risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
+- Fonctions : Assister le développement ; Étendre les compétences d’un agent
+- Compatibilités : Intégrations > Codex
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
 
-- Source finale: [https://github.com/ciembor/agent-rules-books](https://github.com/ciembor/agent-rules-books)
-- Origine: archive NotePlan captures 2026, capture du 2026-05-27.
-- Domaine: `github.com`
-- Auteur/source: `ciembor`
+- https://github.com/ciembor/agent-rules-books
+- https://github.com/ciembor/agent-rules-books](https://github.com/ciembor/agent-rules-books
 
 ## Topics GitHub
 

@@ -12,6 +12,15 @@ actif
 
 Analyse de site pour identifier les problèmes SEO
 
+## Métadonnées
+
+- Nature : Extension / plugin
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/nowork-studio/notfair-plugin
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Analyse de site pour identifier les problèmes SEO
 - Fonctions : Automatiser des actions > Publier sur plusieurs réseaux
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : Extension / plugin
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/nowork-studio/notfair-plugin
 
 ## Sources
 
@@ -43,3 +43,27 @@ Analyse de site pour identifier les problèmes SEO
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/nowork-studio/notfair-plugin
+
+## Capacités documentées
+
+- Analyse de site et de pages pour optimiser le référencement
+- Audit de campagnes publicitaires sur plusieurs plateformes
+- Génération de contenu SEO et optimisation de balises meta
+- Suivi et analyse de données GA4 et Search Console
+
+## Usages documentés
+
+- /notfair:seo-analysis
+- /notfair:geo-optimizer
+- /notfair:google-ads-audit
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/nowork-studio/notfair-plugin
+- Analyse source : 2026-10-19T19:20:40.954Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

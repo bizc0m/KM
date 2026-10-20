@@ -12,6 +12,15 @@ actif
 
 Recherche d'informations sur un utilisateur via son nom d'utilisateur.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/soxoj/maigret
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Recherche d'informations sur un utilisateur via son nom d'utilisateur.
 - Compatibilités : Formats > PDF
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/soxoj/maigret
 
 ## Sources
 

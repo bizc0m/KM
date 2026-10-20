@@ -12,15 +12,6 @@ actif
 
 Le bot gère les ordres et ajuste les prix.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
-- Sujets : Analyse financière > Marchés prédictifs
-- Provenance : X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -29,6 +20,15 @@ Le bot gère les ordres et ajuste les prix.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/lihanyu81/polymarket_lp_tool
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
+- Sujets : Analyse financière > Marchés prédictifs
+- Provenance : X / Twitter ; GitHub
+- État : Actif
 
 ## Sources
 

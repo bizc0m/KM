@@ -12,6 +12,15 @@ actif
 
 Génère des codes et corrige les erreurs dans un projet.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/cline/cline
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Génère des codes et corrige les erreurs dans un projet.
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Apache-2.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/cline/cline
 
 ## Sources
 
@@ -46,3 +46,31 @@ Génère des codes et corrige les erreurs dans un projet.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/cline/cline
+
+## Capacités documentées
+
+- Permet d'éditer du code avec des modifications coordonnées
+- Exécute des commandes bash en temps réel
+- Fournit un plan d'action et exécute des tâches
+- Supporte divers modèles d'IA via des fournisseurs
+
+## Usages documentés
+
+- npm i -g cline
+- cline "Run tests and fix any failures"
+
+## Limites
+
+- Requiert des outils spécifiques pour chaque plateforme
+- Nécessite des configurations spécifiques pour chaque fournisseur d'IA
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/cline/cline
+- Analyse source : 2026-10-19T21:00:15.195Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

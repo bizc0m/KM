@@ -8,15 +8,6 @@ archive KM / captures NotePlan.
 
 #noteplan, #capture, #archive, #macos
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.unclassified capability.notes.capture compatibility.integration.noteplan compatibility.os.macos
-- Sujets : À qualifier
-- Fonctions : Capturer des notes
-- Compatibilités : Intégrations > NotePlan ; Systèmes > macOS
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,11 +17,42 @@ archive KM / captures NotePlan.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified capability.notes.capture compatibility.integration.noteplan compatibility.os.macos lifecycle.review
+- Sujets : À qualifier
+- Fonctions : Capturer des notes
+- Compatibilités : Intégrations > NotePlan ; Systèmes > macOS
+- État : À vérifier
+
 ## Sources
 
-- Origine: scan local NotePlan en lecture seule, notes calendrier `2026-01-01` a `2026-09-09`.
-- Perimetre: lignes publiques avec URL, tags `#capture`, `#KM`, `#DEV`, ou signal veille.
-- Exclusions: conversations privees, liens locaux, IP, emails, tokens, chemins personnels, plateformes sociales sans contexte exploitable.
+- https://github.com/yuuichieguchi/Calyx
+- https://github.com/tw93/Pake
+- https://github.com/CopilotKit/openbot
+- https://github.com/espanso/espanso
+- https://github.com/mifi/lossless-cut
+- https://usetype.app/obsidian-quick-capture
+- https://devin.ai/desktop
+- https://skills.rest/
+- https://github.com/exeldro/obs-shaderfilter
+- https://github.com/game-stop/veejay
+- https://github.com/kniessner/openvj
+- https://github.com/TIGER-AI-Lab/AnyV2V
+- https://github.com/ali-vilab/VACE
+- https://github.com/showlab/Kiwi-Edit
+- https://github.com/showlab/VISTA
+- https://github.com/moeru-ai/airi
+- https://github.com/AlanY1an/echovessel
+- https://github.com/virgiliojr94/book-to-skill
+- https://github.com/ciembor/agent-rules-books
+- https://github.com/alejandro-ao/skills/blob/main/skills/hermes-vps-setup/SKILL.md
+- https://github.com/lissy93/web-check
+- https://github.com/elementalsouls/Claude-OSINT
+- https://hackers-arise.com/adaptixc2-a-free-alternative-to-cobalt-strike
+- https://github.com/BigBodyCobain/Shadowbroker
 
 ## Candidats prioritaires
 

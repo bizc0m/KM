@@ -10,15 +10,6 @@ actif
 
 Intérêt à vérifier
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.infrastructure source.noteplan lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Infrastructure
-- Provenance : NotePlan Calendar
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Intérêt à vérifier
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.infrastructure source.noteplan lifecycle.review
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Infrastructure
+- Provenance : NotePlan Calendar
+- État : À vérifier
 
 ## Sources
 

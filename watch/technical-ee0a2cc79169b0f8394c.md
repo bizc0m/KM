@@ -12,6 +12,15 @@ actif
 
 Lecture de fichiers audio et vidéo sans logiciel propriétaire. Supporte formats courants.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/onmyway133/awesome-open-source-mac-apps
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Lecture de fichiers audio et vidéo sans logiciel propriétaire. Supporte format
 - Compatibilités : Systèmes > macOS ; Interfaces > Terminal
 - Provenance : Raindrop ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : macOS
-- Licence : Non précisée
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/onmyway133/awesome-open-source-mac-apps
 
 ## Sources
 

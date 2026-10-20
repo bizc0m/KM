@@ -10,15 +10,6 @@ actif
 
 Génère des messages ciblés pour des campagnes marketing. Augmente la conversion des leads.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.unclassified source.raindrop source.x source.github lifecycle.active
-- Sujets : À qualifier
-- Provenance : Raindrop ; X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Génère des messages ciblés pour des campagnes marketing. Augmente la conversi
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/AICMO/AiCMO-Marketing-Prompt-Collection
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.raindrop source.x source.github lifecycle.active
+- Sujets : À qualifier
+- Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
 
 ## Sources
 

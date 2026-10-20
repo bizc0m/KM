@@ -10,15 +10,6 @@ actif
 
 Ajouter des rôles d'agents pour des conseils spécialisés.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents source.noteplan source.x source.github lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA
-- Provenance : NotePlan Calendar ; X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -28,12 +19,20 @@ Ajouter des rôles d'agents pour des conseils spécialisés.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding source.noteplan source.x source.github lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement
+- Provenance : NotePlan Calendar ; X / Twitter ; GitHub
+- État : Actif
+
 ## Sources
 
 - https://x.com/i/status/2056188353490595903
 - https://github.com/msitarzewski/agency-agents-app/releases/tag/v0.3.2
 - https://raw.githubusercontent.com/msitarzewski/agency-agents/main/strategy/runbooks.json
-- https://github.com/anomalyco/opencode/issues/27988
 - https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-frontend-developer.md
 - https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-backend-architect.md
 - https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-mobile-app-builder.md
@@ -118,25 +117,26 @@ Ajouter des rôles d'agents pour des conseils spécialisés.
 - https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-carousel-growth-engine.md
 - https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-china-ecommerce-operator.md
 - https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-kuaishou-strategist.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-seo-specialist.md
 
 ## Traçabilité
 
 - Origine : NotePlan
 - Identifiant source : f096bac634e98c621c76491143ac8b1e7f0b6beafaae728ed309f19702d89084
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 402.
+- Liens distincts recensés : 394.
 - Pages lues, tweet compris : 119.
 - Sources techniques analysées : 88.
 - Sources à vérifier : 30 ; analyses non terminées : 0 ; erreurs du modèle : 1.
-- Liens non lus : 282 (profondeur : 0, budget de pages : 281, délai : 0, erreurs : 1).
-- Pages résumées sur extrait : 23.
-- Éléments exclus : 2 ; doublons ignorés : 0.
+- Liens non lus : 271 (profondeur : 0, budget de pages : 270, délai : 0, erreurs : 1).
+- Pages résumées sur extrait : 24.
+- Éléments exclus : 5 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### Mise à jour v0.3.2 de l'application agency-agents
@@ -161,25 +161,14 @@ Définition de runbooks pour automatiser le déploiement d'équipes via des agen
 
 Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/strategy/runbooks.json ; niveau 2.
 
-### Problème de chargement des agents dans OpenCode
+### Implémentation d'une table virtuelle optimisée
 
-Le chargement des agents dans OpenCode est incomplet, avec une perte de fichiers vers la fin de l'alphabet.
+Création d'une composant React virtuel pour optimiser le rendu de données.
 
-- Chargement incomplet des agents dans OpenCode
-- Seulement ~119 agents sur 184 sont enregistrés
-- Les agents manquants sont situés à la fin de l'alphabet
-- Aucun message d'erreur ou avertissement
-
-Source : https://github.com/anomalyco/opencode/issues/27988 ; niveau 2.
-
-### Frontend Developer Agent
-
-Expertise in modern web technologies, UI frameworks, and performance optimization for web applications.
-
-- Crée des applications web réactives et accessibles avec précision.
-- Optimise les performances avec des techniques modernes.
-- Implémente des composants réutilisables et scalables.
-- Assure la conformité aux normes d'accessibilité WCAG 2.1 AA.
+- Optimise le rendu de données avec useVirtualizer.
+- Réduit le temps de rendu de 80%.
+- Gère des grands ensembles de données.
+- Accessible avec ARIA et keyboard navigation.
 
 Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-frontend-developer.md ; niveau 2.
 
@@ -216,33 +205,28 @@ Agent d'ingénierie IA spécialisé dans le développement, le déploiement et l
 
 Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-ai-engineer.md ; niveau 2.
 
-### DevOps Automator
+### Automatisation DevOps et CI/CD
 
-Expertise en automatisation DevOps, CI/CD et opérations cloud.
+Documentation technique sur l'automatisation DevOps avec des pipelines CI/CD, infrastructure as code et monitoring.
 
-- Automatisation des infrastructures pour accélérer les déploiements.
-- Intégration de scans de sécurité dans les pipelines CI/CD.
-- Déploiement sans interruption avec des stratégies blue-green.
-- Surveillance et alertes pour assurer la fiabilité.
-- Optimisation des coûts avec le droit-sizing des ressources.
-- Gestion des secrets et rotation automatique.
-- Configuration de l'auto-scaling et du load balancing.
-- Implémentation de tests automatisés et de déploiements.
-- Systèmes de journalisation et de traçage distribué.
-- Analyse des vulnérabilités et gestion des risques.
-- Stratégies de récupération automatique pour les pannes.
-- Rapports d'audit et conformité automatisés.
+- Automatisation des déploiements avec des stratégies sans interruption
+- Intégration de scans de sécurité dans les pipelines CI/CD
+- Configuration d'alertes et de métriques pour l'observabilité
+- Utilisation de Terraform et de Kubernetes pour l'infrastructure
 
 Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-devops-automator.md ; niveau 2.
 
-### Configuration Cisco ASA Firewall NAT et ACL
+### Configuration Cisco IOS/IOS-XE pour un switch L3
 
-Configuration Cisco ASA Firewall NAT et ACL pour le routage et la sécurité.
+Configuration d'un switch L3 Cisco avec VLAN, OSPF et eBGP.
 
-- Permet la traduction d'adresses IP pour le trafic vers le web.
-- Filtre le trafic entrant sur la zone externe.
-- Utilise des listes d'accès pour contrôler les connexions.
-- Inclut des commandes de vérification pour valider la configuration.
+- Crée un VLAN 20 pour les utilisateurs.
+- Configure l'interface Vlan20 avec une adresse IP et un serveur d'authentification.
+- Lie l'interface GigabitEthernet1/0/24 au VLAN 20.
+- Configure l'interface GigabitEthernet0/0 pour le routage externe.
+- Active OSPF sur l'interface GigabitEthernet0/1.
+- Définit une liste de préfixes pour le routage BGP.
+- Configure le routage BGP avec le routeur adjacent 203.0.113.1.
 
 Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-network-engineer.md ; niveau 2.
 
@@ -286,4 +270,14 @@ Système de routage intelligent avec des barrières de sécurité pour optimiser
 - Route automatiquement vers le modèle le plus efficace en fonction des coûts et de la précision.
 - Enforce des limites financières et des barrières de sécurité avant toute déployment.
 - Utilise des tests en arrière-plan pour évaluer les nouveaux modèles.
-- Interrompt le
+- Interrompt les appels API en cas de surcoût ou de défaillance répétée.
+
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-autonomous-optimization-architect.md ; niveau 2.
+
+### Gestion de tâches FreeRTOS avec file d'attente
+
+Implémentation de tâches FreeRTOS avec file d'attente pour la communication entre tâches.
+
+- Création d'une file d'attente pour transférer des données.
+- Vérification de la validité de la file d'attente avant création de tâche.
+- Utilisation

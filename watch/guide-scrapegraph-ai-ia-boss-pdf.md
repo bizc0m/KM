@@ -8,15 +8,6 @@ Veille Raindrop KM Monitor.
 
 #extraction-web, #pdf
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai domain.data.web capability.scraping compatibility.format.pdf
-- Sujets : Intelligence artificielle ; Données et connaissances > Collecte web
-- Fonctions : Extraire des données web
-- Compatibilités : Formats > PDF
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,8 +17,19 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.data.web capability.scraping compatibility.format.pdf risk.sensitive
+- Sujets : Intelligence artificielle ; Données et connaissances > Collecte web
+- Fonctions : Extraire des données web
+- Compatibilités : Formats > PDF
+- Risques : Risque signalé
+
 ## Sources
-- Source : [https://api.raindrop.io/v2/raindrop/1748687500/file?type=application/pdf](https://api.raindrop.io/v2/raindrop/1748687500/file?type=application/pdf)
+
+- https://api.raindrop.io/v2/raindrop/1748687500/file?type=application/pdf](https://api.raindrop.io/v2/raindrop/1748687500/file?type=application/pdf
 
 ## A_VERIFIER
 

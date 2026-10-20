@@ -8,14 +8,6 @@ Veille outil KM / capture web vers Obsidian.
 
 #obsidian, #web-clipper, #knowledge-management, #browser-extension
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.data.notes compatibility.integration.obsidian
-- Sujets : Données et connaissances > Notes et organisation
-- Compatibilités : Intégrations > Obsidian
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,10 +17,15 @@ Veille outil KM / capture web vers Obsidian.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.data.notes compatibility.integration.obsidian risk.sensitive
+- Sujets : Données et connaissances > Notes et organisation
+- Compatibilités : Intégrations > Obsidian
+- Risques : Risque signalé
+
 ## Sources
-- Source : [https://obsidian.md/clipper](https://obsidian.md/clipper)
 
-### v0.1 - 2026-06-27
-
-- Objectif : integrer Obsidian Web Clipper depuis Raindrop KM Monitor.
-- Risques : capture involontaire de donnees sensibles ou contenu copyright.
+- https://obsidian.md/clipper](https://obsidian.md/clipper

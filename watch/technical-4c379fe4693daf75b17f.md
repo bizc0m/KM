@@ -10,15 +10,6 @@ actif
 
 Rédige des textes précis et utiles pour des tâches de bureau. Améliore la productivité quotidienne.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.unclassified source.raindrop lifecycle.active
-- Sujets : À qualifier
-- Provenance : Raindrop
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Rédige des textes précis et utiles pour des tâches de bureau. Améliore la pr
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.raindrop lifecycle.active
+- Sujets : À qualifier
+- Provenance : Raindrop
+- État : Actif
 
 ## Sources
 

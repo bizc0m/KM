@@ -8,6 +8,15 @@
 
 #osint, #skills-agents, #claude, #skills, #ROUGE
 
+## Métadonnées
+
+- Nature : Collection de skills
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -19,21 +28,10 @@
 - Risques : Usage offensif explicite
 - Provenance : GitHub
 
-## Métadonnées
-
-- Nature : Collection de skills
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
-
 ## Sources
 
-- Source finale: [https://github.com/elementalsouls/Claude-OSINT](https://github.com/elementalsouls/Claude-OSINT)
-- Origine: archive NotePlan captures 2026, capture du 2026-06-03.
-- Domaine: `github.com`
-- Auteur/source: `elementalsouls`
+- https://github.com/elementalsouls/claude-osint
+- https://github.com/elementalsouls/Claude-OSINT](https://github.com/elementalsouls/Claude-OSINT
 
 ## Topics GitHub
 

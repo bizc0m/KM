@@ -12,6 +12,15 @@ actif
 
 Intérêt à vérifier
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/apify/crawlee-python
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Intérêt à vérifier
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Apache-2.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/apify/crawlee-python
 
 ## Sources
 
@@ -44,3 +44,34 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/apify/crawlee-python
+
+## Capacités documentées
+
+- Permet de scraper des pages web avec ou sans JavaScript.
+- Utilise Playwright pour exécuter du JavaScript côté client.
+- Fournit des outils pour stocker les données de manière persistante.
+- Supporte la navigation automatique et la gestion de sessions.
+
+## Usages documentés
+
+- python -m pip install 'crawlee[all]'
+- playwright install
+- python -c 'import crawlee; print(crawlee.__version__)'
+
+## Limites
+
+- Requiert Python 3.10 ou supérieur.
+- Nécessite des dépendances comme Playwright.
+- Fonctionne avec des navigateurs headless.
+- Nécessite des configurations spécifiques pour exécuter du JavaScript.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/apify/crawlee-python
+- Analyse source : 2026-10-19T14:40:42.779Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

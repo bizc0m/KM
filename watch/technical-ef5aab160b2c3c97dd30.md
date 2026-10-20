@@ -12,6 +12,15 @@ actif
 
 Apprendre l'ingénierie de l'IA via des leçons et exercices pratiques.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Apprendre l'ingénierie de l'IA via des leçons et exercices pratiques.
 - Compatibilités : Langages > Python ; Protocoles > MCP
 - Provenance : Raindrop ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

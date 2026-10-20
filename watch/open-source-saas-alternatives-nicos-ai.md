@@ -84,3 +84,25 @@ Deja presents dans KM :
 - Accès : À vérifier
 - Preuve : À vérifier
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.ai.agents.skills domain.ai.llm domain.dev.ui domain.infrastructure.database capability.skills compatibility.deployment.local compatibility.interface.desktop compatibility.language.python risk.sensitive
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents ; Intelligence artificielle > Modèles de langage ; Développement logiciel > Conception d’interfaces ; Infrastructure > Bases de données
+- Fonctions : Étendre les compétences d’un agent
+- Compatibilités : Exécution > Exécution locale ; Interfaces > Application de bureau ; Langages > Python
+- Risques : Risque signalé
+
+## Sources
+
+- https://x.com/nicos_ai/status/2057511065802469432
+- https://github.com/yt-dlp/yt-dlp
+- https://github.com/ollama/ollama
+- https://github.com/lllyasviel/Fooocus
+- https://github.com/Diolinux/PhotoGIMP
+- https://github.com/nexu-io/open-design
+- https://github.com/AppFlowy-IO/AppFlowy
+- https://github.com/penpot/penpot
+- https://github.com/n8n-io/n8n
+- https://github.com/calcom/cal.diy
+- https://github.com/bitwarden/server

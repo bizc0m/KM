@@ -8,15 +8,6 @@ Veille ressource / annuaire MCP.
 
 #mcp, #servers, #integrations, #directory
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.infrastructure domain.data.catalogues domain.ai.agents.integration compatibility.protocol.mcp source.github
-- Sujets : Infrastructure ; Données et connaissances > Catalogues de ressources ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
-- Compatibilités : Protocoles > MCP
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : Serveur MCP
@@ -26,8 +17,19 @@ Veille ressource / annuaire MCP.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.infrastructure domain.data.catalogues domain.ai.agents.integration compatibility.protocol.mcp risk.sensitive source.github
+- Sujets : Infrastructure ; Données et connaissances > Catalogues de ressources ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
+- Compatibilités : Protocoles > MCP
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
-- Repo GitHub : `https://github.com/punkpeye/awesome-mcp-servers`
+
+- https://github.com/punkpeye/awesome-mcp-servers
 
 ## Metadata GitHub publique
 

@@ -12,6 +12,15 @@ actif
 
 Permettre à l'IA d'explorer des plateformes via CLI sans frais d'API.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Permettre à l'IA d'explorer des plateformes via CLI sans frais d'API.
 - Compatibilités : Interfaces > Terminal
 - Provenance : Raindrop ; X / Twitter ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

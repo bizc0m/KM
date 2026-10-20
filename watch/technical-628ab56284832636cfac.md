@@ -10,15 +10,6 @@ actif
 
 Visualiser des cartes sans connexion. Accès aux données géographiques partout.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.unclassified source.raindrop source.x source.github lifecycle.active
-- Sujets : À qualifier
-- Provenance : Raindrop ; X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -28,10 +19,19 @@ Visualiser des cartes sans connexion. Accès aux données géographiques partout
 - Accès : À vérifier
 - Preuve : https://github.com/organicmaps/organicmaps
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.raindrop source.x source.github lifecycle.active
+- Sujets : À qualifier
+- Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
 ## Sources
 
-- https://x.com/tom_doerr/status/2064810037210497235?s=12
 - https://github.com/organicmaps/organicmaps
+- https://x.com/tom_doerr/status/2064810037210497235?s=12
 
 ## Traçabilité
 

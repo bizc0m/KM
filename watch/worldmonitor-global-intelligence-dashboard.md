@@ -8,14 +8,6 @@ Veille outil OSINT / tableau de bord geostrategique.
 
 #osint, #dashboard, #conflict-monitoring, #geoint
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.osint source.x source.github
-- Sujets : Cybersécurité > Renseignement en sources ouvertes
-- Provenance : X / Twitter ; GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,9 +17,19 @@ Veille outil OSINT / tableau de bord geostrategique.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint risk.sensitive source.x source.github
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Risques : Risque signalé
+- Provenance : X / Twitter ; GitHub
+
 ## Sources
-- Source : [https://x.com/xiaoying_eth/status/2070782487824089533](https://x.com/xiaoying_eth/status/2070782487824089533)
-- GitHub resolu : `https://github.com/koala73/worldmonitor`
+
+- https://github.com/koala73/worldmonitor
+- https://x.com/xiaoying_eth/status/2070782487824089533](https://x.com/xiaoying_eth/status/2070782487824089533
 
 ## Metadata GitHub publique
 

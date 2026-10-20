@@ -6,21 +6,9 @@ actif
 
 ## Tags
 
-#conversion-documents
-
 ## Intérêts
 
-Crée des prototypes web avec des modèles d'IA
-
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents domain.ai.llm domain.media.video domain.media.image domain.data.documents capability.documents.convert source.noteplan source.x source.github lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA ; Intelligence artificielle > Modèles de langage ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Données et connaissances > Documents
-- Fonctions : Traiter des documents > Convertir des documents
-- Provenance : NotePlan Calendar ; X / Twitter ; GitHub
-- État : Actif
+Crée des prototypes interactifs avec un agent IA et une prévisualisation en temps réel.
 
 ## Métadonnées
 
@@ -31,10 +19,19 @@ Crée des prototypes web avec des modèles d'IA
 - Accès : À vérifier
 - Preuve : https://github.com/nexu-io/open-design
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.ai.llm domain.media.video domain.media.image source.noteplan source.x source.github lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Modèles de langage ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
+- Provenance : NotePlan Calendar ; X / Twitter ; GitHub
+- État : Actif
+
 ## Sources
 
-- https://x.com/i/status/2054860595422236873
 - https://github.com/nexu-io/open-design
+- https://x.com/i/status/2054860595422236873
 - https://github.com/nexu-io/open-design/releases/tag/open-design-v0.25.0
 - https://github.com/tw93/kami
 - https://github.com/heygen-com/hyperframes
@@ -56,19 +53,19 @@ Crée des prototypes web avec des modèles d'IA
 - Origine : NotePlan
 - Identifiant source : 4d2ad8ab3a301c6c382aad4419e48311d687cc7be570e2e6ac546fda4c99c414
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 754.
+- Liens distincts recensés : 761.
 - Pages lues, tweet compris : 37.
 - Sources techniques analysées : 16.
 - Sources à vérifier : 19 ; analyses non terminées : 0 ; erreurs du modèle : 1.
-- Liens non lus : 655 (profondeur : 0, budget de pages : 573, délai : 0, erreurs : 82).
+- Liens non lus : 643 (profondeur : 0, budget de pages : 561, délai : 0, erreurs : 82).
 - Pages résumées sur extrait : 6.
-- Éléments exclus : 64 ; doublons ignorés : 0.
+- Éléments exclus : 83 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### OpenDesign: Workspace collaboratif pour l'IA de conception
@@ -249,3 +246,21 @@ Test de validation des en-têtes Host pour empêcher les attaques de rebinding. 
 - Vérification des requêtes POST et PUT avec Host malformé.
 
 Source : https://raw.githubusercontent.com/nexu-io/html-anything/main/e2e/ui/host-validation.spec.ts ; niveau 2.
+
+## Identité
+
+- Dépôt principal : https://github.com/nexu-io/open-design
+
+## Capacités documentées
+
+- Crée des prototypes web, applications mobiles et présentations.
+- Permet de partager des travaux et d'obtenir des retours en équipe.
+- Intègre des modèles d'IA comme GPT-6 Luna et DeepSeek V4.1 Flash.
+- Supporte des outils de conception tels que Codex, Claude Code et OpenCode.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/nexu-io/open-design
+- Analyse source : 2026-10-20T05:39:38.276Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

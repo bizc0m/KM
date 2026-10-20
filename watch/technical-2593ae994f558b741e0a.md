@@ -12,6 +12,15 @@ actif
 
 Facilite la création de visuels à partir de texte pour des présentations.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -23,33 +32,24 @@ Facilite la création de visuels à partir de texte pour des présentations.
 - Provenance : NotePlan Calendar ; X / Twitter
 - État : Actif
 
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
-
 ## Sources
 
 - https://x.com/i/status/2055333073840193993
-- https://napkin.ai
-- https://elevenlabs.io
-- https://cursor.com
-- https://descript.com
-- https://tldv.io
-- https://fireflies.ai
-- https://replit.com
-- https://synthesia.io
-- https://fliki.ai
-- https://beautiful.ai
-- https://meshy.ai
-- https://vizcom.com
-- https://pieces.app
-- https://mixo.io
-- https://wisprflow.ai
+- https://napkin.ai/
+- https://elevenlabs.io/
+- https://cursor.com/
+- https://descript.com/
+- https://tldv.io/
+- https://fireflies.ai/
+- https://replit.com/
+- https://synthesia.io/
+- https://fliki.ai/
+- https://beautiful.ai/
+- https://meshy.ai/
+- https://vizcom.com/
+- https://pieces.app/
+- https://mixo.io/
+- https://wisprflow.ai/
 - https://heygen.com/heygen-voice
 - https://heygen.com/research/avatar-v-model
 - https://heygen.com/tool/ai-video-generator
@@ -86,9 +86,9 @@ Facilite la création de visuels à partir de texte pour des présentations.
 - https://elevenlabs.io/blog/ukrainian-public-services
 - https://elevenlabs.io/blog/deutsche-telekom-and-elevenlabs-announce-partnership
 - https://elevenlabs.io/blog/eleven-v4
-- https://app.runwayml.com
-- https://dev.runwayml.com
-- https://docs.dev.runwayml.com
+- https://app.runwayml.com/
+- https://dev.runwayml.com/
+- https://docs.dev.runwayml.com/
 - https://runway.com/research/introducing-runway-gwm-1
 - https://runway.com/news/company-news/introducing-runway-ads
 
@@ -433,6 +433,4 @@ Source : https://elevenlabs.io/blog/fuel-ix-telus-digital ; niveau 2.
 ElevenLabs fournit des technologies vocales pour améliorer l'expérience client via Webex AI Agent.
 
 - ElevenLabs fournit des technologies vocales pour Webex AI Agent.
-- Webex AI Agent utilise des modèles LLM pour des interactions plus humaines.
-- La voix AI adapte son ton selon les émotions du client.
-- L'intégration permet une meilleure expérience client et engagement.
+- Webex AI Agent utilise des modèles LLM pour des inter

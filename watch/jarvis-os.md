@@ -8,14 +8,6 @@ Veille Raindrop KM Monitor.
 
 #llm, #ai-os
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.llm source.github
-- Sujets : Intelligence artificielle > Modèles de langage
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,9 +17,18 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm source.github lifecycle.review
+- Sujets : Intelligence artificielle > Modèles de langage
+- Provenance : GitHub
+- État : À vérifier
+
 ## Sources
-- Source : [https://jarvisoslinux.org](https://jarvisoslinux.org)
-- Source GitHub : `https://github.com/Grominet95/jarvis-OS`
+
+- https://github.com/grominet95/jarvis-os
 
 ## Metadata GitHub publique
 

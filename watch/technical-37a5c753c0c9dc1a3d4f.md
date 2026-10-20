@@ -12,6 +12,15 @@ actif
 
 Visualiser des données de marché en temps réel sans abonnement.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/ErTasselli/OpenTerminal
+
 
 ## Ontologie
 
@@ -22,19 +31,10 @@ Visualiser des données de marché en temps réel sans abonnement.
 - Provenance : Raindrop ; X / Twitter ; GitHub
 - État : Actif
 
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/ErTasselli/OpenTerminal
-
 ## Sources
 
+- https://github.com/ertasselli/openterminal
 - https://x.com/_zheergen/status/2100176268117659791?s=12
-- https://github.com/ErTasselli/OpenTerminal
 
 ## Traçabilité
 

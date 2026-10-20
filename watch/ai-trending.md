@@ -27,3 +27,14 @@ Suivre les projets open source IA en tendance : agents, skills, LLM, RAG, chat, 
 - Accès : À vérifier
 - Preuve : À vérifier
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills domain.ai.llm capability.skills risk.sensitive
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Intelligence artificielle > Modèles de langage
+- Fonctions : Étendre les compétences d’un agent
+- Risques : Risque signalé
+
+## Sources
+
+- https://www.ngjoo.com/en/trending/

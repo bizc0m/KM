@@ -12,6 +12,15 @@ actif
 
 Installation de serveurs MCP pour agents IA : optimisation des tâches techniques.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Installation de serveurs MCP pour agents IA : optimisation des tâches technique
 - Compatibilités : Protocoles > MCP ; Interfaces > Terminal
 - Provenance : Raindrop ; X / Twitter ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

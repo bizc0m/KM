@@ -12,15 +12,6 @@ actif
 
 Exécute l'API WhatsApp sur un serveur interne sans dépendre de tiers
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.infrastructure domain.dev.web source.noteplan source.x lifecycle.active
-- Sujets : Infrastructure ; Développement logiciel > Développement web
-- Provenance : NotePlan Calendar ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -29,6 +20,15 @@ Exécute l'API WhatsApp sur un serveur interne sans dépendre de tiers
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.infrastructure domain.dev.web source.noteplan source.x lifecycle.active
+- Sujets : Infrastructure ; Développement logiciel > Développement web
+- Provenance : NotePlan Calendar ; X / Twitter
+- État : Actif
 
 ## Sources
 

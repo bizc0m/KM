@@ -8,6 +8,19 @@ Veille `#ROUGE` / agent IA offensif de red team.
 
 #pentest, #red-team, #offensive-security, #mitre-attack, #ROUGE
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Intérêts
+
+Analyse des vulnérabilités réseau en temps réel avec MITRE ATT&CK.
+
 
 ## Ontologie
 
@@ -18,24 +31,12 @@ Veille `#ROUGE` / agent IA offensif de red team.
 - Risques : Usage offensif explicite
 - Provenance : GitHub ; X / Twitter
 
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
-
 ## Sources
-- Repo GitHub : `https://github.com/CyberStrikeus/CyberStrike`
-- Source sociale secondaire : `https://x.com/dinosn/status/2070446054701490193`
 
-- titre : post X reprenant la description CyberStrike avec lien `t.co`
-- date : 2026-06-27T11:15:59.835Z
-- domaine : `x.com`
-- auteur/source : `dinosn`
-- resolution : `https://t.co/IMTnJF3pht` -> `https://github.com/CyberStrikeus/CyberStrike`
+- https://github.com/cyberstrikeus/cyberstrike
+- https://x.com/dinosn/status/2070446054701490193
+- https://t.co/IMTnJF3pht
+- https://x.com/dinosn/status/2070446054701490193?s=12
 
 ## Metadata GitHub publique
 

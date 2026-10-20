@@ -12,6 +12,15 @@ actif
 
 Gérer et publier des contenus sur 14 plateformes depuis un seul outil.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Gérer et publier des contenus sur 14 plateformes depuis un seul outil.
 - Fonctions : Automatiser des actions > Publier sur plusieurs réseaux
 - Provenance : NotePlan Calendar ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

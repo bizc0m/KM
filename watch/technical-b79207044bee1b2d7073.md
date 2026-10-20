@@ -10,15 +10,6 @@ actif
 
 Crée des agents avec un système de type sécurisé.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents domain.dev source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Crée des agents avec un système de type sécurisé.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/BoundaryML/baml
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.dev source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -40,3 +40,21 @@ Crée des agents avec un système de type sécurisé.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/boundaryml/baml
+
+## Capacités documentées
+
+- Permet la création d'agents avec un système de type sécurisé.
+- Fournit une analyse statique des erreurs.
+- Supporte la concurrence et la gestion de modules.
+- Intégration avec plusieurs langages de programmation.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/boundaryml/baml
+- Analyse source : 2026-10-19T13:51:17.213Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

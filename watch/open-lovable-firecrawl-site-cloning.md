@@ -8,15 +8,6 @@ Veille outil dev / clonage de sites en React.
 
 #clonage-sites, #react, #firecrawl, #site-cloning
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.dev.web capability.web.clone source.x source.github
-- Sujets : Développement logiciel > Développement web
-- Fonctions : Reproduire un site
-- Provenance : X / Twitter ; GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,9 +17,20 @@ Veille outil dev / clonage de sites en React.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.web capability.web.clone risk.sensitive source.x source.github
+- Sujets : Développement logiciel > Développement web
+- Fonctions : Reproduire un site
+- Risques : Risque signalé
+- Provenance : X / Twitter ; GitHub
+
 ## Sources
-- Source : [https://x.com/jolyne_ai/status/2070839598155186425](https://x.com/jolyne_ai/status/2070839598155186425)
-- GitHub resolu : `https://github.com/firecrawl/open-lovable`
+
+- https://github.com/firecrawl/open-lovable
+- https://x.com/jolyne_ai/status/2070839598155186425](https://x.com/jolyne_ai/status/2070839598155186425
 
 ## Metadata GitHub publique
 

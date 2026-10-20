@@ -12,6 +12,15 @@ actif
 
 Crée des animations SVG à partir de descriptions ou d'images. Résultat utilisable directement.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Crée des animations SVG à partir de descriptions ou d'images. Résultat utilis
 - Fonctions : Animer du SVG ; Générer des contenus > Générer une image
 - Provenance : Raindrop
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

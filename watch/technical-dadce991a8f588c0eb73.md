@@ -10,15 +10,6 @@ actif
 
 Analyser des données pour évaluer des modèles de prise de décision.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.unclassified source.raindrop source.x source.github lifecycle.active
-- Sujets : À qualifier
-- Provenance : Raindrop ; X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -28,10 +19,19 @@ Analyser des données pour évaluer des modèles de prise de décision.
 - Accès : À vérifier
 - Preuve : https://github.com/bespokelabsai/nimble
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.raindrop source.x source.github lifecycle.active
+- Sujets : À qualifier
+- Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
 ## Sources
 
-- https://x.com/aisearchio/status/2101394114176806966?s=12
 - https://github.com/bespokelabsai/nimble
+- https://x.com/aisearchio/status/2101394114176806966?s=12
 
 ## Traçabilité
 

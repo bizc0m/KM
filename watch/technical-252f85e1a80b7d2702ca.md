@@ -10,15 +10,6 @@ actif
 
 Financer la recherche pour des ordinateurs quantiques.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.dev source.noteplan source.x lifecycle.active
-- Sujets : Développement logiciel
-- Provenance : NotePlan Calendar ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Financer la recherche pour des ordinateurs quantiques.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev source.noteplan source.x lifecycle.active
+- Sujets : Développement logiciel
+- Provenance : NotePlan Calendar ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -50,7 +50,7 @@ Financer la recherche pour des ordinateurs quantiques.
 - Origine : NotePlan
 - Identifiant source : 9706f696c8402c684f3b98507b8828837c2777bfdeaef0ffd789a7ac0f00e3b6
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
@@ -60,9 +60,9 @@ Financer la recherche pour des ordinateurs quantiques.
 - Pages lues, tweet compris : 34.
 - Sources techniques analysées : 13.
 - Sources à vérifier : 21 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 279 (profondeur : 278, budget de pages : 0, délai : 0, erreurs : 1).
+- Liens non lus : 280 (profondeur : 278, budget de pages : 0, délai : 0, erreurs : 2).
 - Pages résumées sur extrait : 3.
-- Éléments exclus : 23 ; doublons ignorés : 0.
+- Éléments exclus : 22 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### PROQCIMA : Programme de développement quantique en France

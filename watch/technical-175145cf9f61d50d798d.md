@@ -10,18 +10,7 @@ actif
 
 ## Intérêts
 
-Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier.
-
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.media.audio domain.science.weather capability.forecast compatibility.language.python source.noteplan source.x source.github lifecycle.active
-- Sujets : Audio, vidéo et création > Audio ; Sciences et prévision > Prévisions météorologiques
-- Fonctions : Prévoir des mesures
-- Compatibilités : Langages > Python
-- Provenance : NotePlan Calendar ; X / Twitter ; GitHub
-- État : Actif
+Permet d'envoyer des emails via SMTP
 
 ## Métadonnées
 
@@ -32,10 +21,21 @@ Contrôle un navigateur web via des commandes vocales pour une navigation sans c
 - Accès : À vérifier
 - Preuve : https://github.com/GauravSingh9356/J.A.R.V.I.S
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.audio domain.data.research domain.science.weather capability.forecast compatibility.language.python source.noteplan source.x source.github lifecycle.active
+- Sujets : Audio, vidéo et création > Audio ; Données et connaissances > Recherche documentaire ; Sciences et prévision > Prévisions météorologiques
+- Fonctions : Prévoir des mesures
+- Compatibilités : Langages > Python
+- Provenance : NotePlan Calendar ; X / Twitter ; GitHub
+- État : Actif
+
 ## Sources
 
-- https://x.com/i/status/2056514018135642189
 - https://github.com/gauravsingh9356/j.a.r.v.i.s
+- https://x.com/i/status/2056514018135642189
 - https://techtalkswithgaurav.blogspot.com/2020/06/your-personal-assistant-jarvis.html
 - https://github.com/gauravsingh9356/j.a.r.v.i.s/issues/54
 - https://github.com/gauravsingh9356/j.a.r.v.i.s/issues/46
@@ -201,3 +201,21 @@ J.A.R.V.I.S est un assistant vocal capable de réaliser plusieurs tâches.
 - Rechercher des informations météorologiques
 
 Source : https://techtalkswithgaurav.blogspot.com/2020/06/your-personal-assistant-jarvis.html?showComment=1747560109681 ; niveau 3.
+
+## Identité
+
+- Dépôt principal : https://github.com/gauravsingh9356/j.a.r.v.i.s
+
+## Capacités documentées
+
+- Permet d'envoyer des emails via SMTP
+- Recherche et ouvre des sites web par commande vocale
+- Fournit des rapports météorologiques détaillés
+- Intègre une fonction de recherche YouTube
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/gauravsingh9356/j.a.r.v.i.s
+- Analyse source : 2026-10-19T13:56:12.590Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -24,3 +24,13 @@ Lien evenement/workshop AlpineChain 2026. A qualifier : blockchain, atelier, res
 - Accès : À vérifier
 - Preuve : À vérifier
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified lifecycle.review
+- Sujets : À qualifier
+- État : À vérifier
+
+## Sources
+
+- https://join.alpinechain.xyz/org/workshop2026/

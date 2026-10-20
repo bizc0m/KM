@@ -8,13 +8,6 @@ Veille Raindrop KM Monitor / bibliotheque de prompts accessible depuis le menu c
 
 #prompt-library, #browser, #llm
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.llm
-- Sujets : Intelligence artificielle > Modèles de langage
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -24,13 +17,17 @@ Veille Raindrop KM Monitor / bibliotheque de prompts accessible depuis le menu c
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm risk.sensitive
+- Sujets : Intelligence artificielle > Modèles de langage
+- Risques : Risque signalé
+
 ## Sources
 
-- Source Raindrop : `KM Monitor public feed`
-- URL finale verifiee : `https://rightclickprompt.com/`
-- Domaine : `rightclickprompt.com`
-- Source/auteur : Right Click Prompt
-- Date Raindrop : `2026-08-29T05:56:18.480Z`
+- https://rightclickprompt.com/
 
 ## A verifier
 

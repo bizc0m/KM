@@ -12,6 +12,15 @@ actif
 
 Rejoindre des serveurs MCP pour accéder à des outils et données.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/nowork-studio/awesome-public-mcp-servers
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Rejoindre des serveurs MCP pour accéder à des outils et données.
 - Compatibilités : Protocoles > MCP
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Non précisée
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/nowork-studio/awesome-public-mcp-servers
 
 ## Sources
 
@@ -43,3 +43,21 @@ Rejoindre des serveurs MCP pour accéder à des outils et données.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/nowork-studio/awesome-public-mcp-servers
+
+## Capacités documentées
+
+- Liste des serveurs MCP organisés par catégories.
+- Chaque serveur fournit des détails de connexion et des capacités.
+- Les serveurs sont maintenus par des fournisseurs officiels.
+- Les serveurs nécessitent une authentification pour accéder à leurs fonctionnalités.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/nowork-studio/awesome-public-mcp-servers
+- Analyse source : 2026-10-19T19:20:40.954Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

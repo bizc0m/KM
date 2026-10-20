@@ -8,15 +8,6 @@ Veille Raindrop KM Monitor.
 
 #offensive-risk, #privacy-risk, #ROUGE
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.unclassified risk.offensive risk.sensitive source.x
-- Sujets : À qualifier
-- Risques : Usage offensif explicite ; Risque signalé
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,8 +17,18 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified risk.offensive risk.sensitive source.x
+- Sujets : À qualifier
+- Risques : Usage offensif explicite ; Risque signalé
+- Provenance : X / Twitter
+
 ## Sources
-- Source : [https://x.com/tom_doerr/status/2066334739758305748](https://x.com/tom_doerr/status/2066334739758305748)
+
+- https://x.com/tom_doerr/status/2066334739758305748](https://x.com/tom_doerr/status/2066334739758305748
 
 ## A_VERIFIER
 

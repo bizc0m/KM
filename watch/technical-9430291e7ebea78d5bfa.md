@@ -10,15 +10,6 @@ actif
 
 Exécute des stratégies de trading avec gestion de risques en temps réel
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.finance source.x source.github lifecycle.active
-- Sujets : Analyse financière
-- Provenance : X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Exécute des stratégies de trading avec gestion de risques en temps réel
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/HarrierOnChain/Projection-Finance
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.finance source.x source.github lifecycle.active
+- Sujets : Analyse financière
+- Provenance : X / Twitter ; GitHub
+- État : Actif
 
 ## Sources
 

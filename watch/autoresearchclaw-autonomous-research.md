@@ -8,15 +8,6 @@ Veille outils IA / agent de recherche autonome.
 
 #recherche-documentaire, #research-agent, #autonomous-research, #papers
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents domain.data.research capability.research source.github
-- Sujets : Intelligence artificielle > Agents IA ; Données et connaissances > Recherche documentaire
-- Fonctions : Rechercher des documents
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : Agent spécialisé
@@ -26,20 +17,19 @@ Veille outils IA / agent de recherche autonome.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.data.research capability.research risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA ; Données et connaissances > Recherche documentaire
+- Fonctions : Rechercher des documents
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
 
-- Repo : `https://github.com/aiming-lab/AutoResearchClaw`
-- Papier arXiv cite par le repo : `AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration`
-
-Verification GitHub API :
-
-- repo : `aiming-lab/AutoResearchClaw`
-- description : fully autonomous and self-evolving research from idea to paper
-- stars lus : 12498
-- forks lus : 1463
-- licence : MIT
-- archived : false
-- dernier push lu : 2026-05-22
+- https://github.com/aiming-lab/autoresearchclaw
 
 ## Metadata GitHub publique
 

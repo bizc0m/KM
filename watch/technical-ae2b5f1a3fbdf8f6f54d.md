@@ -12,6 +12,15 @@ actif
 
 Permet de créer des bots multiplateformes avec des adaptateurs prédéfinis
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Kaguya233qwq/myfish
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Permet de créer des bots multiplateformes avec des adaptateurs prédéfinis
 - Compatibilités : Langages > Python ; Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/Kaguya233qwq/myfish
 
 ## Sources
 
@@ -43,3 +43,21 @@ Permet de créer des bots multiplateformes avec des adaptateurs prédéfinis
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/kaguya233qwq/myfish
+
+## Capacités documentées
+
+- Permet le développement de bots avec une architecture découplée et asynchrone.
+- Supporte les protocoles de闲鱼et微信ClawBot avec des adaptateurs intégrés.
+- Fournit des outils de configuration et de déploiement via Docker et des commandes CLI.
+- Inclut des exemples de plugins et d'adaptateurs personnalisés.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/kaguya233qwq/myfish
+- Analyse source : 2026-10-19T19:39:56.181Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

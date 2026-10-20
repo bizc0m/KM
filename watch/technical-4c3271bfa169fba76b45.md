@@ -12,6 +12,15 @@ actif
 
 Prévoir la température maximale pour optimiser les trades
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/AruneshDev/Automated-Trading-System-Kalshi-Weather-Model
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Prévoir la température maximale pour optimiser les trades
 - Fonctions : Prévoir des mesures
 - Provenance : X / Twitter ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Non précisée
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/AruneshDev/Automated-Trading-System-Kalshi-Weather-Model
 
 ## Sources
 

@@ -1,4 +1,4 @@
-# Générateur de vidéo de baisers AI
+# Générateur de vidéo d'embrassade IA
 
 ## Statut
 
@@ -10,7 +10,16 @@ actif
 
 ## Intérêts
 
-Crée une vidéo de baisers à partir de deux photos.
+Crée des vidéos d'embrassade à partir de deux photos.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/SamurAIGPT/ai-kissing-video-generator
 
 
 ## Ontologie
@@ -22,15 +31,6 @@ Crée une vidéo de baisers à partir de deux photos.
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Non précisée
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/SamurAIGPT/ai-kissing-video-generator
-
 ## Sources
 
 - https://github.com/samuraigpt/ai-kissing-video-generator
@@ -41,5 +41,23 @@ Crée une vidéo de baisers à partir de deux photos.
 - Origine : NotePlan
 - Identifiant source : d85e8aba072628b2e82b75a57531fcbad8db6fc34757d60fd6290c6dcb6043d1
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/samuraigpt/ai-kissing-video-generator
+
+## Capacités documentées
+
+- Combine deux photos en vidéo d'embrassade.
+- Utilise plusieurs modèles IA pour la génération.
+- Gère l'authentification et le paiement.
+- Stocke les vidéos générées dans une galerie.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/samuraigpt/ai-kissing-video-generator
+- Analyse source : 2026-10-20T07:40:16.556Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

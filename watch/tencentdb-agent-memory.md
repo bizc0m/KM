@@ -8,16 +8,6 @@ Veille Raindrop KM Monitor / memoire long terme pour agents IA.
 
 #memoire-agents, #vector-search, #local-first
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.memory capability.memory compatibility.deployment.local source.github source.x
-- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents
-- Fonctions : Conserver le contexte
-- Compatibilités : Exécution > Exécution locale
-- Provenance : GitHub ; X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,20 +17,21 @@ Veille Raindrop KM Monitor / memoire long terme pour agents IA.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory capability.memory compatibility.deployment.local risk.sensitive source.github source.x
+- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents
+- Fonctions : Conserver le contexte
+- Compatibilités : Exécution > Exécution locale
+- Risques : Risque signalé
+- Provenance : GitHub ; X / Twitter
+
 ## Sources
-- Repo GitHub : `https://github.com/TencentCloud/TencentDB-Agent-Memory`
 
-Source GitHub publique :
-
-- depot : `TencentCloud/TencentDB-Agent-Memory`
-- licence : NOASSERTION
-- etoiles relevees : 8404
-- derniere activite relevee : 2026-07-11T11:20:49Z
-
-- date : 2026-08-07T19:19:38.301Z
-- titre : `Repositorio:`
-- source sociale : [https://x.com/franpradasai/status/2085663764100337989?s=12](https://x.com/franpradasai/status/2085663764100337989?s=12)
-- lien resolu : `https://github.com/TencentCloud/TencentDB-Agent-Memory`
+- https://github.com/tencentcloud/tencentdb-agent-memory
+- https://x.com/franpradasai/status/2085663764100337989?s=12](https://x.com/franpradasai/status/2085663764100337989?s=12
 
 ## Metadata GitHub publique
 

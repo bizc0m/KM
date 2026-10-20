@@ -12,6 +12,15 @@ actif
 
 Créez des compétences agent pour des outils comme Claude, Gemini, Cursor.
 
+## Métadonnées
+
+- Nature : Collection de skills
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/VoltAgent/awesome-agent-skills
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Créez des compétences agent pour des outils comme Claude, Gemini, Cursor.
 - Fonctions : Étendre les compétences d’un agent
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : Collection de skills
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/VoltAgent/awesome-agent-skills
 
 ## Sources
 
@@ -43,3 +43,22 @@ Créez des compétences agent pour des outils comme Claude, Gemini, Cursor.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/voltagent/awesome-agent-skills
+
+## Capacités documentées
+
+- Permet de créer des agents AI avec des compétences validées.
+- Fournit des outils pour l'analyse de documents et de présentations.
+- Intègre des compétences pour le test d'applications web.
+- Facilite l'accès à des données web via des API.
+- Intègre des compétences pour la génération de tests automatisés.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/voltagent/awesome-agent-skills
+- Analyse source : 2026-10-19T22:23:37.450Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

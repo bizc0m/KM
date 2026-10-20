@@ -12,6 +12,15 @@ actif
 
 Facilite la planification et la révision du code avec un workflow structuré.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Facilite la planification et la révision du code avec un workflow structuré.
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

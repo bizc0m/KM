@@ -8,14 +8,6 @@
 
 #c2, #red-team, #offensive-security, #ROUGE
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.security.c2 domain.security.testing risk.offensive
-- Sujets : Cybersécurité > Infrastructure de contrôle et commande ; Cybersécurité > Tests de sécurité
-- Risques : Usage offensif explicite
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,12 +17,17 @@
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.security.c2 domain.security.testing risk.offensive
+- Sujets : Cybersécurité > Infrastructure de contrôle et commande ; Cybersécurité > Tests de sécurité
+- Risques : Usage offensif explicite
+
 ## Sources
 
-- Source finale: [https://hackers-arise.com/adaptixc2-a-free-alternative-to-cobalt-strike](https://hackers-arise.com/adaptixc2-a-free-alternative-to-cobalt-strike)
-- Origine: archive NotePlan captures 2026, capture du 2026-09-04.
-- Domaine: `hackers-arise.com`
-- Auteur/source: Hackers-Arise
+- https://hackers-arise.com/adaptixc2-a-free-alternative-to-cobalt-strike](https://hackers-arise.com/adaptixc2-a-free-alternative-to-cobalt-strike
 
 ## A verifier
 

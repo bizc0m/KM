@@ -10,15 +10,6 @@ actif
 
 Exécute des trades avec des stratégies prédéfinies
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
-- Sujets : Analyse financière > Marchés prédictifs
-- Provenance : X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Exécute des trades avec des stratégies prédéfinies
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/HarrierOnChain/Interactive-Brokers-ForecastTrader
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
+- Sujets : Analyse financière > Marchés prédictifs
+- Provenance : X / Twitter ; GitHub
+- État : Actif
 
 ## Sources
 

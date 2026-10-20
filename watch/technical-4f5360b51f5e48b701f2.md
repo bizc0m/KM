@@ -12,6 +12,15 @@ actif
 
 Analyse les écarts de prix météorologiques pour trader sur Polymarket
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/nicolastinkl/hermes_weatherbot
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Analyse les écarts de prix météorologiques pour trader sur Polymarket
 - Fonctions : Prévoir des mesures
 - Provenance : X / Twitter ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/nicolastinkl/hermes_weatherbot
 
 ## Sources
 

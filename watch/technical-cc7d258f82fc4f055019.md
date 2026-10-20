@@ -12,6 +12,15 @@ actif
 
 Permet d'éditer des fichiers dans un environnement terminal
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/xai-org/grok-build
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Permet d'éditer des fichiers dans un environnement terminal
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Apache-2.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/xai-org/grok-build
 
 ## Sources
 
@@ -44,3 +44,21 @@ Permet d'éditer des fichiers dans un environnement terminal
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/xai-org/grok-build
+
+## Capacités documentées
+
+- Permet d'éditer des fichiers dans un environnement terminal.
+- Exécute des commandes shell pour automatiser des tâches.
+- Recherche des informations en ligne pour aider le développeur.
+- Gère des tâches longues de manière interactive ou headless.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/xai-org/grok-build
+- Analyse source : 2026-10-19T20:05:01.347Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

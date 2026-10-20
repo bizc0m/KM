@@ -12,6 +12,15 @@ actif
 
 Génère des modèles 3D à partir d'images ou de textes.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/microsoft/TRELLIS
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Génère des modèles 3D à partir d'images ou de textes.
 - Fonctions : Générer des contenus > Générer une image ; Générer des contenus > Générer un objet 3D
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/microsoft/TRELLIS
 
 ## Sources
 

@@ -8,13 +8,6 @@ Veille Raindrop KM Monitor.
 
 #osint
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.osint
-- Sujets : Cybersécurité > Renseignement en sources ouvertes
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -23,6 +16,14 @@ Veille Raindrop KM Monitor.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint risk.sensitive
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Risques : Risque signalé
 
 ## Sources
 - Source : [https://maple.dev](https://maple.dev)

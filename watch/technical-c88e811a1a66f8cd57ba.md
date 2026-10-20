@@ -10,15 +10,6 @@ actif
 
 Génère des données pour entraîner un modèle de visionnage optimal.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.data.organization source.noteplan source.github source.x lifecycle.active
-- Sujets : Données et connaissances > Organisation du travail
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Génère des données pour entraîner un modèle de visionnage optimal.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/Surean233/PC-NBV
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.data.organization source.noteplan source.github source.x lifecycle.active
+- Sujets : Données et connaissances > Organisation du travail
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -40,3 +40,34 @@ Génère des données pour entraîner un modèle de visionnage optimal.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/surean233/pc-nbv
+
+## Capacités documentées
+
+- Permet de planifier la prochaine vue optimale à partir de nuages de points.
+- Utilise des données ShapeNet pour générer des entrées et des étiquettes.
+- Exige la compilation des opérateurs TensorFlow pour fonctionner.
+- Fournit des scripts pour entraîner et évaluer le modèle.
+
+## Usages documentés
+
+- Cloner le dépôt
+- Compiler les opérateurs TensorFlow
+- Générer les données à partir de ShapeNet
+- Entraîner le modèle avec train.py
+- Évaluer le modèle avec test.py
+
+## Limites
+
+- Exige TensorFlow 1.12 et Python 3.7 sur Ubuntu 16.04
+- Nécessite la compilation des opérateurs TensorFlow
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/surean233/pc-nbv
+- Analyse source : 2026-10-19T20:31:57.859Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

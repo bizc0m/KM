@@ -10,17 +10,7 @@ actif
 
 ## Intérêts
 
-Génère des images à partir de textes avec un système de crédits.
-
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.media.image capability.generate.image source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Images et graphisme
-- Fonctions : Générer des contenus > Générer une image
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
+Génère des images AI avec des prompts textuels et des références visuelles.
 
 ## Métadonnées
 
@@ -30,6 +20,16 @@ Génère des images à partir de textes avec un système de crédits.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/SamurAIGPT/nano-banana-generator
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.media.image capability.generate.image source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Images et graphisme
+- Fonctions : Générer des contenus > Générer une image
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -41,5 +41,5 @@ Génère des images à partir de textes avec un système de crédits.
 - Origine : NotePlan
 - Identifiant source : d5417dd0599d69bd651b730a7dfdbc56e863de4f58e24b6607fa33e9be1302ed
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

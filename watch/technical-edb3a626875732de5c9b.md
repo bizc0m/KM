@@ -12,6 +12,15 @@ actif
 
 Améliore la productivité en optimisant les tâches de codage.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/affaan-m/ECC
+
 
 ## Ontologie
 
@@ -22,18 +31,9 @@ Améliore la productivité en optimisant les tâches de codage.
 - Provenance : Raindrop ; GitHub
 - État : Actif
 
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/affaan-m/ECC
-
 ## Sources
 
-- https://github.com/affaan-m/ECC
+- https://github.com/affaan-m/ecc
 
 ## Traçabilité
 

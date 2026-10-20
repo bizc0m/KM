@@ -12,6 +12,15 @@ actif
 
 exécuter des commandes projet spécifiques sans complexité
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : CC0-1.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/casey/just
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ exécuter des commandes projet spécifiques sans complexité
 - Compatibilités : Systèmes > macOS
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : macOS
-- Licence : CC0-1.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/casey/just
 
 ## Sources
 
@@ -43,3 +43,30 @@ exécuter des commandes projet spécifiques sans complexité
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/casey/just
+
+## Capacités documentées
+
+- just permet de sauvegarder et exécuter des commandes projet spécifiques
+- just utilise un fichier de configuration nommé justfile avec une syntaxe inspirée de make
+- just offre des fonctionnalités avancées comme la gestion des environnements et la charge de fichiers .env
+- just est compatible avec Linux, macOS, Windows et d'autres systèmes unix
+
+## Usages documentés
+
+- just RECIPE
+
+## Limites
+
+- nécessite un shell compatible
+- ne fonctionne pas sans fichier justfile
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/casey/just
+- Analyse source : 2026-10-19T18:04:50.737Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

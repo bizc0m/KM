@@ -12,6 +12,15 @@ actif
 
 Crée des canevas adaptatifs pour l'usage personnel
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Crée des canevas adaptatifs pour l'usage personnel
 - Compatibilités : Systèmes > macOS
 - Provenance : NotePlan Calendar ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : macOS
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

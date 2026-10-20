@@ -8,13 +8,6 @@ Veille Raindrop KM Monitor / connectivite Zero Trust et reseau prive.
 
 #tailscale, #zero-trust, #vpn, #network-security
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai domain.infrastructure.network
-- Sujets : Intelligence artificielle ; Infrastructure > Réseaux
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -23,6 +16,14 @@ Veille Raindrop KM Monitor / connectivite Zero Trust et reseau prive.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.infrastructure.network risk.sensitive
+- Sujets : Intelligence artificielle ; Infrastructure > Réseaux
+- Risques : Risque signalé
 
 ## Sources
 - Source finale : [https://tailscale.com](https://tailscale.com)

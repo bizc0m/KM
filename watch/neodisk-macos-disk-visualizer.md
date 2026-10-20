@@ -8,15 +8,6 @@ Veille Raindrop KM Monitor / outil macOS open source.
 
 #macos, #disk-analyzer, #swift
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.unclassified compatibility.os.macos compatibility.language.swift source.github
-- Sujets : À qualifier
-- Compatibilités : Systèmes > macOS ; Langages > Swift
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,17 +17,21 @@ Veille Raindrop KM Monitor / outil macOS open source.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.os.macos compatibility.language.swift risk.sensitive source.github
+- Sujets : À qualifier
+- Compatibilités : Systèmes > macOS ; Langages > Swift
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
-- Source finale : [https://github.com/tkslucas/Neodisk](https://github.com/tkslucas/Neodisk)
-- Site projet : `https://neodisk.app`
 
-Source GitHub :
-
-- depot : `tkslucas/Neodisk`
-- langage : Swift
-- licence : GPL-3.0
-- description : Read-only treemap and sunburst macOS disk space visualizer.
-- derniere mise a jour source : 2026-07-16T20:28:58Z
+- https://github.com/tkslucas/neodisk
+- https://github.com/tkslucas/Neodisk](https://github.com/tkslucas/Neodisk
+- https://neodisk.app/
 
 ## Metadata GitHub publique
 

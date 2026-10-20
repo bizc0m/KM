@@ -12,6 +12,15 @@ actif
 
 Génère des rapports de recherche avec des sources multiples et des citations
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/assafelovic/gpt-researcher
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Génère des rapports de recherche avec des sources multiples et des citations
 - Fonctions : Rechercher des documents
 - Provenance : X / Twitter ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Apache-2.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/assafelovic/gpt-researcher
 
 ## Sources
 

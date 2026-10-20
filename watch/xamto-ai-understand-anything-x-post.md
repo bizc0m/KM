@@ -6,14 +6,6 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai source.x
-- Sujets : Intelligence artificielle
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -23,8 +15,18 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai risk.sensitive source.x
+- Sujets : Intelligence artificielle
+- Risques : Risque signalé
+- Provenance : X / Twitter
+
 ## Sources
-- Source : [https://x.com/xamto_ai/status/2066302597586403400](https://x.com/xamto_ai/status/2066302597586403400)
+
+- https://x.com/xamto_ai/status/2066302597586403400](https://x.com/xamto_ai/status/2066302597586403400
 
 ## A_VERIFIER
 

@@ -12,6 +12,15 @@ actif
 
 Génère des vidéos à partir de code React.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/remotion-dev/remotion
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Génère des vidéos à partir de code React.
 - Fonctions : Automatiser des actions ; Générer des contenus > Générer une vidéo
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Non précisée
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/remotion-dev/remotion
 
 ## Sources
 
@@ -41,5 +41,23 @@ Génère des vidéos à partir de code React.
 - Origine : NotePlan
 - Identifiant source : c8e0d0b7ca0f7e400713e3c32f4794fb21b4707fadae13668622f42a30e4d644
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/remotion-dev/remotion
+
+## Capacités documentées
+
+- Crée des vidéos via des scripts React.
+- Automatise la production de vidéos.
+- Permet la gestion de complexité avec du code.
+- Facilite la création d'outils vidéo simples ou complexes.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/remotion-dev/remotion
+- Analyse source : 2026-10-20T05:39:38.276Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

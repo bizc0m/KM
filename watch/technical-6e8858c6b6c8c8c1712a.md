@@ -12,6 +12,15 @@ actif
 
 Supprime des éléments indésirables d'images en ligne
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -22,26 +31,17 @@ Supprime des éléments indésirables d'images en ligne
 - Provenance : NotePlan Calendar ; X / Twitter
 - État : Actif
 
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
-
 ## Sources
 
 - https://x.com/i/status/2055453957179453700
-- https://cleanup.pictures
+- https://cleanup.pictures/
 - https://canva.com/features/video-background-remover
-- https://shots.so
-- https://similarsites.com
-- https://codebeautify.org
-- https://jsonformatter.org
-- https://explainshell.com
-- https://raindrop.io
+- https://shots.so/
+- https://similarsites.com/
+- https://codebeautify.org/
+- https://jsonformatter.org/
+- https://explainshell.com/
+- https://raindrop.io/
 - https://gutenberg.org/newsletter
 - https://gutenberg.org/a11y
 
@@ -50,19 +50,19 @@ Supprime des éléments indésirables d'images en ligne
 - Origine : NotePlan
 - Identifiant source : b74bd8e269dcd0f0364fe4ab5ff411d847108f27bd64fb325f9a1e0c8528f57b
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 5597.
+- Liens distincts recensés : 5604.
 - Pages lues, tweet compris : 74.
 - Sources techniques analysées : 10.
 - Sources à vérifier : 59 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 5428 (profondeur : 0, budget de pages : 5414, délai : 0, erreurs : 14).
+- Liens non lus : 5433 (profondeur : 0, budget de pages : 5421, délai : 0, erreurs : 12).
 - Pages résumées sur extrait : 8.
-- Éléments exclus : 100 ; doublons ignorés : 1.
+- Éléments exclus : 102 ; doublons ignorés : 1.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### Cleanup.pictures - Outil de retouche d'images par IA
@@ -103,9 +103,9 @@ Source : https://shots.so ; niveau 1.
 Extension Chrome permettant de découvrir des sites web similaires et liés à un site cible.
 
 - Permet de trouver des sites web similaires à un site cible.
-- Propose une recherche basée sur des données d'audience.
-- Facilite la découverte de nouveaux sites et thèmes.
-- Intégré à des outils comme SimilarWeb et SimilarTech.
+- Fournit des informations sur le trafic mensuel des sites trouvés.
+- Facilite la découverte de nouveaux sites et sujets liés.
+- Intégré aux outils SimilarWeb et SimilarTech pour des analyses approfondies.
 
 Source : https://similarsites.com ; niveau 1.
 

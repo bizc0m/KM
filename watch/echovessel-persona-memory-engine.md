@@ -8,16 +8,6 @@
 
 #ai-companion, #memoire-agents, #rag, #python
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.media.audio domain.ai.agents.memory capability.memory compatibility.language.python source.github
-- Sujets : Audio, vidéo et création > Audio ; Intelligence artificielle > Agents IA > Mémoire des agents
-- Fonctions : Conserver le contexte
-- Compatibilités : Langages > Python
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,12 +17,21 @@
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.audio domain.ai.agents.memory capability.memory compatibility.language.python risk.sensitive source.github
+- Sujets : Audio, vidéo et création > Audio ; Intelligence artificielle > Agents IA > Mémoire des agents
+- Fonctions : Conserver le contexte
+- Compatibilités : Langages > Python
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
 
-- Source finale: [https://github.com/AlanY1an/echovessel](https://github.com/AlanY1an/echovessel)
-- Origine: archive NotePlan captures 2026, capture du 2026-08-07.
-- Domaine: `github.com`
-- Auteur/source: `AlanY1an`
+- https://github.com/alany1an/echovessel
+- https://github.com/AlanY1an/echovessel](https://github.com/AlanY1an/echovessel
 
 ## Topics GitHub
 

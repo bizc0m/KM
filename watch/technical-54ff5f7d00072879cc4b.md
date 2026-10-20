@@ -12,15 +12,6 @@ actif
 
 Installe rapidement des outils OSINT et de sécurité sur plusieurs systèmes.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.osint source.raindrop source.x source.github lifecycle.active
-- Sujets : Cybersécurité > Renseignement en sources ouvertes
-- Provenance : Raindrop ; X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -29,6 +20,15 @@ Installe rapidement des outils OSINT et de sécurité sur plusieurs systèmes.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/rawfilejson/awesome-osint-arsenal
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint source.raindrop source.x source.github lifecycle.active
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
 
 ## Sources
 

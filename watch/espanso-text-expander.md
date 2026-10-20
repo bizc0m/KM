@@ -8,15 +8,6 @@
 
 #macos, #text-expander, #rust, #local-first
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.dev.desktop compatibility.os.macos compatibility.language.rust compatibility.deployment.local source.github
-- Sujets : Développement logiciel > Applications et interfaces de bureau
-- Compatibilités : Systèmes > macOS ; Langages > Rust ; Exécution > Exécution locale
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,12 +17,20 @@
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.desktop compatibility.os.macos compatibility.language.rust compatibility.deployment.local source.github lifecycle.active
+- Sujets : Développement logiciel > Applications et interfaces de bureau
+- Compatibilités : Systèmes > macOS ; Langages > Rust ; Exécution > Exécution locale
+- Provenance : GitHub
+- État : Actif
+
 ## Sources
 
-- Source finale: [https://github.com/espanso/espanso](https://github.com/espanso/espanso)
-- Origine: archive NotePlan captures 2026, capture du 2026-08-24.
-- Domaine: `github.com`
-- Auteur/source: `espanso`
+- https://github.com/espanso/espanso
+- https://github.com/espanso/espanso](https://github.com/espanso/espanso
 
 ## Topics GitHub
 

@@ -8,15 +8,6 @@ Veille Raindrop KM Monitor / utilitaire macOS open source pour controle avance d
 
 #macos, #display, #hidpi
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.dev.desktop compatibility.os.macos source.github
-- Sujets : Développement logiciel > Applications et interfaces de bureau
-- Compatibilités : Systèmes > macOS
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,13 +17,19 @@ Veille Raindrop KM Monitor / utilitaire macOS open source pour controle avance d
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.desktop compatibility.os.macos source.github lifecycle.active
+- Sujets : Développement logiciel > Applications et interfaces de bureau
+- Compatibilités : Systèmes > macOS
+- Provenance : GitHub
+- État : Actif
+
 ## Sources
 
-- Source Raindrop : `KM Monitor public feed`
-- URL finale verifiee : `https://github.com/waydabber/BetterDisplay`
-- Domaine : `github.com`
-- Source/auteur : `waydabber`
-- Date Raindrop : `2026-08-28T13:41:00.369Z`
+- https://github.com/waydabber/betterdisplay
 
 ## A verifier
 

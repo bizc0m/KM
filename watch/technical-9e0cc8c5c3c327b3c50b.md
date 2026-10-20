@@ -6,11 +6,20 @@ actif
 
 ## Tags
 
-#terminal, #extraction-web, #python
+#extraction-web, #python, #terminal
 
 ## Intérêts
 
 Permet de streamer des médias via des plugins configurés.
+
+## Métadonnées
+
+- Nature : CLI
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/mov-cli/mov-cli
 
 
 ## Ontologie
@@ -22,15 +31,6 @@ Permet de streamer des médias via des plugins configurés.
 - Compatibilités : Langages > Python ; Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : CLI
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/mov-cli/mov-cli
 
 ## Sources
 
@@ -44,3 +44,32 @@ Permet de streamer des médias via des plugins configurés.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/mov-cli/mov-cli
+
+## Capacités documentées
+
+- Permet de streamer des médias depuis le terminal.
+- Utilise des plugins pour le scraping des contenus.
+- Requiert Python 3.10 ou supérieur.
+- Configuration via fichier TOML
+
+## Usages documentés
+
+- pip install mov-cli -U
+- mov-cli -e
+- mov-cli -s youtube blender studio
+
+## Limites
+
+- Dépend de plugins externes
+- Pas de fonctionnalités natives de scraping
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/mov-cli/mov-cli
+- Analyse source : 2026-10-19T23:06:57.213Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

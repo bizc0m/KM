@@ -8,16 +8,6 @@ Veille outils IA / intelligence de sessions agents.
 
 #agents-code, #session-intelligence, #local-first, #search
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.data.search capability.code.assist compatibility.deployment.local source.github
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Données et connaissances > Recherche et indexation
-- Fonctions : Assister le développement
-- Compatibilités : Exécution > Exécution locale
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,20 +17,21 @@ Veille outils IA / intelligence de sessions agents.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.data.search capability.code.assist compatibility.deployment.local risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Données et connaissances > Recherche et indexation
+- Fonctions : Assister le développement
+- Compatibilités : Exécution > Exécution locale
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
 
-- Site : `https://www.agentsview.io/`
-- Repo : `https://github.com/kenn-io/agentsview`
-
-Verification GitHub API :
-
-- repo : `kenn-io/agentsview`
-- description : local-first session intelligence and analytics for coding agents
-- stars lus : 1087
-- forks lus : 139
-- licence : MIT
-- archived : false
-- dernier push lu : 2026-05-22
+- https://github.com/kenn-io/agentsview
+- https://www.agentsview.io/
 
 ## Metadata GitHub publique
 

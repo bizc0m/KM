@@ -12,6 +12,15 @@ actif
 
 Capturer et stocker le contexte des conversations IA pour le réutiliser dans d'autres sessions.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Capturer et stocker le contexte des conversations IA pour le réutiliser dans d'
 - Fonctions : Conserver le contexte ; Capturer des notes
 - Provenance : NotePlan Calendar
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

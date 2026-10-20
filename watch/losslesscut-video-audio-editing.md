@@ -8,14 +8,6 @@
 
 #video, #audio, #editing, #ffmpeg
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.media.audio domain.media.video source.github
-- Sujets : Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,12 +17,19 @@
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.audio domain.media.video source.github lifecycle.active
+- Sujets : Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo
+- Provenance : GitHub
+- État : Actif
+
 ## Sources
 
-- Source finale: [https://github.com/mifi/lossless-cut](https://github.com/mifi/lossless-cut)
-- Origine: archive NotePlan captures 2026, capture du 2026-08-21.
-- Domaine: `github.com`
-- Auteur/source: `mifi`
+- https://github.com/mifi/lossless-cut
+- https://github.com/mifi/lossless-cut](https://github.com/mifi/lossless-cut
 
 ## Topics GitHub
 

@@ -12,6 +12,15 @@ actif
 
 Exécution locale avec 12 Go de mémoire. Performance sur benchmarks.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Exécution locale avec 12 Go de mémoire. Performance sur benchmarks.
 - Compatibilités : Exécution > Exécution locale ; Interfaces > Terminal
 - Provenance : Raindrop ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

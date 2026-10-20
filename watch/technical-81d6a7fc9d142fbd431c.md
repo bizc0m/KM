@@ -12,6 +12,15 @@ actif
 
 Permet d'installer des compétences pour mieux répondre aux demandes spécifiques.
 
+## Métadonnées
+
+- Nature : Collection de skills
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Permet d'installer des compétences pour mieux répondre aux demandes spécifiqu
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : Collection de skills
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

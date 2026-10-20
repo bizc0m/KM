@@ -8,16 +8,6 @@ Veille Raindrop KM Monitor / orchestration agents terminal.
 
 #orchestration-agents, #terminal, #orchestration, #cli
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.orchestration capability.automation.orchestrate compatibility.interface.terminal source.github
-- Sujets : Intelligence artificielle > Agents IA > Orchestration des agents
-- Fonctions : Automatiser des actions > Coordonner des agents
-- Compatibilités : Interfaces > Terminal
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,8 +17,21 @@ Veille Raindrop KM Monitor / orchestration agents terminal.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.orchestration capability.automation.orchestrate compatibility.interface.terminal risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA > Orchestration des agents
+- Fonctions : Automatiser des actions > Coordonner des agents
+- Compatibilités : Interfaces > Terminal
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
-- Source finale : [https://github.com/herdrdev/herdr](https://github.com/herdrdev/herdr)
+
+- https://github.com/herdrdev/herdr
+- https://github.com/herdrdev/herdr](https://github.com/herdrdev/herdr
 
 ## Metadata GitHub publique
 

@@ -31,3 +31,13 @@ Site : `https://vibeshit.org/`
 - Accès : À vérifier
 - Preuve : À vérifier
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.ai.llm domain.dev.ui domain.data.catalogues domain.media.image risk.sensitive
+- Sujets : Intelligence artificielle > Agents IA ; Intelligence artificielle > Modèles de langage ; Développement logiciel > Conception d’interfaces ; Données et connaissances > Catalogues de ressources ; Audio, vidéo et création > Images et graphisme
+- Risques : Risque signalé
+
+## Sources
+
+- https://vibeshit.org/

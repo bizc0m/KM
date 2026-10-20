@@ -10,17 +10,7 @@ actif
 
 ## Intérêts
 
-Gère les dépendances de projet avec des lockfiles.
-
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.dev.dependencies domain.data.organization compatibility.language.python source.x source.github lifecycle.active
-- Sujets : Développement logiciel > Paquets et dépendances ; Données et connaissances > Organisation du travail
-- Compatibilités : Langages > Python
-- Provenance : X / Twitter ; GitHub
-- État : Actif
+Gère les dépendances des projets avec un fichier de verrouillage.
 
 ## Métadonnées
 
@@ -30,6 +20,16 @@ Gère les dépendances de projet avec des lockfiles.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/astral-sh/uv
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.dependencies compatibility.language.python source.x source.github lifecycle.active
+- Sujets : Développement logiciel > Paquets et dépendances
+- Compatibilités : Langages > Python
+- Provenance : X / Twitter ; GitHub
+- État : Actif
 
 ## Sources
 
@@ -45,3 +45,21 @@ Gère les dépendances de projet avec des lockfiles.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/astral-sh/uv
+
+## Capacités documentées
+
+- Installe et gère des versions de Python.
+- Gère les dépendances des projets avec un fichier de verrouillage.
+- Exécute des outils Python comme pipx.
+- Fait des installations plus rapides que pip.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/astral-sh/uv
+- Analyse source : 2026-10-20T07:42:57.268Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

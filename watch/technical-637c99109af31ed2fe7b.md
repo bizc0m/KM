@@ -12,6 +12,15 @@ actif
 
 Aide à l'alignement entre utilisateur et agent via des sessions d'interrogation
 
+## Métadonnées
+
+- Nature : Collection de skills
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/mattpocock/skills
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Aide à l'alignement entre utilisateur et agent via des sessions d'interrogation
 - Fonctions : Étendre les compétences d’un agent
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : Collection de skills
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/mattpocock/skills
 
 ## Sources
 
@@ -43,3 +43,28 @@ Aide à l'alignement entre utilisateur et agent via des sessions d'interrogation
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/mattpocock/skills
+
+## Capacités documentées
+
+- Facilitates alignment between user and agent through grilling sessions
+- Encourages shared language development with domain models and glossaries
+- Supports test-driven development with TDD skill
+- Provides codebase architecture improvement tools
+
+## Usages documentés
+
+- /grill-me
+- /grill-with-docs
+- /tdd
+- /improve-codebase-architecture
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/mattpocock/skills
+- Analyse source : 2026-10-19T14:40:42.779Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

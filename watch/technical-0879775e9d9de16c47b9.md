@@ -12,6 +12,15 @@ actif
 
 Propose des corrections de code en temps réel via un terminal interactif
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/ovh/shai
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Propose des corrections de code en temps réel via un terminal interactif
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Apache-2.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/ovh/shai
 
 ## Sources
 
@@ -44,3 +44,30 @@ Propose des corrections de code en temps réel via un terminal interactif
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/ovh/shai
+
+## Capacités documentées
+
+- Permet d'écrire et corriger du code via un terminal interactif
+- Supporte plusieurs fournisseurs de LLM comme OVHcloud, OpenAI, Anthropic
+- Fournit un mode serveur HTTP avec API OpenAI-compatible
+- Propose un assistant shell pour suggérer des fixes automatiquement
+
+## Usages documentés
+
+- shai
+- shai -p "make me a hello world in main.py"
+
+## Limites
+
+- Limite de débit de 2 requêtes par minute sans clé API
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/ovh/shai
+- Analyse source : 2026-10-19T21:00:15.195Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

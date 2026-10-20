@@ -1,4 +1,4 @@
-# Whisper : modèle de reconnaissance vocale
+# Whisper
 
 ## Statut
 
@@ -10,7 +10,16 @@ actif
 
 ## Intérêts
 
-Transcrire un audio en anglais avec un modèle optimisé.
+Transcrire la parole multilingue et traduire des enregistrements vers l’anglais.
+
+## Métadonnées
+
+- Nature : Modèle de parole
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/openai/whisper
 
 
 ## Ontologie
@@ -21,15 +30,6 @@ Transcrire un audio en anglais avec un modèle optimisé.
 - Fonctions : Traitement de la voix > Transcrire ; Traitement de la voix > Traduire un enregistrement
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/openai/whisper
 
 ## Sources
 
@@ -43,3 +43,8 @@ Transcrire un audio en anglais avec un modèle optimisé.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/openai/whisper
+- Preuve de correction : https://github.com/openai/whisper

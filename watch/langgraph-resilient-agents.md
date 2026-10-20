@@ -8,14 +8,6 @@ Veille framework IA / agents resilients.
 
 #langchain, #graph, #state
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents source.github
-- Sujets : Intelligence artificielle > Agents IA
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,8 +17,18 @@ Veille framework IA / agents resilients.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
-- Repo GitHub : `https://github.com/langchain-ai/langgraph`
+
+- https://github.com/langchain-ai/langgraph
 
 ## Metadata GitHub publique
 

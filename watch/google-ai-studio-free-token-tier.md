@@ -8,15 +8,6 @@ Veille ressource IA / quotas API.
 
 #llm, #google-ai-studio, #api, #free-tier
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.llm compatibility.interface.api source.x
-- Sujets : Intelligence artificielle > Modèles de langage
-- Compatibilités : Interfaces > API
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,8 +17,19 @@ Veille ressource IA / quotas API.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm compatibility.interface.api source.x lifecycle.review
+- Sujets : Intelligence artificielle > Modèles de langage
+- Compatibilités : Interfaces > API
+- Provenance : X / Twitter
+- État : À vérifier
+
 ## Sources
-- Source : [https://x.com/engmoelgaraihy/status/2071356188944441625](https://x.com/engmoelgaraihy/status/2071356188944441625)
+
+- https://x.com/engmoelgaraihy/status/2071356188944441625](https://x.com/engmoelgaraihy/status/2071356188944441625
 
 ## A verifier
 

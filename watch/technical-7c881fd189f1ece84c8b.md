@@ -12,6 +12,15 @@ actif
 
 Sélectionner rapidement des fichiers ou commandes via une recherche floue
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/junegunn/fzf
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Sélectionner rapidement des fichiers ou commandes via une recherche floue
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/junegunn/fzf
 
 ## Sources
 

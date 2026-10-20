@@ -12,16 +12,6 @@ actif
 
 Visualiser les dépendances entre fonctions et classes pour mieux comprendre le code.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.unclassified compatibility.interface.terminal source.raindrop source.x source.github lifecycle.active
-- Sujets : À qualifier
-- Compatibilités : Interfaces > Terminal
-- Provenance : Raindrop ; X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -31,10 +21,21 @@ Visualiser les dépendances entre fonctions et classes pour mieux comprendre le 
 - Accès : À vérifier
 - Preuve : https://github.com/Egonex-AI/Understand-Anything
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.interface.terminal source.raindrop source.github source.x lifecycle.active
+- Sujets : À qualifier
+- Compatibilités : Interfaces > Terminal
+- Provenance : Raindrop ; GitHub ; X / Twitter
+- État : Actif
+
 ## Sources
 
+- https://github.com/egonex-ai/understand-anything
 - https://x.com/xamto_ai/status/2066302597586403400?s=12
-- https://github.com/Egonex-AI/Understand-Anything
+- https://understand-anything.com/
 
 ## Traçabilité
 

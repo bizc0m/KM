@@ -6,14 +6,6 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.unclassified source.x
-- Sujets : À qualifier
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -23,8 +15,18 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified risk.sensitive source.x
+- Sujets : À qualifier
+- Risques : Risque signalé
+- Provenance : X / Twitter
+
 ## Sources
-- Source : [https://x.com/ftcarpe/status/2069069787406139742](https://x.com/ftcarpe/status/2069069787406139742)
+
+- https://x.com/ftcarpe/status/2069069787406139742](https://x.com/ftcarpe/status/2069069787406139742
 
 ## A_VERIFIER
 

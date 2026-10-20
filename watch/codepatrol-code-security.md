@@ -8,14 +8,6 @@ Veille outils dev/security / code review et SAST.
 
 #code-security, #sast, #code-review, #vulnerability-scanning
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.dev.quality domain.security.testing capability.security.vulnerabilities
-- Sujets : Développement logiciel > Qualité du code ; Cybersécurité > Tests de sécurité
-- Fonctions : Détecter des vulnérabilités
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,10 +17,19 @@ Veille outils dev/security / code review et SAST.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.quality domain.security.testing capability.security.vulnerabilities lifecycle.review
+- Sujets : Développement logiciel > Qualité du code ; Cybersécurité > Tests de sécurité
+- Fonctions : Détecter des vulnérabilités
+- État : À vérifier
+
 ## Sources
 
-- URL fournie : `https://codepatrol-2.polsia.app/`
-- Source secondaire trouvee : `https://sourceforge.net/software/product/CodePatrol/`
+- https://codepatrol-2.polsia.app/
+- https://sourceforge.net/software/product/CodePatrol/
 
 ## Statut verification
 

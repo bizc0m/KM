@@ -27,3 +27,15 @@ Osaurus est une piste d outil pour faire tourner ou piloter des agents IA locale
 - Accès : À vérifier
 - Preuve : À vérifier
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents capability.automation compatibility.os.macos lifecycle.review
+- Sujets : Intelligence artificielle > Agents IA
+- Fonctions : Automatiser des actions
+- Compatibilités : Systèmes > macOS
+- État : À vérifier
+
+## Sources
+
+- https://osaurus.ai/

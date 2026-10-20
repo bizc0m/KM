@@ -1,0 +1,3700 @@
+{
+  "at": "2026-10-20T07:49:08.393Z",
+  "scope": "public-index-only",
+  "fiches": 513,
+  "sourceReferences": 2250,
+  "sourceCap": null,
+  "verifiedCorrections": 4,
+  "primaryDuplicateGroups": [],
+  "pendingReview": 486,
+  "counts": {
+    "interest-missing": 173,
+    "keywords-missing": 48,
+    "domain-unqualified": 56,
+    "primary-identity-unqualified": 23,
+    "nature-unqualified": 465
+  },
+  "queue": [
+    {
+      "id": "watch-technical-b3d97a6bcd67a3be76f1-md",
+      "title": "agency-agents",
+      "reasons": [
+        "interest-missing",
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-34d5505e0a9890ad64f6-md",
+      "title": "open-ai-design-agent",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-9e4c4b6c4c6a7d12ceff-md",
+      "title": "llm-wiki-agent",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-21a78e48d74a8e6ab07f-md",
+      "title": "AI Creator Academy",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-a20888d5cb6a1c399300-md",
+      "title": "AI Logo Studio",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-937b200dbfd957aae460-md",
+      "title": "AICLIPS Studio",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-53b65313df1efd7a5d72-md",
+      "title": "Analyse et détection du malware sur macOS",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-40cd4bcbc0fb8cf86c20-md",
+      "title": "AppFlowy",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-dee6cae45f8c3798057c-md",
+      "title": "Cabal Proxy Harvester",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-736ba7730a16f99e6717-md",
+      "title": "Cabal Stealth Checker",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-553d2fe81671c153a6e0-md",
+      "title": "Cal.diy",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-6e8858c6b6c8c8c1712a-md",
+      "title": "Cleanup.pictures",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-6693a84665174f39d08b-md",
+      "title": "ClearMark AI",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e0275c5610589cad14d2-md",
+      "title": "awesome-ai-video-models",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-cf13d710b766f0f10a31-md",
+      "title": "community-edition",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-d9575f3020769f3b284b-md",
+      "title": "Coolify",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-19c0251e942e91d7ee33-md",
+      "title": "CoronavirOSINT",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-de90088a7594bcc86157-md",
+      "title": "DorkSint",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1380f00a7374bcec86ff-md",
+      "title": "Evilginx2",
+      "reasons": [
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-acd9eb29cb67574c16ec-md",
+      "title": "Eyes",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-812162d99641f3f436b1-md",
+      "title": "FreeLLMAPI",
+      "reasons": [
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-28efa5970d38e5616943-md",
+      "title": "ai-meme-generator",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-d85e8aba072628b2e82b-md",
+      "title": "Générateur de vidéo d'embrassade IA",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0c9607a1c8e9eb918265-md",
+      "title": "ai-headshot-generator",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c750bc2f9f73e8e1f5bd-md",
+      "title": "Ghost",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-d924e27b47fa985d6e04-md",
+      "title": "Google Dorker",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c185cfb5713fdfdca685-md",
+      "title": "Gophish",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-75e00de51f7cccf3faba-md",
+      "title": "Gophish",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-6e18aa23e1f0d14413d5-md",
+      "title": "HyperFrames",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-a194ad9339f6df4c73ea-md",
+      "title": "cabal-weather-scraper",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f8f551d25eb73ecda1fd-md",
+      "title": "openai-api",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-49226a0e2e05fa223d37-md",
+      "title": "Kami",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-6cc3ec716443f80c37a3-md",
+      "title": "Kling Video API via Muapi",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-772a97605758aae798a9-md",
+      "title": "mailcat",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ee446b3bf303b677315c-md",
+      "title": "MailHog",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ae656978c39f7ee93ef6-md",
+      "title": "Markdown Nice",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-10eda570000d9c7eeda1-md",
+      "title": "markdown-to-image",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0096fb39d8f5defe169d-md",
+      "title": "Medusa",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-9bd95807fef95eea1d8c-md",
+      "title": "MoneyPrinter",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-d5417dd0599d69bd651b-md",
+      "title": "Nano Banana Generator",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c529972e77a3e48d4fdd-md",
+      "title": "Nmap",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-5ba505eac127e82e4362-md",
+      "title": "OmniVoice Studio",
+      "reasons": [
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-2d163384adb685d9a51a-md",
+      "title": "Open AI Agents Hub",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-79b08dab72dcf263294d-md",
+      "title": "Open Claude Tag",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-78faa425ad9343a870b8-md",
+      "title": "Open Generative AI",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-690719855ba11af8d90c-md",
+      "title": "open-slide",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-7f84d8cb0f021d98f595-md",
+      "title": "OpenCut",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-757ce536b0a4cbc2f860-md",
+      "title": "OpenDesign",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1049081f67e5576ca9e6-md",
+      "title": "OSINT Cabal Live Center",
+      "reasons": [
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-cdbdf85699a704f19664-md",
+      "title": "OSINTSky",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ca8e59013ec56e1d2be5-md",
+      "title": "vin-number-osint",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-02e627709adedd541e23-md",
+      "title": "huashu-md-html",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e81f6151c35e55d15926-md",
+      "title": "Outil de création d'images et vidéos open source",
+      "reasons": [
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-73a929f1ca2e1edf16a9-md",
+      "title": "tiktok-timestamp",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-7ae9451cd62fb317043f-md",
+      "title": "Outils de gestion des droits d'auteur sur YouTube",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c0d4875dd605f77caf57-md",
+      "title": "Penpot",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1322cd90adeb08627ff0-md",
+      "title": "Plausible Analytics",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-4f05134572dbcb3265f2-md",
+      "title": "Profile Summary for GitHub",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-252f85e1a80b7d2702ca-md",
+      "title": "PROQCIMA",
+      "reasons": [
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c341f7566eb8b34cd45a-md",
+      "title": "Qwen Image API via MuAPI",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c8e0d0b7ca0f7e400713-md",
+      "title": "Remotion",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c5cd3a5c95630c792129-md",
+      "title": "awesome-generative-ai-apps",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1a1b1c01fccbb652af5e-md",
+      "title": "Restauration d'images anciennes avec AI",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ad3b72610e20f4f2c9a6-md",
+      "title": "Seedance 2 Generator",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-7e693280a600ec11a89d-md",
+      "title": "SnapIntel",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-94c4f976278cef504540-md",
+      "title": "stable-diffusion.cpp",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f02783bd848306e7457b-md",
+      "title": "Star History",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c67a2647c3e09c338891-md",
+      "title": "SubCat",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-91a4ed33e0fa4b66d349-md",
+      "title": "Sublist3r",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-2b5226bf08105545e1cf-md",
+      "title": "Supabase",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-57e845072d92fede6967-md",
+      "title": "TelegramOSINT-Kit",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0a0ff4b87cf292fe8c93-md",
+      "title": "TikTok User Info Scraper",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-9068e1e4bc2dea6a7322-md",
+      "title": "Uscrapper Vanta",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1d55b4cad34f154042bf-md",
+      "title": "User Scanner",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-75510e336991262df5d4-md",
+      "title": "Veo 3.1 Studio Generator",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-6ccb86641ecc996a74b9-md",
+      "title": "Vibe Workflow",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-dbbe9adbe528f3b77e3a-md",
+      "title": "VisoMaster-Fusion",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-37a1c9a401fe305b58a5-md",
+      "title": "WanGP",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-654478eba9c74251531f-md",
+      "title": "Web-Check",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-d6babbc48c72c3692516-md",
+      "title": "WhatsMyName",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e7559ed70d863d3b8f6d-md",
+      "title": "zack-d-films-ai-video-generator",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1e83b6596b947b071d50-md",
+      "title": "agency-agents",
+      "reasons": [
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ea311829e667eb1acdcc-md",
+      "title": "agentmemory",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-900c2911ad71cf6d2191-md",
+      "title": "AI employee open source avec ordinateur intégré",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-696f5b09666c81fe3adc-md",
+      "title": "AI-Trader",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-252e5a55f7318a7eec1e-md",
+      "title": "AiToEarn",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ca3c69add82754901cf6-md",
+      "title": "AlphaTablets",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-14991362ba170a15ca07-md",
+      "title": "anacrolix/torrent",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-42965a7ae63080ec3407-md",
+      "title": "animdl",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-02d73009ec03d24b2e22-md",
+      "title": "Anthropic Cybersecurity Skills",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-technical-4ebbe613827a1ffc3c29-md",
+      "title": "Anthropic/skills",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-technical-e3f44ce252af9ba887f8-md",
+      "title": "ARGO",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-674690abd042252d5376-md",
+      "title": "Assembler3d",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1f02bc8ebd550362cbc2-md",
+      "title": "Augur Trading Bot",
+      "reasons": [
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-411490b28204e94a3778-md",
+      "title": "AutoHedge",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c68d8c6560271f81a81f-md",
+      "title": "prediction-market-backtesting",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-b79207044bee1b2d7073-md",
+      "title": "BAML",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-994bb8c95881181b98b3-md",
+      "title": "Bark",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-104ad8ef475db3f7384a-md",
+      "title": "Better Fan Trading Bot",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1f8d61fe04f2cb529ec1-md",
+      "title": "Bun",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-05a714c23543244771cf-md",
+      "title": "camofox-browser",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-4f72d6274858ca1e8190-md",
+      "title": "CHARM",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8eec6dc58fee3af126d1-md",
+      "title": "Claude Ads",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-227e249fa68647e0ca82-md",
+      "title": "Claude Code gratuit avec proxy NVIDIA",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-533d51d9d3dea76fea8f-md",
+      "title": "Cline",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-7e23e27f5e0938bac417-md",
+      "title": "CloakBrowser",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-d6a24343d25ffd74d14c-md",
+      "title": "CloddsBot",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-fca1fec32410e408c140-md",
+      "title": "cloud-torrent",
+      "reasons": [
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-4ae9875513059238a6b2-md",
+      "title": "Codewhale",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f26c6abfcce6e427cbf6-md",
+      "title": "700-cybersecurity-skills",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-668711a6e10728221dfc-md",
+      "title": "headroom",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-37abca5ae9be9ed91364-md",
+      "title": "Crawlee",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-57435869059c16d7e579-md",
+      "title": "skills_feed",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c7981ee6b566fce67d68-md",
+      "title": "Crypto.com Predictions Trading Bot",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-74dc45b5f749db3d46d0-md",
+      "title": "DarkFeat",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-35aadf0372281812cd07-md",
+      "title": "agents",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ddda9bed5feda3007847-md",
+      "title": "DESIGN.md",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-80c1535b6e69bb84082c-md",
+      "title": "DI-PCG",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f1fa1897837db4db2e4d-md",
+      "title": "Direct3D-S2",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-832b1113a3474e30413a-md",
+      "title": "DraftKings Predictions Trading Bot",
+      "reasons": [
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-b837a3f7fa0f746e59c5-md",
+      "title": "Fanatics Markets Trading Bot",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-2ee41fd0d683c0958502-md",
+      "title": "Free Claude Code",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-7c881fd189f1ece84c8b-md",
+      "title": "fzf",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8d8cf40ff98876dc4965-md",
+      "title": "ai-faceless-video-generator",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-4ff70387f0be38c9fbad-md",
+      "title": "vox-ai-motion-graphics-generator",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1158f7d0b091e0866c17-md",
+      "title": "pixal3d",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-041ee9bffa76ace2d6ef-md",
+      "title": "Génération automatique de micro-dramas vidéo",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-37356cc78499d8e4af94-md",
+      "title": "Génération d'actifs 3D structurés",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-cfc247fd5cb1bebffe4a-md",
+      "title": "ai-b-roll",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-cc687e91ee3b0302f92e-md",
+      "title": "text-to-video-ai",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-aa8e0008d94afed17913-md",
+      "title": "xianyu-auto-reply-fix",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f1bc36a07e9a8a388405-md",
+      "title": "cloakbrowser-manager",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-d2fc479804301a66d2d8-md",
+      "title": "GPT Researcher",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-cc7d258f82fc4f055019-md",
+      "title": "Grok Build",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-383ec76df0f9b9e99e36-md",
+      "title": "GSPN",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1805682cce69c18558d8-md",
+      "title": "H4X-Tools",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-2c77d6ac468e756216f6-md",
+      "title": "Hedgehog Markets Trading Bot",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-4f5360b51f5e48b701f2-md",
+      "title": "Hermes WeatherBot",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-457a0ceb1c2bf60a2841-md",
+      "title": "Hysteria",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-3f991f224eb64ace6e0c-md",
+      "title": "idn-solver",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1fca81e0d4c208d8ff35-md",
+      "title": "notfair-nextjs-blog",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8a9178e6e40f90af4053-md",
+      "title": "Interactive Brokers ForecastTrader",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-175145cf9f61d50d798d-md",
+      "title": "J.A.R.V.I.S.",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-5e7f5b459d52bc0badc8-md",
+      "title": "just",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-3de5fe321bc7be772fd3-md",
+      "title": "Kelly Weather Trading Bot",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-5ea1d4fd1ccb4341a6ba-md",
+      "title": "Langchain",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c5a32632e586ab2c7c9c-md",
+      "title": "LangChain",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-2eb5b1b4690cd51d126c-md",
+      "title": "awesome-seo-agent-skills",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ff4abb9b63459f4d12ec-md",
+      "title": "awesome-seo-agent-skills",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-98601a8248a8eb261f28-md",
+      "title": "awesome-ai-marketing-tools-1",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c9538405e52eaa888eec-md",
+      "title": "awesome-ai-marketing-tools",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0ddca6b2cefbbbc15347-md",
+      "title": "Liste de serveurs MCP publics",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8c7fcab8649bc99384b3-md",
+      "title": "Liste de serveurs MCP publics",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0c47943ed87a19d125dc-md",
+      "title": "Liste de startups AI",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8f4d2163b5e697a72c77-md",
+      "title": "llama.cpp",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0ebd1f1b56ff3fc73866-md",
+      "title": "lobster",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-18f0542a2dd3c9b424dc-md",
+      "title": "loguru",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f0066d78062c33a0cb18-md",
+      "title": "Mac Mini pour l'IA",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-6d84c860baa5311d1e0f-md",
+      "title": "Maigret",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0812a3e04271e2d82124-md",
+      "title": "Mailcrew",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-13c3b19f7eae9306c512-md",
+      "title": "Minitrade",
+      "reasons": [
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-4fed931d247d6cb2a3df-md",
+      "title": "Mistral Vibe",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ae2b5f1a3fbdf8f6f54d-md",
+      "title": "Myfish",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-2593ae994f558b741e0a-md",
+      "title": "Napkin AI",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f9593f1f67353de2f728-md",
+      "title": "NautilusTrader",
+      "reasons": [
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-7e07682fe36ee14ea7b5-md",
+      "title": "NerfingMVS",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-78d472c25b2758a70776-md",
+      "title": "notebooklm-py",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-712121d9735431107601-md",
+      "title": "O2-Recon",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e966a9e737e6ac681d51-md",
+      "title": "Oddpool",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-00898489ed72fd55e12d-md",
+      "title": "Open-LLM-VTuber",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e9402eee8021703f0e94-md",
+      "title": "Open-Pomelli",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0b5c4741d1c147be5fdd-md",
+      "title": "OpenClaw",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ffccace0ba14fd154d90-md",
+      "title": "OpenCode",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-aabd475730fdd2c418b7-md",
+      "title": "OpenWA",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-d07066251c23560c4586-md",
+      "title": "rtk",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-6bb0ffb5ad3771787603-md",
+      "title": "orogene",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e89b211cd062814b9628-md",
+      "title": "Outil d'alignement et de validation des requêtes avec un modèle d'IA",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-dbe2e54164b357ddcb32-md",
+      "title": "open-ai-ugc",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-2d1ac4652650774f6f7f-md",
+      "title": "polymarket_lp_tool",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-987ba513f79cc0f52b4c-md",
+      "title": "awesome-technical-marketing",
+      "reasons": [
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f41dcfa5b02bba010122-md",
+      "title": "awesome-technical-marketing",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e7e75eb94cdcb10fd9a8-md",
+      "title": "prediction-markets-trading-bot-toolkits",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1579309e1b490fa5279c-md",
+      "title": "ParticleSfM",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c88e811a1a66f8cd57ba-md",
+      "title": "PC-NBV",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-97416d4ba88591c565b7-md",
+      "title": "Pi",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c133b93b912dffd605a2-md",
+      "title": "Pi",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-70340542d5688b508dea-md",
+      "title": "Pipecat",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-62ff8b189d833243b52d-md",
+      "title": "Pixal3D-ComfyUI",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-140649096e6d8069b2f4-md",
+      "title": "Pixelrelay",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-73498d2b34bc9f53ae61-md",
+      "title": "mov-cli-files",
+      "reasons": [
+        "domain-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-08055b9ca2497bd87108-md",
+      "title": "Plugin mov-cli-jellyplex",
+      "reasons": [
+        "domain-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-bf179dd30e4dd348176a-md",
+      "title": "Polybot",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8d9e2cbc1b07a2267825-md",
+      "title": "Polymarket Data",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-b7dba4ff7fb5c82d8a8c-md",
+      "title": "Polymarket Trading Bot",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c5e8fa76044b8e3f7977-md",
+      "title": "PolyWeather Pro",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f2ad2f5dfae253d2f4b6-md",
+      "title": "Popcorn Time",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-eb37530b4bcfa1e9bde8-md",
+      "title": "posy",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e9eb05e2bf38f125a62f-md",
+      "title": "12-factor-agents",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-9430291e7ebea78d5bfa-md",
+      "title": "Projection Finance Trading Bot",
+      "reasons": [
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ca7cb887e2ca56aa74cb-md",
+      "title": "PromptZero",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-40431c060cb04bde6a19-md",
+      "title": "PubGrub",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-897197daef92f370c451-md",
+      "title": "Qwen Code",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-991d8b9d9433d93423eb-md",
+      "title": "Raven",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c292611ef4a4a5e37455-md",
+      "title": "Reasonix",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-7cf0ee8352dc6af0478e-md",
+      "title": "awesome-ai-repos",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-40c2c54a4c6490e8e3bc-md",
+      "title": "Ruff",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-a352cd98ee30cd20d69a-md",
+      "title": "Scrapling",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-73ffc014f69d12660ff8-md",
+      "title": "Seedance 2.5 API Guide",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-d03eda2466f2556e6e1c-md",
+      "title": "Selenium",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8d55a0f0b5e9b3b01fac-md",
+      "title": "Service d'identification de localisation IP gratuit",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0879775e9d9de16c47b9-md",
+      "title": "shai",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-9fb58e6bfbb249518dab-md",
+      "title": "Spacesuit",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f4e0adf84666b0c986e7-md",
+      "title": "Spec Kit",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-39708b126c037da50e56-md",
+      "title": "StdGEN",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f7ea866b53ea3110371c-md",
+      "title": "SuperSplat Editor",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f2f0cf932a4277169ee7-md",
+      "title": "Synchronisation en temps réel pour RAG dans les chatbots",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-4c3271bfa169fba76b45-md",
+      "title": "automated-trading-system-kalshi-weather-model",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-763a276cbab62cfc7a39-md",
+      "title": "T3Bench",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c00a869dbb6fdf2fc1cb-md",
+      "title": "Torrent Cloud",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-83811fe337d142092d4c-md",
+      "title": "polymarket-kalshi-weather-bot",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8a1d416625950ae0abb8-md",
+      "title": "TRELLIS.2",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-611db130b2bc64852596-md",
+      "title": "TrianFlow",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-66fc5b1d26e505baaa01-md",
+      "title": "ty",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-270127c4040820721fee-md",
+      "title": "undetected-chromedriver",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-acb8c4977c9c6f208a52-md",
+      "title": "UNIDIR",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-04eb6674f0cfa4208b0e-md",
+      "title": "awesome-gpt-6-astra",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e8ac251258a46bd1e943-md",
+      "title": "minimax-code",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-30e283a9b3f70e35d81a-md",
+      "title": "uv",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0b33f78c53b5945bc0bf-md",
+      "title": "Viktor",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ef1500532ddc132c577d-md",
+      "title": "ViMax",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-47bd68997bedeb6edcef-md",
+      "title": "ViMax",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-143ce5c3c11e34fe9ea8-md",
+      "title": "VoiceBox",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c45c04c570d8ed1549e8-md",
+      "title": "Webtor, self-hosted",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-bba7cbf6411664b33623-md",
+      "title": "XianYuApis",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-60d78a24f5ceb1c0cf35-md",
+      "title": "yt-dlp",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-126e0bcbd6b43332ca45-md",
+      "title": "Agent AItoEarn pour la gestion de contenus sur plusieurs plateformes",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1b568dfd20e94e409912-md",
+      "title": "Agent de décision multi-competences basé sur des systèmes JEV",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f52ece2572fe00c08e7a-md",
+      "title": "Agentic-Bug-Hunter",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-4125f24a0a6925019b78-md",
+      "title": "Aider",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-88ba69ee97608c5a2703-md",
+      "title": "AIExportHub",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-b36267bf0446d3c6c504-md",
+      "title": "Aliens_eye",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-20a53ace05cd6a858833-md",
+      "title": "Architecture de mémoire pour les agents IA : Mémoires de travail, épisodique, sémantique, procédimentale et oubli",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-951824f2cb44006850b3-md",
+      "title": "ARTEMIS",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-4c42d700bc595b9a8941-md",
+      "title": "Autowright",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-a0d33ab6f207041a354b-md",
+      "title": "Base de prompts pour le marketing automatisé",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-5de7dfd42a2301a6c06e-md",
+      "title": "BotD",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-7ce70d893933b807a8be-md",
+      "title": "Capsule Hub",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-47e117fd2115e80cd328-md",
+      "title": "Chromaprint",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f39d8a91723d2198d9aa-md",
+      "title": "Clone-Wars",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-b3d3480734d063a13c32-md",
+      "title": "Comparaison des modèles d'IA",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-bbe473dd0b3d80d559f4-md",
+      "title": "Conception de Scénarios de Crises Cyber pour Cyber Experience",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-2e59154698a1039a3b4c-md",
+      "title": "Configuration optimisée pour CLAUDE",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-10db716cdc10688fde39-md",
+      "title": "CotEditor",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e95a45b39a93e52db3c8-md",
+      "title": "csv-viewer-macos",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-edb3a626875732de5c9b-md",
+      "title": "ECC",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-cac46266b186a438c4a0-md",
+      "title": "ECC",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-52638d59170c3cd934c2-md",
+      "title": "Éditeur de propriétés de note (Frontmatter) - NotePlan",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e801c8461341300bbd00-md",
+      "title": "Electrum",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-81d6a7fc9d142fbd431c-md",
+      "title": "Find Skills",
+      "reasons": [
+        "primary-identity-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-08ba60d0377016e9eb0a-md",
+      "title": "Firecrawl",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ed04309efb95c4f777fa-md",
+      "title": "Food Pilot",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-b65fc5880997df07fd20-md",
+      "title": "GhostTrack",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-d17c87ebf171c09eeed0-md",
+      "title": "HarnessRouter",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ef6994e092dfd931bb79-md",
+      "title": "Hister",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-5b451526a581e371b108-md",
+      "title": "Intégration de Raindrop.io avec IFTTT",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f23e4d6f3cd099180f4d-md",
+      "title": "Jules",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0e8704838f621e59d725-md",
+      "title": "LangExtract",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-38ffa19f0aa61b7d0805-md",
+      "title": "Laya",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ee0a2cc79169b0f8394c-md",
+      "title": "awesome-open-source-mac-apps",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8d9cf24dee47599cd496-md",
+      "title": "llm-quota-tracker",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-84aeec11b9701e1a5103-md",
+      "title": "LLM2Jev",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-7ae06cb99d6d4f9f7551-md",
+      "title": "Loopx",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ebada2f628c8d599c07b-md",
+      "title": "Memanto",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e023d0af39eda2c902cb-md",
+      "title": "Memanto",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e88bf76aa79a7c56f5d0-md",
+      "title": "Memanto",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-a5ff978d18723ab2dc78-md",
+      "title": "Metis",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-703d6de987a070db2edf-md",
+      "title": "MinerU",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-4c379fe4693daf75b17f-md",
+      "title": "MiniMax M2.5",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-5988479fbd7cb793e30f-md",
+      "title": "Mise à jour Hermes Agent v0.14.0",
+      "reasons": [
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-dadce991a8f588c0eb73-md",
+      "title": "Nimble",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-94515d48fc2a4b993a1f-md",
+      "title": "NoSignups",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e1f8a790d58a19d10194-md",
+      "title": "NotePlan",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-d5330ab75d554eda8c08-md",
+      "title": "NotePlan Changelog",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-187af07c5c79815c0323-md",
+      "title": "Obsidian Mind",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-a8c5ca7589de2b644bba-md",
+      "title": "Odysseus",
+      "reasons": [
+        "keywords-missing",
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-51c74448ee9079430332-md",
+      "title": "Open Lovable",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-b1a37537c70048612638-md",
+      "title": "Open Multi-Agent (OMA)",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f779fb17c6e2ccb52360-md",
+      "title": "Open Notebook",
+      "reasons": [
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-2c64eee2496753661f63-md",
+      "title": "OpenCodeReview",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e613d35c39dc20230888-md",
+      "title": "OpenCreator",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-dbdae85ce1af2381e65e-md",
+      "title": "openJev-verdict-2.0",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-5162276ebf713c38b60b-md",
+      "title": "OpenStock",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-37a5c753c0c9dc1a3d4f-md",
+      "title": "OpenTerminal",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-628ab56284832636cfac-md",
+      "title": "Organic Maps",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-54ff5f7d00072879cc4b-md",
+      "title": "OSINT & Recon Toolkit avec Installateur Unifié",
+      "reasons": [
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e95daab6824047f93490-md",
+      "title": "Osintgram v2.0",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-266021fd17b5258b3da7-md",
+      "title": "Outils de cybersécurité basés sur l'IA pour les développeurs",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-99260b2f64304ae31048-md",
+      "title": "Outils en ligne utiles pour le développement et la gestion de projets",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c2b6bc61f64db5dde9f2-md",
+      "title": "Outils en ligne utiles pour le développement et la gestion de projets",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-88c715df4dbe74ef0c5a-md",
+      "title": "Outils et compétences pour la production vidéo automatisée et agente",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-985e97ab7a28702f6cd3-md",
+      "title": "Outils pour collecter des données web via des agents IA",
+      "reasons": [
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-fd14133ed8619a60ddb0-md",
+      "title": "Pake",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-82645e8b1caf587e92d6-md",
+      "title": "Pi",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-fcb3c753c1859c7ada32-md",
+      "title": "Planification des tâches dans NotePlan",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c73b8c2f7eccfb34ddd2-md",
+      "title": "Ponytail",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-3d7c7b2843ae85360da7-md",
+      "title": "Project NOMAD",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ab7348c75fefe7a67600-md",
+      "title": "Qwen3.8-27B et OrcaSAQ-2",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-40c6bcb62189c3a832b0-md",
+      "title": "Qwen3.8-27B-Uncensored-Cyber",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-7b8e03d6451fa9dc855f-md",
+      "title": "Référentiel de 50 serveurs MCP essentiels pour les agents IA",
+      "reasons": [
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e803d6ea4b8b5e515082-md",
+      "title": "Répertoires GitHub d'éditeurs de vidéos AI",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ef5aab160b2c3c97dd30-md",
+      "title": "Repository d'ingénierie de l'IA open source",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1b635fdf72be259a562c-md",
+      "title": "Ruflo",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-007dad49f4c2947287e5-md",
+      "title": "ShadowDorks",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-03c3b9b214032004d035-md",
+      "title": "Spec Kit",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-312d6e38de3056aae357-md",
+      "title": "Strflow",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-56f27bb0e80ff344bf72-md",
+      "title": "Superpowers",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-2ffdb8097dd79859932a-md",
+      "title": "Top 10 Repos GitHub en Croissance Rapide Cette Semaine",
+      "reasons": [
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-9940f1a421428d85e06e-md",
+      "title": "UI-TARS Desktop",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c06f188de58001114ac5-md",
+      "title": "Understand-Anything",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-95204b762614cb0e8692-md",
+      "title": "Unsloth Studio",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-608ce5a66bf90d5c0383-md",
+      "title": "Vector Wizard",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-9379cc03e3266df7017b-md",
+      "title": "Vibe Coding et Spec Kit",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-4911737ece418414569d-md",
+      "title": "yabai",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0db5ad8aef9f75ba7077-md",
+      "title": "YuE2Mac",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-adaptixc2-c2-risk-article-md",
+      "title": "AdaptixC2 C2 Risk Article",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-agent-rules-books-md",
+      "title": "Agent Rules Books",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-agent-skills-library-md",
+      "title": "Agent Skills Library",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-airi-ai-companion-md",
+      "title": "AIRI AI Companion",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-anyv2v-video-editing-framework-md",
+      "title": "AnyV2V Video Editing Framework",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "resources-noteplan-captures-archive-2026-md",
+      "title": "Archive NotePlan Captures 2026",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-calyx-macos-agent-terminal-md",
+      "title": "Calyx MacOS Agent Terminal",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-claude-osint-skills-md",
+      "title": "Claude OSINT Skills",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-devin-desktop-agent-app-md",
+      "title": "Devin Desktop Agent App",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-echovessel-persona-memory-engine-md",
+      "title": "EchoVessel Persona Memory Engine",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-espanso-text-expander-md",
+      "title": "Espanso Text Expander",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-hermes-vps-setup-skill-md",
+      "title": "Hermes VPS Setup Skill",
+      "reasons": [
+        "interest-missing",
+        "primary-identity-unqualified"
+      ]
+    },
+    {
+      "id": "watch-kiwi-edit-video-editing-md",
+      "title": "Kiwi Edit Video Editing",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-losslesscut-video-audio-editing-md",
+      "title": "LosslessCut Video Audio Editing",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-obs-shaderfilter-md",
+      "title": "OBS Shaderfilter",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-openbot-ai-coworkers-md",
+      "title": "OpenBot AI Coworkers",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-openvj-web-vj-tool-md",
+      "title": "OpenVJ Web VJ Tool",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-type-for-obsidian-quick-capture-md",
+      "title": "Type For Obsidian Quick Capture",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-vace-video-creation-editing-md",
+      "title": "VACE Video Creation Editing",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-veejay-live-video-sampler-md",
+      "title": "Veejay Live Video Sampler",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-vista-video-style-transfer-md",
+      "title": "VISTA Video Style Transfer",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-alpinechain-workshop-2026-md",
+      "title": "AlpineChain Workshop 2026",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-chathub-multi-llm-workspace-md",
+      "title": "ChatHub",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-km-d3-scan-integration-20260901-md",
+      "title": "KM D3 Scan Integration",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-noteplan-km-indexing-workflow-md",
+      "title": "NotePlan KM Indexing Workflow",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-osaurus-local-ai-agents-mac-md",
+      "title": "Osaurus",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-betterdisplay-macos-display-control-md",
+      "title": "BetterDisplay MacOS Display Control",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-right-click-prompt-browser-prompt-library-md",
+      "title": "Right Click Prompt Browser Prompt Library",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-x-watch-d3-20260829-20260831-md",
+      "title": "X Watch D3",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-kata-tracker-local-first-issue-tracker-md",
+      "title": "Kata Tracker Local-First Issue Tracker",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-project-eyes-on-open-ip-camera-osint-md",
+      "title": "Project Eyes On",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-graft-codebase-context-for-coding-agents-md",
+      "title": "Graft",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-memory-engineering-agent-past-md",
+      "title": "Memory Engineering",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-prompt-cache-semantic-llm-cache-md",
+      "title": "Prompt Cache",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-awesome-ai-companion-md",
+      "title": "Awesome AI Companion",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-firecrawl-pdf-inspector-md",
+      "title": "Firecrawl PDF Inspector",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-herdr-agent-multiplexer-md",
+      "title": "Herdr Multiplexer",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-axorcist-macos-accessibility-md",
+      "title": "AXorcist macOS Accessibility",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-macos26-agent-desktop-harness-md",
+      "title": "MacOS26 Agent Desktop Harness",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-open-maestri-macos-agent-orchestration-md",
+      "title": "Open Maestri macOS Agent Orchestration",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-opencode-telechargement-md",
+      "title": "OpenCode Download",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-tailscale-secure-connectivity-for-ai-iot-multi-cloud-md",
+      "title": "Tailscale Secure Connectivity For AI IoT Multi Cloud",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-auto-company-autonomous-ai-company-md",
+      "title": "Auto Company Autonomous AI Company",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-neodisk-macos-disk-visualizer-md",
+      "title": "Neodisk macOS Disk Visualizer",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-agency-agents-ai-agency-md",
+      "title": "Agency Agents",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-alook-ai-workforce-collaboration-md",
+      "title": "Alook",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-pentagi-autonomous-pentest-agents-md",
+      "title": "Pentagi",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-tencentdb-agent-memory-md",
+      "title": "TencentDB Agent Memory",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-aliens-eye-ai-osint-platform-md",
+      "title": "Aliens Eye AI OSINT Platform",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-google-ai-studio-free-token-tier-md",
+      "title": "Google AI Studio Free Token Tier",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-internet-scraping-github-repos-ecommartinez-md",
+      "title": "Internet Scraping GitHub Repos Ecommartinez",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-ai-video-plugins-skills-ayi-ainotes-md",
+      "title": "AI Video Plugins And Skills Ayi AInotes",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-hyperframes-ai-video-generation-skill-md",
+      "title": "HyperFrames AI Video Generation Skill",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-ig-detective-instagram-osint-suite-md",
+      "title": "IG-Detective Instagram OSINT Suite",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-internet-scraping-github-repos-lucy-love-ai-md",
+      "title": "Internet Scraping GitHub Repos Lucy Love AI",
+      "reasons": [
+        "interest-missing",
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-open-lovable-firecrawl-site-cloning-md",
+      "title": "Open Lovable Firecrawl Site Cloning",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-serus-dark-web-leak-search-md",
+      "title": "Serus Dark Web Leak Search",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-spec-kit-vibe-coding-specification-workflow-md",
+      "title": "Spec Kit Vibe Coding Specification Workflow",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-worldmonitor-global-intelligence-dashboard-md",
+      "title": "WorldMonitor Global Intelligence Dashboard",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-ghosttrack-digital-footprint-osint-md",
+      "title": "GhostTrack",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-este-repositorio-te-ensena-ingenieria-de-ia-desde-cero-md",
+      "title": "AI Engineering From Scratch Repository",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-l-ia-vient-de-tuer-le-metier-de-commercial-en-vendant-a-ta-place-24h-2-md",
+      "title": "AI Sales Automation Agent",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-bug-hunter-md",
+      "title": "Bug Hunter",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-bytedance-acaba-de-abrir-el-codigo-del-agente-que-controla-tu-ordenado-md",
+      "title": "ByteDance Open Source Computer Control Agent",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-claude-code-ya-es-potente-solo-md",
+      "title": "Claude Code ya es potente solo.",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-un-developpeur-a-clone-netflix-spotify-instagram-airbnb-et-amazon-md",
+      "title": "Clone Projects For Netflix, Spotify, Instagram, Airbnb And Amazon",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-danyltn-ia-automatisation-danyltn-instagram-reel-md",
+      "title": "Danyltn | IA & Automatisation (@danyltn) • Instagram reel",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi-md",
+      "title": "Essential MCP Servers Collection",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-esto-es-un-palantir-gratis-y-se-instala-en-un-solo-comando-md",
+      "title": "ESTO ES UN PALANTIR GRATIS Y SE INSTALA EN UN SOLO COMANDO",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-cok-cilginca-bir-ai-araci-buldum-md",
+      "title": "Experimental AI Tool Discovery",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-alguien-creo-un-repo-en-github-que-te-permite-ejecutar-claude-code-com-md",
+      "title": "Free Claude Code Execution Repository",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-waveking-free-github-projects-md",
+      "title": "Free GitHub Project Collection",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-you-can-run-google-gemini-2-5-pro-with-a-massive-2-milion-free-token-c-md",
+      "title": "Free Google Gemini 2.5 Pro Token Context",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-geekbb-free-tools-list-md",
+      "title": "Free Open Source No-Signup Tools List",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-aqui-te-dejo-10-repos-de-github-que-pueden-ayudarte-a-generar-dinero-m-md",
+      "title": "GitHub Repositories For Automated Income Projects",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-10-github-repos-that-automate-real-work-while-you-sleep-in-2026-md",
+      "title": "GitHub Repositories For Work Automation",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-213-000-estrellas-en-github-md",
+      "title": "GitHub Repository With 213, 000 Stars",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web-md",
+      "title": "Google Chrome Web Best Practices Skill",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-how-i-automate-google-dorking-for-faster-osint-investigations-md",
+      "title": "Google Dorking Automation For OSINT",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-guide-scrapegraph-ai-ia-boss-pdf-md",
+      "title": "Guide_ScrapeGraph_AI_IA_Boss.pdf",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-here-are-10-ai-video-editor-github-repos-worth-bookmarking-md",
+      "title": "Here are 10 AI video editor GitHub repos worth bookmarking:",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-im-agent-claude-code-codex-opencode-ai-agent-md",
+      "title": "IM-Style Multi-Agent Coding Workspace",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor-md",
+      "title": "Infinite Memory For Claude, Codex And Cursor",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor-md",
+      "title": "Infinite Memory For Claude, Codex And Cursor",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-jarvis-os-md",
+      "title": "JARVIS OS",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-kyber-kyber-gitlab-md",
+      "title": "kyber / Kyber · GitLab",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-2-lafys-md",
+      "title": "Lafys",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-mvanhorn-last30days-skill-md",
+      "title": "Last 30 Days Research Agent Skill",
+      "reasons": [
+        "interest-missing",
+        "primary-identity-unqualified"
+      ]
+    },
+    {
+      "id": "watch-sabtu-malem-jam-2-pagi-gue-masih-melek-md",
+      "title": "Late Night AI Tool Discovery",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-marketing-automation-md",
+      "title": "Marketing Automation",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-miranda-start-me-md",
+      "title": "Miranda",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-1-motionsites-md",
+      "title": "Motionsites",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-multi-search-launcher-md",
+      "title": "Multi-search launcher",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-lancement-de-notre-projet-nexus-osint-v1-md",
+      "title": "Nexus OSINT V1 Launch",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-pewdiepie-archdaemon-odysseus-md",
+      "title": "Odysseus Self-Hosted AI Workspace",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-offline-maps-and-gps-app-without-ads-or-tracking-md",
+      "title": "Offline maps and GPS app without ads or tracking",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-alternativa-gratuita-y-de-codigo-abierto-a-notebooklm-md",
+      "title": "Open Source NotebookLM Alternative",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-open-source-observability-for-traces-logs-metrics-maple-md",
+      "title": "Open Source Observability for Traces, Logs & Metrics · Maple",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-calesthio-openmontage-md",
+      "title": "OpenMontage Agentic Video Production System",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-remotely-accesses-webcams-microphones-and-location-data-md",
+      "title": "Remotely accesses webcams, microphones, and location data",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-removes-llm-censorship-with-a-single-click-md",
+      "title": "Removes LLM censorship with a single click.",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-link-del-repo-md",
+      "title": "Repository Link",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-este-repositorio-de-github-lo-esta-explotando-mode-senior-md",
+      "title": "Senior Mode GitHub Repository",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-ryancodrai-turbovec-md",
+      "title": "TurboVec Vector Index",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol-md",
+      "title": "Uncensored Open Source Image And Video AI Tool",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-xamto-ai-understand-anything-x-post-md",
+      "title": "Understand Anything Code Knowledge Graph",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel-md",
+      "title": "Web Page To Desktop App Converter",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-aider-ai-pair-programming-md",
+      "title": "Aider AI Pair Programming",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-awesome-mcp-servers-md",
+      "title": "Awesome MCP Servers",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-browser-use-web-automation-md",
+      "title": "Browser Use",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-claude-task-master-ai-task-management-md",
+      "title": "Claude Task Master",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-cloudflare-agentic-inbox-md",
+      "title": "Cloudflare Agentic Inbox",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-crewai-agent-orchestration-md",
+      "title": "CrewAI",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-cyberstrike-ai-red-team-agent-md",
+      "title": "CyberStrike",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-gosearch-digital-footprint-search-md",
+      "title": "GoSearch",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-langgraph-resilient-agents-md",
+      "title": "LangGraph",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-n8n-workflow-automation-md",
+      "title": "n8n Workflow Automation",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-nousresearch-hermes-agent-md",
+      "title": "NousResearch Hermes Agent",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-openhands-ai-development-md",
+      "title": "OpenHands",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-osint-rack-curated-tools-md",
+      "title": "The OSINT Rack",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-vxunderground-malware-source-code-md",
+      "title": "vxunderground MalwareSourceCode",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-conet-privacy-depin-network-md",
+      "title": "CONET",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-moneyprinterturbo-ai-short-video-md",
+      "title": "MoneyPrinterTurbo",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-promptspy-ai-android-malware-md",
+      "title": "PromptSpy",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-agentsview-session-intelligence-md",
+      "title": "AgentsView",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-ai-open-source-tools-inventory-md",
+      "title": "AI Open Source Tools Inventory",
+      "reasons": [
+        "interest-missing",
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-ai-open-source-tools-watch-md",
+      "title": "AI Open Source Tools Watch",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-autoresearchclaw-autonomous-research-md",
+      "title": "AutoResearchClaw",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-awesome-free-llm-apis-md",
+      "title": "Awesome Free LLM APIs",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-ccgui-mossx-vibecoding-editor-md",
+      "title": "CC-GUI / MossX",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-codepatrol-code-security-md",
+      "title": "CodePatrol",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-free-llm-api-resources-md",
+      "title": "Free LLM API Resources",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-inspiration-competitors-tools-watch-md",
+      "title": "Inspiration Competitors Tools Watch",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-nanoclaw-personal-agent-md",
+      "title": "NanoClaw",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-open-source-saas-alternatives-nicos-ai-md",
+      "title": "Open Source SaaS Alternatives",
+      "reasons": [
+        "interest-missing",
+        "primary-identity-unqualified"
+      ]
+    },
+    {
+      "id": "watch-osint-tools-watch-md",
+      "title": "OSINT Tools Watch",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-pentestgpt-autonomous-pentest-md",
+      "title": "PentestGPT",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-red-team-risk-tools-watch-md",
+      "title": "Red Team Risk Tools Watch",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-twitter-rss-monitoring-md",
+      "title": "Twitter RSS Monitoring",
+      "reasons": [
+        "interest-missing",
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-vibeshit-vibe-coding-directory-md",
+      "title": "Vibe Shit",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-ai-trending-md",
+      "title": "AI Trending",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-brandfetch-md",
+      "title": "Brandfetch",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-claude-agents-md-config-alexsoyes-md",
+      "title": "Claude AGENTS.md Config",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-free-api-key-instagram-reel-md",
+      "title": "Free Api Key",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-free-open-source-apps-list-sn0wbrave-md",
+      "title": "Free Open Source Apps List",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-github-digital-life-topic-md",
+      "title": "GitHub Digital Life Topic",
+      "reasons": [
+        "interest-missing",
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-intelfetch-osint-features-md",
+      "title": "IntelFetch OSINT Features",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "resources-llm-wiki-karpathy-md",
+      "title": "llm-wiki",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-lovable-build-for-the-web-20x-faster-md",
+      "title": "Lovable Build For The Web 20x Faster",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-macusb-bootable-usb-creator-macos-md",
+      "title": "macUSB Bootable USB Creator macOS",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-noteplan-mcp-server-md",
+      "title": "NotePlan MCP Server",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-notion-les-7-docs-avant-de-coder-avec-ia-md",
+      "title": "Notion",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-obsidian-web-clipper-md",
+      "title": "Obsidian Web Clipper",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-openfelix-local-ai-agent-macos-md",
+      "title": "Open Felix",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-parall-mac-app-multi-instance-md",
+      "title": "Parall Mac App Multi Instance",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-praison-ai-md",
+      "title": "Praison AI",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-promptslab-md",
+      "title": "PromptsLab",
+      "reasons": [
+        "interest-missing",
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-quick-rss-desktop-reader-md",
+      "title": "Quick RSS Desktop Reader",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-reverse-skill-hacker-skills-md",
+      "title": "Reverse Skill",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-scrapling-web-scraping-modern-web-md",
+      "title": "Scrapling",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-taste-skill-md",
+      "title": "Taste Skill",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-trendshift-github-momentum-md",
+      "title": "Trendshift GitHub Momentum",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    }
+  ]
+}

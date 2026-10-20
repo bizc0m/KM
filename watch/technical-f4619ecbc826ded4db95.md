@@ -10,15 +10,6 @@ actif
 
 Affiche des vidéos torrent avec sous-titres et personnalisation.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.media.video source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : Bibliothèque / SDK
@@ -27,6 +18,15 @@ Affiche des vidéos torrent avec sous-titres et personnalisation.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/webtor-io/embed-sdk-js
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.video source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -40,3 +40,31 @@ Affiche des vidéos torrent avec sous-titres et personnalisation.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/webtor-io/embed-sdk-js
+
+## Capacités documentées
+
+- Permet d'afficher des vidéos via des magnet-uri ou des fichiers torrent.
+- Supporte les formats vidéo avi, mkv, mp4, m4v avec sous-titres.
+- Intègre des options de personnalisation comme le poster et le titre.
+- Fournit des configurations avancées pour les sous-titres et les paramètres du lecteur.
+
+## Usages documentés
+
+- Ajout d'un élément vidéo avec attributs spécifiques.
+- Inclusion du script SDK pour activation du lecteur.
+
+## Limites
+
+- Requiert un serveur web pour les fichiers torrent.
+- Nécessite des headers CORS pour les téléchargements.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/webtor-io/embed-sdk-js
+- Analyse source : 2026-10-19T23:06:57.213Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

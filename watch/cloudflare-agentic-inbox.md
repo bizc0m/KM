@@ -6,17 +6,6 @@ Veille outil IA / client email agentique self-hosted.
 
 ## Tags
 
-#email, #cloudflare-workers, #self-hosted
-
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents domain.communication compatibility.deployment.selfhosted source.github
-- Sujets : Intelligence artificielle > Agents IA ; Communication et publication
-- Compatibilités : Exécution > Auto-hébergement
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,8 +15,23 @@ Veille outil IA / client email agentique self-hosted.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+## Intérêts
+
+Gère les emails via Cloudflare Workers avec isolation par boîte aux lettres et stockage R2
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.communication domain.infrastructure.database source.github source.x lifecycle.review
+- Sujets : Intelligence artificielle > Agents IA ; Communication et publication ; Infrastructure > Bases de données
+- Provenance : GitHub ; X / Twitter
+- État : À vérifier
+
 ## Sources
-- Repo GitHub : `https://github.com/cloudflare/agentic-inbox`
+
+- https://github.com/cloudflare/agentic-inbox
+- https://x.com/i/status/2057512199912923177
 
 ## Metadata GitHub publique
 
@@ -48,3 +52,34 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer Agentic Inbox depuis Raindrop KM Monitor.
 - Risques : donnees email et actions agentiques.
+
+## Identité
+
+- Dépôt principal : https://github.com/cloudflare/agentic-inbox
+
+## Capacités documentées
+
+- Permet d'envoyer et recevoir des emails via Cloudflare Email Routing
+- Chaque boîte aux lettres est isolée dans un Durable Object avec SQLite
+- Utilise R2 pour stocker les pièces jointes
+- Intègre un agent IA pour lire, chercher et rédiger des réponses
+
+## Usages documentés
+
+- Déployer sur Cloudflare
+- Configurer Cloudflare Access
+- Activer Email Routing
+- Créer une boîte aux lettres
+
+## Limites
+
+- Requiert un compte Cloudflare avec un domaine
+- Nécessite Email Routing et Email Service activés
+- Exige Workers AI pour l'agent IA
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/cloudflare/agentic-inbox
+- Analyse source : 2026-10-19T21:33:03.052Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

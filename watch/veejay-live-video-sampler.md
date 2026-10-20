@@ -8,14 +8,6 @@
 
 #video, #vj, #live-video, #visuals
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.media.video domain.media.live source.github
-- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Création et diffusion en direct
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,12 +17,19 @@
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.video domain.media.live source.github lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Création et diffusion en direct
+- Provenance : GitHub
+- État : Actif
+
 ## Sources
 
-- Source finale: [https://github.com/game-stop/veejay](https://github.com/game-stop/veejay)
-- Origine: archive NotePlan captures 2026, capture du 2026-08-24.
-- Domaine: `github.com`
-- Auteur/source: `game-stop`
+- https://github.com/game-stop/veejay
+- https://github.com/game-stop/veejay](https://github.com/game-stop/veejay
 
 ## Topics GitHub
 

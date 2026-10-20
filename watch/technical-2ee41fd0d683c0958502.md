@@ -10,15 +10,6 @@ actif
 
 Utilise des modèles d'IA pour le développement
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.dev source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Utilise des modèles d'IA pour le développement
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/Alishahryar1/free-claude-code
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.dev source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -40,3 +40,25 @@ Utilise des modèles d'IA pour le développement
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/alishahryar1/free-claude-code
+
+## Capacités documentées
+
+- Utilise des modèles d'IA pour le développement
+- Support multi-fournisseurs avec 61 fournisseurs
+- Interface unique pour gérer les modèles
+- Fonctionnalités de sauvegarde des sessions
+
+## Usages documentés
+
+- Utilise des modèles d'IA pour le développement
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/alishahryar1/free-claude-code
+- Analyse source : 2026-10-19T20:05:01.347Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

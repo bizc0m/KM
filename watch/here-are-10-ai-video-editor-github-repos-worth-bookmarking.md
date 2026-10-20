@@ -8,15 +8,6 @@ Veille Raindrop KM Monitor.
 
 #montage-video
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai domain.media.video capability.edit.video source.x
-- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
-- Fonctions : Monter une vidéo
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,8 +17,19 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.media.video capability.edit.video risk.sensitive source.x
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
+- Fonctions : Monter une vidéo
+- Risques : Risque signalé
+- Provenance : X / Twitter
+
 ## Sources
-- Source : [https://x.com/kanikabk/status/2065780534148731148](https://x.com/kanikabk/status/2065780534148731148)
+
+- https://x.com/kanikabk/status/2065780534148731148](https://x.com/kanikabk/status/2065780534148731148
 
 ## A_VERIFIER
 

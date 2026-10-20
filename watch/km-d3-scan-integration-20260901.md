@@ -32,4 +32,3 @@ Aucune suppression effectuee. Integration faite dans KM/Base/watch sur M5 via fi
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
-

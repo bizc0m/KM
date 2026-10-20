@@ -8,15 +8,6 @@ Veille outil IA / gestion de taches agentique.
 
 #task-management, #coding, #cursor, #windsurf
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents domain.dev domain.productivity.tasks compatibility.integration.cursor source.github
-- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel ; Productivité > Tâches et agenda
-- Compatibilités : Intégrations > Cursor
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,8 +17,19 @@ Veille outil IA / gestion de taches agentique.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.dev domain.productivity.tasks compatibility.integration.cursor source.github lifecycle.review
+- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel ; Productivité > Tâches et agenda
+- Compatibilités : Intégrations > Cursor
+- Provenance : GitHub
+- État : À vérifier
+
 ## Sources
-- Repo GitHub : `https://github.com/eyaltoledano/claude-task-master`
+
+- https://github.com/eyaltoledano/claude-task-master
 
 ## Metadata GitHub publique
 

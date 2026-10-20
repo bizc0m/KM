@@ -8,15 +8,6 @@ Veille `#ROUGE` / outil OSINT de detection de cameras IP ouvertes.
 
 #osint, #ip-camera, #surveillance, #dorking, #ROUGE
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.osint risk.offensive source.x source.github
-- Sujets : Cybersécurité > Renseignement en sources ouvertes
-- Risques : Usage offensif explicite
-- Provenance : X / Twitter ; GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,10 +17,20 @@ Veille `#ROUGE` / outil OSINT de detection de cameras IP ouvertes.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint risk.offensive source.x source.github
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Risques : Usage offensif explicite
+- Provenance : X / Twitter ; GitHub
+
 ## Sources
 
-- Source sociale : [https://x.com/tom_doerr/status/2090346724111823202](https://x.com/tom_doerr/status/2090346724111823202)
-- Repo GitHub : [https://github.com/Y0oshi/Project-Eyes-On](https://github.com/Y0oshi/Project-Eyes-On)
+- https://github.com/y0oshi/project-eyes-on
+- https://x.com/tom_doerr/status/2090346724111823202](https://x.com/tom_doerr/status/2090346724111823202
+- https://github.com/Y0oshi/Project-Eyes-On](https://github.com/Y0oshi/Project-Eyes-On
 
 ## Metadata GitHub publique
 

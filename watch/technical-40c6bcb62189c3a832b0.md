@@ -10,15 +10,6 @@ actif
 
 Permet d'analyser efficacement des données cybernétiques avec un modèle optimisé.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.llm source.raindrop source.x lifecycle.active
-- Sujets : Intelligence artificielle > Modèles de langage
-- Provenance : Raindrop ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Permet d'analyser efficacement des données cybernétiques avec un modèle optim
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm source.raindrop source.x lifecycle.active
+- Sujets : Intelligence artificielle > Modèles de langage
+- Provenance : Raindrop ; X / Twitter
+- État : Actif
 
 ## Sources
 

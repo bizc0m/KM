@@ -12,6 +12,15 @@ actif
 
 Crée des vidéos MP4 à partir de textes avec des agents AI.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Crée des vidéos MP4 à partir de textes avec des agents AI.
 - Fonctions : Monter une vidéo ; Générer des contenus > Générer une vidéo ; Étendre les compétences d’un agent
 - Provenance : Raindrop ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

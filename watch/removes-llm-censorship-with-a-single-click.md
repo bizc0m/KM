@@ -8,14 +8,6 @@ Veille Raindrop KM Monitor.
 
 #llm, #jailbreak-risk
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.llm source.x
-- Sujets : Intelligence artificielle > Modèles de langage
-- Provenance : X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,8 +17,18 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm risk.sensitive source.x
+- Sujets : Intelligence artificielle > Modèles de langage
+- Risques : Risque signalé
+- Provenance : X / Twitter
+
 ## Sources
-- Source : [https://x.com/0x0sojalsec/status/2063664329208344701](https://x.com/0x0sojalsec/status/2063664329208344701)
+
+- https://x.com/0x0sojalsec/status/2063664329208344701](https://x.com/0x0sojalsec/status/2063664329208344701
 
 ## A_VERIFIER
 

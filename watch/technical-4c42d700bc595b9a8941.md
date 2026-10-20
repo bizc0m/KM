@@ -12,6 +12,15 @@ actif
 
 Génère des scripts Python pour automatiser des tâches récurrentes.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Génère des scripts Python pour automatiser des tâches récurrentes.
 - Compatibilités : Systèmes > macOS ; Langages > Python ; Interfaces > Terminal
 - Provenance : Raindrop
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : macOS
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

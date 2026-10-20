@@ -12,6 +12,15 @@ actif
 
 Crée un agent personnalisé pour chaque projet. Améliore la performance du codage.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Wholiver/metis
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Crée un agent personnalisé pour chaque projet. Améliore la performance du cod
 - Compatibilités : Interfaces > Application de bureau ; Interfaces > Terminal
 - Provenance : Raindrop ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/Wholiver/metis
 
 ## Sources
 

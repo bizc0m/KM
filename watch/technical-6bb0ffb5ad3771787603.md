@@ -10,15 +10,6 @@ actif
 
 Gère les dépendances sans surcharge de ressources
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.dev.dependencies source.noteplan source.github source.x lifecycle.active
-- Sujets : Développement logiciel > Paquets et dépendances
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Gère les dépendances sans surcharge de ressources
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/orogene/orogene
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.dependencies source.noteplan source.github source.x lifecycle.active
+- Sujets : Développement logiciel > Paquets et dépendances
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 

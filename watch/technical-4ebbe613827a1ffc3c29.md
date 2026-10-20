@@ -6,21 +6,9 @@ actif
 
 ## Tags
 
-#skills-agents, #react
-
 ## Intérêts
 
-Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
-
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.skills domain.dev.web capability.skills source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Développement logiciel > Développement web
-- Fonctions : Étendre les compétences d’un agent
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
+Ajouter des compétences pour améliorer les performances de Claude sur des tâches spécifiques
 
 ## Métadonnées
 
@@ -30,6 +18,16 @@ Fixer un style visuel avant génération de code pour éviter les templates inad
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/anthropics/skills
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills capability.skills source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents
+- Fonctions : Étendre les compétences d’un agent
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -406,8 +404,4 @@ Documentation technique sur les Skills de Claude, outils réutilisables pour sp�
 - Composition de compétences pour des tâches complexes
 - Accès à des compétences préconstruites pour des formats de documents
 
-Source : https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview ; niveau 3.
-
-### Claude Cowork : outil de travail agissant en autonomie
-
-Claude Cowork permet d'automatiser des tâches complexes via un modèle agissant, accessible s
+Source : https://platform.claude.com/docs/en/agents-and-tools/agent-skills/

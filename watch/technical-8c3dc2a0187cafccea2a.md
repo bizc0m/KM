@@ -12,6 +12,15 @@ actif
 
 Exécute des tâches de codage localement avec un éditeur.
 
+## Métadonnées
+
+- Nature : CLI
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/openai/codex
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Exécute des tâches de codage localement avec un éditeur.
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : CLI
-- OS : À vérifier
-- Licence : Apache-2.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/openai/codex
 
 ## Sources
 
@@ -45,3 +45,33 @@ Exécute des tâches de codage localement avec un éditeur.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/openai/codex
+
+## Capacités documentées
+
+- Permet d'exécuter des tâches de codage localement.
+- Intégré aux éditeurs de code comme VS Code.
+- Facilite la création et la modification de code.
+- S'installe via des scripts ou des gestionnaires de paquets.
+
+## Usages documentés
+
+- Installer via script ou gestionnaire de paquets.
+- Lancer la commande `codex` pour démarrer.
+- Se connecter avec un compte ChatGPT pour utiliser les fonctionnalités avancées.
+
+## Limites
+
+- Requiert un compte ChatGPT pour accéder à certaines fonctionnalités.
+- Nécessite une connexion internet pour l'authentification.
+- Compatibilité limitée aux systèmes d'exploitation mentionnés.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/openai/codex
+- Analyse source : 2026-10-19T21:00:15.195Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

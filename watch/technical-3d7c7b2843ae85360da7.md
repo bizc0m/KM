@@ -12,6 +12,15 @@
 
 Permet d'accéder à des ressources éducatives sans connexion internet.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Crosstalk-Solutions/project-nomad
+
 
 ## Ontologie
 
@@ -22,18 +31,9 @@ Permet d'accéder à des ressources éducatives sans connexion internet.
 - Risques : Usage offensif explicite
 - Provenance : Raindrop ; GitHub
 
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Apache-2.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/Crosstalk-Solutions/project-nomad
-
 ## Sources
 
-- https://github.com/Crosstalk-Solutions/project-nomad
+- https://github.com/crosstalk-solutions/project-nomad
 
 ## Traçabilité
 

@@ -10,15 +10,6 @@ actif
 
 Réduction du temps de démarrage froid grâce à des optimisations de charge et de cache.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents source.noteplan source.github lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA
-- Provenance : NotePlan Calendar ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Réduction du temps de démarrage froid grâce à des optimisations de charge et
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents source.noteplan source.github lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA
+- Provenance : NotePlan Calendar ; GitHub
+- État : Actif
 
 ## Sources
 

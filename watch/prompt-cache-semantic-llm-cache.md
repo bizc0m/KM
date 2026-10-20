@@ -8,14 +8,6 @@ Veille liens utilisateur / cache semantique LLM.
 
 #llm, #cache, #cost-optimization, #semantic-search
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.llm source.github source.x
-- Sujets : Intelligence artificielle > Modèles de langage
-- Provenance : GitHub ; X / Twitter
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,27 +17,19 @@ Veille liens utilisateur / cache semantique LLM.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm risk.sensitive source.github source.x
+- Sujets : Intelligence artificielle > Modèles de langage
+- Risques : Risque signalé
+- Provenance : GitHub ; X / Twitter
+
 ## Sources
 
-- Repo GitHub : `https://github.com/messkan/prompt-cache`
-- Source sociale : [https://x.com/tom_doerr/status/2087156753204973610?s=12](https://x.com/tom_doerr/status/2087156753204973610?s=12)
-
-Source sociale :
-
-- titre lu : reduction des couts LLM par cache semantique intelligent
-- date : 2026-08-11T12:38:42Z
-- auteur/source : `tom_doerr`
-- lien resolu : `https://github.com/messkan/prompt-cache`
-
-Verification GitHub API :
-
-- repo : `messkan/prompt-cache`
-- description : proxy LLM en Go pour cache semantique, optimisation couts et reponses rapides
-- etoiles relevees : 357
-- forks releves : 37
-- licence : MIT
-- archived : false
-- dernier push lu : 2026-08-11T16:47:43Z
+- https://github.com/messkan/prompt-cache
+- https://x.com/tom_doerr/status/2087156753204973610?s=12](https://x.com/tom_doerr/status/2087156753204973610?s=12
 
 ## Metadata GitHub publique
 

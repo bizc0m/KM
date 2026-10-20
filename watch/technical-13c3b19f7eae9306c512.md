@@ -10,15 +10,6 @@ actif
 
 Tester des stratégies de trading et exécuter automatiquement des ordres
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.finance source.x source.github lifecycle.active
-- Sujets : Analyse financière
-- Provenance : X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Tester des stratégies de trading et exécuter automatiquement des ordres
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/dodid/minitrade
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.finance source.x source.github lifecycle.active
+- Sujets : Analyse financière
+- Provenance : X / Twitter ; GitHub
+- État : Actif
 
 ## Sources
 

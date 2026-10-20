@@ -10,15 +10,6 @@ actif
 
 Gère les trades autonomes sur plusieurs marchés
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents domain.finance source.x source.github lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA ; Analyse financière
-- Provenance : X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Gère les trades autonomes sur plusieurs marchés
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/alsk1992/CloddsBot
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.finance source.x source.github lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA ; Analyse financière
+- Provenance : X / Twitter ; GitHub
+- État : Actif
 
 ## Sources
 

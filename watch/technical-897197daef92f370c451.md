@@ -12,6 +12,15 @@ actif
 
 Configure l'environnement de codage avec des outils d'assistance.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Apache-2.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/QwenLM/qwen-code
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Configure l'environnement de codage avec des outils d'assistance.
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Apache-2.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/QwenLM/qwen-code
 
 ## Sources
 
@@ -44,3 +44,21 @@ Configure l'environnement de codage avec des outils d'assistance.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/qwenlm/qwen-code
+
+## Capacités documentées
+
+- Assiste dans le codage via terminal, éditeur, navigateur et chat.
+- Supporte plusieurs fournisseurs d'API et modèles locaux.
+- Permet l'intégration avec des IDE et messageries.
+- Fournit des SDK pour développement personnalisé.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/qwenlm/qwen-code
+- Analyse source : 2026-10-19T21:00:15.195Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

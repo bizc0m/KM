@@ -8,14 +8,6 @@
 
 #obs, #shader, #video, #streaming
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.media.live domain.media.video source.github
-- Sujets : Audio, vidéo et création > Création et diffusion en direct ; Audio, vidéo et création > Vidéo
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,12 +17,19 @@
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.live domain.media.video source.github lifecycle.active
+- Sujets : Audio, vidéo et création > Création et diffusion en direct ; Audio, vidéo et création > Vidéo
+- Provenance : GitHub
+- État : Actif
+
 ## Sources
 
-- Source finale: [https://github.com/exeldro/obs-shaderfilter](https://github.com/exeldro/obs-shaderfilter)
-- Origine: archive NotePlan captures 2026, capture du 2026-08-24.
-- Domaine: `github.com`
-- Auteur/source: `exeldro`
+- https://github.com/exeldro/obs-shaderfilter
+- https://github.com/exeldro/obs-shaderfilter](https://github.com/exeldro/obs-shaderfilter
 
 ## Topics GitHub
 

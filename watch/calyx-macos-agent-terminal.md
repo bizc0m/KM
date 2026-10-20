@@ -8,16 +8,6 @@
 
 #agents-code, #macos, #terminal, #codex
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.agents.coding capability.code.assist compatibility.os.macos compatibility.interface.terminal compatibility.integration.codex source.github
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement
-- Fonctions : Assister le développement
-- Compatibilités : Systèmes > macOS ; Interfaces > Terminal ; Intégrations > Codex
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,12 +17,21 @@
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding capability.code.assist compatibility.os.macos compatibility.interface.terminal compatibility.integration.codex risk.sensitive source.github
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement
+- Fonctions : Assister le développement
+- Compatibilités : Systèmes > macOS ; Interfaces > Terminal ; Intégrations > Codex
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
 
-- Source finale: [https://github.com/yuuichieguchi/Calyx](https://github.com/yuuichieguchi/Calyx)
-- Origine: archive NotePlan captures 2026, capture du 2026-08-20.
-- Domaine: `github.com`
-- Auteur/source: `yuuichieguchi`
+- https://github.com/yuuichieguchi/calyx
+- https://github.com/yuuichieguchi/Calyx](https://github.com/yuuichieguchi/Calyx
 
 ## Topics GitHub
 

@@ -8,15 +8,6 @@
 
 #generation-video, #montage-video
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai domain.media.video capability.generate.video capability.edit.video source.github
-- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
-- Fonctions : Générer des contenus > Générer une vidéo ; Monter une vidéo
-- Provenance : GitHub
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,12 +17,20 @@
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.media.video capability.generate.video capability.edit.video risk.sensitive source.github
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
+- Fonctions : Générer des contenus > Générer une vidéo ; Monter une vidéo
+- Risques : Risque signalé
+- Provenance : GitHub
+
 ## Sources
 
-- Source finale: [https://github.com/ali-vilab/VACE](https://github.com/ali-vilab/VACE)
-- Origine: archive NotePlan captures 2026, capture du 2026-08-24.
-- Domaine: `github.com`
-- Auteur/source: `ali-vilab`
+- https://github.com/ali-vilab/vace
+- https://github.com/ali-vilab/VACE](https://github.com/ali-vilab/VACE
 
 ## Topics GitHub
 

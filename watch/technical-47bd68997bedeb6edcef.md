@@ -10,17 +10,7 @@ actif
 
 ## Intérêts
 
-Crée une vidéo complète à partir d'une idée simple
-
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.media.video domain.media.image capability.generate.video capability.generate.image source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
-- Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
+Crée des vidéos à partir d'idées ou de scénarios sans complexité technique
 
 ## Métadonnées
 
@@ -30,6 +20,16 @@ Crée une vidéo complète à partir d'une idée simple
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/HKUDS/ViMax
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.video domain.media.image domain.data.organization capability.generate.video capability.generate.image source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Données et connaissances > Organisation du travail
+- Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -42,17 +42,17 @@ Crée une vidéo complète à partir d'une idée simple
 - https://img.shields.io/badge/License-MIT-4ecdc4?logo=opensourceinitiative&logoColor=white&style=flat-square
 - https://github.com/hkuds/vimax/releases/tag/v1.2.0
 - https://arxiv.org/abs/2606.07649
-- https://tiktokio.bio
-- https://magiceraser.org
-- http://tiktokio.bio
+- https://tiktokio.bio/
+- https://magiceraser.org/
+- http://tiktokio.bio/
 - https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md
-- https://astral.sh
+- https://astral.sh/
 - https://github.com/astral-sh/ruff
 - https://github.com/astral-sh/ty
 - https://releases.astral.sh/installers/uv/latest/uv-installer.sh
 - https://github.com/astral-sh/uv?tab=contributing-ov-file
 - https://github.com/pubgrub-rs/pubgrub
-- https://pnpm.io
+- https://pnpm.io/
 - https://github.com/orogene/orogene
 - https://github.com/oven-sh/bun
 - https://github.com/njsmith/posy
@@ -73,3 +73,34 @@ Crée une vidéo complète à partir d'une idée simple
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/hkuds/vimax
+
+## Capacités documentées
+
+- ViMax permet de transformer une idée courte en histoire structurée, personnages, scénario, storyboard et vidéo finale.
+- ViMax convertit un scénario explicite en vidéo contrôlable avec plusieurs scènes et plans tout en préservant l'intention créative.
+- ViMax adapte des œuvres de fiction longue en récits visuels épisodiques avec compression narrative, suivi des personnages et planification des scènes.
+- ViMax intègre une interface web pour gérer les projets, les artefacts, les prévisualisations de storyboard et la configuration des fournisseurs.
+
+## Usages documentés
+
+- Cloner le dépôt
+- Installer uv
+- Configurer les API dans le fichier de configuration
+- Lancer l'interface TUI ou Web UI
+
+## Limites
+
+- Requiert des API externes pour les modèles d'IA
+- Nécessite des environnements Linux ou Windows
+- Dépend de la configuration des fournisseurs de modèles
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/hkuds/vimax
+- Analyse source : 2026-10-20T07:42:57.268Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

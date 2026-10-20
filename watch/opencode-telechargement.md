@@ -8,14 +8,6 @@ Veille Raindrop KM Monitor.
 
 #llm, #api, #ressources, #news
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.ai.llm compatibility.interface.api
-- Sujets : Intelligence artificielle > Modèles de langage
-- Compatibilités : Interfaces > API
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,9 +17,19 @@ Veille Raindrop KM Monitor.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm compatibility.interface.api risk.sensitive
+- Sujets : Intelligence artificielle > Modèles de langage
+- Compatibilités : Interfaces > API
+- Risques : Risque signalé
+
 ## Sources
-- Source : [https://opencode.ai/download](https://opencode.ai/download)
-- Source secondaire Raindrop 2026-08-03 : `https://opencode.ai/`
+
+- https://opencode.ai/download](https://opencode.ai/download
+- https://opencode.ai/
 
 ## A_VERIFIER
 

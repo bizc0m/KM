@@ -96,3 +96,16 @@ Blog personnel de Scott Yoshinaga avec archives, updates, posts culturels et not
 - Accès : À vérifier
 - Preuve : À vérifier
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.osint domain.data.web domain.media.image capability.scraping compatibility.protocol.rss risk.sensitive
+- Sujets : Intelligence artificielle ; Cybersécurité > Renseignement en sources ouvertes ; Données et connaissances > Collecte web ; Audio, vidéo et création > Images et graphisme
+- Fonctions : Extraire des données web
+- Compatibilités : Protocoles > RSS
+- Risques : Risque signalé
+
+## Sources
+
+- https://weorbit.org/
+- https://ohmypizza.com/

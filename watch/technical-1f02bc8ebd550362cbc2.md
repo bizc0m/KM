@@ -10,15 +10,6 @@ actif
 
 Exécute des ordres de trading avec précision et rapidité
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.finance source.x source.github lifecycle.active
-- Sujets : Analyse financière
-- Provenance : X / Twitter ; GitHub
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Exécute des ordres de trading avec précision et rapidité
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/HarrierOnChain/Augur
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.finance source.x source.github lifecycle.active
+- Sujets : Analyse financière
+- Provenance : X / Twitter ; GitHub
+- État : Actif
 
 ## Sources
 

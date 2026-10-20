@@ -10,15 +10,6 @@ actif
 
 Résout efficacement les dépendances logicielles avec des messages d'erreur clairs.
 
-
-## Ontologie
-
-- Version : 1.1
-- Identifiants : domain.dev.dependencies source.noteplan source.github source.x lifecycle.active
-- Sujets : Développement logiciel > Paquets et dépendances
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
-
 ## Métadonnées
 
 - Nature : À vérifier
@@ -27,6 +18,15 @@ Résout efficacement les dépendances logicielles avec des messages d'erreur cla
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : https://github.com/pubgrub-rs/pubgrub
+
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.dependencies source.noteplan source.github source.x lifecycle.active
+- Sujets : Développement logiciel > Paquets et dépendances
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
@@ -40,3 +40,21 @@ Résout efficacement les dépendances logicielles avec des messages d'erreur cla
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/pubgrub-rs/pubgrub
+
+## Capacités documentées
+
+- Résout les conflits de versions des dépendances.
+- Fournit des messages d'erreur détaillés et explicites.
+- Utilisé par uv, dart, bundler et poetry.
+- Flexible grâce à sa conception générique.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/pubgrub-rs/pubgrub
+- Analyse source : 2026-10-20T07:42:57.268Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

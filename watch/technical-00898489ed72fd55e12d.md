@@ -12,6 +12,15 @@ actif
 
 Permet d'interagir avec un avatar IA en temps réel
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Open-LLM-VTuber/Open-LLM-VTuber
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Permet d'interagir avec un avatar IA en temps réel
 - Compatibilités : Interfaces > Application de bureau
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : Non précisée
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/Open-LLM-VTuber/Open-LLM-VTuber
 
 ## Sources
 
@@ -44,3 +44,21 @@ Permet d'interagir avec un avatar IA en temps réel
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Identité
+
+- Dépôt principal : https://github.com/open-llm-vtuber/open-llm-vtuber
+
+## Capacités documentées
+
+- Permet des conversations vocales en temps réel
+- Supporte plusieurs modèles LLM et TTS
+- Fonctionne en mode hors ligne
+- Possède un client desktop avec mode animal de compagnie
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/open-llm-vtuber/open-llm-vtuber
+- Analyse source : 2026-10-19T21:33:03.052Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -12,6 +12,15 @@ actif
 
 Créer une application de bureau à partir d'un site web en quelques secondes.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : GPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/tw93/Pake
+
 
 ## Ontologie
 
@@ -23,19 +32,10 @@ Créer une application de bureau à partir d'un site web en quelques secondes.
 - Provenance : Raindrop ; X / Twitter ; GitHub
 - État : Actif
 
-## Métadonnées
-
-- Nature : À vérifier
-- OS : macOS
-- Licence : GPL-3.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/tw93/Pake
-
 ## Sources
 
+- https://github.com/tw93/pake
 - https://x.com/sibyog13/status/2063609591485567189?s=12
-- https://github.com/tw93/Pake
 
 ## Traçabilité
 

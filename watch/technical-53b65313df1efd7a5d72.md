@@ -12,6 +12,15 @@ actif
 
 Analyser les processus pour détecter des anomalies
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 
 ## Ontologie
 
@@ -22,15 +31,6 @@ Analyser les processus pour détecter des anomalies
 - Compatibilités : Systèmes > macOS
 - Provenance : NotePlan Calendar ; X / Twitter
 - État : Actif
-
-## Métadonnées
-
-- Nature : À vérifier
-- OS : macOS
-- Licence : À vérifier
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : À vérifier
 
 ## Sources
 

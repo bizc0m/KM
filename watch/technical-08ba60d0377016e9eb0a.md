@@ -12,6 +12,15 @@ actif
 
 Extraire des données web pour alimenter des applications IA.
 
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : AGPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/firecrawl/firecrawl
+
 
 ## Ontologie
 
@@ -22,19 +31,10 @@ Extraire des données web pour alimenter des applications IA.
 - Provenance : Raindrop ; X / Twitter ; GitHub
 - État : Actif
 
-## Métadonnées
-
-- Nature : À vérifier
-- OS : À vérifier
-- Licence : AGPL-3.0
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/firecrawl/firecrawl
-
 ## Sources
 
-- https://x.com/morpphhhaw/status/2100187912176287870?s=12
 - https://github.com/firecrawl/firecrawl
+- https://x.com/morpphhhaw/status/2100187912176287870?s=12
 - https://github.com/browser-use/browser-use
 - https://github.com/unclecode/crawl4ai
 

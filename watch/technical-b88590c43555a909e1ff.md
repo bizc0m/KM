@@ -12,6 +12,15 @@ actif
 
 Analyse de données en temps réel pour comprendre les tendances et comportements.
 
+## Métadonnées
+
+- Nature : Skill individuel
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/mvanhorn/last30days-skill
+
 
 ## Ontologie
 
@@ -21,15 +30,6 @@ Analyse de données en temps réel pour comprendre les tendances et comportement
 - Fonctions : Étendre les compétences d’un agent
 - Provenance : X / Twitter ; GitHub
 - État : Actif
-
-## Métadonnées
-
-- Nature : Skill individuel
-- OS : À vérifier
-- Licence : MIT
-- Tarification : À vérifier
-- Accès : À vérifier
-- Preuve : https://github.com/mvanhorn/last30days-skill
 
 ## Sources
 
