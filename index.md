@@ -19,22 +19,6 @@
 | `watch-technical-14991362ba170a15ca07-md` | `watch/technical-14991362ba170a15ca07.md` | outil |  | sensible |
 | `watch-technical-2993f5bd5143a68eff85-md` | `watch/technical-2993f5bd5143a68eff85.md` | outil | #terminal, #extraction-web | sensible |
 | `watch-technical-42965a7ae63080ec3407-md` | `watch/technical-42965a7ae63080ec3407.md` | outil | #extraction-web | sensible |
-| `watch-technical-0f4a7a816c8952dbf731-md` | `watch/technical-0f4a7a816c8952dbf731.md` | outil | #skills-agents | sensible |
-| `watch-technical-27f8c0ff8cca3df6ea0d-md` | `watch/technical-27f8c0ff8cca3df6ea0d.md` | outil | #skills-agents | sensible |
-| `watch-technical-2a2385aa51cfbadadbca-md` | `watch/technical-2a2385aa51cfbadadbca.md` | outil | #skills-agents | sensible |
-| `watch-technical-2c221e92f077be44fa03-md` | `watch/technical-2c221e92f077be44fa03.md` | outil | #skills-agents | sensible |
-| `watch-technical-2d1f0c27d1a7e6276bbb-md` | `watch/technical-2d1f0c27d1a7e6276bbb.md` | outil | #skills-agents, #memoire-agents | sensible |
-| `watch-technical-31af1c826591a4dae157-md` | `watch/technical-31af1c826591a4dae157.md` | outil | #skills-agents | sensible |
-| `watch-technical-33d3e0927f1fc753958b-md` | `watch/technical-33d3e0927f1fc753958b.md` | outil | #skills-agents | sensible |
-| `watch-technical-68739c32800acb892db3-md` | `watch/technical-68739c32800acb892db3.md` | outil | #skills-agents | sensible |
-| `watch-technical-8755e3cc18887d19677c-md` | `watch/technical-8755e3cc18887d19677c.md` | outil | #skills-agents | sensible |
-| `watch-technical-937202ed2e51dfc8964b-md` | `watch/technical-937202ed2e51dfc8964b.md` | outil | #skills-agents | sensible |
-| `watch-technical-b9dabe0bb617bae09e38-md` | `watch/technical-b9dabe0bb617bae09e38.md` | outil | #skills-agents | sensible |
-| `watch-technical-c552ac9f4733aa3ba7eb-md` | `watch/technical-c552ac9f4733aa3ba7eb.md` | outil | #skills-agents | sensible |
-| `watch-technical-d983544200f52aad525a-md` | `watch/technical-d983544200f52aad525a.md` | outil | #skills-agents | sensible |
-| `watch-technical-f01b945b8bb55d94764f-md` | `watch/technical-f01b945b8bb55d94764f.md` | outil | #skills-agents | sensible |
-| `watch-technical-f18f47e3a17a4b6c1a22-md` | `watch/technical-f18f47e3a17a4b6c1a22.md` | outil | #skills-agents | sensible |
-| `watch-technical-fe96049f587d9e1e842a-md` | `watch/technical-fe96049f587d9e1e842a.md` | outil | #skills-agents | sensible |
 | `watch-technical-4ebbe613827a1ffc3c29-md` | `watch/technical-4ebbe613827a1ffc3c29.md` | outil | #skills-agents, #react | a verifier |
 | `watch-technical-40cd4bcbc0fb8cf86c20-md` | `watch/technical-40cd4bcbc0fb8cf86c20.md` | outil |  | sensible |
 | `watch-technical-e3f44ce252af9ba887f8-md` | `watch/technical-e3f44ce252af9ba887f8.md` | outil | #planification-taches | a verifier |
@@ -65,15 +49,6 @@
 | `watch-technical-4ae9875513059238a6b2-md` | `watch/technical-4ae9875513059238a6b2.md` | outil | #agents-code, #terminal, #mcp | sensible |
 | `watch-technical-8c3dc2a0187cafccea2a-md` | `watch/technical-8c3dc2a0187cafccea2a.md` | outil | #terminal | sensible |
 | `watch-technical-02d73009ec03d24b2e22-md` | `watch/technical-02d73009ec03d24b2e22.md` | outil | #skills-agents, #analyse-vulnerabilites | sensible |
-| `watch-technical-18d04c59111a0ef60037-md` | `watch/technical-18d04c59111a0ef60037.md` | outil | #skills-agents | sensible |
-| `watch-technical-1a96b96052a0c881d102-md` | `watch/technical-1a96b96052a0c881d102.md` | outil | #skills-agents | sensible |
-| `watch-technical-36aa7eee4746770fcda3-md` | `watch/technical-36aa7eee4746770fcda3.md` | outil | #skills-agents, #analyse-vulnerabilites | sensible |
-| `watch-technical-570dd0657c06ecf2451b-md` | `watch/technical-570dd0657c06ecf2451b.md` | outil | #skills-agents | sensible |
-| `watch-technical-5794b85350d1d45ac52f-md` | `watch/technical-5794b85350d1d45ac52f.md` | outil | #skills-agents | sensible |
-| `watch-technical-79bed09262cc44d98990-md` | `watch/technical-79bed09262cc44d98990.md` | outil | #skills-agents | sensible |
-| `watch-technical-89d5f664cb5f7ff3416f-md` | `watch/technical-89d5f664cb5f7ff3416f.md` | outil | #skills-agents | sensible |
-| `watch-technical-a80dbff462f192c01fb9-md` | `watch/technical-a80dbff462f192c01fb9.md` | outil | #skills-agents, #analyse-malware, #memoire-agents | sensible |
-| `watch-technical-e951214a3b33e5131590-md` | `watch/technical-e951214a3b33e5131590.md` | outil | #skills-agents | sensible |
 | `watch-technical-f26c6abfcce6e427cbf6-md` | `watch/technical-f26c6abfcce6e427cbf6.md` | outil | #skills-agents | sensible |
 | `watch-technical-e0275c5610589cad14d2-md` | `watch/technical-e0275c5610589cad14d2.md` | outil | #comparaison-modeles, #generation-video, #generation-images | sensible |
 | `watch-technical-668711a6e10728221dfc-md` | `watch/technical-668711a6e10728221dfc.md` | outil | #memoire-agents | sensible |

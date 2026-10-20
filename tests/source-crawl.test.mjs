@@ -76,3 +76,9 @@ test('merge repository duplicates preserves sources, backups and note links whil
  const r=spawnSync(process.execPath,[path.resolve('scripts/km-merge-tool-fiches.mjs')],{env:{...process.env,HOME:root,KM_ROOT:root,KM_PIPELINE_DATA:data},encoding:'utf8'});assert.equal(r.status,0,r.stderr);const report=JSON.parse(r.stdout);assert.equal(report.archivedFiches,1);assert.ok(fs.existsSync(path.join(report.backup,'watch/technical-bb.md')));assert.ok(fs.existsSync(path.join(root,'watch/technical-cc.md')));assert.match(fs.readFileSync(path.join(root,'watch/technical-aa.md'),'utf8'),/status\/2/);assert.equal(JSON.parse(fs.readFileSync(path.join(data,'state.json'))).notes.x.fiches[0],'watch/technical-aa.md');
  }finally{fs.rmSync(root,{recursive:true,force:true});}
 });
+test('GitHub social navigation cannot fan out into fork tools',async()=>{
+ const root='https://github.com/example/security-skills';const called=[];
+ const result=await crawlSource(root,{fetchPage:async url=>{called.push(url);return page(url,[root+'/forks',root+'/network/members',root+'/stargazers',root+'/graphs/contributors']);}});
+ assert.deepEqual(called,[root]);
+ assert.equal(result.nodes.filter(n=>n.status==='navigation').length,4);
+});

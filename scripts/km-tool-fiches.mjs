@@ -1,6 +1,9 @@
 import fs from 'node:fs/promises';
+import {readFileSync} from 'node:fs';
+const repositoryAliases=JSON.parse(readFileSync(new URL('../km.repository-aliases.json',import.meta.url),'utf8'));
+export const originalRepository=repo=>repositoryAliases[repo]||repo;
 import path from 'node:path';
-export function repositoryKey(value){try{const u=new URL(value);if(u.hostname.toLowerCase()!=='github.com')return null;const m=u.pathname.match(/^\/([^/]+)\/([^/]+)\/?$/);return m?'https://github.com/'+m[1].toLowerCase()+'/'+m[2].replace(/\.git$/,'').toLowerCase():null;}catch{return null;}}
+export function repositoryKey(value){try{const u=new URL(value);if(u.hostname.toLowerCase()!=='github.com')return null;const m=u.pathname.match(/^\/([^/]+)\/([^/]+)\/?$/);return m?originalRepository('https://github.com/'+m[1].toLowerCase()+'/'+m[2].replace(/\.git$/,'').toLowerCase()):null;}catch{return null;}}
 export function ownedRepositories(text){
  const sources=(text.split('## Sources')[1]?.split('\n## ')[0]||'').match(/https?:\/\/\S+/g)||[];
  const repos=[...new Set(sources.map(repositoryKey).filter(Boolean))];

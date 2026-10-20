@@ -17,3 +17,10 @@ test('fallback shows final specific term, never generic parents',()=>{
  assert.deepEqual(result.map(k=>k.label),['#research-agent']);
  assert.equal(result[0].subjectId,'domain.ai.agents');
 });
+
+test('verified GitHub forks resolve to one upstream project',async()=>{
+ const {repositoryKey}=await import('../scripts/km-tool-fiches.mjs');
+ assert.equal(repositoryKey('https://github.com/a14c773b/anthropic-cybersecurity-skills'),'https://github.com/mukul975/anthropic-cybersecurity-skills');
+ assert.equal(repositoryKey('https://github.com/abdullakala/anthropic-cybersecurity-skills'),'https://github.com/mukul975/anthropic-cybersecurity-skills');
+ assert.equal(repositoryKey('https://github.com/other/independent-project'),'https://github.com/other/independent-project');
+});

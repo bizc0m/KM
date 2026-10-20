@@ -1,5 +1,6 @@
 import {canonical,publicFetch,blocked,technicalSignal,validDecision} from './km-technical-policy.mjs';
 import crypto from 'node:crypto';
+import {repositoryKey} from './km-tool-fiches.mjs';
 export const CRAWL_VERSION='depth3-per-tool-v2';
 export const CRAWL_DEFAULTS={maxDepth:3,maxPages:120,maxElapsedMs:180000};
 let githubApiAvailable=true;
@@ -28,17 +29,21 @@ export async function loadPublicPage(url,{fetch=publicFetch}={}){
  if(u.hostname==='github.com'&&/^\/[^/]+\/[^/]+\/?$/.test(u.pathname)){
   const repo=u.pathname.replace(/^\/|\/$/g,'');let meta={full_name:repo,default_branch:'HEAD'},metadataOk=false,readme='';
   if(githubApiAvailable){try{meta=JSON.parse((await fetch(`https://api.github.com/repos/${repo}`)).text);metadataOk=true;}catch(e){if(/^http_(403|429)$/.test(e.message))githubApiAvailable=false;}}
+  // A fork is a reference to its upstream project, not another tool.
+  const upstream=meta.fork && meta.source?.full_name;
+  const canonicalRepo=upstream?'https://github.com/'+upstream.toLowerCase():repositoryKey(u.href);
+  if(canonicalRepo&&canonicalRepo!==u.href.toLowerCase().replace(/\/$/,''))return loadPublicPage(canonicalRepo,{fetch});
   const base=`https://raw.githubusercontent.com/${meta.full_name || repo}/${meta.default_branch || 'HEAD'}/`;
   for(const filename of ['README.md','readme.md','README.rst']){try{readme=(await fetch(base+filename)).text;if(readme)break;}catch{}}
   if(!readme&&githubApiAvailable){try{const r=JSON.parse((await fetch(`https://api.github.com/repos/${repo}/readme`)).text);readme=Buffer.from(r.content||'','base64').toString('utf8');}catch(e){if(/^http_(403|429)$/.test(e.message))githubApiAvailable=false;}}
   if(!metadataOk&&!readme)throw new Error('github_content_unavailable');
-  return {url:u.href,text:`Dépôt GitHub ${meta.full_name || repo}. ${meta.description||''}\n${readme}`,links:sourceLinks(readme,base),partial:!readme};
+  return {url:canonicalRepo||u.href,text:`Dépôt GitHub ${meta.full_name || repo}. ${meta.description||''}\n${readme}`,links:sourceLinks(readme,base),partial:!readme};
  }
  const r=await fetch(url);const final=new URL(r.url);
  if(crawlKey(r.url)!==crawlKey(url) && (/^(x\.com|twitter\.com)$/.test(final.hostname)&&final.pathname.includes('/status/') || final.hostname==='github.com'&&/^\/[^/]+\/[^/]+\/?$/.test(final.pathname)))return loadPublicPage(r.url,{fetch});
  const html=/html/i.test(r.type);return {url:r.url,text:html?plain(r.text):r.text,links:sourceLinks(r.text,r.url,html)};
 }
-function rejectUrl(url){try{const u=new URL(url);if(blocked(u.href))return 'excluded';if([...u.searchParams.keys()].some(k=>/^(access_token|api_key|password|secret|token)$/i.test(k)))return 'excluded';if(/\.(png|jpe?g|gif|webp|svg|ico|mp4|mov|mp3|zip|exe|dmg|pkg)(?:$|\?)/i.test(u.pathname))return 'unsupported';if(/^(x\.com|twitter\.com)$/.test(u.hostname)&&!u.pathname.includes('/status/'))return 'navigation';if(/\/(?:login|signin|signup|logout|privacy|terms|contact)(?:\/|$)/i.test(u.pathname))return 'navigation';}catch{return 'invalid';}return null;}
+function rejectUrl(url){try{const u=new URL(url);if(blocked(u.href))return 'excluded';if([...u.searchParams.keys()].some(k=>/^(access_token|api_key|password|secret|token)$/i.test(k)))return 'excluded';if(u.hostname==='github.com'&&/^\/[^/]+\/[^/]+\/(?:forks?|network|stargazers|watchers|graphs|discussions|issues|pulls)(?:\/|$)/.test(u.pathname))return 'navigation';if(/\.(png|jpe?g|gif|webp|svg|ico|mp4|mov|mp3|zip|exe|dmg|pkg)(?:$|\?)/i.test(u.pathname))return 'unsupported';if(/^(x\.com|twitter\.com)$/.test(u.hostname)&&!u.pathname.includes('/status/'))return 'navigation';if(/\/(?:login|signin|signup|logout|privacy|terms|contact)(?:\/|$)/i.test(u.pathname))return 'navigation';}catch{return 'invalid';}return null;}
 export async function crawlSource(start,{fetchPage=loadPublicPage,onProgress=async()=>{},...options}={}){
  const limits={...CRAWL_DEFAULTS,...options};const began=Date.now(),nodes=new Map(),aliases=new Set(),queue=[];let fetched=0;
  function enqueue(url,depth,parent){let key;try{key=crawlKey(url);}catch{return;}if(nodes.has(key))return;const rejection=rejectUrl(url);const node={url:key,depth,parent,status:rejection || (depth>limits.maxDepth?'depth_limit':'queued')};if(rejection==='excluded'){node.url=undefined;node.excluded=true;}nodes.set(key,node);if(node.status==='queued')queue.push({key,url});}

@@ -101,3 +101,5 @@ Le bilan de reprise, les correctifs de redirection, la fusion réversible, le ra
 ### Ontologie et hiérarchie
 
 Le classement utilise désormais l’ontologie partagée version 1.0, avec sujets hiérarchiques, fonctions, compatibilités, risques, provenance et état séparés. `km-classify-fiches.mjs` est exécuté automatiquement avant la reconstruction et la collecte ; `addFiche` classe directement toute nouvelle fiche. Voir [ontologie.md](ontologie.md) pour les synonymes, le fonctionnement des trois filtres, les sauvegardes, les limites et la procédure d’évolution.
+
+- Dépôts GitHub : un fork vérifié appartient au projet source (`source.full_name`), pas à un nouvel outil. Résoudre les forks avant publication ; conserver les références lors des fusions sauvegardées. Ne pas explorer les pages GitHub fork/network/stargazers/contributeurs comme des catalogues d’outils. Les alias vérifiés sont dans `km.repository-aliases.json`.
