@@ -79,3 +79,9 @@ Pour ajouter un sujet : choisir son parent, un identifiant stable, un libellé c
 Lancer `npm run km:technical:test`, déployer le JSON et les modules ensemble sur le M2, reclasser et reconstruire KM, vérifier les filtres dans le navigateur, puis commiter et pousser le code et la documentation. Ne pas pousser les rapports privés ni les sauvegardes.
 
 30 tests couvrent notamment les cycles et parents, les synonymes, l’héritage, l’indépendance des dimensions, la conservation des classifications, la génération du tableau et ses trois contrôles. Le cumul de filtres et sa persistance ont aussi été vérifiés réellement dans le navigateur.
+
+## Viewer publié sur GitHub Pages
+
+Le site `https://bizc0m.github.io/KM/search-v2.html` publie le snapshot filtré des fiches du M2 depuis la branche `codex/km-technical-pipeline`. Le viewer et ses liens de fiches utilisent cette même branche ; `main` n’est pas fusionnée automatiquement. `public/snapshot.json` indique la date et le nombre de fiches de la dernière publication. Le site est un snapshot, pas un accès direct aux fichiers privés du M2.
+
+La commande `node scripts/km-import-public-snapshot.mjs CHEMIN_JSON` importe uniquement les fiches de la vue publique filtrée. Ne pas utiliser une exportation brute NotePlan. Reconstruire et vérifier KM, puis pousser les Markdown importés, leurs index et les HTML produits ensemble. Aucune sauvegarde ni cache du M2 n’est publié.

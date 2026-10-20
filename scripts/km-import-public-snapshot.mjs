@@ -7,7 +7,7 @@ for(const row of snapshot.rows){
  if(!/^(watch|resources|books)\/[a-zA-Z0-9_./ -]+\.md$/.test(row.path)||row.path.split('/').includes('..'))throw Error('invalid_public_path');
  let text=row.raw || '';if(blocked(text)||/\bsex[ -]?work\b/i.test(text)||!technicalSignal(text)){excluded++;continue;}
  // Contact details and local paths are not needed in a public technical fiche.
- text=text.split('\n').filter(line=>!/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}|\/Users\/|\bsk-[a-z0-9_-]{12,}/i.test(line)).join('\n');
+ text=text.split('\n').filter(line=>!/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}|\/Users\/|\bsk-[a-z0-9_-]{12,}/i.test(line)).join('\n').replace(/^[ \t]*-[ \t]+$/gm,'');
  if(row.classification)text=text.replace(/\n## Sources\b/,'\n\n'+classificationMarkdown(row.classification)+'## Sources');
  await fs.mkdir(path.dirname(row.path),{recursive:true});await fs.writeFile(row.path,text.trim()+'\n');rows.push(row);imported++;
 }

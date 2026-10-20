@@ -218,7 +218,7 @@ Documentation et règles pour contribuer au projet open source Cal.diy.
 - Assure la qualité via des revues et tests.
 - Organise les priorités des demandes.
 - Règles de nommage pour les fichiers.
-- 
+
 
 Source : https://raw.githubusercontent.com/calcom/cal.com/HEAD/CONTRIBUTING.md ; niveau 2.
 

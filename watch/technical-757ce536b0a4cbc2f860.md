@@ -149,7 +149,7 @@ Outil permettant de convertir divers formats en markdown et de générer des doc
 - Génération de documents HTML avec 4 thèmes éditoriaux.
 - Conversion de HTML en markdown pour archivage.
 - Production de documents DOCX avec mise en page éditoriale.
-- 
+
 
 Source : https://github.com/alchaincyf/huashu-md-html ; niveau 2.
 

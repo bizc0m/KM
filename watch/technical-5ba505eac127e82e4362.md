@@ -227,7 +227,7 @@ Documentation pour installer VoiceStudio via un agent de codage, avec des règle
 - Vérifier le matériel réel avant l'installation.
 - Configurer un moteur de clonage de voix adapté au matériel.
 - Vérifier l'installation via l'API et générer un clip audio.
-- 
+
 
 Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/install/agent.md ; niveau 2.
 
@@ -250,7 +250,7 @@ Instructions pour migrer une application Tauri vers Electron en préservant les 
 - Installer Electron et éviter l'utilisation commune des données.
 - Vérifier la configuration de stockage d'Electron avant utilisation.
 - Tester la migration avec un clip sonore court avant suppression.
-- 
+
 
 Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/electron-migration.md ; niveau 2.
 
