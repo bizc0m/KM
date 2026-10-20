@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {cardKeywords,keywordColor} from '../scripts/km-keywords.mjs';
+import {cardKeywords,keywordColor,conceptColor,colorPalette} from '../scripts/km-keywords.mjs';
 test('cards preserve precise keywords without hierarchy paths',()=>{
  const tags=['#codebase-analysis','#knowledge-graph','#coding'];
  assert.deepEqual(cardKeywords({tags}).map(k=>k.label),tags);
@@ -32,4 +32,12 @@ test('resource axes preserve evidence and never equate GitHub with free or open 
  assert.equal(saved.license,'MIT');assert.equal(saved.pricing,'Payant');assert.deepEqual(saved.os,['macOS','Linux']);
  assert.deepEqual(resourceMetadata('# Python SDK\n## Tags\n#python').os,['À vérifier']);
  assert.deepEqual(resourceMetadata('# App\n## Tags\n#macos').os,['macOS']);
+});
+
+test('historical domains keep their palette and technical metadata remains neutral',()=>{
+ const expected={llm:'#4d348f',agent:'#145f52',dev:'#245f8f',research:'#244678',media:'#8a2557',osint:'#7a3f00',security:'#8f0000',privacy:'#225522',finance:'#6a4a08',source:'#6f5100',watchlist:'#573273',tool:'#333333'};
+ for(const [id,color]of Object.entries(expected))assert.equal(colorPalette[id].foreground,color);
+ for(const t of ['#macos','#windows','MIT','Apache-2.0','Payant'])assert.equal(keywordColor(t),'tool');
+ assert.equal(conceptColor('domain.ai.agents.skills'),'agent');assert.equal(conceptColor('domain.osint'),'osint');assert.equal(conceptColor('domain.privacy'),'privacy');
+ assert.equal(keywordColor('#directory'),'watchlist');assert.equal(keywordColor('#transcription'),'media');assert.equal(keywordColor('unmapped-topic'),'tool');
 });

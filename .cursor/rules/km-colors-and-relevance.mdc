@@ -1,0 +1,11 @@
+---
+description: Palette historique KM et pertinence des tags
+alwaysApply: true
+---
+
+- Respecter `km/couleurs-et-pertinence.md` et `km.colors.json`.
+- Les domaines et mots-clés précis sont colorés selon la palette historique ; nature, OS, licence, prix et accès restent neutres.
+- Ne pas remplacer la couleur par une neutralisation globale lors d’une modification UX.
+- Chaque tag doit être étayé par sa source, utile au choix et non redondant. Aucune couleur ne prouve la qualité ou le risque.
+- Exemple : transcription en rose, code en bleu, agents en vert turquoise ; MIT et macOS en gris.
+- Tester les couleurs des mots-clés et les métadonnées neutres ; vérifier les cartes dans le navigateur.

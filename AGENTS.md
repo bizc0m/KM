@@ -17,4 +17,6 @@
 
 - Dépôts GitHub : un fork vérifié appartient au projet source (`source.full_name`), pas à un nouvel outil. Résoudre les forks avant publication ; conserver les références lors des fusions sauvegardées. Ne pas explorer les pages GitHub fork/network/stargazers/contributeurs comme des catalogues d’outils. Les alias vérifiés sont dans `km.repository-aliases.json`.
 
-- Métadonnées : Nature, Thème, Fonction, OS, Licence, Tarification et Accès sont des axes indépendants. Une seule famille de couleur par thème ; mots-clés, nature et métadonnées techniques neutres. Ne pas déduire une licence libre ou la gratuité de GitHub, ni un OS d’un langage. Conserver les métadonnées lors de l’enrichissement ; les informations sans preuve restent « À vérifier ».
+- Métadonnées : Nature, Thème, Fonction, OS, Licence, Tarification et Accès sont des axes indépendants. Palette historique par domaine dans `km.colors.json` : thèmes et mots-clés précis colorés ; nature, OS, licence, tarification et accès neutres. Ne pas déduire une licence libre ou la gratuité de GitHub, ni un OS d’un langage. Conserver les métadonnées lors de l’enrichissement ; les informations sans preuve restent « À vérifier ».
+
+- Règle de base obligatoire : `km/couleurs-et-pertinence.md`. La couleur sert au repérage du domaine, jamais à noter la qualité. Un tag visible doit être étayé, utile pour sélectionner une ressource et non redondant. Ne pas supprimer les couleurs historiques lors des évolutions du viewer.

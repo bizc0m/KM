@@ -1,0 +1,74 @@
+{
+  "dev": {
+    "label": "Développement et code",
+    "foreground": "#245f8f",
+    "background": "#eef4fb",
+    "border": "#b8cce0"
+  },
+  "llm": {
+    "label": "LLM et API IA",
+    "foreground": "#4d348f",
+    "background": "#f0ecff",
+    "border": "#c9baf0"
+  },
+  "agent": {
+    "label": "Agents et automatisation",
+    "foreground": "#145f52",
+    "background": "#eaf7f4",
+    "border": "#a8d8cd"
+  },
+  "research": {
+    "label": "Recherche et connaissances",
+    "foreground": "#244678",
+    "background": "#edf3ff",
+    "border": "#b9c9ee"
+  },
+  "media": {
+    "label": "Création et médias",
+    "foreground": "#8a2557",
+    "background": "#ffeef6",
+    "border": "#e2adca"
+  },
+  "osint": {
+    "label": "OSINT et reconnaissance",
+    "foreground": "#7a3f00",
+    "background": "#ffe9d6",
+    "border": "#e2a66f"
+  },
+  "security": {
+    "label": "Cybersécurité",
+    "foreground": "#8f0000",
+    "background": "#fff0ef",
+    "border": "#edb8b8"
+  },
+  "privacy": {
+    "label": "Confidentialité",
+    "foreground": "#225522",
+    "background": "#eef7ee",
+    "border": "#bad8ba"
+  },
+  "finance": {
+    "label": "Finance",
+    "foreground": "#6a4a08",
+    "background": "#f8efdc",
+    "border": "#d2b06a"
+  },
+  "source": {
+    "label": "Sources et veille",
+    "foreground": "#6f5100",
+    "background": "#fff6dd",
+    "border": "#e6cf89"
+  },
+  "watchlist": {
+    "label": "Catalogues et inspiration",
+    "foreground": "#573273",
+    "background": "#f2edf8",
+    "border": "#c8b6da"
+  },
+  "tool": {
+    "label": "Métadonnées neutres ou domaine non établi",
+    "foreground": "#333333",
+    "background": "#f0f0f0",
+    "border": "#cfcfcf"
+  }
+}
