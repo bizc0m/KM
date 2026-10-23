@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T09:29:41.888Z",
+  "at": "2026-10-23T10:29:46.203Z",
   "scope": "public-index-only",
   "fiches": 658,
   "sourceReferences": 2686,
@@ -8,8 +8,8 @@
   "primaryDuplicateGroups": [],
   "pendingReview": 630,
   "counts": {
-    "interest-missing": 191,
-    "keywords-missing": 89,
+    "interest-missing": 192,
+    "keywords-missing": 90,
     "domain-unqualified": 117,
     "primary-identity-unqualified": 21,
     "nature-unqualified": 608
@@ -698,6 +698,7 @@
       "id": "watch-technical-ee446b3bf303b677315c-md",
       "title": "MailHog",
       "reasons": [
+        "keywords-missing",
         "nature-unqualified"
       ]
     },
@@ -936,6 +937,7 @@
       "id": "watch-technical-c0d4875dd605f77caf57-md",
       "title": "Penpot",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
