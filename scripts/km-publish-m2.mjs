@@ -3,6 +3,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import os from 'node:os';
+import {createHash} from 'node:crypto';
 import {execFile} from 'node:child_process';
 import {promisify} from 'node:util';
 const exec=promisify(execFile),base=path.join(os.homedir(),'Library/Application Support/KM/public-publisher'),checkout=path.join(base,'checkout'),branch='codex/km-technical-pipeline';
@@ -15,6 +16,7 @@ try{
  await run('git',['pull','--ff-only','origin',branch]);
  const {stdout}=await run('/usr/bin/ssh',['-o','BatchMode=yes','-o','ConnectTimeout=10','m2','cat "/Users/JOB/#DEV/06-km/KM/search-v2.html"']);
  const match=stdout.match(/const KM_INDEX=(.*);\n/);if(!match)throw Error('M2 public index unavailable');const rows=JSON.parse(match[1]);if(!rows.length)throw Error('Empty snapshot refused');
+ const fingerprint=createHash('sha256').update(JSON.stringify(rows)).digest('hex');let previous={};try{previous=JSON.parse(await fs.readFile(path.join(base,'status.json'),'utf8'));}catch{}status.fingerprint=fingerprint;if(previous.ok&&previous.fingerprint===fingerprint){status.ok=true;status.published=false;status.exported=rows.length;status.finishedAt=new Date().toISOString();await fs.writeFile(path.join(base,'status.json'),JSON.stringify(status,null,2));await fs.rm(lock,{force:true});console.log(JSON.stringify(status));process.exit(0);}
  const snapshot=path.join(base,'snapshot.json');await fs.writeFile(snapshot,JSON.stringify({at:new Date().toISOString(),rows}),{mode:0o600});
  for(const [script,args] of [['km-import-public-snapshot.mjs',[snapshot]],['km-merge-tool-fiches.mjs',[]],['build-search-v1.12-html.mjs',[]],['km-verify-placement.mjs',[]],['km-quality-report.mjs',[]]])await run(process.execPath,['scripts/'+script,...args]);
  // Explicit public allowlist; no pipeline caches, logs, credentials or NotePlan folders.
