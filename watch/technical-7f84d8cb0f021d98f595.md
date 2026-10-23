@@ -36,7 +36,6 @@ Découpe des images en sections facilement.
 - https://github.com/opencut-app/opencut
 - https://x.com/i/status/2055958924650512508
 - https://opencut.app/
-- https://moonrepo.dev/proto
 - https://bun.sh/docs/installation
 - https://docs.docker.com/get-started/get-docker
 - https://docs.docker.com/compose/install
@@ -72,11 +71,11 @@ Découpe des images en sections facilement.
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
 - Liens distincts recensés : 841.
 - Pages lues, tweet compris : 85.
-- Sources techniques analysées : 25.
-- Sources à vérifier : 54 ; analyses non terminées : 0 ; erreurs du modèle : 2.
-- Liens non lus : 661 (profondeur : 655, budget de pages : 0, délai : 0, erreurs : 6).
+- Sources techniques analysées : 24.
+- Sources à vérifier : 55 ; analyses non terminées : 0 ; erreurs du modèle : 2.
+- Liens non lus : 660 (profondeur : 654, budget de pages : 0, délai : 0, erreurs : 6).
 - Pages résumées sur extrait : 3.
-- Éléments exclus : 100 ; doublons ignorés : 0.
+- Éléments exclus : 101 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### OpenCut
@@ -99,17 +98,6 @@ OpenCut est un éditeur vidéo open source simple et puissant. Il fonctionne sur
 - Disponible en version bêta préliminaire
 
 Source : https://opencut.app ; niveau 2.
-
-### proto
-
-proto est un gestionnaire de versions multi-langue. Il gère plusieurs langages et outils. Il permet de configurer des outils par projet. Il intègre un système de plugins.
-
-- proto gère plusieurs langages et outils.
-- proto permet de configurer des outils par projet.
-- proto intègre un système de plugins.
-- proto est basé sur Rust.
-
-Source : https://moonrepo.dev/proto ; niveau 2.
 
 ### Installation de Bun
 
@@ -254,10 +242,10 @@ Source : https://fal.ai/models/minimax/h3/text-to-video ; niveau 3.
 
 fal Serverless permet de déployer des modèles d'IA, pipelines et applications sur des GPU sans serveur. Le code s'exécute sur des machines H100, A100 ou autres. Le déploiement automatique gère l'évolutivité, le réseau et l'observabilité. Les applications peuvent être publiées sur le marché.
 
-- fal Serverless permet de déployer des modèles d'IA, pipelines et applications sur des GPU sans serveur.
-- Le code s'exécute sur des machines H100, A100 ou autres.
-- Le déploiement automatique gère l'évolutivité, le réseau et l'observabilité.
-- Les applications peuvent être publiées sur le marché.
+- fal Serverless déploie des modèles d'IA, pipelines et applications sur des GPU sans serveur
+- le code s'exécute sur des machines H100, A100 ou autres types de GPU
+- le déploiement automatique gère l'évolutivité, le réseau et l'observabilité
+- les applications peuvent être publiées sur le marché
 
 Source : https://fal.ai/docs/documentation/serverless ; niveau 3.
 
@@ -296,18 +284,18 @@ API de modification vidéo par dialogue. Permet d'éditer des vidéos via des in
 - Modification vidéo par dialogue.
 - Gestion d'entrées multimodales.
 - Cohérence scénique maintenue.
-- Génération audio native synchronisée.
+- Génération d'audio synchronisé.
 
 Source : https://fal.ai/gemini-omni ; niveau 3.
 
 ### Kling O3 Image to Video API
 
-API pour générer des vidéos à partir d'images et de textes. Animation entre deux images. Génération audio. Durée max 15s.
+API pour générer des vidéos à partir d'images et de textes. Animation entre deux images. Génération audio. Tarification par seconde.
 
 - API pour générer des vidéos à partir d'images et de textes
 - Animation entre une image de départ et une image d'arrivée
-- Génération audio en chinois et anglais
-- Durée maximale de 15 secondes
+- Génération audio en anglais ou chinois
+- Tarification par seconde avec option audio
 
 Source : https://fal.ai/models/fal-ai/kling-video/o3/standard/image-to-video ; niveau 3.
 

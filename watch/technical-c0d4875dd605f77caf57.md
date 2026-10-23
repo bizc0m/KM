@@ -1,4 +1,4 @@
-# Penpot : plateforme de conception open source
+# Penpot
 
 ## Statut
 
@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Permet de collaborer en temps réel sur des projets de conception
+Intérêt à vérifier
 
 ## Identité
 
@@ -27,10 +27,10 @@ Permet de collaborer en temps réel sur des projets de conception
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.image domain.dev.ui source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.media.image domain.dev.ui source.noteplan source.github source.x lifecycle.review
 - Sujets : Audio, vidéo et création > Images et graphisme ; Développement logiciel > Conception d’interfaces
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
+- État : À vérifier
 
 ## Sources
 
