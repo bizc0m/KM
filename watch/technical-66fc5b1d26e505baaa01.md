@@ -1,4 +1,4 @@
-# ty : outil de vérification de type Python rapide
+# ty
 
 ## Statut
 
@@ -10,7 +10,11 @@ actif
 
 ## Intérêts
 
-Analyse le code Python pour détecter les erreurs de type.
+Analyse de type rapide avec diagnostics précis pour code Python
+
+## Identité
+
+- Dépôt principal : https://github.com/astral-sh/ty
 
 ## Métadonnées
 
@@ -25,8 +29,8 @@ Analyse le code Python pour détecter les erreurs de type.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.infrastructure domain.dev.ui domain.dev.testing domain.dev.quality compatibility.language.python source.noteplan source.github source.x lifecycle.active
-- Sujets : Infrastructure ; Développement logiciel > Conception d’interfaces ; Développement logiciel > Tests logiciels ; Développement logiciel > Qualité du code
+- Identifiants : domain.infrastructure domain.dev.ui domain.dev.quality compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Sujets : Infrastructure ; Développement logiciel > Conception d’interfaces ; Développement logiciel > Qualité du code
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
@@ -41,31 +45,5 @@ Analyse le code Python pour détecter les erreurs de type.
 - Origine : NotePlan
 - Identifiant source : 66fc5b1d26e505baaa01bcbe7cecdbf9760e6c2c664b57bc76ba8a326f260f30
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/astral-sh/ty
-
-## Capacités documentées
-
-- Vérification de type plus rapide que mypy et Pyright.
-- Analyse incrémentale pour des mises à jour rapides dans les IDE.
-- Support pour des types avancés comme les types d'intersection.
-- Intégration avec des éditeurs comme VS Code et PyCharm.
-
-## Usages documentés
-
-- uvx ty check
-
-## Limites
-
-- Nécessite une version Python 3.10 ou ultérieure pour le type checking.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/astral-sh/ty
-- Analyse source : 2026-10-20T07:42:57.268Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

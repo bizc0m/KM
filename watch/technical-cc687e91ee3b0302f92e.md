@@ -75,5 +75,5 @@ Crée des vidéos courtes pour réseaux sociaux sans installation.
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/samuraigpt/text-to-video-ai
-- Analyse source : 2026-10-20T07:40:16.556Z
+- Analyse source : 2026-10-22T01:30:11.380Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

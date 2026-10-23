@@ -1,4 +1,4 @@
-# Bun : outil de développement JavaScript/TypeScript
+# Bun
 
 ## Statut
 
@@ -8,7 +8,11 @@ actif
 
 ## Intérêts
 
-Exécute des scripts et des tests rapidement sans dépendances externes
+Exécute des scripts JavaScript et TypeScript rapidement.
+
+## Identité
+
+- Dépôt principal : https://github.com/oven-sh/bun
 
 ## Métadonnées
 
@@ -38,36 +42,5 @@ Exécute des scripts et des tests rapidement sans dépendances externes
 - Origine : NotePlan
 - Identifiant source : 1f8d61fe04f2cb529ec10ff1bba92daa49a22242aa93f84c4f89824abd95056f
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/oven-sh/bun
-
-## Capacités documentées
-
-- Remplace Node.js avec un runtime JavaScript rapide
-- Supporte TypeScript et JSX sans configuration supplémentaire
-- Fournit un gestionnaire de packages plus rapide que npm
-- Inclut un runner de tests intégré
-
-## Usages documentés
-
-- bun run start
-- bun test
-- bun install <pkg>
-- bunx cowsay 'Hello, world!'
-
-## Limites
-
-- Requis un noyau Linux 5.6 ou supérieur
-- Compatibilité limitée avec les anciennes versions de Node.js
-- Nécessite des ressources spécifiques pour les builds en canary
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/oven-sh/bun
-- Analyse source : 2026-10-20T07:42:57.268Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

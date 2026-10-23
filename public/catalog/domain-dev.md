@@ -1,0 +1,114 @@
+# Développement logiciel
+
+- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Permet aux agents de conserver une mémoire persistante sans re-expliquer.
+- [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Recherche et stream d'animes via des fournisseurs.
+- [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
+- [BAML](../../watch/technical-b79207044bee1b2d7073.md) — Crée des agents fiables avec des types statiques.
+- [Browser-Use](../../watch/browser-use-web-automation.md) — Automatiser des tâches web avec un LLM
+- [Bun](../../watch/technical-1f8d61fe04f2cb529ec1.md) — Exécute des scripts JavaScript et TypeScript rapidement.
+- [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Afficher les alertes météo en temps réel via terminal
+- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les disponibilités et planifier des rendez-vous
+- [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Génère des données 3D à partir de points de contrôle.
+- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md)
+- [CloakBrowser](../../watch/technical-2ffdb8097dd79859932a.md) — Permet de contourner les systèmes anti-bot avec un navigateur furtif.
+- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage en modifiant des fichiers et en exécutant des commandes.
+- [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Exécute des tâches de codage localement avec un éditeur.
+- [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md)
+- [DeepSeek-Reasonix](../../watch/technical-c292611ef4a4a5e37455.md) — Exécute des tâches de codage avec un modèle d'IA configuré
+- [cloakbrowser-manager](../../watch/technical-f1bc36a07e9a8a388405.md) — Gère des profils de navigateur avec des paramètres uniques
+- [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Permet d'éditer des fichiers dans un environnement terminal
+- [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
+- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
+- [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
+- [MiniSim](../../watch/technical-d93ed6a02625034b1939.md) — Lancer les émulateurs iOS et Android depuis la barre de menus macOS.
+- [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Permet d'explorer et modifier le code avec un assistant IA
+- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
+- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
+- [open-grok-bot](../../watch/technical-dfc871508eb563893ba5.md) — Crée des personas bots avec des modèles spécifiques
+- [Open-Poe-AI](../../watch/technical-2d163384adb685d9a51a.md)
+- [open-slide](../../watch/technical-690719855ba11af8d90c.md)
+- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
+- [Penpot](../../watch/technical-c0d4875dd605f77caf57.md) — Permet de collaborer en temps réel sur des projets de conception
+- [Popcorn Time](../../watch/technical-f2ad2f5dfae253d2f4b6.md) — Accéder à des contenus multimédia via des liens.
+- [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Gère les dépendances et les environnements
+- [PubGrub](../../watch/technical-40431c060cb04bde6a19.md) — Résout des conflits de dépendances avec des explications claires.
+- [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
+- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
+- [Selenium](../../watch/technical-d03eda2466f2556e6e1c.md) — Automatise les tests web avec des scripts.
+- [ShotGlass](../../watch/technical-8ae8d27d1412df2cdc2d.md) — enregistrer et éditer des captures d'écran avec IA
+- [SubCat](../../watch/technical-c67a2647c3e09c338891.md) — Découvre des sous-domaines et génère des rapports web avec captures d'écran.
+- [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée une API REST sans configuration complexe
+- [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Analyse de type rapide avec diagnostics précis pour code Python
+- [tygo](../../watch/technical-b19b418d3fe93785fa21.md) — Convertit des structures Go en types Typescript pour front-end
+- [UI-TARS-desktop](../../watch/technical-bba9c08d417b5cda22d8.md) — Contrôle à distance des ordinateurs et navigateurs avec interface graphique
+- [undetected-chromedriver](../../watch/technical-270127c4040820721fee.md) — Exécute des navigateurs Chromium sans détection par les services anti-bot.
+- [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Gère les dépendances de projet avec des lockfiles.
+- [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
+- [orogene](../../watch/technical-6bb0ffb5ad3771787603.md) — Installe les dépendances rapidement sans surcharger les ressources.
+- [Ruff](../../watch/technical-40c2c54a4c6490e8e3bc.md) — Vérifie et corrige le code Python rapidement avec une grande couverture de règles.
+- [fbdfile](../../watch/technical-644af560a703d50fde81.md) — Lire et analyser des données FLIMbox à partir de fichiers FBD
+- [imreg](../../watch/technical-75c8660a0022a5827fd7.md) — Permet d'aligner des images avec des transformations géométriques.
+- [qdafile](../../watch/technical-781eee7c072afbf0af19.md) — Génère des fichiers QDA avec des données structurées
+- [@react-native-segmented-control/segmented-control](../../watch/technical-4fecf39958682d370cdb.md) — Afficher un contrôle segmenté iOS compatible sur iOS, Android et Web
+- [Carthage](../../watch/technical-db0404acb89369a258a1.md) — Gère les dépendances Cocoa sans modifier les fichiers projet
+- [CUAWright](../../watch/technical-302726d10970209e8855.md) — Permet aux modèles de codage d'automatiser des navigateurs et des applications de bureau.
+- [mutagen](../../watch/technical-5a9ba13528ab94de7bad.md) — Gère les métadonnées audio sans dépendances externes.
+- [PROQCIMA](../../watch/technical-252f85e1a80b7d2702ca.md) — Financer la recherche pour des ordinateurs quantiques.
+- [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Configure l'environnement de codage avec des outils d'assistance.
+- [React Native Firebase](../../watch/technical-3681504d2fddfa84e41c.md) — Intégre Firebase dans les apps React Native
+- [React Native Skia](../../watch/technical-7cd3c79123c711ed22a3.md) — Rendu graphique 2D performant pour applications React Native
+- [react-native-async-storage/async-storage](../../watch/technical-86179b264553419a3af1.md) — Stocke des données clé-valeur persistantes dans une application React Native
+- [react-native-geolocation-service](../../watch/technical-4b680fb1ac30d77fae4c.md) — Permet d'obtenir la position avec précision sur mobile
+- [react-native-screens](../../watch/technical-86557885f3c8aeb4655f.md) — Gère les transitions et états des vues pour une navigation fluide.
+- [react-native-svg](../../watch/technical-0d363f6aa6eaa85ad3ca.md) — Afficher des graphismes vectoriels dans des applications React Native
+- [Répertoire de ressources design](../../watch/technical-0c43c4b9eb7d7f87237a.md) — Accélère le développement UI avec des ressources prêtes à l'emploi
+- [Requests](../../watch/technical-0d1a89c543bad402b2da.md) — Fait des requêtes HTTP facilement et efficacement.
+- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Propose des corrections de code en temps réel via un terminal interactif
+- [Spec Kit](../../watch/technical-f4e0adf84666b0c986e7.md) — Structurer le développement avec des spécifications
+- [Stirling PDF](../../watch/technical-6b15eaf11d9b70cfb83f.md) — Traite des PDF localement sans service externe
+- [workerd](../../watch/technical-4ca7b79d976e015db39b.md)
+- [yt-dlp-ejs](../../watch/technical-df2c1d26b3d255b2b015.md) — Facilite l'intégration de JavaScript avec yt-dlp
+- [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Permet aux agents d'intégrer instantanément la plateforme pour trader.
+- [Anthropic Cybersecurity Skills](../../watch/technical-02d73009ec03d24b2e22.md)
+- [camofox-browser](../../watch/technical-05a714c23543244771cf.md) — Piloter un navigateur headless pour les tâches web des agents.
+- [Free Claude Code](../../watch/technical-2ee41fd0d683c0958502.md) — Utilise des modèles d'IA pour le développement
+- [notfair-nextjs-blog](../../watch/technical-1fca81e0d4c208d8ff35.md) — Afficher des articles NotFair avec Next.js et un API privé
+- [OpenWA](../../watch/technical-aabd475730fdd2c418b7.md) — Exécute l'API WhatsApp sur un serveur interne sans dépendre de tiers
+- [Outil d'alignement et de validation des requêtes avec un modèle d'IA](../../watch/technical-e89b211cd062814b9628.md)
+- [awesome-ai-repos](../../watch/technical-7cf0ee8352dc6af0478e.md) — Gérer des agents IA avec des outils de coordination
+- [Clone-Wars](../../watch/technical-f39d8a91723d2198d9aa.md) — Découvrir le code source de clones d'applications populaires.
+- [ECC](../../watch/technical-edb3a626875732de5c9b.md) — Améliore la productivité en optimisant les tâches de codage.
+- [Jules](../../watch/technical-f23e4d6f3cd099180f4d.md) — Gère des tâches de codage via GitHub avec l'étiquette "jules".
+- [Metis](../../watch/technical-a5ff978d18723ab2dc78.md) — Crée un agent personnalisé pour chaque projet.
+- [NoSignups](../../watch/technical-94515d48fc2a4b993a1f.md) — Permet d'utiliser des outils informatiques sans inscription ni email.
+- [Open Lovable](../../watch/technical-51c74448ee9079430332.md) — Crée un clone React d'un site web en quelques secondes.
+- [Outils en ligne utiles pour le développement et la gestion de projets](../../watch/technical-99260b2f64304ae31048.md) — Unpaywall.org permet d'accéder gratuitement aux articles de recherche.
+- [Outils en ligne utiles pour le développement et la gestion de projets](../../watch/technical-c2b6bc61f64db5dde9f2.md) — Unpaywall.org permet d'accéder gratuitement aux articles de recherche.
+- [Outils et compétences pour la production vidéo automatisée et agente](../../watch/technical-88c715df4dbe74ef0c5a.md) — Crée des vidéos MP4 à partir de textes avec des agents AI.
+- [Outils pour collecter des données web via des agents IA](../../watch/technical-985e97ab7a28702f6cd3.md) — Permettre à l'IA d'explorer des plateformes via CLI sans frais d'API.
+- [Pake](../../watch/technical-fd14133ed8619a60ddb0.md) — Créer une application de bureau à partir d'un site web en quelques secondes.
+- [Spec Kit](../../watch/technical-03c3b9b214032004d035.md) — Structurer les spécifications pour un codage cohérent et prévisible.
+- [Superpowers](../../watch/technical-56f27bb0e80ff344bf72.md) — Facilite la planification et la révision du code avec un workflow structuré.
+- [Vibe Coding et Spec Kit](../../watch/technical-9379cc03e3266df7017b.md) — Structurer la collaboration pour améliorer la précision du code généré.
+- [Devin Desktop Agent App](../../watch/devin-desktop-agent-app.md)
+- [Espanso Text Expander](../../watch/espanso-text-expander.md)
+- [OpenBot AI Coworkers](../../watch/openbot-ai-coworkers.md)
+- [BetterDisplay MacOS Display Control](../../watch/betterdisplay-macos-display-control.md)
+- [AXorcist macOS Accessibility](../../watch/axorcist-macos-accessibility.md)
+- [MacOS26 Agent Desktop Harness](../../watch/macos26-agent-desktop-harness.md)
+- [Open Lovable Firecrawl Site Cloning](../../watch/open-lovable-firecrawl-site-cloning.md)
+- [Spec Kit Vibe Coding Specification Workflow](../../watch/spec-kit-vibe-coding-specification-workflow.md)
+- [Web Page To Desktop App Converter](../../watch/vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel.md)
+- [Aider AI Pair Programming](../../watch/aider-ai-pair-programming.md)
+- [Claude Task Master](../../watch/claude-task-master-ai-task-management.md)
+- [OpenHands](../../watch/openhands-ai-development.md)
+- [PromptSpy](../../watch/promptspy-ai-android-malware.md)
+- [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
+- [CC-GUI / MossX](../../watch/ccgui-mossx-vibecoding-editor.md)
+- [CodePatrol](../../watch/codepatrol-code-security.md)
+- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md)
+- [Vibe Shit](../../watch/vibeshit-vibe-coding-directory.md)
+- [Free Open Source Apps List](../../watch/free-open-source-apps-list-sn0wbrave.md)
+- [Lovable Build For The Web 20x Faster](../../watch/lovable-build-for-the-web-20x-faster.md)
+- [macUSB Bootable USB Creator macOS](../../watch/macusb-bootable-usb-creator-macos.md)
+- [Parall Mac App Multi Instance](../../watch/parall-mac-app-multi-instance.md)

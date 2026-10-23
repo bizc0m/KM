@@ -10,6 +10,10 @@ actif
 
 Permet de déployer des agents modulaires et scalables.
 
+## Identité
+
+- Dépôt principal : https://github.com/got-agents/agents
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -38,23 +42,5 @@ Permet de déployer des agents modulaires et scalables.
 - Origine : NotePlan
 - Identifiant source : 35aadf0372281812cd07628d6228874c1fa1360239925c4d3cb244a10ebca05b
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/got-agents/agents
-
-## Capacités documentées
-
-- Implémente des agents conformes aux principes 12 factor agents.
-- Fournit des exemples d'agents fonctionnels.
-- Facilite la mise en œuvre d'agents modulaires.
-- Sert de référence pour la conception d'agents distribués.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/got-agents/agents
-- Analyse source : 2026-10-19T13:51:17.213Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

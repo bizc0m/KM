@@ -1,0 +1,48 @@
+# Renseignement en sources ouvertes
+
+- [Cabal Proxy Harvester](../../watch/technical-dee6cae45f8c3798057c.md) — Collecte et vérification continue des proxies HTTP et SOCKS5
+- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Détecte rapidement les types d'IP et leur risque.
+- [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Afficher les alertes météo en temps réel via terminal
+- [CoronavirOSINT](../../watch/technical-19c0251e942e91d7ee33.md) — Analyse en temps réel des données épidémiologiques pour comparaison et suivi.
+- [DorkSint](../../watch/technical-de90088a7594bcc86157.md) — Recherche rapide de dorks pour trouver des informations via des moteurs de recherche
+- [Eyes](../../watch/technical-acd9eb29cb67574c16ec.md) — Recherche des comptes associés à une adresse email sans alerte.
+- [google_dorker](../../watch/technical-d924e27b47fa985d6e04.md) — Exécute des requêtes Google Dork pour des fins éducatives.
+- [OSINT Cabal Live Center](../../watch/technical-1049081f67e5576ca9e6.md) — Collecte d'informations publiques via des outils OSINT en ligne.
+- [OSINTSky](../../watch/technical-cdbdf85699a704f19664.md)
+- [TeleGramSint](../../watch/technical-57e845072d92fede6967.md)
+- [VIN-Number-OSINT](../../watch/technical-ca8e59013ec56e1d2be5.md) — Analyse VIN pour obtenir des données techniques.
+- [WhatsMyName](../../watch/technical-d6babbc48c72c3692516.md) — Vérifier l'existence d'un nom d'utilisateur sur des sites web.
+- [Sublist3r](../../watch/technical-91a4ed33e0fa4b66d349.md) — Trouver des sous-domaines d'un site web.
+- [Web-Check](../../watch/technical-654478eba9c74251531f.md) — Analyse les vulnérabilités d'un site web
+- [OpenOSINT](../../watch/technical-0be614d8a1eb180e4b8a.md) — Orchestre des recherches OSINT avec un modèle LLM pour produire un rapport structuré
+- [User Scanner](../../watch/technical-1d55b4cad34f154042bf.md) — Analyse des emails et usernames pour extraire des données.
+- [H4X-Tools](../../watch/technical-1805682cce69c18558d8.md) — Analyse de données d'identité à partir de sources externes
+- [Service d'identification de localisation IP gratuit](../../watch/technical-8d55a0f0b5e9b3b01fac.md) — Obtenir la localisation d'une adresse IP sans limitation de requêtes
+- [Aliens_eye](../../watch/technical-b36267bf0446d3c6c504.md) — Collecte d'informations précise via 840 plateformes.
+- [GhostTrack](../../watch/technical-b65fc5880997df07fd20.md) — Identifier des plateformes en ligne liées à un utilisateur.
+- [OSINT & Recon Toolkit avec Installateur Unifié](../../watch/technical-54ff5f7d00072879cc4b.md) — Installe rapidement des outils OSINT et de sécurité sur plusieurs systèmes.
+- [Osintgram v2.0](../../watch/technical-e95daab6824047f93490.md) — Collecte et analyse de données publiques d'un compte Instagram via son pseudo.
+- [ShadowDorks](../../watch/technical-007dad49f4c2947287e5.md) — Automatisation des recherches OSINT via des requêtes Google dorking avancées.
+- [Claude OSINT Skills](../../watch/claude-osint-skills.md)
+- [Project Eyes On](../../watch/project-eyes-on-open-ip-camera-osint.md)
+- [Aliens Eye AI OSINT Platform](../../watch/aliens-eye-ai-osint-platform.md)
+- [IG-Detective Instagram OSINT Suite](../../watch/ig-detective-instagram-osint-suite.md)
+- [Serus Dark Web Leak Search](../../watch/serus-dark-web-leak-search.md)
+- [WorldMonitor Global Intelligence Dashboard](../../watch/worldmonitor-global-intelligence-dashboard.md)
+- [GhostTrack](../../watch/ghosttrack-digital-footprint-osint.md)
+- [Google Dorking Automation For OSINT](../../watch/how-i-automate-google-dorking-for-faster-osint-investigations.md)
+- [Miranda](../../watch/miranda-start-me.md)
+- [Multi-search launcher](../../watch/multi-search-launcher.md)
+- [Nexus OSINT V1 Launch](../../watch/lancement-de-notre-projet-nexus-osint-v1.md)
+- [Offline maps and GPS app without ads or tracking](../../watch/offline-maps-and-gps-app-without-ads-or-tracking.md)
+- [Open Source Observability for Traces, Logs & Metrics · Maple](../../watch/open-source-observability-for-traces-logs-metrics-maple.md)
+- [GoSearch](../../watch/gosearch-digital-footprint-search.md)
+- [The OSINT Rack](../../watch/osint-rack-curated-tools.md)
+- [vxunderground MalwareSourceCode](../../watch/vxunderground-malware-source-code.md)
+- [PromptSpy](../../watch/promptspy-ai-android-malware.md)
+- [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
+- [AI Open Source Tools Watch](../../watch/ai-open-source-tools-watch.md)
+- [Inspiration Competitors Tools Watch](../../watch/inspiration-competitors-tools-watch.md)
+- [OSINT Tools Watch](../../watch/osint-tools-watch.md)
+- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md)
+- [IntelFetch OSINT Features](../../watch/intelfetch-osint-features.md)

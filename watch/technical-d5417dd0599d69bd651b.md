@@ -10,7 +10,11 @@ actif
 
 ## Intérêts
 
-Génère des images AI avec des prompts textuels et des références visuelles.
+Intérêt à vérifier
+
+## Identité
+
+- Dépôt principal : https://github.com/samuraigpt/nano-banana-generator
 
 ## Métadonnées
 
@@ -41,5 +45,5 @@ Génère des images AI avec des prompts textuels et des références visuelles.
 - Origine : NotePlan
 - Identifiant source : d5417dd0599d69bd651b730a7dfdbc56e863de4f58e24b6607fa33e9be1302ed
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-22
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

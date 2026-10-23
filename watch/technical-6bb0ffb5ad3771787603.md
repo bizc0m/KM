@@ -1,4 +1,4 @@
-# orogene : gestionnaire de paquets optimisé
+# orogene
 
 ## Statut
 
@@ -8,7 +8,11 @@ actif
 
 ## Intérêts
 
-Gère les dépendances sans surcharge de ressources
+Installe les dépendances rapidement sans surcharger les ressources.
+
+## Identité
+
+- Dépôt principal : https://github.com/orogene/orogene
 
 ## Métadonnées
 
@@ -38,5 +42,5 @@ Gère les dépendances sans surcharge de ressources
 - Origine : NotePlan
 - Identifiant source : 6bb0ffb5ad3771787603cb893991921d925535cbf7acc4614e266185ffdafdd8
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-22
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

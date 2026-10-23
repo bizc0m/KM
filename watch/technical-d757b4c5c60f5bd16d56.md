@@ -10,6 +10,10 @@ actif
 
 Trouver des alternatives open-source aux outils SaaS.
 
+## Identité
+
+- Dépôt principal : https://github.com/anil-matcha/awesome-vibecoded-saas
+
 ## Métadonnées
 
 - Nature : Application web
@@ -38,12 +42,8 @@ Trouver des alternatives open-source aux outils SaaS.
 - Origine : NotePlan
 - Identifiant source : d757b4c5c60f5bd16d56d0c38494b56910bed0c1b8236bf4773a5a1cd3fef792
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-22
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/anil-matcha/awesome-vibecoded-saas
 
 ## Capacités documentées
 
@@ -56,5 +56,5 @@ Trouver des alternatives open-source aux outils SaaS.
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/anil-matcha/awesome-vibecoded-saas
-- Analyse source : 2026-10-20T07:40:16.556Z
+- Analyse source : 2026-10-22T01:30:11.380Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -12,6 +12,10 @@ actif
 
 Créez des compétences agent pour des outils comme Claude, Gemini, Cursor.
 
+## Identité
+
+- Dépôt principal : https://github.com/voltagent/awesome-agent-skills
+
 ## Métadonnées
 
 - Nature : Collection de skills
@@ -41,12 +45,8 @@ Créez des compétences agent pour des outils comme Claude, Gemini, Cursor.
 - Origine : NotePlan
 - Identifiant source : 42c5a49b8cf68812c97ae9c4b9423e22ddb3420c67a99d3343f0165ba9efaa17
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/voltagent/awesome-agent-skills
 
 ## Capacités documentées
 
@@ -60,5 +60,5 @@ Créez des compétences agent pour des outils comme Claude, Gemini, Cursor.
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/voltagent/awesome-agent-skills
-- Analyse source : 2026-10-19T22:23:37.450Z
+- Analyse source : 2026-10-20T13:18:06.283Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

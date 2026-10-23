@@ -6,9 +6,11 @@ actif
 
 ## Tags
 
+#react, #skills-agents
+
 ## Intérêts
 
-Ajouter des compétences pour améliorer les performances de Claude sur des tâches spécifiques
+Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
 
 ## Métadonnées
 
@@ -23,10 +25,10 @@ Ajouter des compétences pour améliorer les performances de Claude sur des tâc
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.skills capability.skills source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Compétences des agents
+- Identifiants : domain.ai.agents.skills domain.dev.web capability.skills source.noteplan source.x source.github lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Développement logiciel > Développement web
 - Fonctions : Étendre les compétences d’un agent
-- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- Provenance : NotePlan Calendar ; X / Twitter ; GitHub
 - État : Actif
 
 ## Sources
@@ -37,41 +39,36 @@ Ajouter des compétences pour améliorer les performances de Claude sur des tâc
 - https://agentskills.io/home
 - https://support.claude.com/en/articles/12512176-what-are-skills
 - https://support.claude.com/en/articles/12512198-how-to-create-custom-skills
-- https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+- https://anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills
 - https://claude.com/resources/articles/create-files
-- https://github.com/gudong2003/xianyu-auto-reply-fix
 - https://x.com/i/status/2056380132592632195
 - https://github.com/agentskills/agentskills
 - https://discord.com/invite/MKPE9g8aUy
 - https://skills.sh/anthropics/skills/frontend-design
 - https://skills.sh/anthropics/skills/skill-creator
-- https://skills.sh/anthropics/skills/pdf
+- https://skills.sh/anthropics/skills/pptx
 - https://skills.sh/anthropics/skills/docx
 - https://skills.sh/anthropics/skills/mcp-builder
 - https://skills.sh/anthropics/skills/web-artifacts-builder
-- https://skills.sh/anthropics/skills/brand-guidelines
 - https://skills.sh/anthropics/skills/theme-factory
 - https://skills.sh/anthropics/skills/doc-coauthoring
 - https://skills.sh/anthropics/skills/algorithmic-art
 - https://skills.sh/anthropics/skills/internal-comms
-- https://skills.sh/anthropics/skills/academy-guide
+- https://skills.sh/anthropics/skills/template-skill
 - https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude
 - https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization
 - https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features
-- https://support.claude.com/en/articles/15927065-get-started-with-skill-and-plugin-scanning
 - https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
+- https://code.claude.com/docs/en/skills
 - https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork
-- https://claude.com/product/claude-code
-- https://claude.com/resources/articles/skills
+- https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
 - https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro
 - https://github.com/anthropics/claude-cookbooks/tree/main/skills
-- https://claude.com/resources/articles/dashboards-and-motion
-- https://anthropic.com/claude-haiku-5-5
-- https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides
-- https://raw.githubusercontent.com/GuDong2003/xianyu-auto-reply-fix/main/docs/configuration.md
-- https://raw.githubusercontent.com/GuDong2003/xianyu-auto-reply-fix/main/docs/usage.md
-- https://raw.githubusercontent.com/GuDong2003/xianyu-auto-reply-fix/main/docs/faq.md
-- https://raw.githubusercontent.com/GuDong2003/xianyu-auto-reply-fix/main/docs/release.md
+- https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed
+- https://claude.com/resources/articles/hcltech-joins-claude-partner-network
+- https://claude.com/resources/articles/claude-duet
+- https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes
+- https://raw.githubusercontent.com/GuDong2003/xianyu-auto-reply-fix/HEAD/docs/configuration.md
 - https://github.com/kaguya233qwq/myfish
 - https://github.com/cv-cat/xianyuapis
 - https://github.com/finb/bark
@@ -81,31 +78,20 @@ Ajouter des compétences pour améliorer les performances de Claude sur des tâc
 - Origine : NotePlan
 - Identifiant source : 78841380644580638df96ddcafa7f538eca2d5e70244405223afbe59889ba437
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 786.
-- Pages lues, tweet compris : 88.
-- Sources techniques analysées : 44.
-- Sources à vérifier : 42 ; analyses non terminées : 0 ; erreurs du modèle : 1.
-- Liens non lus : 662 (profondeur : 644, budget de pages : 0, délai : 0, erreurs : 18).
+- Liens distincts recensés : 827.
+- Pages lues, tweet compris : 87.
+- Sources techniques analysées : 38.
+- Sources à vérifier : 47 ; analyses non terminées : 0 ; erreurs du modèle : 0.
+- Liens non lus : 679 (profondeur : 662, budget de pages : 0, délai : 0, erreurs : 17).
 - Pages résumées sur extrait : 8.
-- Éléments exclus : 34 ; doublons ignorés : 4.
+- Éléments exclus : 59 ; doublons ignorés : 5.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
-
-### Implémentation de compétences pour Claude
-
-Dépôt GitHub contenant des compétences pour Claude, permettant d'améliorer ses performances sur des tâches spécialisées.
-
-- Permet à Claude d'effectuer des tâches spécialisées de manière répétable
-- Contient des compétences pour la création de documents et l'analyse de données
-- Fournit des exemples de compétences pour différents domaines
-- Inclut des modèles pour créer des compétences personnalisées
-
-Source : https://github.com/anthropics/skills ; niveau 1.
 
 ### Gestion de plusieurs comptes sur Xianyu avec automatisation
 
@@ -151,38 +137,27 @@ Documentation sur la création de compétences personnalisées pour Claude, incl
 
 Source : https://support.claude.com/en/articles/12512198-how-to-create-custom-skills ; niveau 2.
 
-### Agent Skills : format et fonctionnalité
+### Agent Skills
 
-Agent Skills permettent aux agents d'acquérir des compétences spécialisées via des dossiers structurés.
+Agent Skills est un standard ouvert pour la portabilité interplateforme. Les agents peuvent charger dynamiquement des compétences pour des tâches spécifiques. Les compétences sont des dossiers contenant des instructions, scripts et ressources. Les compétences permettent d'étendre les capacités des agents.
 
-- Agent Skills sont des dossiers contenant des instructions, scripts et ressources.
-- Un SKILL.md décrit les métadonnées et structure l'accès aux ressources.
+- Agent Skills est un standard ouvert pour la portabilité interplateforme.
+- Les agents peuvent charger dynamiquement des compétences pour des tâches spécifiques.
+- Les compétences sont des dossiers contenant des instructions, scripts et ressources.
 - Les compétences permettent d'étendre les capacités des agents.
-- Les compétences peuvent inclure des scripts exécutables par l'agent.
 
-Source : https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills ; niveau 2.
+Source : https://anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills ; niveau 2.
 
-### Création et édition de fichiers par Claude
+### Création de fichiers par Claude
 
-Claude permet de créer et modifier des fichiers comme Excel, Word, PDF et PowerPoint.
+Claude génère des fichiers Excel, PDF, documents et présentations. Il transforme des données en analyses et graphiques. Il crée des modèles financiers et tableaux de bord. Il convertit des formats comme PDF en PowerPoint.
 
-- Claude crée des fichiers à partir d'instructions ou de données uploadées.
-- Claude génère des analyses statistiques et des graphiques.
-- Claude produit des modèles financiers avec des formules fonctionnelles.
-- Claude transforme des formats comme PDF en PowerPoint.
+- Claude crée des fichiers Excel, PDF, documents et présentations.
+- Claude transforme des données en analyses et graphiques.
+- Claude génère des modèles financiers et tableaux de bord.
+- Claude convertit des formats comme PDF en PowerPoint.
 
 Source : https://claude.com/resources/articles/create-files ; niveau 2.
-
-### Gestionnaire automatisé de réponses et commandes pour la plateforme Xianyu
-
-Système de gestion automatisée pour Xianyu avec fonctionnalités de réponse intelligente, gestion de comptes, et déploiement via Docker.
-
-- Gère plusieurs comptes Xianyu avec interface web.
-- Supporte la réponse automatique via IA et règles.
-- Permet la gestion des commandes et des produits.
-- Déploiement facile via Docker Compose.
-
-Source : https://github.com/gudong2003/xianyu-auto-reply-fix ; niveau 2.
 
 ### Bark : Outil de notification iOS basé sur APNs
 
@@ -195,14 +170,14 @@ Bark permet d'envoyer des notifications personnalisées sur iPhone via APNs sans
 
 Source : https://x.com/i/status/2056380132592632195 ; niveau 2.
 
-### Agent Skills - Format d'extension des agents IA
+### Agent Skills
 
-Agent Skills est un format ouvert pour étendre les capacités des agents IA avec des compétences spécialisées.
+Format ouvert pour étendre les capacités des agents IA avec des compétences spécialisées. Format léger, structuré en dossiers avec un fichier SKILL.md. Permet de bundler des scripts, références et ressources. Facilite la réutilisation et la compatibilité entre agents.
 
-- Permet d'ajouter des compétences spécialisées aux agents IA.
-- Fournit un format léger et standardisé pour les compétences.
-- Inclut des métadonnées et des instructions pour chaque compétence.
-- Facilite la réutilisation des compétences entre différents agents.
+- Format ouvert pour étendre les capacités des agents IA.
+- Structure en dossiers avec un fichier SKILL.md.
+- Permet de bundler des scripts, références et ressources.
+- Facilite la réutilisation entre agents.
 
 Source : https://github.com/agentskills/agentskills ; niveau 3.
 
@@ -219,137 +194,125 @@ Source : https://discord.com/invite/MKPE9g8aUy ; niveau 3.
 
 ### frontend-design
 
-Outil de création d'interfaces frontend distinctives et professionnelles.
+Design d'interfaces frontend distinctives. Choix intensionnels d'esthétique. Génération de code fonctionnel. Évite les interfaces génériques.
 
-- Crée des interfaces web avec un design cohérent et mémorable.
-- Guide le choix des styles visuels avant mise en œuvre.
-- Génère du code fonctionnel en HTML/CSS/JS ou React/Vue.
-- Évite les designs génériques et clichés.
-- Priorise la typographie, les couleurs et les mouvements.
-- Rejette les polices et schémas de couleur overused.
+- Design d'interfaces frontend distinctives
+- Choix intensionnels d'esthétique
+- Génération de code fonctionnel
+- Évite les interfaces génériques
 
 Source : https://skills.sh/anthropics/skills/frontend-design ; niveau 3.
 
-### Skill-creator : Outil de développement de compétences pour agents IA
+### skill-creator
 
-Outil permettant de créer et améliorer des compétences pour agents IA via des tests et évaluations.
+Outil pour créer et améliorer des compétences d'agent IA. Permet d'évaluer et itérer des compétences via des tests. Génère des rapports d'analyse et des métriques. Intègre des retours qualitatifs et quantitatifs.
 
-- Permet de créer des compétences pour agents IA.
-- Facilite l'itération grâce à des tests et évaluations.
-- Génère des rapports d'analyse et de performance.
-- Intègre des métriques de latence et d'efficacité tokenale.
+- Crée et améliore des compétences d'agent IA.
+- Évalue les compétences via des tests structurés.
+- Génère des rapports d'analyse et des métriques.
+- Intègre des retours qualitatifs et quantitatifs.
 
 Source : https://skills.sh/anthropics/skills/skill-creator ; niveau 3.
 
-### Traitement de PDF avec extraction et manipulation
+### pptx
 
-Outil permettant de traiter des PDF avec extraction de texte, fusion, découpage, remplissage de formulaires et OCR.
+Crée, modifie et analyse des présentations PowerPoint. Gère les workflows de lecture, d'édition et de création. Intègre des palettes de couleurs et des règles de mise en page. Fournit des outils de vérification visuelle et de texte.
 
-- Extraction de texte et de tableaux depuis des PDF.
-- Fusion et découpage de documents PDF.
-- Remplissage de formulaires PDF avec workflow dédié.
-- Support d'OCR pour PDF numérisés via pytesseract et pdf2image.
+- Crée, modifie et analyse des présentations PowerPoint.
+- Gère les workflows de lecture, d'édition et de création.
+- Intègre des palettes de couleurs et des règles de mise en page.
+- Fournit des outils de vérification visuelle et de texte.
 
-Source : https://skills.sh/anthropics/skills/pdf ; niveau 3.
+Source : https://skills.sh/anthropics/skills/pptx ; niveau 3.
 
-### Manipulation de fichiers .docx avec JavaScript
+### docx
 
-Outil permettant de créer, modifier et analyser des documents Word avec contrôle de mise en forme.
+Créer, modifier et manipuler des fichiers .docx avec formatage complet. Extraire du texte et analyser le contenu. Convertir des fichiers .doc en .docx. Gérer le formatage professionnel.
 
-- Créer des fichiers .docx avec support pour tableaux et images.
-- Modifier des documents en manipulant le fichier XML.
-- Extraire du texte et convertir des fichiers .doc en .docx.
-- Gérer des formats professionnels comme les marges et les colonnes.
+- Création de nouveaux fichiers .docx avec formatage complet.
+- Modification de documents existants via l'éditeur XML.
+- Extraction et analyse du contenu via pandoc ou XML.
+- Conversion des fichiers .doc vers le format .docx.
 
 Source : https://skills.sh/anthropics/skills/docx ; niveau 3.
 
-### mcp-builder : Outil de développement de serveurs MCP
+### mcp-builder
 
-Outil pour créer des serveurs MCP de qualité, connectant des LLM à des services externes.
+Guide complet pour créer des serveurs MCP de qualité. Workflow en quatre phases. Documentation avec exemples de code. Évaluation via questions XML.
 
-- Permet la création de serveurs MCP avec une démarche structurée en quatre phases.
-- Fournit des guides techniques pour TypeScript et Python.
-- Inclut des bonnes pratiques pour les schémas d'entrée/sortie et la documentation.
-- Exige une validation via des questions complexes en format XML.
+- Guide complet pour créer des serveurs MCP de qualité.
+- Workflow en quatre phases : recherche, implémentation, test, évaluation.
+- Documentation avec exemples de code pour TypeScript et Python.
+- Évaluation via 10 questions XML avec réponses vérifiables.
 
 Source : https://skills.sh/anthropics/skills/mcp-builder ; niveau 3.
 
 ### web-artifacts-builder
 
-Outil pour générer des artefacts React pour Claude avec bundling et gestion d'état.
+Génère des projets React 18 avec TypeScript. Intègre shadcn/ui. Compile en HTML unique. Évite les styles "AI slop".
 
-- Crée des projets React 18 avec TypeScript et Vite
-- Intègre des composants shadcn/ui préinstallés
-- Fournit des directives de style pour éviter les mauvaises pratiques
-- Permet de bundler en fichier HTML autonome
+- Crée des projets React 18 avec TypeScript
+- Intègre la bibliothèque shadcn/ui
+- Compile le code en un seul fichier HTML
+- Évite les styles considérés comme "AI slop"
+- Inclut des directives de conception
 
 Source : https://skills.sh/anthropics/skills/web-artifacts-builder ; niveau 3.
 
-### Application des couleurs et typographie d'Anthropic
+### Theme Factory
 
-Outil permettant d'appliquer les couleurs et polices officielles d'Anthropic aux designs.
+Fournit des thèmes de couleur et de police professionnels. Inclut 10 thèmes prédéfinis. Permet la génération de thèmes personnalisés. Applique les thèmes aux artefacts.
 
-- Applique la palette de couleurs officielle d'Anthropic.
-- Utilise des polices Poppins et Lora pour les titres et corps de texte.
-- Adapte les couleurs selon le contexte pour une lisibilité optimale.
-- Fonctionne avec les polices système sans installation supplémentaire.
-
-Source : https://skills.sh/anthropics/skills/brand-guidelines ; niveau 3.
-
-### Theme Factory - Application de thèmes professionnels
-
-Outil permettant d'appliquer des thèmes de couleur et de police pour styliser des présentations et documents.
-
-- Applique des thèmes cohérents aux artefacts.
-- Inclut 10 thèmes prédéfinis avec palettes de couleurs.
-- Génère des thèmes personnalisés en temps réel.
-- Assure contraste et lisibilité des textes.
+- Fournit des thèmes de couleur et de police professionnels.
+- Inclut 10 thèmes prédéfinis : Ocean Depths, Sunset Boulevard, Forest Canopy, Modern Minimalist, Golden Hour, Arctic Frost, Desert Rose, Tech Innovation, Botanical Garden, Midnight Galaxy.
+- Permet la génération de thèmes personnalisés en temps réel.
+- Applique les thèmes aux artefacts en respectant le contraste et la lisibilité.
 
 Source : https://skills.sh/anthropics/skills/theme-factory ; niveau 3.
 
-### Workflow de co-écriture de documentation
+### doc-coauthoring
 
-Workflow structuré pour l'écriture collaborative de documents techniques.
+Workflow structuré pour l'écriture collaborative. Trois étapes : collecte de contexte, rédaction et structure, test lecteur. Intégration avec documents partagés et canaux d'équipe. Utilisation de cycles de brainstorming et de curation.
 
-- Guides l'utilisateur à travers trois étapes : collecte de contexte, rédaction et structure, test par un lecteur neutre.
-- Intègre des documents partagés, canaux d'équipe et modèles pour enrichir le contexte.
-- Utilise des cycles de brainstorming et de curation pour chaque section.
-- Permet des éditions précises basées sur les retours utilisateurs.
+- Workflow structuré pour l'écriture collaborative
+- Trois étapes : collecte de contexte, rédaction et structure, test lecteur
+- Intégration avec documents partagés et canaux d'équipe
+- Utilisation de cycles de brainstorming et de curation
 
 Source : https://skills.sh/anthropics/skills/doc-coauthoring ; niveau 3.
 
-### Création d'art algorithmique interactif
+### algorithmic-art
 
-Outil permettant de générer des œuvres d'art algorithmique interactif via p5.js.
+Crée des œuvres d'art génératif avec p5.js. Génère des philosophies algorithmiques. Produit des fichiers HTML et JS. Utilise la randomisation seedée.
 
-- Crée des œuvres d'art interactives avec p5.js.
-- Utilise la randomisation seedée pour des variations reproductibles.
-- Génère des fichiers HTML autonomes avec contrôles.
-- Permet l'exploration paramétrique et le chaos contrôlé.
+- Génère des œuvres d'art génératif avec p5.js
+- Crée des philosophies algorithmiques exprimées via du code
+- Produit des fichiers HTML et JS interactifs
+- Utilise la randomisation seedée pour des variations reproductibles
 
 Source : https://skills.sh/anthropics/skills/algorithmic-art ; niveau 3.
 
-### Guidelines pour communications internes
+### internal-comms
 
-Outils pour structurer et uniformiser les messages internes d'une entreprise.
+Fournit des modèles pour les communications internes. Couvre sept types de messages. Fournit des instructions pour chaque format. Maintient la cohérence des messages internes.
 
-- Facilite la rédaction de mises à jour 3P.
-- Assure cohérence des newsletters internes.
-- Précise le ton et la structure des réponses FAQ.
-- Normalise les rapports d'incidents internes.
+- Fournit des modèles pour les communications internes.
+- Couvre sept types de messages : 3P updates, newsletters, FAQ, rapports d'état, mises à jour de leadership, mises à jour de projet, rapports d'incident.
+- Fournit des instructions pour chaque format.
+- Maintient la cohérence des messages internes.
 
 Source : https://skills.sh/anthropics/skills/internal-comms ; niveau 3.
 
-### Claude Academy guide
+### template-skill
 
-Documentation pour utiliser Claude Academy, plateforme d'apprentissage d'Anthropic.
+Template Skill pour intégration de compétences. Installation via npx. Dépôt GitHub. 183K étoiles.
 
-- Documentation pour utiliser Claude Academy
-- Plateforme d'apprentissage d'Anthropic
-- Contenu structuré avec certificat
-- Guides pratiques et exemples d'utilisation
+- Template Skill pour intégration de compétences
+- Installation via npx
+- Dépôt GitHub
+- 183K étoiles
 
-Source : https://skills.sh/anthropics/skills/academy-guide ; niveau 3.
+Source : https://skills.sh/anthropics/skills/template-skill ; niveau 3.
 
 ### Création et édition de fichiers via Claude
 
@@ -384,24 +347,32 @@ Claude permet de personnaliser l'expérience via des instructions, projets et co
 
 Source : https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features ; niveau 3.
 
-### Scanning des compétences et plugins dans Claude
+### Agent Skills
 
-Fonctionnalité de sécurité vérifiant les compétences et plugins tiers avant exécution.
+Agent Skills permettent de spécialiser Claude pour des tâches spécifiques. Les Skills sont chargées à la demande. Les Skills peuvent inclure des instructions, des scripts et des ressources. Les Skills sont accessibles via différents produits.
 
-- Vérification automatique des compétences et plugins tiers avant exécution.
-- Détection de comportements malveillants ou risqués.
-- Résultats possibles : pass, warn, fail.
-- Exécution en arrière-plan sans impact sur les sessions normales.
+- Les Skills sont des ressources réutilisables basées sur le système de fichiers.
+- Les Skills peuvent être pré-construites ou personnalisées.
+- Les Skills sont utilisées pour des tâches spécifiques comme le traitement de PDF.
+- Les Skills sont accessibles via l'API Claude, Claude Platform et claude.ai.
 
-Source : https://support.claude.com/en/articles/15927065-get-started-with-skill-and-plugin-scanning ; niveau 3.
+Source : https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview ; niveau 3.
 
-### Utilisation des Skills dans Claude
+### Claude Code Skills
 
-Documentation technique sur les Skills de Claude, outils réutilisables pour spécialiser l'agent.
+Claude Code Skills permettent d'étendre les capacités de Claude en ajoutant des compétences personnalisées. Les compétences sont chargées dynamiquement lors de leur utilisation. Les compétences intégrées comme /doctor ou /code-review sont disponibles dans chaque session. Les compétences peuvent être invoquées directement ou automatiquement par Claude.
 
-- Spécialisation de Claude via des compétences réutilisables
-- Réduction des répétitions avec des compétences créées une fois
-- Composition de compétences pour des tâches complexes
-- Accès à des compétences préconstruites pour des formats de documents
+- Les compétences sont chargées dynamiquement lors de leur utilisation.
+- Les compétences intégrées comme /doctor ou /code-review sont disponibles dans chaque session.
+- Les compétences peuvent être invoquées directement ou automatiquement par Claude.
+- Les compétences suivent l'Agent Skills open standard avec des fonctionnalités supplémentaires comme l'injection de contexte dynamique.
 
-Source : https://platform.claude.com/docs/en/agents-and-tools/agent-skills/
+Source : https://code.claude.com/docs/en/skills ; niveau 3.
+
+### Claude Cowork
+
+Claude Cowork permet d'effectuer des tâches complexes via un interface unifiée. Les tâches s'exécutent en cloud pour des sessions persistantes. Les utilisateurs peuvent organiser des projets avec des fichiers et des instructions. Les tâches peuvent être programmées pour s'exécuter automatiquement.
+
+- Claude Cowork est accessible sur les plans payants Pro, Max, Team et Enterprise.
+- Les sessions s'exécutent en cloud pour des sessions persistantes.
+- Les u

@@ -1,4 +1,4 @@
-# Markdown To Image / Markdown Poster
+# markdown-to-image
 
 ## Statut
 
@@ -6,11 +6,15 @@ actif
 
 ## Tags
 
-#react, #generation-images, #conversion-documents
+#react, #conversion-documents, #generation-images
 
 ## Intérêts
 
-Crée des images sociales à partir de Markdown
+Convertir du markdown en image partageable sur les réseaux sociaux
+
+## Identité
+
+- Dépôt principal : https://github.com/gcui-art/markdown-to-image
 
 ## Métadonnées
 
@@ -25,9 +29,9 @@ Crée des images sociales à partir de Markdown
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.image domain.dev.web domain.data.documents capability.generate.image capability.documents.convert source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.media.image domain.dev.web domain.data.documents capability.documents.convert capability.generate.image source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Images et graphisme ; Développement logiciel > Développement web ; Données et connaissances > Documents
-- Fonctions : Générer des contenus > Générer une image ; Traiter des documents > Convertir des documents
+- Fonctions : Traiter des documents > Convertir des documents ; Générer des contenus > Générer une image
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -41,33 +45,5 @@ Crée des images sociales à partir de Markdown
 - Origine : NotePlan
 - Identifiant source : 10eda570000d9c7eeda146f19409d25e2904003996126960a66da628ab585cf1
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/gcui-art/markdown-to-image
-
-## Capacités documentées
-
-- Convertit Markdown en images sociales optimisées
-- Intégration facile dans des projets React
-- Génération d'images avec support d'images en ligne
-- Déploiement rapide via Vercel
-
-## Usages documentés
-
-- npm i markdown-to-image
-- importation des composants Md2Poster
-
-## Limites
-
-- Requiert un environnement React
-- Nécessite un serveur pour le rendu côté serveur
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/gcui-art/markdown-to-image
-- Analyse source : 2026-10-20T05:39:38.276Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

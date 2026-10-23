@@ -1,0 +1,48 @@
+# Agents de développement
+
+- [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md)
+- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Permet aux agents de conserver une mémoire persistante sans re-expliquer.
+- [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
+- [Claude SEO](../../watch/technical-2ac64d2afb7018ac9ff2.md) — Analyse un site web et propose un plan d'action pour améliorer son référencement
+- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md)
+- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage en modifiant des fichiers et en exécutant des commandes.
+- [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Exécute des tâches de codage localement avec un éditeur.
+- [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Permet d'éditer des fichiers dans un environnement terminal
+- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
+- [open-slide](../../watch/technical-690719855ba11af8d90c.md)
+- [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
+- [Kami](../../watch/technical-49226a0e2e05fa223d37.md) — Génère des documents professionnels avec des modèles prédéfinis.
+- [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Configure l'environnement de codage avec des outils d'assistance.
+- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Propose des corrections de code en temps réel via un terminal interactif
+- [Spec Kit](../../watch/technical-f4e0adf84666b0c986e7.md) — Structurer le développement avec des spécifications
+- [Claude Code gratuit avec proxy NVIDIA](../../watch/technical-227e249fa68647e0ca82.md) — Convertir les appels API Anthropic en format NVIDIA NIM
+- [700-cybersecurity-skills](../../watch/technical-f26c6abfcce6e427cbf6.md) — Ajout de compétences de cybersécurité pour agents IA
+- [Free Claude Code](../../watch/technical-2ee41fd0d683c0958502.md) — Utilise des modèles d'IA pour le développement
+- [awesome-seo-agent-skills](../../watch/technical-2eb5b1b4690cd51d126c.md) — Analyse technique SEO pour optimiser le site web
+- [awesome-seo-agent-skills](../../watch/technical-ff4abb9b63459f4d12ec.md) — Analyse technique SEO pour optimiser le référencement
+- [Mac Mini pour l'IA](../../watch/technical-f0066d78062c33a0cb18.md)
+- [Skills pour agents de IA](../../watch/technical-125acf8b08c34d868099.md) — Permet d'installer des compétences pour des agents de IA
+- [Skills pour agents de IA](../../watch/technical-ce8a12d1c4391a2f858c.md) — Permet d'installer des compétences pour des agents de IA
+- [Agent Skills](../../watch/technical-dae9f02535f7c22f84f1.md) — Facilite la création de logiciels avec des workflows et des bonnes pratiques.
+- [Aider](../../watch/technical-4125f24a0a6925019b78.md) — Collaborer avec des LLM pour coder et gérer des projets.
+- [Jules](../../watch/technical-f23e4d6f3cd099180f4d.md) — Gère des tâches de codage via GitHub avec l'étiquette "jules".
+- [Metis](../../watch/technical-a5ff978d18723ab2dc78.md) — Crée un agent personnalisé pour chaque projet.
+- [Modern Web Guidance](../../watch/technical-ae8fda4548bf05d5f5ed.md) — Intérêt pratique : Oriente vers des solutions modernes et compatibles navigateurs.
+- [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Traduire des vidéos en 14 langues sources et 101 cibles.
+- [Ruflo](../../watch/technical-1b635fdf72be259a562c.md) — Coordination de 100+ agents spécialisés via plusieurs topologies.
+- [Spec Kit](../../watch/technical-03c3b9b214032004d035.md) — Structurer les spécifications pour un codage cohérent et prévisible.
+- [Superpowers](../../watch/technical-56f27bb0e80ff344bf72.md) — Facilite la planification et la révision du code avec un workflow structuré.
+- [Agent Rules Books](../../watch/agent-rules-books.md)
+- [Calyx MacOS Agent Terminal](../../watch/calyx-macos-agent-terminal.md)
+- [KM D3 Scan Integration](../../watch/km-d3-scan-integration-20260901.md)
+- [Kata Tracker Local-First Issue Tracker](../../watch/kata-tracker-local-first-issue-tracker.md)
+- [Graft](../../watch/graft-codebase-context-for-coding-agents.md)
+- [Claude Code ya es potente solo.](../../watch/claude-code-ya-es-potente-solo.md)
+- [Free Claude Code Execution Repository](../../watch/alguien-creo-un-repo-en-github-que-te-permite-ejecutar-claude-code-com.md)
+- [IM-Style Multi-Agent Coding Workspace](../../watch/im-agent-claude-code-codex-opencode-ai-agent.md)
+- [Infinite Memory For Claude, Codex And Cursor](../../watch/acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor.md)
+- [Infinite Memory For Claude, Codex And Cursor](../../watch/ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor.md)
+- [Aider AI Pair Programming](../../watch/aider-ai-pair-programming.md)
+- [AgentsView](../../watch/agentsview-session-intelligence.md)
+- [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
+- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md)

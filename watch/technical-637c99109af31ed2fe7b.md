@@ -1,4 +1,4 @@
-# Skills for Real Engineers - GitHub Repository
+# Skills For Real Engineers
 
 ## Statut
 
@@ -10,7 +10,11 @@ actif
 
 ## Intérêts
 
-Aide à l'alignement entre utilisateur et agent via des sessions d'interrogation
+Aligner les besoins avec l'agent avant de commencer
+
+## Identité
+
+- Dépôt principal : https://github.com/mattpocock/skills
 
 ## Métadonnées
 
@@ -25,8 +29,8 @@ Aide à l'alignement entre utilisateur et agent via des sessions d'interrogation
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.skills capability.skills source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Compétences des agents
+- Identifiants : domain.ai.agents.skills domain.data.organization capability.skills source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Données et connaissances > Organisation du travail
 - Fonctions : Étendre les compétences d’un agent
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
@@ -41,30 +45,5 @@ Aide à l'alignement entre utilisateur et agent via des sessions d'interrogation
 - Origine : NotePlan
 - Identifiant source : 637c99109af31ed2fe7b7d57775d6cc3a4eeaed82d44b5e5d708272fd74606cb
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/mattpocock/skills
-
-## Capacités documentées
-
-- Facilitates alignment between user and agent through grilling sessions
-- Encourages shared language development with domain models and glossaries
-- Supports test-driven development with TDD skill
-- Provides codebase architecture improvement tools
-
-## Usages documentés
-
-- /grill-me
-- /grill-with-docs
-- /tdd
-- /improve-codebase-architecture
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/mattpocock/skills
-- Analyse source : 2026-10-19T14:40:42.779Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

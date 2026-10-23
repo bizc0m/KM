@@ -1,4 +1,4 @@
-# Maigret
+# maigret
 
 ## Statut
 
@@ -6,11 +6,15 @@ actif
 
 ## Tags
 
-#pdf
+#extraction-web
 
 ## Intérêts
 
-Recherche d'informations sur un utilisateur via son nom d'utilisateur.
+Recherche d'informations sur un utilisateur via des comptes en ligne
+
+## Identité
+
+- Dépôt principal : https://github.com/soxoj/maigret
 
 ## Métadonnées
 
@@ -25,10 +29,9 @@ Recherche d'informations sur un utilisateur via son nom d'utilisateur.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai domain.data.research capability.research compatibility.format.pdf source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle ; Données et connaissances > Recherche documentaire
-- Fonctions : Rechercher des documents
-- Compatibilités : Formats > PDF
+- Identifiants : domain.data.web capability.scraping source.noteplan source.github source.x lifecycle.active
+- Sujets : Données et connaissances > Collecte web
+- Fonctions : Extraire des données web
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -42,5 +45,5 @@ Recherche d'informations sur un utilisateur via son nom d'utilisateur.
 - Origine : NotePlan
 - Identifiant source : 6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -1,4 +1,4 @@
-# Seedance 2 Generator
+# seedance-2-generator
 
 ## Statut
 
@@ -10,7 +10,11 @@ actif
 
 ## Intérêts
 
-Génère des vidéos AI avec des modèles préconfigurés.
+Intérêt à vérifier
+
+## Identité
+
+- Dépôt principal : https://github.com/samuraigpt/seedance-2-generator
 
 ## Métadonnées
 
@@ -41,5 +45,5 @@ Génère des vidéos AI avec des modèles préconfigurés.
 - Origine : NotePlan
 - Identifiant source : ad3b72610e20f4f2c9a6387d3ee2480dd14d4cf231a23a49b6c9f0bb556e5040
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

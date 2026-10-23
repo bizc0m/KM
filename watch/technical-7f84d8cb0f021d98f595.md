@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Crée un environnement de travail pour les développeurs
+Découpe des images en sections facilement.
 
 ## Métadonnées
 
@@ -25,9 +25,8 @@ Crée un environnement de travail pour les développeurs
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.video domain.media.image capability.automation compatibility.interface.desktop source.noteplan source.x source.github lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
-- Fonctions : Automatiser des actions
+- Identifiants : domain.media.image compatibility.interface.desktop source.noteplan source.x source.github lifecycle.active
+- Sujets : Audio, vidéo et création > Images et graphisme
 - Compatibilités : Interfaces > Application de bureau
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
 - État : Actif
@@ -37,51 +36,57 @@ Crée un environnement de travail pour les développeurs
 - https://github.com/opencut-app/opencut
 - https://x.com/i/status/2055958924650512508
 - https://opencut.app/
+- https://moonrepo.dev/proto
 - https://bun.sh/docs/installation
 - https://docs.docker.com/get-started/get-docker
 - https://docs.docker.com/compose/install
-- https://raw.githubusercontent.com/OpenCut-app/opencut-classic/main/apps/desktop/README.md
-- https://raw.githubusercontent.com/OpenCut-app/opencut-classic/main/.github/CONTRIBUTING.md
 - https://moonrepo.dev/docs/proto/tool-spec
 - https://moonrepo.dev/moon
-- https://fal.ai/flux-3-max
-- https://fal.ai/serverless
-- https://fal.ai/models/blackforestlabs/flux-3-max/image-to-video
-- https://fal.ai/models/minimax/h3-max/text-to-video
-- https://fal.ai/models/bytedance/seedance-2.5/image-to-video
-- https://fal.ai/inference
-- https://fal.ai/docs/documentation/compute
-- https://fal.ai/docs/documentation/serverless
 - https://fal.ai/docs/documentation
+- https://fal.ai/docs/documentation/compute
+- https://fal.ai/models/bytedance/seedance-2.5/reference-to-video
+- https://fal.ai/models/meshy/v7.1/image-to-3d
+- https://fal.ai/models/blackforestlabs/flux-3/edit-image
+- https://fal.ai/models/minimax/h3/text-to-video
+- https://fal.ai/docs/documentation/serverless
+- https://fal.ai/gpt-image-2.5
+- https://fal.ai/seedance-2.5
+- https://fal.ai/gemini-omni
+- https://fal.ai/models/fal-ai/kling-video/o3/standard/image-to-video
+- https://fal.ai/ltx-2.3
+- https://fal.ai/pixverse-v6
+- https://fal.ai/models/fal-ai/flux-lora-fast-training
+- https://fal.ai/tools/image-upscaler
+- https://fal.ai/tools/image-extender
 
 ## Traçabilité
 
 - Origine : NotePlan
 - Identifiant source : 6c3071b2182b366a047f7328aaa2353b848b73239e77f05e8311c14143cfb84f
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 264.
-- Pages lues, tweet compris : 34.
-- Sources techniques analysées : 19.
-- Sources à vérifier : 13 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 216 (profondeur : 210, budget de pages : 0, délai : 0, erreurs : 6).
-- Pages résumées sur extrait : 1.
-- Éléments exclus : 17 ; doublons ignorés : 0.
+- Liens distincts recensés : 836.
+- Pages lues, tweet compris : 85.
+- Sources techniques analysées : 25.
+- Sources à vérifier : 54 ; analyses non terminées : 0 ; erreurs du modèle : 2.
+- Liens non lus : 657 (profondeur : 651, budget de pages : 0, délai : 0, erreurs : 6).
+- Pages résumées sur extrait : 3.
+- Éléments exclus : 99 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
-### OpenCut : Éditeur vidéo open source multiplateforme
+### OpenCut
 
-OpenCut est un éditeur vidéo open source disponible sur web, desktop et mobile. Il propose des fonctionnalités avancées comme un API d'édition, des plugins tiers et un mode headless. La version classique est disponible sur GitHub.
+OpenCut est un éditeur vidéo open source pour web, desktop et mobile. Il est en cours de réécriture. Une version classique est disponible.
 
-- Permet l'édition de vidéos sur web, desktop et mobile
-- Fournit un API d'édition pour intégration externe
-- Supporte les plugins tiers via une architecture dédiée
-- Possède un mode headless pour automatisation
+- OpenCut est un éditeur vidéo open source.
+- OpenCut est disponible pour web, desktop et mobile.
+- OpenCut est en cours de réécriture.
+- Une version classique est disponible sur GitHub.
 
 Source : https://github.com/opencut-app/opencut ; niveau 1.
 
@@ -94,6 +99,17 @@ OpenCut est un éditeur vidéo open source simple et puissant. Il fonctionne sur
 - Disponible en version bêta préliminaire
 
 Source : https://opencut.app ; niveau 2.
+
+### proto
+
+proto est un gestionnaire de versions multi-langue. Il gère plusieurs langages et outils. Il permet de configurer des outils par projet. Il intègre un système de plugins.
+
+- proto gère plusieurs langages et outils.
+- proto permet de configurer des outils par projet.
+- proto intègre un système de plugins.
+- proto est basé sur Rust.
+
+Source : https://moonrepo.dev/proto ; niveau 2.
 
 ### Installation de Bun
 
@@ -127,28 +143,6 @@ Documentation sur les méthodes d'installation de Docker Compose selon le systè
 
 Source : https://docs.docker.com/compose/install ; niveau 3.
 
-### Installation de l'application desktop basée sur GPUI
-
-Documentation pour installer et exécuter l'application desktop utilisant GPUI.
-
-- Installation de Rust via script pour Linux/macOS/WSL
-- Installation des dépendances natives via script pour Linux/macOS/WSL
-- Exécution de l'application via cargo run -p opencut-desktop
-- Support d'apt, dnf et pacman sur Linux
-
-Source : https://raw.githubusercontent.com/OpenCut-app/opencut-classic/main/apps/desktop/README.md ; niveau 3.
-
-### Contribuer à OpenCut
-
-Documentation pour contribuer au projet OpenCut avec instructions techniques.
-
-- Configurer l'environnement local pour contribuer à OpenCut
-- Utiliser Docker pour exécuter les services de base de données et Redis
-- Créer un fichier .env.local avec les variables d'environnement requises
-- Exécuter des migrations de base de données avant le développement
-
-Source : https://raw.githubusercontent.com/OpenCut-app/opencut-classic/main/.github/CONTRIBUTING.md ; niveau 3.
-
 ### Spécification des outils et versions dans moonrepo
 
 Documentation sur la gestion des versions et des outils via des spécifications semantiques et calendaires.
@@ -160,106 +154,16 @@ Documentation sur la gestion des versions et des outils via des spécifications 
 
 Source : https://moonrepo.dev/docs/proto/tool-spec ; niveau 3.
 
-### moon : outil de gestion de monorepo et exécution de tâches
+### moon
 
-moon est un outil de gestion de monorepo et de tâche pour l'écosystème web, écrit en Rust.
+moon est un outil de gestion de monorepo et de runner de tâches pour l'écosystème web. Il supporte plusieurs langages. Il permet des builds déterministes. Il gère les dépendances et les projets.
 
-- Gère les tâches et les monorepos pour l'écosystème web
-- Supporte plusieurs langages comme JavaScript, TypeScript, Rust, Go, Ruby
-- Permet des builds déterministes grâce au hashing intelligent
-- Fournit un cache distant entre équipes et environnements CI/CD
+- moon est un outil de gestion de monorepo et de runner de tâches pour l'écosystème web
+- moon supporte JavaScript, TypeScript, Rust, Go, Ruby et plus
+- moon permet des builds déterministes grâce au smart hashing
+- moon génère un graphe de dépendances pour optimiser les builds
 
 Source : https://moonrepo.dev/moon ; niveau 3.
-
-### FLUX 3 Max : Modèle vidéo post-entraîné
-
-FLUX 3 Max est un modèle vidéo post-entraîné par fal Research, basé sur FLUX 3 de Black Forest Labs. Il offre une qualité élevée et une rapidité de génération.
-
-- Génère une vidéo de 10 secondes en 12,45 secondes.
-- Qualité image-vidéo égale à Seedance 2.5 avec un Elo de 1139.
-- Post-entraîné par fal Research avec optimisation d'inférence.
-- Permet de générer des vidéos en temps réel avec une résolution 720p.
-
-Source : https://fal.ai/flux-3-max ; niveau 3.
-
-### Plateforme d'inférence GPU sans serveur pour modèles personnalisés
-
-La plateforme permet de déployer des modèles d'inférence avec des GPU, des outils d'observation et une autoscaling. Elle gère des endpoints pour des requêtes d'inférence.
-
-- Déploiement de modèles d'inférence avec autoscaling et observabilité
-- Utilisation de milliers de GPU pour des endpoints de production
-- Gestion de requêtes avec suivi d'état et statistiques de trafic
-- Support pour des modèles comme Stable Diffusion XL
-
-Source : https://fal.ai/serverless ; niveau 3.
-
-### FLUX 3 Max Image-to-Video API
-
-API pour générer des vidéos à partir d'une image et d'un prompt textuel.
-
-- Convertit une image en vidéo avec un prompt textuel.
-- Génère des clips de 5 à 20 secondes.
-- Supporte des résolutions 720p et 1080p.
-- Fournit une qualité visuelle compétitive.
-- Temps de génération réduit par optimisation.
-- Permet un contrôle sur la durée et la résolution.
-
-Source : https://fal.ai/models/blackforestlabs/flux-3-max/image-to-video ; niveau 3.
-
-### API Text-to-Video H3 Max
-
-API de génération vidéo à partir de texte basée sur H3 Max.
-
-- Génère des vidéos à partir de descriptions textuelles.
-- Optimisée pour la fidélité aux prompts et l'esthétique.
-- Utilise une pile d'inférence personnalisée.
-- Co-optimisée pour un débit élevé sans perte de qualité.
-
-Source : https://fal.ai/models/minimax/h3-max/text-to-video ; niveau 3.
-
-### Seedance 2.5 Image to Video API
-
-API permettant de transformer une image en vidéo animée.
-
-- Animation d'une image en vidéo native 30 secondes
-- Génération de mouvement et audio synchronisé
-- Pas de découpage de clips multiples
-- Support de résolutions jusqu'à 720p
-
-Source : https://fal.ai/models/bytedance/seedance-2.5/image-to-video ; niveau 3.
-
-### Plateforme d'inférence pour médias génératifs
-
-Plateforme d'inférence pour médias génératifs avec API unifiée et serveursless.
-
-- Appel d'API pour 1400+ modèles optimisés
-- Déploiement de modèles personnalisés sur GPU
-- Gestion automatique des requêtes et scalabilité
-- Support pour divers types de médias
-
-Source : https://fal.ai/inference ; niveau 3.
-
-### fal Compute - Instance Types and Features
-
-fal Compute offre des instances GPU dédiées pour des tâches exigeant accès continu à l’hardware.
-
-- Accès continu à des GPU H100 SXM avec stockage SSD.
-- Instances 8xH100 pour calcul distribué via InfiniBand.
-- Coûts horaires fixes pour prévisibilité budgétaire.
-- Pas de démarrage frais grâce à l’instance toujours active.
-
-Source : https://fal.ai/docs/documentation/compute ; niveau 3.
-
-### Déploiement d'applications IA sur infrastructure serverless
-
-fal permet de déployer des modèles IA et applications sur des GPU serverless, avec autoscaling et observabilité.
-
-- fal gère la provision, le scaling, le réseau et l'observabilité.
-- Les applications s'exécutent sur des GPU comme H100 ou A100.
-- Les modèles du marché sont des fal.Apps serverless.
-- L'accès à Serverless nécessite une approbation par compte.
-
-Source : https://fal.ai/docs/documentation/serverless ; niveau 3.
 
 ### Documentation de fal : Index des documents
 
@@ -272,31 +176,178 @@ La documentation de fal fournit un index complet pour explorer les pages disponi
 
 Source : https://fal.ai/docs/documentation ; niveau 3.
 
-## Identité
+### fal Compute - Instance Types and Features
 
-- Dépôt principal : https://github.com/opencut-app/opencut
+fal Compute offre des instances GPU dédiées pour des tâches exigeant accès continu à l’hardware.
 
-## Capacités documentées
+- Accès continu à des GPU H100 SXM avec stockage SSD.
+- Instances 8xH100 pour calcul distribué via InfiniBand.
+- Coûts horaires fixes pour prévisibilité budgétaire.
+- Pas de démarrage frais grâce à l’instance toujours active.
 
-- Permet l'édition de vidéos sur web, desktop et mobile
-- Fournit un API d'édition pour intégration externe
-- Supporte les plugins tiers via une architecture dédiée
-- Possède un mode headless pour automatisation
+Source : https://fal.ai/docs/documentation/compute ; niveau 3.
 
-## Usages documentés
+### Seedance 2.5 Reference to Video
 
-- Installer proto via la commande bash ou PowerShell
-- Utiliser proto use pour installer les outils nécessaires
-- Exécuter moon run pour lancer les serveurs de développement
+Génère une vidéo de 30 secondes à partir de 50 références multimodales. Utilise des images, vidéos, sons et styles pour maintenir un personnage, ensemble et palette cohérents. Charge des modèles pour traitement vidéo.
 
-## Limites
+- Génère une vidéo de 30 secondes.
+- Accepte jusqu'à 50 références multimodales.
+- Maintient un personnage, ensemble et palette cohérents.
+- Utilise des modèles pour traitement vidéo.
 
-- Requiert l'installation de proto
-- Nécessite des compétences en développement
+Source : https://fal.ai/models/bytedance/seedance-2.5/reference-to-video ; niveau 3.
 
-## Qualification
+### Meshy 7.1 Image to 3D
 
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/opencut-app/opencut
-- Analyse source : 2026-10-20T06:08:32.675Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+Meshy 7.1 convertit une image en modèle 3D. Il propose plusieurs modes de génération. Des textures et PBR sont possibles. Résolution jusqu'à 4K.
+
+- Meshy 7.1 convertit une image en modèle 3D.
+- Il propose des modes standard, low-poly et Smart Topology.
+- Textures et PBR maps sont optionnels.
+- Résolution jusqu'à 4K.
+- Coût d'un modèle de base sans textures : 0,80 $.
+- Ajout de textures : 1,20 $.
+- Auto-rigging : 0,20 $ par appel.
+- Animation : 0,12 $ par appel.
+- Modèle texturé avec auto-rigging et animation : 1,52 $.
+
+Source : https://fal.ai/models/meshy/v7.1/image-to-3d ; niveau 3.
+
+### FLUX 3 Image Edit
+
+Modèle d'édition d'image permettant des modifications locales précises. Combine jusqu'à 10 références en un résultat équilibré. Édition de texte et transfert de style. Prix fixe par image.
+
+- Modèle d'édition d'image permettant des modifications locales précises.
+- Combine jusqu'à 10 références en un résultat équilibré.
+- Édition de texte et transfert de style.
+- Prix fixe par image.
+
+Source : https://fal.ai/models/blackforestlabs/flux-3/edit-image ; niveau 3.
+
+### MiniMax H3 Text to Video API
+
+Génère des vidéos 2K de 5 à 15 secondes. Supporte sept formats d'aspect ratio. Utilise un prompt textuel seul. Coûts variables selon la résolution.
+
+- Génère des vidéos 2K de 5 à 15 secondes
+- Supporte sept formats d'aspect ratio
+- Utilise un prompt textuel seul pour la génération
+- Coûts variables selon la résolution
+
+Source : https://fal.ai/models/minimax/h3/text-to-video ; niveau 3.
+
+### fal Serverless
+
+fal Serverless permet de déployer des modèles d'IA, pipelines et applications sur des GPU sans serveur. Le code s'exécute sur des machines H100, A100 ou autres. Le déploiement automatique gère l'évolutivité, le réseau et l'observabilité. Les applications peuvent être publiées sur le marché.
+
+- fal Serverless permet de déployer des modèles d'IA, pipelines et applications sur des GPU sans serveur.
+- Le code s'exécute sur des machines H100, A100 ou autres.
+- Le déploiement automatique gère l'évolutivité, le réseau et l'observabilité.
+- Les applications peuvent être publiées sur le marché.
+
+Source : https://fal.ai/docs/documentation/serverless ; niveau 3.
+
+### GPT Image 2.5
+
+Modèle d'IA générant des images à partir de texte. Deux variantes Flare et Sunburst. Génère jusqu'à 3840px. Supporte les transparents.
+
+- Modèle d'IA générant des images à partir de texte
+- Deux variantes Flare et Sunburst disponibles
+- Génération jusqu'à 3840px de résolution
+- Supporte les images avec fond transparent
+
+Source : https://fal.ai/gpt-image-2.5 ; niveau 3.
+
+### Seedance 2.5
+
+[Seedance 2.5] Génère des vidéos natives de 30 secondes à 720p. Utilise jusqu'à 50 références multimodales. Génère des scènes cohérentes en une prise. Génère des vidéos avec audio synchronisé.
+
+- Génère des vidéos natives de 30 secondes à 720p.
+- Utilise jusqu'à 50 références multimodales (images, vidéos, sons).
+- Génère des scènes cohérentes en une prise sans collage.
+- Génère des vidéos avec audio synchronisé.
+- Supporte plusieurs langues pour la génération de contenus.
+- Permet de bloquer une scène en 3D et de la reprendre en vidéo.
+- Génère des vidéos avec des effets physiques réalistes.
+- Permet de contrôler le rythme de la vidéo via des timestamps.
+- Génère des contenus en mode multilingue natif.
+- Permet de modifier l'arrière-plan d'une vidéo tout en conservant la prise.
+
+Source : https://fal.ai/seedance-2.5 ; niveau 3.
+
+### Gemini Omni API
+
+API de modification vidéo par dialogue. Permet d'éditer des vidéos via des instructions textuelles. Gère des entrées multimodales. Maintient la cohérence scénique.
+
+- Modification vidéo par dialogue.
+- Gestion d'entrées multimodales.
+- Cohérence scénique maintenue.
+- Génération audio native synchronisée.
+
+Source : https://fal.ai/gemini-omni ; niveau 3.
+
+### Kling O3 Image to Video API
+
+API pour générer des vidéos à partir d'images et de textes. Animation entre deux images. Génération audio. Tarification par seconde.
+
+- API pour générer des vidéos à partir d'images et de textes
+- Animation entre une image de départ et une image d'arrivée
+- Génération audio en anglais ou chinois
+- Tarification par seconde avec option audio
+
+Source : https://fal.ai/models/fal-ai/kling-video/o3/standard/image-to-video ; niveau 3.
+
+### LTX-2.3
+
+Modèle de génération vidéo open source. Résolution 4K. Génère audio natif. Support LoRA. Génère jusqu'à 20 secondes.
+
+- Modèle de génération vidéo open source
+- Résolution 4K jusqu'à 20 secondes
+- Génération audio native avec amélioration de la clarté
+- Support LoRA pour le finetuning
+
+Source : https://fal.ai/ltx-2.3 ; niveau 3.
+
+### PixVerse V6
+
+Génère des vidéos cinématographiques en 1080p avec audio natif. Contrôle 20+ paramètres de lentille. Génère audio et vidéo simultanément. Produit des séquences multi-prises.
+
+- Génère des vidéos en 1080p avec audio natif
+- Permet le contrôle de 20+ paramètres de lentille
+- Génère audio et vidéo simultanément
+- Produit des séquences multi-prises
+
+Source : https://fal.ai/pixverse-v6 ; niveau 3.
+
+### FLUX LoRA Fast Training
+
+Service d'entraînement rapide de modèles LoRA basé sur FLUX.1. Permet de créer des modèles personnalisés pour des styles, personnes ou objets. Formation en quelques minutes. Support commercial inclus.
+
+- Service d'entraînement LoRA basé sur FLUX.1
+- Formation rapide de modèles personnalisés pour styles, personnes ou objets
+- Durée de formation réduite par rapport aux méthodes traditionnelles
+- Support commercial inclus pour les modèles formés
+
+Source : https://fal.ai/models/fal-ai/flux-lora-fast-training ; niveau 3.
+
+### fal AI Image Upscaler
+
+Outil d'escalade d'image via IA. Résolution jusqu'à 4x. Sans compte. Sans watermark. Sans abonnement.
+
+- Escalade d'image via IA
+- Résolution jusqu'à 4x
+- Pas de compte requis
+- Pas de watermark
+
+Source : https://fal.ai/tools/image-upscaler ; niveau 3.
+
+### fal AI Image Extender
+
+Outil d'extension d'image sans recadrage. Génère du contenu en continu. Adapte aux formats sociaux. Sans watermark.
+
+- Extension d'image sans recadrage ni distorsion.
+- Génération de contenu en continu pour nouveaux formats.
+- Adaptation aux formats sociaux comme carré ou portrait.
+- Résultat sans watermark et à haute résolution.
+
+Source : https://fal.ai/tools/image-extender ; niveau 3.

@@ -1,0 +1,54 @@
+# Infrastructure
+
+- [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Crée des portraits professionnels avec des prompts textuels.
+- [AICLIPS Studio](../../watch/technical-937b200dbfd957aae460.md) — Extrait automatiquement des highlights viraux depuis des vidéos YouTube.
+- [arcada-backend](../../watch/technical-672e5954b0a4b96827a6.md) — Démarrer le serveur backend pour la plateforme de design d'intérieur
+- [asn](../../watch/technical-6343df31e02d35267485.md) — Analyse de réputation IP et menace
+- [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
+- [Cloud Torrent](../../watch/technical-fca1fec32410e408c140.md) — Gère les torrents via une interface web
+- [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications sans dépendre de services cloud.
+- [Hermes Agent](../../watch/nousresearch-hermes-agent.md) — Gère des tâches complexes avec des modèles externes
+- [Hysteria](../../watch/technical-457a0ceb1c2bf60a2841.md) — Permet de contourner les filtres de réseau
+- [Migration vers Kimi Code CLI](../../watch/technical-15ae02c43b612a6e8c46.md) — Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP.
+- [MoneyPrinter](../../watch/technical-9bd95807fef95eea1d8c.md) — Configure l'environnement pour exécuter MoneyPrinter avec Ollama
+- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
+- [Old Photo Restore](../../watch/technical-1a1b1c01fccbb652af5e.md) — Restaure des photos anciennes avec un moteur d'IA.
+- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
+- [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md)
+- [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée une API REST sans configuration complexe
+- [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Analyse de type rapide avec diagnostics précis pour code Python
+- [velox](../../watch/technical-a2736da3d4b4b5c419aa.md) — Synchronise des objets JSON en temps réel entre serveur et client.
+- [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
+- [Webtor](../../watch/technical-c45c04c570d8ed1549e8.md) — Permet de gérer des torrents avec streaming et téléchargement direct
+- [fmkr](../../watch/technical-bf5985ec6b47da44a51e.md) — Permet d'interagir avec des bases de données FileMaker via Python
+- [molmass](../../watch/technical-61da906d94d21f2f647a.md) — Calculer la masse moléculaire et la composition élémentaire d'une molécule.
+- [community-edition](../../watch/technical-cf13d710b766f0f10a31.md) — Démarre Plausible avec Docker Compose pour hébergement local.
+- [curl-impersonate](../../watch/technical-b9848ad223c40a32fb39.md) — Imiter les navigateurs web pour contourner les restrictions de serveurs.
+- [Evilginx2](../../watch/technical-1380f00a7374bcec86ff.md) — Réalise des attaques de phishing pour récupérer des données sensibles
+- [immich-app/immich](../../watch/technical-bfefa0db462ca5c030a2.md) — Gère les photos et vidéos avec une sauvegarde automatique
+- [LocalSend Protocol](../../watch/technical-31ab29a98885946215cd.md)
+- [realm-swift](../../watch/technical-2174eaf93f622d57be86.md) — Gérer données mobiles avec modèle objet.
+- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Propose des corrections de code en temps réel via un terminal interactif
+- [Stirling PDF](../../watch/technical-6b15eaf11d9b70cfb83f.md) — Traite des PDF localement sans service externe
+- [User Scanner](../../watch/technical-1d55b4cad34f154042bf.md) — Analyse des emails et usernames pour extraire des données.
+- [websockets](../../watch/technical-819ffa493e2a00dcc10b.md) — Permet d'établir des connexions WebSocket en Python
+- [workerd](../../watch/technical-4ca7b79d976e015db39b.md)
+- [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Permet aux agents d'intégrer instantanément la plateforme pour trader.
+- [xianyu-auto-reply-fix](../../watch/technical-aa8e0008d94afed17913.md) — Gère automatiquement les réponses et commandes sur Xianyu.
+- [Liste de serveurs MCP publics](../../watch/technical-0ddca6b2cefbbbc15347.md) — Connecter des assistants à des outils et données via des serveurs MCP.
+- [Liste de serveurs MCP publics](../../watch/technical-8c7fcab8649bc99384b3.md) — Rejoindre des serveurs MCP pour accéder à des outils et données.
+- [Mac Mini pour l'IA](../../watch/technical-f0066d78062c33a0cb18.md)
+- [OpenWA](../../watch/technical-aabd475730fdd2c418b7.md) — Exécute l'API WhatsApp sur un serveur interne sans dépendre de tiers
+- [polymarket-mcp-server](../../watch/technical-dabb4187a6c2e7d576c7.md) — Gère les ordres et positions de trading avec des outils d'analyse et de sécurité
+- [BotD](../../watch/technical-5de7dfd42a2301a6c06e.md) — Détecte les bots sur les applications web sans serveur.
+- [Project NOMAD](../../watch/technical-3d7c7b2843ae85360da7.md) — Permet d'accéder à des ressources éducatives sans connexion internet.
+- [Référentiel de 50 serveurs MCP essentiels pour les agents IA](../../watch/technical-7b8e03d6451fa9dc855f.md) — Installation de serveurs MCP pour agents IA : optimisation des tâches techniques.
+- [Hermes VPS Setup Skill](../../watch/hermes-vps-setup-skill.md)
+- [Tailscale Secure Connectivity For AI IoT Multi Cloud](../../watch/tailscale-secure-connectivity-for-ai-iot-multi-cloud.md)
+- [Essential MCP Servers Collection](../../watch/this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi.md)
+- [Awesome MCP Servers](../../watch/awesome-mcp-servers.md)
+- [CONET](../../watch/conet-privacy-depin-network.md)
+- [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
+- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md)
+- [Lovable Build For The Web 20x Faster](../../watch/lovable-build-for-the-web-20x-faster.md)
+- [NotePlan MCP Server](../../watch/noteplan-mcp-server.md)

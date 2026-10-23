@@ -12,6 +12,10 @@ actif
 
 Propose des corrections de code en temps réel via un terminal interactif
 
+## Identité
+
+- Dépôt principal : https://github.com/ovh/shai
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -42,12 +46,8 @@ Propose des corrections de code en temps réel via un terminal interactif
 - Origine : NotePlan
 - Identifiant source : 0879775e9d9de16c47b9a55eed3d5ac2bf02cbff8cdc1486f61da054622dc72a
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/ovh/shai
 
 ## Capacités documentées
 
@@ -69,5 +69,5 @@ Propose des corrections de code en temps réel via un terminal interactif
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/ovh/shai
-- Analyse source : 2026-10-19T21:00:15.195Z
+- Analyse source : 2026-10-21T20:27:03.779Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

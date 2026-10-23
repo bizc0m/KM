@@ -12,6 +12,10 @@ actif
 
 Rechercher et ouvrir des fichiers via des requêtes textuelles.
 
+## Identité
+
+- Dépôt principal : https://github.com/mov-cli/mov-cli-files
+
 ## Métadonnées
 
 - Nature : CLI
@@ -41,29 +45,5 @@ Rechercher et ouvrir des fichiers via des requêtes textuelles.
 - Origine : NotePlan
 - Identifiant source : 73498d2b34bc9f53ae61c16334f9c9bc5a4d360c124b3f6270bb8ad65a88da4a
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/mov-cli/mov-cli-files
-
-## Capacités documentées
-
-- Permet de rechercher des fichiers via des requêtes textuelles.
-- Facilite l'ouverture de fichiers multimédia via des commandes.
-- Supporte la recherche dans des chemins spécifiques.
-- Possibilité de rechercher tous les fichiers avec le caractère *.
-
-## Usages documentés
-
-- mov-cli -s files {query}
-- mov-cli -s files osaka oh my gah -- --path ./Downloads
-- mov-cli -s files "*"
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/mov-cli/mov-cli-files
-- Analyse source : 2026-10-19T23:06:57.213Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -1,4 +1,4 @@
-# just : outil de gestion de commandes projet spécifiques
+# just
 
 ## Statut
 
@@ -10,7 +10,11 @@ actif
 
 ## Intérêts
 
-exécuter des commandes projet spécifiques sans complexité
+Garder des commandes projet organisées et exécutables facilement
+
+## Identité
+
+- Dépôt principal : https://github.com/casey/just
 
 ## Métadonnées
 
@@ -41,32 +45,5 @@ exécuter des commandes projet spécifiques sans complexité
 - Origine : NotePlan
 - Identifiant source : 5e7f5b459d52bc0badc868190c85b8e165e9b74b5467cf5c6fd08232eee1b903
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/casey/just
-
-## Capacités documentées
-
-- just permet de sauvegarder et exécuter des commandes projet spécifiques
-- just utilise un fichier de configuration nommé justfile avec une syntaxe inspirée de make
-- just offre des fonctionnalités avancées comme la gestion des environnements et la charge de fichiers .env
-- just est compatible avec Linux, macOS, Windows et d'autres systèmes unix
-
-## Usages documentés
-
-- just RECIPE
-
-## Limites
-
-- nécessite un shell compatible
-- ne fonctionne pas sans fichier justfile
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/casey/just
-- Analyse source : 2026-10-19T18:04:50.737Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

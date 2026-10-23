@@ -6,16 +6,20 @@ actif
 
 ## Tags
 
-#synthese-vocale, #application-bureau
+#synthese-vocale, #application-bureau, #transcription, #macos
 
 ## Intérêts
 
-Permet d'interagir avec un avatar IA en temps réel
+Permet d'interagir avec un avatar IA en temps réel. Fournit une expérience de compagnon personnalisable.
+
+## Identité
+
+- Dépôt principal : https://github.com/open-llm-vtuber/open-llm-vtuber
 
 ## Métadonnées
 
 - Nature : À vérifier
-- OS : À vérifier
+- OS : macOS
 - Licence : Non précisée
 - Tarification : À vérifier
 - Accès : À vérifier
@@ -25,10 +29,10 @@ Permet d'interagir avec un avatar IA en temps réel
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.llm domain.media.audio.voice capability.voice.synthesize compatibility.interface.desktop source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.ai.llm domain.media.audio.voice capability.voice.synthesize capability.voice.transcribe compatibility.interface.desktop compatibility.os.macos source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Modèles de langage ; Audio, vidéo et création > Audio > Voix
-- Fonctions : Traitement de la voix > Synthétiser une voix
-- Compatibilités : Interfaces > Application de bureau
+- Fonctions : Traitement de la voix > Synthétiser une voix ; Traitement de la voix > Transcrire
+- Compatibilités : Interfaces > Application de bureau ; Systèmes > macOS
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -42,23 +46,5 @@ Permet d'interagir avec un avatar IA en temps réel
 - Origine : NotePlan
 - Identifiant source : 00898489ed72fd55e12dd50a965973e95ccb79411eade2298ab10e31fe05761d
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/open-llm-vtuber/open-llm-vtuber
-
-## Capacités documentées
-
-- Permet des conversations vocales en temps réel
-- Supporte plusieurs modèles LLM et TTS
-- Fonctionne en mode hors ligne
-- Possède un client desktop avec mode animal de compagnie
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/open-llm-vtuber/open-llm-vtuber
-- Analyse source : 2026-10-19T21:33:03.052Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

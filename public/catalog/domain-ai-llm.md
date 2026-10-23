@@ -1,0 +1,61 @@
+# Modèles de langage
+
+- [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Construire des applications LLM fiables avec des principes structurés
+- [awesome-ai-video-models](../../watch/technical-e0275c5610589cad14d2.md) — Choisir le modèle de génération de vidéos AI adapté à un projet.
+- [Browser-Use](../../watch/browser-use-web-automation.md) — Automatiser des tâches web avec un LLM
+- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage en modifiant des fichiers et en exécutant des commandes.
+- [DeepSeek-Reasonix](../../watch/technical-c292611ef4a4a5e37455.md) — Exécute des tâches de codage avec un modèle d'IA configuré
+- [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
+- [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
+- [llama.cpp](../../watch/technical-8f4d2163b5e697a72c77.md) — Exécute des modèles LLM localement avec optimisation matérielle
+- [LLM Wiki Agent](../../watch/technical-9e4c4b6c4c6a7d12ceff.md) — Ingestion de documents pour construire un wiki structuré
+- [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Permet d'explorer et modifier le code avec un assistant IA
+- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
+- [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Permet une collaboration équipe via un agent partagé par canal
+- [Open Generative AI](../../watch/technical-78faa425ad9343a870b8.md) — Génère des images et vidéos via des modèles d'IA sans filtres.
+- [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel.
+- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel
+- [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Crée des workflows personnalisés avec des extensions
+- [FreeLLMAPI](../../watch/technical-f9d54d6e051498a6f643.md) — Route requests across free LLM providers with one endpoint
+- [GPT-6 Astra](../../watch/technical-04eb6674f0cfa4208b0e.md) — Accéder à la documentation du modèle GPT-6 Astra
+- [Qwen-Image-API](../../watch/technical-c341f7566eb8b34cd45a.md) — Génère des images via l'API Qwen avec des paramètres avancés
+- [Awesome Agent Skills](../../watch/technical-42c5a49b8cf68812c97a.md) — Créez des compétences agent pour des outils comme Claude, Gemini, Cursor.
+- [OpenOSINT](../../watch/technical-0be614d8a1eb180e4b8a.md) — Orchestre des recherches OSINT avec un modèle LLM pour produire un rapport structuré
+- [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Configure l'environnement de codage avec des outils d'assistance.
+- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Propose des corrections de code en temps réel via un terminal interactif
+- [gemini-cli](../../watch/technical-24684c1ecca249c03e58.md) — Interagir avec Gemini via terminal pour exécuter des tâches de code
+- [Langchain](../../watch/technical-5ea1d4fd1ccb4341a6ba.md) — Crée des applications LLM avec des modèles et outils.
+- [awesome-ai-repos](../../watch/technical-7cf0ee8352dc6af0478e.md) — Gérer des agents IA avec des outils de coordination
+- [Skills pour agents de IA](../../watch/technical-125acf8b08c34d868099.md) — Permet d'installer des compétences pour des agents de IA
+- [Skills pour agents de IA](../../watch/technical-ce8a12d1c4391a2f858c.md) — Permet d'installer des compétences pour des agents de IA
+- [Aider](../../watch/technical-4125f24a0a6925019b78.md) — Collaborer avec des LLM pour coder et gérer des projets.
+- [Comparaison des modèles d'IA](../../watch/technical-b3d3480734d063a13c32.md) — DeepSeek V4.1 Flash optimise la réponse avec 16B de paramètres actifs.
+- [llm-quota-tracker](../../watch/technical-8d9cf24dee47599cd496.md) — Afficher les quotas d'IA en temps réel pour gérer efficacement les ressources.
+- [LLM2Jev](../../watch/technical-84aeec11b9701e1a5103.md) — Convertir un LLM en modèle de décision Jev sans entraînement.
+- [Qwen3.8-27B et OrcaSAQ-2](../../watch/technical-ab7348c75fefe7a67600.md) — Exécution locale avec 12 Go de mémoire.
+- [Qwen3.8-27B-Uncensored-Cyber](../../watch/technical-40c6bcb62189c3a832b0.md) — Permet d'analyser efficacement des données cybernétiques avec un modèle optimisé.
+- [Unsloth Studio](../../watch/technical-95204b762614cb0e8692.md) — Déployer et entraîner des modèles LLM localement ou via Colab.
+- [ChatHub](../../watch/chathub-multi-llm-workspace.md)
+- [KM D3 Scan Integration](../../watch/km-d3-scan-integration-20260901.md)
+- [Right Click Prompt Browser Prompt Library](../../watch/right-click-prompt-browser-prompt-library.md)
+- [Prompt Cache](../../watch/prompt-cache-semantic-llm-cache.md)
+- [OpenCode Download](../../watch/opencode-telechargement.md)
+- [Google AI Studio Free Token Tier](../../watch/google-ai-studio-free-token-tier.md)
+- [Experimental AI Tool Discovery](../../watch/cok-cilginca-bir-ai-araci-buldum.md)
+- [Free Google Gemini 2.5 Pro Token Context](../../watch/you-can-run-google-gemini-2-5-pro-with-a-massive-2-milion-free-token-c.md)
+- [JARVIS OS](../../watch/jarvis-os.md)
+- [Late Night AI Tool Discovery](../../watch/sabtu-malem-jam-2-pagi-gue-masih-melek.md)
+- [Open Source NotebookLM Alternative](../../watch/alternativa-gratuita-y-de-codigo-abierto-a-notebooklm.md)
+- [Removes LLM censorship with a single click.](../../watch/removes-llm-censorship-with-a-single-click.md)
+- [MoneyPrinterTurbo](../../watch/moneyprinterturbo-ai-short-video.md)
+- [PromptSpy](../../watch/promptspy-ai-android-malware.md)
+- [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
+- [Awesome Free LLM APIs](../../watch/awesome-free-llm-apis.md)
+- [Free LLM API Resources](../../watch/free-llm-api-resources.md)
+- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md)
+- [Twitter RSS Monitoring](../../watch/twitter-rss-monitoring.md)
+- [Vibe Shit](../../watch/vibeshit-vibe-coding-directory.md)
+- [AI Trending](../../watch/ai-trending.md)
+- [Free Api Key](../../watch/free-api-key-instagram-reel.md)
+- [llm-wiki](../../resources/llm-wiki-karpathy.md)
+- [PromptsLab](../../watch/promptslab.md)

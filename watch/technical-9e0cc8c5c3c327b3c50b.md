@@ -12,6 +12,10 @@ actif
 
 Permet de streamer des médias via des plugins configurés.
 
+## Identité
+
+- Dépôt principal : https://github.com/mov-cli/mov-cli
+
 ## Métadonnées
 
 - Nature : CLI
@@ -42,34 +46,5 @@ Permet de streamer des médias via des plugins configurés.
 - Origine : NotePlan
 - Identifiant source : 9e0cc8c5c3c327b3c50ba3e56f3118176e57823cc02d31f0a00804fc1e793f57
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/mov-cli/mov-cli
-
-## Capacités documentées
-
-- Permet de streamer des médias depuis le terminal.
-- Utilise des plugins pour le scraping des contenus.
-- Requiert Python 3.10 ou supérieur.
-- Configuration via fichier TOML
-
-## Usages documentés
-
-- pip install mov-cli -U
-- mov-cli -e
-- mov-cli -s youtube blender studio
-
-## Limites
-
-- Dépend de plugins externes
-- Pas de fonctionnalités natives de scraping
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/mov-cli/mov-cli
-- Analyse source : 2026-10-19T23:06:57.213Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -1,0 +1,28 @@
+# Mémoire des agents
+
+- [agency-agents](../../watch/technical-1e83b6596b947b071d50.md) — Facilite la simulation de discussions avec des experts.
+- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Permet aux agents de conserver une mémoire persistante sans re-expliquer.
+- [headroom](../../watch/technical-668711a6e10728221dfc.md) — Réduit le nombre de tokens utilisés par les agents IA sans perdre d'informations importantes
+- [Hermes Agent](../../watch/nousresearch-hermes-agent.md) — Gère des tâches complexes avec des modèles externes
+- [llama.cpp](../../watch/technical-8f4d2163b5e697a72c77.md) — Exécute des modèles LLM localement avec optimisation matérielle
+- [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Permet une collaboration équipe via un agent partagé par canal
+- [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
+- [CodeGraph](../../watch/technical-5ae8aede20b527323884.md) — Analyse le code pour fournir un contexte précis aux agents
+- [SeekerClaw](../../watch/technical-6a7363072642ee3e6fc9.md) — Contrôle des appareils Android via un agent AI en temps réel
+- [Architecture de mémoire pour les agents IA : Mémoires de travail, épisodique, sémantique, procédimentale et oubli](../../watch/technical-20a53ace05cd6a858833.md) — Garder les informations pertinentes pour les décisions futures.
+- [Capsule Hub](../../watch/technical-7ce70d893933b807a8be.md) — Capturer et stocker le contexte des conversations IA pour le réutiliser dans d'autres sessions.
+- [ECC](../../watch/technical-edb3a626875732de5c9b.md) — Améliore la productivité en optimisant les tâches de codage.
+- [Memanto](../../watch/technical-ebada2f628c8d599c07b.md) — Sauvegarder et organiser le contexte des sessions IA pour retrouver facilement l'historique.
+- [Memanto](../../watch/technical-e023d0af39eda2c902cb.md) — Sauvegarder le contexte des sessions pour retrouver l'avancement du travail.
+- [Memanto](../../watch/technical-e88bf76aa79a7c56f5d0.md) — Conserver et classer les informations contextuelles des sessions.
+- [Obsidian Mind](../../watch/technical-187af07c5c79815c0323.md) — Permettre aux agents IA de reprendre des tâches et décisions antérieures.
+- [Référentiel de 50 serveurs MCP essentiels pour les agents IA](../../watch/technical-7b8e03d6451fa9dc855f.md) — Installation de serveurs MCP pour agents IA : optimisation des tâches techniques.
+- [AIRI AI Companion](../../watch/airi-ai-companion.md)
+- [EchoVessel Persona Memory Engine](../../watch/echovessel-persona-memory-engine.md)
+- [Graft](../../watch/graft-codebase-context-for-coding-agents.md)
+- [Memory Engineering](../../watch/memory-engineering-agent-past.md)
+- [Awesome AI Companion](../../watch/awesome-ai-companion.md)
+- [Alook](../../watch/alook-ai-workforce-collaboration.md)
+- [TencentDB Agent Memory](../../watch/tencentdb-agent-memory.md)
+- [Infinite Memory For Claude, Codex And Cursor](../../watch/acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor.md)
+- [Infinite Memory For Claude, Codex And Cursor](../../watch/ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor.md)

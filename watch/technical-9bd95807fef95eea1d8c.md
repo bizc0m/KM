@@ -1,4 +1,4 @@
-# MoneyPrinter : Outil d'automatisation de création de YouTube Shorts
+# MoneyPrinter
 
 ## Statut
 
@@ -6,11 +6,11 @@ actif
 
 ## Tags
 
-#generation-video
+#generation-video, #python
 
 ## Intérêts
 
-Génère automatiquement des scripts pour des vidéos YouTube Shorts.
+Configure l'environnement pour exécuter MoneyPrinter avec Ollama
 
 ## Métadonnées
 
@@ -25,9 +25,10 @@ Génère automatiquement des scripts pour des vidéos YouTube Shorts.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.video domain.infrastructure.database capability.automation capability.generate.video source.noteplan source.x source.github lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo ; Infrastructure > Bases de données
-- Fonctions : Automatiser des actions ; Générer des contenus > Générer une vidéo
+- Identifiants : domain.infrastructure.database domain.media.video capability.generate.video compatibility.language.python source.noteplan source.x source.github lifecycle.active
+- Sujets : Infrastructure > Bases de données ; Audio, vidéo et création > Vidéo
+- Fonctions : Générer des contenus > Générer une vidéo
+- Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
 - État : Actif
 
@@ -35,15 +36,12 @@ Génère automatiquement des scripts pour des vidéos YouTube Shorts.
 
 - https://github.com/fujiwarachoki/moneyprinter
 - https://x.com/i/status/2056509860162756860
-- https://post-bridge.com/?ref=moneyprinter
 - https://raw.githubusercontent.com/FujiwaraChoki/MoneyPrinter/HEAD/setup.sh
 - https://raw.githubusercontent.com/FujiwaraChoki/MoneyPrinter/HEAD/docs/quickstart.md
 - https://raw.githubusercontent.com/FujiwaraChoki/MoneyPrinter/HEAD/docs/configuration.md
 - https://raw.githubusercontent.com/FujiwaraChoki/MoneyPrinter/HEAD/docs/architecture.md
 - https://raw.githubusercontent.com/FujiwaraChoki/MoneyPrinter/HEAD/docs/docker.md
 - https://raw.githubusercontent.com/FujiwaraChoki/MoneyPrinter/HEAD/docs/testing.md
-- https://producthunt.com/products/post-bridge
-- https://post-bridge.com/
 - https://x.com/i/status/2090141578597716106
 - https://producthunt.com/products/post-bridge/launches/post-bridge?comment=4028700
 - https://producthunt.com/products/post-bridge/reviews
@@ -60,57 +58,36 @@ Génère automatiquement des scripts pour des vidéos YouTube Shorts.
 - https://youtube.com/howyoutubeworks/copyright
 - https://star-history.com/blog/how-to-use-github-star-history
 - https://github.com/star-history/star-history
+- https://star-history.com/google-research/harness2
 - https://star-history.com/debpalash/voicestudio
 - https://star-history.com/boykopovar/anyps5
-- https://star-history.com/nationalsecurityagency/ghidra
-- https://star-history.com/ifixai-ai/ifixai
+- https://star-history.com/tangency-labs/solidcraft
+- https://star-history.com/graphify-labs/graphify
 - https://chromewebstore.google.com/detail/star-history/iijibbcdddbhokfepbblglfgdglnccfn?ucbcb=1
-- https://star-history.com/blog/output
+- https://star-history.com/blog/execution
 - https://bytebase.com/
 - https://dify.ai/
-- https://coderabbit.ai/?dub_id=lMfusglZOn4vS82u&ref=star-history
+- https://coderabbit.ai/?dub_id=I6Kj47tOkpg34qnM&ref=star-history
 
 ## Traçabilité
 
 - Origine : NotePlan
 - Identifiant source : dace9fac82c83d2b91d6a3d7d9eebde6858f83313c5423686026fe99c99b0c10
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 1420.
+- Liens distincts recensés : 1418.
 - Pages lues, tweet compris : 77.
-- Sources techniques analysées : 35.
-- Sources à vérifier : 42 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 1283 (profondeur : 1272, budget de pages : 0, délai : 0, erreurs : 11).
+- Sources techniques analysées : 32.
+- Sources à vérifier : 41 ; analyses non terminées : 0 ; erreurs du modèle : 0.
+- Liens non lus : 1281 (profondeur : 1270, budget de pages : 0, délai : 0, erreurs : 11).
 - Pages résumées sur extrait : 1.
-- Éléments exclus : 61 ; doublons ignorés : 0.
+- Éléments exclus : 65 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
-
-### MoneyPrinter : Outil d'automatisation de création de YouTube Shorts
-
-MoneyPrinter automatise la création de YouTube Shorts via un sujet vidéo.
-
-- Génère des scripts et métadonnées via des modèles Ollama.
-- Utilise une file d'attente basée sur une base de données pour le traitement.
-- Requiert Ollama et des modèles préchargés.
-- Intègre des outils comme ImageMagick et playsound.
-
-Source : https://github.com/fujiwarachoki/moneyprinter ; niveau 1.
-
-### Post Bridge - Outil de planification de publication sociale
-
-Post Bridge permet de publier simultanément sur plusieurs plateformes sociales depuis un seul dashboard. Il simplifie la gestion des comptes et optimise le temps de publication.
-
-- Publication simultanée sur 10 plateformes sociales
-- Planification de publications avec personnalisation par plateforme
-- Gestion centralisée de comptes personnels et professionnels
-- Interface intuitive sans courbe d'apprentissage
-
-Source : https://post-bridge.com/?ref=moneyprinter ; niveau 2.
 
 ### Script d'installation pour MoneyPrinter
 
@@ -178,28 +155,6 @@ Documentation des tests et dépendances pour le projet MoneyPrinter.
 
 Source : https://raw.githubusercontent.com/FujiwaraChoki/MoneyPrinter/HEAD/docs/testing.md ; niveau 2.
 
-### Post Bridge - Outil de planification sociale
-
-Post Bridge permet d'envoyer des publications sur 10 plateformes sociales depuis un seul endroit.
-
-- Permet d'envoyer des publications sur 10 plateformes sociales.
-- Facilite la gestion de plusieurs comptes simultanément.
-- Permet d'éditer des contenus par plateforme.
-- Intègre des outils de publication via API et CLI.
-
-Source : https://producthunt.com/products/post-bridge ; niveau 3.
-
-### Post Bridge - Outil de planification de publication sociale
-
-Post Bridge permet de publier simultanément sur plusieurs plateformes sociales depuis un seul dashboard. Il simplifie la gestion des comptes et optimise le temps de publication.
-
-- Publication simultanée sur 10 plateformes sociales
-- Planification de publications avec personnalisation par plateforme
-- Gestion centralisée de comptes personnels et professionnels
-- Interface intuitive sans courbe d'apprentissage
-
-Source : https://post-bridge.com ; niveau 3.
-
 ### Post-bridge MCP Feature
 
 Utilisateur souligne simplicité, rapidité et utilité de la fonction MCP dans Post-bridge après 8 mois d'utilisation.
@@ -222,14 +177,15 @@ Post Bridge permet d'envoyer des publications sur 10 plateformes sociales depuis
 
 Source : https://producthunt.com/products/post-bridge/launches/post-bridge?comment=4028700 ; niveau 3.
 
-### Post Bridge : outil de planification de publications sociales
+### Post Bridge
 
-Post Bridge permet d'envoyer des publications sur 10 plateformes sociales depuis un seul endroit.
+Outil de planification de publications sur 10 plateformes. Gestion centralisée des comptes sociaux. Possibilité de personnaliser les publications par plateforme. Intégration API et CLI.
 
-- Permet d'envoyer des publications sur 10 plateformes sociales.
-- Fonctionnalité de planification des publications.
-- Possibilité de personnaliser les contenus par plateforme.
-- Intégration d'un API pour les agents d'intelligence artificielle.
+- Planification de publications sur 10 plateformes sociales.
+- Gestion centralisée des comptes Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Pinterest, Threads, Bluesky et Google Business Profile.
+- Personnalisation des publications par plateforme pour les légendes, titres et vignettes.
+- Intégration API, CLI et MCP server pour automatisation.
+- Tarification entre 29 et 99 dollars par mois avec essai gratuit de 7 jours.
 
 Source : https://producthunt.com/products/post-bridge/reviews ; niveau 3.
 
@@ -379,48 +335,93 @@ Star History permet d'analyser l'évolution des étoiles d'un projet GitHub.
 
 Source : https://star-history.com/blog/how-to-use-github-star-history ; niveau 3.
 
-### Star History - GitHub Star History Graph
+### star-history
 
-Outil permettant de visualiser l'historique des étoiles GitHub sous forme de graphique.
+Outil de visualisation des historiques d'étoiles GitHub. Génère des graphiques en temps réel. Permet l'embedding dans des README. Fournit des badges de classement.
 
 - Affiche l'historique des étoiles d'un dépôt GitHub.
-- Génère un graphique en temps réel.
-- Permet d'embedder le graphique dans un README GitHub.
-- Supporte plusieurs modes de visualisation basés sur la date ou le chronologie.
+- Génère des graphiques en temps réel.
+- Permet d'intégrer le graphique dans un README GitHub.
+- Fournit des badges avec le classement global.
+- Supporte plusieurs modes de visualisation.
+- Intègre un navigateur Chrome pour visualiser les graphiques.
 
 Source : https://github.com/star-history/star-history ; niveau 3.
 
+### harness2
+
+harness2 est un projet GitHub avec 16.8k étoiles. Il est classé global rank #2887. Il utilise Python. Il a une licence Apache-2.0.
+
+- harness2 est un projet GitHub avec 16.8k étoiles
+- harness2 est classé global rank #2887
+- harness2 utilise Python
+- harness2 a une licence Apache-2.0
+
+Source : https://star-history.com/google-research/harness2 ; niveau 3.
+
 ### VoiceStudio
 
-Outil open source pour la synthèse vocale et la création de voix.
+VoiceStudio est un outil open-source alternatif à ElevenLabs. Il permet la clonage de voix, la conception de voix et le doublage de vidéos. Il est écrit en Python et sous licence AGPL-3.0.
 
-- Permet la clonage de voix
-- Conçu comme alternative à ElevenLabs
-- Supporte la conception de voix
-- Fournit des fonctionnalités de dubbing vidéo
+- VoiceStudio est un outil open-source.
+- VoiceStudio est un alternative à ElevenLabs.
+- VoiceStudio permet le clonage de voix.
+- VoiceStudio permet la conception de voix.
+- VoiceStudio permet le doublage de vidéos.
+- VoiceStudio est écrit en Python.
+- VoiceStudio est sous licence AGPL-3.0.
 
 Source : https://star-history.com/debpalash/voicestudio ; niveau 3.
 
-### AnyPS5 - Outil de portage d'exécutables PS5 vers Linux et Windows
+### AnyPS5
 
-AnyPS5 est un outil permettant de porter automatiquement les exécutables PlayStation 5 vers Linux et Windows.
+Outil de portage automatique des exécutables PS5 vers Linux et Windows.
 
-- Permet le portage automatique des exécutables PS5 vers Linux et Windows
-- Implémente une solution en C++ sous licence GPL-2.0
+- Permet de porter des exécutables PS5 vers Linux et Windows.
+- Utilise le langage de programmation C++.
+- Licence GPL-2.0.
+- Avec plus de 46 100 étoiles sur GitHub.
 
 Source : https://star-history.com/boykopovar/anyps5 ; niveau 3.
 
-### Ghidra
+### SolidCraft
 
-Outil de reverse engineering développé par la NSA.
+SolidCraft est un logiciel de CAO paramétrique open source. Il est développé en Rust. Il supporte les plateformes desktop, web et automation. Il utilise MCP.
 
-- Analyse de code exécutable sans modification.
-- Support multi-plateformes via Java.
-- Documentation complète et communautaire active.
-- Intégration de scripts pour automatisation.
+- SolidCraft est un logiciel de CAO paramétrique open source.
+- SolidCraft est développé en Rust.
+- SolidCraft supporte les plateformes desktop, web et automation.
+- SolidCraft utilise MCP.
 
-Source : https://star-history.com/nationalsecurityagency/ghidra ; niveau 3.
+Source : https://star-history.com/tangency-labs/solidcraft ; niveau 3.
 
-### iFixAi - Outils d'audit indépendant des agents IA
+### graphify
 
-iFixAi est un projet o
+Convertit des bases de code, docs, schémas SQL et PDFs en graphe de connaissances interrogable.
+
+- Transforme des codebases en graphe de connaissances.
+- Supporte les documents, schémas SQL et PDFs.
+- Permet des requêtes sur les données structurées.
+- Utilise Python et Apache-2.0.
+
+Source : https://star-history.com/graphify-labs/graphify ; niveau 3.
+
+### Star History
+
+Affiche l'historique des étoiles d'un dépôt GitHub.
+
+- Affiche l'historique des étoiles d'un dépôt GitHub.
+- Extension Chrome pour GitHub.
+- Permet de visualiser les données d'interaction.
+- Utilisation simple lors de la visite d'un dépôt.
+
+Source : https://chromewebstore.google.com/detail/star-history/iijibbcdddbhokfepbblglfgdglnccfn?ucbcb=1 ; niveau 3.
+
+### OpenShell
+
+OpenShell permet à un agent de coder dans un espace isolé. L'agent ne peut pas accéder aux clés cloud. Les règles définissent les accès autorisés. Le projet est compatible Linux, macOS et Windows via WSL.
+
+- OpenShell permet à un agent de coder dans un espace isolé.
+- L'agent ne peut pas accéder aux clés cloud.
+- Les règles définissent les accès autorisés.
+- Le projet est compatible Linux, ma

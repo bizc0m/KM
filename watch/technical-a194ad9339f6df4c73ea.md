@@ -1,4 +1,4 @@
-# Interface terminal pour API météo NWS
+# Cabal Weather Check
 
 ## Statut
 
@@ -6,29 +6,33 @@ actif
 
 ## Tags
 
-#previsions-meteo, #terminal
+#previsions-meteo, #terminal, #python
 
 ## Intérêts
 
-Afficher les alertes météo en temps réel
+Afficher les alertes météo en temps réel via terminal
+
+## Identité
+
+- Dépôt principal : https://github.com/osintcabal/cabal-weather-scraper
 
 ## Métadonnées
 
 - Nature : À vérifier
 - OS : À vérifier
-- Licence : À vérifier
+- Licence : MIT
 - Tarification : À vérifier
 - Accès : À vérifier
-- Preuve : À vérifier
+- Preuve : https://github.com/OSINTCabal/Cabal-Weather-Scraper
 
 
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.dev.quality domain.science.weather capability.forecast compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : Développement logiciel > Qualité du code ; Sciences et prévision > Prévisions météorologiques
+- Identifiants : domain.dev.api domain.science.weather domain.osint capability.forecast compatibility.interface.terminal compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Sujets : Développement logiciel > API et services applicatifs ; Sciences et prévision > Prévisions météorologiques ; Cybersécurité > Renseignement en sources ouvertes
 - Fonctions : Prévoir des mesures
-- Compatibilités : Interfaces > Terminal
+- Compatibilités : Interfaces > Terminal ; Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -42,32 +46,5 @@ Afficher les alertes météo en temps réel
 - Origine : NotePlan
 - Identifiant source : a194ad9339f6df4c73eaec04477013e471c417e523e69e5a6fa583f6c67ea178
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/osintcabal/cabal-weather-scraper
-
-## Capacités documentées
-
-- Affiche les alertes météo par zone et état
-- Prévisions météo sur 7 jours par coordonnées
-- Données d'observation météo avec décodage METAR
-- Recherche de stations météo par état
-
-## Usages documentés
-
-- python Cabalweathercheck.py
-
-## Limites
-
-- Requiert Python 3.8+
-- Dépend des données disponibles via l'API NWS
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/osintcabal/cabal-weather-scraper
-- Analyse source : 2026-10-20T07:02:27.487Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

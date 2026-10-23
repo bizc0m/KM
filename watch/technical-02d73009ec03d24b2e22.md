@@ -85,5 +85,5 @@ Permet aux agents IA d'appliquer des workflows de sécurité professionnels.
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/mukul975/anthropic-cybersecurity-skills
-- Analyse source : 2026-10-19T22:23:37.450Z
+- Analyse source : 2026-10-21T21:23:11.901Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

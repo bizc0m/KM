@@ -1,4 +1,4 @@
-# Myfish: Python Bot开发框架
+# myfish
 
 ## Statut
 
@@ -6,11 +6,15 @@ actif
 
 ## Tags
 
-#python, #terminal
+#python
 
 ## Intérêts
 
-Permet de créer des bots multiplateformes avec des adaptateurs prédéfinis
+Gère les tokens et la sécurité pour les bots XianYu et ClawBot.
+
+## Identité
+
+- Dépôt principal : https://github.com/kaguya233qwq/myfish
 
 ## Métadonnées
 
@@ -25,9 +29,9 @@ Permet de créer des bots multiplateformes avec des adaptateurs prédéfinis
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.dev compatibility.language.python compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : Développement logiciel
-- Compatibilités : Langages > Python ; Interfaces > Terminal
+- Identifiants : domain.unclassified compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Sujets : À qualifier
+- Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -41,23 +45,5 @@ Permet de créer des bots multiplateformes avec des adaptateurs prédéfinis
 - Origine : NotePlan
 - Identifiant source : ae2b5f1a3fbdf8f6f54d82af74a79bf32b181340d85847e32e73f227f3946443
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/kaguya233qwq/myfish
-
-## Capacités documentées
-
-- Permet le développement de bots avec une architecture découplée et asynchrone.
-- Supporte les protocoles de闲鱼et微信ClawBot avec des adaptateurs intégrés.
-- Fournit des outils de configuration et de déploiement via Docker et des commandes CLI.
-- Inclut des exemples de plugins et d'adaptateurs personnalisés.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/kaguya233qwq/myfish
-- Analyse source : 2026-10-19T19:39:56.181Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -56,5 +56,5 @@ Analyser les performances publicitaires avec un agent AI.
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/alfredoautomatizaloconia-cloud/awesome-ai-startups
-- Analyse source : 2026-10-19T19:20:40.954Z
+- Analyse source : 2026-10-21T19:28:41.038Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

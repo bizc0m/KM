@@ -12,6 +12,10 @@ actif
 
 Crée des workflows d'IA visuels sans abonnement
 
+## Identité
+
+- Dépôt principal : https://github.com/samuraigpt/vibe-workflow
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -41,35 +45,5 @@ Crée des workflows d'IA visuels sans abonnement
 - Origine : NotePlan
 - Identifiant source : 6ccb86641ecc996a74b95690ad7ac478af555b97c69236eb179bea1f41ed8d6f
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/samuraigpt/vibe-workflow
-
-## Capacités documentées
-
-- Permet de concevoir des pipelines d'IA visuels et modulaires.
-- Supporte la génération d'images et de vidéos via MuAPI.
-- Fournit une interface d'édition de nœuds inspirée de ComfyUI.
-- Est self-hostable et open-source sous licence MIT.
-
-## Usages documentés
-
-- Cloner le dépôt
-- Installer les dépendances
-- Configurer l'API MuAPI
-- Exécuter le frontend et le backend
-
-## Limites
-
-- Requiert Node.js v20+ et Python v3.10+
-- Nécessite une clé API MuAPI
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/samuraigpt/vibe-workflow
-- Analyse source : 2026-10-20T07:40:16.556Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

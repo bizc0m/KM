@@ -70,5 +70,5 @@ Permet de modifier des splats 3D Gaussiens sans installation
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/playcanvas/supersplat
-- Analyse source : 2026-10-19T14:40:42.779Z
+- Analyse source : 2026-10-22T02:14:53.993Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

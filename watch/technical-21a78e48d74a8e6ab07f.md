@@ -10,7 +10,11 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Créer des publicités vidéo vendables pour des marques réelles.
+
+## Identité
+
+- Dépôt principal : https://github.com/anil-matcha/ai-creator-academy
 
 ## Métadonnées
 
@@ -41,12 +45,8 @@ Intérêt à vérifier
 - Origine : NotePlan
 - Identifiant source : 21a78e48d74a8e6ab07f347451324445c9ea923c460222db6e797c953442c5aa
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-22
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/anil-matcha/ai-creator-academy
 
 ## Capacités documentées
 
@@ -59,5 +59,5 @@ Intérêt à vérifier
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/anil-matcha/ai-creator-academy
-- Analyse source : 2026-10-20T07:40:16.556Z
+- Analyse source : 2026-10-22T01:30:11.380Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

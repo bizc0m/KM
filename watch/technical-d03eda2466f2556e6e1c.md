@@ -12,6 +12,10 @@ actif
 
 Automatise les tests web avec des scripts.
 
+## Identité
+
+- Dépôt principal : https://github.com/seleniumhq/selenium
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -41,23 +45,5 @@ Automatise les tests web avec des scripts.
 - Origine : NotePlan
 - Identifiant source : d03eda2466f2556e6e1c651ba0a95e10784c37bc74138fb0cdb679e8caa50871
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/seleniumhq/selenium
-
-## Capacités documentées
-
-- Automatise les navigateurs web via des scripts.
-- Interface compatible avec tous les navigateurs principaux.
-- Permet de tester et exécuter des scripts d'automatisation.
-- Facilite la contribution via des outils de développement.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/seleniumhq/selenium
-- Analyse source : 2026-10-19T14:40:42.779Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

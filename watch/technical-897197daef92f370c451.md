@@ -12,6 +12,10 @@ actif
 
 Configure l'environnement de codage avec des outils d'assistance.
 
+## Identité
+
+- Dépôt principal : https://github.com/qwenlm/qwen-code
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -42,12 +46,8 @@ Configure l'environnement de codage avec des outils d'assistance.
 - Origine : NotePlan
 - Identifiant source : 897197daef92f370c451640104c7df440bca1fbc6bd231b57e5e1e2ba3c3b381
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/qwenlm/qwen-code
 
 ## Capacités documentées
 
@@ -60,5 +60,5 @@ Configure l'environnement de codage avec des outils d'assistance.
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/qwenlm/qwen-code
-- Analyse source : 2026-10-19T21:00:15.195Z
+- Analyse source : 2026-10-21T20:27:03.779Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

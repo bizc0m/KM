@@ -1,4 +1,4 @@
-# Qwen Image API via MuAPI
+# Qwen-Image-API
 
 ## Statut
 
@@ -10,16 +10,20 @@ actif
 
 ## Intérêts
 
-Génère des images à partir de descriptions textuelles.
+Génère des images via l'API Qwen avec des paramètres avancés
+
+## Identité
+
+- Dépôt principal : https://github.com/anil-matcha/qwen-image-api
 
 ## Métadonnées
 
 - Nature : À vérifier
 - OS : À vérifier
-- Licence : À vérifier
+- Licence : MIT
 - Tarification : À vérifier
 - Accès : À vérifier
-- Preuve : À vérifier
+- Preuve : https://github.com/Anil-matcha/Qwen-Image-API
 
 
 ## Ontologie
@@ -41,23 +45,5 @@ Génère des images à partir de descriptions textuelles.
 - Origine : NotePlan
 - Identifiant source : c341f7566eb8b34cd45aa61a803b36e6249b0558cb6c34145b97be9fb59fc918
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-22
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/anil-matcha/qwen-image-api
-
-## Capacités documentées
-
-- Permet de générer des images à partir de texte avec Qwen 2.1.
-- Facilite l'édition d'images en combinant plusieurs références.
-- Supporte des paramètres comme la résolution et le format.
-- Intègre des fonctionnalités d'apprentissage par LoRA pour les modèles d'images.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/anil-matcha/qwen-image-api
-- Analyse source : 2026-10-20T07:40:16.556Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

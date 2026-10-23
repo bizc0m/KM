@@ -1,4 +1,4 @@
-# Remotion : Création et automatisation de vidéos avec React
+# remotion
 
 ## Statut
 
@@ -10,7 +10,11 @@ actif
 
 ## Intérêts
 
-Génère des vidéos à partir de code React.
+Intérêt à vérifier
+
+## Identité
+
+- Dépôt principal : https://github.com/remotion-dev/remotion
 
 ## Métadonnées
 
@@ -25,9 +29,9 @@ Génère des vidéos à partir de code React.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.video domain.dev.web capability.automation capability.generate.video source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo ; Développement logiciel > Développement web
-- Fonctions : Automatiser des actions ; Générer des contenus > Générer une vidéo
+- Identifiants : domain.ai.agents domain.media.video domain.dev.web capability.generate.video source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA ; Audio, vidéo et création > Vidéo ; Développement logiciel > Développement web
+- Fonctions : Générer des contenus > Générer une vidéo
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -41,23 +45,5 @@ Génère des vidéos à partir de code React.
 - Origine : NotePlan
 - Identifiant source : c8e0d0b7ca0f7e400713e3c32f4794fb21b4707fadae13668622f42a30e4d644
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/remotion-dev/remotion
-
-## Capacités documentées
-
-- Crée des vidéos via des scripts React.
-- Automatise la production de vidéos.
-- Permet la gestion de complexité avec du code.
-- Facilite la création d'outils vidéo simples ou complexes.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/remotion-dev/remotion
-- Analyse source : 2026-10-20T05:39:38.276Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

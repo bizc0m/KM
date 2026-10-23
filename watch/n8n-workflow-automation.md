@@ -8,6 +8,10 @@ Veille outil / automatisation workflows.
 
 #python
 
+## Intérêts
+
+Crée des workflows d'IA avec des outils visuels et de code.
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -16,10 +20,6 @@ Veille outil / automatisation workflows.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
-
-## Intérêts
-
-Crée des workflows d'IA avec des outils visuels et de code.
 
 
 ## Ontologie

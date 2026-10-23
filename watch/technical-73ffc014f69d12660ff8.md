@@ -1,4 +1,4 @@
-# Seedance 2.5 API Guide
+# Awesome Seedance 2.5 API Prompts
 
 ## Statut
 
@@ -6,11 +6,15 @@ actif
 
 ## Tags
 
-#generation-video
+#generation-video, #generation-images
 
 ## Intérêts
 
-Génère des vidéos de qualité avec des paramètres précis
+Génère des vidéos à partir de prompts textuels ou multimodaux
+
+## Identité
+
+- Dépôt principal : https://github.com/anil-matcha/awesome-seedance-2.5-api-prompts
 
 ## Métadonnées
 
@@ -25,9 +29,9 @@ Génère des vidéos de qualité avec des paramètres précis
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.video capability.generate.video source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo
-- Fonctions : Générer des contenus > Générer une vidéo
+- Identifiants : domain.media.video domain.media.image capability.generate.video capability.generate.image source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
+- Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -41,5 +45,5 @@ Génère des vidéos de qualité avec des paramètres précis
 - Origine : NotePlan
 - Identifiant source : 73ffc014f69d12660ff819c4bbb517f5f50686c4e1b76f4d3b31993125da776c
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

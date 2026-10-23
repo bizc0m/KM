@@ -12,6 +12,10 @@ actif
 
 Génère des modèles 3D à haute résolution avec efficacité.
 
+## Identité
+
+- Dépôt principal : https://github.com/dreamtechai/direct3d-s2
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -41,35 +45,5 @@ Génère des modèles 3D à haute résolution avec efficacité.
 - Origine : NotePlan
 - Identifiant source : f1fa1897837db4db2e4d2682992a945fe4ecce309f869cb0e4cb94b410fd5536
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/dreamtechai/direct3d-s2
-
-## Capacités documentées
-
-- Permet la génération 3D à 1024³ avec 8 GPU.
-- Utilise Spatial Sparse Attention pour accélérer les calculs.
-- Améliore l'efficacité d'apprentissage avec un VAE unifié.
-- Réduit les coûts de formation par rapport aux méthodes antérieures.
-
-## Usages documentés
-
-- Installation des dépendances.
-- Utilisation du pipeline pour générer des modèles 3D.
-- Démonstration web via Gradio.
-
-## Limites
-
-- Exige une VRAM importante pour les résolutions élevées.
-- Compatibilité limitée aux systèmes Linux.
-- Dépendances spécifiques comme PyTorch et Torchsparse.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/dreamtechai/direct3d-s2
-- Analyse source : 2026-10-19T20:31:57.859Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

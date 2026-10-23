@@ -1,4 +1,4 @@
-# Reasonix : outil d'assistance de codage open source
+# DeepSeek-Reasonix
 
 ## Statut
 
@@ -6,11 +6,13 @@ actif
 
 ## Tags
 
-#application-bureau, #terminal
-
 ## Intérêts
 
-Lire, modifier et exécuter des fichiers dans un projet
+Exécute des tâches de codage avec un modèle d'IA configuré
+
+## Identité
+
+- Dépôt principal : https://github.com/esengine/deepseek-reasonix
 
 ## Métadonnées
 
@@ -25,10 +27,9 @@ Lire, modifier et exécuter des fichiers dans un projet
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.dev.quality capability.code.assist compatibility.interface.desktop compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : Développement logiciel > Qualité du code
+- Identifiants : domain.ai.llm domain.dev.quality capability.code.assist source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Modèles de langage ; Développement logiciel > Qualité du code
 - Fonctions : Assister le développement
-- Compatibilités : Interfaces > Application de bureau ; Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -42,23 +43,5 @@ Lire, modifier et exécuter des fichiers dans un projet
 - Origine : NotePlan
 - Identifiant source : c292611ef4a4a5e3745526fe5c2729ed28eeb01270146bbcb42142ee19fbdb55
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/esengine/deepseek-reasonix
-
-## Capacités documentées
-
-- Lecture, modification et exécution de fichiers dans un projet
-- Gestion des permissions et approbations avant chaque action
-- Possibilité de revenir en arrière sans toucher à l'historique git
-- Utilisation d'un modèle de votre choix via une configuration
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/esengine/deepseek-reasonix
-- Analyse source : 2026-10-19T14:17:14.549Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

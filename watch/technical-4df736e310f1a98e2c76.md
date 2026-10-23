@@ -46,7 +46,7 @@ Enregistre des démos nettoyées sans abonnement
 - Origine : NotePlan
 - Identifiant source : 6cb1248284d63b3e8eda5578f6890352f7278824c62187bde0153ed529c8998c
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
@@ -56,9 +56,9 @@ Enregistre des démos nettoyées sans abonnement
 - Pages lues, tweet compris : 8.
 - Sources techniques analysées : 7.
 - Sources à vérifier : 0 ; analyses non terminées : 0 ; erreurs du modèle : 1.
-- Liens non lus : 47 (profondeur : 47, budget de pages : 0, délai : 0, erreurs : 0).
+- Liens non lus : 46 (profondeur : 46, budget de pages : 0, délai : 0, erreurs : 0).
 - Pages résumées sur extrait : 1.
-- Éléments exclus : 0 ; doublons ignorés : 0.
+- Éléments exclus : 1 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### Plateforme d'inférence d'IA gratuite avec plusieurs fournisseurs

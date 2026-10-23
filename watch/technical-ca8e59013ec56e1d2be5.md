@@ -1,4 +1,4 @@
-# Outil d'analyse VIN pour collecte d'informations OSINT
+# VIN-Number-OSINT
 
 ## Statut
 
@@ -10,23 +10,27 @@ actif
 
 ## Intérêts
 
-Analyse VIN pour collecte d'informations OSINT avec export JSON
+Analyse VIN pour obtenir des données techniques. Sauvegarde des rapports en format JSON.
+
+## Identité
+
+- Dépôt principal : https://github.com/osintcabal/vin-number-osint
 
 ## Métadonnées
 
 - Nature : À vérifier
 - OS : À vérifier
-- Licence : À vérifier
+- Licence : Non précisée
 - Tarification : À vérifier
 - Accès : À vérifier
-- Preuve : À vérifier
+- Preuve : https://github.com/OSINTCabal/VIN-Number-OSINT
 
 
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.osint source.noteplan source.github source.x lifecycle.active
-- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Identifiants : domain.osint domain.data.research source.noteplan source.github source.x lifecycle.active
+- Sujets : Cybersécurité > Renseignement en sources ouvertes ; Données et connaissances > Recherche documentaire
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -40,36 +44,5 @@ Analyse VIN pour collecte d'informations OSINT avec export JSON
 - Origine : NotePlan
 - Identifiant source : ca8e59013ec56e1d2be596c8888074d2899c25f650ff554475954741342b43ca
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/osintcabal/vin-number-osint
-
-## Capacités documentées
-
-- Analyse complète d'un VIN via 4 endpoints API NHTSA
-- Traitement simultané de jusqu'à 50 VINs
-- Recherche d'informations sur les fabricants et modèles
-- Export en JSON pour préservation des preuves
-
-## Usages documentés
-
-- Analyse VIN via interface terminal
-- Traitement batch de VINs
-- Recherche de données sur fabricants
-- Export des résultats en JSON
-
-## Limites
-
-- Limite de requêtes par l'API NHTSA
-- Nécessite Python 3.8+
-- Compatibilité avec Tor pour anonymisation
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/osintcabal/vin-number-osint
-- Analyse source : 2026-10-20T07:02:27.487Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

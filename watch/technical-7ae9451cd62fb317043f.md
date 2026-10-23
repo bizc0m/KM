@@ -1,4 +1,4 @@
-# Outils de gestion des droits d'auteur sur YouTube
+# Formulaire Web YouTube
 
 ## Statut
 
@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Permet de signaler des contenus en violation de droits
+Gère les contenus reproduits via des règles définies
 
 ## Métadonnées
 
@@ -23,8 +23,8 @@ Permet de signaler des contenus en violation de droits
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.video source.noteplan source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo
+- Identifiants : domain.unclassified source.noteplan source.x lifecycle.active
+- Sujets : À qualifier
 - Provenance : NotePlan Calendar ; X / Twitter
 - État : Actif
 
@@ -36,7 +36,6 @@ Permet de signaler des contenus en violation de droits
 - https://blog.youtube/news-and-events/youtube-music-ai-labels
 - https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators
 - https://blog.youtube/news-and-events/youtube-conversational-ai-tool-available-smart-tvs
-- https://developers.google.com/search/docs/fundamentals/get-on-google?rd=1&visit_id=639280675264907420-1086185035
 - https://developers.google.com/
 - https://developers.google.com/youtube/iframe_api_reference
 - https://developers.google.com/youtube/data/guides/ios_youtube_helper
@@ -57,19 +56,19 @@ Permet de signaler des contenus en violation de droits
 - Origine : NotePlan
 - Identifiant source : 3ec699e4a1549a6c163d34c93a6c2840a6207c7c5a898b949f4cfb991bfb2dd4
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-22
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 462.
+- Liens distincts recensés : 457.
 - Pages lues, tweet compris : 60.
-- Sources techniques analysées : 20.
-- Sources à vérifier : 39 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 350 (profondeur : 327, budget de pages : 0, délai : 0, erreurs : 23).
+- Sources techniques analysées : 19.
+- Sources à vérifier : 34 ; analyses non terminées : 0 ; erreurs du modèle : 0.
+- Liens non lus : 345 (profondeur : 322, budget de pages : 0, délai : 0, erreurs : 23).
 - Pages résumées sur extrait : 3.
-- Éléments exclus : 51 ; doublons ignorés : 3.
+- Éléments exclus : 57 ; doublons ignorés : 3.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### Outils de gestion des droits d'auteur sur YouTube
@@ -125,17 +124,6 @@ L'outil de dialogue IA de YouTube est désormais disponible sur les téléviseur
 - La fonctionnalité a été initialement lancée sur mobile et web.
 
 Source : https://blog.youtube/news-and-events/youtube-conversational-ai-tool-available-smart-tvs ; niveau 3.
-
-### Vérification de l'indexation d'un site sur Google
-
-Documentation Google explique comment vérifier si un site est indexé et les raisons d'un manque d'indexation.
-
-- Utiliser la requête `site:example.com` pour vérifier l'indexation.
-- Les sites peuvent manquer d'indexation en raison d'un manque de liens externes.
-- Un site nouveau peut prendre plusieurs semaines pour être indexé.
-- Des erreurs techniques ou des blocages peuvent empêcher l'indexation.
-
-Source : https://developers.google.com/search/docs/fundamentals/get-on-google?rd=1&visit_id=639280675264907420-1086185035 ; niveau 3.
 
 ### Intégration de Gemini dans le développement d'applications
 

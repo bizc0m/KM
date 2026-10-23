@@ -10,7 +10,11 @@ actif
 
 ## Intérêts
 
-Génère des propositions de forme 3D pour segmenter des objets dans un nuage de points.
+Intérêt à vérifier
+
+## Identité
+
+- Dépôt principal : https://github.com/ericyi/gspn
 
 ## Métadonnées
 
@@ -41,38 +45,5 @@ Génère des propositions de forme 3D pour segmenter des objets dans un nuage de
 - Origine : NotePlan
 - Identifiant source : 383ec76df0f9b9e99e36028973ce3f2bc68ea3646a8c93a237d2a3b4428f5dcb
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/ericyi/gspn
-
-## Capacités documentées
-
-- GSPN propose des formes génératives pour la segmentation d'instances 3D.
-- GSPN est intégré à R-PointNet pour la détection d'instances.
-- Le dépôt fournit des codes et modèles pré-entraînés pour GSPN et R-PointNet.
-- L'entraînement se fait en deux étapes avec des données de ScanNet.
-
-## Usages documentés
-
-- Compilé les opérateurs TensorFlow.
-- Prétraitement des données ScanNet.
-- Entraînement séparé de GSPN et R-PointNet.
-- Évaluation sur l'ensemble de validation.
-- Calcul des métriques avec le benchmark ScanNet.
-
-## Limites
-
-- Dépend du jeu de données ScanNet.
-- Requiert des ressources de calcul.
-- Nécessite une configuration spécifique.
-- Compatibilité limitée aux environnements TensorFlow.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/ericyi/gspn
-- Analyse source : 2026-10-19T20:31:57.859Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

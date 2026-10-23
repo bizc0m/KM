@@ -1,4 +1,4 @@
-# BAML: Langage de programmation pour agents
+# BAML
 
 ## Statut
 
@@ -8,7 +8,11 @@ actif
 
 ## Intérêts
 
-Crée des agents avec un système de type sécurisé.
+Crée des agents fiables avec des types statiques.
+
+## Identité
+
+- Dépôt principal : https://github.com/boundaryml/baml
 
 ## Métadonnées
 
@@ -38,23 +42,5 @@ Crée des agents avec un système de type sécurisé.
 - Origine : NotePlan
 - Identifiant source : b79207044bee1b2d7073442b45747fe569d35a895e499a0ece06ee59294bf8ed
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/boundaryml/baml
-
-## Capacités documentées
-
-- Permet la création d'agents avec un système de type sécurisé.
-- Fournit une analyse statique des erreurs.
-- Supporte la concurrence et la gestion de modules.
-- Intégration avec plusieurs langages de programmation.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/boundaryml/baml
-- Analyse source : 2026-10-19T13:51:17.213Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

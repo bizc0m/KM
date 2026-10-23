@@ -1,0 +1,82 @@
+# Vidéo
+
+- [AI Meme Studio](../../watch/technical-28efa5970d38e5616943.md) — Crée des contenus viraux avec des modèles AI.
+- [AICLIPS Studio](../../watch/technical-937b200dbfd957aae460.md) — Extrait automatiquement des highlights viraux depuis des vidéos YouTube.
+- [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Génère et publie automatiquement du contenu sur plusieurs plateformes sociales.
+- [AlphaTablets](../../watch/technical-ca3c69add82754901cf6.md) — Permet la reconstruction 3D de plans avec précision et contours nets.
+- [Awesome Generative AI Apps](../../watch/technical-c5cd3a5c95630c792129.md) — Créez et lancez des applications SaaS génératives avec des outils prêts à l'emploi
+- [Awesome Seedance 2.5 API Prompts](../../watch/technical-73ffc014f69d12660ff8.md) — Génère des vidéos à partir de prompts textuels ou multimodaux
+- [awesome-ai-video-models](../../watch/technical-e0275c5610589cad14d2.md) — Choisir le modèle de génération de vidéos AI adapté à un projet.
+- [openai-api](../../watch/technical-f8f551d25eb73ecda1fd.md) — Génère des images avec des paramètres de résolution et de format.
+- [Kling Video API via Muapi](../../watch/technical-6cc3ec716443f80c37a3.md) — Soumet une requête de génération et récupère l'identifiant de demande pour suivre le statut
+- [lobster](../../watch/technical-0ebd1f1b56ff3fc73866.md) — Rechercher et visionner des films et séries en ligne
+- [LongCat-Video](../../watch/technical-3794fe05156a712cb6fd.md) — Convertir du texte ou des images en vidéos longues.
+- [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
+- [MoneyPrinter](../../watch/technical-9bd95807fef95eea1d8c.md) — Configure l'environnement pour exécuter MoneyPrinter avec Ollama
+- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
+- [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
+- [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Cloner des voix sans connexion internet.
+- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
+- [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
+- [Open Generative AI](../../watch/technical-78faa425ad9343a870b8.md) — Génère des images et vidéos via des modèles d'IA sans filtres.
+- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
+- [ParticleSfM](../../watch/technical-1579309e1b490fa5279c.md) — Traite des séquences vidéo pour extraire des trajectoires de points.
+- [Pixelrelay](../../watch/technical-140649096e6d8069b2f4.md) — Gère les erreurs de fournisseurs avec un système de failover.
+- [Plugin mov-cli-youtube](../../watch/technical-52593ff508c40e9e2d49.md) — Lire des vidéos YouTube via mov-cli avec options audio et shorts
+- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
+- [embed-sdk-js](../../watch/technical-f4619ecbc826ded4db95.md) — Affiche des vidéos torrent avec sous-titres et personnalisation.
+- [Seedance 2.5 API](../../watch/technical-4f09686ddcb30b511532.md) — Génère des vidéos AI à partir de textes et d'images
+- [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md)
+- [stable-diffusion.cpp](../../watch/technical-94c4f976278cef504540.md) — Génère des images à partir de modèles de diffusion sans dépendances externes
+- [tiktok-timestamp](../../watch/technical-73a929f1ca2e1edf16a9.md) — Récupère l'horodatage des vidéos TikTok supprimées.
+- [TikTok-User-Info-Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
+- [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
+- [Vibe Workflow](../../watch/technical-6ccb86641ecc996a74b9.md) — Crée des workflows d'IA visuels sans abonnement
+- [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence visuelle et narrative.
+- [VisoMaster-Fusion](../../watch/technical-dbbe9adbe528f3b77e3a.md) — Analyser et traiter des visages dans des médias sans dépendre de services payants.
+- [VisoMaster-Fusion](../../watch/technical-f26060981b4112b4411f.md) — Traiter des visages localement sans frais ni partage de données.
+- [Voice-Pro](../../watch/technical-7e01176c9d1442c27f9d.md) — Traite les vidéos YouTube avec extraction audio et séparation vocale
+- [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Génère et gère des contenus multimédia avec des modèles optimisés pour faible VRAM.
+- [yt-dlp](../../watch/technical-511a5089717fad8aad51.md) — Télécharge des contenus multimédia depuis des sites web.
+- [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
+- [AI Creator Academy](../../watch/technical-21a78e48d74a8e6ab07f.md) — Créer des publicités vidéo vendables pour des marques réelles.
+- [Générateur de vidéo d'embrassade IA](../../watch/technical-d85e8aba072628b2e82b.md) — Crée des vidéos d'embrassade à partir de deux photos.
+- [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md) — Crée des vidéos à partir d'HTML avec des animations et médias.
+- [VisoMaster](../../watch/technical-6b5abdd9cd34e8376d9f.md) — Permet de remplacer des visages dans des vidéos avec précision
+- [Wan2.1](../../watch/technical-20e40e65da16af4ff766.md) — Génère des vidéos à partir de texte et d'images avec des modèles optimisés pour GPU.
+- [vidsrc](../../watch/technical-4d7ca480ccb1704faf5b.md) — Lire des frames de vidéo comme tableaux numpy via DirectShow
+- [FreeTube](../../watch/technical-91d6b06125ea90507740.md) — Regarder des vidéos sans publicité et sans suivi de Google
+- [immich-app/immich](../../watch/technical-bfefa0db462ca5c030a2.md) — Gère les photos et vidéos avec une sauvegarde automatique
+- [Outil de création d'images et vidéos open source](../../watch/technical-e81f6151c35e55d15926.md) — Génère des images et vidéos via des modèles avancés
+- [Répertoire de ressources design](../../watch/technical-0c43c4b9eb7d7f87237a.md) — Accélère le développement UI avec des ressources prêtes à l'emploi
+- [SysMocap](../../watch/technical-265f4b5b46b161719305.md) — Importe facilement des modèles 3D via glisser-déposer.
+- [youtube-dl](../../watch/technical-200f4f9f3b7e9e0f30c9.md) — Télécharge des vidéos depuis des sites web sans interface graphique.
+- [youtube-dlc](../../watch/technical-350bc4fbd59269522ae3.md) — Télécharger des vidéos depuis YouTube et d'autres plateformes.
+- [AI employee open source avec ordinateur intégré](../../watch/technical-900c2911ad71cf6d2191.md)
+- [ai-faceless-video-generator](../../watch/technical-8d8cf40ff98876dc4965.md) — Génère un script à partir d'un sujet avec GPT
+- [vox-ai-motion-graphics-generator](../../watch/technical-4ff70387f0be38c9fbad.md) — Crée une vidéo expliquée en style Vox avec collage papier.
+- [Génération automatique de micro-dramas vidéo](../../watch/technical-041ee9bffa76ace2d6ef.md) — Crée un micro-drama vidéo à partir d'une idée
+- [ai-b-roll](../../watch/technical-cfc247fd5cb1bebffe4a.md) — Ajouter des b-roll à une vidéo sans intervention manuelle.
+- [text-to-video-ai](../../watch/technical-cc687e91ee3b0302f92e.md) — Crée des vidéos courtes pour réseaux sociaux sans installation.
+- [open-ai-ugc](../../watch/technical-dbe2e54164b357ddcb32.md) — Génère des vidéos publicitaires UGC en quelques secondes avec des acteurs IA
+- [Pipecat](../../watch/technical-70340542d5688b508dea.md) — Crée des assistants vocaux avec reconnaissance et synthèse vocale.
+- [ViMax](../../watch/technical-ef1500532ddc132c577d.md) — Convertir une idée en court-métrage sans édition
+- [awesome-open-source-mac-apps](../../watch/technical-ee0a2cc79169b0f8394c.md) — Lecture de fichiers audio et vidéo sans logiciel propriétaire.
+- [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Traduire des vidéos en 14 langues sources et 101 cibles.
+- [Outils et compétences pour la production vidéo automatisée et agente](../../watch/technical-88c715df4dbe74ef0c5a.md) — Crée des vidéos MP4 à partir de textes avec des agents AI.
+- [Répertoires GitHub d'éditeurs de vidéos AI](../../watch/technical-e803d6ea4b8b5e515082.md) — Génère des vidéos à partir de textes et images.
+- [AnyV2V Video Editing Framework](../../watch/anyv2v-video-editing-framework.md)
+- [Kiwi Edit Video Editing](../../watch/kiwi-edit-video-editing.md)
+- [LosslessCut Video Audio Editing](../../watch/losslesscut-video-audio-editing.md)
+- [OBS Shaderfilter](../../watch/obs-shaderfilter.md)
+- [VACE Video Creation Editing](../../watch/vace-video-creation-editing.md)
+- [Veejay Live Video Sampler](../../watch/veejay-live-video-sampler.md)
+- [VISTA Video Style Transfer](../../watch/vista-video-style-transfer.md)
+- [AI Video Plugins And Skills Ayi AInotes](../../watch/ai-video-plugins-skills-ayi-ainotes.md)
+- [HyperFrames AI Video Generation Skill](../../watch/hyperframes-ai-video-generation-skill.md)
+- [Here are 10 AI video editor GitHub repos worth bookmarking:](../../watch/here-are-10-ai-video-editor-github-repos-worth-bookmarking.md)
+- [OpenMontage Agentic Video Production System](../../watch/calesthio-openmontage.md)
+- [Uncensored Open Source Image And Video AI Tool](../../watch/sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol.md)
+- [MoneyPrinterTurbo](../../watch/moneyprinterturbo-ai-short-video.md)
+- [PromptSpy](../../watch/promptspy-ai-android-malware.md)
+- [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)

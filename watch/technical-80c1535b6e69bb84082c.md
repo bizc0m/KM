@@ -12,6 +12,10 @@ actif
 
 Crée des modèles 3D à partir d'images avec des modèles pré-entraînés.
 
+## Identité
+
+- Dépôt principal : https://github.com/tencentarc/di-pcg
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,9 +29,9 @@ Crée des modèles 3D à partir d'images avec des modèles pré-entraînés.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.image domain.media.3d capability.generate.image capability.generate.3d source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.media.image domain.media.3d capability.generate.3d capability.generate.image source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Images et graphisme ; Audio, vidéo et création > Création 3D
-- Fonctions : Générer des contenus > Générer une image ; Générer des contenus > Générer un objet 3D
+- Fonctions : Générer des contenus > Générer un objet 3D ; Générer des contenus > Générer une image
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -41,5 +45,5 @@ Crée des modèles 3D à partir d'images avec des modèles pré-entraînés.
 - Origine : NotePlan
 - Identifiant source : 80c1535b6e69bb84082cb247d96a68e11a07f4eef880915c8ce7245e2f8383d1
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

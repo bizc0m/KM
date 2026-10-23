@@ -1,4 +1,4 @@
-# fzf - outil de recherche floue pour terminal
+# fzf
 
 ## Statut
 
@@ -6,11 +6,13 @@ actif
 
 ## Tags
 
-#terminal
-
 ## Intérêts
 
-Sélectionner rapidement des fichiers ou commandes via une recherche floue
+Sélectionner des fichiers rapidement avec une recherche floue.
+
+## Identité
+
+- Dépôt principal : https://github.com/junegunn/fzf
 
 ## Métadonnées
 
@@ -25,9 +27,8 @@ Sélectionner rapidement des fichiers ou commandes via une recherche floue
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.active
 - Sujets : À qualifier
-- Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -41,5 +42,5 @@ Sélectionner rapidement des fichiers ou commandes via une recherche floue
 - Origine : NotePlan
 - Identifiant source : 7c881fd189f1ece84c8b4dcf5a6f347025954329974cdd2ebbe23064974bb188
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

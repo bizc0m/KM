@@ -12,6 +12,10 @@ actif
 
 Exécute des tâches de codage localement avec un éditeur.
 
+## Identité
+
+- Dépôt principal : https://github.com/openai/codex
+
 ## Métadonnées
 
 - Nature : CLI
@@ -43,35 +47,5 @@ Exécute des tâches de codage localement avec un éditeur.
 - Origine : NotePlan
 - Identifiant source : 8c3dc2a0187cafccea2a84cdfe601e19b505d4faad42c77c2b39a3214738e26a
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/openai/codex
-
-## Capacités documentées
-
-- Permet d'exécuter des tâches de codage localement.
-- Intégré aux éditeurs de code comme VS Code.
-- Facilite la création et la modification de code.
-- S'installe via des scripts ou des gestionnaires de paquets.
-
-## Usages documentés
-
-- Installer via script ou gestionnaire de paquets.
-- Lancer la commande `codex` pour démarrer.
-- Se connecter avec un compte ChatGPT pour utiliser les fonctionnalités avancées.
-
-## Limites
-
-- Requiert un compte ChatGPT pour accéder à certaines fonctionnalités.
-- Nécessite une connexion internet pour l'authentification.
-- Compatibilité limitée aux systèmes d'exploitation mentionnés.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/openai/codex
-- Analyse source : 2026-10-19T21:00:15.195Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

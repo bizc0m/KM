@@ -12,6 +12,10 @@ actif
 
 Lire des vidéos YouTube via mov-cli avec options audio et shorts
 
+## Identité
+
+- Dépôt principal : https://github.com/mov-cli/mov-cli-youtube
+
 ## Métadonnées
 
 - Nature : CLI
@@ -41,33 +45,5 @@ Lire des vidéos YouTube via mov-cli avec options audio et shorts
 - Origine : NotePlan
 - Identifiant source : 52593ff508c40e9e2d490b2f2d50a5ac8de5ea5754489d5aa6869298500b722c
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/mov-cli/mov-cli-youtube
-
-## Capacités documentées
-
-- Permet de lire des vidéos YouTube via mov-cli
-- Supporte la lecture audio seule
-- Fonctionnalité pour autoriser les shorts
-- Recommande l'utilisation de pytube pour les joueurs mobiles
-
-## Usages documentés
-
-- mov-cli -s youtube nyan cat
-- mov-cli -s youtube nyan cat -- --audio
-- mov-cli -s youtube The otter begging is adorable -- --shorts
-
-## Limites
-
-- Nécessite l'installation de mov-cli et du plugin
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/mov-cli/mov-cli-youtube
-- Analyse source : 2026-10-19T23:06:57.213Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -12,6 +12,10 @@ actif
 
 Structurer le développement avec des spécifications
 
+## Identité
+
+- Dépôt principal : https://github.com/github/spec-kit
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -109,18 +113,16 @@ Structurer le développement avec des spécifications
 - https://atlassian.com/software/rovo-dev
 - https://github.com/ovh/shai
 - https://docs.tabnine.com/main/getting-started/tabnine-cli
+- https://dev.meta.ai/docs/muse-code
+- https://qoder.com/cli
 
 ## Traçabilité
 
 - Origine : NotePlan
 - Identifiant source : f4e0adf84666b0c986e73ecd014507f8272b73a8f70ec02ba2be2a9423ebe5c7
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/github/spec-kit
 
 ## Capacités documentées
 
@@ -133,5 +135,5 @@ Structurer le développement avec des spécifications
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/github/spec-kit
-- Analyse source : 2026-10-19T21:00:15.195Z
+- Analyse source : 2026-10-20T12:16:05.271Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

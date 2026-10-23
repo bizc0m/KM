@@ -1,4 +1,4 @@
-# Ghost : Plateforme de publication open source
+# Ghost : CMS open source headless basé sur Node.js
 
 ## Statut
 
@@ -6,9 +6,15 @@ actif
 
 ## Tags
 
+#publication-sociale
+
 ## Intérêts
 
-Déployer un site de publication rapidement
+Crée un site de publication avec un CMS open source
+
+## Identité
+
+- Dépôt principal : https://github.com/tryghost/ghost
 
 ## Métadonnées
 
@@ -23,8 +29,9 @@ Déployer un site de publication rapidement
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.communication.publishing source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.communication.publishing capability.automation.publish source.noteplan source.github source.x lifecycle.active
 - Sujets : Communication et publication > Publication de contenus
+- Fonctions : Automatiser des actions > Publier sur plusieurs réseaux
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -40,28 +47,5 @@ Déployer un site de publication rapidement
 - Origine : NotePlan
 - Identifiant source : c750bc2f9f73e8e1f5bddedc78cd7e4ebc897f7b4eda7c18dc07c64d096dc1a6
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/tryghost/ghost
-
-## Capacités documentées
-
-- Permet la publication de contenu moderne
-- Supporte les abonnements et newsletters
-- Fournit une interface de gestion simple
-- Utilisation de Node.js pour le backend
-
-## Usages documentés
-
-- npm install ghost-cli -g
-- ghost install local
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/tryghost/ghost
-- Analyse source : 2026-10-20T06:35:22.421Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

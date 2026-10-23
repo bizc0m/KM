@@ -1,0 +1,28 @@
+# Qualité du code
+
+- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Permet aux agents de conserver une mémoire persistante sans re-expliquer.
+- [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Génère des données 3D à partir de points de contrôle.
+- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md)
+- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage en modifiant des fichiers et en exécutant des commandes.
+- [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Exécute des tâches de codage localement avec un éditeur.
+- [DeepSeek-Reasonix](../../watch/technical-c292611ef4a4a5e37455.md) — Exécute des tâches de codage avec un modèle d'IA configuré
+- [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Permet d'éditer des fichiers dans un environnement terminal
+- [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Permet d'explorer et modifier le code avec un assistant IA
+- [open-slide](../../watch/technical-690719855ba11af8d90c.md)
+- [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Analyse de type rapide avec diagnostics précis pour code Python
+- [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
+- [Ruff](../../watch/technical-40c2c54a4c6490e8e3bc.md) — Vérifie et corrige le code Python rapidement avec une grande couverture de règles.
+- [fbdfile](../../watch/technical-644af560a703d50fde81.md) — Lire et analyser des données FLIMbox à partir de fichiers FBD
+- [CUAWright](../../watch/technical-302726d10970209e8855.md) — Permet aux modèles de codage d'automatiser des navigateurs et des applications de bureau.
+- [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Configure l'environnement de codage avec des outils d'assistance.
+- [Requests](../../watch/technical-0d1a89c543bad402b2da.md) — Fait des requêtes HTTP facilement et efficacement.
+- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Propose des corrections de code en temps réel via un terminal interactif
+- [Spec Kit](../../watch/technical-f4e0adf84666b0c986e7.md) — Structurer le développement avec des spécifications
+- [awesome-ai-repos](../../watch/technical-7cf0ee8352dc6af0478e.md) — Gérer des agents IA avec des outils de coordination
+- [ECC](../../watch/technical-edb3a626875732de5c9b.md) — Améliore la productivité en optimisant les tâches de codage.
+- [Jules](../../watch/technical-f23e4d6f3cd099180f4d.md) — Gère des tâches de codage via GitHub avec l'étiquette "jules".
+- [Metis](../../watch/technical-a5ff978d18723ab2dc78.md) — Crée un agent personnalisé pour chaque projet.
+- [Spec Kit](../../watch/technical-03c3b9b214032004d035.md) — Structurer les spécifications pour un codage cohérent et prévisible.
+- [Superpowers](../../watch/technical-56f27bb0e80ff344bf72.md) — Facilite la planification et la révision du code avec un workflow structuré.
+- [Vibe Coding et Spec Kit](../../watch/technical-9379cc03e3266df7017b.md) — Structurer la collaboration pour améliorer la précision du code généré.
+- [CodePatrol](../../watch/codepatrol-code-security.md)

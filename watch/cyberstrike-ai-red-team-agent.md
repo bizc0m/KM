@@ -8,6 +8,10 @@ Veille `#ROUGE` / agent IA offensif de red team.
 
 #pentest, #red-team, #offensive-security, #mitre-attack, #ROUGE
 
+## Intérêts
+
+Analyse des vulnérabilités réseau en temps réel avec MITRE ATT&CK.
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -16,10 +20,6 @@ Veille `#ROUGE` / agent IA offensif de red team.
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
-
-## Intérêts
-
-Analyse des vulnérabilités réseau en temps réel avec MITRE ATT&CK.
 
 
 ## Ontologie

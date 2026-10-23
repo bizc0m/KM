@@ -12,6 +12,10 @@ actif
 
 Interagir avec Gemini via terminal pour exécuter des tâches de code
 
+## Identité
+
+- Dépôt principal : https://github.com/google-gemini/gemini-cli
+
 ## Métadonnées
 
 - Nature : CLI
@@ -42,12 +46,8 @@ Interagir avec Gemini via terminal pour exécuter des tâches de code
 - Origine : NotePlan
 - Identifiant source : 24684c1ecca249c03e58e0d0192c9742b89e48498c3a1fac970d4d5c34874232
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/google-gemini/gemini-cli
 
 ## Capacités documentées
 
@@ -70,5 +70,5 @@ Interagir avec Gemini via terminal pour exécuter des tâches de code
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/google-gemini/gemini-cli
-- Analyse source : 2026-10-19T21:00:15.195Z
+- Analyse source : 2026-10-21T20:27:03.779Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

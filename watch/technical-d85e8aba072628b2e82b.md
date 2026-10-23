@@ -12,6 +12,10 @@ actif
 
 Crée des vidéos d'embrassade à partir de deux photos.
 
+## Identité
+
+- Dépôt principal : https://github.com/samuraigpt/ai-kissing-video-generator
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -41,12 +45,8 @@ Crée des vidéos d'embrassade à partir de deux photos.
 - Origine : NotePlan
 - Identifiant source : d85e8aba072628b2e82b75a57531fcbad8db6fc34757d60fd6290c6dcb6043d1
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-22
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/samuraigpt/ai-kissing-video-generator
 
 ## Capacités documentées
 
@@ -59,5 +59,5 @@ Crée des vidéos d'embrassade à partir de deux photos.
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/samuraigpt/ai-kissing-video-generator
-- Analyse source : 2026-10-20T07:40:16.556Z
+- Analyse source : 2026-10-22T01:30:11.380Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

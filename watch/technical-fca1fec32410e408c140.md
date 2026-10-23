@@ -1,4 +1,4 @@
-# cloud-torrent
+# Cloud Torrent
 
 ## Statut
 
@@ -8,7 +8,11 @@ actif
 
 ## Intérêts
 
-Accéder aux fichiers téléchargés via HTTP
+Gère les torrents via une interface web
+
+## Identité
+
+- Dépôt principal : https://github.com/jpillora/cloud-torrent
 
 ## Métadonnées
 
@@ -38,27 +42,5 @@ Accéder aux fichiers téléchargés via HTTP
 - Origine : NotePlan
 - Identifiant source : fca1fec32410e408c140c14edda8db6f368429eea767841c66119672a5fa2ef6
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/jpillora/cloud-torrent
-
-## Capacités documentées
-
-- Permet de télécharger des fichiers via torrent sur un serveur distant
-- Fournit un accès HTTP aux fichiers téléchargés
-- Supporte la recherche torrent intégrée
-- Possède un serveur de contenu rapide
-
-## Usages documentés
-
-- cloud-torrent --help
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/jpillora/cloud-torrent
-- Analyse source : 2026-10-19T23:06:57.213Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

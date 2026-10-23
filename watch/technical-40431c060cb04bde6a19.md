@@ -1,4 +1,4 @@
-# PubGrub : Algorithme de résolution de dépendances
+# PubGrub
 
 ## Statut
 
@@ -8,7 +8,11 @@ actif
 
 ## Intérêts
 
-Résout efficacement les dépendances logicielles avec des messages d'erreur clairs.
+Résout des conflits de dépendances avec des explications claires.
+
+## Identité
+
+- Dépôt principal : https://github.com/pubgrub-rs/pubgrub
 
 ## Métadonnées
 
@@ -38,23 +42,5 @@ Résout efficacement les dépendances logicielles avec des messages d'erreur cla
 - Origine : NotePlan
 - Identifiant source : 40431c060cb04bde6a1917db85d7798548f3ecbccd93c8b94e92e762b4d279ea
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/pubgrub-rs/pubgrub
-
-## Capacités documentées
-
-- Résout les conflits de versions des dépendances.
-- Fournit des messages d'erreur détaillés et explicites.
-- Utilisé par uv, dart, bundler et poetry.
-- Flexible grâce à sa conception générique.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/pubgrub-rs/pubgrub
-- Analyse source : 2026-10-20T07:42:57.268Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

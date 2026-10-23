@@ -1,4 +1,4 @@
-# Scrapling - Framework de scraping web
+# Scrapling
 
 ## Statut
 
@@ -6,11 +6,15 @@ actif
 
 ## Tags
 
-#extraction-web, #python, #terminal
+#extraction-web, #python
 
 ## Intérêts
 
-Extraire des données web avec des requêtes HTTP rapides et un rendu JavaScript
+Extrait des données depuis des pages web statiques ou dynamiques
+
+## Identité
+
+- Dépôt principal : https://github.com/d4vinci/scrapling
 
 ## Métadonnées
 
@@ -25,10 +29,10 @@ Extraire des données web avec des requêtes HTTP rapides et un rendu JavaScript
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.data.web capability.scraping compatibility.language.python compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.data.web capability.scraping compatibility.language.python source.noteplan source.github source.x lifecycle.active
 - Sujets : Données et connaissances > Collecte web
 - Fonctions : Extraire des données web
-- Compatibilités : Langages > Python ; Interfaces > Terminal
+- Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -42,23 +46,5 @@ Extraire des données web avec des requêtes HTTP rapides et un rendu JavaScript
 - Origine : NotePlan
 - Identifiant source : a352cd98ee30cd20d69acba7cd0ee40020710a917e6ec1f0f5632b08e459b7e2
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/d4vinci/scrapling
-
-## Capacités documentées
-
-- Permet le scraping de pages statiques et dynamiques
-- Supporte le rendu JavaScript et l'interaction avec les sites web
-- Fournit des outils de parsing puissants avec CSS, XPath et regex
-- Inclut des fonctionnalités de crawling concurrentiel et de rotation de proxys
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/d4vinci/scrapling
-- Analyse source : 2026-10-19T14:40:42.779Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

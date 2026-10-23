@@ -1,4 +1,4 @@
-# Outil de conversion et de génération de documents
+# huashu-md-html
 
 ## Statut
 
@@ -10,7 +10,11 @@ actif
 
 ## Intérêts
 
-Convertir des fichiers en markdown et générer des documents HTML ou DOCX.
+Convertir des fichiers vers markdown et générer des html ou docx.
+
+## Identité
+
+- Dépôt principal : https://github.com/alchaincyf/huashu-md-html
 
 ## Métadonnées
 
@@ -42,5 +46,5 @@ Convertir des fichiers en markdown et générer des documents HTML ou DOCX.
 - Origine : NotePlan
 - Identifiant source : 02e627709adedd541e23b00b2de29f2f6ddcd361334e432a8acb6ffef0827533
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

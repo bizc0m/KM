@@ -12,6 +12,10 @@ actif
 
 Accéder à des contenus multimédia via des liens.
 
+## Identité
+
+- Dépôt principal : https://github.com/popcorntime/popcorntime
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -40,23 +44,5 @@ Accéder à des contenus multimédia via des liens.
 - Origine : NotePlan
 - Identifiant source : f2ad2f5dfae253d2f4b6207705ed02d269ac77ba6a321f90808ac83ed5aab555
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/popcorntime/popcorntime
-
-## Capacités documentées
-
-- Permet de visionner des films et séries via des liens.
-- Utilise des bases de données mise à jour hebdomadairement.
-- Interface basée sur React et TypeScript.
-- Backend développé en Rust avec Tauri.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/popcorntime/popcorntime
-- Analyse source : 2026-10-19T23:06:57.213Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

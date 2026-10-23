@@ -1,4 +1,4 @@
-# Open Generative AI - Outil de création d'images et vidéos
+# Open Generative AI
 
 ## Statut
 
@@ -6,11 +6,15 @@ actif
 
 ## Tags
 
-#generation-video, #generation-images
+#generation-video, #generation-images, #inference-locale
 
 ## Intérêts
 
-Crée des images et vidéos sans filtre de contenu
+Génère des images et vidéos via des modèles d'IA sans filtres.
+
+## Identité
+
+- Dépôt principal : https://github.com/anil-matcha/open-generative-ai
 
 ## Métadonnées
 
@@ -25,9 +29,10 @@ Crée des images et vidéos sans filtre de contenu
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai domain.media.video domain.media.image capability.generate.video capability.generate.image source.raindrop source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
+- Identifiants : domain.media.video domain.media.image domain.ai.llm capability.generate.video capability.generate.image compatibility.deployment.local source.raindrop source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Intelligence artificielle > Modèles de langage
 - Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
+- Compatibilités : Exécution > Exécution locale
 - Provenance : Raindrop ; GitHub ; X / Twitter
 - État : Actif
 
@@ -102,23 +107,5 @@ Crée des images et vidéos sans filtre de contenu
 - Origine : Raindrop
 - Identifiant source : 9b0ddf7fee7ec34b146b64c75c35ddce4d9f3d822c0387fe7a03ee0c89242852
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/anil-matcha/open-generative-ai
-
-## Capacités documentées
-
-- Génère des images et vidéos via 600+ modèles.
-- Pas de filtres de contenu ni abonnements.
-- Supporte la création locale via des moteurs dédiés.
-- Permet la personnalisation et le déploiement local.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/anil-matcha/open-generative-ai
-- Analyse source : 2026-10-20T07:40:16.556Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

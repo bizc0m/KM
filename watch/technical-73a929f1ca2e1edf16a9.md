@@ -1,4 +1,4 @@
-# Outil pour extraire le timestamp d'une vidéo TikTok
+# tiktok-timestamp
 
 ## Statut
 
@@ -8,16 +8,20 @@ actif
 
 ## Intérêts
 
-Extraire le timestamp d'une vidéo TikTok via son URL
+Récupère l'horodatage des vidéos TikTok supprimées.
+
+## Identité
+
+- Dépôt principal : https://github.com/bellingcat/tiktok-timestamp
 
 ## Métadonnées
 
 - Nature : À vérifier
 - OS : À vérifier
-- Licence : À vérifier
+- Licence : MIT
 - Tarification : À vérifier
 - Accès : À vérifier
-- Preuve : À vérifier
+- Preuve : https://github.com/bellingcat/tiktok-timestamp
 
 
 ## Ontologie
@@ -38,23 +42,5 @@ Extraire le timestamp d'une vidéo TikTok via son URL
 - Origine : NotePlan
 - Identifiant source : 73a929f1ca2e1edf16a900e7234e8f5cfa7144cd9e5205dd539348598fa59131
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/bellingcat/tiktok-timestamp
-
-## Capacités documentées
-
-- Permet d'extraire le timestamp d'une vidéo TikTok via son URL.
-- Fonctionne avec les vidéos supprimées.
-- Requiert un navigateur basé sur Chromium récent.
-- Utilisation via GitHub Pages sans installation.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/bellingcat/tiktok-timestamp
-- Analyse source : 2026-10-20T07:02:27.487Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

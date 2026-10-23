@@ -12,6 +12,10 @@ actif
 
 Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
 
+## Identité
+
+- Dépôt principal : https://github.com/langchain-ai/langchain
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -41,30 +45,5 @@ Crée des agents capables de planifier et d'utiliser des sous-agents pour des t�
 - Origine : NotePlan
 - Identifiant source : c5a32632e586ab2c7c9c6b0311eaac2477d26a3be132e9c5b7f260a30728c0b7
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/langchain-ai/langchain
-
-## Capacités documentées
-
-- Permet de chaîner des composants interopérables pour simplifier le développement d'applications d'IA.
-- Facilite l'intégration de modèles de langage, d'embeddings, de bases de vecteurs et d'autres outils.
-- Offre des outils pour la gestion des workflows d'agents et la surveillance des applications.
-- Intègre des solutions pour le déploiement et l'évaluation des applications d'IA.
-
-## Usages documentés
-
-- uv add langchain
-- from langchain.chat_models import init_chat_model
-- model = init_chat_model("openai:gpt-5.5")
-- result = model.invoke("Hello, world!")
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/langchain-ai/langchain
-- Analyse source : 2026-10-19T14:40:42.779Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

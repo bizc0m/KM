@@ -12,6 +12,10 @@ actif
 
 Permet une collaboration équipe via un agent partagé par canal
 
+## Identité
+
+- Dépôt principal : https://github.com/anil-matcha/open-claude-tag
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -41,37 +45,5 @@ Permet une collaboration équipe via un agent partagé par canal
 - Origine : NotePlan
 - Identifiant source : 79b08dab72dcf263294d1dff7a4073435d95b7e13324019034a8594b15958fc8
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/anil-matcha/open-claude-tag
-
-## Capacités documentées
-
-- Permet un fonctionnement self-hostable sans dépendance cloud.
-- Supporte plusieurs modèles LLM comme Claude, GPT-4o, Gemini, Groq et Ollama.
-- Utilise des fichiers Markdown pour la configuration par canal.
-- Fournit une mémoire curatée par l'agent et une création automatique de compétences.
-
-## Usages documentés
-
-- Cloner le dépôt
-- Installer les dépendances
-- Configurer les variables d'environnement
-- Créer le répertoire de canal
-- Exécuter l'application
-
-## Limites
-
-- Requiert Python 3.11+
-- Nécessite un token Slack avec Socket Mode activé
-- Dépend d'un fournisseur LLM compatible
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/anil-matcha/open-claude-tag
-- Analyse source : 2026-10-20T07:40:16.556Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

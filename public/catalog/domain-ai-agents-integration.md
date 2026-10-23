@@ -1,0 +1,27 @@
+# Connecteurs et outils des agents
+
+- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Permet aux agents de conserver une mémoire persistante sans re-expliquer.
+- [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
+- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage en modifiant des fichiers et en exécutant des commandes.
+- [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications sans dépendre de services cloud.
+- [Migration vers Kimi Code CLI](../../watch/technical-15ae02c43b612a6e8c46.md) — Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP.
+- [UI-TARS-desktop](../../watch/technical-bba9c08d417b5cda22d8.md) — Contrôle à distance des ordinateurs et navigateurs avec interface graphique
+- [mcp-x-intelligence](../../watch/technical-2f6822b143b06b36cbc7.md) — Recherche de contenu viral via des filtres d'engagement
+- [User Scanner](../../watch/technical-1d55b4cad34f154042bf.md) — Analyse des emails et usernames pour extraire des données.
+- [gemini-cli](../../watch/technical-24684c1ecca249c03e58.md) — Interagir avec Gemini via terminal pour exécuter des tâches de code
+- [Liste de serveurs MCP publics](../../watch/technical-0ddca6b2cefbbbc15347.md) — Connecter des assistants à des outils et données via des serveurs MCP.
+- [Liste de serveurs MCP publics](../../watch/technical-8c7fcab8649bc99384b3.md) — Rejoindre des serveurs MCP pour accéder à des outils et données.
+- [polymarket-mcp-server](../../watch/technical-dabb4187a6c2e7d576c7.md) — Gère les ordres et positions de trading avec des outils d'analyse et de sécurité
+- [Agent de décision multi-competences basé sur des systèmes JEV](../../watch/technical-1b568dfd20e94e409912.md) — Gérer le routage en temps réel pour optimiser les flux.
+- [ARTEMIS](../../watch/technical-951824f2cb44006850b3.md) — Permet aux agents IA de contrôler un appareil Android comme un utilisateur.
+- [NotePlan Changelog](../../watch/technical-d5330ab75d554eda8c08.md) — Ajouter des rappels fiables avec Apple Reminders.
+- [Référentiel de 50 serveurs MCP essentiels pour les agents IA](../../watch/technical-7b8e03d6451fa9dc855f.md) — Installation de serveurs MCP pour agents IA : optimisation des tâches techniques.
+- [Repository d'ingénierie de l'IA open source](../../watch/technical-ef5aab160b2c3c97dd30.md) — Apprendre l'ingénierie de l'IA via des leçons et exercices pratiques.
+- [Agent Rules Books](../../watch/agent-rules-books.md)
+- [OpenBot AI Coworkers](../../watch/openbot-ai-coworkers.md)
+- [AI Video Plugins And Skills Ayi AInotes](../../watch/ai-video-plugins-skills-ayi-ainotes.md)
+- [HyperFrames AI Video Generation Skill](../../watch/hyperframes-ai-video-generation-skill.md)
+- [Essential MCP Servers Collection](../../watch/this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi.md)
+- [Awesome MCP Servers](../../watch/awesome-mcp-servers.md)
+- [Claude AGENTS.md Config](../../watch/claude-agents-md-config-alexsoyes.md)
+- [NotePlan MCP Server](../../watch/noteplan-mcp-server.md)

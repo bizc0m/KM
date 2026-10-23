@@ -8,7 +8,11 @@ actif
 
 ## Intérêts
 
-Permet de gérer les rendez-vous sans dépendance commerciale
+Permet de gérer les disponibilités et rendez-vous
+
+## Identité
+
+- Dépôt principal : https://github.com/calcom/cal.diy
 
 ## Métadonnées
 
@@ -90,36 +94,5 @@ Permet de gérer les rendez-vous sans dépendance commerciale
 - Origine : NotePlan
 - Identifiant source : 62dd270bed5d0f573045ea670f5ad2b1ba017c4f48c0d34c38e1138523e855f3
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/calcom/cal.diy
-
-## Capacités documentées
-
-- Permet de gérer les rendez-vous et disponibilités
-- Conçu pour être self-hosted
-- Pas de fonctionnalités d'entreprise
-- Licence MIT
-
-## Usages documentés
-
-- Cloner le dépôt
-- Installer les dépendances
-- Configurer les variables d'environnement
-- Démarrer l'application
-
-## Limites
-
-- Requiert des connaissances en administration serveur
-- Requiert une base de données PostgreSQL
-- Pas de version hébergée
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/calcom/cal.diy
-- Analyse source : 2026-10-20T06:03:25.863Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

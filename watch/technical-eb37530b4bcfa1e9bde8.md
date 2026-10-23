@@ -12,6 +12,10 @@ actif
 
 Gère les dépendances et les environnements
 
+## Identité
+
+- Dépôt principal : https://github.com/njsmith/posy
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -41,27 +45,5 @@ Gère les dépendances et les environnements
 - Origine : NotePlan
 - Identifiant source : eb37530b4bcfa1e9bde8d7409db87d76058ab6820af181eb0fdd882b79070a8d
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/njsmith/posy
-
-## Capacités documentées
-
-- Permet l'installation de Python sans dépendances système
-- Gère les dépendances et les environnements
-- Fournit un résolveur basé sur l'algorithme PubGrub
-- N'inclut pas de framework de test ou de linter
-
-## Limites
-
-- Ne gère pas les versions préliminaires sans configuration
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/njsmith/posy
-- Analyse source : 2026-10-20T07:42:57.268Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

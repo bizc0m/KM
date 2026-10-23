@@ -12,6 +12,10 @@ actif
 
 Facilite la découverte des outils et compétences pour Codex CLI
 
+## Identité
+
+- Dépôt principal : https://github.com/roggeohta/awesome-codex-cli
+
 ## Métadonnées
 
 - Nature : CLI
@@ -41,23 +45,5 @@ Facilite la découverte des outils et compétences pour Codex CLI
 - Origine : NotePlan
 - Identifiant source : 8e516fbfe344018b324559e3d6e44619ecaede71e0f089ee6eaa8e5fd005aef6
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/roggeohta/awesome-codex-cli
-
-## Capacités documentées
-
-- Consolide 271 ressources en un seul endroit
-- Organisé par catégories de fonctionnalités
-- Descriptions opinionnées pour aider à choisir
-- Recommande des tutoriels et guides d'installation
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/roggeohta/awesome-codex-cli
-- Analyse source : 2026-10-19T22:23:37.450Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

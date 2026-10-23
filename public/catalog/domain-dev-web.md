@@ -1,0 +1,30 @@
+# Développement web
+
+- [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
+- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les disponibilités et planifier des rendez-vous
+- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
+- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
+- [open-grok-bot](../../watch/technical-dfc871508eb563893ba5.md) — Crée des personas bots avec des modèles spécifiques
+- [Open-Poe-AI](../../watch/technical-2d163384adb685d9a51a.md)
+- [open-slide](../../watch/technical-690719855ba11af8d90c.md)
+- [Popcorn Time](../../watch/technical-f2ad2f5dfae253d2f4b6.md) — Accéder à des contenus multimédia via des liens.
+- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
+- [@react-native-segmented-control/segmented-control](../../watch/technical-4fecf39958682d370cdb.md) — Afficher un contrôle segmenté iOS compatible sur iOS, Android et Web
+- [React Native Firebase](../../watch/technical-3681504d2fddfa84e41c.md) — Intégre Firebase dans les apps React Native
+- [React Native Skia](../../watch/technical-7cd3c79123c711ed22a3.md) — Rendu graphique 2D performant pour applications React Native
+- [react-native-async-storage/async-storage](../../watch/technical-86179b264553419a3af1.md) — Stocke des données clé-valeur persistantes dans une application React Native
+- [react-native-geolocation-service](../../watch/technical-4b680fb1ac30d77fae4c.md) — Permet d'obtenir la position avec précision sur mobile
+- [react-native-screens](../../watch/technical-86557885f3c8aeb4655f.md) — Gère les transitions et états des vues pour une navigation fluide.
+- [react-native-svg](../../watch/technical-0d363f6aa6eaa85ad3ca.md) — Afficher des graphismes vectoriels dans des applications React Native
+- [Répertoire de ressources design](../../watch/technical-0c43c4b9eb7d7f87237a.md) — Accélère le développement UI avec des ressources prêtes à l'emploi
+- [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Permet aux agents d'intégrer instantanément la plateforme pour trader.
+- [notfair-nextjs-blog](../../watch/technical-1fca81e0d4c208d8ff35.md) — Afficher des articles NotFair avec Next.js et un API privé
+- [OpenWA](../../watch/technical-aabd475730fdd2c418b7.md) — Exécute l'API WhatsApp sur un serveur interne sans dépendre de tiers
+- [Clone-Wars](../../watch/technical-f39d8a91723d2198d9aa.md) — Découvrir le code source de clones d'applications populaires.
+- [NoSignups](../../watch/technical-94515d48fc2a4b993a1f.md) — Permet d'utiliser des outils informatiques sans inscription ni email.
+- [Open Lovable](../../watch/technical-51c74448ee9079430332.md) — Crée un clone React d'un site web en quelques secondes.
+- [Outils et compétences pour la production vidéo automatisée et agente](../../watch/technical-88c715df4dbe74ef0c5a.md) — Crée des vidéos MP4 à partir de textes avec des agents AI.
+- [Pake](../../watch/technical-fd14133ed8619a60ddb0.md) — Créer une application de bureau à partir d'un site web en quelques secondes.
+- [Open Lovable Firecrawl Site Cloning](../../watch/open-lovable-firecrawl-site-cloning.md)
+- [Web Page To Desktop App Converter](../../watch/vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel.md)
+- [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)

@@ -10,6 +10,10 @@ actif
 
 Analyse des données stéréoscopiques avec des modèles préentraînés.
 
+## Identité
+
+- Dépôt principal : https://github.com/thuzhaowang/idn-solver
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -38,5 +42,5 @@ Analyse des données stéréoscopiques avec des modèles préentraînés.
 - Origine : NotePlan
 - Identifiant source : 3f991f224eb64ace6e0cac5b7bab24ce6c93e55a4e1164b638428a97ef987344
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

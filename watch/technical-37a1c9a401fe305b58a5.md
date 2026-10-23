@@ -1,4 +1,4 @@
-# WanGP : Outil de génération multimédia open source
+# WanGP
 
 ## Statut
 
@@ -6,9 +6,15 @@ actif
 
 ## Tags
 
+#synthese-vocale, #generation-video, #generation-images
+
 ## Intérêts
 
-Génère des contenus multimédia avec des modèles génératifs.
+Génère et gère des contenus multimédia avec des modèles optimisés pour faible VRAM.
+
+## Identité
+
+- Dépôt principal : https://github.com/deepbeepmeep/wan2gp
 
 ## Métadonnées
 
@@ -23,8 +29,9 @@ Génère des contenus multimédia avec des modèles génératifs.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.audio domain.media.video domain.media.image source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
+- Identifiants : domain.media.video domain.media.image domain.media.audio.voice capability.voice.synthesize capability.generate.video capability.generate.image source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Audio, vidéo et création > Audio > Voix
+- Fonctions : Traitement de la voix > Synthétiser une voix ; Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -39,23 +46,5 @@ Génère des contenus multimédia avec des modèles génératifs.
 - Origine : NotePlan
 - Identifiant source : 37a1c9a401fe305b58a564f7dd05bbc22288f395e3ddc8358c6e2ae06e0cdfa2
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/deepbeepmeep/wan2gp
-
-## Capacités documentées
-
-- Permet d'exécuter des modèles génératifs sur des GPU à faible VRAM.
-- Supporte plusieurs modalités : image, vidéo, audio et texte.
-- Fournit une interface web pour gérer et générer des contenus.
-- Intègre des outils de personnalisation et de gestion de modèles.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/deepbeepmeep/wan2gp
-- Analyse source : 2026-10-20T07:40:16.556Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

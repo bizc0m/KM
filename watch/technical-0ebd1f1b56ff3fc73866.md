@@ -10,6 +10,10 @@ actif
 
 Rechercher et visionner des films et séries en ligne
 
+## Identité
+
+- Dépôt principal : https://github.com/justchokingaround/lobster
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -38,5 +42,5 @@ Rechercher et visionner des films et séries en ligne
 - Origine : NotePlan
 - Identifiant source : 0ebd1f1b56ff3fc7386648018349d96a891e6d10825fa4a4639e80003885af82
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

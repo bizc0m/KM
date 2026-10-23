@@ -1,4 +1,4 @@
-# ViMax: Agentic Video Generation
+# ViMax
 
 ## Statut
 
@@ -10,7 +10,11 @@ actif
 
 ## Intérêts
 
-Crée des vidéos à partir d'idées ou de scénarios sans complexité technique
+Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence visuelle et narrative.
+
+## Identité
+
+- Dépôt principal : https://github.com/hkuds/vimax
 
 ## Métadonnées
 
@@ -65,42 +69,23 @@ Crée des vidéos à partir d'idées ou de scénarios sans complexité technique
 - https://arxiv.org/abs/2606.07649v2
 - https://arxiv.org/abs/2606.07649?context=cs
 - https://arxiv.org/abs/2606.07649?context=cs.AI
+- https://trio.readthedocs.io/en/stable
+- https://docs.astral.sh/uv/guides/scripts
+- https://docs.astral.sh/uv/concepts/projects/workspaces
+- https://docs.astral.sh/uv/concepts/cache
+- https://docs.astral.sh/uv
+- https://docs.astral.sh/uv/guides/projects
+- https://docs.astral.sh/uv/guides/tools
+- https://docs.astral.sh/uv/guides/install-python
+- https://docs.astral.sh/uv/pip
+- https://youtube.com/howyoutubeworks/copyright
+- https://creativecommons.org/licenses/by/4.0
+- https://pypi.org/project/uv
 
 ## Traçabilité
 
 - Origine : NotePlan
 - Identifiant source : 47bd68997bedeb6edcef358f5bb671fce01bf8a009078598f7dfdafb0f1044a4
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-19
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Identité
-
-- Dépôt principal : https://github.com/hkuds/vimax
-
-## Capacités documentées
-
-- ViMax permet de transformer une idée courte en histoire structurée, personnages, scénario, storyboard et vidéo finale.
-- ViMax convertit un scénario explicite en vidéo contrôlable avec plusieurs scènes et plans tout en préservant l'intention créative.
-- ViMax adapte des œuvres de fiction longue en récits visuels épisodiques avec compression narrative, suivi des personnages et planification des scènes.
-- ViMax intègre une interface web pour gérer les projets, les artefacts, les prévisualisations de storyboard et la configuration des fournisseurs.
-
-## Usages documentés
-
-- Cloner le dépôt
-- Installer uv
-- Configurer les API dans le fichier de configuration
-- Lancer l'interface TUI ou Web UI
-
-## Limites
-
-- Requiert des API externes pour les modèles d'IA
-- Nécessite des environnements Linux ou Windows
-- Dépend de la configuration des fournisseurs de modèles
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/hkuds/vimax
-- Analyse source : 2026-10-20T07:42:57.268Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.
