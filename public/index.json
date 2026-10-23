@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T19:30:34.890Z",
+  "at": "2026-10-23T20:30:39.152Z",
   "count": 658,
   "rows": [
     {
@@ -30625,7 +30625,7 @@
           "label": "Documentation"
         },
         {
-          "url": "https://github.com/tashfeenahmed/freellmapi/releases/tag/v0.16.8",
+          "url": "https://github.com/tashfeenahmed/freellmapi/releases/tag/v0.16.9",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
@@ -30658,7 +30658,7 @@
       "github": "",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Accéder à des modèles LLM via API unifiée",
+      "summary": "Intérêt à vérifier",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -31376,7 +31376,7 @@
         }
       ],
       "cardTitle": "FreeLLMAPI",
-      "cardInterest": "Accéder à des modèles LLM via API unifiée"
+      "cardInterest": ""
     },
     {
       "id": "watch-technical-7c881fd189f1ece84c8b-md",
@@ -35461,7 +35461,7 @@
       "github": "https://github.com/nousresearch/hermes-agent",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Gère des tâches complexes avec des modèles externes",
+      "summary": "Intérêt à vérifier",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -35935,7 +35935,7 @@
         }
       ],
       "cardTitle": "Hermes Agent",
-      "cardInterest": "Gère des tâches complexes avec des modèles externes"
+      "cardInterest": ""
     },
     {
       "id": "watch-technical-1a4e40e8e8763b4b6a1a-md",
@@ -54896,7 +54896,7 @@
     },
     {
       "id": "watch-technical-78faa425ad9343a870b8-md",
-      "title": "Open Generative AI",
+      "title": "Open-Generative-AI",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -55309,7 +55309,7 @@
       "github": "https://github.com/anil-matcha/open-generative-ai",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Génère des images et vidéos via des modèles d'IA sans filtres.",
+      "summary": "Génère des images et vidéos via des modèles open-source sans filtres.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -55925,8 +55925,8 @@
           "tag": "#macos"
         }
       ],
-      "cardTitle": "Open Generative AI",
-      "cardInterest": "Génère des images et vidéos via des modèles d'IA sans filtres."
+      "cardTitle": "Open-Generative-AI",
+      "cardInterest": "Génère des images et vidéos via des modèles open-source sans filtres."
     },
     {
       "id": "watch-technical-dfc871508eb563893ba5-md",
@@ -58770,7 +58770,7 @@
     },
     {
       "id": "watch-technical-757ce536b0a4cbc2f860-md",
-      "title": "OpenDesign",
+      "title": "OpenDesign: Workspace collaboratif pour agents AI",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -58878,7 +58878,7 @@
       "github": "https://github.com/nexu-io/open-design",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel",
+      "summary": "Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -58888,7 +58888,8 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents"
+            "domain.ai.agents",
+            "domain.ai.llm"
           ],
           "capability": [],
           "compatibility": [],
@@ -58957,6 +58958,33 @@
             "aliases": [],
             "facet": "domain",
             "path": []
+          },
+          {
+            "id": "domain.ai.llm",
+            "label": "Modèles de langage",
+            "parent": "domain.ai",
+            "aliases": [
+              "#llm",
+              "#inference",
+              "#providers",
+              "#openai-compatible",
+              "#comparaison-modeles",
+              "#inference-locale"
+            ],
+            "patterns": [
+              "\\bllm\\b",
+              "\\bqwen\\w*",
+              "\\bdeepseek\\b",
+              "\\bnotebooklm\\b",
+              "\\bgemini\\b",
+              "\\bgpt[ -]?\\d",
+              "mistral vibe"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Modèles de langage"
+            ]
           },
           {
             "id": "lifecycle.active",
@@ -59077,6 +59105,33 @@
           "path": []
         },
         {
+          "id": "domain.ai.llm",
+          "label": "Modèles de langage",
+          "parent": "domain.ai",
+          "aliases": [
+            "#llm",
+            "#inference",
+            "#providers",
+            "#openai-compatible",
+            "#comparaison-modeles",
+            "#inference-locale"
+          ],
+          "patterns": [
+            "\\bllm\\b",
+            "\\bqwen\\w*",
+            "\\bdeepseek\\b",
+            "\\bnotebooklm\\b",
+            "\\bgemini\\b",
+            "\\bgpt[ -]?\\d",
+            "mistral vibe"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Modèles de langage"
+          ]
+        },
+        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -59142,10 +59197,16 @@
           "fullLabel": "ai-agents",
           "color": "agent",
           "subjectId": "domain.ai.agents"
+        },
+        {
+          "label": "#LLM",
+          "fullLabel": "Modèles de langage",
+          "color": "llm",
+          "subjectId": "domain.ai.llm"
         }
       ],
       "cardTitle": "OpenDesign",
-      "cardInterest": "Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel"
+      "cardInterest": "Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel"
     },
     {
       "id": "watch-technical-1049081f67e5576ca9e6-md",
@@ -59182,396 +59243,6 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/zehef.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/holehe.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/mailsleuth.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/mailcat.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/emailvalidator.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/eyes.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/hashtray.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/blackbird.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/user-scanner.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/usernamesearch.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/emailkit.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/webdiver.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/subcat.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/finalrecon.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/theharvester.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/nmap.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/uscrapper.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/sublist3r.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/asn.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/webcheck.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/webcrawlingkit.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/googledorker.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/cabalbreach-haveibeenpwned.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/cabalbreach-chiasmodon.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/cabalbreach-pwnedalt.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/cabalbreach-hashid.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/hudsonrock.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/dorksint.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/mastosint.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/OSINTSky.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/OSINTChan.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/TeleGramSint.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/githubprofilesummary.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/tiktoktimestamp.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/privateigsniffer.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/protonintelligence.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/weatherscraper.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/proxyvpnchecker.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/proxyscraper.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/vindecoder.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://osintcabal.org/livecenter/coronavirosint.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/sharsil/mailcat",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://rapidapi.com/webarjos/api/email-validator-api",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/n0rz3/eyes",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/webbreacher/whatsmyname",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/anoncatalyst/webdiver",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/duty1g/subcat",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://gitlab.com/kalilinux/packages/theharvester",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/nmap/nmap",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/z0m31en7/uscrapper",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/nitefood/asn",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/theghostanalyst/google_dorker",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://gitlab.com/kalilinux/packages/hash-identifier",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/datasint/dorksint",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/osintcabal/osintsky",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/osintcabal/telegramsint",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/tipsy/profile-summary-for-github",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/kr0wz/snapintel",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/n4rr34n6/tiktok-user-info-scraper",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/bellingcat/tiktok-timestamp",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/osintcabal/cabal-weather-scraper",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/osintcabal/cabal-ip-stealth-checker-",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/osintcabal/cabal-proxy-harvester",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/osintcabal/vin-number-osint",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/osintcabal/coronavirosint",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
         }
       ],
       "github": "",
@@ -59594,8 +59265,7 @@
           "risk": [],
           "source": [
             "source.noteplan",
-            "source.x",
-            "source.github"
+            "source.x"
           ],
           "lifecycle": [
             "lifecycle.active"
@@ -59695,16 +59365,6 @@
             "path": [
               "X / Twitter"
             ]
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
           }
         ],
         "unmappedTags": []
@@ -59802,16 +59462,6 @@
           "facet": "source",
           "path": [
             "X / Twitter"
-          ]
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
           ]
         }
       ],
@@ -79599,7 +79249,7 @@
     },
     {
       "id": "watch-technical-30e283a9b3f70e35d81a-md",
-      "title": "uv : gestionnaire de projet et outil de déploiement Python",
+      "title": "uv",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -79655,7 +79305,7 @@
       "github": "https://github.com/astral-sh/uv",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Gère les dépendances de projet avec des lockfiles.",
+      "summary": "Intérêt à vérifier",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -79665,8 +79315,7 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.dev.dependencies",
-            "domain.data.organization"
+            "domain.dev.dependencies"
           ],
           "capability": [],
           "compatibility": [
@@ -79733,37 +79382,6 @@
             "aliases": [],
             "facet": "domain",
             "path": []
-          },
-          {
-            "id": "domain.data.organization",
-            "label": "Organisation du travail",
-            "parent": "domain.data",
-            "aliases": [
-              "#project-management",
-              "#calendar",
-              "#rendez-vous"
-            ],
-            "patterns": [
-              "projets et taches",
-              "gestion de projet",
-              "planification",
-              "rendez.vous"
-            ],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances",
-              "Organisation du travail"
-            ]
-          },
-          {
-            "id": "domain.data",
-            "label": "Données et connaissances",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances"
-            ]
           },
           {
             "id": "compatibility.language.python",
@@ -79902,37 +79520,6 @@
           "path": []
         },
         {
-          "id": "domain.data.organization",
-          "label": "Organisation du travail",
-          "parent": "domain.data",
-          "aliases": [
-            "#project-management",
-            "#calendar",
-            "#rendez-vous"
-          ],
-          "patterns": [
-            "projets et taches",
-            "gestion de projet",
-            "planification",
-            "rendez.vous"
-          ],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances",
-            "Organisation du travail"
-          ]
-        },
-        {
-          "id": "domain.data",
-          "label": "Données et connaissances",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances"
-          ]
-        },
-        {
           "id": "compatibility.language.python",
           "label": "Python",
           "parent": "compatibility.language",
@@ -80022,7 +79609,7 @@
         }
       ],
       "cardTitle": "uv",
-      "cardInterest": "Gère les dépendances de projet avec des lockfiles."
+      "cardInterest": ""
     },
     {
       "id": "watch-technical-a2736da3d4b4b5c419aa-md",

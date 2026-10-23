@@ -9,7 +9,7 @@
 - [CoronavirOSINT](../../watch/technical-19c0251e942e91d7ee33.md) — Analyse en temps réel des données épidémiologiques pour comparaison et suivi.
 - [DorkSint](../../watch/technical-de90088a7594bcc86157.md) — Recherche rapide de dorks pour trouver des informations via des moteurs de recherche
 - [Eyes](../../watch/technical-acd9eb29cb67574c16ec.md) — Recherche des comptes associés à une adresse email sans alerte.
-- [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md) — Accéder à des modèles LLM via API unifiée
+- [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [google_dorker](../../watch/technical-d924e27b47fa985d6e04.md) — Exécute des requêtes Google Dork pour des fins éducatives.
 - [OSINT Cabal Live Center](../../watch/technical-1049081f67e5576ca9e6.md) — Collecte d'informations publiques via des outils OSINT en ligne.
 - [OSINTSky](../../watch/technical-cdbdf85699a704f19664.md)

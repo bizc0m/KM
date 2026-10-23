@@ -1,17 +1,17 @@
 {
-  "at": "2026-10-23T19:30:35.051Z",
+  "at": "2026-10-23T20:30:39.297Z",
   "scope": "public-index-only",
   "fiches": 658,
-  "sourceReferences": 2666,
+  "sourceReferences": 2601,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
   "pendingReview": 630,
   "counts": {
-    "interest-missing": 190,
+    "interest-missing": 193,
     "keywords-missing": 90,
     "domain-unqualified": 116,
-    "primary-identity-unqualified": 22,
+    "primary-identity-unqualified": 21,
     "nature-unqualified": 608
   },
   "queue": [
@@ -467,6 +467,7 @@
       "id": "watch-technical-812162d99641f3f436b1-md",
       "title": "FreeLLMAPI",
       "reasons": [
+        "interest-missing",
         "primary-identity-unqualified",
         "nature-unqualified"
       ]
@@ -559,6 +560,7 @@
       "id": "watch-nousresearch-hermes-agent-md",
       "title": "Hermes Agent",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -839,7 +841,7 @@
     },
     {
       "id": "watch-technical-78faa425ad9343a870b8-md",
-      "title": "Open Generative AI",
+      "title": "Open-Generative-AI",
       "reasons": [
         "nature-unqualified"
       ]
@@ -898,7 +900,6 @@
       "id": "watch-technical-1049081f67e5576ca9e6-md",
       "title": "OSINT Cabal Live Center",
       "reasons": [
-        "primary-identity-unqualified",
         "nature-unqualified"
       ]
     },
@@ -1212,6 +1213,7 @@
       "id": "watch-technical-30e283a9b3f70e35d81a-md",
       "title": "uv",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
