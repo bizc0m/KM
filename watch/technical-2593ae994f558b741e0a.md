@@ -83,13 +83,13 @@ Transforme du texte en visuels pour faciliter la communication des idées
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 1099.
-- Pages lues, tweet compris : 85.
+- Liens distincts recensés : 1068.
+- Pages lues, tweet compris : 84.
 - Sources techniques analysées : 37.
-- Sources à vérifier : 44 ; analyses non terminées : 0 ; erreurs du modèle : 1.
-- Liens non lus : 958 (profondeur : 0, budget de pages : 947, délai : 0, erreurs : 11).
+- Sources à vérifier : 43 ; analyses non terminées : 0 ; erreurs du modèle : 1.
+- Liens non lus : 937 (profondeur : 0, budget de pages : 925, délai : 0, erreurs : 12).
 - Pages résumées sur extrait : 3.
-- Éléments exclus : 60 ; doublons ignorés : 0.
+- Éléments exclus : 51 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### Napkin AI - Outil de génération visuelle à partir de texte

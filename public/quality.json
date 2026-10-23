@@ -1,8 +1,8 @@
 {
-  "at": "2026-10-23T08:30:22.323Z",
+  "at": "2026-10-23T09:29:41.888Z",
   "scope": "public-index-only",
   "fiches": 658,
-  "sourceReferences": 2687,
+  "sourceReferences": 2686,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
@@ -512,6 +512,15 @@
       "id": "watch-technical-d924e27b47fa985d6e04-md",
       "title": "google_dorker",
       "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c185cfb5713fdfdca685-md",
+      "title": "gophish",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -1365,15 +1374,6 @@
       "id": "watch-technical-d85e8aba072628b2e82b-md",
       "title": "Générateur de vidéo d'embrassade IA",
       "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-c185cfb5713fdfdca685-md",
-      "title": "gophish",
-      "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },

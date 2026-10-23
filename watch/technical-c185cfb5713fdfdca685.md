@@ -42,5 +42,5 @@ Créer des campagnes de phishing pour tests de sécurité
 - Origine : NotePlan
 - Identifiant source : c185cfb5713fdfdca685423b6d1ac16d331b6cc26b0d62480768c54b8db800aa
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-22
+- Lecture KM : 2026-10-23
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

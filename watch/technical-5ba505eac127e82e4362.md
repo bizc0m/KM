@@ -36,6 +36,7 @@ Cloner des voix sans connexion internet.
 - https://x.com/i/status/2054748417084342338
 - https://trendshift.io/repositories/28176
 - https://voicestudio.sh/
+- https://github.com/debpalash/voicestudio/releases/tag/v0.5.6
 - https://supermetry.com/
 - https://raw.githubusercontent.com/debpalash/VoiceStudio/main/scripts/install.sh
 - https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/install/macos.md
@@ -61,7 +62,6 @@ Cloner des voix sans connexion internet.
 - https://opensourceprojects.dev/post/a783728a-3dfa-4fd0-86d0-bae13618689c
 - https://linkedin.com/posts/vijaydeore_someone-just-open-sourced-a-local-dubbing-activity-7462469667153055744-6496
 - https://kdnuggets.com/getting-started-with-omnivoice-studio
-- https://linkedin.com/posts/paramanantham_open-source-just-came-for-ai-dubbing-omnivoice-activity-7462598212139413506-k9or
 - https://x.com/i/status/2097695538351370675
 - https://github.com/debpalash/voicestudio/commit/3915a62cb482bb43117aaebab57d22745bd1cc21
 - https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits
@@ -75,7 +75,7 @@ Cloner des voix sans connexion internet.
 - https://github.com/debpalash/voicestudio/pull/2295
 - https://github.com/debpalash/voicestudio/pull/2296
 - https://github.com/debpalash/voicestudio/pull/2288
-- https://github.com/debpalash/voicestudio/actions/runs/39872477127
+- https://github.com/debpalash/voicestudio/pull/2969
 
 ## Traçabilité
 
@@ -88,23 +88,23 @@ Cloner des voix sans connexion internet.
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 2288.
+- Liens distincts recensés : 2335.
 - Pages lues, tweet compris : 100.
 - Sources techniques analysées : 43.
-- Sources à vérifier : 51 ; analyses non terminées : 0 ; erreurs du modèle : 2.
-- Liens non lus : 1768 (profondeur : 1470, budget de pages : 284, délai : 0, erreurs : 14).
+- Sources à vérifier : 52 ; analyses non terminées : 0 ; erreurs du modèle : 1.
+- Liens non lus : 1807 (profondeur : 1516, budget de pages : 277, délai : 0, erreurs : 14).
 - Pages résumées sur extrait : 18.
-- Éléments exclus : 424 ; doublons ignorés : 1.
+- Éléments exclus : 432 ; doublons ignorés : 1.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### VoiceStudio
 
-Outil open-source pour la synthèse vocale. Supporte 646 langues. Fonctionne localement. Permet la création d'audiobooks.
+Outil open-source pour la synthèse vocale et la duplication de voix. Supporte 646 langues. Fonctionne localement sans connexion. Intègre plusieurs moteurs TTS et ASR.
 
-- Outil open-source pour la synthèse vocale.
+- Outil open-source pour la synthèse vocale et la duplication de voix.
 - Supporte 646 langues.
 - Fonctionne localement sans connexion.
-- Permet la création d'audiobooks.
+- Intègre plusieurs moteurs TTS et ASR.
 
 Source : https://trendshift.io/repositories/28176 ; niveau 2.
 
@@ -118,6 +118,17 @@ VoiceStudio est un outil open source permettant la synthèse vocale, la duplicat
 - Transcrire des enregistrements audio en texte
 
 Source : https://voicestudio.sh ; niveau 2.
+
+### VoiceStudio
+
+Intégration de Twilio pour répondre aux appels téléphoniques. Connexion avec des outils comme Claude Code et OpenAI Agents SDK. Gestion des clips audio longs sur OmniVoice. Sauvegarde des chapitres d'audiobooks après coupure de courant.
+
+- VoiceStudio permet d'answer Twilio phone calls avec un greeting en voix sauvegardée.
+- VoiceStudio intègre Claude Code, Cursor, Codex CLI et OpenAI Agents SDK.
+- VoiceStudio clone des références audio longues sur OmniVoice.
+- VoiceStudio sauvegarde les chapitres d'audiobooks après une coupure de courant.
+
+Source : https://github.com/debpalash/voicestudio/releases/tag/v0.5.6 ; niveau 2.
 
 ### Supermetry - Outil d'analyse web open source
 
@@ -340,10 +351,10 @@ Source : https://voicestudio.sh/blog/why-voicestudio-pro ; niveau 3.
 
 Docker image pour VoiceStudio. Fonctionne localement sans API. Support 646 langues. Utilisation GPU ou CPU.
 
-- Docker image pour l'application VoiceStudio
-- Fonctionne localement sans dépendance cloud
-- Supporte 646 langues pour le clonage vocal
-- Possibilité d'utiliser GPU ou CPU
+- Docker image pour VoiceStudio
+- Fonctionne localement sans API
+- Support 646 langues
+- Utilisation GPU ou CPU
 
 Source : https://hub.docker.com/r/palashdeb/omnivoice-studio ; niveau 3.
 
@@ -374,26 +385,9 @@ Source : https://star-history.com/debpalash/voicestudio ; niveau 3.
 
 ### OmniVoice Studio
 
-Application open source pour traitement audio local. Support 646 langues TTS. Transcription via WhisperX. Fonctionnalités : clonage vocal, dubbing vidéo, dictation, diarisation. Backend FastAPI + SQLite.
+Application open source pour traitement audio local. Support 646 langues TTS. Transcription via WhisperX. Fonctionnalités : clonage vocal, dubbing vidéo, dictation en temps réel, diarisation. Backend FastAPI. Frontend React. Stockage SQLite.
 
-- OmniVoice Studio est une application open source pour traitement audio local
-- Supporte 646 langues pour synthèse vocale
-- Transcription via le modèle WhisperX avec alignement mot à mot
-- Fonctionnalités incluent clonage vocal, dubbing vidéo, dictation et diarisation
-
-Source : https://marktechpost.com/2026/05/26/meet-omnivoice-studio-a-local-open-source-alternative-to-elevenlabs ; niveau 3.
-
-### OmniVoice Studio
-
-Outil de clonage vocal local en 646 langues. Fonctionne hors ligne. Interface Gradio. Utilise des modèles préentraînés.
-
-- Clonage vocal local en 646 langues
-- Génère de la parole en texte dans des langues clonées
-- Interface web via Gradio
-- Fonctionne sans connexion internet
-
-Source : https://opensourceprojects.dev/post/a783728a-3dfa-4fd0-86d0-bae13618689c ; niveau 3.
-
-### OmniVoice Studio
-
-Outil de dubbing local. Gère automat
+- Application open source pour traitement audio local
+- Support 646 langues TTS via OmniVoice
+- Transcription via WhisperX avec 99 langues
+- Fonctionnalités : clonage vocal, dubbing vidéo, dictation en temps réel, diarisation

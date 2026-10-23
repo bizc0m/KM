@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T08:30:22.135Z",
+  "at": "2026-10-23T09:29:41.717Z",
   "count": 658,
   "rows": [
     {
@@ -33268,6 +33268,240 @@
       "cardInterest": "Exécute des requêtes Google Dork pour des fins éducatives."
     },
     {
+      "id": "watch-technical-c185cfb5713fdfdca685-md",
+      "title": "gophish",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "Non précisée",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/kgretzky/gophish"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [],
+      "status": "actif",
+      "path": "watch/technical-c185cfb5713fdfdca685.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-c185cfb5713fdfdca685.md",
+      "sourceUrl": "https://github.com/kgretzky/gophish",
+      "sources": [
+        {
+          "url": "https://github.com/kgretzky/gophish",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/1798305259854643354",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/kgretzky/gophish",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Créer des campagnes de phishing pour tests de sécurité",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-10-23",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.unclassified"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        }
+      ],
+      "keywords": [],
+      "cardTitle": "gophish",
+      "cardInterest": "Créer des campagnes de phishing pour tests de sécurité"
+    },
+    {
       "id": "watch-technical-9563de7ec1221e077ac4-md",
       "title": "Gradio",
       "canonical": "",
@@ -52039,6 +52273,12 @@
           "label": "Référence"
         },
         {
+          "url": "https://github.com/debpalash/voicestudio/releases/tag/v0.5.6",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
           "url": "https://supermetry.com/",
           "kind": "source",
           "role": "secondaryReference",
@@ -52189,12 +52429,6 @@
           "label": "Référence"
         },
         {
-          "url": "https://linkedin.com/posts/paramanantham_open-source-just-came-for-ai-dubbing-omnivoice-activity-7462598212139413506-k9or",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
           "url": "https://x.com/i/status/2097695538351370675",
           "kind": "social",
           "role": "originPost",
@@ -52273,7 +52507,7 @@
           "label": "Référence"
         },
         {
-          "url": "https://github.com/debpalash/voicestudio/actions/runs/39872477127",
+          "url": "https://github.com/debpalash/voicestudio/pull/2969",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
@@ -58420,7 +58654,7 @@
     },
     {
       "id": "watch-technical-757ce536b0a4cbc2f860-md",
-      "title": "OpenDesign: Workspace collaboratif pour agents AI",
+      "title": "OpenDesign",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -58465,12 +58699,6 @@
           "label": "Référence"
         },
         {
-          "url": "https://github.com/heygen-com/hyperframes",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
           "url": "https://x.com/i/status/2052809885763747935",
           "kind": "social",
           "role": "originPost",
@@ -58495,6 +58723,12 @@
           "label": "Référence"
         },
         {
+          "url": "https://code.claude.com/docs/en/skills",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
           "url": "https://github.com/1weiho/open-slide",
           "kind": "github",
           "role": "secondaryReference",
@@ -58517,18 +58751,12 @@
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
-        },
-        {
-          "url": "https://x.com/i/status/2056258502050357334",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
         }
       ],
       "github": "https://github.com/nexu-io/open-design",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel",
+      "summary": "Crée des prototypes collaboratifs avec des agents IA",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -58538,8 +58766,7 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents",
-            "domain.ai.llm"
+            "domain.ai.agents"
           ],
           "capability": [],
           "compatibility": [],
@@ -58608,33 +58835,6 @@
             "aliases": [],
             "facet": "domain",
             "path": []
-          },
-          {
-            "id": "domain.ai.llm",
-            "label": "Modèles de langage",
-            "parent": "domain.ai",
-            "aliases": [
-              "#llm",
-              "#inference",
-              "#providers",
-              "#openai-compatible",
-              "#comparaison-modeles",
-              "#inference-locale"
-            ],
-            "patterns": [
-              "\\bllm\\b",
-              "\\bqwen\\w*",
-              "\\bdeepseek\\b",
-              "\\bnotebooklm\\b",
-              "\\bgemini\\b",
-              "\\bgpt[ -]?\\d",
-              "mistral vibe"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Modèles de langage"
-            ]
           },
           {
             "id": "lifecycle.active",
@@ -58755,33 +58955,6 @@
           "path": []
         },
         {
-          "id": "domain.ai.llm",
-          "label": "Modèles de langage",
-          "parent": "domain.ai",
-          "aliases": [
-            "#llm",
-            "#inference",
-            "#providers",
-            "#openai-compatible",
-            "#comparaison-modeles",
-            "#inference-locale"
-          ],
-          "patterns": [
-            "\\bllm\\b",
-            "\\bqwen\\w*",
-            "\\bdeepseek\\b",
-            "\\bnotebooklm\\b",
-            "\\bgemini\\b",
-            "\\bgpt[ -]?\\d",
-            "mistral vibe"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Modèles de langage"
-          ]
-        },
-        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -58847,16 +59020,10 @@
           "fullLabel": "ai-agents",
           "color": "agent",
           "subjectId": "domain.ai.agents"
-        },
-        {
-          "label": "#LLM",
-          "fullLabel": "Modèles de langage",
-          "color": "llm",
-          "subjectId": "domain.ai.llm"
         }
       ],
       "cardTitle": "OpenDesign",
-      "cardInterest": "Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel"
+      "cardInterest": "Crée des prototypes collaboratifs avec des agents IA"
     },
     {
       "id": "watch-technical-d07066251c23560c4586-md",
@@ -90126,240 +90293,6 @@
       ],
       "cardTitle": "Générateur de vidéo d'embrassade IA",
       "cardInterest": "Crée des vidéos d'embrassade à partir de deux photos."
-    },
-    {
-      "id": "watch-technical-c185cfb5713fdfdca685-md",
-      "title": "gophish",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "Non précisée",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/kgretzky/gophish"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [],
-      "status": "actif",
-      "path": "watch/technical-c185cfb5713fdfdca685.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-c185cfb5713fdfdca685.md",
-      "sourceUrl": "https://github.com/kgretzky/gophish",
-      "sources": [
-        {
-          "url": "https://github.com/kgretzky/gophish",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://x.com/i/status/1798305259854643354",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        }
-      ],
-      "github": "https://github.com/kgretzky/gophish",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Créer des campagnes de phishing pour tests de sécurité",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-22",
-      "theme": "tool",
-      "themeLabel": "À qualifier",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.unclassified"
-          ],
-          "capability": [],
-          "compatibility": [],
-          "risk": [],
-          "source": [
-            "source.noteplan",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          },
-          {
-            "id": "domain.unclassified",
-            "label": "À qualifier",
-            "parent": "domain",
-            "aliases": [],
-            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
-            "facet": "domain",
-            "path": [
-              "À qualifier"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        },
-        {
-          "id": "domain.unclassified",
-          "label": "À qualifier",
-          "parent": "domain",
-          "aliases": [],
-          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
-          "facet": "domain",
-          "path": [
-            "À qualifier"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        }
-      ],
-      "keywords": [],
-      "cardTitle": "gophish",
-      "cardInterest": "Créer des campagnes de phishing pour tests de sécurité"
     },
     {
       "id": "watch-technical-04eb6674f0cfa4208b0e-md",
