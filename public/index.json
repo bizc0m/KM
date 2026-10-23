@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T11:29:50.378Z",
+  "at": "2026-10-23T12:29:54.815Z",
   "count": 658,
   "rows": [
     {
@@ -19955,12 +19955,6 @@
           "label": "Référence"
         },
         {
-          "url": "https://ko-fi.com/cloakhq",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
           "url": "https://github.com/manaskarra",
           "kind": "github",
           "role": "secondaryReference",
@@ -19968,12 +19962,6 @@
         },
         {
           "url": "https://github.com/dgtlmoon",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/245678000000",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
@@ -19988,7 +19976,7 @@
       "github": "https://github.com/cloakhq/cloakbrowser",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet de contourner les systèmes anti-bot avec un navigateur furtif.",
+      "summary": "Contourner les détections anti-bot avec des paramètres de furtivité",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -20372,7 +20360,7 @@
         }
       ],
       "cardTitle": "CloakBrowser",
-      "cardInterest": "Permet de contourner les systèmes anti-bot avec un navigateur furtif."
+      "cardInterest": "Contourner les détections anti-bot avec des paramètres de furtivité"
     },
     {
       "id": "watch-technical-fca1fec32410e408c140-md",
@@ -20684,7 +20672,7 @@
       "github": "https://github.com/hmbown/deepseek-tui",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Exécute des tâches de codage en modifiant des fichiers et en exécutant des commandes.",
+      "summary": "Exécute des tâches dans le terminal avec des modèles. Gère les fichiers et les commandes.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -20695,9 +20683,8 @@
         "facets": {
           "domain": [
             "domain.ai.agents.coding",
-            "domain.ai.llm",
-            "domain.dev.quality",
-            "domain.ai.agents.integration"
+            "domain.ai.agents.integration",
+            "domain.ai.llm"
           ],
           "capability": [
             "capability.code.assist"
@@ -20794,6 +20781,27 @@
             "path": []
           },
           {
+            "id": "domain.ai.agents.integration",
+            "label": "Connecteurs et outils des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#mcp",
+              "#mcp-server",
+              "#integrations",
+              "#agent-instructions",
+              "#agents-md",
+              "#agent-skill",
+              "#plugins"
+            ],
+            "patterns": [],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Connecteurs et outils des agents"
+            ]
+          },
+          {
             "id": "domain.ai.llm",
             "label": "Modèles de langage",
             "parent": "domain.ai",
@@ -20818,73 +20826,6 @@
             "path": [
               "Intelligence artificielle",
               "Modèles de langage"
-            ]
-          },
-          {
-            "id": "domain.dev.quality",
-            "label": "Qualité du code",
-            "parent": "domain.dev",
-            "aliases": [
-              "#code-review",
-              "#sast",
-              "#tests",
-              "#linting"
-            ],
-            "patterns": [
-              "reformat.*code",
-              "code python",
-              "codage",
-              "linting"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel",
-              "Qualité du code"
-            ]
-          },
-          {
-            "id": "domain.dev",
-            "label": "Développement logiciel",
-            "parent": "domain",
-            "aliases": [
-              "#coding",
-              "#devtools",
-              "#editor",
-              "#code-quality"
-            ],
-            "patterns": [
-              "developpement logiciel",
-              "software development",
-              "ingenierie logicielle",
-              "developpement",
-              "programmat",
-              "modifier.*fichiers.*projet",
-              "modifier un projet"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel"
-            ]
-          },
-          {
-            "id": "domain.ai.agents.integration",
-            "label": "Connecteurs et outils des agents",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#mcp",
-              "#mcp-server",
-              "#integrations",
-              "#agent-instructions",
-              "#agents-md",
-              "#agent-skill",
-              "#plugins"
-            ],
-            "patterns": [],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Connecteurs et outils des agents"
             ]
           },
           {
@@ -21110,6 +21051,27 @@
           "path": []
         },
         {
+          "id": "domain.ai.agents.integration",
+          "label": "Connecteurs et outils des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#mcp",
+            "#mcp-server",
+            "#integrations",
+            "#agent-instructions",
+            "#agents-md",
+            "#agent-skill",
+            "#plugins"
+          ],
+          "patterns": [],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Connecteurs et outils des agents"
+          ]
+        },
+        {
           "id": "domain.ai.llm",
           "label": "Modèles de langage",
           "parent": "domain.ai",
@@ -21134,73 +21096,6 @@
           "path": [
             "Intelligence artificielle",
             "Modèles de langage"
-          ]
-        },
-        {
-          "id": "domain.dev.quality",
-          "label": "Qualité du code",
-          "parent": "domain.dev",
-          "aliases": [
-            "#code-review",
-            "#sast",
-            "#tests",
-            "#linting"
-          ],
-          "patterns": [
-            "reformat.*code",
-            "code python",
-            "codage",
-            "linting"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel",
-            "Qualité du code"
-          ]
-        },
-        {
-          "id": "domain.dev",
-          "label": "Développement logiciel",
-          "parent": "domain",
-          "aliases": [
-            "#coding",
-            "#devtools",
-            "#editor",
-            "#code-quality"
-          ],
-          "patterns": [
-            "developpement logiciel",
-            "software development",
-            "ingenierie logicielle",
-            "developpement",
-            "programmat",
-            "modifier.*fichiers.*projet",
-            "modifier un projet"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel"
-          ]
-        },
-        {
-          "id": "domain.ai.agents.integration",
-          "label": "Connecteurs et outils des agents",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#mcp",
-            "#mcp-server",
-            "#integrations",
-            "#agent-instructions",
-            "#agents-md",
-            "#agent-skill",
-            "#plugins"
-          ],
-          "patterns": [],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Connecteurs et outils des agents"
           ]
         },
         {
@@ -21367,7 +21262,7 @@
         }
       ],
       "cardTitle": "CodeWhale",
-      "cardInterest": "Exécute des tâches de codage en modifiant des fichiers et en exécutant des commandes."
+      "cardInterest": "Exécute des tâches dans le terminal avec des modèles."
     },
     {
       "id": "watch-technical-8c3dc2a0187cafccea2a-md",
@@ -35548,7 +35443,7 @@
       "github": "https://github.com/nousresearch/hermes-agent",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Gère des tâches complexes avec des modèles externes",
+      "summary": "Intérêt à vérifier",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -36022,7 +35917,7 @@
         }
       ],
       "cardTitle": "Hermes Agent",
-      "cardInterest": "Gère des tâches complexes avec des modèles externes"
+      "cardInterest": ""
     },
     {
       "id": "watch-technical-1a4e40e8e8763b4b6a1a-md",
@@ -37982,126 +37877,6 @@
         },
         {
           "url": "https://techtalkswithgaurav.blogspot.com/2020/06/your-personal-assistant-jarvis.html",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://djangoproject.com/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://trypyramid.com/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://bottlepy.org/docs/dev",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://tornadoweb.org/en/stable",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fastapi.tiangolo.com/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Tkinter",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://pygobject.gnome.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://wiki.qt.io/Qt_for_Python",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://kivy.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://dearpygui.readthedocs.io/en/latest",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://scikit-learn.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://huggingface.co/docs/transformers/index",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://scipy.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://pandas.pydata.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://ipython.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://buildbot.net/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://trac.edgewall.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://roundup-tracker.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://openstack.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://xon.sh/",
           "kind": "source",
           "role": "secondaryReference",
           "label": "Référence"
@@ -58963,7 +58738,7 @@
     },
     {
       "id": "watch-technical-757ce536b0a4cbc2f860-md",
-      "title": "OpenDesign",
+      "title": "OpenDesign: Workspace collaboratif pour agents AI",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -59060,12 +58835,18 @@
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
+        },
+        {
+          "url": "https://x.com/i/status/2056258502050357334",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
         }
       ],
       "github": "https://github.com/nexu-io/open-design",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des prototypes collaboratifs avec des agents IA",
+      "summary": "Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -59075,7 +58856,8 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents"
+            "domain.ai.agents",
+            "domain.ai.llm"
           ],
           "capability": [],
           "compatibility": [],
@@ -59144,6 +58926,33 @@
             "aliases": [],
             "facet": "domain",
             "path": []
+          },
+          {
+            "id": "domain.ai.llm",
+            "label": "Modèles de langage",
+            "parent": "domain.ai",
+            "aliases": [
+              "#llm",
+              "#inference",
+              "#providers",
+              "#openai-compatible",
+              "#comparaison-modeles",
+              "#inference-locale"
+            ],
+            "patterns": [
+              "\\bllm\\b",
+              "\\bqwen\\w*",
+              "\\bdeepseek\\b",
+              "\\bnotebooklm\\b",
+              "\\bgemini\\b",
+              "\\bgpt[ -]?\\d",
+              "mistral vibe"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Modèles de langage"
+            ]
           },
           {
             "id": "lifecycle.active",
@@ -59264,6 +59073,33 @@
           "path": []
         },
         {
+          "id": "domain.ai.llm",
+          "label": "Modèles de langage",
+          "parent": "domain.ai",
+          "aliases": [
+            "#llm",
+            "#inference",
+            "#providers",
+            "#openai-compatible",
+            "#comparaison-modeles",
+            "#inference-locale"
+          ],
+          "patterns": [
+            "\\bllm\\b",
+            "\\bqwen\\w*",
+            "\\bdeepseek\\b",
+            "\\bnotebooklm\\b",
+            "\\bgemini\\b",
+            "\\bgpt[ -]?\\d",
+            "mistral vibe"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Modèles de langage"
+          ]
+        },
+        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -59329,10 +59165,16 @@
           "fullLabel": "ai-agents",
           "color": "agent",
           "subjectId": "domain.ai.agents"
+        },
+        {
+          "label": "#LLM",
+          "fullLabel": "Modèles de langage",
+          "color": "llm",
+          "subjectId": "domain.ai.llm"
         }
       ],
       "cardTitle": "OpenDesign",
-      "cardInterest": "Crée des prototypes collaboratifs avec des agents IA"
+      "cardInterest": "Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel"
     },
     {
       "id": "watch-technical-d07066251c23560c4586-md",

@@ -69,13 +69,13 @@ Anonymise les données sensibles avant transmission
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 1308.
-- Pages lues, tweet compris : 44.
+- Liens distincts recensés : 1334.
+- Pages lues, tweet compris : 43.
 - Sources techniques analysées : 24.
-- Sources à vérifier : 18 ; analyses non terminées : 0 ; erreurs du modèle : 1.
-- Liens non lus : 1228 (profondeur : 1214, budget de pages : 0, délai : 0, erreurs : 14).
+- Sources à vérifier : 16 ; analyses non terminées : 0 ; erreurs du modèle : 2.
+- Liens non lus : 1254 (profondeur : 1240, budget de pages : 0, délai : 0, erreurs : 14).
 - Pages résumées sur extrait : 1.
-- Éléments exclus : 38 ; doublons ignorés : 0.
+- Éléments exclus : 39 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### PromptZero : Architecture Zero Trust pour les prompts LLM

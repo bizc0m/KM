@@ -1,6 +1,6 @@
 # Applications et interfaces de bureau
 
-- [CloakBrowser](../../watch/technical-2ffdb8097dd79859932a.md) — Permet de contourner les systèmes anti-bot avec un navigateur furtif.
+- [CloakBrowser](../../watch/technical-2ffdb8097dd79859932a.md) — Contourner les détections anti-bot avec des paramètres de furtivité
 - [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [ShotGlass](../../watch/technical-8ae8d27d1412df2cdc2d.md) — enregistrer et éditer des captures d'écran avec IA

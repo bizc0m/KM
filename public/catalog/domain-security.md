@@ -5,7 +5,7 @@
 - [Cabal Proxy Harvester](../../watch/technical-dee6cae45f8c3798057c.md) — Collecte et vérification continue des proxies HTTP et SOCKS5
 - [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Détecte rapidement les types d'IP et leur risque.
 - [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Afficher les alertes météo en temps réel via terminal
-- [CloakBrowser](../../watch/technical-2ffdb8097dd79859932a.md) — Permet de contourner les systèmes anti-bot avec un navigateur furtif.
+- [CloakBrowser](../../watch/technical-2ffdb8097dd79859932a.md) — Contourner les détections anti-bot avec des paramètres de furtivité
 - [CoronavirOSINT](../../watch/technical-19c0251e942e91d7ee33.md) — Analyse en temps réel des données épidémiologiques pour comparaison et suivi.
 - [DorkSint](../../watch/technical-de90088a7594bcc86157.md) — Recherche rapide de dorks pour trouver des informations via des moteurs de recherche
 - [Eyes](../../watch/technical-acd9eb29cb67574c16ec.md) — Recherche des comptes associés à une adresse email sans alerte.

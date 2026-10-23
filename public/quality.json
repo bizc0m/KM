@@ -1,14 +1,14 @@
 {
-  "at": "2026-10-23T11:29:50.533Z",
+  "at": "2026-10-23T12:29:54.964Z",
   "scope": "public-index-only",
   "fiches": 658,
-  "sourceReferences": 2687,
+  "sourceReferences": 2666,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
   "pendingReview": 630,
   "counts": {
-    "interest-missing": 192,
+    "interest-missing": 193,
     "keywords-missing": 90,
     "domain-unqualified": 117,
     "primary-identity-unqualified": 22,
@@ -559,6 +559,7 @@
       "id": "watch-nousresearch-hermes-agent-md",
       "title": "Hermes Agent",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
