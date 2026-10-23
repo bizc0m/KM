@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T17:30:21.541Z",
+  "at": "2026-10-23T18:30:30.531Z",
   "scope": "public-index-only",
   "fiches": 658,
   "sourceReferences": 2667,
@@ -8,7 +8,7 @@
   "primaryDuplicateGroups": [],
   "pendingReview": 630,
   "counts": {
-    "interest-missing": 190,
+    "interest-missing": 189,
     "keywords-missing": 89,
     "domain-unqualified": 116,
     "primary-identity-unqualified": 22,
@@ -869,7 +869,6 @@
       "id": "watch-technical-690719855ba11af8d90c-md",
       "title": "open-slide",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },

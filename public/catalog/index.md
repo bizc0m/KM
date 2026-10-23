@@ -6,7 +6,7 @@
 - [Orchestration des agents](domain-ai-agents-orchestration.md) — 13 fiches
 - [Agents de développement](domain-ai-agents-coding.md) — 47 fiches
 - [Compétences des agents](domain-ai-agents-skills.md) — 40 fiches
-- [Modèles de langage](domain-ai-llm.md) — 59 fiches
+- [Modèles de langage](domain-ai-llm.md) — 58 fiches
 - [Développement logiciel](domain-dev.md) — 112 fiches
 - [Développement web](domain-dev-web.md) — 28 fiches
 - [Qualité du code](domain-dev-quality.md) — 25 fiches

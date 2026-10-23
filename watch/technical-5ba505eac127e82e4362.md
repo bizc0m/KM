@@ -57,7 +57,6 @@ Cloner des voix sans connexion internet.
 - https://voicestudio.sh/blog/why-voicestudio-pro
 - https://hub.docker.com/r/palashdeb/omnivoice-studio
 - https://github.com/elevenlabs/elevenlabs-python
-- https://star-history.com/debpalash/voicestudio
 - https://marktechpost.com/2026/05/26/meet-omnivoice-studio-a-local-open-source-alternative-to-elevenlabs
 - https://opensourceprojects.dev/post/a783728a-3dfa-4fd0-86d0-bae13618689c
 - https://linkedin.com/posts/vijaydeore_someone-just-open-sourced-a-local-dubbing-activity-7462469667153055744-6496
@@ -75,7 +74,7 @@ Cloner des voix sans connexion internet.
 - https://github.com/debpalash/voicestudio/pull/2295
 - https://github.com/debpalash/voicestudio/pull/2296
 - https://github.com/debpalash/voicestudio/pull/2288
-- https://github.com/debpalash/voicestudio/pull/2969
+- https://github.com/debpalash/voicestudio/pull/3216
 
 ## Traçabilité
 
@@ -88,23 +87,23 @@ Cloner des voix sans connexion internet.
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 2335.
-- Pages lues, tweet compris : 100.
-- Sources techniques analysées : 43.
-- Sources à vérifier : 52 ; analyses non terminées : 0 ; erreurs du modèle : 1.
-- Liens non lus : 1807 (profondeur : 1516, budget de pages : 277, délai : 0, erreurs : 14).
+- Liens distincts recensés : 2319.
+- Pages lues, tweet compris : 102.
+- Sources techniques analysées : 42.
+- Sources à vérifier : 54 ; analyses non terminées : 0 ; erreurs du modèle : 1.
+- Liens non lus : 1789 (profondeur : 1498, budget de pages : 279, délai : 0, erreurs : 12).
 - Pages résumées sur extrait : 18.
-- Éléments exclus : 432 ; doublons ignorés : 1.
+- Éléments exclus : 433 ; doublons ignorés : 1.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### VoiceStudio
 
-Outil open-source pour la synthèse vocale et la duplication de voix. Supporte 646 langues. Fonctionne localement sans connexion. Intègre plusieurs moteurs TTS et ASR.
+[1] Outil open-source pour la synthèse vocale et la duplication de voix. [2] Supporte 646 langues. [3] Fonctionnalités incluent la transcription audio, la création d'audiobooks et le dubbing vidéo. [4] Exécution locale sans connexion internet.
 
 - Outil open-source pour la synthèse vocale et la duplication de voix.
 - Supporte 646 langues.
-- Fonctionne localement sans connexion.
-- Intègre plusieurs moteurs TTS et ASR.
+- Fonctionnalités incluent la transcription audio, la création d'audiobooks et le dubbing vidéo.
+- Exécution locale sans connexion internet.
 
 Source : https://trendshift.io/repositories/28176 ; niveau 2.
 
@@ -266,12 +265,12 @@ Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/examp
 
 ### VoiceStudio mobile apps
 
-Apps pour contrôler VoiceStudio depuis un téléphone. Communication locale sans cloud. Fonctionnalités de synthèse, clonage, dictation et dubbing.
+Apps pour contrôler VoiceStudio depuis un téléphone. Communication locale sans cloud. Fonctionnalités de synthèse, diction, et dubbing. Configuration via QR code ou adresse.
 
-- Apps iOS et Android pour contrôler VoiceStudio.
-- Communication entre téléphone et ordinateur sans cloud.
-- Fonctionnalités de synthèse vocale, clonage, dictation et dubbing.
-- Pas de comptes ni analyse de données.
+- Apps iOS et Android pour contrôler VoiceStudio depuis un téléphone
+- Communication locale sans cloud ou analyse
+- Fonctionnalités de synthèse vocale, diction et dubbing
+- Configuration via QR code ou adresse
 
 Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/mobile.md ; niveau 2.
 
@@ -369,25 +368,24 @@ SDK officiel pour ElevenLabs. Permet de générer du texte en parole. Intégre d
 
 Source : https://github.com/elevenlabs/elevenlabs-python ; niveau 3.
 
-### VoiceStudio
+### OmniVoice Studio
 
-VoiceStudio est un outil open-source alternatif à ElevenLabs. Il permet la clonage de voix, la conception de voix et le doublage de vidéos. Il est écrit en Python et sous licence AGPL-3.0.
+Application open source pour traitement audio local. Support 646 langues TTS. Transcription via WhisperX. Fonctionnalités : clonage vocal, dubbing vidéo, dictation en temps réel, diarisation.
 
-- VoiceStudio est un outil open-source.
-- VoiceStudio est un alternative à ElevenLabs.
-- VoiceStudio permet le clonage de voix.
-- VoiceStudio permet la conception de voix.
-- VoiceStudio permet le doublage de vidéos.
-- VoiceStudio est écrit en Python.
-- VoiceStudio est sous licence AGPL-3.0.
+- Application open source pour traitement audio local
+- Support 646 langues pour synthèse vocale
+- Transcription audio via WhisperX avec alignement mot à mot
+- Fonctionnalités incluent clonage vocal, dubbing vidéo, dictation et diarisation
 
-Source : https://star-history.com/debpalash/voicestudio ; niveau 3.
+Source : https://marktechpost.com/2026/05/26/meet-omnivoice-studio-a-local-open-source-alternative-to-elevenlabs ; niveau 3.
 
 ### OmniVoice Studio
 
-Application open source pour traitement audio local. Support 646 langues TTS. Transcription via WhisperX. Fonctionnalités : clonage vocal, dubbing vidéo, dictation en temps réel, diarisation. Backend FastAPI. Frontend React. Stockage SQLite.
+Outil de clonage vocal local. Support 646 langues. Fonctionne hors ligne. Interface Gradio.
 
-- Application open source pour traitement audio local
-- Support 646 langues TTS via OmniVoice
-- Transcription via WhisperX avec 99 langues
-- Fonctionnalités : clonage vocal, dubbing vidéo, dictation en temps réel, diarisation
+- Clonage vocal à partir d'un échantillon audio court.
+- Génération de parole dans 646 langues.
+- Exécution complète hors ligne sans cloud.
+- Interface accessible via navigateur web.
+
+Source : https://opensourceprojects.dev/post/a783728a-3dfa-4fd0-86d0-

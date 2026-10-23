@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Crée des présentations avec des composants React
 
 ## Identité
 
