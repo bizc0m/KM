@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T15:30:08.742Z",
+  "at": "2026-10-23T17:30:21.189Z",
   "count": 658,
   "rows": [
     {
@@ -41566,12 +41566,6 @@
         },
         {
           "url": "https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/10032",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video-Avatar-1.5",
           "kind": "source",
           "role": "secondaryReference",
           "label": "Référence"

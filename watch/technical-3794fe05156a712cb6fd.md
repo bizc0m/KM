@@ -54,7 +54,6 @@ Convertir du texte ou des images en vidéos longues.
 - https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video
 - https://huggingface.co/models?other=base_model%3Aquantized%3Ameituan-longcat%2FLongCat-Video
 - https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/10032
-- https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video-Avatar-1.5
 
 ## Traçabilité
 
@@ -67,13 +66,13 @@ Convertir du texte ou des images en vidéos longues.
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 5587.
-- Pages lues, tweet compris : 77.
-- Sources techniques analysées : 22.
+- Liens distincts recensés : 5552.
+- Pages lues, tweet compris : 76.
+- Sources techniques analysées : 21.
 - Sources à vérifier : 46 ; analyses non terminées : 0 ; erreurs du modèle : 2.
-- Liens non lus : 5449 (profondeur : 5203, budget de pages : 228, délai : 0, erreurs : 18).
+- Liens non lus : 5417 (profondeur : 5171, budget de pages : 228, délai : 0, erreurs : 18).
 - Pages résumées sur extrait : 17.
-- Éléments exclus : 68 ; doublons ignorés : 1.
+- Éléments exclus : 66 ; doublons ignorés : 1.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### LongCat-Video
@@ -148,8 +147,8 @@ Cache-dit est un moteur d'inférence basé sur PyTorch avec cache, parallélisme
 
 - Cache-dit est un moteur d'inférence PyTorch-native.
 - Cache-dit intègre des optimisations de parallélisme.
-- Cache-dit prend en charge la quantification et le déchargement CPU.
-- Cache-dit supporte plus de 40 familles de modèles DiT.
+- Cache-dit prend en charge la quantification.
+- Cache-dit est compatible avec le déchargement CPU.
 
 Source : https://github.com/vipshop/cache-dit ; niveau 2.
 
@@ -266,11 +265,12 @@ Source : https://core.ac.uk/services/recommender ; niveau 3.
 
 ### LongCat-Video
 
-Modèle de génération vidéo finetuné. Paramètres : plus de 500 milliards. Disponible sur Hugging Face.
+Modèle de génération vidéo finetuné pour des scénarios spécifiques. Paramètres dépassant 500 milliards. Disponible via Hugging Face. Prise en charge par plusieurs fournisseurs d'inférence.
 
 - Modèle de génération vidéo finetuné
-- Nombre de paramètres supérieur à 500 milliards
-- Disponible sur Hugging Face
+- Paramètres dépassant 500 milliards
+- Disponible via Hugging Face
+- Prise en charge par plusieurs fournisseurs d'inférence
 
 Source : https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video ; niveau 3.
 
@@ -281,6 +281,7 @@ Modèle vidéo quantisé pour Hugging Face. Paramètres  500B. Disponible via pl
 - Modèle vidéo quantisé pour Hugging Face
 - Nombre de paramètres supérieur à 500 milliards
 - Disponible via plusieurs fournisseurs d'inférence
+- Modèle associé à meituan-longcat
 
 Source : https://huggingface.co/models?other=base_model%3Aquantized%3Ameituan-longcat%2FLongCat-Video ; niveau 3.
 
@@ -295,13 +296,3 @@ Projet de création d'un avatar vidéo basé sur des dessins. Utilisation de mod
 - Création d'un avatar vidéo à partir d'un dessin simple.
 
 Source : https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/10032 ; niveau 3.
-
-### LongCat-Video-Avatar-1.5
-
-Modèle vidéo finetuné pour création d'avatar. Paramètres : 500B. Disponible sur Hugging Face.
-
-- Modèle vidéo finetuné pour création d'avatar
-- Paramètres : plus de 500 milliards
-- Disponible sur Hugging Face
-
-Source : https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video-Avatar-1.5 ; niveau 3.

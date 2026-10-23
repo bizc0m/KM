@@ -45,13 +45,13 @@ Crée des plans de sol avec des mesures exactes.
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 14.
-- Pages lues, tweet compris : 6.
+- Liens distincts recensés : 75.
+- Pages lues, tweet compris : 9.
 - Sources techniques analysées : 3.
-- Sources à vérifier : 3 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 9 (profondeur : 1, budget de pages : 0, délai : 0, erreurs : 8).
+- Sources à vérifier : 6 ; analyses non terminées : 0 ; erreurs du modèle : 0.
+- Liens non lus : 39 (profondeur : 33, budget de pages : 0, délai : 0, erreurs : 6).
 - Pages résumées sur extrait : 0.
-- Éléments exclus : 0 ; doublons ignorés : 0.
+- Éléments exclus : 28 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### Arcada
