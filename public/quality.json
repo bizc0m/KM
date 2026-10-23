@@ -1,8 +1,8 @@
 {
-  "at": "2026-10-23T20:30:39.297Z",
+  "at": "2026-10-23T21:30:43.803Z",
   "scope": "public-index-only",
   "fiches": 658,
-  "sourceReferences": 2601,
+  "sourceReferences": 2576,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
@@ -11,7 +11,7 @@
     "interest-missing": 193,
     "keywords-missing": 90,
     "domain-unqualified": 116,
-    "primary-identity-unqualified": 21,
+    "primary-identity-unqualified": 22,
     "nature-unqualified": 608
   },
   "queue": [
@@ -1130,6 +1130,13 @@
       ]
     },
     {
+      "id": "watch-technical-f7ea866b53ea3110371c-md",
+      "title": "SuperSplat Editor",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-763a276cbab62cfc7a39-md",
       "title": "T3Bench",
       "reasons": [
@@ -1279,6 +1286,7 @@
       "id": "watch-technical-143ce5c3c11e34fe9ea8-md",
       "title": "VoiceBox",
       "reasons": [
+        "primary-identity-unqualified",
         "nature-unqualified"
       ]
     },
@@ -2806,13 +2814,6 @@
       "title": "Spacesuit",
       "reasons": [
         "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-f7ea866b53ea3110371c-md",
-      "title": "SuperSplat Editor",
-      "reasons": [
         "nature-unqualified"
       ]
     },

@@ -19,6 +19,7 @@
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md)
 - [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée des applications sans installation locale avec des outils open source.
+- [SuperSplat Editor](../../watch/technical-f7ea866b53ea3110371c.md) — Permet d'éditer des splats 3D directement dans le navigateur
 - [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Analyse de type rapide avec diagnostics précis pour code Python
 - [velox](../../watch/technical-a2736da3d4b4b5c419aa.md) — Synchronise des objets JSON en temps réel entre serveur et client.
 - [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)

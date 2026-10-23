@@ -55,7 +55,6 @@ Cloner des voix pour des agents IA sans dépendance externe
 - https://github.com/jamiepine/voicebox/tree/v0.5.0
 - https://github.com/jamiepine/voicebox/commit/2bcb98d1a8b6fe05e15fbc1559e3085669e4035d
 - https://github.com/jamiepine/voicebox/commit/ed2eec591a78967678be9fa7e35217b9c7da164b
-- https://github.com/jamiepine/voicebox/pull/530
 - https://github.com/jamiepine/voicebox/tree/v0.4.4
 - https://github.com/jamiepine/voicebox/commit/74e004400f48246bb22d48b8b6ea09c8de049667
 - https://github.com/jamiepine/voicebox/pull/524
@@ -66,14 +65,11 @@ Cloner des voix pour des agents IA sans dépendance externe
 - https://github.com/jamiepine/voicebox/pull/521
 - https://github.com/jamiepine/voicebox/releases/tag/v0.4.2
 - https://github.com/jamiepine/voicebox/commit/0f97300b4df64bed8857e09996f419fe932c6c0e
-- https://github.com/jamiepine/voicebox/pull/508
 - https://github.com/jamiepine/voicebox/pull/502
 - https://github.com/jamiepine/voicebox/pull/501
-- https://github.com/jamiepine/voicebox/pull/486
 - https://github.com/jamiepine/voicebox/pull/506
 - https://github.com/jamiepine/voicebox/pull/487
 - https://github.com/jamiepine/voicebox/pull/498
-- https://github.com/jamiepine/voicebox/pull/484
 - https://github.com/jamiepine/voicebox/pull/488
 - https://github.com/jamiepine/voicebox/releases/tag/v0.4.1
 - https://github.com/jamiepine/voicebox/tree/v0.4.1
@@ -86,7 +82,6 @@ Cloner des voix pour des agents IA sans dépendance externe
 - https://github.com/jamiepine/voicebox/pull/433
 - https://github.com/jamiepine/voicebox/pull/447
 - https://github.com/jamiepine/voicebox/pull/457
-- https://github.com/jamiepine/voicebox/pull/418
 - https://github.com/jamiepine/voicebox/pull/470
 - https://github.com/jamiepine/voicebox/pull/450
 - https://github.com/jamiepine/voicebox/releases/tag/v0.4.0
@@ -94,7 +89,6 @@ Cloner des voix pour des agents IA sans dépendance externe
 - https://github.com/jamiepine/voicebox/commit/625e1ba5495af360ea2627c5b624afcd361c892b
 - https://github.com/jamiepine/voicebox/pull/296
 - https://github.com/jamiepine/voicebox/pull/325
-- https://github.com/jamiepine/voicebox/pull/328
 - https://github.com/jamiepine/voicebox/pull/320
 - https://github.com/jamiepine/voicebox/pull/316
 - https://github.com/jamiepine/voicebox/pull/401
@@ -115,13 +109,13 @@ Cloner des voix pour des agents IA sans dépendance externe
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 1649.
-- Pages lues, tweet compris : 102.
-- Sources techniques analysées : 69.
-- Sources à vérifier : 28 ; analyses non terminées : 0 ; erreurs du modèle : 3.
-- Liens non lus : 1347 (profondeur : 915, budget de pages : 416, délai : 0, erreurs : 16).
+- Liens distincts recensés : 1596.
+- Pages lues, tweet compris : 101.
+- Sources techniques analysées : 63.
+- Sources à vérifier : 32 ; analyses non terminées : 0 ; erreurs du modèle : 4.
+- Liens non lus : 1294 (profondeur : 915, budget de pages : 363, délai : 0, erreurs : 16).
 - Pages résumées sur extrait : 30.
-- Éléments exclus : 202 ; doublons ignorés : 1.
+- Éléments exclus : 203 ; doublons ignorés : 1.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### Mécanisme de récompenses KiiChain basé sur l'usage et la mise en veKII
@@ -357,17 +351,6 @@ Mise à jour de la version 0.4.4 vers 0.4.5 pour corriger des problèmes de char
 
 Source : https://github.com/jamiepine/voicebox/commit/ed2eec591a78967678be9fa7e35217b9c7da164b ; niveau 3.
 
-### Patch pour gérer les erreurs de charge des modèles HuggingFace en mode hors ligne
-
-Correction d'une erreur de chargement des modèles HuggingFace en mode hors ligne en encapsulant la vérification regex Mistral pour ignorer les erreurs de métadonnées.
-
-- Encapsulation de la vérification regex Mistral pour ignorer les erreurs de métadonnées.
-- Suppression des wrappers force_offline_if_cached pour éviter les erreurs de mode hors ligne.
-- Ajout de tests unitaires pour valider le comportement en mode hors ligne.
-- Le patch est appliqué au moment de l'import du module backend.
-
-Source : https://github.com/jamiepine/voicebox/pull/530 ; niveau 3.
-
 ### voicebox
 
 Studio de synthèse vocale open source. Clonage de voix. Génération de parole. Effets post-traitement. Éditeur de projets.
@@ -390,20 +373,44 @@ Mise à jour de Voicebox vers la version 0.4.4 avec des corrections de fiabilit�
 
 Source : https://github.com/jamiepine/voicebox/commit/74e004400f48246bb22d48b8b6ea09c8de049667 ; niveau 3.
 
-### Correction des comportements de mise en cache des modèles
+### fix(offline): remove inference-path HF_HUB_OFFLINE guards
 
-La mise en cache des modèles a été corrigée pour respecter les paramètres du processus.
+Revert force_offline_if_cached use in inference methods. Fix offline mode global flip. Allow online metadata calls.
 
-- La mise en cache des modèles respecte désormais les paramètres du processus.
-- Les erreurs de connexion sont gérées sans interruption du processus.
-- Les appels à l'API sont maintenant gérés selon l'état actuel de HF_HUB_OFFLINE.
-- Les modèles sont chargés selon l'état du processus sans forcer le mode hors ligne.
+- Reverts inference-path use of force_offline_if_cached
+- Removes global HF_HUB_OFFLINE flip
+- Restores online metadata call capability
+- Fixes offline mode timeout issues
 
 Source : https://github.com/jamiepine/voicebox/pull/524 ; niveau 3.
 
-### Protection contre les blocages en mode hors ligne lors de l'inférence
+### fix(offline): guard inference paths with HF_HUB_OFFLINE
 
-Amélioration de la fiabilité en mode hors ligne pour les modèles TTS/STT chargés en cache.
+Prévient les blocages en ligne lors de l'inférence après chargement des modèles. Protège les recherches de configuration en mode hors ligne. Applique le guard à plusieurs backend TTS/STT. Gère les cas d'utilisation hors ligne.
 
-- Prévient les blocages lors de l'inférence sans connexion réseau.
-- Applique le mo
+- Prévient les blocages en ligne lors de l'inférence après chargement des modèles.
+- Protège les recherches de configuration en mode hors ligne.
+- Applique le guard à plusieurs backend TTS/STT.
+- Gère les cas d'utilisation hors ligne.
+
+Source : https://github.com/jamiepine/voicebox/pull/503 ; niveau 3.
+
+### Mise à jour de voicebox v0.4.3
+
+Mise à jour de voicebox avec des fixes de fiabilité.
+
+- Fixe de notarisation des DMG macOS pour permettre l'installation via Homebrew
+- Correction des dialogues "app isn't signed" sur les Macs Intel
+- Mise à jour des voix japonaises Kokoro pour éviter les plantages
+
+Source : https://github.com/jamiepine/voicebox/releases/tag/v0.4.3 ; niveau 3.
+
+### Mise à jour de version 0.4.3 pour Voicebox
+
+Mise à jour de Voicebox vers la version 0.4.3 avec des corrections de fiabilité.
+
+- Correction des problèmes de notarisation macOS DMG
+- Fix des voix japonaises Kokoro sur installation fraîche
+- Amélioration de la compatibilité macOS 15 Sequoia
+
+Source : https://github.com/jamiepine/voi

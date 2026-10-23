@@ -10,7 +10,7 @@
 - [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les rendez-vous sans dépendance commerciale.
 - [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Génère des données 3D à partir de points de contrôle.
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md)
-- [CloakBrowser](../../watch/technical-2ffdb8097dd79859932a.md) — Contourner les détections anti-bot avec des paramètres de furtivité
+- [CloakBrowser](../../watch/technical-2ffdb8097dd79859932a.md) — Permet de contourner les systèmes anti-bot avec un navigateur furtif.
 - [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Exécute des tâches de codage localement avec un éditeur.
 - [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md)
 - [DeepSeek-Reasonix](../../watch/technical-c292611ef4a4a5e37455.md) — Exécute des tâches de codage avec un modèle d'IA configuré

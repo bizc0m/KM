@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T20:30:39.152Z",
+  "at": "2026-10-23T21:30:43.660Z",
   "count": 658,
   "rows": [
     {
@@ -19994,7 +19994,7 @@
       "github": "https://github.com/cloakhq/cloakbrowser",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Contourner les détections anti-bot avec des paramètres de furtivité",
+      "summary": "Permet de contourner les systèmes anti-bot avec un navigateur furtif.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -20378,7 +20378,7 @@
         }
       ],
       "cardTitle": "CloakBrowser",
-      "cardInterest": "Contourner les détections anti-bot avec des paramètres de furtivité"
+      "cardInterest": "Permet de contourner les systèmes anti-bot avec un navigateur furtif."
     },
     {
       "id": "watch-technical-fca1fec32410e408c140-md",
@@ -66184,126 +66184,6 @@
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
-        },
-        {
-          "url": "https://djangoproject.com/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://trypyramid.com/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://bottlepy.org/docs/dev",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://tornadoweb.org/en/stable",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fastapi.tiangolo.com/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Tkinter",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://pygobject.gnome.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://wiki.qt.io/Qt_for_Python",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://kivy.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://dearpygui.readthedocs.io/en/latest",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://scikit-learn.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://huggingface.co/docs/transformers/index",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://scipy.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://pandas.pydata.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://ipython.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://buildbot.net/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://trac.edgewall.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://roundup-tracker.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://openstack.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://xon.sh/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
         }
       ],
       "github": "https://github.com/openbashok/promptzero",
@@ -74267,6 +74147,384 @@
       ],
       "cardTitle": "Supabase",
       "cardInterest": "Crée des applications sans installation locale avec des outils open source."
+    },
+    {
+      "id": "watch-technical-f7ea866b53ea3110371c-md",
+      "title": "SuperSplat Editor",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "MIT",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/playcanvas/supersplat"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#generation-3d"
+      ],
+      "status": "actif",
+      "path": "watch/technical-f7ea866b53ea3110371c.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-f7ea866b53ea3110371c.md",
+      "sourceUrl": "https://github.com/playcanvas/supersplat",
+      "sources": [
+        {
+          "url": "https://github.com/playcanvas/supersplat",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2056302799508697343",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/playcanvas/supersplat",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Permet d'éditer des splats 3D directement dans le navigateur",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-10-23",
+      "theme": "media",
+      "themeLabel": "Création 3D",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.infrastructure",
+            "domain.media.3d"
+          ],
+          "capability": [
+            "capability.generate.3d"
+          ],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
+            "parent": "domain",
+            "aliases": [
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
+            ],
+            "patterns": [
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Infrastructure"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.media.3d",
+            "label": "Création 3D",
+            "parent": "domain.media",
+            "aliases": [
+              "#generation-3d",
+              "#3d"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Création 3D"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "capability.generate.3d",
+            "label": "Générer un objet 3D",
+            "parent": "capability.generate",
+            "aliases": [
+              "#generation-3d"
+            ],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus",
+              "Générer un objet 3D"
+            ]
+          },
+          {
+            "id": "capability.generate",
+            "label": "Générer des contenus",
+            "parent": "capability",
+            "aliases": [],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
+          "parent": "domain",
+          "aliases": [
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
+          ],
+          "patterns": [
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Infrastructure"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.media.3d",
+          "label": "Création 3D",
+          "parent": "domain.media",
+          "aliases": [
+            "#generation-3d",
+            "#3d"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Création 3D"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "capability.generate.3d",
+          "label": "Générer un objet 3D",
+          "parent": "capability.generate",
+          "aliases": [
+            "#generation-3d"
+          ],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus",
+            "Générer un objet 3D"
+          ]
+        },
+        {
+          "id": "capability.generate",
+          "label": "Générer des contenus",
+          "parent": "capability",
+          "aliases": [],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#generation-3d",
+          "fullLabel": "generation-3d",
+          "color": "media",
+          "tag": "#generation-3d"
+        }
+      ],
+      "cardTitle": "SuperSplat Editor",
+      "cardInterest": "Permet d'éditer des splats 3D directement dans le navigateur"
     },
     {
       "id": "watch-technical-763a276cbab62cfc7a39-md",
@@ -83325,8 +83583,8 @@
         {
           "url": "https://github.com/jamiepine/voicebox",
           "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
+          "role": "secondaryReference",
+          "label": "Référence"
         },
         {
           "url": "https://x.com/i/status/2056627677420003656",
@@ -83455,12 +83713,6 @@
           "label": "Référence"
         },
         {
-          "url": "https://github.com/jamiepine/voicebox/pull/530",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
           "url": "https://github.com/jamiepine/voicebox/tree/v0.4.4",
           "kind": "github",
           "role": "secondaryReference",
@@ -83521,12 +83773,6 @@
           "label": "Référence"
         },
         {
-          "url": "https://github.com/jamiepine/voicebox/pull/508",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
           "url": "https://github.com/jamiepine/voicebox/pull/502",
           "kind": "github",
           "role": "secondaryReference",
@@ -83534,12 +83780,6 @@
         },
         {
           "url": "https://github.com/jamiepine/voicebox/pull/501",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/486",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
@@ -83558,12 +83798,6 @@
         },
         {
           "url": "https://github.com/jamiepine/voicebox/pull/498",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/484",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
@@ -83641,12 +83875,6 @@
           "label": "Référence"
         },
         {
-          "url": "https://github.com/jamiepine/voicebox/pull/418",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
           "url": "https://github.com/jamiepine/voicebox/pull/470",
           "kind": "github",
           "role": "secondaryReference",
@@ -83684,12 +83912,6 @@
         },
         {
           "url": "https://github.com/jamiepine/voicebox/pull/325",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/328",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
@@ -83741,9 +83963,15 @@
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voi",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
         }
       ],
-      "github": "https://github.com/jamiepine/voicebox",
+      "github": "",
       "officialSite": "",
       "githubTopics": [],
       "summary": "Cloner des voix pour des agents IA sans dépendance externe",
@@ -162263,339 +162491,6 @@
       ],
       "cardTitle": "Spacesuit",
       "cardInterest": "Crée des canevas adaptatifs pour l'usage personnel"
-    },
-    {
-      "id": "watch-technical-f7ea866b53ea3110371c-md",
-      "title": "SuperSplat Editor",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "MIT",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/playcanvas/supersplat"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#generation-3d"
-      ],
-      "status": "actif",
-      "path": "watch/technical-f7ea866b53ea3110371c.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-f7ea866b53ea3110371c.md",
-      "sourceUrl": "https://github.com/playcanvas/supersplat",
-      "sources": [
-        {
-          "url": "https://github.com/playcanvas/supersplat",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://x.com/i/status/2056302799508697343",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        }
-      ],
-      "github": "https://github.com/playcanvas/supersplat",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Permet de modifier des splats 3D Gaussiens sans installation",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-19",
-      "theme": "media",
-      "themeLabel": "Création 3D",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.media.3d"
-          ],
-          "capability": [
-            "capability.generate.3d"
-          ],
-          "compatibility": [],
-          "risk": [],
-          "source": [
-            "source.noteplan",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.media.3d",
-            "label": "Création 3D",
-            "parent": "domain.media",
-            "aliases": [
-              "#generation-3d",
-              "#3d"
-            ],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création",
-              "Création 3D"
-            ]
-          },
-          {
-            "id": "domain.media",
-            "label": "Audio, vidéo et création",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "capability.generate.3d",
-            "label": "Générer un objet 3D",
-            "parent": "capability.generate",
-            "aliases": [
-              "#generation-3d"
-            ],
-            "facet": "capability",
-            "path": [
-              "Générer des contenus",
-              "Générer un objet 3D"
-            ]
-          },
-          {
-            "id": "capability.generate",
-            "label": "Générer des contenus",
-            "parent": "capability",
-            "aliases": [],
-            "facet": "capability",
-            "path": [
-              "Générer des contenus"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.media.3d",
-          "label": "Création 3D",
-          "parent": "domain.media",
-          "aliases": [
-            "#generation-3d",
-            "#3d"
-          ],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création",
-            "Création 3D"
-          ]
-        },
-        {
-          "id": "domain.media",
-          "label": "Audio, vidéo et création",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "capability.generate.3d",
-          "label": "Générer un objet 3D",
-          "parent": "capability.generate",
-          "aliases": [
-            "#generation-3d"
-          ],
-          "facet": "capability",
-          "path": [
-            "Générer des contenus",
-            "Générer un objet 3D"
-          ]
-        },
-        {
-          "id": "capability.generate",
-          "label": "Générer des contenus",
-          "parent": "capability",
-          "aliases": [],
-          "facet": "capability",
-          "path": [
-            "Générer des contenus"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#generation-3d",
-          "fullLabel": "generation-3d",
-          "color": "media",
-          "tag": "#generation-3d"
-        }
-      ],
-      "cardTitle": "SuperSplat Editor",
-      "cardInterest": "Permet de modifier des splats 3D Gaussiens sans installation"
     },
     {
       "id": "watch-technical-f2f0cf932a4277169ee7-md",

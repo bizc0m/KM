@@ -61,6 +61,7 @@
 - [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md)
 - [stable-diffusion.cpp](../../watch/technical-94c4f976278cef504540.md) — Génère des images à partir de modèles de diffusion sans dépendances externes
 - [StdGEN](../../watch/technical-39708b126c037da50e56.md) — Génère un modèle 3D détaillé à partir d'une image de référence.
+- [SuperSplat Editor](../../watch/technical-f7ea866b53ea3110371c.md) — Permet d'éditer des splats 3D directement dans le navigateur
 - [T3Bench](../../watch/technical-763a276cbab62cfc7a39.md) — Comparer les performances des modèles de génération 3D.
 - [tiktok-timestamp](../../watch/technical-73a929f1ca2e1edf16a9.md) — Récupère l'horodatage des vidéos TikTok supprimées.
 - [TikTok-User-Info-Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
@@ -125,7 +126,6 @@
 - [notfair-nextjs-blog](../../watch/technical-1fca81e0d4c208d8ff35.md) — Afficher des articles NotFair avec Next.js et un API privé
 - [open-ai-ugc](../../watch/technical-dbe2e54164b357ddcb32.md) — Génère des vidéos publicitaires UGC en quelques secondes avec des acteurs IA
 - [Pipecat](../../watch/technical-70340542d5688b508dea.md) — Crée des assistants vocaux avec reconnaissance et synthèse vocale.
-- [SuperSplat Editor](../../watch/technical-f7ea866b53ea3110371c.md) — Permet de modifier des splats 3D Gaussiens sans installation
 - [ViMax](../../watch/technical-ef1500532ddc132c577d.md) — Convertir une idée en court-métrage sans édition
 - [Chromaprint](../../watch/technical-47e117fd2115e80cd328.md) — Crée des fingerprints audio pour identifier des morceaux similaires rapidement.
 - [Comparaison des modèles d'IA](../../watch/technical-b3d3480734d063a13c32.md) — DeepSeek V4.1 Flash optimise la réponse avec 16B de paramètres actifs.
