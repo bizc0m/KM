@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T22:30:48.284Z",
+  "at": "2026-10-23T23:30:52.648Z",
   "count": 658,
   "rows": [
     {
@@ -35425,7 +35425,7 @@
       "github": "https://github.com/nousresearch/hermes-agent",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Gère des tâches complexes avec des modèles externes",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -35899,7 +35899,7 @@
         }
       ],
       "cardTitle": "Hermes Agent",
-      "cardInterest": ""
+      "cardInterest": "Gère des tâches complexes avec des modèles externes"
     },
     {
       "id": "watch-technical-1a4e40e8e8763b4b6a1a-md",
@@ -79471,7 +79471,7 @@
     },
     {
       "id": "watch-technical-30e283a9b3f70e35d81a-md",
-      "title": "uv",
+      "title": "uv : gestionnaire de projet et outil de déploiement Python",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -79527,7 +79527,7 @@
       "github": "https://github.com/astral-sh/uv",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Gère les dépendances de projet avec des lockfiles.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -79537,7 +79537,8 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.dev.dependencies"
+            "domain.dev.dependencies",
+            "domain.data.organization"
           ],
           "capability": [],
           "compatibility": [
@@ -79604,6 +79605,37 @@
             "aliases": [],
             "facet": "domain",
             "path": []
+          },
+          {
+            "id": "domain.data.organization",
+            "label": "Organisation du travail",
+            "parent": "domain.data",
+            "aliases": [
+              "#project-management",
+              "#calendar",
+              "#rendez-vous"
+            ],
+            "patterns": [
+              "projets et taches",
+              "gestion de projet",
+              "planification",
+              "rendez.vous"
+            ],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances",
+              "Organisation du travail"
+            ]
+          },
+          {
+            "id": "domain.data",
+            "label": "Données et connaissances",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances"
+            ]
           },
           {
             "id": "compatibility.language.python",
@@ -79742,6 +79774,37 @@
           "path": []
         },
         {
+          "id": "domain.data.organization",
+          "label": "Organisation du travail",
+          "parent": "domain.data",
+          "aliases": [
+            "#project-management",
+            "#calendar",
+            "#rendez-vous"
+          ],
+          "patterns": [
+            "projets et taches",
+            "gestion de projet",
+            "planification",
+            "rendez.vous"
+          ],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances",
+            "Organisation du travail"
+          ]
+        },
+        {
+          "id": "domain.data",
+          "label": "Données et connaissances",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances"
+          ]
+        },
+        {
           "id": "compatibility.language.python",
           "label": "Python",
           "parent": "compatibility.language",
@@ -79831,7 +79894,7 @@
         }
       ],
       "cardTitle": "uv",
-      "cardInterest": ""
+      "cardInterest": "Gère les dépendances de projet avec des lockfiles."
     },
     {
       "id": "watch-technical-a2736da3d4b4b5c419aa-md",

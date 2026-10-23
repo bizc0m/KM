@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T22:30:48.434Z",
+  "at": "2026-10-23T23:30:52.791Z",
   "scope": "public-index-only",
   "fiches": 658,
   "sourceReferences": 2570,
@@ -8,7 +8,7 @@
   "primaryDuplicateGroups": [],
   "pendingReview": 630,
   "counts": {
-    "interest-missing": 193,
+    "interest-missing": 191,
     "keywords-missing": 90,
     "domain-unqualified": 116,
     "primary-identity-unqualified": 22,
@@ -560,7 +560,6 @@
       "id": "watch-nousresearch-hermes-agent-md",
       "title": "Hermes Agent",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1220,7 +1219,6 @@
       "id": "watch-technical-30e283a9b3f70e35d81a-md",
       "title": "uv",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },

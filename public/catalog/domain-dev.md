@@ -42,7 +42,7 @@
 - [tygo](../../watch/technical-b19b418d3fe93785fa21.md) — Convertit des structures Go en types Typescript pour front-end
 - [UI-TARS-desktop](../../watch/technical-bba9c08d417b5cda22d8.md) — Contrôle à distance des ordinateurs et navigateurs avec interface graphique
 - [undetected-chromedriver](../../watch/technical-270127c4040820721fee.md) — Exécute des navigateurs Chromium sans détection par les services anti-bot.
-- [uv](../../watch/technical-30e283a9b3f70e35d81a.md)
+- [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Gère les dépendances de projet avec des lockfiles.
 - [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
 - [orogene](../../watch/technical-6bb0ffb5ad3771787603.md) — Installe les dépendances rapidement sans surcharger les ressources.
 - [Ruff](../../watch/technical-40c2c54a4c6490e8e3bc.md) — Vérifie et corrige le code Python rapidement avec une grande couverture de règles.
