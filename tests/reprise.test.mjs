@@ -25,3 +25,10 @@ test('source identity hash binds an ambiguous title to the repository actually p
  const c='# Generic translated resource title\n\n## Sources\n'+repo+'\nhttps://github.com/other/dependency\n\n## Traçabilité\n- Identifiant source : '+id;
  assert.deepEqual(ownedRepositories(c),[repo]);
 });
+test('public subject catalog inherits membership once and machine index omits raw traces',async()=>{
+ const fs=await import('node:fs/promises'),os=await import('node:os'),path=await import('node:path');const {buildCatalog}=await import('../scripts/km-public-catalog.mjs');const root=await fs.mkdtemp(path.join(os.tmpdir(),'km-catalog-'));
+ try{const row={id:'one',title:'<Tool>',path:'watch/tool.md',cardInterest:'Analyser un document',raw:'private trace',detail:{technical:'private trace'},classification:{facets:{domain:['domain.ai.agents','domain.ai']}}};
+ buildCatalog(root,[row],{concepts:[{id:'domain'},{id:'domain.ai',parent:'domain',label:'IA'},{id:'domain.ai.agents',parent:'domain.ai',label:'Agents'}]});
+ const parent=await fs.readFile(path.join(root,'public/catalog/domain-ai.html'),'utf8');assert.match(parent,/1 fiches/);assert.equal((parent.match(/<article>/g)||[]).length,1);assert.match(parent,/&lt;Tool&gt;/);const index=JSON.parse(await fs.readFile(path.join(root,'public/index.json')));assert.equal(index.count,1);assert.equal(index.rows[0].raw,undefined);assert.equal(index.rows[0].detail,undefined);
+ }finally{await fs.rm(root,{recursive:true,force:true});}
+});
