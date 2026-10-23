@@ -61,7 +61,6 @@ Cloner des voix pour des agents IA sans dépendance externe
 - https://github.com/jamiepine/voicebox/pull/524
 - https://github.com/jamiepine/voicebox/pull/503
 - https://github.com/jamiepine/voicebox/releases/tag/v0.4.3
-- https://github.com/jamiepine/voicebox/tree/v0.4.3
 - https://github.com/jamiepine/voicebox/commit/328bdca61c76ab47eeb35ef9a2ea5738fbd00fe9
 - https://github.com/jamiepine/voicebox/pull/523
 - https://github.com/jamiepine/voicebox/pull/521
@@ -118,8 +117,8 @@ Cloner des voix pour des agents IA sans dépendance externe
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
 - Liens distincts recensés : 1649.
 - Pages lues, tweet compris : 102.
-- Sources techniques analysées : 70.
-- Sources à vérifier : 27 ; analyses non terminées : 0 ; erreurs du modèle : 3.
+- Sources techniques analysées : 69.
+- Sources à vérifier : 28 ; analyses non terminées : 0 ; erreurs du modèle : 3.
 - Liens non lus : 1347 (profondeur : 915, budget de pages : 416, délai : 0, erreurs : 16).
 - Pages résumées sur extrait : 30.
 - Éléments exclus : 202 ; doublons ignorés : 1.
@@ -406,4 +405,5 @@ Source : https://github.com/jamiepine/voicebox/pull/524 ; niveau 3.
 
 Amélioration de la fiabilité en mode hors ligne pour les modèles TTS/STT chargés en cache.
 
-- Prévient les blocages lors de
+- Prévient les blocages lors de l'inférence sans connexion réseau.
+- Applique le mo

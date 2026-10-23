@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T12:29:54.815Z",
+  "at": "2026-10-23T13:29:59.103Z",
   "count": 658,
   "rows": [
     {
@@ -83865,12 +83865,6 @@
         },
         {
           "url": "https://github.com/jamiepine/voicebox/releases/tag/v0.4.3",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/tree/v0.4.3",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
