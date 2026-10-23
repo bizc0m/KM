@@ -1,8 +1,8 @@
 {
-  "at": "2026-10-23T10:29:46.203Z",
+  "at": "2026-10-23T11:29:50.533Z",
   "scope": "public-index-only",
   "fiches": 658,
-  "sourceReferences": 2686,
+  "sourceReferences": 2687,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
@@ -11,7 +11,7 @@
     "interest-missing": 192,
     "keywords-missing": 90,
     "domain-unqualified": 117,
-    "primary-identity-unqualified": 21,
+    "primary-identity-unqualified": 22,
     "nature-unqualified": 608
   },
   "queue": [
@@ -467,7 +467,7 @@
       "id": "watch-technical-812162d99641f3f436b1-md",
       "title": "FreeLLMAPI",
       "reasons": [
-        "interest-missing",
+        "primary-identity-unqualified",
         "nature-unqualified"
       ]
     },
@@ -839,7 +839,7 @@
     },
     {
       "id": "watch-technical-78faa425ad9343a870b8-md",
-      "title": "Open Generative AI",
+      "title": "Open-Generative-AI",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1214,6 +1214,7 @@
       "id": "watch-technical-30e283a9b3f70e35d81a-md",
       "title": "uv",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },

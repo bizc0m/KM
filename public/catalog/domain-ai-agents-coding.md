@@ -7,6 +7,7 @@
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md)
 - [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage en modifiant des fichiers et en exécutant des commandes.
 - [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Exécute des tâches de codage localement avec un éditeur.
+- [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md) — Accéder à des modèles LLM via API unifiée
 - [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Permet d'éditer des fichiers dans un environnement terminal
 - [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
 - [open-slide](../../watch/technical-690719855ba11af8d90c.md)

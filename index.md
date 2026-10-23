@@ -70,7 +70,7 @@
 | `watch-technical-a63a06d0b2276c289423-md` | `watch/technical-a63a06d0b2276c289423.md` | outil | #synthese-vocale | actif |
 | `watch-technical-f5a99e06873448a9f3ba-md` | `watch/technical-f5a99e06873448a9f3ba.md` | outil | #transcription | actif |
 | `watch-technical-7ae9451cd62fb317043f-md` | `watch/technical-7ae9451cd62fb317043f.md` | outil |  | actif |
-| `watch-technical-812162d99641f3f436b1-md` | `watch/technical-812162d99641f3f436b1.md` | outil | #chiffrement, #generation-images | actif |
+| `watch-technical-812162d99641f3f436b1-md` | `watch/technical-812162d99641f3f436b1.md` | outil | #chiffrement, #generation-images, #terminal | actif |
 | `watch-technical-7c881fd189f1ece84c8b-md` | `watch/technical-7c881fd189f1ece84c8b.md` | outil |  | actif |
 | `watch-technical-37356cc78499d8e4af94-md` | `watch/technical-37356cc78499d8e4af94.md` | outil | #generation-images, #generation-3d | actif |
 | `watch-technical-a3b183624a359158d2f2-md` | `watch/technical-a3b183624a359158d2f2.md` | outil | #pdf | actif |

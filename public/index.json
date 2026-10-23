@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T10:29:46.043Z",
+  "at": "2026-10-23T11:29:50.378Z",
   "count": 658,
   "rows": [
     {
@@ -30691,7 +30691,8 @@
       "shareable": true,
       "tags": [
         "#chiffrement",
-        "#generation-images"
+        "#generation-images",
+        "#terminal"
       ],
       "status": "actif",
       "path": "watch/technical-812162d99641f3f436b1.md",
@@ -30709,6 +30710,12 @@
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
+        },
+        {
+          "url": "https://github.com/tashfeenahmed/freellmapi/releases/tag/v0.16.8",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
         },
         {
           "url": "https://play.google.com/store/apps/details?id=co.freellmapi.app",
@@ -30738,25 +30745,29 @@
       "github": "",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Accéder à des modèles LLM via API unifiée",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
-      "theme": "llm",
-      "themeLabel": "Modèles de langage",
+      "theme": "agent",
+      "themeLabel": "Agents de développement",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
+            "domain.ai.agents.coding",
             "domain.ai.llm",
-            "domain.privacy",
-            "domain.media.image"
+            "domain.media.audio",
+            "domain.media.image",
+            "domain.privacy"
           ],
           "capability": [
             "capability.privacy.encrypt",
             "capability.generate.image"
           ],
-          "compatibility": [],
+          "compatibility": [
+            "compatibility.interface.terminal"
+          ],
           "risk": [],
           "source": [
             "source.noteplan",
@@ -30769,30 +30780,49 @@
         },
         "concepts": [
           {
-            "id": "domain.ai.llm",
-            "label": "Modèles de langage",
-            "parent": "domain.ai",
+            "id": "domain.ai.agents.coding",
+            "label": "Agents de développement",
+            "parent": "domain.ai.agents",
             "aliases": [
-              "#llm",
-              "#inference",
-              "#providers",
-              "#openai-compatible",
-              "#comparaison-modeles",
-              "#inference-locale"
+              "#agents-code",
+              "#coding-agents"
             ],
             "patterns": [
-              "\\bllm\\b",
-              "\\bqwen\\w*",
-              "\\bdeepseek\\b",
-              "\\bnotebooklm\\b",
-              "\\bgemini\\b",
-              "\\bgpt[ -]?\\d",
-              "mistral vibe"
+              "claude code",
+              "\\bcodex\\b",
+              "coding agents?",
+              "agents? de cod"
             ],
             "facet": "domain",
             "path": [
               "Intelligence artificielle",
-              "Modèles de langage"
+              "Agents IA",
+              "Agents de développement"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
             ]
           },
           {
@@ -30824,6 +30854,86 @@
             "aliases": [],
             "facet": "domain",
             "path": []
+          },
+          {
+            "id": "domain.ai.llm",
+            "label": "Modèles de langage",
+            "parent": "domain.ai",
+            "aliases": [
+              "#llm",
+              "#inference",
+              "#providers",
+              "#openai-compatible",
+              "#comparaison-modeles",
+              "#inference-locale"
+            ],
+            "patterns": [
+              "\\bllm\\b",
+              "\\bqwen\\w*",
+              "\\bdeepseek\\b",
+              "\\bnotebooklm\\b",
+              "\\bgemini\\b",
+              "\\bgpt[ -]?\\d",
+              "mistral vibe"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Modèles de langage"
+            ]
+          },
+          {
+            "id": "domain.media.audio",
+            "label": "Audio",
+            "parent": "domain.media",
+            "aliases": [
+              "#audio"
+            ],
+            "patterns": [
+              "\\baudio\\b",
+              "creation musicale",
+              "\\bvoix\\b",
+              "\\bvocale\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Audio"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "domain.media.image",
+            "label": "Images et graphisme",
+            "parent": "domain.media",
+            "aliases": [
+              "#compression-images",
+              "#generation-images",
+              "#animation-svg",
+              "#image",
+              "#design",
+              "#svg",
+              "#inspiration"
+            ],
+            "patterns": [
+              "\\bimages?\\b",
+              "\\bsvg\\b",
+              "visual intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Images et graphisme"
+            ]
           },
           {
             "id": "domain.privacy",
@@ -30862,40 +30972,6 @@
             "facet": "domain",
             "path": [
               "Cybersécurité"
-            ]
-          },
-          {
-            "id": "domain.media.image",
-            "label": "Images et graphisme",
-            "parent": "domain.media",
-            "aliases": [
-              "#compression-images",
-              "#generation-images",
-              "#animation-svg",
-              "#image",
-              "#design",
-              "#svg",
-              "#inspiration"
-            ],
-            "patterns": [
-              "\\bimages?\\b",
-              "\\bsvg\\b",
-              "visual intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création",
-              "Images et graphisme"
-            ]
-          },
-          {
-            "id": "domain.media",
-            "label": "Audio, vidéo et création",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création"
             ]
           },
           {
@@ -30940,6 +31016,38 @@
             "path": [
               "Générer des contenus"
             ]
+          },
+          {
+            "id": "compatibility.interface.terminal",
+            "label": "Terminal",
+            "parent": "compatibility.interface",
+            "aliases": [
+              "#terminal",
+              "#cli"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces",
+              "Terminal"
+            ]
+          },
+          {
+            "id": "compatibility.interface",
+            "label": "Interfaces",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
           },
           {
             "id": "lifecycle.active",
@@ -31005,30 +31113,49 @@
       },
       "concepts": [
         {
-          "id": "domain.ai.llm",
-          "label": "Modèles de langage",
-          "parent": "domain.ai",
+          "id": "domain.ai.agents.coding",
+          "label": "Agents de développement",
+          "parent": "domain.ai.agents",
           "aliases": [
-            "#llm",
-            "#inference",
-            "#providers",
-            "#openai-compatible",
-            "#comparaison-modeles",
-            "#inference-locale"
+            "#agents-code",
+            "#coding-agents"
           ],
           "patterns": [
-            "\\bllm\\b",
-            "\\bqwen\\w*",
-            "\\bdeepseek\\b",
-            "\\bnotebooklm\\b",
-            "\\bgemini\\b",
-            "\\bgpt[ -]?\\d",
-            "mistral vibe"
+            "claude code",
+            "\\bcodex\\b",
+            "coding agents?",
+            "agents? de cod"
           ],
           "facet": "domain",
           "path": [
             "Intelligence artificielle",
-            "Modèles de langage"
+            "Agents IA",
+            "Agents de développement"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
           ]
         },
         {
@@ -31060,6 +31187,86 @@
           "aliases": [],
           "facet": "domain",
           "path": []
+        },
+        {
+          "id": "domain.ai.llm",
+          "label": "Modèles de langage",
+          "parent": "domain.ai",
+          "aliases": [
+            "#llm",
+            "#inference",
+            "#providers",
+            "#openai-compatible",
+            "#comparaison-modeles",
+            "#inference-locale"
+          ],
+          "patterns": [
+            "\\bllm\\b",
+            "\\bqwen\\w*",
+            "\\bdeepseek\\b",
+            "\\bnotebooklm\\b",
+            "\\bgemini\\b",
+            "\\bgpt[ -]?\\d",
+            "mistral vibe"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Modèles de langage"
+          ]
+        },
+        {
+          "id": "domain.media.audio",
+          "label": "Audio",
+          "parent": "domain.media",
+          "aliases": [
+            "#audio"
+          ],
+          "patterns": [
+            "\\baudio\\b",
+            "creation musicale",
+            "\\bvoix\\b",
+            "\\bvocale\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Audio"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "domain.media.image",
+          "label": "Images et graphisme",
+          "parent": "domain.media",
+          "aliases": [
+            "#compression-images",
+            "#generation-images",
+            "#animation-svg",
+            "#image",
+            "#design",
+            "#svg",
+            "#inspiration"
+          ],
+          "patterns": [
+            "\\bimages?\\b",
+            "\\bsvg\\b",
+            "visual intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Images et graphisme"
+          ]
         },
         {
           "id": "domain.privacy",
@@ -31098,40 +31305,6 @@
           "facet": "domain",
           "path": [
             "Cybersécurité"
-          ]
-        },
-        {
-          "id": "domain.media.image",
-          "label": "Images et graphisme",
-          "parent": "domain.media",
-          "aliases": [
-            "#compression-images",
-            "#generation-images",
-            "#animation-svg",
-            "#image",
-            "#design",
-            "#svg",
-            "#inspiration"
-          ],
-          "patterns": [
-            "\\bimages?\\b",
-            "\\bsvg\\b",
-            "visual intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création",
-            "Images et graphisme"
-          ]
-        },
-        {
-          "id": "domain.media",
-          "label": "Audio, vidéo et création",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création"
           ]
         },
         {
@@ -31176,6 +31349,38 @@
           "path": [
             "Générer des contenus"
           ]
+        },
+        {
+          "id": "compatibility.interface.terminal",
+          "label": "Terminal",
+          "parent": "compatibility.interface",
+          "aliases": [
+            "#terminal",
+            "#cli"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces",
+            "Terminal"
+          ]
+        },
+        {
+          "id": "compatibility.interface",
+          "label": "Interfaces",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
         },
         {
           "id": "lifecycle.active",
@@ -31249,10 +31454,16 @@
           "fullLabel": "Génération d’images",
           "color": "media",
           "tag": "#generation-images"
+        },
+        {
+          "label": "#terminal",
+          "fullLabel": "terminal",
+          "color": "tool",
+          "tag": "#terminal"
         }
       ],
       "cardTitle": "FreeLLMAPI",
-      "cardInterest": ""
+      "cardInterest": "Accéder à des modèles LLM via API unifiée"
     },
     {
       "id": "watch-technical-7c881fd189f1ece84c8b-md",
@@ -54872,7 +55083,7 @@
     },
     {
       "id": "watch-technical-78faa425ad9343a870b8-md",
-      "title": "Open Generative AI",
+      "title": "Open-Generative-AI",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -55285,7 +55496,7 @@
       "github": "https://github.com/anil-matcha/open-generative-ai",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Génère des images et vidéos via des modèles d'IA sans filtres.",
+      "summary": "Génère des images et vidéos via des modèles open-source sans filtres.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -55901,8 +56112,8 @@
           "tag": "#macos"
         }
       ],
-      "cardTitle": "Open Generative AI",
-      "cardInterest": "Génère des images et vidéos via des modèles d'IA sans filtres."
+      "cardTitle": "Open-Generative-AI",
+      "cardInterest": "Génère des images et vidéos via des modèles open-source sans filtres."
     },
     {
       "id": "watch-technical-dfc871508eb563893ba5-md",
@@ -79575,7 +79786,7 @@
     },
     {
       "id": "watch-technical-30e283a9b3f70e35d81a-md",
-      "title": "uv : gestionnaire de projet et outil de déploiement Python",
+      "title": "uv",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -79631,7 +79842,7 @@
       "github": "https://github.com/astral-sh/uv",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Gère les dépendances de projet avec des lockfiles.",
+      "summary": "Intérêt à vérifier",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -79641,8 +79852,7 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.dev.dependencies",
-            "domain.data.organization"
+            "domain.dev.dependencies"
           ],
           "capability": [],
           "compatibility": [
@@ -79709,37 +79919,6 @@
             "aliases": [],
             "facet": "domain",
             "path": []
-          },
-          {
-            "id": "domain.data.organization",
-            "label": "Organisation du travail",
-            "parent": "domain.data",
-            "aliases": [
-              "#project-management",
-              "#calendar",
-              "#rendez-vous"
-            ],
-            "patterns": [
-              "projets et taches",
-              "gestion de projet",
-              "planification",
-              "rendez.vous"
-            ],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances",
-              "Organisation du travail"
-            ]
-          },
-          {
-            "id": "domain.data",
-            "label": "Données et connaissances",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances"
-            ]
           },
           {
             "id": "compatibility.language.python",
@@ -79878,37 +80057,6 @@
           "path": []
         },
         {
-          "id": "domain.data.organization",
-          "label": "Organisation du travail",
-          "parent": "domain.data",
-          "aliases": [
-            "#project-management",
-            "#calendar",
-            "#rendez-vous"
-          ],
-          "patterns": [
-            "projets et taches",
-            "gestion de projet",
-            "planification",
-            "rendez.vous"
-          ],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances",
-            "Organisation du travail"
-          ]
-        },
-        {
-          "id": "domain.data",
-          "label": "Données et connaissances",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances"
-          ]
-        },
-        {
           "id": "compatibility.language.python",
           "label": "Python",
           "parent": "compatibility.language",
@@ -79998,7 +80146,7 @@
         }
       ],
       "cardTitle": "uv",
-      "cardInterest": "Gère les dépendances de projet avec des lockfiles."
+      "cardInterest": ""
     },
     {
       "id": "watch-technical-a2736da3d4b4b5c419aa-md",

@@ -1,4 +1,4 @@
-# uv : gestionnaire de projet et outil de déploiement Python
+# uv
 
 ## Statut
 
@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Gère les dépendances de projet avec des lockfiles.
+Intérêt à vérifier
 
 ## Identité
 
@@ -29,8 +29,8 @@ Gère les dépendances de projet avec des lockfiles.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.dev.dependencies domain.data.organization compatibility.language.python source.x source.github lifecycle.active
-- Sujets : Développement logiciel > Paquets et dépendances ; Données et connaissances > Organisation du travail
+- Identifiants : domain.dev.dependencies compatibility.language.python source.x source.github lifecycle.active
+- Sujets : Développement logiciel > Paquets et dépendances
 - Compatibilités : Langages > Python
 - Provenance : X / Twitter ; GitHub
 - État : Actif
