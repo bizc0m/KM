@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T21:30:43.660Z",
+  "at": "2026-10-23T22:30:48.284Z",
   "count": 658,
   "rows": [
     {
@@ -8201,12 +8201,6 @@
           "label": "Référence"
         },
         {
-          "url": "https://skills.sh/anthropics/skills/slack-gif-creator",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
           "url": "https://skills.sh/anthropics/skills/template-skill",
           "kind": "source",
           "role": "secondaryReference",
@@ -8243,12 +8237,6 @@
           "label": "Documentation"
         },
         {
-          "url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
           "url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices",
           "kind": "source",
           "role": "documentation",
@@ -8271,30 +8259,6 @@
           "kind": "source",
           "role": "secondaryReference",
           "label": "Référence"
-        },
-        {
-          "url": "https://claude.com/resources/articles/hcltech-joins-claude-partner-network",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://claude.com/resources/articles/claude-duet",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/GuDong2003/xianyu-auto-reply-fix/HEAD/docs/configuration.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
         },
         {
           "url": "https://github.com/kaguya233qwq/myfish",

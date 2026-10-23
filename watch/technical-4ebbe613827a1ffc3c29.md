@@ -56,22 +56,16 @@ Fixer un style visuel avant génération de code pour éviter les templates inad
 - https://skills.sh/anthropics/skills/doc-coauthoring
 - https://skills.sh/anthropics/skills/algorithmic-art
 - https://skills.sh/anthropics/skills/internal-comms
-- https://skills.sh/anthropics/skills/slack-gif-creator
 - https://skills.sh/anthropics/skills/template-skill
 - https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude
 - https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization
 - https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features
 - https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
 - https://code.claude.com/docs/en/skills
-- https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork
 - https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
 - https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro
 - https://github.com/anthropics/claude-cookbooks/tree/main/skills
 - https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed
-- https://claude.com/resources/articles/hcltech-joins-claude-partner-network
-- https://claude.com/resources/articles/claude-duet
-- https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes
-- https://raw.githubusercontent.com/GuDong2003/xianyu-auto-reply-fix/HEAD/docs/configuration.md
 - https://github.com/kaguya233qwq/myfish
 - https://github.com/cv-cat/xianyuapis
 - https://github.com/finb/bark
@@ -87,13 +81,13 @@ Fixer un style visuel avant génération de code pour éviter les templates inad
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 774.
-- Pages lues, tweet compris : 87.
-- Sources techniques analysées : 41.
-- Sources à vérifier : 43 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 625 (profondeur : 609, budget de pages : 0, délai : 0, erreurs : 16).
+- Liens distincts recensés : 830.
+- Pages lues, tweet compris : 88.
+- Sources techniques analysées : 35.
+- Sources à vérifier : 50 ; analyses non terminées : 0 ; erreurs du modèle : 0.
+- Liens non lus : 683 (profondeur : 667, budget de pages : 0, délai : 0, erreurs : 16).
 - Pages résumées sur extrait : 8.
-- Éléments exclus : 61 ; doublons ignorés : 5.
+- Éléments exclus : 58 ; doublons ignorés : 5.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### Gestion de plusieurs comptes sur Xianyu avec automatisation
@@ -153,12 +147,12 @@ Source : https://anthropic.com/research/equipping-agents-for-the-real-world-with
 
 ### Création de fichiers par Claude
 
-Claude génère des fichiers Excel, PDF, documents et présentations. Il transforme des données en analyses et graphiques. Il crée des modèles financiers et tableaux de bord. Il convertit des formats comme PDF en PowerPoint.
+Claude peut créer et modifier des fichiers Excel, documents, PowerPoint et PDF. Il génère des fichiers prêts à l'emploi à partir de données ou d'instructions. Il permet de transformer des données en analyses et visualisations. Il crée des modèles financiers et des tableaux de bord.
 
-- Claude crée des fichiers Excel, PDF, documents et présentations.
-- Claude transforme des données en analyses et graphiques.
-- Claude génère des modèles financiers et tableaux de bord.
-- Claude convertit des formats comme PDF en PowerPoint.
+- Claude peut créer et modifier des fichiers Excel, documents, PowerPoint et PDF.
+- Il génère des fichiers prêts à l'emploi à partir de données ou d'instructions.
+- Il permet de transformer des données en analyses et visualisations.
+- Il crée des modèles financiers et des tableaux de bord.
 
 Source : https://claude.com/resources/articles/create-files ; niveau 2.
 
@@ -279,9 +273,8 @@ Génère des projets React 18 avec TypeScript. Intègre shadcn/ui. Compile en HT
 
 - Crée des projets React 18 avec TypeScript
 - Intègre la bibliothèque shadcn/ui
-- Compile le code en un seul fichier HTML
-- Évite les styles considérés comme "AI slop"
-- Inclut des directives de conception
+- Compile en un seul fichier HTML
+- Évite les styles "AI slop"
 
 Source : https://skills.sh/anthropics/skills/web-artifacts-builder ; niveau 3.
 
@@ -329,17 +322,6 @@ Fournit des modèles pour les communications internes. Couvre sept types de mess
 
 Source : https://skills.sh/anthropics/skills/internal-comms ; niveau 3.
 
-### slack-gif-creator
-
-Outil pour créer des GIFs optimisés pour Slack. Validation des formats. Gestion des animations. Optimisation des tailles.
-
-- Crée des GIFs optimisés pour Slack.
-- Inclut des validateurs pour vérifier la conformité.
-- Permet l'assemblage de frames avec GIFBuilder.
-- Supporte les GIFs emoji et message avec paramètres configurables.
-
-Source : https://skills.sh/anthropics/skills/slack-gif-creator ; niveau 3.
-
 ### template-skill
 
 Template Skill pour intégration de compétences. Installation via npx. Dépôt GitHub. 183K étoiles.
@@ -386,4 +368,15 @@ Source : https://support.claude.com/en/articles/10185728-understanding-claude-s-
 
 ### Agent Skills
 
-Agent Skills p
+Agent Skills permettent de spécialiser Claude pour des tâches spécifiques. Les Skills sont chargées à la demande. Les Skills peuvent inclure des instructions, des scripts et des ressources. Les Skills sont accessibles via différents produits.
+
+- Les Skills sont des ressources réutilisables basées sur le système de fichiers.
+- Les Skills peuvent être pré-construites ou personnalisées.
+- Les Skills sont utilisées pour des tâches spécifiques comme le traitement de PDF.
+- Les Skills sont accessibles via l'API Claude, Claude Platform et claude.ai.
+
+Source : https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview ; niveau 3.
+
+### Claude Code Skills
+
+Claude Code Skills permettent d'étendre les capacités de Claude en ajoutant des compétences personnalisées. Les compétences sont chargées dynamiquement lors de leur utilisation. Les comp
