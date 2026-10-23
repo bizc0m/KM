@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T13:29:59.103Z",
+  "at": "2026-10-23T14:30:03.790Z",
   "count": 658,
   "rows": [
     {
@@ -8147,7 +8147,19 @@
           "label": "Référence"
         },
         {
+          "url": "https://skills.sh/anthropics/skills/pdf",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
           "url": "https://skills.sh/anthropics/skills/docx",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://skills.sh/anthropics/skills/xlsx",
           "kind": "source",
           "role": "secondaryReference",
           "label": "Référence"
@@ -8184,6 +8196,12 @@
         },
         {
           "url": "https://skills.sh/anthropics/skills/internal-comms",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://skills.sh/anthropics/skills/slack-gif-creator",
           "kind": "source",
           "role": "secondaryReference",
           "label": "Référence"
@@ -35443,7 +35461,7 @@
       "github": "https://github.com/nousresearch/hermes-agent",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Gère des tâches complexes avec des modèles externes",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -35917,7 +35935,7 @@
         }
       ],
       "cardTitle": "Hermes Agent",
-      "cardInterest": ""
+      "cardInterest": "Gère des tâches complexes avec des modèles externes"
     },
     {
       "id": "watch-technical-1a4e40e8e8763b4b6a1a-md",
@@ -48545,17 +48563,17 @@
       "github": "https://github.com/kaguya233qwq/myfish",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Gère les tokens et la sécurité pour les bots XianYu et ClawBot.",
+      "summary": "Intérêt à vérifier",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
-      "theme": "tool",
-      "themeLabel": "À qualifier",
+      "theme": "dev",
+      "themeLabel": "Développement logiciel",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.unclassified"
+            "domain.dev"
           ],
           "capability": [],
           "compatibility": [
@@ -48572,6 +48590,38 @@
           ]
         },
         "concepts": [
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
           {
             "id": "compatibility.language.python",
             "label": "Python",
@@ -48661,30 +48711,43 @@
             "path": [
               "X / Twitter"
             ]
-          },
-          {
-            "id": "domain.unclassified",
-            "label": "À qualifier",
-            "parent": "domain",
-            "aliases": [],
-            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
-            "facet": "domain",
-            "path": [
-              "À qualifier"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
           }
         ],
         "unmappedTags": []
       },
       "concepts": [
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
         {
           "id": "compatibility.language.python",
           "label": "Python",
@@ -48774,25 +48837,6 @@
           "path": [
             "X / Twitter"
           ]
-        },
-        {
-          "id": "domain.unclassified",
-          "label": "À qualifier",
-          "parent": "domain",
-          "aliases": [],
-          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
-          "facet": "domain",
-          "path": [
-            "À qualifier"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
         }
       ],
       "keywords": [
@@ -48804,7 +48848,7 @@
         }
       ],
       "cardTitle": "myfish",
-      "cardInterest": "Gère les tokens et la sécurité pour les bots XianYu et ClawBot."
+      "cardInterest": ""
     },
     {
       "id": "watch-technical-2593ae994f558b741e0a-md",
@@ -59177,385 +59221,6 @@
       "cardInterest": "Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel"
     },
     {
-      "id": "watch-technical-d07066251c23560c4586-md",
-      "title": "Optimisation des tokens pour agents d'IA",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "Apache-2.0",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/rtk-ai/rtk"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#python"
-      ],
-      "status": "actif",
-      "path": "watch/technical-d07066251c23560c4586.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-d07066251c23560c4586.md",
-      "sourceUrl": "https://github.com/rtk-ai/rtk",
-      "sources": [
-        {
-          "url": "https://github.com/rtk-ai/rtk",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://x.com/i/status/2057218131685146713",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        }
-      ],
-      "github": "https://github.com/rtk-ai/rtk",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Intérêt à vérifier",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-23",
-      "theme": "agent",
-      "themeLabel": "Agents IA",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.ai.agents"
-          ],
-          "capability": [],
-          "compatibility": [
-            "compatibility.language.python"
-          ],
-          "risk": [],
-          "source": [
-            "source.noteplan",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.ai.agents",
-            "label": "Agents IA",
-            "parent": "domain.ai",
-            "aliases": [
-              "#agent",
-              "#agents",
-              "#ai-agents",
-              "#personal-agent",
-              "#autonomous-agent",
-              "#ai-companion",
-              "#autonomous-company",
-              "#autonomous-research"
-            ],
-            "patterns": [
-              "\\bagents?\\b",
-              "agentique",
-              "\\bopenclaw\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA"
-            ]
-          },
-          {
-            "id": "domain.ai",
-            "label": "Intelligence artificielle",
-            "parent": "domain",
-            "aliases": [
-              "#ia",
-              "#ai",
-              "#generative-ai",
-              "#ai-assistant",
-              "#creative-ai"
-            ],
-            "patterns": [
-              "\\bia\\b",
-              "\\bai\\b",
-              "intelligence artificielle",
-              "artificial intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "compatibility.language.python",
-            "label": "Python",
-            "parent": "compatibility.language",
-            "aliases": [
-              "#python"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Langages",
-              "Python"
-            ]
-          },
-          {
-            "id": "compatibility.language",
-            "label": "Langages",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Langages"
-            ]
-          },
-          {
-            "id": "compatibility",
-            "label": "Compatibilités",
-            "parent": null,
-            "aliases": [],
-            "facet": "compatibility",
-            "path": []
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.ai.agents",
-          "label": "Agents IA",
-          "parent": "domain.ai",
-          "aliases": [
-            "#agent",
-            "#agents",
-            "#ai-agents",
-            "#personal-agent",
-            "#autonomous-agent",
-            "#ai-companion",
-            "#autonomous-company",
-            "#autonomous-research"
-          ],
-          "patterns": [
-            "\\bagents?\\b",
-            "agentique",
-            "\\bopenclaw\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA"
-          ]
-        },
-        {
-          "id": "domain.ai",
-          "label": "Intelligence artificielle",
-          "parent": "domain",
-          "aliases": [
-            "#ia",
-            "#ai",
-            "#generative-ai",
-            "#ai-assistant",
-            "#creative-ai"
-          ],
-          "patterns": [
-            "\\bia\\b",
-            "\\bai\\b",
-            "intelligence artificielle",
-            "artificial intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "compatibility.language.python",
-          "label": "Python",
-          "parent": "compatibility.language",
-          "aliases": [
-            "#python"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Langages",
-            "Python"
-          ]
-        },
-        {
-          "id": "compatibility.language",
-          "label": "Langages",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Langages"
-          ]
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibilités",
-          "parent": null,
-          "aliases": [],
-          "facet": "compatibility",
-          "path": []
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#python",
-          "fullLabel": "python",
-          "color": "dev",
-          "tag": "#python"
-        }
-      ],
-      "cardTitle": "rtk",
-      "cardInterest": ""
-    },
-    {
       "id": "watch-technical-1049081f67e5576ca9e6-md",
       "title": "OSINT Cabal Live Center",
       "canonical": "",
@@ -68920,6 +68585,385 @@
       ],
       "cardTitle": "remotion",
       "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-d07066251c23560c4586-md",
+      "title": "rtk",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "Apache-2.0",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/rtk-ai/rtk"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#python"
+      ],
+      "status": "actif",
+      "path": "watch/technical-d07066251c23560c4586.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-d07066251c23560c4586.md",
+      "sourceUrl": "https://github.com/rtk-ai/rtk",
+      "sources": [
+        {
+          "url": "https://github.com/rtk-ai/rtk",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2057218131685146713",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/rtk-ai/rtk",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Filtre les sorties de commande pour réduire les tokens d'entrée.",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-10-23",
+      "theme": "agent",
+      "themeLabel": "Agents IA",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents"
+          ],
+          "capability": [],
+          "compatibility": [
+            "compatibility.language.python"
+          ],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "compatibility.language.python",
+            "label": "Python",
+            "parent": "compatibility.language",
+            "aliases": [
+              "#python"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Langages",
+              "Python"
+            ]
+          },
+          {
+            "id": "compatibility.language",
+            "label": "Langages",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Langages"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "compatibility.language.python",
+          "label": "Python",
+          "parent": "compatibility.language",
+          "aliases": [
+            "#python"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Langages",
+            "Python"
+          ]
+        },
+        {
+          "id": "compatibility.language",
+          "label": "Langages",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Langages"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#python",
+          "fullLabel": "python",
+          "color": "dev",
+          "tag": "#python"
+        }
+      ],
+      "cardTitle": "rtk",
+      "cardInterest": "Filtre les sorties de commande pour réduire les tokens d'entrée."
     },
     {
       "id": "watch-technical-a352cd98ee30cd20d69a-md",
@@ -79628,7 +79672,7 @@
     },
     {
       "id": "watch-technical-30e283a9b3f70e35d81a-md",
-      "title": "uv",
+      "title": "uv : gestionnaire de projet et outil de déploiement Python",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -79684,7 +79728,7 @@
       "github": "https://github.com/astral-sh/uv",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Gère les dépendances de projet avec des lockfiles.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -79694,7 +79738,8 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.dev.dependencies"
+            "domain.dev.dependencies",
+            "domain.data.organization"
           ],
           "capability": [],
           "compatibility": [
@@ -79761,6 +79806,37 @@
             "aliases": [],
             "facet": "domain",
             "path": []
+          },
+          {
+            "id": "domain.data.organization",
+            "label": "Organisation du travail",
+            "parent": "domain.data",
+            "aliases": [
+              "#project-management",
+              "#calendar",
+              "#rendez-vous"
+            ],
+            "patterns": [
+              "projets et taches",
+              "gestion de projet",
+              "planification",
+              "rendez.vous"
+            ],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances",
+              "Organisation du travail"
+            ]
+          },
+          {
+            "id": "domain.data",
+            "label": "Données et connaissances",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances"
+            ]
           },
           {
             "id": "compatibility.language.python",
@@ -79899,6 +79975,37 @@
           "path": []
         },
         {
+          "id": "domain.data.organization",
+          "label": "Organisation du travail",
+          "parent": "domain.data",
+          "aliases": [
+            "#project-management",
+            "#calendar",
+            "#rendez-vous"
+          ],
+          "patterns": [
+            "projets et taches",
+            "gestion de projet",
+            "planification",
+            "rendez.vous"
+          ],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances",
+            "Organisation du travail"
+          ]
+        },
+        {
+          "id": "domain.data",
+          "label": "Données et connaissances",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances"
+          ]
+        },
+        {
           "id": "compatibility.language.python",
           "label": "Python",
           "parent": "compatibility.language",
@@ -79988,7 +80095,7 @@
         }
       ],
       "cardTitle": "uv",
-      "cardInterest": ""
+      "cardInterest": "Gère les dépendances de projet avec des lockfiles."
     },
     {
       "id": "watch-technical-a2736da3d4b4b5c419aa-md",

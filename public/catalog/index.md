@@ -7,7 +7,7 @@
 - [Agents de développement](domain-ai-agents-coding.md) — 47 fiches
 - [Compétences des agents](domain-ai-agents-skills.md) — 40 fiches
 - [Modèles de langage](domain-ai-llm.md) — 59 fiches
-- [Développement logiciel](domain-dev.md) — 111 fiches
+- [Développement logiciel](domain-dev.md) — 112 fiches
 - [Développement web](domain-dev-web.md) — 28 fiches
 - [Qualité du code](domain-dev-quality.md) — 25 fiches
 - [Audio, vidéo et création](domain-media.md) — 159 fiches
@@ -25,7 +25,7 @@
 - [Protection des données](domain-privacy.md) — 10 fiches
 - [Infrastructure](domain-infrastructure.md) — 55 fiches
 - [Réseaux](domain-infrastructure-network.md) — 3 fiches
-- [Données et connaissances](domain-data.md) — 76 fiches
+- [Données et connaissances](domain-data.md) — 77 fiches
 - [Collecte web](domain-data-web.md) — 23 fiches
 - [Documents](domain-data-documents.md) — 8 fiches
 - [Notes et organisation](domain-data-notes.md) — 12 fiches
@@ -53,7 +53,7 @@
 - [Analyse de fréquentation](domain-data-analytics.md) — 2 fiches
 - [Publication de contenus](domain-communication-publishing.md) — 2 fiches
 - [Messagerie](domain-communication-messaging.md) — 8 fiches
-- [Organisation du travail](domain-data-organization.md) — 15 fiches
+- [Organisation du travail](domain-data-organization.md) — 16 fiches
 - [Outils de navigateur](domain-dev-browser.md) — 10 fiches
 - [Productivité](domain-productivity.md) — 1 fiches
 - [Tâches et agenda](domain-productivity-tasks.md) — 1 fiches

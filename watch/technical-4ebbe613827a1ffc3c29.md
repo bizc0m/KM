@@ -47,13 +47,16 @@ Fixer un style visuel avant génération de code pour éviter les templates inad
 - https://skills.sh/anthropics/skills/frontend-design
 - https://skills.sh/anthropics/skills/skill-creator
 - https://skills.sh/anthropics/skills/pptx
+- https://skills.sh/anthropics/skills/pdf
 - https://skills.sh/anthropics/skills/docx
+- https://skills.sh/anthropics/skills/xlsx
 - https://skills.sh/anthropics/skills/mcp-builder
 - https://skills.sh/anthropics/skills/web-artifacts-builder
 - https://skills.sh/anthropics/skills/theme-factory
 - https://skills.sh/anthropics/skills/doc-coauthoring
 - https://skills.sh/anthropics/skills/algorithmic-art
 - https://skills.sh/anthropics/skills/internal-comms
+- https://skills.sh/anthropics/skills/slack-gif-creator
 - https://skills.sh/anthropics/skills/template-skill
 - https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude
 - https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization
@@ -84,13 +87,13 @@ Fixer un style visuel avant génération de code pour éviter les templates inad
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 827.
+- Liens distincts recensés : 774.
 - Pages lues, tweet compris : 87.
-- Sources techniques analysées : 38.
-- Sources à vérifier : 47 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 679 (profondeur : 662, budget de pages : 0, délai : 0, erreurs : 17).
+- Sources techniques analysées : 41.
+- Sources à vérifier : 43 ; analyses non terminées : 0 ; erreurs du modèle : 0.
+- Liens non lus : 625 (profondeur : 609, budget de pages : 0, délai : 0, erreurs : 16).
 - Pages résumées sur extrait : 8.
-- Éléments exclus : 59 ; doublons ignorés : 5.
+- Éléments exclus : 61 ; doublons ignorés : 5.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### Gestion de plusieurs comptes sur Xianyu avec automatisation
@@ -225,16 +228,39 @@ Crée, modifie et analyse des présentations PowerPoint. Gère les workflows de 
 
 Source : https://skills.sh/anthropics/skills/pptx ; niveau 3.
 
+### skills pdf
+
+Traitement complet des PDF avec extraction, fusion, découpage et OCR. Intègre bibliothèques Python et outils en ligne de commande. Gère les PDF scannés avec reconnaissance optique de caractères. Fournit exemples de code prêts à l'emploi.
+
+- Traitement PDF avec extraction de texte, fusion, découpage, remplissage de formulaires et OCR.
+- Intègre des bibliothèques Python comme pypdf, pdfplumber et reportlab.
+- Comprend des outils en ligne de commande tels que qpdf, pdftotext et pdftk.
+- Supporte les PDF scannés via pytesseract et pdf2image pour extraire du texte recherchable.
+
+Source : https://skills.sh/anthropics/skills/pdf ; niveau 3.
+
 ### docx
 
 Créer, modifier et manipuler des fichiers .docx avec formatage complet. Extraire du texte et analyser le contenu. Convertir des fichiers .doc en .docx. Gérer le formatage professionnel.
 
-- Création de nouveaux fichiers .docx avec formatage complet.
-- Modification de documents existants via l'éditeur XML.
-- Extraction et analyse du contenu via pandoc ou XML.
-- Conversion des fichiers .doc vers le format .docx.
+- Créer des fichiers .docx avec formatage complet.
+- Modifier des fichiers .docx en manipulant le XML.
+- Extraire du texte et analyser le contenu.
+- Convertir des fichiers .doc en .docx.
+- Gérer le formatage professionnel comme les marges et les colonnes.
 
 Source : https://skills.sh/anthropics/skills/docx ; niveau 3.
+
+### xlsx
+
+xlsx permet de gérer des fichiers Excel avec des formules et des formats. Il supporte les formats .xlsx, .xlsm, .csv et .tsv. Il détecte les erreurs Excel. Il applique des couleurs standards pour les modèles financiers.
+
+- xlsx permet de gérer des fichiers Excel avec des formules et des formats.
+- xlsx supporte les formats .xlsx, .xlsm, .csv et .tsv.
+- xlsx détecte les erreurs Excel (#REF!, #DIV/0!, #VALUE!, #N/A, #NAME?).
+- xlsx applique des couleurs standards pour les modèles financiers (bleu pour les entrées, noir pour les formules, vert pour les liens internes, rouge pour les liens externes).
+
+Source : https://skills.sh/anthropics/skills/xlsx ; niveau 3.
 
 ### mcp-builder
 
@@ -303,6 +329,17 @@ Fournit des modèles pour les communications internes. Couvre sept types de mess
 
 Source : https://skills.sh/anthropics/skills/internal-comms ; niveau 3.
 
+### slack-gif-creator
+
+Outil pour créer des GIFs optimisés pour Slack. Validation des formats. Gestion des animations. Optimisation des tailles.
+
+- Crée des GIFs optimisés pour Slack.
+- Inclut des validateurs pour vérifier la conformité.
+- Permet l'assemblage de frames avec GIFBuilder.
+- Supporte les GIFs emoji et message avec paramètres configurables.
+
+Source : https://skills.sh/anthropics/skills/slack-gif-creator ; niveau 3.
+
 ### template-skill
 
 Template Skill pour intégration de compétences. Installation via npx. Dépôt GitHub. 183K étoiles.
@@ -349,30 +386,4 @@ Source : https://support.claude.com/en/articles/10185728-understanding-claude-s-
 
 ### Agent Skills
 
-Agent Skills permettent de spécialiser Claude pour des tâches spécifiques. Les Skills sont chargées à la demande. Les Skills peuvent inclure des instructions, des scripts et des ressources. Les Skills sont accessibles via différents produits.
-
-- Les Skills sont des ressources réutilisables basées sur le système de fichiers.
-- Les Skills peuvent être pré-construites ou personnalisées.
-- Les Skills sont utilisées pour des tâches spécifiques comme le traitement de PDF.
-- Les Skills sont accessibles via l'API Claude, Claude Platform et claude.ai.
-
-Source : https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview ; niveau 3.
-
-### Claude Code Skills
-
-Claude Code Skills permettent d'étendre les capacités de Claude en ajoutant des compétences personnalisées. Les compétences sont chargées dynamiquement lors de leur utilisation. Les compétences intégrées comme /doctor ou /code-review sont disponibles dans chaque session. Les compétences peuvent être invoquées directement ou automatiquement par Claude.
-
-- Les compétences sont chargées dynamiquement lors de leur utilisation.
-- Les compétences intégrées comme /doctor ou /code-review sont disponibles dans chaque session.
-- Les compétences peuvent être invoquées directement ou automatiquement par Claude.
-- Les compétences suivent l'Agent Skills open standard avec des fonctionnalités supplémentaires comme l'injection de contexte dynamique.
-
-Source : https://code.claude.com/docs/en/skills ; niveau 3.
-
-### Claude Cowork
-
-Claude Cowork permet d'effectuer des tâches complexes via un interface unifiée. Les tâches s'exécutent en cloud pour des sessions persistantes. Les utilisateurs peuvent organiser des projets avec des fichiers et des instructions. Les tâches peuvent être programmées pour s'exécuter automatiquement.
-
-- Claude Cowork est accessible sur les plans payants Pro, Max, Team et Enterprise.
-- Les sessions s'exécutent en cloud pour des sessions persistantes.
-- Les u
+Agent Skills p

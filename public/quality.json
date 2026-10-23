@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-23T13:29:59.251Z",
+  "at": "2026-10-23T14:30:03.980Z",
   "scope": "public-index-only",
   "fiches": 658,
-  "sourceReferences": 2665,
+  "sourceReferences": 2668,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
   "pendingReview": 630,
   "counts": {
-    "interest-missing": 193,
+    "interest-missing": 191,
     "keywords-missing": 90,
-    "domain-unqualified": 117,
+    "domain-unqualified": 116,
     "primary-identity-unqualified": 22,
     "nature-unqualified": 608
   },
@@ -559,7 +559,6 @@
       "id": "watch-nousresearch-hermes-agent-md",
       "title": "Hermes Agent",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -758,7 +757,7 @@
       "id": "watch-technical-ae2b5f1a3fbdf8f6f54d-md",
       "title": "myfish",
       "reasons": [
-        "domain-unqualified",
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -897,14 +896,6 @@
       ]
     },
     {
-      "id": "watch-technical-d07066251c23560c4586-md",
-      "title": "rtk",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-1049081f67e5576ca9e6-md",
       "title": "OSINT Cabal Live Center",
       "reasons": [
@@ -1039,6 +1030,13 @@
       "title": "remotion",
       "reasons": [
         "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-d07066251c23560c4586-md",
+      "title": "rtk",
+      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -1215,7 +1213,6 @@
       "id": "watch-technical-30e283a9b3f70e35d81a-md",
       "title": "uv",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },

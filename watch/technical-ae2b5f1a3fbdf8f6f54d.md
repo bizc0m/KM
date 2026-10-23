@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Gère les tokens et la sécurité pour les bots XianYu et ClawBot.
+Intérêt à vérifier
 
 ## Identité
 
@@ -29,8 +29,8 @@ Gère les tokens et la sécurité pour les bots XianYu et ClawBot.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified compatibility.language.python source.noteplan source.github source.x lifecycle.active
-- Sujets : À qualifier
+- Identifiants : domain.dev compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Sujets : Développement logiciel
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
