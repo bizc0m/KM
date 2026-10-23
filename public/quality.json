@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T08:29:37.494Z",
+  "at": "2026-10-23T08:30:22.323Z",
   "scope": "public-index-only",
   "fiches": 658,
   "sourceReferences": 2687,
@@ -451,6 +451,15 @@
       "id": "watch-technical-f5a99e06873448a9f3ba-md",
       "title": "faster-whisper",
       "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-7ae9451cd62fb317043f-md",
+      "title": "Formulaire Web YouTube",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -1342,15 +1351,6 @@
       "id": "watch-technical-72da768867f7d20473e6-md",
       "title": "Faker",
       "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-7ae9451cd62fb317043f-md",
-      "title": "Formulaire Web YouTube",
-      "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
