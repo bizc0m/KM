@@ -4,8 +4,8 @@
 
 - Sources : aucun plafond silencieux ; toutes les références publiques autorisées restent accessibles dans le détail.
 - Doublons de dépôt principal identifié : 0 groupe(s). Ce compte ne certifie pas toutes les identités encore inconnues.
-- interest-missing : 191
-- keywords-missing : 90
+- interest-missing : 190
+- keywords-missing : 89
 - domain-unqualified : 116
 - primary-identity-unqualified : 22
 - nature-unqualified : 608

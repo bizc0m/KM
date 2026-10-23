@@ -1,4 +1,4 @@
-# Open-Generative-AI
+# Open Generative AI
 
 ## Statut
 
@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Génère des images et vidéos via des modèles open-source sans filtres.
+Génère des images et vidéos via des modèles d'IA sans filtres.
 
 ## Identité
 

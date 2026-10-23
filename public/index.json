@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-23T14:30:03.790Z",
+  "at": "2026-10-23T15:30:08.742Z",
   "count": 658,
   "rows": [
     {
@@ -16441,7 +16441,7 @@
     },
     {
       "id": "watch-technical-553d2fe81671c153a6e0-md",
-      "title": "Cal.diy",
+      "title": "Cal.diy - Plateforme de planification open source",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -16795,17 +16795,16 @@
       "github": "https://github.com/calcom/cal.diy",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.",
+      "summary": "Permet de gérer les disponibilités et rendez-vous",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
-      "theme": "dev",
-      "themeLabel": "Bases de données",
+      "theme": "research",
+      "themeLabel": "Organisation du travail",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.infrastructure.database",
             "domain.data.organization"
           ],
           "capability": [],
@@ -16821,56 +16820,6 @@
           ]
         },
         "concepts": [
-          {
-            "id": "domain.infrastructure.database",
-            "label": "Bases de données",
-            "parent": "domain.infrastructure",
-            "aliases": [
-              "#database",
-              "#postgres",
-              "#sqlite"
-            ],
-            "patterns": [
-              "base de donnees",
-              "\\bsqlite\\b",
-              "\\bpostgres"
-            ],
-            "facet": "domain",
-            "path": [
-              "Infrastructure",
-              "Bases de données"
-            ]
-          },
-          {
-            "id": "domain.infrastructure",
-            "label": "Infrastructure",
-            "parent": "domain",
-            "aliases": [
-              "#infrastructure",
-              "#network-security",
-              "#vpn",
-              "#tailscale",
-              "#server",
-              "#linux-server"
-            ],
-            "patterns": [
-              "\\bvps\\b",
-              "serveurs?",
-              "\\bservers?\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Infrastructure"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
           {
             "id": "domain.data.organization",
             "label": "Organisation du travail",
@@ -16901,6 +16850,14 @@
             "path": [
               "Données et connaissances"
             ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
           },
           {
             "id": "lifecycle.active",
@@ -16966,56 +16923,6 @@
       },
       "concepts": [
         {
-          "id": "domain.infrastructure.database",
-          "label": "Bases de données",
-          "parent": "domain.infrastructure",
-          "aliases": [
-            "#database",
-            "#postgres",
-            "#sqlite"
-          ],
-          "patterns": [
-            "base de donnees",
-            "\\bsqlite\\b",
-            "\\bpostgres"
-          ],
-          "facet": "domain",
-          "path": [
-            "Infrastructure",
-            "Bases de données"
-          ]
-        },
-        {
-          "id": "domain.infrastructure",
-          "label": "Infrastructure",
-          "parent": "domain",
-          "aliases": [
-            "#infrastructure",
-            "#network-security",
-            "#vpn",
-            "#tailscale",
-            "#server",
-            "#linux-server"
-          ],
-          "patterns": [
-            "\\bvps\\b",
-            "serveurs?",
-            "\\bservers?\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Infrastructure"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
           "id": "domain.data.organization",
           "label": "Organisation du travail",
           "parent": "domain.data",
@@ -17045,6 +16952,14 @@
           "path": [
             "Données et connaissances"
           ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
         },
         {
           "id": "lifecycle.active",
@@ -17108,12 +17023,6 @@
       ],
       "keywords": [
         {
-          "label": "#database",
-          "fullLabel": "database",
-          "color": "dev",
-          "subjectId": "domain.infrastructure.database"
-        },
-        {
           "label": "#project-management",
           "fullLabel": "project-management",
           "color": "research",
@@ -17121,11 +17030,11 @@
         }
       ],
       "cardTitle": "Cal.diy",
-      "cardInterest": "Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale."
+      "cardInterest": "Permet de gérer les disponibilités et rendez-vous"
     },
     {
       "id": "watch-technical-cb5d126cbda2eedef29e-md",
-      "title": "Cal.diy",
+      "title": "Cal.diy - Plateforme de planification open source",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -17187,17 +17096,17 @@
       "github": "https://github.com/calcom/cal.com",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet de gérer les rendez-vous sans dépendance commerciale.",
+      "summary": "Permet de gérer les disponibilités et planifier des rendez-vous",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
       "theme": "dev",
-      "themeLabel": "Bases de données",
+      "themeLabel": "Paquets et dépendances",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.infrastructure.database",
+            "domain.dev.dependencies",
             "domain.data.organization",
             "domain.dev.web"
           ],
@@ -17215,45 +17124,47 @@
         },
         "concepts": [
           {
-            "id": "domain.infrastructure.database",
-            "label": "Bases de données",
-            "parent": "domain.infrastructure",
+            "id": "domain.dev.dependencies",
+            "label": "Paquets et dépendances",
+            "parent": "domain.dev",
             "aliases": [
-              "#database",
-              "#postgres",
-              "#sqlite"
+              "#package-manager",
+              "#dependencies"
             ],
             "patterns": [
-              "base de donnees",
-              "\\bsqlite\\b",
-              "\\bpostgres"
+              "gestionnaire de paquets",
+              "gestion.*dependances",
+              "resol.*dependances",
+              "ger.*dependances"
             ],
             "facet": "domain",
             "path": [
-              "Infrastructure",
-              "Bases de données"
+              "Développement logiciel",
+              "Paquets et dépendances"
             ]
           },
           {
-            "id": "domain.infrastructure",
-            "label": "Infrastructure",
+            "id": "domain.dev",
+            "label": "Développement logiciel",
             "parent": "domain",
             "aliases": [
-              "#infrastructure",
-              "#network-security",
-              "#vpn",
-              "#tailscale",
-              "#server",
-              "#linux-server"
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
             ],
             "patterns": [
-              "\\bvps\\b",
-              "serveurs?",
-              "\\bservers?\\b"
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
             ],
             "facet": "domain",
             "path": [
-              "Infrastructure"
+              "Développement logiciel"
             ]
           },
           {
@@ -17308,30 +17219,6 @@
             "path": [
               "Développement logiciel",
               "Développement web"
-            ]
-          },
-          {
-            "id": "domain.dev",
-            "label": "Développement logiciel",
-            "parent": "domain",
-            "aliases": [
-              "#coding",
-              "#devtools",
-              "#editor",
-              "#code-quality"
-            ],
-            "patterns": [
-              "developpement logiciel",
-              "software development",
-              "ingenierie logicielle",
-              "developpement",
-              "programmat",
-              "modifier.*fichiers.*projet",
-              "modifier un projet"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel"
             ]
           },
           {
@@ -17398,45 +17285,47 @@
       },
       "concepts": [
         {
-          "id": "domain.infrastructure.database",
-          "label": "Bases de données",
-          "parent": "domain.infrastructure",
+          "id": "domain.dev.dependencies",
+          "label": "Paquets et dépendances",
+          "parent": "domain.dev",
           "aliases": [
-            "#database",
-            "#postgres",
-            "#sqlite"
+            "#package-manager",
+            "#dependencies"
           ],
           "patterns": [
-            "base de donnees",
-            "\\bsqlite\\b",
-            "\\bpostgres"
+            "gestionnaire de paquets",
+            "gestion.*dependances",
+            "resol.*dependances",
+            "ger.*dependances"
           ],
           "facet": "domain",
           "path": [
-            "Infrastructure",
-            "Bases de données"
+            "Développement logiciel",
+            "Paquets et dépendances"
           ]
         },
         {
-          "id": "domain.infrastructure",
-          "label": "Infrastructure",
+          "id": "domain.dev",
+          "label": "Développement logiciel",
           "parent": "domain",
           "aliases": [
-            "#infrastructure",
-            "#network-security",
-            "#vpn",
-            "#tailscale",
-            "#server",
-            "#linux-server"
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
           ],
           "patterns": [
-            "\\bvps\\b",
-            "serveurs?",
-            "\\bservers?\\b"
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
           ],
           "facet": "domain",
           "path": [
-            "Infrastructure"
+            "Développement logiciel"
           ]
         },
         {
@@ -17491,30 +17380,6 @@
           "path": [
             "Développement logiciel",
             "Développement web"
-          ]
-        },
-        {
-          "id": "domain.dev",
-          "label": "Développement logiciel",
-          "parent": "domain",
-          "aliases": [
-            "#coding",
-            "#devtools",
-            "#editor",
-            "#code-quality"
-          ],
-          "patterns": [
-            "developpement logiciel",
-            "software development",
-            "ingenierie logicielle",
-            "developpement",
-            "programmat",
-            "modifier.*fichiers.*projet",
-            "modifier un projet"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel"
           ]
         },
         {
@@ -17586,7 +17451,7 @@
         }
       ],
       "cardTitle": "Cal.diy",
-      "cardInterest": "Permet de gérer les rendez-vous sans dépendance commerciale."
+      "cardInterest": "Permet de gérer les disponibilités et planifier des rendez-vous"
     },
     {
       "id": "watch-technical-4f72d6274858ca1e8190-md",
@@ -32767,7 +32632,7 @@
     },
     {
       "id": "watch-technical-c750bc2f9f73e8e1f5bd-md",
-      "title": "Ghost",
+      "title": "Ghost : CMS open source headless basé sur Node.js",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -43026,17 +42891,17 @@
       "github": "https://github.com/mailhog/mailhog",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Afficher les emails envoyés dans une interface web",
+      "summary": "Visualiser les e-mails envoyés sans les envoyer réellement.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
-      "theme": "dev",
-      "themeLabel": "Infrastructure",
+      "theme": "source",
+      "themeLabel": "Messagerie",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.infrastructure"
+            "domain.communication.messaging"
           ],
           "capability": [],
           "compatibility": [],
@@ -43052,25 +42917,40 @@
         },
         "concepts": [
           {
-            "id": "domain.infrastructure",
-            "label": "Infrastructure",
-            "parent": "domain",
+            "id": "domain.communication.messaging",
+            "label": "Messagerie",
+            "parent": "domain.communication",
             "aliases": [
-              "#infrastructure",
-              "#network-security",
-              "#vpn",
-              "#tailscale",
-              "#server",
-              "#linux-server"
+              "#smtp",
+              "#slack"
             ],
             "patterns": [
-              "\\bvps\\b",
-              "serveurs?",
-              "\\bservers?\\b"
+              "e.mails?",
+              "\\bslack\\b",
+              "rechercher des tweets"
             ],
             "facet": "domain",
             "path": [
-              "Infrastructure"
+              "Communication et publication",
+              "Messagerie"
+            ]
+          },
+          {
+            "id": "domain.communication",
+            "label": "Communication et publication",
+            "parent": "domain",
+            "aliases": [
+              "#publication-sociale",
+              "#social-media",
+              "#email"
+            ],
+            "patterns": [
+              "publication.*(?:contenus|reseaux)",
+              "client email"
+            ],
+            "facet": "domain",
+            "path": [
+              "Communication et publication"
             ]
           },
           {
@@ -43145,25 +43025,40 @@
       },
       "concepts": [
         {
-          "id": "domain.infrastructure",
-          "label": "Infrastructure",
-          "parent": "domain",
+          "id": "domain.communication.messaging",
+          "label": "Messagerie",
+          "parent": "domain.communication",
           "aliases": [
-            "#infrastructure",
-            "#network-security",
-            "#vpn",
-            "#tailscale",
-            "#server",
-            "#linux-server"
+            "#smtp",
+            "#slack"
           ],
           "patterns": [
-            "\\bvps\\b",
-            "serveurs?",
-            "\\bservers?\\b"
+            "e.mails?",
+            "\\bslack\\b",
+            "rechercher des tweets"
           ],
           "facet": "domain",
           "path": [
-            "Infrastructure"
+            "Communication et publication",
+            "Messagerie"
+          ]
+        },
+        {
+          "id": "domain.communication",
+          "label": "Communication et publication",
+          "parent": "domain",
+          "aliases": [
+            "#publication-sociale",
+            "#social-media",
+            "#email"
+          ],
+          "patterns": [
+            "publication.*(?:contenus|reseaux)",
+            "client email"
+          ],
+          "facet": "domain",
+          "path": [
+            "Communication et publication"
           ]
         },
         {
@@ -43234,9 +43129,16 @@
           ]
         }
       ],
-      "keywords": [],
+      "keywords": [
+        {
+          "label": "#smtp",
+          "fullLabel": "smtp",
+          "color": "source",
+          "subjectId": "domain.communication.messaging"
+        }
+      ],
       "cardTitle": "MailHog",
-      "cardInterest": "Afficher les emails envoyés dans une interface web"
+      "cardInterest": "Visualiser les e-mails envoyés sans les envoyer réellement."
     },
     {
       "id": "watch-technical-10eda570000d9c7eeda1-md",
@@ -54902,7 +54804,7 @@
     },
     {
       "id": "watch-technical-78faa425ad9343a870b8-md",
-      "title": "Open-Generative-AI",
+      "title": "Open Generative AI",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -55315,7 +55217,7 @@
       "github": "https://github.com/anil-matcha/open-generative-ai",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Génère des images et vidéos via des modèles open-source sans filtres.",
+      "summary": "Génère des images et vidéos via des modèles d'IA sans filtres.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -55931,8 +55833,8 @@
           "tag": "#macos"
         }
       ],
-      "cardTitle": "Open-Generative-AI",
-      "cardInterest": "Génère des images et vidéos via des modèles open-source sans filtres."
+      "cardTitle": "Open Generative AI",
+      "cardInterest": "Génère des images et vidéos via des modèles d'IA sans filtres."
     },
     {
       "id": "watch-technical-dfc871508eb563893ba5-md",
@@ -61567,7 +61469,7 @@
     },
     {
       "id": "watch-technical-c0d4875dd605f77caf57-md",
-      "title": "Penpot",
+      "title": "Penpot : plateforme de conception open source",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -61588,7 +61490,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [],
-      "status": "a verifier",
+      "status": "actif",
       "path": "watch/technical-c0d4875dd605f77caf57.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-c0d4875dd605f77caf57.md",
       "sourceUrl": "https://github.com/penpot/penpot",
@@ -61621,7 +61523,7 @@
       "github": "https://github.com/penpot/penpot",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Permet de collaborer en temps réel sur des projets de conception",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -61643,7 +61545,7 @@
             "source.x"
           ],
           "lifecycle": [
-            "lifecycle.review"
+            "lifecycle.active"
           ]
         },
         "concepts": [
@@ -61740,16 +61642,16 @@
             ]
           },
           {
-            "id": "lifecycle.review",
-            "label": "À vérifier",
+            "id": "lifecycle.active",
+            "label": "Actif",
             "parent": "lifecycle",
             "aliases": [
-              "#a-verifier",
-              "#to-verify"
+              "#actif",
+              "#active"
             ],
             "facet": "lifecycle",
             "path": [
-              "À vérifier"
+              "Actif"
             ]
           },
           {
@@ -61895,16 +61797,16 @@
           ]
         },
         {
-          "id": "lifecycle.review",
-          "label": "À vérifier",
+          "id": "lifecycle.active",
+          "label": "Actif",
           "parent": "lifecycle",
           "aliases": [
-            "#a-verifier",
-            "#to-verify"
+            "#actif",
+            "#active"
           ],
           "facet": "lifecycle",
           "path": [
-            "À vérifier"
+            "Actif"
           ]
         },
         {
@@ -61969,7 +61871,7 @@
         }
       ],
       "cardTitle": "Penpot",
-      "cardInterest": ""
+      "cardInterest": "Permet de collaborer en temps réel sur des projets de conception"
     },
     {
       "id": "watch-technical-97416d4ba88591c565b7-md",
@@ -74300,7 +74202,7 @@
       "github": "https://github.com/supabase/supabase",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des applications sans installation locale avec des outils open source.",
+      "summary": "Crée une API REST sans configuration complexe",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -74689,7 +74591,7 @@
         }
       ],
       "cardTitle": "Supabase",
-      "cardInterest": "Crée des applications sans installation locale avec des outils open source."
+      "cardInterest": "Crée une API REST sans configuration complexe"
     },
     {
       "id": "watch-technical-763a276cbab62cfc7a39-md",
