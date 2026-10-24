@@ -59,5 +59,5 @@ Transforme un prompt en code exécutable directement depuis le terminal.
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/minimax-ai/minimax-code
-- Analyse source : 2026-10-21T20:27:03.779Z
+- Analyse source : 2026-10-24T07:38:20.941Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

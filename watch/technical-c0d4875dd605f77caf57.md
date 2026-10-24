@@ -1,4 +1,4 @@
-# Penpot
+# penpot
 
 ## Statut
 
@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Permet de collaborer en temps réel sur des projets de design.
 
 ## Identité
 
@@ -27,10 +27,10 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.image domain.dev.ui source.noteplan source.github source.x lifecycle.review
+- Identifiants : domain.media.image domain.dev.ui source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Images et graphisme ; Développement logiciel > Conception d’interfaces
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
 
 ## Sources
 

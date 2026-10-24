@@ -46,3 +46,31 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Outil d'intelligence osint pour BlueSky/AT Protocol
+- Fournit 21 fonctions de collecte d'informations
+- Interface professionnelle avec animations et couleurs
+- Authentification via BlueSky
+
+## Usages documentés
+
+- python3 blueskyosint.py
+- Option 6 : Profile User
+- Option 7 : Collect Timeline
+- Option 10 : Activity Analysis
+- Option 18 : Export Results
+
+## Limites
+
+- Requiert un compte BlueSky
+- Nécessite Python 3.7+
+- Fonctionne sur Linux/macOS/Windows
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/osintcabal/osintsky
+- Analyse source : 2026-10-24T12:35:09.773Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

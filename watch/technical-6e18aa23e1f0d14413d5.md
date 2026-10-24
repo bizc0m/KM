@@ -6,11 +6,11 @@ actif
 
 ## Tags
 
-#terminal
+#generation-video, #terminal
 
 ## Intérêts
 
-Crée des vidéos à partir d'HTML avec des agents IA
+Intérêt à vérifier
 
 ## Identité
 
@@ -29,8 +29,9 @@ Crée des vidéos à partir d'HTML avec des agents IA
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.media.video compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Audio, vidéo et création > Vidéo
+- Identifiants : domain.ai.agents.coding domain.media.video domain.data.catalogues capability.generate.video compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Audio, vidéo et création > Vidéo ; Données et connaissances > Catalogues de ressources
+- Fonctions : Générer des contenus > Générer une vidéo
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

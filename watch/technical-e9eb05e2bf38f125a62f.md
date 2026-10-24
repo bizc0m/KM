@@ -44,3 +44,17 @@ Construire des applications LLM fiables avec des principes structurés
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Présente 12 principes pour construire des applications LLM fiables
+- Explique les défis des agents IA existants
+- Propose des modèles de conception pour les applications LLM
+- Donne des exemples de frameworks et outils utilisés
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/humanlayer/12-factor-agents
+- Analyse source : 2026-10-24T04:58:36.931Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

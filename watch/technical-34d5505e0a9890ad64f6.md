@@ -6,7 +6,7 @@ actif
 
 ## Tags
 
-#orchestration-agents, #generation-video, #generation-images
+#generation-video
 
 ## Intérêts
 
@@ -29,9 +29,9 @@ Orchestre 200+ modèles AI pour générer des campagnes graphiques
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.video domain.media.image domain.ai.agents.orchestration capability.automation.orchestrate capability.generate.video capability.generate.image source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Intelligence artificielle > Agents IA > Orchestration des agents
-- Fonctions : Automatiser des actions > Coordonner des agents ; Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
+- Identifiants : domain.ai.agents domain.media.video domain.media.image capability.generate.video source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
+- Fonctions : Générer des contenus > Générer une vidéo
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -47,3 +47,28 @@ Orchestre 200+ modèles AI pour générer des campagnes graphiques
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Agent de conception AI open-source orchestrant 200+ modèles image/vidéo
+- Génère campagnes, logos, vidéos publicitaires et autres créations graphiques
+- Utilise l'API Muapi.ai pour accéder à des modèles comme Sora, Veo, Runway
+- Permet la création de kits de marque avec cohérence visuelle persistante
+
+## Usages documentés
+
+- Décrire un projet en langage naturel
+- L'agent planifie, choisit les modèles, génère et assemble les créations
+
+## Limites
+
+- Requiert un API Muapi.ai
+- Fonctionne via un navigateur ou un serveur self-hosted
+- Nécessite Node.js et Python pour le déploiement local
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/anil-matcha/open-ai-design-agent
+- Analyse source : 2026-10-24T12:57:16.765Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

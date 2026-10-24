@@ -48,3 +48,26 @@ Permet de consulter des anime via une interface CLI
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Permet de consulter et visionner des anime via une interface CLI
+- Scrape les données depuis le site hianime.at
+- Fonctionne sur plusieurs systèmes d'exploitation
+- Requiert des dépendances comme mpv et fzf
+
+## Usages documentés
+
+- Installation via package manager ou source
+
+## Limites
+
+- Requiert des dépendances spécifiques
+- Compatibilité limitée sur certains systèmes
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/pystardust/ani-cli
+- Analyse source : 2026-10-24T09:05:37.206Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

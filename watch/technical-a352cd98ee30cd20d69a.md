@@ -48,3 +48,21 @@ Extrait des données depuis des pages web statiques ou dynamiques
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Framework de scraping web en Python
+- Supporte le scraping de pages statiques et dynamiques
+- Intègre des navigateurs furtifs et des outils de parsing
+- Permet le scraping concurrentiel et la rotation de proxys
+
+## Usages documentés
+
+- Extrait des données depuis des pages web statiques ou dynamiques
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/d4vinci/scrapling
+- Analyse source : 2026-10-24T05:23:10.717Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

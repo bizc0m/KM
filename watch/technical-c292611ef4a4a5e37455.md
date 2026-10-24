@@ -45,3 +45,16 @@ Exécute des tâches de codage avec un modèle d'IA configuré
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Outil open source pour l'assistance de codage
+- Lecture, modification et exécution de code
+- Gestion des permissions et des étapes
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/esengine/deepseek-reasonix
+- Analyse source : 2026-10-24T05:08:40.392Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -44,3 +44,31 @@ Synchronise des objets JSON en temps réel entre serveur et client.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Synchronisation bidirectionnelle entre serveur et client.
+- Utilise des diffs de merkle pour des mises à jour delta.
+- Supporte les protocoles SSE et WebSockets.
+- Permet la persistance des données dans le navigateur.
+- Reconnecte automatiquement après perte de connexion.
+
+## Usages documentés
+
+- Synchronisation via SSE et WebSockets.
+- Mises à jour delta avec des diffs de merkle.
+- Persistance des données dans le navigateur.
+- Reconnexion automatique après perte de connexion.
+
+## Limites
+
+- Requiert un serveur compatible.
+- Nécessite des clients supportant les protocoles SSE ou WebSockets.
+- Limitations de taille pour les données synchronisées.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/jpillora/velox
+- Analyse source : 2026-10-24T09:05:37.206Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -44,3 +44,17 @@ Résout des conflits de dépendances avec des explications claires.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- PubGrub est un algorithme de résolution de versions performant.
+- PubGrub résout des contraintes de dépendances.
+- PubGrub est utilisé par uv et d'autres outils.
+- PubGrub est flexible et personnalisable.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/pubgrub-rs/pubgrub
+- Analyse source : 2026-10-24T04:46:57.201Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

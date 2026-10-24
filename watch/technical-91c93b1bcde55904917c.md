@@ -65,5 +65,5 @@ Facilite l'installation de bibliothèques scientifiques sur Windows avec MKL.
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/cgohlke/numpy-mkl-wheels
-- Analyse source : 2026-10-22T01:54:07.762Z
+- Analyse source : 2026-10-24T05:00:50.120Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

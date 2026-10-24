@@ -6,7 +6,7 @@ actif
 
 ## Tags
 
-#generation-video, #generation-3d, #python, #agents-code
+#generation-video, #generation-3d, #agents-code, #python
 
 ## Intérêts
 
@@ -48,3 +48,17 @@ Crée des courts métrages 3D avec un agent de codage.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Génère des courts métrages 3D animés.
+- Utilise MuAPI pour la production.
+- Requiert Python et FFmpeg locaux.
+- Intégré à des agents de codage.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/anil-matcha/zack-d-films-ai-video-generator
+- Analyse source : 2026-10-24T12:57:16.765Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

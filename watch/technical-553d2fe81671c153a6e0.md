@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.
+Permet de gérer les rendez-vous sans dépendance commerciale.
 
 ## Identité
 

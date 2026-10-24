@@ -48,3 +48,28 @@ Permet de streamer des médias via des plugins configurés.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Permet de streamer des médias depuis le terminal.
+- Utilise des plugins pour le scraping des contenus.
+- Requiert Python 3.10 ou supérieur.
+- Configuration via fichier TOML
+
+## Usages documentés
+
+- pip install mov-cli -U
+- mov-cli -e
+- mov-cli -s youtube blender studio
+
+## Limites
+
+- Dépend de plugins externes
+- Pas de fonctionnalités natives de scraping
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/mov-cli/mov-cli
+- Analyse source : 2026-10-24T09:05:37.206Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

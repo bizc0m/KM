@@ -6,8 +6,6 @@ actif
 
 ## Tags
 
-#pdf
-
 ## Intérêts
 
 Ingestion de documents pour construire un wiki structuré
@@ -29,9 +27,8 @@ Ingestion de documents pour construire un wiki structuré
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents domain.ai.llm compatibility.format.pdf source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.ai.agents domain.ai.llm source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Intelligence artificielle > Modèles de langage
-- Compatibilités : Formats > PDF
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -47,3 +44,24 @@ Ingestion de documents pour construire un wiki structuré
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Agent qui ingère des documents et construit un wiki interconnecté
+- Créé un wiki persistant avec des pages structurées
+- Détection des contradictions lors de l'ingestion
+- Génère un graphe visuel des liens entre les pages
+
+## Usages documentés
+
+- ingest raw/papers/my-paper.md
+- query: what are the main themes?
+- lint
+- build graph
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/samuraigpt/llm-wiki-agent
+- Analyse source : 2026-10-24T12:57:16.765Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

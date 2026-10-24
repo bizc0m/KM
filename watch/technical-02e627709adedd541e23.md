@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Convertir des fichiers vers markdown et générer des html ou docx.
+Convertir des documents en markdown et générer des html ou docx.
 
 ## Identité
 
@@ -29,8 +29,8 @@ Convertir des fichiers vers markdown et générer des html ou docx.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.audio domain.media.image domain.data.documents capability.documents.convert capability.generate.image compatibility.format.pdf source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Audio ; Audio, vidéo et création > Images et graphisme ; Données et connaissances > Documents
+- Identifiants : domain.media.video domain.media.image domain.data.documents capability.documents.convert capability.generate.image compatibility.format.pdf source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Données et connaissances > Documents
 - Fonctions : Traiter des documents > Convertir des documents ; Générer des contenus > Générer une image
 - Compatibilités : Formats > PDF
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter

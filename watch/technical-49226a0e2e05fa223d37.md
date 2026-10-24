@@ -45,5 +45,5 @@ Génère des documents professionnels avec des modèles prédéfinis.
 - Origine : NotePlan
 - Identifiant source : 49226a0e2e05fa223d37f81bceca82afd6cfa164b2eff0025d3ddcbb653a6acf
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-22
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

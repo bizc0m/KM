@@ -47,3 +47,24 @@ Crée des agents capables de planifier et d'utiliser des sous-agents pour des t�
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Permet de chaîner des composants interopérables pour simplifier le développement d'applications d'IA.
+- Facilite l'intégration de modèles de langage, d'embeddings, de bases de vecteurs et d'autres outils.
+- Offre des outils pour la gestion des workflows d'agents et la surveillance des applications.
+- Intègre des solutions pour le déploiement et l'évaluation des applications d'IA.
+
+## Usages documentés
+
+- uv add langchain
+- from langchain.chat_models import init_chat_model
+- model = init_chat_model("openai:gpt-5.5")
+- result = model.invoke("Hello, world!")
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/langchain-ai/langchain
+- Analyse source : 2026-10-24T05:23:10.717Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

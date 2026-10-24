@@ -6,8 +6,6 @@ actif
 
 ## Tags
 
-#skills-agents
-
 ## Intérêts
 
 Analyse de site et de campagne publicitaire avec des workflows prédéfinis.
@@ -29,9 +27,8 @@ Analyse de site et de campagne publicitaire avec des workflows prédéfinis.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.skills capability.skills source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Compétences des agents
-- Fonctions : Étendre les compétences d’un agent
+- Identifiants : domain.ai.agents source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -54,3 +51,17 @@ Analyse de site et de campagne publicitaire avec des workflows prédéfinis.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Fournit 48 compétences pour SEO, GEO et marketing.
+- Permet l'analyse de sites et de campagnes publicitaires.
+- Intègre des workflows pour l'analyse de données.
+- Gère des outils comme Google Ads et Meta Ads.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/nowork-studio/notfair-plugin
+- Analyse source : 2026-10-24T06:41:14.226Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

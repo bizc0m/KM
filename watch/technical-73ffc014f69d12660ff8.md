@@ -6,7 +6,7 @@ actif
 
 ## Tags
 
-#generation-video, #generation-images
+#generation-video
 
 ## Intérêts
 
@@ -29,9 +29,9 @@ Génère des vidéos à partir de prompts textuels ou multimodaux
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.video domain.media.image capability.generate.video capability.generate.image source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
-- Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
+- Identifiants : domain.media.video capability.generate.video source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo
+- Fonctions : Générer des contenus > Générer une vidéo
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -47,3 +47,25 @@ Génère des vidéos à partir de prompts textuels ou multimodaux
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Documentation complète sur l'API Seedance 2.5
+- Prompts prêts à l'emploi pour divers workflows
+- Support pour des formats multimodaux
+- Exemples de prompts pour différents domaines
+
+## Usages documentés
+
+- Utilisation de l'API MuAPI pour accéder à Seedance 2.5
+
+## Limites
+
+- Requiert un accès à MuAPI et un API key
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/anil-matcha/awesome-seedance-2.5-api-prompts
+- Analyse source : 2026-10-24T12:57:16.765Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

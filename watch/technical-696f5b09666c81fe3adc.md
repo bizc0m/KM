@@ -62,5 +62,5 @@ Permet aux agents d'intégrer instantanément la plateforme pour trader.
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/hkuds/ai-trader
-- Analyse source : 2026-10-22T02:14:53.993Z
+- Analyse source : 2026-10-24T05:23:10.717Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

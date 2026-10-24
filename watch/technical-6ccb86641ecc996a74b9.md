@@ -47,3 +47,30 @@ Crée des workflows d'IA visuels sans abonnement
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Outil open source pour créer des workflows d'IA basés sur des nœuds
+- Alternative aux outils payants comme Weavy AI, Krea Nodes, Freepik Spaces et FloraFauna AI
+- Permet de générer des images et des vidéos via MuAPI
+- Self-hostable et privé
+
+## Usages documentés
+
+- Cloner le dépôt
+- Installer les dépendances
+- Configurer la clé API MuAPI
+- Exécuter le frontend et le backend
+
+## Limites
+
+- Requiert Node.js v20+
+- Requiert Python v3.10+
+- Requiert Docker pour une exécution simplifiée
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/samuraigpt/vibe-workflow
+- Analyse source : 2026-10-24T12:57:16.765Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

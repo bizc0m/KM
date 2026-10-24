@@ -6,11 +6,9 @@ actif
 
 ## Tags
 
-#pentest, #anonymisation
-
 ## Intérêts
 
-Anonymise les données sensibles avant transmission
+Protection des données sensibles avant l'envoi vers un API non contrôlé
 
 ## Métadonnées
 
@@ -25,11 +23,11 @@ Anonymise les données sensibles avant transmission
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.privacy domain.security.testing capability.security.pentest capability.privacy.anonymize source.noteplan source.x source.github lifecycle.active
-- Sujets : Cybersécurité > Protection des données ; Cybersécurité > Tests de sécurité
-- Fonctions : Tester la sécurité ; Anonymiser
+- Identifiants : domain.ai.llm domain.privacy capability.privacy.anonymize risk.sensitive source.noteplan source.x source.github
+- Sujets : Intelligence artificielle > Modèles de langage ; Cybersécurité > Protection des données
+- Fonctions : Anonymiser
+- Risques : Risque signalé
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
-- État : Actif
 
 ## Sources
 
@@ -90,3 +88,31 @@ Audit de sécurité interne et externe révèle plusieurs vulnérabilités criti
 - Exposition d'API interne sans authentification avec fuite de 2,1 millions de transactions
 
 Source : https://raw.githubusercontent.com/openbashok/promptzero/HEAD/examples/pentest_report/sample_findings.json ; niveau 2.
+
+## Identité
+
+- Dépôt principal : https://github.com/openbashok/promptzero
+
+## Capacités documentées
+
+- Protection des données sensibles avant l'envoi vers un API non contrôlé
+- Remplacement des adresses IP, noms d'hôtes, emails et autres données par des valeurs synthétiques
+- Restauration des données réelles dans les réponses reçues
+- Utilisation de normes RFC pour les valeurs synthétiques
+
+## Usages documentés
+
+- Utilisation d'un proxy local pour filtrer les données sensibles avant l'envoi
+- Remplacement des données sensibles par des valeurs synthétiques conformes aux normes RFC
+
+## Limites
+
+- Requiert une configuration locale pour fonctionner
+- Nécessite des outils comme Burp ou mitmproxy pour inspecter le trafic
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/openbashok/promptzero
+- Analyse source : 2026-10-24T05:23:36.151Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

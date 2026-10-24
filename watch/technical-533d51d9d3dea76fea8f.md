@@ -6,11 +6,11 @@ actif
 
 ## Tags
 
-#agents-code, #terminal
+#agents-code, #planification-taches, #terminal
 
 ## Intérêts
 
-Intérêt à vérifier
+Génère des codes et corrige les erreurs dans un projet.
 
 ## Identité
 
@@ -29,9 +29,9 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.dev.quality domain.data.organization capability.code.assist compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel > Qualité du code ; Données et connaissances > Organisation du travail
-- Fonctions : Assister le développement
+- Identifiants : domain.ai.agents.coding domain.dev.quality domain.infrastructure domain.data.notes capability.code.assist capability.automation.schedule compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel > Qualité du code ; Infrastructure ; Données et connaissances > Notes et organisation
+- Fonctions : Assister le développement ; Automatiser des actions > Planifier des tâches
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
@@ -50,3 +50,27 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Permet d'éditer du code avec des modifications coordonnées
+- Exécute des commandes bash en temps réel
+- Fournit un plan d'action et exécute des tâches
+- Supporte divers modèles d'IA via des fournisseurs
+
+## Usages documentés
+
+- npm i -g cline
+- cline "Run tests and fix any failures"
+
+## Limites
+
+- Requiert des outils spécifiques pour chaque plateforme
+- Nécessite des configurations spécifiques pour chaque fournisseur d'IA
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/cline/cline
+- Analyse source : 2026-10-24T07:38:20.941Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

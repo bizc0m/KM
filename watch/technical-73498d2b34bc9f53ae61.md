@@ -47,3 +47,23 @@ Rechercher et ouvrir des fichiers via des requêtes textuelles.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Permet de rechercher des fichiers via des requêtes textuelles.
+- Facilite l'ouverture de fichiers multimédia via des commandes.
+- Supporte la recherche dans des chemins spécifiques.
+- Possibilité de rechercher tous les fichiers avec le caractère *.
+
+## Usages documentés
+
+- mov-cli -s files {query}
+- mov-cli -s files osaka oh my gah -- --path ./Downloads
+- mov-cli -s files "*"
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/mov-cli/mov-cli-files
+- Analyse source : 2026-10-24T09:05:37.206Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

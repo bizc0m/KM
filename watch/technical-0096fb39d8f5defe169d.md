@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Crée des magasins B2B ou DTC avec des primitives commerciales
+Crée une boutique en ligne avec modules commerciaux
 
 ## Identité
 

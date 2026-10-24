@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Convertir du markdown en image partageable sur les réseaux sociaux
+Intérêt à vérifier
 
 ## Identité
 
@@ -29,8 +29,8 @@ Convertir du markdown en image partageable sur les réseaux sociaux
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.image domain.dev.web domain.data.documents capability.documents.convert capability.generate.image source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Images et graphisme ; Développement logiciel > Développement web ; Données et connaissances > Documents
+- Identifiants : domain.media.image domain.dev.ui domain.dev.web domain.data.documents capability.documents.convert capability.generate.image source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Images et graphisme ; Développement logiciel > Conception d’interfaces ; Développement logiciel > Développement web ; Données et connaissances > Documents
 - Fonctions : Traiter des documents > Convertir des documents ; Générer des contenus > Générer une image
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

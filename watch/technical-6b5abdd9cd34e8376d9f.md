@@ -42,5 +42,5 @@ Permet de remplacer des visages dans des vidéos avec précision
 - Origine : NotePlan
 - Identifiant source : 6b5abdd9cd34e8376d9f5e0996f4be000684d19797213497f07369396ff537a1
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-22
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

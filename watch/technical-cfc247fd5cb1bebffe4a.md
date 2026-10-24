@@ -74,5 +74,5 @@ Ajouter des b-roll à une vidéo sans intervention manuelle.
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/anil-matcha/ai-b-roll
-- Analyse source : 2026-10-22T01:30:11.380Z
+- Analyse source : 2026-10-24T12:57:16.765Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

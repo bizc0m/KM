@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Convertir du texte en parole avec des modèles vocaux
+Convertir du texte en parole synthétique avec des modèles préconfigurés
 
 ## Identité
 

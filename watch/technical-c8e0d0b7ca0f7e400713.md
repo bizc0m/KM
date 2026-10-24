@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Créez des vidéos via du code React, gagnez du temps et plus de contrôle.
 
 ## Identité
 
@@ -47,3 +47,21 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Outil de création de vidéos basé sur React
+- Permet de générer des vidéos agentiquement, interactivement et programmablement
+- Intègre des composants et effets pour animations
+- Documentation étendue disponible
+
+## Usages documentés
+
+- npx create-video@latest
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/remotion-dev/remotion
+- Analyse source : 2026-10-24T11:03:54.530Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

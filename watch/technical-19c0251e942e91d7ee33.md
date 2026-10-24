@@ -46,3 +46,29 @@ Analyse en temps réel des données épidémiologiques pour comparaison et suivi
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Analyse en temps réel des données COVID-19
+- Comparaison des pays et régions
+- Recherche par localisation spécifique
+- Stockage persistant des données
+
+## Usages documentés
+
+- python3 CoronavirOSINT.py
+- chmod +x CoronavirOSINT.py
+- pip install requests
+
+## Limites
+
+- Requiert Python 3.6+
+- Dépend de l'API de RapidAPI
+- Fonctionne sur Linux, macOS et Windows
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/osintcabal/coronavirosint
+- Analyse source : 2026-10-24T12:35:09.773Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

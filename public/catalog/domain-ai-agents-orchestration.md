@@ -1,6 +1,5 @@
 # Orchestration des agents
 
-- [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
 - [Génération automatique de micro-dramas vidéo](../../watch/technical-041ee9bffa76ace2d6ef.md) — Crée un micro-drama vidéo à partir d'une idée
 - [Open Multi-Agent (OMA)](../../watch/technical-b1a37537c70048612638.md) — Gère l'orchestration des agents avec approbations durables et enregistrements vérifiables.

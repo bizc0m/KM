@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Analyser les liens et extraire des données de sites web.
 
 ## Identité
 

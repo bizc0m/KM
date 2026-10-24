@@ -63,5 +63,5 @@ Génère des wheels Windows pour python-curses. Permet l'installation via pip su
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/cgohlke/python-curses-build
-- Analyse source : 2026-10-22T01:54:07.762Z
+- Analyse source : 2026-10-24T05:00:50.120Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -44,3 +44,27 @@ Créer des campagnes de phishing pour tests de sécurité
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Outil open source pour créer des campagnes de phishing
+- Permet de tester la sensibilisation sécurité
+- Intégration avec Evilginx
+- Gestion de campagnes via interface web
+
+## Usages documentés
+
+- Télécharger et exécuter le fichier binaire
+- Utiliser Docker pour déployer l'outil
+- Configurer via l'interface web
+
+## Limites
+
+- Requiert Go v1.10 ou plus pour la compilation
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/kgretzky/gophish
+- Analyse source : 2026-10-24T10:21:48.260Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

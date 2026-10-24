@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Découpe des images en sections facilement.
+Permet d'éditer des vidéos sur plusieurs plateformes.
 
 ## Métadonnées
 
@@ -25,8 +25,8 @@ Découpe des images en sections facilement.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.image compatibility.interface.desktop source.noteplan source.x source.github lifecycle.active
-- Sujets : Audio, vidéo et création > Images et graphisme
+- Identifiants : domain.media.video domain.media.image compatibility.interface.desktop source.noteplan source.x source.github lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
 - Compatibilités : Interfaces > Application de bureau
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
 - État : Actif
@@ -337,3 +337,21 @@ Outil d'extension d'image sans recadrage. Génère du contenu en continu. Adapte
 - Résultat sans watermark et à haute résolution.
 
 Source : https://fal.ai/tools/image-extender ; niveau 3.
+
+## Identité
+
+- Dépôt principal : https://github.com/opencut-app/opencut
+
+## Capacités documentées
+
+- OpenCut est un éditeur vidéo open source.
+- OpenCut est disponible pour web, desktop et mobile.
+- OpenCut est en cours de réécriture.
+- Une version classique est disponible sur GitHub.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/opencut-app/opencut
+- Analyse source : 2026-10-24T11:44:48.849Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

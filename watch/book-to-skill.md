@@ -6,7 +6,7 @@ actif
 
 ## Tags
 
-#skills-agents, #conversion-documents
+#skills-agents
 
 ## Intérêts
 
@@ -29,9 +29,9 @@ Transforme un livre en compétence accessible par un agent IA
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.skills domain.data.documents capability.skills capability.documents.convert source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Données et connaissances > Documents
-- Fonctions : Étendre les compétences d’un agent ; Traiter des documents > Convertir des documents
+- Identifiants : domain.ai.agents.skills capability.skills source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents
+- Fonctions : Étendre les compétences d’un agent
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -106,3 +106,17 @@ Transforme un livre en compétence accessible par un agent IA
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Convertit des livres en compétences structurées pour des agents IA
+- Supporte divers formats de documents
+- Réduit le coût token par rapport à l'utilisation brute du contenu
+- Génère des fichiers organisés pour un accès ciblé
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/virgiliojr94/book-to-skill
+- Analyse source : 2026-10-24T09:20:22.750Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

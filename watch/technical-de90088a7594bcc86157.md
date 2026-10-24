@@ -47,3 +47,27 @@ Recherche rapide de dorks pour trouver des informations via des moteurs de reche
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Outil OSINT pour recherche de dorks sur Yandex, Google et Bing
+- Permet de chercher des mots de passe, fichiers Excel, PDF et bases de données
+- Mise à jour hebdomadaire avec nouvelles fonctionnalités
+- Interface utilisateur détaillée et accessible aux débutants
+
+## Usages documentés
+
+- dorksint user123qwe
+- dorksint -f user123qwe
+
+## Limites
+
+- Requiert une connexion internet
+- Nécessite Python et pip installés
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/datasint/dorksint
+- Analyse source : 2026-10-24T12:35:09.773Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

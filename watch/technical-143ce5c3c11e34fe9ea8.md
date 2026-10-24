@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Cloner des voix pour des agents IA sans dépendance externe
+Cloner des voix à partir d'audio
 
 ## Métadonnées
 
@@ -413,4 +413,4 @@ Mise à jour de Voicebox vers la version 0.4.3 avec des corrections de fiabilit�
 - Fix des voix japonaises Kokoro sur installation fraîche
 - Amélioration de la compatibilité macOS 15 Sequoia
 
-Source : https://github.com/jamiepine/voi
+Source : https://github.com/jamiepine/voicebox/commit/328bdca61c76a

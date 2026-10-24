@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-24T13:32:26.349Z",
+  "at": "2026-10-24T20:19:18.874Z",
   "scope": "public-index-only",
   "fiches": 657,
-  "sourceReferences": 2651,
+  "sourceReferences": 2661,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 629,
+  "pendingReview": 628,
   "counts": {
-    "interest-missing": 191,
+    "interest-missing": 178,
     "keywords-missing": 90,
-    "domain-unqualified": 116,
+    "domain-unqualified": 118,
     "primary-identity-unqualified": 22,
     "nature-unqualified": 607
   },
@@ -41,7 +41,6 @@
       "id": "watch-cloudflare-agentic-inbox-md",
       "title": "Agentic Inbox",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -63,7 +62,6 @@
       "id": "watch-technical-a20888d5cb6a1c399300-md",
       "title": "AI Logo Studio",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -99,7 +97,6 @@
       "id": "watch-technical-14991362ba170a15ca07-md",
       "title": "anacrolix/torrent",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -123,7 +120,6 @@
       "id": "watch-technical-40cd4bcbc0fb8cf86c20-md",
       "title": "AppFlowy",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -285,7 +281,6 @@
       "id": "watch-technical-533d51d9d3dea76fea8f-md",
       "title": "Cline",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -314,6 +309,13 @@
     {
       "id": "watch-technical-668711a6e10728221dfc-md",
       "title": "headroom",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-d9575f3020769f3b284b-md",
+      "title": "Coolify",
       "reasons": [
         "nature-unqualified"
       ]
@@ -379,7 +381,6 @@
       "id": "watch-technical-ddda9bed5feda3007847-md",
       "title": "DESIGN.md",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -415,7 +416,6 @@
       "id": "watch-technical-fb7d8c0c8a030338b784-md",
       "title": "edge-tts",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -505,6 +505,7 @@
       "id": "watch-technical-d924e27b47fa985d6e04-md",
       "title": "google_dorker",
       "reasons": [
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -536,7 +537,6 @@
       "id": "watch-technical-383ec76df0f9b9e99e36-md",
       "title": "GSPN",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -558,6 +558,7 @@
       "id": "watch-technical-6e18aa23e1f0d14413d5-md",
       "title": "HyperFrames",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -594,6 +595,13 @@
       "title": "just",
       "reasons": [
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-49226a0e2e05fa223d37-md",
+      "title": "Kami",
+      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -681,7 +689,6 @@
       "id": "watch-technical-ee446b3bf303b677315c-md",
       "title": "MailHog",
       "reasons": [
-        "keywords-missing",
         "nature-unqualified"
       ]
     },
@@ -689,6 +696,7 @@
       "id": "watch-technical-10eda570000d9c7eeda1-md",
       "title": "markdown-to-image",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -713,13 +721,6 @@
       "title": "Mistral Vibe",
       "reasons": [
         "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-b8cbc6e661d7a948ed3d-md",
-      "title": "muapi-skills",
-      "reasons": [
-        "interest-missing"
       ]
     },
     {
@@ -795,7 +796,6 @@
       "id": "watch-technical-af32c93f6e9c60ab06b7-md",
       "title": "Open AI Agents Hub",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -838,7 +838,6 @@
       "id": "watch-technical-2d163384adb685d9a51a-md",
       "title": "Open-Poe-AI",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -902,9 +901,8 @@
     },
     {
       "id": "watch-technical-c0d4875dd605f77caf57-md",
-      "title": "Penpot",
+      "title": "penpot",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -919,7 +917,6 @@
       "id": "watch-technical-c133b93b912dffd605a2-md",
       "title": "Pi",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -976,6 +973,8 @@
       "id": "watch-technical-4f05134572dbcb3265f2-md",
       "title": "profile-summary-for-github",
       "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -997,7 +996,6 @@
       "id": "watch-technical-c8e0d0b7ca0f7e400713-md",
       "title": "remotion",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1094,6 +1092,7 @@
       "id": "watch-technical-2b5226bf08105545e1cf-md",
       "title": "Supabase",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1115,7 +1114,6 @@
       "id": "watch-technical-57e845072d92fede6967-md",
       "title": "TeleGramSint",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1229,9 +1227,17 @@
       ]
     },
     {
+      "id": "watch-technical-6b5abdd9cd34e8376d9f-md",
+      "title": "VisoMaster",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-dbbe9adbe528f3b77e3a-md",
       "title": "VisoMaster-Fusion",
       "reasons": [
+        "primary-identity-unqualified",
         "nature-unqualified"
       ]
     },
@@ -1253,7 +1259,6 @@
       "id": "watch-technical-143ce5c3c11e34fe9ea8-md",
       "title": "VoiceBox",
       "reasons": [
-        "primary-identity-unqualified",
         "nature-unqualified"
       ]
     },
@@ -1268,7 +1273,6 @@
       "id": "watch-technical-8a4e0d1ee4f13f3119dd-md",
       "title": "WebDiver",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1313,13 +1317,6 @@
     {
       "id": "watch-technical-e7559ed70d863d3b8f6d-md",
       "title": "zack-d-films-ai-video-generator",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-d9575f3020769f3b284b-md",
-      "title": "Coolify",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1400,13 +1397,6 @@
       ]
     },
     {
-      "id": "watch-technical-49226a0e2e05fa223d37-md",
-      "title": "Kami",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-d5417dd0599d69bd651b-md",
       "title": "Nano Banana Generator",
       "reasons": [
@@ -1453,13 +1443,6 @@
     {
       "id": "watch-technical-91a4ed33e0fa4b66d349-md",
       "title": "Sublist3r",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-6b5abdd9cd34e8376d9f-md",
-      "title": "VisoMaster",
       "reasons": [
         "nature-unqualified"
       ]

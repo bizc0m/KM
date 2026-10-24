@@ -69,5 +69,5 @@ Propose des corrections de code en temps réel via un terminal interactif
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/ovh/shai
-- Analyse source : 2026-10-21T20:27:03.779Z
+- Analyse source : 2026-10-24T07:38:20.941Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

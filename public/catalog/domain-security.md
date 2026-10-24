@@ -10,12 +10,11 @@
 - [DorkSint](../../watch/technical-de90088a7594bcc86157.md) — Recherche rapide de dorks pour trouver des informations via des moteurs de recherche
 - [Eyes](../../watch/technical-acd9eb29cb67574c16ec.md) — Recherche des comptes associés à une adresse email sans alerte.
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
-- [google_dorker](../../watch/technical-d924e27b47fa985d6e04.md) — Exécute des requêtes Google Dork pour des fins éducatives.
 - [OSINT Cabal Live Center](../../watch/technical-1049081f67e5576ca9e6.md) — Collecte d'informations publiques via des outils OSINT en ligne.
 - [OSINTSky](../../watch/technical-cdbdf85699a704f19664.md)
-- [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Anonymise les données sensibles avant transmission
+- [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Protection des données sensibles avant l'envoi vers un API non contrôlé
 - [SubCat](../../watch/technical-c67a2647c3e09c338891.md) — Découvre des sous-domaines et génère des rapports web avec captures d'écran.
-- [TeleGramSint](../../watch/technical-57e845072d92fede6967.md)
+- [TeleGramSint](../../watch/technical-57e845072d92fede6967.md) — Rechercher des informations sur des comptes Telegram via des API.
 - [undetected-chromedriver](../../watch/technical-270127c4040820721fee.md) — Exécute des navigateurs Chromium sans détection par les services anti-bot.
 - [VIN-Number-OSINT](../../watch/technical-ca8e59013ec56e1d2be5.md) — Analyse VIN pour obtenir des données techniques.
 - [WhatsMyName](../../watch/technical-d6babbc48c72c3692516.md) — Vérifier l'existence d'un nom d'utilisateur sur des sites web.

@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Crée des applications sans installation locale avec des outils open source.
+Intérêt à vérifier
 
 ## Identité
 
@@ -27,10 +27,10 @@ Crée des applications sans installation locale avec des outils open source.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai domain.dev.api domain.infrastructure.database source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle ; Développement logiciel > API et services applicatifs ; Infrastructure > Bases de données
+- Identifiants : domain.dev.api domain.infrastructure.database source.noteplan source.github source.x lifecycle.review
+- Sujets : Développement logiciel > API et services applicatifs ; Infrastructure > Bases de données
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
+- État : À vérifier
 
 ## Sources
 
