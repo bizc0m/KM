@@ -1,7 +1,2796 @@
 {
-  "at": "2026-10-23T23:30:52.648Z",
+  "at": "2026-10-24T00:30:57.352Z",
   "count": 658,
   "rows": [
+    {
+      "id": "watch-technical-a2235eb2a97eb8aaa5cb-md",
+      "title": "Anthropic-Cybersecurity-Skills",
+      "canonical": "",
+      "resource": {
+        "nature": "Collection de skills",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#skills-agents"
+      ],
+      "status": "#ROUGE",
+      "path": "watch/technical-a2235eb2a97eb8aaa5cb.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-a2235eb2a97eb8aaa5cb.md",
+      "sourceUrl": "https://x.com/i/status/2057626171085398073",
+      "sources": [
+        {
+          "url": "https://x.com/i/status/2057626171085398073",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://ctid.mitre.org/fightfraud",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://agentskills.io/home",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/nousresearch/hermes-agent",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/HEAD/SECURITY.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/HEAD/docs/mitre-f3-mapping.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/releases/tag/v1.0.0",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://x.com/i/status/2033193922349179249",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://github.com/roggeohta/awesome-codex-cli",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://openflows.org/currency/currents/anthropic-cybersecurity-skills",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/neversight/skills_feed",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/releases",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/HEAD/SCOPE.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/0161fb1c7f52b6b3a3c8cc2b02d79eaa8fdab6c0",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/3d21b30ec85d5029eb8e83eebfc25ca6ed4b8833",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/70f0469fbe42ef683145c2f6268f25de2db7bedc",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/8529aeafa86c13c82bda8b421d082de2b2a5810b",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/1934e73b7cbd37243ba3255b419e16d4cb4c477b",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/tree/1934e73b7cbd37243ba3255b419e16d4cb4c477b",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/6972fe933e04420da460d564d513b6deda9c2d30",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/a81b23364994ca2d52512f94ad6ddef3e502108c",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/796d96c41313ce7647d5bf5de81e96e5db505c6a",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/a0372fc6aa37066b7e1a6b12cea6e78a8be78779",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/4f4ec193ffff55d8a3fd08d5f2737e05c6d85ec4",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/1a7cad8d2a3651adbe9e0c96051a85b295173c70",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/d56fc0a7f90f68409fe810d1b8ade0e65ea74971",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/2672b8eb1284cc3ccb2669d27c991d4c8d8b15f6",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/9bd6051d84e28dca6d8e62931164e577368d73d1",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        }
+      ],
+      "github": "",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-10-24",
+      "theme": "agent",
+      "themeLabel": "Compétences des agents",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents.skills",
+            "domain.security"
+          ],
+          "capability": [
+            "capability.skills"
+          ],
+          "compatibility": [],
+          "risk": [
+            "risk.offensive"
+          ],
+          "source": [
+            "source.noteplan",
+            "source.x",
+            "source.github"
+          ],
+          "lifecycle": []
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents.skills",
+            "label": "Compétences des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#skills-agents",
+              "#agent-skills",
+              "#skills"
+            ],
+            "patterns": [
+              "\\bskills?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Compétences des agents"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.security",
+            "label": "Cybersécurité",
+            "parent": "domain",
+            "aliases": [
+              "#cybersecurity",
+              "#security-tools"
+            ],
+            "patterns": [
+              "cybersecurite",
+              "cybersecurity"
+            ],
+            "facet": "domain",
+            "path": [
+              "Cybersécurité"
+            ]
+          },
+          {
+            "id": "capability.skills",
+            "label": "Étendre les compétences d’un agent",
+            "parent": "capability",
+            "aliases": [
+              "#skills-agents",
+              "#agent-skills"
+            ],
+            "facet": "capability",
+            "path": [
+              "Étendre les compétences d’un agent"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "risk.offensive",
+            "label": "Usage offensif explicite",
+            "parent": "risk",
+            "aliases": [
+              "#rouge",
+              "#offensive-risk"
+            ],
+            "facet": "risk",
+            "path": [
+              "Usage offensif explicite"
+            ]
+          },
+          {
+            "id": "risk",
+            "label": "Risques",
+            "parent": null,
+            "aliases": [],
+            "facet": "risk",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents.skills",
+          "label": "Compétences des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#skills-agents",
+            "#agent-skills",
+            "#skills"
+          ],
+          "patterns": [
+            "\\bskills?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Compétences des agents"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.security",
+          "label": "Cybersécurité",
+          "parent": "domain",
+          "aliases": [
+            "#cybersecurity",
+            "#security-tools"
+          ],
+          "patterns": [
+            "cybersecurite",
+            "cybersecurity"
+          ],
+          "facet": "domain",
+          "path": [
+            "Cybersécurité"
+          ]
+        },
+        {
+          "id": "capability.skills",
+          "label": "Étendre les compétences d’un agent",
+          "parent": "capability",
+          "aliases": [
+            "#skills-agents",
+            "#agent-skills"
+          ],
+          "facet": "capability",
+          "path": [
+            "Étendre les compétences d’un agent"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "risk.offensive",
+          "label": "Usage offensif explicite",
+          "parent": "risk",
+          "aliases": [
+            "#rouge",
+            "#offensive-risk"
+          ],
+          "facet": "risk",
+          "path": [
+            "Usage offensif explicite"
+          ]
+        },
+        {
+          "id": "risk",
+          "label": "Risques",
+          "parent": null,
+          "aliases": [],
+          "facet": "risk",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#Skills",
+          "fullLabel": "Compétences des agents",
+          "color": "agent",
+          "tag": "#skills-agents"
+        }
+      ],
+      "cardTitle": "Anthropic-Cybersecurity-Skills",
+      "cardInterest": "Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA"
+    },
+    {
+      "id": "watch-technical-8e516fbfe344018b3245-md",
+      "title": "Awesome Codex CLI - Liste de ressources",
+      "canonical": "",
+      "resource": {
+        "nature": "CLI",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "CC0-1.0",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/RoggeOhta/awesome-codex-cli"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#mcp",
+        "#terminal"
+      ],
+      "status": "actif",
+      "path": "watch/technical-8e516fbfe344018b3245.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-8e516fbfe344018b3245.md",
+      "sourceUrl": "https://github.com/roggeohta/awesome-codex-cli",
+      "sources": [
+        {
+          "url": "https://github.com/roggeohta/awesome-codex-cli",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2057626171085398073",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/roggeohta/awesome-codex-cli",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Facilite la découverte des outils et compétences pour Codex CLI",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-10-24",
+      "theme": "agent",
+      "themeLabel": "Agents de développement",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents.coding",
+            "domain.infrastructure",
+            "domain.ai.agents.integration"
+          ],
+          "capability": [],
+          "compatibility": [
+            "compatibility.protocol.mcp",
+            "compatibility.interface.terminal"
+          ],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents.coding",
+            "label": "Agents de développement",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents"
+            ],
+            "patterns": [
+              "claude code",
+              "\\bcodex\\b",
+              "coding agents?",
+              "agents? de cod"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Agents de développement"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
+            "parent": "domain",
+            "aliases": [
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
+            ],
+            "patterns": [
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Infrastructure"
+            ]
+          },
+          {
+            "id": "domain.ai.agents.integration",
+            "label": "Connecteurs et outils des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#mcp",
+              "#mcp-server",
+              "#integrations",
+              "#agent-instructions",
+              "#agents-md",
+              "#agent-skill",
+              "#plugins"
+            ],
+            "patterns": [],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Connecteurs et outils des agents"
+            ]
+          },
+          {
+            "id": "compatibility.protocol.mcp",
+            "label": "MCP",
+            "parent": "compatibility.protocol",
+            "aliases": [
+              "#mcp",
+              "#mcp-server"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Protocoles",
+              "MCP"
+            ]
+          },
+          {
+            "id": "compatibility.protocol",
+            "label": "Protocoles",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Protocoles"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "compatibility.interface.terminal",
+            "label": "Terminal",
+            "parent": "compatibility.interface",
+            "aliases": [
+              "#terminal",
+              "#cli"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces",
+              "Terminal"
+            ]
+          },
+          {
+            "id": "compatibility.interface",
+            "label": "Interfaces",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces"
+            ]
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents.coding",
+          "label": "Agents de développement",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents"
+          ],
+          "patterns": [
+            "claude code",
+            "\\bcodex\\b",
+            "coding agents?",
+            "agents? de cod"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Agents de développement"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
+          "parent": "domain",
+          "aliases": [
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
+          ],
+          "patterns": [
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Infrastructure"
+          ]
+        },
+        {
+          "id": "domain.ai.agents.integration",
+          "label": "Connecteurs et outils des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#mcp",
+            "#mcp-server",
+            "#integrations",
+            "#agent-instructions",
+            "#agents-md",
+            "#agent-skill",
+            "#plugins"
+          ],
+          "patterns": [],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Connecteurs et outils des agents"
+          ]
+        },
+        {
+          "id": "compatibility.protocol.mcp",
+          "label": "MCP",
+          "parent": "compatibility.protocol",
+          "aliases": [
+            "#mcp",
+            "#mcp-server"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Protocoles",
+            "MCP"
+          ]
+        },
+        {
+          "id": "compatibility.protocol",
+          "label": "Protocoles",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Protocoles"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "compatibility.interface.terminal",
+          "label": "Terminal",
+          "parent": "compatibility.interface",
+          "aliases": [
+            "#terminal",
+            "#cli"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces",
+            "Terminal"
+          ]
+        },
+        {
+          "id": "compatibility.interface",
+          "label": "Interfaces",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces"
+          ]
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#mcp",
+          "fullLabel": "mcp",
+          "color": "agent",
+          "tag": "#mcp"
+        },
+        {
+          "label": "#terminal",
+          "fullLabel": "terminal",
+          "color": "tool",
+          "tag": "#terminal"
+        }
+      ],
+      "cardTitle": "Awesome Codex CLI",
+      "cardInterest": "Facilite la découverte des outils et compétences pour Codex CLI"
+    },
+    {
+      "id": "watch-technical-57435869059c16d7e579-md",
+      "title": "Crawler pour collecte de compétences AI",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "Non précisée",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/NeverSight/learn-skills.dev"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#skills-agents"
+      ],
+      "status": "actif",
+      "path": "watch/technical-57435869059c16d7e579.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-57435869059c16d7e579.md",
+      "sourceUrl": "https://github.com/neversight/skills_feed",
+      "sources": [
+        {
+          "url": "https://github.com/neversight/skills_feed",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2057626171085398073",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://github.com/NeverSight/learn-skills.dev",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        }
+      ],
+      "github": "https://github.com/neversight/skills_feed",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Collecte et organisation des compétences AI pour un accès centralisé",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-10-24",
+      "theme": "agent",
+      "themeLabel": "Compétences des agents",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents.skills"
+          ],
+          "capability": [
+            "capability.skills"
+          ],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents.skills",
+            "label": "Compétences des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#skills-agents",
+              "#agent-skills",
+              "#skills"
+            ],
+            "patterns": [
+              "\\bskills?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Compétences des agents"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "capability.skills",
+            "label": "Étendre les compétences d’un agent",
+            "parent": "capability",
+            "aliases": [
+              "#skills-agents",
+              "#agent-skills"
+            ],
+            "facet": "capability",
+            "path": [
+              "Étendre les compétences d’un agent"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents.skills",
+          "label": "Compétences des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#skills-agents",
+            "#agent-skills",
+            "#skills"
+          ],
+          "patterns": [
+            "\\bskills?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Compétences des agents"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "capability.skills",
+          "label": "Étendre les compétences d’un agent",
+          "parent": "capability",
+          "aliases": [
+            "#skills-agents",
+            "#agent-skills"
+          ],
+          "facet": "capability",
+          "path": [
+            "Étendre les compétences d’un agent"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#Skills",
+          "fullLabel": "Compétences des agents",
+          "color": "agent",
+          "tag": "#skills-agents"
+        }
+      ],
+      "cardTitle": "skills_feed",
+      "cardInterest": "Collecte et organisation des compétences AI pour un accès centralisé"
+    },
+    {
+      "id": "watch-nousresearch-hermes-agent-md",
+      "title": "Hermes Agent",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#memoire-agents",
+        "#terminal"
+      ],
+      "status": "actif",
+      "path": "watch/nousresearch-hermes-agent.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/nousresearch-hermes-agent.md",
+      "sourceUrl": "https://github.com/nousresearch/hermes-agent",
+      "sources": [
+        {
+          "url": "https://github.com/nousresearch/hermes-agent",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2056258502050357334",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2057218131685146713",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2056692982871388491",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2057626171085398073",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2059272711096922539",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/nousresearch/hermes-agent",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Gère des tâches complexes avec des modèles externes",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-10-24",
+      "theme": "agent",
+      "themeLabel": "Mémoire des agents",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.infrastructure",
+            "domain.ai.agents.memory"
+          ],
+          "capability": [
+            "capability.memory"
+          ],
+          "compatibility": [
+            "compatibility.interface.terminal"
+          ],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
+            "parent": "domain",
+            "aliases": [
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
+            ],
+            "patterns": [
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Infrastructure"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.ai.agents.memory",
+            "label": "Mémoire des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#memoire-agents",
+              "#memory",
+              "#long-term-memory",
+              "#context-engineering"
+            ],
+            "patterns": [
+              "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
+              "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Mémoire des agents"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "capability.memory",
+            "label": "Conserver le contexte",
+            "parent": "capability",
+            "aliases": [
+              "#memoire-agents",
+              "#memory",
+              "#long-term-memory",
+              "#context-engineering"
+            ],
+            "facet": "capability",
+            "path": [
+              "Conserver le contexte"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "compatibility.interface.terminal",
+            "label": "Terminal",
+            "parent": "compatibility.interface",
+            "aliases": [
+              "#terminal",
+              "#cli"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces",
+              "Terminal"
+            ]
+          },
+          {
+            "id": "compatibility.interface",
+            "label": "Interfaces",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
+          "parent": "domain",
+          "aliases": [
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
+          ],
+          "patterns": [
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Infrastructure"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.ai.agents.memory",
+          "label": "Mémoire des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#memoire-agents",
+            "#memory",
+            "#long-term-memory",
+            "#context-engineering"
+          ],
+          "patterns": [
+            "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
+            "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Mémoire des agents"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "capability.memory",
+          "label": "Conserver le contexte",
+          "parent": "capability",
+          "aliases": [
+            "#memoire-agents",
+            "#memory",
+            "#long-term-memory",
+            "#context-engineering"
+          ],
+          "facet": "capability",
+          "path": [
+            "Conserver le contexte"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "compatibility.interface.terminal",
+          "label": "Terminal",
+          "parent": "compatibility.interface",
+          "aliases": [
+            "#terminal",
+            "#cli"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces",
+            "Terminal"
+          ]
+        },
+        {
+          "id": "compatibility.interface",
+          "label": "Interfaces",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#Mémoire",
+          "fullLabel": "Mémoire des agents",
+          "color": "agent",
+          "tag": "#memoire-agents"
+        },
+        {
+          "label": "#terminal",
+          "fullLabel": "terminal",
+          "color": "tool",
+          "tag": "#terminal"
+        }
+      ],
+      "cardTitle": "Hermes Agent",
+      "cardInterest": "Gère des tâches complexes avec des modèles externes"
+    },
+    {
+      "id": "watch-technical-d93ed6a02625034b1939-md",
+      "title": "MiniSim",
+      "canonical": "",
+      "resource": {
+        "nature": "Application bureau",
+        "os": [
+          "macOS"
+        ],
+        "license": "MIT",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/okwasniewski/MiniSim"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#emulation",
+        "#macos",
+        "#application-bureau"
+      ],
+      "status": "actif",
+      "path": "watch/technical-d93ed6a02625034b1939.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-d93ed6a02625034b1939.md",
+      "sourceUrl": "https://github.com/okwasniewski/MiniSim",
+      "sources": [
+        {
+          "url": "https://github.com/okwasniewski/minisim",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://www.minisim.app/",
+          "kind": "source",
+          "role": "officialSite",
+          "label": "Site officiel"
+        },
+        {
+          "url": "https://x.com/i/status/2057445421325136301",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raycast.com/",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/okwasniewski/minisim/releases",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://brew.sh/",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/teams",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/enterprise",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/pricing",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/keyboard",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/gebeto/translate",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/khasbilegt/1password",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/raycast/jira",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/mommertf/slack",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/raycast/zoom",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/asubbotin/pomodoro",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/mblode/google-search",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/Codely/google-chrome",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/blog/a-technical-deep-dive-into-the-new-raycast",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://developers.raycast.com/information/developer-tools/cli",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://developers.raycast.com/basics/prepare-an-extension-for-store",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/browser-extension",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/developers",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/new",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/raycast-vs-alfred",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/faq",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/core-features/focus",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/core-features/clipboard-history",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/core-features/window-management",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/core-features/snippets",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/core-features/file-search",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/core-features/quicklinks",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/core-features/calculator",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/core-features/calendar",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/core-features/system",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/core-features/emoji-picker",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/store/category/pomodoro-timer",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raycast.com/why",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://glaze.app/",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://ray.so/snippets",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://ray.so/quicklinks",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://ray.so/presets",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/raycast/extensions/tree/30296ed2e3a21b3575567fc1fcfa3c1abd91397b/extensions/minisim",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        }
+      ],
+      "github": "https://github.com/okwasniewski/minisim",
+      "officialSite": "https://www.minisim.app/",
+      "githubTopics": [],
+      "summary": "Lancer les émulateurs iOS et Android depuis la barre de menus macOS.",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-10-24",
+      "theme": "dev",
+      "themeLabel": "Tests logiciels",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.dev.testing"
+          ],
+          "capability": [],
+          "compatibility": [
+            "compatibility.os.macos",
+            "compatibility.interface.desktop"
+          ],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.dev.testing",
+            "label": "Tests logiciels",
+            "parent": "domain.dev",
+            "aliases": [
+              "#testing",
+              "#test-automation"
+            ],
+            "patterns": [
+              "tests web",
+              "test smtp",
+              "plan de test",
+              "type python"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel",
+              "Tests logiciels"
+            ]
+          },
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "compatibility.os.macos",
+            "label": "macOS",
+            "parent": "compatibility.os",
+            "aliases": [
+              "#macos"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Systèmes",
+              "macOS"
+            ]
+          },
+          {
+            "id": "compatibility.os",
+            "label": "Systèmes",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Systèmes"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "compatibility.interface.desktop",
+            "label": "Application de bureau",
+            "parent": "compatibility.interface",
+            "aliases": [
+              "#application-bureau",
+              "#desktop-app"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces",
+              "Application de bureau"
+            ]
+          },
+          {
+            "id": "compatibility.interface",
+            "label": "Interfaces",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces"
+            ]
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": [
+          "#emulation"
+        ]
+      },
+      "concepts": [
+        {
+          "id": "domain.dev.testing",
+          "label": "Tests logiciels",
+          "parent": "domain.dev",
+          "aliases": [
+            "#testing",
+            "#test-automation"
+          ],
+          "patterns": [
+            "tests web",
+            "test smtp",
+            "plan de test",
+            "type python"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel",
+            "Tests logiciels"
+          ]
+        },
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "compatibility.os.macos",
+          "label": "macOS",
+          "parent": "compatibility.os",
+          "aliases": [
+            "#macos"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Systèmes",
+            "macOS"
+          ]
+        },
+        {
+          "id": "compatibility.os",
+          "label": "Systèmes",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Systèmes"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "compatibility.interface.desktop",
+          "label": "Application de bureau",
+          "parent": "compatibility.interface",
+          "aliases": [
+            "#application-bureau",
+            "#desktop-app"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces",
+            "Application de bureau"
+          ]
+        },
+        {
+          "id": "compatibility.interface",
+          "label": "Interfaces",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces"
+          ]
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#emulation",
+          "fullLabel": "emulation",
+          "color": "tool",
+          "tag": "#emulation"
+        },
+        {
+          "label": "#macos",
+          "fullLabel": "macos",
+          "color": "tool",
+          "tag": "#macos"
+        },
+        {
+          "label": "#application-bureau",
+          "fullLabel": "application-bureau",
+          "color": "tool",
+          "tag": "#application-bureau"
+        }
+      ],
+      "cardTitle": "MiniSim",
+      "cardInterest": "Lancer les émulateurs iOS et Android depuis la barre de menus macOS."
+    },
     {
       "id": "watch-technical-e9eb05e2bf38f125a62f-md",
       "title": "12-factor-agents",
@@ -7444,594 +10233,6 @@
       "cardInterest": "Recherche et stream d'animes via des fournisseurs."
     },
     {
-      "id": "watch-technical-a2235eb2a97eb8aaa5cb-md",
-      "title": "Anthropic-Cybersecurity-Skills",
-      "canonical": "",
-      "resource": {
-        "nature": "Collection de skills",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "À vérifier",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "À vérifier"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#skills-agents"
-      ],
-      "status": "#ROUGE",
-      "path": "watch/technical-a2235eb2a97eb8aaa5cb.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-a2235eb2a97eb8aaa5cb.md",
-      "sourceUrl": "https://x.com/i/status/2057626171085398073",
-      "sources": [
-        {
-          "url": "https://x.com/i/status/2057626171085398073",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://ctid.mitre.org/fightfraud",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://agentskills.io/home",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/nousresearch/hermes-agent",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/HEAD/SECURITY.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/HEAD/docs/mitre-f3-mapping.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/releases/tag/v1.0.0",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://x.com/i/status/2033193922349179249",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://github.com/roggeohta/awesome-codex-cli",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://openflows.org/currency/currents/anthropic-cybersecurity-skills",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/neversight/skills_feed",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/releases",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/mukul975/Anthropic-Cybersecurity-Skills/HEAD/SCOPE.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/0161fb1c7f52b6b3a3c8cc2b02d79eaa8fdab6c0",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/3d21b30ec85d5029eb8e83eebfc25ca6ed4b8833",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/70f0469fbe42ef683145c2f6268f25de2db7bedc",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/8529aeafa86c13c82bda8b421d082de2b2a5810b",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/1934e73b7cbd37243ba3255b419e16d4cb4c477b",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/tree/1934e73b7cbd37243ba3255b419e16d4cb4c477b",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/6972fe933e04420da460d564d513b6deda9c2d30",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/a81b23364994ca2d52512f94ad6ddef3e502108c",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/796d96c41313ce7647d5bf5de81e96e5db505c6a",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/a0372fc6aa37066b7e1a6b12cea6e78a8be78779",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/4f4ec193ffff55d8a3fd08d5f2737e05c6d85ec4",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/1a7cad8d2a3651adbe9e0c96051a85b295173c70",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/d56fc0a7f90f68409fe810d1b8ade0e65ea74971",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/2672b8eb1284cc3ccb2669d27c991d4c8d8b15f6",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/mukul975/anthropic-cybersecurity-skills/commit/9bd6051d84e28dca6d8e62931164e577368d73d1",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        }
-      ],
-      "github": "",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-23",
-      "theme": "agent",
-      "themeLabel": "Compétences des agents",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.ai.agents.skills",
-            "domain.security"
-          ],
-          "capability": [
-            "capability.skills"
-          ],
-          "compatibility": [],
-          "risk": [
-            "risk.offensive"
-          ],
-          "source": [
-            "source.noteplan",
-            "source.x",
-            "source.github"
-          ],
-          "lifecycle": []
-        },
-        "concepts": [
-          {
-            "id": "domain.ai.agents.skills",
-            "label": "Compétences des agents",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#skills-agents",
-              "#agent-skills",
-              "#skills"
-            ],
-            "patterns": [
-              "\\bskills?\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Compétences des agents"
-            ]
-          },
-          {
-            "id": "domain.ai.agents",
-            "label": "Agents IA",
-            "parent": "domain.ai",
-            "aliases": [
-              "#agent",
-              "#agents",
-              "#ai-agents",
-              "#personal-agent",
-              "#autonomous-agent",
-              "#ai-companion",
-              "#autonomous-company",
-              "#autonomous-research"
-            ],
-            "patterns": [
-              "\\bagents?\\b",
-              "agentique",
-              "\\bopenclaw\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA"
-            ]
-          },
-          {
-            "id": "domain.ai",
-            "label": "Intelligence artificielle",
-            "parent": "domain",
-            "aliases": [
-              "#ia",
-              "#ai",
-              "#generative-ai",
-              "#ai-assistant",
-              "#creative-ai"
-            ],
-            "patterns": [
-              "\\bia\\b",
-              "\\bai\\b",
-              "intelligence artificielle",
-              "artificial intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "domain.security",
-            "label": "Cybersécurité",
-            "parent": "domain",
-            "aliases": [
-              "#cybersecurity",
-              "#security-tools"
-            ],
-            "patterns": [
-              "cybersecurite",
-              "cybersecurity"
-            ],
-            "facet": "domain",
-            "path": [
-              "Cybersécurité"
-            ]
-          },
-          {
-            "id": "capability.skills",
-            "label": "Étendre les compétences d’un agent",
-            "parent": "capability",
-            "aliases": [
-              "#skills-agents",
-              "#agent-skills"
-            ],
-            "facet": "capability",
-            "path": [
-              "Étendre les compétences d’un agent"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
-          {
-            "id": "risk.offensive",
-            "label": "Usage offensif explicite",
-            "parent": "risk",
-            "aliases": [
-              "#rouge",
-              "#offensive-risk"
-            ],
-            "facet": "risk",
-            "path": [
-              "Usage offensif explicite"
-            ]
-          },
-          {
-            "id": "risk",
-            "label": "Risques",
-            "parent": null,
-            "aliases": [],
-            "facet": "risk",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.ai.agents.skills",
-          "label": "Compétences des agents",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#skills-agents",
-            "#agent-skills",
-            "#skills"
-          ],
-          "patterns": [
-            "\\bskills?\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Compétences des agents"
-          ]
-        },
-        {
-          "id": "domain.ai.agents",
-          "label": "Agents IA",
-          "parent": "domain.ai",
-          "aliases": [
-            "#agent",
-            "#agents",
-            "#ai-agents",
-            "#personal-agent",
-            "#autonomous-agent",
-            "#ai-companion",
-            "#autonomous-company",
-            "#autonomous-research"
-          ],
-          "patterns": [
-            "\\bagents?\\b",
-            "agentique",
-            "\\bopenclaw\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA"
-          ]
-        },
-        {
-          "id": "domain.ai",
-          "label": "Intelligence artificielle",
-          "parent": "domain",
-          "aliases": [
-            "#ia",
-            "#ai",
-            "#generative-ai",
-            "#ai-assistant",
-            "#creative-ai"
-          ],
-          "patterns": [
-            "\\bia\\b",
-            "\\bai\\b",
-            "intelligence artificielle",
-            "artificial intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "domain.security",
-          "label": "Cybersécurité",
-          "parent": "domain",
-          "aliases": [
-            "#cybersecurity",
-            "#security-tools"
-          ],
-          "patterns": [
-            "cybersecurite",
-            "cybersecurity"
-          ],
-          "facet": "domain",
-          "path": [
-            "Cybersécurité"
-          ]
-        },
-        {
-          "id": "capability.skills",
-          "label": "Étendre les compétences d’un agent",
-          "parent": "capability",
-          "aliases": [
-            "#skills-agents",
-            "#agent-skills"
-          ],
-          "facet": "capability",
-          "path": [
-            "Étendre les compétences d’un agent"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
-          "id": "risk.offensive",
-          "label": "Usage offensif explicite",
-          "parent": "risk",
-          "aliases": [
-            "#rouge",
-            "#offensive-risk"
-          ],
-          "facet": "risk",
-          "path": [
-            "Usage offensif explicite"
-          ]
-        },
-        {
-          "id": "risk",
-          "label": "Risques",
-          "parent": null,
-          "aliases": [],
-          "facet": "risk",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#Skills",
-          "fullLabel": "Compétences des agents",
-          "color": "agent",
-          "tag": "#skills-agents"
-        }
-      ],
-      "cardTitle": "Anthropic-Cybersecurity-Skills",
-      "cardInterest": "Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA"
-    },
-    {
       "id": "watch-technical-4ebbe613827a1ffc3c29-md",
       "title": "Anthropic/skills : Outil de conception frontend par Claude",
       "canonical": "",
@@ -10166,573 +12367,6 @@
       ],
       "cardTitle": "Assembler3d",
       "cardInterest": "Assemble des pièces 3D à partir de données GLB et PNG."
-    },
-    {
-      "id": "watch-technical-8e516fbfe344018b3245-md",
-      "title": "Awesome Codex CLI - Liste de ressources",
-      "canonical": "",
-      "resource": {
-        "nature": "CLI",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "CC0-1.0",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/RoggeOhta/awesome-codex-cli"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#mcp",
-        "#terminal"
-      ],
-      "status": "actif",
-      "path": "watch/technical-8e516fbfe344018b3245.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-8e516fbfe344018b3245.md",
-      "sourceUrl": "https://github.com/roggeohta/awesome-codex-cli",
-      "sources": [
-        {
-          "url": "https://github.com/roggeohta/awesome-codex-cli",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://x.com/i/status/2057626171085398073",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        }
-      ],
-      "github": "https://github.com/roggeohta/awesome-codex-cli",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Facilite la découverte des outils et compétences pour Codex CLI",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-23",
-      "theme": "agent",
-      "themeLabel": "Agents de développement",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.ai.agents.coding",
-            "domain.infrastructure",
-            "domain.ai.agents.integration"
-          ],
-          "capability": [],
-          "compatibility": [
-            "compatibility.protocol.mcp",
-            "compatibility.interface.terminal"
-          ],
-          "risk": [],
-          "source": [
-            "source.noteplan",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.ai.agents.coding",
-            "label": "Agents de développement",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#agents-code",
-              "#coding-agents"
-            ],
-            "patterns": [
-              "claude code",
-              "\\bcodex\\b",
-              "coding agents?",
-              "agents? de cod"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Agents de développement"
-            ]
-          },
-          {
-            "id": "domain.ai.agents",
-            "label": "Agents IA",
-            "parent": "domain.ai",
-            "aliases": [
-              "#agent",
-              "#agents",
-              "#ai-agents",
-              "#personal-agent",
-              "#autonomous-agent",
-              "#ai-companion",
-              "#autonomous-company",
-              "#autonomous-research"
-            ],
-            "patterns": [
-              "\\bagents?\\b",
-              "agentique",
-              "\\bopenclaw\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA"
-            ]
-          },
-          {
-            "id": "domain.ai",
-            "label": "Intelligence artificielle",
-            "parent": "domain",
-            "aliases": [
-              "#ia",
-              "#ai",
-              "#generative-ai",
-              "#ai-assistant",
-              "#creative-ai"
-            ],
-            "patterns": [
-              "\\bia\\b",
-              "\\bai\\b",
-              "intelligence artificielle",
-              "artificial intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "domain.infrastructure",
-            "label": "Infrastructure",
-            "parent": "domain",
-            "aliases": [
-              "#infrastructure",
-              "#network-security",
-              "#vpn",
-              "#tailscale",
-              "#server",
-              "#linux-server"
-            ],
-            "patterns": [
-              "\\bvps\\b",
-              "serveurs?",
-              "\\bservers?\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Infrastructure"
-            ]
-          },
-          {
-            "id": "domain.ai.agents.integration",
-            "label": "Connecteurs et outils des agents",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#mcp",
-              "#mcp-server",
-              "#integrations",
-              "#agent-instructions",
-              "#agents-md",
-              "#agent-skill",
-              "#plugins"
-            ],
-            "patterns": [],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Connecteurs et outils des agents"
-            ]
-          },
-          {
-            "id": "compatibility.protocol.mcp",
-            "label": "MCP",
-            "parent": "compatibility.protocol",
-            "aliases": [
-              "#mcp",
-              "#mcp-server"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Protocoles",
-              "MCP"
-            ]
-          },
-          {
-            "id": "compatibility.protocol",
-            "label": "Protocoles",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Protocoles"
-            ]
-          },
-          {
-            "id": "compatibility",
-            "label": "Compatibilités",
-            "parent": null,
-            "aliases": [],
-            "facet": "compatibility",
-            "path": []
-          },
-          {
-            "id": "compatibility.interface.terminal",
-            "label": "Terminal",
-            "parent": "compatibility.interface",
-            "aliases": [
-              "#terminal",
-              "#cli"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces",
-              "Terminal"
-            ]
-          },
-          {
-            "id": "compatibility.interface",
-            "label": "Interfaces",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces"
-            ]
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.ai.agents.coding",
-          "label": "Agents de développement",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#agents-code",
-            "#coding-agents"
-          ],
-          "patterns": [
-            "claude code",
-            "\\bcodex\\b",
-            "coding agents?",
-            "agents? de cod"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Agents de développement"
-          ]
-        },
-        {
-          "id": "domain.ai.agents",
-          "label": "Agents IA",
-          "parent": "domain.ai",
-          "aliases": [
-            "#agent",
-            "#agents",
-            "#ai-agents",
-            "#personal-agent",
-            "#autonomous-agent",
-            "#ai-companion",
-            "#autonomous-company",
-            "#autonomous-research"
-          ],
-          "patterns": [
-            "\\bagents?\\b",
-            "agentique",
-            "\\bopenclaw\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA"
-          ]
-        },
-        {
-          "id": "domain.ai",
-          "label": "Intelligence artificielle",
-          "parent": "domain",
-          "aliases": [
-            "#ia",
-            "#ai",
-            "#generative-ai",
-            "#ai-assistant",
-            "#creative-ai"
-          ],
-          "patterns": [
-            "\\bia\\b",
-            "\\bai\\b",
-            "intelligence artificielle",
-            "artificial intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "domain.infrastructure",
-          "label": "Infrastructure",
-          "parent": "domain",
-          "aliases": [
-            "#infrastructure",
-            "#network-security",
-            "#vpn",
-            "#tailscale",
-            "#server",
-            "#linux-server"
-          ],
-          "patterns": [
-            "\\bvps\\b",
-            "serveurs?",
-            "\\bservers?\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Infrastructure"
-          ]
-        },
-        {
-          "id": "domain.ai.agents.integration",
-          "label": "Connecteurs et outils des agents",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#mcp",
-            "#mcp-server",
-            "#integrations",
-            "#agent-instructions",
-            "#agents-md",
-            "#agent-skill",
-            "#plugins"
-          ],
-          "patterns": [],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Connecteurs et outils des agents"
-          ]
-        },
-        {
-          "id": "compatibility.protocol.mcp",
-          "label": "MCP",
-          "parent": "compatibility.protocol",
-          "aliases": [
-            "#mcp",
-            "#mcp-server"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Protocoles",
-            "MCP"
-          ]
-        },
-        {
-          "id": "compatibility.protocol",
-          "label": "Protocoles",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Protocoles"
-          ]
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibilités",
-          "parent": null,
-          "aliases": [],
-          "facet": "compatibility",
-          "path": []
-        },
-        {
-          "id": "compatibility.interface.terminal",
-          "label": "Terminal",
-          "parent": "compatibility.interface",
-          "aliases": [
-            "#terminal",
-            "#cli"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces",
-            "Terminal"
-          ]
-        },
-        {
-          "id": "compatibility.interface",
-          "label": "Interfaces",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces"
-          ]
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#mcp",
-          "fullLabel": "mcp",
-          "color": "agent",
-          "tag": "#mcp"
-        },
-        {
-          "label": "#terminal",
-          "fullLabel": "terminal",
-          "color": "tool",
-          "tag": "#terminal"
-        }
-      ],
-      "cardTitle": "Awesome Codex CLI",
-      "cardInterest": "Facilite la découverte des outils et compétences pour Codex CLI"
     },
     {
       "id": "watch-technical-c5cd3a5c95630c792129-md",
@@ -16405,7 +18039,7 @@
     },
     {
       "id": "watch-technical-553d2fe81671c153a6e0-md",
-      "title": "Cal.diy",
+      "title": "Cal.diy - Plateforme de planification open source",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -16759,17 +18393,16 @@
       "github": "https://github.com/calcom/cal.diy",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.",
+      "summary": "Permet de gérer les disponibilités et rendez-vous",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
-      "theme": "dev",
-      "themeLabel": "Bases de données",
+      "theme": "research",
+      "themeLabel": "Organisation du travail",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.infrastructure.database",
             "domain.data.organization"
           ],
           "capability": [],
@@ -16785,56 +18418,6 @@
           ]
         },
         "concepts": [
-          {
-            "id": "domain.infrastructure.database",
-            "label": "Bases de données",
-            "parent": "domain.infrastructure",
-            "aliases": [
-              "#database",
-              "#postgres",
-              "#sqlite"
-            ],
-            "patterns": [
-              "base de donnees",
-              "\\bsqlite\\b",
-              "\\bpostgres"
-            ],
-            "facet": "domain",
-            "path": [
-              "Infrastructure",
-              "Bases de données"
-            ]
-          },
-          {
-            "id": "domain.infrastructure",
-            "label": "Infrastructure",
-            "parent": "domain",
-            "aliases": [
-              "#infrastructure",
-              "#network-security",
-              "#vpn",
-              "#tailscale",
-              "#server",
-              "#linux-server"
-            ],
-            "patterns": [
-              "\\bvps\\b",
-              "serveurs?",
-              "\\bservers?\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Infrastructure"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
           {
             "id": "domain.data.organization",
             "label": "Organisation du travail",
@@ -16865,6 +18448,14 @@
             "path": [
               "Données et connaissances"
             ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
           },
           {
             "id": "lifecycle.active",
@@ -16930,56 +18521,6 @@
       },
       "concepts": [
         {
-          "id": "domain.infrastructure.database",
-          "label": "Bases de données",
-          "parent": "domain.infrastructure",
-          "aliases": [
-            "#database",
-            "#postgres",
-            "#sqlite"
-          ],
-          "patterns": [
-            "base de donnees",
-            "\\bsqlite\\b",
-            "\\bpostgres"
-          ],
-          "facet": "domain",
-          "path": [
-            "Infrastructure",
-            "Bases de données"
-          ]
-        },
-        {
-          "id": "domain.infrastructure",
-          "label": "Infrastructure",
-          "parent": "domain",
-          "aliases": [
-            "#infrastructure",
-            "#network-security",
-            "#vpn",
-            "#tailscale",
-            "#server",
-            "#linux-server"
-          ],
-          "patterns": [
-            "\\bvps\\b",
-            "serveurs?",
-            "\\bservers?\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Infrastructure"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
           "id": "domain.data.organization",
           "label": "Organisation du travail",
           "parent": "domain.data",
@@ -17009,6 +18550,14 @@
           "path": [
             "Données et connaissances"
           ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
         },
         {
           "id": "lifecycle.active",
@@ -17072,12 +18621,6 @@
       ],
       "keywords": [
         {
-          "label": "#database",
-          "fullLabel": "database",
-          "color": "dev",
-          "subjectId": "domain.infrastructure.database"
-        },
-        {
           "label": "#project-management",
           "fullLabel": "project-management",
           "color": "research",
@@ -17085,11 +18628,11 @@
         }
       ],
       "cardTitle": "Cal.diy",
-      "cardInterest": "Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale."
+      "cardInterest": "Permet de gérer les disponibilités et rendez-vous"
     },
     {
       "id": "watch-technical-cb5d126cbda2eedef29e-md",
-      "title": "Cal.diy",
+      "title": "Cal.diy - Plateforme de planification open source",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -17151,17 +18694,17 @@
       "github": "https://github.com/calcom/cal.com",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet de gérer les rendez-vous sans dépendance commerciale.",
+      "summary": "Permet de gérer les disponibilités et planifier des rendez-vous",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
       "theme": "dev",
-      "themeLabel": "Bases de données",
+      "themeLabel": "Paquets et dépendances",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.infrastructure.database",
+            "domain.dev.dependencies",
             "domain.data.organization",
             "domain.dev.web"
           ],
@@ -17179,45 +18722,47 @@
         },
         "concepts": [
           {
-            "id": "domain.infrastructure.database",
-            "label": "Bases de données",
-            "parent": "domain.infrastructure",
+            "id": "domain.dev.dependencies",
+            "label": "Paquets et dépendances",
+            "parent": "domain.dev",
             "aliases": [
-              "#database",
-              "#postgres",
-              "#sqlite"
+              "#package-manager",
+              "#dependencies"
             ],
             "patterns": [
-              "base de donnees",
-              "\\bsqlite\\b",
-              "\\bpostgres"
+              "gestionnaire de paquets",
+              "gestion.*dependances",
+              "resol.*dependances",
+              "ger.*dependances"
             ],
             "facet": "domain",
             "path": [
-              "Infrastructure",
-              "Bases de données"
+              "Développement logiciel",
+              "Paquets et dépendances"
             ]
           },
           {
-            "id": "domain.infrastructure",
-            "label": "Infrastructure",
+            "id": "domain.dev",
+            "label": "Développement logiciel",
             "parent": "domain",
             "aliases": [
-              "#infrastructure",
-              "#network-security",
-              "#vpn",
-              "#tailscale",
-              "#server",
-              "#linux-server"
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
             ],
             "patterns": [
-              "\\bvps\\b",
-              "serveurs?",
-              "\\bservers?\\b"
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
             ],
             "facet": "domain",
             "path": [
-              "Infrastructure"
+              "Développement logiciel"
             ]
           },
           {
@@ -17272,30 +18817,6 @@
             "path": [
               "Développement logiciel",
               "Développement web"
-            ]
-          },
-          {
-            "id": "domain.dev",
-            "label": "Développement logiciel",
-            "parent": "domain",
-            "aliases": [
-              "#coding",
-              "#devtools",
-              "#editor",
-              "#code-quality"
-            ],
-            "patterns": [
-              "developpement logiciel",
-              "software development",
-              "ingenierie logicielle",
-              "developpement",
-              "programmat",
-              "modifier.*fichiers.*projet",
-              "modifier un projet"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel"
             ]
           },
           {
@@ -17362,45 +18883,47 @@
       },
       "concepts": [
         {
-          "id": "domain.infrastructure.database",
-          "label": "Bases de données",
-          "parent": "domain.infrastructure",
+          "id": "domain.dev.dependencies",
+          "label": "Paquets et dépendances",
+          "parent": "domain.dev",
           "aliases": [
-            "#database",
-            "#postgres",
-            "#sqlite"
+            "#package-manager",
+            "#dependencies"
           ],
           "patterns": [
-            "base de donnees",
-            "\\bsqlite\\b",
-            "\\bpostgres"
+            "gestionnaire de paquets",
+            "gestion.*dependances",
+            "resol.*dependances",
+            "ger.*dependances"
           ],
           "facet": "domain",
           "path": [
-            "Infrastructure",
-            "Bases de données"
+            "Développement logiciel",
+            "Paquets et dépendances"
           ]
         },
         {
-          "id": "domain.infrastructure",
-          "label": "Infrastructure",
+          "id": "domain.dev",
+          "label": "Développement logiciel",
           "parent": "domain",
           "aliases": [
-            "#infrastructure",
-            "#network-security",
-            "#vpn",
-            "#tailscale",
-            "#server",
-            "#linux-server"
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
           ],
           "patterns": [
-            "\\bvps\\b",
-            "serveurs?",
-            "\\bservers?\\b"
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
           ],
           "facet": "domain",
           "path": [
-            "Infrastructure"
+            "Développement logiciel"
           ]
         },
         {
@@ -17455,30 +18978,6 @@
           "path": [
             "Développement logiciel",
             "Développement web"
-          ]
-        },
-        {
-          "id": "domain.dev",
-          "label": "Développement logiciel",
-          "parent": "domain",
-          "aliases": [
-            "#coding",
-            "#devtools",
-            "#editor",
-            "#code-quality"
-          ],
-          "patterns": [
-            "developpement logiciel",
-            "software development",
-            "ingenierie logicielle",
-            "developpement",
-            "programmat",
-            "modifier.*fichiers.*projet",
-            "modifier un projet"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel"
           ]
         },
         {
@@ -17550,7 +19049,7 @@
         }
       ],
       "cardTitle": "Cal.diy",
-      "cardInterest": "Permet de gérer les rendez-vous sans dépendance commerciale."
+      "cardInterest": "Permet de gérer les disponibilités et planifier des rendez-vous"
     },
     {
       "id": "watch-technical-4f72d6274858ca1e8190-md",
@@ -24671,409 +26170,6 @@
       ],
       "cardTitle": "Crawlee",
       "cardInterest": ""
-    },
-    {
-      "id": "watch-technical-57435869059c16d7e579-md",
-      "title": "Crawler pour collecte de compétences AI",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "Non précisée",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/NeverSight/learn-skills.dev"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#skills-agents"
-      ],
-      "status": "actif",
-      "path": "watch/technical-57435869059c16d7e579.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-57435869059c16d7e579.md",
-      "sourceUrl": "https://github.com/neversight/skills_feed",
-      "sources": [
-        {
-          "url": "https://github.com/neversight/skills_feed",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://x.com/i/status/2057626171085398073",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://github.com/NeverSight/learn-skills.dev",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        }
-      ],
-      "github": "https://github.com/neversight/skills_feed",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Collecte et organisation des compétences AI pour un accès centralisé",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-23",
-      "theme": "agent",
-      "themeLabel": "Compétences des agents",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.ai.agents.skills"
-          ],
-          "capability": [
-            "capability.skills"
-          ],
-          "compatibility": [],
-          "risk": [],
-          "source": [
-            "source.noteplan",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.ai.agents.skills",
-            "label": "Compétences des agents",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#skills-agents",
-              "#agent-skills",
-              "#skills"
-            ],
-            "patterns": [
-              "\\bskills?\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Compétences des agents"
-            ]
-          },
-          {
-            "id": "domain.ai.agents",
-            "label": "Agents IA",
-            "parent": "domain.ai",
-            "aliases": [
-              "#agent",
-              "#agents",
-              "#ai-agents",
-              "#personal-agent",
-              "#autonomous-agent",
-              "#ai-companion",
-              "#autonomous-company",
-              "#autonomous-research"
-            ],
-            "patterns": [
-              "\\bagents?\\b",
-              "agentique",
-              "\\bopenclaw\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA"
-            ]
-          },
-          {
-            "id": "domain.ai",
-            "label": "Intelligence artificielle",
-            "parent": "domain",
-            "aliases": [
-              "#ia",
-              "#ai",
-              "#generative-ai",
-              "#ai-assistant",
-              "#creative-ai"
-            ],
-            "patterns": [
-              "\\bia\\b",
-              "\\bai\\b",
-              "intelligence artificielle",
-              "artificial intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "capability.skills",
-            "label": "Étendre les compétences d’un agent",
-            "parent": "capability",
-            "aliases": [
-              "#skills-agents",
-              "#agent-skills"
-            ],
-            "facet": "capability",
-            "path": [
-              "Étendre les compétences d’un agent"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.ai.agents.skills",
-          "label": "Compétences des agents",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#skills-agents",
-            "#agent-skills",
-            "#skills"
-          ],
-          "patterns": [
-            "\\bskills?\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Compétences des agents"
-          ]
-        },
-        {
-          "id": "domain.ai.agents",
-          "label": "Agents IA",
-          "parent": "domain.ai",
-          "aliases": [
-            "#agent",
-            "#agents",
-            "#ai-agents",
-            "#personal-agent",
-            "#autonomous-agent",
-            "#ai-companion",
-            "#autonomous-company",
-            "#autonomous-research"
-          ],
-          "patterns": [
-            "\\bagents?\\b",
-            "agentique",
-            "\\bopenclaw\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA"
-          ]
-        },
-        {
-          "id": "domain.ai",
-          "label": "Intelligence artificielle",
-          "parent": "domain",
-          "aliases": [
-            "#ia",
-            "#ai",
-            "#generative-ai",
-            "#ai-assistant",
-            "#creative-ai"
-          ],
-          "patterns": [
-            "\\bia\\b",
-            "\\bai\\b",
-            "intelligence artificielle",
-            "artificial intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "capability.skills",
-          "label": "Étendre les compétences d’un agent",
-          "parent": "capability",
-          "aliases": [
-            "#skills-agents",
-            "#agent-skills"
-          ],
-          "facet": "capability",
-          "path": [
-            "Étendre les compétences d’un agent"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#Skills",
-          "fullLabel": "Compétences des agents",
-          "color": "agent",
-          "tag": "#skills-agents"
-        }
-      ],
-      "cardTitle": "skills_feed",
-      "cardInterest": "Collecte et organisation des compétences AI pour un accès centralisé"
     },
     {
       "id": "watch-technical-74dc45b5f749db3d46d0-md",
@@ -32731,7 +33827,7 @@
     },
     {
       "id": "watch-technical-c750bc2f9f73e8e1f5bd-md",
-      "title": "Ghost",
+      "title": "Ghost : CMS open source headless basé sur Node.js",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -35353,553 +36449,6 @@
       ],
       "cardTitle": "H4X-Tools",
       "cardInterest": "Correction des avertissements et amélioration de Git scrape"
-    },
-    {
-      "id": "watch-nousresearch-hermes-agent-md",
-      "title": "Hermes Agent",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "À vérifier",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "À vérifier"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#memoire-agents",
-        "#terminal"
-      ],
-      "status": "actif",
-      "path": "watch/nousresearch-hermes-agent.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/nousresearch-hermes-agent.md",
-      "sourceUrl": "https://github.com/nousresearch/hermes-agent",
-      "sources": [
-        {
-          "url": "https://github.com/nousresearch/hermes-agent",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://x.com/i/status/2056258502050357334",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://x.com/i/status/2057218131685146713",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://x.com/i/status/2056692982871388491",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://x.com/i/status/2057626171085398073",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://x.com/i/status/2059272711096922539",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        }
-      ],
-      "github": "https://github.com/nousresearch/hermes-agent",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Gère des tâches complexes avec des modèles externes",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-23",
-      "theme": "agent",
-      "themeLabel": "Mémoire des agents",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.infrastructure",
-            "domain.ai.agents.memory"
-          ],
-          "capability": [
-            "capability.memory"
-          ],
-          "compatibility": [
-            "compatibility.interface.terminal"
-          ],
-          "risk": [],
-          "source": [
-            "source.noteplan",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.infrastructure",
-            "label": "Infrastructure",
-            "parent": "domain",
-            "aliases": [
-              "#infrastructure",
-              "#network-security",
-              "#vpn",
-              "#tailscale",
-              "#server",
-              "#linux-server"
-            ],
-            "patterns": [
-              "\\bvps\\b",
-              "serveurs?",
-              "\\bservers?\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Infrastructure"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "domain.ai.agents.memory",
-            "label": "Mémoire des agents",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#memoire-agents",
-              "#memory",
-              "#long-term-memory",
-              "#context-engineering"
-            ],
-            "patterns": [
-              "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
-              "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Mémoire des agents"
-            ]
-          },
-          {
-            "id": "domain.ai.agents",
-            "label": "Agents IA",
-            "parent": "domain.ai",
-            "aliases": [
-              "#agent",
-              "#agents",
-              "#ai-agents",
-              "#personal-agent",
-              "#autonomous-agent",
-              "#ai-companion",
-              "#autonomous-company",
-              "#autonomous-research"
-            ],
-            "patterns": [
-              "\\bagents?\\b",
-              "agentique",
-              "\\bopenclaw\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA"
-            ]
-          },
-          {
-            "id": "domain.ai",
-            "label": "Intelligence artificielle",
-            "parent": "domain",
-            "aliases": [
-              "#ia",
-              "#ai",
-              "#generative-ai",
-              "#ai-assistant",
-              "#creative-ai"
-            ],
-            "patterns": [
-              "\\bia\\b",
-              "\\bai\\b",
-              "intelligence artificielle",
-              "artificial intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle"
-            ]
-          },
-          {
-            "id": "capability.memory",
-            "label": "Conserver le contexte",
-            "parent": "capability",
-            "aliases": [
-              "#memoire-agents",
-              "#memory",
-              "#long-term-memory",
-              "#context-engineering"
-            ],
-            "facet": "capability",
-            "path": [
-              "Conserver le contexte"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
-          {
-            "id": "compatibility.interface.terminal",
-            "label": "Terminal",
-            "parent": "compatibility.interface",
-            "aliases": [
-              "#terminal",
-              "#cli"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces",
-              "Terminal"
-            ]
-          },
-          {
-            "id": "compatibility.interface",
-            "label": "Interfaces",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces"
-            ]
-          },
-          {
-            "id": "compatibility",
-            "label": "Compatibilités",
-            "parent": null,
-            "aliases": [],
-            "facet": "compatibility",
-            "path": []
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.infrastructure",
-          "label": "Infrastructure",
-          "parent": "domain",
-          "aliases": [
-            "#infrastructure",
-            "#network-security",
-            "#vpn",
-            "#tailscale",
-            "#server",
-            "#linux-server"
-          ],
-          "patterns": [
-            "\\bvps\\b",
-            "serveurs?",
-            "\\bservers?\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Infrastructure"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "domain.ai.agents.memory",
-          "label": "Mémoire des agents",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#memoire-agents",
-            "#memory",
-            "#long-term-memory",
-            "#context-engineering"
-          ],
-          "patterns": [
-            "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
-            "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Mémoire des agents"
-          ]
-        },
-        {
-          "id": "domain.ai.agents",
-          "label": "Agents IA",
-          "parent": "domain.ai",
-          "aliases": [
-            "#agent",
-            "#agents",
-            "#ai-agents",
-            "#personal-agent",
-            "#autonomous-agent",
-            "#ai-companion",
-            "#autonomous-company",
-            "#autonomous-research"
-          ],
-          "patterns": [
-            "\\bagents?\\b",
-            "agentique",
-            "\\bopenclaw\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA"
-          ]
-        },
-        {
-          "id": "domain.ai",
-          "label": "Intelligence artificielle",
-          "parent": "domain",
-          "aliases": [
-            "#ia",
-            "#ai",
-            "#generative-ai",
-            "#ai-assistant",
-            "#creative-ai"
-          ],
-          "patterns": [
-            "\\bia\\b",
-            "\\bai\\b",
-            "intelligence artificielle",
-            "artificial intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle"
-          ]
-        },
-        {
-          "id": "capability.memory",
-          "label": "Conserver le contexte",
-          "parent": "capability",
-          "aliases": [
-            "#memoire-agents",
-            "#memory",
-            "#long-term-memory",
-            "#context-engineering"
-          ],
-          "facet": "capability",
-          "path": [
-            "Conserver le contexte"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
-          "id": "compatibility.interface.terminal",
-          "label": "Terminal",
-          "parent": "compatibility.interface",
-          "aliases": [
-            "#terminal",
-            "#cli"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces",
-            "Terminal"
-          ]
-        },
-        {
-          "id": "compatibility.interface",
-          "label": "Interfaces",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces"
-          ]
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibilités",
-          "parent": null,
-          "aliases": [],
-          "facet": "compatibility",
-          "path": []
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#Mémoire",
-          "fullLabel": "Mémoire des agents",
-          "color": "agent",
-          "tag": "#memoire-agents"
-        },
-        {
-          "label": "#terminal",
-          "fullLabel": "terminal",
-          "color": "tool",
-          "tag": "#terminal"
-        }
-      ],
-      "cardTitle": "Hermes Agent",
-      "cardInterest": "Gère des tâches complexes avec des modèles externes"
     },
     {
       "id": "watch-technical-1a4e40e8e8763b4b6a1a-md",
@@ -42984,17 +43533,17 @@
       "github": "https://github.com/mailhog/mailhog",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Afficher les emails envoyés dans une interface web",
+      "summary": "Visualiser les e-mails envoyés sans les envoyer réellement.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
-      "theme": "dev",
-      "themeLabel": "Infrastructure",
+      "theme": "source",
+      "themeLabel": "Messagerie",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.infrastructure"
+            "domain.communication.messaging"
           ],
           "capability": [],
           "compatibility": [],
@@ -43010,25 +43559,40 @@
         },
         "concepts": [
           {
-            "id": "domain.infrastructure",
-            "label": "Infrastructure",
-            "parent": "domain",
+            "id": "domain.communication.messaging",
+            "label": "Messagerie",
+            "parent": "domain.communication",
             "aliases": [
-              "#infrastructure",
-              "#network-security",
-              "#vpn",
-              "#tailscale",
-              "#server",
-              "#linux-server"
+              "#smtp",
+              "#slack"
             ],
             "patterns": [
-              "\\bvps\\b",
-              "serveurs?",
-              "\\bservers?\\b"
+              "e.mails?",
+              "\\bslack\\b",
+              "rechercher des tweets"
             ],
             "facet": "domain",
             "path": [
-              "Infrastructure"
+              "Communication et publication",
+              "Messagerie"
+            ]
+          },
+          {
+            "id": "domain.communication",
+            "label": "Communication et publication",
+            "parent": "domain",
+            "aliases": [
+              "#publication-sociale",
+              "#social-media",
+              "#email"
+            ],
+            "patterns": [
+              "publication.*(?:contenus|reseaux)",
+              "client email"
+            ],
+            "facet": "domain",
+            "path": [
+              "Communication et publication"
             ]
           },
           {
@@ -43103,25 +43667,40 @@
       },
       "concepts": [
         {
-          "id": "domain.infrastructure",
-          "label": "Infrastructure",
-          "parent": "domain",
+          "id": "domain.communication.messaging",
+          "label": "Messagerie",
+          "parent": "domain.communication",
           "aliases": [
-            "#infrastructure",
-            "#network-security",
-            "#vpn",
-            "#tailscale",
-            "#server",
-            "#linux-server"
+            "#smtp",
+            "#slack"
           ],
           "patterns": [
-            "\\bvps\\b",
-            "serveurs?",
-            "\\bservers?\\b"
+            "e.mails?",
+            "\\bslack\\b",
+            "rechercher des tweets"
           ],
           "facet": "domain",
           "path": [
-            "Infrastructure"
+            "Communication et publication",
+            "Messagerie"
+          ]
+        },
+        {
+          "id": "domain.communication",
+          "label": "Communication et publication",
+          "parent": "domain",
+          "aliases": [
+            "#publication-sociale",
+            "#social-media",
+            "#email"
+          ],
+          "patterns": [
+            "publication.*(?:contenus|reseaux)",
+            "client email"
+          ],
+          "facet": "domain",
+          "path": [
+            "Communication et publication"
           ]
         },
         {
@@ -43192,9 +43771,16 @@
           ]
         }
       ],
-      "keywords": [],
+      "keywords": [
+        {
+          "label": "#smtp",
+          "fullLabel": "smtp",
+          "color": "source",
+          "subjectId": "domain.communication.messaging"
+        }
+      ],
       "cardTitle": "MailHog",
-      "cardInterest": "Afficher les emails envoyés dans une interface web"
+      "cardInterest": "Visualiser les e-mails envoyés sans les envoyer réellement."
     },
     {
       "id": "watch-technical-10eda570000d9c7eeda1-md",
@@ -45023,726 +45609,6 @@
       ],
       "cardTitle": "Migration vers Kimi Code CLI",
       "cardInterest": "Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP."
-    },
-    {
-      "id": "watch-technical-d93ed6a02625034b1939-md",
-      "title": "MiniSim",
-      "canonical": "",
-      "resource": {
-        "nature": "Application bureau",
-        "os": [
-          "macOS"
-        ],
-        "license": "MIT",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/okwasniewski/MiniSim"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#emulation",
-        "#macos",
-        "#application-bureau"
-      ],
-      "status": "actif",
-      "path": "watch/technical-d93ed6a02625034b1939.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-d93ed6a02625034b1939.md",
-      "sourceUrl": "https://github.com/okwasniewski/minisim",
-      "sources": [
-        {
-          "url": "https://github.com/okwasniewski/minisim",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://www.minisim.app/",
-          "kind": "source",
-          "role": "officialSite",
-          "label": "Site officiel"
-        },
-        {
-          "url": "https://x.com/i/status/2057445421325136301",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://raycast.com/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/okwasniewski/minisim/releases",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://brew.sh/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/pro",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/teams",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/enterprise",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/pricing",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/keyboard",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/gebeto/translate",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/khasbilegt/1password",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/raycast/jira",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/mommertf/slack",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/raycast/zoom",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/ThatNerd/timers",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/asubbotin/pomodoro",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/mblode/google-search",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/Codely/google-chrome",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/core-features/notes",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/blog/a-technical-deep-dive-into-the-new-raycast",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://developers.raycast.com/information/developer-tools/cli",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://developers.raycast.com/basics/prepare-an-extension-for-store",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/browser-extension",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/developers",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/new",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/raycast-vs-alfred",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/faq",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/core-features/focus",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/core-features/clipboard-history",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/core-features/window-management",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/core-features/snippets",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/core-features/file-search",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/core-features/quicklinks",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/core-features/calculator",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/core-features/calendar",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/core-features/system",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/core-features/emoji-picker",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/store/category/developer-tools",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/store/category/pomodoro-timer",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/store/category/work-from-home",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/why",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://glaze.app/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://ray.so/snippets",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://ray.so/quicklinks",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://ray.so/presets",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/raycast/extensions/tree/30296ed2e3a21b3575567fc1fcfa3c1abd91397b/extensions/minisim",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raycast.com/raycast/github",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        }
-      ],
-      "github": "https://github.com/okwasniewski/minisim",
-      "officialSite": "https://www.minisim.app/",
-      "githubTopics": [],
-      "summary": "Lancer les émulateurs iOS et Android depuis la barre de menus macOS.",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-23",
-      "theme": "dev",
-      "themeLabel": "Tests logiciels",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.dev.testing"
-          ],
-          "capability": [],
-          "compatibility": [
-            "compatibility.os.macos",
-            "compatibility.interface.desktop"
-          ],
-          "risk": [],
-          "source": [
-            "source.noteplan",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.dev.testing",
-            "label": "Tests logiciels",
-            "parent": "domain.dev",
-            "aliases": [
-              "#testing",
-              "#test-automation"
-            ],
-            "patterns": [
-              "tests web",
-              "test smtp",
-              "plan de test",
-              "type python"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel",
-              "Tests logiciels"
-            ]
-          },
-          {
-            "id": "domain.dev",
-            "label": "Développement logiciel",
-            "parent": "domain",
-            "aliases": [
-              "#coding",
-              "#devtools",
-              "#editor",
-              "#code-quality"
-            ],
-            "patterns": [
-              "developpement logiciel",
-              "software development",
-              "ingenierie logicielle",
-              "developpement",
-              "programmat",
-              "modifier.*fichiers.*projet",
-              "modifier un projet"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "compatibility.os.macos",
-            "label": "macOS",
-            "parent": "compatibility.os",
-            "aliases": [
-              "#macos"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Systèmes",
-              "macOS"
-            ]
-          },
-          {
-            "id": "compatibility.os",
-            "label": "Systèmes",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Systèmes"
-            ]
-          },
-          {
-            "id": "compatibility",
-            "label": "Compatibilités",
-            "parent": null,
-            "aliases": [],
-            "facet": "compatibility",
-            "path": []
-          },
-          {
-            "id": "compatibility.interface.desktop",
-            "label": "Application de bureau",
-            "parent": "compatibility.interface",
-            "aliases": [
-              "#application-bureau",
-              "#desktop-app"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces",
-              "Application de bureau"
-            ]
-          },
-          {
-            "id": "compatibility.interface",
-            "label": "Interfaces",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces"
-            ]
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          }
-        ],
-        "unmappedTags": [
-          "#emulation"
-        ]
-      },
-      "concepts": [
-        {
-          "id": "domain.dev.testing",
-          "label": "Tests logiciels",
-          "parent": "domain.dev",
-          "aliases": [
-            "#testing",
-            "#test-automation"
-          ],
-          "patterns": [
-            "tests web",
-            "test smtp",
-            "plan de test",
-            "type python"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel",
-            "Tests logiciels"
-          ]
-        },
-        {
-          "id": "domain.dev",
-          "label": "Développement logiciel",
-          "parent": "domain",
-          "aliases": [
-            "#coding",
-            "#devtools",
-            "#editor",
-            "#code-quality"
-          ],
-          "patterns": [
-            "developpement logiciel",
-            "software development",
-            "ingenierie logicielle",
-            "developpement",
-            "programmat",
-            "modifier.*fichiers.*projet",
-            "modifier un projet"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "compatibility.os.macos",
-          "label": "macOS",
-          "parent": "compatibility.os",
-          "aliases": [
-            "#macos"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Systèmes",
-            "macOS"
-          ]
-        },
-        {
-          "id": "compatibility.os",
-          "label": "Systèmes",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Systèmes"
-          ]
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibilités",
-          "parent": null,
-          "aliases": [],
-          "facet": "compatibility",
-          "path": []
-        },
-        {
-          "id": "compatibility.interface.desktop",
-          "label": "Application de bureau",
-          "parent": "compatibility.interface",
-          "aliases": [
-            "#application-bureau",
-            "#desktop-app"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces",
-            "Application de bureau"
-          ]
-        },
-        {
-          "id": "compatibility.interface",
-          "label": "Interfaces",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces"
-          ]
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#emulation",
-          "fullLabel": "emulation",
-          "color": "tool",
-          "tag": "#emulation"
-        },
-        {
-          "label": "#macos",
-          "fullLabel": "macos",
-          "color": "tool",
-          "tag": "#macos"
-        },
-        {
-          "label": "#application-bureau",
-          "fullLabel": "application-bureau",
-          "color": "tool",
-          "tag": "#application-bureau"
-        }
-      ],
-      "cardTitle": "MiniSim",
-      "cardInterest": "Lancer les émulateurs iOS et Android depuis la barre de menus macOS."
     },
     {
       "id": "watch-technical-4fed931d247d6cb2a3df-md",
@@ -54860,7 +54726,7 @@
     },
     {
       "id": "watch-technical-78faa425ad9343a870b8-md",
-      "title": "Open-Generative-AI",
+      "title": "Open Generative AI",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -55273,7 +55139,7 @@
       "github": "https://github.com/anil-matcha/open-generative-ai",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Génère des images et vidéos via des modèles open-source sans filtres.",
+      "summary": "Génère des images et vidéos via des modèles d'IA sans filtres.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -55889,8 +55755,8 @@
           "tag": "#macos"
         }
       ],
-      "cardTitle": "Open-Generative-AI",
-      "cardInterest": "Génère des images et vidéos via des modèles open-source sans filtres."
+      "cardTitle": "Open Generative AI",
+      "cardInterest": "Génère des images et vidéos via des modèles d'IA sans filtres."
     },
     {
       "id": "watch-technical-dfc871508eb563893ba5-md",
@@ -61108,7 +60974,7 @@
     },
     {
       "id": "watch-technical-c0d4875dd605f77caf57-md",
-      "title": "Penpot",
+      "title": "Penpot : plateforme de conception open source",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -61129,7 +60995,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [],
-      "status": "a verifier",
+      "status": "actif",
       "path": "watch/technical-c0d4875dd605f77caf57.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-c0d4875dd605f77caf57.md",
       "sourceUrl": "https://github.com/penpot/penpot",
@@ -61162,7 +61028,7 @@
       "github": "https://github.com/penpot/penpot",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Permet de collaborer en temps réel sur des projets de conception",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -61184,7 +61050,7 @@
             "source.x"
           ],
           "lifecycle": [
-            "lifecycle.review"
+            "lifecycle.active"
           ]
         },
         "concepts": [
@@ -61281,16 +61147,16 @@
             ]
           },
           {
-            "id": "lifecycle.review",
-            "label": "À vérifier",
+            "id": "lifecycle.active",
+            "label": "Actif",
             "parent": "lifecycle",
             "aliases": [
-              "#a-verifier",
-              "#to-verify"
+              "#actif",
+              "#active"
             ],
             "facet": "lifecycle",
             "path": [
-              "À vérifier"
+              "Actif"
             ]
           },
           {
@@ -61436,16 +61302,16 @@
           ]
         },
         {
-          "id": "lifecycle.review",
-          "label": "À vérifier",
+          "id": "lifecycle.active",
+          "label": "Actif",
           "parent": "lifecycle",
           "aliases": [
-            "#a-verifier",
-            "#to-verify"
+            "#actif",
+            "#active"
           ],
           "facet": "lifecycle",
           "path": [
-            "À vérifier"
+            "Actif"
           ]
         },
         {
@@ -61510,7 +61376,7 @@
         }
       ],
       "cardTitle": "Penpot",
-      "cardInterest": ""
+      "cardInterest": "Permet de collaborer en temps réel sur des projets de conception"
     },
     {
       "id": "watch-technical-97416d4ba88591c565b7-md",
@@ -73721,7 +73587,7 @@
       "github": "https://github.com/supabase/supabase",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des applications sans installation locale avec des outils open source.",
+      "summary": "Crée une API REST sans configuration complexe",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-23",
@@ -74110,7 +73976,7 @@
         }
       ],
       "cardTitle": "Supabase",
-      "cardInterest": "Crée des applications sans installation locale avec des outils open source."
+      "cardInterest": "Crée une API REST sans configuration complexe"
     },
     {
       "id": "watch-technical-f7ea866b53ea3110371c-md",

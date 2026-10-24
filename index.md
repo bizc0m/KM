@@ -2,6 +2,11 @@
 
 | Identifiant | Fichier | Type | Tags | Statut |
 | --- | --- | --- | --- | --- |
+| `watch-technical-a2235eb2a97eb8aaa5cb-md` | `watch/technical-a2235eb2a97eb8aaa5cb.md` | outil | #skills-agents | #ROUGE |
+| `watch-technical-8e516fbfe344018b3245-md` | `watch/technical-8e516fbfe344018b3245.md` | outil | #mcp, #terminal | actif |
+| `watch-technical-57435869059c16d7e579-md` | `watch/technical-57435869059c16d7e579.md` | outil | #skills-agents | actif |
+| `watch-nousresearch-hermes-agent-md` | `watch/nousresearch-hermes-agent.md` | outil | #memoire-agents, #terminal | actif |
+| `watch-technical-d93ed6a02625034b1939-md` | `watch/technical-d93ed6a02625034b1939.md` | outil | #emulation, #macos | actif |
 | `watch-technical-e9eb05e2bf38f125a62f-md` | `watch/technical-e9eb05e2bf38f125a62f.md` | outil |  | actif |
 | `watch-technical-1e83b6596b947b071d50-md` | `watch/technical-1e83b6596b947b071d50.md` | outil | #simulation, #memoire-agents | actif |
 | `watch-technical-b3d97a6bcd67a3be76f1-md` | `watch/technical-b3d97a6bcd67a3be76f1.md` | outil |  | actif |
@@ -17,14 +22,12 @@
 | `watch-technical-14991362ba170a15ca07-md` | `watch/technical-14991362ba170a15ca07.md` | outil |  | a verifier |
 | `watch-technical-2993f5bd5143a68eff85-md` | `watch/technical-2993f5bd5143a68eff85.md` | outil | #extraction-web, #terminal | actif |
 | `watch-technical-42965a7ae63080ec3407-md` | `watch/technical-42965a7ae63080ec3407.md` | outil | #extraction-web | actif |
-| `watch-technical-a2235eb2a97eb8aaa5cb-md` | `watch/technical-a2235eb2a97eb8aaa5cb.md` | outil | #skills-agents | #ROUGE |
 | `watch-technical-4ebbe613827a1ffc3c29-md` | `watch/technical-4ebbe613827a1ffc3c29.md` | outil | #react, #skills-agents | actif |
 | `watch-technical-40cd4bcbc0fb8cf86c20-md` | `watch/technical-40cd4bcbc0fb8cf86c20.md` | outil |  | a verifier |
 | `watch-technical-26c8fae19248128175bf-md` | `watch/technical-26c8fae19248128175bf.md` | outil |  | actif |
 | `watch-technical-672e5954b0a4b96827a6-md` | `watch/technical-672e5954b0a4b96827a6.md` | outil |  | actif |
 | `watch-technical-6343df31e02d35267485-md` | `watch/technical-6343df31e02d35267485.md` | outil |  | actif |
 | `watch-technical-674690abd042252d5376-md` | `watch/technical-674690abd042252d5376.md` | outil | #generation-3d, #python | actif |
-| `watch-technical-8e516fbfe344018b3245-md` | `watch/technical-8e516fbfe344018b3245.md` | outil | #mcp, #terminal | actif |
 | `watch-technical-c5cd3a5c95630c792129-md` | `watch/technical-c5cd3a5c95630c792129.md` | outil | #generation-video, #generation-images | actif |
 | `watch-technical-73ffc014f69d12660ff8-md` | `watch/technical-73ffc014f69d12660ff8.md` | outil | #generation-video, #generation-images | actif |
 | `watch-technical-e0275c5610589cad14d2-md` | `watch/technical-e0275c5610589cad14d2.md` | outil | #comparaison-modeles, #generation-video | actif |
@@ -54,7 +57,6 @@
 | `watch-technical-19c0251e942e91d7ee33-md` | `watch/technical-19c0251e942e91d7ee33.md` | outil | #osint | actif |
 | `watch-technical-4dbf8b61c8b24b3bf369-md` | `watch/technical-4dbf8b61c8b24b3bf369.md` | outil | #synthese-vocale | actif |
 | `watch-technical-37abca5ae9be9ed91364-md` | `watch/technical-37abca5ae9be9ed91364.md` | outil | #extraction-web, #automatisation-navigateur, #python | actif |
-| `watch-technical-57435869059c16d7e579-md` | `watch/technical-57435869059c16d7e579.md` | outil | #skills-agents | actif |
 | `watch-technical-74dc45b5f749db3d46d0-md` | `watch/technical-74dc45b5f749db3d46d0.md` | outil |  | actif |
 | `watch-technical-c292611ef4a4a5e37455-md` | `watch/technical-c292611ef4a4a5e37455.md` | outil |  | actif |
 | `watch-technical-c10d8f74eadd9334181e-md` | `watch/technical-c10d8f74eadd9334181e.md` | outil |  | actif |
@@ -82,7 +84,6 @@
 | `watch-technical-cc7d258f82fc4f055019-md` | `watch/technical-cc7d258f82fc4f055019.md` | outil | #agents-code, #terminal | actif |
 | `watch-technical-383ec76df0f9b9e99e36-md` | `watch/technical-383ec76df0f9b9e99e36.md` | outil | #generation-3d | actif |
 | `watch-technical-2005809e9644ca2d23ec-md` | `watch/technical-2005809e9644ca2d23ec.md` | outil | #extraction-web | actif |
-| `watch-nousresearch-hermes-agent-md` | `watch/nousresearch-hermes-agent.md` | outil | #memoire-agents, #terminal | actif |
 | `watch-technical-1a4e40e8e8763b4b6a1a-md` | `watch/technical-1a4e40e8e8763b4b6a1a.md` | outil |  | #ROUGE |
 | `watch-technical-02e627709adedd541e23-md` | `watch/technical-02e627709adedd541e23.md` | outil | #conversion-documents, #generation-images, #pdf | actif |
 | `watch-technical-457a0ceb1c2bf60a2841-md` | `watch/technical-457a0ceb1c2bf60a2841.md` | outil |  | actif |
@@ -106,7 +107,6 @@
 | `watch-technical-0096fb39d8f5defe169d-md` | `watch/technical-0096fb39d8f5defe169d.md` | outil |  | actif |
 | `watch-technical-6a483fbc42057e7dc8d1-md` | `watch/technical-6a483fbc42057e7dc8d1.md` | outil | #macos | actif |
 | `watch-technical-15ae02c43b612a6e8c46-md` | `watch/technical-15ae02c43b612a6e8c46.md` | outil | #mcp, #terminal | actif |
-| `watch-technical-d93ed6a02625034b1939-md` | `watch/technical-d93ed6a02625034b1939.md` | outil | #emulation, #macos | actif |
 | `watch-technical-4fed931d247d6cb2a3df-md` | `watch/technical-4fed931d247d6cb2a3df.md` | outil | #terminal | actif |
 | `watch-technical-9bd95807fef95eea1d8c-md` | `watch/technical-9bd95807fef95eea1d8c.md` | outil | #generation-video, #python | actif |
 | `watch-technical-9e0cc8c5c3c327b3c50b-md` | `watch/technical-9e0cc8c5c3c327b3c50b.md` | outil | #extraction-web, #python, #terminal | actif |
@@ -137,7 +137,7 @@
 | `watch-technical-4df736e310f1a98e2c76-md` | `watch/technical-4df736e310f1a98e2c76.md` | outil | #synthese-vocale, #generation-video | actif |
 | `watch-technical-1579309e1b490fa5279c-md` | `watch/technical-1579309e1b490fa5279c.md` | outil |  | actif |
 | `watch-technical-c88e811a1a66f8cd57ba-md` | `watch/technical-c88e811a1a66f8cd57ba.md` | outil |  | actif |
-| `watch-technical-c0d4875dd605f77caf57-md` | `watch/technical-c0d4875dd605f77caf57.md` | outil |  | a verifier |
+| `watch-technical-c0d4875dd605f77caf57-md` | `watch/technical-c0d4875dd605f77caf57.md` | outil |  | actif |
 | `watch-technical-97416d4ba88591c565b7-md` | `watch/technical-97416d4ba88591c565b7.md` | outil |  | actif |
 | `watch-technical-c133b93b912dffd605a2-md` | `watch/technical-c133b93b912dffd605a2.md` | outil | #terminal | actif |
 | `watch-technical-1158f7d0b091e0866c17-md` | `watch/technical-1158f7d0b091e0866c17.md` | outil | #generation-images, #generation-3d | actif |

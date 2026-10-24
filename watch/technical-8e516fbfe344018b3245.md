@@ -45,5 +45,5 @@ Facilite la découverte des outils et compétences pour Codex CLI
 - Origine : NotePlan
 - Identifiant source : 8e516fbfe344018b324559e3d6e44619ecaede71e0f089ee6eaa8e5fd005aef6
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

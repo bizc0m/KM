@@ -1,20 +1,41 @@
 {
-  "at": "2026-10-23T23:30:52.791Z",
+  "at": "2026-10-24T00:30:57.501Z",
   "scope": "public-index-only",
   "fiches": 658,
-  "sourceReferences": 2570,
+  "sourceReferences": 2564,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
   "pendingReview": 630,
   "counts": {
-    "interest-missing": 191,
-    "keywords-missing": 90,
+    "interest-missing": 190,
+    "keywords-missing": 89,
     "domain-unqualified": 116,
     "primary-identity-unqualified": 22,
     "nature-unqualified": 608
   },
   "queue": [
+    {
+      "id": "watch-technical-a2235eb2a97eb8aaa5cb-md",
+      "title": "Anthropic-Cybersecurity-Skills",
+      "reasons": [
+        "primary-identity-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-57435869059c16d7e579-md",
+      "title": "skills_feed",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-nousresearch-hermes-agent-md",
+      "title": "Hermes Agent",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
     {
       "id": "watch-technical-e9eb05e2bf38f125a62f-md",
       "title": "12-factor-agents",
@@ -110,13 +131,6 @@
       "title": "animdl",
       "reasons": [
         "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-a2235eb2a97eb8aaa5cb-md",
-      "title": "Anthropic-Cybersecurity-Skills",
-      "reasons": [
-        "primary-identity-unqualified"
       ]
     },
     {
@@ -348,13 +362,6 @@
       ]
     },
     {
-      "id": "watch-technical-57435869059c16d7e579-md",
-      "title": "skills_feed",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-74dc45b5f749db3d46d0-md",
       "title": "DarkFeat",
       "reasons": [
@@ -557,13 +564,6 @@
       ]
     },
     {
-      "id": "watch-nousresearch-hermes-agent-md",
-      "title": "Hermes Agent",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-1a4e40e8e8763b4b6a1a-md",
       "title": "huashu-design",
       "reasons": [
@@ -699,7 +699,6 @@
       "id": "watch-technical-ee446b3bf303b677315c-md",
       "title": "MailHog",
       "reasons": [
-        "keywords-missing",
         "nature-unqualified"
       ]
     },
@@ -840,7 +839,7 @@
     },
     {
       "id": "watch-technical-78faa425ad9343a870b8-md",
-      "title": "Open-Generative-AI",
+      "title": "Open Generative AI",
       "reasons": [
         "nature-unqualified"
       ]
@@ -928,7 +927,6 @@
       "id": "watch-technical-c0d4875dd605f77caf57-md",
       "title": "Penpot",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
