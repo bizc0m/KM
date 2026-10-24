@@ -47,12 +47,11 @@ Transforme du texte en visuels pour faciliter la communication des idées
 - https://pieces.app/
 - https://mixo.io/
 - https://wisprflow.ai/
-- https://elevenlabs.io/v4
-- https://elevenlabs.io/blog/cisco-webex
+- https://heygen.com/models/heygen-voice-1
+- https://elevenlabs.io/blog/twilio-conversation-relay
+- https://elevenlabs.io/blog/fuel-ix-telus-digital
 - https://elevenlabs.io/blog/nvidia-ace-at-computex
-- https://elevenlabs.io/blog/revolut
 - https://elevenlabs.io/blog/ramp-accelerates-creative-production-with-elevenlabs
-- https://elevenlabs.io/blog/elevenlabs-partners-with-ibm-to-bring-premium-voice-to-watsonx-orchestrate
 - https://elevenlabs.io/blog/deutsche-telekom
 - https://elevenlabs.io/blog/harvey
 - https://elevenlabs.io/creative
@@ -77,19 +76,19 @@ Transforme du texte en visuels pour faciliter la communication des idées
 - Origine : NotePlan
 - Identifiant source : 8f21f303780816389735c0582f567d3814cfe8f6d4a9e85977ba5f8365ad43b5
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 1068.
-- Pages lues, tweet compris : 84.
-- Sources techniques analysées : 37.
-- Sources à vérifier : 43 ; analyses non terminées : 0 ; erreurs du modèle : 1.
-- Liens non lus : 937 (profondeur : 0, budget de pages : 925, délai : 0, erreurs : 12).
+- Liens distincts recensés : 1102.
+- Pages lues, tweet compris : 85.
+- Sources techniques analysées : 36.
+- Sources à vérifier : 47 ; analyses non terminées : 0 ; erreurs du modèle : 0.
+- Liens non lus : 961 (profondeur : 0, budget de pages : 950, délai : 0, erreurs : 11).
 - Pages résumées sur extrait : 3.
-- Éléments exclus : 51 ; doublons ignorés : 0.
+- Éléments exclus : 59 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### Napkin AI - Outil de génération visuelle à partir de texte
@@ -248,27 +247,40 @@ Wispr Flow est un outil de dictation vocale et de notetaking qui transforme la p
 
 Source : https://wisprflow.ai ; niveau 1.
 
-### Eleven v4
+### HeyGen Voice 1
 
-Modèle de synthèse vocale exprimant des émotions et sons. Supporte 90+ langues. Permet des instructions audio. Génère jusqu'à 10 000 caractères.
+[HeyGen Voice 1] Modèle de synthèse vocale adaptatif. [HeyGen Voice 1] Reproduit le ton et l'accent de l'utilisateur. [HeyGen Voice 1] Adapte la parole aux scènes. [HeyGen Voice 1] Support 12 langues.
 
-- Modèle de synthèse vocale exprimant des émotions et sons.
-- Supporte 90+ langues.
-- Permet des instructions audio.
-- Génère jusqu'à 10 000 caractères.
+- HeyGen Voice 1 est un modèle de synthèse vocale adaptatif.
+- HeyGen Voice 1 reproduit le ton et l'accent de l'utilisateur.
+- HeyGen Voice 1 adapte la parole aux scènes.
+- HeyGen Voice 1 supporte 12 langues.
 
-Source : https://elevenlabs.io/v4 ; niveau 2.
+Source : https://heygen.com/models/heygen-voice-1 ; niveau 2.
 
-### Webex AI Agent
+### Integration ElevenLabs dans Twilio ConversationRelay
 
-Webex AI Agent utilise des modèles LLM pour des interactions clients plus humaines. Intégration de la technologie de synthèse vocale d'ElevenLabs. Amélioration de l'engagement client via des voix expressives. Réduction des frustrations liées aux services clients.
+Twilio intègre des voix AI de ElevenLabs dans ConversationRelay. Les voix s'adaptent au contexte et à l'émotion. La synthèse en temps réel est rapide. Les interactions semblent naturelles et humaines.
 
-- Webex AI Agent utilise des modèles LLM pour des interactions clients plus humaines
-- Intégration de la technologie de synthèse vocale d'ElevenLabs
-- Amélioration de l'engagement client via des voix expressives
-- Réduction des frustrations liées aux services clients
+- Twilio a intégré des voix AI de ElevenLabs dans ConversationRelay.
+- Les voix s'adaptent au contexte, à l'émotion et au rythme.
+- La synthèse en temps réel est possible avec une latence de 75 ms.
+- Les interactions automatisées semblent naturelles et humaines.
 
-Source : https://elevenlabs.io/blog/cisco-webex ; niveau 2.
+Source : https://elevenlabs.io/blog/twilio-conversation-relay ; niveau 2.
+
+### ElevenLabs Agents
+
+ElevenLabs Agents génère des simulations vocales réalistes pour la formation des agents. Les simulations s'adaptent en temps réel. Support multilingue pour la formation internationale. Intégration facile via des APIs robustes.
+
+- ElevenLabs Agents permet la création de simulations vocales réalistes.
+- Les simulations s'adaptent en temps réel pour un entraînement dynamique.
+- Le support multilingue facilite la formation pour des clients internationaux.
+- L'intégration via des APIs robustes simplifie le développement de scénarios.
+- ElevenLabs Agents a permis de réduire le temps d'onboarding de 20% pour TELUS Digital.
+- Les simulations offrent une expérience proche de la réalité pour améliorer la préparation des agents.
+
+Source : https://elevenlabs.io/blog/fuel-ix-telus-digital ; niveau 2.
 
 ### ElevenLabs v4
 
@@ -281,17 +293,6 @@ ElevenLabs v4 permet de créer des voix synthétiques émotionnelles. Elle intè
 
 Source : https://elevenlabs.io/blog/nvidia-ace-at-computex ; niveau 2.
 
-### ElevenLabs Agents
-
-ElevenLabs Agents améliore le support client par des agents vocaux multilingues. Revolut réduit le temps de résolution des tickets de 8 fois. Les appels gérés par les agents ont un taux de succès de 99,7 %. Les agents gèrent des appels en 31 langues.
-
-- ElevenLabs Agents améliore le support client par des agents vocaux multilingues
-- Revolut réduit le temps de résolution des tickets de 8 fois
-- Les appels gérés par les agents ont un taux de succès de 99,7 %
-- Les agents gèrent des appels en 31 langues
-
-Source : https://elevenlabs.io/blog/revolut ; niveau 2.
-
 ### Utilisation d'ElevenLabs pour accélérer la production créative
 
 ElevenLabs permet à Ramp d'accélérer la production créative grâce à l'IA audio.
@@ -302,17 +303,6 @@ ElevenLabs permet à Ramp d'accélérer la production créative grâce à l'IA a
 - Maintient une voix de marque cohérente
 
 Source : https://elevenlabs.io/blog/ramp-accelerates-creative-production-with-elevenlabs ; niveau 2.
-
-### Integration ElevenLabs dans watsonx Orchestrate
-
-Integration de Text to Speech et Speech to Text dans watsonx Orchestrate. Accès à 10 000 voix multilingues. Sécurité entreprise avec PCI et HIPAA.
-
-- Integration de Text to Speech et Speech to Text dans watsonx Orchestrate
-- Accès à 10 000 voix multilingues
-- Sécurité entreprise avec PCI et HIPAA
-- Support pour interactions à grande échelle
-
-Source : https://elevenlabs.io/blog/elevenlabs-partners-with-ibm-to-bring-premium-voice-to-watsonx-orchestrate ; niveau 2.
 
 ### Intégration d'IA vocale dans les réseaux télécoms
 
@@ -360,23 +350,23 @@ Source : https://elevenlabs.io/text-to-speech ; niveau 2.
 
 ### ElevenMusic
 
-Génère des morceaux musicaux de qualité studio. Supporte plusieurs genres et langues. Permet la modification et l'édition de sections. Création de musique pour usage commercial.
+Génère des morceaux musicaux en utilisant un modèle d'IA. Permet la création de chansons avec des styles vocaux variés. Intègre des fonctionnalités d'édition et de modification. Supporte plusieurs langues et genres musicaux.
 
-- Génère des morceaux musicaux de qualité studio.
-- Supporte plusieurs genres musicaux.
-- Permet la modification et l'édition de sections de musique.
-- Création de musique pour usage commercial.
+- Génère des morceaux musicaux en utilisant un modèle d'IA.
+- Permet la création de chansons avec des styles vocaux variés.
+- Intègre des fonctionnalités d'édition et de modification.
+- Supporte plusieurs langues et genres musicaux.
 
 Source : https://elevenlabs.io/music ; niveau 2.
 
 ### ElevenLabs Voice Cloning
 
-Cloning voice from audio samples. Generate speech in cloned voice. Supports 32+ languages. Voice models for text-to-speech.
+Cloning voice from audio samples. Generate speech in cloned voice. Supports 32+ languages. Create voice models with text-to-speech.
 
 - Cloning voice from audio samples
 - Generate speech in cloned voice
 - Supports 32+ languages
-- Voice models for text-to-speech
+- Create voice models with text-to-speech
 
 Source : https://elevenlabs.io/voice-cloning ; niveau 2.
 
@@ -442,4 +432,5 @@ Source : https://elevenlabs.io/eleven-music-api ; niveau 2.
 
 Partenariat entre le ministère ukrainien de la Transformation numérique et ElevenLabs pour intégrer des interfaces vocales dans les services publics.
 
-- A
+- Ajout de fonctionnalités vocales au portail Diia et aux applications.
+- Amélioration de l'accessibilité des services publics via

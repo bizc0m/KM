@@ -7,6 +7,8 @@
 | `watch-technical-2993f5bd5143a68eff85-md` | `watch/technical-2993f5bd5143a68eff85.md` | outil | #extraction-web, #terminal | actif |
 | `watch-technical-42965a7ae63080ec3407-md` | `watch/technical-42965a7ae63080ec3407.md` | outil | #extraction-web | actif |
 | `watch-technical-a2235eb2a97eb8aaa5cb-md` | `watch/technical-a2235eb2a97eb8aaa5cb.md` | outil | #skills-agents | #ROUGE |
+| `watch-technical-26c8fae19248128175bf-md` | `watch/technical-26c8fae19248128175bf.md` | outil |  | actif |
+| `watch-technical-672e5954b0a4b96827a6-md` | `watch/technical-672e5954b0a4b96827a6.md` | outil |  | actif |
 | `watch-technical-8e516fbfe344018b3245-md` | `watch/technical-8e516fbfe344018b3245.md` | outil | #mcp, #terminal | actif |
 | `watch-book-to-skill-md` | `watch/book-to-skill.md` | outil | #skills-agents, #conversion-documents | actif |
 | `watch-technical-389040200a86ce208431-md` | `watch/technical-389040200a86ce208431.md` | outil | #skills-agents | actif |
@@ -17,21 +19,28 @@
 | `watch-technical-c10d8f74eadd9334181e-md` | `watch/technical-c10d8f74eadd9334181e.md` | outil |  | actif |
 | `watch-technical-f977c26fe64e30184a6f-md` | `watch/technical-f977c26fe64e30184a6f.md` | outil | #generation-images | actif |
 | `watch-technical-fb7d8c0c8a030338b784-md` | `watch/technical-fb7d8c0c8a030338b784.md` | outil | #synthese-vocale, #python | actif |
+| `watch-technical-e1728cc13c4a61f359d1-md` | `watch/technical-e1728cc13c4a61f359d1.md` | outil | #python, #synthese-vocale | actif |
 | `watch-technical-a63a06d0b2276c289423-md` | `watch/technical-a63a06d0b2276c289423.md` | outil | #synthese-vocale | actif |
 | `watch-technical-f5a99e06873448a9f3ba-md` | `watch/technical-f5a99e06873448a9f3ba.md` | outil | #transcription | actif |
+| `watch-technical-7ae9451cd62fb317043f-md` | `watch/technical-7ae9451cd62fb317043f.md` | outil |  | actif |
 | `watch-technical-7c881fd189f1ece84c8b-md` | `watch/technical-7c881fd189f1ece84c8b.md` | outil |  | actif |
+| `watch-technical-c185cfb5713fdfdca685-md` | `watch/technical-c185cfb5713fdfdca685.md` | outil |  | actif |
 | `watch-technical-9563de7ec1221e077ac4-md` | `watch/technical-9563de7ec1221e077ac4.md` | outil | #python | actif |
 | `watch-nousresearch-hermes-agent-md` | `watch/nousresearch-hermes-agent.md` | outil | #memoire-agents, #terminal | actif |
 | `watch-technical-aa11653c4d25a0e989a1-md` | `watch/technical-aa11653c4d25a0e989a1.md` | outil | #synthese-vocale | actif |
 | `watch-technical-0ebd1f1b56ff3fc73866-md` | `watch/technical-0ebd1f1b56ff3fc73866.md` | outil |  | actif |
 | `watch-technical-3794fe05156a712cb6fd-md` | `watch/technical-3794fe05156a712cb6fd.md` | outil | #generation-video, #generation-images | actif |
+| `watch-technical-6a483fbc42057e7dc8d1-md` | `watch/technical-6a483fbc42057e7dc8d1.md` | outil | #macos | actif |
 | `watch-technical-d93ed6a02625034b1939-md` | `watch/technical-d93ed6a02625034b1939.md` | outil | #emulation, #macos | actif |
 | `watch-technical-9e0cc8c5c3c327b3c50b-md` | `watch/technical-9e0cc8c5c3c327b3c50b.md` | outil | #extraction-web, #python, #terminal | actif |
+| `watch-technical-2593ae994f558b741e0a-md` | `watch/technical-2593ae994f558b741e0a.md` | outil | #transcription, #synthese-vocale, #clonage-vocal, #generation-video | actif |
+| `watch-technical-5ba505eac127e82e4362-md` | `watch/technical-5ba505eac127e82e4362.md` | outil | #transcription, #traduction-audio, #synthese-vocale, #clonage-vocal | actif |
 | `watch-technical-73498d2b34bc9f53ae61-md` | `watch/technical-73498d2b34bc9f53ae61.md` | outil | #terminal | actif |
 | `watch-technical-08055b9ca2497bd87108-md` | `watch/technical-08055b9ca2497bd87108.md` | outil | #terminal | actif |
 | `watch-technical-52593ff508c40e9e2d49-md` | `watch/technical-52593ff508c40e9e2d49.md` | outil | #terminal | actif |
 | `watch-technical-f2ad2f5dfae253d2f4b6-md` | `watch/technical-f2ad2f5dfae253d2f4b6.md` | outil | #react | actif |
 | `watch-technical-f4619ecbc826ded4db95-md` | `watch/technical-f4619ecbc826ded4db95.md` | outil |  | actif |
+| `watch-technical-8ae8d27d1412df2cdc2d-md` | `watch/technical-8ae8d27d1412df2cdc2d.md` | outil |  | actif |
 | `watch-technical-12ae97bc3c76d07b5b3e-md` | `watch/technical-12ae97bc3c76d07b5b3e.md` | outil | #python | actif |
 | `watch-technical-c00a869dbb6fdf2fc1cb-md` | `watch/technical-c00a869dbb6fdf2fc1cb.md` | outil |  | actif |
 | `watch-technical-b19b418d3fe93785fa21-md` | `watch/technical-b19b418d3fe93785fa21.md` | outil |  | actif |
@@ -54,8 +63,6 @@
 | `watch-technical-ca3c69add82754901cf6-md` | `watch/technical-ca3c69add82754901cf6.md` | outil | #generation-3d | actif |
 | `watch-technical-4ebbe613827a1ffc3c29-md` | `watch/technical-4ebbe613827a1ffc3c29.md` | outil | #react, #skills-agents | actif |
 | `watch-technical-40cd4bcbc0fb8cf86c20-md` | `watch/technical-40cd4bcbc0fb8cf86c20.md` | outil |  | a verifier |
-| `watch-technical-26c8fae19248128175bf-md` | `watch/technical-26c8fae19248128175bf.md` | outil |  | actif |
-| `watch-technical-672e5954b0a4b96827a6-md` | `watch/technical-672e5954b0a4b96827a6.md` | outil |  | actif |
 | `watch-technical-6343df31e02d35267485-md` | `watch/technical-6343df31e02d35267485.md` | outil |  | actif |
 | `watch-technical-674690abd042252d5376-md` | `watch/technical-674690abd042252d5376.md` | outil | #generation-3d, #python | actif |
 | `watch-technical-c5cd3a5c95630c792129-md` | `watch/technical-c5cd3a5c95630c792129.md` | outil | #generation-video, #generation-images | actif |
@@ -89,16 +96,13 @@
 | `watch-technical-80c1535b6e69bb84082c-md` | `watch/technical-80c1535b6e69bb84082c.md` | outil | #generation-3d, #generation-images | actif |
 | `watch-technical-f1fa1897837db4db2e4d-md` | `watch/technical-f1fa1897837db4db2e4d.md` | outil | #generation-3d | actif |
 | `watch-technical-de90088a7594bcc86157-md` | `watch/technical-de90088a7594bcc86157.md` | outil | #osint, #pdf | actif |
-| `watch-technical-e1728cc13c4a61f359d1-md` | `watch/technical-e1728cc13c4a61f359d1.md` | outil | #python, #synthese-vocale | actif |
 | `watch-technical-acd9eb29cb67574c16ec-md` | `watch/technical-acd9eb29cb67574c16ec.md` | outil | #osint | actif |
-| `watch-technical-7ae9451cd62fb317043f-md` | `watch/technical-7ae9451cd62fb317043f.md` | outil |  | actif |
 | `watch-technical-812162d99641f3f436b1-md` | `watch/technical-812162d99641f3f436b1.md` | outil | #chiffrement, #generation-images, #terminal | actif |
 | `watch-technical-37356cc78499d8e4af94-md` | `watch/technical-37356cc78499d8e4af94.md` | outil | #generation-images, #generation-3d | actif |
 | `watch-technical-a3b183624a359158d2f2-md` | `watch/technical-a3b183624a359158d2f2.md` | outil | #pdf | actif |
 | `watch-technical-f1bc36a07e9a8a388405-md` | `watch/technical-f1bc36a07e9a8a388405.md` | outil |  | actif |
 | `watch-technical-c750bc2f9f73e8e1f5bd-md` | `watch/technical-c750bc2f9f73e8e1f5bd.md` | outil | #publication-sociale | actif |
 | `watch-technical-d924e27b47fa985d6e04-md` | `watch/technical-d924e27b47fa985d6e04.md` | outil | #python, #osint | actif |
-| `watch-technical-c185cfb5713fdfdca685-md` | `watch/technical-c185cfb5713fdfdca685.md` | outil |  | actif |
 | `watch-technical-cc7d258f82fc4f055019-md` | `watch/technical-cc7d258f82fc4f055019.md` | outil | #agents-code, #terminal | actif |
 | `watch-technical-383ec76df0f9b9e99e36-md` | `watch/technical-383ec76df0f9b9e99e36.md` | outil | #generation-3d | actif |
 | `watch-technical-2005809e9644ca2d23ec-md` | `watch/technical-2005809e9644ca2d23ec.md` | outil | #extraction-web | actif |
@@ -120,21 +124,18 @@
 | `watch-technical-ee446b3bf303b677315c-md` | `watch/technical-ee446b3bf303b677315c.md` | outil |  | actif |
 | `watch-technical-10eda570000d9c7eeda1-md` | `watch/technical-10eda570000d9c7eeda1.md` | outil | #react, #conversion-documents, #generation-images | actif |
 | `watch-technical-0096fb39d8f5defe169d-md` | `watch/technical-0096fb39d8f5defe169d.md` | outil |  | actif |
-| `watch-technical-6a483fbc42057e7dc8d1-md` | `watch/technical-6a483fbc42057e7dc8d1.md` | outil | #macos | actif |
 | `watch-technical-15ae02c43b612a6e8c46-md` | `watch/technical-15ae02c43b612a6e8c46.md` | outil | #mcp, #terminal | actif |
 | `watch-technical-4fed931d247d6cb2a3df-md` | `watch/technical-4fed931d247d6cb2a3df.md` | outil | #terminal | actif |
 | `watch-technical-9bd95807fef95eea1d8c-md` | `watch/technical-9bd95807fef95eea1d8c.md` | outil | #generation-video, #python | actif |
 | `watch-technical-b8cbc6e661d7a948ed3d-md` | `watch/technical-b8cbc6e661d7a948ed3d.md` | outil | #generation-video, #generation-images, #skills-agents, #terminal | actif |
 | `watch-technical-1c299b0df37a055a049d-md` | `watch/technical-1c299b0df37a055a049d.md` | outil |  | actif |
 | `watch-technical-ae2b5f1a3fbdf8f6f54d-md` | `watch/technical-ae2b5f1a3fbdf8f6f54d.md` | outil | #python | actif |
-| `watch-technical-2593ae994f558b741e0a-md` | `watch/technical-2593ae994f558b741e0a.md` | outil | #transcription, #synthese-vocale, #clonage-vocal, #generation-video | actif |
 | `watch-technical-7e07682fe36ee14ea7b5-md` | `watch/technical-7e07682fe36ee14ea7b5.md` | outil |  | actif |
 | `watch-technical-c529972e77a3e48d4fdd-md` | `watch/technical-c529972e77a3e48d4fdd.md` | outil |  | actif |
 | `watch-technical-78d472c25b2758a70776-md` | `watch/technical-78d472c25b2758a70776.md` | outil | #python, #terminal | actif |
 | `watch-technical-614a514ae65ec429804d-md` | `watch/technical-614a514ae65ec429804d.md` | outil | #skills-agents | actif |
 | `watch-technical-712121d9735431107601-md` | `watch/technical-712121d9735431107601.md` | outil | #generation-3d | actif |
 | `watch-technical-1a1b1c01fccbb652af5e-md` | `watch/technical-1a1b1c01fccbb652af5e.md` | outil | #generation-images | actif |
-| `watch-technical-5ba505eac127e82e4362-md` | `watch/technical-5ba505eac127e82e4362.md` | outil | #transcription, #traduction-audio, #synthese-vocale, #clonage-vocal | actif |
 | `watch-technical-af32c93f6e9c60ab06b7-md` | `watch/technical-af32c93f6e9c60ab06b7.md` | outil | #react, #generation-video, #generation-images | actif |
 | `watch-technical-34d5505e0a9890ad64f6-md` | `watch/technical-34d5505e0a9890ad64f6.md` | outil | #orchestration-agents, #generation-video, #generation-images | actif |
 | `watch-technical-79b08dab72dcf263294d-md` | `watch/technical-79b08dab72dcf263294d.md` | outil | #memoire-agents | actif |
@@ -168,7 +169,6 @@
 | `watch-technical-4f09686ddcb30b511532-md` | `watch/technical-4f09686ddcb30b511532.md` | outil | #generation-video, #generation-images, #python | actif |
 | `watch-technical-ad3b72610e20f4f2c9a6-md` | `watch/technical-ad3b72610e20f4f2c9a6.md` | outil | #generation-video, #generation-images | actif |
 | `watch-technical-d03eda2466f2556e6e1c-md` | `watch/technical-d03eda2466f2556e6e1c.md` | outil | #automatisation-navigateur | actif |
-| `watch-technical-8ae8d27d1412df2cdc2d-md` | `watch/technical-8ae8d27d1412df2cdc2d.md` | outil |  | actif |
 | `watch-technical-637c99109af31ed2fe7b-md` | `watch/technical-637c99109af31ed2fe7b.md` | outil | #skills-agents | actif |
 | `watch-technical-7e693280a600ec11a89d-md` | `watch/technical-7e693280a600ec11a89d.md` | outil | #python | actif |
 | `watch-technical-94c4f976278cef504540-md` | `watch/technical-94c4f976278cef504540.md` | outil | #generation-images, #macos | actif |

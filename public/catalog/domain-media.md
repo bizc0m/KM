@@ -4,11 +4,15 @@
 - [Demucs](../../watch/technical-c10d8f74eadd9334181e.md) — Sépare les éléments audio d'une piste en utilisant un modèle avancé.
 - [diffusers](../../watch/technical-f977c26fe64e30184a6f.md) — Génère des images à partir de texte avec des modèles préentraînés.
 - [edge-tts](../../watch/technical-fb7d8c0c8a030338b784.md)
+- [elevenlabs-python](../../watch/technical-e1728cc13c4a61f359d1.md) — Convertir du texte en parole avec des modèles vocaux
 - [F5-TTS](../../watch/technical-a63a06d0b2276c289423.md) — Synthétise de la parole fluide et fidèle à partir de texte.
 - [faster-whisper](../../watch/technical-f5a99e06873448a9f3ba.md) — Transcrire des fichiers audio plus rapidement avec moins de ressources.
 - [kokoro](../../watch/technical-aa11653c4d25a0e989a1.md) — Génère des audio de texte en temps réel avec des paramètres personnalisables
 - [lobster](../../watch/technical-0ebd1f1b56ff3fc73866.md) — Rechercher et visionner des films et séries en ligne
 - [LongCat-Video](../../watch/technical-3794fe05156a712cb6fd.md) — Convertir du texte ou des images en vidéos longues.
+- [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
+- [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
+- [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Cloner des voix sans connexion internet.
 - [Plugin mov-cli-youtube](../../watch/technical-52593ff508c40e9e2d49.md) — Lire des vidéos YouTube via mov-cli avec options audio et shorts
 - [embed-sdk-js](../../watch/technical-f4619ecbc826ded4db95.md) — Affiche des vidéos torrent avec sous-titres et personnalisation.
 - [Voice-Pro](../../watch/technical-7e01176c9d1442c27f9d.md) — Traite les vidéos YouTube avec extraction audio et séparation vocale
@@ -31,7 +35,6 @@
 - [DarkFeat](../../watch/technical-74dc45b5f749db3d46d0.md) — Analyse des images RAW sombres avec détection de caractéristiques robuste
 - [DI-PCG](../../watch/technical-80c1535b6e69bb84082c.md) — Crée des modèles 3D à partir d'images avec des modèles pré-entraînés.
 - [Direct3D-S2](../../watch/technical-f1fa1897837db4db2e4d.md) — Génère des modèles 3D à haute résolution avec efficacité.
-- [elevenlabs-python](../../watch/technical-e1728cc13c4a61f359d1.md) — Convertir du texte en parole avec des modèles vocaux
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [Génération d'actifs 3D structurés](../../watch/technical-37356cc78499d8e4af94.md) — Génère des modèles 3D à partir d'images ou de textes.
 - [GSPN](../../watch/technical-383ec76df0f9b9e99e36.md)
@@ -41,13 +44,10 @@
 - [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier.
 - [Kling Video API via Muapi](../../watch/technical-6cc3ec716443f80c37a3.md) — Soumet une requête de génération et récupère l'identifiant de demande pour suivre le statut
 - [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
-- [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
 - [MoneyPrinter](../../watch/technical-9bd95807fef95eea1d8c.md) — Configure l'environnement pour exécuter MoneyPrinter avec Ollama
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
-- [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
 - [O2-Recon](../../watch/technical-712121d9735431107601.md) — Améliore la reconstruction 3D des objets masqués avec un modèle diffusion 2D
 - [Old Photo Restore](../../watch/technical-1a1b1c01fccbb652af5e.md) — Restaure des photos anciennes avec un moteur d'IA.
-- [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Cloner des voix sans connexion internet.
 - [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
 - [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
 - [Open Generative AI](../../watch/technical-78faa425ad9343a870b8.md) — Génère des images et vidéos via des modèles d'IA sans filtres.

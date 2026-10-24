@@ -56,7 +56,7 @@ Gère les contenus reproduits via des règles définies
 - Origine : NotePlan
 - Identifiant source : 3ec699e4a1549a6c163d34c93a6c2840a6207c7c5a898b949f4cfb991bfb2dd4
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens

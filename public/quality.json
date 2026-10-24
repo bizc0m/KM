@@ -1,8 +1,8 @@
 {
-  "at": "2026-10-24T01:31:02.049Z",
+  "at": "2026-10-24T02:31:11.946Z",
   "scope": "public-index-only",
   "fiches": 658,
-  "sourceReferences": 2622,
+  "sourceReferences": 2619,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
@@ -37,6 +37,22 @@
       "title": "Anthropic-Cybersecurity-Skills",
       "reasons": [
         "primary-identity-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-26c8fae19248128175bf-md",
+      "title": "arcada",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-672e5954b0a4b96827a6-md",
+      "title": "arcada-backend",
+      "reasons": [
+        "nature-unqualified"
       ]
     },
     {
@@ -93,6 +109,13 @@
       ]
     },
     {
+      "id": "watch-technical-e1728cc13c4a61f359d1-md",
+      "title": "elevenlabs-python",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-a63a06d0b2276c289423-md",
       "title": "F5-TTS",
       "reasons": [
@@ -107,8 +130,26 @@
       ]
     },
     {
+      "id": "watch-technical-7ae9451cd62fb317043f-md",
+      "title": "Formulaire Web YouTube",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-7c881fd189f1ece84c8b-md",
       "title": "fzf",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c185cfb5713fdfdca685-md",
+      "title": "gophish",
       "reasons": [
         "keywords-missing",
         "domain-unqualified",
@@ -152,6 +193,28 @@
       ]
     },
     {
+      "id": "watch-technical-6a483fbc42057e7dc8d1-md",
+      "title": "MeltKit",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-2593ae994f558b741e0a-md",
+      "title": "Napkin AI",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-5ba505eac127e82e4362-md",
+      "title": "OmniVoice Studio",
+      "reasons": [
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-73498d2b34bc9f53ae61-md",
       "title": "mov-cli-files",
       "reasons": [
@@ -168,6 +231,13 @@
     {
       "id": "watch-technical-f2ad2f5dfae253d2f4b6-md",
       "title": "Popcorn Time",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8ae8d27d1412df2cdc2d-md",
+      "title": "ShotGlass",
       "reasons": [
         "nature-unqualified"
       ]
@@ -320,22 +390,6 @@
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-26c8fae19248128175bf-md",
-      "title": "arcada",
-      "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-672e5954b0a4b96827a6-md",
-      "title": "arcada-backend",
-      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -568,25 +622,9 @@
       ]
     },
     {
-      "id": "watch-technical-e1728cc13c4a61f359d1-md",
-      "title": "elevenlabs-python",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-acd9eb29cb67574c16ec-md",
       "title": "Eyes",
       "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-7ae9451cd62fb317043f-md",
-      "title": "Formulaire Web YouTube",
-      "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -631,15 +669,6 @@
       "id": "watch-technical-d924e27b47fa985d6e04-md",
       "title": "google_dorker",
       "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-c185cfb5713fdfdca685-md",
-      "title": "gophish",
-      "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -801,13 +830,6 @@
       ]
     },
     {
-      "id": "watch-technical-6a483fbc42057e7dc8d1-md",
-      "title": "MeltKit",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-4fed931d247d6cb2a3df-md",
       "title": "Mistral Vibe",
       "reasons": [
@@ -840,13 +862,6 @@
       "title": "myfish",
       "reasons": [
         "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-2593ae994f558b741e0a-md",
-      "title": "Napkin AI",
-      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -886,14 +901,6 @@
       "id": "watch-technical-1a1b1c01fccbb652af5e-md",
       "title": "Old Photo Restore",
       "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-5ba505eac127e82e4362-md",
-      "title": "OmniVoice Studio",
-      "reasons": [
-        "primary-identity-unqualified",
         "nature-unqualified"
       ]
     },
@@ -1123,13 +1130,6 @@
     {
       "id": "watch-technical-d03eda2466f2556e6e1c-md",
       "title": "Selenium",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-8ae8d27d1412df2cdc2d-md",
-      "title": "ShotGlass",
       "reasons": [
         "nature-unqualified"
       ]

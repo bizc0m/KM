@@ -1,8 +1,10 @@
 # Développement logiciel
 
 - [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Recherche et stream d'animes via des fournisseurs.
+- [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
 - [MiniSim](../../watch/technical-d93ed6a02625034b1939.md) — Lancer les émulateurs iOS et Android depuis la barre de menus macOS.
 - [Popcorn Time](../../watch/technical-f2ad2f5dfae253d2f4b6.md) — Accéder à des contenus multimédia via des liens.
+- [ShotGlass](../../watch/technical-8ae8d27d1412df2cdc2d.md) — enregistrer et éditer des captures d'écran avec IA
 - [tygo](../../watch/technical-b19b418d3fe93785fa21.md) — Convertit des structures Go en types Typescript pour front-end
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Permet aux agents de conserver une mémoire persistante sans re-expliquer.
 - [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
@@ -21,7 +23,6 @@
 - [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Permet d'éditer des fichiers dans un environnement terminal
 - [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
 - [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
-- [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
 - [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Permet d'explorer et modifier le code avec un assistant IA
 - [myfish](../../watch/technical-ae2b5f1a3fbdf8f6f54d.md)
 - [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
@@ -36,7 +37,6 @@
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
 - [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
 - [Selenium](../../watch/technical-d03eda2466f2556e6e1c.md) — Automatise les tests web avec des scripts.
-- [ShotGlass](../../watch/technical-8ae8d27d1412df2cdc2d.md) — enregistrer et éditer des captures d'écran avec IA
 - [SubCat](../../watch/technical-c67a2647c3e09c338891.md) — Découvre des sous-domaines et génère des rapports web avec captures d'écran.
 - [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée une API REST sans configuration complexe
 - [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Analyse de type rapide avec diagnostics précis pour code Python

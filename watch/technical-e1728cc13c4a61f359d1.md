@@ -46,5 +46,5 @@ Convertir du texte en parole avec des modèles vocaux
 - Origine : NotePlan
 - Identifiant source : e1728cc13c4a61f359d17c80166c0a2ea0f70da1674b362523e4a5d5fdbed874
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

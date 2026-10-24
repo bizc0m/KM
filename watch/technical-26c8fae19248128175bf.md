@@ -39,7 +39,7 @@ Crée des plans de sol avec des mesures exactes.
 - Origine : NotePlan
 - Identifiant source : b6416bf56ce6a2665473025366984ee414b4823dc2634d6d4edc69b7fabff548
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens

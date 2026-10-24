@@ -38,7 +38,7 @@ enregistrer et éditer des captures d'écran avec IA
 - Origine : NotePlan
 - Identifiant source : 7b6ce2573d202e43a05893581d19e51f19d0d0bc0916ac748c27f6df339c8e77
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
