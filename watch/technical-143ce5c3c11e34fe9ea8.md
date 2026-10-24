@@ -103,7 +103,7 @@ Cloner des voix pour des agents IA sans dépendance externe
 - Origine : NotePlan
 - Identifiant source : c5d386c4449a831246df86653fbb99679df636885b80eee42d68f43169fac2d5
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens

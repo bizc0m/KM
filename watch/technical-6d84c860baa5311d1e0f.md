@@ -45,5 +45,5 @@ Recherche d'informations sur un utilisateur via des comptes en ligne
 - Origine : NotePlan
 - Identifiant source : 6d84c860baa5311d1e0fcec13e539b428a8d37d4c97126c53e09639eb31e9621
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

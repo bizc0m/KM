@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-24T05:31:43.158Z",
+  "at": "2026-10-24T06:31:47.895Z",
   "scope": "public-index-only",
   "fiches": 658,
   "sourceReferences": 2682,
@@ -18,6 +18,13 @@
     {
       "id": "watch-technical-e9eb05e2bf38f125a62f-md",
       "title": "12-factor-agents",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1e83b6596b947b071d50-md",
+      "title": "agency-agents",
       "reasons": [
         "nature-unqualified"
       ]
@@ -460,6 +467,14 @@
       ]
     },
     {
+      "id": "watch-technical-5e7f5b459d52bc0badc8-md",
+      "title": "just",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-6cc3ec716443f80c37a3-md",
       "title": "Kling Video API via Muapi",
       "reasons": [
@@ -497,6 +512,13 @@
     {
       "id": "watch-technical-3794fe05156a712cb6fd-md",
       "title": "LongCat-Video",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-6d84c860baa5311d1e0f-md",
+      "title": "maigret",
       "reasons": [
         "nature-unqualified"
       ]
@@ -582,6 +604,13 @@
       "reasons": [
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-78d472c25b2758a70776-md",
+      "title": "notebooklm-py",
+      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -975,6 +1004,14 @@
       ]
     },
     {
+      "id": "watch-technical-143ce5c3c11e34fe9ea8-md",
+      "title": "VoiceBox",
+      "reasons": [
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-37a1c9a401fe305b58a5-md",
       "title": "WanGP",
       "reasons": [
@@ -1021,13 +1058,6 @@
     {
       "id": "watch-technical-e7559ed70d863d3b8f6d-md",
       "title": "zack-d-films-ai-video-generator",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-1e83b6596b947b071d50-md",
-      "title": "agency-agents",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1181,14 +1211,6 @@
       ]
     },
     {
-      "id": "watch-technical-5e7f5b459d52bc0badc8-md",
-      "title": "just",
-      "reasons": [
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-8f4d2163b5e697a72c77-md",
       "title": "llama.cpp",
       "reasons": [
@@ -1200,13 +1222,6 @@
       "title": "loguru",
       "reasons": [
         "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-6d84c860baa5311d1e0f-md",
-      "title": "maigret",
-      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -1231,13 +1246,6 @@
       "reasons": [
         "keywords-missing",
         "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-78d472c25b2758a70776-md",
-      "title": "notebooklm-py",
-      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -1337,14 +1345,6 @@
       "id": "watch-technical-f26060981b4112b4411f-md",
       "title": "VisoMaster-Fusion",
       "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-143ce5c3c11e34fe9ea8-md",
-      "title": "VoiceBox",
-      "reasons": [
-        "primary-identity-unqualified",
         "nature-unqualified"
       ]
     },
