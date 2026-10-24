@@ -44,5 +44,5 @@ Vérifier l'existence d'un nom d'utilisateur sur des sites web.
 - Origine : NotePlan
 - Identifiant source : d6babbc48c72c369251613d285f3d9c5b90f328d5380faa963fa345585e0ab80
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -1,5 +1,6 @@
 # Agents IA
 
+- [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md)
 - [Agent Skills](../../watch/technical-48dbbdd8fd0d302995a7.md) — Définir un format ouvert pour partager les compétences des agents.
 - [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA
 - [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
@@ -14,7 +15,6 @@
 - [ShotGlass](../../watch/technical-8ae8d27d1412df2cdc2d.md) — enregistrer et éditer des captures d'écran avec IA
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Construire des applications LLM fiables avec des principes structurés
 - [agency-agents](../../watch/technical-1e83b6596b947b071d50.md) — Facilite la simulation de discussions avec des experts.
-- [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md)
 - [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md)
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Permet aux agents de conserver une mémoire persistante sans re-expliquer.
 - [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
@@ -28,7 +28,6 @@
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications sans dépendre de services cloud.
 - [agents](../../watch/technical-35aadf0372281812cd07.md) — Permet de déployer des agents modulaires et scalables.
 - [DESIGN.md](../../watch/technical-ddda9bed5feda3007847.md)
-- [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Permet d'éditer des fichiers dans un environnement terminal
 - [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
 - [llama.cpp](../../watch/technical-8f4d2163b5e697a72c77.md) — Exécute des modèles LLM localement avec optimisation matérielle

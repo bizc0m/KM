@@ -46,5 +46,5 @@ Exécute des requêtes Google Dork pour des fins éducatives.
 - Origine : NotePlan
 - Identifiant source : d924e27b47fa985d6e048ca9dca3889c3196189bc3d484f7a71c0f753b3a452d
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

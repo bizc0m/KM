@@ -1,11 +1,13 @@
 # Intelligence artificielle
 
+- [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md)
 - [Agent Skills](../../watch/technical-48dbbdd8fd0d302995a7.md) — Définir un format ouvert pour partager les compétences des agents.
 - [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA
 - [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
 - [book-to-skill](../../watch/book-to-skill.md) — Transforme un livre en compétence accessible par un agent IA
 - [book-to-skill](../../watch/technical-389040200a86ce208431.md) — Enregistre les preuves de conversion de livres en compétences.
 - [skills_feed](../../watch/technical-57435869059c16d7e579.md) — Collecte et organisation des compétences AI pour un accès centralisé
+- [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [Hermes Agent](../../watch/nousresearch-hermes-agent.md) — Gère des tâches complexes avec des modèles externes
 - [Multica](../../watch/technical-1c299b0df37a055a049d.md) — Assigner des tâches aux agents IA pour gérer le travail.
 - [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
@@ -17,7 +19,6 @@
 - [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Ajoute des timestamps précis aux mots de la transcription
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Construire des applications LLM fiables avec des principes structurés
 - [agency-agents](../../watch/technical-1e83b6596b947b071d50.md) — Facilite la simulation de discussions avec des experts.
-- [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md)
 - [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md)
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Permet aux agents de conserver une mémoire persistante sans re-expliquer.
 - [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Crée des portraits professionnels avec des prompts textuels.
@@ -40,7 +41,6 @@
 - [DeepSeek-Reasonix](../../watch/technical-c292611ef4a4a5e37455.md) — Exécute des tâches de codage avec un modèle d'IA configuré
 - [agents](../../watch/technical-35aadf0372281812cd07.md) — Permet de déployer des agents modulaires et scalables.
 - [DESIGN.md](../../watch/technical-ddda9bed5feda3007847.md)
-- [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [geo-seo-claude](../../watch/technical-a3b183624a359158d2f2.md) — Analyse la visibilité GEO d'un site en quelques secondes
 - [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Permet d'éditer des fichiers dans un environnement terminal
 - [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.

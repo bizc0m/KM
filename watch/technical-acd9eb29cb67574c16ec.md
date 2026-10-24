@@ -44,5 +44,5 @@ Recherche des comptes associés à une adresse email sans alerte.
 - Origine : NotePlan
 - Identifiant source : acd9eb29cb67574c16ece98d856d65968ef8163526d6a332b26145d0922920e6
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

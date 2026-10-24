@@ -46,5 +46,5 @@ Afficher les alertes météo en temps réel via terminal
 - Origine : NotePlan
 - Identifiant source : a194ad9339f6df4c73eaec04477013e471c417e523e69e5a6fa583f6c67ea178
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

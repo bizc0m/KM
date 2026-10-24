@@ -7,6 +7,7 @@
 - [elevenlabs-python](../../watch/technical-e1728cc13c4a61f359d1.md) — Convertir du texte en parole avec des modèles vocaux
 - [F5-TTS](../../watch/technical-a63a06d0b2276c289423.md) — Synthétise de la parole fluide et fidèle à partir de texte.
 - [faster-whisper](../../watch/technical-f5a99e06873448a9f3ba.md) — Transcrire des fichiers audio plus rapidement avec moins de ressources.
+- [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
 - [kokoro](../../watch/technical-aa11653c4d25a0e989a1.md) — Génère des audio de texte en temps réel avec des paramètres personnalisables
 - [lobster](../../watch/technical-0ebd1f1b56ff3fc73866.md) — Rechercher et visionner des films et séries en ligne
@@ -18,8 +19,11 @@
 - [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Découpe des images en sections facilement.
 - [Penpot](../../watch/technical-c0d4875dd605f77caf57.md)
 - [Plugin mov-cli-youtube](../../watch/technical-52593ff508c40e9e2d49.md) — Lire des vidéos YouTube via mov-cli avec options audio et shorts
+- [profile-summary-for-github](../../watch/technical-4f05134572dbcb3265f2.md) — Afficher les contributions GitHub sous forme de badges.
 - [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
 - [embed-sdk-js](../../watch/technical-f4619ecbc826ded4db95.md) — Affiche des vidéos torrent avec sous-titres et personnalisation.
+- [tiktok-timestamp](../../watch/technical-73a929f1ca2e1edf16a9.md) — Récupère l'horodatage des vidéos TikTok supprimées.
+- [TikTok-User-Info-Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
 - [VisoMaster-Fusion](../../watch/technical-dbbe9adbe528f3b77e3a.md) — Analyser et traiter des visages dans des médias sans dépendre de services payants.
 - [Voice-Pro](../../watch/technical-7e01176c9d1442c27f9d.md) — Traite les vidéos YouTube avec extraction audio et séparation vocale
 - [Whisper](../../watch/technical-24d2ebb24ff35b75f31b.md) — Transcrire la parole multilingue et traduire des enregistrements vers l’anglais.
@@ -41,7 +45,6 @@
 - [DarkFeat](../../watch/technical-74dc45b5f749db3d46d0.md) — Analyse des images RAW sombres avec détection de caractéristiques robuste
 - [DI-PCG](../../watch/technical-80c1535b6e69bb84082c.md) — Crée des modèles 3D à partir d'images avec des modèles pré-entraînés.
 - [Direct3D-S2](../../watch/technical-f1fa1897837db4db2e4d.md) — Génère des modèles 3D à haute résolution avec efficacité.
-- [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [Génération d'actifs 3D structurés](../../watch/technical-37356cc78499d8e4af94.md) — Génère des modèles 3D à partir d'images ou de textes.
 - [GSPN](../../watch/technical-383ec76df0f9b9e99e36.md)
 - [idn-solver](../../watch/technical-3f991f224eb64ace6e0c.md) — Analyse des données stéréoscopiques avec des modèles préentraînés.
@@ -61,15 +64,12 @@
 - [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones
 - [Pixal3D-ComfyUI](../../watch/technical-62ff8b189d833243b52d.md) — Permet de générer des modèles 3D à partir d'images 2D
 - [Pixelrelay](../../watch/technical-140649096e6d8069b2f4.md) — Gère les erreurs de fournisseurs avec un système de failover.
-- [profile-summary-for-github](../../watch/technical-4f05134572dbcb3265f2.md) — Afficher les contributions GitHub sous forme de badges.
 - [Seedance 2.5 API](../../watch/technical-4f09686ddcb30b511532.md) — Génère des vidéos AI à partir de textes et d'images
 - [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md)
 - [stable-diffusion.cpp](../../watch/technical-94c4f976278cef504540.md) — Génère des images à partir de modèles de diffusion sans dépendances externes
 - [StdGEN](../../watch/technical-39708b126c037da50e56.md) — Génère un modèle 3D détaillé à partir d'une image de référence.
 - [SuperSplat Editor](../../watch/technical-f7ea866b53ea3110371c.md) — Permet d'éditer des splats 3D directement dans le navigateur
 - [T3Bench](../../watch/technical-763a276cbab62cfc7a39.md) — Comparer les performances des modèles de génération 3D.
-- [tiktok-timestamp](../../watch/technical-73a929f1ca2e1edf16a9.md) — Récupère l'horodatage des vidéos TikTok supprimées.
-- [TikTok-User-Info-Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
 - [TRELLIS.2](../../watch/technical-8a1d416625950ae0abb8.md) — Convertit des maillages texturés en voxel O-Voxel en quelques secondes.
 - [TrianFlow](../../watch/technical-611db130b2bc64852596.md) — Génère une carte de profondeur à partir d'une image.
 - [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)

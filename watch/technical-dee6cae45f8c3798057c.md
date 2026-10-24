@@ -45,5 +45,5 @@ Collecte et vérification continue des proxies HTTP et SOCKS5
 - Origine : NotePlan
 - Identifiant source : dee6cae45f8c3798057c57ed7e56fd09b8db834d28e545b865f047b6f76bd5f7
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

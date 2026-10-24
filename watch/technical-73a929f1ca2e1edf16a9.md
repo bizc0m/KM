@@ -42,5 +42,5 @@ Récupère l'horodatage des vidéos TikTok supprimées.
 - Origine : NotePlan
 - Identifiant source : 73a929f1ca2e1edf16a900e7234e8f5cfa7144cd9e5205dd539348598fa59131
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

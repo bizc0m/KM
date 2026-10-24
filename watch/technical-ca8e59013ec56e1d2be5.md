@@ -44,5 +44,5 @@ Analyse VIN pour obtenir des données techniques. Sauvegarde des rapports en for
 - Origine : NotePlan
 - Identifiant source : ca8e59013ec56e1d2be596c8888074d2899c25f650ff554475954741342b43ca
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

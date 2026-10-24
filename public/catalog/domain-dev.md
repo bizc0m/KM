@@ -1,6 +1,7 @@
 # Développement logiciel
 
 - [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Recherche et stream d'animes via des fournisseurs.
+- [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Afficher les alertes météo en temps réel via terminal
 - [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les rendez-vous sans dépendance commerciale.
 - [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
 - [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
@@ -10,6 +11,7 @@
 - [Popcorn Time](../../watch/technical-f2ad2f5dfae253d2f4b6.md) — Accéder à des contenus multimédia via des liens.
 - [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
 - [ShotGlass](../../watch/technical-8ae8d27d1412df2cdc2d.md) — enregistrer et éditer des captures d'écran avec IA
+- [SubCat](../../watch/technical-c67a2647c3e09c338891.md) — Découvre des sous-domaines et génère des rapports web avec captures d'écran.
 - [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée des applications sans installation locale avec des outils open source.
 - [tygo](../../watch/technical-b19b418d3fe93785fa21.md) — Convertit des structures Go en types Typescript pour front-end
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Permet aux agents de conserver une mémoire persistante sans re-expliquer.
@@ -17,7 +19,6 @@
 - [BAML](../../watch/technical-b79207044bee1b2d7073.md) — Crée des agents fiables avec des types statiques.
 - [Browser-Use](../../watch/browser-use-web-automation.md) — Automatiser des tâches web avec un LLM
 - [Bun](../../watch/technical-1f8d61fe04f2cb529ec1.md) — Exécute des scripts JavaScript et TypeScript rapidement.
-- [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Afficher les alertes météo en temps réel via terminal
 - [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Génère des données 3D à partir de points de contrôle.
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md)
 - [CloakBrowser](../../watch/technical-2ffdb8097dd79859932a.md) — Permet de contourner les systèmes anti-bot avec un navigateur furtif.
@@ -38,7 +39,6 @@
 - [PubGrub](../../watch/technical-40431c060cb04bde6a19.md) — Résout des conflits de dépendances avec des explications claires.
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
 - [Selenium](../../watch/technical-d03eda2466f2556e6e1c.md) — Automatise les tests web avec des scripts.
-- [SubCat](../../watch/technical-c67a2647c3e09c338891.md) — Découvre des sous-domaines et génère des rapports web avec captures d'écran.
 - [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Analyse de type rapide avec diagnostics précis pour code Python
 - [UI-TARS-desktop](../../watch/technical-bba9c08d417b5cda22d8.md) — Contrôle à distance des ordinateurs et navigateurs avec interface graphique
 - [undetected-chromedriver](../../watch/technical-270127c4040820721fee.md) — Exécute des navigateurs Chromium sans détection par les services anti-bot.

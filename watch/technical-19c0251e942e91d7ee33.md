@@ -44,5 +44,5 @@ Analyse en temps réel des données épidémiologiques pour comparaison et suivi
 - Origine : NotePlan
 - Identifiant source : 19c0251e942e91d7ee33c59c2bad802657f4cbe44cc3694fc837d907df6a5f1e
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

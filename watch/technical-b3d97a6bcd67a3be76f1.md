@@ -96,7 +96,7 @@ Ajouter des rôles d'agents pour des conseils spécialisés.
 - Origine : NotePlan
 - Identifiant source : f096bac634e98c621c76491143ac8b1e7f0b6beafaae728ed309f19702d89084
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens

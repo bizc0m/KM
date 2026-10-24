@@ -1,11 +1,11 @@
 # Modèles de langage
 
+- [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Construire des applications LLM fiables avec des principes structurés
 - [awesome-ai-video-models](../../watch/technical-e0275c5610589cad14d2.md) — Choisir le modèle de génération de vidéos AI adapté à un projet.
 - [Browser-Use](../../watch/browser-use-web-automation.md) — Automatiser des tâches web avec un LLM
 - [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches dans le terminal avec des modèles.
 - [DeepSeek-Reasonix](../../watch/technical-c292611ef4a4a5e37455.md) — Exécute des tâches de codage avec un modèle d'IA configuré
-- [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
 - [llama.cpp](../../watch/technical-8f4d2163b5e697a72c77.md) — Exécute des modèles LLM localement avec optimisation matérielle
 - [LLM Wiki Agent](../../watch/technical-9e4c4b6c4c6a7d12ceff.md) — Ingestion de documents pour construire un wiki structuré

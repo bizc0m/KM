@@ -15,7 +15,6 @@
 - [Voice-Pro](../../watch/technical-7e01176c9d1442c27f9d.md) — Traite les vidéos YouTube avec extraction audio et séparation vocale
 - [Whisper](../../watch/technical-24d2ebb24ff35b75f31b.md) — Transcrire la parole multilingue et traduire des enregistrements vers l’anglais.
 - [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Ajoute des timestamps précis aux mots de la transcription
-- [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier.
 - [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
 - [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel.

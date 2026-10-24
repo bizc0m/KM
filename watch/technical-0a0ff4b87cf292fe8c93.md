@@ -46,5 +46,5 @@ Récupère des données utilisateur TikTok sans connexion. Télécharge l'image 
 - Origine : NotePlan
 - Identifiant source : 0a0ff4b87cf292fe8c93308cc1b92f751db4509f35ef057e182741847030dc65
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
