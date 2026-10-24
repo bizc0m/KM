@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-24T12:32:18.959Z",
+  "at": "2026-10-24T13:32:26.194Z",
   "count": 657,
   "rows": [
     {
@@ -52856,7 +52856,7 @@
     },
     {
       "id": "watch-technical-411490b28204e94a3778-md",
-      "title": "Open Generative AI",
+      "title": "Open-Generative-AI",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -52876,11 +52876,15 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [],
+      "tags": [
+        "#generation-video",
+        "#generation-images",
+        "#application-bureau"
+      ],
       "status": "actif",
       "path": "watch/technical-411490b28204e94a3778.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-411490b28204e94a3778.md",
-      "sourceUrl": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "sourceUrl": "https://github.com/anil-matcha/open-generative-ai",
       "sources": [
         {
           "url": "https://github.com/anil-matcha/open-generative-ai",
@@ -53177,6 +53181,12 @@
           "label": "Référence"
         },
         {
+          "url": "https://x.com/i/status/2056408789327462486",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
           "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
           "kind": "github",
           "role": "secondaryReference",
@@ -53184,12 +53194,6 @@
         },
         {
           "url": "https://x.com/deeptechtr/status/2066056043981943251?s=12",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://x.com/i/status/2056408789327462486",
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
@@ -53552,7 +53556,7 @@
       "github": "https://github.com/anil-matcha/open-generative-ai",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des studios d'IA personnalisés avec des modèles d'IA",
+      "summary": "Générer des images et vidéos sans filtres ni restrictions",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-24",
@@ -53566,8 +53570,13 @@
             "domain.media.video",
             "domain.media.image"
           ],
-          "capability": [],
-          "compatibility": [],
+          "capability": [
+            "capability.generate.video",
+            "capability.generate.image"
+          ],
+          "compatibility": [
+            "compatibility.interface.desktop"
+          ],
           "risk": [],
           "source": [
             "source.noteplan",
@@ -53666,6 +53675,84 @@
               "Audio, vidéo et création",
               "Images et graphisme"
             ]
+          },
+          {
+            "id": "capability.generate.video",
+            "label": "Générer une vidéo",
+            "parent": "capability.generate",
+            "aliases": [
+              "#generation-video",
+              "#video-generation",
+              "#ai-video"
+            ],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus",
+              "Générer une vidéo"
+            ]
+          },
+          {
+            "id": "capability.generate",
+            "label": "Générer des contenus",
+            "parent": "capability",
+            "aliases": [],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "capability.generate.image",
+            "label": "Générer une image",
+            "parent": "capability.generate",
+            "aliases": [
+              "#generation-images"
+            ],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus",
+              "Générer une image"
+            ]
+          },
+          {
+            "id": "compatibility.interface.desktop",
+            "label": "Application de bureau",
+            "parent": "compatibility.interface",
+            "aliases": [
+              "#application-bureau",
+              "#desktop-app"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces",
+              "Application de bureau"
+            ]
+          },
+          {
+            "id": "compatibility.interface",
+            "label": "Interfaces",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
           },
           {
             "id": "lifecycle.active",
@@ -53819,6 +53906,84 @@
           ]
         },
         {
+          "id": "capability.generate.video",
+          "label": "Générer une vidéo",
+          "parent": "capability.generate",
+          "aliases": [
+            "#generation-video",
+            "#video-generation",
+            "#ai-video"
+          ],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus",
+            "Générer une vidéo"
+          ]
+        },
+        {
+          "id": "capability.generate",
+          "label": "Générer des contenus",
+          "parent": "capability",
+          "aliases": [],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "capability.generate.image",
+          "label": "Générer une image",
+          "parent": "capability.generate",
+          "aliases": [
+            "#generation-images"
+          ],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus",
+            "Générer une image"
+          ]
+        },
+        {
+          "id": "compatibility.interface.desktop",
+          "label": "Application de bureau",
+          "parent": "compatibility.interface",
+          "aliases": [
+            "#application-bureau",
+            "#desktop-app"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces",
+            "Application de bureau"
+          ]
+        },
+        {
+          "id": "compatibility.interface",
+          "label": "Interfaces",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -53880,20 +54045,26 @@
       ],
       "keywords": [
         {
-          "label": "#montage-video",
-          "fullLabel": "montage-video",
+          "label": "#Vidéo",
+          "fullLabel": "Génération vidéo",
           "color": "media",
-          "subjectId": "domain.media.video"
+          "tag": "#generation-video"
         },
         {
-          "label": "#compression-images",
-          "fullLabel": "compression-images",
+          "label": "#Images",
+          "fullLabel": "Génération d’images",
           "color": "media",
-          "subjectId": "domain.media.image"
+          "tag": "#generation-images"
+        },
+        {
+          "label": "#application-bureau",
+          "fullLabel": "application-bureau",
+          "color": "tool",
+          "tag": "#application-bureau"
         }
       ],
-      "cardTitle": "Open Generative AI",
-      "cardInterest": "Crée des studios d'IA personnalisés avec des modèles d'IA"
+      "cardTitle": "Open-Generative-AI",
+      "cardInterest": "Générer des images et vidéos sans filtres ni restrictions"
     },
     {
       "id": "watch-technical-dfc871508eb563893ba5-md",

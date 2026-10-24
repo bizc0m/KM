@@ -121,7 +121,7 @@
 | `watch-technical-af32c93f6e9c60ab06b7-md` | `watch/technical-af32c93f6e9c60ab06b7.md` | outil | #react, #generation-video, #generation-images | actif |
 | `watch-technical-34d5505e0a9890ad64f6-md` | `watch/technical-34d5505e0a9890ad64f6.md` | outil | #orchestration-agents, #generation-video, #generation-images | actif |
 | `watch-technical-79b08dab72dcf263294d-md` | `watch/technical-79b08dab72dcf263294d.md` | outil | #memoire-agents | actif |
-| `watch-technical-411490b28204e94a3778-md` | `watch/technical-411490b28204e94a3778.md` | outil |  | actif |
+| `watch-technical-411490b28204e94a3778-md` | `watch/technical-411490b28204e94a3778.md` | outil | #generation-video, #generation-images, #application-bureau | actif |
 | `watch-technical-dfc871508eb563893ba5-md` | `watch/technical-dfc871508eb563893ba5.md` | outil | #react, #python | actif |
 | `watch-technical-00898489ed72fd55e12d-md` | `watch/technical-00898489ed72fd55e12d.md` | outil | #synthese-vocale, #application-bureau, #transcription, #macos | actif |
 | `watch-technical-2d163384adb685d9a51a-md` | `watch/technical-2d163384adb685d9a51a.md` | outil | #react | actif |
