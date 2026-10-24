@@ -1,4 +1,4 @@
-# Ghost : CMS open source headless basé sur Node.js
+# Ghost
 
 ## Statut
 
@@ -47,5 +47,5 @@ Crée un site de publication avec un CMS open source
 - Origine : NotePlan
 - Identifiant source : c750bc2f9f73e8e1f5bddedc78cd7e4ebc897f7b4eda7c18dc07c64d096dc1a6
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -47,5 +47,5 @@ Crée des présentations avec des composants React
 - Origine : NotePlan
 - Identifiant source : 690719855ba11af8d90cf07b892973b17717d1324b9f274d72dd8842e7cbe00b
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

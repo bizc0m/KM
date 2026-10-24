@@ -1,9 +1,14 @@
 # Images et graphisme
 
 - [diffusers](../../watch/technical-f977c26fe64e30184a6f.md) — Génère des images à partir de texte avec des modèles préentraînés.
+- [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
 - [LongCat-Video](../../watch/technical-3794fe05156a712cb6fd.md) — Convertir du texte ou des images en vidéos longues.
+- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
 - [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
 - [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
+- [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Découpe des images en sections facilement.
+- [Penpot](../../watch/technical-c0d4875dd605f77caf57.md)
+- [VisoMaster-Fusion](../../watch/technical-dbbe9adbe528f3b77e3a.md) — Analyser et traiter des visages dans des médias sans dépendre de services payants.
 - [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Crée des portraits professionnels avec des prompts textuels.
 - [AI Logo Studio](../../watch/technical-a20888d5cb6a1c399300.md)
 - [AI Meme Studio](../../watch/technical-28efa5970d38e5616943.md) — Crée des contenus viraux avec des modèles AI.
@@ -16,19 +21,15 @@
 - [DI-PCG](../../watch/technical-80c1535b6e69bb84082c.md) — Crée des modèles 3D à partir d'images avec des modèles pré-entraînés.
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [Génération d'actifs 3D structurés](../../watch/technical-37356cc78499d8e4af94.md) — Génère des modèles 3D à partir d'images ou de textes.
-- [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
 - [idn-solver](../../watch/technical-3f991f224eb64ace6e0c.md) — Analyse des données stéréoscopiques avec des modèles préentraînés.
 - [openai-api](../../watch/technical-f8f551d25eb73ecda1fd.md) — Génère des images avec des paramètres de résolution et de format.
 - [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier.
 - [Kling Video API via Muapi](../../watch/technical-6cc3ec716443f80c37a3.md) — Soumet une requête de génération et récupère l'identifiant de demande pour suivre le statut
-- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
 - [Old Photo Restore](../../watch/technical-1a1b1c01fccbb652af5e.md) — Restaure des photos anciennes avec un moteur d'IA.
 - [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
 - [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
 - [Open Generative AI](../../watch/technical-78faa425ad9343a870b8.md) — Génère des images et vidéos via des modèles d'IA sans filtres.
-- [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Découpe des images en sections facilement.
-- [Penpot](../../watch/technical-c0d4875dd605f77caf57.md) — Permet de collaborer en temps réel sur des projets de conception
 - [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones
 - [Pixal3D-ComfyUI](../../watch/technical-62ff8b189d833243b52d.md) — Permet de générer des modèles 3D à partir d'images 2D
 - [Pixelrelay](../../watch/technical-140649096e6d8069b2f4.md) — Gère les erreurs de fournisseurs avec un système de failover.
@@ -43,7 +44,6 @@
 - [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
 - [Vibe Workflow](../../watch/technical-6ccb86641ecc996a74b9.md) — Crée des workflows d'IA visuels sans abonnement
 - [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence visuelle et narrative.
-- [VisoMaster-Fusion](../../watch/technical-dbbe9adbe528f3b77e3a.md) — Analyser et traiter des visages dans des médias sans dépendre de services payants.
 - [VisoMaster-Fusion](../../watch/technical-f26060981b4112b4411f.md) — Traiter des visages localement sans frais ni partage de données.
 - [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Génère et gère des contenus multimédia avec des modèles optimisés pour faible VRAM.
 - [AI Creator Academy](../../watch/technical-21a78e48d74a8e6ab07f.md) — Créer des publicités vidéo vendables pour des marques réelles.

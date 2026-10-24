@@ -7,14 +7,20 @@
 - [elevenlabs-python](../../watch/technical-e1728cc13c4a61f359d1.md) — Convertir du texte en parole avec des modèles vocaux
 - [F5-TTS](../../watch/technical-a63a06d0b2276c289423.md) — Synthétise de la parole fluide et fidèle à partir de texte.
 - [faster-whisper](../../watch/technical-f5a99e06873448a9f3ba.md) — Transcrire des fichiers audio plus rapidement avec moins de ressources.
+- [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
 - [kokoro](../../watch/technical-aa11653c4d25a0e989a1.md) — Génère des audio de texte en temps réel avec des paramètres personnalisables
 - [lobster](../../watch/technical-0ebd1f1b56ff3fc73866.md) — Rechercher et visionner des films et séries en ligne
 - [LongCat-Video](../../watch/technical-3794fe05156a712cb6fd.md) — Convertir du texte ou des images en vidéos longues.
+- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
 - [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
 - [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
 - [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Cloner des voix sans connexion internet.
+- [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Découpe des images en sections facilement.
+- [Penpot](../../watch/technical-c0d4875dd605f77caf57.md)
 - [Plugin mov-cli-youtube](../../watch/technical-52593ff508c40e9e2d49.md) — Lire des vidéos YouTube via mov-cli avec options audio et shorts
+- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
 - [embed-sdk-js](../../watch/technical-f4619ecbc826ded4db95.md) — Affiche des vidéos torrent avec sous-titres et personnalisation.
+- [VisoMaster-Fusion](../../watch/technical-dbbe9adbe528f3b77e3a.md) — Analyser et traiter des visages dans des médias sans dépendre de services payants.
 - [Voice-Pro](../../watch/technical-7e01176c9d1442c27f9d.md) — Traite les vidéos YouTube avec extraction audio et séparation vocale
 - [Whisper](../../watch/technical-24d2ebb24ff35b75f31b.md) — Transcrire la parole multilingue et traduire des enregistrements vers l’anglais.
 - [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Ajoute des timestamps précis aux mots de la transcription
@@ -38,12 +44,10 @@
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [Génération d'actifs 3D structurés](../../watch/technical-37356cc78499d8e4af94.md) — Génère des modèles 3D à partir d'images ou de textes.
 - [GSPN](../../watch/technical-383ec76df0f9b9e99e36.md)
-- [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
 - [idn-solver](../../watch/technical-3f991f224eb64ace6e0c.md) — Analyse des données stéréoscopiques avec des modèles préentraînés.
 - [openai-api](../../watch/technical-f8f551d25eb73ecda1fd.md) — Génère des images avec des paramètres de résolution et de format.
 - [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier.
 - [Kling Video API via Muapi](../../watch/technical-6cc3ec716443f80c37a3.md) — Soumet une requête de génération et récupère l'identifiant de demande pour suivre le statut
-- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
 - [MoneyPrinter](../../watch/technical-9bd95807fef95eea1d8c.md) — Configure l'environnement pour exécuter MoneyPrinter avec Ollama
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
 - [O2-Recon](../../watch/technical-712121d9735431107601.md) — Améliore la reconstruction 3D des objets masqués avec un modèle diffusion 2D
@@ -52,15 +56,12 @@
 - [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
 - [Open Generative AI](../../watch/technical-78faa425ad9343a870b8.md) — Génère des images et vidéos via des modèles d'IA sans filtres.
 - [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel.
-- [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Découpe des images en sections facilement.
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [ParticleSfM](../../watch/technical-1579309e1b490fa5279c.md) — Traite des séquences vidéo pour extraire des trajectoires de points.
-- [Penpot](../../watch/technical-c0d4875dd605f77caf57.md) — Permet de collaborer en temps réel sur des projets de conception
 - [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones
 - [Pixal3D-ComfyUI](../../watch/technical-62ff8b189d833243b52d.md) — Permet de générer des modèles 3D à partir d'images 2D
 - [Pixelrelay](../../watch/technical-140649096e6d8069b2f4.md) — Gère les erreurs de fournisseurs avec un système de failover.
 - [profile-summary-for-github](../../watch/technical-4f05134572dbcb3265f2.md) — Afficher les contributions GitHub sous forme de badges.
-- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
 - [Seedance 2.5 API](../../watch/technical-4f09686ddcb30b511532.md) — Génère des vidéos AI à partir de textes et d'images
 - [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md)
 - [stable-diffusion.cpp](../../watch/technical-94c4f976278cef504540.md) — Génère des images à partir de modèles de diffusion sans dépendances externes
@@ -74,7 +75,6 @@
 - [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
 - [Vibe Workflow](../../watch/technical-6ccb86641ecc996a74b9.md) — Crée des workflows d'IA visuels sans abonnement
 - [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence visuelle et narrative.
-- [VisoMaster-Fusion](../../watch/technical-dbbe9adbe528f3b77e3a.md) — Analyser et traiter des visages dans des médias sans dépendre de services payants.
 - [VisoMaster-Fusion](../../watch/technical-f26060981b4112b4411f.md) — Traiter des visages localement sans frais ni partage de données.
 - [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Cloner des voix pour des agents IA sans dépendance externe
 - [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Génère et gère des contenus multimédia avec des modèles optimisés pour faible VRAM.

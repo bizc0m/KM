@@ -39,7 +39,7 @@ Analyser et traiter des visages dans des médias sans dépendre de services paya
 - Origine : NotePlan
 - Identifiant source : 189c2cbab81135cc0268c736148b6393fd719604f1fbb9cf0e663ae8a5b348fc
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens

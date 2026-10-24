@@ -14,7 +14,6 @@
 - [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Permet une collaboration équipe via un agent partagé par canal
 - [Open Generative AI](../../watch/technical-78faa425ad9343a870b8.md) — Génère des images et vidéos via des modèles d'IA sans filtres.
 - [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel.
-- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel
 - [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Crée des workflows personnalisés avec des extensions
 - [FreeLLMAPI](../../watch/technical-f9d54d6e051498a6f643.md) — Route requests across free LLM providers with one endpoint
 - [GPT-6 Astra](../../watch/technical-04eb6674f0cfa4208b0e.md) — Accéder à la documentation du modèle GPT-6 Astra

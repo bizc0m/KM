@@ -7,6 +7,10 @@
 - [book-to-skill](../../watch/technical-389040200a86ce208431.md) — Enregistre les preuves de conversion de livres en compétences.
 - [skills_feed](../../watch/technical-57435869059c16d7e579.md) — Collecte et organisation des compétences AI pour un accès centralisé
 - [Hermes Agent](../../watch/nousresearch-hermes-agent.md) — Gère des tâches complexes avec des modèles externes
+- [Multica](../../watch/technical-1c299b0df37a055a049d.md) — Assigner des tâches aux agents IA pour gérer le travail.
+- [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
+- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel
+- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
 - [ShotGlass](../../watch/technical-8ae8d27d1412df2cdc2d.md) — enregistrer et éditer des captures d'écran avec IA
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Construire des applications LLM fiables avec des principes structurés
 - [agency-agents](../../watch/technical-1e83b6596b947b071d50.md) — Facilite la simulation de discussions avec des experts.
@@ -32,21 +36,17 @@
 - [Mailcrew](../../watch/technical-0812a3e04271e2d82124.md) — Traite des tâches via des emails.
 - [Migration vers Kimi Code CLI](../../watch/technical-15ae02c43b612a6e8c46.md) — Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP.
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
-- [Multica](../../watch/technical-1c299b0df37a055a049d.md) — Assigner des tâches aux agents IA pour gérer le travail.
 - [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
 - [NotFair Plugin](../../watch/technical-614a514ae65ec429804d.md) — Analyse de site et de campagne publicitaire avec des workflows prédéfinis.
 - [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
 - [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
 - [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Permet une collaboration équipe via un agent partagé par canal
 - [Open-Poe-AI](../../watch/technical-2d163384adb685d9a51a.md)
-- [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
 - [openclaw](../../watch/technical-0b5c4741d1c147be5fdd.md) — intègre des canaux de messagerie pour un assistant IA local
-- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Crée des workflows personnalisés avec des extensions
 - [Pi](../../watch/technical-c133b93b912dffd605a2.md)
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
-- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
 - [rtk](../../watch/technical-d07066251c23560c4586.md) — Filtre les sorties de commande pour réduire les tokens d'entrée.
 - [Skills For Real Engineers](../../watch/technical-637c99109af31ed2fe7b.md) — Aligner les besoins avec l'agent avant de commencer
 - [UI-TARS-desktop](../../watch/technical-bba9c08d417b5cda22d8.md) — Contrôle à distance des ordinateurs et navigateurs avec interface graphique

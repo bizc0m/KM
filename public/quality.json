@@ -1,15 +1,15 @@
 {
-  "at": "2026-10-24T02:31:11.946Z",
+  "at": "2026-10-24T03:31:18.301Z",
   "scope": "public-index-only",
   "fiches": 658,
-  "sourceReferences": 2619,
+  "sourceReferences": 2618,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
   "pendingReview": 630,
   "counts": {
-    "interest-missing": 190,
-    "keywords-missing": 89,
+    "interest-missing": 191,
+    "keywords-missing": 90,
     "domain-unqualified": 116,
     "primary-identity-unqualified": 22,
     "nature-unqualified": 608
@@ -61,6 +61,20 @@
       "reasons": [
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-553d2fe81671c153a6e0-md",
+      "title": "Cal.diy",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-cb5d126cbda2eedef29e-md",
+      "title": "Cal.diy",
+      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -148,6 +162,13 @@
       ]
     },
     {
+      "id": "watch-technical-c750bc2f9f73e8e1f5bd-md",
+      "title": "Ghost",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-c185cfb5713fdfdca685-md",
       "title": "gophish",
       "reasons": [
@@ -167,6 +188,13 @@
     {
       "id": "watch-nousresearch-hermes-agent-md",
       "title": "Hermes Agent",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-02e627709adedd541e23-md",
+      "title": "huashu-md-html",
       "reasons": [
         "nature-unqualified"
       ]
@@ -193,8 +221,39 @@
       ]
     },
     {
+      "id": "watch-technical-ee446b3bf303b677315c-md",
+      "title": "MailHog",
+      "reasons": [
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-10eda570000d9c7eeda1-md",
+      "title": "markdown-to-image",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0096fb39d8f5defe169d-md",
+      "title": "Medusa",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-6a483fbc42057e7dc8d1-md",
       "title": "MeltKit",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1c299b0df37a055a049d-md",
+      "title": "Multica",
       "reasons": [
         "nature-unqualified"
       ]
@@ -211,6 +270,35 @@
       "title": "OmniVoice Studio",
       "reasons": [
         "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-690719855ba11af8d90c-md",
+      "title": "open-slide",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-7f84d8cb0f021d98f595-md",
+      "title": "OpenCut",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-757ce536b0a4cbc2f860-md",
+      "title": "OpenDesign",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c0d4875dd605f77caf57-md",
+      "title": "Penpot",
+      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -236,6 +324,14 @@
       ]
     },
     {
+      "id": "watch-technical-c8e0d0b7ca0f7e400713-md",
+      "title": "remotion",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-8ae8d27d1412df2cdc2d-md",
       "title": "ShotGlass",
       "reasons": [
@@ -247,6 +343,13 @@
       "title": "spaCy",
       "reasons": [
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-2b5226bf08105545e1cf-md",
+      "title": "Supabase",
+      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -271,6 +374,13 @@
       "title": "velox",
       "reasons": [
         "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-dbbe9adbe528f3b77e3a-md",
+      "title": "VisoMaster-Fusion",
+      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -479,20 +589,6 @@
       ]
     },
     {
-      "id": "watch-technical-553d2fe81671c153a6e0-md",
-      "title": "Cal.diy",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-cb5d126cbda2eedef29e-md",
-      "title": "Cal.diy",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-4f72d6274858ca1e8190-md",
       "title": "CHARM",
       "reasons": [
@@ -659,13 +755,6 @@
       ]
     },
     {
-      "id": "watch-technical-c750bc2f9f73e8e1f5bd-md",
-      "title": "Ghost",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-d924e27b47fa985d6e04-md",
       "title": "google_dorker",
       "reasons": [
@@ -701,13 +790,6 @@
       "reasons": [
         "keywords-missing",
         "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-02e627709adedd541e23-md",
-      "title": "huashu-md-html",
-      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -807,29 +889,6 @@
       ]
     },
     {
-      "id": "watch-technical-ee446b3bf303b677315c-md",
-      "title": "MailHog",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-10eda570000d9c7eeda1-md",
-      "title": "markdown-to-image",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-0096fb39d8f5defe169d-md",
-      "title": "Medusa",
-      "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-4fed931d247d6cb2a3df-md",
       "title": "Mistral Vibe",
       "reasons": [
@@ -848,13 +907,6 @@
       "title": "muapi-skills",
       "reasons": [
         "interest-missing"
-      ]
-    },
-    {
-      "id": "watch-technical-1c299b0df37a055a049d-md",
-      "title": "Multica",
-      "reasons": [
-        "nature-unqualified"
       ]
     },
     {
@@ -956,29 +1008,8 @@
       ]
     },
     {
-      "id": "watch-technical-690719855ba11af8d90c-md",
-      "title": "open-slide",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-0b5c4741d1c147be5fdd-md",
       "title": "openclaw",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-7f84d8cb0f021d98f595-md",
-      "title": "OpenCut",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-757ce536b0a4cbc2f860-md",
-      "title": "OpenDesign",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1008,13 +1039,6 @@
     {
       "id": "watch-technical-c88e811a1a66f8cd57ba-md",
       "title": "PC-NBV",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-c0d4875dd605f77caf57-md",
-      "title": "Penpot",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1091,14 +1115,6 @@
       ]
     },
     {
-      "id": "watch-technical-c8e0d0b7ca0f7e400713-md",
-      "title": "remotion",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-d07066251c23560c4586-md",
       "title": "rtk",
       "reasons": [
@@ -1168,13 +1184,6 @@
     {
       "id": "watch-technical-c67a2647c3e09c338891-md",
       "title": "SubCat",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-2b5226bf08105545e1cf-md",
-      "title": "Supabase",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1282,13 +1291,6 @@
     {
       "id": "watch-technical-ca8e59013ec56e1d2be5-md",
       "title": "VIN-Number-OSINT",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-dbbe9adbe528f3b77e3a-md",
-      "title": "VisoMaster-Fusion",
       "reasons": [
         "nature-unqualified"
       ]

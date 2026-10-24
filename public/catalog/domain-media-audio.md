@@ -7,6 +7,7 @@
 - [elevenlabs-python](../../watch/technical-e1728cc13c4a61f359d1.md) — Convertir du texte en parole avec des modèles vocaux
 - [F5-TTS](../../watch/technical-a63a06d0b2276c289423.md) — Synthétise de la parole fluide et fidèle à partir de texte.
 - [faster-whisper](../../watch/technical-f5a99e06873448a9f3ba.md) — Transcrire des fichiers audio plus rapidement avec moins de ressources.
+- [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
 - [kokoro](../../watch/technical-aa11653c4d25a0e989a1.md) — Génère des audio de texte en temps réel avec des paramètres personnalisables
 - [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
 - [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Cloner des voix sans connexion internet.
@@ -15,7 +16,6 @@
 - [Whisper](../../watch/technical-24d2ebb24ff35b75f31b.md) — Transcrire la parole multilingue et traduire des enregistrements vers l’anglais.
 - [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Ajoute des timestamps précis aux mots de la transcription
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
-- [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
 - [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier.
 - [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
 - [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel.

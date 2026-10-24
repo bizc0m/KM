@@ -46,5 +46,5 @@ Convertir des fichiers vers markdown et générer des html ou docx.
 - Origine : NotePlan
 - Identifiant source : 02e627709adedd541e23b00b2de29f2f6ddcd361334e432a8acb6ffef0827533
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Crée une API REST sans configuration complexe
+Crée des applications sans installation locale avec des outils open source.
 
 ## Identité
 
@@ -44,5 +44,5 @@ Crée une API REST sans configuration complexe
 - Origine : NotePlan
 - Identifiant source : 2b5226bf08105545e1cfaa9ab06798f008a57ae4e15ab8a1c1c1c096450071df
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
