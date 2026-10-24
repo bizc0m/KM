@@ -46,5 +46,5 @@ Génère des images avec des paramètres de résolution et de format.
 - Origine : NotePlan
 - Identifiant source : f8f551d25eb73ecda1fd768f3eaf217f21ea1d1eb913988f442da6b3d1505818
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

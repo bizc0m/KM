@@ -42,5 +42,5 @@ Exécute des scripts JavaScript et TypeScript rapidement.
 - Origine : NotePlan
 - Identifiant source : 1f8d61fe04f2cb529ec10ff1bba92daa49a22242aa93f84c4f89824abd95056f
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

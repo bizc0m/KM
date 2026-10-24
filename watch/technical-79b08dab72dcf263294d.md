@@ -45,5 +45,5 @@ Permet une collaboration équipe via un agent partagé par canal
 - Origine : NotePlan
 - Identifiant source : 79b08dab72dcf263294d1dff7a4073435d95b7e13324019034a8594b15958fc8
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

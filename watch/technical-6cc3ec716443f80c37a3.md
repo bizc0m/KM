@@ -45,5 +45,5 @@ Soumet une requête de génération et récupère l'identifiant de demande pour 
 - Origine : NotePlan
 - Identifiant source : 6cc3ec716443f80c37a373d8cb1dfeb23bc5fe716c5180812b8957f6908170a4
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

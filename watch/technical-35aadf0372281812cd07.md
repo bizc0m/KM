@@ -42,5 +42,5 @@ Permet de déployer des agents modulaires et scalables.
 - Origine : NotePlan
 - Identifiant source : 35aadf0372281812cd07628d6228874c1fa1360239925c4d3cb244a10ebca05b
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

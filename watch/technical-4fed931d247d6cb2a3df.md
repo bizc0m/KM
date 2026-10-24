@@ -47,5 +47,5 @@ Permet d'explorer et modifier le code avec un assistant IA
 - Origine : NotePlan
 - Identifiant source : 4fed931d247d6cb2a3df47ef9f17d5e274d4868b6bfc296429b790b2eac2e382
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

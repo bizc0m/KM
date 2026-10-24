@@ -45,5 +45,5 @@ Automatiser des tâches web avec un LLM
 - Origine : NotePlan
 - Identifiant source : c1af6b58492f9bf434d283140c089cd8bec568302933f45108ba7657de9dd41a
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Permet de contourner les systèmes anti-bot avec un navigateur furtif.
+Contourner les détections anti-bot avec un navigateur modifié.
 
 ## Identité
 
@@ -29,8 +29,8 @@ Permet de contourner les systèmes anti-bot avec un navigateur furtif.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.dev.desktop domain.security.web capability.security.detectbots source.noteplan source.github source.x lifecycle.active
-- Sujets : Développement logiciel > Applications et interfaces de bureau ; Cybersécurité > Sécurité web
+- Identifiants : domain.security.web capability.security.detectbots source.noteplan source.github source.x lifecycle.active
+- Sujets : Cybersécurité > Sécurité web
 - Fonctions : Détecter les bots
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
@@ -73,5 +73,5 @@ Permet de contourner les systèmes anti-bot avec un navigateur furtif.
 - Origine : NotePlan
 - Identifiant source : 7e23e27f5e0938bac4172f0332f9c73198ba1cd5a2a1f4a00c7f7bf84ab5374d
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

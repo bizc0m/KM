@@ -45,7 +45,7 @@ Contrôle un navigateur web via des commandes vocales pour une navigation sans c
 - Origine : NotePlan
 - Identifiant source : 6489b93af3b652dd94044a31a1d7b0385ec13738754a19bd82e354391e1d5acb
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens

@@ -1,4 +1,4 @@
-# Open Generative AI
+# Open-Generative-AI
 
 ## Statut
 
@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Génère des images et vidéos via des modèles d'IA sans filtres.
+Génère des images et vidéos via des modèles open-source sans filtres.
 
 ## Identité
 
@@ -107,5 +107,5 @@ Génère des images et vidéos via des modèles d'IA sans filtres.
 - Origine : Raindrop
 - Identifiant source : 9b0ddf7fee7ec34b146b64c75c35ddce4d9f3d822c0387fe7a03ee0c89242852
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

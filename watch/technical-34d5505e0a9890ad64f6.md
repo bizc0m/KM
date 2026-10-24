@@ -45,5 +45,5 @@ Orchestre 200+ modèles AI pour générer des campagnes graphiques
 - Origine : NotePlan
 - Identifiant source : 34d5505e0a9890ad64f6f0ec6e40c5fea283da78104df1bd386ce10065c77cac
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

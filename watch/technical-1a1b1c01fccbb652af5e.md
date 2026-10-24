@@ -45,5 +45,5 @@ Restaure des photos anciennes avec un moteur d'IA.
 - Origine : NotePlan
 - Identifiant source : 1a1b1c01fccbb652af5ea3332a87dd2f20b7c6393f0bb33791c4d204296e8111
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

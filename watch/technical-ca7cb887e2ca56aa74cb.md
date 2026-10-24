@@ -43,7 +43,7 @@ Anonymise les données sensibles avant transmission
 - Origine : NotePlan
 - Identifiant source : 20ce7a20ba8fb1a8e8d32aba833d4d35fae14c05c136de0085ff7e861bad9ffd
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens

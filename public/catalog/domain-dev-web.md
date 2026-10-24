@@ -2,13 +2,13 @@
 
 - [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les rendez-vous sans dépendance commerciale.
 - [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
+- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
+- [open-grok-bot](../../watch/technical-dfc871508eb563893ba5.md) — Crée des personas bots avec des modèles spécifiques
+- [Open-Poe-AI](../../watch/technical-2d163384adb685d9a51a.md)
 - [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
 - [Popcorn Time](../../watch/technical-f2ad2f5dfae253d2f4b6.md) — Accéder à des contenus multimédia via des liens.
 - [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
 - [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
-- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
-- [open-grok-bot](../../watch/technical-dfc871508eb563893ba5.md) — Crée des personas bots avec des modèles spécifiques
-- [Open-Poe-AI](../../watch/technical-2d163384adb685d9a51a.md)
 - [@react-native-segmented-control/segmented-control](../../watch/technical-4fecf39958682d370cdb.md) — Afficher un contrôle segmenté iOS compatible sur iOS, Android et Web
 - [React Native Firebase](../../watch/technical-3681504d2fddfa84e41c.md) — Intégre Firebase dans les apps React Native
 - [React Native Skia](../../watch/technical-7cd3c79123c711ed22a3.md) — Rendu graphique 2D performant pour applications React Native

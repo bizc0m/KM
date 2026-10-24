@@ -42,5 +42,5 @@ Crée des agents fiables avec des types statiques.
 - Origine : NotePlan
 - Identifiant source : b79207044bee1b2d7073442b45747fe569d35a895e499a0ece06ee59294bf8ed
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

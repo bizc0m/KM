@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Crée des vidéos à partir d'HTML avec des animations et médias.
+Crée des vidéos à partir d'HTML avec des agents IA
 
 ## Identité
 
@@ -29,8 +29,8 @@ Crée des vidéos à partir d'HTML avec des animations et médias.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents domain.media.video compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA ; Audio, vidéo et création > Vidéo
+- Identifiants : domain.ai.agents.coding domain.media.video compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Audio, vidéo et création > Vidéo
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
@@ -47,5 +47,5 @@ Crée des vidéos à partir d'HTML avec des animations et médias.
 - Origine : NotePlan
 - Identifiant source : 6e18aa23e1f0d14413d539fa101d4805bd353949000521274b9d961c5ab2baca
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-22
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -45,5 +45,5 @@ Choisir le modèle de génération de vidéos AI adapté à un projet.
 - Origine : NotePlan
 - Identifiant source : e0275c5610589cad14d23437d24059e8edc593ff198fedfe9561d863bc5aa46e
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

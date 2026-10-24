@@ -45,5 +45,5 @@ Migrer les configurations vers le nouveau CLI pour continuer à utiliser les ser
 - Origine : NotePlan
 - Identifiant source : 15ae02c43b612a6e8c46673274a0a65d8acd130ae333e59e73647871f50bafbf
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

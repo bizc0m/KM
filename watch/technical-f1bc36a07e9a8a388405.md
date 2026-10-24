@@ -42,5 +42,5 @@ Gère des profils de navigateur avec des paramètres uniques
 - Origine : NotePlan
 - Identifiant source : f1bc36a07e9a8a38840575b243818e5566cae6a31952352dc44e0b8980ed5cc6
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -46,5 +46,5 @@ Génère et gère des contenus multimédia avec des modèles optimisés pour fai
 - Origine : NotePlan
 - Identifiant source : 37a1c9a401fe305b58a564f7dd05bbc22288f395e3ddc8358c6e2ae06e0cdfa2
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
