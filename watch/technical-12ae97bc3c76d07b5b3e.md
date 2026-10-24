@@ -45,5 +45,5 @@ Analyser du texte avec reconnaissance d'entités nommées
 - Origine : NotePlan
 - Identifiant source : 12ae97bc3c76d07b5b3e3e1968e7f5cca0e32eea99df2bd96f55de12e69c43fc
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -67,5 +67,5 @@ Traite les vidéos YouTube avec extraction audio et séparation vocale
 - Origine : NotePlan
 - Identifiant source : 7e01176c9d1442c27f9d58aa885d1b1002b943f61ddbe3bdcee278406907d247
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

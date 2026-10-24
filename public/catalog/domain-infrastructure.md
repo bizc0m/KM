@@ -1,12 +1,14 @@
 # Infrastructure
 
 - [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
+- [Cloud Torrent](../../watch/technical-fca1fec32410e408c140.md) — Gère les torrents via une interface web
 - [Hermes Agent](../../watch/nousresearch-hermes-agent.md) — Gère des tâches complexes avec des modèles externes
+- [velox](../../watch/technical-a2736da3d4b4b5c419aa.md) — Synchronise des objets JSON en temps réel entre serveur et client.
+- [Webtor](../../watch/technical-c45c04c570d8ed1549e8.md) — Permet de gérer des torrents avec streaming et téléchargement direct
 - [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Crée des portraits professionnels avec des prompts textuels.
 - [AICLIPS Studio](../../watch/technical-937b200dbfd957aae460.md) — Extrait automatiquement des highlights viraux depuis des vidéos YouTube.
 - [arcada-backend](../../watch/technical-672e5954b0a4b96827a6.md) — Démarrer le serveur backend pour la plateforme de design d'intérieur
 - [asn](../../watch/technical-6343df31e02d35267485.md) — Analyse de réputation IP et menace
-- [Cloud Torrent](../../watch/technical-fca1fec32410e408c140.md) — Gère les torrents via une interface web
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications sans dépendre de services cloud.
 - [Hysteria](../../watch/technical-457a0ceb1c2bf60a2841.md) — Permet de contourner les filtres de réseau
 - [Migration vers Kimi Code CLI](../../watch/technical-15ae02c43b612a6e8c46.md) — Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP.
@@ -18,9 +20,7 @@
 - [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée une API REST sans configuration complexe
 - [SuperSplat Editor](../../watch/technical-f7ea866b53ea3110371c.md) — Permet d'éditer des splats 3D directement dans le navigateur
 - [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Analyse de type rapide avec diagnostics précis pour code Python
-- [velox](../../watch/technical-a2736da3d4b4b5c419aa.md) — Synchronise des objets JSON en temps réel entre serveur et client.
 - [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
-- [Webtor](../../watch/technical-c45c04c570d8ed1549e8.md) — Permet de gérer des torrents avec streaming et téléchargement direct
 - [fmkr](../../watch/technical-bf5985ec6b47da44a51e.md) — Permet d'interagir avec des bases de données FileMaker via Python
 - [molmass](../../watch/technical-61da906d94d21f2f647a.md) — Calculer la masse moléculaire et la composition élémentaire d'une molécule.
 - [community-edition](../../watch/technical-cf13d710b766f0f10a31.md) — Démarre Plausible avec Docker Compose pour hébergement local.

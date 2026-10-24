@@ -46,5 +46,5 @@ Permet de consulter des anime via une interface CLI
 - Origine : NotePlan
 - Identifiant source : 2993f5bd5143a68eff85b1375de16848d0e92a8426c8130e65699ddadf4ff748
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

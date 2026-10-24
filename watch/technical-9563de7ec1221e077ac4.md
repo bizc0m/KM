@@ -45,5 +45,5 @@ Crée des applications web pour des modèles ML en quelques lignes.
 - Origine : NotePlan
 - Identifiant source : 9563de7ec1221e077ac4d11c0f2f779c967888ba52a87d141f4d338e56458350
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

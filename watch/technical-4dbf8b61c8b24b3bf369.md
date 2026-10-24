@@ -45,5 +45,5 @@ Génère des synthèses vocales en plusieurs langues avec précision.
 - Origine : NotePlan
 - Identifiant source : 4dbf8b61c8b24b3bf3690be4996d2a3cf0b6ce35a06a1f11e923e756105ce2fd
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

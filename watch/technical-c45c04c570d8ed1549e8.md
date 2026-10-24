@@ -42,5 +42,5 @@ Permet de gérer des torrents avec streaming et téléchargement direct
 - Origine : NotePlan
 - Identifiant source : c45c04c570d8ed1549e8fe183361db5a7443efb4fef828e21017c31228de2927
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

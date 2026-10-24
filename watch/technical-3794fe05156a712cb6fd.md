@@ -60,19 +60,19 @@ Convertir du texte ou des images en vidéos longues.
 - Origine : NotePlan
 - Identifiant source : 0155a0d55d73cf0494db59c4f5adc44e7d89370192dd2e04835e938f3d4b4c73
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 5552.
+- Liens distincts recensés : 5546.
 - Pages lues, tweet compris : 76.
 - Sources techniques analysées : 21.
-- Sources à vérifier : 46 ; analyses non terminées : 0 ; erreurs du modèle : 2.
-- Liens non lus : 5417 (profondeur : 5171, budget de pages : 228, délai : 0, erreurs : 18).
+- Sources à vérifier : 45 ; analyses non terminées : 0 ; erreurs du modèle : 2.
+- Liens non lus : 5411 (profondeur : 5165, budget de pages : 228, délai : 0, erreurs : 18).
 - Pages résumées sur extrait : 17.
-- Éléments exclus : 66 ; doublons ignorés : 1.
+- Éléments exclus : 67 ; doublons ignorés : 1.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### LongCat-Video
@@ -268,9 +268,9 @@ Source : https://core.ac.uk/services/recommender ; niveau 3.
 Modèle de génération vidéo finetuné pour des scénarios spécifiques. Paramètres dépassant 500 milliards. Disponible via Hugging Face. Prise en charge par plusieurs fournisseurs d'inférence.
 
 - Modèle de génération vidéo finetuné
-- Paramètres dépassant 500 milliards
-- Disponible via Hugging Face
-- Prise en charge par plusieurs fournisseurs d'inférence
+- Nombre de paramètres supérieur à 500 milliards
+- Disponible sur Hugging Face
+- Supporté par plusieurs fournisseurs d'inférence
 
 Source : https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video ; niveau 3.
 
@@ -281,7 +281,6 @@ Modèle vidéo quantisé pour Hugging Face. Paramètres  500B. Disponible via pl
 - Modèle vidéo quantisé pour Hugging Face
 - Nombre de paramètres supérieur à 500 milliards
 - Disponible via plusieurs fournisseurs d'inférence
-- Modèle associé à meituan-longcat
 
 Source : https://huggingface.co/models?other=base_model%3Aquantized%3Ameituan-longcat%2FLongCat-Video ; niveau 3.
 

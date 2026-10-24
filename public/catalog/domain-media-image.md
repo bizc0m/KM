@@ -1,5 +1,7 @@
 # Images et graphisme
 
+- [diffusers](../../watch/technical-f977c26fe64e30184a6f.md) — Génère des images à partir de texte avec des modèles préentraînés.
+- [LongCat-Video](../../watch/technical-3794fe05156a712cb6fd.md) — Convertir du texte ou des images en vidéos longues.
 - [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Crée des portraits professionnels avec des prompts textuels.
 - [AI Logo Studio](../../watch/technical-a20888d5cb6a1c399300.md)
 - [AI Meme Studio](../../watch/technical-28efa5970d38e5616943.md) — Crée des contenus viraux avec des modèles AI.
@@ -10,7 +12,6 @@
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications sans dépendre de services cloud.
 - [DarkFeat](../../watch/technical-74dc45b5f749db3d46d0.md) — Analyse des images RAW sombres avec détection de caractéristiques robuste
 - [DI-PCG](../../watch/technical-80c1535b6e69bb84082c.md) — Crée des modèles 3D à partir d'images avec des modèles pré-entraînés.
-- [diffusers](../../watch/technical-f977c26fe64e30184a6f.md) — Génère des images à partir de texte avec des modèles préentraînés.
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [Génération d'actifs 3D structurés](../../watch/technical-37356cc78499d8e4af94.md) — Génère des modèles 3D à partir d'images ou de textes.
 - [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
@@ -18,7 +19,6 @@
 - [openai-api](../../watch/technical-f8f551d25eb73ecda1fd.md) — Génère des images avec des paramètres de résolution et de format.
 - [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier.
 - [Kling Video API via Muapi](../../watch/technical-6cc3ec716443f80c37a3.md) — Soumet une requête de génération et récupère l'identifiant de demande pour suivre le statut
-- [LongCat-Video](../../watch/technical-3794fe05156a712cb6fd.md) — Convertir du texte ou des images en vidéos longues.
 - [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
 - [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)

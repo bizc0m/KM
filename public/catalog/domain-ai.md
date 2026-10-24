@@ -1,13 +1,16 @@
 # Intelligence artificielle
 
+- [Agent Skills](../../watch/technical-48dbbdd8fd0d302995a7.md) — Définir un format ouvert pour partager les compétences des agents.
 - [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA
 - [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
+- [book-to-skill](../../watch/book-to-skill.md) — Transforme un livre en compétence accessible par un agent IA
+- [book-to-skill](../../watch/technical-389040200a86ce208431.md) — Enregistre les preuves de conversion de livres en compétences.
 - [skills_feed](../../watch/technical-57435869059c16d7e579.md) — Collecte et organisation des compétences AI pour un accès centralisé
 - [Hermes Agent](../../watch/nousresearch-hermes-agent.md) — Gère des tâches complexes avec des modèles externes
+- [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Ajoute des timestamps précis aux mots de la transcription
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Construire des applications LLM fiables avec des principes structurés
 - [agency-agents](../../watch/technical-1e83b6596b947b071d50.md) — Facilite la simulation de discussions avec des experts.
 - [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md)
-- [Agent Skills](../../watch/technical-48dbbdd8fd0d302995a7.md) — Définir un format ouvert pour partager les compétences des agents.
 - [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md)
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Permet aux agents de conserver une mémoire persistante sans re-expliquer.
 - [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Crée des portraits professionnels avec des prompts textuels.
@@ -19,8 +22,6 @@
 - [Awesome Generative AI Apps](../../watch/technical-c5cd3a5c95630c792129.md) — Créez et lancez des applications SaaS génératives avec des outils prêts à l'emploi
 - [awesome-ai-video-models](../../watch/technical-e0275c5610589cad14d2.md) — Choisir le modèle de génération de vidéos AI adapté à un projet.
 - [BAML](../../watch/technical-b79207044bee1b2d7073.md) — Crée des agents fiables avec des types statiques.
-- [book-to-skill](../../watch/book-to-skill.md) — Transforme un livre en compétence accessible par un agent IA
-- [book-to-skill](../../watch/technical-389040200a86ce208431.md) — Enregistre les preuves de conversion de livres en compétences.
 - [Browser-Use](../../watch/browser-use-web-automation.md) — Automatiser des tâches web avec un LLM
 - [Claude SEO](../../watch/technical-2ac64d2afb7018ac9ff2.md) — Analyse un site web et propose un plan d'action pour améliorer son référencement
 - [ClearMark AI](../../watch/technical-6693a84665174f39d08b.md) — Supprime les marquages d'eau d'images avec IA
@@ -71,7 +72,6 @@
 - [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
 - [Vibe Workflow](../../watch/technical-6ccb86641ecc996a74b9.md) — Crée des workflows d'IA visuels sans abonnement
 - [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Cloner des voix pour des agents IA sans dépendance externe
-- [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Ajoute des timestamps précis aux mots de la transcription
 - [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
 - [AI Creator Academy](../../watch/technical-21a78e48d74a8e6ab07f.md) — Créer des publicités vidéo vendables pour des marques réelles.
 - [FreeLLMAPI](../../watch/technical-f9d54d6e051498a6f643.md) — Route requests across free LLM providers with one endpoint

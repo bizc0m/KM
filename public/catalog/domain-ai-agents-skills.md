@@ -1,11 +1,11 @@
 # Compétences des agents
 
-- [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA
-- [skills_feed](../../watch/technical-57435869059c16d7e579.md) — Collecte et organisation des compétences AI pour un accès centralisé
 - [Agent Skills](../../watch/technical-48dbbdd8fd0d302995a7.md) — Définir un format ouvert pour partager les compétences des agents.
-- [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
+- [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA
 - [book-to-skill](../../watch/book-to-skill.md) — Transforme un livre en compétence accessible par un agent IA
 - [book-to-skill](../../watch/technical-389040200a86ce208431.md) — Enregistre les preuves de conversion de livres en compétences.
+- [skills_feed](../../watch/technical-57435869059c16d7e579.md) — Collecte et organisation des compétences AI pour un accès centralisé
+- [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
 - [Claude SEO](../../watch/technical-2ac64d2afb7018ac9ff2.md) — Analyse un site web et propose un plan d'action pour améliorer son référencement
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
 - [NotFair Plugin](../../watch/technical-614a514ae65ec429804d.md) — Analyse de site et de campagne publicitaire avec des workflows prédéfinis.

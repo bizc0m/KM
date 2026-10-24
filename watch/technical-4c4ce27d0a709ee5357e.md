@@ -45,5 +45,5 @@ Ajoute des timestamps précis aux mots de la transcription
 - Origine : NotePlan
 - Identifiant source : 4c4ce27d0a709ee5357e58284e5930a1f1eea42f43a74ccc47c6796aeb455912
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
