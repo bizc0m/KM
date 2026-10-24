@@ -48,7 +48,7 @@ Analyser et traiter des visages dans des médias sans dépendre de services paya
 - Liens distincts recensés : 238.
 - Pages lues, tweet compris : 14.
 - Sources techniques analysées : 2.
-- Sources à vérifier : 9 ; analyses non terminées : 0 ; erreurs du modèle : 1.
+- Sources à vérifier : 10 ; analyses non terminées : 0 ; erreurs du modèle : 0.
 - Liens non lus : 113 (profondeur : 3, budget de pages : 89, délai : 0, erreurs : 21).
 - Pages résumées sur extrait : 1.
 - Éléments exclus : 114 ; doublons ignorés : 0.

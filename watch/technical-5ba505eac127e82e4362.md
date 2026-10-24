@@ -36,7 +36,6 @@ Cloner des voix sans connexion internet.
 - https://x.com/i/status/2054748417084342338
 - https://trendshift.io/repositories/28176
 - https://voicestudio.sh/
-- https://github.com/debpalash/voicestudio/releases/tag/v0.5.6
 - https://supermetry.com/
 - https://raw.githubusercontent.com/debpalash/VoiceStudio/main/scripts/install.sh
 - https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/install/macos.md
@@ -60,10 +59,10 @@ Cloner des voix sans connexion internet.
 - https://marktechpost.com/2026/05/26/meet-omnivoice-studio-a-local-open-source-alternative-to-elevenlabs
 - https://opensourceprojects.dev/post/a783728a-3dfa-4fd0-86d0-bae13618689c
 - https://linkedin.com/posts/vijaydeore_someone-just-open-sourced-a-local-dubbing-activity-7462469667153055744-6496
+- https://kdnuggets.com/getting-started-with-omnivoice-studio
 - https://x.com/i/status/2097695538351370675
 - https://github.com/debpalash/voicestudio/commit/3915a62cb482bb43117aaebab57d22745bd1cc21
 - https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits
-- https://github.com/debpalash/voicestudio/blob/v0.5.6/docs/electron-migration.md
 - https://github.com/debpalash/voicestudio/blob/v0.5.6/docs/install/troubleshooting.md
 - https://github.com/debpalash/voicestudio/pull/2291
 - https://github.com/debpalash/voicestudio/pull/2289
@@ -73,7 +72,7 @@ Cloner des voix sans connexion internet.
 - https://github.com/debpalash/voicestudio/pull/2295
 - https://github.com/debpalash/voicestudio/pull/2296
 - https://github.com/debpalash/voicestudio/pull/2288
-- https://github.com/debpalash/voicestudio/pull/3251
+- https://github.com/debpalash/voicestudio/pull/3276
 
 ## Traçabilité
 
@@ -86,23 +85,23 @@ Cloner des voix sans connexion internet.
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 2418.
-- Pages lues, tweet compris : 100.
-- Sources techniques analysées : 41.
-- Sources à vérifier : 52 ; analyses non terminées : 0 ; erreurs du modèle : 1.
-- Liens non lus : 1749 (profondeur : 1453, budget de pages : 282, délai : 0, erreurs : 14).
-- Pages résumées sur extrait : 17.
-- Éléments exclus : 575 ; doublons ignorés : 1.
+- Liens distincts recensés : 2247.
+- Pages lues, tweet compris : 98.
+- Sources techniques analysées : 40.
+- Sources à vérifier : 53 ; analyses non terminées : 0 ; erreurs du modèle : 1.
+- Liens non lus : 1724 (profondeur : 1425, budget de pages : 283, délai : 0, erreurs : 16).
+- Pages résumées sur extrait : 16.
+- Éléments exclus : 429 ; doublons ignorés : 1.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### VoiceStudio
 
-Outil open-source pour la synthèse vocale, la clonage de voix, la transcription et la création d'audiobooks. Supporte 646 langues. Fonctionne localement sans connexion. Intégration API MCP pour agents.
+Outil open-source pour la synthèse vocale. Supporte 646 langues. Fonctionne localement. Permet la création d'audiobooks.
 
-- Outil open-source pour la synthèse vocale, la clonage de voix, la transcription et la création d'audiobooks.
+- Outil open-source pour la synthèse vocale.
 - Supporte 646 langues.
 - Fonctionne localement sans connexion.
-- Intégration API MCP pour agents.
+- Permet la création d'audiobooks.
 
 Source : https://trendshift.io/repositories/28176 ; niveau 2.
 
@@ -116,17 +115,6 @@ VoiceStudio est un outil open source permettant la synthèse vocale, la duplicat
 - Transcrire des enregistrements audio en texte
 
 Source : https://voicestudio.sh ; niveau 2.
-
-### VoiceStudio
-
-Intégration de Twilio pour répondre aux appels téléphoniques. Connexion avec des outils comme Claude Code et OpenAI Agents SDK. Gestion des clips audio longs sur OmniVoice. Sauvegarde des chapitres d'audiobooks après coupure de courant.
-
-- VoiceStudio permet d'answer Twilio phone calls avec un greeting en voix sauvegardée.
-- VoiceStudio intègre Claude Code, Cursor, Codex CLI et OpenAI Agents SDK.
-- VoiceStudio clone des références audio longues sur OmniVoice.
-- VoiceStudio sauvegarde les chapitres d'audiobooks après une coupure de courant.
-
-Source : https://github.com/debpalash/voicestudio/releases/tag/v0.5.6 ; niveau 2.
 
 ### Supermetry - Outil d'analyse web open source
 
@@ -264,12 +252,12 @@ Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/examp
 
 ### VoiceStudio mobile apps
 
-Apps permettent de parler, cloner des voix, dubber et transcrire hors ligne. Modèles téléchargés restent sur le téléphone. Possibilité de pairer avec un ordinateur.
+Apps permettent de parler, cloner des voix, dubler et dictater hors ligne. Modèles téléchargés restent sur le téléphone. Possibilité de pairer avec un ordinateur.
 
 - Speech, voice cloning, dictation and dubbing work offline
-- Voices cloned on phone stay on phone
-- Dubbing transcribes, translates and re-voices audio
-- Models downloaded from Hugging Face
+- Models stay on the phone after download
+- Phone can be paired with a computer for tasks
+- Models are downloaded from Hugging Face
 
 Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/mobile.md ; niveau 2.
 
@@ -347,12 +335,12 @@ Source : https://voicestudio.sh/blog/why-voicestudio-pro ; niveau 3.
 
 ### palashdeb/omnivoice-studio
 
-Docker image pour une solution de synthèse vocale locale. Support 646 langues. Utilisation de GPU ou CPU. Stockage des modèles persistants.
+Docker image pour VoiceStudio. Fonctionne localement sans API. Support 646 langues. Utilisation GPU ou CPU.
 
-- Docker image pour une solution de synthèse vocale locale
-- Support de 646 langues pour la synthèse vocale
-- Possibilité d'utiliser GPU ou CPU pour le traitement
-- Stockage persistant des modèles et données utilisateur
+- Docker image pour l'application VoiceStudio
+- Fonctionne localement sans dépendance cloud
+- Supporte 646 langues pour le clonage vocal
+- Possibilité d'utiliser GPU ou CPU
 
 Source : https://hub.docker.com/r/palashdeb/omnivoice-studio ; niveau 3.
 
@@ -369,15 +357,43 @@ Source : https://github.com/elevenlabs/elevenlabs-python ; niveau 3.
 
 ### OmniVoice Studio
 
-[OmniVoice Studio] Logiciel open source pour la synthèse vocale, la duplication de voix, le sous-titrage vidéo, et la diarisation vocale. Fonctionne localement sans cloud. Supporte 646 langues pour TTS et 99 pour transcription. Utilise des modèles comme WhisperX, Demucs, Pyannote et AudioSeal.
+Application open source pour traitement audio local. Support 646 langues TTS. Transcription via WhisperX. Fonctionnalités : clonage vocal, dubbing vidéo, dictation en temps réel.
 
-- OmniVoice Studio est un logiciel open source pour la synthèse vocale, la duplication de voix, le sous-titrage vidéo, et la diarisation vocale.
-- Le logiciel fonctionne localement sans cloud et ne nécessite pas de compte ou d'API.
-- Il supporte 646 langues pour la synthèse vocale et 99 langues pour la transcription via WhisperX.
-- Il utilise des modèles comme WhisperX, Demucs, Pyannote et AudioSeal pour ses fonctionnalités.
-- Le backend est basé sur FastAPI, SQLite, et des bibliothèques ML.
-- Il propose un serveur MCP pour intégrer des outils externes comme Claude ou Cursor.
+- Application open source pour traitement audio local
+- Support 646 langues pour synthèse vocale
+- Transcription audio via WhisperX avec alignement mot à mot
+- Fonctionnalités incluent clonage vocal, dubbing vidéo, dictation en temps réel
 
 Source : https://marktechpost.com/2026/05/26/meet-omnivoice-studio-a-local-open-source-alternative-to-elevenlabs ; niveau 3.
 
-### OmniVoi
+### OmniVoice Studio
+
+Outil de clonage vocal local. Support 646 langues. Fonctionne hors ligne. Interface Gradio.
+
+- Clonage vocal à partir d'un échantillon audio court.
+- Génération de parole dans 646 langues.
+- Exécution complète hors ligne sans cloud.
+- Interface accessible via navigateur web.
+
+Source : https://opensourceprojects.dev/post/a783728a-3dfa-4fd0-86d0-bae13618689c ; niveau 3.
+
+### OmniVoice Studio
+
+Outil de dubbing local. Gère automatiquement la transcription. Traduit en plusieurs langues. Clone la voix d'une audio. Sépare la musique de fond. Mixe le doublage avec le son original.
+
+- Transcription automatique avec Whisper
+- Traduction vers 600 langues
+- Clonage de la voix à partir de 3 secondes
+- Séparation du son de fond avec Demucs
+- Mixage du doublage avec le son original
+
+Source : https://linkedin.com/posts/vijaydeore_someone-just-open-sourced-a-local-dubbing-activity-7462469667153055744-6496 ; niveau 3.
+
+### OmniVoice-Studio
+
+OmniVoice-Studio est une application de synthèse vocale locale. Elle permet de cloner des voix à partir d'un clip audio. Elle supporte 646 langues. Elle utilise des composants open source comme WhisperX et Demucs.
+
+- OmniVoice-Studio est une application de synthèse vocale locale.
+- OmniVoice-Studio permet de cloner des voix à partir d'un clip audio.
+- OmniVoice-Studio supporte 646 langues.
+- OmniVoice-Studio utilise des composants open source comme WhisperX et Demuc

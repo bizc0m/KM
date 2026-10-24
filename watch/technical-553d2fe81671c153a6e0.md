@@ -1,4 +1,4 @@
-# Cal.diy - Plateforme de planification open source
+# Cal.diy
 
 ## Statut
 
@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Permet de gérer les disponibilités et rendez-vous
+Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.
 
 ## Identité
 
@@ -27,8 +27,8 @@ Permet de gérer les disponibilités et rendez-vous
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.data.organization source.noteplan source.github source.x lifecycle.active
-- Sujets : Données et connaissances > Organisation du travail
+- Identifiants : domain.infrastructure.database domain.data.organization source.noteplan source.github source.x lifecycle.active
+- Sujets : Infrastructure > Bases de données ; Données et connaissances > Organisation du travail
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
