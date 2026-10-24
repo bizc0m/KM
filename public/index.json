@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-24T11:32:14.053Z",
+  "at": "2026-10-24T12:32:18.959Z",
   "count": 657,
   "rows": [
     {
@@ -56352,6 +56352,12 @@
         },
         {
           "url": "https://fal.ai/models/meshy/v7.1/image-to-3d",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/models/blackforestlabs/flux-3/edit-image",
           "kind": "source",
           "role": "secondaryReference",
           "label": "Référence"

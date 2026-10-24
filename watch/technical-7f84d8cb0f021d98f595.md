@@ -46,6 +46,7 @@ Découpe des images en sections facilement.
 - https://fal.ai/models/minimax/h3-max/image-to-video
 - https://fal.ai/models/bytedance/seedance-2.5/reference-to-video
 - https://fal.ai/models/meshy/v7.1/image-to-3d
+- https://fal.ai/models/blackforestlabs/flux-3/edit-image
 - https://fal.ai/docs/documentation/serverless
 - https://fal.ai/gpt-image-2.5
 - https://fal.ai/seedance-2.5
@@ -68,13 +69,13 @@ Découpe des images en sections facilement.
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 841.
+- Liens distincts recensés : 836.
 - Pages lues, tweet compris : 85.
-- Sources techniques analysées : 23.
-- Sources à vérifier : 56 ; analyses non terminées : 0 ; erreurs du modèle : 3.
-- Liens non lus : 661 (profondeur : 655, budget de pages : 0, délai : 0, erreurs : 6).
+- Sources techniques analysées : 24.
+- Sources à vérifier : 56 ; analyses non terminées : 0 ; erreurs du modèle : 2.
+- Liens non lus : 657 (profondeur : 651, budget de pages : 0, délai : 0, erreurs : 6).
 - Pages résumées sur extrait : 3.
-- Éléments exclus : 99 ; doublons ignorés : 0.
+- Éléments exclus : 98 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### OpenCut
@@ -199,7 +200,7 @@ Génère une vidéo de 30 secondes à partir de 50 références multimodales. Ut
 
 Source : https://fal.ai/models/bytedance/seedance-2.5/reference-to-video ; niveau 3.
 
-### Meshy 7.1 image-to-3d
+### Meshy 7.1
 
 Meshy 7.1 génère des modèles 3D à partir d'une image. Il propose des modes standard, low-poly et Smart Topology. Des textures et PBR maps sont possibles. La résolution géométrique atteint 4K.
 
@@ -209,6 +210,17 @@ Meshy 7.1 génère des modèles 3D à partir d'une image. Il propose des modes s
 - La résolution géométrique atteint 4K.
 
 Source : https://fal.ai/models/meshy/v7.1/image-to-3d ; niveau 3.
+
+### FLUX 3 Image Edit
+
+Modèle d'édition d'image permettant des modifications locales précises. Combine jusqu'à 10 références en un résultat équilibré. Édition de texte et transfert de style. Prix fixe par image.
+
+- Modèle d'édition d'image permettant des modifications locales précises.
+- Combine jusqu'à 10 références en un résultat équilibré.
+- Édition de texte et transfert de style.
+- Prix fixe par image.
+
+Source : https://fal.ai/models/blackforestlabs/flux-3/edit-image ; niveau 3.
 
 ### fal Serverless
 
@@ -256,7 +268,7 @@ API de modification vidéo par dialogue. Permet d'éditer des vidéos via des in
 - Modification vidéo par dialogue.
 - Gestion d'entrées multimodales.
 - Cohérence scénique maintenue.
-- Génération d'audio synchronisé.
+- Génère des sons natifs synchronisés.
 
 Source : https://fal.ai/gemini-omni ; niveau 3.
 
