@@ -1,6 +1,7 @@
 # Cybersécurité
 
 - [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA
+- [Bark](../../watch/technical-994bb8c95881181b98b3.md) — Envoyer des notifications via URL avec paramètres personnalisés.
 - [Cabal Proxy Harvester](../../watch/technical-dee6cae45f8c3798057c.md) — Collecte et vérification continue des proxies HTTP et SOCKS5
 - [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Détecte rapidement les types d'IP et leur risque.
 - [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Afficher les alertes météo en temps réel via terminal
@@ -18,7 +19,6 @@
 - [undetected-chromedriver](../../watch/technical-270127c4040820721fee.md) — Exécute des navigateurs Chromium sans détection par les services anti-bot.
 - [VIN-Number-OSINT](../../watch/technical-ca8e59013ec56e1d2be5.md) — Analyse VIN pour obtenir des données techniques.
 - [WhatsMyName](../../watch/technical-d6babbc48c72c3692516.md) — Vérifier l'existence d'un nom d'utilisateur sur des sites web.
-- [Bark](../../watch/technical-994bb8c95881181b98b3.md) — Envoyer des notifications via URL avec paramètres personnalisés.
 - [Faker](../../watch/technical-72da768867f7d20473e6.md) — Génère des données fictives pour remplir des bases de données
 - [Sublist3r](../../watch/technical-91a4ed33e0fa4b66d349.md) — Trouver des sous-domaines d'un site web.
 - [Web-Check](../../watch/technical-654478eba9c74251531f.md) — Analyse les vulnérabilités d'un site web

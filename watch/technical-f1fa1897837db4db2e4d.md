@@ -45,5 +45,5 @@ Génère des modèles 3D à haute résolution avec efficacité.
 - Origine : NotePlan
 - Identifiant source : f1fa1897837db4db2e4d2682992a945fe4ecce309f869cb0e4cb94b410fd5536
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

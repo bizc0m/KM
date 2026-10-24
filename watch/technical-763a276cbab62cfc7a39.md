@@ -45,5 +45,5 @@ Comparer les performances des modèles de génération 3D.
 - Origine : NotePlan
 - Identifiant source : 763a276cbab62cfc7a39c7917d7719b10f88a6bc2f64ba127462dc1f2dd8f5c5
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

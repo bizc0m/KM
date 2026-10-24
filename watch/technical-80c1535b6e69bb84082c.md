@@ -45,5 +45,5 @@ Crée des modèles 3D à partir d'images avec des modèles pré-entraînés.
 - Origine : NotePlan
 - Identifiant source : 80c1535b6e69bb84082cb247d96a68e11a07f4eef880915c8ce7245e2f8383d1
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

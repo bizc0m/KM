@@ -25,7 +25,7 @@
 - [Protection des données](domain-privacy.md) — 10 fiches
 - [Infrastructure](domain-infrastructure.md) — 56 fiches
 - [Réseaux](domain-infrastructure-network.md) — 3 fiches
-- [Données et connaissances](domain-data.md) — 76 fiches
+- [Données et connaissances](domain-data.md) — 77 fiches
 - [Collecte web](domain-data-web.md) — 23 fiches
 - [Documents](domain-data-documents.md) — 8 fiches
 - [Notes et organisation](domain-data-notes.md) — 12 fiches
@@ -53,7 +53,7 @@
 - [Analyse de fréquentation](domain-data-analytics.md) — 2 fiches
 - [Publication de contenus](domain-communication-publishing.md) — 2 fiches
 - [Messagerie](domain-communication-messaging.md) — 8 fiches
-- [Organisation du travail](domain-data-organization.md) — 15 fiches
+- [Organisation du travail](domain-data-organization.md) — 16 fiches
 - [Outils de navigateur](domain-dev-browser.md) — 10 fiches
 - [Productivité](domain-productivity.md) — 1 fiches
 - [Tâches et agenda](domain-productivity-tasks.md) — 1 fiches

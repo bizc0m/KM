@@ -59,7 +59,6 @@ Fixer un style visuel avant génération de code pour éviter les templates inad
 - https://skills.sh/anthropics/skills/template-skill
 - https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude
 - https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization
-- https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features
 - https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview
 - https://code.claude.com/docs/en/skills
 - https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
@@ -75,17 +74,17 @@ Fixer un style visuel avant génération de code pour éviter les templates inad
 - Origine : NotePlan
 - Identifiant source : 78841380644580638df96ddcafa7f538eca2d5e70244405223afbe59889ba437
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 830.
+- Liens distincts recensés : 829.
 - Pages lues, tweet compris : 88.
-- Sources techniques analysées : 35.
-- Sources à vérifier : 50 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 683 (profondeur : 667, budget de pages : 0, délai : 0, erreurs : 16).
+- Sources techniques analysées : 34.
+- Sources à vérifier : 51 ; analyses non terminées : 0 ; erreurs du modèle : 0.
+- Liens non lus : 682 (profondeur : 666, budget de pages : 0, délai : 0, erreurs : 16).
 - Pages résumées sur extrait : 8.
 - Éléments exclus : 58 ; doublons ignorés : 5.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
@@ -123,14 +122,14 @@ Fonctionnalité permettant de charger des instructions et ressources pour améli
 
 Source : https://support.claude.com/en/articles/12512176-what-are-skills ; niveau 2.
 
-### Création de compétences personnalisées pour Claude
+### Enregistrement de compétences
 
-Documentation sur la création de compétences personnalisées pour Claude, incluant enregistrement, structure de fichiers et tests.
+Enregistrement de compétences via Cowork pour Mac. Création de compétences à partir de vidéos. Génération automatique de compétences par Claude.
 
-- Enregistrement de compétences via Cowork pour Mac permet à Claude de générer une compétence à partir d'une démonstration.
-- Une compétence nécessite un fichier skill.md avec des métadonnées et une description claire.
-- Les compétences peuvent inclure des scripts exécutables et des ressources externes.
-- Les compétences peuvent être testées et ajustées après leur création.
+- Enregistrement de compétences disponible sur Mac Pro, Max et Team.
+- Enregistrement via Cowork avec capture d'écran et microphone.
+- Claude génère une proposition de compétence après analyse.
+- Compétences sauvegardées dans Customize  Skills.
 
 Source : https://support.claude.com/en/articles/12512198-how-to-create-custom-skills ; niveau 2.
 
@@ -237,11 +236,10 @@ Source : https://skills.sh/anthropics/skills/pdf ; niveau 3.
 
 Créer, modifier et manipuler des fichiers .docx avec formatage complet. Extraire du texte et analyser le contenu. Convertir des fichiers .doc en .docx. Gérer le formatage professionnel.
 
-- Créer des fichiers .docx avec formatage complet.
-- Modifier des fichiers .docx en manipulant le XML.
-- Extraire du texte et analyser le contenu.
-- Convertir des fichiers .doc en .docx.
-- Gérer le formatage professionnel comme les marges et les colonnes.
+- Création de nouveaux fichiers .docx avec formatage complet.
+- Modification de documents existants via l'éditeur XML.
+- Extraction et analyse du contenu via pandoc ou XML.
+- Conversion des fichiers .doc vers le format .docx.
 
 Source : https://skills.sh/anthropics/skills/docx ; niveau 3.
 
@@ -324,47 +322,40 @@ Source : https://skills.sh/anthropics/skills/internal-comms ; niveau 3.
 
 ### template-skill
 
-Template Skill pour intégration de compétences. Installation via npx. Dépôt GitHub. 183K étoiles.
+Template Skill pour intégration de compétences. Installation via npx. Dépôt GitHub. 183.3K étoiles.
 
 - Template Skill pour intégration de compétences
 - Installation via npx
 - Dépôt GitHub
-- 183K étoiles
+- 183.3K étoiles
 
 Source : https://skills.sh/anthropics/skills/template-skill ; niveau 3.
 
-### Création et édition de fichiers via Claude
+### Create and edit files with Claude
 
-Claude permet de générer des fichiers professionnels via un dialogue naturel. Il peut créer des modèles Excel, des présentations, des documents Word et des PDF. Les utilisateurs peuvent télécharger et sauvegarder les fichiers directement. La création de fichiers est disponible pour tous les plans, avec des configurations spécifiques pour les équipes et les entreprises.
+Claude peut créer et modifier des fichiers via des commandes. Création de documents Excel, PowerPoint, Word et PDF. Génération de modèles financiers avec formules. Analyse de données et visualisation. Création de rapports professionnels. Conversion de formats de fichiers. Extraction de données PDF. Génération de modèles machine learning.
 
-- Claude peut créer des fichiers Excel, PowerPoint, Word et PDF via un dialogue.
-- Les utilisateurs peuvent télécharger et sauvegarder les fichiers générés directement.
-- La création de fichiers est disponible pour tous les plans, avec des configurations spécifiques pour les équipes et les entreprises.
-- Claude peut exécuter du code pour créer et analyser des données, générer des visualisations et des modèles statistiques.
+- Claude peut créer et modifier des fichiers via des commandes.
+- Claude génère des documents Excel, PowerPoint, Word et PDF.
+- Claude peut créer des modèles financiers avec des formules fonctionnelles.
+- Claude effectue des analyses de données et génère des visualisations.
+- Claude produit des rapports professionnels avec mise en forme et graphiques.
+- Claude convertit des documents entre différents formats.
+- Claude extrait des données depuis des fichiers PDF.
+- Claude génère des modèles machine learning à partir de données CSV.
 
 Source : https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude ; niveau 3.
 
-### Gestion des compétences organisationnelles
+### Provisioning skills for organization
 
-Documentation sur la gestion des compétences dans un environnement organisationnel.
+Gestion centralisée des compétences pour organisation. Provisioning skills pour tous. Provisioning skills pour groupes spécifiques. Contrôle création compétences par utilisateurs.
 
-- Gestion centralisée des compétences pour une organisation.
-- Provision de compétences pour tous les utilisateurs.
-- Contrôle des créations de compétences par les utilisateurs.
-- Publication et validation des compétences par les administrateurs.
+- Gestion centralisée des compétences pour organisation
+- Provisioning skills pour tous les utilisateurs
+- Provisioning skills pour groupes spécifiques
+- Contrôle création compétences par utilisateurs
 
 Source : https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization ; niveau 3.
-
-### Personnalisation de Claude : Instructions, Projets et Compétences
-
-Claude permet de personnaliser l'expérience via des instructions, projets et compétences pour adapter les réponses.
-
-- Instructions pour Claude définissent les directives générales applicables à toutes les conversations.
-- Les instructions de projet sont spécifiques à un projet et s'appliquent uniquement aux discussions associées.
-- Les compétences ajoutent des comportements ou capacités spécialisées aux conversations.
-- Les utilisateurs gratuits peuvent créer jusqu'à cinq projets.
-
-Source : https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features ; niveau 3.
 
 ### Agent Skills
 
@@ -379,4 +370,17 @@ Source : https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overv
 
 ### Claude Code Skills
 
-Claude Code Skills permettent d'étendre les capacités de Claude en ajoutant des compétences personnalisées. Les compétences sont chargées dynamiquement lors de leur utilisation. Les comp
+Claude Code Skills permettent d'étendre les capacités de Claude en ajoutant des compétences personnalisées. Les compétences sont chargées dynamiquement lors de leur utilisation. Les compétences intégrées comme /doctor ou /code-review sont disponibles dans chaque session. Les compétences peuvent être invoquées directement ou automatiquement par Claude.
+
+- Les compétences sont chargées dynamiquement lors de leur utilisation.
+- Les compétences intégrées comme /doctor ou /code-review sont disponibles dans chaque session.
+- Les compétences peuvent être invoquées directement ou automatiquement par Claude.
+- Les compétences suivent l'Agent Skills open standard avec des fonctionnalités supplémentaires comme l'injection de contexte dynamique.
+
+Source : https://code.claude.com/docs/en/skills ; niveau 3.
+
+### Skill authoring best practices
+
+Guide for creating effective Skills for Claude. Focus on conciseness, specificity, and testing across models. Emphasize clear naming and structured descriptions.
+
+- Guide

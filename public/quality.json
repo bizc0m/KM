@@ -1,14 +1,14 @@
 {
-  "at": "2026-10-24T06:31:47.895Z",
+  "at": "2026-10-24T07:31:52.170Z",
   "scope": "public-index-only",
   "fiches": 658,
-  "sourceReferences": 2682,
+  "sourceReferences": 2681,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
   "pendingReview": 630,
   "counts": {
-    "interest-missing": 193,
+    "interest-missing": 191,
     "keywords-missing": 90,
     "domain-unqualified": 116,
     "primary-identity-unqualified": 22,
@@ -81,6 +81,13 @@
       ]
     },
     {
+      "id": "watch-technical-ca3c69add82754901cf6-md",
+      "title": "AlphaTablets",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-14991362ba170a15ca07-md",
       "title": "anacrolix/torrent",
       "reasons": [
@@ -129,6 +136,13 @@
       ]
     },
     {
+      "id": "watch-technical-674690abd042252d5376-md",
+      "title": "Assembler3d",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-c5cd3a5c95630c792129-md",
       "title": "Awesome Generative AI Apps",
       "reasons": [
@@ -152,6 +166,13 @@
     {
       "id": "watch-technical-b79207044bee1b2d7073-md",
       "title": "BAML",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-994bb8c95881181b98b3-md",
+      "title": "Bark",
       "reasons": [
         "nature-unqualified"
       ]
@@ -215,6 +236,20 @@
       ]
     },
     {
+      "id": "watch-technical-4f72d6274858ca1e8190-md",
+      "title": "CHARM",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-2ac64d2afb7018ac9ff2-md",
+      "title": "Claude SEO",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-6693a84665174f39d08b-md",
       "title": "ClearMark AI",
       "reasons": [
@@ -252,6 +287,13 @@
       ]
     },
     {
+      "id": "watch-technical-668711a6e10728221dfc-md",
+      "title": "headroom",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-19c0251e942e91d7ee33-md",
       "title": "CoronavirOSINT",
       "reasons": [
@@ -276,6 +318,13 @@
     {
       "id": "watch-technical-57435869059c16d7e579-md",
       "title": "skills_feed",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-74dc45b5f749db3d46d0-md",
+      "title": "DarkFeat",
       "reasons": [
         "nature-unqualified"
       ]
@@ -310,8 +359,22 @@
       ]
     },
     {
+      "id": "watch-technical-80c1535b6e69bb84082c-md",
+      "title": "DI-PCG",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-f977c26fe64e30184a6f-md",
       "title": "diffusers",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f1fa1897837db4db2e4d-md",
+      "title": "Direct3D-S2",
       "reasons": [
         "nature-unqualified"
       ]
@@ -386,6 +449,20 @@
       ]
     },
     {
+      "id": "watch-technical-37356cc78499d8e4af94-md",
+      "title": "Génération d'actifs 3D structurés",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-a3b183624a359158d2f2-md",
+      "title": "geo-seo-claude",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-f1bc36a07e9a8a388405-md",
       "title": "cloakbrowser-manager",
       "reasons": [
@@ -424,10 +501,24 @@
       ]
     },
     {
+      "id": "watch-technical-cc7d258f82fc4f055019-md",
+      "title": "Grok Build",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-383ec76df0f9b9e99e36-md",
+      "title": "GSPN",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-nousresearch-hermes-agent-md",
       "title": "Hermes Agent",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -448,6 +539,13 @@
     {
       "id": "watch-technical-457a0ceb1c2bf60a2841-md",
       "title": "Hysteria",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-3f991f224eb64ace6e0c-md",
+      "title": "idn-solver",
       "reasons": [
         "nature-unqualified"
       ]
@@ -496,6 +594,13 @@
       ]
     },
     {
+      "id": "watch-technical-8f4d2163b5e697a72c77-md",
+      "title": "llama.cpp",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-9e4c4b6c4c6a7d12ceff-md",
       "title": "LLM Wiki Agent",
       "reasons": [
@@ -506,6 +611,14 @@
       "id": "watch-technical-0ebd1f1b56ff3fc73866-md",
       "title": "lobster",
       "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-18f0542a2dd3c9b424dc-md",
+      "title": "loguru",
+      "reasons": [
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -592,9 +705,26 @@
       ]
     },
     {
+      "id": "watch-technical-ae2b5f1a3fbdf8f6f54d-md",
+      "title": "myfish",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-2593ae994f558b741e0a-md",
       "title": "Napkin AI",
       "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-7e07682fe36ee14ea7b5-md",
+      "title": "NerfingMVS",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -610,6 +740,13 @@
     {
       "id": "watch-technical-78d472c25b2758a70776-md",
       "title": "notebooklm-py",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-712121d9735431107601-md",
+      "title": "O2-Recon",
       "reasons": [
         "nature-unqualified"
       ]
@@ -718,6 +855,20 @@
       ]
     },
     {
+      "id": "watch-technical-1579309e1b490fa5279c-md",
+      "title": "ParticleSfM",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c88e811a1a66f8cd57ba-md",
+      "title": "PC-NBV",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-c0d4875dd605f77caf57-md",
       "title": "Penpot",
       "reasons": [
@@ -728,6 +879,28 @@
     {
       "id": "watch-technical-97416d4ba88591c565b7-md",
       "title": "Pi",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c133b93b912dffd605a2-md",
+      "title": "Pi",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1158f7d0b091e0866c17-md",
+      "title": "Pixal3D",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-62ff8b189d833243b52d-md",
+      "title": "Pixal3D-ComfyUI",
       "reasons": [
         "nature-unqualified"
       ]
@@ -793,6 +966,13 @@
       "title": "remotion",
       "reasons": [
         "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-d07066251c23560c4586-md",
+      "title": "rtk",
+      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -865,6 +1045,13 @@
       ]
     },
     {
+      "id": "watch-technical-39708b126c037da50e56-md",
+      "title": "StdGEN",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-c67a2647c3e09c338891-md",
       "title": "SubCat",
       "reasons": [
@@ -881,6 +1068,13 @@
     {
       "id": "watch-technical-f7ea866b53ea3110371c-md",
       "title": "SuperSplat Editor",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-763a276cbab62cfc7a39-md",
+      "title": "T3Bench",
       "reasons": [
         "nature-unqualified"
       ]
@@ -917,6 +1111,20 @@
       ]
     },
     {
+      "id": "watch-technical-8a1d416625950ae0abb8-md",
+      "title": "TRELLIS.2",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-611db130b2bc64852596-md",
+      "title": "TrianFlow",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-66fc5b1d26e505baaa01-md",
       "title": "ty",
       "reasons": [
@@ -948,7 +1156,6 @@
       "id": "watch-technical-30e283a9b3f70e35d81a-md",
       "title": "uv",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -991,6 +1198,13 @@
     },
     {
       "id": "watch-technical-dbbe9adbe528f3b77e3a-md",
+      "title": "VisoMaster-Fusion",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f26060981b4112b4411f-md",
       "title": "VisoMaster-Fusion",
       "reasons": [
         "nature-unqualified"
@@ -1049,6 +1263,15 @@
       ]
     },
     {
+      "id": "watch-technical-bba7cbf6411664b33623-md",
+      "title": "XianYuApis",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-511a5089717fad8aad51-md",
       "title": "yt-dlp",
       "reasons": [
@@ -1071,40 +1294,12 @@
       ]
     },
     {
-      "id": "watch-technical-ca3c69add82754901cf6-md",
-      "title": "AlphaTablets",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-40cd4bcbc0fb8cf86c20-md",
       "title": "AppFlowy",
       "reasons": [
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-674690abd042252d5376-md",
-      "title": "Assembler3d",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-994bb8c95881181b98b3-md",
-      "title": "Bark",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-4f72d6274858ca1e8190-md",
-      "title": "CHARM",
-      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -1116,73 +1311,9 @@
       ]
     },
     {
-      "id": "watch-technical-2ac64d2afb7018ac9ff2-md",
-      "title": "Claude SEO",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-668711a6e10728221dfc-md",
-      "title": "headroom",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-d9575f3020769f3b284b-md",
       "title": "Coolify",
       "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-74dc45b5f749db3d46d0-md",
-      "title": "DarkFeat",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-80c1535b6e69bb84082c-md",
-      "title": "DI-PCG",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-f1fa1897837db4db2e4d-md",
-      "title": "Direct3D-S2",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-37356cc78499d8e4af94-md",
-      "title": "Génération d'actifs 3D structurés",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-a3b183624a359158d2f2-md",
-      "title": "geo-seo-claude",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-cc7d258f82fc4f055019-md",
-      "title": "Grok Build",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-383ec76df0f9b9e99e36-md",
-      "title": "GSPN",
-      "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1204,54 +1335,8 @@
       ]
     },
     {
-      "id": "watch-technical-3f991f224eb64ace6e0c-md",
-      "title": "idn-solver",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-8f4d2163b5e697a72c77-md",
-      "title": "llama.cpp",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-18f0542a2dd3c9b424dc-md",
-      "title": "loguru",
-      "reasons": [
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-9bd95807fef95eea1d8c-md",
       "title": "MoneyPrinter",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-ae2b5f1a3fbdf8f6f54d-md",
-      "title": "myfish",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-7e07682fe36ee14ea7b5-md",
-      "title": "NerfingMVS",
-      "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-712121d9735431107601-md",
-      "title": "O2-Recon",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1264,96 +1349,9 @@
       ]
     },
     {
-      "id": "watch-technical-1579309e1b490fa5279c-md",
-      "title": "ParticleSfM",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-c88e811a1a66f8cd57ba-md",
-      "title": "PC-NBV",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-c133b93b912dffd605a2-md",
-      "title": "Pi",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-1158f7d0b091e0866c17-md",
-      "title": "Pixal3D",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-62ff8b189d833243b52d-md",
-      "title": "Pixal3D-ComfyUI",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-991d8b9d9433d93423eb-md",
       "title": "Raven",
       "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-d07066251c23560c4586-md",
-      "title": "rtk",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-39708b126c037da50e56-md",
-      "title": "StdGEN",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-763a276cbab62cfc7a39-md",
-      "title": "T3Bench",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-8a1d416625950ae0abb8-md",
-      "title": "TRELLIS.2",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-611db130b2bc64852596-md",
-      "title": "TrianFlow",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-f26060981b4112b4411f-md",
-      "title": "VisoMaster-Fusion",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-bba7cbf6411664b33623-md",
-      "title": "XianYuApis",
-      "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },

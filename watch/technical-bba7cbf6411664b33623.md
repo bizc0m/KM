@@ -43,5 +43,5 @@ Permet l'automatisation des réponses via des API. Intègre des fonctionnalités
 - Origine : NotePlan
 - Identifiant source : bba7cbf6411664b33623ee679a212bddb6624aed1248d4f07c0a29526c2e229f
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

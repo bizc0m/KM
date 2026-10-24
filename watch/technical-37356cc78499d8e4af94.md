@@ -45,5 +45,5 @@ Génère des modèles 3D à partir d'images ou de textes.
 - Origine : NotePlan
 - Identifiant source : 37356cc78499d8e4af946e9923422a3d42049ecda77e9164c26d1df86063bc8e
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

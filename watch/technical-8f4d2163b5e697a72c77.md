@@ -45,5 +45,5 @@ Exécute des modèles LLM localement avec optimisation matérielle
 - Origine : NotePlan
 - Identifiant source : 8f4d2163b5e697a72c77808874cb690be318a63b853895ea6b090a0db16e00c7
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

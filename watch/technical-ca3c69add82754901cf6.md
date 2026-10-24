@@ -45,5 +45,5 @@ Permet la reconstruction 3D de plans avec précision et contours nets.
 - Origine : NotePlan
 - Identifiant source : ca3c69add82754901cf62046e6abf1dd668349a6c74a27b8795037a90fbe8319
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

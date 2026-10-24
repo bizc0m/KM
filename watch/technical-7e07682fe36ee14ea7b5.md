@@ -42,5 +42,5 @@ Génère des cartes de profondeur alignées avec les poses.
 - Origine : NotePlan
 - Identifiant source : 7e07682fe36ee14ea7b51ca4177a4c8948bf0459ada63694861c448e27410915
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

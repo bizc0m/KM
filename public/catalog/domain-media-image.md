@@ -7,9 +7,13 @@
 - [Awesome Generative AI Apps](../../watch/technical-c5cd3a5c95630c792129.md) — Créez et lancez des applications SaaS génératives avec des outils prêts à l'emploi
 - [Awesome Seedance 2.5 API Prompts](../../watch/technical-73ffc014f69d12660ff8.md) — Génère des vidéos à partir de prompts textuels ou multimodaux
 - [ClearMark AI](../../watch/technical-6693a84665174f39d08b.md) — Supprime les marquages d'eau d'images avec IA
+- [DarkFeat](../../watch/technical-74dc45b5f749db3d46d0.md) — Analyse des images RAW sombres avec détection de caractéristiques robuste
+- [DI-PCG](../../watch/technical-80c1535b6e69bb84082c.md) — Crée des modèles 3D à partir d'images avec des modèles pré-entraînés.
 - [diffusers](../../watch/technical-f977c26fe64e30184a6f.md) — Génère des images à partir de texte avec des modèles préentraînés.
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
+- [Génération d'actifs 3D structurés](../../watch/technical-37356cc78499d8e4af94.md) — Génère des modèles 3D à partir d'images ou de textes.
 - [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
+- [idn-solver](../../watch/technical-3f991f224eb64ace6e0c.md) — Analyse des données stéréoscopiques avec des modèles préentraînés.
 - [openai-api](../../watch/technical-f8f551d25eb73ecda1fd.md) — Génère des images avec des paramètres de résolution et de format.
 - [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier.
 - [Kling Video API via Muapi](../../watch/technical-6cc3ec716443f80c37a3.md) — Soumet une requête de génération et récupère l'identifiant de demande pour suivre le statut
@@ -24,28 +28,24 @@
 - [Open-Generative-AI](../../watch/technical-78faa425ad9343a870b8.md) — Génère des images et vidéos via des modèles open-source sans filtres.
 - [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Découpe des images en sections facilement.
 - [Penpot](../../watch/technical-c0d4875dd605f77caf57.md)
+- [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones
+- [Pixal3D-ComfyUI](../../watch/technical-62ff8b189d833243b52d.md) — Permet de générer des modèles 3D à partir d'images 2D
 - [Pixelrelay](../../watch/technical-140649096e6d8069b2f4.md) — Gère les erreurs de fournisseurs avec un système de failover.
 - [profile-summary-for-github](../../watch/technical-4f05134572dbcb3265f2.md) — Afficher les contributions GitHub sous forme de badges.
 - [Seedance 2.5 API](../../watch/technical-4f09686ddcb30b511532.md) — Génère des vidéos AI à partir de textes et d'images
 - [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md)
 - [stable-diffusion.cpp](../../watch/technical-94c4f976278cef504540.md) — Génère des images à partir de modèles de diffusion sans dépendances externes
+- [StdGEN](../../watch/technical-39708b126c037da50e56.md) — Génère un modèle 3D détaillé à partir d'une image de référence.
 - [TikTok-User-Info-Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
+- [TRELLIS.2](../../watch/technical-8a1d416625950ae0abb8.md) — Convertit des maillages texturés en voxel O-Voxel en quelques secondes.
+- [TrianFlow](../../watch/technical-611db130b2bc64852596.md) — Génère une carte de profondeur à partir d'une image.
 - [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
 - [Vibe Workflow](../../watch/technical-6ccb86641ecc996a74b9.md) — Crée des workflows d'IA visuels sans abonnement
 - [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence visuelle et narrative.
 - [VisoMaster-Fusion](../../watch/technical-dbbe9adbe528f3b77e3a.md) — Analyser et traiter des visages dans des médias sans dépendre de services payants.
+- [VisoMaster-Fusion](../../watch/technical-f26060981b4112b4411f.md) — Traiter des visages localement sans frais ni partage de données.
 - [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Génère et gère des contenus multimédia avec des modèles optimisés pour faible VRAM.
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications sans dépendre de services cloud.
-- [DarkFeat](../../watch/technical-74dc45b5f749db3d46d0.md) — Analyse des images RAW sombres avec détection de caractéristiques robuste
-- [DI-PCG](../../watch/technical-80c1535b6e69bb84082c.md) — Crée des modèles 3D à partir d'images avec des modèles pré-entraînés.
-- [Génération d'actifs 3D structurés](../../watch/technical-37356cc78499d8e4af94.md) — Génère des modèles 3D à partir d'images ou de textes.
-- [idn-solver](../../watch/technical-3f991f224eb64ace6e0c.md) — Analyse des données stéréoscopiques avec des modèles préentraînés.
-- [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones
-- [Pixal3D-ComfyUI](../../watch/technical-62ff8b189d833243b52d.md) — Permet de générer des modèles 3D à partir d'images 2D
-- [StdGEN](../../watch/technical-39708b126c037da50e56.md) — Génère un modèle 3D détaillé à partir d'une image de référence.
-- [TRELLIS.2](../../watch/technical-8a1d416625950ae0abb8.md) — Convertit des maillages texturés en voxel O-Voxel en quelques secondes.
-- [TrianFlow](../../watch/technical-611db130b2bc64852596.md) — Génère une carte de profondeur à partir d'une image.
-- [VisoMaster-Fusion](../../watch/technical-f26060981b4112b4411f.md) — Traiter des visages localement sans frais ni partage de données.
 - [AI Creator Academy](../../watch/technical-21a78e48d74a8e6ab07f.md) — Créer des publicités vidéo vendables pour des marques réelles.
 - [Nano Banana Generator](../../watch/technical-d5417dd0599d69bd651b.md)
 - [Qwen-Image-API](../../watch/technical-c341f7566eb8b34cd45a.md) — Génère des images via l'API Qwen avec des paramètres avancés
