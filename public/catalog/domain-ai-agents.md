@@ -4,6 +4,7 @@
 - [agency-agents](../../watch/technical-1e83b6596b947b071d50.md) — Facilite la simulation de discussions avec des experts.
 - [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md)
 - [Agent Skills](../../watch/technical-48dbbdd8fd0d302995a7.md) — Définir un format ouvert pour partager les compétences des agents.
+- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md)
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Permet aux agents de conserver une mémoire persistante sans re-expliquer.
 - [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA
 - [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
@@ -39,6 +40,7 @@
 - [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
 - [openclaw](../../watch/technical-0b5c4741d1c147be5fdd.md) — intègre des canaux de messagerie pour un assistant IA local
 - [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel
+- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Crée des workflows personnalisés avec des extensions
 - [Pi](../../watch/technical-c133b93b912dffd605a2.md)
 - [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
@@ -48,9 +50,7 @@
 - [UI-TARS-desktop](../../watch/technical-bba9c08d417b5cda22d8.md) — Contrôle à distance des ordinateurs et navigateurs avec interface graphique
 - [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Cloner des voix pour des agents IA sans dépendance externe
 - [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
-- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md)
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications sans dépendre de services cloud.
-- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
 - [Kami](../../watch/technical-49226a0e2e05fa223d37.md) — Génère des documents professionnels avec des modèles prédéfinis.
 - [OpenCode](../../watch/technical-ffccace0ba14fd154d90.md) — Génère du code à partir de requêtes textuelles.
@@ -68,7 +68,6 @@
 - [gemini-cli](../../watch/technical-24684c1ecca249c03e58.md) — Interagir avec Gemini via terminal pour exécuter des tâches de code
 - [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Permet aux agents d'intégrer instantanément la plateforme pour trader.
 - [Anthropic Cybersecurity Skills](../../watch/technical-02d73009ec03d24b2e22.md)
-- [AutoHedge](../../watch/technical-411490b28204e94a3778.md) — Analyse marché pour optimiser les trades.
 - [camofox-browser](../../watch/technical-05a714c23543244771cf.md) — Piloter un navigateur headless pour les tâches web des agents.
 - [Claude Code gratuit avec proxy NVIDIA](../../watch/technical-227e249fa68647e0ca82.md) — Convertir les appels API Anthropic en format NVIDIA NIM
 - [CloddsBot](../../watch/technical-d6a24343d25ffd74d14c.md) — Gère les trades autonomes sur plusieurs marchés

@@ -3,7 +3,6 @@
 - [SeekerClaw](../../watch/technical-6a7363072642ee3e6fc9.md) — Contrôle des appareils Android via un agent AI en temps réel
 - [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Permet aux agents d'intégrer instantanément la plateforme pour trader.
 - [Augur Trading Bot](../../watch/technical-1f02bc8ebd550362cbc2.md) — Exécute des ordres de trading avec précision et rapidité
-- [AutoHedge](../../watch/technical-411490b28204e94a3778.md) — Analyse marché pour optimiser les trades.
 - [prediction-market-backtesting](../../watch/technical-c68d8c6560271f81a81f.md) — Analyse des performances des stratégies de marché de prédiction
 - [Better Fan Trading Bot](../../watch/technical-104ad8ef475db3f7384a.md) — Exécute des ordres de trading en temps réel pour des marchés de prédictions
 - [CloddsBot](../../watch/technical-d6a24343d25ffd74d14c.md) — Gère les trades autonomes sur plusieurs marchés

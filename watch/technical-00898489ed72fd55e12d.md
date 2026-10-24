@@ -46,5 +46,5 @@ Permet d'interagir avec un avatar IA en temps réel. Fournit une expérience de 
 - Origine : NotePlan
 - Identifiant source : 00898489ed72fd55e12dd50a965973e95ccb79411eade2298ab10e31fe05761d
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

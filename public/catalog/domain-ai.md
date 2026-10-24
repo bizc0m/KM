@@ -4,6 +4,7 @@
 - [agency-agents](../../watch/technical-1e83b6596b947b071d50.md) — Facilite la simulation de discussions avec des experts.
 - [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md)
 - [Agent Skills](../../watch/technical-48dbbdd8fd0d302995a7.md) — Définir un format ouvert pour partager les compétences des agents.
+- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md)
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Permet aux agents de conserver une mémoire persistante sans re-expliquer.
 - [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Crée des portraits professionnels avec des prompts textuels.
 - [AI Logo Studio](../../watch/technical-a20888d5cb6a1c399300.md)
@@ -49,11 +50,13 @@
 - [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
 - [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
 - [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Permet une collaboration équipe via un agent partagé par canal
-- [Open-Generative-AI](../../watch/technical-78faa425ad9343a870b8.md) — Génère des images et vidéos via des modèles open-source sans filtres.
+- [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Crée des studios d'IA personnalisés avec des modèles d'IA
+- [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel.
 - [Open-Poe-AI](../../watch/technical-2d163384adb685d9a51a.md)
 - [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
 - [openclaw](../../watch/technical-0b5c4741d1c147be5fdd.md) — intègre des canaux de messagerie pour un assistant IA local
 - [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel
+- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Crée des workflows personnalisés avec des extensions
 - [Pi](../../watch/technical-c133b93b912dffd605a2.md)
 - [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
@@ -62,17 +65,14 @@
 - [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md)
 - [ShotGlass](../../watch/technical-8ae8d27d1412df2cdc2d.md) — enregistrer et éditer des captures d'écran avec IA
 - [Skills For Real Engineers](../../watch/technical-637c99109af31ed2fe7b.md) — Aligner les besoins avec l'agent avant de commencer
-- [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée des applications sans installation locale avec des outils open source.
+- [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée une API REST sans configuration complexe
 - [UI-TARS-desktop](../../watch/technical-bba9c08d417b5cda22d8.md) — Contrôle à distance des ordinateurs et navigateurs avec interface graphique
 - [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
 - [Vibe Workflow](../../watch/technical-6ccb86641ecc996a74b9.md) — Crée des workflows d'IA visuels sans abonnement
 - [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Cloner des voix pour des agents IA sans dépendance externe
 - [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Ajoute des timestamps précis aux mots de la transcription
 - [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
-- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md)
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications sans dépendre de services cloud.
-- [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel.
-- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
 - [AI Creator Academy](../../watch/technical-21a78e48d74a8e6ab07f.md) — Créer des publicités vidéo vendables pour des marques réelles.
 - [FreeLLMAPI](../../watch/technical-f9d54d6e051498a6f643.md) — Route requests across free LLM providers with one endpoint
@@ -102,7 +102,6 @@
 - [AI employee open source avec ordinateur intégré](../../watch/technical-900c2911ad71cf6d2191.md)
 - [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Permet aux agents d'intégrer instantanément la plateforme pour trader.
 - [Anthropic Cybersecurity Skills](../../watch/technical-02d73009ec03d24b2e22.md)
-- [AutoHedge](../../watch/technical-411490b28204e94a3778.md) — Analyse marché pour optimiser les trades.
 - [camofox-browser](../../watch/technical-05a714c23543244771cf.md) — Piloter un navigateur headless pour les tâches web des agents.
 - [Claude Code gratuit avec proxy NVIDIA](../../watch/technical-227e249fa68647e0ca82.md) — Convertir les appels API Anthropic en format NVIDIA NIM
 - [CloddsBot](../../watch/technical-d6a24343d25ffd74d14c.md) — Gère les trades autonomes sur plusieurs marchés

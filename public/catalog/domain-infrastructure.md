@@ -5,17 +5,15 @@
 - [arcada-backend](../../watch/technical-672e5954b0a4b96827a6.md) — Démarrer le serveur backend pour la plateforme de design d'intérieur
 - [asn](../../watch/technical-6343df31e02d35267485.md) — Analyse de réputation IP et menace
 - [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
-- [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.
-- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les rendez-vous sans dépendance commerciale.
 - [Cloud Torrent](../../watch/technical-fca1fec32410e408c140.md) — Gère les torrents via une interface web
 - [Hermes Agent](../../watch/nousresearch-hermes-agent.md) — Gère des tâches complexes avec des modèles externes
 - [Hysteria](../../watch/technical-457a0ceb1c2bf60a2841.md) — Permet de contourner les filtres de réseau
-- [MailHog](../../watch/technical-ee446b3bf303b677315c.md) — Afficher les emails envoyés dans une interface web
 - [Migration vers Kimi Code CLI](../../watch/technical-15ae02c43b612a6e8c46.md) — Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP.
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
 - [Old Photo Restore](../../watch/technical-1a1b1c01fccbb652af5e.md) — Restaure des photos anciennes avec un moteur d'IA.
+- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md)
-- [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée des applications sans installation locale avec des outils open source.
+- [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée une API REST sans configuration complexe
 - [SuperSplat Editor](../../watch/technical-f7ea866b53ea3110371c.md) — Permet d'éditer des splats 3D directement dans le navigateur
 - [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Analyse de type rapide avec diagnostics précis pour code Python
 - [velox](../../watch/technical-a2736da3d4b4b5c419aa.md) — Synchronise des objets JSON en temps réel entre serveur et client.
@@ -23,7 +21,6 @@
 - [Webtor](../../watch/technical-c45c04c570d8ed1549e8.md) — Permet de gérer des torrents avec streaming et téléchargement direct
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications sans dépendre de services cloud.
 - [MoneyPrinter](../../watch/technical-9bd95807fef95eea1d8c.md) — Configure l'environnement pour exécuter MoneyPrinter avec Ollama
-- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [fmkr](../../watch/technical-bf5985ec6b47da44a51e.md) — Permet d'interagir avec des bases de données FileMaker via Python
 - [molmass](../../watch/technical-61da906d94d21f2f647a.md) — Calculer la masse moléculaire et la composition élémentaire d'une molécule.
 - [community-edition](../../watch/technical-cf13d710b766f0f10a31.md) — Démarre Plausible avec Docker Compose pour hébergement local.

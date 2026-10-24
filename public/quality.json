@@ -1,18 +1,18 @@
 {
-  "at": "2026-10-24T07:31:52.170Z",
+  "at": "2026-10-24T08:31:56.793Z",
   "scope": "public-index-only",
-  "fiches": 658,
-  "sourceReferences": 2681,
+  "fiches": 657,
+  "sourceReferences": 2650,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 630,
+  "pendingReview": 629,
   "counts": {
-    "interest-missing": 191,
-    "keywords-missing": 90,
+    "interest-missing": 190,
+    "keywords-missing": 89,
     "domain-unqualified": 116,
     "primary-identity-unqualified": 22,
-    "nature-unqualified": 608
+    "nature-unqualified": 607
   },
   "queue": [
     {
@@ -32,6 +32,14 @@
     {
       "id": "watch-technical-b3d97a6bcd67a3be76f1-md",
       "title": "agency-agents",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-cloudflare-agentic-inbox-md",
+      "title": "Agentic Inbox",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -109,6 +117,16 @@
       "title": "Anthropic-Cybersecurity-Skills",
       "reasons": [
         "primary-identity-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-40cd4bcbc0fb8cf86c20-md",
+      "title": "AppFlowy",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
       ]
     },
     {
@@ -238,6 +256,13 @@
     {
       "id": "watch-technical-4f72d6274858ca1e8190-md",
       "title": "CHARM",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8eec6dc58fee3af126d1-md",
+      "title": "Claude Ads",
       "reasons": [
         "nature-unqualified"
       ]
@@ -656,7 +681,6 @@
       "id": "watch-technical-ee446b3bf303b677315c-md",
       "title": "MailHog",
       "reasons": [
-        "keywords-missing",
         "nature-unqualified"
       ]
     },
@@ -789,8 +813,8 @@
       ]
     },
     {
-      "id": "watch-technical-78faa425ad9343a870b8-md",
-      "title": "Open-Generative-AI",
+      "id": "watch-technical-411490b28204e94a3778-md",
+      "title": "Open Generative AI",
       "reasons": [
         "nature-unqualified"
       ]
@@ -798,6 +822,13 @@
     {
       "id": "watch-technical-dfc871508eb563893ba5-md",
       "title": "open-grok-bot",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-00898489ed72fd55e12d-md",
+      "title": "Open-LLM-VTuber",
       "reasons": [
         "nature-unqualified"
       ]
@@ -872,7 +903,6 @@
       "id": "watch-technical-c0d4875dd605f77caf57-md",
       "title": "Penpot",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1286,31 +1316,6 @@
       ]
     },
     {
-      "id": "watch-cloudflare-agentic-inbox-md",
-      "title": "Agentic Inbox",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-40cd4bcbc0fb8cf86c20-md",
-      "title": "AppFlowy",
-      "reasons": [
-        "interest-missing",
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-8eec6dc58fee3af126d1-md",
-      "title": "Claude Ads",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-d9575f3020769f3b284b-md",
       "title": "Coolify",
       "reasons": [
@@ -1337,13 +1342,6 @@
     {
       "id": "watch-technical-9bd95807fef95eea1d8c-md",
       "title": "MoneyPrinter",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-00898489ed72fd55e12d-md",
-      "title": "Open-LLM-VTuber",
       "reasons": [
         "nature-unqualified"
       ]
@@ -2431,13 +2429,6 @@
       "title": "Augur Trading Bot",
       "reasons": [
         "keywords-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-411490b28204e94a3778-md",
-      "title": "AutoHedge",
-      "reasons": [
         "nature-unqualified"
       ]
     },

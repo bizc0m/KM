@@ -46,7 +46,7 @@ Enregistre des démos nettoyées sans abonnement
 - Origine : NotePlan
 - Identifiant source : 6cb1248284d63b3e8eda5578f6890352f7278824c62187bde0153ed529c8998c
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-23
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens

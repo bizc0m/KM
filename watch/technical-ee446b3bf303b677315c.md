@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Afficher les emails envoyés dans une interface web
+Visualiser les e-mails envoyés sans les envoyer réellement.
 
 ## Identité
 
@@ -27,8 +27,8 @@ Afficher les emails envoyés dans une interface web
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.infrastructure source.noteplan source.github source.x lifecycle.active
-- Sujets : Infrastructure
+- Identifiants : domain.communication.messaging source.noteplan source.github source.x lifecycle.active
+- Sujets : Communication et publication > Messagerie
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
