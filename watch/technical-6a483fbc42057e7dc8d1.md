@@ -52,11 +52,11 @@ Crée des fonds d'écran animés en exportant en vidéo et image
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 1048.
+- Liens distincts recensés : 1035.
 - Pages lues, tweet compris : 63.
 - Sources techniques analysées : 6.
 - Sources à vérifier : 50 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 902 (profondeur : 0, budget de pages : 897, délai : 0, erreurs : 5).
+- Liens non lus : 889 (profondeur : 0, budget de pages : 884, délai : 0, erreurs : 5).
 - Pages résumées sur extrait : 1.
 - Éléments exclus : 91 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.

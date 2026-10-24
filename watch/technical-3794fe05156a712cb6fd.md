@@ -54,6 +54,7 @@ Convertir du texte ou des images en vidéos longues.
 - https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video
 - https://huggingface.co/models?other=base_model%3Aquantized%3Ameituan-longcat%2FLongCat-Video
 - https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/10032
+- https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video-Avatar-1.5
 
 ## Traçabilité
 
@@ -66,11 +67,11 @@ Convertir du texte ou des images en vidéos longues.
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 5546.
+- Liens distincts recensés : 5544.
 - Pages lues, tweet compris : 76.
-- Sources techniques analysées : 21.
-- Sources à vérifier : 45 ; analyses non terminées : 0 ; erreurs du modèle : 2.
-- Liens non lus : 5411 (profondeur : 5165, budget de pages : 228, délai : 0, erreurs : 18).
+- Sources techniques analysées : 22.
+- Sources à vérifier : 44 ; analyses non terminées : 0 ; erreurs du modèle : 2.
+- Liens non lus : 5409 (profondeur : 5163, budget de pages : 228, délai : 0, erreurs : 18).
 - Pages résumées sur extrait : 17.
 - Éléments exclus : 67 ; doublons ignorés : 1.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
@@ -165,12 +166,12 @@ Source : https://arxiv.org/abs/2605.26486 ; niveau 2.
 
 ### google/umt5-xxl
 
-Modèle de génération de texte multilingue préentraîné sur mC4. Support 107 langues. Nécessite un fine-tuning pour utilisation.
+Modèle de génération de texte multilingue préentraîné sur mC4. Support 107 langues. Nécessite un fine-tuning pour être utilisable.
 
-- Préentraîné sur mC4 avec 29 trillions de caractères.
-- Supporte 107 langues incluant des langues minoritaires.
-- Nécessite un fine-tuning pour être utilisable.
-- Utilise la bibliothèque Transformers et PyTorch.
+- Préentraîné sur mC4 mise à jour
+- Support 107 langues
+- Nécessite un fine-tuning avant utilisation
+- Utilise PyTorch et Transformers
 
 Source : https://huggingface.co/google/umt5-xxl ; niveau 2.
 
@@ -265,22 +266,23 @@ Source : https://core.ac.uk/services/recommender ; niveau 3.
 
 ### LongCat-Video
 
-Modèle de génération vidéo finetuné pour des scénarios spécifiques. Paramètres dépassant 500 milliards. Disponible via Hugging Face. Prise en charge par plusieurs fournisseurs d'inférence.
+Modèle de génération vidéo finetuné pour des scénarios spécifiques. Paramètres estimés à plus de 500 milliards. Disponible via Hugging Face. Prise en charge par plusieurs fournisseurs d'inférence.
 
 - Modèle de génération vidéo finetuné
-- Nombre de paramètres supérieur à 500 milliards
-- Disponible sur Hugging Face
-- Supporté par plusieurs fournisseurs d'inférence
+- Paramètres estimés à plus de 500 milliards
+- Disponible via Hugging Face
+- Prise en charge par plusieurs fournisseurs d'inférence
 
 Source : https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video ; niveau 3.
 
 ### meituan-longcat/LongCat-Video
 
-Modèle vidéo quantisé pour Hugging Face. Paramètres  500B. Disponible via plusieurs fournisseurs d'inférence.
+Modèle vidéo quantisé pour Hugging Face avec plus de 500 milliards de paramètres.
 
 - Modèle vidéo quantisé pour Hugging Face
-- Nombre de paramètres supérieur à 500 milliards
+- Plus de 500 milliards de paramètres
 - Disponible via plusieurs fournisseurs d'inférence
+- Permet l'inférence sur différents serveurs
 
 Source : https://huggingface.co/models?other=base_model%3Aquantized%3Ameituan-longcat%2FLongCat-Video ; niveau 3.
 
@@ -295,3 +297,13 @@ Projet de création d'un avatar vidéo basé sur des dessins. Utilisation de mod
 - Création d'un avatar vidéo à partir d'un dessin simple.
 
 Source : https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/10032 ; niveau 3.
+
+### LongCat-Video-Avatar-1.5
+
+Modèle vidéo finetuné pour création d'avatar. Paramètres : 500B. Disponible sur Hugging Face.
+
+- Modèle vidéo finetuné pour création d'avatar
+- Paramètres : 500B
+- Disponible sur Hugging Face
+
+Source : https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video-Avatar-1.5 ; niveau 3.
