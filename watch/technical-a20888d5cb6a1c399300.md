@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Crée des logos professionnels à partir de textes ou de croquis en quelques secondes.
+Intérêt à vérifier
 
 ## Identité
 
@@ -47,32 +47,3 @@ Crée des logos professionnels à partir de textes ou de croquis en quelques sec
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Génère des logos professionnels à partir de prompts textuels ou d'images.
-- Intègre Stripe pour la facturation et la gestion des crédits.
-- Utilise MuAPI Nano Banana Pro pour la génération.
-- Disponible en version open-source et self-hostable.
-
-## Usages documentés
-
-- Crée des logos à partir de prompts textuels ou d'images.
-- Gère les crédits et la facturation via Stripe.
-- Utilise MuAPI Nano Banana Pro pour la génération.
-- Permet la personnalisation des résolutions et des formats d'aspect.
-- Stocke l'historique des créations dans PostgreSQL.
-
-## Limites
-
-- Requiert une base de données PostgreSQL.
-- Dépend de MuAPI Nano Banana Pro pour la génération.
-- Nécessite des clés d'API pour Google et Stripe.
-- Limite les résolutions à 1K, 2K ou 4K selon les crédits disponibles.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/samuraigpt/ai-logo-studio
-- Analyse source : 2026-10-24T12:57:16.765Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Récupère l'horodatage des vidéos TikTok supprimées.
+Récupère l'horodatage des vidéos TikTok supprimées
 
 ## Identité
 

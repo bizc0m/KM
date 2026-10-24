@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Permet d'éditer des vidéos sur plusieurs plateformes.
+Découpe des images en sections facilement.
 
 ## Métadonnées
 
@@ -25,8 +25,8 @@ Permet d'éditer des vidéos sur plusieurs plateformes.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.video domain.media.image compatibility.interface.desktop source.noteplan source.x source.github lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
+- Identifiants : domain.media.image compatibility.interface.desktop source.noteplan source.x source.github lifecycle.active
+- Sujets : Audio, vidéo et création > Images et graphisme
 - Compatibilités : Interfaces > Application de bureau
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
 - État : Actif
@@ -39,6 +39,8 @@ Permet d'éditer des vidéos sur plusieurs plateformes.
 - https://bun.sh/docs/installation
 - https://docs.docker.com/get-started/get-docker
 - https://docs.docker.com/compose/install
+- https://raw.githubusercontent.com/OpenCut-app/opencut-classic/main/apps/desktop/README.md
+- https://raw.githubusercontent.com/OpenCut-app/opencut-classic/main/.github/CONTRIBUTING.md
 - https://moonrepo.dev/docs/proto/tool-spec
 - https://moonrepo.dev/moon
 - https://fal.ai/docs/documentation
@@ -71,23 +73,12 @@ Permet d'éditer des vidéos sur plusieurs plateformes.
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
 - Liens distincts recensés : 836.
 - Pages lues, tweet compris : 85.
-- Sources techniques analysées : 24.
-- Sources à vérifier : 56 ; analyses non terminées : 0 ; erreurs du modèle : 2.
+- Sources techniques analysées : 25.
+- Sources à vérifier : 55 ; analyses non terminées : 0 ; erreurs du modèle : 2.
 - Liens non lus : 657 (profondeur : 651, budget de pages : 0, délai : 0, erreurs : 6).
 - Pages résumées sur extrait : 3.
 - Éléments exclus : 98 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
-
-### OpenCut
-
-OpenCut est un éditeur vidéo open source pour web, desktop et mobile. Il est en cours de réécriture. Une version classique est disponible.
-
-- OpenCut est un éditeur vidéo open source.
-- OpenCut est disponible pour web, desktop et mobile.
-- OpenCut est en cours de réécriture.
-- Une version classique est disponible sur GitHub.
-
-Source : https://github.com/opencut-app/opencut ; niveau 1.
 
 ### OpenCut : Éditeur vidéo open source
 
@@ -130,6 +121,28 @@ Documentation sur les méthodes d'installation de Docker Compose selon le systè
 - Installer Docker Compose standalone sur Linux ou Windows Server (non recommandé).
 
 Source : https://docs.docker.com/compose/install ; niveau 3.
+
+### Installation de l'application desktop basée sur GPUI
+
+Documentation pour installer et exécuter l'application desktop utilisant GPUI.
+
+- Installation de Rust via script pour Linux/macOS/WSL
+- Installation des dépendances natives via script pour Linux/macOS/WSL
+- Exécution de l'application via cargo run -p opencut-desktop
+- Support d'apt, dnf et pacman sur Linux
+
+Source : https://raw.githubusercontent.com/OpenCut-app/opencut-classic/main/apps/desktop/README.md ; niveau 3.
+
+### Contribuer à OpenCut
+
+Documentation pour contribuer au projet OpenCut avec instructions techniques.
+
+- Configurer l'environnement local pour contribuer à OpenCut
+- Utiliser Docker pour exécuter les services de base de données et Redis
+- Créer un fichier .env.local avec les variables d'environnement requises
+- Exécuter des migrations de base de données avant le développement
+
+Source : https://raw.githubusercontent.com/OpenCut-app/opencut-classic/main/.github/CONTRIBUTING.md ; niveau 3.
 
 ### Spécification des outils et versions dans moonrepo
 
@@ -337,21 +350,3 @@ Outil d'extension d'image sans recadrage. Génère du contenu en continu. Adapte
 - Résultat sans watermark et à haute résolution.
 
 Source : https://fal.ai/tools/image-extender ; niveau 3.
-
-## Identité
-
-- Dépôt principal : https://github.com/opencut-app/opencut
-
-## Capacités documentées
-
-- OpenCut est un éditeur vidéo open source.
-- OpenCut est disponible pour web, desktop et mobile.
-- OpenCut est en cours de réécriture.
-- Une version classique est disponible sur GitHub.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/opencut-app/opencut
-- Analyse source : 2026-10-24T11:44:48.849Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

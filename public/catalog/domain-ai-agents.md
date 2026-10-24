@@ -15,34 +15,33 @@
 - [book-to-skill](../../watch/technical-389040200a86ce208431.md) — Enregistre les preuves de conversion de livres en compétences.
 - [Browser-Use](../../watch/browser-use-web-automation.md) — Automatiser des tâches web avec un LLM
 - [Claude SEO](../../watch/technical-2ac64d2afb7018ac9ff2.md) — Analyse un site web et propose un plan d'action pour améliorer son référencement
-- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
+- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md)
 - [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage sans interface utilisateur.
 - [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Exécute des tâches de codage localement avec un éditeur.
 - [headroom](../../watch/technical-668711a6e10728221dfc.md) — Réduit le nombre de tokens utilisés par les agents IA sans perdre d'informations importantes
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications et services sur des serveurs propres avec gestion automatisée.
 - [skills_feed](../../watch/technical-57435869059c16d7e579.md) — Collecte et organisation des compétences AI pour un accès centralisé
 - [agents](../../watch/technical-35aadf0372281812cd07.md) — Permet de déployer des agents modulaires et scalables.
-- [DESIGN.md](../../watch/technical-ddda9bed5feda3007847.md) — Facilite la création d'interfaces cohérentes avec un design système.
+- [DESIGN.md](../../watch/technical-ddda9bed5feda3007847.md)
 - [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Permet d'éditer des fichiers dans un environnement terminal
-- [Hermes Agent](../../watch/nousresearch-hermes-agent.md) — Gère des tâches complexes avec des modèles externes
+- [Hermes Agent](../../watch/nousresearch-hermes-agent.md)
 - [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md)
 - [Kami](../../watch/technical-49226a0e2e05fa223d37.md) — Génère des documents professionnels avec des modèles prédéfinis.
 - [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
 - [LLM Wiki Agent](../../watch/technical-9e4c4b6c4c6a7d12ceff.md) — Ingestion de documents pour construire un wiki structuré
 - [Mailcrew](../../watch/technical-0812a3e04271e2d82124.md) — Traite des tâches via des emails.
 - [Migration vers Kimi Code CLI](../../watch/technical-15ae02c43b612a6e8c46.md) — Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP.
-- [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Permet d'explorer et de modifier le codebase avec des commandes naturelles
-- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Découvrir, évaluer et exécuter 500+ modèles multimodaux en un clic.
+- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
 - [Multica](../../watch/technical-1c299b0df37a055a049d.md) — Assigner des tâches aux agents IA pour gérer le travail.
 - [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
 - [NotFair Plugin](../../watch/technical-614a514ae65ec429804d.md) — Analyse de site et de campagne publicitaire avec des workflows prédéfinis.
-- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md) — Créez et gérez des agents AI sans coder, via une interface unique.
-- [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
+- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
 - [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Permet une collaboration équipe via un agent partagé par canal
-- [Open-Poe-AI](../../watch/technical-2d163384adb685d9a51a.md) — Créez et gérez des agents AI sans coder, via une interface unique.
+- [Open-AI-Design-Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Génère des créations multiples à partir d'un bref avec 200+ modèles
+- [Open-Poe-AI](../../watch/technical-2d163384adb685d9a51a.md)
 - [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
 - [openclaw](../../watch/technical-0b5c4741d1c147be5fdd.md) — intègre des canaux de messagerie pour un assistant IA local
-- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes et vidéos avec IA
+- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Crée des workflows personnalisés avec des extensions
 - [Pi](../../watch/technical-c133b93b912dffd605a2.md) — Permet d'automatiser des tâches complexes avec un agent d'intelligence artificielle.

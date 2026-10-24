@@ -11,7 +11,8 @@
 - [kokoro](../../watch/technical-aa11653c4d25a0e989a1.md) — Génère des audio de texte en temps réel avec des paramètres personnalisables
 - [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
 - [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Cloner des voix sans connexion internet.
-- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md) — Créez et gérez des agents AI sans coder, via une interface unique.
+- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
+- [Open-Generative-AI](../../watch/technical-411490b28204e94a3778.md) — Génère des images et vidéos avec des modèles open-source sans filtre.
 - [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [Plugin mov-cli-youtube](../../watch/technical-52593ff508c40e9e2d49.md) — Lire des vidéos YouTube via mov-cli avec options audio et shorts

@@ -6,7 +6,7 @@ actif
 
 ## Tags
 
-#generation-images, #python
+#generation-images, #python, #generation-video
 
 ## Intérêts
 
@@ -29,9 +29,9 @@ Génère des images avec des paramètres de résolution et de format.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.video domain.media.image capability.generate.image compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.media.video domain.media.image capability.generate.image capability.generate.video compatibility.language.python source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
-- Fonctions : Générer des contenus > Générer une image
+- Fonctions : Générer des contenus > Générer une image ; Générer des contenus > Générer une vidéo
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
@@ -48,21 +48,3 @@ Génère des images avec des paramètres de résolution et de format.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Permet de générer des images via des endpoints text-to-image et image-to-image.
-- Supporte la création de vidéos via des endpoints text-to-video et image-to-video.
-- Fournit des exemples de requêtes cURL et Python pour l'API MuAPI.
-- Inclut des informations sur les paramètres et contrôles disponibles pour chaque famille de modèles.
-
-## Usages documentés
-
-- export MUAPI_API_KEY="your_api_key"
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/anil-matcha/openai-api
-- Analyse source : 2026-10-24T12:57:16.765Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -1,4 +1,4 @@
-# TikTok-User-Info-Scraper
+# TikTok User Info Scraper
 
 ## Statut
 
@@ -48,27 +48,3 @@ Récupère des données utilisateur TikTok sans connexion. Télécharge l'image 
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Script Python récupérant des données utilisateur TikTok sans connexion
-- Extraction de données comme followers, likes, vidéos
-- Téléchargement de l'image de profil
-- Fonctionne sans API
-
-## Usages documentés
-
-- python3 TikTok.py @username
-- python3 TikTok.py --by_id user_id
-
-## Limites
-
-- Requiert un compte TikTok public
-- Dépend de la structure du site TikTok
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/n4rr34n6/tiktok-user-info-scraper
-- Analyse source : 2026-10-24T12:35:09.773Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -10,7 +10,7 @@
 
 ## Intérêts
 
-Extraire des données web avec précision et organisation
+Extrait des informations clés d'un site web avec des mots-clés précis.
 
 ## Identité
 

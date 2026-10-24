@@ -45,5 +45,5 @@ Trouver des sous-domaines d'un site web.
 - Origine : NotePlan
 - Identifiant source : 91a4ed33e0fa4b66d3490008957fc3e34d5abc414dcebfa1f66151ac91cb9c73
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-22
+- Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

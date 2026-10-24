@@ -1,18 +1,18 @@
 {
-  "at": "2026-10-24T20:19:18.874Z",
+  "at": "2026-10-24T22:49:24.011Z",
   "scope": "public-index-only",
-  "fiches": 657,
-  "sourceReferences": 2661,
+  "fiches": 656,
+  "sourceReferences": 2715,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
   "pendingReview": 628,
   "counts": {
-    "interest-missing": 178,
-    "keywords-missing": 90,
-    "domain-unqualified": 118,
+    "interest-missing": 190,
+    "keywords-missing": 89,
+    "domain-unqualified": 116,
     "primary-identity-unqualified": 22,
-    "nature-unqualified": 607
+    "nature-unqualified": 606
   },
   "queue": [
     {
@@ -62,6 +62,7 @@
       "id": "watch-technical-a20888d5cb6a1c399300-md",
       "title": "AI Logo Studio",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -216,6 +217,7 @@
       "id": "watch-technical-736ba7730a16f99e6717-md",
       "title": "Cabal Stealth Checker",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -281,6 +283,7 @@
       "id": "watch-technical-533d51d9d3dea76fea8f-md",
       "title": "Cline",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -381,6 +384,7 @@
       "id": "watch-technical-ddda9bed5feda3007847-md",
       "title": "DESIGN.md",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -460,7 +464,6 @@
       "id": "watch-technical-812162d99641f3f436b1-md",
       "title": "FreeLLMAPI",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -505,7 +508,7 @@
       "id": "watch-technical-d924e27b47fa985d6e04-md",
       "title": "google_dorker",
       "reasons": [
-        "domain-unqualified",
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -544,6 +547,7 @@
       "id": "watch-nousresearch-hermes-agent-md",
       "title": "Hermes Agent",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -724,6 +728,20 @@
       ]
     },
     {
+      "id": "watch-technical-9bd95807fef95eea1d8c-md",
+      "title": "MoneyPrinter",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-b8cbc6e661d7a948ed3d-md",
+      "title": "muapi-skills",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
       "id": "watch-technical-1c299b0df37a055a049d-md",
       "title": "Multica",
       "reasons": [
@@ -796,19 +814,20 @@
       "id": "watch-technical-af32c93f6e9c60ab06b7-md",
       "title": "Open AI Agents Hub",
       "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-34d5505e0a9890ad64f6-md",
-      "title": "Open AI Design Agent",
-      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
     {
       "id": "watch-technical-79b08dab72dcf263294d-md",
       "title": "Open Claude Tag",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-34d5505e0a9890ad64f6-md",
+      "title": "Open-AI-Design-Agent",
       "reasons": [
         "nature-unqualified"
       ]
@@ -838,6 +857,7 @@
       "id": "watch-technical-2d163384adb685d9a51a-md",
       "title": "Open-Poe-AI",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -973,8 +993,6 @@
       "id": "watch-technical-4f05134572dbcb3265f2-md",
       "title": "profile-summary-for-github",
       "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -986,8 +1004,23 @@
       ]
     },
     {
+      "id": "watch-technical-3c2306185b130359af3a-md",
+      "title": "Protintelligence",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-40431c060cb04bde6a19-md",
       "title": "PubGrub",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c341f7566eb8b34cd45a-md",
+      "title": "Qwen-Image-API",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1046,6 +1079,7 @@
       "id": "watch-technical-7e693280a600ec11a89d-md",
       "title": "SnapIntel",
       "reasons": [
+        "interest-missing",
         "domain-unqualified",
         "nature-unqualified"
       ]
@@ -1083,7 +1117,14 @@
     },
     {
       "id": "watch-technical-c67a2647c3e09c338891-md",
-      "title": "SubCat",
+      "title": "subcat",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-91a4ed33e0fa4b66d349-md",
+      "title": "Sublist3r",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1112,7 +1153,15 @@
     },
     {
       "id": "watch-technical-57e845072d92fede6967-md",
-      "title": "TeleGramSint",
+      "title": "TelegramOSINT-Kit",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0a0ff4b87cf292fe8c93-md",
+      "title": "TikTok User Info Scraper",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1120,13 +1169,6 @@
     {
       "id": "watch-technical-73a929f1ca2e1edf16a9-md",
       "title": "tiktok-timestamp",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-0a0ff4b87cf292fe8c93-md",
-      "title": "TikTok-User-Info-Scraper",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1186,6 +1228,7 @@
       "id": "watch-technical-30e283a9b3f70e35d81a-md",
       "title": "uv",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1270,6 +1313,13 @@
       ]
     },
     {
+      "id": "watch-technical-654478eba9c74251531f-md",
+      "title": "Web-Check",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-8a4e0d1ee4f13f3119dd-md",
       "title": "WebDiver",
       "reasons": [
@@ -1288,6 +1338,7 @@
       "id": "watch-technical-d6babbc48c72c3692516-md",
       "title": "WhatsMyName",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1339,13 +1390,6 @@
       ]
     },
     {
-      "id": "watch-technical-9bd95807fef95eea1d8c-md",
-      "title": "MoneyPrinter",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-991d8b9d9433d93423eb-md",
       "title": "Raven",
       "reasons": [
@@ -1371,13 +1415,6 @@
     {
       "id": "watch-technical-72da768867f7d20473e6-md",
       "title": "Faker",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-f9d54d6e051498a6f643-md",
-      "title": "FreeLLMAPI",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1419,21 +1456,6 @@
       ]
     },
     {
-      "id": "watch-technical-3c2306185b130359af3a-md",
-      "title": "Protintelligence",
-      "reasons": [
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-c341f7566eb8b34cd45a-md",
-      "title": "Qwen-Image-API",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-40c2c54a4c6490e8e3bc-md",
       "title": "Ruff",
       "reasons": [
@@ -1441,22 +1463,8 @@
       ]
     },
     {
-      "id": "watch-technical-91a4ed33e0fa4b66d349-md",
-      "title": "Sublist3r",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-20e40e65da16af4ff766-md",
       "title": "Wan2.1",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-654478eba9c74251531f-md",
-      "title": "Web-Check",
       "reasons": [
         "nature-unqualified"
       ]

@@ -1,18 +1,19 @@
 # Renseignement en sources ouvertes
 
-- [Cabal Proxy Harvester](../../watch/technical-dee6cae45f8c3798057c.md) — Collecte et vérification continue des proxies HTTP et SOCKS5
-- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Détecte rapidement les types d'IP et leur risque.
-- [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Afficher les alertes météo en temps réel via terminal
-- [CoronavirOSINT](../../watch/technical-19c0251e942e91d7ee33.md) — Analyse en temps réel des données épidémiologiques pour comparaison et suivi.
-- [DorkSint](../../watch/technical-de90088a7594bcc86157.md) — Recherche rapide de dorks pour trouver des informations via des moteurs de recherche
+- [Cabal Proxy Harvester](../../watch/technical-dee6cae45f8c3798057c.md) — Collecte des proxies fonctionnels pour usage OSINT
+- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md)
+- [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Accéder aux alertes météo via terminal
+- [CoronavirOSINT](../../watch/technical-19c0251e942e91d7ee33.md) — Analyse des données de santé globales en temps réel
+- [DorkSint](../../watch/technical-de90088a7594bcc86157.md) — Recherche d'informations via des requêtes dork sur des moteurs de recherche
 - [Eyes](../../watch/technical-acd9eb29cb67574c16ec.md) — Recherche des comptes associés à une adresse email sans alerte.
+- [google_dorker](../../watch/technical-d924e27b47fa985d6e04.md)
 - [OSINT Cabal Live Center](../../watch/technical-1049081f67e5576ca9e6.md) — Collecte d'informations publiques via des outils OSINT en ligne.
 - [OSINTSky](../../watch/technical-cdbdf85699a704f19664.md)
-- [TeleGramSint](../../watch/technical-57e845072d92fede6967.md) — Rechercher des informations sur des comptes Telegram via des API.
-- [VIN-Number-OSINT](../../watch/technical-ca8e59013ec56e1d2be5.md) — Analyse VIN pour obtenir des données techniques.
-- [WhatsMyName](../../watch/technical-d6babbc48c72c3692516.md) — Vérifier l'existence d'un nom d'utilisateur sur des sites web.
 - [Sublist3r](../../watch/technical-91a4ed33e0fa4b66d349.md) — Trouver des sous-domaines d'un site web.
+- [TelegramOSINT-Kit](../../watch/technical-57e845072d92fede6967.md)
+- [VIN-Number-OSINT](../../watch/technical-ca8e59013ec56e1d2be5.md) — Analyse VIN pour extraire données techniques et de fabrication
 - [Web-Check](../../watch/technical-654478eba9c74251531f.md) — Analyse les vulnérabilités d'un site web
+- [WhatsMyName](../../watch/technical-d6babbc48c72c3692516.md)
 - [OpenOSINT](../../watch/technical-0be614d8a1eb180e4b8a.md) — Orchestre des recherches OSINT avec un modèle LLM pour produire un rapport structuré
 - [User Scanner](../../watch/technical-1d55b4cad34f154042bf.md) — Analyse des emails et usernames pour extraire des données.
 - [H4X-Tools](../../watch/technical-1805682cce69c18558d8.md) — Analyse de données d'identité à partir de sources externes

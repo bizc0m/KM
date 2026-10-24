@@ -6,9 +6,11 @@ actif
 
 ## Tags
 
+#generation-images
+
 ## Intérêts
 
-Afficher les contributions GitHub sous forme de badges.
+Afficher données GitHub sous forme d'image.
 
 ## Identité
 
@@ -27,8 +29,9 @@ Afficher les contributions GitHub sous forme de badges.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.active
-- Sujets : À qualifier
+- Identifiants : domain.media.image capability.generate.image source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Images et graphisme
+- Fonctions : Générer des contenus > Générer une image
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -44,17 +47,3 @@ Afficher les contributions GitHub sous forme de badges.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Affiche les contributions GitHub sous forme de badges.
-- Permet une visualisation claire de l'activité sur GitHub.
-- Utilise des badges pour représenter les données.
-- Fournit une présentation visuelle du profil utilisateur.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/tipsy/profile-summary-for-github
-- Analyse source : 2026-10-24T12:35:09.773Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

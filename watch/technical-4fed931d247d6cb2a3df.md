@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Permet d'explorer et de modifier le codebase avec des commandes naturelles
+Permet d'explorer et modifier le code avec un assistant IA
 
 ## Identité
 
@@ -29,8 +29,9 @@ Permet d'explorer et de modifier le codebase avec des commandes naturelles
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents domain.ai.llm domain.dev compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA ; Intelligence artificielle > Modèles de langage ; Développement logiciel
+- Identifiants : domain.ai.llm domain.dev.quality capability.code.assist compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Modèles de langage ; Développement logiciel > Qualité du code
+- Fonctions : Assister le développement
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
@@ -48,27 +49,3 @@ Permet d'explorer et de modifier le codebase avec des commandes naturelles
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Assiste dans la modification et l'exploration du codebase via des commandes naturelles
-- Permet l'exécution de commandes shell et la gestion de fichiers
-- Intègre un système de sous-agents pour la délegation de tâches
-- Fournit un système de configuration personnalisable via un fichier TOML
-
-## Usages documentés
-
-- vibe --agent ask
-- vibe --prompt "Refactor the main function"
-
-## Limites
-
-- Requiert un terminal moderne
-- Ne fonctionne pas correctement sous Windows
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/mistralai/mistral-vibe
-- Analyse source : 2026-10-24T07:38:20.941Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

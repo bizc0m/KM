@@ -1,4 +1,4 @@
-# uv : gestionnaire de projet et outil de déploiement Python
+# uv
 
 ## Statut
 
@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Gère les dépendances de projet avec des lockfiles.
+Intérêt à vérifier
 
 ## Identité
 
@@ -29,8 +29,8 @@ Gère les dépendances de projet avec des lockfiles.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.dev.dependencies domain.data.organization compatibility.language.python source.x source.github lifecycle.active
-- Sujets : Développement logiciel > Paquets et dépendances ; Données et connaissances > Organisation du travail
+- Identifiants : domain.dev.dependencies compatibility.language.python source.x source.github lifecycle.active
+- Sujets : Développement logiciel > Paquets et dépendances
 - Compatibilités : Langages > Python
 - Provenance : X / Twitter ; GitHub
 - État : Actif
@@ -49,17 +49,3 @@ Gère les dépendances de projet avec des lockfiles.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Gère les dépendances et environnements de projet avec des lockfiles.
-- Permet d'exécuter et d'installer des outils en tant que packages Python.
-- Installe et gère plusieurs versions de Python.
-- Fournit une interface pip compatible pour une meilleure performance.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/astral-sh/uv
-- Analyse source : 2026-10-24T07:13:53.857Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

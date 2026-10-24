@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Gère des tâches complexes avec des modèles externes
+Intérêt à vérifier
 
 ## Identité
 
@@ -51,24 +51,3 @@ Gère des tâches complexes avec des modèles externes
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Agent d'IA auto-améliorant avec boucle d'apprentissage interne
-- Interface terminal complète avec édition multiligne
-- Fonctionne sur cloud ou serveur avec faible coût
-- Intègre multiples fournisseurs de modèles
-
-## Usages documentés
-
-- hermes model
-- hermes tools
-- hermes config set
-- hermes gateway
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/nousresearch/hermes-agent
-- Analyse source : 2026-10-24T08:37:58.486Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

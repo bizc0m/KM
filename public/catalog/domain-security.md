@@ -2,25 +2,26 @@
 
 - [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA
 - [Bark](../../watch/technical-994bb8c95881181b98b3.md) — Envoyer des notifications via URL avec paramètres personnalisés.
-- [Cabal Proxy Harvester](../../watch/technical-dee6cae45f8c3798057c.md) — Collecte et vérification continue des proxies HTTP et SOCKS5
-- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Détecte rapidement les types d'IP et leur risque.
-- [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Afficher les alertes météo en temps réel via terminal
+- [Cabal Proxy Harvester](../../watch/technical-dee6cae45f8c3798057c.md) — Collecte des proxies fonctionnels pour usage OSINT
+- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md)
+- [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Accéder aux alertes météo via terminal
 - [CloakBrowser](../../watch/technical-2ffdb8097dd79859932a.md) — Contourner les détections anti-bot avec un navigateur modifié.
-- [CoronavirOSINT](../../watch/technical-19c0251e942e91d7ee33.md) — Analyse en temps réel des données épidémiologiques pour comparaison et suivi.
-- [DorkSint](../../watch/technical-de90088a7594bcc86157.md) — Recherche rapide de dorks pour trouver des informations via des moteurs de recherche
+- [CoronavirOSINT](../../watch/technical-19c0251e942e91d7ee33.md) — Analyse des données de santé globales en temps réel
+- [DorkSint](../../watch/technical-de90088a7594bcc86157.md) — Recherche d'informations via des requêtes dork sur des moteurs de recherche
 - [Eyes](../../watch/technical-acd9eb29cb67574c16ec.md) — Recherche des comptes associés à une adresse email sans alerte.
-- [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
+- [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md) — Centralise l'accès aux modèles LLM gratuits via un point d'accès unique
+- [google_dorker](../../watch/technical-d924e27b47fa985d6e04.md)
 - [OSINT Cabal Live Center](../../watch/technical-1049081f67e5576ca9e6.md) — Collecte d'informations publiques via des outils OSINT en ligne.
 - [OSINTSky](../../watch/technical-cdbdf85699a704f19664.md)
 - [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Protection des données sensibles avant l'envoi vers un API non contrôlé
-- [SubCat](../../watch/technical-c67a2647c3e09c338891.md) — Découvre des sous-domaines et génère des rapports web avec captures d'écran.
-- [TeleGramSint](../../watch/technical-57e845072d92fede6967.md) — Rechercher des informations sur des comptes Telegram via des API.
-- [undetected-chromedriver](../../watch/technical-270127c4040820721fee.md) — Exécute des navigateurs Chromium sans détection par les services anti-bot.
-- [VIN-Number-OSINT](../../watch/technical-ca8e59013ec56e1d2be5.md) — Analyse VIN pour obtenir des données techniques.
-- [WhatsMyName](../../watch/technical-d6babbc48c72c3692516.md) — Vérifier l'existence d'un nom d'utilisateur sur des sites web.
-- [Faker](../../watch/technical-72da768867f7d20473e6.md) — Génère des données fictives pour remplir des bases de données
+- [subcat](../../watch/technical-c67a2647c3e09c338891.md) — Découvre des sous-domaines et génère des rapports web avec captures d'écran.
 - [Sublist3r](../../watch/technical-91a4ed33e0fa4b66d349.md) — Trouver des sous-domaines d'un site web.
+- [TelegramOSINT-Kit](../../watch/technical-57e845072d92fede6967.md)
+- [undetected-chromedriver](../../watch/technical-270127c4040820721fee.md) — Exécute des navigateurs Chromium sans détection par les services anti-bot.
+- [VIN-Number-OSINT](../../watch/technical-ca8e59013ec56e1d2be5.md) — Analyse VIN pour extraire données techniques et de fabrication
 - [Web-Check](../../watch/technical-654478eba9c74251531f.md) — Analyse les vulnérabilités d'un site web
+- [WhatsMyName](../../watch/technical-d6babbc48c72c3692516.md)
+- [Faker](../../watch/technical-72da768867f7d20473e6.md) — Génère des données fictives pour remplir des bases de données
 - [Analyse et détection du malware sur macOS](../../watch/technical-53b65313df1efd7a5d72.md) — Analyser les processus pour détecter des anomalies
 - [curl-impersonate](../../watch/technical-b9848ad223c40a32fb39.md) — Imiter les navigateurs web pour contourner les restrictions de serveurs.
 - [FreeTube](../../watch/technical-91d6b06125ea90507740.md) — Regarder des vidéos sans publicité et sans suivi de Google

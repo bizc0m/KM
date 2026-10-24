@@ -4,12 +4,13 @@
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Stocke automatiquement les actions de l'agent pour une utilisation future
 - [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
 - [Claude SEO](../../watch/technical-2ac64d2afb7018ac9ff2.md) — Analyse un site web et propose un plan d'action pour améliorer son référencement
-- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
+- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md)
 - [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage sans interface utilisateur.
 - [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Exécute des tâches de codage localement avec un éditeur.
 - [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Permet d'éditer des fichiers dans un environnement terminal
 - [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md)
 - [Kami](../../watch/technical-49226a0e2e05fa223d37.md) — Génère des documents professionnels avec des modèles prédéfinis.
+- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
 - [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
 - [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
 - [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.

@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Créez et gérez des agents AI sans coder, via une interface unique.
+Intérêt à vérifier
 
 ## Identité
 
@@ -47,32 +47,3 @@ Créez et gérez des agents AI sans coder, via une interface unique.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Plateforme open source pour créer, consulter et interagir avec des agents IA.
-- Gère des agents de chat et de génération multimédia (image, vidéo, audio).
-- Interface web unique pour différents types d'agents.
-- Backend proxy pour exécuter le système localement avec ses propres clés API.
-
-## Usages documentés
-
-- cd server
-- pip install -r requirements.txt
-- cp .env .env.local
-- uvicorn app.main:app --reload
-- cd client
-- npm install
-- npm run dev
-
-## Limites
-
-- Requiert Node.js et Python pour le déploiement.
-- Dépend de bibliothèques externes comme FastAPI et React Flow.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/anil-matcha/open-ai-agents-hub
-- Analyse source : 2026-10-24T12:57:16.765Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

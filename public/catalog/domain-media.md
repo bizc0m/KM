@@ -1,7 +1,7 @@
 # Audio, vidéo et création
 
 - [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Crée des portraits professionnels avec des prompts textuels.
-- [AI Logo Studio](../../watch/technical-a20888d5cb6a1c399300.md) — Crée des logos professionnels à partir de textes ou de croquis en quelques secondes.
+- [AI Logo Studio](../../watch/technical-a20888d5cb6a1c399300.md)
 - [AI Meme Studio](../../watch/technical-28efa5970d38e5616943.md) — Crée des contenus viraux avec des modèles AI.
 - [AICLIPS Studio](../../watch/technical-937b200dbfd957aae460.md) — Extrait automatiquement des highlights viraux depuis des vidéos YouTube.
 - [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Génère et publie automatiquement du contenu sur plusieurs plateformes sociales.
@@ -9,7 +9,7 @@
 - [Assembler3d](../../watch/technical-674690abd042252d5376.md) — Assemble des pièces 3D à partir de données GLB et PNG.
 - [Awesome Generative AI Apps](../../watch/technical-c5cd3a5c95630c792129.md) — Créez et lancez des applications SaaS génératives avec des outils prêts à l'emploi
 - [Awesome Seedance 2.5 API Prompts](../../watch/technical-73ffc014f69d12660ff8.md) — Génère des vidéos à partir de prompts textuels ou multimodaux
-- [awesome-ai-video-models](../../watch/technical-e0275c5610589cad14d2.md) — Choisir le modèle de génération de vidéos AI adapté à un projet.
+- [awesome-ai-video-models](../../watch/technical-e0275c5610589cad14d2.md) — Choisir le meilleur modèle de génération de vidéos AI en fonction des besoins.
 - [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Génère des données 3D à partir de points de contrôle.
 - [ClearMark AI](../../watch/technical-6693a84665174f39d08b.md) — Supprime les marquages d'eau d'images avec IA
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications et services sur des serveurs propres avec gestion automatisée.
@@ -23,7 +23,7 @@
 - [elevenlabs-python](../../watch/technical-e1728cc13c4a61f359d1.md) — Convertir du texte en parole synthétique avec des modèles préconfigurés
 - [F5-TTS](../../watch/technical-a63a06d0b2276c289423.md) — Synthétise de la parole fluide et fidèle à partir de texte.
 - [faster-whisper](../../watch/technical-f5a99e06873448a9f3ba.md) — Transcrire des fichiers audio plus rapidement avec moins de ressources.
-- [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
+- [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md) — Centralise l'accès aux modèles LLM gratuits via un point d'accès unique
 - [Génération d'actifs 3D structurés](../../watch/technical-37356cc78499d8e4af94.md) — Génère des modèles 3D à partir d'images ou de textes.
 - [GSPN](../../watch/technical-383ec76df0f9b9e99e36.md) — Génère des propositions de forme 3D pour segmenter des objets dans un nuage de points.
 - [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des documents en markdown et générer des html ou docx.
@@ -37,17 +37,17 @@
 - [LongCat-Video](../../watch/technical-3794fe05156a712cb6fd.md) — Convertir du texte ou des images en vidéos longues.
 - [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md)
 - [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
-- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Découvrir, évaluer et exécuter 500+ modèles multimodaux en un clic.
+- [MoneyPrinter](../../watch/technical-9bd95807fef95eea1d8c.md) — Génère automatiquement des vidéos courtes pour YouTube à partir d'un sujet.
+- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
 - [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
 - [O2-Recon](../../watch/technical-712121d9735431107601.md) — Améliore la reconstruction 3D des objets masqués avec un modèle diffusion 2D
 - [Old Photo Restore](../../watch/technical-1a1b1c01fccbb652af5e.md) — Restaure des photos anciennes avec un moteur d'IA.
 - [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Cloner des voix sans connexion internet.
-- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md) — Créez et gérez des agents AI sans coder, via une interface unique.
-- [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
-- [Open-Generative-AI](../../watch/technical-411490b28204e94a3778.md) — Générer des images et vidéos sans filtres ni restrictions
+- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
+- [Open-AI-Design-Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Génère des créations multiples à partir d'un bref avec 200+ modèles
+- [Open-Generative-AI](../../watch/technical-411490b28204e94a3778.md) — Génère des images et vidéos avec des modèles open-source sans filtre.
 - [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel
-- [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Permet d'éditer des vidéos sur plusieurs plateformes.
-- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes et vidéos avec IA
+- [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Découpe des images en sections facilement.
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [ParticleSfM](../../watch/technical-1579309e1b490fa5279c.md) — Traite des séquences vidéo pour extraire des trajectoires de points.
 - [penpot](../../watch/technical-c0d4875dd605f77caf57.md) — Permet de collaborer en temps réel sur des projets de design.
@@ -55,6 +55,8 @@
 - [Pixal3D-ComfyUI](../../watch/technical-62ff8b189d833243b52d.md) — Permet de générer des modèles 3D à partir d'images 2D
 - [Pixelrelay](../../watch/technical-140649096e6d8069b2f4.md) — Gère les erreurs de fournisseurs avec un système de failover.
 - [Plugin mov-cli-youtube](../../watch/technical-52593ff508c40e9e2d49.md) — Lire des vidéos YouTube via mov-cli avec options audio et shorts
+- [profile-summary-for-github](../../watch/technical-4f05134572dbcb3265f2.md) — Afficher données GitHub sous forme d'image.
+- [Qwen-Image-API](../../watch/technical-c341f7566eb8b34cd45a.md) — Génère des images via l'API Qwen avec des paramètres avancés
 - [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Créez des vidéos via du code React, gagnez du temps et plus de contrôle.
 - [embed-sdk-js](../../watch/technical-f4619ecbc826ded4db95.md) — Affiche des vidéos torrent avec sous-titres et personnalisation.
 - [Seedance 2.5 API](../../watch/technical-4f09686ddcb30b511532.md) — Génère des vidéos AI à partir de textes et d'images
@@ -63,8 +65,8 @@
 - [StdGEN](../../watch/technical-39708b126c037da50e56.md) — Génère un modèle 3D détaillé à partir d'une image de référence.
 - [SuperSplat Editor](../../watch/technical-f7ea866b53ea3110371c.md) — Permet de modifier des splats 3D Gaussiens sans installation
 - [T3Bench](../../watch/technical-763a276cbab62cfc7a39.md) — Comparer les performances des modèles de génération 3D.
-- [tiktok-timestamp](../../watch/technical-73a929f1ca2e1edf16a9.md) — Récupère l'horodatage des vidéos TikTok supprimées.
-- [TikTok-User-Info-Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
+- [TikTok User Info Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
+- [tiktok-timestamp](../../watch/technical-73a929f1ca2e1edf16a9.md) — Récupère l'horodatage des vidéos TikTok supprimées
 - [TRELLIS.2](../../watch/technical-8a1d416625950ae0abb8.md) — Convertit des maillages texturés en voxel O-Voxel en quelques secondes.
 - [TrianFlow](../../watch/technical-611db130b2bc64852596.md) — Génère une carte de profondeur à partir d'une image.
 - [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
@@ -80,11 +82,9 @@
 - [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Ajoute des timestamps précis aux mots de la transcription
 - [yt-dlp](../../watch/technical-511a5089717fad8aad51.md) — Télécharge des contenus multimédia depuis des sites web.
 - [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
-- [MoneyPrinter](../../watch/technical-9bd95807fef95eea1d8c.md) — Configure l'environnement pour exécuter MoneyPrinter avec Ollama
 - [AI Creator Academy](../../watch/technical-21a78e48d74a8e6ab07f.md) — Créer des publicités vidéo vendables pour des marques réelles.
 - [Générateur de vidéo d'embrassade IA](../../watch/technical-d85e8aba072628b2e82b.md) — Crée des vidéos d'embrassade à partir de deux photos.
 - [Nano Banana Generator](../../watch/technical-d5417dd0599d69bd651b.md)
-- [Qwen-Image-API](../../watch/technical-c341f7566eb8b34cd45a.md) — Génère des images via l'API Qwen avec des paramètres avancés
 - [Wan2.1](../../watch/technical-20e40e65da16af4ff766.md) — Génère des vidéos à partir de texte et d'images avec des modèles optimisés pour GPU.
 - [chebyfit](../../watch/technical-6ff3b2d69dcfadd6ca9a.md) — Ajuste des données temporelles avec des modèles exponentiels et harmoniques.
 - [cmapfile](../../watch/technical-a5c98bf9207583bed63d.md) — Convertir des données volumétriques en fichiers CMAP compatibles Chimera.

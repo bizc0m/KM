@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Créez et gérez des agents AI sans coder, via une interface unique.
+Intérêt à vérifier
 
 ## Identité
 
@@ -27,10 +27,10 @@ Créez et gérez des agents AI sans coder, via une interface unique.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.ai.agents source.noteplan source.github source.x lifecycle.review
 - Sujets : Intelligence artificielle > Agents IA
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : Actif
+- État : À vérifier
 
 ## Sources
 
@@ -45,27 +45,3 @@ Créez et gérez des agents AI sans coder, via une interface unique.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Plateforme open source pour créer et interagir avec des agents IA.
-- Interface unique pour agents de chat et de génération multimédia.
-- Backend proxy pour exécuter le système avec ses propres clés API.
-- Architecture en frontend Next.js et backend FastAPI.
-
-## Usages documentés
-
-- cd server
-- pip install -r requirements.txt
-- cp .env .env.local
-- uvicorn app.main:app --reload
-- cd client
-- npm install
-- npm run dev
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/anil-matcha/open-poe-ai
-- Analyse source : 2026-10-24T12:57:16.765Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

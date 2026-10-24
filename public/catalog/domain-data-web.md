@@ -3,14 +3,13 @@
 - [AICLIPS Studio](../../watch/technical-937b200dbfd957aae460.md) — Extrait automatiquement des highlights viraux depuis des vidéos YouTube.
 - [ani-cli](../../watch/technical-2993f5bd5143a68eff85.md) — Permet de consulter des anime via une interface CLI
 - [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Recherche et stream d'animes via des fournisseurs.
-- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Détecte rapidement les types d'IP et leur risque.
-- [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Afficher les alertes météo en temps réel via terminal
+- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md)
 - [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md)
 - [maigret](../../watch/technical-6d84c860baa5311d1e0f.md) — Recherche d'informations sur un utilisateur via des comptes en ligne
 - [mov-cli](../../watch/technical-9e0cc8c5c3c327b3c50b.md) — Permet de streamer des médias via des plugins configurés.
 - [Scrapling](../../watch/technical-a352cd98ee30cd20d69a.md) — Extrait des données depuis des pages web statiques ou dynamiques
-- [TikTok-User-Info-Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
-- [Uscrapper Vanta](../../watch/technical-9068e1e4bc2dea6a7322.md) — Extraire des données web avec précision et organisation
+- [TikTok User Info Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
+- [Uscrapper Vanta](../../watch/technical-9068e1e4bc2dea6a7322.md) — Extrait des informations clés d'un site web avec des mots-clés précis.
 - [WebDiver](../../watch/technical-8a4e0d1ee4f13f3119dd.md) — Analyser les liens et extraire des données de sites web.
 - [H4X-Tools](../../watch/technical-2005809e9644ca2d23ec.md) — Correction des avertissements et amélioration de Git scrape
 - [camofox-browser](../../watch/technical-05a714c23543244771cf.md) — Piloter un navigateur headless pour les tâches web des agents.

@@ -6,10 +6,10 @@
 - [BAML](../../watch/technical-b79207044bee1b2d7073.md) — Crée des agents fiables avec des types statiques.
 - [Browser-Use](../../watch/browser-use-web-automation.md) — Automatiser des tâches web avec un LLM
 - [Bun](../../watch/technical-1f8d61fe04f2cb529ec1.md) — Exécute des scripts JavaScript et TypeScript rapidement.
-- [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Afficher les alertes météo en temps réel via terminal
+- [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Accéder aux alertes météo via terminal
 - [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les rendez-vous sans dépendance commerciale.
 - [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Génère des données 3D à partir de points de contrôle.
-- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
+- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md)
 - [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage sans interface utilisateur.
 - [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Exécute des tâches de codage localement avec un éditeur.
 - [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md)
@@ -20,7 +20,7 @@
 - [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md)
 - [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
 - [MiniSim](../../watch/technical-d93ed6a02625034b1939.md) — Lancer les émulateurs iOS et Android depuis la barre de menus macOS.
-- [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Permet d'explorer et de modifier le codebase avec des commandes naturelles
+- [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Permet d'explorer et modifier le code avec un assistant IA
 - [myfish](../../watch/technical-ae2b5f1a3fbdf8f6f54d.md)
 - [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
 - [open-grok-bot](../../watch/technical-dfc871508eb563893ba5.md) — Crée des personas bots avec des modèles spécifiques
@@ -33,11 +33,11 @@
 - [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Créez des vidéos via du code React, gagnez du temps et plus de contrôle.
 - [Selenium](../../watch/technical-d03eda2466f2556e6e1c.md) — Automatise les tests web avec des scripts.
 - [ShotGlass](../../watch/technical-8ae8d27d1412df2cdc2d.md) — enregistrer et éditer des captures d'écran avec IA
-- [SubCat](../../watch/technical-c67a2647c3e09c338891.md) — Découvre des sous-domaines et génère des rapports web avec captures d'écran.
+- [subcat](../../watch/technical-c67a2647c3e09c338891.md) — Découvre des sous-domaines et génère des rapports web avec captures d'écran.
 - [Supabase](../../watch/technical-2b5226bf08105545e1cf.md)
 - [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Analyse de type rapide avec diagnostics précis pour code Python
 - [tygo](../../watch/technical-b19b418d3fe93785fa21.md) — Convertit des structures Go en types Typescript pour front-end
-- [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Gère les dépendances de projet avec des lockfiles.
+- [uv](../../watch/technical-30e283a9b3f70e35d81a.md)
 - [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
 - [orogene](../../watch/technical-6bb0ffb5ad3771787603.md) — Installe les dépendances rapidement sans surcharger les ressources.

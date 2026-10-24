@@ -6,23 +6,21 @@
 - [AlphaTablets](../../watch/technical-ca3c69add82754901cf6.md) — Permet la reconstruction 3D de plans avec précision et contours nets.
 - [Awesome Generative AI Apps](../../watch/technical-c5cd3a5c95630c792129.md) — Créez et lancez des applications SaaS génératives avec des outils prêts à l'emploi
 - [Awesome Seedance 2.5 API Prompts](../../watch/technical-73ffc014f69d12660ff8.md) — Génère des vidéos à partir de prompts textuels ou multimodaux
-- [awesome-ai-video-models](../../watch/technical-e0275c5610589cad14d2.md) — Choisir le modèle de génération de vidéos AI adapté à un projet.
+- [awesome-ai-video-models](../../watch/technical-e0275c5610589cad14d2.md) — Choisir le meilleur modèle de génération de vidéos AI en fonction des besoins.
 - [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des documents en markdown et générer des html ou docx.
 - [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md)
 - [openai-api](../../watch/technical-f8f551d25eb73ecda1fd.md) — Génère des images avec des paramètres de résolution et de format.
-- [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier.
 - [Kling Video API via Muapi](../../watch/technical-6cc3ec716443f80c37a3.md) — Soumet une requête de génération et récupère l'identifiant de demande pour suivre le statut
 - [lobster](../../watch/technical-0ebd1f1b56ff3fc73866.md) — Rechercher et visionner des films et séries en ligne
 - [LongCat-Video](../../watch/technical-3794fe05156a712cb6fd.md) — Convertir du texte ou des images en vidéos longues.
 - [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
-- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Découvrir, évaluer et exécuter 500+ modèles multimodaux en un clic.
+- [MoneyPrinter](../../watch/technical-9bd95807fef95eea1d8c.md) — Génère automatiquement des vidéos courtes pour YouTube à partir d'un sujet.
+- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
 - [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
 - [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Cloner des voix sans connexion internet.
-- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md) — Créez et gérez des agents AI sans coder, via une interface unique.
-- [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
-- [Open-Generative-AI](../../watch/technical-411490b28204e94a3778.md) — Générer des images et vidéos sans filtres ni restrictions
-- [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Permet d'éditer des vidéos sur plusieurs plateformes.
-- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes et vidéos avec IA
+- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
+- [Open-AI-Design-Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Génère des créations multiples à partir d'un bref avec 200+ modèles
+- [Open-Generative-AI](../../watch/technical-411490b28204e94a3778.md) — Génère des images et vidéos avec des modèles open-source sans filtre.
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [ParticleSfM](../../watch/technical-1579309e1b490fa5279c.md) — Traite des séquences vidéo pour extraire des trajectoires de points.
 - [Pixelrelay](../../watch/technical-140649096e6d8069b2f4.md) — Gère les erreurs de fournisseurs avec un système de failover.
@@ -32,8 +30,8 @@
 - [Seedance 2.5 API](../../watch/technical-4f09686ddcb30b511532.md) — Génère des vidéos AI à partir de textes et d'images
 - [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md)
 - [stable-diffusion.cpp](../../watch/technical-94c4f976278cef504540.md) — Génère des images à partir de modèles de diffusion sans dépendances externes
-- [tiktok-timestamp](../../watch/technical-73a929f1ca2e1edf16a9.md) — Récupère l'horodatage des vidéos TikTok supprimées.
-- [TikTok-User-Info-Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
+- [TikTok User Info Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
+- [tiktok-timestamp](../../watch/technical-73a929f1ca2e1edf16a9.md) — Récupère l'horodatage des vidéos TikTok supprimées
 - [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
 - [Vibe Workflow](../../watch/technical-6ccb86641ecc996a74b9.md) — Crée des workflows d'IA visuels sans abonnement
 - [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence visuelle et narrative.
@@ -44,7 +42,6 @@
 - [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Génère et gère des contenus multimédia avec des modèles optimisés pour faible VRAM.
 - [yt-dlp](../../watch/technical-511a5089717fad8aad51.md) — Télécharge des contenus multimédia depuis des sites web.
 - [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
-- [MoneyPrinter](../../watch/technical-9bd95807fef95eea1d8c.md) — Configure l'environnement pour exécuter MoneyPrinter avec Ollama
 - [AI Creator Academy](../../watch/technical-21a78e48d74a8e6ab07f.md) — Créer des publicités vidéo vendables pour des marques réelles.
 - [Générateur de vidéo d'embrassade IA](../../watch/technical-d85e8aba072628b2e82b.md) — Crée des vidéos d'embrassade à partir de deux photos.
 - [Wan2.1](../../watch/technical-20e40e65da16af4ff766.md) — Génère des vidéos à partir de texte et d'images avec des modèles optimisés pour GPU.

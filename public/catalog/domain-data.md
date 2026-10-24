@@ -4,11 +4,10 @@
 - [ani-cli](../../watch/technical-2993f5bd5143a68eff85.md) — Permet de consulter des anime via une interface CLI
 - [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Recherche et stream d'animes via des fournisseurs.
 - [Awesome Generative AI Apps](../../watch/technical-c5cd3a5c95630c792129.md) — Créez et lancez des applications SaaS génératives avec des outils prêts à l'emploi
-- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Détecte rapidement les types d'IP et leur risque.
-- [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Afficher les alertes météo en temps réel via terminal
+- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md)
 - [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Permet de gérer les rendez-vous sans dépendance commerciale.
 - [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les rendez-vous sans dépendance commerciale.
-- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
+- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md)
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications et services sur des serveurs propres avec gestion automatisée.
 - [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md)
 - [geo-seo-claude](../../watch/technical-a3b183624a359158d2f2.md) — Analyse la visibilité GEO d'un site en quelques secondes
@@ -22,11 +21,9 @@
 - [PC-NBV](../../watch/technical-c88e811a1a66f8cd57ba.md) — Génère des données pour entraîner un modèle de visionnage optimal.
 - [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Gère les dépendances et les environnements
 - [Scrapling](../../watch/technical-a352cd98ee30cd20d69a.md) — Extrait des données depuis des pages web statiques ou dynamiques
-- [TikTok-User-Info-Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
-- [Uscrapper Vanta](../../watch/technical-9068e1e4bc2dea6a7322.md) — Extraire des données web avec précision et organisation
-- [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Gère les dépendances de projet avec des lockfiles.
+- [TikTok User Info Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
+- [Uscrapper Vanta](../../watch/technical-9068e1e4bc2dea6a7322.md) — Extrait des informations clés d'un site web avec des mots-clés précis.
 - [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence visuelle et narrative.
-- [VIN-Number-OSINT](../../watch/technical-ca8e59013ec56e1d2be5.md) — Analyse VIN pour obtenir des données techniques.
 - [WebDiver](../../watch/technical-8a4e0d1ee4f13f3119dd.md) — Analyser les liens et extraire des données de sites web.
 - [H4X-Tools](../../watch/technical-2005809e9644ca2d23ec.md) — Correction des avertissements et amélioration de Git scrape
 - [Catalogue d'applications open-source pour workflows SaaS](../../watch/technical-d757b4c5c60f5bd16d56.md) — Trouver des alternatives open-source aux outils SaaS.

@@ -1,6 +1,6 @@
 # Notes et organisation
 
-- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
+- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md)
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications et services sur des serveurs propres avec gestion automatisée.
 - [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
 - [ARGO](../../watch/technical-e3f44ce252af9ba887f8.md) — Recherche locale sans connexion.
