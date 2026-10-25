@@ -6,11 +6,11 @@ actif
 
 ## Tags
 
-#extraction-web
+#extraction-web, #recherche-documentaire, #python, #pdf
 
 ## Intérêts
 
-Recherche d'informations sur un utilisateur via des comptes en ligne
+Recherche d'informations sur un utilisateur via des sites web. Génère des rapports structurés.
 
 ## Identité
 
@@ -29,9 +29,10 @@ Recherche d'informations sur un utilisateur via des comptes en ligne
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.data.web capability.scraping source.noteplan source.github source.x lifecycle.active
-- Sujets : Données et connaissances > Collecte web
-- Fonctions : Extraire des données web
+- Identifiants : domain.ai domain.data.research domain.data.web capability.scraping capability.research compatibility.language.python compatibility.format.pdf source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle ; Données et connaissances > Recherche documentaire ; Données et connaissances > Collecte web
+- Fonctions : Extraire des données web ; Rechercher des documents
+- Compatibilités : Langages > Python ; Formats > PDF
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -47,26 +48,3 @@ Recherche d'informations sur un utilisateur via des comptes en ligne
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Collecte des informations sur un utilisateur par nom d'utilisateur
-- Vérifie des comptes sur plus de 5 900 sites
-- Recueille des données depuis des pages web et des API
-- Pas de clés API requises
-
-## Usages documentés
-
-- pip install maigret
-- maigret YOUR_USERNAME
-
-## Limites
-
-- Requiert Python 3.10 ou supérieur
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/soxoj/maigret
-- Analyse source : 2026-10-24T06:10:38.434Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Cloner des voix à partir d'audio
+Cloner des voix pour des agents IA sans dépendance externe
 
 ## Métadonnées
 
@@ -109,13 +109,13 @@ Cloner des voix à partir d'audio
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 1596.
-- Pages lues, tweet compris : 101.
+- Liens distincts recensés : 1649.
+- Pages lues, tweet compris : 102.
 - Sources techniques analysées : 63.
-- Sources à vérifier : 32 ; analyses non terminées : 0 ; erreurs du modèle : 4.
-- Liens non lus : 1294 (profondeur : 915, budget de pages : 363, délai : 0, erreurs : 16).
+- Sources à vérifier : 33 ; analyses non terminées : 0 ; erreurs du modèle : 4.
+- Liens non lus : 1347 (profondeur : 915, budget de pages : 416, délai : 0, erreurs : 16).
 - Pages résumées sur extrait : 30.
-- Éléments exclus : 203 ; doublons ignorés : 1.
+- Éléments exclus : 202 ; doublons ignorés : 1.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### Mécanisme de récompenses KiiChain basé sur l'usage et la mise en veKII
@@ -413,4 +413,4 @@ Mise à jour de Voicebox vers la version 0.4.3 avec des corrections de fiabilit�
 - Fix des voix japonaises Kokoro sur installation fraîche
 - Amélioration de la compatibilité macOS 15 Sequoia
 
-Source : https://github.com/jamiepine/voicebox/commit/328bdca61c76a
+Source : https://github.com/jamiepine/voi

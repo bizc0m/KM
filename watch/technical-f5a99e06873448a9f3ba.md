@@ -45,5 +45,5 @@ Transcrire des fichiers audio plus rapidement avec moins de ressources.
 - Origine : NotePlan
 - Identifiant source : f5a99e06873448a9f3baeadb990ec51ede53f09beaa6e776663e64e945570c49
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -6,11 +6,11 @@ actif
 
 ## Tags
 
-#memoire-agents, #agents-code, #terminal
+#memoire-agents, #agents-code, #terminal, #mcp
 
 ## Intérêts
 
-Stocke automatiquement les actions de l'agent pour une utilisation future
+Permet aux agents de conserver une mémoire persistante sans re-expliquer.
 
 ## Identité
 
@@ -29,10 +29,10 @@ Stocke automatiquement les actions de l'agent pour une utilisation future
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.memory domain.ai.agents.coding domain.dev.quality capability.memory capability.code.assist compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents ; Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel > Qualité du code
+- Identifiants : domain.ai.agents.memory domain.ai.agents.coding domain.dev.quality domain.ai.agents.integration capability.memory capability.code.assist compatibility.interface.terminal compatibility.protocol.mcp source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents ; Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel > Qualité du code ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
 - Fonctions : Conserver le contexte ; Assister le développement
-- Compatibilités : Interfaces > Terminal
+- Compatibilités : Interfaces > Terminal ; Protocoles > MCP
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -48,26 +48,3 @@ Stocke automatiquement les actions de l'agent pour une utilisation future
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Permet aux agents de codage de ne pas avoir à expliquer à nouveau des informations déjà connues
-- Fonctionne avec plusieurs outils de codage tels que Claude Code, GitHub Copilot CLI, Cursor, etc.
-- Utilise l'engine iii pour gérer la mémoire persistante
-- Capte automatiquement les actions de l'agent et les stocke en mémoire
-
-## Usages documentés
-
-- npx -y @agentmemory/agentmemory@latest
-
-## Limites
-
-- Requiert Node.js 20 ou version ultérieure
-- Nécessite des outils comme curl, sh et tar sur macOS/Linux
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/rohitg00/agentmemory
-- Analyse source : 2026-10-24T05:23:10.717Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -76,7 +76,7 @@ Transforme du texte en visuels pour faciliter la communication des idées
 - Origine : NotePlan
 - Identifiant source : 8f21f303780816389735c0582f567d3814cfe8f6d4a9e85977ba5f8365ad43b5
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens

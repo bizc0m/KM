@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Crée une API REST sans configuration complexe
 
 ## Identité
 
@@ -27,10 +27,10 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.dev.api domain.infrastructure.database source.noteplan source.github source.x lifecycle.review
-- Sujets : Développement logiciel > API et services applicatifs ; Infrastructure > Bases de données
+- Identifiants : domain.ai domain.dev.api domain.infrastructure.database source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle ; Développement logiciel > API et services applicatifs ; Infrastructure > Bases de données
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
 
 ## Sources
 
@@ -44,5 +44,5 @@ Intérêt à vérifier
 - Origine : NotePlan
 - Identifiant source : 2b5226bf08105545e1cfaa9ab06798f008a57ae4e15ab8a1c1c1c096450071df
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

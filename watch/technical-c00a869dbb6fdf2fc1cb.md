@@ -42,5 +42,5 @@ Télécharger des fichiers via des torrents et les stocker en cloud
 - Origine : NotePlan
 - Identifiant source : c00a869dbb6fdf2fc1cb5f0d9b6373fd9e29fd2cbdc238b34ba11717a0b66cd8
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

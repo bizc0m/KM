@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Permet d'automatiser des tâches complexes avec un agent d'intelligence artificielle.
+Intérêt à vérifier
 
 ## Identité
 
@@ -45,34 +45,5 @@ Permet d'automatiser des tâches complexes avec un agent d'intelligence artifici
 - Origine : NotePlan
 - Identifiant source : c133b93b912dffd605a2b382ae3020240048f184ad34643dc76204d877873262
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Adapte Pi aux workflows sans contraintes.
-- Customise Pi avec extensions, compétences et thèmes.
-- Utilise des packages pour partager des fonctionnalités.
-- Intégre des outils comme le SDK TypeScript.
-- Contrôle Pi via RPC ou CLI.
-- Fournit des exemples d'intégration réels.
-
-## Usages documentés
-
-- cd /path/to/project
-- pi
-- /login
-- pi update
-
-## Limites
-
-- Requiert Node.js 22.19 ou plus récent.
-- Pas de système de permission intégré.
-- Nécessite un accès internet pour les mises à jour.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/earendil-works/pi
-- Analyse source : 2026-10-24T07:13:53.857Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

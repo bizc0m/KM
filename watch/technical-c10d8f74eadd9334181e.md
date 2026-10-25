@@ -42,5 +42,5 @@ Sépare les éléments audio d'une piste en utilisant un modèle avancé.
 - Origine : NotePlan
 - Identifiant source : c10d8f74eadd9334181ebbb693728d0de3bfd9fd958134b06267b80ebe158622
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -63,7 +63,6 @@ Fixer un style visuel avant génération de code pour éviter les templates inad
 - https://code.claude.com/docs/en/skills
 - https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
 - https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro
-- https://github.com/anthropics/claude-cookbooks/tree/main/skills
 - https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed
 - https://github.com/kaguya233qwq/myfish
 - https://github.com/cv-cat/xianyuapis
@@ -74,19 +73,19 @@ Fixer un style visuel avant génération de code pour éviter les templates inad
 - Origine : NotePlan
 - Identifiant source : 78841380644580638df96ddcafa7f538eca2d5e70244405223afbe59889ba437
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 829.
-- Pages lues, tweet compris : 88.
-- Sources techniques analysées : 34.
-- Sources à vérifier : 51 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 682 (profondeur : 666, budget de pages : 0, délai : 0, erreurs : 16).
+- Liens distincts recensés : 830.
+- Pages lues, tweet compris : 87.
+- Sources techniques analysées : 33.
+- Sources à vérifier : 52 ; analyses non terminées : 0 ; erreurs du modèle : 0.
+- Liens non lus : 684 (profondeur : 667, budget de pages : 0, délai : 0, erreurs : 17).
 - Pages résumées sur extrait : 8.
-- Éléments exclus : 58 ; doublons ignorés : 5.
+- Éléments exclus : 57 ; doublons ignorés : 5.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### Gestion de plusieurs comptes sur Xianyu avec automatisation
@@ -236,10 +235,11 @@ Source : https://skills.sh/anthropics/skills/pdf ; niveau 3.
 
 Créer, modifier et manipuler des fichiers .docx avec formatage complet. Extraire du texte et analyser le contenu. Convertir des fichiers .doc en .docx. Gérer le formatage professionnel.
 
-- Création de nouveaux fichiers .docx avec formatage complet.
-- Modification de documents existants via l'éditeur XML.
-- Extraction et analyse du contenu via pandoc ou XML.
-- Conversion des fichiers .doc vers le format .docx.
+- Créer des fichiers .docx avec formatage complet.
+- Modifier des fichiers .docx en manipulant le XML.
+- Extraire du texte et analyser le contenu.
+- Convertir des fichiers .doc en .docx.
+- Gérer le formatage professionnel comme les marges et les colonnes.
 
 Source : https://skills.sh/anthropics/skills/docx ; niveau 3.
 
@@ -302,10 +302,10 @@ Source : https://skills.sh/anthropics/skills/doc-coauthoring ; niveau 3.
 
 Crée des œuvres d'art génératif avec p5.js. Génère des philosophies algorithmiques. Produit des fichiers HTML et JS. Utilise la randomisation seedée.
 
-- Génère des œuvres d'art génératif avec p5.js
-- Crée des philosophies algorithmiques exprimées via du code
-- Produit des fichiers HTML et JS interactifs
-- Utilise la randomisation seedée pour des variations reproductibles
+- Crée des œuvres d'art génératif avec p5.js
+- Génère des philosophies algorithmiques
+- Produit des fichiers HTML et JS
+- Utilise la randomisation seedée
 
 Source : https://skills.sh/anthropics/skills/algorithmic-art ; niveau 3.
 
@@ -322,12 +322,12 @@ Source : https://skills.sh/anthropics/skills/internal-comms ; niveau 3.
 
 ### template-skill
 
-Template Skill pour intégration de compétences. Installation via npx. Dépôt GitHub. 183.3K étoiles.
+Template Skill pour intégration de compétences. Installation via npx. Dépôt GitHub. 183.5K étoiles.
 
 - Template Skill pour intégration de compétences
 - Installation via npx
 - Dépôt GitHub
-- 183.3K étoiles
+- 183.5K étoiles
 
 Source : https://skills.sh/anthropics/skills/template-skill ; niveau 3.
 
@@ -383,4 +383,6 @@ Source : https://code.claude.com/docs/en/skills ; niveau 3.
 
 Guide for creating effective Skills for Claude. Focus on conciseness, specificity, and testing across models. Emphasize clear naming and structured descriptions.
 
-- Guide
+- Guide provides authoring decisions for Skills
+- Focus on conciseness and context sharing
+- Test Skills with mu

@@ -7,7 +7,7 @@
 - [book-to-skill](../../watch/technical-389040200a86ce208431.md) — Enregistre les preuves de conversion de livres en compétences.
 - [skills_feed](../../watch/technical-57435869059c16d7e579.md) — Collecte et organisation des compétences AI pour un accès centralisé
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
-- [Skills For Real Engineers](../../watch/technical-637c99109af31ed2fe7b.md) — Aide à l'alignement entre utilisateur et agent via des sessions d'interrogation
+- [Skills For Real Engineers](../../watch/technical-637c99109af31ed2fe7b.md) — Aligner les besoins avec l'agent avant de commencer
 - [Awesome Agent Skills](../../watch/technical-42c5a49b8cf68812c97a.md) — Créez des compétences agent pour des outils comme Claude, Gemini, Cursor.
 - [Anthropic Cybersecurity Skills](../../watch/technical-02d73009ec03d24b2e22.md)
 - [700-cybersecurity-skills](../../watch/technical-f26c6abfcce6e427cbf6.md) — Ajout de compétences de cybersécurité pour agents IA

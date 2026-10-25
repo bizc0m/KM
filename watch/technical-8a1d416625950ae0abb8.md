@@ -45,5 +45,5 @@ Convertit des maillages texturés en voxel O-Voxel en quelques secondes.
 - Origine : NotePlan
 - Identifiant source : 8a1d416625950ae0abb8e2b5d335203710bf6d0e790778065c8f1dbd1571823f
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

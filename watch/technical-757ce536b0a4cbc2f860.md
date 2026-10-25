@@ -1,4 +1,4 @@
-# OpenDesign: Workspace collaboratif pour agents AI
+# OpenDesign
 
 ## Statut
 
@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel
+Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel
 
 ## Identité
 
@@ -27,8 +27,8 @@ Crée des prototypes interactifs avec un agent AI et une prévisualisation en te
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents domain.ai.llm source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA ; Intelligence artificielle > Modèles de langage
+- Identifiants : domain.ai.agents source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -57,5 +57,5 @@ Crée des prototypes interactifs avec un agent AI et une prévisualisation en te
 - Origine : NotePlan
 - Identifiant source : d8ff876dfb1eadf08a100b53f794ef54a69e7b476b1a3a841ca2e4b21264a13d
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

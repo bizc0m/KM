@@ -67,5 +67,5 @@ Définir un format ouvert pour partager les compétences des agents.
 - Origine : NotePlan
 - Identifiant source : 48dbbdd8fd0d302995a78e829a00f132701eb7b8486d5cb9fbdaf1a3f8828a23
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -43,5 +43,5 @@ Télécharge des contenus multimédia depuis des sites web.
 - Origine : NotePlan
 - Identifiant source : 511a5089717fad8aad5196b9c7bb80fab44cb234d370beac9dbfc5ff552f6bdf
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

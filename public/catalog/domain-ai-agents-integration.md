@@ -1,11 +1,12 @@
 # Connecteurs et outils des agents
 
 - [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
-- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage sans interface utilisateur.
+- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Permet aux agents de conserver une mémoire persistante sans re-expliquer.
+- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches dans le terminal avec des modèles.
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications et services sur des serveurs propres avec gestion automatisée.
 - [Migration vers Kimi Code CLI](../../watch/technical-15ae02c43b612a6e8c46.md) — Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP.
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
-- [UI-TARS-desktop](../../watch/technical-bba9c08d417b5cda22d8.md) — Contrôle à distance des navigateurs et ordinateurs via interface graphique
+- [UI-TARS-desktop](../../watch/technical-bba9c08d417b5cda22d8.md) — Contrôle à distance des ordinateurs et navigateurs avec interface graphique
 - [mcp-x-intelligence](../../watch/technical-2f6822b143b06b36cbc7.md) — Recherche de contenu viral via des filtres d'engagement
 - [User Scanner](../../watch/technical-1d55b4cad34f154042bf.md) — Analyse des emails et usernames pour extraire des données.
 - [gemini-cli](../../watch/technical-24684c1ecca249c03e58.md) — Interagir avec Gemini via terminal pour exécuter des tâches de code

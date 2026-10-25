@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Analyse les données pour identifier les problèmes et optimiser les campagnes.
+Analyse données publicitaires pour identifier problèmes et optimisations
 
 ## Identité
 
@@ -45,19 +45,5 @@ Analyse les données pour identifier les problèmes et optimiser les campagnes.
 - Origine : NotePlan
 - Identifiant source : 8eec6dc58fee3af126d1e18902f4da067d84fd308f216f543bcc689aab3500e3
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Analyse les données des comptes publicitaires pour identifier les points forts et faibles.
-- Fournit des rapports détaillés avec des preuves pour chaque constatation.
-- Propose des suggestions d'amélioration basées sur des données.
-- Permet de surveiller les performances et l'évolution des campagnes.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/agricidaniel/claude-ads
-- Analyse source : 2026-10-24T07:55:22.685Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

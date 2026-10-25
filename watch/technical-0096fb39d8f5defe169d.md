@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Crée une boutique en ligne avec modules commerciaux
+Crée des magasins B2B ou DTC avec des primitives commerciales
 
 ## Identité
 
@@ -44,5 +44,5 @@ Crée une boutique en ligne avec modules commerciaux
 - Origine : NotePlan
 - Identifiant source : 0096fb39d8f5defe169dd8e72460eb0af26b9cb743f0a83d05626c40ff821311
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

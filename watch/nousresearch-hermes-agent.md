@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Gère des tâches complexes avec des modèles externes
 
 ## Identité
 
@@ -49,5 +49,5 @@ Intérêt à vérifier
 - Origine : NotePlan
 - Identifiant source : a17476e9d7955152138283110c7070bbcee5ac285cd06e6b5165969c461c4cb6
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -13,7 +13,7 @@
 - [google_dorker](../../watch/technical-d924e27b47fa985d6e04.md)
 - [OSINT Cabal Live Center](../../watch/technical-1049081f67e5576ca9e6.md) — Collecte d'informations publiques via des outils OSINT en ligne.
 - [OSINTSky](../../watch/technical-cdbdf85699a704f19664.md)
-- [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Protection des données sensibles avant l'envoi vers un API non contrôlé
+- [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Anonymise les données sensibles avant transmission
 - [subcat](../../watch/technical-c67a2647c3e09c338891.md) — Découvre des sous-domaines et génère des rapports web avec captures d'écran.
 - [Sublist3r](../../watch/technical-91a4ed33e0fa4b66d349.md) — Trouver des sous-domaines d'un site web.
 - [TelegramOSINT-Kit](../../watch/technical-57e845072d92fede6967.md)

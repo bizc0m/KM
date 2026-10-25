@@ -2,7 +2,7 @@
 
 - [Bark](../../watch/technical-994bb8c95881181b98b3.md) — Envoyer des notifications via URL avec paramètres personnalisés.
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md) — Centralise l'accès aux modèles LLM gratuits via un point d'accès unique
-- [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Protection des données sensibles avant l'envoi vers un API non contrôlé
+- [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Anonymise les données sensibles avant transmission
 - [Faker](../../watch/technical-72da768867f7d20473e6.md) — Génère des données fictives pour remplir des bases de données
 - [curl-impersonate](../../watch/technical-b9848ad223c40a32fb39.md) — Imiter les navigateurs web pour contourner les restrictions de serveurs.
 - [FreeTube](../../watch/technical-91d6b06125ea90507740.md) — Regarder des vidéos sans publicité et sans suivi de Google

@@ -38,21 +38,18 @@ Cloner des voix sans connexion internet.
 - https://voicestudio.sh/
 - https://supermetry.com/
 - https://raw.githubusercontent.com/debpalash/VoiceStudio/main/scripts/install.sh
-- https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/install/macos.md
-- https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/install/windows.md
-- https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/install/linux.md
-- https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/install/docker.md
-- https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/performance.md
-- https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/install/agent.md
-- https://raw.githubusercontent.com/debpalash/VoiceStudio/main/electron/README.md
-- https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/electron-migration.md
-- https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/install/troubleshooting.md
-- https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/downloading-models.md
-- https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/mcp.md
-- https://raw.githubusercontent.com/debpalash/VoiceStudio/main/examples/README.md
-- https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/mobile.md
-- https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/licensing/model-inventory.md
-- https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/licensing/model-review-workflow.md
+- https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/install/macos.md
+- https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/install/windows.md
+- https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/install/linux.md
+- https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/install/docker.md
+- https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/install/agent.md
+- https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/electron/README.md
+- https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/install/troubleshooting.md
+- https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/downloading-models.md
+- https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/mcp.md
+- https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/examples/README.md
+- https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/mobile.md
+- https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/licensing/model-review-workflow.md
 - https://voicestudio.sh/workflows/voice-clone
 - https://voicestudio.sh/workflows/audiobook
 - https://voicestudio.sh/workflows/transcripts
@@ -77,36 +74,36 @@ Cloner des voix sans connexion internet.
 - https://github.com/debpalash/voicestudio/pull/2295
 - https://github.com/debpalash/voicestudio/pull/2296
 - https://github.com/debpalash/voicestudio/pull/2288
-- https://github.com/debpalash/voicestudio/pull/3314
+- https://github.com/debpalash/voicestudio/pull/3325
 
 ## Traçabilité
 
 - Origine : NotePlan
 - Identifiant source : ec4042ee07d812013635f180df07163ecb483fedc6e93ca02a1addbf58937d63
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 2293.
-- Pages lues, tweet compris : 102.
-- Sources techniques analysées : 45.
-- Sources à vérifier : 52 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 1774 (profondeur : 1505, budget de pages : 257, délai : 0, erreurs : 12).
-- Pages résumées sur extrait : 17.
+- Liens distincts recensés : 2290.
+- Pages lues, tweet compris : 100.
+- Sources techniques analysées : 42.
+- Sources à vérifier : 53 ; analyses non terminées : 0 ; erreurs du modèle : 1.
+- Liens non lus : 1772 (profondeur : 1465, budget de pages : 293, délai : 0, erreurs : 14).
+- Pages résumées sur extrait : 18.
 - Éléments exclus : 422 ; doublons ignorés : 1.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### VoiceStudio
 
-Outil open-source pour la synthèse vocale. Supporte 646 langues. Fonctionne localement. Permet la création d'audiobooks.
+[1] Outil open-source pour la synthèse vocale et la duplication de voix. [2] Supporte 646 langues. [3] Fonctionnalités incluent la création d'audiobooks, la transcription et la dubbing vidéo. [4] Exécution locale sans connexion internet.
 
-- Outil open-source pour la synthèse vocale.
+- Outil open-source pour la synthèse vocale et la duplication de voix.
 - Supporte 646 langues.
-- Fonctionne localement sans connexion.
-- Permet la création d'audiobooks.
+- Fonctionnalités incluent la création d'audiobooks, la transcription et la dubbing vidéo.
+- Exécution locale sans connexion internet.
 
 Source : https://trendshift.io/repositories/28176 ; niveau 2.
 
@@ -152,7 +149,7 @@ VoiceStudio est une application macOS basée sur Electron. Elle nécessite macOS
 - VoiceStudio utilise Apple MPS pour l'accélération GPU.
 - VoiceStudio inclut Python, FFmpeg et des poids de modèles.
 
-Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/install/macos.md ; niveau 2.
+Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/install/macos.md ; niveau 2.
 
 ### VoiceStudio
 
@@ -163,24 +160,18 @@ VoiceStudio est une application Windows basée sur Electron. Elle nécessite Win
 - VoiceStudio utilise Python, FFmpeg et des modèles de poids.
 - VoiceStudio peut fonctionner sans GPU.
 
-Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/install/windows.md ; niveau 2.
+Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/install/windows.md ; niveau 2.
 
-### Installation et configuration de VoiceStudio sur Linux
+### VoiceStudio
 
-Documentation technique pour installer VoiceStudio sur Linux avec des détails sur les prérequis, les méthodes d'installation, les configurations GPU et les solutions de problèmes courants.
+Application de synthèse vocale pour Linux. Requiert un environnement graphique. Utilise PyTorch avec CUDA ou CPU. Installation via AppImage ou .deb.
 
-- Permet l'installation de VoiceStudio sur Linux x86_64 avec un environnement graphique.
-- Exige ~10 GB de disque libre pour l'application et les modèles.
-- Supporte les GPU NVIDIA avec CUDA ou AMD avec ROCm.
-- Fournit des commandes pour installer via AppImage ou .deb.
-- Permet la configuration manuelle des dépendances Python et des outils requis.
-- Fournit des solutions pour les problèmes de compatibilité et de réseau.
-- Permet l'optimisation des performances avec des modèles légers.
-- Fournit des instructions pour les utilisateurs de ChromeOS et d'autres appareils.
-- Permet la gestion des raccourcis clavier sur Wayland.
-- Fournit des solutions pour les erreurs de rendu graphique et de GPU.
+- Application de synthèse vocale pour Linux
+- Requiert un environnement graphique X11 ou Wayland
+- Utilise PyTorch avec CUDA ou CPU
+- Installation via AppImage ou .deb
 
-Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/install/linux.md ; niveau 2.
+Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/install/linux.md ; niveau 2.
 
 ### VoiceStudio
 
@@ -191,54 +182,29 @@ VoiceStudio est un outil basé sur Docker pour exécuter des modèles de synthè
 - Les modèles sont téléchargés depuis Hugging Face.
 - Les images Docker sont disponibles sur Docker Hub et GitHub Container Registry.
 
-Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/install/docker.md ; niveau 2.
+Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/install/docker.md ; niveau 2.
 
-### Optimisation de la performance de VoiceStudio
+### Installation VoiceStudio
 
-Guide technique pour optimiser la performance de VoiceStudio en identifiant les causes courantes de ralentissement et en expliquant les paramètres ajustables.
+Installation d'VoiceStudio via un agent de codage. Utilisation d'Electron. Configuration d'un moteur de clonage vocal. Vérification de l'installation via l'API.
 
-- Vérifier le champ Transcript d'un profil vocal pour éviter une transcription ASR répétée.
-- Le premier génération après un redémarrage est toujours plus lente en raison du chargement des poids du modèle.
-- La pression mémoire peut ralentir VoiceStudio sur des machines à 16 Go.
-- Générer sur CPU sans être conscient de cela peut ralentir le processus de génération.
-- Paramètres ajustables pour optimiser l'utilisation du matériel et la gestion de la mémoire.
+- Installation d'VoiceStudio via un agent de codage.
+- Utilisation de l'application Electron pour l'installation.
+- Configuration d'un moteur de clonage vocal compatible.
+- Vérification de l'installation via l'API du backend.
 
-Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/performance.md ; niveau 2.
+Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/install/agent.md ; niveau 2.
 
-### Installation de VoiceStudio avec un agent de codage
+### VoiceStudio
 
-Documentation pour installer VoiceStudio via un agent de codage, avec des règles et étapes détaillées.
+Application de bureau pour la clonage de voix, transcription et workflows. Utilise Electron et FastAPI. Génère localement sans connexion internet. Gère les modèles et les profils vocaux.
 
-- Installer VoiceStudio via un agent de codage comme Claude Code ou Codex.
-- Vérifier le matériel réel avant l'installation.
-- Configurer un moteur de clonage de voix adapté au matériel.
-- Vérifier l'installation via l'API et générer un clip audio.
+- Application de bureau pour la clonage de voix, transcription et workflows
+- Utilise Electron et FastAPI pour le backend local
+- Génère localement sans connexion internet
+- Gère les modèles et les profils vocaux
 
-
-Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/install/agent.md ; niveau 2.
-
-### VoiceStudio - Electron desktop app
-
-Application de bureau Electron pour la clonage de voix, transcription et workflows audio.
-
-- Clonage de voix et workflows audio via Electron
-- Backend local géré par un superviseur
-- Configuration requise pour les connexions distantes
-- Support pour exécution sans GPU
-
-Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/electron/README.md ; niveau 2.
-
-### Migration de Tauri vers Electron
-
-Instructions pour migrer une application Tauri vers Electron en préservant les données.
-
-- Sauvegarder le répertoire de données Tauri avant migration.
-- Installer Electron et éviter l'utilisation commune des données.
-- Vérifier la configuration de stockage d'Electron avant utilisation.
-- Tester la migration avec un clip sonore court avant suppression.
-
-
-Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/electron-migration.md ; niveau 2.
+Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/electron/README.md ; niveau 2.
 
 ### VoiceStudio
 
@@ -249,7 +215,7 @@ Documentation sur la résolution des erreurs d'installation de VoiceStudio. List
 - Instructions pour le diagnostic automatique et les tests de l'application.
 - Méthodes pour déboguer les problèmes de port, de mémoire, de modèle et de dépendances.
 
-Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/install/troubleshooting.md ; niveau 2.
+Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/install/troubleshooting.md ; niveau 2.
 
 ### VoiceStudio modèle téléchargement
 
@@ -260,62 +226,51 @@ VoiceStudio télécharge les modèles depuis Hugging Face Hub. Le téléchargeme
 - Le backend utilise legacy LFS pour un suivi précis.
 - Un accélérateur segmenté est activé par défaut.
 
-Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/downloading-models.md ; niveau 2.
+Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/downloading-models.md ; niveau 2.
 
-### Serveur MCP pour synthèse vocale et gestion des agents
+### MCP server
 
-Serveur MCP permettant aux agents d'effectuer des tâches vocales.
+Serveur MCP pour synthèse vocale, clonage, transcription et gestion des voix.
 
-- Synthèse vocale à partir de texte avec un profil vocal spécifique.
-- Clonage d'une voix à partir d'un audio de référence.
-- Description d'une voix à partir d'une description textuelle.
-- Création d'un profil vocal basé sur une description.
-- Transcription d'un audio vers du texte en 646 langues.
+- Permet aux agents AI de synthétiser la parole.
+- Clonage de voix à partir d'enregistrements audio.
+- Transcription audio vers texte en 646 langues.
+- Gestion des profils vocaux et des langues disponibles.
 
-Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/mcp.md ; niveau 2.
+Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/mcp.md ; niveau 2.
 
-### Exemples d'intégration VoiceStudio
+### VoiceStudio
 
-Ce répertoire contient des exemples d'intégration, des scripts et configurations pour l'entraînement, le finetuning et l'évaluation de VoiceStudio.
+VoiceStudio inclut des exemples d'intégration, scripts et configurations pour l'entraînement, le finetuning et l'évaluation. Il permet de charger des données, de les tokeniser et d'entraîner des modèles. Il offre des scripts pour évaluer des métriques comme WER et UTMOS.
 
-- Vérification des données et tokenisation pour l'entraînement
-- Finetuning à partir d'un checkpoint pré-entraîné
-- Évaluation des métriques WER et UTMOS
+- VoiceStudio fournit des exemples d'intégration, scripts et configurations pour l'entraînement, le finetuning et l'évaluation.
+- VoiceStudio permet de charger des données, de les tokeniser et d'entraîner des modèles.
+- VoiceStudio inclut des scripts pour évaluer des métriques comme WER et UTMOS.
+- VoiceStudio nécessite des données JSONL et des ensembles de test standardisés pour l'évaluation.
 
-Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/examples/README.md ; niveau 2.
+Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/examples/README.md ; niveau 2.
 
 ### VoiceStudio mobile apps
 
-Apps permettent de parler, cloner des voix, dubler et dictater hors ligne. Modèles téléchargés restent sur le téléphone. Possibilité de pairer avec un ordinateur.
+Apps permettent de parler, cloner des voix, dubber et transcrire hors ligne. Modèles téléchargés restent sur le téléphone. Possibilité de pairer avec un ordinateur.
 
 - Speech, voice cloning, dictation and dubbing work offline
-- Models stay on the phone after download
-- Phone can be paired with computer for tasks
+- Models stay on the phone if cloned there
+- Phone can pair with computer for task selection
 - Models are downloaded from Hugging Face
 
-Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/mobile.md ; niveau 2.
+Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/mobile.md ; niveau 2.
 
-### Gestion des licences des modèles
+### Licence acceptance and model review system
 
-Gestion des licences des modèles avec vérification des termes et des sources.
+Système de validation des licences avant utilisation. Acceptation locale des modèles. Contrôle des droits d'utilisation. Gestion des accords de licence.
 
-- Enregistrement des licences des modèles dans un fichier JSON.
-- Vérification des termes de licence pour l'utilisation commerciale.
-- Génération de données de licence à partir d'un registre.
-- Vérification des sources et des termes des modèles.
+- Validation des licences avant utilisation des modèles.
+- Acceptation locale des modèles enregistrée.
+- Contrôle des droits d'utilisation des modèles.
+- Gestion des accords de licence via des dialogues détaillés.
 
-Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/licensing/model-inventory.md ; niveau 2.
-
-### Gestion des licences des modèles
-
-Documentation technique sur la gestion des licences des modèles dans VoiceStudio.
-
-- Acceptation des licences avant utilisation des modèles.
-- Contrôle local des acceptations par modèle.
-- Fingerprint des termes des licences.
-- Gestion des accords via API pour les utilisateurs headless.
-
-Source : https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/licensing/model-review-workflow.md ; niveau 2.
+Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/licensing/model-review-workflow.md ; niveau 2.
 
 ### Clonage vocal local avec VoiceStudio
 
@@ -380,15 +335,62 @@ Source : https://voicestudio.sh/blog/why-voicestudio-pro ; niveau 3.
 
 ### palashdeb/omnivoice-studio
 
-Docker image pour VoiceStudio. Fonctionne localement sans API. Support 646 langues. Utilisation GPU ou CPU.
+Docker image pour exécuter VoiceStudio localement. Fonctionne sur CPU ou GPU. Nécessite 8 GB RAM. Support 646 langues.
 
-- Docker image pour l'application VoiceStudio
-- Fonctionne localement sans dépendance cloud
-- Supporte 646 langues pour la synthèse vocale
-- Possibilité d'utiliser GPU ou CPU
+- Docker image pour exécuter VoiceStudio localement
+- Fonctionne sur CPU ou GPU
+- Nécessite 8 GB RAM
+- Support 646 langues
 
 Source : https://hub.docker.com/r/palashdeb/omnivoice-studio ; niveau 3.
 
 ### elevenlabs-python
 
-SDK Python pour l'API ElevenLabs. Permet de générer des voix synthétiques. Intégre des
+SDK officiel pour ElevenLabs. Permet de générer du texte en parole. Intégre des modèles vocaux. Gère les requêtes API.
+
+- SDK officiel pour ElevenLabs
+- Permet de générer du texte en parole
+- Intègre des modèles vocaux
+- Gère les requêtes API
+
+Source : https://github.com/elevenlabs/elevenlabs-python ; niveau 3.
+
+### VoiceStudio
+
+VoiceStudio est un logiciel open source alternatif à ElevenLabs. Il permet la clonage de voix, la conception de voix et le doublage de vidéos. Il est écrit en Python et sous licence AGPL-3.0.
+
+- VoiceStudio est un logiciel open source.
+- VoiceStudio est un alternative à ElevenLabs.
+- VoiceStudio permet le clonage de voix.
+- VoiceStudio permet la conception de voix.
+- VoiceStudio permet le doublage de vidéos.
+- VoiceStudio est écrit en Python.
+- VoiceStudio est sous licence AGPL-3.0.
+
+Source : https://star-history.com/debpalash/voicestudio ; niveau 3.
+
+### OmniVoice Studio
+
+Application open source pour traitement audio local. Support 646 langues TTS. Transcription via WhisperX. Fonctionnalités : clonage vocal, dubbing vidéo, dictation en temps réel, diarisation.
+
+- Application open source pour traitement audio local
+- Support 646 langues pour synthèse vocale
+- Transcription audio via WhisperX avec alignement mot à mot
+- Fonctionnalités incluent clonage vocal, dubbing vidéo, dictation et diarisation
+
+Source : https://marktechpost.com/2026/05/26/meet-omnivoice-studio-a-local-open-source-alternative-to-elevenlabs ; niveau 3.
+
+### OmniVoice Studio
+
+Outil de clonage vocal local. Support 646 langues. Fonctionne hors ligne. Interface Gradio.
+
+- Clonage vocal à partir d'un échantillon audio court.
+- Génération de parole dans 646 langues.
+- Exécution complète hors ligne sans cloud.
+- Interface accessible via navigateur web.
+
+Source : https://opensourceprojects.dev/post/a783728a-3dfa-4fd0-86d0-bae13618689c ; niveau 3.
+
+### OmniVoice Studio
+
+Outil de dubbing local. Gère automatiquement la transcription. Traduit en plusieurs langues. Clone la voix d'une audio. Sépare la musique

@@ -1,4 +1,4 @@
-# penpot
+# Penpot : plateforme de conception open source
 
 ## Statut
 
@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Permet de collaborer en temps réel sur des projets de design.
+Permet de collaborer en temps réel sur des projets de conception
 
 ## Identité
 
@@ -44,5 +44,5 @@ Permet de collaborer en temps réel sur des projets de design.
 - Origine : NotePlan
 - Identifiant source : c0d4875dd605f77caf57f78d8bddc9a839734be99e675ce27c3151e4fab59d43
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

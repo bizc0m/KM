@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Aide à l'alignement entre utilisateur et agent via des sessions d'interrogation
+Aligner les besoins avec l'agent avant de commencer
 
 ## Identité
 
@@ -29,8 +29,8 @@ Aide à l'alignement entre utilisateur et agent via des sessions d'interrogation
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.skills capability.skills source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Compétences des agents
+- Identifiants : domain.ai.agents.skills domain.data.organization capability.skills source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Données et connaissances > Organisation du travail
 - Fonctions : Étendre les compétences d’un agent
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
@@ -47,24 +47,3 @@ Aide à l'alignement entre utilisateur et agent via des sessions d'interrogation
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Facilitates alignment between user and agent through grilling sessions
-- Encourages shared language development with domain models and glossaries
-- Supports test-driven development with TDD skill
-- Provides codebase architecture improvement tools
-
-## Usages documentés
-
-- /grill-me
-- /grill-with-docs
-- /tdd
-- /improve-codebase-architecture
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/mattpocock/skills
-- Analyse source : 2026-10-24T05:23:10.717Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.
