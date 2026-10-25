@@ -48,7 +48,6 @@ Cloner des voix sans connexion internet.
 - https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/downloading-models.md
 - https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/mcp.md
 - https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/examples/README.md
-- https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/mobile.md
 - https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/licensing/model-review-workflow.md
 - https://voicestudio.sh/workflows/voice-clone
 - https://voicestudio.sh/workflows/audiobook
@@ -74,7 +73,6 @@ Cloner des voix sans connexion internet.
 - https://github.com/debpalash/voicestudio/pull/2295
 - https://github.com/debpalash/voicestudio/pull/2296
 - https://github.com/debpalash/voicestudio/pull/2288
-- https://github.com/debpalash/voicestudio/pull/3325
 
 ## Traçabilité
 
@@ -87,23 +85,23 @@ Cloner des voix sans connexion internet.
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 2290.
-- Pages lues, tweet compris : 100.
-- Sources techniques analysées : 42.
-- Sources à vérifier : 53 ; analyses non terminées : 0 ; erreurs du modèle : 1.
-- Liens non lus : 1772 (profondeur : 1465, budget de pages : 293, délai : 0, erreurs : 14).
+- Liens distincts recensés : 2269.
+- Pages lues, tweet compris : 99.
+- Sources techniques analysées : 40.
+- Sources à vérifier : 53 ; analyses non terminées : 0 ; erreurs du modèle : 2.
+- Liens non lus : 1763 (profondeur : 1458, budget de pages : 290, délai : 0, erreurs : 15).
 - Pages résumées sur extrait : 18.
-- Éléments exclus : 422 ; doublons ignorés : 1.
+- Éléments exclus : 411 ; doublons ignorés : 1.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### VoiceStudio
 
-[1] Outil open-source pour la synthèse vocale et la duplication de voix. [2] Supporte 646 langues. [3] Fonctionnalités incluent la création d'audiobooks, la transcription et la dubbing vidéo. [4] Exécution locale sans connexion internet.
+[1] VoiceStudio est un outil open-source permettant de cloner des voix. [2] Il permet de créer des dialogues pour des vidéos avec synchronisation temporelle. [3] Il supporte 646 langues. [4] Il fonctionne localement sans connexion internet.
 
-- Outil open-source pour la synthèse vocale et la duplication de voix.
-- Supporte 646 langues.
-- Fonctionnalités incluent la création d'audiobooks, la transcription et la dubbing vidéo.
-- Exécution locale sans connexion internet.
+- VoiceStudio est un outil open-source permettant de cloner des voix.
+- Il permet de créer des dialogues pour des vidéos avec synchronisation temporelle.
+- Il supporte 646 langues.
+- Il fonctionne localement sans connexion internet.
 
 Source : https://trendshift.io/repositories/28176 ; niveau 2.
 
@@ -250,17 +248,6 @@ VoiceStudio inclut des exemples d'intégration, scripts et configurations pour l
 
 Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/examples/README.md ; niveau 2.
 
-### VoiceStudio mobile apps
-
-Apps permettent de parler, cloner des voix, dubber et transcrire hors ligne. Modèles téléchargés restent sur le téléphone. Possibilité de pairer avec un ordinateur.
-
-- Speech, voice cloning, dictation and dubbing work offline
-- Models stay on the phone if cloned there
-- Phone can pair with computer for task selection
-- Models are downloaded from Hugging Face
-
-Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/mobile.md ; niveau 2.
-
 ### Licence acceptance and model review system
 
 Système de validation des licences avant utilisation. Acceptation locale des modèles. Contrôle des droits d'utilisation. Gestion des accords de licence.
@@ -335,12 +322,12 @@ Source : https://voicestudio.sh/blog/why-voicestudio-pro ; niveau 3.
 
 ### palashdeb/omnivoice-studio
 
-Docker image pour exécuter VoiceStudio localement. Fonctionne sur CPU ou GPU. Nécessite 8 GB RAM. Support 646 langues.
+Docker image pour VoiceStudio. Fonctionne localement sans API. Support 646 langues. Utilisation GPU ou CPU.
 
-- Docker image pour exécuter VoiceStudio localement
-- Fonctionne sur CPU ou GPU
-- Nécessite 8 GB RAM
+- Docker image pour VoiceStudio
+- Fonctionne localement sans API
 - Support 646 langues
+- Utilisation GPU ou CPU
 
 Source : https://hub.docker.com/r/palashdeb/omnivoice-studio ; niveau 3.
 
@@ -371,7 +358,7 @@ Source : https://star-history.com/debpalash/voicestudio ; niveau 3.
 
 ### OmniVoice Studio
 
-Application open source pour traitement audio local. Support 646 langues TTS. Transcription via WhisperX. Fonctionnalités : clonage vocal, dubbing vidéo, dictation en temps réel, diarisation.
+Application open source pour traitement audio local. Support 646 langues TTS. Transcription via WhisperX. Fonctionnalités : clonage vocal, dubbing vidéo, dictation, diarisation. Backend FastAPI. Frontend React. Stockage SQLite.
 
 - Application open source pour traitement audio local
 - Support 646 langues pour synthèse vocale
@@ -393,4 +380,16 @@ Source : https://opensourceprojects.dev/post/a783728a-3dfa-4fd0-86d0-bae13618689
 
 ### OmniVoice Studio
 
-Outil de dubbing local. Gère automatiquement la transcription. Traduit en plusieurs langues. Clone la voix d'une audio. Sépare la musique
+Outil de dubbing local. Gère automatiquement la transcription. Traduit en plusieurs langues. Clone la voix d'une audio. Sépare la musique de fond. Mixe le doublage avec le son original.
+
+- Transcription automatique avec Whisper
+- Traduction vers 600 langues
+- Clonage de la voix à partir de 3 secondes
+- Séparation du son de fond avec Demucs
+- Mixage du doublage avec le son original
+
+Source : https://linkedin.com/posts/vijaydeore_someone-just-open-sourced-a-local-dubbing-activity-7462469667153055744-6496 ; niveau 3.
+
+### OmniVoice-Studio
+
+OmniVoice-Studio est une application de synthèse vocale locale. Elle permet de cloner des voix à partir d'un clip audio. Elle supporte 646 langues. Elle utilise des composants open source comme WhisperX et

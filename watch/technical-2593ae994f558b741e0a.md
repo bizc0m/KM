@@ -82,11 +82,11 @@ Transforme du texte en visuels pour faciliter la communication des idées
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 1103.
+- Liens distincts recensés : 1104.
 - Pages lues, tweet compris : 85.
 - Sources techniques analysées : 36.
 - Sources à vérifier : 47 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 962 (profondeur : 0, budget de pages : 951, délai : 0, erreurs : 11).
+- Liens non lus : 963 (profondeur : 0, budget de pages : 952, délai : 0, erreurs : 11).
 - Pages résumées sur extrait : 3.
 - Éléments exclus : 59 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.

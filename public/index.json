@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-25T10:57:28.960Z",
+  "at": "2026-10-25T13:41:04.964Z",
   "count": 659,
   "rows": [
     {
@@ -38357,6 +38357,66 @@
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
+        },
+        {
+          "url": "https://arxiv.org/html/2510.22200v2",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://arxiv.org/abs/2510.22200v2",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://creativecommons.org/licenses/by/4.0",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://arxiv.org/abs/2510.22200?context=cs",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://influencemap.cmlab.dev/",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://core.ac.uk/services/recommender",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://huggingface.co/models?other=base_model%3Aquantized%3Ameituan-longcat%2FLongCat-Video",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/10032",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video-Avatar-1.5",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
         }
       ],
       "github": "https://github.com/meituan-longcat/longcat-video",
@@ -49004,12 +49064,6 @@
           "label": "Documentation"
         },
         {
-          "url": "https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/mobile.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
           "url": "https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/licensing/model-review-workflow.md",
           "kind": "source",
           "role": "documentation",
@@ -49155,12 +49209,6 @@
         },
         {
           "url": "https://github.com/debpalash/voicestudio/pull/2288",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/debpalash/voicestudio/pull/3325",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
@@ -54924,7 +54972,7 @@
     },
     {
       "id": "watch-technical-757ce536b0a4cbc2f860-md",
-      "title": "OpenDesign: Workspace collaboratif pour agents AI",
+      "title": "OpenDesign",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -55056,7 +55104,7 @@
       "github": "https://github.com/nexu-io/open-design",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel",
+      "summary": "Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -55066,8 +55114,7 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents",
-            "domain.ai.llm"
+            "domain.ai.agents"
           ],
           "capability": [],
           "compatibility": [],
@@ -55136,33 +55183,6 @@
             "aliases": [],
             "facet": "domain",
             "path": []
-          },
-          {
-            "id": "domain.ai.llm",
-            "label": "Modèles de langage",
-            "parent": "domain.ai",
-            "aliases": [
-              "#llm",
-              "#inference",
-              "#providers",
-              "#openai-compatible",
-              "#comparaison-modeles",
-              "#inference-locale"
-            ],
-            "patterns": [
-              "\\bllm\\b",
-              "\\bqwen\\w*",
-              "\\bdeepseek\\b",
-              "\\bnotebooklm\\b",
-              "\\bgemini\\b",
-              "\\bgpt[ -]?\\d",
-              "mistral vibe"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Modèles de langage"
-            ]
           },
           {
             "id": "lifecycle.active",
@@ -55283,33 +55303,6 @@
           "path": []
         },
         {
-          "id": "domain.ai.llm",
-          "label": "Modèles de langage",
-          "parent": "domain.ai",
-          "aliases": [
-            "#llm",
-            "#inference",
-            "#providers",
-            "#openai-compatible",
-            "#comparaison-modeles",
-            "#inference-locale"
-          ],
-          "patterns": [
-            "\\bllm\\b",
-            "\\bqwen\\w*",
-            "\\bdeepseek\\b",
-            "\\bnotebooklm\\b",
-            "\\bgemini\\b",
-            "\\bgpt[ -]?\\d",
-            "mistral vibe"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Modèles de langage"
-          ]
-        },
-        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -55375,16 +55368,10 @@
           "fullLabel": "ai-agents",
           "color": "agent",
           "subjectId": "domain.ai.agents"
-        },
-        {
-          "label": "#LLM",
-          "fullLabel": "Modèles de langage",
-          "color": "llm",
-          "subjectId": "domain.ai.llm"
         }
       ],
       "cardTitle": "OpenDesign",
-      "cardInterest": "Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel"
+      "cardInterest": "Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel"
     },
     {
       "id": "watch-technical-1049081f67e5576ca9e6-md",

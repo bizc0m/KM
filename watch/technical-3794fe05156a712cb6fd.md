@@ -45,6 +45,16 @@ Convertir du texte ou des images en vidéos longues.
 - https://huggingface.co/google/umt5-xxl
 - https://github.com/huggingface/diffusers
 - https://arxiv.org/abs/2510.22200v1
+- https://arxiv.org/html/2510.22200v2
+- https://arxiv.org/abs/2510.22200v2
+- https://creativecommons.org/licenses/by/4.0
+- https://arxiv.org/abs/2510.22200?context=cs
+- https://influencemap.cmlab.dev/
+- https://core.ac.uk/services/recommender
+- https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video
+- https://huggingface.co/models?other=base_model%3Aquantized%3Ameituan-longcat%2FLongCat-Video
+- https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/10032
+- https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video-Avatar-1.5
 
 ## Traçabilité
 
@@ -57,13 +67,13 @@ Convertir du texte ou des images en vidéos longues.
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 848.
-- Pages lues, tweet compris : 29.
-- Sources techniques analysées : 12.
-- Sources à vérifier : 10 ; analyses non terminées : 0 ; erreurs du modèle : 2.
-- Liens non lus : 798 (profondeur : 481, budget de pages : 0, délai : 306, erreurs : 11).
-- Pages résumées sur extrait : 4.
-- Éléments exclus : 27 ; doublons ignorés : 0.
+- Liens distincts recensés : 5535.
+- Pages lues, tweet compris : 75.
+- Sources techniques analysées : 22.
+- Sources à vérifier : 44 ; analyses non terminées : 0 ; erreurs du modèle : 2.
+- Liens non lus : 5401 (profondeur : 5154, budget de pages : 228, délai : 0, erreurs : 19).
+- Pages résumées sur extrait : 17.
+- Éléments exclus : 66 ; doublons ignorés : 1.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### LongCat-Video
@@ -93,9 +103,9 @@ Source : https://arxiv.org/abs/2510.22200 ; niveau 2.
 Modèle de génération vidéo avec 13,6 milliards de paramètres. Génère des vidéos longues sans dégradation. Supporte plusieurs tâches. Performances comparables aux modèles commerciaux.
 
 - Modèle de génération vidéo avec 13,6 milliards de paramètres
-- Supporte la génération de vidéos longues sans dégradation de qualité
-- Performances comparables aux modèles commerciaux et open-source
-- Unifié pour les tâches Text-to-Video, Image-to-Video et Video-Continuation
+- Supporte Text-to-Video, Image-to-Video et Video-Continuation
+- Génère des vidéos longues sans dégradation de qualité
+- Performances comparables aux modèles commerciaux
 
 Source : https://huggingface.co/meituan-longcat/LongCat-Video ; niveau 2.
 
@@ -158,10 +168,11 @@ Source : https://arxiv.org/abs/2605.26486 ; niveau 2.
 
 Modèle de génération de texte multilingue préentraîné sur mC4. Support 107 langues. Nécessite un fine-tuning pour être utilisable.
 
-- Préentraîné sur mC4 mise à jour
-- Support 107 langues
-- Nécessite un fine-tuning avant utilisation
-- Utilise PyTorch et Transformers
+- Préentraîné sur mC4 avec 29 trillions de caractères.
+- Supporte 107 langues.
+- Nécessite un fine-tuning pour être utilisable.
+- Utilise la bibliothèque Transformers.
+- Utilisation de PyTorch.
 
 Source : https://huggingface.co/google/umt5-xxl ; niveau 2.
 
@@ -186,3 +197,112 @@ Modèle de génération vidéo avec 13,6 milliards de paramètres. Supporte plus
 - Optimisé pour l'inférence rapide avec stratégie coarse-to-fine
 
 Source : https://arxiv.org/abs/2510.22200v1 ; niveau 3.
+
+### LongCat-Video
+
+Modèle de génération vidéo avec 13,6 milliards de paramètres. Génère des vidéos longues en 720p 30fps. Supporte Text-to-Video, Image-to-Video et Video-Continuation. Utilise attention sparse pour optimiser l'inférence.
+
+- Modèle de génération vidéo avec 13,6 milliards de paramètres
+- Génère des vidéos longues en 720p 30fps
+- Supporte Text-to-Video, Image-to-Video et Video-Continuation
+- Utilise attention sparse pour optimiser l'inférence
+
+Source : https://arxiv.org/html/2510.22200v2 ; niveau 3.
+
+### LongCat-Video Technical Report
+
+Modèle de génération vidéo avec 13,6 milliards de paramètres. Supporte plusieurs tâches. Génère des vidéos longues de qualité. Optimisé pour l'inférence rapide.
+
+- Modèle de génération vidéo avec 13,6 milliards de paramètres
+- Supporte Text-to-Video, Image-to-Video et Video-Continuation
+- Génère des vidéos longues de qualité
+- Optimisé pour l'inférence rapide avec stratégie coarse-to-fine
+
+Source : https://arxiv.org/abs/2510.22200v2 ; niveau 3.
+
+### Licence Creative Commons
+
+Licence permettant de partager et adapter du contenu. Attribuer l'auteur. Interdiction de restrictions supplémentaires. Aucun droit d'usage exclusif.
+
+- Permet de partager et adapter du contenu
+- Exige une attribution de l'auteur
+- Interdit les restrictions supplémentaires
+- Pas de droit d'usage exclusif
+
+Source : https://creativecommons.org/licenses/by/4.0 ; niveau 3.
+
+### LongCat-Video Technical Report
+
+Modèle de génération vidéo avec 13,6 milliards de paramètres. Supporte plusieurs tâches. Génère des vidéos longues de qualité. Optimisé pour l'inférence rapide.
+
+- Modèle de génération vidéo avec 13,6 milliards de paramètres
+- Supporte Text-to-Video, Image-to-Video et Video-Continuation
+- Génère des vidéos longues de qualité
+- Optimisé pour l'inférence rapide avec stratégie coarse-to-fine
+
+Source : https://arxiv.org/abs/2510.22200?context=cs ; niveau 3.
+
+### InfluenceFlower
+
+Visualise les influences académiques entre entités. Les arcs bleus représentent les influences entrantes. Les arcs rouges représentent les influences sortantes. Les nœuds reflètent le volume et la composition des influences. Les scores d'influence sont calculés à partir des citations.
+
+- InfluenceFlower visualise les influences académiques entre entités.
+- Les arcs bleus représentent les influences entrantes.
+- Les arcs rouges représentent les influences sortantes.
+- Les nœuds reflètent le volume et la composition des influences.
+- Les scores d'influence sont calculés à partir des citations.
+
+Source : https://influencemap.cmlab.dev ; niveau 3.
+
+### CORE Recommender
+
+Système de recommandation de publications. Recherche d'articles pertinents. Accès gratuit aux ressources. Amélioration de la visibilité.
+
+- Recommande des articles pertinents.
+- Accessible sans barrière payante.
+- Améliore la visibilité des contenus ouverts.
+- Utilise des textes complets pour les recommandations.
+
+Source : https://core.ac.uk/services/recommender ; niveau 3.
+
+### LongCat-Video
+
+Modèle de génération vidéo finetuné. Paramètres : plus de 500 milliards. Disponible sur Hugging Face.
+
+- Modèle de génération vidéo finetuné
+- Nombre de paramètres supérieur à 500 milliards
+- Disponible sur Hugging Face
+
+Source : https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video ; niveau 3.
+
+### meituan-longcat/LongCat-Video
+
+Modèle vidéo quantisé pour Hugging Face. Paramètres  500B. Disponible via plusieurs fournisseurs d'inférence.
+
+- Modèle vidéo quantisé pour Hugging Face
+- Nombre de paramètres supérieur à 500 milliards
+- Disponible via plusieurs fournisseurs d'inférence
+
+Source : https://huggingface.co/models?other=base_model%3Aquantized%3Ameituan-longcat%2FLongCat-Video ; niveau 3.
+
+### meituan-longcat/LongCat-Video-Avatar-1.5
+
+Projet de création d'un avatar vidéo basé sur des dessins. Utilisation de modèles de génération d'images. Demande de soutien par des fournisseurs d'inférence.
+
+- Projet visant à transformer des dessins en avatar vidéo.
+- Utilisation de modèles de génération d'images pour créer des animations.
+- Demande de soutien par des fournisseurs d'inférence.
+- Interface pour la génération d'images et de vidéos.
+- Création d'un avatar vidéo à partir d'un dessin simple.
+
+Source : https://huggingface.co/spaces/huggingface/InferenceSupport/discussions/10032 ; niveau 3.
+
+### LongCat-Video-Avatar-1.5
+
+Modèle vidéo finetuné pour création d'avatar. Paramètres : 500B. Disponible sur Hugging Face.
+
+- Modèle vidéo finetuné pour création d'avatar
+- Paramètres : plus de 500 milliards
+- Disponible sur Hugging Face
+
+Source : https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video-Avatar-1.5 ; niveau 3.
