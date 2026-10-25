@@ -45,5 +45,5 @@ Génère des vidéos à partir de prompts textuels ou multimodaux
 - Origine : NotePlan
 - Identifiant source : 73ffc014f69d12660ff819c4bbb517f5f50686c4e1b76f4d3b31993125da776c
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

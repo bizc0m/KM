@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Scanner des ports pour identifier les services.
+Identifier les hôtes et services sur un réseau.
 
 ## Identité
 
@@ -42,5 +42,5 @@ Scanner des ports pour identifier les services.
 - Origine : NotePlan
 - Identifiant source : c529972e77a3e48d4fdd432c7e7799adc93e7c470fb0b8e58c447b9551061bec
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

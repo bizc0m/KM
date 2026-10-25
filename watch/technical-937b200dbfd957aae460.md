@@ -45,5 +45,5 @@ Extrait automatiquement des highlights viraux depuis des vidéos YouTube.
 - Origine : NotePlan
 - Identifiant source : 937b200dbfd957aae460bae7e6eb8a84915212764764041eb9d181bc3f515633
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

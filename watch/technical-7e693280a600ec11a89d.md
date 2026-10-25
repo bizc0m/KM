@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Télécharge et analyse des contenus Snapchat avec des options de filtrage et de multi-threading.
 
 ## Identité
 
@@ -45,5 +45,5 @@ Intérêt à vérifier
 - Origine : NotePlan
 - Identifiant source : 7e693280a600ec11a89d195450f545c7a8a2f0348ad910f03f600738e985c1ab
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

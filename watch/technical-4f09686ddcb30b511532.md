@@ -46,5 +46,5 @@ Génère des vidéos AI à partir de textes et d'images
 - Origine : NotePlan
 - Identifiant source : 4f09686ddcb30b511532e8dbbc8bcc5f1a9914e9f8195cf5cbdb964a3656c990
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

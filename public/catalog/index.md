@@ -1,7 +1,7 @@
 # Index des sujets KM
 
-- [Intelligence artificielle](domain-ai.md) — 283 fiches
-- [Agents IA](domain-ai-agents.md) — 182 fiches
+- [Intelligence artificielle](domain-ai.md) — 285 fiches
+- [Agents IA](domain-ai-agents.md) — 184 fiches
 - [Mémoire des agents](domain-ai-agents-memory.md) — 25 fiches
 - [Orchestration des agents](domain-ai-agents-orchestration.md) — 12 fiches
 - [Agents de développement](domain-ai-agents-coding.md) — 48 fiches
@@ -11,19 +11,19 @@
 - [Développement web](domain-dev-web.md) — 26 fiches
 - [Qualité du code](domain-dev-quality.md) — 25 fiches
 - [Audio, vidéo et création](domain-media.md) — 159 fiches
-- [Audio](domain-media-audio.md) — 34 fiches
+- [Audio](domain-media-audio.md) — 35 fiches
 - [Voix](domain-media-audio-voice.md) — 20 fiches
 - [Identification audio](domain-media-audio-identification.md) — 1 fiches
 - [Vidéo](domain-media-video.md) — 80 fiches
 - [Images et graphisme](domain-media-image.md) — 85 fiches
 - [Création 3D](domain-media-3d.md) — 20 fiches
-- [Cybersécurité](domain-security.md) — 74 fiches
+- [Cybersécurité](domain-security.md) — 76 fiches
 - [Sécurité web](domain-security-web.md) — 4 fiches
 - [Analyse de logiciels malveillants](domain-security-malware.md) — 4 fiches
 - [Tests de sécurité](domain-security-testing.md) — 16 fiches
-- [Renseignement en sources ouvertes](domain-osint.md) — 46 fiches
-- [Protection des données](domain-privacy.md) — 10 fiches
-- [Infrastructure](domain-infrastructure.md) — 56 fiches
+- [Renseignement en sources ouvertes](domain-osint.md) — 48 fiches
+- [Protection des données](domain-privacy.md) — 11 fiches
+- [Infrastructure](domain-infrastructure.md) — 57 fiches
 - [Réseaux](domain-infrastructure-network.md) — 3 fiches
 - [Données et connaissances](domain-data.md) — 77 fiches
 - [Collecte web](domain-data-web.md) — 23 fiches

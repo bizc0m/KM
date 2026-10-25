@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Afficher données GitHub sous forme d'image.
+Afficher les contributions GitHub sous forme de badges.
 
 ## Identité
 
@@ -45,5 +45,5 @@ Afficher données GitHub sous forme d'image.
 - Origine : NotePlan
 - Identifiant source : 4f05134572dbcb3265f20136a3a86ffb08602895f1321e92e0cd966aa4e36187
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

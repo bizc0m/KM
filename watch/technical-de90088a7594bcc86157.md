@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Recherche d'informations via des requêtes dork sur des moteurs de recherche
+Recherche rapide de dorks pour trouver des informations via des moteurs de recherche
 
 ## Identité
 
@@ -45,5 +45,5 @@ Recherche d'informations via des requêtes dork sur des moteurs de recherche
 - Origine : NotePlan
 - Identifiant source : de90088a7594bcc86157ece45338cf3c1a5c388ff523fb77f2047bd9d1fb837d
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

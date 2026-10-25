@@ -45,5 +45,5 @@ Créez et lancez des applications SaaS génératives avec des outils prêts à l
 - Origine : NotePlan
 - Identifiant source : c5cd3a5c95630c79212957dba52f2f1564e24f188c9ff0d569d600c3f3cffbba
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

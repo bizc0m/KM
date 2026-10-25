@@ -45,5 +45,5 @@ Crée des personas bots avec des modèles spécifiques
 - Origine : NotePlan
 - Identifiant source : dfc871508eb563893ba50e66d08583ebf1473d0d20216873f358ac540c4efdc4
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

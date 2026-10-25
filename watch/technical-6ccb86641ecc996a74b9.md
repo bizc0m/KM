@@ -45,5 +45,5 @@ Crée des workflows d'IA visuels sans abonnement
 - Origine : NotePlan
 - Identifiant source : 6ccb86641ecc996a74b95690ad7ac478af555b97c69236eb179bea1f41ed8d6f
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

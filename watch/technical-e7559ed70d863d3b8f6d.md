@@ -46,5 +46,5 @@ Crée des courts métrages 3D avec un agent de codage.
 - Origine : NotePlan
 - Identifiant source : e7559ed70d863d3b8f6d7e99ff5f201f9d137dd673a8bb29bac71ea499f7e77f
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

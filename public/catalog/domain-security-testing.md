@@ -1,7 +1,7 @@
 # Tests de sécurité
 
+- [SubCat](../../watch/technical-c67a2647c3e09c338891.md) — Découvre des sous-domaines et génère des rapports web avec captures d'écran.
 - [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Anonymise les données sensibles avant transmission
-- [subcat](../../watch/technical-c67a2647c3e09c338891.md) — Découvre des sous-domaines et génère des rapports web avec captures d'écran.
 - [Web-Check](../../watch/technical-654478eba9c74251531f.md) — Analyse les vulnérabilités d'un site web
 - [Agentic-Bug-Hunter](../../watch/technical-f52ece2572fe00c08e7a.md) — Identifier automatiquement des vulnérabilités et générer des rapports exploitables.
 - [ECC](../../watch/technical-cac46266b186a438c4a0.md) — Permet aux agents IA d'executer des tâches avec plus d'efficacité.

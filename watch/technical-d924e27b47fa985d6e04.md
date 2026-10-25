@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Exécute des requêtes Google Dork pour des fins éducatives.
 
 ## Identité
 
@@ -46,5 +46,5 @@ Intérêt à vérifier
 - Origine : NotePlan
 - Identifiant source : d924e27b47fa985d6e048ca9dca3889c3196189bc3d484f7a71c0f753b3a452d
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
