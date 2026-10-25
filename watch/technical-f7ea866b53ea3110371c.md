@@ -45,5 +45,5 @@ Permet d'éditer des splats 3D directement dans le navigateur
 - Origine : NotePlan
 - Identifiant source : f7ea866b53ea3110371c578d7ade0b4869d28dcdd95bd3727b828804daa29e86
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

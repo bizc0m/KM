@@ -45,5 +45,5 @@ Gère les dépendances et les environnements
 - Origine : NotePlan
 - Identifiant source : eb37530b4bcfa1e9bde8d7409db87d76058ab6820af181eb0fdd882b79070a8d
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

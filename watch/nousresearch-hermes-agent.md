@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Gère des tâches complexes avec des modèles externes
+Intérêt à vérifier
 
 ## Identité
 

@@ -87,5 +87,5 @@ Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence vi
 - Origine : NotePlan
 - Identifiant source : 47bd68997bedeb6edcef358f5bb671fce01bf8a009078598f7dfdafb0f1044a4
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

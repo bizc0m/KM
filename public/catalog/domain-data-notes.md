@@ -1,8 +1,8 @@
 # Notes et organisation
 
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md)
-- [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications et services sur des serveurs propres avec gestion automatisée.
 - [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
+- [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications et services sur des serveurs propres avec gestion automatisée.
 - [ARGO](../../watch/technical-e3f44ce252af9ba887f8.md) — Recherche locale sans connexion.
 - [Capsule Hub](../../watch/technical-7ce70d893933b807a8be.md) — Capturer et stocker le contexte des conversations IA pour le réutiliser dans d'autres sessions.
 - [Éditeur de propriétés de note (Frontmatter) - NotePlan](../../watch/technical-52638d59170c3cd934c2.md) — Modifier les métadonnées des notes sans toucher le frontmatter.

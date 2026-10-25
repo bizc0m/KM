@@ -63,19 +63,19 @@ Anonymise les données sensibles avant transmission
 - Origine : NotePlan
 - Identifiant source : 20ce7a20ba8fb1a8e8d32aba833d4d35fae14c05c136de0085ff7e861bad9ffd
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 1311.
-- Pages lues, tweet compris : 45.
+- Liens distincts recensés : 1283.
+- Pages lues, tweet compris : 42.
 - Sources techniques analysées : 24.
-- Sources à vérifier : 19 ; analyses non terminées : 0 ; erreurs du modèle : 1.
-- Liens non lus : 1230 (profondeur : 1217, budget de pages : 0, délai : 0, erreurs : 13).
+- Sources à vérifier : 16 ; analyses non terminées : 0 ; erreurs du modèle : 1.
+- Liens non lus : 1203 (profondeur : 1189, budget de pages : 0, délai : 0, erreurs : 14).
 - Pages résumées sur extrait : 1.
-- Éléments exclus : 38 ; doublons ignorés : 0.
+- Éléments exclus : 40 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### PromptZero : Architecture Zero Trust pour les prompts LLM

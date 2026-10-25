@@ -65,19 +65,19 @@ Contrôle un navigateur web via des commandes vocales pour une navigation sans c
 - Origine : NotePlan
 - Identifiant source : 6489b93af3b652dd94044a31a1d7b0385ec13738754a19bd82e354391e1d5acb
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 1341.
-- Pages lues, tweet compris : 60.
+- Liens distincts recensés : 1340.
+- Pages lues, tweet compris : 58.
 - Sources techniques analysées : 25.
-- Sources à vérifier : 33 ; analyses non terminées : 0 ; erreurs du modèle : 1.
-- Liens non lus : 1236 (profondeur : 1235, budget de pages : 0, délai : 0, erreurs : 1).
+- Sources à vérifier : 31 ; analyses non terminées : 0 ; erreurs du modèle : 1.
+- Liens non lus : 1235 (profondeur : 1234, budget de pages : 0, délai : 0, erreurs : 1).
 - Pages résumées sur extrait : 0.
-- Éléments exclus : 47 ; doublons ignorés : 0.
+- Éléments exclus : 49 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### J.A.R.V.I.S

@@ -43,5 +43,5 @@ Exécute des tâches de codage avec un modèle d'IA configuré
 - Origine : NotePlan
 - Identifiant source : c292611ef4a4a5e3745526fe5c2729ed28eeb01270146bbcb42142ee19fbdb55
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

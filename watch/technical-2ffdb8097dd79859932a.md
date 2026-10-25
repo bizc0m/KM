@@ -73,5 +73,5 @@ Contourner les détections anti-bot avec un navigateur modifié.
 - Origine : NotePlan
 - Identifiant source : 7e23e27f5e0938bac4172f0332f9c73198ba1cd5a2a1f4a00c7f7bf84ab5374d
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

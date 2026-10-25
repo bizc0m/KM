@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Permet aux agents de conserver une mémoire persistante sans re-expliquer.
+Garder la mémoire des sessions pour éviter de réexpliquer les détails.
 
 ## Identité
 
@@ -46,5 +46,5 @@ Permet aux agents de conserver une mémoire persistante sans re-expliquer.
 - Origine : NotePlan
 - Identifiant source : ea311829e667eb1acdcc2809317998c531a20158a9b0974465e7efb25312eb0f
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

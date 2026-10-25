@@ -45,5 +45,5 @@ Analyse de type rapide avec diagnostics précis pour code Python
 - Origine : NotePlan
 - Identifiant source : 66fc5b1d26e505baaa01bcbe7cecdbf9760e6c2c664b57bc76ba8a326f260f30
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
