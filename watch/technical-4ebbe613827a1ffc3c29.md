@@ -49,12 +49,10 @@ Fixer un style visuel avant génération de code pour éviter les templates inad
 - https://skills.sh/anthropics/skills/pptx
 - https://skills.sh/anthropics/skills/pdf
 - https://skills.sh/anthropics/skills/docx
-- https://skills.sh/anthropics/skills/xlsx
 - https://skills.sh/anthropics/skills/mcp-builder
 - https://skills.sh/anthropics/skills/web-artifacts-builder
 - https://skills.sh/anthropics/skills/theme-factory
 - https://skills.sh/anthropics/skills/doc-coauthoring
-- https://skills.sh/anthropics/skills/algorithmic-art
 - https://skills.sh/anthropics/skills/internal-comms
 - https://skills.sh/anthropics/skills/template-skill
 - https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude
@@ -80,12 +78,12 @@ Fixer un style visuel avant génération de code pour éviter les templates inad
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
 - Liens distincts recensés : 830.
-- Pages lues, tweet compris : 87.
-- Sources techniques analysées : 33.
-- Sources à vérifier : 52 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 684 (profondeur : 667, budget de pages : 0, délai : 0, erreurs : 17).
+- Pages lues, tweet compris : 88.
+- Sources techniques analysées : 31.
+- Sources à vérifier : 54 ; analyses non terminées : 0 ; erreurs du modèle : 0.
+- Liens non lus : 683 (profondeur : 667, budget de pages : 0, délai : 0, erreurs : 16).
 - Pages résumées sur extrait : 8.
-- Éléments exclus : 57 ; doublons ignorés : 5.
+- Éléments exclus : 58 ; doublons ignorés : 5.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### Gestion de plusieurs comptes sur Xianyu avec automatisation
@@ -243,17 +241,6 @@ Créer, modifier et manipuler des fichiers .docx avec formatage complet. Extrair
 
 Source : https://skills.sh/anthropics/skills/docx ; niveau 3.
 
-### xlsx
-
-xlsx permet de gérer des fichiers Excel avec des formules et des formats. Il supporte les formats .xlsx, .xlsm, .csv et .tsv. Il détecte les erreurs Excel. Il applique des couleurs standards pour les modèles financiers.
-
-- xlsx permet de gérer des fichiers Excel avec des formules et des formats.
-- xlsx supporte les formats .xlsx, .xlsm, .csv et .tsv.
-- xlsx détecte les erreurs Excel (#REF!, #DIV/0!, #VALUE!, #N/A, #NAME?).
-- xlsx applique des couleurs standards pour les modèles financiers (bleu pour les entrées, noir pour les formules, vert pour les liens internes, rouge pour les liens externes).
-
-Source : https://skills.sh/anthropics/skills/xlsx ; niveau 3.
-
 ### mcp-builder
 
 Guide complet pour créer des serveurs MCP de qualité. Workflow en quatre phases. Documentation avec exemples de code. Évaluation via questions XML.
@@ -271,8 +258,9 @@ Génère des projets React 18 avec TypeScript. Intègre shadcn/ui. Compile en HT
 
 - Crée des projets React 18 avec TypeScript
 - Intègre la bibliothèque shadcn/ui
-- Compile en un seul fichier HTML
-- Évite les styles "AI slop"
+- Compile le code en un seul fichier HTML
+- Évite les styles considérés comme "AI slop"
+- Inclut des directives de conception
 
 Source : https://skills.sh/anthropics/skills/web-artifacts-builder ; niveau 3.
 
@@ -297,17 +285,6 @@ Workflow structuré pour l'écriture collaborative. Trois étapes : collecte de 
 - Utilisation de cycles de brainstorming et de curation
 
 Source : https://skills.sh/anthropics/skills/doc-coauthoring ; niveau 3.
-
-### algorithmic-art
-
-Crée des œuvres d'art génératif avec p5.js. Génère des philosophies algorithmiques. Produit des fichiers HTML et JS. Utilise la randomisation seedée.
-
-- Crée des œuvres d'art génératif avec p5.js
-- Génère des philosophies algorithmiques
-- Produit des fichiers HTML et JS
-- Utilise la randomisation seedée
-
-Source : https://skills.sh/anthropics/skills/algorithmic-art ; niveau 3.
 
 ### internal-comms
 
@@ -385,4 +362,25 @@ Guide for creating effective Skills for Claude. Focus on conciseness, specificit
 
 - Guide provides authoring decisions for Skills
 - Focus on conciseness and context sharing
-- Test Skills with mu
+- Test Skills with multiple Claude models
+- Emphasize clear naming and structured descriptions
+
+Source : https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices ; niveau 3.
+
+### Protocole de contexte du modèle (MCP)
+
+Protocole ouvert permettant aux applications IA de se connecter à des systèmes externes.
+
+- Permet aux applications IA de se connecter à des sources de données externes.
+- Facilite l'intégration avec des outils comme des moteurs de recherche ou des bases de données.
+- Améliore les capacités des assistants IA en leur donnant accès à des ressources externes.
+- Soutenu par une large communauté et divers outils de développement.
+
+Source : https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro ; niveau 3.
+
+### Claude sur Google Cloud
+
+Claude est disponible sur Google Cloud via une offre gérée par Anthropic. Les clients bénéficient de toutes les fonctionnalités de la plateforme Claude. L'accès se fait via des crédenciaux IAM Google Cloud.
+
+- Claude est disponible sur Google Cloud via une offre gérée par Anthropic.
+- Les clients bénéficient de toutes les fonctionnalités d
