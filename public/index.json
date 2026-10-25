@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-25T16:42:01.888Z",
+  "at": "2026-10-25T17:42:06.192Z",
   "count": 658,
   "rows": [
     {
@@ -8159,6 +8159,12 @@
           "label": "Référence"
         },
         {
+          "url": "https://skills.sh/anthropics/skills/xlsx",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
           "url": "https://skills.sh/anthropics/skills/mcp-builder",
           "kind": "source",
           "role": "secondaryReference",
@@ -8184,12 +8190,6 @@
         },
         {
           "url": "https://skills.sh/anthropics/skills/internal-comms",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://skills.sh/anthropics/skills/template-skill",
           "kind": "source",
           "role": "secondaryReference",
           "label": "Référence"
