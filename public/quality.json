@@ -1,15 +1,15 @@
 {
-  "at": "2026-10-25T09:57:22.500Z",
+  "at": "2026-10-25T10:57:29.178Z",
   "scope": "public-index-only",
   "fiches": 659,
-  "sourceReferences": 2633,
+  "sourceReferences": 2632,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
   "pendingReview": 631,
   "counts": {
-    "interest-missing": 193,
-    "keywords-missing": 90,
+    "interest-missing": 192,
+    "keywords-missing": 89,
     "domain-unqualified": 116,
     "primary-identity-unqualified": 22,
     "nature-unqualified": 609
@@ -654,7 +654,6 @@
       "id": "watch-technical-ee446b3bf303b677315c-md",
       "title": "MailHog",
       "reasons": [
-        "keywords-missing",
         "nature-unqualified"
       ]
     },
@@ -795,7 +794,7 @@
     },
     {
       "id": "watch-technical-411490b28204e94a3778-md",
-      "title": "Open-Generative-AI",
+      "title": "Open Generative AI",
       "reasons": [
         "nature-unqualified"
       ]
@@ -884,7 +883,6 @@
       "id": "watch-technical-c0d4875dd605f77caf57-md",
       "title": "Penpot",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
