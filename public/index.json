@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-25T22:48:27.284Z",
+  "at": "2026-10-25T23:48:32.827Z",
   "count": 658,
   "rows": [
     {
@@ -27744,12 +27744,6 @@
           "label": "Documentation"
         },
         {
-          "url": "https://github.com/tashfeenahmed/freellmapi/releases/tag/v0.16.9",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
           "url": "https://play.google.com/store/apps/details?id=co.freellmapi.app",
           "kind": "source",
           "role": "secondaryReference",
@@ -27781,17 +27775,15 @@
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
-      "theme": "agent",
-      "themeLabel": "Agents de développement",
+      "theme": "llm",
+      "themeLabel": "Modèles de langage",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents.coding",
             "domain.ai.llm",
-            "domain.media.audio",
-            "domain.media.image",
-            "domain.privacy"
+            "domain.privacy",
+            "domain.media.image"
           ],
           "capability": [
             "capability.privacy.encrypt",
@@ -27812,49 +27804,30 @@
         },
         "concepts": [
           {
-            "id": "domain.ai.agents.coding",
-            "label": "Agents de développement",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#agents-code",
-              "#coding-agents"
-            ],
-            "patterns": [
-              "claude code",
-              "\\bcodex\\b",
-              "coding agents?",
-              "agents? de cod"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Agents de développement"
-            ]
-          },
-          {
-            "id": "domain.ai.agents",
-            "label": "Agents IA",
+            "id": "domain.ai.llm",
+            "label": "Modèles de langage",
             "parent": "domain.ai",
             "aliases": [
-              "#agent",
-              "#agents",
-              "#ai-agents",
-              "#personal-agent",
-              "#autonomous-agent",
-              "#ai-companion",
-              "#autonomous-company",
-              "#autonomous-research"
+              "#llm",
+              "#inference",
+              "#providers",
+              "#openai-compatible",
+              "#comparaison-modeles",
+              "#inference-locale"
             ],
             "patterns": [
-              "\\bagents?\\b",
-              "agentique",
-              "\\bopenclaw\\b"
+              "\\bllm\\b",
+              "\\bqwen\\w*",
+              "\\bdeepseek\\b",
+              "\\bnotebooklm\\b",
+              "\\bgemini\\b",
+              "\\bgpt[ -]?\\d",
+              "mistral vibe"
             ],
             "facet": "domain",
             "path": [
               "Intelligence artificielle",
-              "Agents IA"
+              "Modèles de langage"
             ]
           },
           {
@@ -27886,86 +27859,6 @@
             "aliases": [],
             "facet": "domain",
             "path": []
-          },
-          {
-            "id": "domain.ai.llm",
-            "label": "Modèles de langage",
-            "parent": "domain.ai",
-            "aliases": [
-              "#llm",
-              "#inference",
-              "#providers",
-              "#openai-compatible",
-              "#comparaison-modeles",
-              "#inference-locale"
-            ],
-            "patterns": [
-              "\\bllm\\b",
-              "\\bqwen\\w*",
-              "\\bdeepseek\\b",
-              "\\bnotebooklm\\b",
-              "\\bgemini\\b",
-              "\\bgpt[ -]?\\d",
-              "mistral vibe"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Modèles de langage"
-            ]
-          },
-          {
-            "id": "domain.media.audio",
-            "label": "Audio",
-            "parent": "domain.media",
-            "aliases": [
-              "#audio"
-            ],
-            "patterns": [
-              "\\baudio\\b",
-              "creation musicale",
-              "\\bvoix\\b",
-              "\\bvocale\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création",
-              "Audio"
-            ]
-          },
-          {
-            "id": "domain.media",
-            "label": "Audio, vidéo et création",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création"
-            ]
-          },
-          {
-            "id": "domain.media.image",
-            "label": "Images et graphisme",
-            "parent": "domain.media",
-            "aliases": [
-              "#compression-images",
-              "#generation-images",
-              "#animation-svg",
-              "#image",
-              "#design",
-              "#svg",
-              "#inspiration"
-            ],
-            "patterns": [
-              "\\bimages?\\b",
-              "\\bsvg\\b",
-              "visual intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création",
-              "Images et graphisme"
-            ]
           },
           {
             "id": "domain.privacy",
@@ -28004,6 +27897,40 @@
             "facet": "domain",
             "path": [
               "Cybersécurité"
+            ]
+          },
+          {
+            "id": "domain.media.image",
+            "label": "Images et graphisme",
+            "parent": "domain.media",
+            "aliases": [
+              "#compression-images",
+              "#generation-images",
+              "#animation-svg",
+              "#image",
+              "#design",
+              "#svg",
+              "#inspiration"
+            ],
+            "patterns": [
+              "\\bimages?\\b",
+              "\\bsvg\\b",
+              "visual intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Images et graphisme"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
             ]
           },
           {
@@ -28145,49 +28072,30 @@
       },
       "concepts": [
         {
-          "id": "domain.ai.agents.coding",
-          "label": "Agents de développement",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#agents-code",
-            "#coding-agents"
-          ],
-          "patterns": [
-            "claude code",
-            "\\bcodex\\b",
-            "coding agents?",
-            "agents? de cod"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Agents de développement"
-          ]
-        },
-        {
-          "id": "domain.ai.agents",
-          "label": "Agents IA",
+          "id": "domain.ai.llm",
+          "label": "Modèles de langage",
           "parent": "domain.ai",
           "aliases": [
-            "#agent",
-            "#agents",
-            "#ai-agents",
-            "#personal-agent",
-            "#autonomous-agent",
-            "#ai-companion",
-            "#autonomous-company",
-            "#autonomous-research"
+            "#llm",
+            "#inference",
+            "#providers",
+            "#openai-compatible",
+            "#comparaison-modeles",
+            "#inference-locale"
           ],
           "patterns": [
-            "\\bagents?\\b",
-            "agentique",
-            "\\bopenclaw\\b"
+            "\\bllm\\b",
+            "\\bqwen\\w*",
+            "\\bdeepseek\\b",
+            "\\bnotebooklm\\b",
+            "\\bgemini\\b",
+            "\\bgpt[ -]?\\d",
+            "mistral vibe"
           ],
           "facet": "domain",
           "path": [
             "Intelligence artificielle",
-            "Agents IA"
+            "Modèles de langage"
           ]
         },
         {
@@ -28219,86 +28127,6 @@
           "aliases": [],
           "facet": "domain",
           "path": []
-        },
-        {
-          "id": "domain.ai.llm",
-          "label": "Modèles de langage",
-          "parent": "domain.ai",
-          "aliases": [
-            "#llm",
-            "#inference",
-            "#providers",
-            "#openai-compatible",
-            "#comparaison-modeles",
-            "#inference-locale"
-          ],
-          "patterns": [
-            "\\bllm\\b",
-            "\\bqwen\\w*",
-            "\\bdeepseek\\b",
-            "\\bnotebooklm\\b",
-            "\\bgemini\\b",
-            "\\bgpt[ -]?\\d",
-            "mistral vibe"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Modèles de langage"
-          ]
-        },
-        {
-          "id": "domain.media.audio",
-          "label": "Audio",
-          "parent": "domain.media",
-          "aliases": [
-            "#audio"
-          ],
-          "patterns": [
-            "\\baudio\\b",
-            "creation musicale",
-            "\\bvoix\\b",
-            "\\bvocale\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création",
-            "Audio"
-          ]
-        },
-        {
-          "id": "domain.media",
-          "label": "Audio, vidéo et création",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création"
-          ]
-        },
-        {
-          "id": "domain.media.image",
-          "label": "Images et graphisme",
-          "parent": "domain.media",
-          "aliases": [
-            "#compression-images",
-            "#generation-images",
-            "#animation-svg",
-            "#image",
-            "#design",
-            "#svg",
-            "#inspiration"
-          ],
-          "patterns": [
-            "\\bimages?\\b",
-            "\\bsvg\\b",
-            "visual intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création",
-            "Images et graphisme"
-          ]
         },
         {
           "id": "domain.privacy",
@@ -28337,6 +28165,40 @@
           "facet": "domain",
           "path": [
             "Cybersécurité"
+          ]
+        },
+        {
+          "id": "domain.media.image",
+          "label": "Images et graphisme",
+          "parent": "domain.media",
+          "aliases": [
+            "#compression-images",
+            "#generation-images",
+            "#animation-svg",
+            "#image",
+            "#design",
+            "#svg",
+            "#inspiration"
+          ],
+          "patterns": [
+            "\\bimages?\\b",
+            "\\bsvg\\b",
+            "visual intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Images et graphisme"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
           ]
         },
         {
@@ -51095,7 +50957,7 @@
     },
     {
       "id": "watch-technical-411490b28204e94a3778-md",
-      "title": "Open Generative AI",
+      "title": "Open-Generative-AI",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -51124,7 +50986,7 @@
       "status": "actif",
       "path": "watch/technical-411490b28204e94a3778.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-411490b28204e94a3778.md",
-      "sourceUrl": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "sourceUrl": "https://github.com/anil-matcha/open-generative-ai",
       "sources": [
         {
           "url": "https://github.com/anil-matcha/open-generative-ai",
@@ -51629,18 +51491,12 @@
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
-        },
-        {
-          "url": "https://github.com/hkuds/vibe-tr",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
         }
       ],
       "github": "https://github.com/anil-matcha/open-generative-ai",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des contenus visuels sans restrictions",
+      "summary": "Générer des images et vidéos sans filtres ni restrictions",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -52258,8 +52114,8 @@
           "tag": "#inference-locale"
         }
       ],
-      "cardTitle": "Open Generative AI",
-      "cardInterest": "Crée des contenus visuels sans restrictions"
+      "cardTitle": "Open-Generative-AI",
+      "cardInterest": "Générer des images et vidéos sans filtres ni restrictions"
     },
     {
       "id": "watch-technical-dfc871508eb563893ba5-md",
