@@ -67,13 +67,13 @@ Convertir du texte ou des images en vidéos longues.
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 5535.
-- Pages lues, tweet compris : 75.
+- Liens distincts recensés : 5534.
+- Pages lues, tweet compris : 76.
 - Sources techniques analysées : 22.
 - Sources à vérifier : 44 ; analyses non terminées : 0 ; erreurs du modèle : 2.
-- Liens non lus : 5401 (profondeur : 5154, budget de pages : 228, délai : 0, erreurs : 19).
+- Liens non lus : 5399 (profondeur : 5153, budget de pages : 228, délai : 0, erreurs : 18).
 - Pages résumées sur extrait : 17.
-- Éléments exclus : 66 ; doublons ignorés : 1.
+- Éléments exclus : 67 ; doublons ignorés : 1.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### LongCat-Video
@@ -267,21 +267,23 @@ Source : https://core.ac.uk/services/recommender ; niveau 3.
 
 ### LongCat-Video
 
-Modèle de génération vidéo finetuné. Paramètres : plus de 500 milliards. Disponible sur Hugging Face.
+Modèle de génération vidéo finetuné pour des scénarios spécifiques. Paramètres dépassant 500 milliards. Disponible via Hugging Face. Utilisation via divers fournisseurs d'inference.
 
 - Modèle de génération vidéo finetuné
-- Nombre de paramètres supérieur à 500 milliards
-- Disponible sur Hugging Face
+- Paramètres dépassant 500 milliards
+- Disponible via Hugging Face
+- Utilisation via divers fournisseurs d'inference
 
 Source : https://huggingface.co/models?other=base_model%3Afinetune%3Ameituan-longcat%2FLongCat-Video ; niveau 3.
 
 ### meituan-longcat/LongCat-Video
 
-Modèle vidéo quantisé pour Hugging Face. Paramètres  500B. Disponible via plusieurs fournisseurs d'inférence.
+Modèle vidéo quantisé pour Hugging Face avec plus de 500 milliards de paramètres.
 
 - Modèle vidéo quantisé pour Hugging Face
-- Nombre de paramètres supérieur à 500 milliards
+- Plus de 500 milliards de paramètres
 - Disponible via plusieurs fournisseurs d'inférence
+- Permet l'inférence sur différents serveurs
 
 Source : https://huggingface.co/models?other=base_model%3Aquantized%3Ameituan-longcat%2FLongCat-Video ; niveau 3.
 

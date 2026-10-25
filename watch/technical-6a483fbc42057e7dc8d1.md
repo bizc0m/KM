@@ -52,13 +52,13 @@ Crée des fonds d'écran animés en exportant en vidéo et image
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 1034.
-- Pages lues, tweet compris : 62.
+- Liens distincts recensés : 1038.
+- Pages lues, tweet compris : 63.
 - Sources techniques analysées : 6.
 - Sources à vérifier : 50 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 888 (profondeur : 0, budget de pages : 882, délai : 0, erreurs : 6).
+- Liens non lus : 891 (profondeur : 0, budget de pages : 886, délai : 0, erreurs : 5).
 - Pages résumées sur extrait : 1.
-- Éléments exclus : 91 ; doublons ignorés : 0.
+- Éléments exclus : 92 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### MeltKit
