@@ -55,7 +55,6 @@ Découpe des images en sections facilement.
 - https://fal.ai/models/fal-ai/veo3.1
 - https://fal.ai/ltx-2.3
 - https://fal.ai/pixverse-v6
-- https://fal.ai/models/fal-ai/flux-lora-fast-training
 - https://fal.ai/tools/image-upscaler
 - https://fal.ai/tools/image-extender
 
@@ -70,11 +69,11 @@ Découpe des images en sections facilement.
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 832.
+- Liens distincts recensés : 837.
 - Pages lues, tweet compris : 85.
-- Sources techniques analysées : 25.
-- Sources à vérifier : 55 ; analyses non terminées : 0 ; erreurs du modèle : 2.
-- Liens non lus : 652 (profondeur : 646, budget de pages : 0, délai : 0, erreurs : 6).
+- Sources techniques analysées : 24.
+- Sources à vérifier : 56 ; analyses non terminées : 0 ; erreurs du modèle : 2.
+- Liens non lus : 657 (profondeur : 651, budget de pages : 0, délai : 0, erreurs : 6).
 - Pages résumées sur extrait : 3.
 - Éléments exclus : 99 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
@@ -192,23 +191,28 @@ Source : https://fal.ai/models/minimax/h3-max/image-to-video ; niveau 3.
 
 ### Seedance 2.5 Reference to Video
 
-Génère une vidéo de 30 secondes à partir de 50 références multimodales. Utilise des images, vidéos, sons et styles pour maintenir un personnage, un set et une palette cohérents. Gère l'édition et l'extension de vidéos.
+Génère une vidéo de 30 secondes à partir de 50 références multimodales. Utilise des images, vidéos, sons et styles pour maintenir un personnage, ensemble et palette cohérents. Charge des modèles pour traitement vidéo.
 
-- Génère une vidéo de 30 secondes à partir de 50 références multimodales.
-- Utilise des images, vidéos, sons et styles pour maintenir un personnage, un set et une palette cohérents.
-- Permet l'édition et l'extension de vidéos en conservant le mouvement et la caméra.
-- Prix basé sur la résolution et la durée de la vidéo générée.
+- Génère une vidéo de 30 secondes.
+- Accepte jusqu'à 50 références multimodales.
+- Maintient un personnage, ensemble et palette cohérents.
+- Utilise des modèles pour traitement vidéo.
 
 Source : https://fal.ai/models/bytedance/seedance-2.5/reference-to-video ; niveau 3.
 
-### Meshy 7.1
+### Meshy 7.1 Image to 3D
 
-Meshy 7.1 génère des modèles 3D à partir d'une image. Il propose des modes standard, low-poly et Smart Topology. Des textures et PBR maps sont possibles. La résolution géométrique atteint 4K.
+Meshy 7.1 convertit une image en modèle 3D. Il propose plusieurs modes de génération. Des textures et PBR sont possibles. Résolution jusqu'à 4K.
 
-- Meshy 7.1 génère des modèles 3D à partir d'une image.
+- Meshy 7.1 convertit une image en modèle 3D.
 - Il propose des modes standard, low-poly et Smart Topology.
-- Des textures et PBR maps sont possibles.
-- La résolution géométrique atteint 4K.
+- Textures et PBR maps sont optionnels.
+- Résolution jusqu'à 4K.
+- Coût d'un modèle de base sans textures : 0,80 $.
+- Ajout de textures : 1,20 $.
+- Auto-rigging : 0,20 $ par appel.
+- Animation : 0,12 $ par appel.
+- Modèle texturé avec auto-rigging et animation : 1,52 $.
 
 Source : https://fal.ai/models/meshy/v7.1/image-to-3d ; niveau 3.
 
@@ -316,17 +320,6 @@ Génère des vidéos cinématographiques en 1080p avec audio natif. Contrôle 20
 - Produit des séquences multi-prises
 
 Source : https://fal.ai/pixverse-v6 ; niveau 3.
-
-### FLUX LoRA Fast Training
-
-Service d'entraînement rapide de modèles LoRA basé sur FLUX.1. Permet de créer des modèles personnalisés pour des styles, personnes ou objets. Formation en quelques minutes. Support commercial inclus.
-
-- Service d'entraînement LoRA basé sur FLUX.1
-- Formation rapide de modèles personnalisés pour styles, personnes ou objets
-- Durée de formation réduite par rapport aux méthodes traditionnelles
-- Support commercial inclus pour les modèles formés
-
-Source : https://fal.ai/models/fal-ai/flux-lora-fast-training ; niveau 3.
 
 ### fal AI Image Upscaler
 
