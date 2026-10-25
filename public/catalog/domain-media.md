@@ -42,7 +42,7 @@
 - [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Cloner des voix sans connexion internet.
 - [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
 - [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
-- [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Crée des contenus visuels sans restrictions
+- [Open-Generative-AI](../../watch/technical-411490b28204e94a3778.md) — Générer des images et vidéos sans filtres ni restrictions
 - [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel.
 - [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Découpe des images en sections facilement.
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
@@ -110,7 +110,6 @@
 - [immich-app/immich](../../watch/technical-bfefa0db462ca5c030a2.md) — Gère les photos et vidéos avec une sauvegarde automatique
 - [Kalidokit](../../watch/technical-2673d20da2d7143af84e.md) — Kalidokit est un outil pour rigiser des visages, corps et mains.
 - [mutagen](../../watch/technical-5a9ba13528ab94de7bad.md) — Gère les métadonnées audio sans dépendances externes.
-- [Outil de création d'images et vidéos open source](../../watch/technical-e81f6151c35e55d15926.md) — Génère des images et vidéos via des modèles avancés
 - [react-native-svg](../../watch/technical-0d363f6aa6eaa85ad3ca.md) — Afficher des graphismes vectoriels dans des applications React Native
 - [Répertoire de ressources design](../../watch/technical-0c43c4b9eb7d7f87237a.md) — Accélère le développement UI avec des ressources prêtes à l'emploi
 - [SysMocap](../../watch/technical-265f4b5b46b161719305.md) — Importe facilement des modèles 3D via glisser-déposer.

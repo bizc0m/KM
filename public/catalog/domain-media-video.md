@@ -17,7 +17,7 @@
 - [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Cloner des voix sans connexion internet.
 - [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
 - [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
-- [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Crée des contenus visuels sans restrictions
+- [Open-Generative-AI](../../watch/technical-411490b28204e94a3778.md) — Générer des images et vidéos sans filtres ni restrictions
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [ParticleSfM](../../watch/technical-1579309e1b490fa5279c.md) — Traite des séquences vidéo pour extraire des trajectoires de points.
 - [Pixelrelay](../../watch/technical-140649096e6d8069b2f4.md) — Gère les erreurs de fournisseurs avec un système de failover.
@@ -47,7 +47,6 @@
 - [vidsrc](../../watch/technical-4d7ca480ccb1704faf5b.md) — Lire des frames de vidéo comme tableaux numpy via DirectShow
 - [FreeTube](../../watch/technical-91d6b06125ea90507740.md) — Regarder des vidéos sans publicité et sans suivi de Google
 - [immich-app/immich](../../watch/technical-bfefa0db462ca5c030a2.md) — Gère les photos et vidéos avec une sauvegarde automatique
-- [Outil de création d'images et vidéos open source](../../watch/technical-e81f6151c35e55d15926.md) — Génère des images et vidéos via des modèles avancés
 - [Répertoire de ressources design](../../watch/technical-0c43c4b9eb7d7f87237a.md) — Accélère le développement UI avec des ressources prêtes à l'emploi
 - [SysMocap](../../watch/technical-265f4b5b46b161719305.md) — Importe facilement des modèles 3D via glisser-déposer.
 - [youtube-dl](../../watch/technical-200f4f9f3b7e9e0f30c9.md) — Télécharge des vidéos depuis des sites web sans interface graphique.

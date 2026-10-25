@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-25T14:41:26.186Z",
-  "count": 659,
+  "at": "2026-10-25T15:41:57.584Z",
+  "count": 658,
   "rows": [
     {
       "id": "watch-technical-e9eb05e2bf38f125a62f-md",
@@ -51377,7 +51377,7 @@
     },
     {
       "id": "watch-technical-411490b28204e94a3778-md",
-      "title": "Open Generative AI",
+      "title": "Open-Generative-AI",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -51406,7 +51406,7 @@
       "status": "actif",
       "path": "watch/technical-411490b28204e94a3778.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-411490b28204e94a3778.md",
-      "sourceUrl": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "sourceUrl": "https://github.com/anil-matcha/open-generative-ai",
       "sources": [
         {
           "url": "https://github.com/anil-matcha/open-generative-ai",
@@ -51689,12 +51689,240 @@
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
+        },
+        {
+          "url": "https://x.com/i/status/2056408789327462486",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://github.com/anil-matcha/awesome-generative-ai-apps",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/anil-matcha/openai-api",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/anil-matcha/kling-video-api",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://muapi.ai/open-source/alternatives/midjourney",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/anil-matcha/awesome-ai-video-models",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/anil-matcha/open-ai-design-agent",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/samuraigpt/muapi-skills",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/samuraigpt/seedance-2.5-api",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/leejet/stable-diffusion.cpp",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/samuraigpt/vibe-workflow",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://nodejs.org/en",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://muapi.ai/access-keys",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://muapi.ai/seedance-2",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://muapi.ai/seedance-2.5",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://muapi.ai/docs/introduction",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://muapi.ai/kling-api",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://muapi.ai/minimax-api",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://muapi.ai/qwen-api",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://youtube.com/howyoutubeworks/copyright",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/anil-matcha/awesome-seedance-2.5-api-prompts",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://muapi.ai/docs/quick-start",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://github.com/anil-matcha/zack-d-films-ai-video-generator",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/anil-matcha/open-ai-agents-hub",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/anil-matcha/open-claude-tag",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/anil-matcha/open-grok-bot",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/samuraigpt/llm-wiki-agent",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/anil-matcha/open-poe-ai",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/samuraigpt/pixelrelay",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/samuraigpt/ai-headshot-generator",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/samuraigpt/ai-logo-studio",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/samuraigpt/ai-meme-generator",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/samuraigpt/old-photo-restore",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://old-photo-restore.vercel.app/",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/samuraigpt/clearmark-ai",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/samuraigpt/seedance-2-generator",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/samuraigpt/veo4-video-generator",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/samuraigpt/ai-clipping-generator",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
         }
       ],
       "github": "https://github.com/anil-matcha/open-generative-ai",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des contenus visuels sans restrictions",
+      "summary": "Générer des images et vidéos sans filtres ni restrictions",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -52312,8 +52540,8 @@
           "tag": "#inference-locale"
         }
       ],
-      "cardTitle": "Open Generative AI",
-      "cardInterest": "Crée des contenus visuels sans restrictions"
+      "cardTitle": "Open-Generative-AI",
+      "cardInterest": "Générer des images et vidéos sans filtres ni restrictions"
     },
     {
       "id": "watch-technical-dfc871508eb563893ba5-md",
@@ -75574,7 +75802,7 @@
     },
     {
       "id": "watch-technical-30e283a9b3f70e35d81a-md",
-      "title": "uv : gestionnaire de projet et outil de déploiement Python",
+      "title": "uv",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -75630,7 +75858,7 @@
       "github": "https://github.com/astral-sh/uv",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Gère les dépendances de projet avec des lockfiles.",
+      "summary": "Intérêt à vérifier",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -75640,8 +75868,7 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.dev.dependencies",
-            "domain.data.organization"
+            "domain.dev.dependencies"
           ],
           "capability": [],
           "compatibility": [
@@ -75708,37 +75935,6 @@
             "aliases": [],
             "facet": "domain",
             "path": []
-          },
-          {
-            "id": "domain.data.organization",
-            "label": "Organisation du travail",
-            "parent": "domain.data",
-            "aliases": [
-              "#project-management",
-              "#calendar",
-              "#rendez-vous"
-            ],
-            "patterns": [
-              "projets et taches",
-              "gestion de projet",
-              "planification",
-              "rendez.vous"
-            ],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances",
-              "Organisation du travail"
-            ]
-          },
-          {
-            "id": "domain.data",
-            "label": "Données et connaissances",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances"
-            ]
           },
           {
             "id": "compatibility.language.python",
@@ -75877,37 +76073,6 @@
           "path": []
         },
         {
-          "id": "domain.data.organization",
-          "label": "Organisation du travail",
-          "parent": "domain.data",
-          "aliases": [
-            "#project-management",
-            "#calendar",
-            "#rendez-vous"
-          ],
-          "patterns": [
-            "projets et taches",
-            "gestion de projet",
-            "planification",
-            "rendez.vous"
-          ],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances",
-            "Organisation du travail"
-          ]
-        },
-        {
-          "id": "domain.data",
-          "label": "Données et connaissances",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances"
-          ]
-        },
-        {
           "id": "compatibility.language.python",
           "label": "Python",
           "parent": "compatibility.language",
@@ -75997,7 +76162,7 @@
         }
       ],
       "cardTitle": "uv",
-      "cardInterest": "Gère les dépendances de projet avec des lockfiles."
+      "cardInterest": ""
     },
     {
       "id": "watch-technical-a2736da3d4b4b5c419aa-md",
@@ -124109,716 +124274,6 @@
       "keywords": [],
       "cardTitle": "otfcc",
       "cardInterest": "Convertir des polices OpenType en JSON pour modification et optimisation."
-    },
-    {
-      "id": "watch-technical-e81f6151c35e55d15926-md",
-      "title": "Outil de création d'images et vidéos open source",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "À vérifier",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "À vérifier"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#generation-video",
-        "#generation-images"
-      ],
-      "status": "actif",
-      "path": "watch/technical-e81f6151c35e55d15926.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-e81f6151c35e55d15926.md",
-      "sourceUrl": "https://x.com/i/status/2056408789327462486",
-      "sources": [
-        {
-          "url": "https://x.com/i/status/2056408789327462486",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://github.com/anil-matcha/open-generative-ai",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/anil-matcha/awesome-generative-ai-apps",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/anil-matcha/openai-api",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/anil-matcha/kling-video-api",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/anil-matcha/qwen-image-api",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/anil-matcha/awesome-vibecoded-saas",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/anil-matcha/awesome-ai-video-models",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/anil-matcha/open-ai-design-agent",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/samuraigpt/muapi-skills",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/anil-matcha/open-generative-ai/releases",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/leejet/stable-diffusion.cpp",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/deepbeepmeep/wan2gp",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/samuraigpt/vibe-workflow",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://nodejs.org/en",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://muapi.ai/access-keys",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://muapi.ai/seedance-2",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://muapi.ai/seedance-2.5",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://muapi.ai/kling-4",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://muapi.ai/playground",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://muapi.ai/docs/introduction",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://muapi.ai/kling-api",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://muapi.ai/providers/bytedance",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://muapi.ai/providers/blackforest",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://muapi.ai/minimax-api",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://muapi.ai/qwen-api",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://muapi.ai/providers",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://youtube.com/howyoutubeworks/copyright",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/anil-matcha/ai-creator-academy",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://muapi.ai/docs/quick-start",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://github.com/samuraigpt",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/anil-matcha/zack-d-films-ai-video-generator",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/anil-matcha/open-ai-agents-hub",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/anil-matcha/open-claude-tag",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/samuraigpt/llm-wiki-agent",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/anil-matcha/open-poe-ai",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/samuraigpt/nano-banana-generator",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/samuraigpt/ai-headshot-generator",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/samuraigpt/ai-logo-studio",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/samuraigpt/ai-meme-generator",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/samuraigpt/old-photo-restore",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://old-photo-restore.vercel.app/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/samuraigpt/clearmark-ai",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/samuraigpt/seedance-2-generator",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/samuraigpt/veo4-video-generator",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/samuraigpt/ai-kissing-video-generator",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/samuraigpt/ai-clipping-generator",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        }
-      ],
-      "github": "",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Génère des images et vidéos via des modèles avancés",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-20",
-      "theme": "media",
-      "themeLabel": "Vidéo",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.media.video",
-            "domain.media.image"
-          ],
-          "capability": [
-            "capability.generate.video",
-            "capability.generate.image"
-          ],
-          "compatibility": [],
-          "risk": [],
-          "source": [
-            "source.noteplan",
-            "source.x",
-            "source.github"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.media.video",
-            "label": "Vidéo",
-            "parent": "domain.media",
-            "aliases": [
-              "#montage-video",
-              "#video-editing",
-              "#generation-video",
-              "#video-generation",
-              "#ai-video",
-              "#video",
-              "#shortvideo",
-              "#ai-video-generator"
-            ],
-            "patterns": [
-              "\\bvideos?\\b",
-              "\\bvideo\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création",
-              "Vidéo"
-            ]
-          },
-          {
-            "id": "domain.media",
-            "label": "Audio, vidéo et création",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "domain.media.image",
-            "label": "Images et graphisme",
-            "parent": "domain.media",
-            "aliases": [
-              "#compression-images",
-              "#generation-images",
-              "#animation-svg",
-              "#image",
-              "#design",
-              "#svg",
-              "#inspiration"
-            ],
-            "patterns": [
-              "\\bimages?\\b",
-              "\\bsvg\\b",
-              "visual intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création",
-              "Images et graphisme"
-            ]
-          },
-          {
-            "id": "capability.generate.video",
-            "label": "Générer une vidéo",
-            "parent": "capability.generate",
-            "aliases": [
-              "#generation-video",
-              "#video-generation",
-              "#ai-video"
-            ],
-            "facet": "capability",
-            "path": [
-              "Générer des contenus",
-              "Générer une vidéo"
-            ]
-          },
-          {
-            "id": "capability.generate",
-            "label": "Générer des contenus",
-            "parent": "capability",
-            "aliases": [],
-            "facet": "capability",
-            "path": [
-              "Générer des contenus"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
-          {
-            "id": "capability.generate.image",
-            "label": "Générer une image",
-            "parent": "capability.generate",
-            "aliases": [
-              "#generation-images"
-            ],
-            "facet": "capability",
-            "path": [
-              "Générer des contenus",
-              "Générer une image"
-            ]
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.media.video",
-          "label": "Vidéo",
-          "parent": "domain.media",
-          "aliases": [
-            "#montage-video",
-            "#video-editing",
-            "#generation-video",
-            "#video-generation",
-            "#ai-video",
-            "#video",
-            "#shortvideo",
-            "#ai-video-generator"
-          ],
-          "patterns": [
-            "\\bvideos?\\b",
-            "\\bvideo\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création",
-            "Vidéo"
-          ]
-        },
-        {
-          "id": "domain.media",
-          "label": "Audio, vidéo et création",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "domain.media.image",
-          "label": "Images et graphisme",
-          "parent": "domain.media",
-          "aliases": [
-            "#compression-images",
-            "#generation-images",
-            "#animation-svg",
-            "#image",
-            "#design",
-            "#svg",
-            "#inspiration"
-          ],
-          "patterns": [
-            "\\bimages?\\b",
-            "\\bsvg\\b",
-            "visual intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création",
-            "Images et graphisme"
-          ]
-        },
-        {
-          "id": "capability.generate.video",
-          "label": "Générer une vidéo",
-          "parent": "capability.generate",
-          "aliases": [
-            "#generation-video",
-            "#video-generation",
-            "#ai-video"
-          ],
-          "facet": "capability",
-          "path": [
-            "Générer des contenus",
-            "Générer une vidéo"
-          ]
-        },
-        {
-          "id": "capability.generate",
-          "label": "Générer des contenus",
-          "parent": "capability",
-          "aliases": [],
-          "facet": "capability",
-          "path": [
-            "Générer des contenus"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
-          "id": "capability.generate.image",
-          "label": "Générer une image",
-          "parent": "capability.generate",
-          "aliases": [
-            "#generation-images"
-          ],
-          "facet": "capability",
-          "path": [
-            "Générer des contenus",
-            "Générer une image"
-          ]
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#Vidéo",
-          "fullLabel": "Génération vidéo",
-          "color": "media",
-          "tag": "#generation-video"
-        },
-        {
-          "label": "#Images",
-          "fullLabel": "Génération d’images",
-          "color": "media",
-          "tag": "#generation-images"
-        }
-      ],
-      "cardTitle": "Outil de création d'images et vidéos open source",
-      "cardInterest": "Génère des images et vidéos via des modèles avancés"
     },
     {
       "id": "watch-technical-34a75990427dfeb34af2-md",

@@ -1,18 +1,18 @@
 {
-  "at": "2026-10-25T14:41:26.527Z",
+  "at": "2026-10-25T15:41:57.742Z",
   "scope": "public-index-only",
-  "fiches": 659,
-  "sourceReferences": 2642,
+  "fiches": 658,
+  "sourceReferences": 2633,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 631,
+  "pendingReview": 630,
   "counts": {
-    "interest-missing": 193,
+    "interest-missing": 194,
     "keywords-missing": 90,
     "domain-unqualified": 116,
-    "primary-identity-unqualified": 22,
-    "nature-unqualified": 609
+    "primary-identity-unqualified": 21,
+    "nature-unqualified": 608
   },
   "queue": [
     {
@@ -795,7 +795,7 @@
     },
     {
       "id": "watch-technical-411490b28204e94a3778-md",
-      "title": "Open Generative AI",
+      "title": "Open-Generative-AI",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1168,6 +1168,7 @@
       "id": "watch-technical-30e283a9b3f70e35d81a-md",
       "title": "uv",
       "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -2148,14 +2149,6 @@
       "reasons": [
         "keywords-missing",
         "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-e81f6151c35e55d15926-md",
-      "title": "Outil de création d'images et vidéos open source",
-      "reasons": [
-        "primary-identity-unqualified",
         "nature-unqualified"
       ]
     },

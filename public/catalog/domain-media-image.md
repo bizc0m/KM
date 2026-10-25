@@ -24,7 +24,7 @@
 - [Old Photo Restore](../../watch/technical-1a1b1c01fccbb652af5e.md) — Restaure des photos anciennes avec un moteur d'IA.
 - [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
 - [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
-- [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Crée des contenus visuels sans restrictions
+- [Open-Generative-AI](../../watch/technical-411490b28204e94a3778.md) — Générer des images et vidéos sans filtres ni restrictions
 - [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Découpe des images en sections facilement.
 - [Penpot](../../watch/technical-c0d4875dd605f77caf57.md)
 - [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones
@@ -66,7 +66,6 @@
 - [sdtfile](../../watch/technical-892f655e8727d581afe8.md) — Lire des fichiers SDT avec des données compressées.
 - [tifffile](../../watch/technical-6efa01af6ecbb2a6854a.md) — Lire et écrire des images en TIFF avec compression et métadonnées.
 - [Cleanup.pictures](../../watch/technical-6e8858c6b6c8c8c1712a.md) — Supprime des éléments indésirables d'images en ligne
-- [Outil de création d'images et vidéos open source](../../watch/technical-e81f6151c35e55d15926.md) — Génère des images et vidéos via des modèles avancés
 - [react-native-svg](../../watch/technical-0d363f6aa6eaa85ad3ca.md) — Afficher des graphismes vectoriels dans des applications React Native
 - [gemini-cli](../../watch/technical-24684c1ecca249c03e58.md) — Interagir avec Gemini via terminal pour exécuter des tâches de code
 - [vox-ai-motion-graphics-generator](../../watch/technical-4ff70387f0be38c9fbad.md) — Crée une vidéo expliquée en style Vox avec collage papier.

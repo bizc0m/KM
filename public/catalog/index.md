@@ -10,12 +10,12 @@
 - [Développement logiciel](domain-dev.md) — 109 fiches
 - [Développement web](domain-dev-web.md) — 26 fiches
 - [Qualité du code](domain-dev-quality.md) — 25 fiches
-- [Audio, vidéo et création](domain-media.md) — 159 fiches
+- [Audio, vidéo et création](domain-media.md) — 158 fiches
 - [Audio](domain-media-audio.md) — 35 fiches
 - [Voix](domain-media-audio-voice.md) — 20 fiches
 - [Identification audio](domain-media-audio-identification.md) — 1 fiches
-- [Vidéo](domain-media-video.md) — 80 fiches
-- [Images et graphisme](domain-media-image.md) — 85 fiches
+- [Vidéo](domain-media-video.md) — 79 fiches
+- [Images et graphisme](domain-media-image.md) — 84 fiches
 - [Création 3D](domain-media-3d.md) — 20 fiches
 - [Cybersécurité](domain-security.md) — 76 fiches
 - [Sécurité web](domain-security-web.md) — 4 fiches
@@ -25,7 +25,7 @@
 - [Protection des données](domain-privacy.md) — 11 fiches
 - [Infrastructure](domain-infrastructure.md) — 57 fiches
 - [Réseaux](domain-infrastructure-network.md) — 3 fiches
-- [Données et connaissances](domain-data.md) — 77 fiches
+- [Données et connaissances](domain-data.md) — 76 fiches
 - [Collecte web](domain-data-web.md) — 23 fiches
 - [Documents](domain-data-documents.md) — 8 fiches
 - [Notes et organisation](domain-data-notes.md) — 13 fiches
@@ -53,7 +53,7 @@
 - [Analyse de fréquentation](domain-data-analytics.md) — 2 fiches
 - [Publication de contenus](domain-communication-publishing.md) — 2 fiches
 - [Messagerie](domain-communication-messaging.md) — 8 fiches
-- [Organisation du travail](domain-data-organization.md) — 16 fiches
+- [Organisation du travail](domain-data-organization.md) — 15 fiches
 - [Outils de navigateur](domain-dev-browser.md) — 10 fiches
 - [Productivité](domain-productivity.md) — 1 fiches
 - [Tâches et agenda](domain-productivity-tasks.md) — 1 fiches

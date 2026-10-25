@@ -306,7 +306,6 @@
 | `watch-technical-376b6a891c208f1b1d16-md` | `watch/technical-376b6a891c208f1b1d16.md` | outil |  | actif |
 | `watch-technical-0be614d8a1eb180e4b8a-md` | `watch/technical-0be614d8a1eb180e4b8a.md` | outil | #osint, #recherche-documentaire | actif |
 | `watch-technical-b10c50a325ead1902d82-md` | `watch/technical-b10c50a325ead1902d82.md` | outil |  | actif |
-| `watch-technical-e81f6151c35e55d15926-md` | `watch/technical-e81f6151c35e55d15926.md` | outil | #generation-video, #generation-images | actif |
 | `watch-technical-34a75990427dfeb34af2-md` | `watch/technical-34a75990427dfeb34af2.md` | outil | #macos | actif |
 | `watch-technical-1322cd90adeb08627ff0-md` | `watch/technical-1322cd90adeb08627ff0.md` | outil |  | actif |
 | `watch-technical-252f85e1a80b7d2702ca-md` | `watch/technical-252f85e1a80b7d2702ca.md` | outil |  | actif |

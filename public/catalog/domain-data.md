@@ -22,7 +22,6 @@
 - [Skills For Real Engineers](../../watch/technical-637c99109af31ed2fe7b.md) — Aligner les besoins avec l'agent avant de commencer
 - [TikTok-User-Info-Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
 - [Uscrapper Vanta](../../watch/technical-9068e1e4bc2dea6a7322.md) — Extraire des données web avec précision et organisation
-- [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Gère les dépendances de projet avec des lockfiles.
 - [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence visuelle et narrative.
 - [WebDiver](../../watch/technical-8a4e0d1ee4f13f3119dd.md)
 - [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md)
