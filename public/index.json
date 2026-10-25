@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-25T15:41:57.584Z",
+  "at": "2026-10-25T16:42:01.888Z",
   "count": 658,
   "rows": [
     {
@@ -2833,7 +2833,7 @@
       "github": "https://github.com/rohitg00/agentmemory",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Garder la mémoire des sessions pour éviter de réexpliquer les détails.",
+      "summary": "Garder des sessions de codage accessibles pour les agents.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -3541,7 +3541,7 @@
         }
       ],
       "cardTitle": "agentmemory",
-      "cardInterest": "Garder la mémoire des sessions pour éviter de réexpliquer les détails."
+      "cardInterest": "Garder des sessions de codage accessibles pour les agents."
     },
     {
       "id": "watch-technical-0c9607a1c8e9eb918265-md",
@@ -34682,126 +34682,6 @@
           "label": "Référence"
         },
         {
-          "url": "https://djangoproject.com/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://trypyramid.com/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://bottlepy.org/docs/dev",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://tornadoweb.org/en/stable",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fastapi.tiangolo.com/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Tkinter",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://pygobject.gnome.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://wiki.qt.io/Qt_for_Python",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://kivy.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://dearpygui.readthedocs.io/en/latest",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://scikit-learn.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://huggingface.co/docs/transformers/index",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://scipy.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://pandas.pydata.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://ipython.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://buildbot.net/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://trac.edgewall.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://roundup-tracker.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://openstack.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://xon.sh/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
           "url": "https://techtalkswithgaurav.blogspot.com/2020/06/your-personal-assistant-jarvis.html?showComment=1696128498625",
           "kind": "source",
           "role": "secondaryReference",
@@ -46610,7 +46490,7 @@
           "label": "Référence"
         },
         {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/SKILL.md",
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/SKILL.md",
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
@@ -46622,7 +46502,7 @@
           "label": "Publication d’origine"
         },
         {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/cli-reference.md",
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/docs/cli-reference.md",
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
@@ -46634,16 +46514,10 @@
           "label": "Publication d’origine"
         },
         {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/mcp-guide.md",
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/docs/mcp-guide.md",
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
-        },
-        {
-          "url": "https://artemxtech.substack.com/p/notebooklm-has-a-knowledge-graph",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
         },
         {
           "url": "https://x.com/i/status/2024819940327379286",
@@ -46658,13 +46532,7 @@
           "label": "Référence"
         },
         {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/android/README.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/installation.md",
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/docs/installation.md",
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
@@ -46676,13 +46544,7 @@
           "label": "Référence"
         },
         {
-          "url": "https://releases.astral.sh/installers/uv/latest/uv-installer.sh",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/CONTRIBUTING.md",
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/CONTRIBUTING.md",
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
@@ -46694,55 +46556,55 @@
           "label": "Référence"
         },
         {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/configuration.md",
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/docs/configuration.md",
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
         },
         {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/quota-limits.md",
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/docs/quota-limits.md",
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
         },
         {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/releasing.md",
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/docs/releasing.md",
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
         },
         {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/security.md",
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/docs/security.md",
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
         },
         {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/upgrading-to-0.8.0.md",
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/docs/upgrading-to-0.8.0.md",
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
         },
         {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/architecture.md",
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/docs/architecture.md",
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
         },
         {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/rpc-development.md",
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/docs/rpc-development.md",
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
         },
         {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/rpc-reference.md",
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/docs/rpc-reference.md",
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
         },
         {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/SECURITY.md",
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/SECURITY.md",
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
@@ -46766,194 +46628,116 @@
           "label": "Référence"
         },
         {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2501",
+          "url": "https://github.com/teng-lin/notebooklm-py/commit/db621f2503aaaa8221e24c7cf42c19e965ea468f",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
         },
         {
-          "url": "https://github.com/halilunay/notebooklm-py/tree/refs/heads/claude/tiered-title-matching",
+          "url": "https://github.com/teng-lin/notebooklm-py/tree/refs/heads/main",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
         },
         {
-          "url": "https://github.com/teng-lin/notebooklm-py/commit/4d551830df2680b1bd288330c6c249b4b34d4cd0",
+          "url": "https://github.com/teng-lin/notebooklm-py/actions/runs/40197596799",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
         },
         {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2489",
+          "url": "https://github.com/teng-lin/notebooklm-py/pull/2511",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
         },
         {
-          "url": "https://github.com/teng-lin/notebooklm-py/tree/refs/heads/dependabot/github_actions/actions-ca2ec67132",
+          "url": "https://github.com/teng-lin/notebooklm-py/tree/refs/heads/feat/android-live-voice",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
         },
         {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2468",
+          "url": "https://github.com/teng-lin/notebooklm-py/commit/28f4d85b5d803c05a84f8b746ce6c1e4128acc7c",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
         },
         {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2504",
+          "url": "https://github.com/teng-lin/notebooklm-py/pull/2510",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
         },
         {
-          "url": "https://github.com/victor-gurbani/notebooklm-py/tree/refs/heads/fix/sync-cookie-recovery-transport",
+          "url": "https://github.com/teng-lin/notebooklm-py/pull/2508",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
         },
         {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2502",
+          "url": "https://github.com/teng-lin/notebooklm-py/commit/00b2bd5077b11fc85efb814250b81ded2bd7da8f",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
         },
         {
-          "url": "https://github.com/teng-lin/notebooklm-py/commit/4188d7e26a07b6b94b67bf95041c81bc1530c508",
+          "url": "https://github.com/teng-lin/notebooklm-py/actions/runs/39780246796",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
         },
         {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2500",
+          "url": "https://github.com/teng-lin/notebooklm-py/pull/2507",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
         },
         {
-          "url": "https://github.com/teng-lin/notebooklm-py/commit/fd7af2cd5c4afccad1da9e7d5ce51c1388193408",
+          "url": "https://github.com/teng-lin/notebooklm-py/commit/99f2bd2d7ff83dcc77e4da01f6cc421ec2511d80",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
         },
         {
-          "url": "https://github.com/teng-lin/notebooklm-py/commit/6b5cbc84953d81a16b034628670c3ea4e81ddce7",
+          "url": "https://github.com/teng-lin/notebooklm-py/pull/2506",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
         },
         {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2497",
+          "url": "https://github.com/teng-lin/notebooklm-py/commit/84f6d9f51fc9206a64b336778168ccb516a3b54f",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
         },
         {
-          "url": "https://github.com/teng-lin/notebooklm-py/tree/refs/heads/fix/android-googlevideo-ranged-download",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2498",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/commit/a86aa39aaa369682cafbffe5fe620a55af4769f9",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2496",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/issues/366",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/issues/367",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/issues/1753",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/issues/2004",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/microsoft/playwright/issues/35363",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/microsoft/playwright/issues/28858",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/src/notebooklm/client.py",
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/src/notebooklm/auth.py",
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
         },
         {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/src/notebooklm/auth.py",
-          "kind": "source",
+          "url": "https://github.com/teng-lin/notebooklm-py/blob/main/docs/installation.md",
+          "kind": "github",
           "role": "documentation",
           "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/src/notebooklm/exceptions.py",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/issues/2038",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/issues/2019",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
         }
       ],
       "github": "https://github.com/teng-lin/notebooklm-py",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intégration d'agents LLM avec Gemini Notebook",
+      "summary": "Accès programmatique aux fonctionnalités non exposées",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
       "theme": "agent",
-      "themeLabel": "Agents de développement",
+      "themeLabel": "Agents IA",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents.coding",
+            "domain.ai.agents",
             "domain.ai.llm",
             "domain.dev"
           ],
@@ -46973,27 +46757,6 @@
           ]
         },
         "concepts": [
-          {
-            "id": "domain.ai.agents.coding",
-            "label": "Agents de développement",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#agents-code",
-              "#coding-agents"
-            ],
-            "patterns": [
-              "claude code",
-              "\\bcodex\\b",
-              "coding agents?",
-              "agents? de cod"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Agents de développement"
-            ]
-          },
           {
             "id": "domain.ai.agents",
             "label": "Agents IA",
@@ -47218,27 +46981,6 @@
         "unmappedTags": []
       },
       "concepts": [
-        {
-          "id": "domain.ai.agents.coding",
-          "label": "Agents de développement",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#agents-code",
-            "#coding-agents"
-          ],
-          "patterns": [
-            "claude code",
-            "\\bcodex\\b",
-            "coding agents?",
-            "agents? de cod"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Agents de développement"
-          ]
-        },
         {
           "id": "domain.ai.agents",
           "label": "Agents IA",
@@ -47475,7 +47217,7 @@
         }
       ],
       "cardTitle": "notebooklm-py",
-      "cardInterest": "Intégration d'agents LLM avec Gemini Notebook"
+      "cardInterest": "Accès programmatique aux fonctionnalités non exposées"
     },
     {
       "id": "watch-technical-614a514ae65ec429804d-md",
@@ -55310,7 +55052,7 @@
     },
     {
       "id": "watch-technical-757ce536b0a4cbc2f860-md",
-      "title": "OpenDesign",
+      "title": "OpenDesign: Workspace collaboratif pour agents AI",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -55442,7 +55184,7 @@
       "github": "https://github.com/nexu-io/open-design",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel",
+      "summary": "Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -55452,7 +55194,8 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents"
+            "domain.ai.agents",
+            "domain.ai.llm"
           ],
           "capability": [],
           "compatibility": [],
@@ -55521,6 +55264,33 @@
             "aliases": [],
             "facet": "domain",
             "path": []
+          },
+          {
+            "id": "domain.ai.llm",
+            "label": "Modèles de langage",
+            "parent": "domain.ai",
+            "aliases": [
+              "#llm",
+              "#inference",
+              "#providers",
+              "#openai-compatible",
+              "#comparaison-modeles",
+              "#inference-locale"
+            ],
+            "patterns": [
+              "\\bllm\\b",
+              "\\bqwen\\w*",
+              "\\bdeepseek\\b",
+              "\\bnotebooklm\\b",
+              "\\bgemini\\b",
+              "\\bgpt[ -]?\\d",
+              "mistral vibe"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Modèles de langage"
+            ]
           },
           {
             "id": "lifecycle.active",
@@ -55641,6 +55411,33 @@
           "path": []
         },
         {
+          "id": "domain.ai.llm",
+          "label": "Modèles de langage",
+          "parent": "domain.ai",
+          "aliases": [
+            "#llm",
+            "#inference",
+            "#providers",
+            "#openai-compatible",
+            "#comparaison-modeles",
+            "#inference-locale"
+          ],
+          "patterns": [
+            "\\bllm\\b",
+            "\\bqwen\\w*",
+            "\\bdeepseek\\b",
+            "\\bnotebooklm\\b",
+            "\\bgemini\\b",
+            "\\bgpt[ -]?\\d",
+            "mistral vibe"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Modèles de langage"
+          ]
+        },
+        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -55706,10 +55503,16 @@
           "fullLabel": "ai-agents",
           "color": "agent",
           "subjectId": "domain.ai.agents"
+        },
+        {
+          "label": "#LLM",
+          "fullLabel": "Modèles de langage",
+          "color": "llm",
+          "subjectId": "domain.ai.llm"
         }
       ],
       "cardTitle": "OpenDesign",
-      "cardInterest": "Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel"
+      "cardInterest": "Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel"
     },
     {
       "id": "watch-technical-1049081f67e5576ca9e6-md",
@@ -63146,126 +62949,6 @@
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
-        },
-        {
-          "url": "https://djangoproject.com/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://trypyramid.com/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://bottlepy.org/docs/dev",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://tornadoweb.org/en/stable",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fastapi.tiangolo.com/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Tkinter",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://pygobject.gnome.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://wiki.qt.io/Qt_for_Python",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://kivy.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://dearpygui.readthedocs.io/en/latest",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://scikit-learn.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://huggingface.co/docs/transformers/index",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://scipy.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://pandas.pydata.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://ipython.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://buildbot.net/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://trac.edgewall.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://roundup-tracker.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://openstack.org/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://xon.sh/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
         }
       ],
       "github": "https://github.com/openbashok/promptzero",

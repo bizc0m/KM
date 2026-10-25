@@ -1,6 +1,6 @@
 # Développement logiciel
 
-- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Garder la mémoire des sessions pour éviter de réexpliquer les détails.
+- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Garder des sessions de codage accessibles pour les agents.
 - [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Recherche et stream d'animes via des fournisseurs.
 - [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
 - [BAML](../../watch/technical-b79207044bee1b2d7073.md) — Crée des agents fiables avec des types statiques.
@@ -20,7 +20,7 @@
 - [MiniSim](../../watch/technical-d93ed6a02625034b1939.md) — Lancer les émulateurs iOS et Android depuis la barre de menus macOS.
 - [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Permet d'explorer et modifier le code avec un assistant IA
 - [myfish](../../watch/technical-ae2b5f1a3fbdf8f6f54d.md)
-- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
+- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Accès programmatique aux fonctionnalités non exposées
 - [open-grok-bot](../../watch/technical-dfc871508eb563893ba5.md) — Crée des personas bots avec des modèles spécifiques
 - [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement

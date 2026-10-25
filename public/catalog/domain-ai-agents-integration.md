@@ -1,6 +1,6 @@
 # Connecteurs et outils des agents
 
-- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Garder la mémoire des sessions pour éviter de réexpliquer les détails.
+- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Garder des sessions de codage accessibles pour les agents.
 - [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
 - [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches dans le terminal avec des modèles.
 - [Migration vers Kimi Code CLI](../../watch/technical-15ae02c43b612a6e8c46.md) — Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP.

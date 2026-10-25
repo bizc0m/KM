@@ -1,7 +1,7 @@
 # Agents de développement
 
 - [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md)
-- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Garder la mémoire des sessions pour éviter de réexpliquer les détails.
+- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Garder des sessions de codage accessibles pour les agents.
 - [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
 - [Claude SEO](../../watch/technical-2ac64d2afb7018ac9ff2.md) — Analyse un site web et propose un plan d'action pour améliorer son référencement
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md)
@@ -9,7 +9,6 @@
 - [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Exécute des tâches de codage localement avec un éditeur.
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Permet d'éditer des fichiers dans un environnement terminal
-- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
 - [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
 - [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
 - [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md)

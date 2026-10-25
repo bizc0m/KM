@@ -1,6 +1,6 @@
 # Qualité du code
 
-- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Garder la mémoire des sessions pour éviter de réexpliquer les détails.
+- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Garder des sessions de codage accessibles pour les agents.
 - [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Génère des données 3D à partir de points de contrôle.
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md)
 - [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Exécute des tâches de codage localement avec un éditeur.

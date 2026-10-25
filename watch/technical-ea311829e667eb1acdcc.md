@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Garder la mémoire des sessions pour éviter de réexpliquer les détails.
+Garder des sessions de codage accessibles pour les agents.
 
 ## Identité
 

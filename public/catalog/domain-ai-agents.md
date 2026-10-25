@@ -5,7 +5,7 @@
 - [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md)
 - [Agent Skills](../../watch/technical-48dbbdd8fd0d302995a7.md) — Définir un format ouvert pour partager les compétences des agents.
 - [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md)
-- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Garder la mémoire des sessions pour éviter de réexpliquer les détails.
+- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Garder des sessions de codage accessibles pour les agents.
 - [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA
 - [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
 - [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
@@ -31,7 +31,7 @@
 - [Migration vers Kimi Code CLI](../../watch/technical-15ae02c43b612a6e8c46.md) — Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP.
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
 - [Multica](../../watch/technical-1c299b0df37a055a049d.md) — Assigner des tâches aux agents IA pour gérer le travail.
-- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
+- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Accès programmatique aux fonctionnalités non exposées
 - [NotFair Plugin](../../watch/technical-614a514ae65ec429804d.md) — Analyse de site et de campagne publicitaire avec des workflows prédéfinis.
 - [Ominis-OSINT](../../watch/technical-4d65fd0e0a726a41e3d2.md) — Rechercher des mentions en ligne d'une cible et identifier des profils sociaux
 - [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
@@ -40,7 +40,7 @@
 - [Open-Poe-AI](../../watch/technical-2d163384adb685d9a51a.md)
 - [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
 - [openclaw](../../watch/technical-0b5c4741d1c147be5fdd.md) — intègre des canaux de messagerie pour un assistant IA local
-- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel
+- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Crée des workflows personnalisés avec des extensions
 - [Pi](../../watch/technical-c133b93b912dffd605a2.md)
