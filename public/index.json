@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-25T20:48:13.799Z",
+  "at": "2026-10-25T21:48:19.752Z",
   "count": 658,
   "rows": [
     {
@@ -48806,6 +48806,12 @@
           "label": "Documentation"
         },
         {
+          "url": "https://github.com/bichengwang",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
           "url": "https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/licensing/model-review-workflow.md",
           "kind": "source",
           "role": "documentation",
@@ -48921,36 +48927,6 @@
         },
         {
           "url": "https://github.com/debpalash/voicestudio/pull/2290",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/debpalash/voicestudio/pull/2280",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/debpalash/voicestudio/pull/2278",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/debpalash/voicestudio/pull/2295",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/debpalash/voicestudio/pull/2296",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/debpalash/voicestudio/pull/2288",
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
@@ -54954,7 +54930,7 @@
     },
     {
       "id": "watch-technical-757ce536b0a4cbc2f860-md",
-      "title": "OpenDesign: Workspace collaboratif pour agents AI",
+      "title": "OpenDesign",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -55086,7 +55062,7 @@
       "github": "https://github.com/nexu-io/open-design",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel",
+      "summary": "Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -55096,8 +55072,7 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents",
-            "domain.ai.llm"
+            "domain.ai.agents"
           ],
           "capability": [],
           "compatibility": [],
@@ -55166,33 +55141,6 @@
             "aliases": [],
             "facet": "domain",
             "path": []
-          },
-          {
-            "id": "domain.ai.llm",
-            "label": "Modèles de langage",
-            "parent": "domain.ai",
-            "aliases": [
-              "#llm",
-              "#inference",
-              "#providers",
-              "#openai-compatible",
-              "#comparaison-modeles",
-              "#inference-locale"
-            ],
-            "patterns": [
-              "\\bllm\\b",
-              "\\bqwen\\w*",
-              "\\bdeepseek\\b",
-              "\\bnotebooklm\\b",
-              "\\bgemini\\b",
-              "\\bgpt[ -]?\\d",
-              "mistral vibe"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Modèles de langage"
-            ]
           },
           {
             "id": "lifecycle.active",
@@ -55313,33 +55261,6 @@
           "path": []
         },
         {
-          "id": "domain.ai.llm",
-          "label": "Modèles de langage",
-          "parent": "domain.ai",
-          "aliases": [
-            "#llm",
-            "#inference",
-            "#providers",
-            "#openai-compatible",
-            "#comparaison-modeles",
-            "#inference-locale"
-          ],
-          "patterns": [
-            "\\bllm\\b",
-            "\\bqwen\\w*",
-            "\\bdeepseek\\b",
-            "\\bnotebooklm\\b",
-            "\\bgemini\\b",
-            "\\bgpt[ -]?\\d",
-            "mistral vibe"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Modèles de langage"
-          ]
-        },
-        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -55405,16 +55326,10 @@
           "fullLabel": "ai-agents",
           "color": "agent",
           "subjectId": "domain.ai.agents"
-        },
-        {
-          "label": "#LLM",
-          "fullLabel": "Modèles de langage",
-          "color": "llm",
-          "subjectId": "domain.ai.llm"
         }
       ],
       "cardTitle": "OpenDesign",
-      "cardInterest": "Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel"
+      "cardInterest": "Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel"
     },
     {
       "id": "watch-technical-1049081f67e5576ca9e6-md",

@@ -48,6 +48,7 @@ Cloner des voix sans connexion internet.
 - https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/downloading-models.md
 - https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/mcp.md
 - https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/examples/README.md
+- https://github.com/bichengwang
 - https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/licensing/model-review-workflow.md
 - https://voicestudio.sh/workflows/voice-clone
 - https://voicestudio.sh/workflows/audiobook
@@ -68,11 +69,6 @@ Cloner des voix sans connexion internet.
 - https://github.com/debpalash/voicestudio/pull/2291
 - https://github.com/debpalash/voicestudio/pull/2289
 - https://github.com/debpalash/voicestudio/pull/2290
-- https://github.com/debpalash/voicestudio/pull/2280
-- https://github.com/debpalash/voicestudio/pull/2278
-- https://github.com/debpalash/voicestudio/pull/2295
-- https://github.com/debpalash/voicestudio/pull/2296
-- https://github.com/debpalash/voicestudio/pull/2288
 
 ## Traçabilité
 
@@ -85,23 +81,24 @@ Cloner des voix sans connexion internet.
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 2269.
-- Pages lues, tweet compris : 99.
-- Sources techniques analysées : 40.
-- Sources à vérifier : 53 ; analyses non terminées : 0 ; erreurs du modèle : 2.
-- Liens non lus : 1763 (profondeur : 1458, budget de pages : 290, délai : 0, erreurs : 15).
-- Pages résumées sur extrait : 18.
-- Éléments exclus : 411 ; doublons ignorés : 1.
+- Liens distincts recensés : 2672.
+- Pages lues, tweet compris : 100.
+- Sources techniques analysées : 36.
+- Sources à vérifier : 58 ; analyses non terminées : 0 ; erreurs du modèle : 1.
+- Liens non lus : 1978 (profondeur : 751, budget de pages : 1213, délai : 0, erreurs : 14).
+- Pages résumées sur extrait : 17.
+- Éléments exclus : 599 ; doublons ignorés : 1.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### VoiceStudio
 
-[1] VoiceStudio est un outil open-source permettant de cloner des voix. [2] Il permet de créer des dialogues pour des vidéos avec synchronisation temporelle. [3] Il supporte 646 langues. [4] Il fonctionne localement sans connexion internet.
+[GitHub] Outils de synthèse vocale locale. [Support] 646 langues. [Fonctionnalités] Clonage de voix, transcription, traduction, synthèse vocale. [Licence] AGPL-3.0.
 
-- VoiceStudio est un outil open-source permettant de cloner des voix.
-- Il permet de créer des dialogues pour des vidéos avec synchronisation temporelle.
-- Il supporte 646 langues.
-- Il fonctionne localement sans connexion internet.
+- Outil de synthèse vocale locale.
+- Supporte 646 langues.
+- Permet le clonage de voix.
+- Inclut des fonctionnalités de transcription et de traduction.
+- Licence AGPL-3.0.
 
 Source : https://trendshift.io/repositories/28176 ; niveau 2.
 
@@ -173,12 +170,12 @@ Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/
 
 ### VoiceStudio
 
-VoiceStudio est un outil basé sur Docker pour exécuter des modèles de synthèse vocale. Il fournit une interface web accessible via un navigateur. Les modèles sont téléchargés depuis Hugging Face. Les images Docker sont disponibles sur Docker Hub et GitHub Container Registry.
+VoiceStudio est un outil basé sur Docker pour des déploiements serveurs. Il inclut un backend et un UI accessible via un navigateur. Les modèles sont téléchargés depuis Hugging Face.
 
-- VoiceStudio utilise Docker pour exécuter des modèles de synthèse vocale.
-- L'interface web est accessible via un navigateur.
+- Docker permet des déploiements serveurs sans interface graphique.
+- L'UI est accessible via un navigateur web.
 - Les modèles sont téléchargés depuis Hugging Face.
-- Les images Docker sont disponibles sur Docker Hub et GitHub Container Registry.
+- Les analyses sont opt-in et ne contiennent pas de données personnelles.
 
 Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/install/docker.md ; niveau 2.
 
@@ -206,23 +203,25 @@ Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/elect
 
 ### VoiceStudio
 
-Documentation sur la résolution des erreurs d'installation de VoiceStudio. Liste des erreurs courantes avec causes et solutions. Instructions pour le diagnostic automatique et les tests de l'application. Méthodes pour déboguer les problèmes de port, de mémoire, de modèle et de dépendances.
+Documentation sur les erreurs d'installation et leur résolution. Analyse des causes et solutions pour les problèmes de port, de mémoire, de dépendances et de licences.
 
-- Documentation des erreurs d'installation de VoiceStudio v0.2.x.
-- Liste des erreurs courantes avec causes et solutions.
-- Instructions pour le diagnostic automatique et les tests de l'application.
-- Méthodes pour déboguer les problèmes de port, de mémoire, de modèle et de dépendances.
+- Documentation des erreurs d'installation et de leurs solutions.
+- Analyse des causes des problèmes de port et de mémoire.
+- Explication des erreurs liées aux dépendances Python.
+- Détails sur les problèmes de licences Hugging Face.
+- Instructions pour résoudre les erreurs de configuration.
+- Méthodes de diagnostic et de résolution des erreurs techniques.
 
 Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/install/troubleshooting.md ; niveau 2.
 
 ### VoiceStudio modèle téléchargement
 
-VoiceStudio télécharge les modèles depuis Hugging Face Hub. Le téléchargement est optimisé pour la vitesse. Les téléchargements sont gérés par un backend legacy LFS. Un accélérateur segmenté est activé par défaut.
+VoiceStudio télécharge les modèles depuis Hugging Face Hub. Le téléchargement utilise un backend legacy LFS par défaut. Un accélérateur multi-connexion est activé par défaut. Les téléchargements peuvent utiliser un token Hugging Face pour accélérer.
 
 - VoiceStudio utilise Hugging Face Hub pour télécharger les modèles.
-- Le téléchargement est optimisé pour la vitesse.
-- Le backend utilise legacy LFS pour un suivi précis.
-- Un accélérateur segmenté est activé par défaut.
+- Le téléchargement utilise un backend legacy LFS par défaut.
+- Un accélérateur multi-connexion est activé par défaut.
+- Les téléchargements peuvent utiliser un token Hugging Face pour accélérer.
 
 Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/docs/downloading-models.md ; niveau 2.
 
@@ -247,6 +246,17 @@ VoiceStudio inclut des exemples d'intégration, scripts et configurations pour l
 - VoiceStudio nécessite des données JSONL et des ensembles de test standardisés pour l'évaluation.
 
 Source : https://raw.githubusercontent.com/debpalash/OmniVoice-Studio/HEAD/examples/README.md ; niveau 2.
+
+### ai-decision-system
+
+Système enregistrable pour décisions AI. Enregistre réponses modèles. Contrôle politiques approbations. Gère portes A/B livraison.
+
+- Système enregistrable pour décisions AI
+- Enregistre réponses modèles typés
+- Contrôle politiques approbations
+- Gère portes A/B livraison
+
+Source : https://github.com/bichengwang ; niveau 2.
 
 ### Licence acceptance and model review system
 
@@ -322,12 +332,12 @@ Source : https://voicestudio.sh/blog/why-voicestudio-pro ; niveau 3.
 
 ### palashdeb/omnivoice-studio
 
-Docker image pour VoiceStudio. Fonctionne localement sans API. Support 646 langues. Utilisation GPU ou CPU.
+Docker image pour exécuter VoiceStudio localement. Support GPU CUDA/ROCm. 646 langues. Aucun API key requis.
 
-- Docker image pour VoiceStudio
-- Fonctionne localement sans API
-- Support 646 langues
-- Utilisation GPU ou CPU
+- Docker image pour exécuter VoiceStudio localement
+- Support GPU CUDA/ROCm et AMD GPU via ROCm
+- Fonctionnalités incluent clonage de voix, design vocal et dubbing vidéo
+- Aucun API key requis pour l'exécution
 
 Source : https://hub.docker.com/r/palashdeb/omnivoice-studio ; niveau 3.
 
@@ -358,12 +368,14 @@ Source : https://star-history.com/debpalash/voicestudio ; niveau 3.
 
 ### OmniVoice Studio
 
-Application open source pour traitement audio local. Support 646 langues TTS. Transcription via WhisperX. Fonctionnalités : clonage vocal, dubbing vidéo, dictation, diarisation. Backend FastAPI. Frontend React. Stockage SQLite.
+[OmniVoice Studio] Logiciel open source pour la synthèse vocale, la duplication de voix, le sous-titrage vidéo, et la diarisation vocale. Fonctionne localement sans cloud. Supporte 646 langues pour TTS et 99 pour transcription. Utilise des modèles comme WhisperX, Demucs, Pyannote et AudioSeal.
 
-- Application open source pour traitement audio local
-- Support 646 langues pour synthèse vocale
-- Transcription audio via WhisperX avec alignement mot à mot
-- Fonctionnalités incluent clonage vocal, dubbing vidéo, dictation et diarisation
+- OmniVoice Studio est un logiciel open source pour la synthèse vocale, la duplication de voix, le sous-titrage vidéo, et la diarisation vocale.
+- Le logiciel fonctionne localement sans cloud et ne nécessite pas de compte ou d'API.
+- Il supporte 646 langues pour la synthèse vocale et 99 langues pour la transcription via WhisperX.
+- Il utilise des modèles comme WhisperX, Demucs, Pyannote et AudioSeal pour ses fonctionnalités.
+- Le backend est basé sur FastAPI, SQLite, et des bibliothèques ML.
+- Il propose un serveur MCP pour intégrer des outils externes comme Claude ou Cursor.
 
 Source : https://marktechpost.com/2026/05/26/meet-omnivoice-studio-a-local-open-source-alternative-to-elevenlabs ; niveau 3.
 
@@ -380,16 +392,12 @@ Source : https://opensourceprojects.dev/post/a783728a-3dfa-4fd0-86d0-bae13618689
 
 ### OmniVoice Studio
 
-Outil de dubbing local. Gère automatiquement la transcription. Traduit en plusieurs langues. Clone la voix d'une audio. Sépare la musique de fond. Mixe le doublage avec le son original.
+Outil de dubbing local. Gère automatiquement la transcription. Traduit en plusieurs langues. Clone la voix d'une audio. Sépare la musique de fond. Mixe le son final.
 
 - Transcription automatique avec Whisper
 - Traduction vers 600 langues
-- Clonage de la voix à partir de 3 secondes
+- Clonage de la voix à partir d'audio
 - Séparation du son de fond avec Demucs
-- Mixage du doublage avec le son original
+- Mixage du son final
 
-Source : https://linkedin.com/posts/vijaydeore_someone-just-open-sourced-a-local-dubbing-activity-7462469667153055744-6496 ; niveau 3.
-
-### OmniVoice-Studio
-
-OmniVoice-Studio est une application de synthèse vocale locale. Elle permet de cloner des voix à partir d'un clip audio. Elle supporte 646 langues. Elle utilise des composants open source comme WhisperX et
+Source
