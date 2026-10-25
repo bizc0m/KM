@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-25T07:57:11.708Z",
+  "at": "2026-10-25T08:57:16.866Z",
   "count": 659,
   "rows": [
     {
@@ -684,6 +684,12 @@
           "label": "Documentation"
         },
         {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-electrical-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
           "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/design/design-ui-designer.md",
           "kind": "source",
           "role": "documentation",
@@ -757,12 +763,6 @@
         },
         {
           "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/marketing/marketing-carousel-growth-engine.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/marketing/marketing-seo-specialist.md",
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
@@ -35275,6 +35275,313 @@
       "cardInterest": "Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier."
     },
     {
+      "id": "watch-technical-5e7f5b459d52bc0badc8-md",
+      "title": "just",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "macOS"
+        ],
+        "license": "CC0-1.0",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/casey/just"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#macos"
+      ],
+      "status": "actif",
+      "path": "watch/technical-5e7f5b459d52bc0badc8.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-5e7f5b459d52bc0badc8.md",
+      "sourceUrl": "https://github.com/casey/just",
+      "sources": [
+        {
+          "url": "https://github.com/casey/just",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2056627677420003656",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/casey/just",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Garder des commandes projet organisées et exécutables facilement",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-10-25",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.unclassified"
+          ],
+          "capability": [],
+          "compatibility": [
+            "compatibility.os.macos"
+          ],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "compatibility.os.macos",
+            "label": "macOS",
+            "parent": "compatibility.os",
+            "aliases": [
+              "#macos"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Systèmes",
+              "macOS"
+            ]
+          },
+          {
+            "id": "compatibility.os",
+            "label": "Systèmes",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Systèmes"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "compatibility.os.macos",
+          "label": "macOS",
+          "parent": "compatibility.os",
+          "aliases": [
+            "#macos"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Systèmes",
+            "macOS"
+          ]
+        },
+        {
+          "id": "compatibility.os",
+          "label": "Systèmes",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Systèmes"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#macos",
+          "fullLabel": "macos",
+          "color": "tool",
+          "tag": "#macos"
+        }
+      ],
+      "cardTitle": "just",
+      "cardInterest": "Garder des commandes projet organisées et exécutables facilement"
+    },
+    {
       "id": "watch-technical-6cc3ec716443f80c37a3-md",
       "title": "Kling Video API via Muapi",
       "canonical": "",
@@ -38594,6 +38901,572 @@
       ],
       "cardTitle": "LongCat-Video",
       "cardInterest": "Convertir du texte ou des images en vidéos longues."
+    },
+    {
+      "id": "watch-technical-6d84c860baa5311d1e0f-md",
+      "title": "maigret",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "MIT",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/soxoj/maigret"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#extraction-web",
+        "#recherche-documentaire",
+        "#python",
+        "#pdf"
+      ],
+      "status": "actif",
+      "path": "watch/technical-6d84c860baa5311d1e0f.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-6d84c860baa5311d1e0f.md",
+      "sourceUrl": "https://github.com/soxoj/maigret",
+      "sources": [
+        {
+          "url": "https://github.com/soxoj/maigret",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2056568551746527604",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/soxoj/maigret",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Recherche d'informations sur un utilisateur via des sites web. Génère des rapports structurés.",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-10-25",
+      "theme": "research",
+      "themeLabel": "Recherche documentaire",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai",
+            "domain.data.research",
+            "domain.data.web"
+          ],
+          "capability": [
+            "capability.scraping",
+            "capability.research"
+          ],
+          "compatibility": [
+            "compatibility.language.python",
+            "compatibility.format.pdf"
+          ],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.data.research",
+            "label": "Recherche documentaire",
+            "parent": "domain.data",
+            "aliases": [
+              "#recherche-documentaire",
+              "#research-agent",
+              "#citations",
+              "#papers"
+            ],
+            "patterns": [
+              "recherche documentaire",
+              "recherche.*rapports?",
+              "research agent"
+            ],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances",
+              "Recherche documentaire"
+            ]
+          },
+          {
+            "id": "domain.data",
+            "label": "Données et connaissances",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances"
+            ]
+          },
+          {
+            "id": "domain.data.web",
+            "label": "Collecte web",
+            "parent": "domain.data",
+            "aliases": [
+              "#extraction-web",
+              "#scraping",
+              "#web-extraction",
+              "#crawler"
+            ],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances",
+              "Collecte web"
+            ]
+          },
+          {
+            "id": "capability.scraping",
+            "label": "Extraire des données web",
+            "parent": "capability",
+            "aliases": [
+              "#extraction-web",
+              "#scraping",
+              "#web-extraction",
+              "#crawler"
+            ],
+            "facet": "capability",
+            "path": [
+              "Extraire des données web"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "capability.research",
+            "label": "Rechercher des documents",
+            "parent": "capability",
+            "aliases": [
+              "#recherche-documentaire"
+            ],
+            "facet": "capability",
+            "path": [
+              "Rechercher des documents"
+            ]
+          },
+          {
+            "id": "compatibility.language.python",
+            "label": "Python",
+            "parent": "compatibility.language",
+            "aliases": [
+              "#python"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Langages",
+              "Python"
+            ]
+          },
+          {
+            "id": "compatibility.language",
+            "label": "Langages",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Langages"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "compatibility.format.pdf",
+            "label": "PDF",
+            "parent": "compatibility.format",
+            "aliases": [
+              "#pdf"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Formats",
+              "PDF"
+            ]
+          },
+          {
+            "id": "compatibility.format",
+            "label": "Formats",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Formats"
+            ]
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.data.research",
+          "label": "Recherche documentaire",
+          "parent": "domain.data",
+          "aliases": [
+            "#recherche-documentaire",
+            "#research-agent",
+            "#citations",
+            "#papers"
+          ],
+          "patterns": [
+            "recherche documentaire",
+            "recherche.*rapports?",
+            "research agent"
+          ],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances",
+            "Recherche documentaire"
+          ]
+        },
+        {
+          "id": "domain.data",
+          "label": "Données et connaissances",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances"
+          ]
+        },
+        {
+          "id": "domain.data.web",
+          "label": "Collecte web",
+          "parent": "domain.data",
+          "aliases": [
+            "#extraction-web",
+            "#scraping",
+            "#web-extraction",
+            "#crawler"
+          ],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances",
+            "Collecte web"
+          ]
+        },
+        {
+          "id": "capability.scraping",
+          "label": "Extraire des données web",
+          "parent": "capability",
+          "aliases": [
+            "#extraction-web",
+            "#scraping",
+            "#web-extraction",
+            "#crawler"
+          ],
+          "facet": "capability",
+          "path": [
+            "Extraire des données web"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "capability.research",
+          "label": "Rechercher des documents",
+          "parent": "capability",
+          "aliases": [
+            "#recherche-documentaire"
+          ],
+          "facet": "capability",
+          "path": [
+            "Rechercher des documents"
+          ]
+        },
+        {
+          "id": "compatibility.language.python",
+          "label": "Python",
+          "parent": "compatibility.language",
+          "aliases": [
+            "#python"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Langages",
+            "Python"
+          ]
+        },
+        {
+          "id": "compatibility.language",
+          "label": "Langages",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Langages"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "compatibility.format.pdf",
+          "label": "PDF",
+          "parent": "compatibility.format",
+          "aliases": [
+            "#pdf"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Formats",
+            "PDF"
+          ]
+        },
+        {
+          "id": "compatibility.format",
+          "label": "Formats",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Formats"
+          ]
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#extraction-web",
+          "fullLabel": "extraction-web",
+          "color": "research",
+          "tag": "#extraction-web"
+        },
+        {
+          "label": "#Recherche",
+          "fullLabel": "Recherche documentaire",
+          "color": "research",
+          "tag": "#recherche-documentaire"
+        },
+        {
+          "label": "#python",
+          "fullLabel": "python",
+          "color": "dev",
+          "tag": "#python"
+        },
+        {
+          "label": "#pdf",
+          "fullLabel": "pdf",
+          "color": "tool",
+          "tag": "#pdf"
+        }
+      ],
+      "cardTitle": "maigret",
+      "cardInterest": "Recherche d'informations sur un utilisateur via des sites web."
     },
     {
       "id": "watch-technical-772a97605758aae798a9-md",
@@ -45632,6 +46505,929 @@
       "keywords": [],
       "cardTitle": "nmap",
       "cardInterest": "Identifier les hôtes et services sur un réseau."
+    },
+    {
+      "id": "watch-technical-78d472c25b2758a70776-md",
+      "title": "notebooklm-py",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "MIT",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/teng-lin/notebooklm-py"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#python",
+        "#terminal"
+      ],
+      "status": "actif",
+      "path": "watch/technical-78d472c25b2758a70776.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-78d472c25b2758a70776.md",
+      "sourceUrl": "https://github.com/teng-lin/notebooklm-py",
+      "sources": [
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2056564094979764668",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://trendshift.io/repositories/19116",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/SKILL.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://x.com/i/status/2042293751805329445",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/cli-reference.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://x.com/i/status/2037136490157986277",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/mcp-guide.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://artemxtech.substack.com/p/notebooklm-has-a-knowledge-graph",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://x.com/i/status/2024819940327379286",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://aiblewmymind.substack.com/p/notebooklm-claude-code-use-cases",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/android/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/installation.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://peps.python.org/pep-0668",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://releases.astral.sh/installers/uv/latest/uv-installer.sh",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/CONTRIBUTING.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://asciinema.org/a/767284",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/configuration.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/quota-limits.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/releasing.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/security.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/upgrading-to-0.8.0.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/architecture.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/rpc-development.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/rpc-reference.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/SECURITY.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/technology/ai/notebooklm-google-ai",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/products/notebooklm/better-research-notebooklm",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://opensource.org/blog/state-of-the-source-at-ato-2025-licensing-201",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/pull/2501",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/halilunay/notebooklm-py/tree/refs/heads/claude/tiered-title-matching",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/commit/4d551830df2680b1bd288330c6c249b4b34d4cd0",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/pull/2489",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/tree/refs/heads/dependabot/github_actions/actions-ca2ec67132",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/pull/2468",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/pull/2504",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/victor-gurbani/notebooklm-py/tree/refs/heads/fix/sync-cookie-recovery-transport",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/pull/2502",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/commit/4188d7e26a07b6b94b67bf95041c81bc1530c508",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/pull/2500",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/commit/fd7af2cd5c4afccad1da9e7d5ce51c1388193408",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/commit/6b5cbc84953d81a16b034628670c3ea4e81ddce7",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/pull/2497",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/tree/refs/heads/fix/android-googlevideo-ranged-download",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/pull/2498",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/commit/a86aa39aaa369682cafbffe5fe620a55af4769f9",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/pull/2496",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/issues/366",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/issues/367",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/issues/1753",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/issues/2004",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/microsoft/playwright/issues/35363",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/microsoft/playwright/issues/28858",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/src/notebooklm/client.py",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/src/notebooklm/auth.py",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/src/notebooklm/exceptions.py",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/issues/2038",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/teng-lin/notebooklm-py/issues/2019",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        }
+      ],
+      "github": "https://github.com/teng-lin/notebooklm-py",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intégration d'agents LLM avec Gemini Notebook",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-10-25",
+      "theme": "agent",
+      "themeLabel": "Agents de développement",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents.coding",
+            "domain.ai.llm",
+            "domain.dev"
+          ],
+          "capability": [],
+          "compatibility": [
+            "compatibility.language.python",
+            "compatibility.interface.terminal"
+          ],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents.coding",
+            "label": "Agents de développement",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents"
+            ],
+            "patterns": [
+              "claude code",
+              "\\bcodex\\b",
+              "coding agents?",
+              "agents? de cod"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Agents de développement"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.ai.llm",
+            "label": "Modèles de langage",
+            "parent": "domain.ai",
+            "aliases": [
+              "#llm",
+              "#inference",
+              "#providers",
+              "#openai-compatible",
+              "#comparaison-modeles",
+              "#inference-locale"
+            ],
+            "patterns": [
+              "\\bllm\\b",
+              "\\bqwen\\w*",
+              "\\bdeepseek\\b",
+              "\\bnotebooklm\\b",
+              "\\bgemini\\b",
+              "\\bgpt[ -]?\\d",
+              "mistral vibe"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Modèles de langage"
+            ]
+          },
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
+            ]
+          },
+          {
+            "id": "compatibility.language.python",
+            "label": "Python",
+            "parent": "compatibility.language",
+            "aliases": [
+              "#python"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Langages",
+              "Python"
+            ]
+          },
+          {
+            "id": "compatibility.language",
+            "label": "Langages",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Langages"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "compatibility.interface.terminal",
+            "label": "Terminal",
+            "parent": "compatibility.interface",
+            "aliases": [
+              "#terminal",
+              "#cli"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces",
+              "Terminal"
+            ]
+          },
+          {
+            "id": "compatibility.interface",
+            "label": "Interfaces",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces"
+            ]
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents.coding",
+          "label": "Agents de développement",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents"
+          ],
+          "patterns": [
+            "claude code",
+            "\\bcodex\\b",
+            "coding agents?",
+            "agents? de cod"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Agents de développement"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.ai.llm",
+          "label": "Modèles de langage",
+          "parent": "domain.ai",
+          "aliases": [
+            "#llm",
+            "#inference",
+            "#providers",
+            "#openai-compatible",
+            "#comparaison-modeles",
+            "#inference-locale"
+          ],
+          "patterns": [
+            "\\bllm\\b",
+            "\\bqwen\\w*",
+            "\\bdeepseek\\b",
+            "\\bnotebooklm\\b",
+            "\\bgemini\\b",
+            "\\bgpt[ -]?\\d",
+            "mistral vibe"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Modèles de langage"
+          ]
+        },
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
+          ]
+        },
+        {
+          "id": "compatibility.language.python",
+          "label": "Python",
+          "parent": "compatibility.language",
+          "aliases": [
+            "#python"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Langages",
+            "Python"
+          ]
+        },
+        {
+          "id": "compatibility.language",
+          "label": "Langages",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Langages"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "compatibility.interface.terminal",
+          "label": "Terminal",
+          "parent": "compatibility.interface",
+          "aliases": [
+            "#terminal",
+            "#cli"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces",
+            "Terminal"
+          ]
+        },
+        {
+          "id": "compatibility.interface",
+          "label": "Interfaces",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces"
+          ]
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#python",
+          "fullLabel": "python",
+          "color": "dev",
+          "tag": "#python"
+        },
+        {
+          "label": "#terminal",
+          "fullLabel": "terminal",
+          "color": "tool",
+          "tag": "#terminal"
+        }
+      ],
+      "cardTitle": "notebooklm-py",
+      "cardInterest": "Intégration d'agents LLM avec Gemini Notebook"
     },
     {
       "id": "watch-technical-614a514ae65ec429804d-md",
@@ -77482,6 +79278,898 @@
       "cardInterest": "Traite les vidéos YouTube avec extraction audio et séparation vocale"
     },
     {
+      "id": "watch-technical-143ce5c3c11e34fe9ea8-md",
+      "title": "VoiceBox : Outil de synthèse vocale et de cloning de voix",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "MIT",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/jamiepine/voicebox"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#synthese-vocale",
+        "#clonage-vocal"
+      ],
+      "status": "actif",
+      "path": "watch/technical-143ce5c3c11e34fe9ea8.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-143ce5c3c11e34fe9ea8.md",
+      "sourceUrl": "https://github.com/jamiepine/voicebox",
+      "sources": [
+        {
+          "url": "https://github.com/jamiepine/voicebox",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2056627677420003656",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2056567907036098662",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://capy.ai/",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://voicebox.sh/",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://docs.voicebox.sh/",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://voicebox.sh/built-with-capy",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://voicebox.sh/download?platform=macArm",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://voicebox.sh/download?platform=macIntel",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://voicebox.sh/download?platform=windows",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/jamiepine/voicebox/HEAD/docs/content/docs/overview/mcp-server.mdx",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/jamiepine/voicebox/HEAD/docs/PROJECT_STATUS.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://github.com/casey/just",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://bun.sh/",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://v2.tauri.app/start/prerequisites",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://developer.apple.com/xcode",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/jamiepine/voicebox/HEAD/docs/content/docs/developer/tts-engines.mdx",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/jamiepine/voicebox/HEAD/.agents/skills/add-tts-engine/SKILL.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/releases?page=2",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/tree/v0.5.0",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/commit/2bcb98d1a8b6fe05e15fbc1559e3085669e4035d",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/commit/ed2eec591a78967678be9fa7e35217b9c7da164b",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/tree/v0.4.4",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/commit/74e004400f48246bb22d48b8b6ea09c8de049667",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/524",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/503",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/releases/tag/v0.4.3",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/tree/v0.4.3",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/commit/328bdca61c76ab47eeb35ef9a2ea5738fbd00fe9",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/523",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/521",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/releases/tag/v0.4.2",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/commit/0f97300b4df64bed8857e09996f419fe932c6c0e",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/502",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/501",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/506",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/487",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/498",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/488",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/releases/tag/v0.4.1",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/tree/v0.4.1",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/commit/3c1e8512b9eba4a1b0551c9b66395a72035f115c",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/438",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/444",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/440",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/439",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/433",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/447",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/457",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/470",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/450",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/releases/tag/v0.4.0",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/tree/v0.4.0",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/commit/625e1ba5495af360ea2627c5b624afcd361c892b",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/296",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/325",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/320",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/316",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/401",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/367",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/298",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/428",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/361",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/jamiepine/voicebox/pull/402",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        }
+      ],
+      "github": "https://github.com/jamiepine/voicebox",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Cloner des voix pour des agents IA sans dépendance externe",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-10-25",
+      "theme": "media",
+      "themeLabel": "Voix",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents",
+            "domain.media.audio.voice"
+          ],
+          "capability": [
+            "capability.voice.synthesize",
+            "capability.voice.clone"
+          ],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.media.audio.voice",
+            "label": "Voix",
+            "parent": "domain.media.audio",
+            "aliases": [
+              "#synthese-vocale",
+              "#clonage-vocal",
+              "#transcription",
+              "#traduction-audio",
+              "#voice",
+              "#tts",
+              "#speech-to-text"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Audio",
+              "Voix"
+            ]
+          },
+          {
+            "id": "domain.media.audio",
+            "label": "Audio",
+            "parent": "domain.media",
+            "aliases": [
+              "#audio"
+            ],
+            "patterns": [
+              "\\baudio\\b",
+              "creation musicale",
+              "\\bvoix\\b",
+              "\\bvocale\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Audio"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "capability.voice.synthesize",
+            "label": "Synthétiser une voix",
+            "parent": "capability.voice",
+            "aliases": [
+              "#synthese-vocale",
+              "#tts"
+            ],
+            "facet": "capability",
+            "path": [
+              "Traitement de la voix",
+              "Synthétiser une voix"
+            ]
+          },
+          {
+            "id": "capability.voice",
+            "label": "Traitement de la voix",
+            "parent": "capability",
+            "aliases": [],
+            "facet": "capability",
+            "path": [
+              "Traitement de la voix"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "capability.voice.clone",
+            "label": "Cloner une voix",
+            "parent": "capability.voice",
+            "aliases": [
+              "#clonage-vocal"
+            ],
+            "facet": "capability",
+            "path": [
+              "Traitement de la voix",
+              "Cloner une voix"
+            ]
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.media.audio.voice",
+          "label": "Voix",
+          "parent": "domain.media.audio",
+          "aliases": [
+            "#synthese-vocale",
+            "#clonage-vocal",
+            "#transcription",
+            "#traduction-audio",
+            "#voice",
+            "#tts",
+            "#speech-to-text"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Audio",
+            "Voix"
+          ]
+        },
+        {
+          "id": "domain.media.audio",
+          "label": "Audio",
+          "parent": "domain.media",
+          "aliases": [
+            "#audio"
+          ],
+          "patterns": [
+            "\\baudio\\b",
+            "creation musicale",
+            "\\bvoix\\b",
+            "\\bvocale\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Audio"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "capability.voice.synthesize",
+          "label": "Synthétiser une voix",
+          "parent": "capability.voice",
+          "aliases": [
+            "#synthese-vocale",
+            "#tts"
+          ],
+          "facet": "capability",
+          "path": [
+            "Traitement de la voix",
+            "Synthétiser une voix"
+          ]
+        },
+        {
+          "id": "capability.voice",
+          "label": "Traitement de la voix",
+          "parent": "capability",
+          "aliases": [],
+          "facet": "capability",
+          "path": [
+            "Traitement de la voix"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "capability.voice.clone",
+          "label": "Cloner une voix",
+          "parent": "capability.voice",
+          "aliases": [
+            "#clonage-vocal"
+          ],
+          "facet": "capability",
+          "path": [
+            "Traitement de la voix",
+            "Cloner une voix"
+          ]
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#TTS",
+          "fullLabel": "Synthèse vocale",
+          "color": "media",
+          "tag": "#synthese-vocale"
+        },
+        {
+          "label": "#clonage-vocal",
+          "fullLabel": "clonage-vocal",
+          "color": "media",
+          "tag": "#clonage-vocal"
+        }
+      ],
+      "cardTitle": "VoiceBox",
+      "cardInterest": "Cloner des voix pour des agents IA sans dépendance externe"
+    },
+    {
       "id": "watch-technical-37a1c9a401fe305b58a5-md",
       "title": "WanGP",
       "canonical": "",
@@ -85199,313 +87887,6 @@
       "cardInterest": ""
     },
     {
-      "id": "watch-technical-5e7f5b459d52bc0badc8-md",
-      "title": "just",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "macOS"
-        ],
-        "license": "CC0-1.0",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/casey/just"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#macos"
-      ],
-      "status": "actif",
-      "path": "watch/technical-5e7f5b459d52bc0badc8.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-5e7f5b459d52bc0badc8.md",
-      "sourceUrl": "https://github.com/casey/just",
-      "sources": [
-        {
-          "url": "https://github.com/casey/just",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://x.com/i/status/2056627677420003656",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        }
-      ],
-      "github": "https://github.com/casey/just",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Garder des commandes projet organisées et exécutables facilement",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-24",
-      "theme": "tool",
-      "themeLabel": "À qualifier",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.unclassified"
-          ],
-          "capability": [],
-          "compatibility": [
-            "compatibility.os.macos"
-          ],
-          "risk": [],
-          "source": [
-            "source.noteplan",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "compatibility.os.macos",
-            "label": "macOS",
-            "parent": "compatibility.os",
-            "aliases": [
-              "#macos"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Systèmes",
-              "macOS"
-            ]
-          },
-          {
-            "id": "compatibility.os",
-            "label": "Systèmes",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Systèmes"
-            ]
-          },
-          {
-            "id": "compatibility",
-            "label": "Compatibilités",
-            "parent": null,
-            "aliases": [],
-            "facet": "compatibility",
-            "path": []
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          },
-          {
-            "id": "domain.unclassified",
-            "label": "À qualifier",
-            "parent": "domain",
-            "aliases": [],
-            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
-            "facet": "domain",
-            "path": [
-              "À qualifier"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "compatibility.os.macos",
-          "label": "macOS",
-          "parent": "compatibility.os",
-          "aliases": [
-            "#macos"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Systèmes",
-            "macOS"
-          ]
-        },
-        {
-          "id": "compatibility.os",
-          "label": "Systèmes",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Systèmes"
-          ]
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibilités",
-          "parent": null,
-          "aliases": [],
-          "facet": "compatibility",
-          "path": []
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        },
-        {
-          "id": "domain.unclassified",
-          "label": "À qualifier",
-          "parent": "domain",
-          "aliases": [],
-          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
-          "facet": "domain",
-          "path": [
-            "À qualifier"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#macos",
-          "fullLabel": "macos",
-          "color": "tool",
-          "tag": "#macos"
-        }
-      ],
-      "cardTitle": "just",
-      "cardInterest": "Garder des commandes projet organisées et exécutables facilement"
-    },
-    {
       "id": "watch-technical-49226a0e2e05fa223d37-md",
       "title": "Kami",
       "canonical": "",
@@ -85925,572 +88306,6 @@
       ],
       "cardTitle": "Kami",
       "cardInterest": "Génère des documents professionnels avec des modèles prédéfinis."
-    },
-    {
-      "id": "watch-technical-6d84c860baa5311d1e0f-md",
-      "title": "maigret",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "MIT",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/soxoj/maigret"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#extraction-web",
-        "#recherche-documentaire",
-        "#python",
-        "#pdf"
-      ],
-      "status": "actif",
-      "path": "watch/technical-6d84c860baa5311d1e0f.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-6d84c860baa5311d1e0f.md",
-      "sourceUrl": "https://github.com/soxoj/maigret",
-      "sources": [
-        {
-          "url": "https://github.com/soxoj/maigret",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://x.com/i/status/2056568551746527604",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        }
-      ],
-      "github": "https://github.com/soxoj/maigret",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Recherche d'informations sur un utilisateur via des sites web. Génère des rapports structurés.",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-24",
-      "theme": "research",
-      "themeLabel": "Recherche documentaire",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.ai",
-            "domain.data.research",
-            "domain.data.web"
-          ],
-          "capability": [
-            "capability.scraping",
-            "capability.research"
-          ],
-          "compatibility": [
-            "compatibility.language.python",
-            "compatibility.format.pdf"
-          ],
-          "risk": [],
-          "source": [
-            "source.noteplan",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.ai",
-            "label": "Intelligence artificielle",
-            "parent": "domain",
-            "aliases": [
-              "#ia",
-              "#ai",
-              "#generative-ai",
-              "#ai-assistant",
-              "#creative-ai"
-            ],
-            "patterns": [
-              "\\bia\\b",
-              "\\bai\\b",
-              "intelligence artificielle",
-              "artificial intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "domain.data.research",
-            "label": "Recherche documentaire",
-            "parent": "domain.data",
-            "aliases": [
-              "#recherche-documentaire",
-              "#research-agent",
-              "#citations",
-              "#papers"
-            ],
-            "patterns": [
-              "recherche documentaire",
-              "recherche.*rapports?",
-              "research agent"
-            ],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances",
-              "Recherche documentaire"
-            ]
-          },
-          {
-            "id": "domain.data",
-            "label": "Données et connaissances",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances"
-            ]
-          },
-          {
-            "id": "domain.data.web",
-            "label": "Collecte web",
-            "parent": "domain.data",
-            "aliases": [
-              "#extraction-web",
-              "#scraping",
-              "#web-extraction",
-              "#crawler"
-            ],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances",
-              "Collecte web"
-            ]
-          },
-          {
-            "id": "capability.scraping",
-            "label": "Extraire des données web",
-            "parent": "capability",
-            "aliases": [
-              "#extraction-web",
-              "#scraping",
-              "#web-extraction",
-              "#crawler"
-            ],
-            "facet": "capability",
-            "path": [
-              "Extraire des données web"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
-          {
-            "id": "capability.research",
-            "label": "Rechercher des documents",
-            "parent": "capability",
-            "aliases": [
-              "#recherche-documentaire"
-            ],
-            "facet": "capability",
-            "path": [
-              "Rechercher des documents"
-            ]
-          },
-          {
-            "id": "compatibility.language.python",
-            "label": "Python",
-            "parent": "compatibility.language",
-            "aliases": [
-              "#python"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Langages",
-              "Python"
-            ]
-          },
-          {
-            "id": "compatibility.language",
-            "label": "Langages",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Langages"
-            ]
-          },
-          {
-            "id": "compatibility",
-            "label": "Compatibilités",
-            "parent": null,
-            "aliases": [],
-            "facet": "compatibility",
-            "path": []
-          },
-          {
-            "id": "compatibility.format.pdf",
-            "label": "PDF",
-            "parent": "compatibility.format",
-            "aliases": [
-              "#pdf"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Formats",
-              "PDF"
-            ]
-          },
-          {
-            "id": "compatibility.format",
-            "label": "Formats",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Formats"
-            ]
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.ai",
-          "label": "Intelligence artificielle",
-          "parent": "domain",
-          "aliases": [
-            "#ia",
-            "#ai",
-            "#generative-ai",
-            "#ai-assistant",
-            "#creative-ai"
-          ],
-          "patterns": [
-            "\\bia\\b",
-            "\\bai\\b",
-            "intelligence artificielle",
-            "artificial intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "domain.data.research",
-          "label": "Recherche documentaire",
-          "parent": "domain.data",
-          "aliases": [
-            "#recherche-documentaire",
-            "#research-agent",
-            "#citations",
-            "#papers"
-          ],
-          "patterns": [
-            "recherche documentaire",
-            "recherche.*rapports?",
-            "research agent"
-          ],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances",
-            "Recherche documentaire"
-          ]
-        },
-        {
-          "id": "domain.data",
-          "label": "Données et connaissances",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances"
-          ]
-        },
-        {
-          "id": "domain.data.web",
-          "label": "Collecte web",
-          "parent": "domain.data",
-          "aliases": [
-            "#extraction-web",
-            "#scraping",
-            "#web-extraction",
-            "#crawler"
-          ],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances",
-            "Collecte web"
-          ]
-        },
-        {
-          "id": "capability.scraping",
-          "label": "Extraire des données web",
-          "parent": "capability",
-          "aliases": [
-            "#extraction-web",
-            "#scraping",
-            "#web-extraction",
-            "#crawler"
-          ],
-          "facet": "capability",
-          "path": [
-            "Extraire des données web"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
-          "id": "capability.research",
-          "label": "Rechercher des documents",
-          "parent": "capability",
-          "aliases": [
-            "#recherche-documentaire"
-          ],
-          "facet": "capability",
-          "path": [
-            "Rechercher des documents"
-          ]
-        },
-        {
-          "id": "compatibility.language.python",
-          "label": "Python",
-          "parent": "compatibility.language",
-          "aliases": [
-            "#python"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Langages",
-            "Python"
-          ]
-        },
-        {
-          "id": "compatibility.language",
-          "label": "Langages",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Langages"
-          ]
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibilités",
-          "parent": null,
-          "aliases": [],
-          "facet": "compatibility",
-          "path": []
-        },
-        {
-          "id": "compatibility.format.pdf",
-          "label": "PDF",
-          "parent": "compatibility.format",
-          "aliases": [
-            "#pdf"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Formats",
-            "PDF"
-          ]
-        },
-        {
-          "id": "compatibility.format",
-          "label": "Formats",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Formats"
-          ]
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#extraction-web",
-          "fullLabel": "extraction-web",
-          "color": "research",
-          "tag": "#extraction-web"
-        },
-        {
-          "label": "#Recherche",
-          "fullLabel": "Recherche documentaire",
-          "color": "research",
-          "tag": "#recherche-documentaire"
-        },
-        {
-          "label": "#python",
-          "fullLabel": "python",
-          "color": "dev",
-          "tag": "#python"
-        },
-        {
-          "label": "#pdf",
-          "fullLabel": "pdf",
-          "color": "tool",
-          "tag": "#pdf"
-        }
-      ],
-      "cardTitle": "maigret",
-      "cardInterest": "Recherche d'informations sur un utilisateur via des sites web."
     },
     {
       "id": "watch-technical-9bd95807fef95eea1d8c-md",
@@ -87235,929 +89050,6 @@
       ],
       "cardTitle": "MoneyPrinter",
       "cardInterest": "Génère automatiquement des vidéos courtes pour YouTube à partir d'un sujet."
-    },
-    {
-      "id": "watch-technical-78d472c25b2758a70776-md",
-      "title": "notebooklm-py",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "MIT",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/teng-lin/notebooklm-py"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#python",
-        "#terminal"
-      ],
-      "status": "actif",
-      "path": "watch/technical-78d472c25b2758a70776.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-78d472c25b2758a70776.md",
-      "sourceUrl": "https://github.com/teng-lin/notebooklm-py",
-      "sources": [
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://x.com/i/status/2056564094979764668",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://trendshift.io/repositories/19116",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/SKILL.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://x.com/i/status/2042293751805329445",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/cli-reference.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://x.com/i/status/2037136490157986277",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/mcp-guide.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://artemxtech.substack.com/p/notebooklm-has-a-knowledge-graph",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://x.com/i/status/2024819940327379286",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://aiblewmymind.substack.com/p/notebooklm-claude-code-use-cases",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/android/README.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/installation.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://peps.python.org/pep-0668",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://releases.astral.sh/installers/uv/latest/uv-installer.sh",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/CONTRIBUTING.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://asciinema.org/a/767284",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/configuration.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/quota-limits.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/releasing.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/security.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/upgrading-to-0.8.0.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/architecture.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/rpc-development.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/rpc-reference.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/SECURITY.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://blog.google/innovation-and-ai/technology/ai/notebooklm-google-ai",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://blog.google/innovation-and-ai/products/notebooklm/better-research-notebooklm",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://opensource.org/blog/state-of-the-source-at-ato-2025-licensing-201",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2501",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/halilunay/notebooklm-py/tree/refs/heads/claude/tiered-title-matching",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/commit/4d551830df2680b1bd288330c6c249b4b34d4cd0",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2489",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/tree/refs/heads/dependabot/github_actions/actions-ca2ec67132",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2468",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2504",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/victor-gurbani/notebooklm-py/tree/refs/heads/fix/sync-cookie-recovery-transport",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2502",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/commit/4188d7e26a07b6b94b67bf95041c81bc1530c508",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2500",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/commit/fd7af2cd5c4afccad1da9e7d5ce51c1388193408",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/commit/6b5cbc84953d81a16b034628670c3ea4e81ddce7",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2497",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/tree/refs/heads/fix/android-googlevideo-ranged-download",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2498",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/commit/a86aa39aaa369682cafbffe5fe620a55af4769f9",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/pull/2496",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/issues/366",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/issues/367",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/issues/1753",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/issues/2004",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/microsoft/playwright/issues/35363",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/microsoft/playwright/issues/28858",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/src/notebooklm/client.py",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/src/notebooklm/auth.py",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/src/notebooklm/exceptions.py",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/issues/2038",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/teng-lin/notebooklm-py/issues/2019",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        }
-      ],
-      "github": "https://github.com/teng-lin/notebooklm-py",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Intégration d'agents LLM avec Gemini Notebook",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-24",
-      "theme": "agent",
-      "themeLabel": "Agents de développement",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.ai.agents.coding",
-            "domain.ai.llm",
-            "domain.dev"
-          ],
-          "capability": [],
-          "compatibility": [
-            "compatibility.language.python",
-            "compatibility.interface.terminal"
-          ],
-          "risk": [],
-          "source": [
-            "source.noteplan",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.ai.agents.coding",
-            "label": "Agents de développement",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#agents-code",
-              "#coding-agents"
-            ],
-            "patterns": [
-              "claude code",
-              "\\bcodex\\b",
-              "coding agents?",
-              "agents? de cod"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Agents de développement"
-            ]
-          },
-          {
-            "id": "domain.ai.agents",
-            "label": "Agents IA",
-            "parent": "domain.ai",
-            "aliases": [
-              "#agent",
-              "#agents",
-              "#ai-agents",
-              "#personal-agent",
-              "#autonomous-agent",
-              "#ai-companion",
-              "#autonomous-company",
-              "#autonomous-research"
-            ],
-            "patterns": [
-              "\\bagents?\\b",
-              "agentique",
-              "\\bopenclaw\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA"
-            ]
-          },
-          {
-            "id": "domain.ai",
-            "label": "Intelligence artificielle",
-            "parent": "domain",
-            "aliases": [
-              "#ia",
-              "#ai",
-              "#generative-ai",
-              "#ai-assistant",
-              "#creative-ai"
-            ],
-            "patterns": [
-              "\\bia\\b",
-              "\\bai\\b",
-              "intelligence artificielle",
-              "artificial intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "domain.ai.llm",
-            "label": "Modèles de langage",
-            "parent": "domain.ai",
-            "aliases": [
-              "#llm",
-              "#inference",
-              "#providers",
-              "#openai-compatible",
-              "#comparaison-modeles",
-              "#inference-locale"
-            ],
-            "patterns": [
-              "\\bllm\\b",
-              "\\bqwen\\w*",
-              "\\bdeepseek\\b",
-              "\\bnotebooklm\\b",
-              "\\bgemini\\b",
-              "\\bgpt[ -]?\\d",
-              "mistral vibe"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Modèles de langage"
-            ]
-          },
-          {
-            "id": "domain.dev",
-            "label": "Développement logiciel",
-            "parent": "domain",
-            "aliases": [
-              "#coding",
-              "#devtools",
-              "#editor",
-              "#code-quality"
-            ],
-            "patterns": [
-              "developpement logiciel",
-              "software development",
-              "ingenierie logicielle",
-              "developpement",
-              "programmat",
-              "modifier.*fichiers.*projet",
-              "modifier un projet"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel"
-            ]
-          },
-          {
-            "id": "compatibility.language.python",
-            "label": "Python",
-            "parent": "compatibility.language",
-            "aliases": [
-              "#python"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Langages",
-              "Python"
-            ]
-          },
-          {
-            "id": "compatibility.language",
-            "label": "Langages",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Langages"
-            ]
-          },
-          {
-            "id": "compatibility",
-            "label": "Compatibilités",
-            "parent": null,
-            "aliases": [],
-            "facet": "compatibility",
-            "path": []
-          },
-          {
-            "id": "compatibility.interface.terminal",
-            "label": "Terminal",
-            "parent": "compatibility.interface",
-            "aliases": [
-              "#terminal",
-              "#cli"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces",
-              "Terminal"
-            ]
-          },
-          {
-            "id": "compatibility.interface",
-            "label": "Interfaces",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces"
-            ]
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.ai.agents.coding",
-          "label": "Agents de développement",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#agents-code",
-            "#coding-agents"
-          ],
-          "patterns": [
-            "claude code",
-            "\\bcodex\\b",
-            "coding agents?",
-            "agents? de cod"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Agents de développement"
-          ]
-        },
-        {
-          "id": "domain.ai.agents",
-          "label": "Agents IA",
-          "parent": "domain.ai",
-          "aliases": [
-            "#agent",
-            "#agents",
-            "#ai-agents",
-            "#personal-agent",
-            "#autonomous-agent",
-            "#ai-companion",
-            "#autonomous-company",
-            "#autonomous-research"
-          ],
-          "patterns": [
-            "\\bagents?\\b",
-            "agentique",
-            "\\bopenclaw\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA"
-          ]
-        },
-        {
-          "id": "domain.ai",
-          "label": "Intelligence artificielle",
-          "parent": "domain",
-          "aliases": [
-            "#ia",
-            "#ai",
-            "#generative-ai",
-            "#ai-assistant",
-            "#creative-ai"
-          ],
-          "patterns": [
-            "\\bia\\b",
-            "\\bai\\b",
-            "intelligence artificielle",
-            "artificial intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "domain.ai.llm",
-          "label": "Modèles de langage",
-          "parent": "domain.ai",
-          "aliases": [
-            "#llm",
-            "#inference",
-            "#providers",
-            "#openai-compatible",
-            "#comparaison-modeles",
-            "#inference-locale"
-          ],
-          "patterns": [
-            "\\bllm\\b",
-            "\\bqwen\\w*",
-            "\\bdeepseek\\b",
-            "\\bnotebooklm\\b",
-            "\\bgemini\\b",
-            "\\bgpt[ -]?\\d",
-            "mistral vibe"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Modèles de langage"
-          ]
-        },
-        {
-          "id": "domain.dev",
-          "label": "Développement logiciel",
-          "parent": "domain",
-          "aliases": [
-            "#coding",
-            "#devtools",
-            "#editor",
-            "#code-quality"
-          ],
-          "patterns": [
-            "developpement logiciel",
-            "software development",
-            "ingenierie logicielle",
-            "developpement",
-            "programmat",
-            "modifier.*fichiers.*projet",
-            "modifier un projet"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel"
-          ]
-        },
-        {
-          "id": "compatibility.language.python",
-          "label": "Python",
-          "parent": "compatibility.language",
-          "aliases": [
-            "#python"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Langages",
-            "Python"
-          ]
-        },
-        {
-          "id": "compatibility.language",
-          "label": "Langages",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Langages"
-          ]
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibilités",
-          "parent": null,
-          "aliases": [],
-          "facet": "compatibility",
-          "path": []
-        },
-        {
-          "id": "compatibility.interface.terminal",
-          "label": "Terminal",
-          "parent": "compatibility.interface",
-          "aliases": [
-            "#terminal",
-            "#cli"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces",
-            "Terminal"
-          ]
-        },
-        {
-          "id": "compatibility.interface",
-          "label": "Interfaces",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces"
-          ]
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#python",
-          "fullLabel": "python",
-          "color": "dev",
-          "tag": "#python"
-        },
-        {
-          "label": "#terminal",
-          "fullLabel": "terminal",
-          "color": "tool",
-          "tag": "#terminal"
-        }
-      ],
-      "cardTitle": "notebooklm-py",
-      "cardInterest": "Intégration d'agents LLM avec Gemini Notebook"
     },
     {
       "id": "watch-technical-3c2306185b130359af3a-md",
@@ -89910,898 +90802,6 @@
       ],
       "cardTitle": "VisoMaster",
       "cardInterest": "Permet de remplacer des visages dans des vidéos avec précision"
-    },
-    {
-      "id": "watch-technical-143ce5c3c11e34fe9ea8-md",
-      "title": "VoiceBox : Outil de synthèse vocale et de cloning de voix",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "MIT",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/jamiepine/voicebox"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#synthese-vocale",
-        "#clonage-vocal"
-      ],
-      "status": "actif",
-      "path": "watch/technical-143ce5c3c11e34fe9ea8.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-143ce5c3c11e34fe9ea8.md",
-      "sourceUrl": "https://github.com/jamiepine/voicebox",
-      "sources": [
-        {
-          "url": "https://github.com/jamiepine/voicebox",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://x.com/i/status/2056627677420003656",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://x.com/i/status/2056567907036098662",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://capy.ai/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://voicebox.sh/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://docs.voicebox.sh/",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://voicebox.sh/built-with-capy",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://voicebox.sh/download?platform=macArm",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://voicebox.sh/download?platform=macIntel",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://voicebox.sh/download?platform=windows",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/jamiepine/voicebox/HEAD/docs/content/docs/overview/mcp-server.mdx",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/jamiepine/voicebox/HEAD/docs/PROJECT_STATUS.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://github.com/casey/just",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://bun.sh/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://v2.tauri.app/start/prerequisites",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://developer.apple.com/xcode",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/jamiepine/voicebox/HEAD/docs/content/docs/developer/tts-engines.mdx",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/jamiepine/voicebox/HEAD/.agents/skills/add-tts-engine/SKILL.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/releases?page=2",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/tree/v0.5.0",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/commit/2bcb98d1a8b6fe05e15fbc1559e3085669e4035d",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/commit/ed2eec591a78967678be9fa7e35217b9c7da164b",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/tree/v0.4.4",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/commit/74e004400f48246bb22d48b8b6ea09c8de049667",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/524",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/503",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/releases/tag/v0.4.3",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/commit/328bdca61c76ab47eeb35ef9a2ea5738fbd00fe9",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/523",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/521",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/releases/tag/v0.4.2",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/commit/0f97300b4df64bed8857e09996f419fe932c6c0e",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/502",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/501",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/506",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/487",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/498",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/488",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/releases/tag/v0.4.1",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/tree/v0.4.1",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/commit/3c1e8512b9eba4a1b0551c9b66395a72035f115c",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/438",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/444",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/440",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/439",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/433",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/447",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/457",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/470",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/450",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/releases/tag/v0.4.0",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/tree/v0.4.0",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/commit/625e1ba5495af360ea2627c5b624afcd361c892b",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/296",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/325",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/320",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/316",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/401",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/367",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/298",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/428",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/361",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voicebox/pull/402",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://github.com/jamiepine/voi",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        }
-      ],
-      "github": "",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Cloner des voix pour des agents IA sans dépendance externe",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-24",
-      "theme": "media",
-      "themeLabel": "Voix",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.ai.agents",
-            "domain.media.audio.voice"
-          ],
-          "capability": [
-            "capability.voice.synthesize",
-            "capability.voice.clone"
-          ],
-          "compatibility": [],
-          "risk": [],
-          "source": [
-            "source.noteplan",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.ai.agents",
-            "label": "Agents IA",
-            "parent": "domain.ai",
-            "aliases": [
-              "#agent",
-              "#agents",
-              "#ai-agents",
-              "#personal-agent",
-              "#autonomous-agent",
-              "#ai-companion",
-              "#autonomous-company",
-              "#autonomous-research"
-            ],
-            "patterns": [
-              "\\bagents?\\b",
-              "agentique",
-              "\\bopenclaw\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA"
-            ]
-          },
-          {
-            "id": "domain.ai",
-            "label": "Intelligence artificielle",
-            "parent": "domain",
-            "aliases": [
-              "#ia",
-              "#ai",
-              "#generative-ai",
-              "#ai-assistant",
-              "#creative-ai"
-            ],
-            "patterns": [
-              "\\bia\\b",
-              "\\bai\\b",
-              "intelligence artificielle",
-              "artificial intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "domain.media.audio.voice",
-            "label": "Voix",
-            "parent": "domain.media.audio",
-            "aliases": [
-              "#synthese-vocale",
-              "#clonage-vocal",
-              "#transcription",
-              "#traduction-audio",
-              "#voice",
-              "#tts",
-              "#speech-to-text"
-            ],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création",
-              "Audio",
-              "Voix"
-            ]
-          },
-          {
-            "id": "domain.media.audio",
-            "label": "Audio",
-            "parent": "domain.media",
-            "aliases": [
-              "#audio"
-            ],
-            "patterns": [
-              "\\baudio\\b",
-              "creation musicale",
-              "\\bvoix\\b",
-              "\\bvocale\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création",
-              "Audio"
-            ]
-          },
-          {
-            "id": "domain.media",
-            "label": "Audio, vidéo et création",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création"
-            ]
-          },
-          {
-            "id": "capability.voice.synthesize",
-            "label": "Synthétiser une voix",
-            "parent": "capability.voice",
-            "aliases": [
-              "#synthese-vocale",
-              "#tts"
-            ],
-            "facet": "capability",
-            "path": [
-              "Traitement de la voix",
-              "Synthétiser une voix"
-            ]
-          },
-          {
-            "id": "capability.voice",
-            "label": "Traitement de la voix",
-            "parent": "capability",
-            "aliases": [],
-            "facet": "capability",
-            "path": [
-              "Traitement de la voix"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
-          {
-            "id": "capability.voice.clone",
-            "label": "Cloner une voix",
-            "parent": "capability.voice",
-            "aliases": [
-              "#clonage-vocal"
-            ],
-            "facet": "capability",
-            "path": [
-              "Traitement de la voix",
-              "Cloner une voix"
-            ]
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.ai.agents",
-          "label": "Agents IA",
-          "parent": "domain.ai",
-          "aliases": [
-            "#agent",
-            "#agents",
-            "#ai-agents",
-            "#personal-agent",
-            "#autonomous-agent",
-            "#ai-companion",
-            "#autonomous-company",
-            "#autonomous-research"
-          ],
-          "patterns": [
-            "\\bagents?\\b",
-            "agentique",
-            "\\bopenclaw\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA"
-          ]
-        },
-        {
-          "id": "domain.ai",
-          "label": "Intelligence artificielle",
-          "parent": "domain",
-          "aliases": [
-            "#ia",
-            "#ai",
-            "#generative-ai",
-            "#ai-assistant",
-            "#creative-ai"
-          ],
-          "patterns": [
-            "\\bia\\b",
-            "\\bai\\b",
-            "intelligence artificielle",
-            "artificial intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "domain.media.audio.voice",
-          "label": "Voix",
-          "parent": "domain.media.audio",
-          "aliases": [
-            "#synthese-vocale",
-            "#clonage-vocal",
-            "#transcription",
-            "#traduction-audio",
-            "#voice",
-            "#tts",
-            "#speech-to-text"
-          ],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création",
-            "Audio",
-            "Voix"
-          ]
-        },
-        {
-          "id": "domain.media.audio",
-          "label": "Audio",
-          "parent": "domain.media",
-          "aliases": [
-            "#audio"
-          ],
-          "patterns": [
-            "\\baudio\\b",
-            "creation musicale",
-            "\\bvoix\\b",
-            "\\bvocale\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création",
-            "Audio"
-          ]
-        },
-        {
-          "id": "domain.media",
-          "label": "Audio, vidéo et création",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création"
-          ]
-        },
-        {
-          "id": "capability.voice.synthesize",
-          "label": "Synthétiser une voix",
-          "parent": "capability.voice",
-          "aliases": [
-            "#synthese-vocale",
-            "#tts"
-          ],
-          "facet": "capability",
-          "path": [
-            "Traitement de la voix",
-            "Synthétiser une voix"
-          ]
-        },
-        {
-          "id": "capability.voice",
-          "label": "Traitement de la voix",
-          "parent": "capability",
-          "aliases": [],
-          "facet": "capability",
-          "path": [
-            "Traitement de la voix"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
-          "id": "capability.voice.clone",
-          "label": "Cloner une voix",
-          "parent": "capability.voice",
-          "aliases": [
-            "#clonage-vocal"
-          ],
-          "facet": "capability",
-          "path": [
-            "Traitement de la voix",
-            "Cloner une voix"
-          ]
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#TTS",
-          "fullLabel": "Synthèse vocale",
-          "color": "media",
-          "tag": "#synthese-vocale"
-        },
-        {
-          "label": "#clonage-vocal",
-          "fullLabel": "clonage-vocal",
-          "color": "media",
-          "tag": "#clonage-vocal"
-        }
-      ],
-      "cardTitle": "VoiceBox",
-      "cardInterest": "Cloner des voix pour des agents IA sans dépendance externe"
     },
     {
       "id": "watch-technical-654478eba9c74251531f-md",

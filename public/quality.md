@@ -7,7 +7,7 @@
 - interest-missing : 195
 - keywords-missing : 90
 - domain-unqualified : 116
-- primary-identity-unqualified : 23
+- primary-identity-unqualified : 22
 - nature-unqualified : 609
 
 Les tests fonctionnels ne constituent pas une validation sémantique de tout le corpus. La file de revue est dans [quality.json](quality.json).

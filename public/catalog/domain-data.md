@@ -12,6 +12,7 @@
 - [geo-seo-claude](../../watch/technical-a3b183624a359158d2f2.md) — Analyse la visibilité GEO d'un site en quelques secondes
 - [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
 - [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
+- [maigret](../../watch/technical-6d84c860baa5311d1e0f.md) — Recherche d'informations sur un utilisateur via des sites web.
 - [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
 - [mov-cli](../../watch/technical-9e0cc8c5c3c327b3c50b.md) — Permet de streamer des médias via des plugins configurés.
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
@@ -26,7 +27,6 @@
 - [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md)
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications et services sur des serveurs propres avec gestion automatisée.
 - [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md)
-- [maigret](../../watch/technical-6d84c860baa5311d1e0f.md) — Recherche d'informations sur un utilisateur via des sites web.
 - [H4X-Tools](../../watch/technical-2005809e9644ca2d23ec.md) — Correction des avertissements et amélioration de Git scrape
 - [Catalogue d'applications open-source pour workflows SaaS](../../watch/technical-d757b4c5c60f5bd16d56.md) — Trouver des alternatives open-source aux outils SaaS.
 - [OpenOSINT](../../watch/technical-0be614d8a1eb180e4b8a.md) — Orchestre des recherches OSINT avec un modèle LLM pour produire un rapport structuré

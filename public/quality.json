@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-25T07:57:11.856Z",
+  "at": "2026-10-25T08:57:17.218Z",
   "scope": "public-index-only",
   "fiches": 659,
   "sourceReferences": 2635,
@@ -11,7 +11,7 @@
     "interest-missing": 195,
     "keywords-missing": 90,
     "domain-unqualified": 116,
-    "primary-identity-unqualified": 23,
+    "primary-identity-unqualified": 22,
     "nature-unqualified": 609
   },
   "queue": [
@@ -564,6 +564,14 @@
       ]
     },
     {
+      "id": "watch-technical-5e7f5b459d52bc0badc8-md",
+      "title": "just",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-6cc3ec716443f80c37a3-md",
       "title": "Kling Video API via Muapi",
       "reasons": [
@@ -616,6 +624,13 @@
     {
       "id": "watch-technical-3794fe05156a712cb6fd-md",
       "title": "LongCat-Video",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-6d84c860baa5311d1e0f-md",
+      "title": "maigret",
       "reasons": [
         "nature-unqualified"
       ]
@@ -718,6 +733,13 @@
       "reasons": [
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-78d472c25b2758a70776-md",
+      "title": "notebooklm-py",
+      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -1203,6 +1225,13 @@
       ]
     },
     {
+      "id": "watch-technical-143ce5c3c11e34fe9ea8-md",
+      "title": "VoiceBox",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-37a1c9a401fe305b58a5-md",
       "title": "WanGP",
       "reasons": [
@@ -1314,14 +1343,6 @@
       ]
     },
     {
-      "id": "watch-technical-5e7f5b459d52bc0badc8-md",
-      "title": "just",
-      "reasons": [
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-49226a0e2e05fa223d37-md",
       "title": "Kami",
       "reasons": [
@@ -1329,22 +1350,8 @@
       ]
     },
     {
-      "id": "watch-technical-6d84c860baa5311d1e0f-md",
-      "title": "maigret",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-9bd95807fef95eea1d8c-md",
       "title": "MoneyPrinter",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-78d472c25b2758a70776-md",
-      "title": "notebooklm-py",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1382,14 +1389,6 @@
       "id": "watch-technical-6b5abdd9cd34e8376d9f-md",
       "title": "VisoMaster",
       "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-143ce5c3c11e34fe9ea8-md",
-      "title": "VoiceBox",
-      "reasons": [
-        "primary-identity-unqualified",
         "nature-unqualified"
       ]
     },

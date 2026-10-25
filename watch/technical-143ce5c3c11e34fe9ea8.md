@@ -60,6 +60,7 @@ Cloner des voix pour des agents IA sans dépendance externe
 - https://github.com/jamiepine/voicebox/pull/524
 - https://github.com/jamiepine/voicebox/pull/503
 - https://github.com/jamiepine/voicebox/releases/tag/v0.4.3
+- https://github.com/jamiepine/voicebox/tree/v0.4.3
 - https://github.com/jamiepine/voicebox/commit/328bdca61c76ab47eeb35ef9a2ea5738fbd00fe9
 - https://github.com/jamiepine/voicebox/pull/523
 - https://github.com/jamiepine/voicebox/pull/521
@@ -103,7 +104,7 @@ Cloner des voix pour des agents IA sans dépendance externe
 - Origine : NotePlan
 - Identifiant source : c5d386c4449a831246df86653fbb99679df636885b80eee42d68f43169fac2d5
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
@@ -111,8 +112,8 @@ Cloner des voix pour des agents IA sans dépendance externe
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
 - Liens distincts recensés : 1649.
 - Pages lues, tweet compris : 102.
-- Sources techniques analysées : 63.
-- Sources à vérifier : 33 ; analyses non terminées : 0 ; erreurs du modèle : 4.
+- Sources techniques analysées : 64.
+- Sources à vérifier : 32 ; analyses non terminées : 0 ; erreurs du modèle : 4.
 - Liens non lus : 1347 (profondeur : 915, budget de pages : 416, délai : 0, erreurs : 16).
 - Pages résumées sur extrait : 30.
 - Éléments exclus : 202 ; doublons ignorés : 1.
@@ -405,12 +406,10 @@ Mise à jour de voicebox avec des fixes de fiabilité.
 
 Source : https://github.com/jamiepine/voicebox/releases/tag/v0.4.3 ; niveau 3.
 
-### Mise à jour de version 0.4.3 pour Voicebox
+### voicebox
 
-Mise à jour de Voicebox vers la version 0.4.3 avec des corrections de fiabilité.
+Studio de synthèse vocale open source. Clonage de voix. Génération de parole. Effets post-traitement. Éditeur de projets.
 
-- Correction des problèmes de notarisation macOS DMG
-- Fix des voix japonaises Kokoro sur installation fraîche
-- Amélioration de la compatibilité macOS 15 Sequoia
-
-Source : https://github.com/jamiepine/voi
+- Studio de synthèse vocale open source
+- Clonage de voix à partir d'audio ou de voix prédéfinies
+- Génération de parole en 23 langues avec 7 mote

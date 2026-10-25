@@ -20,6 +20,7 @@
 - [MiniSim](../../watch/technical-d93ed6a02625034b1939.md) — Lancer les émulateurs iOS et Android depuis la barre de menus macOS.
 - [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Permet d'explorer et modifier le code avec un assistant IA
 - [myfish](../../watch/technical-ae2b5f1a3fbdf8f6f54d.md)
+- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
 - [open-grok-bot](../../watch/technical-dfc871508eb563893ba5.md) — Crée des personas bots avec des modèles spécifiques
 - [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
@@ -39,7 +40,6 @@
 - [uv](../../watch/technical-30e283a9b3f70e35d81a.md)
 - [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
 - [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Accéder aux alertes météo via terminal
-- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
 - [orogene](../../watch/technical-6bb0ffb5ad3771787603.md) — Installe les dépendances rapidement sans surcharger les ressources.
 - [Ruff](../../watch/technical-40c2c54a4c6490e8e3bc.md) — Vérifie et corrige le code Python rapidement avec une grande couverture de règles.

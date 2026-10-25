@@ -9,11 +9,11 @@
 - [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Exécute des tâches de codage localement avec un éditeur.
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Permet d'éditer des fichiers dans un environnement terminal
+- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
 - [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
 - [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
 - [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md)
 - [Kami](../../watch/technical-49226a0e2e05fa223d37.md) — Génère des documents professionnels avec des modèles prédéfinis.
-- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
 - [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Configure l'environnement de codage avec des outils d'assistance.
 - [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Propose des corrections de code en temps réel via un terminal interactif
 - [Spec Kit](../../watch/technical-f4e0adf84666b0c986e7.md) — Structurer le développement avec des spécifications

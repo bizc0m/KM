@@ -37,12 +37,14 @@
 - [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
 - [llama.cpp](../../watch/technical-8f4d2163b5e697a72c77.md) — Exécute des modèles LLM localement avec optimisation matérielle
 - [LLM Wiki Agent](../../watch/technical-9e4c4b6c4c6a7d12ceff.md) — Ingestion de documents pour construire un wiki structuré
+- [maigret](../../watch/technical-6d84c860baa5311d1e0f.md) — Recherche d'informations sur un utilisateur via des sites web.
 - [Mailcrew](../../watch/technical-0812a3e04271e2d82124.md) — Traite des tâches via des emails.
 - [Migration vers Kimi Code CLI](../../watch/technical-15ae02c43b612a6e8c46.md) — Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP.
 - [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Permet d'explorer et modifier le code avec un assistant IA
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
 - [Multica](../../watch/technical-1c299b0df37a055a049d.md) — Assigner des tâches aux agents IA pour gérer le travail.
 - [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
+- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
 - [NotFair Plugin](../../watch/technical-614a514ae65ec429804d.md) — Analyse de site et de campagne publicitaire avec des workflows prédéfinis.
 - [Old Photo Restore](../../watch/technical-1a1b1c01fccbb652af5e.md) — Restaure des photos anciennes avec un moteur d'IA.
 - [Ominis-OSINT](../../watch/technical-4d65fd0e0a726a41e3d2.md) — Rechercher des mentions en ligne d'une cible et identifier des profils sociaux
@@ -68,17 +70,15 @@
 - [UI-TARS-desktop](../../watch/technical-bba9c08d417b5cda22d8.md) — Contrôle à distance des ordinateurs et navigateurs avec interface graphique
 - [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
 - [Vibe Workflow](../../watch/technical-6ccb86641ecc996a74b9.md) — Crée des workflows d'IA visuels sans abonnement
+- [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Cloner des voix pour des agents IA sans dépendance externe
 - [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Ajoute des timestamps précis aux mots de la transcription
 - [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications et services sur des serveurs propres avec gestion automatisée.
 - [FreeLLMAPI](../../watch/technical-f9d54d6e051498a6f643.md) — Route requests across free LLM providers with one endpoint
 - [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md)
 - [Kami](../../watch/technical-49226a0e2e05fa223d37.md) — Génère des documents professionnels avec des modèles prédéfinis.
-- [maigret](../../watch/technical-6d84c860baa5311d1e0f.md) — Recherche d'informations sur un utilisateur via des sites web.
-- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
 - [Qwen-Image-API](../../watch/technical-c341f7566eb8b34cd45a.md) — Génère des images via l'API Qwen avec des paramètres avancés
 - [VisoMaster](../../watch/technical-6b5abdd9cd34e8376d9f.md) — Permet de remplacer des visages dans des vidéos avec précision
-- [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Cloner des voix pour des agents IA sans dépendance externe
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
 - [AI Creator Academy](../../watch/technical-21a78e48d74a8e6ab07f.md) — Créer des publicités vidéo vendables pour des marques réelles.
 - [Générateur de vidéo d'embrassade IA](../../watch/technical-d85e8aba072628b2e82b.md) — Crée des vidéos d'embrassade à partir de deux photos.
