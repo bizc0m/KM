@@ -3,6 +3,7 @@
 | Identifiant | Fichier | Type | Tags | Statut |
 | --- | --- | --- | --- | --- |
 | `watch-technical-1e83b6596b947b071d50-md` | `watch/technical-1e83b6596b947b071d50.md` | outil | #simulation, #memoire-agents | actif |
+| `watch-technical-b3d97a6bcd67a3be76f1-md` | `watch/technical-b3d97a6bcd67a3be76f1.md` | outil |  | actif |
 | `watch-technical-48dbbdd8fd0d302995a7-md` | `watch/technical-48dbbdd8fd0d302995a7.md` | outil | #skills-agents, #specification | actif |
 | `watch-cloudflare-agentic-inbox-md` | `watch/cloudflare-agentic-inbox.md` | outil |  | a verifier |
 | `watch-technical-ca3c69add82754901cf6-md` | `watch/technical-ca3c69add82754901cf6.md` | outil | #generation-3d | actif |
@@ -73,11 +74,12 @@
 | `watch-technical-411490b28204e94a3778-md` | `watch/technical-411490b28204e94a3778.md` | outil | #generation-video, #generation-images, #application-bureau, #inference-locale | actif |
 | `watch-technical-00898489ed72fd55e12d-md` | `watch/technical-00898489ed72fd55e12d.md` | outil | #synthese-vocale, #application-bureau, #transcription, #macos | actif |
 | `watch-technical-690719855ba11af8d90c-md` | `watch/technical-690719855ba11af8d90c.md` | outil | #react, #agents-code, #pdf | actif |
+| `watch-technical-7f84d8cb0f021d98f595-md` | `watch/technical-7f84d8cb0f021d98f595.md` | outil | #application-bureau | actif |
 | `watch-technical-757ce536b0a4cbc2f860-md` | `watch/technical-757ce536b0a4cbc2f860.md` | outil |  | actif |
 | `watch-technical-4df736e310f1a98e2c76-md` | `watch/technical-4df736e310f1a98e2c76.md` | outil | #synthese-vocale, #generation-video | actif |
 | `watch-technical-1579309e1b490fa5279c-md` | `watch/technical-1579309e1b490fa5279c.md` | outil |  | actif |
 | `watch-technical-c88e811a1a66f8cd57ba-md` | `watch/technical-c88e811a1a66f8cd57ba.md` | outil |  | actif |
-| `watch-technical-c0d4875dd605f77caf57-md` | `watch/technical-c0d4875dd605f77caf57.md` | outil |  | actif |
+| `watch-technical-c0d4875dd605f77caf57-md` | `watch/technical-c0d4875dd605f77caf57.md` | outil |  | a verifier |
 | `watch-technical-c133b93b912dffd605a2-md` | `watch/technical-c133b93b912dffd605a2.md` | outil | #terminal | actif |
 | `watch-technical-1158f7d0b091e0866c17-md` | `watch/technical-1158f7d0b091e0866c17.md` | outil | #generation-images, #generation-3d | actif |
 | `watch-technical-62ff8b189d833243b52d-md` | `watch/technical-62ff8b189d833243b52d.md` | outil | #generation-images, #generation-3d | actif |
@@ -108,7 +110,6 @@
 | `watch-technical-bba7cbf6411664b33623-md` | `watch/technical-bba7cbf6411664b33623.md` | outil |  | actif |
 | `watch-technical-511a5089717fad8aad51-md` | `watch/technical-511a5089717fad8aad51.md` | outil |  | actif |
 | `watch-technical-e9eb05e2bf38f125a62f-md` | `watch/technical-e9eb05e2bf38f125a62f.md` | outil |  | actif |
-| `watch-technical-b3d97a6bcd67a3be76f1-md` | `watch/technical-b3d97a6bcd67a3be76f1.md` | outil |  | actif |
 | `watch-technical-ea311829e667eb1acdcc-md` | `watch/technical-ea311829e667eb1acdcc.md` | outil | #memoire-agents, #agents-code, #terminal, #mcp | actif |
 | `watch-technical-0c9607a1c8e9eb918265-md` | `watch/technical-0c9607a1c8e9eb918265.md` | outil | #generation-images | actif |
 | `watch-technical-a20888d5cb6a1c399300-md` | `watch/technical-a20888d5cb6a1c399300.md` | outil | #generation-images | actif |
@@ -164,7 +165,6 @@
 | `watch-technical-dfc871508eb563893ba5-md` | `watch/technical-dfc871508eb563893ba5.md` | outil | #react, #python | actif |
 | `watch-technical-2d163384adb685d9a51a-md` | `watch/technical-2d163384adb685d9a51a.md` | outil |  | a verifier |
 | `watch-technical-0b5c4741d1c147be5fdd-md` | `watch/technical-0b5c4741d1c147be5fdd.md` | outil |  | actif |
-| `watch-technical-7f84d8cb0f021d98f595-md` | `watch/technical-7f84d8cb0f021d98f595.md` | outil | #application-bureau | actif |
 | `watch-technical-1049081f67e5576ca9e6-md` | `watch/technical-1049081f67e5576ca9e6.md` | outil | #osint | actif |
 | `watch-technical-cdbdf85699a704f19664-md` | `watch/technical-cdbdf85699a704f19664.md` | outil | #osint | actif |
 | `watch-technical-97416d4ba88591c565b7-md` | `watch/technical-97416d4ba88591c565b7.md` | outil |  | actif |

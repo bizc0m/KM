@@ -32,112 +32,83 @@ Ajouter des rôles d'agents pour des conseils spécialisés.
 
 - https://x.com/i/status/2056188353490595903
 - https://agencyagents.app/
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/strategy/runbooks.json
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-frontend-developer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-backend-architect.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-mobile-app-builder.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-ai-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-devops-automator.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-network-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-rapid-prototyper.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-senior-developer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-filament-optimization-specialist.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-autonomous-optimization-architect.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-embedded-firmware-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-incident-response-commander.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-solidity-smart-contract-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-codebase-onboarding-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-wechat-mini-program-developer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-code-reviewer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-database-optimizer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-git-workflow-master.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-sre.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-ai-data-remediation-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-data-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-feishu-integration-developer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-cms-developer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-email-intelligence-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-voice-ai-integration-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-it-service-manager.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-minimal-change-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-orgscript-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-prompt-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-multi-agent-systems-architect.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-drupal-shopping-cart.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-wordpress-shopping-cart.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-payments-billing-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-i18n-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-drupal-performance.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-wordpress-performance.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-section-508-specialist.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-search-relevance-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-identity-access-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-realtime-collaboration-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-mobile-release-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-video-streaming-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-finops-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-api-platform-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-database-reliability-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-developer-tooling-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-iot-fleet-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-gaussdb-expert.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-privacy-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-rust-refactoring-specialist.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-llm-post-training-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-data-visualization-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-knowledge-graph-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-china-network-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-platform-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-pdf-engine-architect.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-ats-validator-architect.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-universal-document-compiler.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-servicenow-developer-mentor.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-ui-designer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-ux-researcher.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-ux-architect.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-visual-storyteller.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-image-prompt-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-inclusive-visuals-specialist.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-persona-walkthrough.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-outbound-strategist.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-discovery-coach.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-deal-strategist.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-engineer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-proposal-strategist.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-pipeline-analyst.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-account-strategist.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-coach.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/specialized/sales-outreach.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-offer-lead-gen-strategist.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-content-creator.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-twitter-engager.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-developer-community-builder.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-app-store-optimizer.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-social-media-strategist.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-baidu-seo-specialist.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-carousel-growth-engine.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-china-ecommerce-operator.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-kuaishou-strategist.md
-- https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-seo-specialist.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-frontend-developer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-backend-architect.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-mobile-app-builder.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-ai-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-devops-automator.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-network-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-rapid-prototyper.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-filament-optimization-specialist.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-autonomous-optimization-architect.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-embedded-firmware-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-incident-response-commander.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-solidity-smart-contract-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-database-optimizer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-git-workflow-master.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-ai-data-remediation-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-data-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-cms-developer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-voice-ai-integration-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-it-service-manager.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-minimal-change-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-prompt-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-wordpress-shopping-cart.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-payments-billing-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-i18n-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-drupal-performance.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-wordpress-performance.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-section-508-specialist.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-search-relevance-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-identity-access-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-realtime-collaboration-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-mobile-release-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-finops-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-api-platform-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-database-reliability-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-developer-tooling-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-iot-fleet-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-gaussdb-expert.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-privacy-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-rust-refactoring-specialist.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-knowledge-graph-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-platform-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-pdf-engine-architect.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-ats-validator-architect.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-universal-document-compiler.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-electrical-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/design/design-ui-designer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/design/design-visual-storyteller.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/design/design-image-prompt-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/design/design-inclusive-visuals-specialist.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/sales/sales-discovery-coach.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/sales/sales-engineer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/sales/sales-proposal-strategist.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/sales/sales-account-strategist.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/sales/sales-coach.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/marketing/marketing-developer-community-builder.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/marketing/marketing-app-store-optimizer.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/marketing/marketing-social-media-strategist.md
+- https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/marketing/marketing-carousel-growth-engine.md
 
 ## Traçabilité
 
 - Origine : NotePlan
 - Identifiant source : f096bac634e98c621c76491143ac8b1e7f0b6beafaae728ed309f19702d89084
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 394.
+- Liens distincts recensés : 393.
 - Pages lues, tweet compris : 119.
-- Sources techniques analysées : 89.
-- Sources à vérifier : 30 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 271 (profondeur : 0, budget de pages : 270, délai : 0, erreurs : 1).
+- Sources techniques analysées : 60.
+- Sources à vérifier : 55 ; analyses non terminées : 0 ; erreurs du modèle : 0.
+- Liens non lus : 270 (profondeur : 0, budget de pages : 269, délai : 0, erreurs : 1).
 - Pages résumées sur extrait : 24.
-- Éléments exclus : 5 ; doublons ignorés : 0.
+- Éléments exclus : 9 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### Agency Agents
@@ -154,130 +125,194 @@ Outil d'installation native pour agents AI. Gère les agents, leur déploiement 
 
 Source : https://agencyagents.app ; niveau 2.
 
-### Gestion des runbooks NEXUS pour déploiement d'équipes
+### Frontend Developer
 
-Définition de runbooks pour automatiser le déploiement d'équipes via des agents préconfigurés.
+Spécialiste des technologies web modernes. Implémente des interfaces accessibles. Optimise les performances. Crée des applications réactives.
 
-- Lecture des rosters pour mapper les agents aux fichiers de configuration.
-- Activation de modes NEXUS pour définir la taille de l'équipe.
-- Génération d'équipes dynamiques selon les phases du runbook.
-- Synchronisation avec les fichiers markdown pour validation des agents.
+- Spécialiste des frameworks React/Vue/Angular
+- Implémente des interfaces accessibles
+- Optimise les performances web
+- Crée des applications réactives
 
-Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/strategy/runbooks.json ; niveau 2.
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-frontend-developer.md ; niveau 2.
 
-### Implémentation d'une table virtuelle optimisée
+### Backend Architect
 
-Création d'une composant React virtuel pour optimiser le rendu de données.
+Spécialiste de l'architecture backend, conception de systèmes scalables, développement d'API, infrastructure cloud.
 
-- Optimise le rendu de données avec useVirtualizer.
-- Réduit le temps de rendu de 80%.
-- Gère des grands ensembles de données.
-- Accessible avec ARIA et keyboard navigation.
+- Spécialiste de l'architecture backend
+- Conception de systèmes scalables
+- Développement d'API sécurisées
+- Expertise en infrastructure cloud
 
-Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-frontend-developer.md ; niveau 2.
-
-### Architecture Backend - Conception de systèmes scalables
-
-Documentation technique sur la conception d'architectures backend, incluant la base de données, les API et l'infrastructure cloud.
-
-- Conception de systèmes scalables avec des bases de données optimisées.
-- Développement d'API sécurisées avec des contrats explicites.
-- Implémentation de mesures de sécurité et de fiabilité.
-- Optimisation des performances avec des stratégies de cache et de monitoring.
-
-Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-backend-architect.md ; niveau 2.
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-backend-architect.md ; niveau 2.
 
 ### Mobile App Builder
 
-Spécialiste de développement mobile natif et cross-platform avec expertise en iOS/Android et frameworks.
+Crée des applications mobiles natives et cross-platform. Optimise les performances et l'UX. Intègre des fonctionnalités natives. Utilise des frameworks comme SwiftUI, Kotlin et React Native.
 
-- Crée des applications natives de qualité sur iOS et Android
-- Développe des applications cross-platform avec React Native ou Flutter
+- Crée des applications mobiles natives et cross-platform
 - Optimise les performances et l'UX pour chaque plateforme
 - Intègre des fonctionnalités natives comme la reconnaissance gestuelle
+- Utilise des frameworks comme SwiftUI, Kotlin et React Native
 
-Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-mobile-app-builder.md ; niveau 2.
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-mobile-app-builder.md ; niveau 2.
 
-### Agent d'ingénierie IA - Développement et déploiement de modèles
+### AI Engineer Agent
 
-Agent d'ingénierie IA spécialisé dans le développement, le déploiement et l'intégration de modèles ML en production.
+Agent spécialisé dans le développement et déploiement de modèles ML. Intégre des systèmes d'IA dans des applications pratiques. Optimise les pipelines de données et assure la scalabilité. Respecte les normes éthiques et de sécurité.
 
-- Crée des modèles ML pour des applications métier pratiques
-- Implémente des fonctionnalités IA et des systèmes d'automatisation intelligente
-- Développe des pipelines de données et de l'infrastructure MLOps pour la gestion du cycle de vie des modèles
-- Construit des systèmes de recommandation, des solutions NLP et des applications de vision par ordinateur
+- Spécialisé dans le développement de modèles ML et leur déploiement en production
+- Intègre des systèmes d'IA dans des applications pratiques et scalables
+- Optimise les pipelines de données et assure la scalabilité des solutions
+- Respecte les normes éthiques et de sécurité pour les systèmes d'IA
 
-Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-ai-engineer.md ; niveau 2.
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-ai-engineer.md ; niveau 2.
 
-### Automatisation DevOps et CI/CD
+### DevOps Automator Agent
 
-Documentation technique sur l'automatisation DevOps avec des pipelines CI/CD, infrastructure as code et monitoring.
+Automate infrastructure with Terraform et CI/CD. Implémente des pipelines de déploiement sans interruption. Intègre la surveillance et les alertes. Optimise les coûts et la sécurité.
 
-- Automatisation des déploiements avec des stratégies sans interruption
-- Intégration de scans de sécurité dans les pipelines CI/CD
-- Configuration d'alertes et de métriques pour l'observabilité
-- Utilisation de Terraform et de Kubernetes pour l'infrastructure
+- Automatisation de l'infrastructure via Terraform, CloudFormation ou CDK
+- Pipelines CI/CD avec GitHub Actions, GitLab CI ou Jenkins
+- Déploiement sans interruption avec blue-green ou canary
+- Surveillance et alertes intégrées dans les pipelines
 
-Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-devops-automator.md ; niveau 2.
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-devops-automator.md ; niveau 2.
 
-### Configuration Cisco IOS/IOS-XE pour un switch L3
+### Network Engineer
 
-Configuration d'un switch L3 Cisco avec VLAN, OSPF et eBGP.
+Expertise en routage, commutation, pare-feu multi-vendeur. Conception de configurations. Débogage de problèmes de connectivité. Analyse de l'état du réseau.
 
-- Crée un VLAN 20 pour les utilisateurs.
-- Configure l'interface Vlan20 avec une adresse IP et un serveur d'authentification.
-- Lie l'interface GigabitEthernet1/0/24 au VLAN 20.
-- Configure l'interface GigabitEthernet0/0 pour le routage externe.
-- Active OSPF sur l'interface GigabitEthernet0/1.
-- Définit une liste de préfixes pour le routage BGP.
-- Configure le routage BGP avec le routeur adjacent 203.0.113.1.
+- Spécialiste des réseaux d'entreprise avec Cisco, Juniper, Palo Alto.
+- Conception de configurations de routeurs, commutateurs et pare-feu.
+- Débogage de problèmes de connectivité, routage, NAT, ACL, VPN.
+- Analyse de l'état du réseau via des commandes show et display.
 
-Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-network-engineer.md ; niveau 2.
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-network-engineer.md ; niveau 2.
 
 ### Rapid Prototyper
 
-Outil de création rapide de prototypes et MVP avec des outils et frameworks optimisés.
+Crée des prototypes fonctionnels en moins de 3 jours. Intègre collecte de feedback et analytics dès le début. Utilise des outils comme Next.js et Clerk. Permet validation rapide d'idées.
 
-- Crée des prototypes fonctionnels en moins de 3 jours.
-- Collecte d'analytique et de feedback dès la première version.
-- Utilisation de stacks rapides comme Next.js et Prisma.
-- Intégration d'A/B testing pour valider les fonctionnalités.
+- Crée des prototypes fonctionnels en moins de 3 jours
+- Intègre collecte de feedback et analytics dès le début
+- Utilise des outils comme Next.js et Clerk
+- Permet validation rapide d'idées
 
-Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-rapid-prototyper.md ; niveau 2.
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-rapid-prototyper.md ; niveau 2.
 
-### Développement Web Premium avec Laravel/Livewire/FluxUI
+### FilamentOptimizationAgent
 
-Documentation technique sur la création d'expériences web premium avec Laravel, Livewire et FluxUI.
+Redesigne les interfaces admin Filament pour une meilleure UX. Structure les formulaires et tables. Optimise les entrées utilisateur. Améliore la navigation.
 
-- Amélioration de l'expérience utilisateur via des animations et micro-interactions.
-- Intégration de composants FluxUI pour un design raffiné.
-- Optimisation des performances avec des techniques avancées.
-- Utilisation de Three.js pour des expériences immersives.
+- Redesigne les formulaires et tables pour une meilleure UX
+- Structure les interfaces admin pour une navigation optimisée
+- Remplace les radios par des sliders ou grilles compactes
+- Groupe les sections en tabs ou en grille
 
-Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-senior-developer.md ; niveau 2.
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-filament-optimization-specialist.md ; niveau 2.
 
-### Optimisation structurelle des interfaces admin Filament PHP
+### Autonomous Optimization Architect
 
-Optimisation de l'interface admin Filament PHP en priorisant la structure et l'expérience utilisateur.
+Système de gouvernance intelligent pour optimiser les API. Enforce des limites financières et de sécurité. Teste en arrière-plan. Route automatiquement les modèles gagnants.
 
-- Réduction du scrolling vertical via des sections côte à côte ou des onglets.
-- Remplacement des radios par des curseurs ou des grilles compactes.
-- Mise en place de labels significatifs pour les répétiteurs.
-- Sections secondaires pliables par défaut pour réduire le bruit visuel.
+- Système de gouvernance intelligent pour optimiser les API.
+- Enforce des limites financières et de sécurité.
+- Teste en arrière-plan.
+- Route automatiquement les modèles gagnants.
 
-Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-filament-optimization-specialist.md ; niveau 2.
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-autonomous-optimization-architect.md ; niveau 2.
 
-### OptimizeAndRoute
+### Embedded Firmware Engineer
 
-Système de routage intelligent avec des barrières de sécurité pour optimiser les coûts et la performance.
+Spécialiste firmware embarqué. Gère ESP32/STM32/Nordic. Utilise FreeRTOS/Zephyr. Gère erreurs et ressources.
 
-- Route automatiquement vers le modèle le plus efficace en fonction des coûts et de la précision.
-- Enforce des limites financières et des barrières de sécurité avant toute déployment.
-- Utilise des tests en arrière-plan pour évaluer les nouveaux modèles.
-- Interrompt les appels API en cas de surcoût ou de défaillance répétée.
+- Spécialiste firmware embarqué pour systèmes ressources limitées
+- Utilise ESP32, STM32, Nordic et leurs SDKs
+- Implémente protocoles de communication avec gestion d'erreurs
+- Respecte contraintes matérielles et logicielles
 
-Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-autonomous-optimization-architect.md ; niveau 2.
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-embedded-firmware-engineer.md ; niveau 2.
 
-### Gestion de tâches FreeRTOS avec file d'attente
+### Incident Response Commander
 
-Implémentation de tâches FreeRT
+Fournit un cadre structuré pour gérer les incidents, coordonne la réponse, facilite les post-mortems et améliore la résilience. Définit des niveaux de gravité et des protocoles de communication. Gère les rotations d'alerte et les politiques de SLI/SLO.
+
+- Fournit un cadre structuré pour gérer les incidents
+- Coordonne la réponse avec des rôles définis
+- Facilite les post-mortems sans blâme
+- Définit des niveaux de gravité SEV1-SEV4
+
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-incident-response-commander.md ; niveau 2.
+
+### Solidity Smart Contract Engineer
+
+Expert en développement de contrats intelligents Solidity, spécialiste en architecture EVM, optimisation du gaz, modèles de proxy upgradeable, développement de protocoles DeFi et conception sécurisée.
+
+- Spécialiste en architecture EVM
+- Optimisation du gaz prioritaire
+- Modèles de proxy upgradeable
+- Développement de protocoles DeFi
+- Conception sécurisée des contrats
+
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-solidity-smart-contract-engineer.md ; niveau 2.
+
+### Database Optimizer
+
+Optimise les schémas, requêtes et index. Gère PostgreSQL, MySQL, Supabase et PlanetScale. Réduit les temps de réponse. Évite les N+1 queries.
+
+- Optimise les schémas, requêtes et index pour PostgreSQL, MySQL, Supabase et PlanetScale
+- Réduit les temps de réponse grâce à des requêtes optimisées et des index ciblés
+- Évite les N+1 queries via des requêtes JOIN et des migrations sécurisées
+- Utilise EXPLAIN ANALYZE pour analyser et améliorer les plans de requêtes
+
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-database-optimizer.md ; niveau 2.
+
+### Git Workflow Master
+
+Outil de gestion des workflows Git. Stratégies de branche. Bonnes pratiques de versionnage. Gestion des commits.
+
+- Aide les équipes à maintenir un historique propre.
+- Propose des stratégies de branche adaptées.
+- Facilite la collaboration via des commits atomiques.
+- Intègre des techniques avancées comme les worktrees.
+
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-git-workflow-master.md ; niveau 2.
+
+### AI Data Remediation Engineer
+
+Répare des anomalies de données via des modèles locaux. Gère les données corrompues sans toucher directement les données. Utilise des embeddings et des clusters sémantiques. Garantit zéro perte de données.
+
+- Répare des anomalies de données via des modèles locaux.
+- Gère les données corrompues sans toucher directement les données.
+- Utilise des embeddings et des clusters sémantiques.
+- Garantit zéro perte de données.
+
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-ai-data-remediation-engineer.md ; niveau 2.
+
+### Data Engineer Agent
+
+Construit des pipelines de données fiables. Transforme des données brutes en assets analytiques. Gère des architectures lakehouse. Implémente des contrats de données.
+
+- Expert en pipelines de données fiables
+- Transforme des données brutes en assets analytiques
+- Gère des architectures lakehouse
+- Implémente des contrats de données
+
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-data-engineer.md ; niveau 2.
+
+### CMS Developer
+
+Spécialiste Drupal et WordPress pour développement thèmes, plugins, modèles de contenu. Implémente des solutions scalables et accessibles.
+
+- Spécialiste en Drupal et WordPress pour thèmes et plugins.
+- Implémente des modèles de contenu scalables.
+- Priorise l'accessibilité et la performance.
+- Utilise des méthodes de développement structurées.
+
+Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-cms-developer.md ; niveau 2.
+
+### Voice AI Integration Engineer
+
+Construit des pipelines de transcription audio vers texte structuré. Transforme des enregistrements audio en texte attribué aux locuteurs. Intègre les résulta

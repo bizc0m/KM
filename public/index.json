@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-25T04:56:55.722Z",
+  "at": "2026-10-25T05:57:00.406Z",
   "count": 656,
   "rows": [
     {
@@ -786,6 +786,709 @@
       ],
       "cardTitle": "agency-agents",
       "cardInterest": "Facilite la simulation de discussions avec des experts."
+    },
+    {
+      "id": "watch-technical-b3d97a6bcd67a3be76f1-md",
+      "title": "agency-agents : Bibliothèque de rôles d'agents",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [],
+      "status": "actif",
+      "path": "watch/technical-b3d97a6bcd67a3be76f1.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-b3d97a6bcd67a3be76f1.md",
+      "sourceUrl": "https://x.com/i/status/2056188353490595903",
+      "sources": [
+        {
+          "url": "https://x.com/i/status/2056188353490595903",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://agencyagents.app/",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-frontend-developer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-backend-architect.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-mobile-app-builder.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-ai-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-devops-automator.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-network-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-rapid-prototyper.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-filament-optimization-specialist.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-autonomous-optimization-architect.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-embedded-firmware-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-incident-response-commander.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-solidity-smart-contract-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-database-optimizer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-git-workflow-master.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-ai-data-remediation-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-data-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-cms-developer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-voice-ai-integration-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-it-service-manager.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-minimal-change-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-prompt-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-wordpress-shopping-cart.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-payments-billing-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-i18n-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-drupal-performance.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-wordpress-performance.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-section-508-specialist.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-search-relevance-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-identity-access-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-realtime-collaboration-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-mobile-release-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-finops-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-api-platform-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-database-reliability-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-developer-tooling-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-iot-fleet-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-gaussdb-expert.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-privacy-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-rust-refactoring-specialist.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-knowledge-graph-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-platform-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-pdf-engine-architect.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-ats-validator-architect.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-universal-document-compiler.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engineering/engineering-electrical-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/design/design-ui-designer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/design/design-visual-storyteller.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/design/design-image-prompt-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/design/design-inclusive-visuals-specialist.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/sales/sales-discovery-coach.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/sales/sales-engineer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/sales/sales-proposal-strategist.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/sales/sales-account-strategist.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/sales/sales-coach.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/marketing/marketing-developer-community-builder.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/marketing/marketing-app-store-optimizer.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/marketing/marketing-social-media-strategist.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/marketing/marketing-carousel-growth-engine.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        }
+      ],
+      "github": "",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Ajouter des rôles d'agents pour des conseils spécialisés.",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-10-25",
+      "theme": "agent",
+      "themeLabel": "Agents de développement",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents.coding"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.x",
+            "source.github"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents.coding",
+            "label": "Agents de développement",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents"
+            ],
+            "patterns": [
+              "claude code",
+              "\\bcodex\\b",
+              "coding agents?",
+              "agents? de cod"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Agents de développement"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents.coding",
+          "label": "Agents de développement",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents"
+          ],
+          "patterns": [
+            "claude code",
+            "\\bcodex\\b",
+            "coding agents?",
+            "agents? de cod"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Agents de développement"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#agents-code",
+          "fullLabel": "agents-code",
+          "color": "agent",
+          "subjectId": "domain.ai.agents.coding"
+        }
+      ],
+      "cardTitle": "agency-agents",
+      "cardInterest": ""
     },
     {
       "id": "watch-technical-48dbbdd8fd0d302995a7-md",
@@ -7984,7 +8687,7 @@
     },
     {
       "id": "watch-technical-553d2fe81671c153a6e0-md",
-      "title": "Cal.diy - Plateforme de planification open source",
+      "title": "Cal.diy",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -8338,16 +9041,17 @@
       "github": "https://github.com/calcom/cal.diy",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet de gérer les disponibilités et rendez-vous",
+      "summary": "Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
-      "theme": "research",
-      "themeLabel": "Organisation du travail",
+      "theme": "dev",
+      "themeLabel": "Bases de données",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
+            "domain.infrastructure.database",
             "domain.data.organization"
           ],
           "capability": [],
@@ -8363,6 +9067,56 @@
           ]
         },
         "concepts": [
+          {
+            "id": "domain.infrastructure.database",
+            "label": "Bases de données",
+            "parent": "domain.infrastructure",
+            "aliases": [
+              "#database",
+              "#postgres",
+              "#sqlite"
+            ],
+            "patterns": [
+              "base de donnees",
+              "\\bsqlite\\b",
+              "\\bpostgres"
+            ],
+            "facet": "domain",
+            "path": [
+              "Infrastructure",
+              "Bases de données"
+            ]
+          },
+          {
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
+            "parent": "domain",
+            "aliases": [
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
+            ],
+            "patterns": [
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Infrastructure"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
           {
             "id": "domain.data.organization",
             "label": "Organisation du travail",
@@ -8393,14 +9147,6 @@
             "path": [
               "Données et connaissances"
             ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
           },
           {
             "id": "lifecycle.active",
@@ -8466,6 +9212,56 @@
       },
       "concepts": [
         {
+          "id": "domain.infrastructure.database",
+          "label": "Bases de données",
+          "parent": "domain.infrastructure",
+          "aliases": [
+            "#database",
+            "#postgres",
+            "#sqlite"
+          ],
+          "patterns": [
+            "base de donnees",
+            "\\bsqlite\\b",
+            "\\bpostgres"
+          ],
+          "facet": "domain",
+          "path": [
+            "Infrastructure",
+            "Bases de données"
+          ]
+        },
+        {
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
+          "parent": "domain",
+          "aliases": [
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
+          ],
+          "patterns": [
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Infrastructure"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
           "id": "domain.data.organization",
           "label": "Organisation du travail",
           "parent": "domain.data",
@@ -8495,14 +9291,6 @@
           "path": [
             "Données et connaissances"
           ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
         },
         {
           "id": "lifecycle.active",
@@ -8566,6 +9354,12 @@
       ],
       "keywords": [
         {
+          "label": "#database",
+          "fullLabel": "database",
+          "color": "dev",
+          "subjectId": "domain.infrastructure.database"
+        },
+        {
           "label": "#project-management",
           "fullLabel": "project-management",
           "color": "research",
@@ -8573,11 +9367,11 @@
         }
       ],
       "cardTitle": "Cal.diy",
-      "cardInterest": "Permet de gérer les disponibilités et rendez-vous"
+      "cardInterest": "Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale."
     },
     {
       "id": "watch-technical-cb5d126cbda2eedef29e-md",
-      "title": "Cal.diy - Plateforme de planification open source",
+      "title": "Cal.diy",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -8639,17 +9433,17 @@
       "github": "https://github.com/calcom/cal.com",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet de gérer les disponibilités et planifier des rendez-vous",
+      "summary": "Permet de gérer les rendez-vous sans dépendance commerciale.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
       "theme": "dev",
-      "themeLabel": "Paquets et dépendances",
+      "themeLabel": "Bases de données",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.dev.dependencies",
+            "domain.infrastructure.database",
             "domain.data.organization",
             "domain.dev.web"
           ],
@@ -8667,47 +9461,45 @@
         },
         "concepts": [
           {
-            "id": "domain.dev.dependencies",
-            "label": "Paquets et dépendances",
-            "parent": "domain.dev",
+            "id": "domain.infrastructure.database",
+            "label": "Bases de données",
+            "parent": "domain.infrastructure",
             "aliases": [
-              "#package-manager",
-              "#dependencies"
+              "#database",
+              "#postgres",
+              "#sqlite"
             ],
             "patterns": [
-              "gestionnaire de paquets",
-              "gestion.*dependances",
-              "resol.*dependances",
-              "ger.*dependances"
+              "base de donnees",
+              "\\bsqlite\\b",
+              "\\bpostgres"
             ],
             "facet": "domain",
             "path": [
-              "Développement logiciel",
-              "Paquets et dépendances"
+              "Infrastructure",
+              "Bases de données"
             ]
           },
           {
-            "id": "domain.dev",
-            "label": "Développement logiciel",
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
             "parent": "domain",
             "aliases": [
-              "#coding",
-              "#devtools",
-              "#editor",
-              "#code-quality"
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
             ],
             "patterns": [
-              "developpement logiciel",
-              "software development",
-              "ingenierie logicielle",
-              "developpement",
-              "programmat",
-              "modifier.*fichiers.*projet",
-              "modifier un projet"
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
             ],
             "facet": "domain",
             "path": [
-              "Développement logiciel"
+              "Infrastructure"
             ]
           },
           {
@@ -8762,6 +9554,30 @@
             "path": [
               "Développement logiciel",
               "Développement web"
+            ]
+          },
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
             ]
           },
           {
@@ -8828,47 +9644,45 @@
       },
       "concepts": [
         {
-          "id": "domain.dev.dependencies",
-          "label": "Paquets et dépendances",
-          "parent": "domain.dev",
+          "id": "domain.infrastructure.database",
+          "label": "Bases de données",
+          "parent": "domain.infrastructure",
           "aliases": [
-            "#package-manager",
-            "#dependencies"
+            "#database",
+            "#postgres",
+            "#sqlite"
           ],
           "patterns": [
-            "gestionnaire de paquets",
-            "gestion.*dependances",
-            "resol.*dependances",
-            "ger.*dependances"
+            "base de donnees",
+            "\\bsqlite\\b",
+            "\\bpostgres"
           ],
           "facet": "domain",
           "path": [
-            "Développement logiciel",
-            "Paquets et dépendances"
+            "Infrastructure",
+            "Bases de données"
           ]
         },
         {
-          "id": "domain.dev",
-          "label": "Développement logiciel",
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
           "parent": "domain",
           "aliases": [
-            "#coding",
-            "#devtools",
-            "#editor",
-            "#code-quality"
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
           ],
           "patterns": [
-            "developpement logiciel",
-            "software development",
-            "ingenierie logicielle",
-            "developpement",
-            "programmat",
-            "modifier.*fichiers.*projet",
-            "modifier un projet"
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
           ],
           "facet": "domain",
           "path": [
-            "Développement logiciel"
+            "Infrastructure"
           ]
         },
         {
@@ -8923,6 +9737,30 @@
           "path": [
             "Développement logiciel",
             "Développement web"
+          ]
+        },
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
           ]
         },
         {
@@ -8994,7 +9832,7 @@
         }
       ],
       "cardTitle": "Cal.diy",
-      "cardInterest": "Permet de gérer les disponibilités et planifier des rendez-vous"
+      "cardInterest": "Permet de gérer les rendez-vous sans dépendance commerciale."
     },
     {
       "id": "watch-technical-4f72d6274858ca1e8190-md",
@@ -17310,7 +18148,7 @@
     },
     {
       "id": "watch-technical-c750bc2f9f73e8e1f5bd-md",
-      "title": "Ghost : CMS open source headless basé sur Node.js",
+      "title": "Ghost",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -22853,17 +23691,17 @@
       "github": "https://github.com/mailhog/mailhog",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Visualiser les e-mails envoyés sans les envoyer réellement.",
+      "summary": "Afficher les emails envoyés dans une interface web",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
-      "theme": "source",
-      "themeLabel": "Messagerie",
+      "theme": "dev",
+      "themeLabel": "Infrastructure",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.communication.messaging"
+            "domain.infrastructure"
           ],
           "capability": [],
           "compatibility": [],
@@ -22879,40 +23717,25 @@
         },
         "concepts": [
           {
-            "id": "domain.communication.messaging",
-            "label": "Messagerie",
-            "parent": "domain.communication",
-            "aliases": [
-              "#smtp",
-              "#slack"
-            ],
-            "patterns": [
-              "e.mails?",
-              "\\bslack\\b",
-              "rechercher des tweets"
-            ],
-            "facet": "domain",
-            "path": [
-              "Communication et publication",
-              "Messagerie"
-            ]
-          },
-          {
-            "id": "domain.communication",
-            "label": "Communication et publication",
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
             "parent": "domain",
             "aliases": [
-              "#publication-sociale",
-              "#social-media",
-              "#email"
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
             ],
             "patterns": [
-              "publication.*(?:contenus|reseaux)",
-              "client email"
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
             ],
             "facet": "domain",
             "path": [
-              "Communication et publication"
+              "Infrastructure"
             ]
           },
           {
@@ -22987,40 +23810,25 @@
       },
       "concepts": [
         {
-          "id": "domain.communication.messaging",
-          "label": "Messagerie",
-          "parent": "domain.communication",
-          "aliases": [
-            "#smtp",
-            "#slack"
-          ],
-          "patterns": [
-            "e.mails?",
-            "\\bslack\\b",
-            "rechercher des tweets"
-          ],
-          "facet": "domain",
-          "path": [
-            "Communication et publication",
-            "Messagerie"
-          ]
-        },
-        {
-          "id": "domain.communication",
-          "label": "Communication et publication",
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
           "parent": "domain",
           "aliases": [
-            "#publication-sociale",
-            "#social-media",
-            "#email"
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
           ],
           "patterns": [
-            "publication.*(?:contenus|reseaux)",
-            "client email"
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
           ],
           "facet": "domain",
           "path": [
-            "Communication et publication"
+            "Infrastructure"
           ]
         },
         {
@@ -23091,16 +23899,9 @@
           ]
         }
       ],
-      "keywords": [
-        {
-          "label": "#smtp",
-          "fullLabel": "smtp",
-          "color": "source",
-          "subjectId": "domain.communication.messaging"
-        }
-      ],
+      "keywords": [],
       "cardTitle": "MailHog",
-      "cardInterest": "Visualiser les e-mails envoyés sans les envoyer réellement."
+      "cardInterest": "Afficher les emails envoyés dans une interface web"
     },
     {
       "id": "watch-technical-10eda570000d9c7eeda1-md",
@@ -30944,6 +31745,487 @@
       "cardInterest": "Crée des présentations avec des composants React"
     },
     {
+      "id": "watch-technical-7f84d8cb0f021d98f595-md",
+      "title": "OpenCut - Outil de découpage d'images",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "MIT",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/OpenCut-app/OpenCut"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#application-bureau"
+      ],
+      "status": "actif",
+      "path": "watch/technical-7f84d8cb0f021d98f595.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-7f84d8cb0f021d98f595.md",
+      "sourceUrl": "https://github.com/OpenCut-app/OpenCut",
+      "sources": [
+        {
+          "url": "https://github.com/opencut-app/opencut",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2055958924650512508",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://opencut.app/",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://bun.sh/docs/installation",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://docs.docker.com/get-started/get-docker",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://docs.docker.com/compose/install",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://moonrepo.dev/docs/proto/tool-spec",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://moonrepo.dev/moon",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/docs/documentation",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://fal.ai/docs/documentation/compute",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://fal.ai/models/minimax/h3-max/image-to-video",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/models/bytedance/seedance-2.5/reference-to-video",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/models/meshy/v7.1/image-to-3d",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/docs/documentation/serverless",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://fal.ai/gpt-image-2.5",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/seedance-2.5",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/gemini-omni",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/models/fal-ai/kling-video/o3/standard/image-to-video",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/models/fal-ai/veo3.1",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/ltx-2.3",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/pixverse-v6",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/tools/image-upscaler",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/tools/image-extender",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        }
+      ],
+      "github": "https://github.com/opencut-app/opencut",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Découpe des images en sections facilement.",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-10-25",
+      "theme": "media",
+      "themeLabel": "Images et graphisme",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.media.image"
+          ],
+          "capability": [],
+          "compatibility": [
+            "compatibility.interface.desktop"
+          ],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.media.image",
+            "label": "Images et graphisme",
+            "parent": "domain.media",
+            "aliases": [
+              "#compression-images",
+              "#generation-images",
+              "#animation-svg",
+              "#image",
+              "#design",
+              "#svg",
+              "#inspiration"
+            ],
+            "patterns": [
+              "\\bimages?\\b",
+              "\\bsvg\\b",
+              "visual intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Images et graphisme"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "compatibility.interface.desktop",
+            "label": "Application de bureau",
+            "parent": "compatibility.interface",
+            "aliases": [
+              "#application-bureau",
+              "#desktop-app"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces",
+              "Application de bureau"
+            ]
+          },
+          {
+            "id": "compatibility.interface",
+            "label": "Interfaces",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.media.image",
+          "label": "Images et graphisme",
+          "parent": "domain.media",
+          "aliases": [
+            "#compression-images",
+            "#generation-images",
+            "#animation-svg",
+            "#image",
+            "#design",
+            "#svg",
+            "#inspiration"
+          ],
+          "patterns": [
+            "\\bimages?\\b",
+            "\\bsvg\\b",
+            "visual intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Images et graphisme"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "compatibility.interface.desktop",
+          "label": "Application de bureau",
+          "parent": "compatibility.interface",
+          "aliases": [
+            "#application-bureau",
+            "#desktop-app"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces",
+            "Application de bureau"
+          ]
+        },
+        {
+          "id": "compatibility.interface",
+          "label": "Interfaces",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#application-bureau",
+          "fullLabel": "application-bureau",
+          "color": "tool",
+          "tag": "#application-bureau"
+        }
+      ],
+      "cardTitle": "OpenCut",
+      "cardInterest": "Découpe des images en sections facilement."
+    },
+    {
       "id": "watch-technical-757ce536b0a4cbc2f860-md",
       "title": "OpenDesign",
       "canonical": "",
@@ -32719,7 +34001,7 @@
     },
     {
       "id": "watch-technical-c0d4875dd605f77caf57-md",
-      "title": "Penpot : plateforme de conception open source",
+      "title": "Penpot",
       "canonical": "",
       "resource": {
         "nature": "À vérifier",
@@ -32740,7 +34022,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [],
-      "status": "actif",
+      "status": "a verifier",
       "path": "watch/technical-c0d4875dd605f77caf57.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-c0d4875dd605f77caf57.md",
       "sourceUrl": "https://github.com/penpot/penpot",
@@ -32773,7 +34055,7 @@
       "github": "https://github.com/penpot/penpot",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet de collaborer en temps réel sur des projets de conception",
+      "summary": "Intérêt à vérifier",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -32795,7 +34077,7 @@
             "source.x"
           ],
           "lifecycle": [
-            "lifecycle.active"
+            "lifecycle.review"
           ]
         },
         "concepts": [
@@ -32892,16 +34174,16 @@
             ]
           },
           {
-            "id": "lifecycle.active",
-            "label": "Actif",
+            "id": "lifecycle.review",
+            "label": "À vérifier",
             "parent": "lifecycle",
             "aliases": [
-              "#actif",
-              "#active"
+              "#a-verifier",
+              "#to-verify"
             ],
             "facet": "lifecycle",
             "path": [
-              "Actif"
+              "À vérifier"
             ]
           },
           {
@@ -33047,16 +34329,16 @@
           ]
         },
         {
-          "id": "lifecycle.active",
-          "label": "Actif",
+          "id": "lifecycle.review",
+          "label": "À vérifier",
           "parent": "lifecycle",
           "aliases": [
-            "#actif",
-            "#active"
+            "#a-verifier",
+            "#to-verify"
           ],
           "facet": "lifecycle",
           "path": [
-            "Actif"
+            "À vérifier"
           ]
         },
         {
@@ -33121,7 +34403,7 @@
         }
       ],
       "cardTitle": "Penpot",
-      "cardInterest": "Permet de collaborer en temps réel sur des projets de conception"
+      "cardInterest": ""
     },
     {
       "id": "watch-technical-c133b93b912dffd605a2-md",
@@ -38354,7 +39636,7 @@
       "github": "https://github.com/supabase/supabase",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée une API REST sans configuration complexe",
+      "summary": "Crée des applications sans installation locale avec des outils open source.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -38743,7 +40025,7 @@
         }
       ],
       "cardTitle": "Supabase",
-      "cardInterest": "Crée une API REST sans configuration complexe"
+      "cardInterest": "Crée des applications sans installation locale avec des outils open source."
     },
     {
       "id": "watch-technical-763a276cbab62cfc7a39-md",
@@ -44540,883 +45822,6 @@
       ],
       "cardTitle": "12-factor-agents",
       "cardInterest": "Construire des applications LLM fiables avec des principes structurés"
-    },
-    {
-      "id": "watch-technical-b3d97a6bcd67a3be76f1-md",
-      "title": "agency-agents : Bibliothèque de rôles d'agents",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "À vérifier",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "À vérifier"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [],
-      "status": "actif",
-      "path": "watch/technical-b3d97a6bcd67a3be76f1.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-b3d97a6bcd67a3be76f1.md",
-      "sourceUrl": "https://x.com/i/status/2056188353490595903",
-      "sources": [
-        {
-          "url": "https://x.com/i/status/2056188353490595903",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://agencyagents.app/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/strategy/runbooks.json",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-frontend-developer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-backend-architect.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-mobile-app-builder.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-ai-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-devops-automator.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-network-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-rapid-prototyper.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-senior-developer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-filament-optimization-specialist.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-autonomous-optimization-architect.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-embedded-firmware-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-incident-response-commander.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-solidity-smart-contract-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-codebase-onboarding-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-wechat-mini-program-developer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-code-reviewer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-database-optimizer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-git-workflow-master.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-sre.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-ai-data-remediation-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-data-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-feishu-integration-developer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-cms-developer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-email-intelligence-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-voice-ai-integration-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-it-service-manager.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-minimal-change-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-orgscript-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-prompt-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-multi-agent-systems-architect.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-drupal-shopping-cart.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-wordpress-shopping-cart.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-payments-billing-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-i18n-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-drupal-performance.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-wordpress-performance.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-section-508-specialist.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-search-relevance-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-identity-access-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-realtime-collaboration-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-mobile-release-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-video-streaming-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-finops-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-api-platform-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-database-reliability-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-developer-tooling-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-iot-fleet-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-gaussdb-expert.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-privacy-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-rust-refactoring-specialist.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-llm-post-training-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-data-visualization-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-knowledge-graph-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-china-network-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-platform-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-pdf-engine-architect.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-ats-validator-architect.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-universal-document-compiler.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/engineering/engineering-servicenow-developer-mentor.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-ui-designer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-ux-researcher.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-ux-architect.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-visual-storyteller.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-image-prompt-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-inclusive-visuals-specialist.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/design/design-persona-walkthrough.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-outbound-strategist.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-discovery-coach.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-deal-strategist.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-engineer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-proposal-strategist.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-pipeline-analyst.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-account-strategist.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-coach.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/specialized/sales-outreach.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/sales/sales-offer-lead-gen-strategist.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-content-creator.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-twitter-engager.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-developer-community-builder.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-app-store-optimizer.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-social-media-strategist.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-baidu-seo-specialist.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-carousel-growth-engine.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-china-ecommerce-operator.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-kuaishou-strategist.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/msitarzewski/agency-agents/main/marketing/marketing-seo-specialist.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        }
-      ],
-      "github": "",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Ajouter des rôles d'agents pour des conseils spécialisés.",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-24",
-      "theme": "agent",
-      "themeLabel": "Agents de développement",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.ai.agents.coding"
-          ],
-          "capability": [],
-          "compatibility": [],
-          "risk": [],
-          "source": [
-            "source.noteplan",
-            "source.x",
-            "source.github"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.ai.agents.coding",
-            "label": "Agents de développement",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#agents-code",
-              "#coding-agents"
-            ],
-            "patterns": [
-              "claude code",
-              "\\bcodex\\b",
-              "coding agents?",
-              "agents? de cod"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Agents de développement"
-            ]
-          },
-          {
-            "id": "domain.ai.agents",
-            "label": "Agents IA",
-            "parent": "domain.ai",
-            "aliases": [
-              "#agent",
-              "#agents",
-              "#ai-agents",
-              "#personal-agent",
-              "#autonomous-agent",
-              "#ai-companion",
-              "#autonomous-company",
-              "#autonomous-research"
-            ],
-            "patterns": [
-              "\\bagents?\\b",
-              "agentique",
-              "\\bopenclaw\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA"
-            ]
-          },
-          {
-            "id": "domain.ai",
-            "label": "Intelligence artificielle",
-            "parent": "domain",
-            "aliases": [
-              "#ia",
-              "#ai",
-              "#generative-ai",
-              "#ai-assistant",
-              "#creative-ai"
-            ],
-            "patterns": [
-              "\\bia\\b",
-              "\\bai\\b",
-              "intelligence artificielle",
-              "artificial intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.ai.agents.coding",
-          "label": "Agents de développement",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#agents-code",
-            "#coding-agents"
-          ],
-          "patterns": [
-            "claude code",
-            "\\bcodex\\b",
-            "coding agents?",
-            "agents? de cod"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Agents de développement"
-          ]
-        },
-        {
-          "id": "domain.ai.agents",
-          "label": "Agents IA",
-          "parent": "domain.ai",
-          "aliases": [
-            "#agent",
-            "#agents",
-            "#ai-agents",
-            "#personal-agent",
-            "#autonomous-agent",
-            "#ai-companion",
-            "#autonomous-company",
-            "#autonomous-research"
-          ],
-          "patterns": [
-            "\\bagents?\\b",
-            "agentique",
-            "\\bopenclaw\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA"
-          ]
-        },
-        {
-          "id": "domain.ai",
-          "label": "Intelligence artificielle",
-          "parent": "domain",
-          "aliases": [
-            "#ia",
-            "#ai",
-            "#generative-ai",
-            "#ai-assistant",
-            "#creative-ai"
-          ],
-          "patterns": [
-            "\\bia\\b",
-            "\\bai\\b",
-            "intelligence artificielle",
-            "artificial intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#agents-code",
-          "fullLabel": "agents-code",
-          "color": "agent",
-          "subjectId": "domain.ai.agents.coding"
-        }
-      ],
-      "cardTitle": "agency-agents",
-      "cardInterest": ""
     },
     {
       "id": "watch-technical-ea311829e667eb1acdcc-md",
@@ -71907,505 +72312,6 @@
       ],
       "cardTitle": "openclaw",
       "cardInterest": "intègre des canaux de messagerie pour un assistant IA local"
-    },
-    {
-      "id": "watch-technical-7f84d8cb0f021d98f595-md",
-      "title": "OpenCut - Outil de découpage d'images",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "MIT",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/OpenCut-app/OpenCut"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#application-bureau"
-      ],
-      "status": "actif",
-      "path": "watch/technical-7f84d8cb0f021d98f595.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-7f84d8cb0f021d98f595.md",
-      "sourceUrl": "https://github.com/OpenCut-app/OpenCut",
-      "sources": [
-        {
-          "url": "https://github.com/opencut-app/opencut",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://x.com/i/status/2055958924650512508",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://opencut.app/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://bun.sh/docs/installation",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://docs.docker.com/get-started/get-docker",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://docs.docker.com/compose/install",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/OpenCut-app/opencut-classic/main/apps/desktop/README.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/OpenCut-app/opencut-classic/main/.github/CONTRIBUTING.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://moonrepo.dev/docs/proto/tool-spec",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://moonrepo.dev/moon",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/docs/documentation",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://fal.ai/docs/documentation/compute",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://fal.ai/models/minimax/h3-max/image-to-video",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/models/bytedance/seedance-2.5/reference-to-video",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/models/meshy/v7.1/image-to-3d",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/models/blackforestlabs/flux-3/edit-image",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/docs/documentation/serverless",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://fal.ai/gpt-image-2.5",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/seedance-2.5",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/gemini-omni",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/models/fal-ai/kling-video/o3/standard/image-to-video",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/models/fal-ai/veo3.1",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/ltx-2.3",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/pixverse-v6",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/tools/image-upscaler",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/tools/image-extender",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        }
-      ],
-      "github": "https://github.com/opencut-app/opencut",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Découpe des images en sections facilement.",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-24",
-      "theme": "media",
-      "themeLabel": "Images et graphisme",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.media.image"
-          ],
-          "capability": [],
-          "compatibility": [
-            "compatibility.interface.desktop"
-          ],
-          "risk": [],
-          "source": [
-            "source.noteplan",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.media.image",
-            "label": "Images et graphisme",
-            "parent": "domain.media",
-            "aliases": [
-              "#compression-images",
-              "#generation-images",
-              "#animation-svg",
-              "#image",
-              "#design",
-              "#svg",
-              "#inspiration"
-            ],
-            "patterns": [
-              "\\bimages?\\b",
-              "\\bsvg\\b",
-              "visual intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création",
-              "Images et graphisme"
-            ]
-          },
-          {
-            "id": "domain.media",
-            "label": "Audio, vidéo et création",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "compatibility.interface.desktop",
-            "label": "Application de bureau",
-            "parent": "compatibility.interface",
-            "aliases": [
-              "#application-bureau",
-              "#desktop-app"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces",
-              "Application de bureau"
-            ]
-          },
-          {
-            "id": "compatibility.interface",
-            "label": "Interfaces",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces"
-            ]
-          },
-          {
-            "id": "compatibility",
-            "label": "Compatibilités",
-            "parent": null,
-            "aliases": [],
-            "facet": "compatibility",
-            "path": []
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.media.image",
-          "label": "Images et graphisme",
-          "parent": "domain.media",
-          "aliases": [
-            "#compression-images",
-            "#generation-images",
-            "#animation-svg",
-            "#image",
-            "#design",
-            "#svg",
-            "#inspiration"
-          ],
-          "patterns": [
-            "\\bimages?\\b",
-            "\\bsvg\\b",
-            "visual intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création",
-            "Images et graphisme"
-          ]
-        },
-        {
-          "id": "domain.media",
-          "label": "Audio, vidéo et création",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "compatibility.interface.desktop",
-          "label": "Application de bureau",
-          "parent": "compatibility.interface",
-          "aliases": [
-            "#application-bureau",
-            "#desktop-app"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces",
-            "Application de bureau"
-          ]
-        },
-        {
-          "id": "compatibility.interface",
-          "label": "Interfaces",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces"
-          ]
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibilités",
-          "parent": null,
-          "aliases": [],
-          "facet": "compatibility",
-          "path": []
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#application-bureau",
-          "fullLabel": "application-bureau",
-          "color": "tool",
-          "tag": "#application-bureau"
-        }
-      ],
-      "cardTitle": "OpenCut",
-      "cardInterest": "Découpe des images en sections facilement."
     },
     {
       "id": "watch-technical-1049081f67e5576ca9e6-md",

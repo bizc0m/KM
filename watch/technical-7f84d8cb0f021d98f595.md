@@ -39,8 +39,6 @@ Découpe des images en sections facilement.
 - https://bun.sh/docs/installation
 - https://docs.docker.com/get-started/get-docker
 - https://docs.docker.com/compose/install
-- https://raw.githubusercontent.com/OpenCut-app/opencut-classic/main/apps/desktop/README.md
-- https://raw.githubusercontent.com/OpenCut-app/opencut-classic/main/.github/CONTRIBUTING.md
 - https://moonrepo.dev/docs/proto/tool-spec
 - https://moonrepo.dev/moon
 - https://fal.ai/docs/documentation
@@ -48,7 +46,6 @@ Découpe des images en sections facilement.
 - https://fal.ai/models/minimax/h3-max/image-to-video
 - https://fal.ai/models/bytedance/seedance-2.5/reference-to-video
 - https://fal.ai/models/meshy/v7.1/image-to-3d
-- https://fal.ai/models/blackforestlabs/flux-3/edit-image
 - https://fal.ai/docs/documentation/serverless
 - https://fal.ai/gpt-image-2.5
 - https://fal.ai/seedance-2.5
@@ -65,20 +62,31 @@ Découpe des images en sections facilement.
 - Origine : NotePlan
 - Identifiant source : 6c3071b2182b366a047f7328aaa2353b848b73239e77f05e8311c14143cfb84f
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-24
+- Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 836.
+- Liens distincts recensés : 837.
 - Pages lues, tweet compris : 85.
-- Sources techniques analysées : 25.
-- Sources à vérifier : 55 ; analyses non terminées : 0 ; erreurs du modèle : 2.
+- Sources techniques analysées : 23.
+- Sources à vérifier : 57 ; analyses non terminées : 0 ; erreurs du modèle : 2.
 - Liens non lus : 657 (profondeur : 651, budget de pages : 0, délai : 0, erreurs : 6).
 - Pages résumées sur extrait : 3.
-- Éléments exclus : 98 ; doublons ignorés : 0.
+- Éléments exclus : 99 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
+
+### OpenCut
+
+OpenCut est un éditeur vidéo open source pour web, desktop et mobile. Il est en cours de réécriture. Une version classique est disponible.
+
+- OpenCut est un éditeur vidéo open source.
+- OpenCut est disponible pour web, desktop et mobile.
+- OpenCut est en cours de réécriture.
+- Une version classique est disponible sur GitHub.
+
+Source : https://github.com/opencut-app/opencut ; niveau 1.
 
 ### OpenCut : Éditeur vidéo open source
 
@@ -121,28 +129,6 @@ Documentation sur les méthodes d'installation de Docker Compose selon le systè
 - Installer Docker Compose standalone sur Linux ou Windows Server (non recommandé).
 
 Source : https://docs.docker.com/compose/install ; niveau 3.
-
-### Installation de l'application desktop basée sur GPUI
-
-Documentation pour installer et exécuter l'application desktop utilisant GPUI.
-
-- Installation de Rust via script pour Linux/macOS/WSL
-- Installation des dépendances natives via script pour Linux/macOS/WSL
-- Exécution de l'application via cargo run -p opencut-desktop
-- Support d'apt, dnf et pacman sur Linux
-
-Source : https://raw.githubusercontent.com/OpenCut-app/opencut-classic/main/apps/desktop/README.md ; niveau 3.
-
-### Contribuer à OpenCut
-
-Documentation pour contribuer au projet OpenCut avec instructions techniques.
-
-- Configurer l'environnement local pour contribuer à OpenCut
-- Utiliser Docker pour exécuter les services de base de données et Redis
-- Créer un fichier .env.local avec les variables d'environnement requises
-- Exécuter des migrations de base de données avant le développement
-
-Source : https://raw.githubusercontent.com/OpenCut-app/opencut-classic/main/.github/CONTRIBUTING.md ; niveau 3.
 
 ### Spécification des outils et versions dans moonrepo
 
@@ -213,27 +199,21 @@ Génère une vidéo de 30 secondes à partir de 50 références multimodales. Ut
 
 Source : https://fal.ai/models/bytedance/seedance-2.5/reference-to-video ; niveau 3.
 
-### Meshy 7.1
+### Meshy 7.1 Image to 3D
 
-Meshy 7.1 génère des modèles 3D à partir d'une image. Il propose des modes standard, low-poly et Smart Topology. Des textures et PBR maps sont possibles. La résolution géométrique atteint 4K.
+Meshy 7.1 convertit une image en modèle 3D. Il propose plusieurs modes de génération. Des textures et PBR sont possibles. Résolution jusqu'à 4K.
 
-- Meshy 7.1 génère des modèles 3D à partir d'une image.
+- Meshy 7.1 convertit une image en modèle 3D.
 - Il propose des modes standard, low-poly et Smart Topology.
-- Des textures et PBR maps sont possibles.
-- La résolution géométrique atteint 4K.
+- Textures et PBR maps sont optionnels.
+- Résolution jusqu'à 4K.
+- Coût d'un modèle de base sans textures : 0,80 $.
+- Ajout de textures : 1,20 $.
+- Auto-rigging : 0,20 $ par appel.
+- Animation : 0,12 $ par appel.
+- Modèle texturé avec auto-rigging et animation : 1,52 $.
 
 Source : https://fal.ai/models/meshy/v7.1/image-to-3d ; niveau 3.
-
-### FLUX 3 Image Edit
-
-Modèle d'édition d'image permettant des modifications locales précises. Combine jusqu'à 10 références en un résultat équilibré. Édition de texte et transfert de style. Prix fixe par image.
-
-- Modèle d'édition d'image permettant des modifications locales précises.
-- Combine jusqu'à 10 références en un résultat équilibré.
-- Édition de texte et transfert de style.
-- Prix fixe par image.
-
-Source : https://fal.ai/models/blackforestlabs/flux-3/edit-image ; niveau 3.
 
 ### fal Serverless
 
@@ -285,25 +265,25 @@ API de modification vidéo par dialogue. Permet d'éditer des vidéos via des in
 
 Source : https://fal.ai/gemini-omni ; niveau 3.
 
-### Kling O3 Image to Video API
+### Kling O3 Standard image-to-video
 
-API pour générer des vidéos à partir d'images et de textes. Animation entre deux images. Génération audio. Durée max 15s.
+Génère une vidéo à partir d'une image de départ et d'une image de fin. Anime la transition entre les deux images. Utilise des prompts textuels pour guider le style et la scène. Supporte la génération audio en anglais et chinois.
 
-- API pour générer des vidéos à partir d'images et de textes
-- Animation entre une image de départ et une image d'arrivée
-- Génération audio en chinois et anglais
-- Durée maximale de 15 secondes
+- Génère une vidéo à partir d'une image de départ et d'une image de fin.
+- Anime la transition entre les deux images.
+- Utilise des prompts textuels pour guider le style et la scène.
+- Supporte la génération audio en anglais et chinois.
 
 Source : https://fal.ai/models/fal-ai/kling-video/o3/standard/image-to-video ; niveau 3.
 
 ### Veo 3.1
 
-Veo 3.1 est un modèle de génération vidéo IA avec audio. Il supporte 4K. Il génère des vidéos jusqu'à 8 secondes. Il inclut un marquage SynthID.
+Veo 3.1 est un modèle de génération vidéo IA avec audio. Il produit des vidéos en 4K. Il inclut des fonctionnalités audio natives. Il permet la génération à partir de texte ou d'images.
 
 - Veo 3.1 est un modèle de génération vidéo IA avec audio.
-- Il supporte la résolution 4K.
-- Il génère des vidéos jusqu'à 8 secondes.
-- Il inclut un marquage SynthID invisible.
+- Veo 3.1 produit des vidéos en 4K.
+- Veo 3.1 inclut des fonctionnalités audio natives.
+- Veo 3.1 permet la génération à partir de texte ou d'images.
 
 Source : https://fal.ai/models/fal-ai/veo3.1 ; niveau 3.
 
