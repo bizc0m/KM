@@ -4,7 +4,6 @@
 - [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Génère et publie automatiquement du contenu sur plusieurs plateformes sociales.
 - [Claude Ads](../../watch/technical-8eec6dc58fee3af126d1.md) — Analyse données publicitaires pour identifier problèmes et optimisations
 - [Ghost](../../watch/technical-c750bc2f9f73e8e1f5bd.md) — Crée un site de publication avec un CMS open source
-- [MailHog](../../watch/technical-ee446b3bf303b677315c.md) — Visualiser les e-mails envoyés sans les envoyer réellement.
 - [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones
 - [T3Bench](../../watch/technical-763a276cbab62cfc7a39.md) — Comparer les performances des modèles de génération 3D.
 - [TRELLIS.2](../../watch/technical-8a1d416625950ae0abb8.md) — Convertit des maillages texturés en voxel O-Voxel en quelques secondes.
