@@ -73,11 +73,11 @@ Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'I
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 2894.
+- Liens distincts recensés : 2898.
 - Pages lues, tweet compris : 112.
 - Sources techniques analysées : 28.
 - Sources à vérifier : 82 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 2601 (profondeur : 685, budget de pages : 1911, délai : 0, erreurs : 5).
+- Liens non lus : 2605 (profondeur : 685, budget de pages : 1915, délai : 0, erreurs : 5).
 - Pages résumées sur extrait : 39.
 - Éléments exclus : 184 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
