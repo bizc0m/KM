@@ -49,5 +49,5 @@ Analyse de site et de campagne publicitaire avec des workflows prédéfinis.
 - Origine : NotePlan
 - Identifiant source : c0badb550789f39d0a060ca74c9a728b212b43e74c6fdd5dfd218a1d843618c2
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

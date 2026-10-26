@@ -45,5 +45,5 @@ Intérêt à vérifier
 - Origine : NotePlan
 - Identifiant source : c133b93b912dffd605a2b382ae3020240048f184ad34643dc76204d877873262
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

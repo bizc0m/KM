@@ -46,5 +46,5 @@ Permet d'éditer des fichiers dans un environnement terminal
 - Origine : NotePlan
 - Identifiant source : cc7d258f82fc4f0550191f315b02c42e4a3c072042a3d154cf5667e8f7654507
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

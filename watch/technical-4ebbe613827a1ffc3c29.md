@@ -49,11 +49,12 @@ Fixer un style visuel avant génération de code pour éviter les templates inad
 - https://skills.sh/anthropics/skills/pptx
 - https://skills.sh/anthropics/skills/pdf
 - https://skills.sh/anthropics/skills/docx
-- https://skills.sh/anthropics/skills/xlsx
 - https://skills.sh/anthropics/skills/mcp-builder
 - https://skills.sh/anthropics/skills/web-artifacts-builder
+- https://skills.sh/anthropics/skills/brand-guidelines
 - https://skills.sh/anthropics/skills/theme-factory
 - https://skills.sh/anthropics/skills/doc-coauthoring
+- https://skills.sh/anthropics/skills/algorithmic-art
 - https://skills.sh/anthropics/skills/internal-comms
 - https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude
 - https://support.claude.com/en/articles/13119606-provision-and-manage-skills-for-your-organization
@@ -71,19 +72,19 @@ Fixer un style visuel avant génération de code pour éviter les templates inad
 - Origine : NotePlan
 - Identifiant source : 78841380644580638df96ddcafa7f538eca2d5e70244405223afbe59889ba437
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 780.
+- Liens distincts recensés : 833.
 - Pages lues, tweet compris : 87.
-- Sources techniques analysées : 31.
-- Sources à vérifier : 53 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 633 (profondeur : 617, budget de pages : 0, délai : 0, erreurs : 16).
+- Sources techniques analysées : 32.
+- Sources à vérifier : 52 ; analyses non terminées : 0 ; erreurs du modèle : 0.
+- Liens non lus : 687 (profondeur : 670, budget de pages : 0, délai : 0, erreurs : 17).
 - Pages résumées sur extrait : 8.
-- Éléments exclus : 59 ; doublons ignorés : 5.
+- Éléments exclus : 58 ; doublons ignorés : 5.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### Gestion de plusieurs comptes sur Xianyu avec automatisation
@@ -241,17 +242,6 @@ Créer, modifier et manipuler des fichiers .docx avec formatage complet. Extrair
 
 Source : https://skills.sh/anthropics/skills/docx ; niveau 3.
 
-### xlsx
-
-xlsx permet de gérer des fichiers Excel avec des formules et des formats. Il supporte les formats .xlsx, .xlsm, .csv et .tsv. Il détecte les erreurs Excel. Il applique des couleurs standards pour les modèles financiers.
-
-- xlsx permet de gérer des fichiers Excel avec des formules et des formats.
-- xlsx supporte les formats .xlsx, .xlsm, .csv et .tsv.
-- xlsx détecte les erreurs Excel (#REF!, #DIV/0!, #VALUE!, #N/A, #NAME?).
-- xlsx applique des couleurs standards pour les modèles financiers (bleu pour les entrées, noir pour les formules, vert pour les liens internes, rouge pour les liens externes).
-
-Source : https://skills.sh/anthropics/skills/xlsx ; niveau 3.
-
 ### mcp-builder
 
 Guide complet pour créer des serveurs MCP de qualité. Workflow en quatre phases. Documentation avec exemples de code. Évaluation via questions XML.
@@ -269,11 +259,22 @@ Génère des projets React 18 avec TypeScript. Intègre shadcn/ui. Compile en HT
 
 - Crée des projets React 18 avec TypeScript
 - Intègre la bibliothèque shadcn/ui
-- Compile le code en un seul fichier HTML
-- Évite les styles considérés comme "AI slop"
-- Inclut des directives de conception
+- Compile en un seul fichier HTML
+- Évite les styles "AI slop"
 
 Source : https://skills.sh/anthropics/skills/web-artifacts-builder ; niveau 3.
+
+### brand-guidelines
+
+Applique les couleurs et typographie d'Anthropic aux designs. Utilise Poppins et Lora. Fallback vers Arial et Georgia. Nécessite des polices préinstallées.
+
+- Applique les couleurs d'Anthropic aux artefacts visuels.
+- Utilise Poppins pour les titres et Lora pour le corps.
+- Fournit des fallbacks vers Arial et Georgia.
+- Recommande l'installation préalable des polices.
+- Fonctionne avec les polices système installées.
+
+Source : https://skills.sh/anthropics/skills/brand-guidelines ; niveau 3.
 
 ### Theme Factory
 
@@ -296,6 +297,17 @@ Workflow structuré pour l'écriture collaborative. Trois étapes : collecte de 
 - Utilisation de cycles de brainstorming et de curation
 
 Source : https://skills.sh/anthropics/skills/doc-coauthoring ; niveau 3.
+
+### algorithmic-art
+
+Crée des œuvres d'art génératif avec p5.js. Génère des philosophies algorithmiques. Produit des fichiers HTML et JS. Utilise la randomisation seedée.
+
+- Génère des œuvres d'art génératif avec p5.js
+- Crée des philosophies algorithmiques exprimées via du code
+- Produit des fichiers HTML et JS interactifs
+- Utilise la randomisation seedée pour des variations reproductibles
+
+Source : https://skills.sh/anthropics/skills/algorithmic-art ; niveau 3.
 
 ### internal-comms
 
@@ -372,10 +384,4 @@ Source : https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-
 Protocole ouvert permettant aux applications IA de se connecter à des systèmes externes.
 
 - Permet aux applications IA de se connecter à des sources de données externes.
-- Facilite l'intégration avec des outils comme des moteurs de recherche ou des bases de données.
-- Améliore les capacités des assistants IA en leur donnant accès à des ressources externes.
-- Soutenu par une large communauté et divers outils de développement.
-
-Source : https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro ; niveau 3.
-
-#
+- Facilite l'intégration avec des outil

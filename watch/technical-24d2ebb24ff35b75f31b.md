@@ -47,5 +47,5 @@ Transcrire la parole multilingue et traduire des enregistrements vers l’anglai
 - Origine : NotePlan
 - Identifiant source : 24d2ebb24ff35b75f31b1ebea440e9a7ede373c9794c62b2d92a1b95f87d8255
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

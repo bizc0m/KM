@@ -1,10 +1,10 @@
 # Cybersécurité
 
+- [Bark](../../watch/technical-994bb8c95881181b98b3.md) — Envoyer des notifications via URL avec paramètres personnalisés.
 - [CloakBrowser](../../watch/technical-2ffdb8097dd79859932a.md) — Contourner les détections anti-bot avec un navigateur modifié.
 - [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Anonymise les données sensibles avant transmission
 - [undetected-chromedriver](../../watch/technical-270127c4040820721fee.md) — Exécute des navigateurs Chromium sans détection par les services anti-bot.
 - [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA
-- [Bark](../../watch/technical-994bb8c95881181b98b3.md) — Envoyer des notifications via URL avec paramètres personnalisés.
 - [DepthSearch](../../watch/technical-f8b3849874961eb09fd8.md) — Recherche OSINT dans le web profond avec anonymisation et informations système
 - [DorkSint](../../watch/technical-de90088a7594bcc86157.md) — Recherche rapide de dorks pour trouver des informations via des moteurs de recherche
 - [Eyes](../../watch/technical-acd9eb29cb67574c16ec.md) — Recherche des comptes associés à une adresse email sans alerte.

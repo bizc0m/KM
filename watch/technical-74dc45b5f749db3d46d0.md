@@ -42,5 +42,5 @@ Analyse des images RAW sombres avec détection de caractéristiques robuste
 - Origine : NotePlan
 - Identifiant source : 74dc45b5f749db3d46d07cd8d492f8bc27889d575902ac043838827f15e806fb
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

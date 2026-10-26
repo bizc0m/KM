@@ -45,5 +45,5 @@ Facilite le logging avec des fonctionnalités avancées sans configuration compl
 - Origine : NotePlan
 - Identifiant source : 18f0542a2dd3c9b424dc8876f447e59f582d821fdee162acc75e5a2382dcb572
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

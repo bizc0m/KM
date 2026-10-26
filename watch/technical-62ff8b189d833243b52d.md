@@ -45,5 +45,5 @@ Permet de générer des modèles 3D à partir d'images 2D
 - Origine : NotePlan
 - Identifiant source : 62ff8b189d833243b52df7962ec0a67cf61d20dfd71e6df96c02d04dd1597d90
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

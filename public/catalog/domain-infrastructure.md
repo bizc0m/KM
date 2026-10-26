@@ -1,6 +1,6 @@
 # Infrastructure
 
-- [Hermes Agent](../../watch/nousresearch-hermes-agent.md)
+- [Hermes Agent](../../watch/nousresearch-hermes-agent.md) — Gère des tâches complexes avec des modèles externes
 - [Hysteria](../../watch/technical-457a0ceb1c2bf60a2841.md) — Permet de contourner les filtres de réseau
 - [Migration vers Kimi Code CLI](../../watch/technical-15ae02c43b612a6e8c46.md) — Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP.
 - [SuperSplat Editor](../../watch/technical-f7ea866b53ea3110371c.md) — Permet d'éditer des splats 3D directement dans le navigateur

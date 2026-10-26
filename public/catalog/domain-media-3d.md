@@ -1,6 +1,5 @@
 # Création 3D
 
-- [SuperSplat Editor](../../watch/technical-f7ea866b53ea3110371c.md) — Permet d'éditer des splats 3D directement dans le navigateur
 - [AlphaTablets](../../watch/technical-ca3c69add82754901cf6.md) — Permet la reconstruction 3D de plans avec précision et contours nets.
 - [Assembler3d](../../watch/technical-674690abd042252d5376.md) — Assemble des pièces 3D à partir de données GLB et PNG.
 - [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Génère des données 3D à partir de points de contrôle.
@@ -12,6 +11,7 @@
 - [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones
 - [Pixal3D-ComfyUI](../../watch/technical-62ff8b189d833243b52d.md) — Permet de générer des modèles 3D à partir d'images 2D
 - [StdGEN](../../watch/technical-39708b126c037da50e56.md) — Génère un modèle 3D détaillé à partir d'une image de référence.
+- [SuperSplat Editor](../../watch/technical-f7ea866b53ea3110371c.md) — Permet d'éditer des splats 3D directement dans le navigateur
 - [T3Bench](../../watch/technical-763a276cbab62cfc7a39.md) — Comparer les performances des modèles de génération 3D.
 - [TRELLIS.2](../../watch/technical-8a1d416625950ae0abb8.md) — Convertit des maillages texturés en voxel O-Voxel en quelques secondes.
 - [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.

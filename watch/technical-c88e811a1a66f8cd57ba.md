@@ -42,5 +42,5 @@ Génère des données pour entraîner un modèle de visionnage optimal.
 - Origine : NotePlan
 - Identifiant source : c88e811a1a66f8cd57ba27069c9852415cb0416f99cf850e10be0c203918a535
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

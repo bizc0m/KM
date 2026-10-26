@@ -1,7 +1,7 @@
 # Protection des données
 
-- [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Anonymise les données sensibles avant transmission
 - [Bark](../../watch/technical-994bb8c95881181b98b3.md) — Envoyer des notifications via URL avec paramètres personnalisés.
+- [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Anonymise les données sensibles avant transmission
 - [DepthSearch](../../watch/technical-f8b3849874961eb09fd8.md) — Recherche OSINT dans le web profond avec anonymisation et informations système
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [Faker](../../watch/technical-72da768867f7d20473e6.md) — Génère des données fictives pour remplir des bases de données
