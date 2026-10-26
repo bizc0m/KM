@@ -45,5 +45,5 @@ Génère des audio de texte en temps réel avec des paramètres personnalisables
 - Origine : NotePlan
 - Identifiant source : aa11653c4d25a0e989a1cafb5a4c09ae86a55ce4e802a34df9f08616be2ffcae
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -46,17 +46,17 @@ Crée des fonds d'écran animés en exportant en vidéo et image
 - Origine : NotePlan
 - Identifiant source : ac14272ffb2a2780fc4c27c1d3c4f873a82c04099072fc5a6cdc1200d70cfe2f
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 1038.
+- Liens distincts recensés : 1036.
 - Pages lues, tweet compris : 63.
 - Sources techniques analysées : 6.
 - Sources à vérifier : 50 ; analyses non terminées : 0 ; erreurs du modèle : 0.
-- Liens non lus : 891 (profondeur : 0, budget de pages : 886, délai : 0, erreurs : 5).
+- Liens non lus : 889 (profondeur : 0, budget de pages : 884, délai : 0, erreurs : 5).
 - Pages résumées sur extrait : 1.
 - Éléments exclus : 92 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.

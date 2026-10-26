@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-26T04:49:04.989Z",
+  "at": "2026-10-26T05:49:09.889Z",
   "scope": "public-index-only",
   "fiches": 658,
   "sourceReferences": 2615,
@@ -89,6 +89,22 @@
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-26c8fae19248128175bf-md",
+      "title": "arcada",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-672e5954b0a4b96827a6-md",
+      "title": "arcada-backend",
+      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -195,6 +211,13 @@
       ]
     },
     {
+      "id": "watch-technical-4dbf8b61c8b24b3bf369-md",
+      "title": "CosyVoice",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-37abca5ae9be9ed91364-md",
       "title": "Crawlee",
       "reasons": [
@@ -219,6 +242,13 @@
     {
       "id": "watch-technical-c292611ef4a4a5e37455-md",
       "title": "DeepSeek-Reasonix",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c10d8f74eadd9334181e-md",
+      "title": "Demucs",
       "reasons": [
         "nature-unqualified"
       ]
@@ -260,6 +290,37 @@
       ]
     },
     {
+      "id": "watch-technical-fb7d8c0c8a030338b784-md",
+      "title": "edge-tts",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-a63a06d0b2276c289423-md",
+      "title": "F5-TTS",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f5a99e06873448a9f3ba-md",
+      "title": "faster-whisper",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-7ae9451cd62fb317043f-md",
+      "title": "Formulaire Web YouTube",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-7c881fd189f1ece84c8b-md",
       "title": "fzf",
       "reasons": [
@@ -293,6 +354,23 @@
       "id": "watch-technical-c750bc2f9f73e8e1f5bd-md",
       "title": "Ghost",
       "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c185cfb5713fdfdca685-md",
+      "title": "gophish",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-9563de7ec1221e077ac4-md",
+      "title": "Gradio",
+      "reasons": [
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -351,6 +429,13 @@
       "title": "just",
       "reasons": [
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-aa11653c4d25a0e989a1-md",
+      "title": "kokoro",
+      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -417,6 +502,13 @@
       "reasons": [
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-6a483fbc42057e7dc8d1-md",
+      "title": "MeltKit",
+      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -586,6 +678,21 @@
       ]
     },
     {
+      "id": "watch-technical-8ae8d27d1412df2cdc2d-md",
+      "title": "ShotGlass",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-12ae97bc3c76d07b5b3e-md",
+      "title": "spaCy",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-39708b126c037da50e56-md",
       "title": "StdGEN",
       "reasons": [
@@ -673,6 +780,13 @@
       ]
     },
     {
+      "id": "watch-technical-7e01176c9d1442c27f9d-md",
+      "title": "Voice-Pro",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-143ce5c3c11e34fe9ea8-md",
       "title": "VoiceBox",
       "reasons": [
@@ -688,11 +802,25 @@
       ]
     },
     {
+      "id": "watch-technical-4c4ce27d0a709ee5357e-md",
+      "title": "whisper-timestamped",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-bba7cbf6411664b33623-md",
       "title": "XianYuApis",
       "reasons": [
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-511a5089717fad8aad51-md",
+      "title": "yt-dlp",
+      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -729,22 +857,6 @@
     {
       "id": "watch-technical-937b200dbfd957aae460-md",
       "title": "AICLIPS Studio",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-26c8fae19248128175bf-md",
-      "title": "arcada",
-      "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-672e5954b0a4b96827a6-md",
-      "title": "arcada-backend",
       "reasons": [
         "nature-unqualified"
       ]
@@ -793,20 +905,6 @@
       ]
     },
     {
-      "id": "watch-technical-4dbf8b61c8b24b3bf369-md",
-      "title": "CosyVoice",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-c10d8f74eadd9334181e-md",
-      "title": "Demucs",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-f8b3849874961eb09fd8-md",
       "title": "DepthSearch",
       "reasons": [
@@ -817,14 +915,6 @@
       "id": "watch-technical-de90088a7594bcc86157-md",
       "title": "DorkSint",
       "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-fb7d8c0c8a030338b784-md",
-      "title": "edge-tts",
-      "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -843,29 +933,6 @@
       ]
     },
     {
-      "id": "watch-technical-a63a06d0b2276c289423-md",
-      "title": "F5-TTS",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-f5a99e06873448a9f3ba-md",
-      "title": "faster-whisper",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-7ae9451cd62fb317043f-md",
-      "title": "Formulaire Web YouTube",
-      "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-812162d99641f3f436b1-md",
       "title": "FreeLLMAPI",
       "reasons": [
@@ -877,23 +944,6 @@
       "id": "watch-technical-d924e27b47fa985d6e04-md",
       "title": "google_dorker",
       "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-c185cfb5713fdfdca685-md",
-      "title": "gophish",
-      "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-9563de7ec1221e077ac4-md",
-      "title": "Gradio",
-      "reasons": [
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -919,13 +969,6 @@
       ]
     },
     {
-      "id": "watch-technical-aa11653c4d25a0e989a1-md",
-      "title": "kokoro",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-9e4c4b6c4c6a7d12ceff-md",
       "title": "LLM Wiki Agent",
       "reasons": [
@@ -944,13 +987,6 @@
     {
       "id": "watch-technical-10eda570000d9c7eeda1-md",
       "title": "markdown-to-image",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-6a483fbc42057e7dc8d1-md",
-      "title": "MeltKit",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1126,23 +1162,8 @@
       ]
     },
     {
-      "id": "watch-technical-8ae8d27d1412df2cdc2d-md",
-      "title": "ShotGlass",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-7e693280a600ec11a89d-md",
       "title": "SnapIntel",
-      "reasons": [
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-12ae97bc3c76d07b5b3e-md",
-      "title": "spaCy",
       "reasons": [
         "domain-unqualified",
         "nature-unqualified"
@@ -1237,13 +1258,6 @@
       ]
     },
     {
-      "id": "watch-technical-7e01176c9d1442c27f9d-md",
-      "title": "Voice-Pro",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-37a1c9a401fe305b58a5-md",
       "title": "WanGP",
       "reasons": [
@@ -1261,20 +1275,6 @@
     {
       "id": "watch-technical-d6babbc48c72c3692516-md",
       "title": "WhatsMyName",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-4c4ce27d0a709ee5357e-md",
-      "title": "whisper-timestamped",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-511a5089717fad8aad51-md",
-      "title": "yt-dlp",
       "reasons": [
         "nature-unqualified"
       ]
