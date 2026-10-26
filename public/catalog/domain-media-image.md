@@ -5,17 +5,20 @@
 - [DI-PCG](../../watch/technical-80c1535b6e69bb84082c.md) — Crée des modèles 3D à partir d'images avec des modèles pré-entraînés.
 - [diffusers](../../watch/technical-f977c26fe64e30184a6f.md) — Génère des images à partir de texte avec des modèles préentraînés.
 - [Génération d'actifs 3D structurés](../../watch/technical-37356cc78499d8e4af94.md) — Génère des modèles 3D à partir d'images ou de textes.
+- [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
 - [idn-solver](../../watch/technical-3f991f224eb64ace6e0c.md) — Analyse des données stéréoscopiques avec des modèles préentraînés.
 - [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier.
 - [LongCat-Video](../../watch/technical-3794fe05156a712cb6fd.md) — Convertir du texte ou des images en vidéos longues.
+- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
 - [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
 - [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Crée des contenus visuels sans restrictions
-- [Penpot](../../watch/technical-c0d4875dd605f77caf57.md) — Permet de collaborer en temps réel sur des projets de conception
+- [Penpot](../../watch/technical-c0d4875dd605f77caf57.md)
 - [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones
 - [Pixal3D-ComfyUI](../../watch/technical-62ff8b189d833243b52d.md) — Permet de générer des modèles 3D à partir d'images 2D
 - [StdGEN](../../watch/technical-39708b126c037da50e56.md) — Génère un modèle 3D détaillé à partir d'une image de référence.
 - [TRELLIS.2](../../watch/technical-8a1d416625950ae0abb8.md) — Convertit des maillages texturés en voxel O-Voxel en quelques secondes.
 - [TrianFlow](../../watch/technical-611db130b2bc64852596.md) — Génère une carte de profondeur à partir d'une image.
+- [VisoMaster-Fusion](../../watch/technical-dbbe9adbe528f3b77e3a.md) — Analyser et traiter des visages dans des médias sans dépendre de services payants.
 - [VisoMaster-Fusion](../../watch/technical-f26060981b4112b4411f.md) — Traiter des visages localement sans frais ni partage de données.
 - [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Crée des portraits professionnels avec des prompts textuels.
 - [AI Logo Studio](../../watch/technical-a20888d5cb6a1c399300.md)
@@ -23,10 +26,8 @@
 - [Awesome Generative AI Apps](../../watch/technical-c5cd3a5c95630c792129.md) — Créez et lancez des applications SaaS génératives avec des outils prêts à l'emploi
 - [ClearMark AI](../../watch/technical-6693a84665174f39d08b.md) — Supprime les marquages d'eau d'images avec IA
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
-- [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
 - [openai-api](../../watch/technical-f8f551d25eb73ecda1fd.md) — Génère des images avec des paramètres de résolution et de format.
 - [Kling Video API via Muapi](../../watch/technical-6cc3ec716443f80c37a3.md) — Soumet une requête de génération et récupère l'identifiant de demande pour suivre le statut
-- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
 - [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
 - [Old Photo Restore](../../watch/technical-1a1b1c01fccbb652af5e.md) — Restaure des photos anciennes avec un moteur d'IA.
@@ -41,7 +42,6 @@
 - [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
 - [Vibe Workflow](../../watch/technical-6ccb86641ecc996a74b9.md) — Crée des workflows d'IA visuels sans abonnement
 - [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence visuelle et narrative.
-- [VisoMaster-Fusion](../../watch/technical-dbbe9adbe528f3b77e3a.md) — Analyser et traiter des visages dans des médias sans dépendre de services payants.
 - [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Génère et gère des contenus multimédia avec des modèles optimisés pour faible VRAM.
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications et services sur des serveurs propres avec gestion automatisée.
 - [Qwen-Image-API](../../watch/technical-c341f7566eb8b34cd45a.md) — Génère des images via l'API Qwen avec des paramètres avancés

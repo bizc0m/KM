@@ -3,13 +3,15 @@
 - [ani-cli](../../watch/technical-2993f5bd5143a68eff85.md) — Permet de consulter des anime via une interface CLI
 - [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Recherche et stream d'animes via des fournisseurs.
 - [book-to-skill](../../watch/book-to-skill.md) — Transforme un livre en compétence accessible par un agent IA
-- [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Permet de gérer les disponibilités et rendez-vous
-- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les disponibilités et planifier des rendez-vous
+- [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.
+- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les rendez-vous sans dépendance commerciale.
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md)
 - [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md)
 - [geo-seo-claude](../../watch/technical-a3b183624a359158d2f2.md) — Analyse la visibilité GEO d'un site en quelques secondes
+- [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
 - [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
 - [maigret](../../watch/technical-6d84c860baa5311d1e0f.md) — Recherche d'informations sur un utilisateur via des sites web.
+- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
 - [mov-cli](../../watch/technical-9e0cc8c5c3c327b3c50b.md) — Permet de streamer des médias via des plugins configurés.
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [PC-NBV](../../watch/technical-c88e811a1a66f8cd57ba.md) — Génère des données pour entraîner un modèle de visionnage optimal.
@@ -18,8 +20,6 @@
 - [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Gère les dépendances de projet avec des lockfiles.
 - [AICLIPS Studio](../../watch/technical-937b200dbfd957aae460.md) — Extrait automatiquement des highlights viraux depuis des vidéos YouTube.
 - [Awesome Generative AI Apps](../../watch/technical-c5cd3a5c95630c792129.md) — Créez et lancez des applications SaaS génératives avec des outils prêts à l'emploi
-- [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
-- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
 - [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Gère les dépendances et les environnements
 - [TikTok-User-Info-Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
 - [Uscrapper Vanta](../../watch/technical-9068e1e4bc2dea6a7322.md) — Extraire des données web avec précision et organisation

@@ -1,7 +1,7 @@
 # Organisation du travail
 
-- [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Permet de gérer les disponibilités et rendez-vous
-- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les disponibilités et planifier des rendez-vous
+- [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.
+- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les rendez-vous sans dépendance commerciale.
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md)
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [PC-NBV](../../watch/technical-c88e811a1a66f8cd57ba.md) — Génère des données pour entraîner un modèle de visionnage optimal.

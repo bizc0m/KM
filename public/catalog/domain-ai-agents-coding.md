@@ -8,8 +8,8 @@
 - [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Exécute des tâches de codage localement avec un éditeur.
 - [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Permet d'éditer des fichiers dans un environnement terminal
 - [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Accès programmatique aux fonctionnalités non exposées via CLI et agents AI
-- [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md)
 - [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
+- [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md)
 - [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
 - [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md)
 - [Kami](../../watch/technical-49226a0e2e05fa223d37.md) — Génère des documents professionnels avec des modèles prédéfinis.

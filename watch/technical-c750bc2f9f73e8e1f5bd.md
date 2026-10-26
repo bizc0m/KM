@@ -1,4 +1,4 @@
-# Ghost : CMS open source headless basé sur Node.js
+# Ghost
 
 ## Statut
 

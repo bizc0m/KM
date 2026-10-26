@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Crée une API REST sans configuration complexe
+Crée des applications sans installation locale avec des outils open source.
 
 ## Identité
 

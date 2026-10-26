@@ -45,5 +45,5 @@ Convertir du markdown en image partageable sur les réseaux sociaux
 - Origine : NotePlan
 - Identifiant source : 10eda570000d9c7eeda146f19409d25e2904003996126960a66da628ab585cf1
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

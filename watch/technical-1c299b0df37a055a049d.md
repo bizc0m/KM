@@ -42,5 +42,5 @@ Assigner des tâches aux agents IA pour gérer le travail.
 - Origine : NotePlan
 - Identifiant source : 1c299b0df37a055a049dcdb1eedf3ea882af0cc69dfb78dd35b6790e3019b4de
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -31,19 +31,22 @@
 - [Mailcrew](../../watch/technical-0812a3e04271e2d82124.md) — Traite des tâches via des emails.
 - [Migration vers Kimi Code CLI](../../watch/technical-15ae02c43b612a6e8c46.md) — Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP.
 - [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Permet d'explorer et modifier le code avec un assistant IA
+- [Multica](../../watch/technical-1c299b0df37a055a049d.md) — Assigner des tâches aux agents IA pour gérer le travail.
 - [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Accès programmatique aux fonctionnalités non exposées via CLI et agents AI
 - [NotFair Plugin](../../watch/technical-614a514ae65ec429804d.md) — Analyse de site et de campagne publicitaire avec des workflows prédéfinis.
 - [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Crée des contenus visuels sans restrictions
 - [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel.
+- [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
 - [openclaw](../../watch/technical-0b5c4741d1c147be5fdd.md) — intègre des canaux de messagerie pour un assistant IA local
-- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel
+- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Crée des workflows personnalisés avec des extensions
 - [Pi](../../watch/technical-c133b93b912dffd605a2.md)
+- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
 - [rtk](../../watch/technical-d07066251c23560c4586.md) — Filtre les sorties de commande pour réduire les tokens d'entrée.
 - [ShotGlass](../../watch/technical-8ae8d27d1412df2cdc2d.md) — enregistrer et éditer des captures d'écran avec IA
 - [Skills For Real Engineers](../../watch/technical-637c99109af31ed2fe7b.md) — Aligner les besoins avec l'agent avant de commencer
-- [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée une API REST sans configuration complexe
+- [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée des applications sans installation locale avec des outils open source.
 - [UI-TARS-desktop](../../watch/technical-bba9c08d417b5cda22d8.md) — Contrôle à distance des ordinateurs et navigateurs avec interface graphique
 - [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Cloner des voix pour des agents IA sans dépendance externe
 - [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Ajoute des timestamps précis aux mots de la transcription
@@ -58,7 +61,6 @@
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [LLM Wiki Agent](../../watch/technical-9e4c4b6c4c6a7d12ceff.md) — Ingestion de documents pour construire un wiki structuré
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md)
-- [Multica](../../watch/technical-1c299b0df37a055a049d.md) — Assigner des tâches aux agents IA pour gérer le travail.
 - [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
 - [Old Photo Restore](../../watch/technical-1a1b1c01fccbb652af5e.md) — Restaure des photos anciennes avec un moteur d'IA.
 - [Ominis-OSINT](../../watch/technical-4d65fd0e0a726a41e3d2.md) — Rechercher des mentions en ligne d'une cible et identifier des profils sociaux
@@ -66,8 +68,6 @@
 - [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
 - [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Permet une collaboration équipe via un agent partagé par canal
 - [Open-Poe-AI](../../watch/technical-2d163384adb685d9a51a.md)
-- [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
-- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
 - [Seedance 2.5 API](../../watch/technical-4f09686ddcb30b511532.md) — Génère des vidéos AI à partir de textes et d'images
 - [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md)
 - [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
