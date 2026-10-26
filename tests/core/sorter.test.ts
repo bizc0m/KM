@@ -112,3 +112,5 @@ function rootNames(markdown: string): string[] {
 function lines(markdown: string): string[] {
   return markdown.split(/\r\n|\n|\r/)
 }
+
+it('completed child priority does not raise an active parent',()=>{const input='* [ ] Normal !\n* [ ] Parent\n    * [x] Old !!!\n';assert.equal(smartSortMarkdown(input),input)});

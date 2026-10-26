@@ -25,7 +25,7 @@ const hash=s=>crypto.createHash('sha256').update(s).digest('hex');
 const now=()=>new Date().toISOString();
 const readJson=async(p,f)=>{try{return JSON.parse(await readFile(p,'utf8'));}catch(e){if(e.code==='ENOENT')return f;throw e;}};
 async function atomic(p,text){const tmp=`${p}.${process.pid}.tmp`;await writeFile(tmp,text,{mode:0o600});await rename(tmp,p);}
-const urls=s=>[...s.matchAll(/https?:\/\/[^\s<>"'\[\]]+/g)].map(m=>m[0].replace(/[).,;!}`]+$/g,''));
+const urls=s=>[...s.matchAll(/https?:\/\/[^\s<>"'\[\]]+/g)].map(m=>m[0].replace(/[).,;!}`]+$/g,'')).filter(u=>!u.startsWith('https://bizc0m.github.io/KM/'));
 const decode=s=>s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,'$1').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&apos;|&#39;/g,"'").replace(/&amp;/g,'&');
 function plain(s){return decode(s.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,' ').replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi,' ').replace(/<[^>]*>/g,' ')).replace(/\s+/g,' ').trim();}
 function tag(s,k){return decode(s.match(new RegExp(`<${k}[^>]*>([\\s\\S]*?)<\\/${k}>`,'i'))?.[1] || '');}
@@ -82,7 +82,7 @@ async function main(){
   const state=await readJson(path.join(DATA,'state.json'),{urls:{},notes:{}});
   state.firstRun ||= now();
   if(state.toolFicheVersion!==CRAWL_VERSION){for(const note of Object.values(state.notes || {}))delete note.hash;state.lastNoteplanSuccess=null;state.toolFicheVersion=CRAWL_VERSION;}
-  let processed=0,builtCount=0;
+  let processed=0,builtCount=0,lastWriteback=0;
   async function checkpoint(){
     await atomic(path.join(DATA,'state.json'),JSON.stringify(state));
     const changed=status.created+status.updated;
@@ -91,6 +91,7 @@ async function main(){
       await exec(process.execPath,[path.join(ROOT,'scripts/km-verify-placement.mjs')],{cwd:ROOT,env:process.env,timeout:30000,maxBuffer:1000000});
       builtCount=changed;status.dashboard={ok:true,file:'search-v2.html',updatedAt:now()};
     }
+    if(process.env.KM_NOTEPLAN_SSH==='1' && Date.now()-lastWriteback>300000){lastWriteback=Date.now();try{const r=await exec(process.execPath,[path.join(ROOT,'scripts/km-noteplan-writeback.mjs'),'--apply'],{cwd:ROOT,env:process.env,timeout:120000,maxBuffer:1000000});status.noteplanWriteback=JSON.parse(r.stdout);}catch{status.noteplanWriteback={ok:false,reason:'NOTEPLAN_WRITEBACK_FAILED'};}}
     await atomic(path.join(DATA,'progress.json'),JSON.stringify({...status,processed,limit:LIMIT,updatedAt:now()}));
   }
   const known=new Set(),tweetFiles=new Map();

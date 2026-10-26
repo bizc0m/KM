@@ -116,7 +116,7 @@ function buildTaskTree(lines: LineRecord[]): TaskNode {
 function computeEffectivePriority(node: TaskNode): Priority {
   let effective = node.explicitPriority
   for (const child of node.children) {
-    effective = Math.max(effective, computeEffectivePriority(child)) as Priority
+    effective = Math.max(effective, (child.completed ? 0 : computeEffectivePriority(child))) as Priority
   }
   node.effectivePriority = effective
   return effective
