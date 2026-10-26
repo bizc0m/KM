@@ -1,5 +1,6 @@
 # Bases de données
 
+- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Gère les emails via Cloudflare Workers avec isolation par boîte aux lettres et stockage R2
 - [arcada-backend](../../watch/technical-672e5954b0a4b96827a6.md) — Démarrer le serveur backend pour la plateforme de design d'intérieur
 - [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.
 - [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les rendez-vous sans dépendance commerciale.

@@ -59,3 +59,25 @@ Crée des prototypes interactifs avec un agent et une prévisualisation en temps
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- OpenDesign est un espace de travail collaboratif pour les agents d'IA de conception.
+- OpenDesign permet de créer des prototypes en suivant un système de conception.
+- OpenDesign permet de partager des projets avec l'équipe pour obtenir des retours.
+- OpenDesign est licence Apache 2.0 et offre des modèles de conception, des systèmes et des plugins adaptables.
+
+## Usages documentés
+
+- od mcp install claude
+
+## Limites
+
+- Compatibilité limitée aux plateformes mentionnées
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/nexu-io/open-design
+- Analyse source : 2026-10-26T06:15:00.094Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

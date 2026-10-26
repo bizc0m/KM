@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Crée des vidéos de présentation de produit avec des animations et musique
 
 ## Identité
 
@@ -29,8 +29,8 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.media.video domain.data.catalogues capability.generate.video compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Audio, vidéo et création > Vidéo ; Données et connaissances > Catalogues de ressources
+- Identifiants : domain.ai.agents domain.media.audio domain.media.video capability.generate.video compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA ; Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo
 - Fonctions : Générer des contenus > Générer une vidéo
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
@@ -50,3 +50,28 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Convertit HTML, CSS, médias et animations en vidéos MP4 déterministes
+- Utilisable localement via CLI ou par des agents IA
+- Permet de créer des vidéos de présentation de produit ou des visuels de données
+- Intègre des outils de gestion de médias et de rendu audio
+
+## Usages documentés
+
+- npx hyperframes init my-video
+- cd my-video
+- npx hyperframes preview
+- npx hyperframes render
+
+## Limites
+
+- Requiert Node.js 22+ et FFmpeg
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/heygen-com/hyperframes
+- Analyse source : 2026-10-26T03:09:26.947Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

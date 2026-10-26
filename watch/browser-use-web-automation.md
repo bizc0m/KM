@@ -47,3 +47,17 @@ Automatiser des tâches web avec un LLM
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Agent de navigateur open source
+- Automatisation des tâches web avec LLM
+- Navigateurs furtifs et proxies résidentiels
+- Fonctionne localement ou en cloud
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/browser-use/browser-use
+- Analyse source : 2026-10-26T00:32:26.679Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

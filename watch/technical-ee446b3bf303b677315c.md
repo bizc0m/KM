@@ -45,3 +45,26 @@ Afficher les emails envoyés dans une interface web
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Outil de test d'email pour développeurs
+- Affichage des messages dans une interface web
+- Possibilité de relâcher les messages vers un serveur SMTP réel
+- Stockage en mémoire ou via MongoDB
+
+## Usages documentés
+
+- Configurer l'application pour utiliser MailHog comme serveur SMTP
+- Vérifier les emails envoyés via l'interface web
+
+## Limites
+
+- Requiert un serveur SMTP pour envoyer les emails
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/mailhog/mailhog
+- Analyse source : 2026-10-26T06:41:09.492Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

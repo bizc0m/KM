@@ -73,5 +73,5 @@ Crée un micro-drama vidéo à partir d'une idée
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/anil-matcha/open-ai-micro-drama-generator
-- Analyse source : 2026-10-24T12:57:16.765Z
+- Analyse source : 2026-10-25T23:42:15.342Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

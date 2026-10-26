@@ -44,3 +44,24 @@ Exécute des scripts JavaScript et TypeScript rapidement.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Bun est un outil complet pour JavaScript et TypeScript.
+- Il fonctionne comme un exécutable unique appelé `bun`.
+- Il inclut un runtime JavaScript rapide.
+- Il remplace Node.js et réduit le temps de démarrage et l'utilisation de la mémoire.
+
+## Usages documentés
+
+- bun run index.tsx
+- bun test
+- bun install <pkg>
+- bunx cowsay 'Hello, world!'
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/oven-sh/bun
+- Analyse source : 2026-10-25T23:54:14.580Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

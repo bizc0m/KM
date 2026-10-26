@@ -6,7 +6,7 @@ actif
 
 ## Tags
 
-#python, #synthese-vocale
+#python
 
 ## Intérêts
 
@@ -29,9 +29,8 @@ Convertir du texte en parole avec des modèles vocaux
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.audio.voice capability.voice.synthesize compatibility.language.python source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Audio > Voix
-- Fonctions : Traitement de la voix > Synthétiser une voix
+- Identifiants : domain.unclassified compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Sujets : À qualifier
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
@@ -48,3 +47,23 @@ Convertir du texte en parole avec des modèles vocaux
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- SDK officiel pour ElevenLabs
+- Permet de générer du texte en parole
+- Intègre des modèles vocaux
+- Gère les requêtes API
+
+## Usages documentés
+
+- pip install elevenlabs
+- from elevenlabs.client import ElevenLabs
+- audio = elevenlabs.text_to_speech.convert(text="texte", voice_id="id", model_id="modele", output_format="format")
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/elevenlabs/elevenlabs-python
+- Analyse source : 2026-10-26T05:54:17.272Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

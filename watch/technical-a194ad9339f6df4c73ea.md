@@ -6,7 +6,7 @@ actif
 
 ## Tags
 
-#previsions-meteo, #terminal, #python
+#previsions-meteo, #python, #terminal
 
 ## Intérêts
 
@@ -29,10 +29,10 @@ Accéder aux alertes météo via terminal
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.dev.api domain.science.weather domain.osint capability.forecast compatibility.interface.terminal compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.dev.api domain.science.weather domain.osint capability.forecast compatibility.language.python compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
 - Sujets : Développement logiciel > API et services applicatifs ; Sciences et prévision > Prévisions météorologiques ; Cybersécurité > Renseignement en sources ouvertes
 - Fonctions : Prévoir des mesures
-- Compatibilités : Interfaces > Terminal ; Langages > Python
+- Compatibilités : Langages > Python ; Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -48,3 +48,27 @@ Accéder aux alertes météo via terminal
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Interface terminal pour l'API météo nationale
+- Données provenant de l'API REST de NOAA/NWS
+- Aucune clé API nécessaire pour l'accès
+- Utilisation de Python 3.8 ou supérieur
+
+## Usages documentés
+
+- python Cabalweathercheck.py
+
+## Limites
+
+- Coordonnées en degrés décimaux
+- Station IDs en format ICAO 4 lettres
+- Codes états en format 2 lettres
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/osintcabal/cabal-weather-scraper
+- Analyse source : 2026-10-25T23:19:14.067Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -5,16 +5,16 @@
 | `watch-technical-e9eb05e2bf38f125a62f-md` | `technical-e9eb05e2bf38f125a62f.md` | outil | actif |
 | `watch-technical-1e83b6596b947b071d50-md` | `technical-1e83b6596b947b071d50.md` | outil | actif |
 | `watch-technical-48dbbdd8fd0d302995a7-md` | `technical-48dbbdd8fd0d302995a7.md` | outil | actif |
-| `watch-cloudflare-agentic-inbox-md` | `cloudflare-agentic-inbox.md` | outil | a verifier |
+| `watch-cloudflare-agentic-inbox-md` | `cloudflare-agentic-inbox.md` | outil | actif |
 | `watch-technical-ea311829e667eb1acdcc-md` | `technical-ea311829e667eb1acdcc.md` | outil | actif |
 | `watch-technical-252e5a55f7318a7eec1e-md` | `technical-252e5a55f7318a7eec1e.md` | outil | actif |
 | `watch-technical-ca3c69add82754901cf6-md` | `technical-ca3c69add82754901cf6.md` | outil | actif |
-| `watch-technical-14991362ba170a15ca07-md` | `technical-14991362ba170a15ca07.md` | outil | a verifier |
+| `watch-technical-14991362ba170a15ca07-md` | `technical-14991362ba170a15ca07.md` | outil | actif |
 | `watch-technical-2993f5bd5143a68eff85-md` | `technical-2993f5bd5143a68eff85.md` | outil | actif |
 | `watch-technical-42965a7ae63080ec3407-md` | `technical-42965a7ae63080ec3407.md` | outil | actif |
 | `watch-technical-a2235eb2a97eb8aaa5cb-md` | `technical-a2235eb2a97eb8aaa5cb.md` | outil | #ROUGE |
 | `watch-technical-4ebbe613827a1ffc3c29-md` | `technical-4ebbe613827a1ffc3c29.md` | outil | actif |
-| `watch-technical-40cd4bcbc0fb8cf86c20-md` | `technical-40cd4bcbc0fb8cf86c20.md` | outil | a verifier |
+| `watch-technical-40cd4bcbc0fb8cf86c20-md` | `technical-40cd4bcbc0fb8cf86c20.md` | outil | actif |
 | `watch-technical-26c8fae19248128175bf-md` | `technical-26c8fae19248128175bf.md` | outil | actif |
 | `watch-technical-672e5954b0a4b96827a6-md` | `technical-672e5954b0a4b96827a6.md` | outil | actif |
 | `watch-technical-674690abd042252d5376-md` | `technical-674690abd042252d5376.md` | outil | actif |
@@ -42,7 +42,7 @@
 | `watch-technical-c292611ef4a4a5e37455-md` | `technical-c292611ef4a4a5e37455.md` | outil | actif |
 | `watch-technical-c10d8f74eadd9334181e-md` | `technical-c10d8f74eadd9334181e.md` | outil | actif |
 | `watch-technical-35aadf0372281812cd07-md` | `technical-35aadf0372281812cd07.md` | outil | actif |
-| `watch-technical-ddda9bed5feda3007847-md` | `technical-ddda9bed5feda3007847.md` | outil | a verifier |
+| `watch-technical-ddda9bed5feda3007847-md` | `technical-ddda9bed5feda3007847.md` | outil | actif |
 | `watch-technical-80c1535b6e69bb84082c-md` | `technical-80c1535b6e69bb84082c.md` | outil | actif |
 | `watch-technical-f977c26fe64e30184a6f-md` | `technical-f977c26fe64e30184a6f.md` | outil | actif |
 | `watch-technical-f1fa1897837db4db2e4d-md` | `technical-f1fa1897837db4db2e4d.md` | outil | actif |
@@ -94,11 +94,12 @@
 | `watch-technical-00898489ed72fd55e12d-md` | `technical-00898489ed72fd55e12d.md` | outil | actif |
 | `watch-technical-690719855ba11af8d90c-md` | `technical-690719855ba11af8d90c.md` | outil | actif |
 | `watch-technical-0b5c4741d1c147be5fdd-md` | `technical-0b5c4741d1c147be5fdd.md` | outil | actif |
+| `watch-technical-7f84d8cb0f021d98f595-md` | `technical-7f84d8cb0f021d98f595.md` | outil | actif |
 | `watch-technical-757ce536b0a4cbc2f860-md` | `technical-757ce536b0a4cbc2f860.md` | outil | actif |
 | `watch-technical-4df736e310f1a98e2c76-md` | `technical-4df736e310f1a98e2c76.md` | outil | actif |
 | `watch-technical-1579309e1b490fa5279c-md` | `technical-1579309e1b490fa5279c.md` | outil | actif |
 | `watch-technical-c88e811a1a66f8cd57ba-md` | `technical-c88e811a1a66f8cd57ba.md` | outil | actif |
-| `watch-technical-c0d4875dd605f77caf57-md` | `technical-c0d4875dd605f77caf57.md` | outil | a verifier |
+| `watch-technical-c0d4875dd605f77caf57-md` | `technical-c0d4875dd605f77caf57.md` | outil | actif |
 | `watch-technical-97416d4ba88591c565b7-md` | `technical-97416d4ba88591c565b7.md` | outil | actif |
 | `watch-technical-c133b93b912dffd605a2-md` | `technical-c133b93b912dffd605a2.md` | outil | actif |
 | `watch-technical-1158f7d0b091e0866c17-md` | `technical-1158f7d0b091e0866c17.md` | outil | actif |
@@ -107,7 +108,7 @@
 | `watch-technical-08055b9ca2497bd87108-md` | `technical-08055b9ca2497bd87108.md` | outil | actif |
 | `watch-technical-52593ff508c40e9e2d49-md` | `technical-52593ff508c40e9e2d49.md` | outil | actif |
 | `watch-technical-f2ad2f5dfae253d2f4b6-md` | `technical-f2ad2f5dfae253d2f4b6.md` | outil | actif |
-| `watch-technical-ca7cb887e2ca56aa74cb-md` | `technical-ca7cb887e2ca56aa74cb.md` | outil | actif |
+| `watch-technical-ca7cb887e2ca56aa74cb-md` | `technical-ca7cb887e2ca56aa74cb.md` | outil | sensible |
 | `watch-technical-c8e0d0b7ca0f7e400713-md` | `technical-c8e0d0b7ca0f7e400713.md` | outil | actif |
 | `watch-technical-d07066251c23560c4586-md` | `technical-d07066251c23560c4586.md` | outil | actif |
 | `watch-technical-a352cd98ee30cd20d69a-md` | `technical-a352cd98ee30cd20d69a.md` | outil | actif |
@@ -166,8 +167,7 @@
 | `watch-technical-34d5505e0a9890ad64f6-md` | `technical-34d5505e0a9890ad64f6.md` | outil | actif |
 | `watch-technical-79b08dab72dcf263294d-md` | `technical-79b08dab72dcf263294d.md` | outil | actif |
 | `watch-technical-dfc871508eb563893ba5-md` | `technical-dfc871508eb563893ba5.md` | outil | actif |
-| `watch-technical-2d163384adb685d9a51a-md` | `technical-2d163384adb685d9a51a.md` | outil | a verifier |
-| `watch-technical-7f84d8cb0f021d98f595-md` | `technical-7f84d8cb0f021d98f595.md` | outil | actif |
+| `watch-technical-2d163384adb685d9a51a-md` | `technical-2d163384adb685d9a51a.md` | outil | actif |
 | `watch-technical-1049081f67e5576ca9e6-md` | `technical-1049081f67e5576ca9e6.md` | outil | actif |
 | `watch-technical-cdbdf85699a704f19664-md` | `technical-cdbdf85699a704f19664.md` | outil | actif |
 | `watch-technical-140649096e6d8069b2f4-md` | `technical-140649096e6d8069b2f4.md` | outil | actif |

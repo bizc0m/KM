@@ -44,3 +44,21 @@ Permet de gérer des torrents avec streaming et téléchargement direct
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Webtor est un serveur self-hosted pour gérer les torrents avec streaming et téléchargement direct.
+- Webtor permet de télécharger des torrents en ZIP et de les organiser en bibliothèque.
+- Webtor intègre des sous-titres et des traductions en temps réel.
+- Webtor offre une intégration avec Stremio et un SDK pour intégration web.
+
+## Usages documentés
+
+- docker run -d -p 8080:8080 -v data:/data -v pgdata:/pgdata -v storage:/storage --name webtor --restart=always ghcr.io/webtor-io/self-hosted:latest
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/webtor-io/self-hosted
+- Analyse source : 2026-10-26T04:16:48.186Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

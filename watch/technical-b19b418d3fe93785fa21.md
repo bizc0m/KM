@@ -44,3 +44,22 @@ Convertit des structures Go en types Typescript pour front-end
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Génère des typings Typescript à partir de fichiers Go
+- Préservation des commentaires dans les types générés
+- Support des types génériques Go 1.18
+- Génération de types pour API REST front-end
+
+## Usages documentés
+
+- go install github.com/gzuidhof/tygo@latest
+- tygo generate
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/gzuidhof/tygo
+- Analyse source : 2026-10-26T04:16:48.186Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

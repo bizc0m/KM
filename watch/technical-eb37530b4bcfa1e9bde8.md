@@ -47,3 +47,21 @@ Gère les dépendances et les environnements
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Permet l'installation de Python sans dépendances système
+- Gère les dépendances et les environnements
+- Fournit un résolveur basé sur l'algorithme PubGrub
+- N'inclut pas de framework de test ou de linter
+
+## Limites
+
+- Ne gère pas les versions préliminaires sans configuration
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/njsmith/posy
+- Analyse source : 2026-10-25T23:54:14.580Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

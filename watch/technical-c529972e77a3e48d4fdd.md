@@ -44,3 +44,21 @@ Identifier les hôtes et services sur un réseau.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Outil de scan réseau.
+- Détecte hôtes.
+- Vérifie ports ouverts.
+- Analyse services.
+
+## Usages documentés
+
+- nmap scanme.nmap.org
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/nmap/nmap
+- Analyse source : 2026-10-25T23:19:14.067Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

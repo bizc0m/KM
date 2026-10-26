@@ -47,3 +47,17 @@ Automatise les tests web avec des scripts.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Automatise les navigateurs web via des scripts.
+- Interface compatible avec tous les navigateurs principaux.
+- Permet de tester et exécuter des scripts d'automatisation.
+- Facilite la contribution via des outils de développement.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/seleniumhq/selenium
+- Analyse source : 2026-10-26T00:32:26.679Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

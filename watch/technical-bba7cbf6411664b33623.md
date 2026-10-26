@@ -45,3 +45,30 @@ Permet l'automatisation des réponses via des API. Intègre des fonctionnalités
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Fournit des API pour l'interaction avec le marché d'occasion XianYu.
+- Permet la communication en temps réel via WebSocket.
+- Intègre des fonctionnalités de gestion de messages et de sessions.
+- Facilite l'automatisation des réponses.
+
+## Usages documentés
+
+- Installation des dépendances via pip.
+- Configuration des cookies pour l'authentification.
+- Lancement du script principal pour la communication.
+- Ajout de logique d'IA dans la gestion des messages.
+
+## Limites
+
+- Requiert un cookie valide pour l'authentification.
+- Nécessite des versions spécifiques de Python et Node.js.
+- Fonctionne uniquement avec des environnements compatibles avec les protocoles WebSocket et HTTP.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/cv-cat/xianyuapis
+- Analyse source : 2026-10-26T02:10:41.481Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

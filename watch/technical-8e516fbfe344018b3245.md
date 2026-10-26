@@ -47,3 +47,17 @@ Facilite la découverte des outils et compétences pour Codex CLI
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Consolide 271 ressources en un seul endroit
+- Organisé par catégories de fonctionnalités
+- Descriptions opinionnées pour aider à choisir
+- Recommande des tutoriels et guides d'installation
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/roggeohta/awesome-codex-cli
+- Analyse source : 2026-10-26T03:50:20.619Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

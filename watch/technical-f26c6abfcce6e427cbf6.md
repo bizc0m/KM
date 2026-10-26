@@ -63,5 +63,5 @@ Ajout de compétences de cybersécurité pour agents IA
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/0xsojalsec/700-cybersecurity-skills
-- Analyse source : 2026-10-24T08:37:58.486Z
+- Analyse source : 2026-10-26T03:50:20.619Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

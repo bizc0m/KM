@@ -47,3 +47,17 @@ Analyse de type rapide avec diagnostics précis pour code Python
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Type checker et serveur de langage écrit en Rust
+- Vitesse 10x à 100x supérieure à mypy et Pyright
+- Support des diagnostics avec informations contextuelles
+- Intégration avec VS Code, PyCharm et Neovim
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/astral-sh/ty
+- Analyse source : 2026-10-25T23:54:14.580Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

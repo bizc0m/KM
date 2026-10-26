@@ -46,3 +46,27 @@ Analyse des données de santé globales en temps réel
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Analyse des données COVID-19 en temps réel
+- Comparaison des pays par code ISO
+- Stockage des données historiques
+- Export en format JSON
+
+## Usages documentés
+
+- python3 CoronavirOSINT.py
+- chmod +x CoronavirOSINT.py
+
+## Limites
+
+- Requiert Python 3.6+
+- Dependances pip install requests
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/osintcabal/coronavirosint
+- Analyse source : 2026-10-25T23:19:14.067Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

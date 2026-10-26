@@ -70,5 +70,5 @@ Interagir avec Gemini via terminal pour exécuter des tâches de code
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/google-gemini/gemini-cli
-- Analyse source : 2026-10-24T07:38:20.941Z
+- Analyse source : 2026-10-26T02:52:41.490Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

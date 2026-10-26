@@ -44,3 +44,17 @@ Assigner des tâches aux agents IA pour gérer le travail.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Multica permet d'assigner des tâches aux agents IA.
+- Les agents IA travaillent sur un runtime contrôlé par l'utilisateur.
+- Les agents commentent leur progression en temps réel.
+- Les résultats sont soumis à une revue humaine avant publication.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/multica-ai/multica
+- Analyse source : 2026-10-26T06:15:00.094Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

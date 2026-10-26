@@ -47,3 +47,17 @@ Analyser du texte avec reconnaissance d'entités nommées
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- spaCy est une bibliothèque NLP en Python et Cython
+- spaCy supporte 70+ langues
+- spaCy inclut des pipelines préd训练és
+- spaCy propose des modèles de réseau de neurones pour reconnaissance d'entités nommées
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/explosion/spacy
+- Analyse source : 2026-10-26T05:01:03.314Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -25,8 +25,8 @@ Contrôle un navigateur web via des commandes vocales pour une navigation sans c
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.audio domain.media.image domain.science.weather capability.forecast compatibility.language.python source.noteplan source.x source.github lifecycle.active
-- Sujets : Audio, vidéo et création > Audio ; Audio, vidéo et création > Images et graphisme ; Sciences et prévision > Prévisions météorologiques
+- Identifiants : domain.media.audio domain.media.video domain.science.weather capability.forecast compatibility.language.python source.noteplan source.x source.github lifecycle.active
+- Sujets : Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo ; Sciences et prévision > Prévisions météorologiques
 - Fonctions : Prévoir des mesures
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
@@ -348,3 +348,21 @@ J.A.R.V.I.S est un assistant vocal capable de réaliser plusieurs tâches.
 - Rechercher des informations météorologiques
 
 Source : https://techtalkswithgaurav.blogspot.com/2020/06/your-personal-assistant-jarvis.html?showComment=1747560109681 ; niveau 3.
+
+## Identité
+
+- Dépôt principal : https://github.com/gauravsingh9356/j.a.r.v.i.s
+
+## Capacités documentées
+
+- J.A.R.V.I.S est un assistant vocal basé sur Python.
+- Il intègre des bibliothèques comme pyttsx3 et speech_recognition.
+- Il permet d'envoyer des emails et de consulter des nouvelles.
+- Il gère une liste de tâches et ouvre des sites web via des commandes vocales.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/gauravsingh9356/j.a.r.v.i.s
+- Analyse source : 2026-10-26T00:11:57.906Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

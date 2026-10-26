@@ -1,16 +1,16 @@
 {
-  "at": "2026-10-26T06:49:18.277Z",
+  "at": "2026-10-26T07:49:41.157Z",
   "scope": "public-index-only",
   "fiches": 658,
   "sourceReferences": 2617,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 630,
+  "pendingReview": 629,
   "counts": {
-    "interest-missing": 193,
-    "keywords-missing": 90,
-    "domain-unqualified": 116,
+    "interest-missing": 175,
+    "keywords-missing": 91,
+    "domain-unqualified": 119,
     "primary-identity-unqualified": 20,
     "nature-unqualified": 608
   },
@@ -33,7 +33,6 @@
       "id": "watch-cloudflare-agentic-inbox-md",
       "title": "Agentic Inbox",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -62,7 +61,6 @@
       "id": "watch-technical-14991362ba170a15ca07-md",
       "title": "anacrolix/torrent",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -86,7 +84,6 @@
       "id": "watch-technical-40cd4bcbc0fb8cf86c20-md",
       "title": "AppFlowy",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -184,7 +181,6 @@
       "id": "watch-technical-533d51d9d3dea76fea8f-md",
       "title": "Cline",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -264,7 +260,6 @@
       "id": "watch-technical-ddda9bed5feda3007847-md",
       "title": "DESIGN.md",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -293,7 +288,6 @@
       "id": "watch-technical-fb7d8c0c8a030338b784-md",
       "title": "edge-tts",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -301,6 +295,7 @@
       "id": "watch-technical-e1728cc13c4a61f359d1-md",
       "title": "elevenlabs-python",
       "reasons": [
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -392,7 +387,6 @@
       "id": "watch-technical-383ec76df0f9b9e99e36-md",
       "title": "GSPN",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -616,6 +610,13 @@
       ]
     },
     {
+      "id": "watch-technical-7f84d8cb0f021d98f595-md",
+      "title": "OpenCut",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-757ce536b0a4cbc2f860-md",
       "title": "OpenDesign",
       "reasons": [
@@ -640,7 +641,6 @@
       "id": "watch-technical-c0d4875dd605f77caf57-md",
       "title": "Penpot",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -655,7 +655,6 @@
       "id": "watch-technical-c133b93b912dffd605a2-md",
       "title": "Pi",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -705,7 +704,6 @@
       "id": "watch-technical-c8e0d0b7ca0f7e400713-md",
       "title": "remotion",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -903,7 +901,6 @@
       "id": "watch-technical-a20888d5cb6a1c399300-md",
       "title": "AI Logo Studio",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -997,6 +994,7 @@
       "id": "watch-technical-d924e27b47fa985d6e04-md",
       "title": "google_dorker",
       "reasons": [
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -1028,13 +1026,6 @@
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-b8cbc6e661d7a948ed3d-md",
-      "title": "muapi-skills",
-      "reasons": [
-        "interest-missing"
       ]
     },
     {
@@ -1071,7 +1062,6 @@
       "id": "watch-technical-af32c93f6e9c60ab06b7-md",
       "title": "Open AI Agents Hub",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1099,14 +1089,6 @@
     {
       "id": "watch-technical-2d163384adb685d9a51a-md",
       "title": "Open-Poe-AI",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-7f84d8cb0f021d98f595-md",
-      "title": "OpenCut",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1145,6 +1127,8 @@
       "id": "watch-technical-4f05134572dbcb3265f2-md",
       "title": "profile-summary-for-github",
       "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -1205,7 +1189,6 @@
       "id": "watch-technical-57e845072d92fede6967-md",
       "title": "TeleGramSint",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1270,7 +1253,6 @@
       "id": "watch-technical-8a4e0d1ee4f13f3119dd-md",
       "title": "WebDiver",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1299,7 +1281,6 @@
       "id": "watch-technical-736ba7730a16f99e6717-md",
       "title": "Cabal Stealth Checker",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1335,7 +1316,6 @@
       "id": "watch-technical-6e18aa23e1f0d14413d5-md",
       "title": "HyperFrames",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },

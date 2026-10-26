@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Créez des interfaces réactives avec des maquettes lisibles par code.
 
 ## Identité
 
@@ -27,10 +27,10 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.image domain.dev.ui source.noteplan source.github source.x lifecycle.review
+- Identifiants : domain.media.image domain.dev.ui source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Images et graphisme ; Développement logiciel > Conception d’interfaces
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
 
 ## Sources
 
@@ -46,3 +46,29 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Plateforme de conception open source pour équipes.
+- Support self-hosting.
+- Utilisation de standards ouverts comme SVG, CSS, HTML et JSON.
+- Collaboration en temps réel entre utilisateurs.
+
+## Usages documentés
+
+- Utilisation en tant que plateforme de conception web.
+- Déploiement sur serveurs propres.
+- Collaboration en temps réel entre membres d'équipe.
+
+## Limites
+
+- Requiert une infrastructure de déploiement.
+- Compatibilité limitée avec des outils spécifiques.
+- Nécessite une configuration pour le self-hosting.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/penpot/penpot
+- Analyse source : 2026-10-26T06:41:09.492Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

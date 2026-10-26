@@ -44,3 +44,29 @@ Analyse un site web et propose un plan d'action pour améliorer son référencem
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Plugin SEO pour Claude Code
+- Analyse complète en 10 à 15 minutes
+- Vérification des 26 sous-compétences SEO
+- Génération d'un plan d'action priorisé
+
+## Usages documentés
+
+- /seo audit <url>
+- /seo page <url>
+- /seo schema <url>
+- /seo geo <url>
+
+## Limites
+
+- Exige Claude Code 1.0.33 ou supérieur
+- Fonctionne uniquement dans l'environnement de Claude Code
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/agricidaniel/claude-seo
+- Analyse source : 2026-10-26T01:55:26.347Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

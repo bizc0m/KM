@@ -6,7 +6,7 @@ actif
 
 ## Tags
 
-#react, #conversion-documents, #generation-images
+#react, #conversion-documents
 
 ## Intérêts
 
@@ -29,9 +29,9 @@ Convertir du markdown en image partageable sur les réseaux sociaux
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.image domain.dev.web domain.data.documents capability.documents.convert capability.generate.image source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.media.image domain.dev.web domain.data.documents capability.documents.convert source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Images et graphisme ; Développement logiciel > Développement web ; Données et connaissances > Documents
-- Fonctions : Traiter des documents > Convertir des documents ; Générer des contenus > Générer une image
+- Fonctions : Traiter des documents > Convertir des documents
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -47,3 +47,27 @@ Convertir du markdown en image partageable sur les réseaux sociaux
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Convertit du markdown en images optimisées pour les réseaux sociaux
+- Composant React pour intégration dans des projets
+- Inclut un éditeur web déployable en un clic
+- Supporte des thèmes personnalisables
+
+## Usages documentés
+
+- npm i markdown-to-image
+- importation des composants Md2Poster
+
+## Limites
+
+- Nécessite un environnement React
+- Compatibilité avec Next.js requiert des configurations spécifiques
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/gcui-art/markdown-to-image
+- Analyse source : 2026-10-26T06:15:00.094Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Permet d'explorer et modifier le code avec un assistant IA
+Permet d'explorer et de modifier le codebase avec des commandes naturelles
 
 ## Identité
 
@@ -29,9 +29,8 @@ Permet d'explorer et modifier le code avec un assistant IA
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.llm domain.dev.quality capability.code.assist compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Modèles de langage ; Développement logiciel > Qualité du code
-- Fonctions : Assister le développement
+- Identifiants : domain.ai.agents domain.ai.llm domain.dev compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA ; Intelligence artificielle > Modèles de langage ; Développement logiciel
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
@@ -49,3 +48,27 @@ Permet d'explorer et modifier le code avec un assistant IA
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Assiste dans la modification et l'exploration du codebase via des commandes naturelles
+- Permet l'exécution de commandes shell et la gestion de fichiers
+- Intègre un système de sous-agents pour la délegation de tâches
+- Fournit un système de configuration personnalisable via un fichier TOML
+
+## Usages documentés
+
+- vibe --agent ask
+- vibe --prompt "Refactor the main function"
+
+## Limites
+
+- Requiert un terminal moderne
+- Ne fonctionne pas correctement sous Windows
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/mistralai/mistral-vibe
+- Analyse source : 2026-10-26T02:52:41.490Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

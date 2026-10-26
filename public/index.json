@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-26T06:49:17.966Z",
+  "at": "2026-10-26T07:49:41.003Z",
   "count": 658,
   "rows": [
     {
@@ -1710,7 +1710,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [],
-      "status": "a verifier",
+      "status": "actif",
       "path": "watch/cloudflare-agentic-inbox.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/cloudflare-agentic-inbox.md",
       "sourceUrl": "https://github.com/cloudflare/agentic-inbox",
@@ -1731,7 +1731,7 @@
       "github": "https://github.com/cloudflare/agentic-inbox",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Gère les emails via Cloudflare Workers avec isolation par boîte aux lettres et stockage R2",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -1742,7 +1742,8 @@
         "facets": {
           "domain": [
             "domain.ai.agents",
-            "domain.communication.messaging"
+            "domain.communication",
+            "domain.infrastructure.database"
           ],
           "capability": [],
           "compatibility": [],
@@ -1753,7 +1754,7 @@
             "source.x"
           ],
           "lifecycle": [
-            "lifecycle.review"
+            "lifecycle.active"
           ]
         },
         "concepts": [
@@ -1813,25 +1814,6 @@
             "path": []
           },
           {
-            "id": "domain.communication.messaging",
-            "label": "Messagerie",
-            "parent": "domain.communication",
-            "aliases": [
-              "#smtp",
-              "#slack"
-            ],
-            "patterns": [
-              "e.mails?",
-              "\\bslack\\b",
-              "rechercher des tweets"
-            ],
-            "facet": "domain",
-            "path": [
-              "Communication et publication",
-              "Messagerie"
-            ]
-          },
-          {
             "id": "domain.communication",
             "label": "Communication et publication",
             "parent": "domain",
@@ -1850,16 +1832,58 @@
             ]
           },
           {
-            "id": "lifecycle.review",
-            "label": "À vérifier",
+            "id": "domain.infrastructure.database",
+            "label": "Bases de données",
+            "parent": "domain.infrastructure",
+            "aliases": [
+              "#database",
+              "#postgres",
+              "#sqlite"
+            ],
+            "patterns": [
+              "base de donnees",
+              "\\bsqlite\\b",
+              "\\bpostgres"
+            ],
+            "facet": "domain",
+            "path": [
+              "Infrastructure",
+              "Bases de données"
+            ]
+          },
+          {
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
+            "parent": "domain",
+            "aliases": [
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
+            ],
+            "patterns": [
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Infrastructure"
+            ]
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
             "parent": "lifecycle",
             "aliases": [
-              "#a-verifier",
-              "#to-verify"
+              "#actif",
+              "#active"
             ],
             "facet": "lifecycle",
             "path": [
-              "À vérifier"
+              "Actif"
             ]
           },
           {
@@ -1968,25 +1992,6 @@
           "path": []
         },
         {
-          "id": "domain.communication.messaging",
-          "label": "Messagerie",
-          "parent": "domain.communication",
-          "aliases": [
-            "#smtp",
-            "#slack"
-          ],
-          "patterns": [
-            "e.mails?",
-            "\\bslack\\b",
-            "rechercher des tweets"
-          ],
-          "facet": "domain",
-          "path": [
-            "Communication et publication",
-            "Messagerie"
-          ]
-        },
-        {
           "id": "domain.communication",
           "label": "Communication et publication",
           "parent": "domain",
@@ -2005,16 +2010,58 @@
           ]
         },
         {
-          "id": "lifecycle.review",
-          "label": "À vérifier",
+          "id": "domain.infrastructure.database",
+          "label": "Bases de données",
+          "parent": "domain.infrastructure",
+          "aliases": [
+            "#database",
+            "#postgres",
+            "#sqlite"
+          ],
+          "patterns": [
+            "base de donnees",
+            "\\bsqlite\\b",
+            "\\bpostgres"
+          ],
+          "facet": "domain",
+          "path": [
+            "Infrastructure",
+            "Bases de données"
+          ]
+        },
+        {
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
+          "parent": "domain",
+          "aliases": [
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
+          ],
+          "patterns": [
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Infrastructure"
+          ]
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
           "parent": "lifecycle",
           "aliases": [
-            "#a-verifier",
-            "#to-verify"
+            "#actif",
+            "#active"
           ],
           "facet": "lifecycle",
           "path": [
-            "À vérifier"
+            "Actif"
           ]
         },
         {
@@ -2072,14 +2119,14 @@
           "subjectId": "domain.ai.agents"
         },
         {
-          "label": "#smtp",
-          "fullLabel": "smtp",
-          "color": "source",
-          "subjectId": "domain.communication.messaging"
+          "label": "#database",
+          "fullLabel": "database",
+          "color": "dev",
+          "subjectId": "domain.infrastructure.database"
         }
       ],
       "cardTitle": "Agentic Inbox",
-      "cardInterest": ""
+      "cardInterest": "Gère les emails via Cloudflare Workers avec isolation par boîte aux lettres et stockage R2"
     },
     {
       "id": "watch-technical-ea311829e667eb1acdcc-md",
@@ -2106,8 +2153,7 @@
       "tags": [
         "#memoire-agents",
         "#agents-code",
-        "#terminal",
-        "#mcp"
+        "#terminal"
       ],
       "status": "actif",
       "path": "watch/technical-ea311829e667eb1acdcc.md",
@@ -2130,7 +2176,7 @@
       "github": "https://github.com/rohitg00/agentmemory",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Garder des sessions de codage accessibles pour les agents.",
+      "summary": "Stocke automatiquement les actions de l'agent pour une utilisation future",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -2142,16 +2188,14 @@
           "domain": [
             "domain.ai.agents.memory",
             "domain.ai.agents.coding",
-            "domain.dev.quality",
-            "domain.ai.agents.integration"
+            "domain.dev.quality"
           ],
           "capability": [
             "capability.memory",
             "capability.code.assist"
           ],
           "compatibility": [
-            "compatibility.interface.terminal",
-            "compatibility.protocol.mcp"
+            "compatibility.interface.terminal"
           ],
           "risk": [],
           "source": [
@@ -2308,27 +2352,6 @@
             ]
           },
           {
-            "id": "domain.ai.agents.integration",
-            "label": "Connecteurs et outils des agents",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#mcp",
-              "#mcp-server",
-              "#integrations",
-              "#agent-instructions",
-              "#agents-md",
-              "#agent-skill",
-              "#plugins"
-            ],
-            "patterns": [],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Connecteurs et outils des agents"
-            ]
-          },
-          {
             "id": "capability.memory",
             "label": "Conserver le contexte",
             "parent": "capability",
@@ -2401,30 +2424,6 @@
             "aliases": [],
             "facet": "compatibility",
             "path": []
-          },
-          {
-            "id": "compatibility.protocol.mcp",
-            "label": "MCP",
-            "parent": "compatibility.protocol",
-            "aliases": [
-              "#mcp",
-              "#mcp-server"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Protocoles",
-              "MCP"
-            ]
-          },
-          {
-            "id": "compatibility.protocol",
-            "label": "Protocoles",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Protocoles"
-            ]
           },
           {
             "id": "lifecycle.active",
@@ -2633,27 +2632,6 @@
           ]
         },
         {
-          "id": "domain.ai.agents.integration",
-          "label": "Connecteurs et outils des agents",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#mcp",
-            "#mcp-server",
-            "#integrations",
-            "#agent-instructions",
-            "#agents-md",
-            "#agent-skill",
-            "#plugins"
-          ],
-          "patterns": [],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Connecteurs et outils des agents"
-          ]
-        },
-        {
           "id": "capability.memory",
           "label": "Conserver le contexte",
           "parent": "capability",
@@ -2726,30 +2704,6 @@
           "aliases": [],
           "facet": "compatibility",
           "path": []
-        },
-        {
-          "id": "compatibility.protocol.mcp",
-          "label": "MCP",
-          "parent": "compatibility.protocol",
-          "aliases": [
-            "#mcp",
-            "#mcp-server"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Protocoles",
-            "MCP"
-          ]
-        },
-        {
-          "id": "compatibility.protocol",
-          "label": "Protocoles",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Protocoles"
-          ]
         },
         {
           "id": "lifecycle.active",
@@ -2829,16 +2783,10 @@
           "fullLabel": "terminal",
           "color": "tool",
           "tag": "#terminal"
-        },
-        {
-          "label": "#mcp",
-          "fullLabel": "mcp",
-          "color": "agent",
-          "tag": "#mcp"
         }
       ],
       "cardTitle": "agentmemory",
-      "cardInterest": "Garder des sessions de codage accessibles pour les agents."
+      "cardInterest": "Stocke automatiquement les actions de l'agent pour une utilisation future"
     },
     {
       "id": "watch-technical-252e5a55f7318a7eec1e-md",
@@ -2892,16 +2840,16 @@
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
-      "theme": "media",
-      "themeLabel": "Vidéo",
+      "theme": "agent",
+      "themeLabel": "Agents IA",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai",
-            "domain.communication",
+            "domain.ai.agents",
             "domain.media.video",
-            "domain.media.image"
+            "domain.media.image",
+            "domain.communication"
           ],
           "capability": [
             "capability.automation.publish",
@@ -2920,6 +2868,31 @@
           ]
         },
         "concepts": [
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
           {
             "id": "domain.ai",
             "label": "Intelligence artificielle",
@@ -2949,24 +2922,6 @@
             "aliases": [],
             "facet": "domain",
             "path": []
-          },
-          {
-            "id": "domain.communication",
-            "label": "Communication et publication",
-            "parent": "domain",
-            "aliases": [
-              "#publication-sociale",
-              "#social-media",
-              "#email"
-            ],
-            "patterns": [
-              "publication.*(?:contenus|reseaux)",
-              "client email"
-            ],
-            "facet": "domain",
-            "path": [
-              "Communication et publication"
-            ]
           },
           {
             "id": "domain.media.video",
@@ -3024,6 +2979,24 @@
             "path": [
               "Audio, vidéo et création",
               "Images et graphisme"
+            ]
+          },
+          {
+            "id": "domain.communication",
+            "label": "Communication et publication",
+            "parent": "domain",
+            "aliases": [
+              "#publication-sociale",
+              "#social-media",
+              "#email"
+            ],
+            "patterns": [
+              "publication.*(?:contenus|reseaux)",
+              "client email"
+            ],
+            "facet": "domain",
+            "path": [
+              "Communication et publication"
             ]
           },
           {
@@ -3168,6 +3141,31 @@
       },
       "concepts": [
         {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
           "id": "domain.ai",
           "label": "Intelligence artificielle",
           "parent": "domain",
@@ -3196,24 +3194,6 @@
           "aliases": [],
           "facet": "domain",
           "path": []
-        },
-        {
-          "id": "domain.communication",
-          "label": "Communication et publication",
-          "parent": "domain",
-          "aliases": [
-            "#publication-sociale",
-            "#social-media",
-            "#email"
-          ],
-          "patterns": [
-            "publication.*(?:contenus|reseaux)",
-            "client email"
-          ],
-          "facet": "domain",
-          "path": [
-            "Communication et publication"
-          ]
         },
         {
           "id": "domain.media.video",
@@ -3271,6 +3251,24 @@
           "path": [
             "Audio, vidéo et création",
             "Images et graphisme"
+          ]
+        },
+        {
+          "id": "domain.communication",
+          "label": "Communication et publication",
+          "parent": "domain",
+          "aliases": [
+            "#publication-sociale",
+            "#social-media",
+            "#email"
+          ],
+          "patterns": [
+            "publication.*(?:contenus|reseaux)",
+            "client email"
+          ],
+          "facet": "domain",
+          "path": [
+            "Communication et publication"
           ]
         },
         {
@@ -3839,7 +3837,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [],
-      "status": "a verifier",
+      "status": "actif",
       "path": "watch/technical-14991362ba170a15ca07.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-14991362ba170a15ca07.md",
       "sourceUrl": "https://github.com/anacrolix/torrent",
@@ -3860,7 +3858,7 @@
       "github": "https://github.com/anacrolix/torrent",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Permet de télécharger des torrents depuis la ligne de commande. Résultat : fichier téléchargé complet.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -3881,21 +3879,21 @@
             "source.x"
           ],
           "lifecycle": [
-            "lifecycle.review"
+            "lifecycle.active"
           ]
         },
         "concepts": [
           {
-            "id": "lifecycle.review",
-            "label": "À vérifier",
+            "id": "lifecycle.active",
+            "label": "Actif",
             "parent": "lifecycle",
             "aliases": [
-              "#a-verifier",
-              "#to-verify"
+              "#actif",
+              "#active"
             ],
             "facet": "lifecycle",
             "path": [
-              "À vérifier"
+              "Actif"
             ]
           },
           {
@@ -3968,16 +3966,16 @@
       },
       "concepts": [
         {
-          "id": "lifecycle.review",
-          "label": "À vérifier",
+          "id": "lifecycle.active",
+          "label": "Actif",
           "parent": "lifecycle",
           "aliases": [
-            "#a-verifier",
-            "#to-verify"
+            "#actif",
+            "#active"
           ],
           "facet": "lifecycle",
           "path": [
-            "À vérifier"
+            "Actif"
           ]
         },
         {
@@ -4048,7 +4046,7 @@
       ],
       "keywords": [],
       "cardTitle": "anacrolix/torrent",
-      "cardInterest": ""
+      "cardInterest": "Permet de télécharger des torrents depuis la ligne de commande."
     },
     {
       "id": "watch-technical-2993f5bd5143a68eff85-md",
@@ -6134,7 +6132,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [],
-      "status": "a verifier",
+      "status": "actif",
       "path": "watch/technical-40cd4bcbc0fb8cf86c20.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-40cd4bcbc0fb8cf86c20.md",
       "sourceUrl": "https://github.com/appflowy-io/appflowy",
@@ -6167,7 +6165,7 @@
       "github": "https://github.com/appflowy-io/appflowy",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Gérer des projets, wikis et équipes avec une interface intuitive et des outils collaboratifs.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -6188,21 +6186,21 @@
             "source.x"
           ],
           "lifecycle": [
-            "lifecycle.review"
+            "lifecycle.active"
           ]
         },
         "concepts": [
           {
-            "id": "lifecycle.review",
-            "label": "À vérifier",
+            "id": "lifecycle.active",
+            "label": "Actif",
             "parent": "lifecycle",
             "aliases": [
-              "#a-verifier",
-              "#to-verify"
+              "#actif",
+              "#active"
             ],
             "facet": "lifecycle",
             "path": [
-              "À vérifier"
+              "Actif"
             ]
           },
           {
@@ -6275,16 +6273,16 @@
       },
       "concepts": [
         {
-          "id": "lifecycle.review",
-          "label": "À vérifier",
+          "id": "lifecycle.active",
+          "label": "Actif",
           "parent": "lifecycle",
           "aliases": [
-            "#a-verifier",
-            "#to-verify"
+            "#actif",
+            "#active"
           ],
           "facet": "lifecycle",
           "path": [
-            "À vérifier"
+            "Actif"
           ]
         },
         {
@@ -6355,7 +6353,7 @@
       ],
       "keywords": [],
       "cardTitle": "AppFlowy",
-      "cardInterest": ""
+      "cardInterest": "Gérer des projets, wikis et équipes avec une interface intuitive et des outils collaboratifs."
     },
     {
       "id": "watch-technical-26c8fae19248128175bf-md",
@@ -8597,8 +8595,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [
-        "#skills-agents",
-        "#conversion-documents"
+        "#skills-agents"
       ],
       "status": "actif",
       "path": "watch/book-to-skill.md",
@@ -8985,12 +8982,10 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents.skills",
-            "domain.data.documents"
+            "domain.ai.agents.skills"
           ],
           "capability": [
-            "capability.skills",
-            "capability.documents.convert"
+            "capability.skills"
           ],
           "compatibility": [],
           "risk": [],
@@ -9079,33 +9074,6 @@
             "path": []
           },
           {
-            "id": "domain.data.documents",
-            "label": "Documents",
-            "parent": "domain.data",
-            "aliases": [
-              "#conversion-documents",
-              "#document-ai",
-              "#documents",
-              "#ocr",
-              "#documentation"
-            ],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances",
-              "Documents"
-            ]
-          },
-          {
-            "id": "domain.data",
-            "label": "Données et connaissances",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances"
-            ]
-          },
-          {
             "id": "capability.skills",
             "label": "Étendre les compétences d’un agent",
             "parent": "capability",
@@ -9125,29 +9093,6 @@
             "aliases": [],
             "facet": "capability",
             "path": []
-          },
-          {
-            "id": "capability.documents.convert",
-            "label": "Convertir des documents",
-            "parent": "capability.documents",
-            "aliases": [
-              "#conversion-documents"
-            ],
-            "facet": "capability",
-            "path": [
-              "Traiter des documents",
-              "Convertir des documents"
-            ]
-          },
-          {
-            "id": "capability.documents",
-            "label": "Traiter des documents",
-            "parent": "capability",
-            "aliases": [],
-            "facet": "capability",
-            "path": [
-              "Traiter des documents"
-            ]
           },
           {
             "id": "lifecycle.active",
@@ -9287,33 +9232,6 @@
           "path": []
         },
         {
-          "id": "domain.data.documents",
-          "label": "Documents",
-          "parent": "domain.data",
-          "aliases": [
-            "#conversion-documents",
-            "#document-ai",
-            "#documents",
-            "#ocr",
-            "#documentation"
-          ],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances",
-            "Documents"
-          ]
-        },
-        {
-          "id": "domain.data",
-          "label": "Données et connaissances",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances"
-          ]
-        },
-        {
           "id": "capability.skills",
           "label": "Étendre les compétences d’un agent",
           "parent": "capability",
@@ -9333,29 +9251,6 @@
           "aliases": [],
           "facet": "capability",
           "path": []
-        },
-        {
-          "id": "capability.documents.convert",
-          "label": "Convertir des documents",
-          "parent": "capability.documents",
-          "aliases": [
-            "#conversion-documents"
-          ],
-          "facet": "capability",
-          "path": [
-            "Traiter des documents",
-            "Convertir des documents"
-          ]
-        },
-        {
-          "id": "capability.documents",
-          "label": "Traiter des documents",
-          "parent": "capability",
-          "aliases": [],
-          "facet": "capability",
-          "path": [
-            "Traiter des documents"
-          ]
         },
         {
           "id": "lifecycle.active",
@@ -9423,12 +9318,6 @@
           "fullLabel": "Compétences des agents",
           "color": "agent",
           "tag": "#skills-agents"
-        },
-        {
-          "label": "#conversion-documents",
-          "fullLabel": "conversion-documents",
-          "color": "research",
-          "tag": "#conversion-documents"
         }
       ],
       "cardTitle": "book-to-skill",
@@ -12225,7 +12114,7 @@
       "github": "https://github.com/agricidaniel/claude-ads",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Analyse données publicitaires pour identifier problèmes et optimisations",
+      "summary": "Analyse les données pour identifier les problèmes et optimiser les campagnes.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -12516,7 +12405,7 @@
         }
       ],
       "cardTitle": "Claude Ads",
-      "cardInterest": "Analyse données publicitaires pour identifier problèmes et optimisations"
+      "cardInterest": "Analyse les données pour identifier les problèmes et optimiser les campagnes."
     },
     {
       "id": "watch-technical-2ac64d2afb7018ac9ff2-md",
@@ -12933,7 +12822,7 @@
       "github": "https://github.com/cline/cline",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Génère des codes et corrige les erreurs dans un projet.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -12945,7 +12834,7 @@
           "domain": [
             "domain.ai.agents.coding",
             "domain.dev.quality",
-            "domain.data.organization",
+            "domain.infrastructure",
             "domain.data.notes"
           ],
           "capability": [
@@ -13089,34 +12978,25 @@
             ]
           },
           {
-            "id": "domain.data.organization",
-            "label": "Organisation du travail",
-            "parent": "domain.data",
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
+            "parent": "domain",
             "aliases": [
-              "#project-management",
-              "#calendar",
-              "#rendez-vous"
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
             ],
             "patterns": [
-              "projets et taches",
-              "gestion de projet",
-              "planification",
-              "rendez.vous"
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
             ],
             "facet": "domain",
             "path": [
-              "Données et connaissances",
-              "Organisation du travail"
-            ]
-          },
-          {
-            "id": "domain.data",
-            "label": "Données et connaissances",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances"
+              "Infrastructure"
             ]
           },
           {
@@ -13140,6 +13020,16 @@
             "path": [
               "Données et connaissances",
               "Notes et organisation"
+            ]
+          },
+          {
+            "id": "domain.data",
+            "label": "Données et connaissances",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances"
             ]
           },
           {
@@ -13419,34 +13309,25 @@
           ]
         },
         {
-          "id": "domain.data.organization",
-          "label": "Organisation du travail",
-          "parent": "domain.data",
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
+          "parent": "domain",
           "aliases": [
-            "#project-management",
-            "#calendar",
-            "#rendez-vous"
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
           ],
           "patterns": [
-            "projets et taches",
-            "gestion de projet",
-            "planification",
-            "rendez.vous"
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
           ],
           "facet": "domain",
           "path": [
-            "Données et connaissances",
-            "Organisation du travail"
-          ]
-        },
-        {
-          "id": "domain.data",
-          "label": "Données et connaissances",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances"
+            "Infrastructure"
           ]
         },
         {
@@ -13470,6 +13351,16 @@
           "path": [
             "Données et connaissances",
             "Notes et organisation"
+          ]
+        },
+        {
+          "id": "domain.data",
+          "label": "Données et connaissances",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances"
           ]
         },
         {
@@ -13644,7 +13535,7 @@
         }
       ],
       "cardTitle": "Cline",
-      "cardInterest": ""
+      "cardInterest": "Génère des codes et corrige les erreurs dans un projet."
     },
     {
       "id": "watch-technical-2ffdb8097dd79859932a-md",
@@ -14458,7 +14349,7 @@
       "github": "https://github.com/hmbown/deepseek-tui",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Exécute des tâches dans le terminal avec des modèles. Gère les fichiers et les commandes.",
+      "summary": "Exécute des tâches de codage sans interface utilisateur.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -14469,8 +14360,9 @@
         "facets": {
           "domain": [
             "domain.ai.agents.coding",
-            "domain.ai.agents.integration",
-            "domain.ai.llm"
+            "domain.ai.llm",
+            "domain.dev.quality",
+            "domain.ai.agents.integration"
           ],
           "capability": [
             "capability.code.assist"
@@ -14567,27 +14459,6 @@
             "path": []
           },
           {
-            "id": "domain.ai.agents.integration",
-            "label": "Connecteurs et outils des agents",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#mcp",
-              "#mcp-server",
-              "#integrations",
-              "#agent-instructions",
-              "#agents-md",
-              "#agent-skill",
-              "#plugins"
-            ],
-            "patterns": [],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Connecteurs et outils des agents"
-            ]
-          },
-          {
             "id": "domain.ai.llm",
             "label": "Modèles de langage",
             "parent": "domain.ai",
@@ -14612,6 +14483,73 @@
             "path": [
               "Intelligence artificielle",
               "Modèles de langage"
+            ]
+          },
+          {
+            "id": "domain.dev.quality",
+            "label": "Qualité du code",
+            "parent": "domain.dev",
+            "aliases": [
+              "#code-review",
+              "#sast",
+              "#tests",
+              "#linting"
+            ],
+            "patterns": [
+              "reformat.*code",
+              "code python",
+              "codage",
+              "linting"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel",
+              "Qualité du code"
+            ]
+          },
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
+            ]
+          },
+          {
+            "id": "domain.ai.agents.integration",
+            "label": "Connecteurs et outils des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#mcp",
+              "#mcp-server",
+              "#integrations",
+              "#agent-instructions",
+              "#agents-md",
+              "#agent-skill",
+              "#plugins"
+            ],
+            "patterns": [],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Connecteurs et outils des agents"
             ]
           },
           {
@@ -14837,27 +14775,6 @@
           "path": []
         },
         {
-          "id": "domain.ai.agents.integration",
-          "label": "Connecteurs et outils des agents",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#mcp",
-            "#mcp-server",
-            "#integrations",
-            "#agent-instructions",
-            "#agents-md",
-            "#agent-skill",
-            "#plugins"
-          ],
-          "patterns": [],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Connecteurs et outils des agents"
-          ]
-        },
-        {
           "id": "domain.ai.llm",
           "label": "Modèles de langage",
           "parent": "domain.ai",
@@ -14882,6 +14799,73 @@
           "path": [
             "Intelligence artificielle",
             "Modèles de langage"
+          ]
+        },
+        {
+          "id": "domain.dev.quality",
+          "label": "Qualité du code",
+          "parent": "domain.dev",
+          "aliases": [
+            "#code-review",
+            "#sast",
+            "#tests",
+            "#linting"
+          ],
+          "patterns": [
+            "reformat.*code",
+            "code python",
+            "codage",
+            "linting"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel",
+            "Qualité du code"
+          ]
+        },
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
+          ]
+        },
+        {
+          "id": "domain.ai.agents.integration",
+          "label": "Connecteurs et outils des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#mcp",
+            "#mcp-server",
+            "#integrations",
+            "#agent-instructions",
+            "#agents-md",
+            "#agent-skill",
+            "#plugins"
+          ],
+          "patterns": [],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Connecteurs et outils des agents"
           ]
         },
         {
@@ -15048,7 +15032,7 @@
         }
       ],
       "cardTitle": "CodeWhale",
-      "cardInterest": "Exécute des tâches dans le terminal avec des modèles."
+      "cardInterest": "Exécute des tâches de codage sans interface utilisateur."
     },
     {
       "id": "watch-technical-8c3dc2a0187cafccea2a-md",
@@ -18342,7 +18326,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [],
-      "status": "a verifier",
+      "status": "actif",
       "path": "watch/technical-ddda9bed5feda3007847.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-ddda9bed5feda3007847.md",
       "sourceUrl": "https://github.com/voltagent/awesome-design-md",
@@ -18363,7 +18347,7 @@
       "github": "https://github.com/voltagent/awesome-design-md",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Facilite la création d'interfaces cohérentes avec un design système.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -18384,7 +18368,7 @@
             "source.x"
           ],
           "lifecycle": [
-            "lifecycle.review"
+            "lifecycle.active"
           ]
         },
         "concepts": [
@@ -18444,16 +18428,16 @@
             "path": []
           },
           {
-            "id": "lifecycle.review",
-            "label": "À vérifier",
+            "id": "lifecycle.active",
+            "label": "Actif",
             "parent": "lifecycle",
             "aliases": [
-              "#a-verifier",
-              "#to-verify"
+              "#actif",
+              "#active"
             ],
             "facet": "lifecycle",
             "path": [
-              "À vérifier"
+              "Actif"
             ]
           },
           {
@@ -18562,16 +18546,16 @@
           "path": []
         },
         {
-          "id": "lifecycle.review",
-          "label": "À vérifier",
+          "id": "lifecycle.active",
+          "label": "Actif",
           "parent": "lifecycle",
           "aliases": [
-            "#a-verifier",
-            "#to-verify"
+            "#actif",
+            "#active"
           ],
           "facet": "lifecycle",
           "path": [
-            "À vérifier"
+            "Actif"
           ]
         },
         {
@@ -18630,7 +18614,7 @@
         }
       ],
       "cardTitle": "DESIGN.md",
-      "cardInterest": ""
+      "cardInterest": "Facilite la création d'interfaces cohérentes avec un design système."
     },
     {
       "id": "watch-technical-80c1535b6e69bb84082c-md",
@@ -19820,7 +19804,7 @@
       "github": "https://github.com/rany2/edge-tts",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Convertir du texte en parole parlée MP3 avec sous-titres SRT via Microsoft Edge.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -20227,7 +20211,7 @@
         }
       ],
       "cardTitle": "edge-tts",
-      "cardInterest": ""
+      "cardInterest": "Convertir du texte en parole parlée MP3 avec sous-titres SRT via Microsoft Edge."
     },
     {
       "id": "watch-technical-e1728cc13c4a61f359d1-md",
@@ -20252,8 +20236,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [
-        "#python",
-        "#synthese-vocale"
+        "#python"
       ],
       "status": "actif",
       "path": "watch/technical-e1728cc13c4a61f359d1.md",
@@ -20280,17 +20263,15 @@
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
-      "theme": "media",
-      "themeLabel": "Voix",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.media.audio.voice"
+            "domain.unclassified"
           ],
-          "capability": [
-            "capability.voice.synthesize"
-          ],
+          "capability": [],
           "compatibility": [
             "compatibility.language.python"
           ],
@@ -20305,95 +20286,6 @@
           ]
         },
         "concepts": [
-          {
-            "id": "domain.media.audio.voice",
-            "label": "Voix",
-            "parent": "domain.media.audio",
-            "aliases": [
-              "#synthese-vocale",
-              "#clonage-vocal",
-              "#transcription",
-              "#traduction-audio",
-              "#voice",
-              "#tts",
-              "#speech-to-text"
-            ],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création",
-              "Audio",
-              "Voix"
-            ]
-          },
-          {
-            "id": "domain.media.audio",
-            "label": "Audio",
-            "parent": "domain.media",
-            "aliases": [
-              "#audio"
-            ],
-            "patterns": [
-              "\\baudio\\b",
-              "creation musicale",
-              "\\bvoix\\b",
-              "\\bvocale\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création",
-              "Audio"
-            ]
-          },
-          {
-            "id": "domain.media",
-            "label": "Audio, vidéo et création",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "capability.voice.synthesize",
-            "label": "Synthétiser une voix",
-            "parent": "capability.voice",
-            "aliases": [
-              "#synthese-vocale",
-              "#tts"
-            ],
-            "facet": "capability",
-            "path": [
-              "Traitement de la voix",
-              "Synthétiser une voix"
-            ]
-          },
-          {
-            "id": "capability.voice",
-            "label": "Traitement de la voix",
-            "parent": "capability",
-            "aliases": [],
-            "facet": "capability",
-            "path": [
-              "Traitement de la voix"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
           {
             "id": "compatibility.language.python",
             "label": "Python",
@@ -20483,100 +20375,30 @@
             "path": [
               "X / Twitter"
             ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
           }
         ],
         "unmappedTags": []
       },
       "concepts": [
-        {
-          "id": "domain.media.audio.voice",
-          "label": "Voix",
-          "parent": "domain.media.audio",
-          "aliases": [
-            "#synthese-vocale",
-            "#clonage-vocal",
-            "#transcription",
-            "#traduction-audio",
-            "#voice",
-            "#tts",
-            "#speech-to-text"
-          ],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création",
-            "Audio",
-            "Voix"
-          ]
-        },
-        {
-          "id": "domain.media.audio",
-          "label": "Audio",
-          "parent": "domain.media",
-          "aliases": [
-            "#audio"
-          ],
-          "patterns": [
-            "\\baudio\\b",
-            "creation musicale",
-            "\\bvoix\\b",
-            "\\bvocale\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création",
-            "Audio"
-          ]
-        },
-        {
-          "id": "domain.media",
-          "label": "Audio, vidéo et création",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "capability.voice.synthesize",
-          "label": "Synthétiser une voix",
-          "parent": "capability.voice",
-          "aliases": [
-            "#synthese-vocale",
-            "#tts"
-          ],
-          "facet": "capability",
-          "path": [
-            "Traitement de la voix",
-            "Synthétiser une voix"
-          ]
-        },
-        {
-          "id": "capability.voice",
-          "label": "Traitement de la voix",
-          "parent": "capability",
-          "aliases": [],
-          "facet": "capability",
-          "path": [
-            "Traitement de la voix"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
         {
           "id": "compatibility.language.python",
           "label": "Python",
@@ -20666,6 +20488,25 @@
           "path": [
             "X / Twitter"
           ]
+        },
+        {
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
         }
       ],
       "keywords": [
@@ -20674,12 +20515,6 @@
           "fullLabel": "python",
           "color": "dev",
           "tag": "#python"
-        },
-        {
-          "label": "#TTS",
-          "fullLabel": "Synthèse vocale",
-          "color": "media",
-          "tag": "#synthese-vocale"
         }
       ],
       "cardTitle": "elevenlabs-python",
@@ -23187,9 +23022,7 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [
-        "#publication-sociale"
-      ],
+      "tags": [],
       "status": "actif",
       "path": "watch/technical-c750bc2f9f73e8e1f5bd.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-c750bc2f9f73e8e1f5bd.md",
@@ -23235,9 +23068,7 @@
           "domain": [
             "domain.communication.publishing"
           ],
-          "capability": [
-            "capability.automation.publish"
-          ],
+          "capability": [],
           "compatibility": [],
           "risk": [],
           "source": [
@@ -23293,46 +23124,6 @@
             "parent": null,
             "aliases": [],
             "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "capability.automation.publish",
-            "label": "Publier sur plusieurs réseaux",
-            "parent": "capability.automation",
-            "aliases": [
-              "#publication-sociale"
-            ],
-            "facet": "capability",
-            "path": [
-              "Automatiser des actions",
-              "Publier sur plusieurs réseaux"
-            ]
-          },
-          {
-            "id": "capability.automation",
-            "label": "Automatiser des actions",
-            "parent": "capability",
-            "aliases": [
-              "#automation",
-              "#workflow",
-              "#workflows",
-              "#ui-automation"
-            ],
-            "patterns": [
-              "automatise.*tests",
-              "automatisation"
-            ],
-            "facet": "capability",
-            "path": [
-              "Automatiser des actions"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
             "path": []
           },
           {
@@ -23444,46 +23235,6 @@
           "path": []
         },
         {
-          "id": "capability.automation.publish",
-          "label": "Publier sur plusieurs réseaux",
-          "parent": "capability.automation",
-          "aliases": [
-            "#publication-sociale"
-          ],
-          "facet": "capability",
-          "path": [
-            "Automatiser des actions",
-            "Publier sur plusieurs réseaux"
-          ]
-        },
-        {
-          "id": "capability.automation",
-          "label": "Automatiser des actions",
-          "parent": "capability",
-          "aliases": [
-            "#automation",
-            "#workflow",
-            "#workflows",
-            "#ui-automation"
-          ],
-          "patterns": [
-            "automatise.*tests",
-            "automatisation"
-          ],
-          "facet": "capability",
-          "path": [
-            "Automatiser des actions"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -23545,10 +23296,10 @@
       ],
       "keywords": [
         {
-          "label": "#publication-sociale",
-          "fullLabel": "publication-sociale",
+          "label": "#publishing",
+          "fullLabel": "publishing",
           "color": "source",
-          "tag": "#publication-sociale"
+          "subjectId": "domain.communication.publishing"
         }
       ],
       "cardTitle": "Ghost",
@@ -24720,7 +24471,7 @@
       "github": "https://github.com/ericyi/gspn",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Génère des propositions de forme 3D pour segmenter des objets dans un nuage de points.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -25005,7 +24756,7 @@
         }
       ],
       "cardTitle": "GSPN",
-      "cardInterest": ""
+      "cardInterest": "Génère des propositions de forme 3D pour segmenter des objets dans un nuage de points."
     },
     {
       "id": "watch-technical-668711a6e10728221dfc-md",
@@ -27226,7 +26977,7 @@
         "facets": {
           "domain": [
             "domain.media.audio",
-            "domain.media.image",
+            "domain.media.video",
             "domain.science.weather"
           ],
           "capability": [
@@ -27284,27 +27035,27 @@
             "path": []
           },
           {
-            "id": "domain.media.image",
-            "label": "Images et graphisme",
+            "id": "domain.media.video",
+            "label": "Vidéo",
             "parent": "domain.media",
             "aliases": [
-              "#compression-images",
-              "#generation-images",
-              "#animation-svg",
-              "#image",
-              "#design",
-              "#svg",
-              "#inspiration"
+              "#montage-video",
+              "#video-editing",
+              "#generation-video",
+              "#video-generation",
+              "#ai-video",
+              "#video",
+              "#shortvideo",
+              "#ai-video-generator"
             ],
             "patterns": [
-              "\\bimages?\\b",
-              "\\bsvg\\b",
-              "visual intelligence"
+              "\\bvideos?\\b",
+              "\\bvideo\\b"
             ],
             "facet": "domain",
             "path": [
               "Audio, vidéo et création",
-              "Images et graphisme"
+              "Vidéo"
             ]
           },
           {
@@ -27484,27 +27235,27 @@
           "path": []
         },
         {
-          "id": "domain.media.image",
-          "label": "Images et graphisme",
+          "id": "domain.media.video",
+          "label": "Vidéo",
           "parent": "domain.media",
           "aliases": [
-            "#compression-images",
-            "#generation-images",
-            "#animation-svg",
-            "#image",
-            "#design",
-            "#svg",
-            "#inspiration"
+            "#montage-video",
+            "#video-editing",
+            "#generation-video",
+            "#video-generation",
+            "#ai-video",
+            "#video",
+            "#shortvideo",
+            "#ai-video-generator"
           ],
           "patterns": [
-            "\\bimages?\\b",
-            "\\bsvg\\b",
-            "visual intelligence"
+            "\\bvideos?\\b",
+            "\\bvideo\\b"
           ],
           "facet": "domain",
           "path": [
             "Audio, vidéo et création",
-            "Images et graphisme"
+            "Vidéo"
           ]
         },
         {
@@ -28942,9 +28693,7 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [
-        "#memoire-agents"
-      ],
+      "tags": [],
       "status": "actif",
       "path": "watch/technical-8f4d2163b5e697a72c77.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-8f4d2163b5e697a72c77.md",
@@ -28970,18 +28719,15 @@
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
-      "theme": "agent",
-      "themeLabel": "Mémoire des agents",
+      "theme": "llm",
+      "themeLabel": "Modèles de langage",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.llm",
-            "domain.ai.agents.memory"
+            "domain.ai.llm"
           ],
-          "capability": [
-            "capability.memory"
-          ],
+          "capability": [],
           "compatibility": [],
           "risk": [],
           "source": [
@@ -29049,75 +28795,6 @@
             "parent": null,
             "aliases": [],
             "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "domain.ai.agents.memory",
-            "label": "Mémoire des agents",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#memoire-agents",
-              "#memory",
-              "#long-term-memory",
-              "#context-engineering"
-            ],
-            "patterns": [
-              "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
-              "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Mémoire des agents"
-            ]
-          },
-          {
-            "id": "domain.ai.agents",
-            "label": "Agents IA",
-            "parent": "domain.ai",
-            "aliases": [
-              "#agent",
-              "#agents",
-              "#ai-agents",
-              "#personal-agent",
-              "#autonomous-agent",
-              "#ai-companion",
-              "#autonomous-company",
-              "#autonomous-research"
-            ],
-            "patterns": [
-              "\\bagents?\\b",
-              "agentique",
-              "\\bopenclaw\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA"
-            ]
-          },
-          {
-            "id": "capability.memory",
-            "label": "Conserver le contexte",
-            "parent": "capability",
-            "aliases": [
-              "#memoire-agents",
-              "#memory",
-              "#long-term-memory",
-              "#context-engineering"
-            ],
-            "facet": "capability",
-            "path": [
-              "Conserver le contexte"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
             "path": []
           },
           {
@@ -29241,75 +28918,6 @@
           "path": []
         },
         {
-          "id": "domain.ai.agents.memory",
-          "label": "Mémoire des agents",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#memoire-agents",
-            "#memory",
-            "#long-term-memory",
-            "#context-engineering"
-          ],
-          "patterns": [
-            "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
-            "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Mémoire des agents"
-          ]
-        },
-        {
-          "id": "domain.ai.agents",
-          "label": "Agents IA",
-          "parent": "domain.ai",
-          "aliases": [
-            "#agent",
-            "#agents",
-            "#ai-agents",
-            "#personal-agent",
-            "#autonomous-agent",
-            "#ai-companion",
-            "#autonomous-company",
-            "#autonomous-research"
-          ],
-          "patterns": [
-            "\\bagents?\\b",
-            "agentique",
-            "\\bopenclaw\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA"
-          ]
-        },
-        {
-          "id": "capability.memory",
-          "label": "Conserver le contexte",
-          "parent": "capability",
-          "aliases": [
-            "#memoire-agents",
-            "#memory",
-            "#long-term-memory",
-            "#context-engineering"
-          ],
-          "facet": "capability",
-          "path": [
-            "Conserver le contexte"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -29371,10 +28979,10 @@
       ],
       "keywords": [
         {
-          "label": "#Mémoire",
-          "fullLabel": "Mémoire des agents",
-          "color": "agent",
-          "tag": "#memoire-agents"
+          "label": "#LLM",
+          "fullLabel": "Modèles de langage",
+          "color": "llm",
+          "subjectId": "domain.ai.llm"
         }
       ],
       "cardTitle": "llama.cpp",
@@ -30545,7 +30153,6 @@
       "publishable": true,
       "shareable": true,
       "tags": [
-        "#extraction-web",
         "#recherche-documentaire",
         "#python",
         "#pdf"
@@ -30582,11 +30189,9 @@
         "facets": {
           "domain": [
             "domain.ai",
-            "domain.data.research",
-            "domain.data.web"
+            "domain.data.research"
           ],
           "capability": [
-            "capability.scraping",
             "capability.research"
           ],
           "compatibility": [
@@ -30666,45 +30271,6 @@
             ]
           },
           {
-            "id": "domain.data.web",
-            "label": "Collecte web",
-            "parent": "domain.data",
-            "aliases": [
-              "#extraction-web",
-              "#scraping",
-              "#web-extraction",
-              "#crawler"
-            ],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances",
-              "Collecte web"
-            ]
-          },
-          {
-            "id": "capability.scraping",
-            "label": "Extraire des données web",
-            "parent": "capability",
-            "aliases": [
-              "#extraction-web",
-              "#scraping",
-              "#web-extraction",
-              "#crawler"
-            ],
-            "facet": "capability",
-            "path": [
-              "Extraire des données web"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
-          {
             "id": "capability.research",
             "label": "Rechercher des documents",
             "parent": "capability",
@@ -30715,6 +30281,14 @@
             "path": [
               "Rechercher des documents"
             ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
           },
           {
             "id": "compatibility.language.python",
@@ -30895,45 +30469,6 @@
           ]
         },
         {
-          "id": "domain.data.web",
-          "label": "Collecte web",
-          "parent": "domain.data",
-          "aliases": [
-            "#extraction-web",
-            "#scraping",
-            "#web-extraction",
-            "#crawler"
-          ],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances",
-            "Collecte web"
-          ]
-        },
-        {
-          "id": "capability.scraping",
-          "label": "Extraire des données web",
-          "parent": "capability",
-          "aliases": [
-            "#extraction-web",
-            "#scraping",
-            "#web-extraction",
-            "#crawler"
-          ],
-          "facet": "capability",
-          "path": [
-            "Extraire des données web"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
           "id": "capability.research",
           "label": "Rechercher des documents",
           "parent": "capability",
@@ -30944,6 +30479,14 @@
           "path": [
             "Rechercher des documents"
           ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
         },
         {
           "id": "compatibility.language.python",
@@ -31060,12 +30603,6 @@
         }
       ],
       "keywords": [
-        {
-          "label": "#extraction-web",
-          "fullLabel": "extraction-web",
-          "color": "research",
-          "tag": "#extraction-web"
-        },
         {
           "label": "#Recherche",
           "fullLabel": "Recherche documentaire",
@@ -31687,8 +31224,7 @@
       "shareable": true,
       "tags": [
         "#react",
-        "#conversion-documents",
-        "#generation-images"
+        "#conversion-documents"
       ],
       "status": "actif",
       "path": "watch/technical-10eda570000d9c7eeda1.md",
@@ -31726,8 +31262,7 @@
             "domain.data.documents"
           ],
           "capability": [
-            "capability.documents.convert",
-            "capability.generate.image"
+            "capability.documents.convert"
           ],
           "compatibility": [],
           "risk": [],
@@ -31879,29 +31414,6 @@
             "aliases": [],
             "facet": "capability",
             "path": []
-          },
-          {
-            "id": "capability.generate.image",
-            "label": "Générer une image",
-            "parent": "capability.generate",
-            "aliases": [
-              "#generation-images"
-            ],
-            "facet": "capability",
-            "path": [
-              "Générer des contenus",
-              "Générer une image"
-            ]
-          },
-          {
-            "id": "capability.generate",
-            "label": "Générer des contenus",
-            "parent": "capability",
-            "aliases": [],
-            "facet": "capability",
-            "path": [
-              "Générer des contenus"
-            ]
           },
           {
             "id": "lifecycle.active",
@@ -32106,29 +31618,6 @@
           "path": []
         },
         {
-          "id": "capability.generate.image",
-          "label": "Générer une image",
-          "parent": "capability.generate",
-          "aliases": [
-            "#generation-images"
-          ],
-          "facet": "capability",
-          "path": [
-            "Générer des contenus",
-            "Générer une image"
-          ]
-        },
-        {
-          "id": "capability.generate",
-          "label": "Générer des contenus",
-          "parent": "capability",
-          "aliases": [],
-          "facet": "capability",
-          "path": [
-            "Générer des contenus"
-          ]
-        },
-        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -32200,12 +31689,6 @@
           "fullLabel": "conversion-documents",
           "color": "research",
           "tag": "#conversion-documents"
-        },
-        {
-          "label": "#Images",
-          "fullLabel": "Génération d’images",
-          "color": "media",
-          "tag": "#generation-images"
         }
       ],
       "cardTitle": "markdown-to-image",
@@ -34227,22 +33710,21 @@
       "github": "https://github.com/mistralai/mistral-vibe",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet d'explorer et modifier le code avec un assistant IA",
+      "summary": "Permet d'explorer et de modifier le codebase avec des commandes naturelles",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
-      "theme": "llm",
-      "themeLabel": "Modèles de langage",
+      "theme": "agent",
+      "themeLabel": "Agents IA",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
+            "domain.ai.agents",
             "domain.ai.llm",
-            "domain.dev.quality"
+            "domain.dev"
           ],
-          "capability": [
-            "capability.code.assist"
-          ],
+          "capability": [],
           "compatibility": [
             "compatibility.interface.terminal"
           ],
@@ -34258,30 +33740,28 @@
         },
         "concepts": [
           {
-            "id": "domain.ai.llm",
-            "label": "Modèles de langage",
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
             "parent": "domain.ai",
             "aliases": [
-              "#llm",
-              "#inference",
-              "#providers",
-              "#openai-compatible",
-              "#comparaison-modeles",
-              "#inference-locale"
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
             ],
             "patterns": [
-              "\\bllm\\b",
-              "\\bqwen\\w*",
-              "\\bdeepseek\\b",
-              "\\bnotebooklm\\b",
-              "\\bgemini\\b",
-              "\\bgpt[ -]?\\d",
-              "mistral vibe"
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
             ],
             "facet": "domain",
             "path": [
               "Intelligence artificielle",
-              "Modèles de langage"
+              "Agents IA"
             ]
           },
           {
@@ -34315,25 +33795,30 @@
             "path": []
           },
           {
-            "id": "domain.dev.quality",
-            "label": "Qualité du code",
-            "parent": "domain.dev",
+            "id": "domain.ai.llm",
+            "label": "Modèles de langage",
+            "parent": "domain.ai",
             "aliases": [
-              "#code-review",
-              "#sast",
-              "#tests",
-              "#linting"
+              "#llm",
+              "#inference",
+              "#providers",
+              "#openai-compatible",
+              "#comparaison-modeles",
+              "#inference-locale"
             ],
             "patterns": [
-              "reformat.*code",
-              "code python",
-              "codage",
-              "linting"
+              "\\bllm\\b",
+              "\\bqwen\\w*",
+              "\\bdeepseek\\b",
+              "\\bnotebooklm\\b",
+              "\\bgemini\\b",
+              "\\bgpt[ -]?\\d",
+              "mistral vibe"
             ],
             "facet": "domain",
             "path": [
-              "Développement logiciel",
-              "Qualité du code"
+              "Intelligence artificielle",
+              "Modèles de langage"
             ]
           },
           {
@@ -34359,33 +33844,6 @@
             "path": [
               "Développement logiciel"
             ]
-          },
-          {
-            "id": "capability.code.assist",
-            "label": "Assister le développement",
-            "parent": "capability",
-            "aliases": [
-              "#agents-code",
-              "#coding-agents",
-              "#pair-programming"
-            ],
-            "patterns": [
-              "reformat.*code",
-              "assistance de codage",
-              "modifier.*fichiers.*projet"
-            ],
-            "facet": "capability",
-            "path": [
-              "Assister le développement"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
           },
           {
             "id": "compatibility.interface.terminal",
@@ -34483,30 +33941,28 @@
       },
       "concepts": [
         {
-          "id": "domain.ai.llm",
-          "label": "Modèles de langage",
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
           "parent": "domain.ai",
           "aliases": [
-            "#llm",
-            "#inference",
-            "#providers",
-            "#openai-compatible",
-            "#comparaison-modeles",
-            "#inference-locale"
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
           ],
           "patterns": [
-            "\\bllm\\b",
-            "\\bqwen\\w*",
-            "\\bdeepseek\\b",
-            "\\bnotebooklm\\b",
-            "\\bgemini\\b",
-            "\\bgpt[ -]?\\d",
-            "mistral vibe"
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
           ],
           "facet": "domain",
           "path": [
             "Intelligence artificielle",
-            "Modèles de langage"
+            "Agents IA"
           ]
         },
         {
@@ -34540,25 +33996,30 @@
           "path": []
         },
         {
-          "id": "domain.dev.quality",
-          "label": "Qualité du code",
-          "parent": "domain.dev",
+          "id": "domain.ai.llm",
+          "label": "Modèles de langage",
+          "parent": "domain.ai",
           "aliases": [
-            "#code-review",
-            "#sast",
-            "#tests",
-            "#linting"
+            "#llm",
+            "#inference",
+            "#providers",
+            "#openai-compatible",
+            "#comparaison-modeles",
+            "#inference-locale"
           ],
           "patterns": [
-            "reformat.*code",
-            "code python",
-            "codage",
-            "linting"
+            "\\bllm\\b",
+            "\\bqwen\\w*",
+            "\\bdeepseek\\b",
+            "\\bnotebooklm\\b",
+            "\\bgemini\\b",
+            "\\bgpt[ -]?\\d",
+            "mistral vibe"
           ],
           "facet": "domain",
           "path": [
-            "Développement logiciel",
-            "Qualité du code"
+            "Intelligence artificielle",
+            "Modèles de langage"
           ]
         },
         {
@@ -34584,33 +34045,6 @@
           "path": [
             "Développement logiciel"
           ]
-        },
-        {
-          "id": "capability.code.assist",
-          "label": "Assister le développement",
-          "parent": "capability",
-          "aliases": [
-            "#agents-code",
-            "#coding-agents",
-            "#pair-programming"
-          ],
-          "patterns": [
-            "reformat.*code",
-            "assistance de codage",
-            "modifier.*fichiers.*projet"
-          ],
-          "facet": "capability",
-          "path": [
-            "Assister le développement"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
         },
         {
           "id": "compatibility.interface.terminal",
@@ -34713,7 +34147,7 @@
         }
       ],
       "cardTitle": "Mistral Vibe",
-      "cardInterest": "Permet d'explorer et modifier le code avec un assistant IA"
+      "cardInterest": "Permet d'explorer et de modifier le codebase avec des commandes naturelles"
     },
     {
       "id": "watch-technical-9e0cc8c5c3c327b3c50b-md",
@@ -36372,7 +35806,7 @@
       "github": "https://github.com/teng-lin/notebooklm-py",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Accès programmatique aux fonctionnalités non exposées via CLI et agents AI",
+      "summary": "Intégration d'agents LLM avec Gemini Notebook",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -36904,7 +36338,7 @@
         }
       ],
       "cardTitle": "notebooklm-py",
-      "cardInterest": "Accès programmatique aux fonctionnalités non exposées via CLI et agents AI"
+      "cardInterest": "Intégration d'agents LLM avec Gemini Notebook"
     },
     {
       "id": "watch-technical-614a514ae65ec429804d-md",
@@ -38374,9 +37808,7 @@
       "shareable": true,
       "tags": [
         "#generation-video",
-        "#generation-images",
-        "#application-bureau",
-        "#inference-locale"
+        "#generation-images"
       ],
       "status": "actif",
       "path": "watch/technical-411490b28204e94a3778.md",
@@ -38897,7 +38329,7 @@
       "github": "https://github.com/anil-matcha/open-generative-ai",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des contenus visuels sans restrictions",
+      "summary": "Crée des images et vidéos sans filtre de contenu",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -38907,18 +38339,15 @@
         "version": "1.1",
         "facets": {
           "domain": [
+            "domain.ai",
             "domain.media.video",
-            "domain.media.image",
-            "domain.ai.llm"
+            "domain.media.image"
           ],
           "capability": [
             "capability.generate.video",
             "capability.generate.image"
           ],
-          "compatibility": [
-            "compatibility.interface.desktop",
-            "compatibility.deployment.local"
-          ],
+          "compatibility": [],
           "risk": [],
           "source": [
             "source.noteplan",
@@ -38930,6 +38359,36 @@
           ]
         },
         "concepts": [
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
           {
             "id": "domain.media.video",
             "label": "Vidéo",
@@ -38965,14 +38424,6 @@
             ]
           },
           {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
             "id": "domain.media.image",
             "label": "Images et graphisme",
             "parent": "domain.media",
@@ -38994,55 +38445,6 @@
             "path": [
               "Audio, vidéo et création",
               "Images et graphisme"
-            ]
-          },
-          {
-            "id": "domain.ai.llm",
-            "label": "Modèles de langage",
-            "parent": "domain.ai",
-            "aliases": [
-              "#llm",
-              "#inference",
-              "#providers",
-              "#openai-compatible",
-              "#comparaison-modeles",
-              "#inference-locale"
-            ],
-            "patterns": [
-              "\\bllm\\b",
-              "\\bqwen\\w*",
-              "\\bdeepseek\\b",
-              "\\bnotebooklm\\b",
-              "\\bgemini\\b",
-              "\\bgpt[ -]?\\d",
-              "mistral vibe"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Modèles de langage"
-            ]
-          },
-          {
-            "id": "domain.ai",
-            "label": "Intelligence artificielle",
-            "parent": "domain",
-            "aliases": [
-              "#ia",
-              "#ai",
-              "#generative-ai",
-              "#ai-assistant",
-              "#creative-ai"
-            ],
-            "patterns": [
-              "\\bia\\b",
-              "\\bai\\b",
-              "intelligence artificielle",
-              "artificial intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle"
             ]
           },
           {
@@ -39089,63 +38491,6 @@
             "path": [
               "Générer des contenus",
               "Générer une image"
-            ]
-          },
-          {
-            "id": "compatibility.interface.desktop",
-            "label": "Application de bureau",
-            "parent": "compatibility.interface",
-            "aliases": [
-              "#application-bureau",
-              "#desktop-app"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces",
-              "Application de bureau"
-            ]
-          },
-          {
-            "id": "compatibility.interface",
-            "label": "Interfaces",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces"
-            ]
-          },
-          {
-            "id": "compatibility",
-            "label": "Compatibilités",
-            "parent": null,
-            "aliases": [],
-            "facet": "compatibility",
-            "path": []
-          },
-          {
-            "id": "compatibility.deployment.local",
-            "label": "Exécution locale",
-            "parent": "compatibility.deployment",
-            "aliases": [
-              "#inference-locale",
-              "#local-first",
-              "#local-ai"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Exécution",
-              "Exécution locale"
-            ]
-          },
-          {
-            "id": "compatibility.deployment",
-            "label": "Exécution",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Exécution"
             ]
           },
           {
@@ -39212,6 +38557,36 @@
       },
       "concepts": [
         {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
           "id": "domain.media.video",
           "label": "Vidéo",
           "parent": "domain.media",
@@ -39246,14 +38621,6 @@
           ]
         },
         {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
           "id": "domain.media.image",
           "label": "Images et graphisme",
           "parent": "domain.media",
@@ -39275,55 +38642,6 @@
           "path": [
             "Audio, vidéo et création",
             "Images et graphisme"
-          ]
-        },
-        {
-          "id": "domain.ai.llm",
-          "label": "Modèles de langage",
-          "parent": "domain.ai",
-          "aliases": [
-            "#llm",
-            "#inference",
-            "#providers",
-            "#openai-compatible",
-            "#comparaison-modeles",
-            "#inference-locale"
-          ],
-          "patterns": [
-            "\\bllm\\b",
-            "\\bqwen\\w*",
-            "\\bdeepseek\\b",
-            "\\bnotebooklm\\b",
-            "\\bgemini\\b",
-            "\\bgpt[ -]?\\d",
-            "mistral vibe"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Modèles de langage"
-          ]
-        },
-        {
-          "id": "domain.ai",
-          "label": "Intelligence artificielle",
-          "parent": "domain",
-          "aliases": [
-            "#ia",
-            "#ai",
-            "#generative-ai",
-            "#ai-assistant",
-            "#creative-ai"
-          ],
-          "patterns": [
-            "\\bia\\b",
-            "\\bai\\b",
-            "intelligence artificielle",
-            "artificial intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle"
           ]
         },
         {
@@ -39370,63 +38688,6 @@
           "path": [
             "Générer des contenus",
             "Générer une image"
-          ]
-        },
-        {
-          "id": "compatibility.interface.desktop",
-          "label": "Application de bureau",
-          "parent": "compatibility.interface",
-          "aliases": [
-            "#application-bureau",
-            "#desktop-app"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces",
-            "Application de bureau"
-          ]
-        },
-        {
-          "id": "compatibility.interface",
-          "label": "Interfaces",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces"
-          ]
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibilités",
-          "parent": null,
-          "aliases": [],
-          "facet": "compatibility",
-          "path": []
-        },
-        {
-          "id": "compatibility.deployment.local",
-          "label": "Exécution locale",
-          "parent": "compatibility.deployment",
-          "aliases": [
-            "#inference-locale",
-            "#local-first",
-            "#local-ai"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Exécution",
-            "Exécution locale"
-          ]
-        },
-        {
-          "id": "compatibility.deployment",
-          "label": "Exécution",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Exécution"
           ]
         },
         {
@@ -39501,22 +38762,10 @@
           "fullLabel": "Génération d’images",
           "color": "media",
           "tag": "#generation-images"
-        },
-        {
-          "label": "#application-bureau",
-          "fullLabel": "application-bureau",
-          "color": "tool",
-          "tag": "#application-bureau"
-        },
-        {
-          "label": "#inference-locale",
-          "fullLabel": "inference-locale",
-          "color": "llm",
-          "tag": "#inference-locale"
         }
       ],
       "cardTitle": "Open Generative AI",
-      "cardInterest": "Crée des contenus visuels sans restrictions"
+      "cardInterest": "Crée des images et vidéos sans filtre de contenu"
     },
     {
       "id": "watch-technical-00898489ed72fd55e12d-md",
@@ -39543,7 +38792,6 @@
       "tags": [
         "#synthese-vocale",
         "#application-bureau",
-        "#transcription",
         "#macos"
       ],
       "status": "actif",
@@ -39567,7 +38815,7 @@
       "github": "https://github.com/open-llm-vtuber/open-llm-vtuber",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet d'interagir avec un avatar IA en temps réel. Fournit une expérience de compagnon personnalisable.",
+      "summary": "Permet d'interagir avec un avatar IA en temps réel",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -39581,8 +38829,7 @@
             "domain.media.audio.voice"
           ],
           "capability": [
-            "capability.voice.synthesize",
-            "capability.voice.transcribe"
+            "capability.voice.synthesize"
           ],
           "compatibility": [
             "compatibility.interface.desktop",
@@ -39736,21 +38983,6 @@
             "aliases": [],
             "facet": "capability",
             "path": []
-          },
-          {
-            "id": "capability.voice.transcribe",
-            "label": "Transcrire",
-            "parent": "capability.voice",
-            "aliases": [
-              "#transcription",
-              "#speech-to-text",
-              "#asr"
-            ],
-            "facet": "capability",
-            "path": [
-              "Traitement de la voix",
-              "Transcrire"
-            ]
           },
           {
             "id": "compatibility.interface.desktop",
@@ -40009,21 +39241,6 @@
           "path": []
         },
         {
-          "id": "capability.voice.transcribe",
-          "label": "Transcrire",
-          "parent": "capability.voice",
-          "aliases": [
-            "#transcription",
-            "#speech-to-text",
-            "#asr"
-          ],
-          "facet": "capability",
-          "path": [
-            "Traitement de la voix",
-            "Transcrire"
-          ]
-        },
-        {
           "id": "compatibility.interface.desktop",
           "label": "Application de bureau",
           "parent": "compatibility.interface",
@@ -40152,12 +39369,6 @@
           "tag": "#application-bureau"
         },
         {
-          "label": "#STT",
-          "fullLabel": "Transcription / reconnaissance vocale",
-          "color": "media",
-          "tag": "#transcription"
-        },
-        {
           "label": "#macos",
           "fullLabel": "macos",
           "color": "tool",
@@ -40165,7 +39376,7 @@
         }
       ],
       "cardTitle": "Open-LLM-VTuber",
-      "cardInterest": "Permet d'interagir avec un avatar IA en temps réel."
+      "cardInterest": "Permet d'interagir avec un avatar IA en temps réel"
     },
     {
       "id": "watch-technical-690719855ba11af8d90c-md",
@@ -41100,6 +40311,542 @@
       ],
       "cardTitle": "openclaw",
       "cardInterest": "intègre des canaux de messagerie pour un assistant IA local"
+    },
+    {
+      "id": "watch-technical-7f84d8cb0f021d98f595-md",
+      "title": "OpenCut - Outil de découpage d'images",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "MIT",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/OpenCut-app/OpenCut"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#application-bureau"
+      ],
+      "status": "actif",
+      "path": "watch/technical-7f84d8cb0f021d98f595.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-7f84d8cb0f021d98f595.md",
+      "sourceUrl": "https://github.com/OpenCut-app/OpenCut",
+      "sources": [
+        {
+          "url": "https://github.com/opencut-app/opencut",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2055958924650512508",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://opencut.app/",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://bun.sh/docs/installation",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://docs.docker.com/get-started/get-docker",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://docs.docker.com/compose/install",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://moonrepo.dev/docs/proto/tool-spec",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://moonrepo.dev/moon",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/docs/documentation",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://fal.ai/docs/documentation/compute",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://fal.ai/models/minimax/h3-max/image-to-video",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/models/bytedance/seedance-2.5/reference-to-video",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/models/meshy/v7.1/image-to-3d",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/models/blackforestlabs/flux-3/edit-image",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/docs/documentation/serverless",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://fal.ai/gpt-image-2.5",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/seedance-2.5",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/gemini-omni",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/models/fal-ai/kling-video/o3/standard/image-to-video",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/models/fal-ai/veo3.1",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/ltx-2.3",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/pixverse-v6",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/tools/image-upscaler",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://fal.ai/tools/image-extender",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        }
+      ],
+      "github": "https://github.com/opencut-app/opencut",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Permet d'éditer des vidéos sur plusieurs plateformes.",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-10-26",
+      "theme": "media",
+      "themeLabel": "Vidéo",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.media.video",
+            "domain.media.image"
+          ],
+          "capability": [],
+          "compatibility": [
+            "compatibility.interface.desktop"
+          ],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.media.video",
+            "label": "Vidéo",
+            "parent": "domain.media",
+            "aliases": [
+              "#montage-video",
+              "#video-editing",
+              "#generation-video",
+              "#video-generation",
+              "#ai-video",
+              "#video",
+              "#shortvideo",
+              "#ai-video-generator"
+            ],
+            "patterns": [
+              "\\bvideos?\\b",
+              "\\bvideo\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Vidéo"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.media.image",
+            "label": "Images et graphisme",
+            "parent": "domain.media",
+            "aliases": [
+              "#compression-images",
+              "#generation-images",
+              "#animation-svg",
+              "#image",
+              "#design",
+              "#svg",
+              "#inspiration"
+            ],
+            "patterns": [
+              "\\bimages?\\b",
+              "\\bsvg\\b",
+              "visual intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Images et graphisme"
+            ]
+          },
+          {
+            "id": "compatibility.interface.desktop",
+            "label": "Application de bureau",
+            "parent": "compatibility.interface",
+            "aliases": [
+              "#application-bureau",
+              "#desktop-app"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces",
+              "Application de bureau"
+            ]
+          },
+          {
+            "id": "compatibility.interface",
+            "label": "Interfaces",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.media.video",
+          "label": "Vidéo",
+          "parent": "domain.media",
+          "aliases": [
+            "#montage-video",
+            "#video-editing",
+            "#generation-video",
+            "#video-generation",
+            "#ai-video",
+            "#video",
+            "#shortvideo",
+            "#ai-video-generator"
+          ],
+          "patterns": [
+            "\\bvideos?\\b",
+            "\\bvideo\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Vidéo"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.media.image",
+          "label": "Images et graphisme",
+          "parent": "domain.media",
+          "aliases": [
+            "#compression-images",
+            "#generation-images",
+            "#animation-svg",
+            "#image",
+            "#design",
+            "#svg",
+            "#inspiration"
+          ],
+          "patterns": [
+            "\\bimages?\\b",
+            "\\bsvg\\b",
+            "visual intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Images et graphisme"
+          ]
+        },
+        {
+          "id": "compatibility.interface.desktop",
+          "label": "Application de bureau",
+          "parent": "compatibility.interface",
+          "aliases": [
+            "#application-bureau",
+            "#desktop-app"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces",
+            "Application de bureau"
+          ]
+        },
+        {
+          "id": "compatibility.interface",
+          "label": "Interfaces",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#application-bureau",
+          "fullLabel": "application-bureau",
+          "color": "tool",
+          "tag": "#application-bureau"
+        }
+      ],
+      "cardTitle": "OpenCut",
+      "cardInterest": "Permet d'éditer des vidéos sur plusieurs plateformes."
     },
     {
       "id": "watch-technical-757ce536b0a4cbc2f860-md",
@@ -42898,7 +42645,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [],
-      "status": "a verifier",
+      "status": "actif",
       "path": "watch/technical-c0d4875dd605f77caf57.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-c0d4875dd605f77caf57.md",
       "sourceUrl": "https://github.com/penpot/penpot",
@@ -42931,7 +42678,7 @@
       "github": "https://github.com/penpot/penpot",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Créez des interfaces réactives avec des maquettes lisibles par code.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -42953,7 +42700,7 @@
             "source.x"
           ],
           "lifecycle": [
-            "lifecycle.review"
+            "lifecycle.active"
           ]
         },
         "concepts": [
@@ -43050,16 +42797,16 @@
             ]
           },
           {
-            "id": "lifecycle.review",
-            "label": "À vérifier",
+            "id": "lifecycle.active",
+            "label": "Actif",
             "parent": "lifecycle",
             "aliases": [
-              "#a-verifier",
-              "#to-verify"
+              "#actif",
+              "#active"
             ],
             "facet": "lifecycle",
             "path": [
-              "À vérifier"
+              "Actif"
             ]
           },
           {
@@ -43205,16 +42952,16 @@
           ]
         },
         {
-          "id": "lifecycle.review",
-          "label": "À vérifier",
+          "id": "lifecycle.active",
+          "label": "Actif",
           "parent": "lifecycle",
           "aliases": [
-            "#a-verifier",
-            "#to-verify"
+            "#actif",
+            "#active"
           ],
           "facet": "lifecycle",
           "path": [
-            "À vérifier"
+            "Actif"
           ]
         },
         {
@@ -43279,7 +43026,7 @@
         }
       ],
       "cardTitle": "Penpot",
-      "cardInterest": ""
+      "cardInterest": "Créez des interfaces réactives avec des maquettes lisibles par code."
     },
     {
       "id": "watch-technical-97416d4ba88591c565b7-md",
@@ -43763,7 +43510,7 @@
       "github": "https://github.com/earendil-works/pi",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Permet d'automatiser des tâches complexes avec un agent d'intelligence artificielle.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -44096,7 +43843,7 @@
         }
       ],
       "cardTitle": "Pi",
-      "cardInterest": ""
+      "cardInterest": "Permet d'automatiser des tâches complexes avec un agent d'intelligence artificielle."
     },
     {
       "id": "watch-technical-1158f7d0b091e0866c17-md",
@@ -46651,10 +46398,9 @@
       "publishable": true,
       "shareable": true,
       "tags": [
-        "#pentest",
         "#anonymisation"
       ],
-      "status": "actif",
+      "status": "sensible",
       "path": "watch/technical-ca7cb887e2ca56aa74cb.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-ca7cb887e2ca56aa74cb.md",
       "sourceUrl": "https://github.com/openbashok/promptzero",
@@ -46807,35 +46553,91 @@
       "github": "https://github.com/openbashok/promptzero",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Anonymise les données sensibles avant transmission",
+      "summary": "Protection des données sensibles avant l'envoi vers un API non contrôlé",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
-      "theme": "privacy",
-      "themeLabel": "Protection des données",
+      "theme": "llm",
+      "themeLabel": "Modèles de langage",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.privacy",
-            "domain.security.testing"
+            "domain.ai.llm",
+            "domain.privacy"
           ],
           "capability": [
-            "capability.security.pentest",
             "capability.privacy.anonymize"
           ],
           "compatibility": [],
-          "risk": [],
+          "risk": [
+            "risk.sensitive"
+          ],
           "source": [
             "source.noteplan",
             "source.github",
             "source.x"
           ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
+          "lifecycle": []
         },
         "concepts": [
+          {
+            "id": "domain.ai.llm",
+            "label": "Modèles de langage",
+            "parent": "domain.ai",
+            "aliases": [
+              "#llm",
+              "#inference",
+              "#providers",
+              "#openai-compatible",
+              "#comparaison-modeles",
+              "#inference-locale"
+            ],
+            "patterns": [
+              "\\bllm\\b",
+              "\\bqwen\\w*",
+              "\\bdeepseek\\b",
+              "\\bnotebooklm\\b",
+              "\\bgemini\\b",
+              "\\bgpt[ -]?\\d",
+              "mistral vibe"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Modèles de langage"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
           {
             "id": "domain.privacy",
             "label": "Protection des données",
@@ -46876,56 +46678,6 @@
             ]
           },
           {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "domain.security.testing",
-            "label": "Tests de sécurité",
-            "parent": "domain.security",
-            "aliases": [
-              "#pentest",
-              "#red-team",
-              "#offensive-security",
-              "#analyse-vulnerabilites",
-              "#vulnerability-scanning"
-            ],
-            "patterns": [
-              "bug hunter",
-              "vulnerabilit",
-              "pentest"
-            ],
-            "facet": "domain",
-            "path": [
-              "Cybersécurité",
-              "Tests de sécurité"
-            ]
-          },
-          {
-            "id": "capability.security.pentest",
-            "label": "Tester la sécurité",
-            "parent": "capability",
-            "aliases": [
-              "#pentest"
-            ],
-            "facet": "capability",
-            "path": [
-              "Tester la sécurité"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
-          {
             "id": "capability.privacy.anonymize",
             "label": "Anonymiser",
             "parent": "capability",
@@ -46938,24 +46690,33 @@
             ]
           },
           {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "risk.sensitive",
+            "label": "Risque signalé",
+            "parent": "risk",
             "aliases": [
-              "#actif",
-              "#active"
+              "#sensible",
+              "#sensitive",
+              "#privacy-risk"
             ],
-            "facet": "lifecycle",
+            "facet": "risk",
             "path": [
-              "Actif"
+              "Risque signalé"
             ]
           },
           {
-            "id": "lifecycle",
-            "label": "État",
+            "id": "risk",
+            "label": "Risques",
             "parent": null,
             "aliases": [],
-            "facet": "lifecycle",
+            "facet": "risk",
             "path": []
           },
           {
@@ -47001,6 +46762,63 @@
       },
       "concepts": [
         {
+          "id": "domain.ai.llm",
+          "label": "Modèles de langage",
+          "parent": "domain.ai",
+          "aliases": [
+            "#llm",
+            "#inference",
+            "#providers",
+            "#openai-compatible",
+            "#comparaison-modeles",
+            "#inference-locale"
+          ],
+          "patterns": [
+            "\\bllm\\b",
+            "\\bqwen\\w*",
+            "\\bdeepseek\\b",
+            "\\bnotebooklm\\b",
+            "\\bgemini\\b",
+            "\\bgpt[ -]?\\d",
+            "mistral vibe"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Modèles de langage"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
           "id": "domain.privacy",
           "label": "Protection des données",
           "parent": "domain.security",
@@ -47040,56 +46858,6 @@
           ]
         },
         {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "domain.security.testing",
-          "label": "Tests de sécurité",
-          "parent": "domain.security",
-          "aliases": [
-            "#pentest",
-            "#red-team",
-            "#offensive-security",
-            "#analyse-vulnerabilites",
-            "#vulnerability-scanning"
-          ],
-          "patterns": [
-            "bug hunter",
-            "vulnerabilit",
-            "pentest"
-          ],
-          "facet": "domain",
-          "path": [
-            "Cybersécurité",
-            "Tests de sécurité"
-          ]
-        },
-        {
-          "id": "capability.security.pentest",
-          "label": "Tester la sécurité",
-          "parent": "capability",
-          "aliases": [
-            "#pentest"
-          ],
-          "facet": "capability",
-          "path": [
-            "Tester la sécurité"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
           "id": "capability.privacy.anonymize",
           "label": "Anonymiser",
           "parent": "capability",
@@ -47102,24 +46870,33 @@
           ]
         },
         {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "risk.sensitive",
+          "label": "Risque signalé",
+          "parent": "risk",
           "aliases": [
-            "#actif",
-            "#active"
+            "#sensible",
+            "#sensitive",
+            "#privacy-risk"
           ],
-          "facet": "lifecycle",
+          "facet": "risk",
           "path": [
-            "Actif"
+            "Risque signalé"
           ]
         },
         {
-          "id": "lifecycle",
-          "label": "État",
+          "id": "risk",
+          "label": "Risques",
           "parent": null,
           "aliases": [],
-          "facet": "lifecycle",
+          "facet": "risk",
           "path": []
         },
         {
@@ -47163,12 +46940,6 @@
       ],
       "keywords": [
         {
-          "label": "#pentest",
-          "fullLabel": "pentest",
-          "color": "security",
-          "tag": "#pentest"
-        },
-        {
           "label": "#anonymisation",
           "fullLabel": "anonymisation",
           "color": "privacy",
@@ -47176,7 +46947,7 @@
         }
       ],
       "cardTitle": "PromptZero",
-      "cardInterest": "Anonymise les données sensibles avant transmission"
+      "cardInterest": "Protection des données sensibles avant l'envoi vers un API non contrôlé"
     },
     {
       "id": "watch-technical-c8e0d0b7ca0f7e400713-md",
@@ -47225,7 +46996,7 @@
       "github": "https://github.com/remotion-dev/remotion",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Créez des vidéos via du code React, gagnez du temps et plus de contrôle.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -47714,7 +47485,7 @@
         }
       ],
       "cardTitle": "remotion",
-      "cardInterest": ""
+      "cardInterest": "Créez des vidéos via du code React, gagnez du temps et plus de contrôle."
     },
     {
       "id": "watch-technical-d07066251c23560c4586-md",
@@ -49581,7 +49352,7 @@
       "github": "https://github.com/mattpocock/skills",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Aligner les besoins avec l'agent avant de commencer",
+      "summary": "Aide à l'alignement entre utilisateur et agent via des sessions d'interrogation",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -49591,8 +49362,7 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents.skills",
-            "domain.data.organization"
+            "domain.ai.agents.skills"
           ],
           "capability": [
             "capability.skills"
@@ -49682,37 +49452,6 @@
             "aliases": [],
             "facet": "domain",
             "path": []
-          },
-          {
-            "id": "domain.data.organization",
-            "label": "Organisation du travail",
-            "parent": "domain.data",
-            "aliases": [
-              "#project-management",
-              "#calendar",
-              "#rendez-vous"
-            ],
-            "patterns": [
-              "projets et taches",
-              "gestion de projet",
-              "planification",
-              "rendez.vous"
-            ],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances",
-              "Organisation du travail"
-            ]
-          },
-          {
-            "id": "domain.data",
-            "label": "Données et connaissances",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances"
-            ]
           },
           {
             "id": "capability.skills",
@@ -49873,37 +49612,6 @@
           "path": []
         },
         {
-          "id": "domain.data.organization",
-          "label": "Organisation du travail",
-          "parent": "domain.data",
-          "aliases": [
-            "#project-management",
-            "#calendar",
-            "#rendez-vous"
-          ],
-          "patterns": [
-            "projets et taches",
-            "gestion de projet",
-            "planification",
-            "rendez.vous"
-          ],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances",
-            "Organisation du travail"
-          ]
-        },
-        {
-          "id": "domain.data",
-          "label": "Données et connaissances",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances"
-          ]
-        },
-        {
           "id": "capability.skills",
           "label": "Étendre les compétences d’un agent",
           "parent": "capability",
@@ -49993,7 +49701,7 @@
         }
       ],
       "cardTitle": "Skills For Real Engineers",
-      "cardInterest": "Aligner les besoins avec l'agent avant de commencer"
+      "cardInterest": "Aide à l'alignement entre utilisateur et agent via des sessions d'interrogation"
     },
     {
       "id": "watch-technical-12ae97bc3c76d07b5b3e-md",
@@ -51211,7 +50919,7 @@
       "github": "https://github.com/playcanvas/supersplat",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet d'éditer des splats 3D directement dans le navigateur",
+      "summary": "Permet de modifier des splats 3D Gaussiens sans installation",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -51221,7 +50929,6 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.infrastructure",
             "domain.media.3d"
           ],
           "capability": [
@@ -51239,36 +50946,6 @@
           ]
         },
         "concepts": [
-          {
-            "id": "domain.infrastructure",
-            "label": "Infrastructure",
-            "parent": "domain",
-            "aliases": [
-              "#infrastructure",
-              "#network-security",
-              "#vpn",
-              "#tailscale",
-              "#server",
-              "#linux-server"
-            ],
-            "patterns": [
-              "\\bvps\\b",
-              "serveurs?",
-              "\\bservers?\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Infrastructure"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
           {
             "id": "domain.media.3d",
             "label": "Création 3D",
@@ -51292,6 +50969,14 @@
             "path": [
               "Audio, vidéo et création"
             ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
           },
           {
             "id": "capability.generate.3d",
@@ -51388,36 +51073,6 @@
       },
       "concepts": [
         {
-          "id": "domain.infrastructure",
-          "label": "Infrastructure",
-          "parent": "domain",
-          "aliases": [
-            "#infrastructure",
-            "#network-security",
-            "#vpn",
-            "#tailscale",
-            "#server",
-            "#linux-server"
-          ],
-          "patterns": [
-            "\\bvps\\b",
-            "serveurs?",
-            "\\bservers?\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Infrastructure"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
           "id": "domain.media.3d",
           "label": "Création 3D",
           "parent": "domain.media",
@@ -51440,6 +51095,14 @@
           "path": [
             "Audio, vidéo et création"
           ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
         },
         {
           "id": "capability.generate.3d",
@@ -51541,7 +51204,7 @@
         }
       ],
       "cardTitle": "SuperSplat Editor",
-      "cardInterest": "Permet d'éditer des splats 3D directement dans le navigateur"
+      "cardInterest": "Permet de modifier des splats 3D Gaussiens sans installation"
     },
     {
       "id": "watch-technical-763a276cbab62cfc7a39-md",
@@ -53353,8 +53016,7 @@
       "tags": [
         "#application-bureau",
         "#mcp",
-        "#terminal",
-        "#automatisation-navigateur"
+        "#terminal"
       ],
       "status": "actif",
       "path": "watch/technical-bba9c08d417b5cda22d8.md",
@@ -53377,7 +53039,7 @@
       "github": "https://github.com/bytedance/ui-tars-desktop",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Contrôle à distance des ordinateurs et navigateurs avec interface graphique",
+      "summary": "Contrôle à distance des navigateurs et ordinateurs via interface graphique",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -53387,12 +53049,10 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.dev.desktop",
-            "domain.ai.agents.integration",
-            "domain.dev.browser"
+            "domain.ai.agents.integration"
           ],
           "capability": [
-            "capability.automation.browser"
+            "capability.automation"
           ],
           "compatibility": [
             "compatibility.interface.desktop",
@@ -53410,63 +53070,6 @@
           ]
         },
         "concepts": [
-          {
-            "id": "domain.dev.desktop",
-            "label": "Applications et interfaces de bureau",
-            "parent": "domain.dev",
-            "aliases": [
-              "#accessibility",
-              "#display",
-              "#hidpi",
-              "#text-expander",
-              "#apps",
-              "#desktop-agent"
-            ],
-            "patterns": [
-              "applications? de bureau",
-              "text expander",
-              "ecrans?",
-              "multi.instance",
-              "bootable usb"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel",
-              "Applications et interfaces de bureau"
-            ]
-          },
-          {
-            "id": "domain.dev",
-            "label": "Développement logiciel",
-            "parent": "domain",
-            "aliases": [
-              "#coding",
-              "#devtools",
-              "#editor",
-              "#code-quality"
-            ],
-            "patterns": [
-              "developpement logiciel",
-              "software development",
-              "ingenierie logicielle",
-              "developpement",
-              "programmat",
-              "modifier.*fichiers.*projet",
-              "modifier un projet"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
           {
             "id": "domain.ai.agents.integration",
             "label": "Connecteurs et outils des agents",
@@ -53536,36 +53139,12 @@
             ]
           },
           {
-            "id": "domain.dev.browser",
-            "label": "Outils de navigateur",
-            "parent": "domain.dev",
-            "aliases": [
-              "#browser-profiles",
-              "#browser-automation",
-              "#automatisation-navigateur"
-            ],
-            "patterns": [
-              "profils de navigateur"
-            ],
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
             "facet": "domain",
-            "path": [
-              "Développement logiciel",
-              "Outils de navigateur"
-            ]
-          },
-          {
-            "id": "capability.automation.browser",
-            "label": "Automatiser le navigateur",
-            "parent": "capability.automation",
-            "aliases": [
-              "#automatisation-navigateur",
-              "#browser-automation"
-            ],
-            "facet": "capability",
-            "path": [
-              "Automatiser des actions",
-              "Automatiser le navigateur"
-            ]
+            "path": []
           },
           {
             "id": "capability.automation",
@@ -53728,63 +53307,6 @@
       },
       "concepts": [
         {
-          "id": "domain.dev.desktop",
-          "label": "Applications et interfaces de bureau",
-          "parent": "domain.dev",
-          "aliases": [
-            "#accessibility",
-            "#display",
-            "#hidpi",
-            "#text-expander",
-            "#apps",
-            "#desktop-agent"
-          ],
-          "patterns": [
-            "applications? de bureau",
-            "text expander",
-            "ecrans?",
-            "multi.instance",
-            "bootable usb"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel",
-            "Applications et interfaces de bureau"
-          ]
-        },
-        {
-          "id": "domain.dev",
-          "label": "Développement logiciel",
-          "parent": "domain",
-          "aliases": [
-            "#coding",
-            "#devtools",
-            "#editor",
-            "#code-quality"
-          ],
-          "patterns": [
-            "developpement logiciel",
-            "software development",
-            "ingenierie logicielle",
-            "developpement",
-            "programmat",
-            "modifier.*fichiers.*projet",
-            "modifier un projet"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
           "id": "domain.ai.agents.integration",
           "label": "Connecteurs et outils des agents",
           "parent": "domain.ai.agents",
@@ -53853,36 +53375,12 @@
           ]
         },
         {
-          "id": "domain.dev.browser",
-          "label": "Outils de navigateur",
-          "parent": "domain.dev",
-          "aliases": [
-            "#browser-profiles",
-            "#browser-automation",
-            "#automatisation-navigateur"
-          ],
-          "patterns": [
-            "profils de navigateur"
-          ],
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
           "facet": "domain",
-          "path": [
-            "Développement logiciel",
-            "Outils de navigateur"
-          ]
-        },
-        {
-          "id": "capability.automation.browser",
-          "label": "Automatiser le navigateur",
-          "parent": "capability.automation",
-          "aliases": [
-            "#automatisation-navigateur",
-            "#browser-automation"
-          ],
-          "facet": "capability",
-          "path": [
-            "Automatiser des actions",
-            "Automatiser le navigateur"
-          ]
+          "path": []
         },
         {
           "id": "capability.automation",
@@ -54059,16 +53557,10 @@
           "fullLabel": "terminal",
           "color": "tool",
           "tag": "#terminal"
-        },
-        {
-          "label": "#automatisation-navigateur",
-          "fullLabel": "automatisation-navigateur",
-          "color": "agent",
-          "tag": "#automatisation-navigateur"
         }
       ],
       "cardTitle": "UI-TARS-desktop",
-      "cardInterest": "Contrôle à distance des ordinateurs et navigateurs avec interface graphique"
+      "cardInterest": "Contrôle à distance des navigateurs et ordinateurs via interface graphique"
     },
     {
       "id": "watch-technical-270127c4040820721fee-md",
@@ -54095,8 +53587,7 @@
       "tags": [
         "#detection-bots",
         "#securite-web",
-        "#python",
-        "#automatisation-navigateur"
+        "#python"
       ],
       "status": "actif",
       "path": "watch/technical-270127c4040820721fee.md",
@@ -54129,12 +53620,10 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.security.web",
-            "domain.dev.browser"
+            "domain.security.web"
           ],
           "capability": [
-            "capability.security.detectbots",
-            "capability.automation.browser"
+            "capability.security.detectbots"
           ],
           "compatibility": [
             "compatibility.language.python"
@@ -54191,48 +53680,6 @@
             "path": []
           },
           {
-            "id": "domain.dev.browser",
-            "label": "Outils de navigateur",
-            "parent": "domain.dev",
-            "aliases": [
-              "#browser-profiles",
-              "#browser-automation",
-              "#automatisation-navigateur"
-            ],
-            "patterns": [
-              "profils de navigateur"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel",
-              "Outils de navigateur"
-            ]
-          },
-          {
-            "id": "domain.dev",
-            "label": "Développement logiciel",
-            "parent": "domain",
-            "aliases": [
-              "#coding",
-              "#devtools",
-              "#editor",
-              "#code-quality"
-            ],
-            "patterns": [
-              "developpement logiciel",
-              "software development",
-              "ingenierie logicielle",
-              "developpement",
-              "programmat",
-              "modifier.*fichiers.*projet",
-              "modifier un projet"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel"
-            ]
-          },
-          {
             "id": "capability.security.detectbots",
             "label": "Détecter les bots",
             "parent": "capability",
@@ -54251,39 +53698,6 @@
             "aliases": [],
             "facet": "capability",
             "path": []
-          },
-          {
-            "id": "capability.automation.browser",
-            "label": "Automatiser le navigateur",
-            "parent": "capability.automation",
-            "aliases": [
-              "#automatisation-navigateur",
-              "#browser-automation"
-            ],
-            "facet": "capability",
-            "path": [
-              "Automatiser des actions",
-              "Automatiser le navigateur"
-            ]
-          },
-          {
-            "id": "capability.automation",
-            "label": "Automatiser des actions",
-            "parent": "capability",
-            "aliases": [
-              "#automation",
-              "#workflow",
-              "#workflows",
-              "#ui-automation"
-            ],
-            "patterns": [
-              "automatise.*tests",
-              "automatisation"
-            ],
-            "facet": "capability",
-            "path": [
-              "Automatiser des actions"
-            ]
           },
           {
             "id": "compatibility.language.python",
@@ -54420,48 +53834,6 @@
           "path": []
         },
         {
-          "id": "domain.dev.browser",
-          "label": "Outils de navigateur",
-          "parent": "domain.dev",
-          "aliases": [
-            "#browser-profiles",
-            "#browser-automation",
-            "#automatisation-navigateur"
-          ],
-          "patterns": [
-            "profils de navigateur"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel",
-            "Outils de navigateur"
-          ]
-        },
-        {
-          "id": "domain.dev",
-          "label": "Développement logiciel",
-          "parent": "domain",
-          "aliases": [
-            "#coding",
-            "#devtools",
-            "#editor",
-            "#code-quality"
-          ],
-          "patterns": [
-            "developpement logiciel",
-            "software development",
-            "ingenierie logicielle",
-            "developpement",
-            "programmat",
-            "modifier.*fichiers.*projet",
-            "modifier un projet"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel"
-          ]
-        },
-        {
           "id": "capability.security.detectbots",
           "label": "Détecter les bots",
           "parent": "capability",
@@ -54480,39 +53852,6 @@
           "aliases": [],
           "facet": "capability",
           "path": []
-        },
-        {
-          "id": "capability.automation.browser",
-          "label": "Automatiser le navigateur",
-          "parent": "capability.automation",
-          "aliases": [
-            "#automatisation-navigateur",
-            "#browser-automation"
-          ],
-          "facet": "capability",
-          "path": [
-            "Automatiser des actions",
-            "Automatiser le navigateur"
-          ]
-        },
-        {
-          "id": "capability.automation",
-          "label": "Automatiser des actions",
-          "parent": "capability",
-          "aliases": [
-            "#automation",
-            "#workflow",
-            "#workflows",
-            "#ui-automation"
-          ],
-          "patterns": [
-            "automatise.*tests",
-            "automatisation"
-          ],
-          "facet": "capability",
-          "path": [
-            "Automatiser des actions"
-          ]
         },
         {
           "id": "compatibility.language.python",
@@ -54623,12 +53962,6 @@
           "fullLabel": "python",
           "color": "dev",
           "tag": "#python"
-        },
-        {
-          "label": "#automatisation-navigateur",
-          "fullLabel": "automatisation-navigateur",
-          "color": "agent",
-          "tag": "#automatisation-navigateur"
         }
       ],
       "cardTitle": "undetected-chromedriver",
@@ -56998,7 +56331,7 @@
       "github": "https://github.com/jamiepine/voicebox",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Cloner des voix pour des agents IA sans dépendance externe",
+      "summary": "Cloner des voix à partir d'audio",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -57463,7 +56796,7 @@
         }
       ],
       "cardTitle": "VoiceBox",
-      "cardInterest": "Cloner des voix pour des agents IA sans dépendance externe"
+      "cardInterest": "Cloner des voix à partir d'audio"
     },
     {
       "id": "watch-technical-c45c04c570d8ed1549e8-md",
@@ -60395,7 +59728,7 @@
       "github": "https://github.com/samuraigpt/ai-logo-studio",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Crée des logos professionnels à partir de textes ou de croquis en quelques secondes.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -60745,7 +60078,7 @@
         }
       ],
       "cardTitle": "AI Logo Studio",
-      "cardInterest": ""
+      "cardInterest": "Crée des logos professionnels à partir de textes ou de croquis en quelques secondes."
     },
     {
       "id": "watch-technical-28efa5970d38e5616943-md",
@@ -65773,8 +65106,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [
-        "#python",
-        "#osint"
+        "#python"
       ],
       "status": "actif",
       "path": "watch/technical-d924e27b47fa985d6e04.md",
@@ -65807,13 +65139,13 @@
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
-      "theme": "osint",
-      "themeLabel": "Renseignement en sources ouvertes",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.osint"
+            "domain.unclassified"
           ],
           "capability": [],
           "compatibility": [
@@ -65830,51 +65162,6 @@
           ]
         },
         "concepts": [
-          {
-            "id": "domain.osint",
-            "label": "Renseignement en sources ouvertes",
-            "parent": "domain.security",
-            "aliases": [
-              "#osint",
-              "#recon",
-              "#digital-footprint",
-              "#threat-intelligence"
-            ],
-            "patterns": [
-              "\\bosint\\b",
-              "localisation.*ip"
-            ],
-            "facet": "domain",
-            "path": [
-              "Cybersécurité",
-              "Renseignement en sources ouvertes"
-            ]
-          },
-          {
-            "id": "domain.security",
-            "label": "Cybersécurité",
-            "parent": "domain",
-            "aliases": [
-              "#cybersecurity",
-              "#security-tools"
-            ],
-            "patterns": [
-              "cybersecurite",
-              "cybersecurity"
-            ],
-            "facet": "domain",
-            "path": [
-              "Cybersécurité"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
           {
             "id": "compatibility.language.python",
             "label": "Python",
@@ -65964,56 +65251,30 @@
             "path": [
               "X / Twitter"
             ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
           }
         ],
         "unmappedTags": []
       },
       "concepts": [
-        {
-          "id": "domain.osint",
-          "label": "Renseignement en sources ouvertes",
-          "parent": "domain.security",
-          "aliases": [
-            "#osint",
-            "#recon",
-            "#digital-footprint",
-            "#threat-intelligence"
-          ],
-          "patterns": [
-            "\\bosint\\b",
-            "localisation.*ip"
-          ],
-          "facet": "domain",
-          "path": [
-            "Cybersécurité",
-            "Renseignement en sources ouvertes"
-          ]
-        },
-        {
-          "id": "domain.security",
-          "label": "Cybersécurité",
-          "parent": "domain",
-          "aliases": [
-            "#cybersecurity",
-            "#security-tools"
-          ],
-          "patterns": [
-            "cybersecurite",
-            "cybersecurity"
-          ],
-          "facet": "domain",
-          "path": [
-            "Cybersécurité"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
         {
           "id": "compatibility.language.python",
           "label": "Python",
@@ -66103,6 +65364,25 @@
           "path": [
             "X / Twitter"
           ]
+        },
+        {
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
         }
       ],
       "keywords": [
@@ -66111,12 +65391,6 @@
           "fullLabel": "python",
           "color": "dev",
           "tag": "#python"
-        },
-        {
-          "label": "#OSINT",
-          "fullLabel": "Renseignement en sources ouvertes",
-          "color": "osint",
-          "tag": "#osint"
         }
       ],
       "cardTitle": "google_dorker",
@@ -66146,8 +65420,7 @@
       "shareable": true,
       "tags": [
         "#generation-images",
-        "#python",
-        "#generation-video"
+        "#python"
       ],
       "status": "actif",
       "path": "watch/technical-f8f551d25eb73ecda1fd.md",
@@ -66184,8 +65457,7 @@
             "domain.media.image"
           ],
           "capability": [
-            "capability.generate.image",
-            "capability.generate.video"
+            "capability.generate.image"
           ],
           "compatibility": [
             "compatibility.language.python"
@@ -66297,21 +65569,6 @@
             "aliases": [],
             "facet": "capability",
             "path": []
-          },
-          {
-            "id": "capability.generate.video",
-            "label": "Générer une vidéo",
-            "parent": "capability.generate",
-            "aliases": [
-              "#generation-video",
-              "#video-generation",
-              "#ai-video"
-            ],
-            "facet": "capability",
-            "path": [
-              "Générer des contenus",
-              "Générer une vidéo"
-            ]
           },
           {
             "id": "compatibility.language.python",
@@ -66505,21 +65762,6 @@
           "path": []
         },
         {
-          "id": "capability.generate.video",
-          "label": "Générer une vidéo",
-          "parent": "capability.generate",
-          "aliases": [
-            "#generation-video",
-            "#video-generation",
-            "#ai-video"
-          ],
-          "facet": "capability",
-          "path": [
-            "Générer des contenus",
-            "Générer une vidéo"
-          ]
-        },
-        {
           "id": "compatibility.language.python",
           "label": "Python",
           "parent": "compatibility.language",
@@ -66622,12 +65864,6 @@
           "fullLabel": "python",
           "color": "dev",
           "tag": "#python"
-        },
-        {
-          "label": "#Vidéo",
-          "fullLabel": "Génération vidéo",
-          "color": "media",
-          "tag": "#generation-video"
         }
       ],
       "cardTitle": "openai-api",
@@ -67730,7 +66966,7 @@
       "github": "https://github.com/samuraigpt/muapi-skills",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Découvrir, évaluer et exécuter 500+ modèles multimodaux en un clic.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -68447,7 +67683,7 @@
         }
       ],
       "cardTitle": "muapi-skills",
-      "cardInterest": ""
+      "cardInterest": "Découvrir, évaluer et exécuter 500+ modèles multimodaux en un clic."
     },
     {
       "id": "watch-technical-2593ae994f558b741e0a-md",
@@ -70450,7 +69686,7 @@
       "github": "https://github.com/anil-matcha/open-ai-agents-hub",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Créez et gérez des agents AI sans coder, via une interface unique.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -70975,7 +70211,7 @@
         }
       ],
       "cardTitle": "Open AI Agents Hub",
-      "cardInterest": ""
+      "cardInterest": "Créez et gérez des agents AI sans coder, via une interface unique."
     },
     {
       "id": "watch-technical-34d5505e0a9890ad64f6-md",
@@ -71000,8 +70236,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [
-        "#generation-video",
-        "#generation-images"
+        "#generation-video"
       ],
       "status": "actif",
       "path": "watch/technical-34d5505e0a9890ad64f6.md",
@@ -71039,8 +70274,7 @@
             "domain.media.image"
           ],
           "capability": [
-            "capability.generate.video",
-            "capability.generate.image"
+            "capability.generate.video"
           ],
           "compatibility": [],
           "risk": [],
@@ -71199,19 +70433,6 @@
             "aliases": [],
             "facet": "capability",
             "path": []
-          },
-          {
-            "id": "capability.generate.image",
-            "label": "Générer une image",
-            "parent": "capability.generate",
-            "aliases": [
-              "#generation-images"
-            ],
-            "facet": "capability",
-            "path": [
-              "Générer des contenus",
-              "Générer une image"
-            ]
           },
           {
             "id": "lifecycle.active",
@@ -71423,19 +70644,6 @@
           "path": []
         },
         {
-          "id": "capability.generate.image",
-          "label": "Générer une image",
-          "parent": "capability.generate",
-          "aliases": [
-            "#generation-images"
-          ],
-          "facet": "capability",
-          "path": [
-            "Générer des contenus",
-            "Générer une image"
-          ]
-        },
-        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -71501,12 +70709,6 @@
           "fullLabel": "Génération vidéo",
           "color": "media",
           "tag": "#generation-video"
-        },
-        {
-          "label": "#Images",
-          "fullLabel": "Génération d’images",
-          "color": "media",
-          "tag": "#generation-images"
         }
       ],
       "cardTitle": "Open AI Design Agent",
@@ -72365,7 +71567,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [],
-      "status": "a verifier",
+      "status": "actif",
       "path": "watch/technical-2d163384adb685d9a51a.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-2d163384adb685d9a51a.md",
       "sourceUrl": "https://github.com/anil-matcha/open-poe-ai",
@@ -72392,7 +71594,7 @@
       "github": "https://github.com/anil-matcha/open-poe-ai",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Créez et gérez des agents AI sans coder, via une interface unique.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -72413,7 +71615,7 @@
             "source.x"
           ],
           "lifecycle": [
-            "lifecycle.review"
+            "lifecycle.active"
           ]
         },
         "concepts": [
@@ -72473,16 +71675,16 @@
             "path": []
           },
           {
-            "id": "lifecycle.review",
-            "label": "À vérifier",
+            "id": "lifecycle.active",
+            "label": "Actif",
             "parent": "lifecycle",
             "aliases": [
-              "#a-verifier",
-              "#to-verify"
+              "#actif",
+              "#active"
             ],
             "facet": "lifecycle",
             "path": [
-              "À vérifier"
+              "Actif"
             ]
           },
           {
@@ -72591,493 +71793,6 @@
           "path": []
         },
         {
-          "id": "lifecycle.review",
-          "label": "À vérifier",
-          "parent": "lifecycle",
-          "aliases": [
-            "#a-verifier",
-            "#to-verify"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "À vérifier"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#ai-agents",
-          "fullLabel": "ai-agents",
-          "color": "agent",
-          "subjectId": "domain.ai.agents"
-        }
-      ],
-      "cardTitle": "Open-Poe-AI",
-      "cardInterest": ""
-    },
-    {
-      "id": "watch-technical-7f84d8cb0f021d98f595-md",
-      "title": "OpenCut - Outil de découpage d'images",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "MIT",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/OpenCut-app/OpenCut"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#application-bureau"
-      ],
-      "status": "actif",
-      "path": "watch/technical-7f84d8cb0f021d98f595.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-7f84d8cb0f021d98f595.md",
-      "sourceUrl": "https://github.com/OpenCut-app/OpenCut",
-      "sources": [
-        {
-          "url": "https://github.com/opencut-app/opencut",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://x.com/i/status/2055958924650512508",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://opencut.app/",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://bun.sh/docs/installation",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://docs.docker.com/get-started/get-docker",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://docs.docker.com/compose/install",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://moonrepo.dev/docs/proto/tool-spec",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://moonrepo.dev/moon",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/docs/documentation",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://fal.ai/docs/documentation/compute",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://fal.ai/models/minimax/h3-max/image-to-video",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/models/bytedance/seedance-2.5/reference-to-video",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/models/meshy/v7.1/image-to-3d",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/models/blackforestlabs/flux-3/edit-image",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/docs/documentation/serverless",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://fal.ai/gpt-image-2.5",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/seedance-2.5",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/gemini-omni",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/models/fal-ai/kling-video/o3/standard/image-to-video",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/models/fal-ai/veo3.1",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/ltx-2.3",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/pixverse-v6",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/tools/image-upscaler",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://fal.ai/tools/image-extender",
-          "kind": "source",
-          "role": "secondaryReference",
-          "label": "Référence"
-        }
-      ],
-      "github": "https://github.com/opencut-app/opencut",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Découpe des images en sections facilement.",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-25",
-      "theme": "media",
-      "themeLabel": "Images et graphisme",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.media.image"
-          ],
-          "capability": [],
-          "compatibility": [
-            "compatibility.interface.desktop"
-          ],
-          "risk": [],
-          "source": [
-            "source.noteplan",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.media.image",
-            "label": "Images et graphisme",
-            "parent": "domain.media",
-            "aliases": [
-              "#compression-images",
-              "#generation-images",
-              "#animation-svg",
-              "#image",
-              "#design",
-              "#svg",
-              "#inspiration"
-            ],
-            "patterns": [
-              "\\bimages?\\b",
-              "\\bsvg\\b",
-              "visual intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création",
-              "Images et graphisme"
-            ]
-          },
-          {
-            "id": "domain.media",
-            "label": "Audio, vidéo et création",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "compatibility.interface.desktop",
-            "label": "Application de bureau",
-            "parent": "compatibility.interface",
-            "aliases": [
-              "#application-bureau",
-              "#desktop-app"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces",
-              "Application de bureau"
-            ]
-          },
-          {
-            "id": "compatibility.interface",
-            "label": "Interfaces",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces"
-            ]
-          },
-          {
-            "id": "compatibility",
-            "label": "Compatibilités",
-            "parent": null,
-            "aliases": [],
-            "facet": "compatibility",
-            "path": []
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.media.image",
-          "label": "Images et graphisme",
-          "parent": "domain.media",
-          "aliases": [
-            "#compression-images",
-            "#generation-images",
-            "#animation-svg",
-            "#image",
-            "#design",
-            "#svg",
-            "#inspiration"
-          ],
-          "patterns": [
-            "\\bimages?\\b",
-            "\\bsvg\\b",
-            "visual intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création",
-            "Images et graphisme"
-          ]
-        },
-        {
-          "id": "domain.media",
-          "label": "Audio, vidéo et création",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "compatibility.interface.desktop",
-          "label": "Application de bureau",
-          "parent": "compatibility.interface",
-          "aliases": [
-            "#application-bureau",
-            "#desktop-app"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces",
-            "Application de bureau"
-          ]
-        },
-        {
-          "id": "compatibility.interface",
-          "label": "Interfaces",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces"
-          ]
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibilités",
-          "parent": null,
-          "aliases": [],
-          "facet": "compatibility",
-          "path": []
-        },
-        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -73139,14 +71854,14 @@
       ],
       "keywords": [
         {
-          "label": "#application-bureau",
-          "fullLabel": "application-bureau",
-          "color": "tool",
-          "tag": "#application-bureau"
+          "label": "#ai-agents",
+          "fullLabel": "ai-agents",
+          "color": "agent",
+          "subjectId": "domain.ai.agents"
         }
       ],
-      "cardTitle": "OpenCut",
-      "cardInterest": "Découpe des images en sections facilement."
+      "cardTitle": "Open-Poe-AI",
+      "cardInterest": "Créez et gérez des agents AI sans coder, via une interface unique."
     },
     {
       "id": "watch-technical-1049081f67e5576ca9e6-md",
@@ -75068,9 +73783,7 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [
-        "#generation-images"
-      ],
+      "tags": [],
       "status": "actif",
       "path": "watch/technical-4f05134572dbcb3265f2.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-4f05134572dbcb3265f2.md",
@@ -75096,17 +73809,15 @@
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
-      "theme": "media",
-      "themeLabel": "Images et graphisme",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.media.image"
+            "domain.unclassified"
           ],
-          "capability": [
-            "capability.generate.image"
-          ],
+          "capability": [],
           "compatibility": [],
           "risk": [],
           "source": [
@@ -75119,79 +73830,6 @@
           ]
         },
         "concepts": [
-          {
-            "id": "domain.media.image",
-            "label": "Images et graphisme",
-            "parent": "domain.media",
-            "aliases": [
-              "#compression-images",
-              "#generation-images",
-              "#animation-svg",
-              "#image",
-              "#design",
-              "#svg",
-              "#inspiration"
-            ],
-            "patterns": [
-              "\\bimages?\\b",
-              "\\bsvg\\b",
-              "visual intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création",
-              "Images et graphisme"
-            ]
-          },
-          {
-            "id": "domain.media",
-            "label": "Audio, vidéo et création",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "capability.generate.image",
-            "label": "Générer une image",
-            "parent": "capability.generate",
-            "aliases": [
-              "#generation-images"
-            ],
-            "facet": "capability",
-            "path": [
-              "Générer des contenus",
-              "Générer une image"
-            ]
-          },
-          {
-            "id": "capability.generate",
-            "label": "Générer des contenus",
-            "parent": "capability",
-            "aliases": [],
-            "facet": "capability",
-            "path": [
-              "Générer des contenus"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
           {
             "id": "lifecycle.active",
             "label": "Actif",
@@ -75250,84 +73888,30 @@
             "path": [
               "X / Twitter"
             ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
           }
         ],
         "unmappedTags": []
       },
       "concepts": [
-        {
-          "id": "domain.media.image",
-          "label": "Images et graphisme",
-          "parent": "domain.media",
-          "aliases": [
-            "#compression-images",
-            "#generation-images",
-            "#animation-svg",
-            "#image",
-            "#design",
-            "#svg",
-            "#inspiration"
-          ],
-          "patterns": [
-            "\\bimages?\\b",
-            "\\bsvg\\b",
-            "visual intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création",
-            "Images et graphisme"
-          ]
-        },
-        {
-          "id": "domain.media",
-          "label": "Audio, vidéo et création",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "capability.generate.image",
-          "label": "Générer une image",
-          "parent": "capability.generate",
-          "aliases": [
-            "#generation-images"
-          ],
-          "facet": "capability",
-          "path": [
-            "Générer des contenus",
-            "Générer une image"
-          ]
-        },
-        {
-          "id": "capability.generate",
-          "label": "Générer des contenus",
-          "parent": "capability",
-          "aliases": [],
-          "facet": "capability",
-          "path": [
-            "Générer des contenus"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
         {
           "id": "lifecycle.active",
           "label": "Actif",
@@ -75386,16 +73970,28 @@
           "path": [
             "X / Twitter"
           ]
-        }
-      ],
-      "keywords": [
+        },
         {
-          "label": "#Images",
-          "fullLabel": "Génération d’images",
-          "color": "media",
-          "tag": "#generation-images"
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
         }
       ],
+      "keywords": [],
       "cardTitle": "profile-summary-for-github",
       "cardInterest": "Afficher les contributions GitHub sous forme de badges."
     },
@@ -78259,7 +76855,7 @@
       "github": "https://github.com/osintcabal/telegramsint",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Rechercher des informations sur des comptes Telegram via des API.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -78506,7 +77102,7 @@
         }
       ],
       "cardTitle": "TeleGramSint",
-      "cardInterest": ""
+      "cardInterest": "Rechercher des informations sur des comptes Telegram via des API."
     },
     {
       "id": "watch-technical-73a929f1ca2e1edf16a9-md",
@@ -82538,7 +81134,7 @@
       "github": "https://github.com/anoncatalyst/webdiver",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Analyser les liens et extraire des données de sites web.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -82811,7 +81407,7 @@
         }
       ],
       "cardTitle": "WebDiver",
-      "cardInterest": ""
+      "cardInterest": "Analyser les liens et extraire des données de sites web."
     },
     {
       "id": "watch-technical-d6babbc48c72c3692516-md",
@@ -83898,9 +82494,8 @@
       "publishable": true,
       "shareable": true,
       "tags": [
-        "#python",
-        "#terminal",
-        "#osint"
+        "#osint",
+        "#python"
       ],
       "status": "actif",
       "path": "watch/technical-dee6cae45f8c3798057c.md",
@@ -83938,8 +82533,7 @@
           ],
           "capability": [],
           "compatibility": [
-            "compatibility.language.python",
-            "compatibility.interface.terminal"
+            "compatibility.language.python"
           ],
           "risk": [],
           "source": [
@@ -84069,30 +82663,6 @@
             "aliases": [],
             "facet": "compatibility",
             "path": []
-          },
-          {
-            "id": "compatibility.interface.terminal",
-            "label": "Terminal",
-            "parent": "compatibility.interface",
-            "aliases": [
-              "#terminal",
-              "#cli"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces",
-              "Terminal"
-            ]
-          },
-          {
-            "id": "compatibility.interface",
-            "label": "Interfaces",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces"
-            ]
           },
           {
             "id": "lifecycle.active",
@@ -84276,30 +82846,6 @@
           "path": []
         },
         {
-          "id": "compatibility.interface.terminal",
-          "label": "Terminal",
-          "parent": "compatibility.interface",
-          "aliases": [
-            "#terminal",
-            "#cli"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces",
-            "Terminal"
-          ]
-        },
-        {
-          "id": "compatibility.interface",
-          "label": "Interfaces",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces"
-          ]
-        },
-        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -84361,22 +82907,16 @@
       ],
       "keywords": [
         {
-          "label": "#python",
-          "fullLabel": "python",
-          "color": "dev",
-          "tag": "#python"
-        },
-        {
-          "label": "#terminal",
-          "fullLabel": "terminal",
-          "color": "tool",
-          "tag": "#terminal"
-        },
-        {
           "label": "#OSINT",
           "fullLabel": "Renseignement en sources ouvertes",
           "color": "osint",
           "tag": "#osint"
+        },
+        {
+          "label": "#python",
+          "fullLabel": "python",
+          "color": "dev",
+          "tag": "#python"
         }
       ],
       "cardTitle": "Cabal Proxy Harvester",
@@ -84430,7 +82970,7 @@
       "github": "https://github.com/osintcabal/cabal-ip-stealth-checker-",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Identifier rapidement un IP via proxycheck.io pour détecter proxy, VPN, TOR ou serveur.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-24",
@@ -84441,7 +82981,8 @@
         "facets": {
           "domain": [
             "domain.data.web",
-            "domain.osint"
+            "domain.osint",
+            "domain.infrastructure"
           ],
           "capability": [
             "capability.scraping"
@@ -84529,6 +83070,28 @@
             "facet": "domain",
             "path": [
               "Cybersécurité"
+            ]
+          },
+          {
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
+            "parent": "domain",
+            "aliases": [
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
+            ],
+            "patterns": [
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Infrastructure"
             ]
           },
           {
@@ -84721,6 +83284,28 @@
           ]
         },
         {
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
+          "parent": "domain",
+          "aliases": [
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
+          ],
+          "patterns": [
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Infrastructure"
+          ]
+        },
+        {
           "id": "capability.scraping",
           "label": "Extraire des données web",
           "parent": "capability",
@@ -84856,7 +83441,7 @@
         }
       ],
       "cardTitle": "Cabal Stealth Checker",
-      "cardInterest": ""
+      "cardInterest": "Identifier rapidement un IP via proxycheck.io pour détecter proxy, VPN, TOR ou serveur."
     },
     {
       "id": "watch-technical-a194ad9339f6df4c73ea-md",
@@ -84882,8 +83467,8 @@
       "shareable": true,
       "tags": [
         "#previsions-meteo",
-        "#terminal",
         "#python",
+        "#terminal",
         "#osint"
       ],
       "status": "actif",
@@ -84925,8 +83510,8 @@
             "capability.forecast"
           ],
           "compatibility": [
-            "compatibility.interface.terminal",
-            "compatibility.language.python"
+            "compatibility.language.python",
+            "compatibility.interface.terminal"
           ],
           "risk": [],
           "source": [
@@ -85070,6 +83655,37 @@
             "path": []
           },
           {
+            "id": "compatibility.language.python",
+            "label": "Python",
+            "parent": "compatibility.language",
+            "aliases": [
+              "#python"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Langages",
+              "Python"
+            ]
+          },
+          {
+            "id": "compatibility.language",
+            "label": "Langages",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Langages"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
             "id": "compatibility.interface.terminal",
             "label": "Terminal",
             "parent": "compatibility.interface",
@@ -85091,37 +83707,6 @@
             "facet": "compatibility",
             "path": [
               "Interfaces"
-            ]
-          },
-          {
-            "id": "compatibility",
-            "label": "Compatibilités",
-            "parent": null,
-            "aliases": [],
-            "facet": "compatibility",
-            "path": []
-          },
-          {
-            "id": "compatibility.language.python",
-            "label": "Python",
-            "parent": "compatibility.language",
-            "aliases": [
-              "#python"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Langages",
-              "Python"
-            ]
-          },
-          {
-            "id": "compatibility.language",
-            "label": "Langages",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Langages"
             ]
           },
           {
@@ -85318,6 +83903,37 @@
           "path": []
         },
         {
+          "id": "compatibility.language.python",
+          "label": "Python",
+          "parent": "compatibility.language",
+          "aliases": [
+            "#python"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Langages",
+            "Python"
+          ]
+        },
+        {
+          "id": "compatibility.language",
+          "label": "Langages",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Langages"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
           "id": "compatibility.interface.terminal",
           "label": "Terminal",
           "parent": "compatibility.interface",
@@ -85339,37 +83955,6 @@
           "facet": "compatibility",
           "path": [
             "Interfaces"
-          ]
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibilités",
-          "parent": null,
-          "aliases": [],
-          "facet": "compatibility",
-          "path": []
-        },
-        {
-          "id": "compatibility.language.python",
-          "label": "Python",
-          "parent": "compatibility.language",
-          "aliases": [
-            "#python"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Langages",
-            "Python"
-          ]
-        },
-        {
-          "id": "compatibility.language",
-          "label": "Langages",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Langages"
           ]
         },
         {
@@ -85440,16 +84025,16 @@
           "tag": "#previsions-meteo"
         },
         {
-          "label": "#terminal",
-          "fullLabel": "terminal",
-          "color": "tool",
-          "tag": "#terminal"
-        },
-        {
           "label": "#python",
           "fullLabel": "python",
           "color": "dev",
           "tag": "#python"
+        },
+        {
+          "label": "#terminal",
+          "fullLabel": "terminal",
+          "color": "tool",
+          "tag": "#terminal"
         },
         {
           "label": "#OSINT",
@@ -87341,19 +85926,19 @@
       "github": "https://github.com/heygen-com/hyperframes",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Crée des vidéos de présentation de produit avec des animations et musique",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-24",
       "theme": "agent",
-      "themeLabel": "Agents de développement",
+      "themeLabel": "Agents IA",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents.coding",
-            "domain.media.video",
-            "domain.data.catalogues"
+            "domain.ai.agents",
+            "domain.media.audio",
+            "domain.media.video"
           ],
           "capability": [
             "capability.generate.video"
@@ -87372,27 +85957,6 @@
           ]
         },
         "concepts": [
-          {
-            "id": "domain.ai.agents.coding",
-            "label": "Agents de développement",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#agents-code",
-              "#coding-agents"
-            ],
-            "patterns": [
-              "claude code",
-              "\\bcodex\\b",
-              "coding agents?",
-              "agents? de cod"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Agents de développement"
-            ]
-          },
           {
             "id": "domain.ai.agents",
             "label": "Agents IA",
@@ -87449,6 +86013,35 @@
             "path": []
           },
           {
+            "id": "domain.media.audio",
+            "label": "Audio",
+            "parent": "domain.media",
+            "aliases": [
+              "#audio"
+            ],
+            "patterns": [
+              "\\baudio\\b",
+              "creation musicale",
+              "\\bvoix\\b",
+              "\\bvocale\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Audio"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
             "id": "domain.media.video",
             "label": "Vidéo",
             "parent": "domain.media",
@@ -87470,50 +86063,6 @@
             "path": [
               "Audio, vidéo et création",
               "Vidéo"
-            ]
-          },
-          {
-            "id": "domain.media",
-            "label": "Audio, vidéo et création",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création"
-            ]
-          },
-          {
-            "id": "domain.data.catalogues",
-            "label": "Catalogues de ressources",
-            "parent": "domain.data",
-            "aliases": [
-              "#directory",
-              "#curation",
-              "#curated-tools",
-              "#library"
-            ],
-            "patterns": [
-              "annuaire",
-              "inventaire.*outils",
-              "collection.*outils",
-              "list.*(?:apps|applications|tools)",
-              "catalogue",
-              "alternatives.*saas"
-            ],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances",
-              "Catalogues de ressources"
-            ]
-          },
-          {
-            "id": "domain.data",
-            "label": "Données et connaissances",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances"
             ]
           },
           {
@@ -87645,27 +86194,6 @@
       },
       "concepts": [
         {
-          "id": "domain.ai.agents.coding",
-          "label": "Agents de développement",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#agents-code",
-            "#coding-agents"
-          ],
-          "patterns": [
-            "claude code",
-            "\\bcodex\\b",
-            "coding agents?",
-            "agents? de cod"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Agents de développement"
-          ]
-        },
-        {
           "id": "domain.ai.agents",
           "label": "Agents IA",
           "parent": "domain.ai",
@@ -87721,6 +86249,35 @@
           "path": []
         },
         {
+          "id": "domain.media.audio",
+          "label": "Audio",
+          "parent": "domain.media",
+          "aliases": [
+            "#audio"
+          ],
+          "patterns": [
+            "\\baudio\\b",
+            "creation musicale",
+            "\\bvoix\\b",
+            "\\bvocale\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Audio"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
           "id": "domain.media.video",
           "label": "Vidéo",
           "parent": "domain.media",
@@ -87742,50 +86299,6 @@
           "path": [
             "Audio, vidéo et création",
             "Vidéo"
-          ]
-        },
-        {
-          "id": "domain.media",
-          "label": "Audio, vidéo et création",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création"
-          ]
-        },
-        {
-          "id": "domain.data.catalogues",
-          "label": "Catalogues de ressources",
-          "parent": "domain.data",
-          "aliases": [
-            "#directory",
-            "#curation",
-            "#curated-tools",
-            "#library"
-          ],
-          "patterns": [
-            "annuaire",
-            "inventaire.*outils",
-            "collection.*outils",
-            "list.*(?:apps|applications|tools)",
-            "catalogue",
-            "alternatives.*saas"
-          ],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances",
-            "Catalogues de ressources"
-          ]
-        },
-        {
-          "id": "domain.data",
-          "label": "Données et connaissances",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances"
           ]
         },
         {
@@ -87928,7 +86441,7 @@
         }
       ],
       "cardTitle": "HyperFrames",
-      "cardInterest": ""
+      "cardInterest": "Crée des vidéos de présentation de produit avec des animations et musique"
     },
     {
       "id": "watch-technical-49226a0e2e05fa223d37-md",

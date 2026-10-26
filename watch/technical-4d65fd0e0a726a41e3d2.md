@@ -46,3 +46,22 @@ Rechercher des mentions en ligne d'une cible et identifier des profils sociaux
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Recherche des mentions en ligne d'une requête ou d'un nom d'utilisateur
+- Identification de profils sociaux et de forums potentiels
+- Filtres de recherche Google par langue, pays et plage de dates
+- Validation de proxys pour assurer l'anonymat
+
+## Usages documentés
+
+- Naviguer vers le répertoire du script
+- Exécuter le script avec python3 ominis.py
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/anoncatalyst/ominis-osint
+- Analyse source : 2026-10-25T23:19:14.067Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

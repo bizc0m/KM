@@ -47,3 +47,21 @@ Crée des applications web pour des modèles ML en quelques lignes.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Gradio permet de créer rapidement des applications web pour des modèles ML.
+- Gradio permet de partager facilement des démos web.
+- Gradio fonctionne avec Python 3.10+.
+- Gradio inclut des composants pour l'interface utilisateur.
+
+## Usages documentés
+
+- pip install --upgrade gradio
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/gradio-app/gradio
+- Analyse source : 2026-10-26T05:01:03.314Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

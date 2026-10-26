@@ -47,3 +47,17 @@ Génère des synthèses vocales en plusieurs langues avec précision.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Système de synthèse vocale textuelle basé sur des modèles de langage.
+- Support 9 langues et 18 dialectes chinois.
+- Performances élevées en cohérence et naturel.
+- Prise en charge de l'analyse phonétique et de la normalisation textuelle.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/funaudiollm/cosyvoice
+- Analyse source : 2026-10-26T05:01:03.314Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

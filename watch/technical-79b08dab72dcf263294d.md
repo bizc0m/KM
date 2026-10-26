@@ -47,3 +47,31 @@ Permet une collaboration équipe via un agent partagé par canal
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Permet un fonctionnement self-hostable sans dépendance cloud.
+- Supporte plusieurs modèles LLM comme Claude, GPT-4o, Gemini, Groq et Ollama.
+- Utilise des fichiers Markdown pour la configuration par canal.
+- Fournit une mémoire curatée par l'agent et une création automatique de compétences.
+
+## Usages documentés
+
+- Cloner le dépôt
+- Installer les dépendances
+- Configurer les variables d'environnement
+- Créer le répertoire de canal
+- Exécuter l'application
+
+## Limites
+
+- Requiert Python 3.11+
+- Nécessite un token Slack avec Socket Mode activé
+- Dépend d'un fournisseur LLM compatible
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/anil-matcha/open-claude-tag
+- Analyse source : 2026-10-25T23:42:15.342Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

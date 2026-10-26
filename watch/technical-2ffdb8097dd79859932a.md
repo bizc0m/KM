@@ -75,3 +75,29 @@ Contourner les détections anti-bot avec un navigateur modifié.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Modifie le navigateur Chromium au niveau source avec 87 patches C++.
+- Contourne les systèmes de détection anti-bot comme reCAPTCHA et Cloudflare.
+- Fournit une API compatible Playwright/Puppeteer sans changement de code.
+- Supporte des proxies résidentiels et des paramètres de localisation automatiques.
+
+## Usages documentés
+
+- pip install cloakbrowser
+- npm install cloakbrowser
+- docker run --rm cloakhq/cloakbrowser cloaktest
+
+## Limites
+
+- Requiert un navigateur Chromium compatible.
+- Nécessite des proxies résidentiels pour certaines configurations.
+- Fonctionne uniquement avec des environnements supportant Playwright ou Puppeteer.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/cloakhq/cloakbrowser
+- Analyse source : 2026-10-26T00:32:26.679Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

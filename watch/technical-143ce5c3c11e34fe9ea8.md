@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Cloner des voix pour des agents IA sans dépendance externe
+Cloner des voix à partir d'audio
 
 ## Métadonnées
 
@@ -412,4 +412,5 @@ Studio de synthèse vocale open source. Clonage de voix. Génération de parole.
 
 - Studio de synthèse vocale open source
 - Clonage de voix à partir d'audio ou de voix prédéfinies
-- Génération de parole en 23 langues avec 7 mote
+- Génération de parole en 23 langues avec 7 moteurs TTS
+- Effets post-trai

@@ -47,3 +47,27 @@ Crée des personas bots avec des modèles spécifiques
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Interface basée sur Next.js et React
+- API basée sur FastAPI et Python
+- Conversations stockées localement
+
+## Usages documentés
+
+- Cloner le dépôt
+- Démarrer le serveur FastAPI
+- Démarrer le client Next.js
+
+## Limites
+
+- Développement en cours
+- Pas de plateforme multi-utilisateurs
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/anil-matcha/open-grok-bot
+- Analyse source : 2026-10-25T23:42:15.342Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

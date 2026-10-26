@@ -46,3 +46,17 @@ Crée des applications sans installation locale avec des outils open source.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Supabase est une plateforme de développement basée sur Postgres.
+- Supabase inclut des fonctionnalités comme l'authentification, les API REST/GraphQL, et le stockage de fichiers.
+- Supabase permet de créer des applications sans installation locale.
+- Supabase combine des outils open source pour offrir une expérience similaire à Firebase.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/supabase/supabase
+- Analyse source : 2026-10-26T06:41:09.492Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

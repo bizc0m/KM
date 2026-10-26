@@ -47,3 +47,25 @@ Génère des vidéos à partir de prompts textuels ou multimodaux
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Documentation complète sur l'API Seedance 2.5
+- Prompts prêts à l'emploi pour divers workflows
+- Support pour des formats multimodaux
+- Exemples de prompts pour différents domaines
+
+## Usages documentés
+
+- Utilisation de l'API MuAPI pour accéder à Seedance 2.5
+
+## Limites
+
+- Requiert un accès à MuAPI et un API key
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/anil-matcha/awesome-seedance-2.5-api-prompts
+- Analyse source : 2026-10-25T23:42:15.342Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

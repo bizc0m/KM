@@ -49,3 +49,17 @@ Gère les dépendances de projet avec des lockfiles.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Gère les dépendances et environnements de projet avec des lockfiles.
+- Permet d'exécuter et d'installer des outils en tant que packages Python.
+- Installe et gère plusieurs versions de Python.
+- Fournit une interface pip compatible pour une meilleure performance.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/astral-sh/uv
+- Analyse source : 2026-10-26T02:28:20.867Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

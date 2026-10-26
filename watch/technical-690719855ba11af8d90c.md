@@ -49,3 +49,23 @@ Crée des présentations avec des composants React
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Framework pour créer des présentations avec des composants React
+- Gère le canevas, l'échelle, la navigation et le mode présentation
+- Export vers HTML, PDF et PPTX
+- Intégration avec des agents de codage
+
+## Usages documentés
+
+- npx @open-slide/cli init my-slide
+- cd my-slide
+- pnpm dev
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/1weiho/open-slide
+- Analyse source : 2026-10-26T06:15:00.094Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -60,5 +60,5 @@ Orchestre des agents pour exécuter des tâches complexes
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/evermind-ai/raven
-- Analyse source : 2026-10-24T05:08:40.392Z
+- Analyse source : 2026-10-26T00:18:56.438Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

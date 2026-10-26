@@ -72,5 +72,5 @@ Génère des vidéos publicitaires UGC en quelques secondes avec des acteurs IA
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/anil-matcha/open-ai-ugc
-- Analyse source : 2026-10-24T12:57:16.765Z
+- Analyse source : 2026-10-25T23:42:15.342Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

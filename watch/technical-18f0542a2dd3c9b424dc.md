@@ -47,3 +47,22 @@ Facilite le logging avec des fonctionnalités avancées sans configuration compl
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Configuration simple sans boilerplate
+- Gestion des fichiers avec rotation et compression
+- Formatage moderne avec accolades
+- Support des exceptions et des couleurs
+
+## Usages documentés
+
+- from loguru import logger
+- logger.add(sys.stderr, format="{time} {level} {message}")
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/delgan/loguru
+- Analyse source : 2026-10-26T02:28:20.867Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

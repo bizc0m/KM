@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Découpe des images en sections facilement.
+Permet d'éditer des vidéos sur plusieurs plateformes.
 
 ## Métadonnées
 
@@ -25,8 +25,8 @@ Découpe des images en sections facilement.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.image compatibility.interface.desktop source.noteplan source.x source.github lifecycle.active
-- Sujets : Audio, vidéo et création > Images et graphisme
+- Identifiants : domain.media.video domain.media.image compatibility.interface.desktop source.noteplan source.x source.github lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
 - Compatibilités : Interfaces > Application de bureau
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
 - État : Actif
@@ -63,19 +63,19 @@ Découpe des images en sections facilement.
 - Origine : NotePlan
 - Identifiant source : 6c3071b2182b366a047f7328aaa2353b848b73239e77f05e8311c14143cfb84f
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 837.
+- Liens distincts recensés : 842.
 - Pages lues, tweet compris : 85.
 - Sources techniques analysées : 24.
 - Sources à vérifier : 56 ; analyses non terminées : 0 ; erreurs du modèle : 2.
-- Liens non lus : 657 (profondeur : 651, budget de pages : 0, délai : 0, erreurs : 6).
+- Liens non lus : 661 (profondeur : 655, budget de pages : 0, délai : 0, erreurs : 6).
 - Pages résumées sur extrait : 3.
-- Éléments exclus : 99 ; doublons ignorés : 0.
+- Éléments exclus : 100 ; doublons ignorés : 0.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### OpenCut
@@ -200,19 +200,14 @@ Génère une vidéo de 30 secondes à partir de 50 références multimodales. Ut
 
 Source : https://fal.ai/models/bytedance/seedance-2.5/reference-to-video ; niveau 3.
 
-### Meshy 7.1 Image to 3D
+### Meshy 7.1
 
-Meshy 7.1 convertit une image en modèle 3D. Il propose plusieurs modes de génération. Des textures et PBR sont possibles. Résolution jusqu'à 4K.
+Meshy 7.1 génère des modèles 3D à partir d'une image. Il propose des modes standard, low-poly et Smart Topology. Des textures et PBR maps sont possibles. La résolution géométrique atteint 4K.
 
-- Meshy 7.1 convertit une image en modèle 3D.
+- Meshy 7.1 génère des modèles 3D à partir d'une image.
 - Il propose des modes standard, low-poly et Smart Topology.
-- Textures et PBR maps sont optionnels.
-- Résolution jusqu'à 4K.
-- Coût d'un modèle de base sans textures : 0,80 $.
-- Ajout de textures : 1,20 $.
-- Auto-rigging : 0,20 $ par appel.
-- Animation : 0,12 $ par appel.
-- Modèle texturé avec auto-rigging et animation : 1,52 $.
+- Des textures et PBR maps sont possibles.
+- La résolution géométrique atteint 4K.
 
 Source : https://fal.ai/models/meshy/v7.1/image-to-3d ; niveau 3.
 
@@ -342,3 +337,21 @@ Outil d'extension d'image sans recadrage. Génère du contenu en continu. Adapte
 - Résultat sans watermark et à haute résolution.
 
 Source : https://fal.ai/tools/image-extender ; niveau 3.
+
+## Identité
+
+- Dépôt principal : https://github.com/opencut-app/opencut
+
+## Capacités documentées
+
+- OpenCut est un éditeur vidéo open source.
+- OpenCut est disponible pour web, desktop et mobile.
+- OpenCut est en cours de réécriture.
+- Une version classique est disponible sur GitHub.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/opencut-app/opencut
+- Analyse source : 2026-10-26T06:55:25.439Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

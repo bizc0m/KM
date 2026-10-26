@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Découvrir, évaluer et exécuter 500+ modèles multimodaux en un clic.
 
 ## Identité
 
@@ -48,3 +48,23 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Dépôt GitHub contenant des compétences multimodales pour agents AI.
+- Permet la génération, l'édition et l'affichage de médias professionnels.
+- Intègre un serveur MCP pour exposer des outils à des agents comme Claude.
+- Utilise muapi-cli pour des appels API structurés.
+
+## Usages documentés
+
+- muapi image generate "a cyberpunk city at night" --model flux-dev
+- muapi mcp serve
+- npx skills add SamurAIGPT/muapi-skills --all
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/samuraigpt/muapi-skills
+- Analyse source : 2026-10-25T23:42:15.342Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

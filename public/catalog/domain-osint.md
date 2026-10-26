@@ -3,14 +3,13 @@
 - [DepthSearch](../../watch/technical-f8b3849874961eb09fd8.md) — Recherche OSINT dans le web profond avec anonymisation et informations système
 - [DorkSint](../../watch/technical-de90088a7594bcc86157.md) — Recherche rapide de dorks pour trouver des informations via des moteurs de recherche
 - [Eyes](../../watch/technical-acd9eb29cb67574c16ec.md) — Recherche des comptes associés à une adresse email sans alerte.
-- [google_dorker](../../watch/technical-d924e27b47fa985d6e04.md) — Exécute des requêtes Google Dork pour des fins éducatives.
 - [Ominis-OSINT](../../watch/technical-4d65fd0e0a726a41e3d2.md) — Rechercher des mentions en ligne d'une cible et identifier des profils sociaux
 - [OSINT Cabal Live Center](../../watch/technical-1049081f67e5576ca9e6.md) — Collecte d'informations publiques via des outils OSINT en ligne.
 - [OSINTSky](../../watch/technical-cdbdf85699a704f19664.md)
-- [TeleGramSint](../../watch/technical-57e845072d92fede6967.md)
+- [TeleGramSint](../../watch/technical-57e845072d92fede6967.md) — Rechercher des informations sur des comptes Telegram via des API.
 - [WhatsMyName](../../watch/technical-d6babbc48c72c3692516.md) — Vérifier l'existence d'un nom d'utilisateur sur des sites web.
 - [Cabal Proxy Harvester](../../watch/technical-dee6cae45f8c3798057c.md) — Collecte des proxies fonctionnels pour usage OSINT
-- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md)
+- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Identifier rapidement un IP via proxycheck.io pour détecter proxy, VPN, TOR ou serveur.
 - [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Accéder aux alertes météo via terminal
 - [CoronavirOSINT](../../watch/technical-19c0251e942e91d7ee33.md) — Analyse des données de santé globales en temps réel
 - [Sublist3r](../../watch/technical-91a4ed33e0fa4b66d349.md) — Trouver des sous-domaines d'un site web.

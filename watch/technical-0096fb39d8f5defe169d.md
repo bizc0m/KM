@@ -46,3 +46,26 @@ Crée des magasins B2B ou DTC avec des primitives commerciales
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Plateforme e-commerce open-source
+- Framework personnalisable pour magasins B2B/DTC
+- Intègre des primitives commerciales comme produits et paiements
+- Supporte des applications comme marketplaces et systèmes PoS
+
+## Usages documentés
+
+- npx create-medusa-app@latest my-medusa-store
+
+## Limites
+
+- Requiert Node.js v22.22.0 ou plus récent
+- Nécessite une base de données PostgreSQL
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/medusajs/medusa
+- Analyse source : 2026-10-26T06:41:09.492Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

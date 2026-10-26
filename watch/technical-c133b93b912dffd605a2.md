@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Permet d'automatiser des tâches complexes avec un agent d'intelligence artificielle.
 
 ## Identité
 
@@ -47,3 +47,32 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Adapte Pi aux workflows sans contraintes.
+- Customise Pi avec extensions, compétences et thèmes.
+- Utilise des packages pour partager des fonctionnalités.
+- Intégre des outils comme le SDK TypeScript.
+- Contrôle Pi via RPC ou CLI.
+- Fournit des exemples d'intégration réels.
+
+## Usages documentés
+
+- cd /path/to/project
+- pi
+- /login
+- pi update
+
+## Limites
+
+- Requiert Node.js 22.19 ou plus récent.
+- Pas de système de permission intégré.
+- Nécessite un accès internet pour les mises à jour.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/earendil-works/pi
+- Analyse source : 2026-10-26T02:28:20.867Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

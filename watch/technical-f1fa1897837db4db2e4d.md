@@ -47,3 +47,29 @@ Génère des modèles 3D à haute résolution avec efficacité.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Permet la génération 3D à 1024³ avec 8 GPU.
+- Utilise Spatial Sparse Attention pour accélérer les calculs.
+- Améliore l'efficacité d'apprentissage avec un VAE unifié.
+- Réduit les coûts de formation par rapport aux méthodes antérieures.
+
+## Usages documentés
+
+- Installation des dépendances.
+- Utilisation du pipeline pour générer des modèles 3D.
+- Démonstration web via Gradio.
+
+## Limites
+
+- Exige une VRAM importante pour les résolutions élevées.
+- Compatibilité limitée aux systèmes Linux.
+- Dépendances spécifiques comme PyTorch et Torchsparse.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/dreamtechai/direct3d-s2
+- Analyse source : 2026-10-26T02:40:13.861Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

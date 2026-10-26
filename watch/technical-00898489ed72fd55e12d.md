@@ -6,11 +6,11 @@ actif
 
 ## Tags
 
-#synthese-vocale, #application-bureau, #transcription, #macos
+#synthese-vocale, #application-bureau
 
 ## Intérêts
 
-Permet d'interagir avec un avatar IA en temps réel. Fournit une expérience de compagnon personnalisable.
+Permet d'interagir avec un avatar IA en temps réel
 
 ## Identité
 
@@ -29,10 +29,10 @@ Permet d'interagir avec un avatar IA en temps réel. Fournit une expérience de 
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.llm domain.media.audio.voice capability.voice.synthesize capability.voice.transcribe compatibility.interface.desktop compatibility.os.macos source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.ai.llm domain.media.audio.voice capability.voice.synthesize compatibility.interface.desktop source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Modèles de langage ; Audio, vidéo et création > Audio > Voix
-- Fonctions : Traitement de la voix > Synthétiser une voix ; Traitement de la voix > Transcrire
-- Compatibilités : Interfaces > Application de bureau ; Systèmes > macOS
+- Fonctions : Traitement de la voix > Synthétiser une voix
+- Compatibilités : Interfaces > Application de bureau
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -48,3 +48,17 @@ Permet d'interagir avec un avatar IA en temps réel. Fournit une expérience de 
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Permet des conversations vocales en temps réel
+- Supporte plusieurs modèles LLM et TTS
+- Fonctionne en mode hors ligne
+- Possède un client desktop avec mode animal de compagnie
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/open-llm-vtuber/open-llm-vtuber
+- Analyse source : 2026-10-26T03:09:26.947Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

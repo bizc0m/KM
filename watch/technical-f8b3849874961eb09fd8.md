@@ -47,3 +47,23 @@ Recherche OSINT dans le web profond avec anonymisation et informations système
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Recherche dans le web profond avec moteurs spécialisés
+- Résultats incluent URLs, titres et descriptions
+- Rotation de proxy pour anonymisation
+- Affichage des informations système
+
+## Usages documentés
+
+- Cloner le dépôt GitHub
+- Installer les dépendances
+- Exécuter le script depthsearch.py
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/anoncatalyst/depthsearch
+- Analyse source : 2026-10-25T23:19:14.067Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

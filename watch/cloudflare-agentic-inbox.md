@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Gère les emails via Cloudflare Workers avec isolation par boîte aux lettres et stockage R2
 
 ## Identité
 
@@ -27,10 +27,10 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents domain.communication.messaging source.noteplan source.github source.x lifecycle.review
-- Sujets : Intelligence artificielle > Agents IA ; Communication et publication > Messagerie
+- Identifiants : domain.ai.agents domain.communication domain.infrastructure.database source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA ; Communication et publication ; Infrastructure > Bases de données
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
 
 ## Sources
 
@@ -44,3 +44,30 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Permet d'envoyer et recevoir des emails via Cloudflare Email Routing
+- Chaque boîte aux lettres est isolée dans un Durable Object avec SQLite
+- Utilise R2 pour stocker les pièces jointes
+- Intègre un agent IA pour lire, chercher et rédiger des réponses
+
+## Usages documentés
+
+- Déployer sur Cloudflare
+- Configurer Cloudflare Access
+- Activer Email Routing
+- Créer une boîte aux lettres
+
+## Limites
+
+- Requiert un compte Cloudflare avec un domaine
+- Nécessite Email Routing et Email Service activés
+- Exige Workers AI pour l'agent IA
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/cloudflare/agentic-inbox
+- Analyse source : 2026-10-26T03:09:26.947Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

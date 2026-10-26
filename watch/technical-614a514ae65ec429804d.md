@@ -51,3 +51,17 @@ Analyse de site et de campagne publicitaire avec des workflows prédéfinis.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Fournit 48 compétences pour SEO, GEO et marketing.
+- Permet l'analyse de sites et de campagnes publicitaires.
+- Intègre des workflows pour l'analyse de données.
+- Gère des outils comme Google Ads et Meta Ads.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/nowork-studio/notfair-plugin
+- Analyse source : 2026-10-26T01:55:26.347Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.
