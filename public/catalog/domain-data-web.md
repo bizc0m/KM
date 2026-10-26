@@ -1,11 +1,11 @@
 # Collecte web
 
 - [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md)
+- [maigret](../../watch/technical-6d84c860baa5311d1e0f.md) — Recherche d'informations sur un utilisateur via des sites web.
 - [Scrapling](../../watch/technical-a352cd98ee30cd20d69a.md) — Extrait des données depuis des pages web statiques ou dynamiques
 - [AICLIPS Studio](../../watch/technical-937b200dbfd957aae460.md) — Extrait automatiquement des highlights viraux depuis des vidéos YouTube.
 - [ani-cli](../../watch/technical-2993f5bd5143a68eff85.md) — Permet de consulter des anime via une interface CLI
 - [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Recherche et stream d'animes via des fournisseurs.
-- [maigret](../../watch/technical-6d84c860baa5311d1e0f.md) — Recherche d'informations sur un utilisateur via des sites web.
 - [mov-cli](../../watch/technical-9e0cc8c5c3c327b3c50b.md) — Permet de streamer des médias via des plugins configurés.
 - [TikTok-User-Info-Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
 - [Uscrapper Vanta](../../watch/technical-9068e1e4bc2dea6a7322.md) — Extraire des données web avec précision et organisation

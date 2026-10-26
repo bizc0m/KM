@@ -104,19 +104,19 @@ Cloner des voix pour des agents IA sans dépendance externe
 - Origine : NotePlan
 - Identifiant source : c5d386c4449a831246df86653fbb99679df636885b80eee42d68f43169fac2d5
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens
 
 - Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
-- Liens distincts recensés : 1596.
-- Pages lues, tweet compris : 101.
+- Liens distincts recensés : 1649.
+- Pages lues, tweet compris : 102.
 - Sources techniques analysées : 64.
-- Sources à vérifier : 31 ; analyses non terminées : 0 ; erreurs du modèle : 4.
-- Liens non lus : 1294 (profondeur : 915, budget de pages : 363, délai : 0, erreurs : 16).
+- Sources à vérifier : 32 ; analyses non terminées : 0 ; erreurs du modèle : 4.
+- Liens non lus : 1347 (profondeur : 915, budget de pages : 416, délai : 0, erreurs : 16).
 - Pages résumées sur extrait : 30.
-- Éléments exclus : 203 ; doublons ignorés : 1.
+- Éléments exclus : 202 ; doublons ignorés : 1.
 - Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
 
 ### Mécanisme de récompenses KiiChain basé sur l'usage et la mise en veKII

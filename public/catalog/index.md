@@ -4,7 +4,7 @@
 - [Agents IA](domain-ai-agents.md) — 183 fiches
 - [Mémoire des agents](domain-ai-agents-memory.md) — 25 fiches
 - [Orchestration des agents](domain-ai-agents-orchestration.md) — 12 fiches
-- [Agents de développement](domain-ai-agents-coding.md) — 46 fiches
+- [Agents de développement](domain-ai-agents-coding.md) — 47 fiches
 - [Compétences des agents](domain-ai-agents-skills.md) — 38 fiches
 - [Modèles de langage](domain-ai-llm.md) — 59 fiches
 - [Développement logiciel](domain-dev.md) — 109 fiches

@@ -1,8 +1,8 @@
 {
-  "at": "2026-10-26T00:48:42.910Z",
+  "at": "2026-10-26T01:48:48.031Z",
   "scope": "public-index-only",
   "fiches": 658,
-  "sourceReferences": 2609,
+  "sourceReferences": 2615,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
@@ -18,6 +18,13 @@
     {
       "id": "watch-technical-e9eb05e2bf38f125a62f-md",
       "title": "12-factor-agents",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1e83b6596b947b071d50-md",
+      "title": "agency-agents",
       "reasons": [
         "nature-unqualified"
       ]
@@ -132,8 +139,23 @@
       ]
     },
     {
+      "id": "watch-technical-5e7f5b459d52bc0badc8-md",
+      "title": "just",
+      "reasons": [
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-c5a32632e586ab2c7c9c-md",
       "title": "LangChain",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-6d84c860baa5311d1e0f-md",
+      "title": "maigret",
       "reasons": [
         "nature-unqualified"
       ]
@@ -148,6 +170,13 @@
     {
       "id": "watch-technical-4fed931d247d6cb2a3df-md",
       "title": "Mistral Vibe",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-78d472c25b2758a70776-md",
+      "title": "notebooklm-py",
       "reasons": [
         "nature-unqualified"
       ]
@@ -209,8 +238,8 @@
       ]
     },
     {
-      "id": "watch-technical-1e83b6596b947b071d50-md",
-      "title": "agency-agents",
+      "id": "watch-technical-143ce5c3c11e34fe9ea8-md",
+      "title": "VoiceBox",
       "reasons": [
         "nature-unqualified"
       ]
@@ -640,14 +669,6 @@
       ]
     },
     {
-      "id": "watch-technical-5e7f5b459d52bc0badc8-md",
-      "title": "just",
-      "reasons": [
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-6cc3ec716443f80c37a3-md",
       "title": "Kling Video API via Muapi",
       "reasons": [
@@ -693,13 +714,6 @@
     {
       "id": "watch-technical-3794fe05156a712cb6fd-md",
       "title": "LongCat-Video",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-6d84c860baa5311d1e0f-md",
-      "title": "maigret",
       "reasons": [
         "nature-unqualified"
       ]
@@ -788,13 +802,6 @@
       "reasons": [
         "keywords-missing",
         "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-78d472c25b2758a70776-md",
-      "title": "notebooklm-py",
-      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -1219,13 +1226,6 @@
     {
       "id": "watch-technical-7e01176c9d1442c27f9d-md",
       "title": "Voice-Pro",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-143ce5c3c11e34fe9ea8-md",
-      "title": "VoiceBox",
       "reasons": [
         "nature-unqualified"
       ]
