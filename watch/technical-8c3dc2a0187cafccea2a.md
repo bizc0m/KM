@@ -47,5 +47,5 @@ Exécute des tâches de codage localement avec un éditeur.
 - Origine : NotePlan
 - Identifiant source : 8c3dc2a0187cafccea2a84cdfe601e19b505d4faad42c77c2b39a3214738e26a
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

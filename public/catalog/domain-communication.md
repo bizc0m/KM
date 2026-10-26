@@ -1,7 +1,7 @@
 # Communication et publication
 
-- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md)
 - [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Génère et publie automatiquement du contenu sur plusieurs plateformes sociales.
+- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md)
 - [Claude Ads](../../watch/technical-8eec6dc58fee3af126d1.md) — Analyse données publicitaires pour identifier problèmes et optimisations
 - [Ghost](../../watch/technical-c750bc2f9f73e8e1f5bd.md) — Crée un site de publication avec un CMS open source
 - [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones

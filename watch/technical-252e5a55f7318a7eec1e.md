@@ -45,5 +45,5 @@ Génère et publie automatiquement du contenu sur plusieurs plateformes sociales
 - Origine : NotePlan
 - Identifiant source : 252e5a55f7318a7eec1edcbddc19c9c062db5aaeb3792faba44ccb713dc5ebae
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

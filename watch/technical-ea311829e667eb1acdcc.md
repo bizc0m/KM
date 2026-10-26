@@ -46,5 +46,5 @@ Garder des sessions de codage accessibles pour les agents.
 - Origine : NotePlan
 - Identifiant source : ea311829e667eb1acdcc2809317998c531a20158a9b0974465e7efb25312eb0f
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

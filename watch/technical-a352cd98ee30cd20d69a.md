@@ -46,5 +46,5 @@ Extrait des données depuis des pages web statiques ou dynamiques
 - Origine : NotePlan
 - Identifiant source : a352cd98ee30cd20d69acba7cd0ee40020710a917e6ec1f0f5632b08e459b7e2
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

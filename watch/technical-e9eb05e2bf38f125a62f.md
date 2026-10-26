@@ -42,5 +42,5 @@ Construire des applications LLM fiables avec des principes structurés
 - Origine : NotePlan
 - Identifiant source : e9eb05e2bf38f125a62f3162b1d7213e4b193663ad04388c3f87b9fbba3b8e21
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

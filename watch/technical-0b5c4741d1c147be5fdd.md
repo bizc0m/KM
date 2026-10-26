@@ -42,5 +42,5 @@ intègre des canaux de messagerie pour un assistant IA local
 - Origine : NotePlan
 - Identifiant source : 0b5c4741d1c147be5fddf0c75c5c0f478ced75a3c3b71cf8751002122b8f3831
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

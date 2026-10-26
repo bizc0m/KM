@@ -45,5 +45,5 @@ Automatise les tests web avec des scripts.
 - Origine : NotePlan
 - Identifiant source : d03eda2466f2556e6e1c651ba0a95e10784c37bc74138fb0cdb679e8caa50871
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

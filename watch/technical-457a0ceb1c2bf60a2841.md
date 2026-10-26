@@ -43,5 +43,5 @@ Permet de contourner les filtres de réseau
 - Origine : NotePlan
 - Identifiant source : 457a0ceb1c2bf60a28412e68a97c1cc1e57f953522d7d0b3814ec1e431d91626
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

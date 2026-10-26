@@ -45,5 +45,5 @@ Crée des agents capables de planifier et d'utiliser des sous-agents pour des t�
 - Origine : NotePlan
 - Identifiant source : c5a32632e586ab2c7c9c6b0311eaac2477d26a3be132e9c5b7f260a30728c0b7
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
