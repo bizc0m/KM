@@ -23,7 +23,7 @@
 - [Tests de sécurité](domain-security-testing.md) — 16 fiches
 - [Renseignement en sources ouvertes](domain-osint.md) — 48 fiches
 - [Protection des données](domain-privacy.md) — 11 fiches
-- [Infrastructure](domain-infrastructure.md) — 57 fiches
+- [Infrastructure](domain-infrastructure.md) — 54 fiches
 - [Réseaux](domain-infrastructure-network.md) — 3 fiches
 - [Données et connaissances](domain-data.md) — 77 fiches
 - [Collecte web](domain-data-web.md) — 23 fiches
@@ -35,7 +35,7 @@
 - [Simulation et analyse quantitative](domain-finance-quant.md) — 2 fiches
 - [Sciences et prévision](domain-science.md) — 7 fiches
 - [Prévisions météorologiques](domain-science-weather.md) — 7 fiches
-- [Communication et publication](domain-communication.md) — 15 fiches
+- [Communication et publication](domain-communication.md) — 16 fiches
 - [Applications et interfaces de bureau](domain-dev-desktop.md) — 16 fiches
 - [Conception d’interfaces](domain-dev-ui.md) — 10 fiches
 - [Connecteurs et outils des agents](domain-ai-agents-integration.md) — 26 fiches
@@ -44,15 +44,15 @@
 - [Recherche et indexation](domain-data-search.md) — 4 fiches
 - [Infrastructure de contrôle et commande](domain-security-c2.md) — 1 fiches
 - [Création et diffusion en direct](domain-media-live.md) — 3 fiches
-- [Paquets et dépendances](domain-dev-dependencies.md) — 8 fiches
+- [Paquets et dépendances](domain-dev-dependencies.md) — 9 fiches
 - [Environnements d’exécution](domain-dev-runtime.md) — 2 fiches
 - [Tests logiciels](domain-dev-testing.md) — 2 fiches
 - [API et services applicatifs](domain-dev-api.md) — 4 fiches
 - [Déploiement et hébergement](domain-infrastructure-deployment.md) — 5 fiches
-- [Bases de données](domain-infrastructure-database.md) — 16 fiches
+- [Bases de données](domain-infrastructure-database.md) — 14 fiches
 - [Analyse de fréquentation](domain-data-analytics.md) — 2 fiches
 - [Publication de contenus](domain-communication-publishing.md) — 2 fiches
-- [Messagerie](domain-communication-messaging.md) — 8 fiches
+- [Messagerie](domain-communication-messaging.md) — 9 fiches
 - [Organisation du travail](domain-data-organization.md) — 16 fiches
 - [Outils de navigateur](domain-dev-browser.md) — 10 fiches
 - [Productivité](domain-productivity.md) — 1 fiches

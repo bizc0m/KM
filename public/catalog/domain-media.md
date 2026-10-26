@@ -12,7 +12,11 @@
 - [idn-solver](../../watch/technical-3f991f224eb64ace6e0c.md) — Analyse des données stéréoscopiques avec des modèles préentraînés.
 - [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier.
 - [O2-Recon](../../watch/technical-712121d9735431107601.md) — Améliore la reconstruction 3D des objets masqués avec un modèle diffusion 2D
+- [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Crée des contenus visuels sans restrictions
+- [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel.
+- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [ParticleSfM](../../watch/technical-1579309e1b490fa5279c.md) — Traite des séquences vidéo pour extraire des trajectoires de points.
+- [Penpot](../../watch/technical-c0d4875dd605f77caf57.md) — Permet de collaborer en temps réel sur des projets de conception
 - [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones
 - [Pixal3D-ComfyUI](../../watch/technical-62ff8b189d833243b52d.md) — Permet de générer des modèles 3D à partir d'images 2D
 - [StdGEN](../../watch/technical-39708b126c037da50e56.md) — Génère un modèle 3D détaillé à partir d'une image de référence.
@@ -53,11 +57,7 @@
 - [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Cloner des voix sans connexion internet.
 - [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
 - [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
-- [Open-Generative-AI](../../watch/technical-411490b28204e94a3778.md) — Générer des images et vidéos sans filtres ni restrictions
-- [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel.
 - [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Découpe des images en sections facilement.
-- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
-- [Penpot](../../watch/technical-c0d4875dd605f77caf57.md)
 - [Pixelrelay](../../watch/technical-140649096e6d8069b2f4.md) — Gère les erreurs de fournisseurs avec un système de failover.
 - [Plugin mov-cli-youtube](../../watch/technical-52593ff508c40e9e2d49.md) — Lire des vidéos YouTube via mov-cli avec options audio et shorts
 - [profile-summary-for-github](../../watch/technical-4f05134572dbcb3265f2.md) — Afficher les contributions GitHub sous forme de badges.

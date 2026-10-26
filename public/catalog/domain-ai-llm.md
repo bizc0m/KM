@@ -8,14 +8,14 @@
 - [llama.cpp](../../watch/technical-8f4d2163b5e697a72c77.md) — Exécute des modèles LLM localement avec optimisation matérielle
 - [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Permet d'explorer et modifier le code avec un assistant IA
 - [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Accès programmatique aux fonctionnalités non exposées via CLI et agents AI
+- [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Crée des contenus visuels sans restrictions
+- [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel.
 - [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes interactifs avec un agent AI et une prévisualisation en temps réel
 - [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Crée des workflows personnalisés avec des extensions
 - [awesome-ai-video-models](../../watch/technical-e0275c5610589cad14d2.md) — Choisir le modèle de génération de vidéos AI adapté à un projet.
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [LLM Wiki Agent](../../watch/technical-9e4c4b6c4c6a7d12ceff.md) — Ingestion de documents pour construire un wiki structuré
 - [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Permet une collaboration équipe via un agent partagé par canal
-- [Open-Generative-AI](../../watch/technical-411490b28204e94a3778.md) — Générer des images et vidéos sans filtres ni restrictions
-- [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel.
 - [FreeLLMAPI](../../watch/technical-f9d54d6e051498a6f643.md) — Route requests across free LLM providers with one endpoint
 - [Qwen-Image-API](../../watch/technical-c341f7566eb8b34cd45a.md) — Génère des images via l'API Qwen avec des paramètres avancés
 - [GPT-6 Astra](../../watch/technical-04eb6674f0cfa4208b0e.md) — Accéder à la documentation du modèle GPT-6 Astra

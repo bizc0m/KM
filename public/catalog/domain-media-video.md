@@ -2,6 +2,8 @@
 
 - [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Génère et publie automatiquement du contenu sur plusieurs plateformes sociales.
 - [AlphaTablets](../../watch/technical-ca3c69add82754901cf6.md) — Permet la reconstruction 3D de plans avec précision et contours nets.
+- [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Crée des contenus visuels sans restrictions
+- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [ParticleSfM](../../watch/technical-1579309e1b490fa5279c.md) — Traite des séquences vidéo pour extraire des trajectoires de points.
 - [VisoMaster-Fusion](../../watch/technical-f26060981b4112b4411f.md) — Traiter des visages localement sans frais ni partage de données.
 - [AI Meme Studio](../../watch/technical-28efa5970d38e5616943.md) — Crée des contenus viraux avec des modèles AI.
@@ -19,8 +21,6 @@
 - [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Cloner des voix sans connexion internet.
 - [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md)
 - [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
-- [Open-Generative-AI](../../watch/technical-411490b28204e94a3778.md) — Générer des images et vidéos sans filtres ni restrictions
-- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
 - [Pixelrelay](../../watch/technical-140649096e6d8069b2f4.md) — Gère les erreurs de fournisseurs avec un système de failover.
 - [Plugin mov-cli-youtube](../../watch/technical-52593ff508c40e9e2d49.md) — Lire des vidéos YouTube via mov-cli avec options audio et shorts
 - [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)

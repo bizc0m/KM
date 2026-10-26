@@ -1,5 +1,6 @@
 # Paquets et dépendances
 
+- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les disponibilités et planifier des rendez-vous
 - [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Gère les dépendances de projet avec des lockfiles.
 - [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Recherche et stream d'animes via des fournisseurs.
 - [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Gère les dépendances et les environnements

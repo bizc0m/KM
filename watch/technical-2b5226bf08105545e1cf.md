@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Crée des applications sans installation locale avec des outils open source.
+Crée une API REST sans configuration complexe
 
 ## Identité
 
@@ -44,5 +44,5 @@ Crée des applications sans installation locale avec des outils open source.
 - Origine : NotePlan
 - Identifiant source : 2b5226bf08105545e1cfaa9ab06798f008a57ae4e15ab8a1c1c1c096450071df
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

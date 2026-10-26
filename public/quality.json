@@ -1,15 +1,15 @@
 {
-  "at": "2026-10-26T02:48:54.317Z",
+  "at": "2026-10-26T03:48:59.524Z",
   "scope": "public-index-only",
   "fiches": 658,
-  "sourceReferences": 2616,
+  "sourceReferences": 2617,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
   "pendingReview": 630,
   "counts": {
-    "interest-missing": 193,
-    "keywords-missing": 90,
+    "interest-missing": 192,
+    "keywords-missing": 89,
     "domain-unqualified": 116,
     "primary-identity-unqualified": 20,
     "nature-unqualified": 608
@@ -26,6 +26,14 @@
       "id": "watch-technical-1e83b6596b947b071d50-md",
       "title": "agency-agents",
       "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-cloudflare-agentic-inbox-md",
+      "title": "Agentic Inbox",
+      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -47,6 +55,16 @@
       "id": "watch-technical-ca3c69add82754901cf6-md",
       "title": "AlphaTablets",
       "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-40cd4bcbc0fb8cf86c20-md",
+      "title": "AppFlowy",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -79,8 +97,29 @@
       ]
     },
     {
+      "id": "watch-technical-553d2fe81671c153a6e0-md",
+      "title": "Cal.diy",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-cb5d126cbda2eedef29e-md",
+      "title": "Cal.diy",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-4f72d6274858ca1e8190-md",
       "title": "CHARM",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8eec6dc58fee3af126d1-md",
+      "title": "Claude Ads",
       "reasons": [
         "nature-unqualified"
       ]
@@ -187,6 +226,13 @@
       ]
     },
     {
+      "id": "watch-technical-c750bc2f9f73e8e1f5bd-md",
+      "title": "Ghost",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-cc7d258f82fc4f055019-md",
       "title": "Grok Build",
       "reasons": [
@@ -281,6 +327,22 @@
       ]
     },
     {
+      "id": "watch-technical-ee446b3bf303b677315c-md",
+      "title": "MailHog",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0096fb39d8f5defe169d-md",
+      "title": "Medusa",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-4fed931d247d6cb2a3df-md",
       "title": "Mistral Vibe",
       "reasons": [
@@ -319,6 +381,20 @@
       ]
     },
     {
+      "id": "watch-technical-411490b28204e94a3778-md",
+      "title": "Open Generative AI",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-00898489ed72fd55e12d-md",
+      "title": "Open-LLM-VTuber",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-0b5c4741d1c147be5fdd-md",
       "title": "openclaw",
       "reasons": [
@@ -342,6 +418,13 @@
     {
       "id": "watch-technical-c88e811a1a66f8cd57ba-md",
       "title": "PC-NBV",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c0d4875dd605f77caf57-md",
+      "title": "Penpot",
       "reasons": [
         "nature-unqualified"
       ]
@@ -406,6 +489,13 @@
     {
       "id": "watch-technical-39708b126c037da50e56-md",
       "title": "StdGEN",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-2b5226bf08105545e1cf-md",
+      "title": "Supabase",
       "reasons": [
         "nature-unqualified"
       ]
@@ -484,14 +574,6 @@
       ]
     },
     {
-      "id": "watch-cloudflare-agentic-inbox-md",
-      "title": "Agentic Inbox",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-0c9607a1c8e9eb918265-md",
       "title": "AI Headshot Generator",
       "reasons": [
@@ -542,16 +624,6 @@
       "title": "Anthropic-Cybersecurity-Skills",
       "reasons": [
         "primary-identity-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-40cd4bcbc0fb8cf86c20-md",
-      "title": "AppFlowy",
-      "reasons": [
-        "interest-missing",
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
       ]
     },
     {
@@ -612,27 +684,6 @@
       "reasons": [
         "keywords-missing",
         "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-553d2fe81671c153a6e0-md",
-      "title": "Cal.diy",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-cb5d126cbda2eedef29e-md",
-      "title": "Cal.diy",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-8eec6dc58fee3af126d1-md",
-      "title": "Claude Ads",
-      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -756,13 +807,6 @@
       ]
     },
     {
-      "id": "watch-technical-c750bc2f9f73e8e1f5bd-md",
-      "title": "Ghost",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-d924e27b47fa985d6e04-md",
       "title": "google_dorker",
       "reasons": [
@@ -845,26 +889,9 @@
       ]
     },
     {
-      "id": "watch-technical-ee446b3bf303b677315c-md",
-      "title": "MailHog",
-      "reasons": [
-        "keywords-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-10eda570000d9c7eeda1-md",
       "title": "markdown-to-image",
       "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-0096fb39d8f5defe169d-md",
-      "title": "Medusa",
-      "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -950,22 +977,8 @@
       ]
     },
     {
-      "id": "watch-technical-411490b28204e94a3778-md",
-      "title": "Open-Generative-AI",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-dfc871508eb563893ba5-md",
       "title": "open-grok-bot",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-00898489ed72fd55e12d-md",
-      "title": "Open-LLM-VTuber",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1003,14 +1016,6 @@
     {
       "id": "watch-technical-cdbdf85699a704f19664-md",
       "title": "OSINTSky",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-c0d4875dd605f77caf57-md",
-      "title": "Penpot",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -1130,13 +1135,6 @@
     {
       "id": "watch-technical-c67a2647c3e09c338891-md",
       "title": "SubCat",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-2b5226bf08105545e1cf-md",
-      "title": "Supabase",
       "reasons": [
         "nature-unqualified"
       ]
