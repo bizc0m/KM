@@ -1,8 +1,8 @@
 {
-  "at": "2026-10-26T03:48:59.524Z",
+  "at": "2026-10-26T04:49:04.989Z",
   "scope": "public-index-only",
   "fiches": 658,
-  "sourceReferences": 2617,
+  "sourceReferences": 2615,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
@@ -59,6 +59,30 @@
       ]
     },
     {
+      "id": "watch-technical-14991362ba170a15ca07-md",
+      "title": "anacrolix/torrent",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-42965a7ae63080ec3407-md",
+      "title": "animdl",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-a2235eb2a97eb8aaa5cb-md",
+      "title": "Anthropic-Cybersecurity-Skills",
+      "reasons": [
+        "primary-identity-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-40cd4bcbc0fb8cf86c20-md",
       "title": "AppFlowy",
       "reasons": [
@@ -93,6 +117,15 @@
       "id": "watch-browser-use-web-automation-md",
       "title": "Browser-Use",
       "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-159ec935b39905997411-md",
+      "title": "cache-dit",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -147,6 +180,14 @@
       ]
     },
     {
+      "id": "watch-technical-fca1fec32410e408c140-md",
+      "title": "Cloud Torrent",
+      "reasons": [
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-4ae9875513059238a6b2-md",
       "title": "CodeWhale",
       "reasons": [
@@ -158,6 +199,13 @@
       "title": "Crawlee",
       "reasons": [
         "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-57435869059c16d7e579-md",
+      "title": "skills_feed",
+      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -198,9 +246,25 @@
       ]
     },
     {
+      "id": "watch-technical-f977c26fe64e30184a6f-md",
+      "title": "diffusers",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-f1fa1897837db4db2e4d-md",
       "title": "Direct3D-S2",
       "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-7c881fd189f1ece84c8b-md",
+      "title": "fzf",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -305,10 +369,24 @@
       ]
     },
     {
+      "id": "watch-technical-0ebd1f1b56ff3fc73866-md",
+      "title": "lobster",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-18f0542a2dd3c9b424dc-md",
       "title": "loguru",
       "reasons": [
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-3794fe05156a712cb6fd-md",
+      "title": "LongCat-Video",
+      "reasons": [
         "nature-unqualified"
       ]
     },
@@ -459,6 +537,27 @@
       ]
     },
     {
+      "id": "watch-technical-73498d2b34bc9f53ae61-md",
+      "title": "mov-cli-files",
+      "reasons": [
+        "domain-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-08055b9ca2497bd87108-md",
+      "title": "Plugin mov-cli-jellyplex",
+      "reasons": [
+        "domain-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f2ad2f5dfae253d2f4b6-md",
+      "title": "Popcorn Time",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-ca7cb887e2ca56aa74cb-md",
       "title": "PromptZero",
       "reasons": [
@@ -515,6 +614,15 @@
       ]
     },
     {
+      "id": "watch-technical-c00a869dbb6fdf2fc1cb-md",
+      "title": "Torrent Cloud",
+      "reasons": [
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-8a1d416625950ae0abb8-md",
       "title": "TRELLIS.2",
       "reasons": [
@@ -524,6 +632,13 @@
     {
       "id": "watch-technical-611db130b2bc64852596-md",
       "title": "TrianFlow",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-b19b418d3fe93785fa21-md",
+      "title": "tygo",
       "reasons": [
         "nature-unqualified"
       ]
@@ -543,6 +658,14 @@
       ]
     },
     {
+      "id": "watch-technical-a2736da3d4b4b5c419aa-md",
+      "title": "velox",
+      "reasons": [
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-f26060981b4112b4411f-md",
       "title": "VisoMaster-Fusion",
       "reasons": [
@@ -553,6 +676,14 @@
       "id": "watch-technical-143ce5c3c11e34fe9ea8-md",
       "title": "VoiceBox",
       "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c45c04c570d8ed1549e8-md",
+      "title": "Webtor",
+      "reasons": [
+        "keywords-missing",
         "nature-unqualified"
       ]
     },
@@ -600,30 +731,6 @@
       "title": "AICLIPS Studio",
       "reasons": [
         "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-14991362ba170a15ca07-md",
-      "title": "anacrolix/torrent",
-      "reasons": [
-        "interest-missing",
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-42965a7ae63080ec3407-md",
-      "title": "animdl",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-a2235eb2a97eb8aaa5cb-md",
-      "title": "Anthropic-Cybersecurity-Skills",
-      "reasons": [
-        "primary-identity-unqualified"
       ]
     },
     {
@@ -679,15 +786,6 @@
       ]
     },
     {
-      "id": "watch-technical-159ec935b39905997411-md",
-      "title": "cache-dit",
-      "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-6693a84665174f39d08b-md",
       "title": "ClearMark AI",
       "reasons": [
@@ -695,23 +793,8 @@
       ]
     },
     {
-      "id": "watch-technical-fca1fec32410e408c140-md",
-      "title": "Cloud Torrent",
-      "reasons": [
-        "keywords-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-4dbf8b61c8b24b3bf369-md",
       "title": "CosyVoice",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-57435869059c16d7e579-md",
-      "title": "skills_feed",
       "reasons": [
         "nature-unqualified"
       ]
@@ -726,13 +809,6 @@
     {
       "id": "watch-technical-f8b3849874961eb09fd8-md",
       "title": "DepthSearch",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-f977c26fe64e30184a6f-md",
-      "title": "diffusers",
       "reasons": [
         "nature-unqualified"
       ]
@@ -798,15 +874,6 @@
       ]
     },
     {
-      "id": "watch-technical-7c881fd189f1ece84c8b-md",
-      "title": "fzf",
-      "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-d924e27b47fa985d6e04-md",
       "title": "google_dorker",
       "reasons": [
@@ -861,20 +928,6 @@
     {
       "id": "watch-technical-9e4c4b6c4c6a7d12ceff-md",
       "title": "LLM Wiki Agent",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-0ebd1f1b56ff3fc73866-md",
-      "title": "lobster",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-3794fe05156a712cb6fd-md",
-      "title": "LongCat-Video",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1029,27 +1082,6 @@
       ]
     },
     {
-      "id": "watch-technical-73498d2b34bc9f53ae61-md",
-      "title": "mov-cli-files",
-      "reasons": [
-        "domain-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-08055b9ca2497bd87108-md",
-      "title": "Plugin mov-cli-jellyplex",
-      "reasons": [
-        "domain-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-f2ad2f5dfae253d2f4b6-md",
-      "title": "Popcorn Time",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-eb37530b4bcfa1e9bde8-md",
       "title": "posy",
       "reasons": [
@@ -1162,24 +1194,8 @@
       ]
     },
     {
-      "id": "watch-technical-c00a869dbb6fdf2fc1cb-md",
-      "title": "Torrent Cloud",
-      "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-66fc5b1d26e505baaa01-md",
       "title": "ty",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-b19b418d3fe93785fa21-md",
-      "title": "tygo",
       "reasons": [
         "nature-unqualified"
       ]
@@ -1188,14 +1204,6 @@
       "id": "watch-technical-9068e1e4bc2dea6a7322-md",
       "title": "Uscrapper Vanta",
       "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-a2736da3d4b4b5c419aa-md",
-      "title": "velox",
-      "reasons": [
-        "keywords-missing",
         "nature-unqualified"
       ]
     },
@@ -1247,14 +1255,6 @@
       "title": "WebDiver",
       "reasons": [
         "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-c45c04c570d8ed1549e8-md",
-      "title": "Webtor",
-      "reasons": [
-        "keywords-missing",
         "nature-unqualified"
       ]
     },

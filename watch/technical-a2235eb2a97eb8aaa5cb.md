@@ -67,7 +67,7 @@ Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'I
 - Origine : NotePlan
 - Identifiant source : fd3756033bbd4cc536ae475d8611c4e6348981017697c310a763eb82a9018a17
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Exploration des liens

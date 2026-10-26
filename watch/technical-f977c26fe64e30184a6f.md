@@ -45,5 +45,5 @@ Génère des images à partir de texte avec des modèles préentraînés.
 - Origine : NotePlan
 - Identifiant source : f977c26fe64e30184a6fb434693c4cdda4c4c3977375bf8545f9792922144816
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

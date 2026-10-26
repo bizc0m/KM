@@ -46,5 +46,5 @@ Permet de streamer des médias via des plugins configurés.
 - Origine : NotePlan
 - Identifiant source : 9e0cc8c5c3c327b3c50ba3e56f3118176e57823cc02d31f0a00804fc1e793f57
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

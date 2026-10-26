@@ -42,5 +42,5 @@ Synchronise des objets JSON en temps réel entre serveur et client.
 - Origine : NotePlan
 - Identifiant source : a2736da3d4b4b5c419aa14dd805950f4d7ab9549935aa20e2415f80c742c6817
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -44,5 +44,5 @@ Accéder à des contenus multimédia via des liens.
 - Origine : NotePlan
 - Identifiant source : f2ad2f5dfae253d2f4b6207705ed02d269ac77ba6a321f90808ac83ed5aab555
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

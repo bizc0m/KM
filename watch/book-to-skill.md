@@ -104,5 +104,5 @@ Transforme un livre en compétence accessible par un agent IA
 - Origine : NotePlan
 - Identifiant source : 16a73b8e53c5832aba4bc3c09d70aa14206a7ca3094c5b563371227f73b5f952
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

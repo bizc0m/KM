@@ -42,5 +42,5 @@ Gère les torrents via une interface web
 - Origine : NotePlan
 - Identifiant source : fca1fec32410e408c140c14edda8db6f368429eea767841c66119672a5fa2ef6
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

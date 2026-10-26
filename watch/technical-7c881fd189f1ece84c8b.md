@@ -42,5 +42,5 @@ Sélectionner des fichiers rapidement avec une recherche floue.
 - Origine : NotePlan
 - Identifiant source : 7c881fd189f1ece84c8b4dcf5a6f347025954329974cdd2ebbe23064974bb188
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

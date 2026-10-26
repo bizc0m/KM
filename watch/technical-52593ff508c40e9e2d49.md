@@ -45,5 +45,5 @@ Lire des vidéos YouTube via mov-cli avec options audio et shorts
 - Origine : NotePlan
 - Identifiant source : 52593ff508c40e9e2d490b2f2d50a5ac8de5ea5754489d5aa6869298500b722c
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

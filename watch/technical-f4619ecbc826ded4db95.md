@@ -42,5 +42,5 @@ Affiche des vidéos torrent avec sous-titres et personnalisation.
 - Origine : NotePlan
 - Identifiant source : f4619ecbc826ded4db95476e28e588bc537f8415de3885533a62aa7dbf42068b
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-25
+- Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
