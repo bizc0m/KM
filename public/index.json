@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-26T07:49:41.003Z",
+  "at": "2026-10-28T13:54:48.258Z",
   "count": 658,
   "rows": [
     {
@@ -82981,8 +82981,8 @@
         "facets": {
           "domain": [
             "domain.data.web",
-            "domain.osint",
-            "domain.infrastructure"
+            "domain.infrastructure",
+            "domain.osint"
           ],
           "capability": [
             "capability.scraping"
@@ -83036,6 +83036,28 @@
             "path": []
           },
           {
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
+            "parent": "domain",
+            "aliases": [
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
+            ],
+            "patterns": [
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Infrastructure"
+            ]
+          },
+          {
             "id": "domain.osint",
             "label": "Renseignement en sources ouvertes",
             "parent": "domain.security",
@@ -83070,28 +83092,6 @@
             "facet": "domain",
             "path": [
               "Cybersécurité"
-            ]
-          },
-          {
-            "id": "domain.infrastructure",
-            "label": "Infrastructure",
-            "parent": "domain",
-            "aliases": [
-              "#infrastructure",
-              "#network-security",
-              "#vpn",
-              "#tailscale",
-              "#server",
-              "#linux-server"
-            ],
-            "patterns": [
-              "\\bvps\\b",
-              "serveurs?",
-              "\\bservers?\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Infrastructure"
             ]
           },
           {
@@ -83247,6 +83247,28 @@
           "path": []
         },
         {
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
+          "parent": "domain",
+          "aliases": [
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
+          ],
+          "patterns": [
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Infrastructure"
+          ]
+        },
+        {
           "id": "domain.osint",
           "label": "Renseignement en sources ouvertes",
           "parent": "domain.security",
@@ -83281,28 +83303,6 @@
           "facet": "domain",
           "path": [
             "Cybersécurité"
-          ]
-        },
-        {
-          "id": "domain.infrastructure",
-          "label": "Infrastructure",
-          "parent": "domain",
-          "aliases": [
-            "#infrastructure",
-            "#network-security",
-            "#vpn",
-            "#tailscale",
-            "#server",
-            "#linux-server"
-          ],
-          "patterns": [
-            "\\bvps\\b",
-            "serveurs?",
-            "\\bservers?\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Infrastructure"
           ]
         },
         {
