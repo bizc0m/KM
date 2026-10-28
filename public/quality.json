@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-28T13:54:48.416Z",
+  "at": "2026-10-28T14:55:05.000Z",
   "scope": "public-index-only",
   "fiches": 658,
   "sourceReferences": 2617,
@@ -8,7 +8,7 @@
   "primaryDuplicateGroups": [],
   "pendingReview": 629,
   "counts": {
-    "interest-missing": 175,
+    "interest-missing": 174,
     "keywords-missing": 91,
     "domain-unqualified": 119,
     "primary-identity-unqualified": 20,
@@ -2351,7 +2351,6 @@
       "id": "watch-technical-4ca7b79d976e015db39b-md",
       "title": "workerd",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },

@@ -39,7 +39,7 @@
 - [Stirling PDF](../../watch/technical-6b15eaf11d9b70cfb83f.md) — Traite des PDF localement sans service externe
 - [User Scanner](../../watch/technical-1d55b4cad34f154042bf.md) — Analyse des emails et usernames pour extraire des données.
 - [websockets](../../watch/technical-819ffa493e2a00dcc10b.md) — Permet d'établir des connexions WebSocket en Python
-- [workerd](../../watch/technical-4ca7b79d976e015db39b.md)
+- [workerd](../../watch/technical-4ca7b79d976e015db39b.md) — Exécutez des applications Cloudflare Workers localement pour tester et développer.
 - [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Permet aux agents d'intégrer instantanément la plateforme pour trader.
 - [xianyu-auto-reply-fix](../../watch/technical-aa8e0008d94afed17913.md) — Gère automatiquement les réponses et commandes sur Xianyu.
 - [Liste de serveurs MCP publics](../../watch/technical-0ddca6b2cefbbbc15347.md) — Connecter des assistants à des outils et données via des serveurs MCP.

@@ -62,7 +62,7 @@
 - [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Propose des corrections de code en temps réel via un terminal interactif
 - [Spec Kit](../../watch/technical-f4e0adf84666b0c986e7.md) — Structurer le développement avec des spécifications
 - [Stirling PDF](../../watch/technical-6b15eaf11d9b70cfb83f.md) — Traite des PDF localement sans service externe
-- [workerd](../../watch/technical-4ca7b79d976e015db39b.md)
+- [workerd](../../watch/technical-4ca7b79d976e015db39b.md) — Exécutez des applications Cloudflare Workers localement pour tester et développer.
 - [yt-dlp-ejs](../../watch/technical-df2c1d26b3d255b2b015.md) — Facilite l'intégration de JavaScript avec yt-dlp
 - [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Permet aux agents d'intégrer instantanément la plateforme pour trader.
 - [Anthropic Cybersecurity Skills](../../watch/technical-02d73009ec03d24b2e22.md)

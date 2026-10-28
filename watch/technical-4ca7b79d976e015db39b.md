@@ -8,7 +8,7 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Exécutez des applications Cloudflare Workers localement pour tester et développer.
 
 ## Identité
 
@@ -27,10 +27,10 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.infrastructure domain.dev.runtime source.noteplan source.github source.x lifecycle.review
+- Identifiants : domain.infrastructure domain.dev.runtime source.noteplan source.github source.x lifecycle.active
 - Sujets : Infrastructure ; Développement logiciel > Environnements d’exécution
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
 
 ## Sources
 

@@ -337,7 +337,7 @@
 | `watch-technical-e8ac251258a46bd1e943-md` | `watch/technical-e8ac251258a46bd1e943.md` | outil | #terminal | actif |
 | `watch-technical-819ffa493e2a00dcc10b-md` | `watch/technical-819ffa493e2a00dcc10b.md` | outil | #python | actif |
 | `watch-technical-8369377105bef464b8c5-md` | `watch/technical-8369377105bef464b8c5.md` | outil |  | actif |
-| `watch-technical-4ca7b79d976e015db39b-md` | `watch/technical-4ca7b79d976e015db39b.md` | outil |  | a verifier |
+| `watch-technical-4ca7b79d976e015db39b-md` | `watch/technical-4ca7b79d976e015db39b.md` | outil |  | actif |
 | `watch-technical-19ac68b23de2f4744bd3-md` | `watch/technical-19ac68b23de2f4744bd3.md` | outil | #python | actif |
 | `watch-technical-200f4f9f3b7e9e0f30c9-md` | `watch/technical-200f4f9f3b7e9e0f30c9.md` | outil | #macos, #python | actif |
 | `watch-technical-350bc4fbd59269522ae3-md` | `watch/technical-350bc4fbd59269522ae3.md` | outil |  | actif |

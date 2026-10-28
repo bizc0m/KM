@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-28T13:54:48.258Z",
+  "at": "2026-10-28T14:55:04.838Z",
   "count": 658,
   "rows": [
     {
@@ -135227,7 +135227,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [],
-      "status": "a verifier",
+      "status": "actif",
       "path": "watch/technical-4ca7b79d976e015db39b.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-4ca7b79d976e015db39b.md",
       "sourceUrl": "https://github.com/cloudflare/workerd",
@@ -135248,7 +135248,7 @@
       "github": "https://github.com/cloudflare/workerd",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Exécutez des applications Cloudflare Workers localement pour tester et développer.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-20",
@@ -135270,7 +135270,7 @@
             "source.x"
           ],
           "lifecycle": [
-            "lifecycle.review"
+            "lifecycle.active"
           ]
         },
         "concepts": [
@@ -135346,16 +135346,16 @@
             ]
           },
           {
-            "id": "lifecycle.review",
-            "label": "À vérifier",
+            "id": "lifecycle.active",
+            "label": "Actif",
             "parent": "lifecycle",
             "aliases": [
-              "#a-verifier",
-              "#to-verify"
+              "#actif",
+              "#active"
             ],
             "facet": "lifecycle",
             "path": [
-              "À vérifier"
+              "Actif"
             ]
           },
           {
@@ -135480,16 +135480,16 @@
           ]
         },
         {
-          "id": "lifecycle.review",
-          "label": "À vérifier",
+          "id": "lifecycle.active",
+          "label": "Actif",
           "parent": "lifecycle",
           "aliases": [
-            "#a-verifier",
-            "#to-verify"
+            "#actif",
+            "#active"
           ],
           "facet": "lifecycle",
           "path": [
-            "À vérifier"
+            "Actif"
           ]
         },
         {
@@ -135548,7 +135548,7 @@
         }
       ],
       "cardTitle": "workerd",
-      "cardInterest": ""
+      "cardInterest": "Exécutez des applications Cloudflare Workers localement pour tester et développer."
     },
     {
       "id": "watch-technical-19ac68b23de2f4744bd3-md",
