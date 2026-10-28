@@ -2,7 +2,7 @@
 import {correctedResource} from './km-verified-resources.mjs';
 import {repositoryKey} from './km-tool-fiches.mjs';
 import {resourceMetadata,resourceMarkdown} from './km-resource-metadata.mjs';
-import {mkdir,readFile,writeFile,readdir,rename,stat,rm,open} from 'node:fs/promises';
+import {mkdir,readFile,writeFile,appendFile,readdir,rename,stat,rm,open} from 'node:fs/promises';
 import path from 'node:path';
 import os from 'node:os';
 import crypto from 'node:crypto';
@@ -71,6 +71,7 @@ export async function addFiche(key,d,sources,origin,analysis){
   for(const [index,line] of [['index.md',`| \`watch:${actualId}\` | \`${rel}\` | outil | ${tags.join(', ')} | ${d.risk==='dual-use'?'#ROUGE':'actif'} |`],['watch/index.md',`| \`watch:${actualId}\` | \`${actualName}\` | Veille technique | ${d.risk==='dual-use'?'#ROUGE':'actif'} |`]]){
     const ip=path.join(ROOT,index);let text=await readFile(ip,'utf8');if(!text.includes('`'+actualName+'`') && !text.includes('`'+rel+'`'))await atomic(ip,text.trimEnd()+'\n'+line+'\n');
   }
+  await mkdir(DATA,{recursive:true,mode:0o700});await appendFile(path.join(DATA,'fiche-events.jsonl'),JSON.stringify({at:now(),file:rel,title:esc(d.title),action:previous?'enrichie':'créée'})+'\n',{mode:0o600});
   return rel;
 }
 async function main(){
@@ -144,14 +145,14 @@ async function main(){
   try{
     await checkpoint();
     // NotePlan: no raw notes, excerpts, filenames or excluded URLs are persisted.
-    if(!state.lastNoteplanSuccess || Date.now()-Date.parse(state.lastNoteplanSuccess)>20*3600000 || process.argv.includes('--noteplan')){
+    if(true){
       let scan;
       try {
         const reader=path.join(ROOT,'scripts/km-noteplan-technical-read.mjs');
         let command=process.execPath,args=[reader];
         if(process.env.KM_NOTEPLAN_SSH==='1'){
           const quote=s=>"'"+s.replaceAll("'","'\\''")+"'";
-          const remote=['env',...(process.env.NOTEPLAN_ROOT?[`NOTEPLAN_ROOT=${process.env.NOTEPLAN_ROOT}`]:[]),process.execPath,reader].map(quote).join(' ');
+          const remote=['env',...(process.env.NOTEPLAN_ROOT?[`NOTEPLAN_ROOT=${process.env.NOTEPLAN_ROOT}`]:[]),`KM_PIPELINE_DATA=${DATA}`,process.execPath,reader].map(quote).join(' ');
           command='/usr/bin/ssh';args=['-o','BatchMode=yes','-o','IdentitiesOnly=yes','-o','StrictHostKeyChecking=yes','-o','ConnectTimeout=5','-i',path.join(os.homedir(),'.ssh/id_ed25519_atn_core'),`${os.userInfo().username}@127.0.0.1`,remote];
         }
         const result=await exec(command,args,{env:process.env,timeout:30000,maxBuffer:32*1024*1024});
@@ -159,7 +160,7 @@ async function main(){
       } catch { scan={ok:false,notes:[],scanned:0,reason:'NOTEPLAN_READ_TIMEOUT'}; }
       if(!scan.ok){status.errors.push(scan.reason || 'NOTEPLAN_PARTIAL_READ');status.noteplan={ok:false,reason:scan.reason==='NOTEPLAN_PERMISSION_DENIED'?'Autorisation macOS nécessaire pour accéder à NotePlan':scan.reason==='NOTEPLAN_READ_TIMEOUT'?'Lecture NotePlan bloquée ou autorisation macOS en attente (limite 30 secondes)':'Données NotePlan indisponibles ou partiellement lisibles'};}
       else{
-        let complete=true;status.noteplan={ok:true,scope:scan.scope,scanned:scan.scanned};
+        let complete=true;const retryNotes=[];status.noteplan={ok:true,scope:scan.scope,scanned:scan.scanned,metadataExamined:scan.examined,notRead:scan.unchanged,scanStartedAt:scan.scanStartedAt,cutoff:scan.cutoff};
         for(const note of scan.notes.sort((a,b)=>Number(b.segments.some(s=>/\/status\/\d+/.test(s)))-Number(a.segments.some(s=>/\/status\/\d+/.test(s))))){
           const k=note.id;const digest=note.digest;
           if(state.notes[k]?.hash===digest)continue;
@@ -178,10 +179,10 @@ async function main(){
           if(note.allowText && segments.length && !segments.some(s=>urls(s).length)){
             if(processed>=LIMIT){done=false;complete=false;}else{processed++;try{const r=await processCandidate(k,segments.join('\n').slice(0,16000),[],'NotePlan');if(r==='review'){done=false;complete=false;}else state.notes[k]={hash:digest,fiche:r,at:now()};}catch{done=false;complete=false;status.failures++;}}
           }
-          if(done)state.notes[k]={...state.notes[k],hash:digest,at:now()};
+          if(done)state.notes[k]={...state.notes[k],hash:digest,at:now()};else retryNotes.push(k);
           await checkpoint();
         }
-        if(complete)state.lastNoteplanSuccess=now();
+        const oldCursor=await readJson(path.join(DATA,'noteplan-cursor.json'),{});const selected=new Set(scan.notes.map(n=>n.id));const pending=[...new Set([...(oldCursor.pending||[]).filter(id=>!selected.has(id)),...retryNotes])];const cursor={...oldCursor,pending,lastAttempt:now(),lastScan:scan.scanStartedAt};if(complete&&!pending.length){cursor.lastSuccess=scan.scanStartedAt;state.lastNoteplanSuccess=scan.scanStartedAt;}await atomic(path.join(DATA,'noteplan-cursor.json'),JSON.stringify(cursor));
       }
     }else status.noteplan={ok:true,skipped:'déjà scanné dans les 20 dernières heures'};
     await checkpoint();
