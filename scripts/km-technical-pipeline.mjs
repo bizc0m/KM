@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import {loadSources,fetchFeed} from './km-sources.mjs';
 import {correctedResource} from './km-verified-resources.mjs';
 import {repositoryKey} from './km-tool-fiches.mjs';
 import {resourceMetadata,resourceMarkdown} from './km-resource-metadata.mjs';
@@ -83,7 +84,7 @@ async function main(){
   const state=await readJson(path.join(DATA,'state.json'),{urls:{},notes:{}});
   state.firstRun ||= now();
   if(state.toolFicheVersion!==CRAWL_VERSION){for(const note of Object.values(state.notes || {}))delete note.hash;state.lastNoteplanSuccess=null;state.toolFicheVersion=CRAWL_VERSION;}
-  let processed=0,builtCount=0,lastWriteback=0;
+  let processed=0,builtCount=0,lastWriteback=0,noteplanEnabled=false;
   async function checkpoint(){
     await atomic(path.join(DATA,'state.json'),JSON.stringify(state));
     const changed=status.created+status.updated;
@@ -92,7 +93,7 @@ async function main(){
       await exec(process.execPath,[path.join(ROOT,'scripts/km-verify-placement.mjs')],{cwd:ROOT,env:process.env,timeout:30000,maxBuffer:1000000});
       builtCount=changed;status.dashboard={ok:true,file:'search-v2.html',updatedAt:now()};
     }
-    if(process.env.KM_NOTEPLAN_SSH==='1' && Date.now()-lastWriteback>300000){lastWriteback=Date.now();try{const r=await exec(process.execPath,[path.join(ROOT,'scripts/km-noteplan-writeback.mjs'),'--apply'],{cwd:ROOT,env:process.env,timeout:120000,maxBuffer:1000000});status.noteplanWriteback=JSON.parse(r.stdout);}catch{status.noteplanWriteback={ok:false,reason:'NOTEPLAN_WRITEBACK_FAILED'};}}
+    if(noteplanEnabled && process.env.KM_NOTEPLAN_SSH==='1' && Date.now()-lastWriteback>300000){lastWriteback=Date.now();try{const r=await exec(process.execPath,[path.join(ROOT,'scripts/km-noteplan-writeback.mjs'),'--apply'],{cwd:ROOT,env:process.env,timeout:120000,maxBuffer:1000000});status.noteplanWriteback=JSON.parse(r.stdout);}catch{status.noteplanWriteback={ok:false,reason:'NOTEPLAN_WRITEBACK_FAILED'};}}
     await atomic(path.join(DATA,'progress.json'),JSON.stringify({...status,processed,limit:LIMIT,updatedAt:now()}));
   }
   const known=new Set(),tweetFiles=new Map();
@@ -143,9 +144,10 @@ async function main(){
     await checkpoint();
   }
   try{
+    const configuredSources=await loadSources(ROOT);noteplanEnabled=configuredSources.some(s=>s.type==='noteplan'&&s.enabled);status.sources=[];
     await checkpoint();
     // NotePlan: no raw notes, excerpts, filenames or excluded URLs are persisted.
-    if(true){
+    if(configuredSources.some(s=>s.type==='noteplan'&&s.enabled)){
       let scan;
       try {
         const reader=path.join(ROOT,'scripts/km-noteplan-technical-read.mjs');
@@ -184,11 +186,13 @@ async function main(){
         }
         const oldCursor=await readJson(path.join(DATA,'noteplan-cursor.json'),{});const selected=new Set(scan.notes.map(n=>n.id));const pending=[...new Set([...(oldCursor.pending||[]).filter(id=>!selected.has(id)),...retryNotes])];const cursor={...oldCursor,pending,lastAttempt:now(),lastScan:scan.scanStartedAt};if(complete&&!pending.length){cursor.lastSuccess=scan.scanStartedAt;state.lastNoteplanSuccess=scan.scanStartedAt;}await atomic(path.join(DATA,'noteplan-cursor.json'),JSON.stringify(cursor));
       }
-    }else status.noteplan={ok:true,skipped:'déjà scanné dans les 20 dernières heures'};
+    }else status.noteplan={ok:true,skipped:'source désactivée dans sources.md'};
     await checkpoint();
+    for(const source of configuredSources.filter(s=>s.type==='noteplan'))status.sources.push({name:source.name,type:source.type,...status.noteplan,items:status.noteplan.scanned||0,at:now()});
     // Public page is inspected on every run; structured RSS is supplemental.
-    const publicPage='https://arno-vltn.raindrop.page/km-monitor-71629567';
-    const candidates=new Map();
+    const candidates=new Map();status.raindrop={ok:true,skipped:'source désactivée'};
+    for(const source of configuredSources.filter(s=>s.type==='raindrop'&&s.enabled)){
+    const publicPage=source.url;
     try{
       const page=await publicFetch(publicPage);
       const seenIds=new Set();let expected=0;
@@ -205,7 +209,7 @@ async function main(){
         }
       }
       collectPage(page.text);
-      const pages=[...new Set([...page.text.matchAll(/href="([^"]+)"/g)].map(m=>decode(m[1])).filter(p=>/\/km-monitor-71629567\/.*(?:&|\b)page=\d+(?:&|$)/.test(p)))];
+      const pages=[...new Set([...page.text.matchAll(/href="([^"]+)"/g)].map(m=>decode(m[1])).filter(p=>{try{const u=new URL(p,publicPage);return u.origin===new URL(publicPage).origin&&u.pathname.startsWith(new URL(publicPage).pathname)&&u.searchParams.has('page');}catch{return false;}}))];
       for(const p of pages.slice(0,100)){const u=new URL(p,publicPage);if(u.origin===new URL(publicPage).origin)collectPage((await publicFetch(u.href)).text);}
       status.raindrop={pageRead:true,publicItems:seenIds.size,expectedPublicItems:expected,complete:expected>0 && seenIds.size>=expected};
       if(!status.raindrop.complete)status.errors.push('RAINDROP_PUBLIC_COVERAGE_INCOMPLETE');
@@ -216,9 +220,14 @@ async function main(){
       for(const [,item] of items){const u=tag(item,'link');const hint=plain(tag(item,'title')+' '+tag(item,'description'));if(u && !blocked(hint+' '+u))candidates.set(u,'Raindrop');}
       status.raindrop={...status.raindrop,ok:true,feedItems:items.length,candidates:candidates.size,coverage:status.raindrop.complete?'collection publique parcourue intégralement et RSS complémentaire':'page publique partielle et RSS complémentaire'};
     }catch{status.errors.push('RAINDROP_FEED_UNAVAILABLE');}
+    status.sources.push({name:source.name,type:source.type,...status.raindrop});
+    }
+    for(const source of configuredSources.filter(s=>s.type==='rss'&&s.enabled)){try{const feed=await fetchFeed(source.url);for(const item of feed.items)candidates.set(item.url,'RSS : '+source.name);status.sources.push({name:source.name,type:'rss',ok:true,items:feed.count,at:now()});}catch{status.sources.push({name:source.name,type:'rss',ok:false,error:'Flux inaccessible ou invalide',at:now()});status.errors.push('RSS_SOURCE_UNAVAILABLE');}}
+    await atomic(path.join(DATA,'source-status.json'),JSON.stringify({at:now(),sources:status.sources}));
     await checkpoint();
     const ordered=[...candidates].sort(([a],[b])=>Number(/github\.com|gitlab\.com|huggingface\.co/.test(b))-Number(/github\.com|gitlab\.com|huggingface\.co/.test(a)));
-    for(const [u,origin] of ordered)await processUrl(u,origin);
+    for(const [u,origin] of ordered){const before=status.created+status.updated;await processUrl(u,origin);const source=status.sources.find(s=>origin==='RSS : '+s.name);if(source){source.processed=(source.processed||0)+1;source.ficheWrites=(source.ficheWrites||0)+status.created+status.updated-before;}}
+    await atomic(path.join(DATA,'source-status.json'),JSON.stringify({at:now(),sources:status.sources}));
     status.pendingCalendar=Object.values(state.notes || {}).filter(n=>!n.hash).length;
     status.pending=[...candidates.keys()].filter(u=>{try{const r=state.urls[hash(canonical(u))];return !r || r.status==='retry';}catch{return false;}}).length;
     // Rebuild even on an empty run: current policy must also gate older fiches.

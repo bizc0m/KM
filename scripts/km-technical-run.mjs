@@ -1,3 +1,4 @@
+import {loadSources} from './km-sources.mjs';
 #!/usr/bin/env node
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -19,6 +20,7 @@ try{
  try{const old=JSON.parse(await fs.readFile(path.join(data,'run.lock'),'utf8'));try{process.kill(old.pid,0);report.stage='existing_pipeline_active';await save();process.exitCode=0;}catch(e){if(e.code!=='ESRCH')throw e;}}catch(e){if(e.code!=='ENOENT')throw e;}
  if(report.stage!=='existing_pipeline_active'){
   for(const script of ['km-merge-tool-fiches.mjs','km-retag.mjs','km-migrate-resources.mjs','km-requalify-primary.mjs','km-apply-verified.mjs','km-classify-fiches.mjs','build-search-v1.12-html.mjs','km-verify-placement.mjs','km-quality-report.mjs','km-rewrite-interests.mjs','km-noteplan-writeback.mjs','km-technical-pipeline.mjs','km-requalify-primary.mjs','km-apply-verified.mjs','build-search-v1.12-html.mjs','km-quality-report.mjs','km-noteplan-writeback.mjs','km-coverage.mjs']){
+   if(script==='km-noteplan-writeback.mjs'&&!(await loadSources(root)).some(s=>s.type==='noteplan'&&s.enabled)){report.stages.push({script,skipped:'NotePlan désactivé dans sources.md',at:new Date().toISOString()});continue;}
    report.stage=script;await save();let result;try{result=await exec(process.execPath,[path.join(root,'scripts',script),...(script==='km-technical-pipeline.mjs'?['--backfill']:script==='km-rewrite-interests.mjs'?['--review-only']:script==='km-noteplan-writeback.mjs'?['--apply']:[])],{cwd:root,env:process.env,...(script==='km-noteplan-writeback.mjs'?{timeout:120000}:{}),maxBuffer:10_000_000});}catch(e){if(script!=='km-technical-pipeline.mjs')throw e;const status=JSON.parse(await fs.readFile(path.join(data,'status.json'),'utf8'));if(status.health!=='attention'||Date.parse(status.finishedAt)<Date.parse(report.startedAt))throw e;report.collectionHealth='attention';result={stdout:''};}report.stages.push({script,ok:true,at:new Date().toISOString()});if(script==='km-coverage.mjs')report.coverage=JSON.parse(result.stdout);await save();
   }report.stage='complete';report.finishedAt=new Date().toISOString();await save();
  }
