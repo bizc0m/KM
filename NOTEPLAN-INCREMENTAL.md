@@ -22,7 +22,7 @@ La note de rapport reste hors Calendar. Les titres permettent le pliage NotePlan
 
 Sauvegardes privées, relecture avant écriture, contrôle après écriture, détection des conflits disque. Limite de trois secondes pour les principales lectures de fichier du retour, budget global de 90 secondes et délai de 120 secondes imposé par l'appelant. Un fichier bloqué n'autorise pas l'avancement du marqueur du retour. Les modifications non enregistrées dans l'éditeur NotePlan ne peuvent pas être verrouillées par ces contrôles disque.
 
-La réconciliation globale des liens est retirée de chaque cycle automatique et reste disponible comme maintenance explicite. La chaîne existante sur le M2 reste planifiée à 02:30, 08:30, 14:30 et 20:30, heure locale. La publication filtrée GitHub reste assurée chaque heure par le Mac relais connecté au M2 ; cette dépendance demeure.
+La réconciliation globale des liens est retirée de chaque cycle automatique et reste disponible comme maintenance explicite. La chaîne existante sur le M2 reste planifiée à 08:00 et 12:00, heure locale. La publication filtrée GitHub reste assurée chaque heure par le Mac relais connecté au M2 ; cette dépendance demeure.
 
 ## Contrôle réel
 
