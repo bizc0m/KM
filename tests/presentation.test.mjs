@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {validInterest} from '../scripts/km-interest-text.mjs';import {cardInterest} from '../scripts/km-card-presentation.mjs';import {productImages} from '../scripts/km-product-media.mjs';
+const text='Fonction · Profils d’agents Dev, design, marketing.\nAvantages · Consignes et livrables prédéfinis.\nGain · Adapter au projet, lancer les tâches rapidement.';
+test('three documented operational lines survive card presentation',()=>{assert.ok(validInterest(text));assert.equal(cardInterest({raw:'## Intérêts\n\n'+text}),text);assert.ok(!validInterest('Facilite les tâches avec des agents.'));});
+test('only product captures, no badges and no more than two',()=>{const md='![badge](https://img.shields.io/a)\n![Screenshot](images/screenshot.png)\n![Demo](images/demo.png)\n![Preview](images/preview.png)';const images=productImages(md,'https://raw.githubusercontent.com/o/r/HEAD/README.md');assert.equal(images.length,2);assert.match(images[0].url,/HEAD\/images\/screenshot.png/);});

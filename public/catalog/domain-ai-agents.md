@@ -1,7 +1,9 @@
 # Agents IA
 
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Construire des applications LLM fiables avec des principes structurés
-- [agency-agents](../../watch/technical-1e83b6596b947b071d50.md) — Facilite la simulation de discussions avec des experts.
+- [agency-agents](../../watch/technical-1e83b6596b947b071d50.md) — Fonction · Profils d’agents Dev, design, marketing.
+Avantages · Consignes et livrables prédéfinis.
+Gain · Adapter au projet, lancer les tâches rapidement.
 - [Agent Skills](../../watch/technical-48dbbdd8fd0d302995a7.md) — Définir un format ouvert pour partager les compétences des agents.
 - [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Gère les emails via Cloudflare Workers avec isolation par boîte aux lettres et stockage R2
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Stocke automatiquement les actions de l'agent pour une utilisation future

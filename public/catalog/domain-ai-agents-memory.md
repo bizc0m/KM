@@ -1,6 +1,8 @@
 # Mémoire des agents
 
-- [agency-agents](../../watch/technical-1e83b6596b947b071d50.md) — Facilite la simulation de discussions avec des experts.
+- [agency-agents](../../watch/technical-1e83b6596b947b071d50.md) — Fonction · Profils d’agents Dev, design, marketing.
+Avantages · Consignes et livrables prédéfinis.
+Gain · Adapter au projet, lancer les tâches rapidement.
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Stocke automatiquement les actions de l'agent pour une utilisation future
 - [headroom](../../watch/technical-668711a6e10728221dfc.md) — Compresses data to reduce token costs while preserving content
 - [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Permet une collaboration équipe via un agent partagé par canal

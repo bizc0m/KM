@@ -3,7 +3,7 @@
 - NotePlan : lire Calendar uniquement. Exclure les contenus personnels, intimes, sexuels et les secrets. Ne pas enregistrer de notes brutes dans les journaux.
 - Explorer tous les liens utiles, articles X et tweets cités compris, jusqu’à trois niveaux ; conserver les limites de pages, erreurs et éléments non lus dans les compteurs.
 - Une fiche par outil identifié ; dédoublonner par dépôt canonique. Enrichir une fiche existante en conservant ses sources et son origine. Un annuaire n’est pas chaque outil qu’il cite.
-- Texte visible : intérêt pratique uniquement, français naturel, style télégraphique, 6 à 15 mots. Action concrète et résultat utile, exclusivement documentés. Aucun nom d’outil, publicité, chiffre promotionnel, bénéfice vague ou phrase tronquée. À défaut : « Intérêt à vérifier ».
+- Texte visible : exactement trois lignes courtes, Fonction · / Avantages · / Gain ·, 3 à 12 mots par ligne, français télégraphique opérationnel. Fonction concrète, capacité utile, action facilitée ou étape évitée. Chaque ligne distincte et étayée ; aucun bénéfice inventé. Information absente : « Non établi par la source ». Conserver les sources. Jusqu’à deux captures produit issues du site officiel ou README, sans logos ni badges, avec origine ; aucun visuel inventé.
 - Appliquer les corrections aux fiches existantes et aux générations futures. Sauvegarder avant les migrations et les fusions.
 - Distinguer notes lues, notes productrices identifiées, liens, outils uniques, fiches créées/enrichies, rejets, doublons, blocages et attente. Ne jamais présenter le ratio fiches/notes comme un taux de conversion des notes.
 - Vérifier de bout en bout : source, extraction, fiche, index et affichage navigateur. Un HTTP 200 ne confirme pas le contenu visible.

@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import {findProductImages} from './km-product-media.mjs';
 import {loadSources,fetchFeed} from './km-sources.mjs';
 import {correctedResource} from './km-verified-resources.mjs';
 import {repositoryKey} from './km-tool-fiches.mjs';
@@ -63,11 +64,14 @@ export async function addFiche(key,d,sources,origin,analysis){
   const existing=(previous.match(/## Tags[ \t]*\n([\s\S]*?)(?=\n## |$)/)?.[1]||'').split(/[,\n]/).map(t=>t.trim()).filter(Boolean);
   const tags=preciseTags({title:d.title,evidence:[d.summary,...d.facts,d.utility||''].join(' '),existing});
   const classification=classifyFiche({tags,title:d.title,evidence:[d.summary,...d.facts].join(' '),status:d.risk==='dual-use'?'#ROUGE':'actif',sources,origin});
-  const body=`# ${esc(d.title)}\n\n## Statut\n\n${d.risk==='dual-use'?'#ROUGE':'actif'}\n\n## Tags\n\n${[...tags,...(d.risk==='dual-use'?['#ROUGE']:[])].join(', ')}\n\n## Intérêts\n\n${esc(validInterest(d.utility)?d.utility:"Intérêt à vérifier").replace(/\s+/g,' ')}\n\n${repositoryKey(key)?`## Identité\n\n- Dépôt principal : ${repositoryKey(key)}\n\n`:""}${classificationMarkdown(classification)}${resourceMarkdown(resourceMetadata(previous || `# ${d.title}`,d.resource||{}))}## Sources\n\n${sources.map(s=>'- '+s).join('\n')}\n\n## Traçabilité\n\n- Origine : ${origin}\n- Identifiant source : ${hash(key)}\n- Politique : ${POLICY_VERSION}\n- Lecture KM : ${now().slice(0,10)}\n- Résumé automatique local ; les affirmations restent attribuées aux sources.\n`;
+  const body=`# ${esc(d.title)}\n\n## Statut\n\n${d.risk==='dual-use'?'#ROUGE':'actif'}\n\n## Tags\n\n${[...tags,...(d.risk==='dual-use'?['#ROUGE']:[])].join(', ')}\n\n## Intérêts\n\n${esc(validInterest(d.utility)?d.utility:"Intérêt à vérifier")}\n\n${repositoryKey(key)?`## Identité\n\n- Dépôt principal : ${repositoryKey(key)}\n\n`:""}${classificationMarkdown(classification)}${resourceMarkdown(resourceMetadata(previous || `# ${d.title}`,d.resource||{}))}## Sources\n\n${sources.map(s=>'- '+s).join('\n')}\n\n## Traçabilité\n\n- Origine : ${origin}\n- Identifiant source : ${hash(key)}\n- Politique : ${POLICY_VERSION}\n- Lecture KM : ${now().slice(0,10)}\n- Résumé automatique local ; les affirmations restent attribuées aux sources.\n`;
   const details=analysis?.details || [];
   const report=analysis?.crawl;
   const exploration=report?`\n## Exploration des liens\n\n- Configuration : ${report.version} ; profondeur ${report.maxDepth}, maximum ${report.maxPages} pages par tweet.\n- Liens distincts recensés : ${report.found}.\n- Pages lues, tweet compris : ${report.read}.\n- Sources techniques analysées : ${report.technical}.\n- Sources à vérifier : ${report.review} ; analyses non terminées : ${report.analysisPending} ; erreurs du modèle : ${report.analysisErrors}.\n- Liens non lus : ${report.unread} (profondeur : ${report.depthLimited}, budget de pages : ${report.pageLimited}, délai : ${report.timeLimited}, erreurs : ${report.errors}).\n- Pages résumées sur extrait : ${report.excerpted}.\n- Éléments exclus : ${report.excluded} ; doublons ignorés : ${report.duplicates}.\n- Couverture complète : ${report.complete?'oui':'non ; limites ou sources non accessibles détaillées ci-dessus'}.\n`+details.map(x=>`\n### ${esc(x.title)}\n\n${esc(x.summary)}\n\n${x.facts.map(f=>'- '+esc(f)).join('\n')}\n\nSource : ${x.url} ; niveau ${x.depth}.\n`).join(''):'';
-  await atomic(p,correctedResource(body+exploration,key));
+  const savedMedia=previous.match(/## Aperçus\n([\s\S]*?)(?=\n## |$)/)?.[0];
+  const images=savedMedia?[]:await findProductImages(key);
+  const media=savedMedia?'\n'+savedMedia:images.length?'\n## Aperçus\n\n'+images.map(i=>'!['+i.alt.replace(/[\[\]]/g,'')+']('+i.url+')\n\n[Origine]('+i.source+')').join('\n\n')+'\n':'';
+  await atomic(p,correctedResource(body+exploration+media,key));
   const actualName=path.basename(rel);const actualId=path.basename(rel,'.md');
   for(const [index,line] of [['index.md',`| \`watch:${actualId}\` | \`${rel}\` | outil | ${tags.join(', ')} | ${d.risk==='dual-use'?'#ROUGE':'actif'} |`],['watch/index.md',`| \`watch:${actualId}\` | \`${actualName}\` | Veille technique | ${d.risk==='dual-use'?'#ROUGE':'actif'} |`]]){
     const ip=path.join(ROOT,index);let text=await readFile(ip,'utf8');if(!text.includes('`'+actualName+'`') && !text.includes('`'+rel+'`'))await atomic(ip,text.trimEnd()+'\n'+line+'\n');
