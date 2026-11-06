@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Planifier des tâches avec des marques pour afficher des points bleus dans le calendrier.
+Fonction · Planifier des tâches avec marques calendaires.  
+Avantages · Affichage de points bleus dans le calendrier.  
+Gain · Visualiser les tâches sans outil externe.
 
 ## Métadonnées
 

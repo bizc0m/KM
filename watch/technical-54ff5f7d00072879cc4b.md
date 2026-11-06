@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Installe rapidement des outils OSINT et de sécurité sur plusieurs systèmes.
+Fonction · Installe des outils OSINT et de sécurité sur plusieurs systèmes.  
+Avantages · Intégration de sources comme GitHub et Raindrop.  
+Gain · Éviter la configuration manuelle des outils OSINT.
 
 ## Métadonnées
 

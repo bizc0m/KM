@@ -182,15 +182,38 @@ Gain · Éviter la fragmentation des outils et créer des scènes cohérentes.
 - [open-ai-ugc](../../watch/technical-dbe2e54164b357ddcb32.md) — Fonction · Générer des publicités vidéo UGC avec des acteurs AI.
 Avantages · Support multi-modèles et gestion de crédits intégrée.
 Gain · Lancer des générations sans interface, gérer les paiements.
-- [Comparaison des modèles d'IA](../../watch/technical-b3d3480734d063a13c32.md) — DeepSeek V4.1 Flash optimise la réponse avec 16B de paramètres actifs.
-- [MinerU](../../watch/technical-703d6de987a070db2edf.md) — Convertir des documents PDF, Word, Excel ou images en Markdown pour une utilisation facile.
-- [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Traduire des vidéos en 14 langues sources et 101 cibles.
-- [Répertoires GitHub d'éditeurs de vidéos AI](../../watch/technical-e803d6ea4b8b5e515082.md) — Génère des vidéos à partir de textes et images.
+- [Comparaison des modèles d'IA](../../watch/technical-b3d3480734d063a13c32.md) — Fonction · Générer des images via un modèle d'IA.
+Avantages · Optimisation des réponses avec 16B de paramètres.
+Gain · Lancer la création d'images sans configuration complexe.
+- [MinerU](../../watch/technical-703d6de987a070db2edf.md) — Fonction · Convertir PDF, Word, Excel, images en Markdown.
+Avantages · Génère code Markdown structuré à partir de documents.
+Gain · Éviter de reformater manuellement les contenus.
+- [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Fonction · Workspace unifié pour création et agents.
+Avantages · Génère vidéo, image, audio, sous-titres.
+Gain · Lancer tâches sans config, réutiliser modèles.
+- [Répertoires GitHub d'éditeurs de vidéos AI](../../watch/technical-e803d6ea4b8b5e515082.md) — Fonction · Génère des vidéos et images à partir de textes.
+Avantages · Intégration de sources comme Raindrop et X/Twitter.
+Gain · Créer du contenu visuel sans outil externe.
 - [Unsloth Studio](../../watch/technical-95204b762614cb0e8692.md) — Déployer et entraîner des modèles LLM localement ou via Colab.
-- [Vector Wizard](../../watch/technical-608ce5a66bf90d5c0383.md) — Crée des animations SVG à partir de descriptions ou d'images.
-- [Uncensored Open Source Image And Video AI Tool](../../watch/sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol.md)
+- [Vector Wizard](../../watch/technical-608ce5a66bf90d5c0383.md) — Fonction · Animer des SVG à partir de textes ou images.
+Avantages · Résultat directement utilisable sans ajustements.
+Gain · Éviter la création manuelle d'animations SVG.
+- [Uncensored Open Source Image And Video AI Tool](../../watch/sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol.md) — Fonction · Analyse et gère des images et vidéos via IA.
+Avantages · Outils de création et de surveillance intégrés.
+Gain · Éviter la recherche manuelle de ressources.
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
-- [Inspiration Competitors Tools Watch](../../watch/inspiration-competitors-tools-watch.md)
-- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md)
-- [Vibe Shit](../../watch/vibeshit-vibe-coding-directory.md)
-- [Brandfetch](../../watch/brandfetch.md)
+- [Inspiration Competitors Tools Watch](../../watch/inspiration-competitors-tools-watch.md) — Fonction · Centraliser les sites inspirants, concurrents et outils utiles.
+Avantages · Identifier les patterns, risques et opportunités d'intégration.
+Gain · Éviter la copie, analyser sans reproduire les identités visuelles.
+- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md) — Fonction · Génère du texte et des images localement.
+Avantages · Supporte plusieurs modèles et langages.
+Gain · Éviter l'envoi de données vers le cloud.
+- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md) — Fonction · Identifier et surveiller les outils offensifs ou abusables.
+Avantages · Distinguer usage légitime et usage abusif documenté.
+Gain · Éviter diffusion publique et exploitation offensive.
+- [Vibe Shit](../../watch/vibeshit-vibe-coding-directory.md) — Fonction · Identifier des outils IA, agents et projets open source.
+Avantages · Suivre les tendances sans dépendre exclusivement de GitHub.
+Gain · Éviter de rechercher manuellement des ressources inspirantes.
+- [Brandfetch](../../watch/brandfetch.md) — Fonction · Surveillance de marques et assets publics.
+Avantages · Intégration d'API pour accès aux données.
+Gain · Automatiser la veille et l'analyse des marques.

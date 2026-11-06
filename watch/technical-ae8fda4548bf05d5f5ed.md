@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt pratique : Oriente vers des solutions modernes et compatibles navigateurs.
+Fonction · Installer ou rechercher des guides pour coder avec les dernières APIs web.  
+Avantages · Éviter les patterns obsolètes grâce à des conseils experts.  
+Gain · Lancer des tâches sans polyfill grâce à des solutions natives.
 
 ## Métadonnées
 

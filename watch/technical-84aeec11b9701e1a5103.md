@@ -10,7 +10,9 @@
 
 ## Intérêts
 
-Convertir un LLM en modèle de décision Jev sans entraînement.
+Fonction · Convertir un LLM en modèle de décision Jev.  
+Avantages · Prise de décision sans entraînement.  
+Gain · Réutiliser des préfixes pour accélérer les requêtes.
 
 ## Métadonnées
 
@@ -33,6 +35,9 @@ Convertir un LLM en modèle de décision Jev sans entraînement.
 ## Sources
 
 - https://github.com/yinsongxu/llm2jev
+- https://raw.githubusercontent.com/yinsongxu/llm2jev/HEAD/assets/web-demo.gif
+- https://raw.githubusercontent.com/yinsongxu/llm2jev/HEAD/README.md
+- https://raw.githubusercontent.com/yinsongxu/llm2jev/HEAD/assets/snake.gif
 
 ## Traçabilité
 
@@ -41,3 +46,13 @@ Convertir un LLM en modèle de décision Jev sans entraînement.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-17
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![LLM2Jev web demo](https://raw.githubusercontent.com/yinsongxu/llm2jev/HEAD/assets/web-demo.gif)
+
+[Origine](https://raw.githubusercontent.com/yinsongxu/llm2jev/HEAD/README.md)
+
+![LLM2Jev Snake demo](https://raw.githubusercontent.com/yinsongxu/llm2jev/HEAD/assets/snake.gif)
+
+[Origine](https://raw.githubusercontent.com/yinsongxu/llm2jev/HEAD/README.md)

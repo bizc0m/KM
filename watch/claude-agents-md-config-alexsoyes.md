@@ -30,3 +30,9 @@ Veille workflow agents / configuration AGENTS.md.
 ## Sources
 
 - https://x.com/alexsoyes/status/2070522733608292544](https://x.com/alexsoyes/status/2070522733608292544
+
+## Intérêts
+
+Fonction · Configuration des agents Claude via un fichier AGENTS.md.  
+Avantages · Centralisation des instructions et paramètres d'intégration.  
+Gain · Éviter de répéter les configurations pour chaque agent.

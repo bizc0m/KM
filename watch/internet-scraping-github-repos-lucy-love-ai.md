@@ -52,3 +52,9 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 ### v0.1 - 2026-06-28
 
 - Integration depuis Raindrop KM Monitor.
+
+## Intérêts
+
+Fonction · Extraire des données GitHub via scraping.  
+Avantages · Accès à des repos et métadonnées.  
+Gain · Analyser activité et tendances sans API.

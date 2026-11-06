@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Déployer Odysseus via Docker pour gérer des tâches IA localement.
+Fonction · Déployer des modèles IA localement via Docker.  
+Avantages · Gestion centralisée des tâches IA sur serveur interne.  
+Gain · Éviter dépendances externes, sécuriser données sensibles.
 
 ## Métadonnées
 
@@ -23,15 +25,17 @@ Déployer Odysseus via Docker pour gérer des tâches IA localement.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai source.raindrop source.github lifecycle.active
-- Sujets : Intelligence artificielle
+- Identifiants : domain.ai domain.infrastructure risk.sensitive source.raindrop source.github
+- Sujets : Intelligence artificielle ; Infrastructure
+- Risques : Risque signalé
 - Provenance : Raindrop ; GitHub
-- État : Actif
 
 ## Sources
 
 - https://github.com/pewdiepie-archdaemon/odysseus?mcp_token=eyJwaWQiOjM5OTQ2OTAsInNpZCI6MjEwMDMyODcwMCwiYXgiOiJhNjhlNzBiMjU2NjdkZjU3YzMyYjAxZjg3NmIyMDNmMCIsInRzIjoxNzgxMjg1NjcwLCJleHAiOjE3ODM3MDQ4NzB9.le9J6fWJcEQ9oIMkrzg-IpHqXRC5a2Oh33Pu_Yn7944
 - https://github.com/odysseus-dev/odysseus
+- https://raw.githubusercontent.com/odysseus-dev/odysseus/HEAD/assets/branding/odysseus-browser.jpg
+- https://raw.githubusercontent.com/odysseus-dev/odysseus/HEAD/README.md
 
 ## Traçabilité
 
@@ -40,3 +44,9 @@ Déployer Odysseus via Docker pour gérer des tâches IA localement.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-17
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![Odysseus interface](https://raw.githubusercontent.com/odysseus-dev/odysseus/HEAD/assets/branding/odysseus-browser.jpg)
+
+[Origine](https://raw.githubusercontent.com/odysseus-dev/odysseus/HEAD/README.md)

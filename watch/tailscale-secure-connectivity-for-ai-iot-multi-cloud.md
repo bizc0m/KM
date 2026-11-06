@@ -32,3 +32,9 @@ Veille Raindrop KM Monitor / connectivite Zero Trust et reseau prive.
 
 - Objectif : integrer la nouveaute Raindrop KM Monitor `Tailscale | Secure Connectivity for AI, IoT & Multi-Cloud`.
 - Risques : configuration reseau, acces prive, exposition de ressources internes, agents connectes.
+
+## Intérêts
+
+Fonction · Connectivité sécurisée entre appareils AI, IoT et cloud.  
+Avantages · Réseau privé zero trust sans infrastructure complexe.  
+Gain · Éviter configuration manuelle, sécuriser communications automatiquement.

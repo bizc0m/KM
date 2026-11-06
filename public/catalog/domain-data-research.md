@@ -10,6 +10,10 @@ Gain · Éviter de compiler manuellement des informations.
 - [GPT Researcher](../../watch/technical-d2fc479804301a66d2d8.md) — Fonction · Génère des rapports de recherche avec citations et sources.
 Avantages · Filtrage contextuel avancé avec Jev, 73% de passages pertinents.
 Gain · Éviter les fausses informations, réduire le temps de traitement.
-- [Hister](../../watch/technical-ef6994e092dfd931bb79.md) — Rechercher et stocker des contenus web de manière privée et organisée.
-- [Last 30 Days Research Agent Skill](../../watch/mvanhorn-last30days-skill.md)
+- [Hister](../../watch/technical-ef6994e092dfd931bb79.md) — Fonction · Rechercher et stocker des contenus web de manière privée.
+Avantages · Indexation et organisation des ressources web.
+Gain · Accéder rapidement à des informations sans partage.
+- [Last 30 Days Research Agent Skill](../../watch/mvanhorn-last30days-skill.md) — Fonction · Recherche des documents dans les 30 derniers jours.
+Avantages · Accès à des données récentes et actualisées.
+Gain · Éviter de consulter des sources obsolètes.
 - [AutoResearchClaw](../../watch/autoresearchclaw-autonomous-research.md)

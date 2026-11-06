@@ -29,3 +29,9 @@ Veille Raindrop KM Monitor / topic GitHub.
 ## Sources
 
 - https://github.com/topics/digital-life](https://github.com/topics/digital-life
+
+## Intérêts
+
+Fonction · Suivi des sujets GitHub liés à la vie numérique.  
+Avantages · Filtrage des contenus en fonction des tags.  
+Gain · Accéder rapidement aux ressources curatrices.

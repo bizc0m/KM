@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Gère les agents sur des périodes prolongées avec un noyau d'état durable.
+Fonction · Gère les tâches longues et les collaborations d'agents.  
+Avantages · Conserve les décisions, preuves et responsabilités entre sessions.  
+Gain · Analyser les résultats, comparer les approches et continuer sans redémarrer.
 
 ## Métadonnées
 

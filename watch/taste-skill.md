@@ -29,3 +29,9 @@ Veille Raindrop KM Monitor / kit frontend pour agents IA.
 ## Sources
 
 - https://www.tasteskill.dev/](https://www.tasteskill.dev/
+
+## Intérêts
+
+Fonction · Étendre les compétences d’un agent IA.  
+Avantages · Compétences prédéfinies pour des tâches spécifiques.  
+Gain · Lancer des tâches sans configuration complexe.

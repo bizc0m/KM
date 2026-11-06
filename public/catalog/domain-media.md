@@ -327,35 +327,86 @@ Gain · Lancer la création sans édition vidéo préalable.
 - [yt-dlp](../../watch/technical-60d78a24f5ceb1c0cf35.md) — Fonction · Télécharger des vidéos et audios depuis des sites web.
 Avantages · Supporte divers formats et plateformes.
 Gain · Éviter de visiter plusieurs sites pour télécharger.
-- [Chromaprint](../../watch/technical-47e117fd2115e80cd328.md) — Crée des fingerprints audio pour identifier des morceaux similaires rapidement.
-- [Comparaison des modèles d'IA](../../watch/technical-b3d3480734d063a13c32.md) — DeepSeek V4.1 Flash optimise la réponse avec 16B de paramètres actifs.
+- [Chromaprint](../../watch/technical-47e117fd2115e80cd328.md) — Fonction · Génère des empreintes audio pour identification.
+Avantages · Optimisé pour la vitesse de recherche.
+Gain · Éviter la duplication de fichiers audio.
+- [Comparaison des modèles d'IA](../../watch/technical-b3d3480734d063a13c32.md) — Fonction · Générer des images via un modèle d'IA.
+Avantages · Optimisation des réponses avec 16B de paramètres.
+Gain · Lancer la création d'images sans configuration complexe.
 - [awesome-open-source-mac-apps](../../watch/technical-ee0a2cc79169b0f8394c.md) — Lecture de fichiers audio et vidéo sans logiciel propriétaire.
-- [MinerU](../../watch/technical-703d6de987a070db2edf.md) — Convertir des documents PDF, Word, Excel ou images en Markdown pour une utilisation facile.
-- [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Traduire des vidéos en 14 langues sources et 101 cibles.
-- [Outils et compétences pour la production vidéo automatisée et agente](../../watch/technical-88c715df4dbe74ef0c5a.md) — Crée des vidéos MP4 à partir de textes avec des agents AI.
-- [Répertoires GitHub d'éditeurs de vidéos AI](../../watch/technical-e803d6ea4b8b5e515082.md) — Génère des vidéos à partir de textes et images.
+- [MinerU](../../watch/technical-703d6de987a070db2edf.md) — Fonction · Convertir PDF, Word, Excel, images en Markdown.
+Avantages · Génère code Markdown structuré à partir de documents.
+Gain · Éviter de reformater manuellement les contenus.
+- [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Fonction · Workspace unifié pour création et agents.
+Avantages · Génère vidéo, image, audio, sous-titres.
+Gain · Lancer tâches sans config, réutiliser modèles.
+- [Outils et compétences pour la production vidéo automatisée et agente](../../watch/technical-88c715df4dbe74ef0c5a.md) — Fonction · Créer des vidéos MP4 à partir de textes avec des agents AI.
+Avantages · Génère des contenus vidéo sans intervention manuelle.
+Gain · Éviter la phase de montage pour lancer rapidement des vidéos.
+- [Répertoires GitHub d'éditeurs de vidéos AI](../../watch/technical-e803d6ea4b8b5e515082.md) — Fonction · Génère des vidéos et images à partir de textes.
+Avantages · Intégration de sources comme Raindrop et X/Twitter.
+Gain · Créer du contenu visuel sans outil externe.
 - [Unsloth Studio](../../watch/technical-95204b762614cb0e8692.md) — Déployer et entraîner des modèles LLM localement ou via Colab.
-- [Vector Wizard](../../watch/technical-608ce5a66bf90d5c0383.md) — Crée des animations SVG à partir de descriptions ou d'images.
-- [YuE2Mac](../../watch/technical-0db5ad8aef9f75ba7077.md) — Crée des chansons à partir de paroles et d'un style musical.
+- [Vector Wizard](../../watch/technical-608ce5a66bf90d5c0383.md) — Fonction · Animer des SVG à partir de textes ou images.
+Avantages · Résultat directement utilisable sans ajustements.
+Gain · Éviter la création manuelle d'animations SVG.
+- [YuE2Mac](../../watch/technical-0db5ad8aef9f75ba7077.md) — Fonction · Créer une chanson complète à partir de paroles et d'un style.
+Avantages · Génère un son 48 kHz stereo sans connexion internet.
+Gain · Exporter en M4A ou modifier le score ABC directement.
 - [AIRI AI Companion](../../watch/airi-ai-companion.md)
-- [AnyV2V Video Editing Framework](../../watch/anyv2v-video-editing-framework.md)
-- [EchoVessel Persona Memory Engine](../../watch/echovessel-persona-memory-engine.md)
+- [AnyV2V Video Editing Framework](../../watch/anyv2v-video-editing-framework.md) — Fonction · Éditer des vidéos avec une seule image.
+Avantages · Pas de formation ni de finetuning requis.
+Gain · Modifier directement la première image pour lancer l'édition.
+- [EchoVessel Persona Memory Engine](../../watch/echovessel-persona-memory-engine.md) — Fonction · Créer des personas numériques avec mémoire et interaction.
+Avantages · Communication via Web et Discord avec messages vocaux.
+Gain · Lancer un daemon pour gérer les canaux et les tâches.
 - [Kiwi Edit Video Editing](../../watch/kiwi-edit-video-editing.md)
 - [LosslessCut Video Audio Editing](../../watch/losslesscut-video-audio-editing.md)
-- [OBS Shaderfilter](../../watch/obs-shaderfilter.md)
-- [OpenVJ Web VJ Tool](../../watch/openvj-web-vj-tool.md)
-- [VACE Video Creation Editing](../../watch/vace-video-creation-editing.md)
-- [Veejay Live Video Sampler](../../watch/veejay-live-video-sampler.md)
-- [VISTA Video Style Transfer](../../watch/vista-video-style-transfer.md)
-- [AI Video Plugins And Skills Ayi AInotes](../../watch/ai-video-plugins-skills-ayi-ainotes.md)
-- [HyperFrames AI Video Generation Skill](../../watch/hyperframes-ai-video-generation-skill.md)
-- [Here are 10 AI video editor GitHub repos worth bookmarking:](../../watch/here-are-10-ai-video-editor-github-repos-worth-bookmarking.md)
+- [OBS Shaderfilter](../../watch/obs-shaderfilter.md) — Fonction · Applique des shaders HLSL aux sources OBS.
+Avantages · Paramètres dynamiques avec annotations.
+Gain · Éviter de coder un vertex shader complet.
+- [OpenVJ Web VJ Tool](../../watch/openvj-web-vj-tool.md) — Fonction · Projection mapping et visualisation en temps réel via navigateur.
+Avantages · Contrôle MIDI, réactivité audio, génération de shaders IA.
+Gain · Lancer des performances sans matériel coûteux.
+- [VACE Video Creation Editing](../../watch/vace-video-creation-editing.md) — Fonction · Créer et éditer des vidéos via des prompts textuels et des masques.
+Avantages · Supporte des tâches comme Move-Anything et Swap-Anything.
+Gain · Lancer des tâches d'éditation sans prétraitement complexe.
+- [Veejay Live Video Sampler](../../watch/veejay-live-video-sampler.md) — Fonction · Traitement vidéo en temps réel, échantillonnage, enregistrement.
+Avantages · Gestion de multiples instances et automatisation VIMS.
+Gain · Contrôler plusieurs VeeJay comme un système de performance.
+- [VISTA Video Style Transfer](../../watch/vista-video-style-transfer.md) — Fonction · Transformer de style vidéo avec diffusion et triplets supervisés.
+Avantages · Utilise des encodageurs SigLIP et des poids LoRA adaptés.
+Gain · Générer des vidéos stylisées en 768x768 avec 81 frames.
+- [AI Video Plugins And Skills Ayi AInotes](../../watch/ai-video-plugins-skills-ayi-ainotes.md) — Fonction · Générer des vidéos via des compétences IA.
+Avantages · Intégration avec des agents IA existants.
+Gain · Créer des contenus vidéo sans logiciel spécialisé.
+- [HyperFrames AI Video Generation Skill](../../watch/hyperframes-ai-video-generation-skill.md) — Fonction · Génère des vidéos via un agent IA.
+Avantages · Intégre HTML et rendu visuel.
+Gain · Créer des contenus vidéo sans outil externe.
+- [Here are 10 AI video editor GitHub repos worth bookmarking:](../../watch/here-are-10-ai-video-editor-github-repos-worth-bookmarking.md) — Fonction · Monter une vidéo avec IA.
+Avantages · Générer des scénarios et storyboard.
+Gain · Éviter la phase de planification manuelle.
 - [OpenMontage Agentic Video Production System](../../watch/calesthio-openmontage.md)
-- [Uncensored Open Source Image And Video AI Tool](../../watch/sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol.md)
+- [Uncensored Open Source Image And Video AI Tool](../../watch/sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol.md) — Fonction · Analyse et gère des images et vidéos via IA.
+Avantages · Outils de création et de surveillance intégrés.
+Gain · Éviter la recherche manuelle de ressources.
 - [MoneyPrinterTurbo](../../watch/moneyprinterturbo-ai-short-video.md)
-- [PromptSpy](../../watch/promptspy-ai-android-malware.md)
+- [PromptSpy](../../watch/promptspy-ai-android-malware.md) — Fonction · Analyse comportementale d'applications Android via IA.
+Avantages · Détection d'appels vers API IA pour evasion.
+Gain · Éviter les malwares adaptatifs via surveillance réseau.
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
-- [Inspiration Competitors Tools Watch](../../watch/inspiration-competitors-tools-watch.md)
-- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md)
-- [Vibe Shit](../../watch/vibeshit-vibe-coding-directory.md)
-- [Brandfetch](../../watch/brandfetch.md)
+- [Inspiration Competitors Tools Watch](../../watch/inspiration-competitors-tools-watch.md) — Fonction · Centraliser les sites inspirants, concurrents et outils utiles.
+Avantages · Identifier les patterns, risques et opportunités d'intégration.
+Gain · Éviter la copie, analyser sans reproduire les identités visuelles.
+- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md) — Fonction · Génère du texte et des images localement.
+Avantages · Supporte plusieurs modèles et langages.
+Gain · Éviter l'envoi de données vers le cloud.
+- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md) — Fonction · Identifier et surveiller les outils offensifs ou abusables.
+Avantages · Distinguer usage légitime et usage abusif documenté.
+Gain · Éviter diffusion publique et exploitation offensive.
+- [Vibe Shit](../../watch/vibeshit-vibe-coding-directory.md) — Fonction · Identifier des outils IA, agents et projets open source.
+Avantages · Suivre les tendances sans dépendre exclusivement de GitHub.
+Gain · Éviter de rechercher manuellement des ressources inspirantes.
+- [Brandfetch](../../watch/brandfetch.md) — Fonction · Surveillance de marques et assets publics.
+Avantages · Intégration d'API pour accès aux données.
+Gain · Automatiser la veille et l'analyse des marques.

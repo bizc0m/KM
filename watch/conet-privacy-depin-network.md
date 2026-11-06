@@ -66,3 +66,9 @@ Veille infra privacy / DePIN / reseau decentralise.
 
 - Objectif : integrer CONET comme veille privacy DePIN apres demande utilisateur.
 - Risques : claims privacy non audites, crypto/tokenomics, responsabilite de relais, confusion anonymat reel/promis.
+
+## Intérêts
+
+Fonction · Permet de surveiller des réseaux DePIN via des adresses wallet.  
+Avantages · Intègre des protocoles de confidentialité pour les données réseau.  
+Gain · Éviter de stocker des informations sensibles sur les nœuds.

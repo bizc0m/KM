@@ -30,3 +30,9 @@ Veille Raindrop KM Monitor / framework de scraping web.
 ## Sources
 
 - https://scrapling.readthedocs.io/
+
+## Intérêts
+
+Fonction · Extraire des données web via Python.  
+Avantages · Compatibilité avec les langages de programmation.  
+Gain · Automatiser la collecte d'informations en ligne.

@@ -77,12 +77,22 @@ Gain · Créer des vidéos sans installation, directement via API.
 - [Pipecat](../../watch/technical-70340542d5688b508dea.md) — Fonction · Synthétise des voix à partir de texte.
 Avantages · Intégration avec NotePlan et X/Twitter.
 Gain · Créer des assistants vocaux sans coder.
-- [Chromaprint](../../watch/technical-47e117fd2115e80cd328.md) — Crée des fingerprints audio pour identifier des morceaux similaires rapidement.
+- [Chromaprint](../../watch/technical-47e117fd2115e80cd328.md) — Fonction · Génère des empreintes audio pour identification.
+Avantages · Optimisé pour la vitesse de recherche.
+Gain · Éviter la duplication de fichiers audio.
 - [awesome-open-source-mac-apps](../../watch/technical-ee0a2cc79169b0f8394c.md) — Lecture de fichiers audio et vidéo sans logiciel propriétaire.
-- [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Traduire des vidéos en 14 langues sources et 101 cibles.
-- [YuE2Mac](../../watch/technical-0db5ad8aef9f75ba7077.md) — Crée des chansons à partir de paroles et d'un style musical.
+- [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Fonction · Workspace unifié pour création et agents.
+Avantages · Génère vidéo, image, audio, sous-titres.
+Gain · Lancer tâches sans config, réutiliser modèles.
+- [YuE2Mac](../../watch/technical-0db5ad8aef9f75ba7077.md) — Fonction · Créer une chanson complète à partir de paroles et d'un style.
+Avantages · Génère un son 48 kHz stereo sans connexion internet.
+Gain · Exporter en M4A ou modifier le score ABC directement.
 - [AIRI AI Companion](../../watch/airi-ai-companion.md)
-- [EchoVessel Persona Memory Engine](../../watch/echovessel-persona-memory-engine.md)
+- [EchoVessel Persona Memory Engine](../../watch/echovessel-persona-memory-engine.md) — Fonction · Créer des personas numériques avec mémoire et interaction.
+Avantages · Communication via Web et Discord avec messages vocaux.
+Gain · Lancer un daemon pour gérer les canaux et les tâches.
 - [LosslessCut Video Audio Editing](../../watch/losslesscut-video-audio-editing.md)
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
-- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md)
+- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md) — Fonction · Identifier et surveiller les outils offensifs ou abusables.
+Avantages · Distinguer usage légitime et usage abusif documenté.
+Gain · Éviter diffusion publique et exploitation offensive.

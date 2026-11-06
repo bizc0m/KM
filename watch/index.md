@@ -462,7 +462,7 @@
 | `watch-technical-e1f8a790d58a19d10194-md` | `technical-e1f8a790d58a19d10194.md` | outil | actif |
 | `watch-technical-d5330ab75d554eda8c08-md` | `technical-d5330ab75d554eda8c08.md` | outil | actif |
 | `watch-technical-187af07c5c79815c0323-md` | `technical-187af07c5c79815c0323.md` | outil | actif |
-| `watch-technical-a8c5ca7589de2b644bba-md` | `technical-a8c5ca7589de2b644bba.md` | outil | actif |
+| `watch-technical-a8c5ca7589de2b644bba-md` | `technical-a8c5ca7589de2b644bba.md` | outil | sensible |
 | `watch-technical-51c74448ee9079430332-md` | `technical-51c74448ee9079430332.md` | outil | actif |
 | `watch-technical-b1a37537c70048612638-md` | `technical-b1a37537c70048612638.md` | outil | actif |
 | `watch-technical-f779fb17c6e2ccb52360-md` | `technical-f779fb17c6e2ccb52360.md` | outil | actif |
@@ -571,6 +571,7 @@
 | `watch-ig-detective-instagram-osint-suite-md` | `ig-detective-instagram-osint-suite.md` | outil | #ROUGE |
 | `watch-internet-scraping-github-repos-lucy-love-ai-md` | `internet-scraping-github-repos-lucy-love-ai.md` | outil | sensible |
 | `watch-open-lovable-firecrawl-site-cloning-md` | `open-lovable-firecrawl-site-cloning.md` | outil | sensible |
+| `watch-openthreat-threat-intelligence-platform-md` | `openthreat-threat-intelligence-platform.md` | outil | sensible |
 | `watch-serus-dark-web-leak-search-md` | `serus-dark-web-leak-search.md` | outil | #ROUGE |
 | `watch-spec-kit-vibe-coding-specification-workflow-md` | `spec-kit-vibe-coding-specification-workflow.md` | outil | sensible |
 | `watch-worldmonitor-global-intelligence-dashboard-md` | `worldmonitor-global-intelligence-dashboard.md` | outil | sensible |
@@ -623,6 +624,7 @@
 | `watch-removes-llm-censorship-with-a-single-click-md` | `removes-llm-censorship-with-a-single-click.md` | outil | sensible |
 | `watch-link-del-repo-md` | `link-del-repo.md` | outil | sensible |
 | `watch-este-repositorio-de-github-lo-esta-explotando-mode-senior-md` | `este-repositorio-de-github-lo-esta-explotando-mode-senior.md` | outil | sensible |
+| `watch-top-5-sites-pour-vibe-coders-edition-niche-md` | `top-5-sites-pour-vibe-coders-edition-niche.md` | outil | sensible |
 | `watch-ryancodrai-turbovec-md` | `ryancodrai-turbovec.md` | outil | sensible |
 | `watch-sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol-md` | `sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol.md` | outil | sensible |
 | `watch-xamto-ai-understand-anything-x-post-md` | `xamto-ai-understand-anything-x-post.md` | outil | sensible |

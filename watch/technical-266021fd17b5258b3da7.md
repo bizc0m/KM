@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-PentestGPT détecte des vulnérabilités sans intervention humaine.
+Fonction · Détecte des vulnérabilités sans intervention humaine.  
+Avantages · Analyse automatisée des systèmes et codes.  
+Gain · Éviter les erreurs manuelles lors des tests de sécurité.
 
 ## Métadonnées
 

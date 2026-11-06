@@ -101,42 +101,102 @@ Gain · Créer des vidéos animées directement depuis les assets générés.
 - [ViMax](../../watch/technical-ef1500532ddc132c577d.md) — Fonction · Génère des courts-métrages à partir d'idées.
 Avantages · Intégre des outils de planification et de calendrier.
 Gain · Lancer la création sans édition vidéo préalable.
-- [Capsule Hub](../../watch/technical-7ce70d893933b807a8be.md) — Capturer et stocker le contexte des conversations IA pour le réutiliser dans d'autres sessions.
-- [Éditeur de propriétés de note (Frontmatter) - NotePlan](../../watch/technical-52638d59170c3cd934c2.md) — Modifier les métadonnées des notes sans toucher le frontmatter.
+- [Agent Skills](../../watch/technical-dae9f02535f7c22f84f1.md) — Fonction · Définir, planifier, construire, tester, reviewer, livrer des tâches.
+Avantages · Commandes slash pour automatiser les workflows.
+Gain · Lancer des tâches sans étape manuelle intermédiaire.
+- [Capsule Hub](../../watch/technical-7ce70d893933b807a8be.md) — Fonction · Capturer et stocker le contexte des conversations IA.
+Avantages · Permet de réutiliser le contexte dans d'autres sessions.
+Gain · Éviter de réexpliquer le contexte à chaque nouvelle session.
+- [Éditeur de propriétés de note (Frontmatter) - NotePlan](../../watch/technical-52638d59170c3cd934c2.md) — Fonction · Modifier les propriétés des notes sans modifier le frontmatter.
+Avantages · Accès direct aux métadonnées des notes.
+Gain · Éviter de modifier le contenu principal des notes.
 - [Firecrawl](../../watch/technical-08ba60d0377016e9eb0a.md) — Extraire des données web pour alimenter des applications IA.
-- [Hister](../../watch/technical-ef6994e092dfd931bb79.md) — Rechercher et stocker des contenus web de manière privée et organisée.
+- [Hister](../../watch/technical-ef6994e092dfd931bb79.md) — Fonction · Rechercher et stocker des contenus web de manière privée.
+Avantages · Indexation et organisation des ressources web.
+Gain · Accéder rapidement à des informations sans partage.
 - [awesome-open-source-mac-apps](../../watch/technical-ee0a2cc79169b0f8394c.md) — Lecture de fichiers audio et vidéo sans logiciel propriétaire.
-- [MinerU](../../watch/technical-703d6de987a070db2edf.md) — Convertir des documents PDF, Word, Excel ou images en Markdown pour une utilisation facile.
+- [MinerU](../../watch/technical-703d6de987a070db2edf.md) — Fonction · Convertir PDF, Word, Excel, images en Markdown.
+Avantages · Génère code Markdown structuré à partir de documents.
+Gain · Éviter de reformater manuellement les contenus.
 - [NotePlan](../../watch/technical-e1f8a790d58a19d10194.md) — Organiser des tâches, notes et événements dans un seul espace.
-- [Open Multi-Agent (OMA)](../../watch/technical-b1a37537c70048612638.md) — Gère l'orchestration des agents avec approbations durables et enregistrements vérifiables.
+- [Open Multi-Agent (OMA)](../../watch/technical-b1a37537c70048612638.md) — Fonction · Exécute des agents avec approbation et journalisation.
+Avantages · Contrôle des modèles et des fournisseurs locaux ou distants.
+Gain · Lancer des tâches sans clé API ni appel de modèle.
+- [Osintgram v2.0](../../watch/technical-e95daab6824047f93490.md) — Fonction · Collecte de données publiques d’un compte Instagram via son pseudo.
+Avantages · Analyse des interactions et métadonnées des publications.
+Gain · Éviter de scraper manuellement les informations du compte.
 - [Outils en ligne utiles pour le développement et la gestion de projets](../../watch/technical-99260b2f64304ae31048.md) — Unpaywall.org permet d'accéder gratuitement aux articles de recherche.
 - [Outils en ligne utiles pour le développement et la gestion de projets](../../watch/technical-c2b6bc61f64db5dde9f2.md) — Unpaywall.org permet d'accéder gratuitement aux articles de recherche.
-- [Outils pour collecter des données web via des agents IA](../../watch/technical-985e97ab7a28702f6cd3.md) — Permettre à l'IA d'explorer des plateformes via CLI sans frais d'API.
-- [Planification des tâches dans NotePlan](../../watch/technical-fcb3c753c1859c7ada32.md) — Planifier des tâches avec des marques pour afficher des points bleus dans le calendrier.
-- [Strflow](../../watch/technical-312d6e38de3056aae357.md) — Rédiger des notes et tâches en style chat pour une meilleure mémorisation.
+- [Outils pour collecter des données web via des agents IA](../../watch/technical-985e97ab7a28702f6cd3.md) — Fonction · Explorer des plateformes web via CLI sans API.
+Avantages · Accès gratuit à des outils de scraping et automation.
+Gain · Éviter les frais d'API pour collecter des données.
+- [Planification des tâches dans NotePlan](../../watch/technical-fcb3c753c1859c7ada32.md) — Fonction · Planifier des tâches avec marques calendaires.
+Avantages · Affichage de points bleus dans le calendrier.
+Gain · Visualiser les tâches sans outil externe.
+- [Strflow](../../watch/technical-312d6e38de3056aae357.md) — Fonction · Capturer des notes via messages texte.
+Avantages · Organisation des idées en style conversationnel.
+Gain · Éviter de structurer manuellement les notes.
 - [Superpowers](../../watch/technical-56f27bb0e80ff344bf72.md) — Facilite la planification et la révision du code avec un workflow structuré.
-- [Agent Skills Library](../../watch/agent-skills-library.md)
-- [Type For Obsidian Quick Capture](../../watch/type-for-obsidian-quick-capture.md)
-- [Kata Tracker Local-First Issue Tracker](../../watch/kata-tracker-local-first-issue-tracker.md)
+- [Agent Skills Library](../../watch/agent-skills-library.md) — Fonction · Catalogue de compétences réutilisables pour agents.
+Avantages · Organise et classe des compétences IA.
+Gain · Réutiliser des prompts pour accélérer le développement.
+- [Type For Obsidian Quick Capture](../../watch/type-for-obsidian-quick-capture.md) — Fonction · Capturer des notes dans Obsidian.
+Avantages · Intégration directe avec Obsidian.
+Gain · Éviter de saisir manuellement les notes.
+- [Kata Tracker Local-First Issue Tracker](../../watch/kata-tracker-local-first-issue-tracker.md) — Fonction · Suivi local des tâches et problèmes pour agents de code.
+Avantages · Gestion des projets sans dépendance réseau.
+Gain · Éviter la perte de données en cas de déconnexion.
 - [Awesome AI Companion](../../watch/awesome-ai-companion.md)
 - [Firecrawl PDF Inspector](../../watch/firecrawl-pdf-inspector.md)
-- [Aliens Eye AI OSINT Platform](../../watch/aliens-eye-ai-osint-platform.md)
-- [Internet Scraping GitHub Repos Ecommartinez](../../watch/internet-scraping-github-repos-ecommartinez.md)
-- [Internet Scraping GitHub Repos Lucy Love AI](../../watch/internet-scraping-github-repos-lucy-love-ai.md)
-- [Guide_ScrapeGraph_AI_IA_Boss.pdf](../../watch/guide-scrapegraph-ai-ia-boss-pdf.md)
-- [Last 30 Days Research Agent Skill](../../watch/mvanhorn-last30days-skill.md)
-- [Miranda](../../watch/miranda-start-me.md)
+- [Aliens Eye AI OSINT Platform](../../watch/aliens-eye-ai-osint-platform.md) — Fonction · Analyse d'empreintes numériques via IA.
+Avantages · Détection de risques de confidentialité.
+Gain · Éviter les fuites d'informations sensibles.
+- [Internet Scraping GitHub Repos Ecommartinez](../../watch/internet-scraping-github-repos-ecommartinez.md) — Fonction · Extraire des données de repos GitHub via internet.
+Avantages · Accès à des informations techniques et de veille.
+Gain · Éviter de rechercher manuellement des données GitHub.
+- [Internet Scraping GitHub Repos Lucy Love AI](../../watch/internet-scraping-github-repos-lucy-love-ai.md) — Fonction · Extraire des données GitHub via scraping.
+Avantages · Accès à des repos et métadonnées.
+Gain · Analyser activité et tendances sans API.
+- [Guide_ScrapeGraph_AI_IA_Boss.pdf](../../watch/guide-scrapegraph-ai-ia-boss-pdf.md) — Fonction · Extraire des données depuis des PDF web.
+Avantages · Compatibilité avec les formats PDF.
+Gain · Éviter l'import manuel des données.
+- [Last 30 Days Research Agent Skill](../../watch/mvanhorn-last30days-skill.md) — Fonction · Recherche des documents dans les 30 derniers jours.
+Avantages · Accès à des données récentes et actualisées.
+Gain · Éviter de consulter des sources obsolètes.
+- [Miranda](../../watch/miranda-start-me.md) — Fonction · Surveillance et collecte d'informations en temps réel.
+Avantages · Intégration avec des sources de veille spécialisées.
+Gain · Éviter de consulter plusieurs outils pour suivre des menaces.
 - [Awesome MCP Servers](../../watch/awesome-mcp-servers.md)
-- [The OSINT Rack](../../watch/osint-rack-curated-tools.md)
-- [AgentsView](../../watch/agentsview-session-intelligence.md)
+- [The OSINT Rack](../../watch/osint-rack-curated-tools.md) — Fonction · Catalogue d'outils OSINT et renseignement.
+Avantages · Filtrage et organisation des ressources.
+Gain · Accéder rapidement aux outils pertinents.
+- [AgentsView](../../watch/agentsview-session-intelligence.md) — Fonction · Visualiser et suivre les coûts des agents d'IA.
+Avantages · Filtrer les données par projet ou requête.
+Gain · Comparer les coûts sans lancer un serveur.
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
 - [AutoResearchClaw](../../watch/autoresearchclaw-autonomous-research.md)
-- [Inspiration Competitors Tools Watch](../../watch/inspiration-competitors-tools-watch.md)
-- [Twitter RSS Monitoring](../../watch/twitter-rss-monitoring.md)
-- [Vibe Shit](../../watch/vibeshit-vibe-coding-directory.md)
+- [Inspiration Competitors Tools Watch](../../watch/inspiration-competitors-tools-watch.md) — Fonction · Centraliser les sites inspirants, concurrents et outils utiles.
+Avantages · Identifier les patterns, risques et opportunités d'intégration.
+Gain · Éviter la copie, analyser sans reproduire les identités visuelles.
+- [Twitter RSS Monitoring](../../watch/twitter-rss-monitoring.md) — Fonction · Suivre des comptes Twitter via RSS.
+Avantages · Flux RSS sans algorithmes de recommandation.
+Gain · Éviter l'interface addictive de X pour veille.
+- [Vibe Shit](../../watch/vibeshit-vibe-coding-directory.md) — Fonction · Identifier des outils IA, agents et projets open source.
+Avantages · Suivre les tendances sans dépendre exclusivement de GitHub.
+Gain · Éviter de rechercher manuellement des ressources inspirantes.
 - [Free Open Source Apps List](../../watch/free-open-source-apps-list-sn0wbrave.md)
-- [GitHub Digital Life Topic](../../watch/github-digital-life-topic.md)
-- [NotePlan MCP Server](../../watch/noteplan-mcp-server.md)
-- [Notion](../../watch/notion-les-7-docs-avant-de-coder-avec-ia.md)
-- [Obsidian Web Clipper](../../watch/obsidian-web-clipper.md)
-- [Scrapling](../../watch/scrapling-web-scraping-modern-web.md)
+- [GitHub Digital Life Topic](../../watch/github-digital-life-topic.md) — Fonction · Suivi des sujets GitHub liés à la vie numérique.
+Avantages · Filtrage des contenus en fonction des tags.
+Gain · Accéder rapidement aux ressources curatrices.
+- [NotePlan MCP Server](../../watch/noteplan-mcp-server.md) — Fonction · Connecte NotePlan à MCP pour notes, tâches et calendrier.
+Avantages · Intégration avec protocole MCP et outils IA.
+Gain · Automatiser transferts et synchronisations entre outils.
+- [Notion](../../watch/notion-les-7-docs-avant-de-coder-avec-ia.md) — Fonction · Structurer les 7 documents clés avant le développement IA.
+Avantages · Centraliser les besoins, données et contraintes du projet.
+Gain · Éviter les retours en arrière, accélérer la phase de préparation.
+- [Obsidian Web Clipper](../../watch/obsidian-web-clipper.md) — Fonction · Capture et organise les captures web vers Obsidian.
+Avantages · Intégre les captures dans le système de notes existant.
+Gain · Éviter de recopier manuellement les informations.
+- [Scrapling](../../watch/scrapling-web-scraping-modern-web.md) — Fonction · Extraire des données web via Python.
+Avantages · Compatibilité avec les langages de programmation.
+Gain · Automatiser la collecte d'informations en ligne.

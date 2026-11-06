@@ -50,3 +50,9 @@
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
+
+## Intérêts
+
+Fonction · Reconnaissance structurée pour red-team et bug-bounty.  
+Avantages · 100+ capacités avec 80 regex secrets et 80+ dorks.  
+Gain · Lancer des tâches sans configuration, rester en conformité.

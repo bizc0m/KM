@@ -31,6 +31,8 @@ Veille `#ROUGE` / outil OSINT de detection de cameras IP ouvertes.
 - https://github.com/y0oshi/project-eyes-on
 - https://x.com/tom_doerr/status/2090346724111823202](https://x.com/tom_doerr/status/2090346724111823202
 - https://github.com/Y0oshi/Project-Eyes-On](https://github.com/Y0oshi/Project-Eyes-On
+- https://raw.githubusercontent.com/y0oshi/project-eyes-on/HEAD/screenshot.png
+- https://raw.githubusercontent.com/y0oshi/project-eyes-on/HEAD/README.md
 
 ## Metadata GitHub publique
 
@@ -52,3 +54,15 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer le repo final trouve depuis le thread X de `tom_doerr`.
 - Risques : outil directement abusable pour reperer des cameras ouvertes ; conservation en veille defensive uniquement.
+
+## Intérêts
+
+Fonction · Scanner massif de caméras IP via moteurs de recherche et Insecam.  
+Avantages · Détection automatique de type de flux et géolocalisation précise.  
+Gain · Lancer une reconnaissance sans configuration complexe en quelques secondes.
+
+## Aperçus
+
+![Screenshot](https://raw.githubusercontent.com/y0oshi/project-eyes-on/HEAD/screenshot.png)
+
+[Origine](https://raw.githubusercontent.com/y0oshi/project-eyes-on/HEAD/README.md)

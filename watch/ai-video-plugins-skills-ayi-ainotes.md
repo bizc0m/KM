@@ -36,3 +36,9 @@ Veille source sociale / pack plugins et skills video IA.
 ### v0.1 - 2026-06-28
 
 - Integration depuis Raindrop KM Monitor.
+
+## Intérêts
+
+Fonction · Générer des vidéos via des compétences IA.  
+Avantages · Intégration avec des agents IA existants.  
+Gain · Créer des contenus vidéo sans logiciel spécialisé.

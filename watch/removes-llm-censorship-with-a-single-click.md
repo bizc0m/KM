@@ -38,3 +38,9 @@ Veille Raindrop KM Monitor.
 
 - Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
 - Risques : Risque sensible : claims non verifies, conditions de diffusion ou usages pouvant exposer des donnees et workflows.
+
+## Intérêts
+
+Fonction · Désactive la censure des modèles LLM en un clic.  
+Avantages · Permet l'accès à des contenus filtrés.  
+Gain · Éviter les restrictions de contenu sans configuration.

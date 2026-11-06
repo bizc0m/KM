@@ -48,3 +48,9 @@ L'URL fournie n'a pas donne de contenu exploitable dans la lecture actuelle. Les
 
 - Objectif : integrer l'URL `codepatrol-2.polsia.app` en veille code security.
 - Risques : source directe non exploitable, confusion possible avec autres produits CodePatrol.
+
+## Intérêts
+
+Fonction · Détecte des vulnérabilités dans le code.  
+Avantages · Analyse statique des sources pour identifier des risques.  
+Gain · Éviter les failles de sécurité avant la mise en production.

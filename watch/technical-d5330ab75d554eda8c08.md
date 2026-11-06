@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Ajouter des rappels fiables avec Apple Reminders.
+Fonction · Intégration avec Apple Reminders pour rappels.  
+Avantages · Synchronisation des rappels entre NotePlan et Reminders.  
+Gain · Éviter de gérer des rappels manuellement.
 
 ## Métadonnées
 
@@ -34,6 +36,7 @@ Ajouter des rappels fiables avec Apple Reminders.
 ## Sources
 
 - https://noteplan.co/changelog
+- https://images.prismic.io/noteplan-landing-cms/ZiD9f_Pdc1huKmZA_Screenshot2024-04-18at4.31.01PM.png?amp%3Bfit=max&amp%3Bw=3840&auto=format%2Ccompress
 
 ## Traçabilité
 
@@ -42,3 +45,9 @@ Ajouter des rappels fiables avec Apple Reminders.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-17
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![Aperçu du produit](https://images.prismic.io/noteplan-landing-cms/ZiD9f_Pdc1huKmZA_Screenshot2024-04-18at4.31.01PM.png?amp%3Bfit=max&amp%3Bw=3840&auto=format%2Ccompress)
+
+[Origine](https://noteplan.co/changelog)

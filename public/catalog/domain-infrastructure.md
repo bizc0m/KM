@@ -137,14 +137,41 @@ Gain · Éviter l'utilisation de services externes.
 Avantages · Outils AI pour analyse, ordres et gestion de portefeuille.
 Gain · Exécuter des ordres sans interface, gérer des positions en temps réel.
 - [BotD](../../watch/technical-5de7dfd42a2301a6c06e.md) — Détecte les bots sur les applications web sans serveur.
-- [Project NOMAD](../../watch/technical-3d7c7b2843ae85360da7.md) — Permet d'accéder à des ressources éducatives sans connexion internet.
-- [Référentiel de 50 serveurs MCP essentiels pour les agents IA](../../watch/technical-7b8e03d6451fa9dc855f.md) — Installation de serveurs MCP pour agents IA : optimisation des tâches techniques.
-- [Hermes VPS Setup Skill](../../watch/hermes-vps-setup-skill.md)
-- [Tailscale Secure Connectivity For AI IoT Multi Cloud](../../watch/tailscale-secure-connectivity-for-ai-iot-multi-cloud.md)
-- [Essential MCP Servers Collection](../../watch/this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi.md)
+- [Odysseus](../../watch/technical-a8c5ca7589de2b644bba.md) — Fonction · Déployer des modèles IA localement via Docker.
+Avantages · Gestion centralisée des tâches IA sur serveur interne.
+Gain · Éviter dépendances externes, sécuriser données sensibles.
+- [OpenStock](../../watch/technical-5162276ebf713c38b60b.md) — Fonction · Suivi des marchés, analyse des actions, alertes de prix.
+Avantages · Données en temps réel avec TradingView et Finnhub.
+Gain · Configurer un serveur, lancer des alertes par email.
+- [Project NOMAD](../../watch/technical-3d7c7b2843ae85360da7.md) — Fonction · Serveur de connaissance hors ligne avec outils AI et bibliothèques.
+Avantages · Contenu médical, encyclopédique et éducatif préinstallé.
+Gain · Accéder aux ressources sans connexion, gérer des modèles LLM localement.
+- [Qwen3.8-27B et OrcaSAQ-2](../../watch/technical-ab7348c75fefe7a67600.md) — Fonction · Exécution locale de modèles LLM via terminal.
+Avantages · Performance sur benchmarks avec 12 Go de mémoire.
+Gain · Lancer des tâches d'inférence sans serveur distant.
+- [Référentiel de 50 serveurs MCP essentiels pour les agents IA](../../watch/technical-7b8e03d6451fa9dc855f.md) — Fonction · Conserver le contexte des agents IA via des serveurs MCP.
+Avantages · Compatibilité avec protocoles MCP et interfaces terminal.
+Gain · Éviter la perte de données contextuelles lors des interactions.
+- [Hermes VPS Setup Skill](../../watch/hermes-vps-setup-skill.md) — Fonction · Installer un VPS Hermes pour un agent.
+Avantages · Intégration avec les compétences IA de l’agent.
+Gain · Éviter la configuration manuelle du VPS.
+- [Tailscale Secure Connectivity For AI IoT Multi Cloud](../../watch/tailscale-secure-connectivity-for-ai-iot-multi-cloud.md) — Fonction · Connectivité sécurisée entre appareils AI, IoT et cloud.
+Avantages · Réseau privé zero trust sans infrastructure complexe.
+Gain · Éviter configuration manuelle, sécuriser communications automatiquement.
+- [Essential MCP Servers Collection](../../watch/this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi.md) — Fonction · Serveurs MCP pour veille et monitoring.
+Avantages · Intégration agents IA et protocoles MCP.
+Gain · Éviter configuration manuelle des serveurs MCP.
 - [Awesome MCP Servers](../../watch/awesome-mcp-servers.md)
-- [CONET](../../watch/conet-privacy-depin-network.md)
+- [CONET](../../watch/conet-privacy-depin-network.md) — Fonction · Permet de surveiller des réseaux DePIN via des adresses wallet.
+Avantages · Intègre des protocoles de confidentialité pour les données réseau.
+Gain · Éviter de stocker des informations sensibles sur les nœuds.
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
-- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md)
-- [Lovable Build For The Web 20x Faster](../../watch/lovable-build-for-the-web-20x-faster.md)
-- [NotePlan MCP Server](../../watch/noteplan-mcp-server.md)
+- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md) — Fonction · Génère du texte et des images localement.
+Avantages · Supporte plusieurs modèles et langages.
+Gain · Éviter l'envoi de données vers le cloud.
+- [Lovable Build For The Web 20x Faster](../../watch/lovable-build-for-the-web-20x-faster.md) — Fonction · Génère des applications web via IA.
+Avantages · Intégre déploiement et hébergement.
+Gain · Éviter les étapes de configuration manuelle.
+- [NotePlan MCP Server](../../watch/noteplan-mcp-server.md) — Fonction · Connecte NotePlan à MCP pour notes, tâches et calendrier.
+Avantages · Intégration avec protocole MCP et outils IA.
+Gain · Automatiser transferts et synchronisations entre outils.

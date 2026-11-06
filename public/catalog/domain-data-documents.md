@@ -8,7 +8,13 @@ Gain · Générer des images en un clic sans outil externe.
 Avantages · Outils de traitement PDF sans dépendance externe.
 Gain · Automatiser workflows sans coder via interface graphique.
 - [Firecrawl](../../watch/technical-08ba60d0377016e9eb0a.md) — Extraire des données web pour alimenter des applications IA.
-- [MinerU](../../watch/technical-703d6de987a070db2edf.md) — Convertir des documents PDF, Word, Excel ou images en Markdown pour une utilisation facile.
+- [MinerU](../../watch/technical-703d6de987a070db2edf.md) — Fonction · Convertir PDF, Word, Excel, images en Markdown.
+Avantages · Génère code Markdown structuré à partir de documents.
+Gain · Éviter de reformater manuellement les contenus.
 - [Firecrawl PDF Inspector](../../watch/firecrawl-pdf-inspector.md)
-- [Notion](../../watch/notion-les-7-docs-avant-de-coder-avec-ia.md)
-- [Scrapling](../../watch/scrapling-web-scraping-modern-web.md)
+- [Notion](../../watch/notion-les-7-docs-avant-de-coder-avec-ia.md) — Fonction · Structurer les 7 documents clés avant le développement IA.
+Avantages · Centraliser les besoins, données et contraintes du projet.
+Gain · Éviter les retours en arrière, accélérer la phase de préparation.
+- [Scrapling](../../watch/scrapling-web-scraping-modern-web.md) — Fonction · Extraire des données web via Python.
+Avantages · Compatibilité avec les langages de programmation.
+Gain · Automatiser la collecte d'informations en ligne.

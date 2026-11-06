@@ -35,3 +35,9 @@ Veille outil dev / workflow specification avant code.
 ### v0.1 - 2026-06-28
 
 - Integration depuis Raindrop KM Monitor.
+
+## Intérêts
+
+Fonction · Documente les spécifications avant le code.  
+Avantages · Intègre des outils de veille et de validation.  
+Gain · Éviter les erreurs de conception en amont.

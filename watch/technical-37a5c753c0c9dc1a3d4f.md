@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Visualiser des données de marché en temps réel sans abonnement.
+Fonction · Terminal de trading basé sur des données gratuites.  
+Avantages · Widget personnalisable avec sauvegarde locale.  
+Gain · Lancer une interface de trading en quelques secondes.
 
 ## Métadonnées
 
@@ -35,6 +37,9 @@ Visualiser des données de marché en temps réel sans abonnement.
 
 - https://github.com/ertasselli/openterminal
 - https://x.com/_zheergen/status/2100176268117659791?s=12
+- https://raw.githubusercontent.com/ertasselli/openterminal/HEAD/docs/screenshots/dashboard.png
+- https://raw.githubusercontent.com/ertasselli/openterminal/HEAD/README.md
+- https://raw.githubusercontent.com/ertasselli/openterminal/HEAD/docs/screenshots/chart.png
 
 ## Traçabilité
 
@@ -43,3 +48,13 @@ Visualiser des données de marché en temps réel sans abonnement.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-17
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![OpenTerminal dashboard — live chart, quote panel, watchlist, news and macro indexes](https://raw.githubusercontent.com/ertasselli/openterminal/HEAD/docs/screenshots/dashboard.png)
+
+[Origine](https://raw.githubusercontent.com/ertasselli/openterminal/HEAD/README.md)
+
+![Candlestick chart with SMA/RSI/MACD indicators and hover legend](https://raw.githubusercontent.com/ertasselli/openterminal/HEAD/docs/screenshots/chart.png)
+
+[Origine](https://raw.githubusercontent.com/ertasselli/openterminal/HEAD/README.md)

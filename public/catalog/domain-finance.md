@@ -69,7 +69,13 @@ Gain · Exécuter des ordres sans interface, gérer des positions en temps réel
 Avantages · Optimisation des hyperparamètres pour réduire l'erreur MSE.
 Gain · Automatiser les trades via l'API Kalshi avec des prédictions.
 - [polymarket-kalshi-weather-bot](../../watch/technical-83811fe337d142092d4c.md)
-- [OpenTerminal](../../watch/technical-37a5c753c0c9dc1a3d4f.md) — Visualiser des données de marché en temps réel sans abonnement.
-- [CONET](../../watch/conet-privacy-depin-network.md)
+- [OpenTerminal](../../watch/technical-37a5c753c0c9dc1a3d4f.md) — Fonction · Terminal de trading basé sur des données gratuites.
+Avantages · Widget personnalisable avec sauvegarde locale.
+Gain · Lancer une interface de trading en quelques secondes.
+- [CONET](../../watch/conet-privacy-depin-network.md) — Fonction · Permet de surveiller des réseaux DePIN via des adresses wallet.
+Avantages · Intègre des protocoles de confidentialité pour les données réseau.
+Gain · Éviter de stocker des informations sensibles sur les nœuds.
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
-- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md)
+- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md) — Fonction · Identifier et surveiller les outils offensifs ou abusables.
+Avantages · Distinguer usage légitime et usage abusif documenté.
+Gain · Éviter diffusion publique et exploitation offensive.

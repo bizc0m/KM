@@ -38,3 +38,9 @@ Veille Raindrop KM Monitor.
 
 - Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
 - Risques : Abus possible direct ou facilite : collecte intrusive, reconnaissance, contournement, automatisation offensive ou atteinte privacy.
+
+## Intérêts
+
+Fonction · Automatisation des requêtes Google Dorking pour OSINT.  
+Avantages · Accélère les investigations en sources ouvertes.  
+Gain · Éviter de répéter des requêtes manuellement.

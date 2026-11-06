@@ -30,6 +30,8 @@ Veille Raindrop KM Monitor / utilitaire macOS open source pour controle avance d
 ## Sources
 
 - https://github.com/waydabber/betterdisplay
+- https://github.com/user-attachments/assets/0c2911d0-9157-4993-a850-d751fda3708e
+- https://raw.githubusercontent.com/waydabber/betterdisplay/HEAD/README.md
 
 ## A verifier
 
@@ -41,3 +43,15 @@ Veille Raindrop KM Monitor / utilitaire macOS open source pour controle avance d
 
 - Objectif : integrer la nouveaute Raindrop KM Monitor `BetterDisplay`.
 - Risques : controle ecran sensible, perturbation de setup multi-ecrans, permissions macOS a verifier.
+
+## Intérêts
+
+Fonction · Gère les affichages macOS avec scaling, ajustements de couleur et contrôle DDC.  
+Avantages · Support HDR/XDR, 3D LUTs, gestion des écrans virtuels et PIP.  
+Gain · Configurer les displays sans débrancher, ajuster la luminosité en logiciel.
+
+## Aperçus
+
+![BetterDisplay interface and display controls](https://github.com/user-attachments/assets/0c2911d0-9157-4993-a850-d751fda3708e)
+
+[Origine](https://raw.githubusercontent.com/waydabber/betterdisplay/HEAD/README.md)

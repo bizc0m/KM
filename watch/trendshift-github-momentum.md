@@ -28,3 +28,9 @@ Veille Raindrop KM Monitor / detection tendances GitHub.
 ## Sources
 
 - https://trendshift.io/](https://trendshift.io/
+
+## Intérêts
+
+Fonction · Surveille les tendances GitHub en temps réel.  
+Avantages · Détection automatisée des projets émergents.  
+Gain · Éviter de perdre des opportunités technologiques.

@@ -32,6 +32,9 @@ Veille liens utilisateur / contexte codebase pour agents de code.
 - https://github.com/nanonets/graft
 - https://x.com/nozelcode/status/2087160371140243573?s=12
 - https://x.com/nozelcode/status/2087160374797668418?s=12
+- https://raw.githubusercontent.com/nanonets/graft/HEAD/assets/graft-hook-blast-radius-demo.gif
+- https://raw.githubusercontent.com/nanonets/graft/HEAD/README.md
+- https://raw.githubusercontent.com/nanonets/graft/HEAD/assets/graft-viz-demo.gif
 
 ## Metadata GitHub publique
 
@@ -52,3 +55,19 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer le thread X fourni et le depot resolu `NanoNets/Graft`.
 - Risques : codebase privee, secrets, contexte obsolete et claims a controler.
+
+## Intérêts
+
+Fonction · Carte du code et apprentissages pour agents.  
+Avantages · Réduit les appels d'API et les tokens utilisés.  
+Gain · Éviter de redécouvrir le code pour chaque tâche.
+
+## Aperçus
+
+![The post-edit hook: editing node-file.ts prints its blast radius (who depends on it) inline, the statusline flips stale → syncing → synced on its own, and the same dependents light up in the viewer](https://raw.githubusercontent.com/nanonets/graft/HEAD/assets/graft-hook-blast-radius-demo.gif)
+
+[Origine](https://raw.githubusercontent.com/nanonets/graft/HEAD/README.md)
+
+![The graph viewer: searching a symbol and jumping to it lights up its dependency graph: amber edges are what it depends on, indigo is what depends on it](https://raw.githubusercontent.com/nanonets/graft/HEAD/assets/graft-viz-demo.gif)
+
+[Origine](https://raw.githubusercontent.com/nanonets/graft/HEAD/README.md)

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Conserver et classer les informations contextuelles des sessions.
+Fonction · Conserver le contexte des sessions des agents IA.  
+Avantages · Classer et retrouver des informations contextuelles.  
+Gain · Éviter de répéter des données sans lien.
 
 ## Métadonnées
 

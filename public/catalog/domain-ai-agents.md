@@ -237,95 +237,242 @@ Gain · Tester une compétence avant installation pour éviter les erreurs.
 - [Agent AItoEarn pour la gestion de contenus sur plusieurs plateformes](../../watch/technical-126e0bcbd6b43332ca45.md) — Fonction · Publier des contenus sur 14 plateformes depuis un seul outil.
 Avantages · Intégration avec NotePlan et X / Twitter.
 Gain · Éviter de gérer plusieurs interfaces pour la publication.
-- [Agent de décision multi-competences basé sur des systèmes JEV](../../watch/technical-1b568dfd20e94e409912.md) — Gérer le routage en temps réel pour optimiser les flux.
-- [Agent Skills](../../watch/technical-dae9f02535f7c22f84f1.md) — Facilite la création de logiciels avec des workflows et des bonnes pratiques.
-- [Aider](../../watch/technical-4125f24a0a6925019b78.md) — Collaborer avec des LLM pour coder et gérer des projets.
-- [Architecture de mémoire pour les agents IA : Mémoires de travail, épisodique, sémantique, procédimentale et oubli](../../watch/technical-20a53ace05cd6a858833.md) — Garder les informations pertinentes pour les décisions futures.
-- [ARTEMIS](../../watch/technical-951824f2cb44006850b3.md) — Permet aux agents IA de contrôler un appareil Android comme un utilisateur.
-- [Capsule Hub](../../watch/technical-7ce70d893933b807a8be.md) — Capturer et stocker le contexte des conversations IA pour le réutiliser dans d'autres sessions.
-- [Configuration optimisée pour CLAUDE](../../watch/technical-2e59154698a1039a3b4c.md) — Configuration courte et claire pour réponses rapides et précises.
+- [Agent de décision multi-competences basé sur des systèmes JEV](../../watch/technical-1b568dfd20e94e409912.md) — Fonction · Routage en temps réel des flux via MCP.
+Avantages · Optimisation des trajectoires par IA.
+Gain · Éviter les blocages sans intervention humaine.
+- [Agent Skills](../../watch/technical-dae9f02535f7c22f84f1.md) — Fonction · Définir, planifier, construire, tester, reviewer, livrer des tâches.
+Avantages · Commandes slash pour automatiser les workflows.
+Gain · Lancer des tâches sans étape manuelle intermédiaire.
+- [Aider](../../watch/technical-4125f24a0a6925019b78.md) — Fonction · Collaborer avec des LLMs pour coder et gérer des projets.
+Avantages · Intégration avec des modèles de langage et des agents de développement.
+Gain · Éviter la rédaction manuelle de code et de documentation.
+- [Architecture de mémoire pour les agents IA : Mémoires de travail, épisodique, sémantique, procédimentale et oubli](../../watch/technical-20a53ace05cd6a858833.md) — Fonction · Gérer les mémoires de travail, épisodique, sémantique, procédimentale et oubli.
+Avantages · Permettre aux agents de conserver et de retrouver des informations contextuelles.
+Gain · Éviter de répéter des tâches en utilisant des données mémorisées.
+- [ARTEMIS](../../watch/technical-951824f2cb44006850b3.md) — Fonction · Automatise tests et tâches quotidiennes sur Android via instructions naturelles.
+Avantages · Intègre MCP pour pilotage de dispositifs et collecte de logs et captures.
+Gain · Exécuter tests autonomes et générer rapports structurés sans configuration complexe.
+- [Capsule Hub](../../watch/technical-7ce70d893933b807a8be.md) — Fonction · Capturer et stocker le contexte des conversations IA.
+Avantages · Permet de réutiliser le contexte dans d'autres sessions.
+Gain · Éviter de réexpliquer le contexte à chaque nouvelle session.
+- [Configuration optimisée pour CLAUDE](../../watch/technical-2e59154698a1039a3b4c.md) — Fonction · Configuration optimisée pour CLAUDE via agents.
+Avantages · Réduction des étapes de paramétrage.
+Gain · Lancer des tâches sans configuration manuelle.
 - [ECC](../../watch/technical-edb3a626875732de5c9b.md) — Améliore la productivité en optimisant les tâches de codage.
-- [ECC](../../watch/technical-cac46266b186a438c4a0.md) — Permet aux agents IA d'executer des tâches avec plus d'efficacité.
-- [Find Skills](../../watch/technical-81d6a7fc9d142fbd431c.md) — Permet d'installer des compétences pour mieux répondre aux demandes spécifiques.
-- [HarnessRouter](../../watch/technical-d17c87ebf171c09eeed0.md) — Exécute plusieurs harnesses d'agents localement via une interface unique.
-- [Jules](../../watch/technical-f23e4d6f3cd099180f4d.md) — Gère des tâches de codage via GitHub avec l'étiquette "jules".
-- [Loopx](../../watch/technical-7ae06cb99d6d4f9f7551.md) — Gère les agents sur des périodes prolongées avec un noyau d'état durable.
-- [Memanto](../../watch/technical-ebada2f628c8d599c07b.md) — Sauvegarder et organiser le contexte des sessions IA pour retrouver facilement l'historique.
-- [Memanto](../../watch/technical-e023d0af39eda2c902cb.md) — Sauvegarder le contexte des sessions pour retrouver l'avancement du travail.
-- [Memanto](../../watch/technical-e88bf76aa79a7c56f5d0.md) — Conserver et classer les informations contextuelles des sessions.
-- [Metis](../../watch/technical-a5ff978d18723ab2dc78.md) — Crée un agent personnalisé pour chaque projet.
-- [Mise à jour Hermes Agent v0.14.0](../../watch/technical-5988479fbd7cb793e30f.md) — Réduction du temps de démarrage froid grâce à des optimisations de charge et de cache.
-- [Modern Web Guidance](../../watch/technical-ae8fda4548bf05d5f5ed.md) — Intérêt pratique : Oriente vers des solutions modernes et compatibles navigateurs.
-- [NotePlan Changelog](../../watch/technical-d5330ab75d554eda8c08.md) — Ajouter des rappels fiables avec Apple Reminders.
+- [ECC](../../watch/technical-cac46266b186a438c4a0.md) — Fonction · Détecter des vulnérabilités et étendre les compétences des agents IA.
+Avantages · Intégration de tests de sécurité et de compétences prédéfinies.
+Gain · Éviter des tests manuels, accélérer l'apprentissage des agents.
+- [Find Skills](../../watch/technical-81d6a7fc9d142fbd431c.md) — Fonction · Installer des compétences pour répondre aux demandes spécifiques.
+Avantages · Adaptation aux besoins via des compétences prédéfinies.
+Gain · Éviter de créer des scripts depuis zéro.
+- [HarnessRouter](../../watch/technical-d17c87ebf171c09eeed0.md) — Fonction · Exécute plusieurs harnesses d'agents localement.
+Avantages · Interface unique pour gérer les agents.
+Gain · Éviter de切换 entre plusieurs outils.
+- [Jules](../../watch/technical-f23e4d6f3cd099180f4d.md) — Fonction · Gère des tâches de codage via GitHub avec l'étiquette "jules".
+Avantages · Intégre des sujets liés à l'intelligence artificielle et le développement logiciel.
+Gain · Éviter de répéter des tâches de codage manuelles.
+- [Loopx](../../watch/technical-7ae06cb99d6d4f9f7551.md) — Fonction · Gère les tâches longues et les collaborations d'agents.
+Avantages · Conserve les décisions, preuves et responsabilités entre sessions.
+Gain · Analyser les résultats, comparer les approches et continuer sans redémarrer.
+- [Memanto](../../watch/technical-ebada2f628c8d599c07b.md) — Fonction · Sauvegarder et organiser le contexte des sessions IA.
+Avantages · Permet de retrouver facilement l'historique des interactions.
+Gain · Éviter de répéter des informations déjà fournies.
+- [Memanto](../../watch/technical-e023d0af39eda2c902cb.md) — Fonction · Sauvegarder le contexte des sessions.
+Avantages · Permet de retrouver l'avancement du travail.
+Gain · Éviter de réexpliquer des informations déjà fournies.
+- [Memanto](../../watch/technical-e88bf76aa79a7c56f5d0.md) — Fonction · Conserver le contexte des sessions des agents IA.
+Avantages · Classer et retrouver des informations contextuelles.
+Gain · Éviter de répéter des données sans lien.
+- [Metis](../../watch/technical-a5ff978d18723ab2dc78.md) — Fonction · Agent de codage open source, exécutable en desktop, terminal ou comme Skill.
+Avantages · Architecture agent personnalisable par projet, workflow modifiable.
+Gain · Lancer des tâches sans Node.js, gérer des commits et fichiers modifiés.
+- [Mise à jour Hermes Agent v0.14.0](../../watch/technical-5988479fbd7cb793e30f.md) — Fonction · Optimise le temps de démarrage froid via charge et cache.
+Avantages · Réduction du temps d'initialisation du agent.
+Gain · Lancer l'agent plus rapidement sans attente.
+- [Modern Web Guidance](../../watch/technical-ae8fda4548bf05d5f5ed.md) — Fonction · Installer ou rechercher des guides pour coder avec les dernières APIs web.
+Avantages · Éviter les patterns obsolètes grâce à des conseils experts.
+Gain · Lancer des tâches sans polyfill grâce à des solutions natives.
+- [NotePlan Changelog](../../watch/technical-d5330ab75d554eda8c08.md) — Fonction · Intégration avec Apple Reminders pour rappels.
+Avantages · Synchronisation des rappels entre NotePlan et Reminders.
+Gain · Éviter de gérer des rappels manuellement.
 - [Obsidian Mind](../../watch/technical-187af07c5c79815c0323.md) — Permettre aux agents IA de reprendre des tâches et décisions antérieures.
-- [Open Multi-Agent (OMA)](../../watch/technical-b1a37537c70048612638.md) — Gère l'orchestration des agents avec approbations durables et enregistrements vérifiables.
-- [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Traduire des vidéos en 14 langues sources et 101 cibles.
-- [Outils et compétences pour la production vidéo automatisée et agente](../../watch/technical-88c715df4dbe74ef0c5a.md) — Crée des vidéos MP4 à partir de textes avec des agents AI.
-- [Outils pour collecter des données web via des agents IA](../../watch/technical-985e97ab7a28702f6cd3.md) — Permettre à l'IA d'explorer des plateformes via CLI sans frais d'API.
-- [Pi](../../watch/technical-82645e8b1caf587e92d6.md) — Personnalise les workflows via des extensions, modèles et configurations.
+- [Open Multi-Agent (OMA)](../../watch/technical-b1a37537c70048612638.md) — Fonction · Exécute des agents avec approbation et journalisation.
+Avantages · Contrôle des modèles et des fournisseurs locaux ou distants.
+Gain · Lancer des tâches sans clé API ni appel de modèle.
+- [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Fonction · Workspace unifié pour création et agents.
+Avantages · Génère vidéo, image, audio, sous-titres.
+Gain · Lancer tâches sans config, réutiliser modèles.
+- [Outils et compétences pour la production vidéo automatisée et agente](../../watch/technical-88c715df4dbe74ef0c5a.md) — Fonction · Créer des vidéos MP4 à partir de textes avec des agents AI.
+Avantages · Génère des contenus vidéo sans intervention manuelle.
+Gain · Éviter la phase de montage pour lancer rapidement des vidéos.
+- [Outils pour collecter des données web via des agents IA](../../watch/technical-985e97ab7a28702f6cd3.md) — Fonction · Explorer des plateformes web via CLI sans API.
+Avantages · Accès gratuit à des outils de scraping et automation.
+Gain · Éviter les frais d'API pour collecter des données.
+- [Pi](../../watch/technical-82645e8b1caf587e92d6.md) — Fonction · Personnaliser les workflows via extensions et modèles.
+Avantages · Configurations prédéfinies pour les compétences des agents.
+Gain · Éviter la répétition de tâches de configuration.
 - [Ponytail](../../watch/technical-c73b8c2f7eccfb34ddd2.md) — Optimise le code IA, réduit le volume et accélère l'exécution.
-- [Référentiel de 50 serveurs MCP essentiels pour les agents IA](../../watch/technical-7b8e03d6451fa9dc855f.md) — Installation de serveurs MCP pour agents IA : optimisation des tâches techniques.
+- [Référentiel de 50 serveurs MCP essentiels pour les agents IA](../../watch/technical-7b8e03d6451fa9dc855f.md) — Fonction · Conserver le contexte des agents IA via des serveurs MCP.
+Avantages · Compatibilité avec protocoles MCP et interfaces terminal.
+Gain · Éviter la perte de données contextuelles lors des interactions.
 - [Repository d'ingénierie de l'IA open source](../../watch/technical-ef5aab160b2c3c97dd30.md) — Apprendre l'ingénierie de l'IA via des leçons et exercices pratiques.
-- [Ruflo](../../watch/technical-1b635fdf72be259a562c.md) — Coordination de 100+ agents spécialisés via plusieurs topologies.
-- [Spec Kit](../../watch/technical-03c3b9b214032004d035.md) — Structurer les spécifications pour un codage cohérent et prévisible.
+- [Ruflo](../../watch/technical-1b635fdf72be259a562c.md) — Fonction · Coordonner 100+ agents via plusieurs topologies.
+Avantages · Gérer des agents spécialisés en développement.
+Gain · Lancer des tâches sans configuration complexe.
+- [Spec Kit](../../watch/technical-03c3b9b214032004d035.md) — Fonction · Structurer les spécifications de codage dans un terminal.
+Avantages · Intégration avec NotePlan et X/Twitter.
+Gain · Automatiser la gestion des tâches de développement.
 - [Superpowers](../../watch/technical-56f27bb0e80ff344bf72.md) — Facilite la planification et la révision du code avec un workflow structuré.
-- [UI-TARS Desktop](../../watch/technical-9940f1a421428d85e06e.md) — Permet d'interagir avec des applications sans configuration ni API.
-- [Agent Rules Books](../../watch/agent-rules-books.md)
-- [Agent Skills Library](../../watch/agent-skills-library.md)
+- [UI-TARS Desktop](../../watch/technical-9940f1a421428d85e06e.md) — Fonction · Contrôle d'interface graphique sans API.
+Avantages · Interaction directe avec applications.
+Gain · Éviter configuration pour lancer tâches.
+- [Vibe Coding et Spec Kit](../../watch/technical-9379cc03e3266df7017b.md) — Fonction · Structurer la collaboration pour améliorer la précision du code.
+Avantages · Précision accrue grâce à la structuration des tâches.
+Gain · Réduire les erreurs en organisant les interactions entre les agents.
+- [Agent Rules Books](../../watch/agent-rules-books.md) — Fonction · Règles et compétences pour agents de codage basées sur des livres.
+Avantages · Règles structurées pour architecture, refactorisation et qualité du code.
+Gain · Appliquer directement des bonnes pratiques sans configuration complexe.
+- [Agent Skills Library](../../watch/agent-skills-library.md) — Fonction · Catalogue de compétences réutilisables pour agents.
+Avantages · Organise et classe des compétences IA.
+Gain · Réutiliser des prompts pour accélérer le développement.
 - [AIRI AI Companion](../../watch/airi-ai-companion.md)
 - [Calyx MacOS Agent Terminal](../../watch/calyx-macos-agent-terminal.md)
-- [Claude OSINT Skills](../../watch/claude-osint-skills.md)
-- [Devin Desktop Agent App](../../watch/devin-desktop-agent-app.md)
-- [EchoVessel Persona Memory Engine](../../watch/echovessel-persona-memory-engine.md)
-- [Hermes VPS Setup Skill](../../watch/hermes-vps-setup-skill.md)
-- [OpenBot AI Coworkers](../../watch/openbot-ai-coworkers.md)
-- [KM D3 Scan Integration](../../watch/km-d3-scan-integration-20260901.md)
-- [Osaurus](../../watch/osaurus-local-ai-agents-mac.md)
-- [Kata Tracker Local-First Issue Tracker](../../watch/kata-tracker-local-first-issue-tracker.md)
-- [Graft](../../watch/graft-codebase-context-for-coding-agents.md)
-- [Memory Engineering](../../watch/memory-engineering-agent-past.md)
+- [Claude OSINT Skills](../../watch/claude-osint-skills.md) — Fonction · Reconnaissance structurée pour red-team et bug-bounty.
+Avantages · 100+ capacités avec 80 regex secrets et 80+ dorks.
+Gain · Lancer des tâches sans configuration, rester en conformité.
+- [Devin Desktop Agent App](../../watch/devin-desktop-agent-app.md) — Fonction · Interface de bureau pour agents Devin.
+Avantages · Gestion des tâches et interactions IA.
+Gain · Éviter la configuration manuelle des agents.
+- [EchoVessel Persona Memory Engine](../../watch/echovessel-persona-memory-engine.md) — Fonction · Créer des personas numériques avec mémoire et interaction.
+Avantages · Communication via Web et Discord avec messages vocaux.
+Gain · Lancer un daemon pour gérer les canaux et les tâches.
+- [Hermes VPS Setup Skill](../../watch/hermes-vps-setup-skill.md) — Fonction · Installer un VPS Hermes pour un agent.
+Avantages · Intégration avec les compétences IA de l’agent.
+Gain · Éviter la configuration manuelle du VPS.
+- [OpenBot AI Coworkers](../../watch/openbot-ai-coworkers.md) — Fonction · Créer et gérer des bots avec des outils et des fichiers.
+Avantages · Gestion des accès et des permissions par bot.
+Gain · Lancer des tâches sans configuration complexe.
+- [KM D3 Scan Integration](../../watch/km-d3-scan-integration-20260901.md) — Fonction · Intégration de notes et fichiers dans KM/Base/watch.
+Avantages · Accès via fichiers Markdown et workflow d'indexation.
+Gain · Importer des données sans suppression, structurer les informations.
+- [Osaurus](../../watch/osaurus-local-ai-agents-mac.md) — Fonction · Exécute des agents IA locaux sur macOS.
+Avantages · Intégration possible avec NotePlan et automatisations.
+Gain · Éviter l'envoi de données vers le cloud.
+- [Kata Tracker Local-First Issue Tracker](../../watch/kata-tracker-local-first-issue-tracker.md) — Fonction · Suivi local des tâches et problèmes pour agents de code.
+Avantages · Gestion des projets sans dépendance réseau.
+Gain · Éviter la perte de données en cas de déconnexion.
+- [Graft](../../watch/graft-codebase-context-for-coding-agents.md) — Fonction · Carte du code et apprentissages pour agents.
+Avantages · Réduit les appels d'API et les tokens utilisés.
+Gain · Éviter de redécouvrir le code pour chaque tâche.
+- [Memory Engineering](../../watch/memory-engineering-agent-past.md) — Fonction · Conserver le contexte des interactions passées.
+Avantages · Permet de maintenir une cohérence dans les dialogues.
+Gain · Éviter de répéter des informations déjà fournies.
 - [Awesome AI Companion](../../watch/awesome-ai-companion.md)
 - [Herdr Multiplexer](../../watch/herdr-agent-multiplexer.md)
-- [MacOS26 Agent Desktop Harness](../../watch/macos26-agent-desktop-harness.md)
+- [MacOS26 Agent Desktop Harness](../../watch/macos26-agent-desktop-harness.md) — Fonction · Exécute des tâches via des API LLM et Apple Intelligence.
+Avantages · Gère des projets, code, calendrier et apps macOS.
+Gain · Lancer des tâches sans compilation, avec API prédéfinies.
 - [Open Maestri macOS Agent Orchestration](../../watch/open-maestri-macos-agent-orchestration.md)
 - [Auto Company Autonomous AI Company](../../watch/auto-company-autonomous-ai-company.md)
-- [Agency Agents](../../watch/agency-agents-ai-agency.md)
+- [Agency Agents](../../watch/agency-agents-ai-agency.md) — Fonction · Installer des agents AI dans des outils comme Claude Code ou Gemini.
+Avantages · Agents prêts à l'emploi avec code et processus validés.
+Gain · Lancer des tâches sans configuration, directement via l'interface.
 - [Alook](../../watch/alook-ai-workforce-collaboration.md)
 - [Pentagi](../../watch/pentagi-autonomous-pentest-agents.md)
-- [TencentDB Agent Memory](../../watch/tencentdb-agent-memory.md)
-- [AI Video Plugins And Skills Ayi AInotes](../../watch/ai-video-plugins-skills-ayi-ainotes.md)
-- [HyperFrames AI Video Generation Skill](../../watch/hyperframes-ai-video-generation-skill.md)
-- [AI Sales Automation Agent](../../watch/l-ia-vient-de-tuer-le-metier-de-commercial-en-vendant-a-ta-place-24h-2.md)
-- [ByteDance Open Source Computer Control Agent](../../watch/bytedance-acaba-de-abrir-el-codigo-del-agente-que-controla-tu-ordenado.md)
-- [Claude Code ya es potente solo.](../../watch/claude-code-ya-es-potente-solo.md)
-- [Essential MCP Servers Collection](../../watch/this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi.md)
-- [Free Claude Code Execution Repository](../../watch/alguien-creo-un-repo-en-github-que-te-permite-ejecutar-claude-code-com.md)
-- [Google Chrome Web Best Practices Skill](../../watch/un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web.md)
-- [IM-Style Multi-Agent Coding Workspace](../../watch/im-agent-claude-code-codex-opencode-ai-agent.md)
-- [Infinite Memory For Claude, Codex And Cursor](../../watch/acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor.md)
-- [Infinite Memory For Claude, Codex And Cursor](../../watch/ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor.md)
-- [Last 30 Days Research Agent Skill](../../watch/mvanhorn-last30days-skill.md)
+- [TencentDB Agent Memory](../../watch/tencentdb-agent-memory.md) — Fonction · Gère la mémoire commune entre agents pour éviter la répétition.
+Avantages · Extraction automatique de connaissances et de compétences.
+Gain · Importer des données et lancer des tâches sans reconfiguration.
+- [AI Video Plugins And Skills Ayi AInotes](../../watch/ai-video-plugins-skills-ayi-ainotes.md) — Fonction · Générer des vidéos via des compétences IA.
+Avantages · Intégration avec des agents IA existants.
+Gain · Créer des contenus vidéo sans logiciel spécialisé.
+- [HyperFrames AI Video Generation Skill](../../watch/hyperframes-ai-video-generation-skill.md) — Fonction · Génère des vidéos via un agent IA.
+Avantages · Intégre HTML et rendu visuel.
+Gain · Créer des contenus vidéo sans outil externe.
+- [AI Sales Automation Agent](../../watch/l-ia-vient-de-tuer-le-metier-de-commercial-en-vendant-a-ta-place-24h-2.md) — Fonction · Analyse et propose des ventes en temps réel.
+Avantages · Intègre données clients et comportements.
+Gain · Éviter les mauvaises prospection, optimiser le pipeline.
+- [ByteDance Open Source Computer Control Agent](../../watch/bytedance-acaba-de-abrir-el-codigo-del-agente-que-controla-tu-ordenado.md) — Fonction · Agent IA pour surveillance et veille technologique.
+Avantages · Analyse en temps réel des données d'entraînement.
+Gain · Éviter les erreurs de configuration manuelle.
+- [Claude Code ya es potente solo.](../../watch/claude-code-ya-es-potente-solo.md) — Fonction · Analyse et exécute du code en temps réel.
+Avantages · Intégre des connaissances en développement avancé.
+Gain · Éviter les erreurs de syntaxe et de logique.
+- [Essential MCP Servers Collection](../../watch/this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi.md) — Fonction · Serveurs MCP pour veille et monitoring.
+Avantages · Intégration agents IA et protocoles MCP.
+Gain · Éviter configuration manuelle des serveurs MCP.
+- [Free Claude Code Execution Repository](../../watch/alguien-creo-un-repo-en-github-que-te-permite-ejecutar-claude-code-com.md) — Fonction · Exécuter du code Claude dans un environnement GitHub.
+Avantages · Intégration avec les outils de développement existants.
+Gain · Tester et déboguer du code sans quitter l'IDE.
+- [Google Chrome Web Best Practices Skill](../../watch/un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web.md) — Fonction · Injecter des bonnes pratiques web dans Chrome.
+Avantages · Optimiser le rendu et la compatibilité des sites.
+Gain · Réduire les erreurs de développement sans outil externe.
+- [IM-Style Multi-Agent Coding Workspace](../../watch/im-agent-claude-code-codex-opencode-ai-agent.md) — Fonction · Orchestre des agents de codage et de veille.
+Avantages · Intégre IA pour aider à coder et surveiller.
+Gain · Éviter de gérer manuellement plusieurs agents.
+- [Infinite Memory For Claude, Codex And Cursor](../../watch/acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor.md) — Fonction · Conserver le contexte des agents.
+Avantages · Mémoriser les interactions et données.
+Gain · Éviter de répéter les informations.
+- [Infinite Memory For Claude, Codex And Cursor](../../watch/ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor.md) — Fonction · Conserver le contexte des agents.
+Avantages · Mémoriser les interactions et données.
+Gain · Éviter de répéter les informations.
+- [Last 30 Days Research Agent Skill](../../watch/mvanhorn-last30days-skill.md) — Fonction · Recherche des documents dans les 30 derniers jours.
+Avantages · Accès à des données récentes et actualisées.
+Gain · Éviter de consulter des sources obsolètes.
 - [Aider AI Pair Programming](../../watch/aider-ai-pair-programming.md)
 - [Awesome MCP Servers](../../watch/awesome-mcp-servers.md)
-- [Claude Task Master](../../watch/claude-task-master-ai-task-management.md)
-- [CrewAI](../../watch/crewai-agent-orchestration.md)
-- [CyberStrike](../../watch/cyberstrike-ai-red-team-agent.md) — Analyse des vulnérabilités réseau en temps réel avec MITRE ATT&CK.
-- [LangGraph](../../watch/langgraph-resilient-agents.md)
-- [n8n Workflow Automation](../../watch/n8n-workflow-automation.md) — Crée des workflows d'IA avec des outils visuels et de code.
+- [Claude Task Master](../../watch/claude-task-master-ai-task-management.md) — Fonction · Gère les tâches via des API d'IA dans un éditeur.
+Avantages · Intègre des modèles comme Claude, OpenAI, Gemini.
+Gain · Lancer des tâches sans config complexe.
+- [CrewAI](../../watch/crewai-agent-orchestration.md) — Fonction · Orchestre des agents AI en équipe et workflows événementiels.
+Avantages · Gestion centralisée des agents, contrôle précis des flux.
+Gain · Déployer des automatisations complexes sans code complexe.
+- [CyberStrike](../../watch/cyberstrike-ai-red-team-agent.md) — Fonction · Automatisation des tests de pénétration via un agent AI.
+Avantages · Intégration de 7600+ compétences de sécurité et 120+ cas de test OWASP.
+Gain · Exécuter des attaques sans configuration API, avec des outils distants.
+- [LangGraph](../../watch/langgraph-resilient-agents.md) — Fonction · Orchestre des agents étatiques et longs.
+Avantages · Exécution durable, mémoire complète, interruption humaine.
+Gain · Déployer des agents sans reprise manuelle.
+- [n8n Workflow Automation](../../watch/n8n-workflow-automation.md) — Fonction · Créer et exécuter des workflows et agents AI.
+Avantages · Intégrations 1500+ et modèles prêts à l'emploi.
+Gain · Déployer des tâches sans coder, via un canvas visuel.
 - [OpenHands](../../watch/openhands-ai-development.md)
-- [PromptSpy](../../watch/promptspy-ai-android-malware.md)
-- [AgentsView](../../watch/agentsview-session-intelligence.md)
+- [PromptSpy](../../watch/promptspy-ai-android-malware.md) — Fonction · Analyse comportementale d'applications Android via IA.
+Avantages · Détection d'appels vers API IA pour evasion.
+Gain · Éviter les malwares adaptatifs via surveillance réseau.
+- [AgentsView](../../watch/agentsview-session-intelligence.md) — Fonction · Visualiser et suivre les coûts des agents d'IA.
+Avantages · Filtrer les données par projet ou requête.
+Gain · Comparer les coûts sans lancer un serveur.
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
 - [AutoResearchClaw](../../watch/autoresearchclaw-autonomous-research.md)
 - [NanoClaw](../../watch/nanoclaw-personal-agent.md)
-- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md)
+- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md) — Fonction · Génère du texte et des images localement.
+Avantages · Supporte plusieurs modèles et langages.
+Gain · Éviter l'envoi de données vers le cloud.
 - [PentestGPT](../../watch/pentestgpt-autonomous-pentest.md)
-- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md)
-- [Vibe Shit](../../watch/vibeshit-vibe-coding-directory.md)
-- [AI Trending](../../watch/ai-trending.md)
-- [Claude AGENTS.md Config](../../watch/claude-agents-md-config-alexsoyes.md)
-- [NotePlan MCP Server](../../watch/noteplan-mcp-server.md)
-- [Open Felix](../../watch/openfelix-local-ai-agent-macos.md)
-- [Praison AI](../../watch/praison-ai.md)
-- [Reverse Skill](../../watch/reverse-skill-hacker-skills.md)
-- [Taste Skill](../../watch/taste-skill.md)
+- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md) — Fonction · Identifier et surveiller les outils offensifs ou abusables.
+Avantages · Distinguer usage légitime et usage abusif documenté.
+Gain · Éviter diffusion publique et exploitation offensive.
+- [Vibe Shit](../../watch/vibeshit-vibe-coding-directory.md) — Fonction · Identifier des outils IA, agents et projets open source.
+Avantages · Suivre les tendances sans dépendre exclusivement de GitHub.
+Gain · Éviter de rechercher manuellement des ressources inspirantes.
+- [AI Trending](../../watch/ai-trending.md) — Fonction · Suivre les projets open source IA en tendance.
+Avantages · Filtrer par agents, LLM, RAG et multimodal.
+Gain · Comparer les tendances sans quitter l'outil.
+- [Claude AGENTS.md Config](../../watch/claude-agents-md-config-alexsoyes.md) — Fonction · Configuration des agents Claude via un fichier AGENTS.md.
+Avantages · Centralisation des instructions et paramètres d'intégration.
+Gain · Éviter de répéter les configurations pour chaque agent.
+- [NotePlan MCP Server](../../watch/noteplan-mcp-server.md) — Fonction · Connecte NotePlan à MCP pour notes, tâches et calendrier.
+Avantages · Intégration avec protocole MCP et outils IA.
+Gain · Automatiser transferts et synchronisations entre outils.
+- [Open Felix](../../watch/openfelix-local-ai-agent-macos.md) — Fonction · Surveille et gère des flux de données locaux sur macOS.
+Avantages · Intégre des outils de veille et de monitoring IA.
+Gain · Éviter de configurer plusieurs outils pour la veille.
+- [Praison AI](../../watch/praison-ai.md) — Fonction · Orchestre des agents IA pour veille et analyse.
+Avantages · Gère automatiquement les flux de données et les requêtes.
+Gain · Éviter de configurer manuellement chaque agent.
+- [Reverse Skill](../../watch/reverse-skill-hacker-skills.md) — Fonction · Développer des compétences de hacking et reverse engineering pour agents.
+Avantages · Accès à des compétences prêtes à l'emploi en cybersécurité.
+Gain · Éviter la création de compétences depuis zéro pour des agents.
+- [Taste Skill](../../watch/taste-skill.md) — Fonction · Étendre les compétences d’un agent IA.
+Avantages · Compétences prédéfinies pour des tâches spécifiques.
+Gain · Lancer des tâches sans configuration complexe.

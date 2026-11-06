@@ -6,11 +6,7 @@ Veille outil cyber / threat intelligence.
 
 ## Tags
 
-#threat-intelligence, #cve, #kev, #fastapi, #nextjs, #actif
-
-## Appel canonique
-
-`watch:openthreat-threat-intelligence-platform`
+#threat-intelligence, #cve, #kev, #fastapi
 
 ## Métadonnées
 
@@ -21,21 +17,18 @@ Veille outil cyber / threat intelligence.
 - Accès : À vérifier
 - Preuve : À vérifier
 
+
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.osint source.x
+- Identifiants : domain.osint risk.sensitive source.x
 - Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Risques : Risque signalé
 - Provenance : X / Twitter
 
 ## Sources
-- Source: [https://x.com/vivekintel/status/2071112289173041586](https://x.com/vivekintel/status/2071112289173041586)
 
-## Resume court
-
-Sert a surveiller un outil ou signal OSINT.
-
-
+- https://x.com/vivekintel/status/2071112289173041586](https://x.com/vivekintel/status/2071112289173041586
 
 ## Historique
 
@@ -43,6 +36,8 @@ Sert a surveiller un outil ou signal OSINT.
 
 - Integration depuis Raindrop KM Monitor.
 
-## Usage KM
+## Intérêts
 
-- Alimenter la veille OSINT defensive et documenter les limites legales, sources et risques d'abus.
+Fonction · Collecte et analyse de menaces via des sources ouvertes.  
+Avantages · Intégration de CVE, Kev et données OSINT.  
+Gain · Éviter de compiler manuellement des informations de menace.

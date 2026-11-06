@@ -10,7 +10,9 @@ Veille outil / automatisation workflows.
 
 ## Intérêts
 
-Crée des workflows d'IA avec des outils visuels et de code.
+Fonction · Créer et exécuter des workflows et agents AI.  
+Avantages · Intégrations 1500+ et modèles prêts à l'emploi.  
+Gain · Déployer des tâches sans coder, via un canvas visuel.
 
 ## Métadonnées
 
@@ -36,6 +38,8 @@ Crée des workflows d'IA avec des outils visuels et de code.
 
 - https://github.com/n8n-io/n8n
 - https://x.com/i/status/2057388194711368074
+- https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot-readme.png
+- https://raw.githubusercontent.com/n8n-io/n8n/HEAD/README.md
 
 ## Metadata GitHub publique
 
@@ -74,3 +78,9 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 - Source : https://github.com/n8n-io/n8n
 - Analyse source : 2026-10-19T21:54:26.607Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![n8n.io - Screenshot](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot-readme.png)
+
+[Origine](https://raw.githubusercontent.com/n8n-io/n8n/HEAD/README.md)

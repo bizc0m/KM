@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Identifier des plateformes en ligne liées à un utilisateur.
+Fonction · Traçage d'informations liées à un utilisateur en ligne.  
+Avantages · Identification de plateformes associées à une cible.  
+Gain · Éviter de rechercher manuellement des liens.
 
 ## Métadonnées
 

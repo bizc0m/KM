@@ -55,3 +55,9 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+
+## Intérêts
+
+Fonction · Recherche des documents dans les 30 derniers jours.  
+Avantages · Accès à des données récentes et actualisées.  
+Gain · Éviter de consulter des sources obsolètes.

@@ -41,3 +41,9 @@ Veille ressource IA / quotas API.
 ### v0.1 - 2026-06-29
 
 - Integration depuis Raindrop KM Monitor.
+
+## Intérêts
+
+Fonction · Surveillance des quotas API IA.  
+Avantages · Alertes sur l'utilisation des tokens.  
+Gain · Éviter les dépassements de limite.

@@ -29,3 +29,9 @@ Veille Raindrop KM Monitor / profil GitHub generative models.
 ## Sources
 
 - https://github.com/promptslab](https://github.com/promptslab
+
+## Intérêts
+
+Fonction · Suivi des modèles génératifs sur GitHub.  
+Avantages · Intégration avec les profils Raindrop KM.  
+Gain · Éviter de vérifier manuellement les mises à jour.

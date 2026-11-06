@@ -37,3 +37,9 @@ Veille outil IA / generation video agentique.
 ### v0.1 - 2026-06-28
 
 - Integration depuis Raindrop KM Monitor.
+
+## Intérêts
+
+Fonction · Génère des vidéos via un agent IA.  
+Avantages · Intégre HTML et rendu visuel.  
+Gain · Créer des contenus vidéo sans outil externe.

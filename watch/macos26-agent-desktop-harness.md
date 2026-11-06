@@ -31,6 +31,9 @@ Veille Raindrop KM Monitor / agent desktop macOS et harness agentique.
 
 - https://github.com/macos26/agent
 - https://github.com/macos26/agent](https://github.com/macos26/agent
+- https://raw.githubusercontent.com/macos26/agent/HEAD/docs/table-video.gif
+- https://raw.githubusercontent.com/macos26/agent/HEAD/README.md
+- https://github.com/user-attachments/assets/d3b2f1e5-1dab-44f7-95f6-008424ee794c
 
 ## Metadata GitHub publique
 
@@ -51,3 +54,19 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer la nouveaute Raindrop KM Monitor `Mac Agent for macOS 26`.
 - Risques : controle desktop, scripts, secrets et fournisseurs LLM.
+
+## Intérêts
+
+Fonction · Exécute des tâches via des API LLM et Apple Intelligence.  
+Avantages · Gère des projets, code, calendrier et apps macOS.  
+Gain · Lancer des tâches sans compilation, avec API prédéfinies.
+
+## Aperçus
+
+![Agent! demo](https://raw.githubusercontent.com/macos26/agent/HEAD/docs/table-video.gif)
+
+[Origine](https://raw.githubusercontent.com/macos26/agent/HEAD/README.md)
+
+![Screenshot 2026-08-23 at 7 34 10 PM](https://github.com/user-attachments/assets/d3b2f1e5-1dab-44f7-95f6-008424ee794c)
+
+[Origine](https://raw.githubusercontent.com/macos26/agent/HEAD/README.md)

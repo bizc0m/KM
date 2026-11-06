@@ -29,3 +29,9 @@ Veille Raindrop KM Monitor / utilitaire macOS.
 ## Sources
 
 - https://www.reddit.com/r/macapps/comments/1vmnkbj/parall_one_mac_app_as_many_separate_instances_as/](https://www.reddit.com/r/macapps/comments/1vmnkbj/parall_one_mac_app_as_many_separate_instances_as/
+
+## Intérêts
+
+Fonction · Surveille l'activité de l'application Parall sur macOS.  
+Avantages · Multi-instance supporté pour plusieurs utilisateurs.  
+Gain · Éviter les conflits d'accès entre instances.

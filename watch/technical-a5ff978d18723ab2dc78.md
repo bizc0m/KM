@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée un agent personnalisé pour chaque projet. Améliore la performance du codage.
+Fonction · Agent de codage open source, exécutable en desktop, terminal ou comme Skill.  
+Avantages · Architecture agent personnalisable par projet, workflow modifiable.  
+Gain · Lancer des tâches sans Node.js, gérer des commits et fichiers modifiés.
 
 ## Métadonnées
 

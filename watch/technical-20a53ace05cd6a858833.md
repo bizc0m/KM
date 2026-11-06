@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Garder les informations pertinentes pour les décisions futures.
+Fonction · Gérer les mémoires de travail, épisodique, sémantique, procédimentale et oubli.  
+Avantages · Permettre aux agents de conserver et de retrouver des informations contextuelles.  
+Gain · Éviter de répéter des tâches en utilisant des données mémorisées.
 
 ## Métadonnées
 

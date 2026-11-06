@@ -78,34 +78,83 @@ Gain · Tester une compétence sans l'installer pour éviter les erreurs.
 - [Skills pour agents de IA](../../watch/technical-ce8a12d1c4391a2f858c.md) — Fonction · Installer des compétences pour des agents IA, avec des instructions concrètes.
 Avantages · Fournit des exemples et des scripts pour exécuter des tâches sans improviser.
 Gain · Tester une compétence avant installation pour éviter les erreurs.
-- [Aider](../../watch/technical-4125f24a0a6925019b78.md) — Collaborer avec des LLM pour coder et gérer des projets.
-- [Comparaison des modèles d'IA](../../watch/technical-b3d3480734d063a13c32.md) — DeepSeek V4.1 Flash optimise la réponse avec 16B de paramètres actifs.
+- [Aider](../../watch/technical-4125f24a0a6925019b78.md) — Fonction · Collaborer avec des LLMs pour coder et gérer des projets.
+Avantages · Intégration avec des modèles de langage et des agents de développement.
+Gain · Éviter la rédaction manuelle de code et de documentation.
+- [Comparaison des modèles d'IA](../../watch/technical-b3d3480734d063a13c32.md) — Fonction · Générer des images via un modèle d'IA.
+Avantages · Optimisation des réponses avec 16B de paramètres.
+Gain · Lancer la création d'images sans configuration complexe.
 - [llm-quota-tracker](../../watch/technical-8d9cf24dee47599cd496.md) — Afficher les quotas d'IA en temps réel pour gérer efficacement les ressources.
-- [LLM2Jev](../../watch/technical-84aeec11b9701e1a5103.md) — Convertir un LLM en modèle de décision Jev sans entraînement.
-- [Qwen3.8-27B et OrcaSAQ-2](../../watch/technical-ab7348c75fefe7a67600.md) — Exécution locale avec 12 Go de mémoire.
-- [Qwen3.8-27B-Uncensored-Cyber](../../watch/technical-40c6bcb62189c3a832b0.md) — Permet d'analyser efficacement des données cybernétiques avec un modèle optimisé.
+- [LLM2Jev](../../watch/technical-84aeec11b9701e1a5103.md) — Fonction · Convertir un LLM en modèle de décision Jev.
+Avantages · Prise de décision sans entraînement.
+Gain · Réutiliser des préfixes pour accélérer les requêtes.
+- [Project NOMAD](../../watch/technical-3d7c7b2843ae85360da7.md) — Fonction · Serveur de connaissance hors ligne avec outils AI et bibliothèques.
+Avantages · Contenu médical, encyclopédique et éducatif préinstallé.
+Gain · Accéder aux ressources sans connexion, gérer des modèles LLM localement.
+- [Qwen3.8-27B et OrcaSAQ-2](../../watch/technical-ab7348c75fefe7a67600.md) — Fonction · Exécution locale de modèles LLM via terminal.
+Avantages · Performance sur benchmarks avec 12 Go de mémoire.
+Gain · Lancer des tâches d'inférence sans serveur distant.
+- [Qwen3.8-27B-Uncensored-Cyber](../../watch/technical-40c6bcb62189c3a832b0.md) — Fonction · Analyse de données cybernétiques avec modèle optimisé.
+Avantages · Traitement efficace des informations complexes.
+Gain · Éviter l'analyse manuelle des données critiques.
 - [Unsloth Studio](../../watch/technical-95204b762614cb0e8692.md) — Déployer et entraîner des modèles LLM localement ou via Colab.
-- [ChatHub](../../watch/chathub-multi-llm-workspace.md)
-- [KM D3 Scan Integration](../../watch/km-d3-scan-integration-20260901.md)
-- [Right Click Prompt Browser Prompt Library](../../watch/right-click-prompt-browser-prompt-library.md)
+- [ChatHub](../../watch/chathub-multi-llm-workspace.md) — Fonction · Comparer réponses de plusieurs LLM en simultané.
+Avantages · Aide à évaluer et scorer les prompts utilisés.
+Gain · Contrôler et valider des fiches KM sans déplacement.
+- [KM D3 Scan Integration](../../watch/km-d3-scan-integration-20260901.md) — Fonction · Intégration de notes et fichiers dans KM/Base/watch.
+Avantages · Accès via fichiers Markdown et workflow d'indexation.
+Gain · Importer des données sans suppression, structurer les informations.
+- [Right Click Prompt Browser Prompt Library](../../watch/right-click-prompt-browser-prompt-library.md) — Fonction · Accéder à des prompts depuis le menu contextuel.
+Avantages · Bibliothèque structurée par catégories.
+Gain · Éviter de chercher des prompts en ligne.
 - [Prompt Cache](../../watch/prompt-cache-semantic-llm-cache.md)
-- [OpenCode Download](../../watch/opencode-telechargement.md)
-- [Google AI Studio Free Token Tier](../../watch/google-ai-studio-free-token-tier.md)
-- [Experimental AI Tool Discovery](../../watch/cok-cilginca-bir-ai-araci-buldum.md)
-- [Free Google Gemini 2.5 Pro Token Context](../../watch/you-can-run-google-gemini-2-5-pro-with-a-massive-2-milion-free-token-c.md)
+- [OpenCode Download](../../watch/opencode-telechargement.md) — Fonction · Surveillance des mises à jour de modèles LLM via API.
+Avantages · Intégration avec interfaces de gestion de modèles.
+Gain · Automatiser le suivi des mises à jour de modèles.
+- [Google AI Studio Free Token Tier](../../watch/google-ai-studio-free-token-tier.md) — Fonction · Surveillance des quotas API IA.
+Avantages · Alertes sur l'utilisation des tokens.
+Gain · Éviter les dépassements de limite.
+- [Experimental AI Tool Discovery](../../watch/cok-cilginca-bir-ai-araci-buldum.md) — Fonction · Surveille et analyse des outils AI via des flux de données.
+Avantages · Intégre des modèles de langage pour l'interprétation.
+Gain · Identifier des outils AI sans recherche manuelle.
+- [Free Google Gemini 2.5 Pro Token Context](../../watch/you-can-run-google-gemini-2-5-pro-with-a-massive-2-milion-free-token-c.md) — Fonction · Suivre les mises à jour des modèles Gemini.
+Avantages · Alertes sur les nouvelles versions et fonctionnalités.
+Gain · Éviter de manquer des mises à jour clés.
 - [JARVIS OS](../../watch/jarvis-os.md)
-- [Late Night AI Tool Discovery](../../watch/sabtu-malem-jam-2-pagi-gue-masih-melek.md)
-- [Open Source NotebookLM Alternative](../../watch/alternativa-gratuita-y-de-codigo-abierto-a-notebooklm.md)
-- [Removes LLM censorship with a single click.](../../watch/removes-llm-censorship-with-a-single-click.md)
+- [Late Night AI Tool Discovery](../../watch/sabtu-malem-jam-2-pagi-gue-masih-melek.md) — Fonction · Surveille les publications de modèles LLM sur Twitter.
+Avantages · Filtrer les mises à jour en temps réel sur les modèles.
+Gain · Éviter de perdre des mises à jour clés sur les LLM.
+- [Open Source NotebookLM Alternative](../../watch/alternativa-gratuita-y-de-codigo-abierto-a-notebooklm.md) — Fonction · Surveillance des notes et modèles LLM.
+Avantages · Intégration avec des outils de veille.
+Gain · Automatiser la gestion des modèles LLM.
+- [Removes LLM censorship with a single click.](../../watch/removes-llm-censorship-with-a-single-click.md) — Fonction · Désactive la censure des modèles LLM en un clic.
+Avantages · Permet l'accès à des contenus filtrés.
+Gain · Éviter les restrictions de contenu sans configuration.
 - [MoneyPrinterTurbo](../../watch/moneyprinterturbo-ai-short-video.md)
-- [PromptSpy](../../watch/promptspy-ai-android-malware.md)
+- [PromptSpy](../../watch/promptspy-ai-android-malware.md) — Fonction · Analyse comportementale d'applications Android via IA.
+Avantages · Détection d'appels vers API IA pour evasion.
+Gain · Éviter les malwares adaptatifs via surveillance réseau.
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
 - [Awesome Free LLM APIs](../../watch/awesome-free-llm-apis.md)
 - [Free LLM API Resources](../../watch/free-llm-api-resources.md)
-- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md)
-- [Twitter RSS Monitoring](../../watch/twitter-rss-monitoring.md)
-- [Vibe Shit](../../watch/vibeshit-vibe-coding-directory.md)
-- [AI Trending](../../watch/ai-trending.md)
-- [Free Api Key](../../watch/free-api-key-instagram-reel.md)
-- [llm-wiki](../../resources/llm-wiki-karpathy.md)
-- [PromptsLab](../../watch/promptslab.md)
+- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md) — Fonction · Génère du texte et des images localement.
+Avantages · Supporte plusieurs modèles et langages.
+Gain · Éviter l'envoi de données vers le cloud.
+- [Twitter RSS Monitoring](../../watch/twitter-rss-monitoring.md) — Fonction · Suivre des comptes Twitter via RSS.
+Avantages · Flux RSS sans algorithmes de recommandation.
+Gain · Éviter l'interface addictive de X pour veille.
+- [Vibe Shit](../../watch/vibeshit-vibe-coding-directory.md) — Fonction · Identifier des outils IA, agents et projets open source.
+Avantages · Suivre les tendances sans dépendre exclusivement de GitHub.
+Gain · Éviter de rechercher manuellement des ressources inspirantes.
+- [AI Trending](../../watch/ai-trending.md) — Fonction · Suivre les projets open source IA en tendance.
+Avantages · Filtrer par agents, LLM, RAG et multimodal.
+Gain · Comparer les tendances sans quitter l'outil.
+- [Free Api Key](../../watch/free-api-key-instagram-reel.md) — Fonction · Fournir une clé API pour accéder aux données Instagram Reel.
+Avantages · Permet d’intégrer des données de vidéos Instagram dans des applications.
+Gain · Éviter de créer un compte et de gérer l’authentification manuellement.
+- [llm-wiki](../../resources/llm-wiki-karpathy.md) — Fonction · Ressource de référence sur les LLM et Karpathy.
+Avantages · Documentation structurée sur l'évolution des modèles.
+Gain · Comprendre l'histoire et les tendances des LLM.
+- [PromptsLab](../../watch/promptslab.md) — Fonction · Suivi des modèles génératifs sur GitHub.
+Avantages · Intégration avec les profils Raindrop KM.
+Gain · Éviter de vérifier manuellement les mises à jour.

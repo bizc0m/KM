@@ -214,39 +214,97 @@ Gain · Exécuter des tâches en terminal sans code préalable.
 - [awesome-ai-repos](../../watch/technical-7cf0ee8352dc6af0478e.md) — Fonction · Gère les agents AI pour tâches spécifiques.
 Avantages · Intégration de modèles et outils de recherche.
 Gain · Lancer des workflows sans configuration complexe.
-- [Clone-Wars](../../watch/technical-f39d8a91723d2198d9aa.md) — Découvrir le code source de clones d'applications populaires.
+- [Aider](../../watch/technical-4125f24a0a6925019b78.md) — Fonction · Collaborer avec des LLMs pour coder et gérer des projets.
+Avantages · Intégration avec des modèles de langage et des agents de développement.
+Gain · Éviter la rédaction manuelle de code et de documentation.
+- [Clone-Wars](../../watch/technical-f39d8a91723d2198d9aa.md) — Fonction · Reproduire un site web via du code source.
+Avantages · Accès à des clones d'applications populaires.
+Gain · Éviter de créer un site de zéro.
 - [ECC](../../watch/technical-edb3a626875732de5c9b.md) — Améliore la productivité en optimisant les tâches de codage.
-- [Jules](../../watch/technical-f23e4d6f3cd099180f4d.md) — Gère des tâches de codage via GitHub avec l'étiquette "jules".
-- [Metis](../../watch/technical-a5ff978d18723ab2dc78.md) — Crée un agent personnalisé pour chaque projet.
-- [NoSignups](../../watch/technical-94515d48fc2a4b993a1f.md) — Permet d'utiliser des outils informatiques sans inscription ni email.
-- [Open Lovable](../../watch/technical-51c74448ee9079430332.md) — Crée un clone React d'un site web en quelques secondes.
+- [Jules](../../watch/technical-f23e4d6f3cd099180f4d.md) — Fonction · Gère des tâches de codage via GitHub avec l'étiquette "jules".
+Avantages · Intégre des sujets liés à l'intelligence artificielle et le développement logiciel.
+Gain · Éviter de répéter des tâches de codage manuelles.
+- [Metis](../../watch/technical-a5ff978d18723ab2dc78.md) — Fonction · Agent de codage open source, exécutable en desktop, terminal ou comme Skill.
+Avantages · Architecture agent personnalisable par projet, workflow modifiable.
+Gain · Lancer des tâches sans Node.js, gérer des commits et fichiers modifiés.
+- [NoSignups](../../watch/technical-94515d48fc2a4b993a1f.md) — Fonction · Lister des outils sans inscription ni suivi.
+Avantages · Accès direct aux outils via URL.
+Gain · Éviter les mises en page et les formulaires.
+- [Open Lovable](../../watch/technical-51c74448ee9079430332.md) — Fonction · Cloner un site web en React en quelques secondes.
+Avantages · Reproduit structure, style et interactions du site original.
+Gain · Éviter de recréer le frontend depuis zéro.
 - [Outils en ligne utiles pour le développement et la gestion de projets](../../watch/technical-99260b2f64304ae31048.md) — Unpaywall.org permet d'accéder gratuitement aux articles de recherche.
 - [Outils en ligne utiles pour le développement et la gestion de projets](../../watch/technical-c2b6bc61f64db5dde9f2.md) — Unpaywall.org permet d'accéder gratuitement aux articles de recherche.
-- [Outils et compétences pour la production vidéo automatisée et agente](../../watch/technical-88c715df4dbe74ef0c5a.md) — Crée des vidéos MP4 à partir de textes avec des agents AI.
-- [Outils pour collecter des données web via des agents IA](../../watch/technical-985e97ab7a28702f6cd3.md) — Permettre à l'IA d'explorer des plateformes via CLI sans frais d'API.
-- [Pake](../../watch/technical-fd14133ed8619a60ddb0.md) — Créer une application de bureau à partir d'un site web en quelques secondes.
-- [Spec Kit](../../watch/technical-03c3b9b214032004d035.md) — Structurer les spécifications pour un codage cohérent et prévisible.
+- [Outils et compétences pour la production vidéo automatisée et agente](../../watch/technical-88c715df4dbe74ef0c5a.md) — Fonction · Créer des vidéos MP4 à partir de textes avec des agents AI.
+Avantages · Génère des contenus vidéo sans intervention manuelle.
+Gain · Éviter la phase de montage pour lancer rapidement des vidéos.
+- [Outils pour collecter des données web via des agents IA](../../watch/technical-985e97ab7a28702f6cd3.md) — Fonction · Explorer des plateformes web via CLI sans API.
+Avantages · Accès gratuit à des outils de scraping et automation.
+Gain · Éviter les frais d'API pour collecter des données.
+- [Pake](../../watch/technical-fd14133ed8619a60ddb0.md) — Fonction · Convertir un site web en application desktop en un clic.
+Avantages · Utilise Rust Tauri pour une faible consommation de mémoire.
+Gain · Lancer une application sans configuration complexe.
+- [Ruflo](../../watch/technical-1b635fdf72be259a562c.md) — Fonction · Coordonner 100+ agents via plusieurs topologies.
+Avantages · Gérer des agents spécialisés en développement.
+Gain · Lancer des tâches sans configuration complexe.
+- [Spec Kit](../../watch/technical-03c3b9b214032004d035.md) — Fonction · Structurer les spécifications de codage dans un terminal.
+Avantages · Intégration avec NotePlan et X/Twitter.
+Gain · Automatiser la gestion des tâches de développement.
 - [Superpowers](../../watch/technical-56f27bb0e80ff344bf72.md) — Facilite la planification et la révision du code avec un workflow structuré.
-- [Vibe Coding et Spec Kit](../../watch/technical-9379cc03e3266df7017b.md) — Structurer la collaboration pour améliorer la précision du code généré.
-- [Devin Desktop Agent App](../../watch/devin-desktop-agent-app.md)
-- [Espanso Text Expander](../../watch/espanso-text-expander.md)
-- [OpenBot AI Coworkers](../../watch/openbot-ai-coworkers.md)
-- [BetterDisplay MacOS Display Control](../../watch/betterdisplay-macos-display-control.md)
-- [AXorcist macOS Accessibility](../../watch/axorcist-macos-accessibility.md)
-- [MacOS26 Agent Desktop Harness](../../watch/macos26-agent-desktop-harness.md)
+- [Vibe Coding et Spec Kit](../../watch/technical-9379cc03e3266df7017b.md) — Fonction · Structurer la collaboration pour améliorer la précision du code.
+Avantages · Précision accrue grâce à la structuration des tâches.
+Gain · Réduire les erreurs en organisant les interactions entre les agents.
+- [Devin Desktop Agent App](../../watch/devin-desktop-agent-app.md) — Fonction · Interface de bureau pour agents Devin.
+Avantages · Gestion des tâches et interactions IA.
+Gain · Éviter la configuration manuelle des agents.
+- [Espanso Text Expander](../../watch/espanso-text-expander.md) — Fonction · Remplace des mots-clés par du texte ou des actions.
+Avantages · Fonctionne sur Windows, macOS et Linux.
+Gain · Exécuter des scripts ou des commandes en temps réel.
+- [OpenBot AI Coworkers](../../watch/openbot-ai-coworkers.md) — Fonction · Créer et gérer des bots avec des outils et des fichiers.
+Avantages · Gestion des accès et des permissions par bot.
+Gain · Lancer des tâches sans configuration complexe.
+- [BetterDisplay MacOS Display Control](../../watch/betterdisplay-macos-display-control.md) — Fonction · Gère les affichages macOS avec scaling, ajustements de couleur et contrôle DDC.
+Avantages · Support HDR/XDR, 3D LUTs, gestion des écrans virtuels et PIP.
+Gain · Configurer les displays sans débrancher, ajuster la luminosité en logiciel.
+- [AXorcist macOS Accessibility](../../watch/axorcist-macos-accessibility.md) — Fonction · Interroger, cliquer et inspecter l'interface d'applications macOS.
+Avantages · API type-safe, recherche flexible et gestion d'attributs.
+Gain · Exécuter des actions sans code complexe, gagner du temps.
+- [MacOS26 Agent Desktop Harness](../../watch/macos26-agent-desktop-harness.md) — Fonction · Exécute des tâches via des API LLM et Apple Intelligence.
+Avantages · Gère des projets, code, calendrier et apps macOS.
+Gain · Lancer des tâches sans compilation, avec API prédéfinies.
 - [Open Lovable Firecrawl Site Cloning](../../watch/open-lovable-firecrawl-site-cloning.md)
-- [Spec Kit Vibe Coding Specification Workflow](../../watch/spec-kit-vibe-coding-specification-workflow.md)
-- [Web Page To Desktop App Converter](../../watch/vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel.md)
+- [Spec Kit Vibe Coding Specification Workflow](../../watch/spec-kit-vibe-coding-specification-workflow.md) — Fonction · Documente les spécifications avant le code.
+Avantages · Intègre des outils de veille et de validation.
+Gain · Éviter les erreurs de conception en amont.
+- [Web Page To Desktop App Converter](../../watch/vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel.md) — Fonction · Convertir un site web en application bureau.
+Avantages · Intégration avec l'IA Claude pour l'analyse.
+Gain · Automatiser la création d'applications sans codage.
 - [Aider AI Pair Programming](../../watch/aider-ai-pair-programming.md)
-- [Claude Task Master](../../watch/claude-task-master-ai-task-management.md)
+- [Claude Task Master](../../watch/claude-task-master-ai-task-management.md) — Fonction · Gère les tâches via des API d'IA dans un éditeur.
+Avantages · Intègre des modèles comme Claude, OpenAI, Gemini.
+Gain · Lancer des tâches sans config complexe.
 - [OpenHands](../../watch/openhands-ai-development.md)
-- [PromptSpy](../../watch/promptspy-ai-android-malware.md)
+- [PromptSpy](../../watch/promptspy-ai-android-malware.md) — Fonction · Analyse comportementale d'applications Android via IA.
+Avantages · Détection d'appels vers API IA pour evasion.
+Gain · Éviter les malwares adaptatifs via surveillance réseau.
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
 - [CC-GUI / MossX](../../watch/ccgui-mossx-vibecoding-editor.md)
-- [CodePatrol](../../watch/codepatrol-code-security.md)
-- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md)
-- [Vibe Shit](../../watch/vibeshit-vibe-coding-directory.md)
+- [CodePatrol](../../watch/codepatrol-code-security.md) — Fonction · Détecte des vulnérabilités dans le code.
+Avantages · Analyse statique des sources pour identifier des risques.
+Gain · Éviter les failles de sécurité avant la mise en production.
+- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md) — Fonction · Génère du texte et des images localement.
+Avantages · Supporte plusieurs modèles et langages.
+Gain · Éviter l'envoi de données vers le cloud.
+- [Vibe Shit](../../watch/vibeshit-vibe-coding-directory.md) — Fonction · Identifier des outils IA, agents et projets open source.
+Avantages · Suivre les tendances sans dépendre exclusivement de GitHub.
+Gain · Éviter de rechercher manuellement des ressources inspirantes.
 - [Free Open Source Apps List](../../watch/free-open-source-apps-list-sn0wbrave.md)
-- [Lovable Build For The Web 20x Faster](../../watch/lovable-build-for-the-web-20x-faster.md)
-- [macUSB Bootable USB Creator macOS](../../watch/macusb-bootable-usb-creator-macos.md)
-- [Parall Mac App Multi Instance](../../watch/parall-mac-app-multi-instance.md)
+- [Lovable Build For The Web 20x Faster](../../watch/lovable-build-for-the-web-20x-faster.md) — Fonction · Génère des applications web via IA.
+Avantages · Intégre déploiement et hébergement.
+Gain · Éviter les étapes de configuration manuelle.
+- [macUSB Bootable USB Creator macOS](../../watch/macusb-bootable-usb-creator-macos.md) — Fonction · Créer un USB bootable pour macOS.
+Avantages · Supporte les versions récentes de macOS.
+Gain · Éviter l'installation via le mode recovery.
+- [Parall Mac App Multi Instance](../../watch/parall-mac-app-multi-instance.md) — Fonction · Surveille l'activité de l'application Parall sur macOS.
+Avantages · Multi-instance supporté pour plusieurs utilisateurs.
+Gain · Éviter les conflits d'accès entre instances.

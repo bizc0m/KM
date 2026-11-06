@@ -10,7 +10,9 @@ Veille `#ROUGE` / agent IA offensif de red team.
 
 ## Intérêts
 
-Analyse des vulnérabilités réseau en temps réel avec MITRE ATT&CK.
+Fonction · Automatisation des tests de pénétration via un agent AI.  
+Avantages · Intégration de 7600+ compétences de sécurité et 120+ cas de test OWASP.  
+Gain · Exécuter des attaques sans configuration API, avec des outils distants.
 
 ## Métadonnées
 

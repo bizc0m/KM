@@ -36,3 +36,9 @@ Veille Raindrop KM Monitor.
 
 - Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+
+## Intérêts
+
+Fonction · Surveille des liens GitHub via Raindrop.  
+Avantages · Intègre veille et monitoring en un.  
+Gain · Éviter de vérifier manuellement les liens.

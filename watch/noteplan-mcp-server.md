@@ -29,3 +29,9 @@ Veille Raindrop KM Monitor / connecteur MCP pour notes, taches et calendrier.
 ## Sources
 
 - https://help.noteplan.co/article/277-how-to-install-the-noteplan-mcp-server](https://help.noteplan.co/article/277-how-to-install-the-noteplan-mcp-server
+
+## Intérêts
+
+Fonction · Connecte NotePlan à MCP pour notes, tâches et calendrier.  
+Avantages · Intégration avec protocole MCP et outils IA.  
+Gain · Automatiser transferts et synchronisations entre outils.

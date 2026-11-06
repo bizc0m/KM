@@ -119,3 +119,9 @@ archive KM / captures NotePlan.
 
 - Objectif: archiver les captures NotePlan publiques depuis le debut 2026 sans publier de contenu prive.
 - Risques: sources sociales incompletes, repos non audites, sujets OSINT/offensifs classes `sensible` ou `#ROUGE`.
+
+## Intérêts
+
+Fonction · Capturer des notes via NotePlan sur macOS.  
+Avantages · Intégration native avec NotePlan et macOS.  
+Gain · Éviter de rediger des captures manuellement.

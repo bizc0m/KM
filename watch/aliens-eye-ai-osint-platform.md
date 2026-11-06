@@ -40,3 +40,9 @@ Veille outil OSINT / recherche d'empreinte numerique.
 ### v0.1 - 2026-06-29
 
 - Integration depuis Raindrop KM Monitor.
+
+## Intérêts
+
+Fonction · Analyse d'empreintes numériques via IA.  
+Avantages · Détection de risques de confidentialité.  
+Gain · Éviter les fuites d'informations sensibles.

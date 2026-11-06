@@ -32,6 +32,9 @@ Veille outils IA / intelligence de sessions agents.
 
 - https://github.com/kenn-io/agentsview
 - https://www.agentsview.io/
+- https://agentsview.io/assets/generated/screenshots/dashboard.png
+- https://raw.githubusercontent.com/kenn-io/agentsview/HEAD/README.md
+- https://agentsview.io/assets/generated/screenshots/message-viewer.png
 
 ## Metadata GitHub publique
 
@@ -60,3 +63,19 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer `AgentsView` comme outil de session intelligence pour agents IA.
 - Risques : historiques de sessions potentiellement sensibles.
+
+## Intérêts
+
+Fonction · Visualiser et suivre les coûts des agents d'IA.  
+Avantages · Filtrer les données par projet ou requête.  
+Gain · Comparer les coûts sans lancer un serveur.
+
+## Aperçus
+
+![Analytics dashboard](https://agentsview.io/assets/generated/screenshots/dashboard.png)
+
+[Origine](https://raw.githubusercontent.com/kenn-io/agentsview/HEAD/README.md)
+
+![Session viewer](https://agentsview.io/assets/generated/screenshots/message-viewer.png)
+
+[Origine](https://raw.githubusercontent.com/kenn-io/agentsview/HEAD/README.md)

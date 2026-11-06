@@ -7,4 +7,6 @@ Gain · Lancer des tâches sans config, avec un seul import.
 Avantages · Télécharge et modifie automatiquement le pilote.
 Gain · Lancer des tâches sans détection en quelques lignes.
 - [BotD](../../watch/technical-5de7dfd42a2301a6c06e.md) — Détecte les bots sur les applications web sans serveur.
-- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md)
+- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md) — Fonction · Identifier et surveiller les outils offensifs ou abusables.
+Avantages · Distinguer usage légitime et usage abusif documenté.
+Gain · Éviter diffusion publique et exploitation offensive.

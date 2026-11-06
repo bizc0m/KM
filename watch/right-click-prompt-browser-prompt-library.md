@@ -39,3 +39,9 @@ Veille Raindrop KM Monitor / bibliotheque de prompts accessible depuis le menu c
 
 - Objectif : integrer la nouveaute Raindrop KM Monitor `Right Click Prompt`.
 - Risques : prompts sensibles, stockage distant potentiel, injection indirecte de prompts partages.
+
+## Intérêts
+
+Fonction · Accéder à des prompts depuis le menu contextuel.  
+Avantages · Bibliothèque structurée par catégories.  
+Gain · Éviter de chercher des prompts en ligne.

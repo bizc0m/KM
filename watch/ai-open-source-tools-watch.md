@@ -72,3 +72,9 @@ Lecture effectuee via FxTwitter API publique, sans compte X.
 
 - Objectif : integrer automatiquement le lot X dans KM Watch.
 - Risques : sources externes volatiles, claims non verifies.
+
+## Intérêts
+
+Fonction · Suivi et analyse des outils open source IA.  
+Avantages · Informations actualisées et sources vérifiées.  
+Gain · Identifier les outils adaptés à ses besoins.

@@ -10,7 +10,9 @@
 
 ## Intérêts
 
-Permet d'accéder à des ressources éducatives sans connexion internet.
+Fonction · Serveur de connaissance hors ligne avec outils AI et bibliothèques.  
+Avantages · Contenu médical, encyclopédique et éducatif préinstallé.  
+Gain · Accéder aux ressources sans connexion, gérer des modèles LLM localement.
 
 ## Métadonnées
 
@@ -25,8 +27,8 @@ Permet d'accéder à des ressources éducatives sans connexion internet.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.infrastructure compatibility.interface.terminal risk.offensive source.raindrop source.github
-- Sujets : Infrastructure
+- Identifiants : domain.infrastructure domain.ai.llm compatibility.interface.terminal risk.offensive source.raindrop source.github
+- Sujets : Infrastructure ; Intelligence artificielle > Modèles de langage
 - Compatibilités : Interfaces > Terminal
 - Risques : Usage offensif explicite
 - Provenance : Raindrop ; GitHub

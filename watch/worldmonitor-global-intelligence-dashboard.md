@@ -51,3 +51,9 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 ### v0.1 - 2026-06-28
 
 - Integration depuis Raindrop KM Monitor.
+
+## Intérêts
+
+Fonction · Surveillance globale en temps réel avec IA, actualisation des données et visualisation.  
+Avantages · Intégration de sources de données multiples et analyse de risques géopolitiques.  
+Gain · Lancer le dashboard sans clé API, accéder aux flux d'informations locaux.

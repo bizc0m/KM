@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Visualiser et modifier des fichiers CSV avec interface intuitive et fonctionnalités de tri et recherche.
+Fonction · Ouvre et édite des fichiers CSV sur macOS.  
+Avantages · Gère les champs cités et les virgules correctement.  
+Gain · Modifier des cellules sans quitter l'application.
 
 ## Métadonnées
 

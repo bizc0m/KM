@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Structurer la collaboration pour améliorer la précision du code généré.
+Fonction · Structurer la collaboration pour améliorer la précision du code.  
+Avantages · Précision accrue grâce à la structuration des tâches.  
+Gain · Réduire les erreurs en organisant les interactions entre les agents.
 
 ## Métadonnées
 
@@ -25,8 +27,8 @@ Structurer la collaboration pour améliorer la précision du code généré.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai domain.dev.quality domain.dev.ui compatibility.interface.terminal source.raindrop source.x lifecycle.active
-- Sujets : Intelligence artificielle ; Développement logiciel > Qualité du code ; Développement logiciel > Conception d’interfaces
+- Identifiants : domain.dev.quality domain.dev.ui domain.ai.agents compatibility.interface.terminal source.raindrop source.x lifecycle.active
+- Sujets : Développement logiciel > Qualité du code ; Développement logiciel > Conception d’interfaces ; Intelligence artificielle > Agents IA
 - Compatibilités : Interfaces > Terminal
 - Provenance : Raindrop ; X / Twitter
 - État : Actif

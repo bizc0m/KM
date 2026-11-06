@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Installation de serveurs MCP pour agents IA : optimisation des tâches techniques.
+Fonction · Conserver le contexte des agents IA via des serveurs MCP.  
+Avantages · Compatibilité avec protocoles MCP et interfaces terminal.  
+Gain · Éviter la perte de données contextuelles lors des interactions.
 
 ## Métadonnées
 

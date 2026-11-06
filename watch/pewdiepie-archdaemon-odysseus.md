@@ -28,6 +28,8 @@ Veille Raindrop KM Monitor.
 
 - https://github.com/odysseus-dev/odysseus
 - https://github.com/pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus
+- https://raw.githubusercontent.com/odysseus-dev/odysseus/HEAD/assets/branding/odysseus-browser.jpg
+- https://raw.githubusercontent.com/odysseus-dev/odysseus/HEAD/README.md
 
 ## Metadata GitHub publique
 
@@ -52,3 +54,15 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+
+## Intérêts
+
+Fonction · Workspace AI local pour chat, agents, recherche, documents, email, notes, calendrier.  
+Avantages · Intégration de modèles locaux/API, outils, mémoire et gestion de tâches.  
+Gain · Lancer des workflows sans dépendance externe, configurer rapidement.
+
+## Aperçus
+
+![Odysseus interface](https://raw.githubusercontent.com/odysseus-dev/odysseus/HEAD/assets/branding/odysseus-browser.jpg)
+
+[Origine](https://raw.githubusercontent.com/odysseus-dev/odysseus/HEAD/README.md)

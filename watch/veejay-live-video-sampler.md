@@ -48,3 +48,9 @@
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
+
+## Intérêts
+
+Fonction · Traitement vidéo en temps réel, échantillonnage, enregistrement.  
+Avantages · Gestion de multiples instances et automatisation VIMS.  
+Gain · Contrôler plusieurs VeeJay comme un système de performance.

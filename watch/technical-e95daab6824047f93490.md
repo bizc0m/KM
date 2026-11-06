@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Collecte et analyse de données publiques d'un compte Instagram via son pseudo.
+Fonction · Collecte de données publiques d’un compte Instagram via son pseudo.  
+Avantages · Analyse des interactions et métadonnées des publications.  
+Gain · Éviter de scraper manuellement les informations du compte.
 
 ## Métadonnées
 
@@ -25,8 +27,9 @@ Collecte et analyse de données publiques d'un compte Instagram via son pseudo.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.osint source.raindrop source.x lifecycle.active
-- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Identifiants : domain.osint domain.data.web capability.scraping source.raindrop source.x lifecycle.active
+- Sujets : Cybersécurité > Renseignement en sources ouvertes ; Données et connaissances > Collecte web
+- Fonctions : Extraire des données web
 - Provenance : Raindrop ; X / Twitter
 - État : Actif
 

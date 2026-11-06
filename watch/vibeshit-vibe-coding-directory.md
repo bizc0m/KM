@@ -31,6 +31,12 @@ Site : `https://vibeshit.org/`
 - Accès : À vérifier
 - Preuve : À vérifier
 
+## Intérêts
+
+Fonction · Identifier des outils IA, agents et projets open source.  
+Avantages · Suivre les tendances sans dépendre exclusivement de GitHub.  
+Gain · Éviter de rechercher manuellement des ressources inspirantes.
+
 ## Ontologie
 
 - Version : 1.1

@@ -32,6 +32,9 @@ Veille Raindrop KM Monitor / outil macOS open source.
 - https://github.com/tkslucas/neodisk
 - https://github.com/tkslucas/Neodisk](https://github.com/tkslucas/Neodisk
 - https://neodisk.app/
+- https://raw.githubusercontent.com/tkslucas/neodisk/HEAD/screenshots/diff.webp
+- https://raw.githubusercontent.com/tkslucas/neodisk/HEAD/README.md
+- https://raw.githubusercontent.com/tkslucas/neodisk/HEAD/screenshots/duplicates.webp
 
 ## Metadata GitHub publique
 
@@ -52,3 +55,19 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer la nouveaute Raindrop KM Monitor `tkslucas/Neodisk`.
 - Risques : chemins locaux potentiellement prives si l'outil est utilise pour produire des captures ou exports.
+
+## Intérêts
+
+Fonction · Visualise l'espace disque avec des vues treemap et sunburst.  
+Avantages · Recherche de fichiers dupliqués et suivi des changements.  
+Gain · Supprimer des fichiers inutiles sans risque de perte.
+
+## Aperçus
+
+![Changes view: files that grew, shrank, appeared, or were deleted since the last scan](https://raw.githubusercontent.com/tkslucas/neodisk/HEAD/screenshots/diff.webp)
+
+[Origine](https://raw.githubusercontent.com/tkslucas/neodisk/HEAD/README.md)
+
+![Duplicates view: files with identical content grouped by reclaimable space](https://raw.githubusercontent.com/tkslucas/neodisk/HEAD/screenshots/duplicates.webp)
+
+[Origine](https://raw.githubusercontent.com/tkslucas/neodisk/HEAD/README.md)

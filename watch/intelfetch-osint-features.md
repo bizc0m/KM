@@ -28,3 +28,9 @@ Veille Raindrop KM Monitor / plateforme OSINT.
 ## Sources
 
 - https://intelfetch.net/features](https://intelfetch.net/features
+
+## Intérêts
+
+Fonction · Recherche de fuites et intelligence menaces.  
+Avantages · Analyse automatisée de sources ouvertes.  
+Gain · Identifier rapidement les risques cybernétiques.

@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Exécute plusieurs harnesses d'agents localement via une interface unique.
+Fonction · Exécute plusieurs harnesses d'agents localement.  
+Avantages · Interface unique pour gérer les agents.  
+Gain · Éviter de切换 entre plusieurs outils.
 
 ## Métadonnées
 

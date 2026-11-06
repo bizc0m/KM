@@ -50,3 +50,9 @@ regles AGENTS.md et skills pour agents de code.
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
+
+## Intérêts
+
+Fonction · Règles et compétences pour agents de codage basées sur des livres.  
+Avantages · Règles structurées pour architecture, refactorisation et qualité du code.  
+Gain · Appliquer directement des bonnes pratiques sans configuration complexe.

@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Visualiser des cartes sans connexion. Accès aux données géographiques partout.
+Fonction · Cartes hors ligne avec navigation GPS.  
+Avantages · Données OpenStreetMap et routes cyclables.  
+Gain · Éviter les données mobiles pour se repérer.
 
 ## Métadonnées
 
@@ -32,6 +34,9 @@ Visualiser des cartes sans connexion. Accès aux données géographiques partout
 
 - https://github.com/organicmaps/organicmaps
 - https://x.com/tom_doerr/status/2064810037210497235?s=12
+- https://raw.githubusercontent.com/organicmaps/organicmaps/HEAD/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/1.jpg
+- https://raw.githubusercontent.com/organicmaps/organicmaps/HEAD/README.md
+- https://raw.githubusercontent.com/organicmaps/organicmaps/HEAD/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/2.jpg
 
 ## Traçabilité
 
@@ -40,3 +45,13 @@ Visualiser des cartes sans connexion. Accès aux données géographiques partout
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-17
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![Aperçu du produit](https://raw.githubusercontent.com/organicmaps/organicmaps/HEAD/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/1.jpg)
+
+[Origine](https://raw.githubusercontent.com/organicmaps/organicmaps/HEAD/README.md)
+
+![Aperçu du produit](https://raw.githubusercontent.com/organicmaps/organicmaps/HEAD/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/2.jpg)
+
+[Origine](https://raw.githubusercontent.com/organicmaps/organicmaps/HEAD/README.md)

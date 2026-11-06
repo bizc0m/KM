@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Suivre les prix des actions en temps réel et activer des alertes personnalisées.
+Fonction · Suivi des marchés, analyse des actions, alertes de prix.  
+Avantages · Données en temps réel avec TradingView et Finnhub.  
+Gain · Configurer un serveur, lancer des alertes par email.
 
 ## Métadonnées
 
@@ -23,8 +25,8 @@ Suivre les prix des actions en temps réel et activer des alertes personnalisée
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified source.raindrop source.github lifecycle.active
-- Sujets : À qualifier
+- Identifiants : domain.infrastructure source.raindrop source.github lifecycle.active
+- Sujets : Infrastructure
 - Provenance : Raindrop ; GitHub
 - État : Actif
 

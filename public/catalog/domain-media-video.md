@@ -162,21 +162,47 @@ Gain · Lancer la création sans édition vidéo préalable.
 Avantages · Supporte divers formats et plateformes.
 Gain · Éviter de visiter plusieurs sites pour télécharger.
 - [awesome-open-source-mac-apps](../../watch/technical-ee0a2cc79169b0f8394c.md) — Lecture de fichiers audio et vidéo sans logiciel propriétaire.
-- [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Traduire des vidéos en 14 langues sources et 101 cibles.
-- [Outils et compétences pour la production vidéo automatisée et agente](../../watch/technical-88c715df4dbe74ef0c5a.md) — Crée des vidéos MP4 à partir de textes avec des agents AI.
-- [Répertoires GitHub d'éditeurs de vidéos AI](../../watch/technical-e803d6ea4b8b5e515082.md) — Génère des vidéos à partir de textes et images.
-- [AnyV2V Video Editing Framework](../../watch/anyv2v-video-editing-framework.md)
+- [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Fonction · Workspace unifié pour création et agents.
+Avantages · Génère vidéo, image, audio, sous-titres.
+Gain · Lancer tâches sans config, réutiliser modèles.
+- [Outils et compétences pour la production vidéo automatisée et agente](../../watch/technical-88c715df4dbe74ef0c5a.md) — Fonction · Créer des vidéos MP4 à partir de textes avec des agents AI.
+Avantages · Génère des contenus vidéo sans intervention manuelle.
+Gain · Éviter la phase de montage pour lancer rapidement des vidéos.
+- [Répertoires GitHub d'éditeurs de vidéos AI](../../watch/technical-e803d6ea4b8b5e515082.md) — Fonction · Génère des vidéos et images à partir de textes.
+Avantages · Intégration de sources comme Raindrop et X/Twitter.
+Gain · Créer du contenu visuel sans outil externe.
+- [AnyV2V Video Editing Framework](../../watch/anyv2v-video-editing-framework.md) — Fonction · Éditer des vidéos avec une seule image.
+Avantages · Pas de formation ni de finetuning requis.
+Gain · Modifier directement la première image pour lancer l'édition.
 - [Kiwi Edit Video Editing](../../watch/kiwi-edit-video-editing.md)
 - [LosslessCut Video Audio Editing](../../watch/losslesscut-video-audio-editing.md)
-- [OBS Shaderfilter](../../watch/obs-shaderfilter.md)
-- [VACE Video Creation Editing](../../watch/vace-video-creation-editing.md)
-- [Veejay Live Video Sampler](../../watch/veejay-live-video-sampler.md)
-- [VISTA Video Style Transfer](../../watch/vista-video-style-transfer.md)
-- [AI Video Plugins And Skills Ayi AInotes](../../watch/ai-video-plugins-skills-ayi-ainotes.md)
-- [HyperFrames AI Video Generation Skill](../../watch/hyperframes-ai-video-generation-skill.md)
-- [Here are 10 AI video editor GitHub repos worth bookmarking:](../../watch/here-are-10-ai-video-editor-github-repos-worth-bookmarking.md)
+- [OBS Shaderfilter](../../watch/obs-shaderfilter.md) — Fonction · Applique des shaders HLSL aux sources OBS.
+Avantages · Paramètres dynamiques avec annotations.
+Gain · Éviter de coder un vertex shader complet.
+- [VACE Video Creation Editing](../../watch/vace-video-creation-editing.md) — Fonction · Créer et éditer des vidéos via des prompts textuels et des masques.
+Avantages · Supporte des tâches comme Move-Anything et Swap-Anything.
+Gain · Lancer des tâches d'éditation sans prétraitement complexe.
+- [Veejay Live Video Sampler](../../watch/veejay-live-video-sampler.md) — Fonction · Traitement vidéo en temps réel, échantillonnage, enregistrement.
+Avantages · Gestion de multiples instances et automatisation VIMS.
+Gain · Contrôler plusieurs VeeJay comme un système de performance.
+- [VISTA Video Style Transfer](../../watch/vista-video-style-transfer.md) — Fonction · Transformer de style vidéo avec diffusion et triplets supervisés.
+Avantages · Utilise des encodageurs SigLIP et des poids LoRA adaptés.
+Gain · Générer des vidéos stylisées en 768x768 avec 81 frames.
+- [AI Video Plugins And Skills Ayi AInotes](../../watch/ai-video-plugins-skills-ayi-ainotes.md) — Fonction · Générer des vidéos via des compétences IA.
+Avantages · Intégration avec des agents IA existants.
+Gain · Créer des contenus vidéo sans logiciel spécialisé.
+- [HyperFrames AI Video Generation Skill](../../watch/hyperframes-ai-video-generation-skill.md) — Fonction · Génère des vidéos via un agent IA.
+Avantages · Intégre HTML et rendu visuel.
+Gain · Créer des contenus vidéo sans outil externe.
+- [Here are 10 AI video editor GitHub repos worth bookmarking:](../../watch/here-are-10-ai-video-editor-github-repos-worth-bookmarking.md) — Fonction · Monter une vidéo avec IA.
+Avantages · Générer des scénarios et storyboard.
+Gain · Éviter la phase de planification manuelle.
 - [OpenMontage Agentic Video Production System](../../watch/calesthio-openmontage.md)
-- [Uncensored Open Source Image And Video AI Tool](../../watch/sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol.md)
+- [Uncensored Open Source Image And Video AI Tool](../../watch/sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol.md) — Fonction · Analyse et gère des images et vidéos via IA.
+Avantages · Outils de création et de surveillance intégrés.
+Gain · Éviter la recherche manuelle de ressources.
 - [MoneyPrinterTurbo](../../watch/moneyprinterturbo-ai-short-video.md)
-- [PromptSpy](../../watch/promptspy-ai-android-malware.md)
+- [PromptSpy](../../watch/promptspy-ai-android-malware.md) — Fonction · Analyse comportementale d'applications Android via IA.
+Avantages · Détection d'appels vers API IA pour evasion.
+Gain · Éviter les malwares adaptatifs via surveillance réseau.
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)

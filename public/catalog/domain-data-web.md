@@ -36,10 +36,27 @@ Gain · Lancer des tâches sans connexion, récupérer des données sans interfa
 Avantages · Génération d'assets en 8 formats avec paramètres prédéfinis.
 Gain · Créer des vidéos animées directement depuis les assets générés.
 - [Firecrawl](../../watch/technical-08ba60d0377016e9eb0a.md) — Extraire des données web pour alimenter des applications IA.
-- [Outils pour collecter des données web via des agents IA](../../watch/technical-985e97ab7a28702f6cd3.md) — Permettre à l'IA d'explorer des plateformes via CLI sans frais d'API.
-- [Internet Scraping GitHub Repos Ecommartinez](../../watch/internet-scraping-github-repos-ecommartinez.md)
-- [Internet Scraping GitHub Repos Lucy Love AI](../../watch/internet-scraping-github-repos-lucy-love-ai.md)
-- [Guide_ScrapeGraph_AI_IA_Boss.pdf](../../watch/guide-scrapegraph-ai-ia-boss-pdf.md)
-- [Inspiration Competitors Tools Watch](../../watch/inspiration-competitors-tools-watch.md)
-- [Twitter RSS Monitoring](../../watch/twitter-rss-monitoring.md)
-- [Scrapling](../../watch/scrapling-web-scraping-modern-web.md)
+- [Osintgram v2.0](../../watch/technical-e95daab6824047f93490.md) — Fonction · Collecte de données publiques d’un compte Instagram via son pseudo.
+Avantages · Analyse des interactions et métadonnées des publications.
+Gain · Éviter de scraper manuellement les informations du compte.
+- [Outils pour collecter des données web via des agents IA](../../watch/technical-985e97ab7a28702f6cd3.md) — Fonction · Explorer des plateformes web via CLI sans API.
+Avantages · Accès gratuit à des outils de scraping et automation.
+Gain · Éviter les frais d'API pour collecter des données.
+- [Internet Scraping GitHub Repos Ecommartinez](../../watch/internet-scraping-github-repos-ecommartinez.md) — Fonction · Extraire des données de repos GitHub via internet.
+Avantages · Accès à des informations techniques et de veille.
+Gain · Éviter de rechercher manuellement des données GitHub.
+- [Internet Scraping GitHub Repos Lucy Love AI](../../watch/internet-scraping-github-repos-lucy-love-ai.md) — Fonction · Extraire des données GitHub via scraping.
+Avantages · Accès à des repos et métadonnées.
+Gain · Analyser activité et tendances sans API.
+- [Guide_ScrapeGraph_AI_IA_Boss.pdf](../../watch/guide-scrapegraph-ai-ia-boss-pdf.md) — Fonction · Extraire des données depuis des PDF web.
+Avantages · Compatibilité avec les formats PDF.
+Gain · Éviter l'import manuel des données.
+- [Inspiration Competitors Tools Watch](../../watch/inspiration-competitors-tools-watch.md) — Fonction · Centraliser les sites inspirants, concurrents et outils utiles.
+Avantages · Identifier les patterns, risques et opportunités d'intégration.
+Gain · Éviter la copie, analyser sans reproduire les identités visuelles.
+- [Twitter RSS Monitoring](../../watch/twitter-rss-monitoring.md) — Fonction · Suivre des comptes Twitter via RSS.
+Avantages · Flux RSS sans algorithmes de recommandation.
+Gain · Éviter l'interface addictive de X pour veille.
+- [Scrapling](../../watch/scrapling-web-scraping-modern-web.md) — Fonction · Extraire des données web via Python.
+Avantages · Compatibilité avec les langages de programmation.
+Gain · Automatiser la collecte d'informations en ligne.

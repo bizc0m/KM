@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Rédige des textes précis et utiles pour des tâches de bureau. Améliore la productivité quotidienne.
+Fonction · Rédige des textes précis pour des tâches de bureau.  
+Avantages · Améliore la productivité quotidienne.  
+Gain · Éviter de rédiger manuellement des textes utiles.
 
 ## Métadonnées
 

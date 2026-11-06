@@ -40,3 +40,9 @@ Veille Raindrop KM Monitor / outil issue tracking local-first pour humains et ag
 
 - Objectif : integrer la nouveaute Raindrop KM Monitor `kata`.
 - Risques : tickets locaux sensibles, injection de consignes pour agents, compatibilite multi-machine a verifier.
+
+## Intérêts
+
+Fonction · Suivi local des tâches et problèmes pour agents de code.  
+Avantages · Gestion des projets sans dépendance réseau.  
+Gain · Éviter la perte de données en cas de déconnexion.

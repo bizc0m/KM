@@ -413,7 +413,7 @@
 | `watch-technical-60d78a24f5ceb1c0cf35-md` | `watch/technical-60d78a24f5ceb1c0cf35.md` | outil | #terminal | actif |
 | `watch-technical-126e0bcbd6b43332ca45-md` | `watch/technical-126e0bcbd6b43332ca45.md` | outil | #publication-sociale | actif |
 | `watch-technical-1b568dfd20e94e409912-md` | `watch/technical-1b568dfd20e94e409912.md` | outil | #mcp | actif |
-| `watch-technical-dae9f02535f7c22f84f1-md` | `watch/technical-dae9f02535f7c22f84f1.md` | outil | #agents-code, #skills-agents, #terminal | actif |
+| `watch-technical-dae9f02535f7c22f84f1-md` | `watch/technical-dae9f02535f7c22f84f1.md` | outil | #agents-code, #skills-agents, #terminal, #planification-taches | actif |
 | `watch-technical-f52ece2572fe00c08e7a-md` | `watch/technical-f52ece2572fe00c08e7a.md` | outil | #analyse-vulnerabilites, #terminal | actif |
 | `watch-technical-4125f24a0a6925019b78-md` | `watch/technical-4125f24a0a6925019b78.md` | outil | #agents-code, #python | actif |
 | `watch-technical-88ba69ee97608c5a2703-md` | `watch/technical-88ba69ee97608c5a2703.md` | outil | #export-conversations, #pdf | actif |
@@ -462,7 +462,7 @@
 | `watch-technical-e1f8a790d58a19d10194-md` | `watch/technical-e1f8a790d58a19d10194.md` | outil |  | actif |
 | `watch-technical-d5330ab75d554eda8c08-md` | `watch/technical-d5330ab75d554eda8c08.md` | outil | #mcp | actif |
 | `watch-technical-187af07c5c79815c0323-md` | `watch/technical-187af07c5c79815c0323.md` | outil | #memoire-agents, #terminal | actif |
-| `watch-technical-a8c5ca7589de2b644bba-md` | `watch/technical-a8c5ca7589de2b644bba.md` | outil |  | actif |
+| `watch-technical-a8c5ca7589de2b644bba-md` | `watch/technical-a8c5ca7589de2b644bba.md` | outil |  | sensible |
 | `watch-technical-51c74448ee9079430332-md` | `watch/technical-51c74448ee9079430332.md` | outil | #clonage-sites, #react | actif |
 | `watch-technical-b1a37537c70048612638-md` | `watch/technical-b1a37537c70048612638.md` | outil | #orchestration-agents, #planification-taches | actif |
 | `watch-technical-f779fb17c6e2ccb52360-md` | `watch/technical-f779fb17c6e2ccb52360.md` | outil |  | actif |
@@ -473,7 +473,7 @@
 | `watch-technical-37a5c753c0c9dc1a3d4f-md` | `watch/technical-37a5c753c0c9dc1a3d4f.md` | outil | #terminal | actif |
 | `watch-technical-628ab56284832636cfac-md` | `watch/technical-628ab56284832636cfac.md` | outil |  | actif |
 | `watch-technical-54ff5f7d00072879cc4b-md` | `watch/technical-54ff5f7d00072879cc4b.md` | outil | #osint | actif |
-| `watch-technical-e95daab6824047f93490-md` | `watch/technical-e95daab6824047f93490.md` | outil | #osint | actif |
+| `watch-technical-e95daab6824047f93490-md` | `watch/technical-e95daab6824047f93490.md` | outil | #osint, #extraction-web | actif |
 | `watch-technical-266021fd17b5258b3da7-md` | `watch/technical-266021fd17b5258b3da7.md` | outil | #pentest, #analyse-vulnerabilites | actif |
 | `watch-technical-99260b2f64304ae31048-md` | `watch/technical-99260b2f64304ae31048.md` | outil |  | actif |
 | `watch-technical-c2b6bc61f64db5dde9f2-md` | `watch/technical-c2b6bc61f64db5dde9f2.md` | outil |  | actif |
@@ -572,6 +572,7 @@
 | `watch-ig-detective-instagram-osint-suite-md` | `watch/ig-detective-instagram-osint-suite.md` | outil | #osint, #instagram, #forensic, #privacy-risk | #ROUGE |
 | `watch-internet-scraping-github-repos-lucy-love-ai-md` | `watch/internet-scraping-github-repos-lucy-love-ai.md` | outil | #extraction-web | sensible |
 | `watch-open-lovable-firecrawl-site-cloning-md` | `watch/open-lovable-firecrawl-site-cloning.md` | outil | #clonage-sites, #react, #firecrawl, #site-cloning | sensible |
+| `watch-openthreat-threat-intelligence-platform-md` | `watch/openthreat-threat-intelligence-platform.md` | outil | #threat-intelligence, #cve, #kev, #fastapi | sensible |
 | `watch-serus-dark-web-leak-search-md` | `watch/serus-dark-web-leak-search.md` | outil | #dark-web, #leaked-data, #privacy-risk, #osint | #ROUGE |
 | `watch-spec-kit-vibe-coding-specification-workflow-md` | `watch/spec-kit-vibe-coding-specification-workflow.md` | outil | #vibe-coding, #spec, #coding-agent | sensible |
 | `watch-worldmonitor-global-intelligence-dashboard-md` | `watch/worldmonitor-global-intelligence-dashboard.md` | outil | #osint, #dashboard, #conflict-monitoring, #geoint | sensible |
@@ -625,6 +626,7 @@
 | `watch-removes-llm-censorship-with-a-single-click-md` | `watch/removes-llm-censorship-with-a-single-click.md` | outil | #llm, #jailbreak-risk | sensible |
 | `watch-link-del-repo-md` | `watch/link-del-repo.md` | outil |  | sensible |
 | `watch-este-repositorio-de-github-lo-esta-explotando-mode-senior-md` | `watch/este-repositorio-de-github-lo-esta-explotando-mode-senior.md` | outil |  | sensible |
+| `watch-top-5-sites-pour-vibe-coders-edition-niche-md` | `watch/top-5-sites-pour-vibe-coders-edition-niche.md` | outil |  | sensible |
 | `watch-ryancodrai-turbovec-md` | `watch/ryancodrai-turbovec.md` | outil |  | sensible |
 | `watch-sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol-md` | `watch/sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol.md` | outil | #creative-ai | sensible |
 | `watch-xamto-ai-understand-anything-x-post-md` | `watch/xamto-ai-understand-anything-x-post.md` | outil |  | sensible |

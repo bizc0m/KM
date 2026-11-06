@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des scripts Python pour automatiser des tâches récurrentes.
+Fonction · Génère des scripts Python pour automatiser des tâches récurrentes.  
+Avantages · Intégre des capacités d'intelligence artificielle pour simplifier la création de scripts.  
+Gain · Éviter de réécrire des scripts manuellement pour des tâches répétitives.
 
 ## Métadonnées
 

@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Visualiser les ventes quotidiennes et les comparer à la semaine précédente.
+Fonction · Suivi des ventes quotidiennes et comparaison hebdomadaire.  
+Avantages · Visualisation claire des performances commerciales.  
+Gain · Éviter les calculs manuels pour analyser les ventes.
 
 ## Métadonnées
 

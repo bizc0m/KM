@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet d'installer des compétences pour mieux répondre aux demandes spécifiques.
+Fonction · Installer des compétences pour répondre aux demandes spécifiques.  
+Avantages · Adaptation aux besoins via des compétences prédéfinies.  
+Gain · Éviter de créer des scripts depuis zéro.
 
 ## Métadonnées
 

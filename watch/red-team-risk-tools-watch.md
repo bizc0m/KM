@@ -119,3 +119,9 @@ Critere strict : `#ROUGE` uniquement si l'outil facilite directement un usage of
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
+
+## Intérêts
+
+Fonction · Identifier et surveiller les outils offensifs ou abusables.  
+Avantages · Distinguer usage légitime et usage abusif documenté.  
+Gain · Éviter diffusion publique et exploitation offensive.

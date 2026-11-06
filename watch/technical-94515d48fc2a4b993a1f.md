@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet d'utiliser des outils informatiques sans inscription ni email.
+Fonction · Lister des outils sans inscription ni suivi.  
+Avantages · Accès direct aux outils via URL.  
+Gain · Éviter les mises en page et les formulaires.
 
 ## Métadonnées
 

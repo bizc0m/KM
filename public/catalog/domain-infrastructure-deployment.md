@@ -10,4 +10,6 @@ Gain · Déployer un serveur web sécurisé en quelques étapes.
 Avantages · Sauvegarde automatique et reconnaissance faciale.
 Gain · Accéder aux données sans internet, partager en public.
 - [xianyu-auto-reply-fix](../../watch/technical-aa8e0008d94afed17913.md) — Gère automatiquement les réponses et commandes sur Xianyu.
-- [Lovable Build For The Web 20x Faster](../../watch/lovable-build-for-the-web-20x-faster.md)
+- [Lovable Build For The Web 20x Faster](../../watch/lovable-build-for-the-web-20x-faster.md) — Fonction · Génère des applications web via IA.
+Avantages · Intégre déploiement et hébergement.
+Gain · Éviter les étapes de configuration manuelle.

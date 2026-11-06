@@ -38,3 +38,9 @@ Veille OSINT / annuaire d'outils d'investigation.
 
 - Objectif : integrer The OSINT Rack depuis Raindrop KM Monitor.
 - Risques : outils OSINT sensibles et non verifies.
+
+## Intérêts
+
+Fonction · Catalogue d'outils OSINT et renseignement.  
+Avantages · Filtrage et organisation des ressources.  
+Gain · Accéder rapidement aux outils pertinents.

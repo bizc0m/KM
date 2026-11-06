@@ -49,3 +49,9 @@
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
+
+## Intérêts
+
+Fonction · Créer et éditer des vidéos via des prompts textuels et des masques.  
+Avantages · Supporte des tâches comme Move-Anything et Swap-Anything.  
+Gain · Lancer des tâches d'éditation sans prétraitement complexe.

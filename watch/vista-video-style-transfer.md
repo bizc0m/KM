@@ -49,3 +49,9 @@
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
+
+## Intérêts
+
+Fonction · Transformer de style vidéo avec diffusion et triplets supervisés.  
+Avantages · Utilise des encodageurs SigLIP et des poids LoRA adaptés.  
+Gain · Générer des vidéos stylisées en 768x768 avec 81 frames.

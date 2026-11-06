@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Découvrir le code source de clones d'applications populaires.
+Fonction · Reproduire un site web via du code source.  
+Avantages · Accès à des clones d'applications populaires.  
+Gain · Éviter de créer un site de zéro.
 
 ## Métadonnées
 

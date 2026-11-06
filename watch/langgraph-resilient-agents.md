@@ -49,3 +49,9 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer LangGraph depuis Raindrop KM Monitor.
 - Risques : agents stateful et outils connectes.
+
+## Intérêts
+
+Fonction · Orchestre des agents étatiques et longs.  
+Avantages · Exécution durable, mémoire complète, interruption humaine.  
+Gain · Déployer des agents sans reprise manuelle.

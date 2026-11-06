@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Capturer et stocker le contexte des conversations IA pour le réutiliser dans d'autres sessions.
+Fonction · Capturer et stocker le contexte des conversations IA.  
+Avantages · Permet de réutiliser le contexte dans d'autres sessions.  
+Gain · Éviter de réexpliquer le contexte à chaque nouvelle session.
 
 ## Métadonnées
 

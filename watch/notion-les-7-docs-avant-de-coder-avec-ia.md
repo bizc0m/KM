@@ -28,3 +28,9 @@ Veille ressource KM / template Notion pour preparation de projet IA.
 ## Sources
 
 - https://app.notion.com/p/Les-7-Docs-avant-de-coder-avec-l-IA-Template-complet-3679af7a5100817091a8e3a482f3341c](https://app.notion.com/p/Les-7-Docs-avant-de-coder-avec-l-IA-Template-complet-3679af7a5100817091a8e3a482f3341c
+
+## Intérêts
+
+Fonction · Structurer les 7 documents clés avant le développement IA.  
+Avantages · Centraliser les besoins, données et contraintes du projet.  
+Gain · Éviter les retours en arrière, accélérer la phase de préparation.

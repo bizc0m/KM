@@ -29,3 +29,9 @@ Veille Raindrop KM Monitor / outil macOS.
 ## Sources
 
 - https://www.macusb.app/](https://www.macusb.app/
+
+## Intérêts
+
+Fonction · Créer un USB bootable pour macOS.  
+Avantages · Supporte les versions récentes de macOS.  
+Gain · Éviter l'installation via le mode recovery.

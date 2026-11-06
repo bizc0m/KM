@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Gérer des documents, générer des podcasts, interagir avec des modèles d'IA.
+Fonction · Notebook local avec IA multi-modèle.  
+Avantages · Gestion de contenus multimédias et recherche avancée.  
+Gain · Déployer sans abonnement, sécuriser les données.
 
 ## Métadonnées
 

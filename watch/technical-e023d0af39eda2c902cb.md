@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Sauvegarder le contexte des sessions pour retrouver l'avancement du travail.
+Fonction · Sauvegarder le contexte des sessions.  
+Avantages · Permet de retrouver l'avancement du travail.  
+Gain · Éviter de réexpliquer des informations déjà fournies.
 
 ## Métadonnées
 

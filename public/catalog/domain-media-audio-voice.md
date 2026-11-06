@@ -40,7 +40,11 @@ Gain · Créer des mondes, les explorer et les sauvegarder directement.
 - [Pipecat](../../watch/technical-70340542d5688b508dea.md) — Fonction · Synthétise des voix à partir de texte.
 Avantages · Intégration avec NotePlan et X/Twitter.
 Gain · Créer des assistants vocaux sans coder.
-- [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Traduire des vidéos en 14 langues sources et 101 cibles.
+- [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Fonction · Workspace unifié pour création et agents.
+Avantages · Génère vidéo, image, audio, sous-titres.
+Gain · Lancer tâches sans config, réutiliser modèles.
 - [AIRI AI Companion](../../watch/airi-ai-companion.md)
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
-- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md)
+- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md) — Fonction · Identifier et surveiller les outils offensifs ou abusables.
+Avantages · Distinguer usage légitime et usage abusif documenté.
+Gain · Éviter diffusion publique et exploitation offensive.

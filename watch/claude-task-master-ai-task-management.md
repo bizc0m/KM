@@ -50,3 +50,9 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer Claude Task Master depuis Raindrop KM Monitor.
 - Risques : orchestration de taches a verifier.
+
+## Intérêts
+
+Fonction · Gère les tâches via des API d'IA dans un éditeur.  
+Avantages · Intègre des modèles comme Claude, OpenAI, Gemini.  
+Gain · Lancer des tâches sans config complexe.

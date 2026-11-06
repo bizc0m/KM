@@ -38,3 +38,9 @@
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle de risque depuis l'archive NotePlan 2026.
+
+## Intérêts
+
+Fonction · Permet de contrôler des systèmes via des commandes C2.  
+Avantages · Intégré à des outils de test de sécurité.  
+Gain · Éviter de développer un C2 personnalisé.

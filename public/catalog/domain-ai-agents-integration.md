@@ -28,16 +28,38 @@ Gain · Éviter de rechercher des serveurs, lancer des connexions directement.
 - [polymarket-mcp-server](../../watch/technical-dabb4187a6c2e7d576c7.md) — Fonction · Server pour trader, analyser et gérer des positions sur Polymarket.
 Avantages · Outils AI pour analyse, ordres et gestion de portefeuille.
 Gain · Exécuter des ordres sans interface, gérer des positions en temps réel.
-- [Agent de décision multi-competences basé sur des systèmes JEV](../../watch/technical-1b568dfd20e94e409912.md) — Gérer le routage en temps réel pour optimiser les flux.
-- [ARTEMIS](../../watch/technical-951824f2cb44006850b3.md) — Permet aux agents IA de contrôler un appareil Android comme un utilisateur.
-- [NotePlan Changelog](../../watch/technical-d5330ab75d554eda8c08.md) — Ajouter des rappels fiables avec Apple Reminders.
-- [Référentiel de 50 serveurs MCP essentiels pour les agents IA](../../watch/technical-7b8e03d6451fa9dc855f.md) — Installation de serveurs MCP pour agents IA : optimisation des tâches techniques.
+- [Agent de décision multi-competences basé sur des systèmes JEV](../../watch/technical-1b568dfd20e94e409912.md) — Fonction · Routage en temps réel des flux via MCP.
+Avantages · Optimisation des trajectoires par IA.
+Gain · Éviter les blocages sans intervention humaine.
+- [ARTEMIS](../../watch/technical-951824f2cb44006850b3.md) — Fonction · Automatise tests et tâches quotidiennes sur Android via instructions naturelles.
+Avantages · Intègre MCP pour pilotage de dispositifs et collecte de logs et captures.
+Gain · Exécuter tests autonomes et générer rapports structurés sans configuration complexe.
+- [NotePlan Changelog](../../watch/technical-d5330ab75d554eda8c08.md) — Fonction · Intégration avec Apple Reminders pour rappels.
+Avantages · Synchronisation des rappels entre NotePlan et Reminders.
+Gain · Éviter de gérer des rappels manuellement.
+- [Référentiel de 50 serveurs MCP essentiels pour les agents IA](../../watch/technical-7b8e03d6451fa9dc855f.md) — Fonction · Conserver le contexte des agents IA via des serveurs MCP.
+Avantages · Compatibilité avec protocoles MCP et interfaces terminal.
+Gain · Éviter la perte de données contextuelles lors des interactions.
 - [Repository d'ingénierie de l'IA open source](../../watch/technical-ef5aab160b2c3c97dd30.md) — Apprendre l'ingénierie de l'IA via des leçons et exercices pratiques.
-- [Agent Rules Books](../../watch/agent-rules-books.md)
-- [OpenBot AI Coworkers](../../watch/openbot-ai-coworkers.md)
-- [AI Video Plugins And Skills Ayi AInotes](../../watch/ai-video-plugins-skills-ayi-ainotes.md)
-- [HyperFrames AI Video Generation Skill](../../watch/hyperframes-ai-video-generation-skill.md)
-- [Essential MCP Servers Collection](../../watch/this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi.md)
+- [Agent Rules Books](../../watch/agent-rules-books.md) — Fonction · Règles et compétences pour agents de codage basées sur des livres.
+Avantages · Règles structurées pour architecture, refactorisation et qualité du code.
+Gain · Appliquer directement des bonnes pratiques sans configuration complexe.
+- [OpenBot AI Coworkers](../../watch/openbot-ai-coworkers.md) — Fonction · Créer et gérer des bots avec des outils et des fichiers.
+Avantages · Gestion des accès et des permissions par bot.
+Gain · Lancer des tâches sans configuration complexe.
+- [AI Video Plugins And Skills Ayi AInotes](../../watch/ai-video-plugins-skills-ayi-ainotes.md) — Fonction · Générer des vidéos via des compétences IA.
+Avantages · Intégration avec des agents IA existants.
+Gain · Créer des contenus vidéo sans logiciel spécialisé.
+- [HyperFrames AI Video Generation Skill](../../watch/hyperframes-ai-video-generation-skill.md) — Fonction · Génère des vidéos via un agent IA.
+Avantages · Intégre HTML et rendu visuel.
+Gain · Créer des contenus vidéo sans outil externe.
+- [Essential MCP Servers Collection](../../watch/this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi.md) — Fonction · Serveurs MCP pour veille et monitoring.
+Avantages · Intégration agents IA et protocoles MCP.
+Gain · Éviter configuration manuelle des serveurs MCP.
 - [Awesome MCP Servers](../../watch/awesome-mcp-servers.md)
-- [Claude AGENTS.md Config](../../watch/claude-agents-md-config-alexsoyes.md)
-- [NotePlan MCP Server](../../watch/noteplan-mcp-server.md)
+- [Claude AGENTS.md Config](../../watch/claude-agents-md-config-alexsoyes.md) — Fonction · Configuration des agents Claude via un fichier AGENTS.md.
+Avantages · Centralisation des instructions et paramètres d'intégration.
+Gain · Éviter de répéter les configurations pour chaque agent.
+- [NotePlan MCP Server](../../watch/noteplan-mcp-server.md) — Fonction · Connecte NotePlan à MCP pour notes, tâches et calendrier.
+Avantages · Intégration avec protocole MCP et outils IA.
+Gain · Automatiser transferts et synchronisations entre outils.

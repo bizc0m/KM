@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée des fingerprints audio pour identifier des morceaux similaires rapidement.
+Fonction · Génère des empreintes audio pour identification.  
+Avantages · Optimisé pour la vitesse de recherche.  
+Gain · Éviter la duplication de fichiers audio.
 
 ## Métadonnées
 

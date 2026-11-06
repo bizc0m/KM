@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Créer une application de bureau à partir d'un site web en quelques secondes.
+Fonction · Convertir un site web en application desktop en un clic.  
+Avantages · Utilise Rust Tauri pour une faible consommation de mémoire.  
+Gain · Lancer une application sans configuration complexe.
 
 ## Métadonnées
 

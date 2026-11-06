@@ -84,11 +84,17 @@ Deja presents dans KM :
 - Accès : À vérifier
 - Preuve : À vérifier
 
+## Intérêts
+
+Fonction · Génère du texte et des images localement.  
+Avantages · Supporte plusieurs modèles et langages.  
+Gain · Éviter l'envoi de données vers le cloud.
+
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.ai.agents.skills domain.ai.llm domain.dev.ui domain.infrastructure.database capability.skills compatibility.deployment.local compatibility.interface.desktop compatibility.language.python risk.sensitive
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents ; Intelligence artificielle > Modèles de langage ; Développement logiciel > Conception d’interfaces ; Infrastructure > Bases de données
+- Identifiants : domain.ai.agents.coding domain.ai.agents.skills domain.ai.llm domain.media.image domain.dev.ui domain.infrastructure.database capability.skills compatibility.deployment.local compatibility.interface.desktop compatibility.language.python risk.sensitive
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents ; Intelligence artificielle > Modèles de langage ; Audio, vidéo et création > Images et graphisme ; Développement logiciel > Conception d’interfaces ; Infrastructure > Bases de données
 - Fonctions : Étendre les compétences d’un agent
 - Compatibilités : Exécution > Exécution locale ; Interfaces > Application de bureau ; Langages > Python
 - Risques : Risque signalé

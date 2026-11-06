@@ -50,3 +50,9 @@
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
+
+## Intérêts
+
+Fonction · Créer des personas numériques avec mémoire et interaction.  
+Avantages · Communication via Web et Discord avec messages vocaux.  
+Gain · Lancer un daemon pour gérer les canaux et les tâches.

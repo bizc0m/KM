@@ -29,3 +29,9 @@ Veille Raindrop KM Monitor / lecteur RSS macOS.
 ## Sources
 
 - https://wangchujiang.com/quick-rss/](https://wangchujiang.com/quick-rss/
+
+## Intérêts
+
+Fonction · Lire et suivre des flux RSS sur macOS.  
+Avantages · Intégration avec Raindrop IO pour la veille.  
+Gain · Éviter de consulter plusieurs sites pour les mises à jour.

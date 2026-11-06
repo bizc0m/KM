@@ -50,3 +50,9 @@
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
+
+## Intérêts
+
+Fonction · Créer et gérer des bots avec des outils et des fichiers.  
+Avantages · Gestion des accès et des permissions par bot.  
+Gain · Lancer des tâches sans configuration complexe.

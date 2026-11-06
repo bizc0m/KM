@@ -57,3 +57,9 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : rattacher la source sociale Raindrop `Repositorio:` resolue vers le meme depot.
 - Risques : aucun nouveau risque au-dela de la memoire agentique deja classee sensible.
+
+## Intérêts
+
+Fonction · Gère la mémoire commune entre agents pour éviter la répétition.  
+Avantages · Extraction automatique de connaissances et de compétences.  
+Gain · Importer des données et lancer des tâches sans reconfiguration.

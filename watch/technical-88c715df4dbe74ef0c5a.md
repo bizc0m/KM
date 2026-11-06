@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée des vidéos MP4 à partir de textes avec des agents AI.
+Fonction · Créer des vidéos MP4 à partir de textes avec des agents AI.  
+Avantages · Génère des contenus vidéo sans intervention manuelle.  
+Gain · Éviter la phase de montage pour lancer rapidement des vidéos.
 
 ## Métadonnées
 

@@ -1,34 +1,34 @@
 # Index des sujets KM
 
-- [Intelligence artificielle](domain-ai.md) — 291 fiches
-- [Agents IA](domain-ai-agents.md) — 185 fiches
+- [Intelligence artificielle](domain-ai.md) — 292 fiches
+- [Agents IA](domain-ai-agents.md) — 186 fiches
 - [Mémoire des agents](domain-ai-agents-memory.md) — 25 fiches
 - [Orchestration des agents](domain-ai-agents-orchestration.md) — 14 fiches
 - [Agents de développement](domain-ai-agents-coding.md) — 51 fiches
 - [Compétences des agents](domain-ai-agents-skills.md) — 39 fiches
-- [Modèles de langage](domain-ai-llm.md) — 61 fiches
-- [Développement logiciel](domain-dev.md) — 120 fiches
+- [Modèles de langage](domain-ai-llm.md) — 62 fiches
+- [Développement logiciel](domain-dev.md) — 122 fiches
 - [Développement web](domain-dev-web.md) — 26 fiches
 - [Qualité du code](domain-dev-quality.md) — 35 fiches
-- [Audio, vidéo et création](domain-media.md) — 167 fiches
+- [Audio, vidéo et création](domain-media.md) — 168 fiches
 - [Audio](domain-media-audio.md) — 38 fiches
 - [Voix](domain-media-audio-voice.md) — 20 fiches
 - [Identification audio](domain-media-audio-identification.md) — 1 fiches
 - [Vidéo](domain-media-video.md) — 84 fiches
-- [Images et graphisme](domain-media-image.md) — 90 fiches
+- [Images et graphisme](domain-media-image.md) — 91 fiches
 - [Création 3D](domain-media-3d.md) — 25 fiches
-- [Cybersécurité](domain-security.md) — 76 fiches
+- [Cybersécurité](domain-security.md) — 77 fiches
 - [Sécurité web](domain-security-web.md) — 4 fiches
 - [Analyse de logiciels malveillants](domain-security-malware.md) — 4 fiches
 - [Tests de sécurité](domain-security-testing.md) — 15 fiches
-- [Renseignement en sources ouvertes](domain-osint.md) — 48 fiches
+- [Renseignement en sources ouvertes](domain-osint.md) — 49 fiches
 - [Protection des données](domain-privacy.md) — 11 fiches
-- [Infrastructure](domain-infrastructure.md) — 66 fiches
+- [Infrastructure](domain-infrastructure.md) — 69 fiches
 - [Réseaux](domain-infrastructure-network.md) — 3 fiches
-- [Données et connaissances](domain-data.md) — 80 fiches
-- [Collecte web](domain-data-web.md) — 23 fiches
+- [Données et connaissances](domain-data.md) — 82 fiches
+- [Collecte web](domain-data-web.md) — 24 fiches
 - [Documents](domain-data-documents.md) — 8 fiches
-- [Notes et organisation](domain-data-notes.md) — 13 fiches
+- [Notes et organisation](domain-data-notes.md) — 14 fiches
 - [Recherche documentaire](domain-data-research.md) — 7 fiches
 - [Analyse financière](domain-finance.md) — 29 fiches
 - [Marchés prédictifs](domain-finance-prediction.md) — 19 fiches

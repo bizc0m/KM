@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée des chansons à partir de paroles et d'un style musical.
+Fonction · Créer une chanson complète à partir de paroles et d'un style.  
+Avantages · Génère un son 48 kHz stereo sans connexion internet.  
+Gain · Exporter en M4A ou modifier le score ABC directement.
 
 ## Métadonnées
 

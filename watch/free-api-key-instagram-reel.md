@@ -28,3 +28,9 @@ Veille education IA / API keys.
 ## Sources
 
 - https://www.instagram.com/reel/DZkw-DEh_Dl/
+
+## Intérêts
+
+Fonction · Fournir une clé API pour accéder aux données Instagram Reel.  
+Avantages · Permet d’intégrer des données de vidéos Instagram dans des applications.  
+Gain · Éviter de créer un compte et de gérer l’authentification manuellement.

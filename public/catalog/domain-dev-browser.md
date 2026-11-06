@@ -16,5 +16,9 @@ Gain · Éviter de coder manuellement les interactions.
 Avantages · Scripts réutilisables et logs persistants.
 Gain · Exécuter tâches complexes sans session navigateur.
 - [camofox-browser](../../watch/technical-05a714c23543244771cf.md) — Piloter un navigateur headless pour les tâches web des agents.
-- [Outils pour collecter des données web via des agents IA](../../watch/technical-985e97ab7a28702f6cd3.md) — Permettre à l'IA d'explorer des plateformes via CLI sans frais d'API.
-- [OpenBot AI Coworkers](../../watch/openbot-ai-coworkers.md)
+- [Outils pour collecter des données web via des agents IA](../../watch/technical-985e97ab7a28702f6cd3.md) — Fonction · Explorer des plateformes web via CLI sans API.
+Avantages · Accès gratuit à des outils de scraping et automation.
+Gain · Éviter les frais d'API pour collecter des données.
+- [OpenBot AI Coworkers](../../watch/openbot-ai-coworkers.md) — Fonction · Créer et gérer des bots avec des outils et des fichiers.
+Avantages · Gestion des accès et des permissions par bot.
+Gain · Lancer des tâches sans configuration complexe.

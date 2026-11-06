@@ -41,3 +41,9 @@ Veille liens utilisateur / article X sur memoire agentique.
 
 - Objectif : conserver le signal fourni sans recopier l'article complet.
 - Risques : source sociale volatile, claims non verifies, pas de repo final identifie.
+
+## Intérêts
+
+Fonction · Conserver le contexte des interactions passées.  
+Avantages · Permet de maintenir une cohérence dans les dialogues.  
+Gain · Éviter de répéter des informations déjà fournies.

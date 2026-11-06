@@ -42,3 +42,9 @@ catalogue public de skills agents reutilisables.
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
+
+## Intérêts
+
+Fonction · Catalogue de compétences réutilisables pour agents.  
+Avantages · Organise et classe des compétences IA.  
+Gain · Réutiliser des prompts pour accélérer le développement.

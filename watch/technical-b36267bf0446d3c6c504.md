@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Collecte d'informations précise via 840 plateformes.
+Fonction · Collecte d'informations via 840 plateformes.  
+Avantages · Analyse de données en temps réel avec IA.  
+Gain · Identifier des menaces sans outil externe.
 
 ## Métadonnées
 

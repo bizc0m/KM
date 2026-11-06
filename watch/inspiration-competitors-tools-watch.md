@@ -96,6 +96,12 @@ Blog personnel de Scott Yoshinaga avec archives, updates, posts culturels et not
 - Accès : À vérifier
 - Preuve : À vérifier
 
+## Intérêts
+
+Fonction · Centraliser les sites inspirants, concurrents et outils utiles.  
+Avantages · Identifier les patterns, risques et opportunités d'intégration.  
+Gain · Éviter la copie, analyser sans reproduire les identités visuelles.
+
 ## Ontologie
 
 - Version : 1.1

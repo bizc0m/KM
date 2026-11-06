@@ -50,3 +50,9 @@
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
+
+## Intérêts
+
+Fonction · Installer un VPS Hermes pour un agent.  
+Avantages · Intégration avec les compétences IA de l’agent.  
+Gain · Éviter la configuration manuelle du VPS.

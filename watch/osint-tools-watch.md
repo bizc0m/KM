@@ -58,3 +58,9 @@ Lecture effectuee via FxTwitter API publique, sans compte X.
 
 - Objectif : verifier le repo source Vehicle Search Tools.
 - Risques : contenu privacy-sensitive.
+
+## Intérêts
+
+Fonction · Suivi et analyse d'outils OSINT.  
+Avantages · Informations sur les outils de veille.  
+Gain · Identifier des outils pour la veille OSINT.

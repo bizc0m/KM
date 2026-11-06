@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Sauvegarder et organiser le contexte des sessions IA pour retrouver facilement l'historique.
+Fonction · Sauvegarder et organiser le contexte des sessions IA.  
+Avantages · Permet de retrouver facilement l'historique des interactions.  
+Gain · Éviter de répéter des informations déjà fournies.
 
 ## Métadonnées
 

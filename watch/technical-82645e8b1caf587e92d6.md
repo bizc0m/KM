@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Personnalise les workflows via des extensions, modèles et configurations.
+Fonction · Personnaliser les workflows via extensions et modèles.  
+Avantages · Configurations prédéfinies pour les compétences des agents.  
+Gain · Éviter la répétition de tâches de configuration.
 
 ## Métadonnées
 

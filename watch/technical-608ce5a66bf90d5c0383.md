@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée des animations SVG à partir de descriptions ou d'images. Résultat utilisable directement.
+Fonction · Animer des SVG à partir de textes ou images.  
+Avantages · Résultat directement utilisable sans ajustements.  
+Gain · Éviter la création manuelle d'animations SVG.
 
 ## Métadonnées
 

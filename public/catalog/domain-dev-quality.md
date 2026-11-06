@@ -81,9 +81,19 @@ Gain · Exécuter des tâches en terminal sans code préalable.
 Avantages · Intégration de modèles et outils de recherche.
 Gain · Lancer des workflows sans configuration complexe.
 - [ECC](../../watch/technical-edb3a626875732de5c9b.md) — Améliore la productivité en optimisant les tâches de codage.
-- [Jules](../../watch/technical-f23e4d6f3cd099180f4d.md) — Gère des tâches de codage via GitHub avec l'étiquette "jules".
-- [Metis](../../watch/technical-a5ff978d18723ab2dc78.md) — Crée un agent personnalisé pour chaque projet.
-- [Spec Kit](../../watch/technical-03c3b9b214032004d035.md) — Structurer les spécifications pour un codage cohérent et prévisible.
+- [Jules](../../watch/technical-f23e4d6f3cd099180f4d.md) — Fonction · Gère des tâches de codage via GitHub avec l'étiquette "jules".
+Avantages · Intégre des sujets liés à l'intelligence artificielle et le développement logiciel.
+Gain · Éviter de répéter des tâches de codage manuelles.
+- [Metis](../../watch/technical-a5ff978d18723ab2dc78.md) — Fonction · Agent de codage open source, exécutable en desktop, terminal ou comme Skill.
+Avantages · Architecture agent personnalisable par projet, workflow modifiable.
+Gain · Lancer des tâches sans Node.js, gérer des commits et fichiers modifiés.
+- [Spec Kit](../../watch/technical-03c3b9b214032004d035.md) — Fonction · Structurer les spécifications de codage dans un terminal.
+Avantages · Intégration avec NotePlan et X/Twitter.
+Gain · Automatiser la gestion des tâches de développement.
 - [Superpowers](../../watch/technical-56f27bb0e80ff344bf72.md) — Facilite la planification et la révision du code avec un workflow structuré.
-- [Vibe Coding et Spec Kit](../../watch/technical-9379cc03e3266df7017b.md) — Structurer la collaboration pour améliorer la précision du code généré.
-- [CodePatrol](../../watch/codepatrol-code-security.md)
+- [Vibe Coding et Spec Kit](../../watch/technical-9379cc03e3266df7017b.md) — Fonction · Structurer la collaboration pour améliorer la précision du code.
+Avantages · Précision accrue grâce à la structuration des tâches.
+Gain · Réduire les erreurs en organisant les interactions entre les agents.
+- [CodePatrol](../../watch/codepatrol-code-security.md) — Fonction · Détecte des vulnérabilités dans le code.
+Avantages · Analyse statique des sources pour identifier des risques.
+Gain · Éviter les failles de sécurité avant la mise en production.

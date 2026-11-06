@@ -65,3 +65,9 @@ Identifier les auteurs des posts utilises comme sources de veille, sans les trai
 
 - Objectif : logger les auteurs des posts X utilises comme sources KM.
 - Risques : metadonnees X variables.
+
+## Intérêts
+
+Fonction · Identifier les auteurs des posts utilisés comme sources de veille.  
+Avantages · Permet de tracer la provenance des informations sans les valider.  
+Gain · Éviter de confondre sources et autorités, améliorer la traçabilité.

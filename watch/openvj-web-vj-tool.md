@@ -48,3 +48,9 @@
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
+
+## Intérêts
+
+Fonction · Projection mapping et visualisation en temps réel via navigateur.  
+Avantages · Contrôle MIDI, réactivité audio, génération de shaders IA.  
+Gain · Lancer des performances sans matériel coûteux.

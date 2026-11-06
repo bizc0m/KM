@@ -1,18 +1,18 @@
 {
-  "at": "2026-11-06T18:10:51.154Z",
+  "at": "2026-11-06T19:10:56.896Z",
   "scope": "public-index-only",
-  "fiches": 658,
-  "sourceReferences": 2724,
+  "fiches": 660,
+  "sourceReferences": 2767,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 627,
+  "pendingReview": 619,
   "counts": {
-    "interest-missing": 162,
-    "keywords-missing": 75,
+    "interest-missing": 38,
+    "keywords-missing": 76,
     "domain-unqualified": 104,
     "primary-identity-unqualified": 20,
-    "nature-unqualified": 608
+    "nature-unqualified": 610
   },
   "queue": [
     {
@@ -3215,7 +3215,6 @@
       "title": "OpenStock",
       "reasons": [
         "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -3254,7 +3253,6 @@
       "id": "watch-technical-266021fd17b5258b3da7-md",
       "title": "Outils de cybersécurité basés sur l'IA pour les développeurs",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3447,7 +3445,6 @@
       "id": "watch-adaptixc2-c2-risk-article-md",
       "title": "AdaptixC2 C2 Risk Article",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3455,15 +3452,7 @@
       "id": "watch-agent-rules-books-md",
       "title": "Agent Rules Books",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-agent-skills-library-md",
-      "title": "Agent Skills Library",
-      "reasons": [
-        "interest-missing"
       ]
     },
     {
@@ -3478,7 +3467,6 @@
       "id": "watch-anyv2v-video-editing-framework-md",
       "title": "AnyV2V Video Editing Framework",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3486,7 +3474,6 @@
       "id": "resources-noteplan-captures-archive-2026-md",
       "title": "Archive NotePlan Captures 2026",
       "reasons": [
-        "interest-missing",
         "domain-unqualified",
         "primary-identity-unqualified",
         "nature-unqualified"
@@ -3501,17 +3488,9 @@
       ]
     },
     {
-      "id": "watch-claude-osint-skills-md",
-      "title": "Claude OSINT Skills",
-      "reasons": [
-        "interest-missing"
-      ]
-    },
-    {
       "id": "watch-devin-desktop-agent-app-md",
       "title": "Devin Desktop Agent App",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3519,7 +3498,6 @@
       "id": "watch-echovessel-persona-memory-engine-md",
       "title": "EchoVessel Persona Memory Engine",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3527,7 +3505,6 @@
       "id": "watch-espanso-text-expander-md",
       "title": "Espanso Text Expander",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3535,7 +3512,6 @@
       "id": "watch-hermes-vps-setup-skill-md",
       "title": "Hermes VPS Setup Skill",
       "reasons": [
-        "interest-missing",
         "primary-identity-unqualified"
       ]
     },
@@ -3559,7 +3535,6 @@
       "id": "watch-obs-shaderfilter-md",
       "title": "OBS Shaderfilter",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3567,7 +3542,6 @@
       "id": "watch-openbot-ai-coworkers-md",
       "title": "OpenBot AI Coworkers",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3575,7 +3549,6 @@
       "id": "watch-openvj-web-vj-tool-md",
       "title": "OpenVJ Web VJ Tool",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3583,7 +3556,6 @@
       "id": "watch-type-for-obsidian-quick-capture-md",
       "title": "Type For Obsidian Quick Capture",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3591,7 +3563,6 @@
       "id": "watch-vace-video-creation-editing-md",
       "title": "VACE Video Creation Editing",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3599,7 +3570,6 @@
       "id": "watch-veejay-live-video-sampler-md",
       "title": "Veejay Live Video Sampler",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3607,7 +3577,6 @@
       "id": "watch-vista-video-style-transfer-md",
       "title": "VISTA Video Style Transfer",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3615,7 +3584,6 @@
       "id": "watch-alpinechain-workshop-2026-md",
       "title": "AlpineChain Workshop 2026",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -3625,7 +3593,6 @@
       "id": "watch-chathub-multi-llm-workspace-md",
       "title": "ChatHub",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3633,7 +3600,6 @@
       "id": "watch-km-d3-scan-integration-20260901-md",
       "title": "KM D3 Scan Integration",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3641,7 +3607,6 @@
       "id": "watch-noteplan-km-indexing-workflow-md",
       "title": "NotePlan KM Indexing Workflow",
       "reasons": [
-        "interest-missing",
         "domain-unqualified",
         "nature-unqualified"
       ]
@@ -3650,7 +3615,6 @@
       "id": "watch-osaurus-local-ai-agents-mac-md",
       "title": "Osaurus",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3658,7 +3622,6 @@
       "id": "watch-betterdisplay-macos-display-control-md",
       "title": "BetterDisplay MacOS Display Control",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3666,7 +3629,6 @@
       "id": "watch-right-click-prompt-browser-prompt-library-md",
       "title": "Right Click Prompt Browser Prompt Library",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3674,7 +3636,6 @@
       "id": "watch-x-watch-d3-20260829-20260831-md",
       "title": "X Watch D3",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -3684,7 +3645,6 @@
       "id": "watch-kata-tracker-local-first-issue-tracker-md",
       "title": "Kata Tracker Local-First Issue Tracker",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3692,7 +3652,6 @@
       "id": "watch-project-eyes-on-open-ip-camera-osint-md",
       "title": "Project Eyes On",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3700,7 +3659,6 @@
       "id": "watch-graft-codebase-context-for-coding-agents-md",
       "title": "Graft",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3708,7 +3666,6 @@
       "id": "watch-memory-engineering-agent-past-md",
       "title": "Memory Engineering",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3748,7 +3705,6 @@
       "id": "watch-axorcist-macos-accessibility-md",
       "title": "AXorcist macOS Accessibility",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3756,7 +3712,6 @@
       "id": "watch-macos26-agent-desktop-harness-md",
       "title": "MacOS26 Agent Desktop Harness",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3772,7 +3727,6 @@
       "id": "watch-opencode-telechargement-md",
       "title": "OpenCode Download",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3780,7 +3734,6 @@
       "id": "watch-tailscale-secure-connectivity-for-ai-iot-multi-cloud-md",
       "title": "Tailscale Secure Connectivity For AI IoT Multi Cloud",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3796,7 +3749,6 @@
       "id": "watch-neodisk-macos-disk-visualizer-md",
       "title": "Neodisk macOS Disk Visualizer",
       "reasons": [
-        "interest-missing",
         "domain-unqualified",
         "nature-unqualified"
       ]
@@ -3805,7 +3757,6 @@
       "id": "watch-agency-agents-ai-agency-md",
       "title": "Agency Agents",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3828,7 +3779,6 @@
       "id": "watch-tencentdb-agent-memory-md",
       "title": "TencentDB Agent Memory",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3836,7 +3786,6 @@
       "id": "watch-aliens-eye-ai-osint-platform-md",
       "title": "Aliens Eye AI OSINT Platform",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3844,7 +3793,6 @@
       "id": "watch-google-ai-studio-free-token-tier-md",
       "title": "Google AI Studio Free Token Tier",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3852,22 +3800,7 @@
       "id": "watch-internet-scraping-github-repos-ecommartinez-md",
       "title": "Internet Scraping GitHub Repos Ecommartinez",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-ai-video-plugins-skills-ayi-ainotes-md",
-      "title": "AI Video Plugins And Skills Ayi AInotes",
-      "reasons": [
-        "interest-missing"
-      ]
-    },
-    {
-      "id": "watch-hyperframes-ai-video-generation-skill-md",
-      "title": "HyperFrames AI Video Generation Skill",
-      "reasons": [
-        "interest-missing"
       ]
     },
     {
@@ -3882,7 +3815,6 @@
       "id": "watch-internet-scraping-github-repos-lucy-love-ai-md",
       "title": "Internet Scraping GitHub Repos Lucy Love AI",
       "reasons": [
-        "interest-missing",
         "primary-identity-unqualified",
         "nature-unqualified"
       ]
@@ -3896,10 +3828,16 @@
       ]
     },
     {
+      "id": "watch-openthreat-threat-intelligence-platform-md",
+      "title": "OpenThreat Threat Intelligence Platform",
+      "reasons": [
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-serus-dark-web-leak-search-md",
       "title": "Serus Dark Web Leak Search",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3907,7 +3845,6 @@
       "id": "watch-spec-kit-vibe-coding-specification-workflow-md",
       "title": "Spec Kit Vibe Coding Specification Workflow",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3915,7 +3852,6 @@
       "id": "watch-worldmonitor-global-intelligence-dashboard-md",
       "title": "WorldMonitor Global Intelligence Dashboard",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3931,7 +3867,6 @@
       "id": "watch-este-repositorio-te-ensena-ingenieria-de-ia-desde-cero-md",
       "title": "AI Engineering From Scratch Repository",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "nature-unqualified"
       ]
@@ -3940,7 +3875,6 @@
       "id": "watch-l-ia-vient-de-tuer-le-metier-de-commercial-en-vendant-a-ta-place-24h-2-md",
       "title": "AI Sales Automation Agent",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3948,7 +3882,6 @@
       "id": "watch-bug-hunter-md",
       "title": "Bug Hunter",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3956,7 +3889,6 @@
       "id": "watch-bytedance-acaba-de-abrir-el-codigo-del-agente-que-controla-tu-ordenado-md",
       "title": "ByteDance Open Source Computer Control Agent",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3964,7 +3896,6 @@
       "id": "watch-claude-code-ya-es-potente-solo-md",
       "title": "Claude Code ya es potente solo.",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3972,7 +3903,6 @@
       "id": "watch-un-developpeur-a-clone-netflix-spotify-instagram-airbnb-et-amazon-md",
       "title": "Clone Projects For Netflix, Spotify, Instagram, Airbnb And Amazon",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -3982,22 +3912,13 @@
       "id": "watch-danyltn-ia-automatisation-danyltn-instagram-reel-md",
       "title": "Danyltn | IA & Automatisation (@danyltn) • Instagram reel",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi-md",
-      "title": "Essential MCP Servers Collection",
-      "reasons": [
-        "interest-missing"
       ]
     },
     {
       "id": "watch-esto-es-un-palantir-gratis-y-se-instala-en-un-solo-comando-md",
       "title": "ESTO ES UN PALANTIR GRATIS Y SE INSTALA EN UN SOLO COMANDO",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -4007,7 +3928,6 @@
       "id": "watch-cok-cilginca-bir-ai-araci-buldum-md",
       "title": "Experimental AI Tool Discovery",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4015,7 +3935,6 @@
       "id": "watch-alguien-creo-un-repo-en-github-que-te-permite-ejecutar-claude-code-com-md",
       "title": "Free Claude Code Execution Repository",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4023,7 +3942,6 @@
       "id": "watch-waveking-free-github-projects-md",
       "title": "Free GitHub Project Collection",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -4033,7 +3951,6 @@
       "id": "watch-you-can-run-google-gemini-2-5-pro-with-a-massive-2-milion-free-token-c-md",
       "title": "Free Google Gemini 2.5 Pro Token Context",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4041,7 +3958,6 @@
       "id": "watch-geekbb-free-tools-list-md",
       "title": "Free Open Source No-Signup Tools List",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "nature-unqualified"
       ]
@@ -4050,7 +3966,6 @@
       "id": "watch-aqui-te-dejo-10-repos-de-github-que-pueden-ayudarte-a-generar-dinero-m-md",
       "title": "GitHub Repositories For Automated Income Projects",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -4060,7 +3975,6 @@
       "id": "watch-10-github-repos-that-automate-real-work-while-you-sleep-in-2026-md",
       "title": "GitHub Repositories For Work Automation",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -4070,24 +3984,15 @@
       "id": "watch-213-000-estrellas-en-github-md",
       "title": "GitHub Repository With 213, 000 Stars",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
       ]
     },
     {
-      "id": "watch-un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web-md",
-      "title": "Google Chrome Web Best Practices Skill",
-      "reasons": [
-        "interest-missing"
-      ]
-    },
-    {
       "id": "watch-how-i-automate-google-dorking-for-faster-osint-investigations-md",
       "title": "Google Dorking Automation For OSINT",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4095,7 +4000,6 @@
       "id": "watch-guide-scrapegraph-ai-ia-boss-pdf-md",
       "title": "Guide_ScrapeGraph_AI_IA_Boss.pdf",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4103,7 +4007,6 @@
       "id": "watch-here-are-10-ai-video-editor-github-repos-worth-bookmarking-md",
       "title": "Here are 10 AI video editor GitHub repos worth bookmarking:",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4111,7 +4014,6 @@
       "id": "watch-im-agent-claude-code-codex-opencode-ai-agent-md",
       "title": "IM-Style Multi-Agent Coding Workspace",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4119,7 +4021,6 @@
       "id": "watch-acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor-md",
       "title": "Infinite Memory For Claude, Codex And Cursor",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4127,7 +4028,6 @@
       "id": "watch-ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor-md",
       "title": "Infinite Memory For Claude, Codex And Cursor",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4143,7 +4043,6 @@
       "id": "watch-kyber-kyber-gitlab-md",
       "title": "kyber / Kyber · GitLab",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -4153,7 +4052,6 @@
       "id": "watch-2-lafys-md",
       "title": "Lafys",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -4163,7 +4061,6 @@
       "id": "watch-mvanhorn-last30days-skill-md",
       "title": "Last 30 Days Research Agent Skill",
       "reasons": [
-        "interest-missing",
         "primary-identity-unqualified"
       ]
     },
@@ -4171,7 +4068,6 @@
       "id": "watch-sabtu-malem-jam-2-pagi-gue-masih-melek-md",
       "title": "Late Night AI Tool Discovery",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4179,7 +4075,6 @@
       "id": "watch-marketing-automation-md",
       "title": "Marketing Automation",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -4189,7 +4084,6 @@
       "id": "watch-miranda-start-me-md",
       "title": "Miranda",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4197,7 +4091,6 @@
       "id": "watch-1-motionsites-md",
       "title": "Motionsites",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -4207,7 +4100,6 @@
       "id": "watch-multi-search-launcher-md",
       "title": "Multi-search launcher",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4215,7 +4107,6 @@
       "id": "watch-lancement-de-notre-projet-nexus-osint-v1-md",
       "title": "Nexus OSINT V1 Launch",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4223,7 +4114,6 @@
       "id": "watch-pewdiepie-archdaemon-odysseus-md",
       "title": "Odysseus Self-Hosted AI Workspace",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "nature-unqualified"
       ]
@@ -4240,7 +4130,6 @@
       "id": "watch-alternativa-gratuita-y-de-codigo-abierto-a-notebooklm-md",
       "title": "Open Source NotebookLM Alternative",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4273,7 +4162,6 @@
       "id": "watch-removes-llm-censorship-with-a-single-click-md",
       "title": "Removes LLM censorship with a single click.",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4281,7 +4169,6 @@
       "id": "watch-link-del-repo-md",
       "title": "Repository Link",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -4291,7 +4178,15 @@
       "id": "watch-este-repositorio-de-github-lo-esta-explotando-mode-senior-md",
       "title": "Senior Mode GitHub Repository",
       "reasons": [
-        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-top-5-sites-pour-vibe-coders-edition-niche-md",
+      "title": "Top 5 Niche Sites For Vibe Coders",
+      "reasons": [
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -4311,7 +4206,6 @@
       "id": "watch-sansursuz-k-s-tlamas-z-ac-k-kaynakl-bir-yapay-zeka-goruntu-ve-video-ol-md",
       "title": "Uncensored Open Source Image And Video AI Tool",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4319,16 +4213,8 @@
       "id": "watch-xamto-ai-understand-anything-x-post-md",
       "title": "Understand Anything Code Knowledge Graph",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel-md",
-      "title": "Web Page To Desktop App Converter",
-      "reasons": [
-        "interest-missing"
       ]
     },
     {
@@ -4350,7 +4236,6 @@
       "id": "watch-claude-task-master-ai-task-management-md",
       "title": "Claude Task Master",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4358,7 +4243,6 @@
       "id": "watch-crewai-agent-orchestration-md",
       "title": "CrewAI",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4381,7 +4265,6 @@
       "id": "watch-langgraph-resilient-agents-md",
       "title": "LangGraph",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4404,7 +4287,6 @@
       "id": "watch-osint-rack-curated-tools-md",
       "title": "The OSINT Rack",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4412,7 +4294,6 @@
       "id": "watch-vxunderground-malware-source-code-md",
       "title": "vxunderground MalwareSourceCode",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4420,7 +4301,6 @@
       "id": "watch-conet-privacy-depin-network-md",
       "title": "CONET",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4436,7 +4316,6 @@
       "id": "watch-promptspy-ai-android-malware-md",
       "title": "PromptSpy",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4444,7 +4323,6 @@
       "id": "watch-agentsview-session-intelligence-md",
       "title": "AgentsView",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4461,7 +4339,6 @@
       "id": "watch-ai-open-source-tools-watch-md",
       "title": "AI Open Source Tools Watch",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4492,7 +4369,6 @@
       "id": "watch-codepatrol-code-security-md",
       "title": "CodePatrol",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4508,7 +4384,6 @@
       "id": "watch-inspiration-competitors-tools-watch-md",
       "title": "Inspiration Competitors Tools Watch",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4524,7 +4399,6 @@
       "id": "watch-open-source-saas-alternatives-nicos-ai-md",
       "title": "Open Source SaaS Alternatives",
       "reasons": [
-        "interest-missing",
         "primary-identity-unqualified"
       ]
     },
@@ -4532,7 +4406,6 @@
       "id": "watch-osint-tools-watch-md",
       "title": "OSINT Tools Watch",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4548,7 +4421,6 @@
       "id": "watch-red-team-risk-tools-watch-md",
       "title": "Red Team Risk Tools Watch",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4556,7 +4428,6 @@
       "id": "watch-twitter-rss-monitoring-md",
       "title": "Twitter RSS Monitoring",
       "reasons": [
-        "interest-missing",
         "primary-identity-unqualified",
         "nature-unqualified"
       ]
@@ -4565,7 +4436,6 @@
       "id": "watch-vibeshit-vibe-coding-directory-md",
       "title": "Vibe Shit",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4573,7 +4443,6 @@
       "id": "watch-ai-trending-md",
       "title": "AI Trending",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4581,7 +4450,6 @@
       "id": "watch-brandfetch-md",
       "title": "Brandfetch",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4589,7 +4457,6 @@
       "id": "watch-claude-agents-md-config-alexsoyes-md",
       "title": "Claude AGENTS.md Config",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4597,7 +4464,6 @@
       "id": "watch-free-api-key-instagram-reel-md",
       "title": "Free Api Key",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4613,7 +4479,6 @@
       "id": "watch-github-digital-life-topic-md",
       "title": "GitHub Digital Life Topic",
       "reasons": [
-        "interest-missing",
         "primary-identity-unqualified",
         "nature-unqualified"
       ]
@@ -4622,7 +4487,6 @@
       "id": "watch-intelfetch-osint-features-md",
       "title": "IntelFetch OSINT Features",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4630,7 +4494,6 @@
       "id": "resources-llm-wiki-karpathy-md",
       "title": "llm-wiki",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4638,7 +4501,6 @@
       "id": "watch-lovable-build-for-the-web-20x-faster-md",
       "title": "Lovable Build For The Web 20x Faster",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4646,22 +4508,13 @@
       "id": "watch-macusb-bootable-usb-creator-macos-md",
       "title": "macUSB Bootable USB Creator macOS",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-noteplan-mcp-server-md",
-      "title": "NotePlan MCP Server",
-      "reasons": [
-        "interest-missing"
       ]
     },
     {
       "id": "watch-notion-les-7-docs-avant-de-coder-avec-ia-md",
       "title": "Notion",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4669,7 +4522,6 @@
       "id": "watch-obsidian-web-clipper-md",
       "title": "Obsidian Web Clipper",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4677,7 +4529,6 @@
       "id": "watch-openfelix-local-ai-agent-macos-md",
       "title": "Open Felix",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4685,7 +4536,6 @@
       "id": "watch-parall-mac-app-multi-instance-md",
       "title": "Parall Mac App Multi Instance",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4693,7 +4543,6 @@
       "id": "watch-praison-ai-md",
       "title": "Praison AI",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4701,7 +4550,6 @@
       "id": "watch-promptslab-md",
       "title": "PromptsLab",
       "reasons": [
-        "interest-missing",
         "primary-identity-unqualified",
         "nature-unqualified"
       ]
@@ -4710,38 +4558,21 @@
       "id": "watch-quick-rss-desktop-reader-md",
       "title": "Quick RSS Desktop Reader",
       "reasons": [
-        "interest-missing",
         "domain-unqualified",
         "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-reverse-skill-hacker-skills-md",
-      "title": "Reverse Skill",
-      "reasons": [
-        "interest-missing"
       ]
     },
     {
       "id": "watch-scrapling-web-scraping-modern-web-md",
       "title": "Scrapling",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-taste-skill-md",
-      "title": "Taste Skill",
-      "reasons": [
-        "interest-missing"
       ]
     },
     {
       "id": "watch-trendshift-github-momentum-md",
       "title": "Trendshift GitHub Momentum",
       "reasons": [
-        "interest-missing",
         "domain-unqualified",
         "nature-unqualified"
       ]

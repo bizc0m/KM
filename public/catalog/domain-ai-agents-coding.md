@@ -76,26 +76,64 @@ Gain · Tester une compétence sans l'installer pour éviter les erreurs.
 - [Skills pour agents de IA](../../watch/technical-ce8a12d1c4391a2f858c.md) — Fonction · Installer des compétences pour des agents IA, avec des instructions concrètes.
 Avantages · Fournit des exemples et des scripts pour exécuter des tâches sans improviser.
 Gain · Tester une compétence avant installation pour éviter les erreurs.
-- [Agent Skills](../../watch/technical-dae9f02535f7c22f84f1.md) — Facilite la création de logiciels avec des workflows et des bonnes pratiques.
-- [Aider](../../watch/technical-4125f24a0a6925019b78.md) — Collaborer avec des LLM pour coder et gérer des projets.
-- [Jules](../../watch/technical-f23e4d6f3cd099180f4d.md) — Gère des tâches de codage via GitHub avec l'étiquette "jules".
-- [Metis](../../watch/technical-a5ff978d18723ab2dc78.md) — Crée un agent personnalisé pour chaque projet.
-- [Modern Web Guidance](../../watch/technical-ae8fda4548bf05d5f5ed.md) — Intérêt pratique : Oriente vers des solutions modernes et compatibles navigateurs.
-- [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Traduire des vidéos en 14 langues sources et 101 cibles.
-- [Ruflo](../../watch/technical-1b635fdf72be259a562c.md) — Coordination de 100+ agents spécialisés via plusieurs topologies.
-- [Spec Kit](../../watch/technical-03c3b9b214032004d035.md) — Structurer les spécifications pour un codage cohérent et prévisible.
+- [Agent Skills](../../watch/technical-dae9f02535f7c22f84f1.md) — Fonction · Définir, planifier, construire, tester, reviewer, livrer des tâches.
+Avantages · Commandes slash pour automatiser les workflows.
+Gain · Lancer des tâches sans étape manuelle intermédiaire.
+- [Aider](../../watch/technical-4125f24a0a6925019b78.md) — Fonction · Collaborer avec des LLMs pour coder et gérer des projets.
+Avantages · Intégration avec des modèles de langage et des agents de développement.
+Gain · Éviter la rédaction manuelle de code et de documentation.
+- [Jules](../../watch/technical-f23e4d6f3cd099180f4d.md) — Fonction · Gère des tâches de codage via GitHub avec l'étiquette "jules".
+Avantages · Intégre des sujets liés à l'intelligence artificielle et le développement logiciel.
+Gain · Éviter de répéter des tâches de codage manuelles.
+- [Metis](../../watch/technical-a5ff978d18723ab2dc78.md) — Fonction · Agent de codage open source, exécutable en desktop, terminal ou comme Skill.
+Avantages · Architecture agent personnalisable par projet, workflow modifiable.
+Gain · Lancer des tâches sans Node.js, gérer des commits et fichiers modifiés.
+- [Modern Web Guidance](../../watch/technical-ae8fda4548bf05d5f5ed.md) — Fonction · Installer ou rechercher des guides pour coder avec les dernières APIs web.
+Avantages · Éviter les patterns obsolètes grâce à des conseils experts.
+Gain · Lancer des tâches sans polyfill grâce à des solutions natives.
+- [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Fonction · Workspace unifié pour création et agents.
+Avantages · Génère vidéo, image, audio, sous-titres.
+Gain · Lancer tâches sans config, réutiliser modèles.
+- [Ruflo](../../watch/technical-1b635fdf72be259a562c.md) — Fonction · Coordonner 100+ agents via plusieurs topologies.
+Avantages · Gérer des agents spécialisés en développement.
+Gain · Lancer des tâches sans configuration complexe.
+- [Spec Kit](../../watch/technical-03c3b9b214032004d035.md) — Fonction · Structurer les spécifications de codage dans un terminal.
+Avantages · Intégration avec NotePlan et X/Twitter.
+Gain · Automatiser la gestion des tâches de développement.
 - [Superpowers](../../watch/technical-56f27bb0e80ff344bf72.md) — Facilite la planification et la révision du code avec un workflow structuré.
-- [Agent Rules Books](../../watch/agent-rules-books.md)
+- [Agent Rules Books](../../watch/agent-rules-books.md) — Fonction · Règles et compétences pour agents de codage basées sur des livres.
+Avantages · Règles structurées pour architecture, refactorisation et qualité du code.
+Gain · Appliquer directement des bonnes pratiques sans configuration complexe.
 - [Calyx MacOS Agent Terminal](../../watch/calyx-macos-agent-terminal.md)
-- [KM D3 Scan Integration](../../watch/km-d3-scan-integration-20260901.md)
-- [Kata Tracker Local-First Issue Tracker](../../watch/kata-tracker-local-first-issue-tracker.md)
-- [Graft](../../watch/graft-codebase-context-for-coding-agents.md)
-- [Claude Code ya es potente solo.](../../watch/claude-code-ya-es-potente-solo.md)
-- [Free Claude Code Execution Repository](../../watch/alguien-creo-un-repo-en-github-que-te-permite-ejecutar-claude-code-com.md)
-- [IM-Style Multi-Agent Coding Workspace](../../watch/im-agent-claude-code-codex-opencode-ai-agent.md)
-- [Infinite Memory For Claude, Codex And Cursor](../../watch/acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor.md)
-- [Infinite Memory For Claude, Codex And Cursor](../../watch/ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor.md)
+- [KM D3 Scan Integration](../../watch/km-d3-scan-integration-20260901.md) — Fonction · Intégration de notes et fichiers dans KM/Base/watch.
+Avantages · Accès via fichiers Markdown et workflow d'indexation.
+Gain · Importer des données sans suppression, structurer les informations.
+- [Kata Tracker Local-First Issue Tracker](../../watch/kata-tracker-local-first-issue-tracker.md) — Fonction · Suivi local des tâches et problèmes pour agents de code.
+Avantages · Gestion des projets sans dépendance réseau.
+Gain · Éviter la perte de données en cas de déconnexion.
+- [Graft](../../watch/graft-codebase-context-for-coding-agents.md) — Fonction · Carte du code et apprentissages pour agents.
+Avantages · Réduit les appels d'API et les tokens utilisés.
+Gain · Éviter de redécouvrir le code pour chaque tâche.
+- [Claude Code ya es potente solo.](../../watch/claude-code-ya-es-potente-solo.md) — Fonction · Analyse et exécute du code en temps réel.
+Avantages · Intégre des connaissances en développement avancé.
+Gain · Éviter les erreurs de syntaxe et de logique.
+- [Free Claude Code Execution Repository](../../watch/alguien-creo-un-repo-en-github-que-te-permite-ejecutar-claude-code-com.md) — Fonction · Exécuter du code Claude dans un environnement GitHub.
+Avantages · Intégration avec les outils de développement existants.
+Gain · Tester et déboguer du code sans quitter l'IDE.
+- [IM-Style Multi-Agent Coding Workspace](../../watch/im-agent-claude-code-codex-opencode-ai-agent.md) — Fonction · Orchestre des agents de codage et de veille.
+Avantages · Intégre IA pour aider à coder et surveiller.
+Gain · Éviter de gérer manuellement plusieurs agents.
+- [Infinite Memory For Claude, Codex And Cursor](../../watch/acaban-de-darle-memoria-infinita-a-claude-codex-y-cursor.md) — Fonction · Conserver le contexte des agents.
+Avantages · Mémoriser les interactions et données.
+Gain · Éviter de répéter les informations.
+- [Infinite Memory For Claude, Codex And Cursor](../../watch/ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor.md) — Fonction · Conserver le contexte des agents.
+Avantages · Mémoriser les interactions et données.
+Gain · Éviter de répéter les informations.
 - [Aider AI Pair Programming](../../watch/aider-ai-pair-programming.md)
-- [AgentsView](../../watch/agentsview-session-intelligence.md)
+- [AgentsView](../../watch/agentsview-session-intelligence.md) — Fonction · Visualiser et suivre les coûts des agents d'IA.
+Avantages · Filtrer les données par projet ou requête.
+Gain · Comparer les coûts sans lancer un serveur.
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
-- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md)
+- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md) — Fonction · Génère du texte et des images localement.
+Avantages · Supporte plusieurs modèles et langages.
+Gain · Éviter l'envoi de données vers le cloud.

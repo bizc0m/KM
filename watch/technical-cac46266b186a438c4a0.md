@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet aux agents IA d'executer des tâches avec plus d'efficacité.
+Fonction · Détecter des vulnérabilités et étendre les compétences des agents IA.  
+Avantages · Intégration de tests de sécurité et de compétences prédéfinies.  
+Gain · Éviter des tests manuels, accélérer l'apprentissage des agents.
 
 ## Métadonnées
 

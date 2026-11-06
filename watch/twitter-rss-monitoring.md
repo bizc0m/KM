@@ -124,6 +124,12 @@ Points verifies :
 - Accès : À vérifier
 - Preuve : À vérifier
 
+## Intérêts
+
+Fonction · Suivre des comptes Twitter via RSS.  
+Avantages · Flux RSS sans algorithmes de recommandation.  
+Gain · Éviter l'interface addictive de X pour veille.
+
 ## Ontologie
 
 - Version : 1.1

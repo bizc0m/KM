@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Convertir des documents PDF, Word, Excel ou images en Markdown pour une utilisation facile.
+Fonction · Convertir PDF, Word, Excel, images en Markdown.  
+Avantages · Génère code Markdown structuré à partir de documents.  
+Gain · Éviter de reformater manuellement les contenus.
 
 ## Métadonnées
 

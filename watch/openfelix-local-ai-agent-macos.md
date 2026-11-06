@@ -29,3 +29,9 @@ Veille Raindrop KM Monitor / agent IA local pour macOS.
 ## Sources
 
 - https://openfelix.com/](https://openfelix.com/
+
+## Intérêts
+
+Fonction · Surveille et gère des flux de données locaux sur macOS.  
+Avantages · Intégre des outils de veille et de monitoring IA.  
+Gain · Éviter de configurer plusieurs outils pour la veille.

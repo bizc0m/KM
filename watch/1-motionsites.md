@@ -36,3 +36,9 @@ Veille Raindrop KM Monitor.
 
 - Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
 - Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.
+
+## Intérêts
+
+Fonction · Suivi des motionsites via Raindrop KM Monitor.  
+Avantages · Intégration avec Twitter et veille en temps réel.  
+Gain · Éviter manuellement les motionsites obsolètes.

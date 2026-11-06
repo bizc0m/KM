@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Réduction du temps de démarrage froid grâce à des optimisations de charge et de cache.
+Fonction · Optimise le temps de démarrage froid via charge et cache.  
+Avantages · Réduction du temps d'initialisation du agent.  
+Gain · Lancer l'agent plus rapidement sans attente.
 
 ## Métadonnées
 

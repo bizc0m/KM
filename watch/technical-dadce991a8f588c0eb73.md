@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Analyser des données pour évaluer des modèles de prise de décision.
+Fonction · Analyser un texte avec un schéma pour décider des réponses types.  
+Avantages · Probabilités calculées à partir des logits des réponses.  
+Gain · Éviter de générer du JSON, obtenir directement les résultats types.
 
 ## Métadonnées
 

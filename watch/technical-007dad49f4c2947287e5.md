@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Automatisation des recherches OSINT via des requêtes Google dorking avancées.
+Fonction · Automatise des requêtes Google pour OSINT.  
+Avantages · Filtre et classe des résultats de recherche.  
+Gain · Éviter de saisir manuellement des requêtes.
 
 ## Métadonnées
 

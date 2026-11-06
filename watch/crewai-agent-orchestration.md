@@ -50,3 +50,9 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer CrewAI depuis Raindrop KM Monitor.
 - Risques : orchestration agentique dual-use.
+
+## Intérêts
+
+Fonction · Orchestre des agents AI en équipe et workflows événementiels.  
+Avantages · Gestion centralisée des agents, contrôle précis des flux.  
+Gain · Déployer des automatisations complexes sans code complexe.

@@ -50,3 +50,9 @@ edition video-to-video IA sans tuning.
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
+
+## Intérêts
+
+Fonction · Éditer des vidéos avec une seule image.  
+Avantages · Pas de formation ni de finetuning requis.  
+Gain · Modifier directement la première image pour lancer l'édition.

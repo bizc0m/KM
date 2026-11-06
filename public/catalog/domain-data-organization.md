@@ -36,6 +36,10 @@ Avantages · Intégre des outils de planification et de calendrier.
 Gain · Lancer la création sans édition vidéo préalable.
 - [Outils en ligne utiles pour le développement et la gestion de projets](../../watch/technical-99260b2f64304ae31048.md) — Unpaywall.org permet d'accéder gratuitement aux articles de recherche.
 - [Outils en ligne utiles pour le développement et la gestion de projets](../../watch/technical-c2b6bc61f64db5dde9f2.md) — Unpaywall.org permet d'accéder gratuitement aux articles de recherche.
-- [Planification des tâches dans NotePlan](../../watch/technical-fcb3c753c1859c7ada32.md) — Planifier des tâches avec des marques pour afficher des points bleus dans le calendrier.
+- [Planification des tâches dans NotePlan](../../watch/technical-fcb3c753c1859c7ada32.md) — Fonction · Planifier des tâches avec marques calendaires.
+Avantages · Affichage de points bleus dans le calendrier.
+Gain · Visualiser les tâches sans outil externe.
 - [Superpowers](../../watch/technical-56f27bb0e80ff344bf72.md) — Facilite la planification et la révision du code avec un workflow structuré.
-- [Kata Tracker Local-First Issue Tracker](../../watch/kata-tracker-local-first-issue-tracker.md)
+- [Kata Tracker Local-First Issue Tracker](../../watch/kata-tracker-local-first-issue-tracker.md) — Fonction · Suivi local des tâches et problèmes pour agents de code.
+Avantages · Gestion des projets sans dépendance réseau.
+Gain · Éviter la perte de données en cas de déconnexion.

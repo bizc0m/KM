@@ -41,3 +41,9 @@ Veille outils / scraping et extraction web.
 ### v0.1 - 2026-06-29
 
 - Integration depuis Raindrop KM Monitor.
+
+## Intérêts
+
+Fonction · Extraire des données de repos GitHub via internet.  
+Avantages · Accès à des informations techniques et de veille.  
+Gain · Éviter de rechercher manuellement des données GitHub.

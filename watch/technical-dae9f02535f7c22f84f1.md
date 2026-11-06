@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Facilite la création de logiciels avec des workflows et des bonnes pratiques.
+Fonction · Définir, planifier, construire, tester, reviewer, livrer des tâches.  
+Avantages · Commandes slash pour automatiser les workflows.  
+Gain · Lancer des tâches sans étape manuelle intermédiaire.
 
 ## Métadonnées
 
@@ -25,9 +27,9 @@ Facilite la création de logiciels avec des workflows et des bonnes pratiques.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.ai.agents.skills capability.code.assist capability.skills compatibility.interface.terminal source.raindrop source.github lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents
-- Fonctions : Assister le développement ; Étendre les compétences d’un agent
+- Identifiants : domain.ai.agents.coding domain.ai.agents.skills domain.data.notes capability.code.assist capability.skills capability.automation.schedule compatibility.interface.terminal source.raindrop source.github lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents ; Données et connaissances > Notes et organisation
+- Fonctions : Assister le développement ; Étendre les compétences d’un agent ; Automatiser des actions > Planifier des tâches
 - Compatibilités : Interfaces > Terminal
 - Provenance : Raindrop ; GitHub
 - État : Actif

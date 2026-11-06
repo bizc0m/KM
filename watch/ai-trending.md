@@ -27,6 +27,12 @@ Suivre les projets open source IA en tendance : agents, skills, LLM, RAG, chat, 
 - Accès : À vérifier
 - Preuve : À vérifier
 
+## Intérêts
+
+Fonction · Suivre les projets open source IA en tendance.  
+Avantages · Filtrer par agents, LLM, RAG et multimodal.  
+Gain · Comparer les tendances sans quitter l'outil.
+
 ## Ontologie
 
 - Version : 1.1

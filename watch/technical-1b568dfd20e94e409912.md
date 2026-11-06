@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Gérer le routage en temps réel pour optimiser les flux.
+Fonction · Routage en temps réel des flux via MCP.  
+Avantages · Optimisation des trajectoires par IA.  
+Gain · Éviter les blocages sans intervention humaine.
 
 ## Métadonnées
 

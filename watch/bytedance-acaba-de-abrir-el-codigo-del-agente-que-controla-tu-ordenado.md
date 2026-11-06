@@ -36,3 +36,9 @@ Veille Raindrop KM Monitor.
 
 - Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+
+## Intérêts
+
+Fonction · Agent IA pour surveillance et veille technologique.  
+Avantages · Analyse en temps réel des données d'entraînement.  
+Gain · Éviter les erreurs de configuration manuelle.

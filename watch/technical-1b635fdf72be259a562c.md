@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Coordination de 100+ agents spécialisés via plusieurs topologies.
+Fonction · Coordonner 100+ agents via plusieurs topologies.  
+Avantages · Gérer des agents spécialisés en développement.  
+Gain · Lancer des tâches sans configuration complexe.
 
 ## Métadonnées
 
@@ -25,8 +27,8 @@ Coordination de 100+ agents spécialisés via plusieurs topologies.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.ai.agents.orchestration capability.automation.orchestrate source.raindrop source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Orchestration des agents
+- Identifiants : domain.ai.agents.coding domain.ai.agents.orchestration domain.dev capability.automation.orchestrate source.raindrop source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Orchestration des agents ; Développement logiciel
 - Fonctions : Automatiser des actions > Coordonner des agents
 - Provenance : Raindrop ; X / Twitter
 - État : Actif

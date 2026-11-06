@@ -19,5 +19,7 @@ Gain · Installer en 1 commande, exécuter sans dépendances.
 - [realm-swift](../../watch/technical-2174eaf93f622d57be86.md) — Fonction · Base de données mobile pour iOS, macOS, tvOS, watchOS.
 Avantages · Modèle objet simplifié, pas besoin d'ORM.
 Gain · Créer et gérer des objets sans code complexe.
-- [Hister](../../watch/technical-ef6994e092dfd931bb79.md) — Rechercher et stocker des contenus web de manière privée et organisée.
+- [Hister](../../watch/technical-ef6994e092dfd931bb79.md) — Fonction · Rechercher et stocker des contenus web de manière privée.
+Avantages · Indexation et organisation des ressources web.
+Gain · Accéder rapidement à des informations sans partage.
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)

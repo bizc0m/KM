@@ -29,3 +29,9 @@ Veille outil KM / capture web vers Obsidian.
 ## Sources
 
 - https://obsidian.md/clipper](https://obsidian.md/clipper
+
+## Intérêts
+
+Fonction · Capture et organise les captures web vers Obsidian.  
+Avantages · Intégre les captures dans le système de notes existant.  
+Gain · Éviter de recopier manuellement les informations.

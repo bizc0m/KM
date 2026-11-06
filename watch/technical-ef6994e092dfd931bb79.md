@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Rechercher et stocker des contenus web de manière privée et organisée.
+Fonction · Rechercher et stocker des contenus web de manière privée.  
+Avantages · Indexation et organisation des ressources web.  
+Gain · Accéder rapidement à des informations sans partage.
 
 ## Métadonnées
 
@@ -34,6 +36,7 @@ Rechercher et stocker des contenus web de manière privée et organisée.
 ## Sources
 
 - https://hister.org/
+- https://hister.org/_app/immutable/assets/screenshot.Du3YtDXl.png
 
 ## Traçabilité
 
@@ -42,3 +45,9 @@ Rechercher et stocker des contenus web de manière privée et organisée.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-17
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![Hister search results with a stored document preview open](https://hister.org/_app/immutable/assets/screenshot.Du3YtDXl.png)
+
+[Origine](https://hister.org/)

@@ -46,11 +46,23 @@ Gain · Lancer des trades en quelques secondes.
 - [OpenWA](../../watch/technical-aabd475730fdd2c418b7.md) — Fonction · Exécute l'API WhatsApp sur un serveur interne.
 Avantages · Nécessite pas de dépendre de tiers.
 Gain · Éviter l'utilisation de services externes.
-- [Clone-Wars](../../watch/technical-f39d8a91723d2198d9aa.md) — Découvrir le code source de clones d'applications populaires.
-- [NoSignups](../../watch/technical-94515d48fc2a4b993a1f.md) — Permet d'utiliser des outils informatiques sans inscription ni email.
-- [Open Lovable](../../watch/technical-51c74448ee9079430332.md) — Crée un clone React d'un site web en quelques secondes.
-- [Outils et compétences pour la production vidéo automatisée et agente](../../watch/technical-88c715df4dbe74ef0c5a.md) — Crée des vidéos MP4 à partir de textes avec des agents AI.
-- [Pake](../../watch/technical-fd14133ed8619a60ddb0.md) — Créer une application de bureau à partir d'un site web en quelques secondes.
+- [Clone-Wars](../../watch/technical-f39d8a91723d2198d9aa.md) — Fonction · Reproduire un site web via du code source.
+Avantages · Accès à des clones d'applications populaires.
+Gain · Éviter de créer un site de zéro.
+- [NoSignups](../../watch/technical-94515d48fc2a4b993a1f.md) — Fonction · Lister des outils sans inscription ni suivi.
+Avantages · Accès direct aux outils via URL.
+Gain · Éviter les mises en page et les formulaires.
+- [Open Lovable](../../watch/technical-51c74448ee9079430332.md) — Fonction · Cloner un site web en React en quelques secondes.
+Avantages · Reproduit structure, style et interactions du site original.
+Gain · Éviter de recréer le frontend depuis zéro.
+- [Outils et compétences pour la production vidéo automatisée et agente](../../watch/technical-88c715df4dbe74ef0c5a.md) — Fonction · Créer des vidéos MP4 à partir de textes avec des agents AI.
+Avantages · Génère des contenus vidéo sans intervention manuelle.
+Gain · Éviter la phase de montage pour lancer rapidement des vidéos.
+- [Pake](../../watch/technical-fd14133ed8619a60ddb0.md) — Fonction · Convertir un site web en application desktop en un clic.
+Avantages · Utilise Rust Tauri pour une faible consommation de mémoire.
+Gain · Lancer une application sans configuration complexe.
 - [Open Lovable Firecrawl Site Cloning](../../watch/open-lovable-firecrawl-site-cloning.md)
-- [Web Page To Desktop App Converter](../../watch/vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel.md)
+- [Web Page To Desktop App Converter](../../watch/vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel.md) — Fonction · Convertir un site web en application bureau.
+Avantages · Intégration avec l'IA Claude pour l'analyse.
+Gain · Automatiser la création d'applications sans codage.
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)

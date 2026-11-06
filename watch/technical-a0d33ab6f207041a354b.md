@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Génère des messages ciblés pour des campagnes marketing. Augmente la conversion des leads.
+Fonction · Génère des messages ciblés pour campagnes marketing.  
+Avantages · Augmente la conversion des leads.  
+Gain · Éviter de rédiger manuellement des messages.
 
 ## Métadonnées
 

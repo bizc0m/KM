@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des vidéos à partir de textes et images. Résultat : contenu visuel automatisé.
+Fonction · Génère des vidéos et images à partir de textes.  
+Avantages · Intégration de sources comme Raindrop et X/Twitter.  
+Gain · Créer du contenu visuel sans outil externe.
 
 ## Métadonnées
 

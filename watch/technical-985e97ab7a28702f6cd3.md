@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permettre à l'IA d'explorer des plateformes via CLI sans frais d'API.
+Fonction · Explorer des plateformes web via CLI sans API.  
+Avantages · Accès gratuit à des outils de scraping et automation.  
+Gain · Éviter les frais d'API pour collecter des données.
 
 ## Métadonnées
 

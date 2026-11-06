@@ -28,3 +28,9 @@ Veille Raindrop KM Monitor / generateur web IA.
 ## Sources
 
 - https://lovable.dev/dashboard](https://lovable.dev/dashboard
+
+## Intérêts
+
+Fonction · Génère des applications web via IA.  
+Avantages · Intégre déploiement et hébergement.  
+Gain · Éviter les étapes de configuration manuelle.

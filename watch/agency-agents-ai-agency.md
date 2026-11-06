@@ -49,3 +49,9 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer le nouveau signal Agency Agents depuis Raindrop KM Monitor.
 - Risques : agents pre-packages, publication automatisee et prompts externes a auditer.
+
+## Intérêts
+
+Fonction · Installer des agents AI dans des outils comme Claude Code ou Gemini.  
+Avantages · Agents prêts à l'emploi avec code et processus validés.  
+Gain · Lancer des tâches sans configuration, directement via l'interface.

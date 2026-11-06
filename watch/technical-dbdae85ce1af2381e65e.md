@@ -10,7 +10,9 @@
 
 ## Intérêts
 
-Analyser des décisions structurées avec précision et calibration optimisée.
+Fonction · Évalue des décisions structurées en temps réel.  
+Avantages · Calibration automatique et prédiction précise.  
+Gain · Exécuter des décisions sans cloud, en local.
 
 ## Métadonnées
 

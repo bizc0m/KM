@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Exécution locale avec 12 Go de mémoire. Performance sur benchmarks.
+Fonction · Exécution locale de modèles LLM via terminal.  
+Avantages · Performance sur benchmarks avec 12 Go de mémoire.  
+Gain · Lancer des tâches d'inférence sans serveur distant.
 
 ## Métadonnées
 
@@ -25,8 +27,8 @@ Exécution locale avec 12 Go de mémoire. Performance sur benchmarks.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.llm compatibility.deployment.local compatibility.interface.terminal source.raindrop source.x lifecycle.active
-- Sujets : Intelligence artificielle > Modèles de langage
+- Identifiants : domain.ai.llm domain.infrastructure compatibility.deployment.local compatibility.interface.terminal source.raindrop source.x lifecycle.active
+- Sujets : Intelligence artificielle > Modèles de langage ; Infrastructure
 - Compatibilités : Exécution > Exécution locale ; Interfaces > Terminal
 - Provenance : Raindrop ; X / Twitter
 - État : Actif

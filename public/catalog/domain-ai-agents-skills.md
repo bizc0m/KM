@@ -46,24 +46,64 @@ Gain · Tester une compétence sans l'installer pour éviter les erreurs.
 - [Skills pour agents de IA](../../watch/technical-ce8a12d1c4391a2f858c.md) — Fonction · Installer des compétences pour des agents IA, avec des instructions concrètes.
 Avantages · Fournit des exemples et des scripts pour exécuter des tâches sans improviser.
 Gain · Tester une compétence avant installation pour éviter les erreurs.
-- [Agent Skills](../../watch/technical-dae9f02535f7c22f84f1.md) — Facilite la création de logiciels avec des workflows et des bonnes pratiques.
-- [ECC](../../watch/technical-cac46266b186a438c4a0.md) — Permet aux agents IA d'executer des tâches avec plus d'efficacité.
-- [Find Skills](../../watch/technical-81d6a7fc9d142fbd431c.md) — Permet d'installer des compétences pour mieux répondre aux demandes spécifiques.
-- [Metis](../../watch/technical-a5ff978d18723ab2dc78.md) — Crée un agent personnalisé pour chaque projet.
-- [Modern Web Guidance](../../watch/technical-ae8fda4548bf05d5f5ed.md) — Intérêt pratique : Oriente vers des solutions modernes et compatibles navigateurs.
-- [Outils et compétences pour la production vidéo automatisée et agente](../../watch/technical-88c715df4dbe74ef0c5a.md) — Crée des vidéos MP4 à partir de textes avec des agents AI.
-- [Pi](../../watch/technical-82645e8b1caf587e92d6.md) — Personnalise les workflows via des extensions, modèles et configurations.
-- [Agent Rules Books](../../watch/agent-rules-books.md)
-- [Agent Skills Library](../../watch/agent-skills-library.md)
-- [Claude OSINT Skills](../../watch/claude-osint-skills.md)
-- [Hermes VPS Setup Skill](../../watch/hermes-vps-setup-skill.md)
-- [AI Video Plugins And Skills Ayi AInotes](../../watch/ai-video-plugins-skills-ayi-ainotes.md)
-- [HyperFrames AI Video Generation Skill](../../watch/hyperframes-ai-video-generation-skill.md)
-- [Google Chrome Web Best Practices Skill](../../watch/un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web.md)
-- [Last 30 Days Research Agent Skill](../../watch/mvanhorn-last30days-skill.md)
+- [Agent Skills](../../watch/technical-dae9f02535f7c22f84f1.md) — Fonction · Définir, planifier, construire, tester, reviewer, livrer des tâches.
+Avantages · Commandes slash pour automatiser les workflows.
+Gain · Lancer des tâches sans étape manuelle intermédiaire.
+- [ECC](../../watch/technical-cac46266b186a438c4a0.md) — Fonction · Détecter des vulnérabilités et étendre les compétences des agents IA.
+Avantages · Intégration de tests de sécurité et de compétences prédéfinies.
+Gain · Éviter des tests manuels, accélérer l'apprentissage des agents.
+- [Find Skills](../../watch/technical-81d6a7fc9d142fbd431c.md) — Fonction · Installer des compétences pour répondre aux demandes spécifiques.
+Avantages · Adaptation aux besoins via des compétences prédéfinies.
+Gain · Éviter de créer des scripts depuis zéro.
+- [Metis](../../watch/technical-a5ff978d18723ab2dc78.md) — Fonction · Agent de codage open source, exécutable en desktop, terminal ou comme Skill.
+Avantages · Architecture agent personnalisable par projet, workflow modifiable.
+Gain · Lancer des tâches sans Node.js, gérer des commits et fichiers modifiés.
+- [Modern Web Guidance](../../watch/technical-ae8fda4548bf05d5f5ed.md) — Fonction · Installer ou rechercher des guides pour coder avec les dernières APIs web.
+Avantages · Éviter les patterns obsolètes grâce à des conseils experts.
+Gain · Lancer des tâches sans polyfill grâce à des solutions natives.
+- [Outils et compétences pour la production vidéo automatisée et agente](../../watch/technical-88c715df4dbe74ef0c5a.md) — Fonction · Créer des vidéos MP4 à partir de textes avec des agents AI.
+Avantages · Génère des contenus vidéo sans intervention manuelle.
+Gain · Éviter la phase de montage pour lancer rapidement des vidéos.
+- [Pi](../../watch/technical-82645e8b1caf587e92d6.md) — Fonction · Personnaliser les workflows via extensions et modèles.
+Avantages · Configurations prédéfinies pour les compétences des agents.
+Gain · Éviter la répétition de tâches de configuration.
+- [Agent Rules Books](../../watch/agent-rules-books.md) — Fonction · Règles et compétences pour agents de codage basées sur des livres.
+Avantages · Règles structurées pour architecture, refactorisation et qualité du code.
+Gain · Appliquer directement des bonnes pratiques sans configuration complexe.
+- [Agent Skills Library](../../watch/agent-skills-library.md) — Fonction · Catalogue de compétences réutilisables pour agents.
+Avantages · Organise et classe des compétences IA.
+Gain · Réutiliser des prompts pour accélérer le développement.
+- [Claude OSINT Skills](../../watch/claude-osint-skills.md) — Fonction · Reconnaissance structurée pour red-team et bug-bounty.
+Avantages · 100+ capacités avec 80 regex secrets et 80+ dorks.
+Gain · Lancer des tâches sans configuration, rester en conformité.
+- [Hermes VPS Setup Skill](../../watch/hermes-vps-setup-skill.md) — Fonction · Installer un VPS Hermes pour un agent.
+Avantages · Intégration avec les compétences IA de l’agent.
+Gain · Éviter la configuration manuelle du VPS.
+- [AI Video Plugins And Skills Ayi AInotes](../../watch/ai-video-plugins-skills-ayi-ainotes.md) — Fonction · Générer des vidéos via des compétences IA.
+Avantages · Intégration avec des agents IA existants.
+Gain · Créer des contenus vidéo sans logiciel spécialisé.
+- [HyperFrames AI Video Generation Skill](../../watch/hyperframes-ai-video-generation-skill.md) — Fonction · Génère des vidéos via un agent IA.
+Avantages · Intégre HTML et rendu visuel.
+Gain · Créer des contenus vidéo sans outil externe.
+- [Google Chrome Web Best Practices Skill](../../watch/un-skill-md-signe-google-chrome-pour-injecter-les-bonnes-pratiques-web.md) — Fonction · Injecter des bonnes pratiques web dans Chrome.
+Avantages · Optimiser le rendu et la compatibilité des sites.
+Gain · Réduire les erreurs de développement sans outil externe.
+- [Last 30 Days Research Agent Skill](../../watch/mvanhorn-last30days-skill.md) — Fonction · Recherche des documents dans les 30 derniers jours.
+Avantages · Accès à des données récentes et actualisées.
+Gain · Éviter de consulter des sources obsolètes.
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
-- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md)
-- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md)
-- [AI Trending](../../watch/ai-trending.md)
-- [Reverse Skill](../../watch/reverse-skill-hacker-skills.md)
-- [Taste Skill](../../watch/taste-skill.md)
+- [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md) — Fonction · Génère du texte et des images localement.
+Avantages · Supporte plusieurs modèles et langages.
+Gain · Éviter l'envoi de données vers le cloud.
+- [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md) — Fonction · Identifier et surveiller les outils offensifs ou abusables.
+Avantages · Distinguer usage légitime et usage abusif documenté.
+Gain · Éviter diffusion publique et exploitation offensive.
+- [AI Trending](../../watch/ai-trending.md) — Fonction · Suivre les projets open source IA en tendance.
+Avantages · Filtrer par agents, LLM, RAG et multimodal.
+Gain · Comparer les tendances sans quitter l'outil.
+- [Reverse Skill](../../watch/reverse-skill-hacker-skills.md) — Fonction · Développer des compétences de hacking et reverse engineering pour agents.
+Avantages · Accès à des compétences prêtes à l'emploi en cybersécurité.
+Gain · Éviter la création de compétences depuis zéro pour des agents.
+- [Taste Skill](../../watch/taste-skill.md) — Fonction · Étendre les compétences d’un agent IA.
+Avantages · Compétences prédéfinies pour des tâches spécifiques.
+Gain · Lancer des tâches sans configuration complexe.

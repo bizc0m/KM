@@ -52,3 +52,9 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer la nouveaute Raindrop KM Monitor `AXorcist`.
 - Risques : lecture et controle d'interfaces locales via Accessibility.
+
+## Intérêts
+
+Fonction · Interroger, cliquer et inspecter l'interface d'applications macOS.  
+Avantages · API type-safe, recherche flexible et gestion d'attributs.  
+Gain · Exécuter des actions sans code complexe, gagner du temps.

@@ -28,3 +28,9 @@ Veille Raindrop KM Monitor / plateforme d'agents IA.
 ## Sources
 
 - https://praison.ai/](https://praison.ai/
+
+## Intérêts
+
+Fonction · Orchestre des agents IA pour veille et analyse.  
+Avantages · Gère automatiquement les flux de données et les requêtes.  
+Gain · Éviter de configurer manuellement chaque agent.

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Évaluer la résilience des entreprises via des simulations immersives et hyperréalistes.
+Fonction · Simuler des crises cyber via des scénarios immersifs.  
+Avantages · Évaluer la résilience sans risque réel.  
+Gain · Préparer les équipes à réagir en temps réel.
 
 ## Métadonnées
 

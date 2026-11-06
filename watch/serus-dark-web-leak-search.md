@@ -35,3 +35,9 @@ Veille outil privacy / recherche fuites dark web.
 ### v0.1 - 2026-06-28
 
 - Integration depuis Raindrop KM Monitor.
+
+## Intérêts
+
+Fonction · Recherche de fuites de données dans le dark web.  
+Avantages · Alertes en temps réel sur des données compromises.  
+Gain · Éviter les risques de fuites de données personnelles.

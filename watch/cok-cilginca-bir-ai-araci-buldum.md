@@ -38,3 +38,9 @@ Veille Raindrop KM Monitor.
 
 - Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
 - Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.
+
+## Intérêts
+
+Fonction · Surveille et analyse des outils AI via des flux de données.  
+Avantages · Intégre des modèles de langage pour l'interprétation.  
+Gain · Identifier des outils AI sans recherche manuelle.

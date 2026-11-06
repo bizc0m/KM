@@ -30,3 +30,9 @@ Veille `#ROUGE` / competences hacker et reverse engineering.
 ## Sources
 
 - https://x.com/0xeduu/status/2070469529210163370](https://x.com/0xeduu/status/2070469529210163370
+
+## Intérêts
+
+Fonction · Développer des compétences de hacking et reverse engineering pour agents.  
+Avantages · Accès à des compétences prêtes à l'emploi en cybersécurité.  
+Gain · Éviter la création de compétences depuis zéro pour des agents.

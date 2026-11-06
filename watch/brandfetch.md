@@ -29,3 +29,9 @@ Veille Raindrop KM Monitor / ressource de marque et assets publics.
 ## Sources
 
 - https://brandfetch.com/](https://brandfetch.com/
+
+## Intérêts
+
+Fonction · Surveillance de marques et assets publics.  
+Avantages · Intégration d'API pour accès aux données.  
+Gain · Automatiser la veille et l'analyse des marques.

@@ -36,3 +36,9 @@ Veille Raindrop KM Monitor.
 
 - Objectif : integrer le backlog Raindrop KM Monitor sans copier de contenu brut.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
+
+## Intérêts
+
+Fonction · Suivre les mises à jour des modèles Gemini.  
+Avantages · Alertes sur les nouvelles versions et fonctionnalités.  
+Gain · Éviter de manquer des mises à jour clés.

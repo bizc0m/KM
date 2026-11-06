@@ -28,3 +28,9 @@ Ressource longue / reference LLM.
 ## Sources
 
 - https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+
+## Intérêts
+
+Fonction · Ressource de référence sur les LLM et Karpathy.  
+Avantages · Documentation structurée sur l'évolution des modèles.  
+Gain · Comprendre l'histoire et les tendances des LLM.

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Gère des tâches de codage via GitHub avec l'étiquette "jules".
+Fonction · Gère des tâches de codage via GitHub avec l'étiquette "jules".  
+Avantages · Intégre des sujets liés à l'intelligence artificielle et le développement logiciel.  
+Gain · Éviter de répéter des tâches de codage manuelles.
 
 ## Métadonnées
 

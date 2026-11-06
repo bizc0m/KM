@@ -49,3 +49,9 @@
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
+
+## Intérêts
+
+Fonction · Applique des shaders HLSL aux sources OBS.  
+Avantages · Paramètres dynamiques avec annotations.  
+Gain · Éviter de coder un vertex shader complet.
