@@ -1,5 +1,5 @@
-import {loadSources} from './km-sources.mjs';
 #!/usr/bin/env node
+import {loadSources} from './km-sources.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import os from 'node:os';
