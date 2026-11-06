@@ -1,6 +1,8 @@
 # Développement logiciel
 
-- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Stocke automatiquement les actions de l'agent pour une utilisation future
+- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
+Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export
+Gain · Productivité · Réutilisation · Contexte · Collaboration
 - [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Recherche et stream d'animes via des fournisseurs.
 - [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
 - [BAML](../../watch/technical-b79207044bee1b2d7073.md) — Crée des agents fiables avec des types statiques.

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Stocke automatiquement les actions de l'agent pour une utilisation future
+Fonction · Capture · Recall · Continue · Inspect  
+Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export  
+Gain · Productivité · Réutilisation · Contexte · Collaboration
 
 ## Identité
 
@@ -40,6 +42,8 @@ Stocke automatiquement les actions de l'agent pour une utilisation future
 
 - https://github.com/rohitg00/agentmemory
 - https://x.com/i/status/2056302799508697343
+- https://raw.githubusercontent.com/rohitg00/agentmemory/HEAD/assets/demo.gif
+- https://raw.githubusercontent.com/rohitg00/agentmemory/HEAD/README.md
 
 ## Traçabilité
 
@@ -71,3 +75,9 @@ Stocke automatiquement les actions de l'agent pour une utilisation future
 - Source : https://github.com/rohitg00/agentmemory
 - Analyse source : 2026-10-26T00:32:26.679Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![AgentMemory viewer: memories, knowledge graph, sessions and replay in dark and light themes](https://raw.githubusercontent.com/rohitg00/agentmemory/HEAD/assets/demo.gif)
+
+[Origine](https://raw.githubusercontent.com/rohitg00/agentmemory/HEAD/README.md)

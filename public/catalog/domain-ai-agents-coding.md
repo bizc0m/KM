@@ -1,6 +1,8 @@
 # Agents de développement
 
-- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Stocke automatiquement les actions de l'agent pour une utilisation future
+- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
+Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export
+Gain · Productivité · Réutilisation · Contexte · Collaboration
 - [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
 - [Claude SEO](../../watch/technical-2ac64d2afb7018ac9ff2.md) — Analyse un site web et propose un plan d'action pour améliorer son référencement
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.

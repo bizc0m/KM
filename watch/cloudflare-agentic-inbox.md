@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Gère les emails via Cloudflare Workers avec isolation par boîte aux lettres et stockage R2
+Fonction · Client email self-hosted avec agent AI via Workers.  
+Avantages · Isolation par boîte mail avec SQLite et R2.  
+Gain · Génère des réponses automatiques pour emails entrants.
 
 ## Identité
 
@@ -27,8 +29,8 @@ Gère les emails via Cloudflare Workers avec isolation par boîte aux lettres et
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents domain.communication domain.infrastructure.database source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA ; Communication et publication ; Infrastructure > Bases de données
+- Identifiants : domain.ai.agents domain.infrastructure.database domain.communication.messaging source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA ; Infrastructure > Bases de données ; Communication et publication > Messagerie
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -36,6 +38,8 @@ Gère les emails via Cloudflare Workers avec isolation par boîte aux lettres et
 
 - https://github.com/cloudflare/agentic-inbox
 - https://x.com/i/status/2057512199912923177
+- https://raw.githubusercontent.com/cloudflare/agentic-inbox/HEAD/demo_app.png
+- https://raw.githubusercontent.com/cloudflare/agentic-inbox/HEAD/README.md
 
 ## Traçabilité
 
@@ -71,3 +75,9 @@ Gère les emails via Cloudflare Workers avec isolation par boîte aux lettres et
 - Source : https://github.com/cloudflare/agentic-inbox
 - Analyse source : 2026-10-26T03:09:26.947Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![Agentic Inbox screenshot](https://raw.githubusercontent.com/cloudflare/agentic-inbox/HEAD/demo_app.png)
+
+[Origine](https://raw.githubusercontent.com/cloudflare/agentic-inbox/HEAD/README.md)

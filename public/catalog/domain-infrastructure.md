@@ -1,6 +1,8 @@
 # Infrastructure
 
-- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Gère les emails via Cloudflare Workers avec isolation par boîte aux lettres et stockage R2
+- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Fonction · Client email self-hosted avec agent AI via Workers.
+Avantages · Isolation par boîte mail avec SQLite et R2.
+Gain · Génère des réponses automatiques pour emails entrants.
 - [arcada-backend](../../watch/technical-672e5954b0a4b96827a6.md) — Démarrer le serveur backend pour la plateforme de design d'intérieur
 - [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
 - [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.
@@ -20,9 +22,9 @@
 - [asn](../../watch/technical-6343df31e02d35267485.md) — Analyse de réputation IP et menace
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Découvrir, évaluer et exécuter 500+ modèles multimodaux en un clic.
 - [Old Photo Restore](../../watch/technical-1a1b1c01fccbb652af5e.md) — Restaure des photos anciennes avec un moteur d'IA.
-- [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md)
+- [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md) — Génère des vidéos AI en quelques clics.
 - [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Analyse de type rapide avec diagnostics précis pour code Python
-- [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
+- [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md) — Générer des vidéos en quelques clics avec un interface intuitive.
 - [Cabal Proxy Harvester](../../watch/technical-dee6cae45f8c3798057c.md) — Collecte des proxies fonctionnels pour usage OSINT
 - [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Identifier rapidement un IP via proxycheck.io pour détecter proxy, VPN, TOR ou serveur.
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications et services sur des serveurs propres avec gestion automatisée.

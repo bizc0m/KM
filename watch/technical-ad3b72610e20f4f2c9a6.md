@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Génère des vidéos AI en quelques clics.
 
 ## Identité
 

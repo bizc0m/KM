@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Construire des applications LLM fiables avec des principes structurés
+Fonction · Définir des principes pour construire des applications LLM fiables et scalables.  
+Avantages · Structurer la logique et les interactions avec les outils.  
+Gain · Réduire la complexité et améliorer la maintenance du code.
 
 ## Identité
 
@@ -36,6 +38,8 @@ Construire des applications LLM fiables avec des principes structurés
 
 - https://github.com/humanlayer/12-factor-agents
 - https://x.com/i/status/2056189978154246290
+- https://github.com/user-attachments/assets/23286ad8-7bef-4902-b371-88ff6a22e998
+- https://raw.githubusercontent.com/humanlayer/12-factor-agents/HEAD/README.md
 
 ## Traçabilité
 
@@ -58,3 +62,9 @@ Construire des applications LLM fiables avec des principes structurés
 - Source : https://github.com/humanlayer/12-factor-agents
 - Analyse source : 2026-10-26T00:05:10.730Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![Screenshot 2025-04-03 at 2 49 07 PM](https://github.com/user-attachments/assets/23286ad8-7bef-4902-b371-88ff6a22e998)
+
+[Origine](https://raw.githubusercontent.com/humanlayer/12-factor-agents/HEAD/README.md)

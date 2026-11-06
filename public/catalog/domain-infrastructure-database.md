@@ -1,6 +1,8 @@
 # Bases de données
 
-- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Gère les emails via Cloudflare Workers avec isolation par boîte aux lettres et stockage R2
+- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Fonction · Client email self-hosted avec agent AI via Workers.
+Avantages · Isolation par boîte mail avec SQLite et R2.
+Gain · Génère des réponses automatiques pour emails entrants.
 - [arcada-backend](../../watch/technical-672e5954b0a4b96827a6.md) — Démarrer le serveur backend pour la plateforme de design d'intérieur
 - [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.
 - [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les rendez-vous sans dépendance commerciale.
@@ -8,8 +10,8 @@
 - [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Crée des portraits professionnels avec des prompts textuels.
 - [AICLIPS Studio](../../watch/technical-937b200dbfd957aae460.md) — Extrait automatiquement des highlights viraux depuis des vidéos YouTube.
 - [Old Photo Restore](../../watch/technical-1a1b1c01fccbb652af5e.md) — Restaure des photos anciennes avec un moteur d'IA.
-- [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md)
-- [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
+- [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md) — Génère des vidéos AI en quelques clics.
+- [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md) — Générer des vidéos en quelques clics avec un interface intuitive.
 - [Cabal Proxy Harvester](../../watch/technical-dee6cae45f8c3798057c.md) — Collecte des proxies fonctionnels pour usage OSINT
 - [MoneyPrinter](../../watch/technical-9bd95807fef95eea1d8c.md) — Génère automatiquement des vidéos courtes pour YouTube à partir d'un sujet.
 - [molmass](../../watch/technical-61da906d94d21f2f647a.md) — Calculer la masse moléculaire et la composition élémentaire d'une molécule.

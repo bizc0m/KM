@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet la reconstruction 3D de plans avec précision et contours nets.
+Fonction · Représentation 3D des plans via des rectangles avec canaux alpha.  
+Avantages · Combinaison des avantages des représentations 2D et 3D.  
+Gain · Reconstruction précise de plans 3D à partir de vidéos monoculaires.
 
 ## Identité
 

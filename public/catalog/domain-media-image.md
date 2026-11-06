@@ -1,6 +1,8 @@
 # Images et graphisme
 
-- [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Génère et publie automatiquement du contenu sur plusieurs plateformes sociales.
+- [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Fonction · Automatisation de la création et diffusion de contenu.
+Avantages · Intégration de modèles de IA pour vidéo, image et texte.
+Gain · Publication simultanée sur 14 plateformes sans configuration.
 - [DarkFeat](../../watch/technical-74dc45b5f749db3d46d0.md) — Analyse des images RAW sombres avec détection de caractéristiques robuste
 - [DI-PCG](../../watch/technical-80c1535b6e69bb84082c.md) — Crée des modèles 3D à partir d'images avec des modèles pré-entraînés.
 - [diffusers](../../watch/technical-f977c26fe64e30184a6f.md) — Génère des images à partir de texte avec des modèles préentraînés.
@@ -37,7 +39,7 @@
 - [Seedance 2.5 API](../../watch/technical-4f09686ddcb30b511532.md) — Génère des vidéos AI à partir de textes et d'images
 - [stable-diffusion.cpp](../../watch/technical-94c4f976278cef504540.md) — Génère des images à partir de modèles de diffusion sans dépendances externes
 - [TikTok-User-Info-Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
-- [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
+- [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md) — Générer des vidéos en quelques clics avec un interface intuitive.
 - [Vibe Workflow](../../watch/technical-6ccb86641ecc996a74b9.md) — Crée des workflows d'IA visuels sans abonnement
 - [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence visuelle et narrative.
 - [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Génère et gère des contenus multimédia avec des modèles optimisés pour faible VRAM.

@@ -1,7 +1,11 @@
 # Communication et publication
 
-- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Gère les emails via Cloudflare Workers avec isolation par boîte aux lettres et stockage R2
-- [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Génère et publie automatiquement du contenu sur plusieurs plateformes sociales.
+- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Fonction · Client email self-hosted avec agent AI via Workers.
+Avantages · Isolation par boîte mail avec SQLite et R2.
+Gain · Génère des réponses automatiques pour emails entrants.
+- [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Fonction · Automatisation de la création et diffusion de contenu.
+Avantages · Intégration de modèles de IA pour vidéo, image et texte.
+Gain · Publication simultanée sur 14 plateformes sans configuration.
 - [Claude Ads](../../watch/technical-8eec6dc58fee3af126d1.md) — Analyse les données pour identifier les problèmes et optimiser les campagnes.
 - [Ghost](../../watch/technical-c750bc2f9f73e8e1f5bd.md) — Crée un site de publication avec un CMS open source
 - [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones

@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-06T16:49:00.525Z",
+  "at": "2026-11-06T16:49:17.920Z",
   "count": 658,
   "rows": [
     {
@@ -41,12 +41,24 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
+        },
+        {
+          "url": "https://github.com/user-attachments/assets/23286ad8-7bef-4902-b371-88ff6a22e998",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/humanlayer/12-factor-agents/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/humanlayer/12-factor-agents",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Construire des applications LLM fiables avec des principes structurés",
+      "summary": "Fonction · Définir des principes pour construire des applications LLM fiables et scalables.  \nAvantages · Structurer la logique et les interactions avec les outils.  \nGain · Réduire la complexité et améliorer la maintenance du code.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -374,7 +386,7 @@
         }
       ],
       "cardTitle": "12-factor-agents",
-      "cardInterest": "Construire des applications LLM fiables avec des principes structurés"
+      "cardInterest": "Fonction · Définir des principes pour construire des applications LLM fiables et scalables.\nAvantages · Structurer la logique et les interactions avec les outils.\nGain · Réduire la complexité et améliorer la maintenance du code."
     },
     {
       "id": "watch-technical-1e83b6596b947b071d50-md",
@@ -1726,12 +1738,24 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/cloudflare/agentic-inbox/HEAD/demo_app.png",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/cloudflare/agentic-inbox/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/cloudflare/agentic-inbox",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Gère les emails via Cloudflare Workers avec isolation par boîte aux lettres et stockage R2",
+      "summary": "Fonction · Client email self-hosted avec agent AI via Workers.  \nAvantages · Isolation par boîte mail avec SQLite et R2.  \nGain · Génère des réponses automatiques pour emails entrants.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -1742,8 +1766,8 @@
         "facets": {
           "domain": [
             "domain.ai.agents",
-            "domain.communication",
-            "domain.infrastructure.database"
+            "domain.infrastructure.database",
+            "domain.communication.messaging"
           ],
           "capability": [],
           "compatibility": [],
@@ -1814,24 +1838,6 @@
             "path": []
           },
           {
-            "id": "domain.communication",
-            "label": "Communication et publication",
-            "parent": "domain",
-            "aliases": [
-              "#publication-sociale",
-              "#social-media",
-              "#email"
-            ],
-            "patterns": [
-              "publication.*(?:contenus|reseaux)",
-              "client email"
-            ],
-            "facet": "domain",
-            "path": [
-              "Communication et publication"
-            ]
-          },
-          {
             "id": "domain.infrastructure.database",
             "label": "Bases de données",
             "parent": "domain.infrastructure",
@@ -1871,6 +1877,43 @@
             "facet": "domain",
             "path": [
               "Infrastructure"
+            ]
+          },
+          {
+            "id": "domain.communication.messaging",
+            "label": "Messagerie",
+            "parent": "domain.communication",
+            "aliases": [
+              "#smtp",
+              "#slack"
+            ],
+            "patterns": [
+              "e.mails?",
+              "\\bslack\\b",
+              "rechercher des tweets"
+            ],
+            "facet": "domain",
+            "path": [
+              "Communication et publication",
+              "Messagerie"
+            ]
+          },
+          {
+            "id": "domain.communication",
+            "label": "Communication et publication",
+            "parent": "domain",
+            "aliases": [
+              "#publication-sociale",
+              "#social-media",
+              "#email"
+            ],
+            "patterns": [
+              "publication.*(?:contenus|reseaux)",
+              "client email"
+            ],
+            "facet": "domain",
+            "path": [
+              "Communication et publication"
             ]
           },
           {
@@ -1992,24 +2035,6 @@
           "path": []
         },
         {
-          "id": "domain.communication",
-          "label": "Communication et publication",
-          "parent": "domain",
-          "aliases": [
-            "#publication-sociale",
-            "#social-media",
-            "#email"
-          ],
-          "patterns": [
-            "publication.*(?:contenus|reseaux)",
-            "client email"
-          ],
-          "facet": "domain",
-          "path": [
-            "Communication et publication"
-          ]
-        },
-        {
           "id": "domain.infrastructure.database",
           "label": "Bases de données",
           "parent": "domain.infrastructure",
@@ -2049,6 +2074,43 @@
           "facet": "domain",
           "path": [
             "Infrastructure"
+          ]
+        },
+        {
+          "id": "domain.communication.messaging",
+          "label": "Messagerie",
+          "parent": "domain.communication",
+          "aliases": [
+            "#smtp",
+            "#slack"
+          ],
+          "patterns": [
+            "e.mails?",
+            "\\bslack\\b",
+            "rechercher des tweets"
+          ],
+          "facet": "domain",
+          "path": [
+            "Communication et publication",
+            "Messagerie"
+          ]
+        },
+        {
+          "id": "domain.communication",
+          "label": "Communication et publication",
+          "parent": "domain",
+          "aliases": [
+            "#publication-sociale",
+            "#social-media",
+            "#email"
+          ],
+          "patterns": [
+            "publication.*(?:contenus|reseaux)",
+            "client email"
+          ],
+          "facet": "domain",
+          "path": [
+            "Communication et publication"
           ]
         },
         {
@@ -2126,7 +2188,7 @@
         }
       ],
       "cardTitle": "Agentic Inbox",
-      "cardInterest": "Gère les emails via Cloudflare Workers avec isolation par boîte aux lettres et stockage R2"
+      "cardInterest": "Fonction · Client email self-hosted avec agent AI via Workers.\nAvantages · Isolation par boîte mail avec SQLite et R2.\nGain · Génère des réponses automatiques pour emails entrants."
     },
     {
       "id": "watch-technical-ea311829e667eb1acdcc-md",
@@ -2171,12 +2233,24 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/rohitg00/agentmemory/HEAD/assets/demo.gif",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/rohitg00/agentmemory/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/rohitg00/agentmemory",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Stocke automatiquement les actions de l'agent pour une utilisation future",
+      "summary": "Fonction · Capture · Recall · Continue · Inspect  \nAvantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export  \nGain · Productivité · Réutilisation · Contexte · Collaboration",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -2786,7 +2860,7 @@
         }
       ],
       "cardTitle": "agentmemory",
-      "cardInterest": "Stocke automatiquement les actions de l'agent pour une utilisation future"
+      "cardInterest": "Fonction · Capture · Recall · Continue · Inspect\nAvantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export\nGain · Productivité · Réutilisation · Contexte · Collaboration"
     },
     {
       "id": "watch-technical-252e5a55f7318a7eec1e-md",
@@ -2836,7 +2910,7 @@
       "github": "https://github.com/yikart/aitoearn",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Génère et publie automatiquement du contenu sur plusieurs plateformes sociales.",
+      "summary": "Fonction · Automatisation de la création et diffusion de contenu.  \nAvantages · Intégration de modèles de IA pour vidéo, image et texte.  \nGain · Publication simultanée sur 14 plateformes sans configuration.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -3430,7 +3504,7 @@
         }
       ],
       "cardTitle": "AiToEarn",
-      "cardInterest": "Génère et publie automatiquement du contenu sur plusieurs plateformes sociales."
+      "cardInterest": "Fonction · Automatisation de la création et diffusion de contenu.\nAvantages · Intégration de modèles de IA pour vidéo, image et texte.\nGain · Publication simultanée sur 14 plateformes sans configuration."
     },
     {
       "id": "watch-technical-ca3c69add82754901cf6-md",
@@ -3478,7 +3552,7 @@
       "github": "https://github.com/thu-lyj-lab/alphatablets",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet la reconstruction 3D de plans avec précision et contours nets.",
+      "summary": "Fonction · Représentation 3D des plans via des rectangles avec canaux alpha.  \nAvantages · Combinaison des avantages des représentations 2D et 3D.  \nGain · Reconstruction précise de plans 3D à partir de vidéos monoculaires.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -3812,7 +3886,7 @@
         }
       ],
       "cardTitle": "AlphaTablets",
-      "cardInterest": "Permet la reconstruction 3D de plans avec précision et contours nets."
+      "cardInterest": "Fonction · Représentation 3D des plans via des rectangles avec canaux alpha.\nAvantages · Combinaison des avantages des représentations 2D et 3D.\nGain · Reconstruction précise de plans 3D à partir de vidéos monoculaires."
     },
     {
       "id": "watch-technical-14991362ba170a15ca07-md",
@@ -74904,7 +74978,7 @@
       "github": "https://github.com/samuraigpt/seedance-2-generator",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Génère des vidéos AI en quelques clics.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -75343,7 +75417,7 @@
         }
       ],
       "cardTitle": "seedance-2-generator",
-      "cardInterest": ""
+      "cardInterest": "Génère des vidéos AI en quelques clics."
     },
     {
       "id": "watch-technical-7e693280a600ec11a89d-md",
@@ -78744,7 +78818,7 @@
       "github": "https://github.com/samuraigpt/veo4-video-generator",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Générer des vidéos en quelques clics avec un interface intuitive.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -79265,7 +79339,7 @@
         }
       ],
       "cardTitle": "Veo 3.1 Studio Generator",
-      "cardInterest": ""
+      "cardInterest": "Générer des vidéos en quelques clics avec un interface intuitive."
     },
     {
       "id": "watch-technical-6ccb86641ecc996a74b9-md",

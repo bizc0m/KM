@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère et publie automatiquement du contenu sur plusieurs plateformes sociales.
+Fonction · Automatisation de la création et diffusion de contenu.  
+Avantages · Intégration de modèles de IA pour vidéo, image et texte.  
+Gain · Publication simultanée sur 14 plateformes sans configuration.
 
 ## Identité
 

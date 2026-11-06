@@ -1,14 +1,14 @@
 {
-  "at": "2026-11-04T14:52:50.938Z",
+  "at": "2026-11-06T16:49:18.118Z",
   "scope": "public-index-only",
   "fiches": 658,
-  "sourceReferences": 2617,
+  "sourceReferences": 2623,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
   "pendingReview": 629,
   "counts": {
-    "interest-missing": 174,
+    "interest-missing": 172,
     "keywords-missing": 91,
     "domain-unqualified": 119,
     "primary-identity-unqualified": 20,
@@ -1150,7 +1150,6 @@
       "id": "watch-technical-ad3b72610e20f4f2c9a6-md",
       "title": "seedance-2-generator",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1224,7 +1223,6 @@
       "id": "watch-technical-75510e336991262df5d4-md",
       "title": "Veo 3.1 Studio Generator",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },

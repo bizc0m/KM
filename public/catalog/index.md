@@ -52,7 +52,7 @@
 - [Bases de données](domain-infrastructure-database.md) — 17 fiches
 - [Analyse de fréquentation](domain-data-analytics.md) — 2 fiches
 - [Publication de contenus](domain-communication-publishing.md) — 2 fiches
-- [Messagerie](domain-communication-messaging.md) — 7 fiches
+- [Messagerie](domain-communication-messaging.md) — 8 fiches
 - [Organisation du travail](domain-data-organization.md) — 14 fiches
 - [Outils de navigateur](domain-dev-browser.md) — 8 fiches
 - [Productivité](domain-productivity.md) — 1 fiches

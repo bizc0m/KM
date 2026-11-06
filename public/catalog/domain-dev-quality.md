@@ -1,6 +1,8 @@
 # Qualité du code
 
-- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Stocke automatiquement les actions de l'agent pour une utilisation future
+- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
+Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export
+Gain · Productivité · Réutilisation · Contexte · Collaboration
 - [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Génère des données 3D à partir de points de contrôle.
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
 - [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage sans interface utilisateur.

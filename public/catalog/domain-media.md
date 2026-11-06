@@ -1,7 +1,11 @@
 # Audio, vidéo et création
 
-- [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Génère et publie automatiquement du contenu sur plusieurs plateformes sociales.
-- [AlphaTablets](../../watch/technical-ca3c69add82754901cf6.md) — Permet la reconstruction 3D de plans avec précision et contours nets.
+- [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Fonction · Automatisation de la création et diffusion de contenu.
+Avantages · Intégration de modèles de IA pour vidéo, image et texte.
+Gain · Publication simultanée sur 14 plateformes sans configuration.
+- [AlphaTablets](../../watch/technical-ca3c69add82754901cf6.md) — Fonction · Représentation 3D des plans via des rectangles avec canaux alpha.
+Avantages · Combinaison des avantages des représentations 2D et 3D.
+Gain · Reconstruction précise de plans 3D à partir de vidéos monoculaires.
 - [Assembler3d](../../watch/technical-674690abd042252d5376.md) — Assemble des pièces 3D à partir de données GLB et PNG.
 - [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Génère des données 3D à partir de points de contrôle.
 - [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md) — Génère des synthèses vocales en plusieurs langues avec précision.
@@ -66,11 +70,11 @@
 - [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
 - [Pixelrelay](../../watch/technical-140649096e6d8069b2f4.md) — Gère les erreurs de fournisseurs avec un système de failover.
 - [Seedance 2.5 API](../../watch/technical-4f09686ddcb30b511532.md) — Génère des vidéos AI à partir de textes et d'images
-- [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md)
+- [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md) — Génère des vidéos AI en quelques clics.
 - [stable-diffusion.cpp](../../watch/technical-94c4f976278cef504540.md) — Génère des images à partir de modèles de diffusion sans dépendances externes
 - [tiktok-timestamp](../../watch/technical-73a929f1ca2e1edf16a9.md) — Récupère l'horodatage des vidéos TikTok supprimées.
 - [TikTok-User-Info-Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
-- [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md)
+- [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md) — Générer des vidéos en quelques clics avec un interface intuitive.
 - [Vibe Workflow](../../watch/technical-6ccb86641ecc996a74b9.md) — Crée des workflows d'IA visuels sans abonnement
 - [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence visuelle et narrative.
 - [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Génère et gère des contenus multimédia avec des modèles optimisés pour faible VRAM.

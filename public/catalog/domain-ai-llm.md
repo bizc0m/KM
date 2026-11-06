@@ -1,6 +1,8 @@
 # Modèles de langage
 
-- [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Construire des applications LLM fiables avec des principes structurés
+- [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Fonction · Définir des principes pour construire des applications LLM fiables et scalables.
+Avantages · Structurer la logique et les interactions avec les outils.
+Gain · Réduire la complexité et améliorer la maintenance du code.
 - [Browser-Use](../../watch/browser-use-web-automation.md) — Automatiser des tâches web avec un LLM
 - [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage sans interface utilisateur.
 - [DeepSeek-Reasonix](../../watch/technical-c292611ef4a4a5e37455.md) — Exécute des tâches de codage avec un modèle d'IA configuré

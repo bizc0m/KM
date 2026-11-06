@@ -3,7 +3,9 @@
 - [agency-agents](../../watch/technical-1e83b6596b947b071d50.md) — Fonction · Profils d’agents Dev, design, marketing.
 Avantages · Consignes et livrables prédéfinis.
 Gain · Adapter au projet, lancer les tâches rapidement.
-- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Stocke automatiquement les actions de l'agent pour une utilisation future
+- [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
+Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export
+Gain · Productivité · Réutilisation · Contexte · Collaboration
 - [headroom](../../watch/technical-668711a6e10728221dfc.md) — Compresses data to reduce token costs while preserving content
 - [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Permet une collaboration équipe via un agent partagé par canal
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes

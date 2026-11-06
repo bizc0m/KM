@@ -1,6 +1,8 @@
 # Création 3D
 
-- [AlphaTablets](../../watch/technical-ca3c69add82754901cf6.md) — Permet la reconstruction 3D de plans avec précision et contours nets.
+- [AlphaTablets](../../watch/technical-ca3c69add82754901cf6.md) — Fonction · Représentation 3D des plans via des rectangles avec canaux alpha.
+Avantages · Combinaison des avantages des représentations 2D et 3D.
+Gain · Reconstruction précise de plans 3D à partir de vidéos monoculaires.
 - [Assembler3d](../../watch/technical-674690abd042252d5376.md) — Assemble des pièces 3D à partir de données GLB et PNG.
 - [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Génère des données 3D à partir de points de contrôle.
 - [DI-PCG](../../watch/technical-80c1535b6e69bb84082c.md) — Crée des modèles 3D à partir d'images avec des modèles pré-entraînés.
