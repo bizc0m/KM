@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Créez des vidéos via du code React, gagnez du temps et plus de contrôle.
+Fonction · Créer des vidéos via agent, interactif ou programmation.  
+Avantages · Intégration avec VS Code et Codex.  
+Gain · Générer des vidéos sans logiciel dédié.
 
 ## Identité
 
@@ -29,8 +31,8 @@ Créez des vidéos via du code React, gagnez du temps et plus de contrôle.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents domain.media.video domain.dev.web capability.generate.video source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA ; Audio, vidéo et création > Vidéo ; Développement logiciel > Développement web
+- Identifiants : domain.media.video domain.dev.web domain.ai.agents.coding capability.generate.video source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Développement logiciel > Développement web ; Intelligence artificielle > Agents IA > Agents de développement
 - Fonctions : Générer des contenus > Générer une vidéo
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Calculer la masse moléculaire et la composition élémentaire d'une molécule.
+Fonction · Calculer masse moléculaire, composition élémentaire, spectre de masse.  
+Avantages · Données isotopiques et masses atomiques à jour.  
+Gain · Analyser formule chimique, obtenir résultats sans configuration.
 
 ## Identité
 

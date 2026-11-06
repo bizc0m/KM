@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Exécute des trades automatisés sur Polymarket
+Fonction · Exécution d'ordres, analyse de stratégies, ingestion de données.  
+Avantages · Infrastructure complète avec ClickHouse et Redpanda.  
+Gain · Déployer des services en quelques commandes.
 
 ## Métadonnées
 

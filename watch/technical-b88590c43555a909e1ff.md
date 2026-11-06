@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyse de données en temps réel pour comprendre les tendances et comportements.
+Fonction · Recherche d'informations via des sources sociales et techniques.  
+Avantages · Synthèse basée sur l'engagement réel des utilisateurs.  
+Gain · Comparer des outils ou comprendre des sujets en 30 secondes.
 
 ## Métadonnées
 

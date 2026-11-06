@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-permet d'obtenir le chemin des certificats SSL pour vérification TLS
+Fonction · Fournit des certificats SSL pour vérifier l'identité des serveurs TLS.  
+Avantages · Certificats racines Mozilla prédéfinis et vérifiés.  
+Gain · Éviter de configurer manuellement les certificats SSL.
 
 ## Identité
 
@@ -29,8 +31,8 @@ permet d'obtenir le chemin des certificats SSL pour vérification TLS
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified compatibility.language.python source.noteplan source.github source.x lifecycle.active
-- Sujets : À qualifier
+- Identifiants : domain.infrastructure compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Sujets : Infrastructure
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

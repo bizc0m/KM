@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des wheels PyOpenGL pour Windows avec freeglut et GLE
+Fonction · Construire des wheels PyOpenGL pour Windows avec freeglut et GLE.  
+Avantages · Compilations préparées pour Python 3.14 64-bit.  
+Gain · Installer directement les whl sans configuration supplémentaire.
 
 ## Identité
 

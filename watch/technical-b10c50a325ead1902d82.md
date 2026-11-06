@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Convertir des polices OpenType en JSON pour modification et optimisation.
+Fonction · Analyse et création de polices OpenType en JSON.  
+Avantages · Support complet des fonctionnalités OpenType et optimisation rapide.  
+Gain · Générer des polices en quelques secondes avec des paramètres précis.
 
 ## Identité
 

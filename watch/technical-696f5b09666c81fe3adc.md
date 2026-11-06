@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet aux agents d'intégrer instantanément la plateforme pour trader.
+Fonction · Intégration instantanée des agents IA.  
+Avantages · Signaux et stratégies prédéfinis.  
+Gain · Lancer des trades en quelques secondes.
 
 ## Métadonnées
 

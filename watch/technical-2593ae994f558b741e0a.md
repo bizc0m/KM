@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Transforme du texte en visuels pour faciliter la communication des idées
+Fonction · Génère des visuels à partir de texte pour illustrer des idées.  
+Avantages · Intégre des outils de synthèse et clonage vocal.  
+Gain · Créer des vidéos sans script, en utilisant la voix de l'utilisateur.
 
 ## Métadonnées
 
@@ -430,7 +432,4 @@ Source : https://elevenlabs.io/eleven-music-api ; niveau 2.
 
 ### Integration de la technologie de synthèse vocale ElevenLabs dans les services publics ukrainiens
 
-Partenariat entre le ministère ukrainien de la Transformation numérique et ElevenLabs pour intégrer des interfaces vocales dans les services publics.
-
-- Ajout de fonctionnalités vocales au portail Diia et aux applications.
-- Amélioration de l'accessibilité des services publics via
+Partenariat entre le ministère ukrainien de la Transformation numérique et ElevenLabs pour intégrer des interfaces vocales dans les services

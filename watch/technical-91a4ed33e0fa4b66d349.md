@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Trouver des sous-domaines d'un site web.
+Fonction · Enumère des sous-domaines via des moteurs de recherche.  
+Avantages · Intègre subbrute pour force brute avec liste de mots.  
+Gain · Lancer l'analyse de sous-domaines sans configuration complexe.
 
 ## Identité
 

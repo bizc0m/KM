@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère un script à partir d'un sujet avec GPT
+Fonction · Génère des vidéos avec un visage animé à partir d'un sujet.  
+Avantages · Utilise GPT pour le script, gTTS pour la voix, SadTalker pour l'animation.  
+Gain · Créer une vidéo complète en quelques étapes sans visage réel.
 
 ## Métadonnées
 
@@ -25,8 +27,8 @@ Génère un script à partir d'un sujet avec GPT
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai domain.media.video capability.generate.video source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
+- Identifiants : domain.ai domain.media.video domain.media.audio capability.generate.video source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Audio
 - Fonctions : Générer des contenus > Générer une vidéo
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

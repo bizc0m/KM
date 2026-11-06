@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Builds statiques d'FFmpeg pour Windows et Linux.  
+Avantages · Patches intégrés pour l'intégration avec yt-dlp.  
+Gain · Éviter la compilation pour utiliser yt-dlp.
 
 ## Identité
 
@@ -27,10 +29,10 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.review
+- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.active
 - Sujets : À qualifier
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
 
 ## Sources
 

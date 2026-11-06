@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Recherche des comptes associés à une adresse email sans alerte.
+Fonction · Rechercher des comptes existants à partir d'une adresse email.  
+Avantages · Analyse des profils sans alerte du ciblé.  
+Gain · Identifier des comptes via reconnaissance faciale sur GitHub.
 
 ## Identité
 
@@ -38,6 +40,9 @@ Recherche des comptes associés à une adresse email sans alerte.
 
 - https://github.com/n0rz3/eyes
 - https://x.com/i/status/2056325264246706649
+- https://raw.githubusercontent.com/n0rz3/eyes/HEAD/assets/capture.png
+- https://raw.githubusercontent.com/n0rz3/eyes/HEAD/README.md
+- https://raw.githubusercontent.com/n0rz3/eyes/HEAD/assets/demo.gif
 
 ## Traçabilité
 
@@ -69,3 +74,13 @@ Recherche des comptes associés à une adresse email sans alerte.
 - Source : https://github.com/n0rz3/eyes
 - Analyse source : 2026-10-25T23:19:14.067Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![Aperçu du produit](https://raw.githubusercontent.com/n0rz3/eyes/HEAD/assets/capture.png)
+
+[Origine](https://raw.githubusercontent.com/n0rz3/eyes/HEAD/README.md)
+
+![Aperçu du produit](https://raw.githubusercontent.com/n0rz3/eyes/HEAD/assets/demo.gif)
+
+[Origine](https://raw.githubusercontent.com/n0rz3/eyes/HEAD/README.md)

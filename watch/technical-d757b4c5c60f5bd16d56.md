@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Trouver des alternatives open-source aux outils SaaS.
+Fonction · Catalogue d'applications open-source pour workflows créatifs et SaaS.  
+Avantages · Comparaisons honnêtes et projets étudiés pour remplacer des outils payants.  
+Gain · Lancer des tâches sans abonnement, utiliser des outils libres.
 
 ## Identité
 

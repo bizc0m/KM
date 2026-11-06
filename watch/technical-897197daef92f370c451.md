@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Configure l'environnement de codage avec des outils d'assistance.
+Fonction · Exécuter des tâches de codage via terminal, éditeur, chat ou application.  
+Avantages · Intégration avec VS Code, Zed, JetBrains, Telegram, WeChat.  
+Gain · Lancer des tâches sans configuration, utiliser des modèles Qwen locaux ou distants.
 
 ## Identité
 
@@ -40,6 +42,8 @@ Configure l'environnement de codage avec des outils d'assistance.
 
 - https://github.com/qwenlm/qwen-code
 - https://x.com/i/status/2056692982871388491
+- https://img.alicdn.com/imgextra/i2/O1CN01K0nwj41RM1Il8kB0t_!!6000000002096-2-tps-1544-1060.png
+- https://raw.githubusercontent.com/qwenlm/qwen-code/HEAD/README.md
 
 ## Traçabilité
 
@@ -62,3 +66,9 @@ Configure l'environnement de codage avec des outils d'assistance.
 - Source : https://github.com/qwenlm/qwen-code
 - Analyse source : 2026-10-26T02:52:41.490Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![Qwen Code terminal interface](https://img.alicdn.com/imgextra/i2/O1CN01K0nwj41RM1Il8kB0t_!!6000000002096-2-tps-1544-1060.png)
+
+[Origine](https://raw.githubusercontent.com/qwenlm/qwen-code/HEAD/README.md)

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Supprime des éléments indésirables d'images en ligne
+Fonction · Supprime des éléments indésirables d'une image en ligne.  
+Avantages · Utilise un modèle d'intelligence artificielle pour la retouche.  
+Gain · Éviter de redessiner ou recadrer manuellement des images.
 
 ## Métadonnées
 

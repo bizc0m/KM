@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Orchestre des recherches OSINT avec un modèle LLM pour produire un rapport structuré
+Fonction · Orchestre des recherches OSINT avec modèle LLM.  
+Avantages · Génère rapport structuré à partir de sources ouvertes.  
+Gain · Éviter de compiler manuellement des informations.
 
 ## Métadonnées
 

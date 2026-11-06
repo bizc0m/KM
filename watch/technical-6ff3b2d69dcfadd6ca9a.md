@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Ajuste des données temporelles avec des modèles exponentiels et harmoniques.
+Fonction · Fitting de fonctions exponentielles et harmoniques.  
+Avantages · Algorithmes analytiques avec précision.  
+Gain · Analyser des images en domaine temporel sans prétraitement.
 
 ## Identité
 

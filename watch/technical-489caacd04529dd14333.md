@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Lire et extraire des données de mesures TCSPC depuis des fichiers PTU.
+Fonction · Lire/écrire PTU et fichiers associés.  
+Avantages · Décodage des histogrammes et métadonnées.  
+Gain · Exporter des données en format PTU sans manipulation.
 
 ## Identité
 
@@ -27,8 +29,8 @@ Lire et extraire des données de mesures TCSPC depuis des fichiers PTU.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.image source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Images et graphisme
+- Identifiants : domain.media.image domain.dev.quality source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Images et graphisme ; Développement logiciel > Qualité du code
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

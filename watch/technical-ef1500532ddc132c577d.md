@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Convertir une idée en court-métrage sans édition
+Fonction · Génère des courts-métrages à partir d'idées.  
+Avantages · Intégre des outils de planification et de calendrier.  
+Gain · Lancer la création sans édition vidéo préalable.
 
 ## Métadonnées
 
@@ -25,8 +27,8 @@ Convertir une idée en court-métrage sans édition
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai domain.media.video capability.generate.video source.noteplan source.x lifecycle.active
-- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
+- Identifiants : domain.ai domain.media.video domain.data.organization capability.generate.video source.noteplan source.x lifecycle.active
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo ; Données et connaissances > Organisation du travail
 - Fonctions : Générer des contenus > Générer une vidéo
 - Provenance : NotePlan Calendar ; X / Twitter
 - État : Actif

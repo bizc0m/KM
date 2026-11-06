@@ -113,103 +113,254 @@ Gain · Créer des démos sans abonnement SaaS.
 - [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
 Avantages · Intégration de fournisseurs LLM via une API unifiée.
 Gain · Exécuter des tâches de codage sans configuration complexe.
-- [Pi](../../watch/technical-c133b93b912dffd605a2.md) — Permet d'automatiser des tâches complexes avec un agent d'intelligence artificielle.
+- [Pi](../../watch/technical-c133b93b912dffd605a2.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
+Avantages · Intégration de fournisseurs LLM via une API unifiée.
+Gain · Lancer des tâches de codage avec un compte ou une clé API.
 - [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Protection des données sensibles avant l'envoi vers un API non contrôlé
-- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Créez des vidéos via du code React, gagnez du temps et plus de contrôle.
-- [rtk](../../watch/technical-d07066251c23560c4586.md) — Filtre les sorties de commande pour réduire les tokens d'entrée.
-- [ShotGlass](../../watch/technical-8ae8d27d1412df2cdc2d.md) — enregistrer et éditer des captures d'écran avec IA
-- [Skills For Real Engineers](../../watch/technical-637c99109af31ed2fe7b.md) — Aide à l'alignement entre utilisateur et agent via des sessions d'interrogation
+- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Fonction · Créer des vidéos via agent, interactif ou programmation.
+Avantages · Intégration avec VS Code et Codex.
+Gain · Générer des vidéos sans logiciel dédié.
+- [rtk](../../watch/technical-d07066251c23560c4586.md) — Fonction · Comprime et filtre les sorties des commandes avant lecture par l'agent.
+Avantages · Réduit les tokens d'entrée via compression et regroupement.
+Gain · Éviter de transmettre des données redondantes à l'agent.
+- [ShotGlass](../../watch/technical-8ae8d27d1412df2cdc2d.md) — Fonction · Enregistrer et éditer des captures d'écran avec IA.
+Avantages · Intégration avec NotePlan et X/Twitter.
+Gain · Automatiser la gestion des captures d'écran.
+- [Skills For Real Engineers](../../watch/technical-637c99109af31ed2fe7b.md) — Fonction · Installer et configurer des compétences pour agents.
+Avantages · Adaptation par projet, mise à jour automatique.
+Gain · Configurer le suivi des tickets, lancer les tâches rapidement.
 - [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée des applications sans installation locale avec des outils open source.
 - [UI-TARS-desktop](../../watch/technical-bba9c08d417b5cda22d8.md) — Contrôle à distance des navigateurs et ordinateurs via interface graphique
 - [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Cloner des voix à partir d'audio
-- [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Ajoute des timestamps précis aux mots de la transcription
-- [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md)
-- [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Crée des portraits professionnels avec des prompts textuels.
-- [AI Logo Studio](../../watch/technical-a20888d5cb6a1c399300.md) — Crée des logos professionnels à partir de textes ou de croquis en quelques secondes.
-- [AI Meme Studio](../../watch/technical-28efa5970d38e5616943.md) — Crée des contenus viraux avec des modèles AI.
-- [AICLIPS Studio](../../watch/technical-937b200dbfd957aae460.md) — Extrait automatiquement des highlights viraux depuis des vidéos YouTube.
+- [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Fonction · Transcription avec timestamps et confiance par mot.
+Avantages · Estimation précise des segments sans détection de VAD.
+Gain · Éviter les hallucinations avec détection VAD intégrée.
+- [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md) — Fonction · Définir des rôles d'agents pour des conseils spécialisés.
+Avantages · Intégration avec NotePlan, X/Twitter, GitHub.
+Gain · Automatiser la gestion des tâches via des rôles prédéfinis.
+- [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Fonction · Génère des portraits professionnels via des prompts textuels.
+Avantages · Gère l'authentification, facturation et stockage des images.
+Gain · Lancer des générations en quelques clics sans configuration complexe.
+- [AI Logo Studio](../../watch/technical-a20888d5cb6a1c399300.md) — Fonction · Générer des logos et identités visuelles à partir de textes ou d'esquisses.
+Avantages · Intégration Stripe, gestion des crédits et historique des créations.
+Gain · Lancer des générations en quelques secondes sans configuration complexe.
+- [AI Meme Studio](../../watch/technical-28efa5970d38e5616943.md) — Fonction · Générer des memes et vidéos courtes avec des modèles AI.
+Avantages · Support multi-modèle et routage intelligent.
+Gain · Créer des contenus viraux sans attendre.
+- [AICLIPS Studio](../../watch/technical-937b200dbfd957aae460.md) — Fonction · Extraire des highlights viraux de vidéos YouTube.
+Avantages · Gestion automatique des crédits et durées.
+Gain · Lancer la génération sans configuration complexe.
 - [Awesome Generative AI Apps](../../watch/technical-c5cd3a5c95630c792129.md) — Créez et lancez des applications SaaS génératives avec des outils prêts à l'emploi
 - [awesome-ai-video-models](../../watch/technical-e0275c5610589cad14d2.md) — Choisir le modèle de génération de vidéos AI adapté à un projet.
-- [ClearMark AI](../../watch/technical-6693a84665174f39d08b.md) — Supprime les marquages d'eau d'images avec IA
+- [ClearMark AI](../../watch/technical-6693a84665174f39d08b.md) — Fonction · Supprime les marques d'eau, logos, textes et superpositions d'images.
+Avantages · Scénarios prédéfinis pour restauration, nettoyage et suppression.
+Gain · Lancer des tâches d'édition en quelques clics sans configuration complexe.
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
+- [openai-api](../../watch/technical-f8f551d25eb73ecda1fd.md) — Fonction · Générer des images, vidéos et raisonner avec des modèles OpenAI via MuAPI.
+Avantages · Exemples cURL et Python avec paramètres de résolution et durée.
+Gain · Lancer des tâches d'IA sans configuration complexe.
 - [LLM Wiki Agent](../../watch/technical-9e4c4b6c4c6a7d12ceff.md) — Ingestion de documents pour construire un wiki structuré
-- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Découvrir, évaluer et exécuter 500+ modèles multimodaux en un clic.
-- [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
+- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Fonction · Générer, éditer et afficher des médias professionnels via muapi-cli.
+Avantages · Accès à 100+ modèles AI et outils MCP pour agents.
+Gain · Lancer des workflows en un clic avec des recettes prêtes à exécuter.
+- [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Fonction · Génère des visuels à partir de texte pour illustrer des idées.
+Avantages · Intégre des outils de synthèse et clonage vocal.
+Gain · Créer des vidéos sans script, en utilisant la voix de l'utilisateur.
 - [Old Photo Restore](../../watch/technical-1a1b1c01fccbb652af5e.md) — Restaure des photos anciennes avec un moteur d'IA.
-- [Ominis-OSINT](../../watch/technical-4d65fd0e0a726a41e3d2.md) — Rechercher des mentions en ligne d'une cible et identifier des profils sociaux
-- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md) — Créez et gérez des agents AI sans coder, via une interface unique.
+- [Ominis-OSINT](../../watch/technical-4d65fd0e0a726a41e3d2.md) — Fonction · Recherche web et analyse de mentions.
+Avantages · Résultats complets avec métadonnées et URLs.
+Gain · Éviter de scraper manuellement les pages.
+- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md) — Fonction · Créer, gérer et interagir avec des agents AI via une interface web.
+Avantages · Proxy backend pour intégration flexible avec des API personnalisées.
+Gain · Déployer des agents sans dépendance à un fournisseur spécifique.
 - [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
-- [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Permet une collaboration équipe via un agent partagé par canal
-- [Open-Poe-AI](../../watch/technical-2d163384adb685d9a51a.md) — Créez et gérez des agents AI sans coder, via une interface unique.
+- [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Fonction · Agent IA auto-configure pour Slack par canal.
+Avantages · Mémoire curatée et création automatique de compétences.
+Gain · Éviter les logs bruyants, lancer des tâches en contexte.
+- [Open-Poe-AI](../../watch/technical-2d163384adb685d9a51a.md) — Fonction · Créer, gérer et interagir avec des agents AI via une interface web.
+Avantages · Proxy backend pour intégrer des fournisseurs d'API sans code personnalisé.
+Gain · Déployer des agents sur infrastructure propre avec clé API personnalisée.
+- [Pixelrelay](../../watch/technical-140649096e6d8069b2f4.md) — Fonction · Route AI image/video via webhook, BYOK, self-hosted.
+Avantages · Webhooks-first, failover automatique, jobs persistants.
+Gain · Lancer des tâches sans polling, gérer les erreurs transparentement.
 - [Seedance 2.5 API](../../watch/technical-4f09686ddcb30b511532.md) — Génère des vidéos AI à partir de textes et d'images
-- [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md) — Génère des vidéos AI en quelques clics.
-- [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md) — Générer des vidéos en quelques clics avec un interface intuitive.
+- [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md) — Fonction · Génère et édite des vidéos AI avec Seedance 2.0 et Mini.
+Avantages · Interface responsive et gestion des crédits intégrée.
+Gain · Lancer des tâches de génération sans configuration complexe.
+- [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md) — Fonction · Générer, éditer et gérer des vidéos AI haute fidélité.
+Avantages · Interface responsive et gestion des crédits intégrée.
+Gain · Lancer des tâches de génération sans configuration complexe.
 - [Vibe Workflow](../../watch/technical-6ccb86641ecc996a74b9.md) — Crée des workflows d'IA visuels sans abonnement
-- [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
-- [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications et services sur des serveurs propres avec gestion automatisée.
-- [FreeLLMAPI](../../watch/technical-f9d54d6e051498a6f643.md) — Route requests across free LLM providers with one endpoint
-- [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md) — Crée des vidéos de présentation de produit avec des animations et musique
+- [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Fonction · Générer et explorer des vidéos, images, 3D et mondes interactifs.
+Avantages · Support de modèles comme Hunyuan Video, MiniMax H3, Qwen Image.
+Gain · Créer des mondes, les explorer et les sauvegarder directement.
+- [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Fonction · Génère des vidéos 3D animées expliquant un sujet.
+Avantages · Workflow agent-native avec MuAPI et Veo 3.1.
+Gain · Créer un court métrage vertical en 3D en quelques étapes.
+- [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Fonction · Déployer des apps, bases de données et services sur des serveurs.
+Avantages · Support Git, Docker, Nixpacks et plus de 360 services prêts à l'emploi.
+Gain · Lancer des déploiements sans configuration complexe.
+- [FreeLLMAPI](../../watch/technical-f9d54d6e051498a6f643.md) — Fonction · Route les requêtes vers des modèles gratuits via un endpoint OpenAI.
+Avantages · Gère automatiquement les quotas et les limites des fournisseurs.
+Gain · Lancer des tâches sans configuration manuelle des clés.
+- [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md) — Fonction · Convertir HTML, CSS, médias en vidéos MP4 déterministes.
+Avantages · Intégration avec des agents de codage pour générer des vidéos.
+Gain · Lancer des tâches de rendu sans configuration complexe.
 - [Kami](../../watch/technical-49226a0e2e05fa223d37.md) — Génère des documents professionnels avec des modèles prédéfinis.
-- [Qwen-Image-API](../../watch/technical-c341f7566eb8b34cd45a.md) — Génère des images via l'API Qwen avec des paramètres avancés
-- [VisoMaster](../../watch/technical-6b5abdd9cd34e8376d9f.md) — Permet de remplacer des visages dans des vidéos avec précision
+- [Qwen-Image-API](../../watch/technical-c341f7566eb8b34cd45a.md) — Fonction · Générer ou éditer des images via des endpoints Qwen.
+Avantages · Supporte des paramètres comme résolution, format et masque.
+Gain · Lancer des tâches d'images avec un API unifié.
+- [VisoMaster](../../watch/technical-6b5abdd9cd34e8376d9f.md) — Fonction · Échange de visage dans images et vidéos.
+Avantages · Support des modèles DFL et restauration faciale.
+Gain · Lancer des tâches en temps réel sans configuration complexe.
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
-- [AI Creator Academy](../../watch/technical-21a78e48d74a8e6ab07f.md) — Créer des publicités vidéo vendables pour des marques réelles.
-- [Générateur de vidéo d'embrassade IA](../../watch/technical-d85e8aba072628b2e82b.md) — Crée des vidéos d'embrassade à partir de deux photos.
-- [GPT-6 Astra](../../watch/technical-04eb6674f0cfa4208b0e.md) — Accéder à la documentation du modèle GPT-6 Astra
-- [Nano Banana Generator](../../watch/technical-d5417dd0599d69bd651b.md)
-- [OpenCode](../../watch/technical-ffccace0ba14fd154d90.md) — Génère du code à partir de requêtes textuelles.
+- [AI Creator Academy](../../watch/technical-21a78e48d74a8e6ab07f.md) — Fonction · Créer des services vendables avec IA générative.
+Avantages · Modules structurés avec pricing et clients.
+Gain · Lancer des projets sans coder, avec modèles prêts.
+- [Générateur de vidéo d'embrassade IA](../../watch/technical-d85e8aba072628b2e82b.md) — Fonction · Génère des vidéos de baisers en fusionnant deux photos.
+Avantages · Support multi-modèles et gestion des crédits via Stripe.
+Gain · Créer des animations en quelques secondes sans codage.
+- [GPT-6 Astra](../../watch/technical-04eb6674f0cfa4208b0e.md) — Fonction · Générer des réponses via l'API Responses avec des outils et raisonnement.
+Avantages · Contexte de 1,05M tokens et sortie jusqu'à 128K tokens.
+Gain · Exécuter des tâches complexes avec des vérifications intermédiaires.
+- [Nano Banana Generator](../../watch/technical-d5417dd0599d69bd651b.md) — Fonction · Générer et éditer des images via des prompts ou des références visuelles.
+Avantages · Intégration de Google Search et de Stripe pour validation et facturation.
+Gain · Créer des œuvres en mode édition avec 14 références et historique persistant.
+- [OpenCode](../../watch/technical-ffccace0ba14fd154d90.md) — Fonction · Génère du code via un agent IA.
+Avantages · Agent build pour développement, agent plan pour analyse.
+Gain · Éviter de rédiger du code sans contexte.
 - [ai-engineering-from-scratch](../../watch/technical-7b553354eb5444076503.md) — Apprendre l'ingénierie IA avec des leçons et des projets
 - [Awesome Agent Skills](../../watch/technical-42c5a49b8cf68812c97a.md) — Créez des compétences agent pour des outils comme Claude, Gemini, Cursor.
-- [Cleanup.pictures](../../watch/technical-6e8858c6b6c8c8c1712a.md) — Supprime des éléments indésirables d'images en ligne
-- [CodeGraph](../../watch/technical-5ae8aede20b527323884.md) — Analyse le code pour fournir un contexte précis aux agents
-- [CUAWright](../../watch/technical-302726d10970209e8855.md) — Permet aux modèles de codage d'automatiser des navigateurs et des applications de bureau.
+- [Cleanup.pictures](../../watch/technical-6e8858c6b6c8c8c1712a.md) — Fonction · Supprime des éléments indésirables d'une image en ligne.
+Avantages · Utilise un modèle d'intelligence artificielle pour la retouche.
+Gain · Éviter de redessiner ou recadrer manuellement des images.
+- [CodeGraph](../../watch/technical-5ae8aede20b527323884.md) — Fonction · Construit un graphe de code pour les agents.
+Avantages · Analyse structurelle et résolution inter-fichiers.
+Gain · Éviter de synchroniser manuellement les changements.
+- [CUAWright](../../watch/technical-302726d10970209e8855.md) — Fonction · Automatiser navigateurs et apps desktop via terminal.
+Avantages · Scripts réutilisables et logs persistants.
+Gain · Exécuter tâches complexes sans session navigateur.
 - [mcp-x-intelligence](../../watch/technical-2f6822b143b06b36cbc7.md) — Recherche de contenu viral via des filtres d'engagement
-- [OpenOSINT](../../watch/technical-0be614d8a1eb180e4b8a.md) — Orchestre des recherches OSINT avec un modèle LLM pour produire un rapport structuré
-- [photopea/photopea](../../watch/technical-34a75990427dfeb34af2.md) — Permet d'éditer des fichiers PSD, AI et Sketch en ligne.
-- [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Configure l'environnement de codage avec des outils d'assistance.
+- [OpenOSINT](../../watch/technical-0be614d8a1eb180e4b8a.md) — Fonction · Orchestre des recherches OSINT avec modèle LLM.
+Avantages · Génère rapport structuré à partir de sources ouvertes.
+Gain · Éviter de compiler manuellement des informations.
+- [photopea/photopea](../../watch/technical-34a75990427dfeb34af2.md) — Fonction · Éditer des images et vecteurs en ligne avec support PSD, AI, Sketch.
+Avantages · Ouvre et manipule des formats complexes comme INDD, XCF, Sketch.
+Gain · Exporter des animations en GIF ou MP4 avec chaque frame comme couche.
+- [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Fonction · Exécuter des tâches de codage via terminal, éditeur, chat ou application.
+Avantages · Intégration avec VS Code, Zed, JetBrains, Telegram, WeChat.
+Gain · Lancer des tâches sans configuration, utiliser des modèles Qwen locaux ou distants.
 - [SeekerClaw](../../watch/technical-6a7363072642ee3e6fc9.md) — Contrôle des appareils Android via un agent AI en temps réel
-- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Propose des corrections de code en temps réel via un terminal interactif
-- [Spec Kit](../../watch/technical-f4e0adf84666b0c986e7.md) — Structurer le développement avec des spécifications
-- [TweetClaw](../../watch/technical-1916507fd0ec17c5d818.md) — Permet de rechercher des tweets via des requêtes spécifiques
+- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Fonction · Écrire, corriger et exécuter du code via un terminal.
+Avantages · Support multi-fournisseurs et mode serveur HTTP.
+Gain · Automatiser des tâches via des pipelines ou des scripts.
+- [Spec Kit](../../watch/technical-f4e0adf84666b0c986e7.md) — Fonction · Structurer des processus, templates et résultats pour agents de codage.
+Avantages · Processus prédéfinis pour développement, réparation de bugs et évaluation d'idées.
+Gain · Lancer des tâches sans configuration, adapter au projet directement.
+- [TweetClaw](../../watch/technical-1916507fd0ec17c5d818.md) — Fonction · Poste, répondez, recherchez des tweets.
+Avantages · Approbation requise pour chaque écriture.
+Gain · Lancer des tâches sans configuration complexe.
 - [User Scanner](../../watch/technical-1d55b4cad34f154042bf.md) — Analyse des emails et usernames pour extraire des données.
-- [gemini-cli](../../watch/technical-24684c1ecca249c03e58.md) — Interagir avec Gemini via terminal pour exécuter des tâches de code
-- [minimax-code](../../watch/technical-e8ac251258a46bd1e943.md) — Transforme un prompt en code exécutable directement depuis le terminal.
-- [AI employee open source avec ordinateur intégré](../../watch/technical-900c2911ad71cf6d2191.md)
-- [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Permet aux agents d'intégrer instantanément la plateforme pour trader.
-- [Anthropic Cybersecurity Skills](../../watch/technical-02d73009ec03d24b2e22.md)
+- [gemini-cli](../../watch/technical-24684c1ecca249c03e58.md) — Fonction · Exécuter des tâches via un terminal avec des modèles Gemini.
+Avantages · Authentification via clé API ou projet Cloud.
+Gain · Lancer des scripts sans interface graphique.
+- [minimax-code](../../watch/technical-e8ac251258a46bd1e943.md) — Fonction · Convertir un prompt en code fonctionnel via terminal.
+Avantages · Intégration de modèles locaux ou MiniMax avec API.
+Gain · Exécuter des tâches sans infrastructure serveur.
+- [AI employee open source avec ordinateur intégré](../../watch/technical-900c2911ad71cf6d2191.md) — Fonction · Génère automatiquement présentations et vidéos.
+Avantages · Sans intervention humaine, création continue.
+Gain · Éviter la production manuelle de contenus.
+- [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Fonction · Intégration instantanée des agents IA.
+Avantages · Signaux et stratégies prédéfinis.
+Gain · Lancer des trades en quelques secondes.
+- [Anthropic Cybersecurity Skills](../../watch/technical-02d73009ec03d24b2e22.md) — Fonction · Donner des compétences de sécurité à un agent AI.
+Avantages · Mappage à 6 frameworks de sécurité.
+Gain · Exécuter des tâches de sécurité en quelques secondes.
 - [camofox-browser](../../watch/technical-05a714c23543244771cf.md) — Piloter un navigateur headless pour les tâches web des agents.
-- [Claude Code gratuit avec proxy NVIDIA](../../watch/technical-227e249fa68647e0ca82.md) — Convertir les appels API Anthropic en format NVIDIA NIM
-- [CloddsBot](../../watch/technical-d6a24343d25ffd74d14c.md) — Gère les trades autonomes sur plusieurs marchés
+- [Claude Code gratuit avec proxy NVIDIA](../../watch/technical-227e249fa68647e0ca82.md) — Fonction · Convertir les appels API Anthropic en format NVIDIA NIM.
+Avantages · Intégration avec NotePlan et X / Twitter.
+Gain · Automatiser la conversion des requêtes sans réécriture.
+- [CloddsBot](../../watch/technical-d6a24343d25ffd74d14c.md) — Fonction · Terminal de trading AI pour marchés prédictifs, crypto et futures.
+Avantages · Intégration Solana et EVM avec 1000+ marchés.
+Gain · Exécuter des ordres en un clic via 21 plateformes.
 - [700-cybersecurity-skills](../../watch/technical-f26c6abfcce6e427cbf6.md) — Ajout de compétences de cybersécurité pour agents IA
 - [Free Claude Code](../../watch/technical-2ee41fd0d683c0958502.md) — Utilise des modèles d'IA pour le développement
-- [ai-faceless-video-generator](../../watch/technical-8d8cf40ff98876dc4965.md) — Génère un script à partir d'un sujet avec GPT
+- [ai-faceless-video-generator](../../watch/technical-8d8cf40ff98876dc4965.md) — Fonction · Génère des vidéos avec un visage animé à partir d'un sujet.
+Avantages · Utilise GPT pour le script, gTTS pour la voix, SadTalker pour l'animation.
+Gain · Créer une vidéo complète en quelques étapes sans visage réel.
 - [vox-ai-motion-graphics-generator](../../watch/technical-4ff70387f0be38c9fbad.md) — Crée une vidéo expliquée en style Vox avec collage papier.
-- [Génération automatique de micro-dramas vidéo](../../watch/technical-041ee9bffa76ace2d6ef.md) — Crée un micro-drama vidéo à partir d'une idée
+- [Génération automatique de micro-dramas vidéo](../../watch/technical-041ee9bffa76ace2d6ef.md) — Fonction · Génère des micro-dramas vidéo à partir d'idées ou de scripts.
+Avantages · Intégration de MuAPI pour image et vidéo.
+Gain · Éviter la fragmentation des outils et créer des scènes cohérentes.
 - [ai-b-roll](../../watch/technical-cfc247fd5cb1bebffe4a.md) — Ajouter des b-roll à une vidéo sans intervention manuelle.
-- [text-to-video-ai](../../watch/technical-cc687e91ee3b0302f92e.md) — Crée des vidéos courtes pour réseaux sociaux sans installation.
+- [text-to-video-ai](../../watch/technical-cc687e91ee3b0302f92e.md) — Fonction · Génère des vidéos à partir de textes via des modèles AI.
+Avantages · Intègre des outils comme EdgeTTS, Whisper, Veo3 et Pexels.
+Gain · Créer des vidéos sans installation, directement via API.
 - [xianyu-auto-reply-fix](../../watch/technical-aa8e0008d94afed17913.md) — Gère automatiquement les réponses et commandes sur Xianyu.
-- [Langchain](../../watch/technical-5ea1d4fd1ccb4341a6ba.md) — Crée des applications LLM avec des modèles et outils.
-- [last30days-skill](../../watch/technical-b88590c43555a909e1ff.md) — Analyse de données en temps réel pour comprendre les tendances et comportements.
-- [awesome-seo-agent-skills](../../watch/technical-2eb5b1b4690cd51d126c.md) — Analyse technique SEO pour optimiser le site web
-- [awesome-seo-agent-skills](../../watch/technical-ff4abb9b63459f4d12ec.md) — Analyse technique SEO pour optimiser le référencement
-- [awesome-ai-marketing-tools-1](../../watch/technical-98601a8248a8eb261f28.md) — Génère du contenu marketing avec des outils comme Anyword et Jasper
-- [awesome-ai-marketing-tools](../../watch/technical-c9538405e52eaa888eec.md) — Génère du contenu marketing avec des outils comme Anyword et Jasper
-- [Liste de serveurs MCP publics](../../watch/technical-0ddca6b2cefbbbc15347.md) — Connecter des assistants à des outils et données via des serveurs MCP.
-- [Liste de serveurs MCP publics](../../watch/technical-8c7fcab8649bc99384b3.md) — Rejoindre des serveurs MCP pour accéder à des outils et données.
+- [Langchain](../../watch/technical-5ea1d4fd1ccb4341a6ba.md) — Fonction · Gère les agents AI pour tâches spécifiques.
+Avantages · Intégration de modèles et outils préconfigurés.
+Gain · Automatiser les workflows sans codage.
+- [last30days-skill](../../watch/technical-b88590c43555a909e1ff.md) — Fonction · Recherche d'informations via des sources sociales et techniques.
+Avantages · Synthèse basée sur l'engagement réel des utilisateurs.
+Gain · Comparer des outils ou comprendre des sujets en 30 secondes.
+- [awesome-seo-agent-skills](../../watch/technical-2eb5b1b4690cd51d126c.md) — Fonction · Analyse SEO, audits techniques, recherches de mots-clés.
+Avantages · Intégration avec des agents comme Claude Code et OpenClaw.
+Gain · Automatiser les tâches SEO sans configuration complexe.
+- [awesome-seo-agent-skills](../../watch/technical-ff4abb9b63459f4d12ec.md) — Fonction · Agent Skills pour SEO, audits techniques, recherches de mots-clés.
+Avantages · Support multi-agents avec documentation des API.
+Gain · Déployer des tâches SEO sans configuration complexe.
+- [awesome-ai-marketing-tools-1](../../watch/technical-98601a8248a8eb261f28.md) — Fonction · Génère et optimise du contenu marketing.
+Avantages · Analyse prédictive des performances.
+Gain · Publier directement sans révision.
+- [awesome-ai-marketing-tools](../../watch/technical-c9538405e52eaa888eec.md) — Fonction · Génère et optimise du contenu marketing.
+Avantages · Analyse prédictive des performances.
+Gain · Publier directement sans révision.
+- [Liste de serveurs MCP publics](../../watch/technical-0ddca6b2cefbbbc15347.md) — Fonction · Connecter assistants et agents à des outils, données et workflows.
+Avantages · Liens vers sources officielles et contexte pour évaluer les serveurs.
+Gain · Éviter de rechercher manuellement des serveurs MCP adaptés.
+- [Liste de serveurs MCP publics](../../watch/technical-8c7fcab8649bc99384b3.md) — Fonction · Connecter assistants et agents à des outils, données et workflows.
+Avantages · Liens vers sources officielles et contexte pour évaluer les serveurs.
+Gain · Éviter de rechercher des serveurs, lancer des connexions directement.
 - [Liste de startups AI](../../watch/technical-0c47943ed87a19d125dc.md) — Analyser les performances publicitaires avec un agent AI.
-- [Mac Mini pour l'IA](../../watch/technical-f0066d78062c33a0cb18.md)
-- [Open-Pomelli](../../watch/technical-e9402eee8021703f0e94.md) — Analyse de site web pour créer des campagnes marquées par l'IA
-- [Outil d'alignement et de validation des requêtes avec un modèle d'IA](../../watch/technical-e89b211cd062814b9628.md)
-- [open-ai-ugc](../../watch/technical-dbe2e54164b357ddcb32.md) — Génère des vidéos publicitaires UGC en quelques secondes avec des acteurs IA
-- [awesome-technical-marketing](../../watch/technical-987ba513f79cc0f52b4c.md) — Analyser les performances SEO d'un site web
-- [Pipecat](../../watch/technical-70340542d5688b508dea.md) — Crée des assistants vocaux avec reconnaissance et synthèse vocale.
-- [Pydantic AI](../../watch/technical-e916d975160d16b98553.md) — Crée des agents IA avec des modèles variés
-- [awesome-ai-repos](../../watch/technical-7cf0ee8352dc6af0478e.md) — Gérer des agents IA avec des outils de coordination
-- [polymarket-mcp-server](../../watch/technical-dabb4187a6c2e7d576c7.md) — Gère les ordres et positions de trading avec des outils d'analyse et de sécurité
-- [Skills pour agents de IA](../../watch/technical-125acf8b08c34d868099.md) — Permet d'installer des compétences pour des agents de IA
-- [Skills pour agents de IA](../../watch/technical-ce8a12d1c4391a2f858c.md) — Permet d'installer des compétences pour des agents de IA
-- [ViMax](../../watch/technical-ef1500532ddc132c577d.md) — Convertir une idée en court-métrage sans édition
-- [Agent AItoEarn pour la gestion de contenus sur plusieurs plateformes](../../watch/technical-126e0bcbd6b43332ca45.md) — Gérer et publier des contenus sur 14 plateformes depuis un seul outil.
+- [Mac Mini pour l'IA](../../watch/technical-f0066d78062c33a0cb18.md) — Fonction · Exécuter des tâches IA via un serveur local.
+Avantages · Moins dépendant d'une connexion internet stable.
+Gain · Générer des modèles d'IA sans interruption réseau.
+- [Open-Pomelli](../../watch/technical-e9402eee8021703f0e94.md) — Fonction · Analyse de site pour créer un Brand DNA et des créations on-brand.
+Avantages · Génération d'assets en 8 formats avec paramètres prédéfinis.
+Gain · Créer des vidéos animées directement depuis les assets générés.
+- [Outil d'alignement et de validation des requêtes avec un modèle d'IA](../../watch/technical-e89b211cd062814b9628.md) — Fonction · Vérifie et aligne les requêtes avec un modèle d'IA.
+Avantages · Intégre des compétences d'agents IA prédéfinies.
+Gain · Éviter des erreurs de compréhension des requêtes.
+- [open-ai-ugc](../../watch/technical-dbe2e54164b357ddcb32.md) — Fonction · Générer des publicités vidéo UGC avec des acteurs AI.
+Avantages · Support multi-modèles et gestion de crédits intégrée.
+Gain · Lancer des générations sans interface, gérer les paiements.
+- [awesome-technical-marketing](../../watch/technical-987ba513f79cc0f52b4c.md) — Fonction · Outils et API pour SEO, génération de leads et ingénierie de croissance.
+Avantages · Solutions prêtes à l'emploi pour audits, optimisation et analyse.
+Gain · Automatiser les tâches, gagner du temps sans configuration complexe.
+- [Pipecat](../../watch/technical-70340542d5688b508dea.md) — Fonction · Synthétise des voix à partir de texte.
+Avantages · Intégration avec NotePlan et X/Twitter.
+Gain · Créer des assistants vocaux sans coder.
+- [Pydantic AI](../../watch/technical-e916d975160d16b98553.md) — Fonction · Agent de type codage avec accès au système de fichiers.
+Avantages · Intégration de recherche web et d'un conseiller.
+Gain · Exécuter des tâches en terminal sans code préalable.
+- [awesome-ai-repos](../../watch/technical-7cf0ee8352dc6af0478e.md) — Fonction · Gère les agents AI pour tâches spécifiques.
+Avantages · Intégration de modèles et outils de recherche.
+Gain · Lancer des workflows sans configuration complexe.
+- [polymarket-mcp-server](../../watch/technical-dabb4187a6c2e7d576c7.md) — Fonction · Server pour trader, analyser et gérer des positions sur Polymarket.
+Avantages · Outils AI pour analyse, ordres et gestion de portefeuille.
+Gain · Exécuter des ordres sans interface, gérer des positions en temps réel.
+- [Skills pour agents de IA](../../watch/technical-125acf8b08c34d868099.md) — Fonction · Installer des compétences pour des agents IA, avec des instructions claires.
+Avantages · Fournit des exemples et des scripts pour une utilisation immédiate.
+Gain · Tester une compétence sans l'installer pour éviter les erreurs.
+- [Skills pour agents de IA](../../watch/technical-ce8a12d1c4391a2f858c.md) — Fonction · Installer des compétences pour des agents IA, avec des instructions concrètes.
+Avantages · Fournit des exemples et des scripts pour exécuter des tâches sans improviser.
+Gain · Tester une compétence avant installation pour éviter les erreurs.
+- [ViMax](../../watch/technical-ef1500532ddc132c577d.md) — Fonction · Génère des courts-métrages à partir d'idées.
+Avantages · Intégre des outils de planification et de calendrier.
+Gain · Lancer la création sans édition vidéo préalable.
+- [Agent AItoEarn pour la gestion de contenus sur plusieurs plateformes](../../watch/technical-126e0bcbd6b43332ca45.md) — Fonction · Publier des contenus sur 14 plateformes depuis un seul outil.
+Avantages · Intégration avec NotePlan et X / Twitter.
+Gain · Éviter de gérer plusieurs interfaces pour la publication.
 - [Agent de décision multi-competences basé sur des systèmes JEV](../../watch/technical-1b568dfd20e94e409912.md) — Gérer le routage en temps réel pour optimiser les flux.
 - [Agent Skills](../../watch/technical-dae9f02535f7c22f84f1.md) — Facilite la création de logiciels avec des workflows et des bonnes pratiques.
 - [Agentic-Bug-Hunter](../../watch/technical-f52ece2572fe00c08e7a.md) — Identifier automatiquement des vulnérabilités et générer des rapports exploitables.

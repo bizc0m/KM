@@ -4,12 +4,20 @@
 Avantages · Supporte les groupes et les sons personnalisés.
 Gain · Lancer des tâches sans interface graphique.
 - [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Protection des données sensibles avant l'envoi vers un API non contrôlé
-- [DepthSearch](../../watch/technical-f8b3849874961eb09fd8.md) — Recherche OSINT dans le web profond avec anonymisation et informations système
+- [DepthSearch](../../watch/technical-f8b3849874961eb09fd8.md) — Fonction · Recherche dans le web profond avec moteurs spécialisés.
+Avantages · Rotation de proxies et info système intégrée.
+Gain · Lancer des requêtes anonymes sans configuration complexe.
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [Faker](../../watch/technical-72da768867f7d20473e6.md) — Génère des données fictives pour remplir des bases de données
 - [curl-impersonate](../../watch/technical-b9848ad223c40a32fb39.md) — Imiter les navigateurs web pour contourner les restrictions de serveurs.
-- [FreeTube](../../watch/technical-91d6b06125ea90507740.md) — Regarder des vidéos sans publicité et sans suivi de Google
-- [pycryptodome](../../watch/technical-a5feada860be84441918.md) — Permet l'encryption sécurisé avec des modes comme GCM.
-- [realm-swift](../../watch/technical-2174eaf93f622d57be86.md) — Gérer données mobiles avec modèle objet.
+- [FreeTube](../../watch/technical-91d6b06125ea90507740.md) — Fonction · Jouer des vidéos YouTube sans publicités.
+Avantages · Bloque le suivi de Google via les cookies.
+Gain · Lancer des vidéos directement depuis le navigateur.
+- [pycryptodome](../../watch/technical-a5feada860be84441918.md) — Fonction · Cryptographie bas niveau en Python.
+Avantages · Primitives sécurisées et API cohérente.
+Gain · Installer en 1 commande, exécuter sans dépendances.
+- [realm-swift](../../watch/technical-2174eaf93f622d57be86.md) — Fonction · Base de données mobile pour iOS, macOS, tvOS, watchOS.
+Avantages · Modèle objet simplifié, pas besoin d'ORM.
+Gain · Créer et gérer des objets sans code complexe.
 - [Hister](../../watch/technical-ef6994e092dfd931bb79.md) — Rechercher et stocker des contenus web de manière privée et organisée.
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet d'éditer des fichiers PSD, AI et Sketch en ligne.
+Fonction · Éditer des images et vecteurs en ligne avec support PSD, AI, Sketch.  
+Avantages · Ouvre et manipule des formats complexes comme INDD, XCF, Sketch.  
+Gain · Exporter des animations en GIF ou MP4 avec chaque frame comme couche.
 
 ## Identité
 
@@ -29,8 +31,8 @@ Permet d'éditer des fichiers PSD, AI et Sketch en ligne.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai compatibility.os.macos source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle
+- Identifiants : domain.ai domain.media.image compatibility.os.macos source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Images et graphisme
 - Compatibilités : Systèmes > macOS
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

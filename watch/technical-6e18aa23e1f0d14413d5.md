@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée des vidéos de présentation de produit avec des animations et musique
+Fonction · Convertir HTML, CSS, médias en vidéos MP4 déterministes.  
+Avantages · Intégration avec des agents de codage pour générer des vidéos.  
+Gain · Lancer des tâches de rendu sans configuration complexe.
 
 ## Identité
 
@@ -29,9 +31,9 @@ Crée des vidéos de présentation de produit avec des animations et musique
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents domain.media.audio domain.media.video capability.generate.video compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA ; Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo
-- Fonctions : Générer des contenus > Générer une vidéo
+- Identifiants : domain.media.audio domain.media.video domain.ai.agents.coding domain.dev.quality capability.generate.video capability.code.assist compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo ; Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel > Qualité du code
+- Fonctions : Générer des contenus > Générer une vidéo ; Assister le développement
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

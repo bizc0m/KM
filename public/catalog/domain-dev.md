@@ -71,54 +71,149 @@ Gain · Exporter directement du code HTML/CSS/SVG sans intermédiaire.
 - [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
 Avantages · Intégration de fournisseurs LLM via une API unifiée.
 Gain · Exécuter des tâches de codage sans configuration complexe.
-- [Popcorn Time](../../watch/technical-f2ad2f5dfae253d2f4b6.md) — Accéder à des contenus multimédia via des liens.
-- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Créez des vidéos via du code React, gagnez du temps et plus de contrôle.
-- [Selenium](../../watch/technical-d03eda2466f2556e6e1c.md) — Automatise les tests web avec des scripts.
-- [ShotGlass](../../watch/technical-8ae8d27d1412df2cdc2d.md) — enregistrer et éditer des captures d'écran avec IA
+- [Pi](../../watch/technical-c133b93b912dffd605a2.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
+Avantages · Intégration de fournisseurs LLM via une API unifiée.
+Gain · Lancer des tâches de codage avec un compte ou une clé API.
+- [Popcorn Time](../../watch/technical-f2ad2f5dfae253d2f4b6.md) — Fonction · Regarder des films, séries et contenus multimédia.
+Avantages · Catalogue mis à jour hebdomadairement en format Parquet.
+Gain · Lire ses propres fichiers sans dépendre de liens externes.
+- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Fonction · Créer des vidéos via agent, interactif ou programmation.
+Avantages · Intégration avec VS Code et Codex.
+Gain · Générer des vidéos sans logiciel dédié.
+- [Selenium](../../watch/technical-d03eda2466f2556e6e1c.md) — Fonction · Automatise les navigateurs web via WebDriver.
+Avantages · Compatible avec tous les navigateurs majeurs.
+Gain · Éviter de coder manuellement les interactions.
+- [ShotGlass](../../watch/technical-8ae8d27d1412df2cdc2d.md) — Fonction · Enregistrer et éditer des captures d'écran avec IA.
+Avantages · Intégration avec NotePlan et X/Twitter.
+Gain · Automatiser la gestion des captures d'écran.
 - [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée des applications sans installation locale avec des outils open source.
-- [tygo](../../watch/technical-b19b418d3fe93785fa21.md) — Convertit des structures Go en types Typescript pour front-end
-- [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Gère les dépendances de projet avec des lockfiles.
+- [tygo](../../watch/technical-b19b418d3fe93785fa21.md) — Fonction · Génère des typings TypeScript à partir de fichiers Go.
+Avantages · Conserve commentaires et structure des types.
+Gain · Éviter de réécrire les types en TypeScript.
+- [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Fonction · Installe et gère les packages Python et les environnements.
+Avantages · Vitesse 10-100x supérieure à pip.
+Gain · Exécuter des outils sans créer d'environnement.
 - [Bun](../../watch/technical-1f8d61fe04f2cb529ec1.md) — Exécute des scripts JavaScript et TypeScript rapidement.
 - [open-grok-bot](../../watch/technical-dfc871508eb563893ba5.md) — Crée des personas bots avec des modèles spécifiques
-- [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Gère les dépendances et les environnements
+- [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Fonction · Installer Python et gérer les dépendances.
+Avantages · Utilise un résolveur basé sur PubGrub.
+Gain · Lancer des scripts sans installer Python.
 - [PubGrub](../../watch/technical-40431c060cb04bde6a19.md) — Résout des conflits de dépendances avec des explications claires.
 - [SubCat](../../watch/technical-c67a2647c3e09c338891.md) — Découvre des sous-domaines et génère des rapports web avec captures d'écran.
-- [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Analyse de type rapide avec diagnostics précis pour code Python
-- [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
-- [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Accéder aux alertes météo via terminal
+- [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Fonction · Vérifie les types en Rust, serveur de langage.
+Avantages · 10x plus rapide que mypy et Pyright.
+Gain · Éviter de recompiler sans cache, analyses incrémentales.
+- [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Fonction · Génère des vidéos 3D animées expliquant un sujet.
+Avantages · Workflow agent-native avec MuAPI et Veo 3.1.
+Gain · Créer un court métrage vertical en 3D en quelques étapes.
+- [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Fonction · Recherche météo via API NWS avec alertes, prévisions, observations.
+Avantages · Données en temps réel sans clé API, interface terminal.
+Gain · Lancer des requêtes météo sans configuration complexe.
+- [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md) — Fonction · Convertir HTML, CSS, médias en vidéos MP4 déterministes.
+Avantages · Intégration avec des agents de codage pour générer des vidéos.
+Gain · Lancer des tâches de rendu sans configuration complexe.
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
-- [orogene](../../watch/technical-6bb0ffb5ad3771787603.md) — Installe les dépendances rapidement sans surcharger les ressources.
+- [Générateur de vidéo d'embrassade IA](../../watch/technical-d85e8aba072628b2e82b.md) — Fonction · Génère des vidéos de baisers en fusionnant deux photos.
+Avantages · Support multi-modèles et gestion des crédits via Stripe.
+Gain · Créer des animations en quelques secondes sans codage.
+- [OpenCode](../../watch/technical-ffccace0ba14fd154d90.md) — Fonction · Génère du code via un agent IA.
+Avantages · Agent build pour développement, agent plan pour analyse.
+Gain · Éviter de rédiger du code sans contexte.
+- [orogene](../../watch/technical-6bb0ffb5ad3771787603.md) — Fonction · Gère les dépendances pour les outils utilisant node_modules.
+Avantages · Installe rapidement avec peu de ressources.
+Gain · Éviter de vérifier manuellement les mises à jour.
 - [Ruff](../../watch/technical-40c2c54a4c6490e8e3bc.md) — Vérifie et corrige le code Python rapidement avec une grande couverture de règles.
-- [fbdfile](../../watch/technical-644af560a703d50fde81.md) — Lire et analyser des données FLIMbox à partir de fichiers FBD
+- [fbdfile](../../watch/technical-644af560a703d50fde81.md) — Fonction · Lire des fichiers FBD, FBF et FBS.XML.
+Avantages · Gestion des en-têtes et données encodées.
+Gain · Analyser des images FLIM sans configuration complexe.
 - [imreg](../../watch/technical-75c8660a0022a5827fd7.md) — Permet d'aligner des images avec des transformations géométriques.
-- [qdafile](../../watch/technical-781eee7c072afbf0af19.md) — Génère des fichiers QDA avec des données structurées
-- [@react-native-segmented-control/segmented-control](../../watch/technical-4fecf39958682d370cdb.md) — Afficher un contrôle segmenté iOS compatible sur iOS, Android et Web
-- [Carthage](../../watch/technical-db0404acb89369a258a1.md) — Gère les dépendances Cocoa sans modifier les fichiers projet
-- [CUAWright](../../watch/technical-302726d10970209e8855.md) — Permet aux modèles de codage d'automatiser des navigateurs et des applications de bureau.
-- [mutagen](../../watch/technical-5a9ba13528ab94de7bad.md) — Gère les métadonnées audio sans dépendances externes.
-- [PROQCIMA](../../watch/technical-252f85e1a80b7d2702ca.md) — Financer la recherche pour des ordinateurs quantiques.
-- [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Configure l'environnement de codage avec des outils d'assistance.
-- [React Native Firebase](../../watch/technical-3681504d2fddfa84e41c.md) — Intégre Firebase dans les apps React Native
+- [liffile](../../watch/technical-7efadf61d584319cb74d.md) — Fonction · Lire des fichiers d'images Leica (LIF, LOF, XLIF, etc.).
+Avantages · Support des formats XML et TIFF avec décodage avancé.
+Gain · Analyser et visualiser des données de microscopie sans conversion.
+- [ptufile](../../watch/technical-489caacd04529dd14333.md) — Fonction · Lire/écrire PTU et fichiers associés.
+Avantages · Décodage des histogrammes et métadonnées.
+Gain · Exporter des données en format PTU sans manipulation.
+- [qdafile](../../watch/technical-781eee7c072afbf0af19.md) — Fonction · Lire et écrire des fichiers QDA de KaleidaGraph.
+Avantages · Support Python 3.14 et NumPy 2.4.0.
+Gain · Générer des fichiers QDA avec des données et en-têtes.
+- [@react-native-segmented-control/segmented-control](../../watch/technical-4fecf39958682d370cdb.md) — Fonction · Affiche un contrôle segmenté pour iOS, Android et Web.
+Avantages · Supporte les styles iOS 13 et personnalisations de design.
+Gain · Éviter de coder des composants natifs pour les segments.
+- [Carthage](../../watch/technical-db0404acb89369a258a1.md) — Fonction · Gère les dépendances pour les projets Cocoa.
+Avantages · Fournit des frameworks binaires sans modifier le projet.
+Gain · Éviter de configurer manuellement les dépendances.
+- [CUAWright](../../watch/technical-302726d10970209e8855.md) — Fonction · Automatiser navigateurs et apps desktop via terminal.
+Avantages · Scripts réutilisables et logs persistants.
+Gain · Exécuter tâches complexes sans session navigateur.
+- [LocalSend](../../watch/technical-2654a48caa01902c8b1d.md) — Fonction · Partage de fichiers et messages entre appareils locaux.
+Avantages · Communication sécurisée via HTTPS et API REST.
+Gain · Éviter les serveurs externes pour transférer des données.
+- [mutagen](../../watch/technical-5a9ba13528ab94de7bad.md) — Fonction · Gère les métadonnées audio avec Python.
+Avantages · Supporte divers formats et ID3v2.
+Gain · Modifier tags sans changer le fichier audio.
+- [PROQCIMA](../../watch/technical-252f85e1a80b7d2702ca.md) — Fonction · Financer la recherche en informatique quantique.
+Avantages · Développement de technologies de pointe en France.
+Gain · Accélérer l'innovation dans le domaine quantique.
+- [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Fonction · Exécuter des tâches de codage via terminal, éditeur, chat ou application.
+Avantages · Intégration avec VS Code, Zed, JetBrains, Telegram, WeChat.
+Gain · Lancer des tâches sans configuration, utiliser des modèles Qwen locaux ou distants.
+- [React Native Firebase](../../watch/technical-3681504d2fddfa84e41c.md) — Fonction · Intégre Firebase services via modules natifs.
+Avantages · Typage intégré, documentation complète.
+Gain · Éviter configuration manuelle des SDK Firebase.
 - [React Native Skia](../../watch/technical-7cd3c79123c711ed22a3.md) — Rendu graphique 2D performant pour applications React Native
 - [react-native-async-storage/async-storage](../../watch/technical-86179b264553419a3af1.md) — Stocke des données clé-valeur persistantes dans une application React Native
-- [react-native-geolocation-service](../../watch/technical-4b680fb1ac30d77fae4c.md) — Permet d'obtenir la position avec précision sur mobile
-- [react-native-screens](../../watch/technical-86557885f3c8aeb4655f.md) — Gère les transitions et états des vues pour une navigation fluide.
-- [react-native-svg](../../watch/technical-0d363f6aa6eaa85ad3ca.md) — Afficher des graphismes vectoriels dans des applications React Native
-- [Répertoire de ressources design](../../watch/technical-0c43c4b9eb7d7f87237a.md) — Accélère le développement UI avec des ressources prêtes à l'emploi
-- [Requests](../../watch/technical-0d1a89c543bad402b2da.md) — Fait des requêtes HTTP facilement et efficacement.
-- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Propose des corrections de code en temps réel via un terminal interactif
-- [Spec Kit](../../watch/technical-f4e0adf84666b0c986e7.md) — Structurer le développement avec des spécifications
-- [Stirling PDF](../../watch/technical-6b15eaf11d9b70cfb83f.md) — Traite des PDF localement sans service externe
-- [workerd](../../watch/technical-4ca7b79d976e015db39b.md) — Exécutez des applications Cloudflare Workers localement pour tester et développer.
+- [react-native-geolocation-service](../../watch/technical-4b680fb1ac30d77fae4c.md) — Fonction · Obtenir la position via Google Play Services sur Android.
+Avantages · Gère les timeout de localisation sur Android.
+Gain · Éviter les problèmes de précision GPS sans configuration complexe.
+- [react-native-screens](../../watch/technical-86557885f3c8aeb4655f.md) — Fonction · Gère la navigation native dans React Native.
+Avantages · Intégré à react-navigation et Expo.
+Gain · Éviter les crashes sur Android avec override.
+- [react-native-svg](../../watch/technical-0d363f6aa6eaa85ad3ca.md) — Fonction · Affiche SVG sur iOS, Android, web.
+Avantages · Conversion facile SVG vers code.
+Gain · Lancer graphismes sans réécriture.
+- [Répertoire de ressources design](../../watch/technical-0c43c4b9eb7d7f87237a.md) — Fonction · Ressources UI prêtes à l'emploi pour React.
+Avantages · Accélère le développement avec des composants réutilisables.
+Gain · Éviter de recréer des éléments UI complexes.
+- [Requests](../../watch/technical-0d1a89c543bad402b2da.md) — Fonction · Envoyer des requêtes HTTP avec Python.
+Avantages · Gère les authentifications et encodages automatiquement.
+Gain · Lancer des appels API sans config manuelle.
+- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Fonction · Écrire, corriger et exécuter du code via un terminal.
+Avantages · Support multi-fournisseurs et mode serveur HTTP.
+Gain · Automatiser des tâches via des pipelines ou des scripts.
+- [Spec Kit](../../watch/technical-f4e0adf84666b0c986e7.md) — Fonction · Structurer des processus, templates et résultats pour agents de codage.
+Avantages · Processus prédéfinis pour développement, réparation de bugs et évaluation d'idées.
+Gain · Lancer des tâches sans configuration, adapter au projet directement.
+- [Stirling PDF](../../watch/technical-6b15eaf11d9b70cfb83f.md) — Fonction · Editer, signer, rediger, convertir PDF localement ou en ligne.
+Avantages · Outils de traitement PDF sans dépendance externe.
+Gain · Automatiser workflows sans coder via interface graphique.
+- [workerd](../../watch/technical-4ca7b79d976e015db39b.md) — Fonction · Exécute des scripts JavaScript/Wasm en tant que serveur ou proxy.
+Avantages · Isolation des workers avec configuration par capacités.
+Gain · Déployer des nanoservices sans infrastructure complexe.
 - [yt-dlp-ejs](../../watch/technical-df2c1d26b3d255b2b015.md) — Facilite l'intégration de JavaScript avec yt-dlp
-- [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Permet aux agents d'intégrer instantanément la plateforme pour trader.
-- [Anthropic Cybersecurity Skills](../../watch/technical-02d73009ec03d24b2e22.md)
+- [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Fonction · Intégration instantanée des agents IA.
+Avantages · Signaux et stratégies prédéfinis.
+Gain · Lancer des trades en quelques secondes.
+- [Anthropic Cybersecurity Skills](../../watch/technical-02d73009ec03d24b2e22.md) — Fonction · Donner des compétences de sécurité à un agent AI.
+Avantages · Mappage à 6 frameworks de sécurité.
+Gain · Exécuter des tâches de sécurité en quelques secondes.
 - [camofox-browser](../../watch/technical-05a714c23543244771cf.md) — Piloter un navigateur headless pour les tâches web des agents.
 - [Free Claude Code](../../watch/technical-2ee41fd0d683c0958502.md) — Utilise des modèles d'IA pour le développement
 - [notfair-nextjs-blog](../../watch/technical-1fca81e0d4c208d8ff35.md) — Afficher des articles NotFair avec Next.js et un API privé
-- [OpenWA](../../watch/technical-aabd475730fdd2c418b7.md) — Exécute l'API WhatsApp sur un serveur interne sans dépendre de tiers
-- [Outil d'alignement et de validation des requêtes avec un modèle d'IA](../../watch/technical-e89b211cd062814b9628.md)
-- [awesome-ai-repos](../../watch/technical-7cf0ee8352dc6af0478e.md) — Gérer des agents IA avec des outils de coordination
+- [Langchain](../../watch/technical-5ea1d4fd1ccb4341a6ba.md) — Fonction · Gère les agents AI pour tâches spécifiques.
+Avantages · Intégration de modèles et outils préconfigurés.
+Gain · Automatiser les workflows sans codage.
+- [OpenWA](../../watch/technical-aabd475730fdd2c418b7.md) — Fonction · Exécute l'API WhatsApp sur un serveur interne.
+Avantages · Nécessite pas de dépendre de tiers.
+Gain · Éviter l'utilisation de services externes.
+- [Outil d'alignement et de validation des requêtes avec un modèle d'IA](../../watch/technical-e89b211cd062814b9628.md) — Fonction · Vérifie et aligne les requêtes avec un modèle d'IA.
+Avantages · Intégre des compétences d'agents IA prédéfinies.
+Gain · Éviter des erreurs de compréhension des requêtes.
+- [Pydantic AI](../../watch/technical-e916d975160d16b98553.md) — Fonction · Agent de type codage avec accès au système de fichiers.
+Avantages · Intégration de recherche web et d'un conseiller.
+Gain · Exécuter des tâches en terminal sans code préalable.
+- [awesome-ai-repos](../../watch/technical-7cf0ee8352dc6af0478e.md) — Fonction · Gère les agents AI pour tâches spécifiques.
+Avantages · Intégration de modèles et outils de recherche.
+Gain · Lancer des workflows sans configuration complexe.
 - [Clone-Wars](../../watch/technical-f39d8a91723d2198d9aa.md) — Découvrir le code source de clones d'applications populaires.
 - [ECC](../../watch/technical-edb3a626875732de5c9b.md) — Améliore la productivité en optimisant les tâches de codage.
 - [Jules](../../watch/technical-f23e4d6f3cd099180f4d.md) — Gère des tâches de codage via GitHub avec l'étiquette "jules".

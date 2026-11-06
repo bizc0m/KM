@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet d'interagir avec des bases de données FileMaker via Python
+Fonction · Accéder aux bases de données FileMaker Server via XML.  
+Avantages · Utilise lxml pour parser les résultats XML.  
+Gain · Éviter l'utilisation de minidom pour traiter les données.
 
 ## Identité
 

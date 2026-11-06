@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Analyse syntaxique JavaScript avec génération d'arbre d'expression.
+Fonction · Parser JavaScript conforme à ECMAScript 2024.  
+Avantages · Support des propositions TC39 stage 3 via l'option "next".  
+Gain · Analyser du code sans dépendance externe.
 
 ## Identité
 

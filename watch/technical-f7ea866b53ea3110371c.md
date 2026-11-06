@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet de modifier des splats 3D Gaussiens sans installation
+Fonction · Editeur web pour splats gaussiens 3D.  
+Avantages · Outils WebMCP pour inspection et édition.  
+Gain · Modifier et publier des scènes sans installation.
 
 ## Identité
 

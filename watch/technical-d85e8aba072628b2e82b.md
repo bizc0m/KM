@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée des vidéos d'embrassade à partir de deux photos.
+Fonction · Génère des vidéos de baisers en fusionnant deux photos.  
+Avantages · Support multi-modèles et gestion des crédits via Stripe.  
+Gain · Créer des animations en quelques secondes sans codage.
 
 ## Identité
 
@@ -29,8 +31,8 @@ Crée des vidéos d'embrassade à partir de deux photos.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai domain.media.video capability.generate.video source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
+- Identifiants : domain.ai domain.media.video domain.dev.quality capability.generate.video source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo ; Développement logiciel > Qualité du code
 - Fonctions : Générer des contenus > Générer une vidéo
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
@@ -39,6 +41,8 @@ Crée des vidéos d'embrassade à partir de deux photos.
 
 - https://github.com/samuraigpt/ai-kissing-video-generator
 - https://x.com/i/status/2056408789327462486
+- https://cdn.muapi.ai/data/2/820860332478/Screenshot_2026-05-26_151233.png
+- https://raw.githubusercontent.com/samuraigpt/ai-kissing-video-generator/HEAD/README.md
 
 ## Traçabilité
 
@@ -61,3 +65,9 @@ Crée des vidéos d'embrassade à partir de deux photos.
 - Source : https://github.com/samuraigpt/ai-kissing-video-generator
 - Analyse source : 2026-10-22T01:30:11.380Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![AI Kissing Video Generator Showcase](https://cdn.muapi.ai/data/2/820860332478/Screenshot_2026-05-26_151233.png)
+
+[Origine](https://raw.githubusercontent.com/samuraigpt/ai-kissing-video-generator/HEAD/README.md)

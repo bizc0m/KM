@@ -3,10 +3,20 @@
 - [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Fonction · Télécharge et stream des anime via des fournisseurs.
 Avantages · Supporte des paramètres de qualité et de plage d'épisodes.
 Gain · Lancer le streaming ou la téléchargement sans configuration.
-- [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Gère les dépendances de projet avec des lockfiles.
-- [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Gère les dépendances et les environnements
+- [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Fonction · Installe et gère les packages Python et les environnements.
+Avantages · Vitesse 10-100x supérieure à pip.
+Gain · Exécuter des outils sans créer d'environnement.
+- [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Fonction · Installer Python et gérer les dépendances.
+Avantages · Utilise un résolveur basé sur PubGrub.
+Gain · Lancer des scripts sans installer Python.
 - [PubGrub](../../watch/technical-40431c060cb04bde6a19.md) — Résout des conflits de dépendances avec des explications claires.
-- [orogene](../../watch/technical-6bb0ffb5ad3771787603.md) — Installe les dépendances rapidement sans surcharger les ressources.
-- [Carthage](../../watch/technical-db0404acb89369a258a1.md) — Gère les dépendances Cocoa sans modifier les fichiers projet
-- [mutagen](../../watch/technical-5a9ba13528ab94de7bad.md) — Gère les métadonnées audio sans dépendances externes.
+- [orogene](../../watch/technical-6bb0ffb5ad3771787603.md) — Fonction · Gère les dépendances pour les outils utilisant node_modules.
+Avantages · Installe rapidement avec peu de ressources.
+Gain · Éviter de vérifier manuellement les mises à jour.
+- [Carthage](../../watch/technical-db0404acb89369a258a1.md) — Fonction · Gère les dépendances pour les projets Cocoa.
+Avantages · Fournit des frameworks binaires sans modifier le projet.
+Gain · Éviter de configurer manuellement les dépendances.
+- [mutagen](../../watch/technical-5a9ba13528ab94de7bad.md) — Fonction · Gère les métadonnées audio avec Python.
+Avantages · Supporte divers formats et ID3v2.
+Gain · Modifier tags sans changer le fichier audio.
 - [yt-dlp-ejs](../../watch/technical-df2c1d26b3d255b2b015.md) — Facilite l'intégration de JavaScript avec yt-dlp

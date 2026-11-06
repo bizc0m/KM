@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyse la courbure de l'ADN pour des études structurales.
+Fonction · Calculer la courbure 3D d'une molécule d'ADN à partir de sa séquence.  
+Avantages · Modèle dinucléotidique pour angles de courbure locaux et macroscopiques.  
+Gain · Exporter en PDB, CSV ou PNG pour visualisation et analyse.
 
 ## Identité
 

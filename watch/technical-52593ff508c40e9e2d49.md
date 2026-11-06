@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Lire des vidéos YouTube via mov-cli avec options audio et shorts
+Fonction · Lire des vidéos YouTube via CLI.  
+Avantages · Support audio seul et vidéos courtes.  
+Gain · Exécuter des requêtes sans navigateur.
 
 ## Identité
 

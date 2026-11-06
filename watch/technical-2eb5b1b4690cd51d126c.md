@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyse technique SEO pour optimiser le site web
+Fonction · Analyse SEO, audits techniques, recherches de mots-clés.  
+Avantages · Intégration avec des agents comme Claude Code et OpenClaw.  
+Gain · Automatiser les tâches SEO sans configuration complexe.
 
 ## Métadonnées
 

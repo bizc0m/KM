@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Exécute des ordres de trading avec précision et rapidité
+Fonction · Exécute des stratégies de trading sur des marchés de prévision.  
+Avantages · Adapte aux plateformes comme Predict.fun et Polymarket.  
+Gain · Lancer des tests sans risque avant de trader réellement.
 
 ## Métadonnées
 
@@ -23,8 +25,8 @@ Exécute des ordres de trading avec précision et rapidité
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.finance source.x source.github lifecycle.active
-- Sujets : Analyse financière
+- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
+- Sujets : Analyse financière > Marchés prédictifs
 - Provenance : X / Twitter ; GitHub
 - État : Actif
 

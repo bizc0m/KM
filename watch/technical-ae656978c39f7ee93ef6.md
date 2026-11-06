@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Permet de formater des articles Markdown avec des thèmes adaptés.
+Fonction · Éditeur Markdown avec personnalisation de style.  
+Avantages · Intégration avec WeChat, Zhihu et juejin.  
+Gain · Publier directement des articles sans configuration.
 
 ## Métadonnées
 

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Créer des publicités vidéo vendables pour des marques réelles.
+Fonction · Créer des services vendables avec IA générative.  
+Avantages · Modules structurés avec pricing et clients.  
+Gain · Lancer des projets sans coder, avec modèles prêts.
 
 ## Identité
 

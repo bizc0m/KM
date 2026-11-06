@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Télécharger des vidéos depuis YouTube et d'autres plateformes.
+Fonction · Télécharger des vidéos depuis YouTube et d'autres plateformes.  
+Avantages · Gestion des listes de lecture et filtres de contenu.  
+Gain · Éviter de télécharger des vidéos inutiles via des filtres.
 
 ## Identité
 

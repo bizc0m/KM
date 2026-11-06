@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Correction des avertissements et amélioration de Git scrape
+Fonction · Extraire des données depuis GitHub, Twitter, NotePlan.  
+Avantages · Gère les avertissements et améliore le scraping Git.  
+Gain · Lancer l'extraction sans configuration complexe.
 
 ## Métadonnées
 

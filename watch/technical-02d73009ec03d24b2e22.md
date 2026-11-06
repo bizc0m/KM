@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet aux agents IA d'appliquer des workflows de sécurité professionnels.
+Fonction · Donner des compétences de sécurité à un agent AI.  
+Avantages · Mappage à 6 frameworks de sécurité.  
+Gain · Exécuter des tâches de sécurité en quelques secondes.
 
 ## Métadonnées
 

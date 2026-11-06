@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Ajouter des rôles d'agents pour des conseils spécialisés.
+Fonction · Définir des rôles d'agents pour des conseils spécialisés.  
+Avantages · Intégration avec NotePlan, X/Twitter, GitHub.  
+Gain · Automatiser la gestion des tâches via des rôles prédéfinis.
 
 ## Métadonnées
 
@@ -315,4 +317,4 @@ Source : https://raw.githubusercontent.com/msitarzewski/agency-agents/HEAD/engin
 
 ### Voice AI Integration Engineer
 
-Construit des pipelines de transcription audio vers texte structuré. Transforme des enregistrements audio en texte attribué aux locuteurs. Intègre les résulta
+Construit des pipe

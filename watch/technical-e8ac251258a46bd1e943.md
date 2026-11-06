@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Transforme un prompt en code exécutable directement depuis le terminal.
+Fonction · Convertir un prompt en code fonctionnel via terminal.  
+Avantages · Intégration de modèles locaux ou MiniMax avec API.  
+Gain · Exécuter des tâches sans infrastructure serveur.
 
 ## Identité
 
@@ -29,8 +31,8 @@ Transforme un prompt en code exécutable directement depuis le terminal.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle
+- Identifiants : domain.ai domain.infrastructure compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle ; Infrastructure
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
@@ -39,6 +41,9 @@ Transforme un prompt en code exécutable directement depuis le terminal.
 
 - https://github.com/minimax-ai/minimax-code
 - https://x.com/i/status/2056692982871388491
+- https://raw.githubusercontent.com/minimax-ai/minimax-code/HEAD/docs/assets/source-preview.svg
+- https://raw.githubusercontent.com/minimax-ai/minimax-code/HEAD/README.md
+- https://raw.githubusercontent.com/minimax-ai/minimax-code/HEAD/docs/assets/pocket-pet-demo.png
 
 ## Traçabilité
 
@@ -61,3 +66,13 @@ Transforme un prompt en code exécutable directement depuis le terminal.
 - Source : https://github.com/minimax-ai/minimax-code
 - Analyse source : 2026-10-26T02:52:41.490Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![Source preview](https://raw.githubusercontent.com/minimax-ai/minimax-code/HEAD/docs/assets/source-preview.svg)
+
+[Origine](https://raw.githubusercontent.com/minimax-ai/minimax-code/HEAD/README.md)
+
+![Pocket Pet: from a blinking face to a working focus companion](https://raw.githubusercontent.com/minimax-ai/minimax-code/HEAD/docs/assets/pocket-pet-demo.png)
+
+[Origine](https://raw.githubusercontent.com/minimax-ai/minimax-code/HEAD/README.md)

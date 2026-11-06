@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée des vidéos courtes pour réseaux sociaux sans installation.
+Fonction · Génère des vidéos à partir de textes via des modèles AI.  
+Avantages · Intègre des outils comme EdgeTTS, Whisper, Veo3 et Pexels.  
+Gain · Créer des vidéos sans installation, directement via API.
 
 ## Métadonnées
 

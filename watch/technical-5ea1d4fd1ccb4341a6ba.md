@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Crée des applications LLM avec des modèles et outils.
+Fonction · Gère les agents AI pour tâches spécifiques.  
+Avantages · Intégration de modèles et outils préconfigurés.  
+Gain · Automatiser les workflows sans codage.
 
 ## Métadonnées
 
@@ -23,8 +25,8 @@ Crée des applications LLM avec des modèles et outils.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents domain.ai.llm source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA ; Intelligence artificielle > Modèles de langage
+- Identifiants : domain.ai.agents domain.ai.llm domain.dev.quality source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA ; Intelligence artificielle > Modèles de langage ; Développement logiciel > Qualité du code
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

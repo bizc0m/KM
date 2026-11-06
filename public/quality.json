@@ -1,16 +1,16 @@
 {
-  "at": "2026-11-06T17:10:43.724Z",
+  "at": "2026-11-06T18:10:51.154Z",
   "scope": "public-index-only",
   "fiches": 658,
-  "sourceReferences": 2646,
+  "sourceReferences": 2724,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 629,
+  "pendingReview": 627,
   "counts": {
-    "interest-missing": 171,
-    "keywords-missing": 87,
-    "domain-unqualified": 115,
+    "interest-missing": 162,
+    "keywords-missing": 75,
+    "domain-unqualified": 104,
     "primary-identity-unqualified": 20,
     "nature-unqualified": 608
   },
@@ -671,13 +671,6 @@
       ]
     },
     {
-      "id": "watch-technical-08055b9ca2497bd87108-md",
-      "title": "Plugin mov-cli-jellyplex",
-      "reasons": [
-        "domain-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-f2ad2f5dfae253d2f4b6-md",
       "title": "Popcorn Time",
       "reasons": [
@@ -846,7 +839,6 @@
       "id": "watch-technical-c45c04c570d8ed1549e8-md",
       "title": "Webtor",
       "reasons": [
-        "keywords-missing",
         "nature-unqualified"
       ]
     },
@@ -877,7 +869,6 @@
       "id": "watch-technical-b3d97a6bcd67a3be76f1-md",
       "title": "agency-agents",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -985,7 +976,6 @@
       "id": "watch-technical-d924e27b47fa985d6e04-md",
       "title": "google_dorker",
       "reasons": [
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -1096,7 +1086,6 @@
       "id": "watch-technical-cdbdf85699a704f19664-md",
       "title": "OSINTSky",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1430,7 +1419,6 @@
       "id": "watch-technical-d5417dd0599d69bd651b-md",
       "title": "Nano Banana Generator",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1497,8 +1485,6 @@
       "id": "watch-technical-092f153418d9f0fea556-md",
       "title": "czi2b64",
       "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -1560,7 +1546,6 @@
       "id": "watch-technical-79a417ee1a4c860c72f7-md",
       "title": "icsdll",
       "reasons": [
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -1618,7 +1603,6 @@
       "id": "watch-technical-91c93b1bcde55904917c-md",
       "title": "numpy-mkl-wheels",
       "reasons": [
-        "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
       ]
@@ -1627,7 +1611,6 @@
       "id": "watch-technical-31ee21281c253175f879-md",
       "title": "obffile",
       "reasons": [
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -1663,7 +1646,6 @@
       "id": "watch-technical-0a61327e7795d4222c1f-md",
       "title": "psf",
       "reasons": [
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -1704,7 +1686,6 @@
       "id": "watch-technical-61814bd79e86875ea616-md",
       "title": "pylibczirw-wheels",
       "reasons": [
-        "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
       ]
@@ -1851,7 +1832,6 @@
       "id": "watch-technical-1d0990eb5e5220fd6837-md",
       "title": "AtomicParsley",
       "reasons": [
-        "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
       ]
@@ -1875,7 +1855,6 @@
       "id": "watch-technical-cba966f73723eddffaaa-md",
       "title": "certifi",
       "reasons": [
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -1950,7 +1929,6 @@
       "id": "watch-technical-0b7ff841d3a409025edc-md",
       "title": "FFmpeg-Builds",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
@@ -2009,7 +1987,6 @@
       "title": "Jellyfin",
       "reasons": [
         "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -2024,7 +2001,6 @@
       "id": "watch-technical-2654a48caa01902c8b1d-md",
       "title": "LocalSend",
       "reasons": [
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -2032,7 +2008,6 @@
       "id": "watch-technical-31ab29a98885946215cd-md",
       "title": "LocalSend Protocol",
       "reasons": [
-        "interest-missing",
         "keywords-missing",
         "nature-unqualified"
       ]
@@ -2230,7 +2205,6 @@
       "id": "watch-technical-405c91ca16cfd882b223-md",
       "title": "Resource Han Rounded",
       "reasons": [
-        "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
       ]
@@ -2301,8 +2275,6 @@
       "id": "watch-technical-05b853ba300b6a897894-md",
       "title": "uptime-kuma",
       "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -2376,7 +2348,6 @@
       "id": "watch-technical-900c2911ad71cf6d2191-md",
       "title": "AI employee open source avec ordinateur intégré",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -2385,13 +2356,6 @@
       "title": "AI-Trader",
       "reasons": [
         "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-02d73009ec03d24b2e22-md",
-      "title": "Anthropic Cybersecurity Skills",
-      "reasons": [
-        "interest-missing"
       ]
     },
     {
@@ -2405,7 +2369,6 @@
       "id": "watch-technical-1f02bc8ebd550362cbc2-md",
       "title": "Augur Trading Bot",
       "reasons": [
-        "keywords-missing",
         "nature-unqualified"
       ]
     },
@@ -2462,7 +2425,6 @@
       "id": "watch-technical-832b1113a3474e30413a-md",
       "title": "DraftKings Predictions Trading Bot",
       "reasons": [
-        "keywords-missing",
         "nature-unqualified"
       ]
     },
@@ -2631,7 +2593,6 @@
       "id": "watch-technical-f0066d78062c33a0cb18-md",
       "title": "Mac Mini pour l'IA",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -2639,7 +2600,6 @@
       "id": "watch-technical-13c3b19f7eae9306c512-md",
       "title": "Minitrade",
       "reasons": [
-        "keywords-missing",
         "nature-unqualified"
       ]
     },
@@ -2647,7 +2607,6 @@
       "id": "watch-technical-f9593f1f67353de2f728-md",
       "title": "NautilusTrader",
       "reasons": [
-        "keywords-missing",
         "nature-unqualified"
       ]
     },
@@ -2676,7 +2635,6 @@
       "id": "watch-technical-e89b211cd062814b9628-md",
       "title": "Outil d'alignement et de validation des requêtes avec un modèle d'IA",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -2757,7 +2715,6 @@
       "id": "watch-technical-9430291e7ebea78d5bfa-md",
       "title": "Projection Finance Trading Bot",
       "reasons": [
-        "keywords-missing",
         "nature-unqualified"
       ]
     },
@@ -2833,7 +2790,6 @@
       "id": "watch-technical-60d78a24f5ceb1c0cf35-md",
       "title": "yt-dlp",
       "reasons": [
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },

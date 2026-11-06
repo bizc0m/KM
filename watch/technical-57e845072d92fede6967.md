@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Rechercher des informations sur des comptes Telegram via des API.
+Fonction · Recherche d'informations sur des comptes et canaux Telegram.  
+Avantages · Utilisation de plusieurs APIs avec suivi d'usage.  
+Gain · Exécuter des requêtes sans configuration complexe.
 
 ## Identité
 

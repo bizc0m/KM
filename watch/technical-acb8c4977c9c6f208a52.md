@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Accéder aux ressources sur le désarmement et la sécurité internationale
+Fonction · Gérer les ressources sur le désarmement et la sécurité.  
+Avantages · Accès à des données et analyses internationales.  
+Gain · Éviter de rechercher des informations dispersées.
 
 ## Métadonnées
 

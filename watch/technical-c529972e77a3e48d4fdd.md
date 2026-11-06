@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Identifier les hôtes et services sur un réseau.
+Fonction · Scanner de réseau pour découvrir des hôtes et services.  
+Avantages · Détecte les ports ouverts et les versions de logiciels.  
+Gain · Éviter de scanner manuellement chaque appareil.
 
 ## Identité
 

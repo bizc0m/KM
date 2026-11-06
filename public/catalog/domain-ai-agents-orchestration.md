@@ -4,7 +4,12 @@
 Avantages · Intégre sandbox, orchestration multi-agents, MCP.
 Gain · Lancer des tâches sans interface graphique.
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
-- [Génération automatique de micro-dramas vidéo](../../watch/technical-041ee9bffa76ace2d6ef.md) — Crée un micro-drama vidéo à partir d'une idée
+- [Génération automatique de micro-dramas vidéo](../../watch/technical-041ee9bffa76ace2d6ef.md) — Fonction · Génère des micro-dramas vidéo à partir d'idées ou de scripts.
+Avantages · Intégration de MuAPI pour image et vidéo.
+Gain · Éviter la fragmentation des outils et créer des scènes cohérentes.
+- [awesome-seo-agent-skills](../../watch/technical-ff4abb9b63459f4d12ec.md) — Fonction · Agent Skills pour SEO, audits techniques, recherches de mots-clés.
+Avantages · Support multi-agents avec documentation des API.
+Gain · Déployer des tâches SEO sans configuration complexe.
 - [Open Multi-Agent (OMA)](../../watch/technical-b1a37537c70048612638.md) — Gère l'orchestration des agents avec approbations durables et enregistrements vérifiables.
 - [Ruflo](../../watch/technical-1b635fdf72be259a562c.md) — Coordination de 100+ agents spécialisés via plusieurs topologies.
 - [Herdr Multiplexer](../../watch/herdr-agent-multiplexer.md)

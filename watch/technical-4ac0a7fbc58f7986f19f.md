@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Génère des données fausses pour tests et démos.
+Fonction · Génère des données fictives réalistes pour tests et démos.  
+Avantages · Supporte des centaines de catégories et locales.  
+Gain · Éviter de créer manuellement des données test.
 
 ## Identité
 

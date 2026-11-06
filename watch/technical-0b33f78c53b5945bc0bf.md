@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Génère des résumés et alertes en Slack pour suivre les discussions.
+Fonction · Génère des résumés et alertes en Slack.  
+Avantages · Intégre NotePlan Calendar et messagerie.  
+Gain · Suivre les discussions sans ouvrir chaque message.
 
 ## Métadonnées
 

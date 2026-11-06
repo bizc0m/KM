@@ -18,11 +18,28 @@ Gain · Lancer des tâches sans interface graphique.
 - [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones
 - [T3Bench](../../watch/technical-763a276cbab62cfc7a39.md) — Comparer les performances des modèles de génération 3D.
 - [TRELLIS.2](../../watch/technical-8a1d416625950ae0abb8.md) — Convertit des maillages texturés en voxel O-Voxel en quelques secondes.
-- [AI Creator Academy](../../watch/technical-21a78e48d74a8e6ab07f.md) — Créer des publicités vidéo vendables pour des marques réelles.
-- [Markdown Nice](../../watch/technical-ae656978c39f7ee93ef6.md) — Permet de formater des articles Markdown avec des thèmes adaptés.
-- [TweetClaw](../../watch/technical-1916507fd0ec17c5d818.md) — Permet de rechercher des tweets via des requêtes spécifiques
-- [awesome-ai-marketing-tools-1](../../watch/technical-98601a8248a8eb261f28.md) — Génère du contenu marketing avec des outils comme Anyword et Jasper
-- [awesome-ai-marketing-tools](../../watch/technical-c9538405e52eaa888eec.md) — Génère du contenu marketing avec des outils comme Anyword et Jasper
-- [Viktor](../../watch/technical-0b33f78c53b5945bc0bf.md) — Génère des résumés et alertes en Slack pour suivre les discussions.
-- [Agent AItoEarn pour la gestion de contenus sur plusieurs plateformes](../../watch/technical-126e0bcbd6b43332ca45.md) — Gérer et publier des contenus sur 14 plateformes depuis un seul outil.
+- [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Fonction · Agent IA auto-configure pour Slack par canal.
+Avantages · Mémoire curatée et création automatique de compétences.
+Gain · Éviter les logs bruyants, lancer des tâches en contexte.
+- [AI Creator Academy](../../watch/technical-21a78e48d74a8e6ab07f.md) — Fonction · Créer des services vendables avec IA générative.
+Avantages · Modules structurés avec pricing et clients.
+Gain · Lancer des projets sans coder, avec modèles prêts.
+- [Markdown Nice](../../watch/technical-ae656978c39f7ee93ef6.md) — Fonction · Éditeur Markdown avec personnalisation de style.
+Avantages · Intégration avec WeChat, Zhihu et juejin.
+Gain · Publier directement des articles sans configuration.
+- [TweetClaw](../../watch/technical-1916507fd0ec17c5d818.md) — Fonction · Poste, répondez, recherchez des tweets.
+Avantages · Approbation requise pour chaque écriture.
+Gain · Lancer des tâches sans configuration complexe.
+- [awesome-ai-marketing-tools-1](../../watch/technical-98601a8248a8eb261f28.md) — Fonction · Génère et optimise du contenu marketing.
+Avantages · Analyse prédictive des performances.
+Gain · Publier directement sans révision.
+- [awesome-ai-marketing-tools](../../watch/technical-c9538405e52eaa888eec.md) — Fonction · Génère et optimise du contenu marketing.
+Avantages · Analyse prédictive des performances.
+Gain · Publier directement sans révision.
+- [Viktor](../../watch/technical-0b33f78c53b5945bc0bf.md) — Fonction · Génère des résumés et alertes en Slack.
+Avantages · Intégre NotePlan Calendar et messagerie.
+Gain · Suivre les discussions sans ouvrir chaque message.
+- [Agent AItoEarn pour la gestion de contenus sur plusieurs plateformes](../../watch/technical-126e0bcbd6b43332ca45.md) — Fonction · Publier des contenus sur 14 plateformes depuis un seul outil.
+Avantages · Intégration avec NotePlan et X / Twitter.
+Gain · Éviter de gérer plusieurs interfaces pour la publication.
 - [Alook](../../watch/alook-ai-workforce-collaboration.md)

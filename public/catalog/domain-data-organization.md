@@ -18,11 +18,22 @@ Gain · Créer des démos sans abonnement SaaS.
 - [PC-NBV](../../watch/technical-c88e811a1a66f8cd57ba.md) — Fonction · Planifier la prochaine vue optimale à partir de nuages de points.
 Avantages · Utilise des réseaux de neurones pour évaluer les vues.
 Gain · Éviter de tester manuellement chaque vue possible.
-- [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Gère les dépendances de projet avec des lockfiles.
-- [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Gère les dépendances et les environnements
-- [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence visuelle et narrative.
+- [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Fonction · Installe et gère les packages Python et les environnements.
+Avantages · Vitesse 10-100x supérieure à pip.
+Gain · Exécuter des outils sans créer d'environnement.
+- [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Fonction · Installer Python et gérer les dépendances.
+Avantages · Utilise un résolveur basé sur PubGrub.
+Gain · Lancer des scripts sans installer Python.
+- [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Fonction · Génère des vidéos à partir de concepts, scénarios ou romans.
+Avantages · Intègre audio, storyboard, et gestion de cohérence visuelle.
+Gain · Créer des vidéos longues sans expertise technique.
 - [SeekerClaw](../../watch/technical-6a7363072642ee3e6fc9.md) — Contrôle des appareils Android via un agent AI en temps réel
-- [ARGO](../../watch/technical-e3f44ce252af9ba887f8.md) — Recherche locale sans connexion.
+- [ARGO](../../watch/technical-e3f44ce252af9ba887f8.md) — Fonction · Planifier des tâches avec des notes et des calendriers.
+Avantages · Gère les tâches sans connexion internet.
+Gain · Éviter de synchroniser avec des services en ligne.
+- [ViMax](../../watch/technical-ef1500532ddc132c577d.md) — Fonction · Génère des courts-métrages à partir d'idées.
+Avantages · Intégre des outils de planification et de calendrier.
+Gain · Lancer la création sans édition vidéo préalable.
 - [Outils en ligne utiles pour le développement et la gestion de projets](../../watch/technical-99260b2f64304ae31048.md) — Unpaywall.org permet d'accéder gratuitement aux articles de recherche.
 - [Outils en ligne utiles pour le développement et la gestion de projets](../../watch/technical-c2b6bc61f64db5dde9f2.md) — Unpaywall.org permet d'accéder gratuitement aux articles de recherche.
 - [Planification des tâches dans NotePlan](../../watch/technical-fcb3c753c1859c7ada32.md) — Planifier des tâches avec des marques pour afficher des points bleus dans le calendrier.

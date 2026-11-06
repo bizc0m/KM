@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Gère les métadonnées audio sans dépendances externes.
+Fonction · Gère les métadonnées audio avec Python.  
+Avantages · Supporte divers formats et ID3v2.  
+Gain · Modifier tags sans changer le fichier audio.
 
 ## Identité
 

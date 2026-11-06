@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Lire des fichiers d'images Leica et extraire les métadonnées.
+Fonction · Lire des fichiers d'images Leica (LIF, LOF, XLIF, etc.).  
+Avantages · Support des formats XML et TIFF avec décodage avancé.  
+Gain · Analyser et visualiser des données de microscopie sans conversion.
 
 ## Identité
 
@@ -29,8 +31,8 @@ Lire des fichiers d'images Leica et extraire les métadonnées.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.image compatibility.language.python source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Images et graphisme
+- Identifiants : domain.media.image domain.dev.quality compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Images et graphisme ; Développement logiciel > Qualité du code
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

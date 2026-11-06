@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet d'obtenir la position avec précision sur mobile
+Fonction · Obtenir la position via Google Play Services sur Android.  
+Avantages · Gère les timeout de localisation sur Android.  
+Gain · Éviter les problèmes de précision GPS sans configuration complexe.
 
 ## Identité
 

@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Installe les dépendances rapidement sans surcharger les ressources.
+Fonction · Gère les dépendances pour les outils utilisant node_modules.  
+Avantages · Installe rapidement avec peu de ressources.  
+Gain · Éviter de vérifier manuellement les mises à jour.
 
 ## Identité
 

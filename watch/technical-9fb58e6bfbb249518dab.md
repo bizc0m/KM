@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée des canevas adaptatifs pour l'usage personnel
+Fonction · Crée des canevas adaptatifs pour l'usage personnel.  
+Avantages · Intégre calendrier et notes de NotePlan.  
+Gain · Organiser des projets sans outil externe.
 
 ## Métadonnées
 

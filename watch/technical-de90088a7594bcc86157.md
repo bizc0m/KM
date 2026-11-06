@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Recherche rapide de dorks pour trouver des informations via des moteurs de recherche
+Fonction · Recherche d'informations via des dorks sur Yandex, Google, Bing.  
+Avantages · Code source ouvert, mises à jour hebdomadaires.  
+Gain · Exécuter des requêtes rapidement, traiter des fichiers divers.
 
 ## Identité
 

@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Fait des requêtes HTTP facilement et efficacement.
+Fonction · Envoyer des requêtes HTTP avec Python.  
+Avantages · Gère les authentifications et encodages automatiquement.  
+Gain · Lancer des appels API sans config manuelle.
 
 ## Identité
 
@@ -27,8 +29,9 @@ Fait des requêtes HTTP facilement et efficacement.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.dev.quality source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.dev.quality compatibility.language.python source.noteplan source.github source.x lifecycle.active
 - Sujets : Développement logiciel > Qualité du code
+- Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

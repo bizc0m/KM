@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Exécute des stratégies de trading sur des marchés de prévision.
+Fonction · Bot de trading sur Solana et plateformes sociales.  
+Avantages · Stratégies prédéfinies : copy trading, arbitrage directionnel.  
+Gain · Lancer des tests en mode simulateur avant déploiement.
 
 ## Métadonnées
 
@@ -23,8 +25,9 @@ Exécute des stratégies de trading sur des marchés de prévision.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
+- Identifiants : domain.finance.prediction capability.simulate source.x source.github lifecycle.active
 - Sujets : Analyse financière > Marchés prédictifs
+- Fonctions : Simuler et tester
 - Provenance : X / Twitter ; GitHub
 - État : Actif
 

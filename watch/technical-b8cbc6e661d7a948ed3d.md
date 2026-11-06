@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Découvrir, évaluer et exécuter 500+ modèles multimodaux en un clic.
+Fonction · Générer, éditer et afficher des médias professionnels via muapi-cli.  
+Avantages · Accès à 100+ modèles AI et outils MCP pour agents.  
+Gain · Lancer des workflows en un clic avec des recettes prêtes à exécuter.
 
 ## Identité
 

@@ -9,8 +9,12 @@ Gain · Lancer des tâches de scraping sans configuration complexe.
 - [cloakbrowser-manager](../../watch/technical-f1bc36a07e9a8a388405.md) — Fonction · Gérer des profils de navigateurs isolés avec des empreintes uniques.
 Avantages · Profils indépendants avec GPU, proxy, cookies et historique distincts.
 Gain · Lancer des tâches sans lien entre les comptes ou l'utilisateur.
-- [Selenium](../../watch/technical-d03eda2466f2556e6e1c.md) — Automatise les tests web avec des scripts.
-- [CUAWright](../../watch/technical-302726d10970209e8855.md) — Permet aux modèles de codage d'automatiser des navigateurs et des applications de bureau.
+- [Selenium](../../watch/technical-d03eda2466f2556e6e1c.md) — Fonction · Automatise les navigateurs web via WebDriver.
+Avantages · Compatible avec tous les navigateurs majeurs.
+Gain · Éviter de coder manuellement les interactions.
+- [CUAWright](../../watch/technical-302726d10970209e8855.md) — Fonction · Automatiser navigateurs et apps desktop via terminal.
+Avantages · Scripts réutilisables et logs persistants.
+Gain · Exécuter tâches complexes sans session navigateur.
 - [camofox-browser](../../watch/technical-05a714c23543244771cf.md) — Piloter un navigateur headless pour les tâches web des agents.
 - [Outils pour collecter des données web via des agents IA](../../watch/technical-985e97ab7a28702f6cd3.md) — Permettre à l'IA d'explorer des plateformes via CLI sans frais d'API.
 - [OpenBot AI Coworkers](../../watch/openbot-ai-coworkers.md)

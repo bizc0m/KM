@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Analyser et traiter des visages dans des médias sans dépendre de services payants.
+Fonction · Échange de visage, amélioration, montage vidéo et webcam.  
+Avantages · Modèles avancés, traitement par GPU, gestion de tâches en batch.  
+Gain · Lancer des tâches sans installation, configurer rapidement.
 
 ## Métadonnées
 
@@ -23,8 +25,9 @@ Analyser et traiter des visages dans des médias sans dépendre de services paya
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.video domain.media.image source.noteplan source.x source.github lifecycle.active
+- Identifiants : domain.media.video domain.media.image capability.edit.video source.noteplan source.x source.github lifecycle.active
 - Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
+- Fonctions : Monter une vidéo
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
 - État : Actif
 
@@ -33,6 +36,8 @@ Analyser et traiter des visages dans des médias sans dépendre de services paya
 - https://github.com/visomasterfusion/visomaster-fusion
 - https://x.com/i/status/2055825240018886865
 - https://raw.githubusercontent.com/VisoMasterFusion/VisoMaster-Fusion/HEAD/docs/alphaface.md
+- https://raw.githubusercontent.com/visomasterfusion/visomaster-fusion/HEAD/.github/screenshot_2.png
+- https://raw.githubusercontent.com/visomasterfusion/visomaster-fusion/HEAD/README.md
 
 ## Traçabilité
 
@@ -64,3 +69,9 @@ Outil de remplacement de visage 256x256. Utilise un encodeur ArcFace existant. M
 - Le modèle doit être téléchargé avant utilisation.
 
 Source : https://raw.githubusercontent.com/VisoMasterFusion/VisoMaster-Fusion/HEAD/docs/alphaface.md ; niveau 3.
+
+## Aperçus
+
+![Aperçu du produit](https://raw.githubusercontent.com/visomasterfusion/visomaster-fusion/HEAD/.github/screenshot_2.png)
+
+[Origine](https://raw.githubusercontent.com/visomasterfusion/visomaster-fusion/HEAD/README.md)

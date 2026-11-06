@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Mise à jour immédiate des connaissances pour un chatbot sans retard.
+Fonction · Détecter les doublons dans les données en temps réel.  
+Avantages · Mise à jour immédiate des connaissances pour le chatbot.  
+Gain · Éviter les répétitions et améliorer la pertinence des réponses.
 
 ## Métadonnées
 

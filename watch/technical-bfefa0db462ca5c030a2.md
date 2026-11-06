@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Gère les photos et vidéos avec une sauvegarde automatique
+Fonction · Gère photos et vidéos en local ou en cloud.  
+Avantages · Sauvegarde automatique et reconnaissance faciale.  
+Gain · Accéder aux données sans internet, partager en public.
 
 ## Identité
 
@@ -36,6 +38,8 @@ Gère les photos et vidéos avec une sauvegarde automatique
 
 - https://github.com/immich-app/immich
 - https://x.com/i/status/2059648731801399524
+- https://raw.githubusercontent.com/immich-app/immich/HEAD/design/immich-screenshots.png
+- https://raw.githubusercontent.com/immich-app/immich/HEAD/README.md
 
 ## Traçabilité
 
@@ -44,3 +48,9 @@ Gère les photos et vidéos avec une sauvegarde automatique
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![Aperçu du produit](https://raw.githubusercontent.com/immich-app/immich/HEAD/design/immich-screenshots.png)
+
+[Origine](https://raw.githubusercontent.com/immich-app/immich/HEAD/README.md)

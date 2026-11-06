@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée des logos professionnels à partir de textes ou de croquis en quelques secondes.
+Fonction · Générer des logos et identités visuelles à partir de textes ou d'esquisses.  
+Avantages · Intégration Stripe, gestion des crédits et historique des créations.  
+Gain · Lancer des générations en quelques secondes sans configuration complexe.
 
 ## Identité
 

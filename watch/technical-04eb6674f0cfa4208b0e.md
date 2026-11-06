@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Accéder à la documentation du modèle GPT-6 Astra
+Fonction · Générer des réponses via l'API Responses avec des outils et raisonnement.  
+Avantages · Contexte de 1,05M tokens et sortie jusqu'à 128K tokens.  
+Gain · Exécuter des tâches complexes avec des vérifications intermédiaires.
 
 ## Identité
 

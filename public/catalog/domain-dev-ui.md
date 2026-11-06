@@ -6,7 +6,9 @@ Gain · Lancer des tâches sans interface graphique.
 - [Penpot](../../watch/technical-c0d4875dd605f77caf57.md) — Fonction · Créer et collaborer sur des designs et prototypes.
 Avantages · Intégration avec des outils de développement via API.
 Gain · Exporter directement du code HTML/CSS/SVG sans intermédiaire.
-- [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Analyse de type rapide avec diagnostics précis pour code Python
+- [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Fonction · Vérifie les types en Rust, serveur de langage.
+Avantages · 10x plus rapide que mypy et Pyright.
+Gain · Éviter de recompiler sans cache, analyses incrémentales.
 - [Vibe Coding et Spec Kit](../../watch/technical-9379cc03e3266df7017b.md) — Structurer la collaboration pour améliorer la précision du code généré.
 - [Spec Kit Vibe Coding Specification Workflow](../../watch/spec-kit-vibe-coding-specification-workflow.md)
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)

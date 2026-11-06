@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère du contenu marketing avec des outils comme Anyword et Jasper
+Fonction · Génère et optimise du contenu marketing.  
+Avantages · Analyse prédictive des performances.  
+Gain · Publier directement sans révision.
 
 ## Métadonnées
 

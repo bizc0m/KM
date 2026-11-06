@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Télécharger des fichiers via des torrents et les stocker en cloud
+Fonction · Télécharge et stocke des torrents en cloud.  
+Avantages · Utilise des fournisseurs de stockage comme AWS ou Mega.  
+Gain · Éviter de dépendre de services payants ou limités.
 
 ## Identité
 
@@ -36,6 +38,8 @@ Télécharger des fichiers via des torrents et les stocker en cloud
 
 - https://github.com/jpillora/node-torrent-cloud
 - https://x.com/i/status/2057730938570981639
+- https://cloud.githubusercontent.com/assets/633843/6997094/f0f0b934-dbf0-11e4-8766-56b0756f3250.png
+- https://raw.githubusercontent.com/jpillora/node-torrent-cloud/HEAD/README.md
 
 ## Traçabilité
 
@@ -44,3 +48,9 @@ Télécharger des fichiers via des torrents et les stocker en cloud
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![screenshot](https://cloud.githubusercontent.com/assets/633843/6997094/f0f0b934-dbf0-11e4-8766-56b0756f3250.png)
+
+[Origine](https://raw.githubusercontent.com/jpillora/node-torrent-cloud/HEAD/README.md)

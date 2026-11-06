@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyse des performances des stratégies de marché de prédiction
+Fonction · Backtest de stratégies sur des marchés de prévision.  
+Avantages · Simulations avec visualisation de performances.  
+Gain · Exécuter des tests sans déployer de code.
 
 ## Métadonnées
 
@@ -35,6 +37,8 @@ Analyse des performances des stratégies de marché de prédiction
 
 - https://github.com/evan-kolberg/prediction-market-backtesting
 - https://x.com/i/status/2092332393172521418
+- https://raw.githubusercontent.com/evan-kolberg/prediction-market-backtesting/main/docs/assets/charting-preview.jpeg
+- https://raw.githubusercontent.com/evan-kolberg/prediction-market-backtesting/HEAD/README.md
 
 ## Traçabilité
 
@@ -43,3 +47,9 @@ Analyse des performances des stratégies de marché de prédiction
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![Charting preview](https://raw.githubusercontent.com/evan-kolberg/prediction-market-backtesting/main/docs/assets/charting-preview.jpeg)
+
+[Origine](https://raw.githubusercontent.com/evan-kolberg/prediction-market-backtesting/HEAD/README.md)

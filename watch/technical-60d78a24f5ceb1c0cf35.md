@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Télécharger des contenus depuis divers sites web.
+Fonction · Télécharger des vidéos et audios depuis des sites web.  
+Avantages · Supporte divers formats et plateformes.  
+Gain · Éviter de visiter plusieurs sites pour télécharger.
 
 ## Métadonnées
 
@@ -25,8 +27,8 @@ Télécharger des contenus depuis divers sites web.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified compatibility.interface.terminal source.noteplan source.x lifecycle.active
-- Sujets : À qualifier
+- Identifiants : domain.media.video compatibility.interface.terminal source.noteplan source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; X / Twitter
 - État : Actif

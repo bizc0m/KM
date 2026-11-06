@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Lire des images et métadonnées de fichiers OIR et POIR.
+Fonction · Lire des fichiers OIR, POIR et MPOIR.  
+Avantages · Gérer des archives ZIP et extraire des métadonnées.  
+Gain · Analyser des images et données sans conversion préalable.
 
 ## Identité
 

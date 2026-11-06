@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Afficher un contrôle segmenté iOS compatible sur iOS, Android et Web
+Fonction · Affiche un contrôle segmenté pour iOS, Android et Web.  
+Avantages · Supporte les styles iOS 13 et personnalisations de design.  
+Gain · Éviter de coder des composants natifs pour les segments.
 
 ## Identité
 

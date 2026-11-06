@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Facilite l'installation de bibliothèques scientifiques sur Windows avec MKL.
+Fonction · Fournir des wheels Python liés à oneAPI MKL.  
+Avantages · Présence de bibliothèques comme numpy et scipy.  
+Gain · Éviter l'installation manuelle des dépendances.
 
 ## Identité
 
@@ -27,8 +29,9 @@ Facilite l'installation de bibliothèques scientifiques sur Windows avec MKL.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.unclassified compatibility.language.python source.noteplan source.github source.x lifecycle.active
 - Sujets : À qualifier
+- Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

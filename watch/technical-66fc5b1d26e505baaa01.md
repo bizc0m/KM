@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyse de type rapide avec diagnostics précis pour code Python
+Fonction · Vérifie les types en Rust, serveur de langage.  
+Avantages · 10x plus rapide que mypy et Pyright.  
+Gain · Éviter de recompiler sans cache, analyses incrémentales.
 
 ## Identité
 

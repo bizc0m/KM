@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyse les probabilités météorologiques pour des dérivés de température.
+Fonction · Prévision météo et analyse probabiliste pour 51 villes.  
+Avantages · Intégration de sources METAR, TAF, Open-Meteo et JMA.  
+Gain · Comparer probabilités modèle/marché avec visualisation en temps réel.
 
 ## Métadonnées
 

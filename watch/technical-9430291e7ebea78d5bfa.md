@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Exécute des stratégies de trading avec gestion de risques en temps réel
+Fonction · Exécute des stratégies de trading sur des marchés de prévision.  
+Avantages · Adapte aux marchés Predict.fun et Polymarket.  
+Gain · Lancer des tests de trading sans dépenser de capital.
 
 ## Métadonnées
 
@@ -23,8 +25,8 @@ Exécute des stratégies de trading avec gestion de risques en temps réel
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.finance source.x source.github lifecycle.active
-- Sujets : Analyse financière
+- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
+- Sujets : Analyse financière > Marchés prédictifs
 - Provenance : X / Twitter ; GitHub
 - État : Actif
 

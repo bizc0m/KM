@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Lire des fichiers FCS avec NumPy
+Fonction · Lire des fichiers FCS de Carl Zeiss ConfoCor.  
+Avantages · Support pour formats RAW et ASCII.  
+Gain · Analyser des données de corrélation fluorescente.
 
 ## Identité
 

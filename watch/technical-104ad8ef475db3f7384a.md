@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Exécute des ordres de trading en temps réel pour des marchés de prédictions
+Fonction · Exécute des trades sur des marchés de prédictions sportives et esports.  
+Avantages · Intègre un moteur d'exécution partagé avec des contrôles de risque.  
+Gain · Lancer des trades en mode simulation avant de déployer en live.
 
 ## Métadonnées
 
@@ -25,8 +27,9 @@ Exécute des ordres de trading en temps réel pour des marchés de prédictions
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
+- Identifiants : domain.finance.prediction capability.simulate source.x source.github lifecycle.active
 - Sujets : Analyse financière > Marchés prédictifs
+- Fonctions : Simuler et tester
 - Provenance : X / Twitter ; GitHub
 - État : Actif
 

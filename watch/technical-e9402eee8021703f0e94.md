@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyse de site web pour créer des campagnes marquées par l'IA
+Fonction · Analyse de site pour créer un Brand DNA et des créations on-brand.  
+Avantages · Génération d'assets en 8 formats avec paramètres prédéfinis.  
+Gain · Créer des vidéos animées directement depuis les assets générés.
 
 ## Métadonnées
 
@@ -25,8 +27,8 @@ Analyse de site web pour créer des campagnes marquées par l'IA
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai domain.data.web capability.scraping source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle ; Données et connaissances > Collecte web
+- Identifiants : domain.ai domain.data.web domain.media.video capability.scraping source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle ; Données et connaissances > Collecte web ; Audio, vidéo et création > Vidéo
 - Fonctions : Extraire des données web
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

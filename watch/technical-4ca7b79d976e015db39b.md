@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Exécutez des applications Cloudflare Workers localement pour tester et développer.
+Fonction · Exécute des scripts JavaScript/Wasm en tant que serveur ou proxy.  
+Avantages · Isolation des workers avec configuration par capacités.  
+Gain · Déployer des nanoservices sans infrastructure complexe.
 
 ## Identité
 

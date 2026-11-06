@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet une collaboration équipe via un agent partagé par canal
+Fonction · Agent IA auto-configure pour Slack par canal.  
+Avantages · Mémoire curatée et création automatique de compétences.  
+Gain · Éviter les logs bruyants, lancer des tâches en contexte.
 
 ## Identité
 
@@ -29,8 +31,8 @@ Permet une collaboration équipe via un agent partagé par canal
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.memory domain.ai.llm capability.memory source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents ; Intelligence artificielle > Modèles de langage
+- Identifiants : domain.ai.agents.memory domain.ai.llm domain.communication.messaging capability.memory source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents ; Intelligence artificielle > Modèles de langage ; Communication et publication > Messagerie
 - Fonctions : Conserver le contexte
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

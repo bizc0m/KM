@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Démarre Plausible avec Docker Compose pour hébergement local.
+Fonction · Self-hosting d'analyse web avec Docker.  
+Avantages · Support Let's Encrypt via DNS.  
+Gain · Déployer un serveur web sécurisé en quelques étapes.
 
 ## Métadonnées
 

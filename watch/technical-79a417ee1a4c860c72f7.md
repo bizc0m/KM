@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyse de données de fluorescence avec ICSx64.dll
+Fonction · Interface Python pour ICSx64.dll d'analyse de données fluorescence.  
+Avantages · Analyse 1D/2D/3D de corrélations et MSD avec bibliothèque Intel.  
+Gain · Exécuter des calculs scientifiques sans compiler du code C++.
 
 ## Identité
 
@@ -29,8 +31,9 @@ Analyse de données de fluorescence avec ICSx64.dll
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified compatibility.language.python source.noteplan source.github source.x lifecycle.active
-- Sujets : À qualifier
+- Identifiants : domain.media.3d capability.generate.3d compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Création 3D
+- Fonctions : Générer des contenus > Générer un objet 3D
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

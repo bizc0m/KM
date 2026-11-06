@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Traite des PDF localement sans service externe
+Fonction · Editer, signer, rediger, convertir PDF localement ou en ligne.  
+Avantages · Outils de traitement PDF sans dépendance externe.  
+Gain · Automatiser workflows sans coder via interface graphique.
 
 ## Identité
 
@@ -29,9 +31,9 @@ Traite des PDF localement sans service externe
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.infrastructure domain.dev.api capability.automation compatibility.format.pdf source.noteplan source.github source.x lifecycle.active
-- Sujets : Infrastructure ; Développement logiciel > API et services applicatifs
-- Fonctions : Automatiser des actions
+- Identifiants : domain.infrastructure domain.dev.api domain.data.documents capability.automation capability.documents.convert compatibility.format.pdf source.noteplan source.github source.x lifecycle.active
+- Sujets : Infrastructure ; Développement logiciel > API et services applicatifs ; Données et connaissances > Documents
+- Fonctions : Automatiser des actions ; Traiter des documents > Convertir des documents
 - Compatibilités : Formats > PDF
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

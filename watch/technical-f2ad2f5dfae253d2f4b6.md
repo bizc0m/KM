@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Accéder à des contenus multimédia via des liens.
+Fonction · Regarder des films, séries et contenus multimédia.  
+Avantages · Catalogue mis à jour hebdomadairement en format Parquet.  
+Gain · Lire ses propres fichiers sans dépendre de liens externes.
 
 ## Identité
 
@@ -29,8 +31,8 @@ Accéder à des contenus multimédia via des liens.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.dev.web source.noteplan source.github source.x lifecycle.active
-- Sujets : Développement logiciel > Développement web
+- Identifiants : domain.dev.web domain.data.catalogues source.noteplan source.github source.x lifecycle.active
+- Sujets : Développement logiciel > Développement web ; Données et connaissances > Catalogues de ressources
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -38,6 +40,8 @@ Accéder à des contenus multimédia via des liens.
 
 - https://github.com/popcorntime/popcorntime
 - https://x.com/i/status/2057730938570981639
+- https://raw.githubusercontent.com/resources/screenshot.jpg
+- https://raw.githubusercontent.com/popcorntime/popcorntime/HEAD/README.md
 
 ## Traçabilité
 
@@ -60,3 +64,9 @@ Accéder à des contenus multimédia via des liens.
 - Source : https://github.com/popcorntime/popcorntime
 - Analyse source : 2026-10-26T04:16:48.186Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![popcorntime](https://raw.githubusercontent.com/resources/screenshot.jpg)
+
+[Origine](https://raw.githubusercontent.com/popcorntime/popcorntime/HEAD/README.md)

@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Permet de remplacer des visages dans des vidéos avec précision
+Fonction · Échange de visage dans images et vidéos.  
+Avantages · Support des modèles DFL et restauration faciale.  
+Gain · Lancer des tâches en temps réel sans configuration complexe.
 
 ## Identité
 
@@ -27,8 +29,8 @@ Permet de remplacer des visages dans des vidéos avec précision
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai domain.media.video source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
+- Identifiants : domain.ai domain.media.video domain.media.image source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -36,6 +38,8 @@ Permet de remplacer des visages dans des vidéos avec précision
 
 - https://github.com/visomaster/visomaster
 - https://x.com/i/status/2055825240018886865
+- https://raw.githubusercontent.com/visomaster/visomaster/HEAD/.github/screenshot.png
+- https://raw.githubusercontent.com/visomaster/visomaster/HEAD/README.md
 
 ## Traçabilité
 
@@ -72,3 +76,9 @@ Permet de remplacer des visages dans des vidéos avec précision
 - Source : https://github.com/visomaster/visomaster
 - Analyse source : 2026-10-26T06:18:24.941Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![Aperçu du produit](https://raw.githubusercontent.com/visomaster/visomaster/HEAD/.github/screenshot.png)
+
+[Origine](https://raw.githubusercontent.com/visomaster/visomaster/HEAD/README.md)

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Connecter des assistants à des outils et données via des serveurs MCP.
+Fonction · Connecter assistants et agents à des outils, données et workflows.  
+Avantages · Liens vers sources officielles et contexte pour évaluer les serveurs.  
+Gain · Éviter de rechercher manuellement des serveurs MCP adaptés.
 
 ## Métadonnées
 

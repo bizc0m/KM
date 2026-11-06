@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Analyse des liquidités et des spreads pour les traders
+Fonction · Aggregateur de données de marchés de prévision.  
+Avantages · Données en temps réel, liquidité, arbitrage.  
+Gain · Analyser et trader sans attendre les plateformes.
 
 ## Métadonnées
 

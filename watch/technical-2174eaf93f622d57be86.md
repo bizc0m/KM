@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Gérer données mobiles avec modèle objet. Intégrer SwiftUI pour interface. Sauvegarder données localement. Chiffrer données.
+Fonction · Base de données mobile pour iOS, macOS, tvOS, watchOS.  
+Avantages · Modèle objet simplifié, pas besoin d'ORM.  
+Gain · Créer et gérer des objets sans code complexe.
 
 ## Identité
 

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des vidéos publicitaires UGC en quelques secondes avec des acteurs IA
+Fonction · Générer des publicités vidéo UGC avec des acteurs AI.  
+Avantages · Support multi-modèles et gestion de crédits intégrée.  
+Gain · Lancer des générations sans interface, gérer les paiements.
 
 ## Métadonnées
 

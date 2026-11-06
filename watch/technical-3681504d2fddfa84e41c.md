@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intégre Firebase dans les apps React Native
+Fonction · Intégre Firebase services via modules natifs.  
+Avantages · Typage intégré, documentation complète.  
+Gain · Éviter configuration manuelle des SDK Firebase.
 
 ## Identité
 

@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Permet d'utiliser PyAlembic sans compilation sur Windows
+Fonction · Fournir des wheels binaires pour PyAlembic et PyImath sur Windows.  
+Avantages · Inclure des dépendances précompilées comme Boost et HDF5.  
+Gain · Éviter la compilation depuis source pour utiliser PyAlembic.
 
 ## Identité
 

@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Gérer des agents IA avec des outils de coordination
+Fonction · Gère les agents AI pour tâches spécifiques.  
+Avantages · Intégration de modèles et outils de recherche.  
+Gain · Lancer des workflows sans configuration complexe.
 
 ## Métadonnées
 

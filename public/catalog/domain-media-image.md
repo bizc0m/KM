@@ -35,61 +35,153 @@ Avantages · Intégration avec des outils de développement via API.
 Gain · Exporter directement du code HTML/CSS/SVG sans intermédiaire.
 - [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones
 - [Pixal3D-ComfyUI](../../watch/technical-62ff8b189d833243b52d.md) — Permet de générer des modèles 3D à partir d'images 2D
-- [StdGEN](../../watch/technical-39708b126c037da50e56.md) — Génère un modèle 3D détaillé à partir d'une image de référence.
+- [StdGEN](../../watch/technical-39708b126c037da50e56.md) — Fonction · Génère des personnages 3D à partir d'une image 2D.
+Avantages · Découpage sémantique et génération multi-vue.
+Gain · Éviter la modélisation manuelle, lancer la génération en plusieurs étapes.
 - [TRELLIS.2](../../watch/technical-8a1d416625950ae0abb8.md) — Convertit des maillages texturés en voxel O-Voxel en quelques secondes.
-- [TrianFlow](../../watch/technical-611db130b2bc64852596.md) — Génère une carte de profondeur à partir d'une image.
-- [VisoMaster-Fusion](../../watch/technical-dbbe9adbe528f3b77e3a.md) — Analyser et traiter des visages dans des médias sans dépendre de services payants.
-- [VisoMaster-Fusion](../../watch/technical-f26060981b4112b4411f.md) — Traiter des visages localement sans frais ni partage de données.
-- [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Crée des portraits professionnels avec des prompts textuels.
-- [AI Logo Studio](../../watch/technical-a20888d5cb6a1c399300.md) — Crée des logos professionnels à partir de textes ou de croquis en quelques secondes.
-- [AI Meme Studio](../../watch/technical-28efa5970d38e5616943.md) — Crée des contenus viraux avec des modèles AI.
+- [TrianFlow](../../watch/technical-611db130b2bc64852596.md) — Fonction · Prédire la profondeur et la pose à partir d'images.
+Avantages · Apprendre simultanément profondeur et pose sans PoseNet.
+Gain · Éviter de trainer séparément les modèles de profondeur et de pose.
+- [VisoMaster-Fusion](../../watch/technical-dbbe9adbe528f3b77e3a.md) — Fonction · Échange de visage, amélioration, montage vidéo et webcam.
+Avantages · Modèles avancés, traitement par GPU, gestion de tâches en batch.
+Gain · Lancer des tâches sans installation, configurer rapidement.
+- [VisoMaster-Fusion](../../watch/technical-f26060981b4112b4411f.md) — Fonction · Traiter des visages localement sans partage de données.
+Avantages · Utilisation gratuite et open source.
+Gain · Éviter le transfert de données sensibles.
+- [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Fonction · Génère des portraits professionnels via des prompts textuels.
+Avantages · Gère l'authentification, facturation et stockage des images.
+Gain · Lancer des générations en quelques clics sans configuration complexe.
+- [AI Logo Studio](../../watch/technical-a20888d5cb6a1c399300.md) — Fonction · Générer des logos et identités visuelles à partir de textes ou d'esquisses.
+Avantages · Intégration Stripe, gestion des crédits et historique des créations.
+Gain · Lancer des générations en quelques secondes sans configuration complexe.
+- [AI Meme Studio](../../watch/technical-28efa5970d38e5616943.md) — Fonction · Générer des memes et vidéos courtes avec des modèles AI.
+Avantages · Support multi-modèle et routage intelligent.
+Gain · Créer des contenus viraux sans attendre.
 - [Awesome Generative AI Apps](../../watch/technical-c5cd3a5c95630c792129.md) — Créez et lancez des applications SaaS génératives avec des outils prêts à l'emploi
-- [ClearMark AI](../../watch/technical-6693a84665174f39d08b.md) — Supprime les marquages d'eau d'images avec IA
+- [ClearMark AI](../../watch/technical-6693a84665174f39d08b.md) — Fonction · Supprime les marques d'eau, logos, textes et superpositions d'images.
+Avantages · Scénarios prédéfinis pour restauration, nettoyage et suppression.
+Gain · Lancer des tâches d'édition en quelques clics sans configuration complexe.
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
-- [openai-api](../../watch/technical-f8f551d25eb73ecda1fd.md) — Génère des images avec des paramètres de résolution et de format.
+- [openai-api](../../watch/technical-f8f551d25eb73ecda1fd.md) — Fonction · Générer des images, vidéos et raisonner avec des modèles OpenAI via MuAPI.
+Avantages · Exemples cURL et Python avec paramètres de résolution et durée.
+Gain · Lancer des tâches d'IA sans configuration complexe.
 - [Kling Video API via Muapi](../../watch/technical-6cc3ec716443f80c37a3.md) — Soumet une requête de génération et récupère l'identifiant de demande pour suivre le statut
-- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Découvrir, évaluer et exécuter 500+ modèles multimodaux en un clic.
-- [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
+- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Fonction · Générer, éditer et afficher des médias professionnels via muapi-cli.
+Avantages · Accès à 100+ modèles AI et outils MCP pour agents.
+Gain · Lancer des workflows en un clic avec des recettes prêtes à exécuter.
+- [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Fonction · Génère des visuels à partir de texte pour illustrer des idées.
+Avantages · Intégre des outils de synthèse et clonage vocal.
+Gain · Créer des vidéos sans script, en utilisant la voix de l'utilisateur.
 - [Old Photo Restore](../../watch/technical-1a1b1c01fccbb652af5e.md) — Restaure des photos anciennes avec un moteur d'IA.
-- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md) — Créez et gérez des agents AI sans coder, via une interface unique.
+- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md) — Fonction · Créer, gérer et interagir avec des agents AI via une interface web.
+Avantages · Proxy backend pour intégration flexible avec des API personnalisées.
+Gain · Déployer des agents sans dépendance à un fournisseur spécifique.
 - [Open AI Design Agent](../../watch/technical-34d5505e0a9890ad64f6.md) — Orchestre 200+ modèles AI pour générer des campagnes graphiques
-- [Pixelrelay](../../watch/technical-140649096e6d8069b2f4.md) — Gère les erreurs de fournisseurs avec un système de failover.
+- [Pixelrelay](../../watch/technical-140649096e6d8069b2f4.md) — Fonction · Route AI image/video via webhook, BYOK, self-hosted.
+Avantages · Webhooks-first, failover automatique, jobs persistants.
+Gain · Lancer des tâches sans polling, gérer les erreurs transparentement.
 - [Seedance 2.5 API](../../watch/technical-4f09686ddcb30b511532.md) — Génère des vidéos AI à partir de textes et d'images
-- [stable-diffusion.cpp](../../watch/technical-94c4f976278cef504540.md) — Génère des images à partir de modèles de diffusion sans dépendances externes
+- [stable-diffusion.cpp](../../watch/technical-94c4f976278cef504540.md) — Fonction · Inférence de modèles de diffusion en C/C++.
+Avantages · Support de modèles image, vidéo et édition.
+Gain · Générer des images avec un seul commande.
 - [TikTok-User-Info-Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.
-- [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md) — Générer des vidéos en quelques clics avec un interface intuitive.
+- [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md) — Fonction · Générer, éditer et gérer des vidéos AI haute fidélité.
+Avantages · Interface responsive et gestion des crédits intégrée.
+Gain · Lancer des tâches de génération sans configuration complexe.
 - [Vibe Workflow](../../watch/technical-6ccb86641ecc996a74b9.md) — Crée des workflows d'IA visuels sans abonnement
-- [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence visuelle et narrative.
-- [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Génère et gère des contenus multimédia avec des modèles optimisés pour faible VRAM.
-- [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications et services sur des serveurs propres avec gestion automatisée.
-- [Qwen-Image-API](../../watch/technical-c341f7566eb8b34cd45a.md) — Génère des images via l'API Qwen avec des paramètres avancés
-- [AI Creator Academy](../../watch/technical-21a78e48d74a8e6ab07f.md) — Créer des publicités vidéo vendables pour des marques réelles.
-- [Nano Banana Generator](../../watch/technical-d5417dd0599d69bd651b.md)
+- [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Fonction · Génère des vidéos à partir de concepts, scénarios ou romans.
+Avantages · Intègre audio, storyboard, et gestion de cohérence visuelle.
+Gain · Créer des vidéos longues sans expertise technique.
+- [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Fonction · Générer et explorer des vidéos, images, 3D et mondes interactifs.
+Avantages · Support de modèles comme Hunyuan Video, MiniMax H3, Qwen Image.
+Gain · Créer des mondes, les explorer et les sauvegarder directement.
+- [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Fonction · Déployer des apps, bases de données et services sur des serveurs.
+Avantages · Support Git, Docker, Nixpacks et plus de 360 services prêts à l'emploi.
+Gain · Lancer des déploiements sans configuration complexe.
+- [Qwen-Image-API](../../watch/technical-c341f7566eb8b34cd45a.md) — Fonction · Générer ou éditer des images via des endpoints Qwen.
+Avantages · Supporte des paramètres comme résolution, format et masque.
+Gain · Lancer des tâches d'images avec un API unifié.
+- [VisoMaster](../../watch/technical-6b5abdd9cd34e8376d9f.md) — Fonction · Échange de visage dans images et vidéos.
+Avantages · Support des modèles DFL et restauration faciale.
+Gain · Lancer des tâches en temps réel sans configuration complexe.
+- [AI Creator Academy](../../watch/technical-21a78e48d74a8e6ab07f.md) — Fonction · Créer des services vendables avec IA générative.
+Avantages · Modules structurés avec pricing et clients.
+Gain · Lancer des projets sans coder, avec modèles prêts.
+- [Nano Banana Generator](../../watch/technical-d5417dd0599d69bd651b.md) — Fonction · Générer et éditer des images via des prompts ou des références visuelles.
+Avantages · Intégration de Google Search et de Stripe pour validation et facturation.
+Gain · Créer des œuvres en mode édition avec 14 références et historique persistant.
 - [Wan2.1](../../watch/technical-20e40e65da16af4ff766.md) — Génère des vidéos à partir de texte et d'images avec des modèles optimisés pour GPU.
-- [chebyfit](../../watch/technical-6ff3b2d69dcfadd6ca9a.md) — Ajuste des données temporelles avec des modèles exponentiels et harmoniques.
-- [cmapfile](../../watch/technical-a5c98bf9207583bed63d.md) — Convertir des données volumétriques en fichiers CMAP compatibles Chimera.
+- [chebyfit](../../watch/technical-6ff3b2d69dcfadd6ca9a.md) — Fonction · Fitting de fonctions exponentielles et harmoniques.
+Avantages · Algorithmes analytiques avec précision.
+Gain · Analyser des images en domaine temporel sans prétraitement.
+- [cmapfile](../../watch/technical-a5c98bf9207583bed63d.md) — Fonction · Créer des fichiers CMAP à partir de données volumiques.
+Avantages · Conversion depuis BIN, TIFF, LSM, OIF, OIB.
+Gain · Générer des fichiers HDF5 visualisables avec Chimera.
+- [czi2b64](../../watch/technical-092f153418d9f0fea556.md) — Fonction · Convertir fichiers CZI en B64 pour SimFCS.
+Avantages · Gère les images Fast Airyscan avec groupes détecteurs.
+Gain · Éviter de retraiter les données CZI pour FCS.
 - [czifile](../../watch/technical-2c7618ba43d1b3a66f75.md) — Lire et analyser des fichiers CZI pour extraire des données et métadonnées.
-- [dnacurve](../../watch/technical-9e1242d02e9fdde47335.md) — Analyse la courbure de l'ADN pour des études structurales.
+- [dnacurve](../../watch/technical-9e1242d02e9fdde47335.md) — Fonction · Calculer la courbure 3D d'une molécule d'ADN à partir de sa séquence.
+Avantages · Modèle dinucléotidique pour angles de courbure locaux et macroscopiques.
+Gain · Exporter en PDB, CSV ou PNG pour visualisation et analyse.
+- [fbdfile](../../watch/technical-644af560a703d50fde81.md) — Fonction · Lire des fichiers FBD, FBF et FBS.XML.
+Avantages · Gestion des en-têtes et données encodées.
+Gain · Analyser des images FLIM sans configuration complexe.
 - [imagecodecs](../../watch/technical-983f86673ad4ff0c3e5f.md) — Compresser des images en mémoire avec des codecs variés
 - [imreg](../../watch/technical-75c8660a0022a5827fd7.md) — Permet d'aligner des images avec des transformations géométriques.
-- [liffile](../../watch/technical-7efadf61d584319cb74d.md) — Lire des fichiers d'images Leica et extraire les métadonnées.
+- [liffile](../../watch/technical-7efadf61d584319cb74d.md) — Fonction · Lire des fichiers d'images Leica (LIF, LOF, XLIF, etc.).
+Avantages · Support des formats XML et TIFF avec décodage avancé.
+Gain · Analyser et visualiser des données de microscopie sans conversion.
 - [Lucam](../../watch/technical-a2b88cb598cc82a1ed3b.md) — Permet d'acquérir des images avec une caméra Lumenera via Python.
-- [netpbmfile](../../watch/technical-3e71b5f6fda8c41d55e1.md) — Traite des images Netpbm avec numpy
+- [netpbmfile](../../watch/technical-3e71b5f6fda8c41d55e1.md) — Fonction · Lire et écrire des fichiers Netpbm en Python.
+Avantages · Gestion des formats PBM, PGM, PPM, PAM, PGX, PFM, XV.
+Gain · Traiter des images sans correction gamma ou échelle.
+- [obffile](../../watch/technical-31ee21281c253175f879.md) — Fonction · Lire des fichiers OBF et MSR pour extraire images et métadonnées.
+Avantages · Support des formats compressés et non compressés avec mémoire mappée.
+Gain · Analyser directement les données sans conversion intermédiaire.
 - [oiffile](../../watch/technical-0e7a6eb3e03e4ca81494.md) — Lire des images OIF/OIB avec Python.
-- [oirfile](../../watch/technical-f19c3baa5f5288e9f875.md) — Lire des images et métadonnées de fichiers OIR et POIR.
-- [PhasorPy](../../watch/technical-3df91c73abc0ca9a725c.md) — Analyse des données d'imagerie avec des coordonnées de phase.
-- [psdtags](../../watch/technical-d256853bf732e1b76251.md) — Permet de manipuler les fichiers TIFF avec des couches et métadonnées Photoshop.
-- [ptufile](../../watch/technical-489caacd04529dd14333.md) — Lire et extraire des données de mesures TCSPC depuis des fichiers PTU.
-- [roifile](../../watch/technical-29c9765d86101d6b4312.md) — Gère les régions d'intérêt d'ImageJ dans des formats variés
-- [sdtfile](../../watch/technical-892f655e8727d581afe8.md) — Lire des fichiers SDT avec des données compressées.
-- [tifffile](../../watch/technical-6efa01af6ecbb2a6854a.md) — Lire et écrire des images en TIFF avec compression et métadonnées.
-- [Cleanup.pictures](../../watch/technical-6e8858c6b6c8c8c1712a.md) — Supprime des éléments indésirables d'images en ligne
-- [react-native-svg](../../watch/technical-0d363f6aa6eaa85ad3ca.md) — Afficher des graphismes vectoriels dans des applications React Native
-- [gemini-cli](../../watch/technical-24684c1ecca249c03e58.md) — Interagir avec Gemini via terminal pour exécuter des tâches de code
+- [oirfile](../../watch/technical-f19c3baa5f5288e9f875.md) — Fonction · Lire des fichiers OIR, POIR et MPOIR.
+Avantages · Gérer des archives ZIP et extraire des métadonnées.
+Gain · Analyser des images et données sans conversion préalable.
+- [PhasorPy](../../watch/technical-3df91c73abc0ca9a725c.md) — Fonction · Analyse des signaux luminescents et hyperspectraux.
+Avantages · Conversion en coordonnées phasor et traitement des données.
+Gain · Exporter des résultats vers des formats standards.
+- [psdtags](../../watch/technical-d256853bf732e1b76251.md) — Fonction · Lire/écrire tags TIFF d'Adobe Photoshop.
+Avantages · Gestion des couches et masques dans TIFF.
+Gain · Analyser et exporter des fichiers TIFF stratifiés.
+- [ptufile](../../watch/technical-489caacd04529dd14333.md) — Fonction · Lire/écrire PTU et fichiers associés.
+Avantages · Décodage des histogrammes et métadonnées.
+Gain · Exporter des données en format PTU sans manipulation.
+- [roifile](../../watch/technical-29c9765d86101d6b4312.md) — Fonction · Lire, écrire, créer et visualiser des ROIs ImageJ.
+Avantages · Gère des formats ROI, ZIP et TIFF avec précision.
+Gain · Exporter des ROIs en fichier ou afficher directement.
+- [sdtfile](../../watch/technical-892f655e8727d581afe8.md) — Fonction · Lire les fichiers SDT de Becker & Hickl.
+Avantages · Gère des données compressées LZ4 et ZIP.
+Gain · Analyser des mesures de photons sans logiciel tiers.
+- [tifffile](../../watch/technical-6efa01af6ecbb2a6854a.md) — Fonction · Lire/écrire TIFF, BigTIFF, OME-TIFF, NDPI, STK, LSM.
+Avantages · Support compression JPEG, LZW, PNG, Zstd, LERC.
+Gain · Traiter images multidimensionnelles sans conversion.
+- [Cleanup.pictures](../../watch/technical-6e8858c6b6c8c8c1712a.md) — Fonction · Supprime des éléments indésirables d'une image en ligne.
+Avantages · Utilise un modèle d'intelligence artificielle pour la retouche.
+Gain · Éviter de redessiner ou recadrer manuellement des images.
+- [photopea/photopea](../../watch/technical-34a75990427dfeb34af2.md) — Fonction · Éditer des images et vecteurs en ligne avec support PSD, AI, Sketch.
+Avantages · Ouvre et manipule des formats complexes comme INDD, XCF, Sketch.
+Gain · Exporter des animations en GIF ou MP4 avec chaque frame comme couche.
+- [react-native-svg](../../watch/technical-0d363f6aa6eaa85ad3ca.md) — Fonction · Affiche SVG sur iOS, Android, web.
+Avantages · Conversion facile SVG vers code.
+Gain · Lancer graphismes sans réécriture.
+- [gemini-cli](../../watch/technical-24684c1ecca249c03e58.md) — Fonction · Exécuter des tâches via un terminal avec des modèles Gemini.
+Avantages · Authentification via clé API ou projet Cloud.
+Gain · Lancer des scripts sans interface graphique.
 - [vox-ai-motion-graphics-generator](../../watch/technical-4ff70387f0be38c9fbad.md) — Crée une vidéo expliquée en style Vox avec collage papier.
+- [Génération automatique de micro-dramas vidéo](../../watch/technical-041ee9bffa76ace2d6ef.md) — Fonction · Génère des micro-dramas vidéo à partir d'idées ou de scripts.
+Avantages · Intégration de MuAPI pour image et vidéo.
+Gain · Éviter la fragmentation des outils et créer des scènes cohérentes.
 - [ai-b-roll](../../watch/technical-cfc247fd5cb1bebffe4a.md) — Ajouter des b-roll à une vidéo sans intervention manuelle.
 - [notfair-nextjs-blog](../../watch/technical-1fca81e0d4c208d8ff35.md) — Afficher des articles NotFair avec Next.js et un API privé
-- [open-ai-ugc](../../watch/technical-dbe2e54164b357ddcb32.md) — Génère des vidéos publicitaires UGC en quelques secondes avec des acteurs IA
+- [open-ai-ugc](../../watch/technical-dbe2e54164b357ddcb32.md) — Fonction · Générer des publicités vidéo UGC avec des acteurs AI.
+Avantages · Support multi-modèles et gestion de crédits intégrée.
+Gain · Lancer des générations sans interface, gérer les paiements.
 - [Comparaison des modèles d'IA](../../watch/technical-b3d3480734d063a13c32.md) — DeepSeek V4.1 Flash optimise la réponse avec 16B de paramètres actifs.
 - [MinerU](../../watch/technical-703d6de987a070db2edf.md) — Convertir des documents PDF, Word, Excel ou images en Markdown pour une utilisation facile.
 - [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Traduire des vidéos en 14 langues sources et 101 cibles.

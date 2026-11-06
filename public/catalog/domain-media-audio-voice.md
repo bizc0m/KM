@@ -28,10 +28,18 @@ Gain · Créer des démos sans abonnement SaaS.
 - [Voice-Pro](../../watch/technical-7e01176c9d1442c27f9d.md) — Traite les vidéos YouTube avec extraction audio et séparation vocale
 - [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Cloner des voix à partir d'audio
 - [Whisper](../../watch/technical-24d2ebb24ff35b75f31b.md) — Transcrire la parole multilingue et traduire des enregistrements vers l’anglais.
-- [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Ajoute des timestamps précis aux mots de la transcription
-- [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
-- [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Génère et gère des contenus multimédia avec des modèles optimisés pour faible VRAM.
-- [Pipecat](../../watch/technical-70340542d5688b508dea.md) — Crée des assistants vocaux avec reconnaissance et synthèse vocale.
+- [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Fonction · Transcription avec timestamps et confiance par mot.
+Avantages · Estimation précise des segments sans détection de VAD.
+Gain · Éviter les hallucinations avec détection VAD intégrée.
+- [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Fonction · Génère des visuels à partir de texte pour illustrer des idées.
+Avantages · Intégre des outils de synthèse et clonage vocal.
+Gain · Créer des vidéos sans script, en utilisant la voix de l'utilisateur.
+- [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Fonction · Générer et explorer des vidéos, images, 3D et mondes interactifs.
+Avantages · Support de modèles comme Hunyuan Video, MiniMax H3, Qwen Image.
+Gain · Créer des mondes, les explorer et les sauvegarder directement.
+- [Pipecat](../../watch/technical-70340542d5688b508dea.md) — Fonction · Synthétise des voix à partir de texte.
+Avantages · Intégration avec NotePlan et X/Twitter.
+Gain · Créer des assistants vocaux sans coder.
 - [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Traduire des vidéos en 14 langues sources et 101 cibles.
 - [AIRI AI Companion](../../watch/airi-ai-companion.md)
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)

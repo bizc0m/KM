@@ -10,7 +10,9 @@
 
 ## Intérêts
 
-Réalise des attaques de phishing pour récupérer des données sensibles
+Fonction · Attaque man-in-the-middle pour pirater des comptes.  
+Avantages · Fournit des certificats TLS et spoofing de site.  
+Gain · Éviter la détection par les protections du navigateur.
 
 ## Métadonnées
 
@@ -34,6 +36,8 @@ Réalise des attaques de phishing pour récupérer des données sensibles
 
 - https://github.com/kgretzky/evilginx2
 - https://x.com/i/status/1798305259854643354
+- https://raw.githubusercontent.com/kgretzky/evilginx2/master/media/img/screen.png
+- https://raw.githubusercontent.com/kgretzky/evilginx2/HEAD/README.md
 
 ## Traçabilité
 
@@ -60,3 +64,9 @@ Réalise des attaques de phishing pour récupérer des données sensibles
 - Source : https://github.com/kgretzky/evilginx2
 - Analyse source : 2026-10-20T04:50:32.694Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![Screenshot](https://raw.githubusercontent.com/kgretzky/evilginx2/master/media/img/screen.png)
+
+[Origine](https://raw.githubusercontent.com/kgretzky/evilginx2/HEAD/README.md)

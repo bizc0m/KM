@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Traite des images Netpbm avec numpy
+Fonction · Lire et écrire des fichiers Netpbm en Python.  
+Avantages · Gestion des formats PBM, PGM, PPM, PAM, PGX, PFM, XV.  
+Gain · Traiter des images sans correction gamma ou échelle.
 
 ## Identité
 

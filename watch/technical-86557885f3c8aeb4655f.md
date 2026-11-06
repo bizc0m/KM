@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Gère les transitions et états des vues pour une navigation fluide.
+Fonction · Gère la navigation native dans React Native.  
+Avantages · Intégré à react-navigation et Expo.  
+Gain · Éviter les crashes sur Android avec override.
 
 ## Identité
 

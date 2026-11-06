@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Convertir les appels API Anthropic en format NVIDIA NIM
+Fonction · Convertir les appels API Anthropic en format NVIDIA NIM.  
+Avantages · Intégration avec NotePlan et X / Twitter.  
+Gain · Automatiser la conversion des requêtes sans réécriture.
 
 ## Métadonnées
 

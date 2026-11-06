@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Créez et gérez des agents AI sans coder, via une interface unique.
+Fonction · Créer, gérer et interagir avec des agents AI via une interface web.  
+Avantages · Proxy backend pour intégrer des fournisseurs d'API sans code personnalisé.  
+Gain · Déployer des agents sur infrastructure propre avec clé API personnalisée.
 
 ## Identité
 

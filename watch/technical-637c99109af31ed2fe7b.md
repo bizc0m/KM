@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Aide à l'alignement entre utilisateur et agent via des sessions d'interrogation
+Fonction · Installer et configurer des compétences pour agents.  
+Avantages · Adaptation par projet, mise à jour automatique.  
+Gain · Configurer le suivi des tickets, lancer les tâches rapidement.
 
 ## Identité
 

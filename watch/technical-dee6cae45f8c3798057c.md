@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Collecte des proxies fonctionnels pour usage OSINT
+Fonction · Collecte et vérification continue de proxys HTTP/SOCKS5.  
+Avantages · Tests parallèles et sauvegarde des proxys validés.  
+Gain · Lancer la collecte sans configuration complexe.
 
 ## Identité
 

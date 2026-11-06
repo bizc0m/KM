@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet d'installer des compétences pour des agents de IA
+Fonction · Installer des compétences pour des agents IA, avec des instructions claires.  
+Avantages · Fournit des exemples et des scripts pour une utilisation immédiate.  
+Gain · Tester une compétence sans l'installer pour éviter les erreurs.
 
 ## Métadonnées
 

@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Génère des docs précises pour des projets Swift ou Objective-C
+Fonction · Génère des docs pour Swift ou Objective-C.  
+Avantages · Utilise AST et Clang pour précision.  
+Gain · Lancer la documentation sans code source.
 
 ## Identité
 
@@ -36,6 +38,8 @@ Génère des docs précises pour des projets Swift ou Objective-C
 
 - https://github.com/realm/jazzy
 - https://x.com/i/status/2059877503771029851
+- https://raw.githubusercontent.com/realm/jazzy/HEAD/images/screenshot.jpg
+- https://raw.githubusercontent.com/realm/jazzy/HEAD/README.md
 
 ## Traçabilité
 
@@ -69,3 +73,9 @@ Génère des docs précises pour des projets Swift ou Objective-C
 - Source : https://github.com/realm/jazzy
 - Analyse source : 2026-10-20T17:11:07.624Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![Screenshot](https://raw.githubusercontent.com/realm/jazzy/HEAD/images/screenshot.jpg)
+
+[Origine](https://raw.githubusercontent.com/realm/jazzy/HEAD/README.md)

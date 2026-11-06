@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Recherche locale sans connexion. Analyse de données sans cloud.
+Fonction · Planifier des tâches avec des notes et des calendriers.  
+Avantages · Gère les tâches sans connexion internet.  
+Gain · Éviter de synchroniser avec des services en ligne.
 
 ## Métadonnées
 

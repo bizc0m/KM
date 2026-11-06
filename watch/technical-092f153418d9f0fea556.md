@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Convertit fichiers CZI en format B64 SimFCS pour analyse.
+Fonction · Convertir fichiers CZI en B64 pour SimFCS.  
+Avantages · Gère les images Fast Airyscan avec groupes détecteurs.  
+Gain · Éviter de retraiter les données CZI pour FCS.
 
 ## Identité
 
@@ -27,8 +29,8 @@ Convertit fichiers CZI en format B64 SimFCS pour analyse.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.active
-- Sujets : À qualifier
+- Identifiants : domain.media.image source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Images et graphisme
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

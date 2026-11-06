@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Analyse des données d'imagerie avec des coordonnées de phase.
+Fonction · Analyse des signaux luminescents et hyperspectraux.  
+Avantages · Conversion en coordonnées phasor et traitement des données.  
+Gain · Exporter des résultats vers des formats standards.
 
 ## Identité
 

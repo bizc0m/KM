@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Rejoindre des serveurs MCP pour accéder à des outils et données.
+Fonction · Connecter assistants et agents à des outils, données et workflows.  
+Avantages · Liens vers sources officielles et contexte pour évaluer les serveurs.  
+Gain · Éviter de rechercher des serveurs, lancer des connexions directement.
 
 ## Métadonnées
 

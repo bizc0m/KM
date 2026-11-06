@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Génère du code à partir de requêtes textuelles.
+Fonction · Génère du code via un agent IA.  
+Avantages · Agent build pour développement, agent plan pour analyse.  
+Gain · Éviter de rédiger du code sans contexte.
 
 ## Identité
 
@@ -27,8 +29,8 @@ Génère du code à partir de requêtes textuelles.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA
+- Identifiants : domain.ai.agents domain.dev source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -36,6 +38,8 @@ Génère du code à partir de requêtes textuelles.
 
 - https://github.com/anomalyco/opencode
 - https://x.com/i/status/2057218131685146713
+- https://raw.githubusercontent.com/anomalyco/opencode/HEAD/packages/web/src/assets/lander/screenshot.png
+- https://raw.githubusercontent.com/anomalyco/opencode/HEAD/README.md
 
 ## Traçabilité
 
@@ -44,3 +48,9 @@ Génère du code à partir de requêtes textuelles.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-22
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![OpenCode Terminal UI](https://raw.githubusercontent.com/anomalyco/opencode/HEAD/packages/web/src/assets/lander/screenshot.png)
+
+[Origine](https://raw.githubusercontent.com/anomalyco/opencode/HEAD/README.md)

@@ -31,16 +31,55 @@ Gain · Lancer un deck en quelques secondes avec un CLI.
 - [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
 Avantages · Intégration de fournisseurs LLM via une API unifiée.
 Gain · Exécuter des tâches de codage sans configuration complexe.
-- [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Analyse de type rapide avec diagnostics précis pour code Python
-- [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
+- [Pi](../../watch/technical-c133b93b912dffd605a2.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
+Avantages · Intégration de fournisseurs LLM via une API unifiée.
+Gain · Lancer des tâches de codage avec un compte ou une clé API.
+- [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Fonction · Vérifie les types en Rust, serveur de langage.
+Avantages · 10x plus rapide que mypy et Pyright.
+Gain · Éviter de recompiler sans cache, analyses incrémentales.
+- [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Fonction · Génère des vidéos 3D animées expliquant un sujet.
+Avantages · Workflow agent-native avec MuAPI et Veo 3.1.
+Gain · Créer un court métrage vertical en 3D en quelques étapes.
+- [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md) — Fonction · Convertir HTML, CSS, médias en vidéos MP4 déterministes.
+Avantages · Intégration avec des agents de codage pour générer des vidéos.
+Gain · Lancer des tâches de rendu sans configuration complexe.
+- [Générateur de vidéo d'embrassade IA](../../watch/technical-d85e8aba072628b2e82b.md) — Fonction · Génère des vidéos de baisers en fusionnant deux photos.
+Avantages · Support multi-modèles et gestion des crédits via Stripe.
+Gain · Créer des animations en quelques secondes sans codage.
 - [Ruff](../../watch/technical-40c2c54a4c6490e8e3bc.md) — Vérifie et corrige le code Python rapidement avec une grande couverture de règles.
-- [fbdfile](../../watch/technical-644af560a703d50fde81.md) — Lire et analyser des données FLIMbox à partir de fichiers FBD
-- [CUAWright](../../watch/technical-302726d10970209e8855.md) — Permet aux modèles de codage d'automatiser des navigateurs et des applications de bureau.
-- [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Configure l'environnement de codage avec des outils d'assistance.
-- [Requests](../../watch/technical-0d1a89c543bad402b2da.md) — Fait des requêtes HTTP facilement et efficacement.
-- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Propose des corrections de code en temps réel via un terminal interactif
-- [Spec Kit](../../watch/technical-f4e0adf84666b0c986e7.md) — Structurer le développement avec des spécifications
-- [awesome-ai-repos](../../watch/technical-7cf0ee8352dc6af0478e.md) — Gérer des agents IA avec des outils de coordination
+- [fbdfile](../../watch/technical-644af560a703d50fde81.md) — Fonction · Lire des fichiers FBD, FBF et FBS.XML.
+Avantages · Gestion des en-têtes et données encodées.
+Gain · Analyser des images FLIM sans configuration complexe.
+- [liffile](../../watch/technical-7efadf61d584319cb74d.md) — Fonction · Lire des fichiers d'images Leica (LIF, LOF, XLIF, etc.).
+Avantages · Support des formats XML et TIFF avec décodage avancé.
+Gain · Analyser et visualiser des données de microscopie sans conversion.
+- [ptufile](../../watch/technical-489caacd04529dd14333.md) — Fonction · Lire/écrire PTU et fichiers associés.
+Avantages · Décodage des histogrammes et métadonnées.
+Gain · Exporter des données en format PTU sans manipulation.
+- [CUAWright](../../watch/technical-302726d10970209e8855.md) — Fonction · Automatiser navigateurs et apps desktop via terminal.
+Avantages · Scripts réutilisables et logs persistants.
+Gain · Exécuter tâches complexes sans session navigateur.
+- [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Fonction · Exécuter des tâches de codage via terminal, éditeur, chat ou application.
+Avantages · Intégration avec VS Code, Zed, JetBrains, Telegram, WeChat.
+Gain · Lancer des tâches sans configuration, utiliser des modèles Qwen locaux ou distants.
+- [Requests](../../watch/technical-0d1a89c543bad402b2da.md) — Fonction · Envoyer des requêtes HTTP avec Python.
+Avantages · Gère les authentifications et encodages automatiquement.
+Gain · Lancer des appels API sans config manuelle.
+- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Fonction · Écrire, corriger et exécuter du code via un terminal.
+Avantages · Support multi-fournisseurs et mode serveur HTTP.
+Gain · Automatiser des tâches via des pipelines ou des scripts.
+- [Spec Kit](../../watch/technical-f4e0adf84666b0c986e7.md) — Fonction · Structurer des processus, templates et résultats pour agents de codage.
+Avantages · Processus prédéfinis pour développement, réparation de bugs et évaluation d'idées.
+Gain · Lancer des tâches sans configuration, adapter au projet directement.
+- [Langchain](../../watch/technical-5ea1d4fd1ccb4341a6ba.md) — Fonction · Gère les agents AI pour tâches spécifiques.
+Avantages · Intégration de modèles et outils préconfigurés.
+Gain · Automatiser les workflows sans codage.
+- [Pydantic AI](../../watch/technical-e916d975160d16b98553.md) — Fonction · Agent de type codage avec accès au système de fichiers.
+Avantages · Intégration de recherche web et d'un conseiller.
+Gain · Exécuter des tâches en terminal sans code préalable.
+- [awesome-ai-repos](../../watch/technical-7cf0ee8352dc6af0478e.md) — Fonction · Gère les agents AI pour tâches spécifiques.
+Avantages · Intégration de modèles et outils de recherche.
+Gain · Lancer des workflows sans configuration complexe.
 - [ECC](../../watch/technical-edb3a626875732de5c9b.md) — Améliore la productivité en optimisant les tâches de codage.
 - [Jules](../../watch/technical-f23e4d6f3cd099180f4d.md) — Gère des tâches de codage via GitHub avec l'étiquette "jules".
 - [Metis](../../watch/technical-a5ff978d18723ab2dc78.md) — Crée un agent personnalisé pour chaque projet.

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyser les processus pour détecter des anomalies
+Fonction · Analyser les processus pour détecter des anomalies.  
+Avantages · Identifier des comportements suspects en temps réel.  
+Gain · Éviter les attaques malveillantes sans expertise technique.
 
 ## Métadonnées
 

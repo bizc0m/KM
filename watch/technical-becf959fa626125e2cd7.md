@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Afficher des graphiques interactifs dans les applications Android
+Fonction · Créer des graphiques interactifs en Android.  
+Avantages · Supporte 9 types de graphiques et Compose.  
+Gain · Configurer des données et styles en quelques lignes.
 
 ## Identité
 
@@ -36,6 +38,9 @@ Afficher des graphiques interactifs dans les applications Android
 
 - https://github.com/philjay/mpandroidchart
 - https://x.com/i/status/2059877503771029851
+- https://raw.githubusercontent.com/philjay/mpandroidchart/HEAD/screenshots/nightfall/nightfall-dark.png
+- https://raw.githubusercontent.com/philjay/mpandroidchart/HEAD/README.md
+- https://raw.githubusercontent.com/philjay/mpandroidchart/HEAD/screenshots/nightfall/nightfall-light.png
 
 ## Traçabilité
 
@@ -44,3 +49,13 @@ Afficher des graphiques interactifs dans les applications Android
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![Every chart type, dark](https://raw.githubusercontent.com/philjay/mpandroidchart/HEAD/screenshots/nightfall/nightfall-dark.png)
+
+[Origine](https://raw.githubusercontent.com/philjay/mpandroidchart/HEAD/README.md)
+
+![Every chart type, light](https://raw.githubusercontent.com/philjay/mpandroidchart/HEAD/screenshots/nightfall/nightfall-light.png)
+
+[Origine](https://raw.githubusercontent.com/philjay/mpandroidchart/HEAD/README.md)

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyser les dynamiques des marchés de prévision avec des données brutes et traitées.
+Fonction · Fetcher de données Polymarket via blockchain et API.  
+Avantages · Données brutes et traitées avec métadonnées liées aux marchés.  
+Gain · Analyser les comportements et prix en temps réel sans dépendances externes.
 
 ## Métadonnées
 

@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Permet de rechercher des tweets via des requêtes spécifiques
+Fonction · Poste, répondez, recherchez des tweets.  
+Avantages · Approbation requise pour chaque écriture.  
+Gain · Lancer des tâches sans configuration complexe.
 
 ## Métadonnées
 

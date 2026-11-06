@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Vérifier l'existence d'un nom d'utilisateur sur des sites web.
+Fonction · Vérifie l'existence d'un nom d'utilisateur sur des sites web.  
+Avantages · Données actualisées et structurées pour des recherches précises.  
+Gain · Éviter des faux positifs en utilisant des critères de validation clairs.
 
 ## Identité
 

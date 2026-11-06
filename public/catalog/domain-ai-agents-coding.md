@@ -31,20 +31,51 @@ Gain · Lancer un deck en quelques secondes avec un CLI.
 - [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
 Avantages · Intégration de fournisseurs LLM via une API unifiée.
 Gain · Exécuter des tâches de codage sans configuration complexe.
-- [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md)
-- [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
+- [Pi](../../watch/technical-c133b93b912dffd605a2.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
+Avantages · Intégration de fournisseurs LLM via une API unifiée.
+Gain · Lancer des tâches de codage avec un compte ou une clé API.
+- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Fonction · Créer des vidéos via agent, interactif ou programmation.
+Avantages · Intégration avec VS Code et Codex.
+Gain · Générer des vidéos sans logiciel dédié.
+- [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md) — Fonction · Définir des rôles d'agents pour des conseils spécialisés.
+Avantages · Intégration avec NotePlan, X/Twitter, GitHub.
+Gain · Automatiser la gestion des tâches via des rôles prédéfinis.
+- [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Fonction · Génère des vidéos 3D animées expliquant un sujet.
+Avantages · Workflow agent-native avec MuAPI et Veo 3.1.
+Gain · Créer un court métrage vertical en 3D en quelques étapes.
+- [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md) — Fonction · Convertir HTML, CSS, médias en vidéos MP4 déterministes.
+Avantages · Intégration avec des agents de codage pour générer des vidéos.
+Gain · Lancer des tâches de rendu sans configuration complexe.
 - [Kami](../../watch/technical-49226a0e2e05fa223d37.md) — Génère des documents professionnels avec des modèles prédéfinis.
-- [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Configure l'environnement de codage avec des outils d'assistance.
-- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Propose des corrections de code en temps réel via un terminal interactif
-- [Spec Kit](../../watch/technical-f4e0adf84666b0c986e7.md) — Structurer le développement avec des spécifications
-- [Claude Code gratuit avec proxy NVIDIA](../../watch/technical-227e249fa68647e0ca82.md) — Convertir les appels API Anthropic en format NVIDIA NIM
+- [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Fonction · Exécuter des tâches de codage via terminal, éditeur, chat ou application.
+Avantages · Intégration avec VS Code, Zed, JetBrains, Telegram, WeChat.
+Gain · Lancer des tâches sans configuration, utiliser des modèles Qwen locaux ou distants.
+- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Fonction · Écrire, corriger et exécuter du code via un terminal.
+Avantages · Support multi-fournisseurs et mode serveur HTTP.
+Gain · Automatiser des tâches via des pipelines ou des scripts.
+- [Spec Kit](../../watch/technical-f4e0adf84666b0c986e7.md) — Fonction · Structurer des processus, templates et résultats pour agents de codage.
+Avantages · Processus prédéfinis pour développement, réparation de bugs et évaluation d'idées.
+Gain · Lancer des tâches sans configuration, adapter au projet directement.
+- [Claude Code gratuit avec proxy NVIDIA](../../watch/technical-227e249fa68647e0ca82.md) — Fonction · Convertir les appels API Anthropic en format NVIDIA NIM.
+Avantages · Intégration avec NotePlan et X / Twitter.
+Gain · Automatiser la conversion des requêtes sans réécriture.
 - [700-cybersecurity-skills](../../watch/technical-f26c6abfcce6e427cbf6.md) — Ajout de compétences de cybersécurité pour agents IA
 - [Free Claude Code](../../watch/technical-2ee41fd0d683c0958502.md) — Utilise des modèles d'IA pour le développement
-- [awesome-seo-agent-skills](../../watch/technical-2eb5b1b4690cd51d126c.md) — Analyse technique SEO pour optimiser le site web
-- [awesome-seo-agent-skills](../../watch/technical-ff4abb9b63459f4d12ec.md) — Analyse technique SEO pour optimiser le référencement
-- [Mac Mini pour l'IA](../../watch/technical-f0066d78062c33a0cb18.md)
-- [Skills pour agents de IA](../../watch/technical-125acf8b08c34d868099.md) — Permet d'installer des compétences pour des agents de IA
-- [Skills pour agents de IA](../../watch/technical-ce8a12d1c4391a2f858c.md) — Permet d'installer des compétences pour des agents de IA
+- [awesome-seo-agent-skills](../../watch/technical-2eb5b1b4690cd51d126c.md) — Fonction · Analyse SEO, audits techniques, recherches de mots-clés.
+Avantages · Intégration avec des agents comme Claude Code et OpenClaw.
+Gain · Automatiser les tâches SEO sans configuration complexe.
+- [awesome-seo-agent-skills](../../watch/technical-ff4abb9b63459f4d12ec.md) — Fonction · Agent Skills pour SEO, audits techniques, recherches de mots-clés.
+Avantages · Support multi-agents avec documentation des API.
+Gain · Déployer des tâches SEO sans configuration complexe.
+- [Mac Mini pour l'IA](../../watch/technical-f0066d78062c33a0cb18.md) — Fonction · Exécuter des tâches IA via un serveur local.
+Avantages · Moins dépendant d'une connexion internet stable.
+Gain · Générer des modèles d'IA sans interruption réseau.
+- [Skills pour agents de IA](../../watch/technical-125acf8b08c34d868099.md) — Fonction · Installer des compétences pour des agents IA, avec des instructions claires.
+Avantages · Fournit des exemples et des scripts pour une utilisation immédiate.
+Gain · Tester une compétence sans l'installer pour éviter les erreurs.
+- [Skills pour agents de IA](../../watch/technical-ce8a12d1c4391a2f858c.md) — Fonction · Installer des compétences pour des agents IA, avec des instructions concrètes.
+Avantages · Fournit des exemples et des scripts pour exécuter des tâches sans improviser.
+Gain · Tester une compétence avant installation pour éviter les erreurs.
 - [Agent Skills](../../watch/technical-dae9f02535f7c22f84f1.md) — Facilite la création de logiciels avec des workflows et des bonnes pratiques.
 - [Aider](../../watch/technical-4125f24a0a6925019b78.md) — Collaborer avec des LLM pour coder et gérer des projets.
 - [Jules](../../watch/technical-f23e4d6f3cd099180f4d.md) — Gère des tâches de codage via GitHub avec l'étiquette "jules".

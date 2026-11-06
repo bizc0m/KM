@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Permet d'installer des bibliothèques géospatiales sans compilation. Facilite l'utilisation de bibliothèques complexes sur Windows.
+Fonction · Fournir des wheels binaires pour des bibliothèques géospatiales sur Windows.  
+Avantages · Compilations pré-optimisées avec des bibliothèques externes incluses.  
+Gain · Éviter la compilation manuelle, installer les packages sans dépendances externes.
 
 ## Identité
 

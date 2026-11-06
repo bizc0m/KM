@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Modifier les métadonnées des fichiers MPEG-4 avec précision
+Fonction · Metadonnées MPEG-4, iTunes, 3GPP, droits d'auteur.  
+Avantages · Gestion des tags, extraction d'artwork, test de fichiers.  
+Gain · Modifier, analyser, exporter des métadonnées sans interface.
 
 ## Identité
 

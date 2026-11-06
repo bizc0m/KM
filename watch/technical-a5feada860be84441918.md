@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet l'encryption sécurisé avec des modes comme GCM. Fournit des primitives cryptographiques sans dépendances externes.
+Fonction · Cryptographie bas niveau en Python.  
+Avantages · Primitives sécurisées et API cohérente.  
+Gain · Installer en 1 commande, exécuter sans dépendances.
 
 ## Identité
 

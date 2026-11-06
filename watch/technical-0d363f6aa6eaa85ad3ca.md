@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Afficher des graphismes vectoriels dans des applications React Native
+Fonction · Affiche SVG sur iOS, Android, web.  
+Avantages · Conversion facile SVG vers code.  
+Gain · Lancer graphismes sans réécriture.
 
 ## Identité
 

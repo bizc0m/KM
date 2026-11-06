@@ -35,19 +35,48 @@ Gain · Lancer des conversations en temps réel sans connexion.
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Fonction · Synthétise la voix et génère des vidéos.
 Avantages · Intégre NotePlan et X pour planification.
 Gain · Créer des démos sans abonnement SaaS.
-- [Plugin mov-cli-youtube](../../watch/technical-52593ff508c40e9e2d49.md) — Lire des vidéos YouTube via mov-cli avec options audio et shorts
+- [Plugin mov-cli-youtube](../../watch/technical-52593ff508c40e9e2d49.md) — Fonction · Lire des vidéos YouTube via CLI.
+Avantages · Support audio seul et vidéos courtes.
+Gain · Exécuter des requêtes sans navigateur.
 - [Voice-Pro](../../watch/technical-7e01176c9d1442c27f9d.md) — Traite les vidéos YouTube avec extraction audio et séparation vocale
 - [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Cloner des voix à partir d'audio
+- [Webtor](../../watch/technical-c45c04c570d8ed1549e8.md) — Fonction · Torrents en direct, streaming, téléchargement ZIP.
+Avantages · Formats vidéo/audio prédéfinis, API pour intégration.
+Gain · Lancer des tâches sans client, organiser une bibliothèque.
 - [Whisper](../../watch/technical-24d2ebb24ff35b75f31b.md) — Transcrire la parole multilingue et traduire des enregistrements vers l’anglais.
-- [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Ajoute des timestamps précis aux mots de la transcription
-- [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Transforme du texte en visuels pour faciliter la communication des idées
-- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md) — Créez et gérez des agents AI sans coder, via une interface unique.
-- [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Génère et gère des contenus multimédia avec des modèles optimisés pour faible VRAM.
-- [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md) — Crée des vidéos de présentation de produit avec des animations et musique
-- [AI Creator Academy](../../watch/technical-21a78e48d74a8e6ab07f.md) — Créer des publicités vidéo vendables pour des marques réelles.
-- [mutagen](../../watch/technical-5a9ba13528ab94de7bad.md) — Gère les métadonnées audio sans dépendances externes.
-- [text-to-video-ai](../../watch/technical-cc687e91ee3b0302f92e.md) — Crée des vidéos courtes pour réseaux sociaux sans installation.
-- [Pipecat](../../watch/technical-70340542d5688b508dea.md) — Crée des assistants vocaux avec reconnaissance et synthèse vocale.
+- [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Fonction · Transcription avec timestamps et confiance par mot.
+Avantages · Estimation précise des segments sans détection de VAD.
+Gain · Éviter les hallucinations avec détection VAD intégrée.
+- [Napkin AI](../../watch/technical-2593ae994f558b741e0a.md) — Fonction · Génère des visuels à partir de texte pour illustrer des idées.
+Avantages · Intégre des outils de synthèse et clonage vocal.
+Gain · Créer des vidéos sans script, en utilisant la voix de l'utilisateur.
+- [Open AI Agents Hub](../../watch/technical-af32c93f6e9c60ab06b7.md) — Fonction · Créer, gérer et interagir avec des agents AI via une interface web.
+Avantages · Proxy backend pour intégration flexible avec des API personnalisées.
+Gain · Déployer des agents sans dépendance à un fournisseur spécifique.
+- [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Fonction · Génère des vidéos à partir de concepts, scénarios ou romans.
+Avantages · Intègre audio, storyboard, et gestion de cohérence visuelle.
+Gain · Créer des vidéos longues sans expertise technique.
+- [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Fonction · Générer et explorer des vidéos, images, 3D et mondes interactifs.
+Avantages · Support de modèles comme Hunyuan Video, MiniMax H3, Qwen Image.
+Gain · Créer des mondes, les explorer et les sauvegarder directement.
+- [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md) — Fonction · Convertir HTML, CSS, médias en vidéos MP4 déterministes.
+Avantages · Intégration avec des agents de codage pour générer des vidéos.
+Gain · Lancer des tâches de rendu sans configuration complexe.
+- [AI Creator Academy](../../watch/technical-21a78e48d74a8e6ab07f.md) — Fonction · Créer des services vendables avec IA générative.
+Avantages · Modules structurés avec pricing et clients.
+Gain · Lancer des projets sans coder, avec modèles prêts.
+- [mutagen](../../watch/technical-5a9ba13528ab94de7bad.md) — Fonction · Gère les métadonnées audio avec Python.
+Avantages · Supporte divers formats et ID3v2.
+Gain · Modifier tags sans changer le fichier audio.
+- [ai-faceless-video-generator](../../watch/technical-8d8cf40ff98876dc4965.md) — Fonction · Génère des vidéos avec un visage animé à partir d'un sujet.
+Avantages · Utilise GPT pour le script, gTTS pour la voix, SadTalker pour l'animation.
+Gain · Créer une vidéo complète en quelques étapes sans visage réel.
+- [text-to-video-ai](../../watch/technical-cc687e91ee3b0302f92e.md) — Fonction · Génère des vidéos à partir de textes via des modèles AI.
+Avantages · Intègre des outils comme EdgeTTS, Whisper, Veo3 et Pexels.
+Gain · Créer des vidéos sans installation, directement via API.
+- [Pipecat](../../watch/technical-70340542d5688b508dea.md) — Fonction · Synthétise des voix à partir de texte.
+Avantages · Intégration avec NotePlan et X/Twitter.
+Gain · Créer des assistants vocaux sans coder.
 - [Chromaprint](../../watch/technical-47e117fd2115e80cd328.md) — Crée des fingerprints audio pour identifier des morceaux similaires rapidement.
 - [awesome-open-source-mac-apps](../../watch/technical-ee0a2cc79169b0f8394c.md) — Lecture de fichiers audio et vidéo sans logiciel propriétaire.
 - [OpenCreator](../../watch/technical-e613d35c39dc20230888.md) — Traduire des vidéos en 14 langues sources et 101 cibles.

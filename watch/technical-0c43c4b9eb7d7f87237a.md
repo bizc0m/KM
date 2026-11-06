@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Accélère le développement UI avec des ressources prêtes à l'emploi
+Fonction · Ressources UI prêtes à l'emploi pour React.  
+Avantages · Accélère le développement avec des composants réutilisables.  
+Gain · Éviter de recréer des éléments UI complexes.
 
 ## Métadonnées
 

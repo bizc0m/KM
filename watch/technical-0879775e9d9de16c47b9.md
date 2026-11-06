@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Propose des corrections de code en temps réel via un terminal interactif
+Fonction · Écrire, corriger et exécuter du code via un terminal.  
+Avantages · Support multi-fournisseurs et mode serveur HTTP.  
+Gain · Automatiser des tâches via des pipelines ou des scripts.
 
 ## Identité
 
@@ -40,6 +42,8 @@ Propose des corrections de code en temps réel via un terminal interactif
 
 - https://github.com/ovh/shai
 - https://x.com/i/status/2056692982871388491
+- https://raw.githubusercontent.com/ovh/shai/HEAD/docs/assets/shai.png
+- https://raw.githubusercontent.com/ovh/shai/HEAD/README.md
 
 ## Traçabilité
 
@@ -71,3 +75,9 @@ Propose des corrections de code en temps réel via un terminal interactif
 - Source : https://github.com/ovh/shai
 - Analyse source : 2026-10-26T02:52:41.490Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![Shai CLI Screenshot](https://raw.githubusercontent.com/ovh/shai/HEAD/docs/assets/shai.png)
+
+[Origine](https://raw.githubusercontent.com/ovh/shai/HEAD/README.md)

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Lire et écrire des images en TIFF avec compression et métadonnées.
+Fonction · Lire/écrire TIFF, BigTIFF, OME-TIFF, NDPI, STK, LSM.  
+Avantages · Support compression JPEG, LZW, PNG, Zstd, LERC.  
+Gain · Traiter images multidimensionnelles sans conversion.
 
 ## Identité
 

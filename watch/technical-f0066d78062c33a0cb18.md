@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Exécuter des tâches IA via un serveur local.  
+Avantages · Moins dépendant d'une connexion internet stable.  
+Gain · Générer des modèles d'IA sans interruption réseau.
 
 ## Métadonnées
 
@@ -23,14 +25,15 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.infrastructure source.noteplan lifecycle.review
+- Identifiants : domain.ai.agents.coding domain.infrastructure source.noteplan lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Infrastructure
 - Provenance : NotePlan Calendar
-- État : À vérifier
+- État : Actif
 
 ## Sources
 
 - https://felloai.com/mac-mini-for-ai/
+- https://felloai.com/assets/fello-ui-preview-v2.webp
 
 ## Traçabilité
 
@@ -39,3 +42,9 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![App UI preview](https://felloai.com/assets/fello-ui-preview-v2.webp)
+
+[Origine](https://felloai.com/mac-mini-for-ai/)

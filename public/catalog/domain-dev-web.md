@@ -12,20 +12,40 @@ Gain · Générer des images en un clic sans outil externe.
 - [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Fonction · Génère des diapositives React avec un canvas fixe.
 Avantages · Intégre un panneau d'agent et un mode commentaire.
 Gain · Lancer un deck en quelques secondes avec un CLI.
-- [Popcorn Time](../../watch/technical-f2ad2f5dfae253d2f4b6.md) — Accéder à des contenus multimédia via des liens.
-- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Créez des vidéos via du code React, gagnez du temps et plus de contrôle.
+- [Popcorn Time](../../watch/technical-f2ad2f5dfae253d2f4b6.md) — Fonction · Regarder des films, séries et contenus multimédia.
+Avantages · Catalogue mis à jour hebdomadairement en format Parquet.
+Gain · Lire ses propres fichiers sans dépendre de liens externes.
+- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Fonction · Créer des vidéos via agent, interactif ou programmation.
+Avantages · Intégration avec VS Code et Codex.
+Gain · Générer des vidéos sans logiciel dédié.
 - [open-grok-bot](../../watch/technical-dfc871508eb563893ba5.md) — Crée des personas bots avec des modèles spécifiques
-- [@react-native-segmented-control/segmented-control](../../watch/technical-4fecf39958682d370cdb.md) — Afficher un contrôle segmenté iOS compatible sur iOS, Android et Web
-- [React Native Firebase](../../watch/technical-3681504d2fddfa84e41c.md) — Intégre Firebase dans les apps React Native
+- [@react-native-segmented-control/segmented-control](../../watch/technical-4fecf39958682d370cdb.md) — Fonction · Affiche un contrôle segmenté pour iOS, Android et Web.
+Avantages · Supporte les styles iOS 13 et personnalisations de design.
+Gain · Éviter de coder des composants natifs pour les segments.
+- [React Native Firebase](../../watch/technical-3681504d2fddfa84e41c.md) — Fonction · Intégre Firebase services via modules natifs.
+Avantages · Typage intégré, documentation complète.
+Gain · Éviter configuration manuelle des SDK Firebase.
 - [React Native Skia](../../watch/technical-7cd3c79123c711ed22a3.md) — Rendu graphique 2D performant pour applications React Native
 - [react-native-async-storage/async-storage](../../watch/technical-86179b264553419a3af1.md) — Stocke des données clé-valeur persistantes dans une application React Native
-- [react-native-geolocation-service](../../watch/technical-4b680fb1ac30d77fae4c.md) — Permet d'obtenir la position avec précision sur mobile
-- [react-native-screens](../../watch/technical-86557885f3c8aeb4655f.md) — Gère les transitions et états des vues pour une navigation fluide.
-- [react-native-svg](../../watch/technical-0d363f6aa6eaa85ad3ca.md) — Afficher des graphismes vectoriels dans des applications React Native
-- [Répertoire de ressources design](../../watch/technical-0c43c4b9eb7d7f87237a.md) — Accélère le développement UI avec des ressources prêtes à l'emploi
-- [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Permet aux agents d'intégrer instantanément la plateforme pour trader.
+- [react-native-geolocation-service](../../watch/technical-4b680fb1ac30d77fae4c.md) — Fonction · Obtenir la position via Google Play Services sur Android.
+Avantages · Gère les timeout de localisation sur Android.
+Gain · Éviter les problèmes de précision GPS sans configuration complexe.
+- [react-native-screens](../../watch/technical-86557885f3c8aeb4655f.md) — Fonction · Gère la navigation native dans React Native.
+Avantages · Intégré à react-navigation et Expo.
+Gain · Éviter les crashes sur Android avec override.
+- [react-native-svg](../../watch/technical-0d363f6aa6eaa85ad3ca.md) — Fonction · Affiche SVG sur iOS, Android, web.
+Avantages · Conversion facile SVG vers code.
+Gain · Lancer graphismes sans réécriture.
+- [Répertoire de ressources design](../../watch/technical-0c43c4b9eb7d7f87237a.md) — Fonction · Ressources UI prêtes à l'emploi pour React.
+Avantages · Accélère le développement avec des composants réutilisables.
+Gain · Éviter de recréer des éléments UI complexes.
+- [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Fonction · Intégration instantanée des agents IA.
+Avantages · Signaux et stratégies prédéfinis.
+Gain · Lancer des trades en quelques secondes.
 - [notfair-nextjs-blog](../../watch/technical-1fca81e0d4c208d8ff35.md) — Afficher des articles NotFair avec Next.js et un API privé
-- [OpenWA](../../watch/technical-aabd475730fdd2c418b7.md) — Exécute l'API WhatsApp sur un serveur interne sans dépendre de tiers
+- [OpenWA](../../watch/technical-aabd475730fdd2c418b7.md) — Fonction · Exécute l'API WhatsApp sur un serveur interne.
+Avantages · Nécessite pas de dépendre de tiers.
+Gain · Éviter l'utilisation de services externes.
 - [Clone-Wars](../../watch/technical-f39d8a91723d2198d9aa.md) — Découvrir le code source de clones d'applications populaires.
 - [NoSignups](../../watch/technical-94515d48fc2a4b993a1f.md) — Permet d'utiliser des outils informatiques sans inscription ni email.
 - [Open Lovable](../../watch/technical-51c74448ee9079430332.md) — Crée un clone React d'un site web en quelques secondes.

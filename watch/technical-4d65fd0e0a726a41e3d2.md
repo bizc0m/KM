@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Rechercher des mentions en ligne d'une cible et identifier des profils sociaux
+Fonction · Recherche web et analyse de mentions.  
+Avantages · Résultats complets avec métadonnées et URLs.  
+Gain · Éviter de scraper manuellement les pages.
 
 ## Identité
 
@@ -29,8 +31,9 @@ Rechercher des mentions en ligne d'une cible et identifier des profils sociaux
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents domain.osint source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA ; Cybersécurité > Renseignement en sources ouvertes
+- Identifiants : domain.ai.agents domain.osint domain.data.web capability.scraping source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA ; Cybersécurité > Renseignement en sources ouvertes ; Données et connaissances > Collecte web
+- Fonctions : Extraire des données web
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -38,6 +41,9 @@ Rechercher des mentions en ligne d'une cible et identifier des profils sociaux
 
 - https://github.com/anoncatalyst/ominis-osint
 - https://x.com/i/status/2056325264246706649
+- https://raw.githubusercontent.com/AnonCatalyst/Ominis-OSINT/main/docs/screenshots/01-doctor.png
+- https://raw.githubusercontent.com/anoncatalyst/ominis-osint/HEAD/README.md
+- https://raw.githubusercontent.com/AnonCatalyst/Ominis-OSINT/main/docs/screenshots/02-local-search.png
 
 ## Traçabilité
 
@@ -65,3 +71,13 @@ Rechercher des mentions en ligne d'une cible et identifier des profils sociaux
 - Source : https://github.com/anoncatalyst/ominis-osint
 - Analyse source : 2026-10-25T23:19:14.067Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![Doctor](https://raw.githubusercontent.com/AnonCatalyst/Ominis-OSINT/main/docs/screenshots/01-doctor.png)
+
+[Origine](https://raw.githubusercontent.com/anoncatalyst/ominis-osint/HEAD/README.md)
+
+![Local search](https://raw.githubusercontent.com/AnonCatalyst/Ominis-OSINT/main/docs/screenshots/02-local-search.png)
+
+[Origine](https://raw.githubusercontent.com/anoncatalyst/ominis-osint/HEAD/README.md)

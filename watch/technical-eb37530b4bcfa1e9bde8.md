@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Gère les dépendances et les environnements
+Fonction · Installer Python et gérer les dépendances.  
+Avantages · Utilise un résolveur basé sur PubGrub.  
+Gain · Lancer des scripts sans installer Python.
 
 ## Identité
 

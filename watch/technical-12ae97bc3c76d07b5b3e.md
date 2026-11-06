@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyser du texte avec reconnaissance d'entités nommées
+Fonction · Traitement du langage naturel en Python/Cython.  
+Avantages · Modèles préentraînés pour 70+ langues.  
+Gain · Déployer des tâches NLP sans configuration complexe.
 
 ## Identité
 

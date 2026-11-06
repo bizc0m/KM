@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des vidéos AI en quelques clics.
+Fonction · Génère et édite des vidéos AI avec Seedance 2.0 et Mini.  
+Avantages · Interface responsive et gestion des crédits intégrée.  
+Gain · Lancer des tâches de génération sans configuration complexe.
 
 ## Identité
 

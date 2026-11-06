@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Crée automatiquement des présentations et vidéos sans intervention humaine.
+Fonction · Génère automatiquement présentations et vidéos.  
+Avantages · Sans intervention humaine, création continue.  
+Gain · Éviter la production manuelle de contenus.
 
 ## Métadonnées
 
@@ -23,8 +25,9 @@ Crée automatiquement des présentations et vidéos sans intervention humaine.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai domain.media.video source.noteplan source.x lifecycle.active
+- Identifiants : domain.ai domain.media.video capability.generate.video source.noteplan source.x lifecycle.active
 - Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
+- Fonctions : Générer des contenus > Générer une vidéo
 - Provenance : NotePlan Calendar ; X / Twitter
 - État : Actif
 

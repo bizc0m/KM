@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Gère et diffuse des médias via des appareils connectés sans frais
+Fonction · Gère et diffuse des médias via un serveur.  
+Avantages · Support multiplateforme et licence libre.  
+Gain · Éviter les frais d'abonnement et contrôler les données.
 
 ## Identité
 
@@ -27,8 +29,8 @@ Gère et diffuse des médias via des appareils connectés sans frais
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.active
-- Sujets : À qualifier
+- Identifiants : domain.infrastructure source.noteplan source.github source.x lifecycle.active
+- Sujets : Infrastructure
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Gère les dépendances de projet avec des lockfiles.
+Fonction · Installe et gère les packages Python et les environnements.  
+Avantages · Vitesse 10-100x supérieure à pip.  
+Gain · Exécuter des outils sans créer d'environnement.
 
 ## Identité
 

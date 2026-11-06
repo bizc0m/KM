@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Gérer et publier des contenus sur 14 plateformes depuis un seul outil.
+Fonction · Publier des contenus sur 14 plateformes depuis un seul outil.  
+Avantages · Intégration avec NotePlan et X / Twitter.  
+Gain · Éviter de gérer plusieurs interfaces pour la publication.
 
 ## Métadonnées
 

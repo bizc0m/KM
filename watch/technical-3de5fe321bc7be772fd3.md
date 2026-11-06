@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyse les marchés météorologiques pour détecter des opportunités de trading
+Fonction · Bot de trading météo sur Polymarket.  
+Avantages · Analyse prédictions NWS et simulateur de trades.  
+Gain · Lancer des trades avec seuils et balances définis.
 
 ## Métadonnées
 
@@ -25,9 +27,9 @@ Analyse les marchés météorologiques pour détecter des opportunités de tradi
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.finance domain.science.weather capability.forecast source.x source.github lifecycle.active
-- Sujets : Analyse financière ; Sciences et prévision > Prévisions météorologiques
-- Fonctions : Prévoir des mesures
+- Identifiants : domain.science.weather domain.finance.prediction capability.forecast capability.simulate source.x source.github lifecycle.active
+- Sujets : Sciences et prévision > Prévisions météorologiques ; Analyse financière > Marchés prédictifs
+- Fonctions : Prévoir des mesures ; Simuler et tester
 - Provenance : X / Twitter ; GitHub
 - État : Actif
 

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Partage de fichiers entre appareils via réseau local
+Fonction · Partage de fichiers et messages entre appareils locaux.  
+Avantages · Communication sécurisée via HTTPS et API REST.  
+Gain · Éviter les serveurs externes pour transférer des données.
 
 ## Identité
 
@@ -29,8 +31,8 @@ Partage de fichiers entre appareils via réseau local
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified compatibility.os.macos compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : À qualifier
+- Identifiants : domain.infrastructure domain.dev.api compatibility.os.macos compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
+- Sujets : Infrastructure ; Développement logiciel > API et services applicatifs
 - Compatibilités : Systèmes > macOS ; Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
@@ -39,6 +41,9 @@ Partage de fichiers entre appareils via réseau local
 
 - https://github.com/localsend/localsend
 - https://x.com/i/status/2059648731801399524
+- https://localsend.org/img/screenshot-iphone.webp
+- https://raw.githubusercontent.com/localsend/localsend/HEAD/README.md
+- https://localsend.org/img/screenshot-pc.webp
 
 ## Traçabilité
 
@@ -73,3 +78,13 @@ Partage de fichiers entre appareils via réseau local
 - Source : https://github.com/localsend/localsend
 - Analyse source : 2026-10-20T18:06:49.963Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![iPhone screenshot](https://localsend.org/img/screenshot-iphone.webp)
+
+[Origine](https://raw.githubusercontent.com/localsend/localsend/HEAD/README.md)
+
+![PC screenshot](https://localsend.org/img/screenshot-pc.webp)
+
+[Origine](https://raw.githubusercontent.com/localsend/localsend/HEAD/README.md)

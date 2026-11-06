@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Financer la recherche pour des ordinateurs quantiques.
+Fonction · Financer la recherche en informatique quantique.  
+Avantages · Développement de technologies de pointe en France.  
+Gain · Accélérer l'innovation dans le domaine quantique.
 
 ## Métadonnées
 

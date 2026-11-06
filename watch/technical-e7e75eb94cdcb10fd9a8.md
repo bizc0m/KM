@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Exécute des stratégies de trading sur des marchés de prévision avec un moteur unique
+Fonction · Exécute des stratégies de trading sur des marchés de prévision.  
+Avantages · Adapte un seul moteur à plusieurs plateformes via des adaptateurs.  
+Gain · Lancer des trades sans réécrire le code pour chaque marché.
 
 ## Métadonnées
 

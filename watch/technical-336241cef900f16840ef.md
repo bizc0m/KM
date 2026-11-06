@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des wheels Windows pour python-ldap. Facilite l'installation via pip.
+Fonction · Construire des wheels Windows pour python-ldap.  
+Avantages · Utilisation de GitHub Actions pour la build.  
+Gain · Installer directement un wheel via pip.
 
 ## Identité
 

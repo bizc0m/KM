@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Recherche et analyse d'informations sur BlueSky/AT Protocol.  
+Avantages · Fonctionnalités de suivi en temps réel et analyse de réseau.  
+Gain · Comparer des comptes pour identifier des connexions partagées.
 
 ## Identité
 

@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Exécute des stratégies de trading en temps réel avec des ordres avancés
+Fonction · Exécution et backtest de stratégies multi-actifs.  
+Avantages · Intégration modulaire de n'importe quelle API.  
+Gain · Déployer des stratégies en live sans reimplémentation.
 
 ## Métadonnées
 
@@ -23,8 +25,9 @@ Exécute des stratégies de trading en temps réel avec des ordres avancés
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.finance source.x source.github lifecycle.active
-- Sujets : Analyse financière
+- Identifiants : domain.finance.quant capability.simulate.backtest source.x source.github lifecycle.active
+- Sujets : Analyse financière > Simulation et analyse quantitative
+- Fonctions : Simuler et tester > Tester sur des données historiques
 - Provenance : X / Twitter ; GitHub
 - État : Actif
 

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des wheels TA-Lib pour Python sur Windows
+Fonction · Construire des wheels TA-Lib pour Python sur Windows.  
+Avantages · Disponibles via GitHub Actions et PyPI.  
+Gain · Installer directement les wheels sans compilation.
 
 ## Identité
 

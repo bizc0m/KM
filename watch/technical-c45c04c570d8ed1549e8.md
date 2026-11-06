@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Permet de gérer des torrents avec streaming et téléchargement direct
+Fonction · Torrents en direct, streaming, téléchargement ZIP.  
+Avantages · Formats vidéo/audio prédéfinis, API pour intégration.  
+Gain · Lancer des tâches sans client, organiser une bibliothèque.
 
 ## Identité
 
@@ -27,8 +29,8 @@ Permet de gérer des torrents avec streaming et téléchargement direct
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.infrastructure source.noteplan source.github source.x lifecycle.active
-- Sujets : Infrastructure
+- Identifiants : domain.infrastructure domain.media.audio domain.media.video source.noteplan source.github source.x lifecycle.active
+- Sujets : Infrastructure ; Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Interagir avec Gemini via terminal pour exécuter des tâches de code
+Fonction · Exécuter des tâches via un terminal avec des modèles Gemini.  
+Avantages · Authentification via clé API ou projet Cloud.  
+Gain · Lancer des scripts sans interface graphique.
 
 ## Identité
 

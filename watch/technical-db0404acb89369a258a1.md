@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Gère les dépendances Cocoa sans modifier les fichiers projet
+Fonction · Gère les dépendances pour les projets Cocoa.  
+Avantages · Fournit des frameworks binaires sans modifier le projet.  
+Gain · Éviter de configurer manuellement les dépendances.
 
 ## Identité
 

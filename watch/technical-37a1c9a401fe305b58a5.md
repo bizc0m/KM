@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère et gère des contenus multimédia avec des modèles optimisés pour faible VRAM.
+Fonction · Générer et explorer des vidéos, images, 3D et mondes interactifs.  
+Avantages · Support de modèles comme Hunyuan Video, MiniMax H3, Qwen Image.  
+Gain · Créer des mondes, les explorer et les sauvegarder directement.
 
 ## Identité
 
@@ -29,9 +31,9 @@ Génère et gère des contenus multimédia avec des modèles optimisés pour fai
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.video domain.media.image domain.media.audio.voice capability.voice.synthesize capability.generate.video capability.generate.image source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Audio, vidéo et création > Audio > Voix
-- Fonctions : Traitement de la voix > Synthétiser une voix ; Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
+- Identifiants : domain.media.video domain.media.image domain.media.audio.voice domain.ai.llm domain.media.3d capability.voice.synthesize capability.generate.video capability.generate.image capability.generate.3d source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Audio, vidéo et création > Audio > Voix ; Intelligence artificielle > Modèles de langage ; Audio, vidéo et création > Création 3D
+- Fonctions : Traitement de la voix > Synthétiser une voix ; Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image ; Générer des contenus > Générer un objet 3D
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

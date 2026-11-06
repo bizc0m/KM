@@ -31,23 +31,53 @@ Gain · Lancer des conversations en temps réel sans connexion.
 - [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
 Avantages · Intégration de fournisseurs LLM via une API unifiée.
 Gain · Exécuter des tâches de codage sans configuration complexe.
+- [Pi](../../watch/technical-c133b93b912dffd605a2.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
+Avantages · Intégration de fournisseurs LLM via une API unifiée.
+Gain · Lancer des tâches de codage avec un compte ou une clé API.
 - [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Protection des données sensibles avant l'envoi vers un API non contrôlé
 - [awesome-ai-video-models](../../watch/technical-e0275c5610589cad14d2.md) — Choisir le modèle de génération de vidéos AI adapté à un projet.
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [LLM Wiki Agent](../../watch/technical-9e4c4b6c4c6a7d12ceff.md) — Ingestion de documents pour construire un wiki structuré
-- [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Permet une collaboration équipe via un agent partagé par canal
-- [FreeLLMAPI](../../watch/technical-f9d54d6e051498a6f643.md) — Route requests across free LLM providers with one endpoint
-- [Qwen-Image-API](../../watch/technical-c341f7566eb8b34cd45a.md) — Génère des images via l'API Qwen avec des paramètres avancés
-- [GPT-6 Astra](../../watch/technical-04eb6674f0cfa4208b0e.md) — Accéder à la documentation du modèle GPT-6 Astra
+- [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Fonction · Agent IA auto-configure pour Slack par canal.
+Avantages · Mémoire curatée et création automatique de compétences.
+Gain · Éviter les logs bruyants, lancer des tâches en contexte.
+- [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Fonction · Générer et explorer des vidéos, images, 3D et mondes interactifs.
+Avantages · Support de modèles comme Hunyuan Video, MiniMax H3, Qwen Image.
+Gain · Créer des mondes, les explorer et les sauvegarder directement.
+- [FreeLLMAPI](../../watch/technical-f9d54d6e051498a6f643.md) — Fonction · Route les requêtes vers des modèles gratuits via un endpoint OpenAI.
+Avantages · Gère automatiquement les quotas et les limites des fournisseurs.
+Gain · Lancer des tâches sans configuration manuelle des clés.
+- [Qwen-Image-API](../../watch/technical-c341f7566eb8b34cd45a.md) — Fonction · Générer ou éditer des images via des endpoints Qwen.
+Avantages · Supporte des paramètres comme résolution, format et masque.
+Gain · Lancer des tâches d'images avec un API unifié.
+- [GPT-6 Astra](../../watch/technical-04eb6674f0cfa4208b0e.md) — Fonction · Générer des réponses via l'API Responses avec des outils et raisonnement.
+Avantages · Contexte de 1,05M tokens et sortie jusqu'à 128K tokens.
+Gain · Exécuter des tâches complexes avec des vérifications intermédiaires.
 - [Awesome Agent Skills](../../watch/technical-42c5a49b8cf68812c97a.md) — Créez des compétences agent pour des outils comme Claude, Gemini, Cursor.
-- [OpenOSINT](../../watch/technical-0be614d8a1eb180e4b8a.md) — Orchestre des recherches OSINT avec un modèle LLM pour produire un rapport structuré
-- [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Configure l'environnement de codage avec des outils d'assistance.
-- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Propose des corrections de code en temps réel via un terminal interactif
-- [gemini-cli](../../watch/technical-24684c1ecca249c03e58.md) — Interagir avec Gemini via terminal pour exécuter des tâches de code
-- [Langchain](../../watch/technical-5ea1d4fd1ccb4341a6ba.md) — Crée des applications LLM avec des modèles et outils.
-- [awesome-ai-repos](../../watch/technical-7cf0ee8352dc6af0478e.md) — Gérer des agents IA avec des outils de coordination
-- [Skills pour agents de IA](../../watch/technical-125acf8b08c34d868099.md) — Permet d'installer des compétences pour des agents de IA
-- [Skills pour agents de IA](../../watch/technical-ce8a12d1c4391a2f858c.md) — Permet d'installer des compétences pour des agents de IA
+- [OpenOSINT](../../watch/technical-0be614d8a1eb180e4b8a.md) — Fonction · Orchestre des recherches OSINT avec modèle LLM.
+Avantages · Génère rapport structuré à partir de sources ouvertes.
+Gain · Éviter de compiler manuellement des informations.
+- [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Fonction · Exécuter des tâches de codage via terminal, éditeur, chat ou application.
+Avantages · Intégration avec VS Code, Zed, JetBrains, Telegram, WeChat.
+Gain · Lancer des tâches sans configuration, utiliser des modèles Qwen locaux ou distants.
+- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Fonction · Écrire, corriger et exécuter du code via un terminal.
+Avantages · Support multi-fournisseurs et mode serveur HTTP.
+Gain · Automatiser des tâches via des pipelines ou des scripts.
+- [gemini-cli](../../watch/technical-24684c1ecca249c03e58.md) — Fonction · Exécuter des tâches via un terminal avec des modèles Gemini.
+Avantages · Authentification via clé API ou projet Cloud.
+Gain · Lancer des scripts sans interface graphique.
+- [Langchain](../../watch/technical-5ea1d4fd1ccb4341a6ba.md) — Fonction · Gère les agents AI pour tâches spécifiques.
+Avantages · Intégration de modèles et outils préconfigurés.
+Gain · Automatiser les workflows sans codage.
+- [awesome-ai-repos](../../watch/technical-7cf0ee8352dc6af0478e.md) — Fonction · Gère les agents AI pour tâches spécifiques.
+Avantages · Intégration de modèles et outils de recherche.
+Gain · Lancer des workflows sans configuration complexe.
+- [Skills pour agents de IA](../../watch/technical-125acf8b08c34d868099.md) — Fonction · Installer des compétences pour des agents IA, avec des instructions claires.
+Avantages · Fournit des exemples et des scripts pour une utilisation immédiate.
+Gain · Tester une compétence sans l'installer pour éviter les erreurs.
+- [Skills pour agents de IA](../../watch/technical-ce8a12d1c4391a2f858c.md) — Fonction · Installer des compétences pour des agents IA, avec des instructions concrètes.
+Avantages · Fournit des exemples et des scripts pour exécuter des tâches sans improviser.
+Gain · Tester une compétence avant installation pour éviter les erreurs.
 - [Aider](../../watch/technical-4125f24a0a6925019b78.md) — Collaborer avec des LLM pour coder et gérer des projets.
 - [Comparaison des modèles d'IA](../../watch/technical-b3d3480734d063a13c32.md) — DeepSeek V4.1 Flash optimise la réponse avec 16B de paramètres actifs.
 - [llm-quota-tracker](../../watch/technical-8d9cf24dee47599cd496.md) — Afficher les quotas d'IA en temps réel pour gérer efficacement les ressources.

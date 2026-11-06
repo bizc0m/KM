@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Analyse le code Swift pour respecter les conventions de style.
+Fonction · Analyse le code Swift pour respecter les conventions.  
+Avantages · Base sur SwiftSyntax et des guides communautaires.  
+Gain · Exécuter des vérifications sans compiler le code.
 
 ## Identité
 
@@ -36,6 +38,8 @@ Analyse le code Swift pour respecter les conventions de style.
 
 - https://github.com/realm/swiftlint
 - https://x.com/i/status/2059877503771029851
+- https://raw.githubusercontent.com/realm/SwiftLint/main/assets/screenshot.png
+- https://raw.githubusercontent.com/realm/swiftlint/HEAD/README.md
 
 ## Traçabilité
 
@@ -68,3 +72,9 @@ Analyse le code Swift pour respecter les conventions de style.
 - Source : https://github.com/realm/swiftlint
 - Analyse source : 2026-10-20T17:11:07.624Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![SwiftLint violations highlighted in the Xcode editor](https://raw.githubusercontent.com/realm/SwiftLint/main/assets/screenshot.png)
+
+[Origine](https://raw.githubusercontent.com/realm/swiftlint/HEAD/README.md)

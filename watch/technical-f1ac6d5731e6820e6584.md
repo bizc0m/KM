@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Installe PyMOL sur Windows sans compiler
+Fonction · Fournir des wheels binaires pour PyMOL sur Windows.  
+Avantages · Compatibilité avec Python 3.11 à 3.14 et architectures win32/amd64.  
+Gain · Installer PyMOL sans compiler les dépendances.
 
 ## Identité
 

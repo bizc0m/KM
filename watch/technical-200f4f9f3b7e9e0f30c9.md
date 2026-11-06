@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Télécharge des vidéos depuis des sites web sans interface graphique.
+Fonction · Télécharger des vidéos depuis YouTube et d'autres plateformes.  
+Avantages · Gère les restrictions géographiques et les proxies.  
+Gain · Éviter de configurer des outils externes pour accéder aux contenus.
 
 ## Identité
 

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée des courts métrages 3D avec un agent de codage.
+Fonction · Génère des vidéos 3D animées expliquant un sujet.  
+Avantages · Workflow agent-native avec MuAPI et Veo 3.1.  
+Gain · Créer un court métrage vertical en 3D en quelques étapes.
 
 ## Identité
 

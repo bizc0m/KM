@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Extrait automatiquement des highlights viraux depuis des vidéos YouTube.
+Fonction · Extraire des highlights viraux de vidéos YouTube.  
+Avantages · Gestion automatique des crédits et durées.  
+Gain · Lancer la génération sans configuration complexe.
 
 ## Identité
 

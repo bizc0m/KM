@@ -17,17 +17,35 @@ Gain · Lancer des tâches d'optimisation rapidement.
 - [skills_feed](../../watch/technical-57435869059c16d7e579.md) — Fonction · Recherche, installation, copie et partage de compétences AI.
 Avantages · Intégration avec des outils de codage comme Claude Code et Cursor.
 Gain · Accéder directement aux compétences via URL GitHub.
-- [Skills For Real Engineers](../../watch/technical-637c99109af31ed2fe7b.md) — Aide à l'alignement entre utilisateur et agent via des sessions d'interrogation
-- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Découvrir, évaluer et exécuter 500+ modèles multimodaux en un clic.
+- [Skills For Real Engineers](../../watch/technical-637c99109af31ed2fe7b.md) — Fonction · Installer et configurer des compétences pour agents.
+Avantages · Adaptation par projet, mise à jour automatique.
+Gain · Configurer le suivi des tickets, lancer les tâches rapidement.
+- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Fonction · Générer, éditer et afficher des médias professionnels via muapi-cli.
+Avantages · Accès à 100+ modèles AI et outils MCP pour agents.
+Gain · Lancer des workflows en un clic avec des recettes prêtes à exécuter.
 - [Awesome Agent Skills](../../watch/technical-42c5a49b8cf68812c97a.md) — Créez des compétences agent pour des outils comme Claude, Gemini, Cursor.
-- [Anthropic Cybersecurity Skills](../../watch/technical-02d73009ec03d24b2e22.md)
+- [Anthropic Cybersecurity Skills](../../watch/technical-02d73009ec03d24b2e22.md) — Fonction · Donner des compétences de sécurité à un agent AI.
+Avantages · Mappage à 6 frameworks de sécurité.
+Gain · Exécuter des tâches de sécurité en quelques secondes.
 - [700-cybersecurity-skills](../../watch/technical-f26c6abfcce6e427cbf6.md) — Ajout de compétences de cybersécurité pour agents IA
-- [last30days-skill](../../watch/technical-b88590c43555a909e1ff.md) — Analyse de données en temps réel pour comprendre les tendances et comportements.
-- [awesome-seo-agent-skills](../../watch/technical-2eb5b1b4690cd51d126c.md) — Analyse technique SEO pour optimiser le site web
-- [awesome-seo-agent-skills](../../watch/technical-ff4abb9b63459f4d12ec.md) — Analyse technique SEO pour optimiser le référencement
-- [Outil d'alignement et de validation des requêtes avec un modèle d'IA](../../watch/technical-e89b211cd062814b9628.md)
-- [Skills pour agents de IA](../../watch/technical-125acf8b08c34d868099.md) — Permet d'installer des compétences pour des agents de IA
-- [Skills pour agents de IA](../../watch/technical-ce8a12d1c4391a2f858c.md) — Permet d'installer des compétences pour des agents de IA
+- [last30days-skill](../../watch/technical-b88590c43555a909e1ff.md) — Fonction · Recherche d'informations via des sources sociales et techniques.
+Avantages · Synthèse basée sur l'engagement réel des utilisateurs.
+Gain · Comparer des outils ou comprendre des sujets en 30 secondes.
+- [awesome-seo-agent-skills](../../watch/technical-2eb5b1b4690cd51d126c.md) — Fonction · Analyse SEO, audits techniques, recherches de mots-clés.
+Avantages · Intégration avec des agents comme Claude Code et OpenClaw.
+Gain · Automatiser les tâches SEO sans configuration complexe.
+- [awesome-seo-agent-skills](../../watch/technical-ff4abb9b63459f4d12ec.md) — Fonction · Agent Skills pour SEO, audits techniques, recherches de mots-clés.
+Avantages · Support multi-agents avec documentation des API.
+Gain · Déployer des tâches SEO sans configuration complexe.
+- [Outil d'alignement et de validation des requêtes avec un modèle d'IA](../../watch/technical-e89b211cd062814b9628.md) — Fonction · Vérifie et aligne les requêtes avec un modèle d'IA.
+Avantages · Intégre des compétences d'agents IA prédéfinies.
+Gain · Éviter des erreurs de compréhension des requêtes.
+- [Skills pour agents de IA](../../watch/technical-125acf8b08c34d868099.md) — Fonction · Installer des compétences pour des agents IA, avec des instructions claires.
+Avantages · Fournit des exemples et des scripts pour une utilisation immédiate.
+Gain · Tester une compétence sans l'installer pour éviter les erreurs.
+- [Skills pour agents de IA](../../watch/technical-ce8a12d1c4391a2f858c.md) — Fonction · Installer des compétences pour des agents IA, avec des instructions concrètes.
+Avantages · Fournit des exemples et des scripts pour exécuter des tâches sans improviser.
+Gain · Tester une compétence avant installation pour éviter les erreurs.
 - [Agent Skills](../../watch/technical-dae9f02535f7c22f84f1.md) — Facilite la création de logiciels avec des workflows et des bonnes pratiques.
 - [ECC](../../watch/technical-cac46266b186a438c4a0.md) — Permet aux agents IA d'executer des tâches avec plus d'efficacité.
 - [Find Skills](../../watch/technical-81d6a7fc9d142fbd431c.md) — Permet d'installer des compétences pour mieux répondre aux demandes spécifiques.

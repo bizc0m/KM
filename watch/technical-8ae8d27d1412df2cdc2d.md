@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-enregistrer et éditer des captures d'écran avec IA
+Fonction · Enregistrer et éditer des captures d'écran avec IA.  
+Avantages · Intégration avec NotePlan et X/Twitter.  
+Gain · Automatiser la gestion des captures d'écran.
 
 ## Métadonnées
 

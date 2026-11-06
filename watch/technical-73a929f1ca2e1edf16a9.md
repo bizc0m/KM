@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Récupère l'horodatage des vidéos TikTok supprimées.
+Fonction · Extraire l'horodatage d'URL TikTok.  
+Avantages · Fonctionne sur vidéos supprimées.  
+Gain · Accéder à l'horodatage sans télécharger la vidéo.
 
 ## Identité
 

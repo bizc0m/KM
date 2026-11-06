@@ -2,8 +2,12 @@
 
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
 - [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
-- [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications et services sur des serveurs propres avec gestion automatisée.
-- [ARGO](../../watch/technical-e3f44ce252af9ba887f8.md) — Recherche locale sans connexion.
+- [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Fonction · Déployer des apps, bases de données et services sur des serveurs.
+Avantages · Support Git, Docker, Nixpacks et plus de 360 services prêts à l'emploi.
+Gain · Lancer des déploiements sans configuration complexe.
+- [ARGO](../../watch/technical-e3f44ce252af9ba887f8.md) — Fonction · Planifier des tâches avec des notes et des calendriers.
+Avantages · Gère les tâches sans connexion internet.
+Gain · Éviter de synchroniser avec des services en ligne.
 - [Capsule Hub](../../watch/technical-7ce70d893933b807a8be.md) — Capturer et stocker le contexte des conversations IA pour le réutiliser dans d'autres sessions.
 - [Éditeur de propriétés de note (Frontmatter) - NotePlan](../../watch/technical-52638d59170c3cd934c2.md) — Modifier les métadonnées des notes sans toucher le frontmatter.
 - [NotePlan](../../watch/technical-e1f8a790d58a19d10194.md) — Organiser des tâches, notes et événements dans un seul espace.

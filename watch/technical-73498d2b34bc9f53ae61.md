@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Rechercher et ouvrir des fichiers via des requêtes textuelles.
+Fonction · Rechercher et lancer des fichiers sur le dispositif.  
+Avantages · Recherche par nom ou chemin spécifié.  
+Gain · Exécuter des fichiers sans navigation manuelle.
 
 ## Identité
 

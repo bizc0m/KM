@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Ajoute des timestamps précis aux mots de la transcription
+Fonction · Transcription avec timestamps et confiance par mot.  
+Avantages · Estimation précise des segments sans détection de VAD.  
+Gain · Éviter les hallucinations avec détection VAD intégrée.
 
 ## Identité
 

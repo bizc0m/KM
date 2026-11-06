@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Intégre des modèles de langage pour les dialogues
+Fonction · Intégration de jeux Phaser 3 dans Angular.  
+Avantages · Communication entre frameworks décentralisée.  
+Gain · Lancer des scènes de jeu via composants Angular.
 
 ## Identité
 
@@ -35,6 +37,8 @@ Intégre des modèles de langage pour les dialogues
 ## Sources
 
 - https://github.com/bebechien/aiventure
+- https://raw.githubusercontent.com/bebechien/aiventure/HEAD/aiventure.gif
+- https://raw.githubusercontent.com/bebechien/aiventure/HEAD/README.md
 
 ## Traçabilité
 
@@ -43,3 +47,9 @@ Intégre des modèles de langage pour les dialogues
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-20
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![demo](https://raw.githubusercontent.com/bebechien/aiventure/HEAD/aiventure.gif)
+
+[Origine](https://raw.githubusercontent.com/bebechien/aiventure/HEAD/README.md)

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Structurer le développement avec des spécifications
+Fonction · Structurer des processus, templates et résultats pour agents de codage.  
+Avantages · Processus prédéfinis pour développement, réparation de bugs et évaluation d'idées.  
+Gain · Lancer des tâches sans configuration, adapter au projet directement.
 
 ## Identité
 

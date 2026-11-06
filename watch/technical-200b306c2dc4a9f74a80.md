@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des wheels Windows pour python-curses. Permet l'installation via pip sur Python 3.14.
+Fonction · Construire des wheels Python pour Windows avec GitHub Actions.  
+Avantages · Disponibles en version 64 bits pour Python 3.14.  
+Gain · Installer directement via pip après téléchargement.
 
 ## Identité
 

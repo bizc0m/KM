@@ -26,13 +26,34 @@ Avantages · Utilise un SDF cascade et une perte de cohérence sémantique CLIP.
 Gain · Éviter de recréer les zones invisibles via un modèle pré-entraîné.
 - [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones
 - [Pixal3D-ComfyUI](../../watch/technical-62ff8b189d833243b52d.md) — Permet de générer des modèles 3D à partir d'images 2D
-- [StdGEN](../../watch/technical-39708b126c037da50e56.md) — Génère un modèle 3D détaillé à partir d'une image de référence.
-- [SuperSplat Editor](../../watch/technical-f7ea866b53ea3110371c.md) — Permet de modifier des splats 3D Gaussiens sans installation
+- [StdGEN](../../watch/technical-39708b126c037da50e56.md) — Fonction · Génère des personnages 3D à partir d'une image 2D.
+Avantages · Découpage sémantique et génération multi-vue.
+Gain · Éviter la modélisation manuelle, lancer la génération en plusieurs étapes.
+- [SuperSplat Editor](../../watch/technical-f7ea866b53ea3110371c.md) — Fonction · Editeur web pour splats gaussiens 3D.
+Avantages · Outils WebMCP pour inspection et édition.
+Gain · Modifier et publier des scènes sans installation.
 - [T3Bench](../../watch/technical-763a276cbab62cfc7a39.md) — Comparer les performances des modèles de génération 3D.
 - [TRELLIS.2](../../watch/technical-8a1d416625950ae0abb8.md) — Convertit des maillages texturés en voxel O-Voxel en quelques secondes.
-- [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
-- [cmapfile](../../watch/technical-a5c98bf9207583bed63d.md) — Convertir des données volumétriques en fichiers CMAP compatibles Chimera.
-- [dnacurve](../../watch/technical-9e1242d02e9fdde47335.md) — Analyse la courbure de l'ADN pour des études structurales.
+- [WanGP](../../watch/technical-37a1c9a401fe305b58a5.md) — Fonction · Générer et explorer des vidéos, images, 3D et mondes interactifs.
+Avantages · Support de modèles comme Hunyuan Video, MiniMax H3, Qwen Image.
+Gain · Créer des mondes, les explorer et les sauvegarder directement.
+- [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Fonction · Génère des vidéos 3D animées expliquant un sujet.
+Avantages · Workflow agent-native avec MuAPI et Veo 3.1.
+Gain · Créer un court métrage vertical en 3D en quelques étapes.
+- [cmapfile](../../watch/technical-a5c98bf9207583bed63d.md) — Fonction · Créer des fichiers CMAP à partir de données volumiques.
+Avantages · Conversion depuis BIN, TIFF, LSM, OIF, OIB.
+Gain · Générer des fichiers HDF5 visualisables avec Chimera.
+- [dnacurve](../../watch/technical-9e1242d02e9fdde47335.md) — Fonction · Calculer la courbure 3D d'une molécule d'ADN à partir de sa séquence.
+Avantages · Modèle dinucléotidique pour angles de courbure locaux et macroscopiques.
+Gain · Exporter en PDB, CSV ou PNG pour visualisation et analyse.
+- [icsdll](../../watch/technical-79a417ee1a4c860c72f7.md) — Fonction · Interface Python pour ICSx64.dll d'analyse de données fluorescence.
+Avantages · Analyse 1D/2D/3D de corrélations et MSD avec bibliothèque Intel.
+Gain · Exécuter des calculs scientifiques sans compiler du code C++.
+- [psf](../../watch/technical-0a61327e7795d4222c1f.md) — Fonction · Calculer les fonctions de réponse d'impulsions (PSF) pour microscopie fluorescence.
+Avantages · Implémente des modèles optiques et des calculs de diffraction.
+Gain · Générer des volumes d'observation 3D pour analyse ou visualisation.
 - [transformations](../../watch/technical-f19030a5f8d58b99c8ca.md) — Calcul de matrices de transformation 3D avec des quaternions.
 - [Kalidokit](../../watch/technical-2673d20da2d7143af84e.md) — Kalidokit est un outil pour rigiser des visages, corps et mains.
-- [SysMocap](../../watch/technical-265f4b5b46b161719305.md) — Importe facilement des modèles 3D via glisser-déposer.
+- [SysMocap](../../watch/technical-265f4b5b46b161719305.md) — Fonction · Capture de mouvement en temps réel via vidéo.
+Avantages · Support VRM et FBX avec détection automatique.
+Gain · Lancer la capture sans configuration manuelle.

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyse technique SEO pour optimiser le référencement
+Fonction · Agent Skills pour SEO, audits techniques, recherches de mots-clés.  
+Avantages · Support multi-agents avec documentation des API.  
+Gain · Déployer des tâches SEO sans configuration complexe.
 
 ## Métadonnées
 
@@ -25,9 +27,9 @@ Analyse technique SEO pour optimiser le référencement
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.ai.agents.skills capability.skills source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents
-- Fonctions : Étendre les compétences d’un agent
+- Identifiants : domain.ai.agents.coding domain.ai.agents.skills domain.ai.agents.orchestration capability.skills capability.automation.orchestrate source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents ; Intelligence artificielle > Agents IA > Orchestration des agents
+- Fonctions : Étendre les compétences d’un agent ; Automatiser des actions > Coordonner des agents
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

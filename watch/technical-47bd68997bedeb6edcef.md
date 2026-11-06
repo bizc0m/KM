@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence visuelle et narrative.
+Fonction · Génère des vidéos à partir de concepts, scénarios ou romans.  
+Avantages · Intègre audio, storyboard, et gestion de cohérence visuelle.  
+Gain · Créer des vidéos longues sans expertise technique.
 
 ## Identité
 
@@ -29,8 +31,8 @@ Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence vi
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.video domain.media.image domain.data.organization capability.generate.video capability.generate.image source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Données et connaissances > Organisation du travail
+- Identifiants : domain.media.video domain.media.image domain.data.organization domain.media.audio capability.generate.video capability.generate.image source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Données et connaissances > Organisation du travail ; Audio, vidéo et création > Audio
 - Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer une image
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

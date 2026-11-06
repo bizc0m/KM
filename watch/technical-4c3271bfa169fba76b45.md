@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Prévoir la température maximale pour optimiser les trades
+Fonction · Prédire la température maximale quotidienne via XGBoost.  
+Avantages · Optimisation des hyperparamètres pour réduire l'erreur MSE.  
+Gain · Automatiser les trades via l'API Kalshi avec des prédictions.
 
 ## Métadonnées
 
@@ -25,8 +27,8 @@ Prévoir la température maximale pour optimiser les trades
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.finance domain.science.weather capability.forecast source.x source.github lifecycle.active
-- Sujets : Analyse financière ; Sciences et prévision > Prévisions météorologiques
+- Identifiants : domain.science.weather domain.finance.prediction capability.forecast source.x source.github lifecycle.active
+- Sujets : Sciences et prévision > Prévisions météorologiques ; Analyse financière > Marchés prédictifs
 - Fonctions : Prévoir des mesures
 - Provenance : X / Twitter ; GitHub
 - État : Actif
@@ -35,6 +37,9 @@ Prévoir la température maximale pour optimiser les trades
 
 - https://github.com/aruneshdev/automated-trading-system-kalshi-weather-model
 - https://x.com/i/status/2092332393172521418
+- https://raw.githubusercontent.com/aruneshdev/automated-trading-system-kalshi-weather-model/HEAD/Screenshots/AllTrades_Final_Today_3rdApril.png
+- https://raw.githubusercontent.com/aruneshdev/automated-trading-system-kalshi-weather-model/HEAD/README.md
+- https://raw.githubusercontent.com/aruneshdev/automated-trading-system-kalshi-weather-model/HEAD/Screenshots/Trade_Page.png
 
 ## Traçabilité
 
@@ -43,3 +48,13 @@ Prévoir la température maximale pour optimiser les trades
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![Fianl Day Automated Trades](https://raw.githubusercontent.com/aruneshdev/automated-trading-system-kalshi-weather-model/HEAD/Screenshots/AllTrades_Final_Today_3rdApril.png)
+
+[Origine](https://raw.githubusercontent.com/aruneshdev/automated-trading-system-kalshi-weather-model/HEAD/README.md)
+
+![Prediction Page](https://raw.githubusercontent.com/aruneshdev/automated-trading-system-kalshi-weather-model/HEAD/Screenshots/Trade_Page.png)
+
+[Origine](https://raw.githubusercontent.com/aruneshdev/automated-trading-system-kalshi-weather-model/HEAD/README.md)

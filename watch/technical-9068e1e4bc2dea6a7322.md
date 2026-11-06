@@ -10,7 +10,9 @@
 
 ## Intérêts
 
-Extraire des données web avec précision et organisation
+Fonction · Extraire emails, liens, noms, géolocations, numéros.  
+Avantages · Crawl et scrape dans le même domaine.  
+Gain · Générer un rapport pour analyser les données.
 
 ## Identité
 
@@ -39,6 +41,9 @@ Extraire des données web avec précision et organisation
 
 - https://github.com/z0m31en7/uscrapper
 - https://x.com/i/status/2056325264246706649
+- https://github.com/z0m31en7/uscrapper/raw/main/Images/Preview.png
+- https://raw.githubusercontent.com/z0m31en7/uscrapper/HEAD/README.md
+- https://github.com/z0m31en7/uscrapper/raw/main/Images/Preview2.png
 
 ## Traçabilité
 
@@ -47,3 +52,13 @@ Extraire des données web avec précision et organisation
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-25
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![project-ss](https://github.com/z0m31en7/uscrapper/raw/main/Images/Preview.png)
+
+[Origine](https://raw.githubusercontent.com/z0m31en7/uscrapper/HEAD/README.md)
+
+![project-ss2](https://github.com/z0m31en7/uscrapper/raw/main/Images/Preview2.png)
+
+[Origine](https://raw.githubusercontent.com/z0m31en7/uscrapper/HEAD/README.md)

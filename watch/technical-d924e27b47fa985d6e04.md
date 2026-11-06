@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Exécute des requêtes Google Dork pour des fins éducatives.
+Fonction · Ouvrir des requêtes Google Dork aléatoires ou personnalisées.  
+Avantages · Fournir des exemples de requêtes pour l'OSINT et l'apprentissage.  
+Gain · Lancer des recherches sans saisir manuellement les requêtes.
 
 ## Identité
 
@@ -29,8 +31,8 @@ Exécute des requêtes Google Dork pour des fins éducatives.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified compatibility.language.python source.noteplan source.github source.x lifecycle.active
-- Sujets : À qualifier
+- Identifiants : domain.osint compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

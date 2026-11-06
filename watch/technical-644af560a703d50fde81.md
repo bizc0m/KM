@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Lire et analyser des données FLIMbox à partir de fichiers FBD
+Fonction · Lire des fichiers FBD, FBF et FBS.XML.  
+Avantages · Gestion des en-têtes et données encodées.  
+Gain · Analyser des images FLIM sans configuration complexe.
 
 ## Identité
 
@@ -29,8 +31,8 @@ Lire et analyser des données FLIMbox à partir de fichiers FBD
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.dev.quality compatibility.language.python source.noteplan source.github source.x lifecycle.active
-- Sujets : Développement logiciel > Qualité du code
+- Identifiants : domain.dev.quality domain.media.image compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Sujets : Développement logiciel > Qualité du code ; Audio, vidéo et création > Images et graphisme
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

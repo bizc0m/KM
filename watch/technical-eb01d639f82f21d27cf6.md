@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée des graphiques multiplateformes avec DGCharts
+Fonction · Créer des graphiques pour iOS, tvOS, macOS et Android.  
+Avantages · Code similaire pour plusieurs plateformes.  
+Gain · Éviter de recoder des graphiques pour chaque plateforme.
 
 ## Identité
 
@@ -39,6 +41,9 @@ Crée des graphiques multiplateformes avec DGCharts
 
 - https://github.com/chartsorg/charts
 - https://x.com/i/status/2059877503771029851
+- https://raw.github.com/PhilJay/MPChart/master/screenshots/simpledesign_linechart4.png
+- https://raw.githubusercontent.com/chartsorg/charts/HEAD/README.md
+- https://raw.github.com/PhilJay/MPChart/master/screenshots/simpledesign_linechart3.png
 
 ## Traçabilité
 
@@ -62,3 +67,13 @@ Crée des graphiques multiplateformes avec DGCharts
 - Source : https://github.com/chartsorg/charts
 - Analyse source : 2026-10-20T17:11:07.624Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![alt tag](https://raw.github.com/PhilJay/MPChart/master/screenshots/simpledesign_linechart4.png)
+
+[Origine](https://raw.githubusercontent.com/chartsorg/charts/HEAD/README.md)
+
+![alt tag](https://raw.github.com/PhilJay/MPChart/master/screenshots/simpledesign_linechart3.png)
+
+[Origine](https://raw.githubusercontent.com/chartsorg/charts/HEAD/README.md)

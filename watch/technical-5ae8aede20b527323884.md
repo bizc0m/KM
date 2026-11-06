@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyse le code pour fournir un contexte précis aux agents
+Fonction · Construit un graphe de code pour les agents.  
+Avantages · Analyse structurelle et résolution inter-fichiers.  
+Gain · Éviter de synchroniser manuellement les changements.
 
 ## Identité
 

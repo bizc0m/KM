@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Afficher les contributions GitHub sous forme de badges.
+Fonction · Visualiser la présence GitHub d’un utilisateur.  
+Avantages · Données agrégées et présentées de manière claire.  
+Gain · Comparer les profils sans naviguer sur plusieurs pages.
 
 ## Identité
 

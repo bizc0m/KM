@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Automatise les tests web avec des scripts.
+Fonction · Automatise les navigateurs web via WebDriver.  
+Avantages · Compatible avec tous les navigateurs majeurs.  
+Gain · Éviter de coder manuellement les interactions.
 
 ## Identité
 

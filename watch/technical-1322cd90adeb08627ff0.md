@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Suivre les visites sans collecte de données personnelles
+Fonction · Suivi de trafic web sans cookies.  
+Avantages · Conformité GDPR, CCPA et PECR.  
+Gain · Analyser le trafic sans collecte de données personnelles.
 
 ## Métadonnées
 

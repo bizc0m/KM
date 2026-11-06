@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Générer et éditer des images via des prompts ou des références visuelles.  
+Avantages · Intégration de Google Search et de Stripe pour validation et facturation.  
+Gain · Créer des œuvres en mode édition avec 14 références et historique persistant.
 
 ## Identité
 
@@ -39,6 +41,8 @@ Intérêt à vérifier
 
 - https://github.com/samuraigpt/nano-banana-generator
 - https://x.com/i/status/2056408789327462486
+- https://cdn.muapi.ai/data/2/874086171651/Screenshot_2026-04-15_103743.png
+- https://raw.githubusercontent.com/samuraigpt/nano-banana-generator/HEAD/README.md
 
 ## Traçabilité
 
@@ -47,3 +51,9 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-22
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![Nano Banana Studio](https://cdn.muapi.ai/data/2/874086171651/Screenshot_2026-04-15_103743.png)
+
+[Origine](https://raw.githubusercontent.com/samuraigpt/nano-banana-generator/HEAD/README.md)

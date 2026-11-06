@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Tester des stratégies de trading et exécuter automatiquement des ordres
+Fonction · Backtest et exécution d'ordres automatisés.  
+Avantages · Interface web et notifications mobiles.  
+Gain · Lancer des stratégies sans configuration complexe.
 
 ## Métadonnées
 
@@ -23,8 +25,9 @@ Tester des stratégies de trading et exécuter automatiquement des ordres
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.finance source.x source.github lifecycle.active
-- Sujets : Analyse financière
+- Identifiants : domain.finance.quant capability.simulate.backtest source.x source.github lifecycle.active
+- Sujets : Analyse financière > Simulation et analyse quantitative
+- Fonctions : Simuler et tester > Tester sur des données historiques
 - Provenance : X / Twitter ; GitHub
 - État : Actif
 

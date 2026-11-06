@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyse des données de santé globales en temps réel
+Fonction · Collecte et analyse en temps réel des données COVID-19.  
+Avantages · Sauvegarde automatique des données historiques.  
+Gain · Exporter les données en JSON avec horodatage.
 
 ## Identité
 

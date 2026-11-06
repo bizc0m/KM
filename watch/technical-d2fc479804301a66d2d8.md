@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des rapports de recherche avec des sources multiples et des citations
+Fonction · Génère des rapports de recherche avec citations et sources.  
+Avantages · Filtrage contextuel avancé avec Jev, 73% de passages pertinents.  
+Gain · Éviter les fausses informations, réduire le temps de traitement.
 
 ## Métadonnées
 
@@ -35,6 +37,8 @@ Génère des rapports de recherche avec des sources multiples et des citations
 
 - https://github.com/assafelovic/gpt-researcher
 - https://x.com/i/status/2092332393172521418
+- https://github.com/user-attachments/assets/ac2ec55f-b487-4b3f-ae6f-b8743ad296e4
+- https://raw.githubusercontent.com/assafelovic/gpt-researcher/HEAD/README.md
 
 ## Traçabilité
 
@@ -43,3 +47,9 @@ Génère des rapports de recherche avec des sources multiples et des citations
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-19
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![Demo video](https://github.com/user-attachments/assets/ac2ec55f-b487-4b3f-ae6f-b8743ad296e4)
+
+[Origine](https://raw.githubusercontent.com/assafelovic/gpt-researcher/HEAD/README.md)

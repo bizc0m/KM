@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Gère les ordres et positions de trading avec des outils d'analyse et de sécurité
+Fonction · Server pour trader, analyser et gérer des positions sur Polymarket.  
+Avantages · Outils AI pour analyse, ordres et gestion de portefeuille.  
+Gain · Exécuter des ordres sans interface, gérer des positions en temps réel.
 
 ## Métadonnées
 

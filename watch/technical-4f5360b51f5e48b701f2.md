@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyse les écarts de prix météorologiques pour trader sur Polymarket
+Fonction · Analyse les prévisions météo pour détecter les écarts de prix sur Polymarket.  
+Avantages · Calcul de valeur attendue et ajustement automatique du risque.  
+Gain · Exécuter des paris sans intervention humaine, en temps réel.
 
 ## Métadonnées
 

@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Convertit des structures Go en types Typescript pour front-end
+Fonction · Génère des typings TypeScript à partir de fichiers Go.  
+Avantages · Conserve commentaires et structure des types.  
+Gain · Éviter de réécrire les types en TypeScript.
 
 ## Identité
 

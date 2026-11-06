@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée des portraits professionnels avec des prompts textuels.
+Fonction · Génère des portraits professionnels via des prompts textuels.  
+Avantages · Gère l'authentification, facturation et stockage des images.  
+Gain · Lancer des générations en quelques clics sans configuration complexe.
 
 ## Identité
 

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Exécute l'API WhatsApp sur un serveur interne sans dépendre de tiers
+Fonction · Exécute l'API WhatsApp sur un serveur interne.  
+Avantages · Nécessite pas de dépendre de tiers.  
+Gain · Éviter l'utilisation de services externes.
 
 ## Métadonnées
 

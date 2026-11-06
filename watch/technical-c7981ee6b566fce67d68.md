@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Exécute des stratégies de trading sur des marchés de prédictions
+Fonction · Exécute des stratégies de trading sur des marchés de prédictions.  
+Avantages · Intégré à Crypto.com, supporte plusieurs plateformes.  
+Gain · Lancer des trades en mode simulation avant de déployer.
 
 ## Métadonnées
 
@@ -25,8 +27,9 @@ Exécute des stratégies de trading sur des marchés de prédictions
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
+- Identifiants : domain.finance.prediction capability.simulate source.x source.github lifecycle.active
 - Sujets : Analyse financière > Marchés prédictifs
+- Fonctions : Simuler et tester
 - Provenance : X / Twitter ; GitHub
 - État : Actif
 

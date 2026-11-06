@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée un micro-drama vidéo à partir d'une idée
+Fonction · Génère des micro-dramas vidéo à partir d'idées ou de scripts.  
+Avantages · Intégration de MuAPI pour image et vidéo.  
+Gain · Éviter la fragmentation des outils et créer des scènes cohérentes.
 
 ## Métadonnées
 
@@ -25,8 +27,8 @@ Crée un micro-drama vidéo à partir d'une idée
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.video domain.ai.agents.orchestration capability.generate.video capability.automation.orchestrate source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo ; Intelligence artificielle > Agents IA > Orchestration des agents
+- Identifiants : domain.media.video domain.ai.agents.orchestration domain.media.image capability.generate.video capability.automation.orchestrate source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Intelligence artificielle > Agents IA > Orchestration des agents ; Audio, vidéo et création > Images et graphisme
 - Fonctions : Générer des contenus > Générer une vidéo ; Automatiser des actions > Coordonner des agents
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

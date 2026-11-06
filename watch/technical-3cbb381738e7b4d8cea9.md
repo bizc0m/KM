@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Convertit un AST en code JavaScript avec formatage et gestion des commentaires
+Fonction · Génère du code JavaScript à partir d'un AST ESTree.  
+Avantages · Supporte les versions ECMAScript jusqu'à 2024 et les propositions stage 3.  
+Gain · Éviter de parser et formatter manuellement le code.
 
 ## Identité
 

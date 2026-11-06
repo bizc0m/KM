@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des images avec des paramètres de résolution et de format.
+Fonction · Générer des images, vidéos et raisonner avec des modèles OpenAI via MuAPI.  
+Avantages · Exemples cURL et Python avec paramètres de résolution et durée.  
+Gain · Lancer des tâches d'IA sans configuration complexe.
 
 ## Identité
 
@@ -29,9 +31,9 @@ Génère des images avec des paramètres de résolution et de format.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.video domain.media.image capability.generate.image compatibility.language.python source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
-- Fonctions : Générer des contenus > Générer une image
+- Identifiants : domain.media.video domain.media.image domain.ai capability.generate.image capability.generate.video compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Intelligence artificielle
+- Fonctions : Générer des contenus > Générer une image ; Générer des contenus > Générer une vidéo
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

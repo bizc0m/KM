@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des wheels PyICU pour Windows. Permet l'installation via pip.
+Fonction · Construire des wheels PyICU pour Windows.  
+Avantages · Utilise des binaires ICU et GitHub Actions.  
+Gain · Installer directement un wheel sans build.
 
 ## Identité
 

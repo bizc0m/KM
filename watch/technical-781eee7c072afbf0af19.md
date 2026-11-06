@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des fichiers QDA avec des données structurées
+Fonction · Lire et écrire des fichiers QDA de KaleidaGraph.  
+Avantages · Support Python 3.14 et NumPy 2.4.0.  
+Gain · Générer des fichiers QDA avec des données et en-têtes.
 
 ## Identité
 

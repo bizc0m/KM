@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des images via l'API Qwen avec des paramètres avancés
+Fonction · Générer ou éditer des images via des endpoints Qwen.  
+Avantages · Supporte des paramètres comme résolution, format et masque.  
+Gain · Lancer des tâches d'images avec un API unifié.
 
 ## Identité
 

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Obtenir la localisation d'une adresse IP sans limitation de requêtes
+Fonction · Identifier la localisation d'une adresse IP.  
+Avantages · Données géolocalisées sans limitation de requêtes.  
+Gain · Éviter les outils payants pour obtenir des informations IP.
 
 ## Métadonnées
 

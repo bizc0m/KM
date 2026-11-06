@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Recherche OSINT dans le web profond avec anonymisation et informations système
+Fonction · Recherche dans le web profond avec moteurs spécialisés.  
+Avantages · Rotation de proxies et info système intégrée.  
+Gain · Lancer des requêtes anonymes sans configuration complexe.
 
 ## Identité
 

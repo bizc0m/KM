@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Route requests across free LLM providers with one endpoint
+Fonction · Route les requêtes vers des modèles gratuits via un endpoint OpenAI.  
+Avantages · Gère automatiquement les quotas et les limites des fournisseurs.  
+Gain · Lancer des tâches sans configuration manuelle des clés.
 
 ## Identité
 

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Lire des fichiers SDT avec des données compressées. Accéder aux métadonnées et images.
+Fonction · Lire les fichiers SDT de Becker & Hickl.  
+Avantages · Gère des données compressées LZ4 et ZIP.  
+Gain · Analyser des mesures de photons sans logiciel tiers.
 
 ## Identité
 

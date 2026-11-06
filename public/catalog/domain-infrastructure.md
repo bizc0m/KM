@@ -31,41 +31,111 @@ Gain · Lancer les tests sans installation.
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Fonction · Synthétise la voix et génère des vidéos.
 Avantages · Intégre NotePlan et X pour planification.
 Gain · Créer des démos sans abonnement SaaS.
+- [Plugin mov-cli-jellyplex](../../watch/technical-08055b9ca2497bd87108.md) — Fonction · Rechercher et lancer des contenus via Jellyfin ou Plex.
+Avantages · Connexion directe aux serveurs sans interface graphique.
+Gain · Exécuter des requêtes de recherche et de lecture en ligne de commande.
 - [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée des applications sans installation locale avec des outils open source.
 - [velox](../../watch/technical-a2736da3d4b4b5c419aa.md) — Synchronise des objets JSON en temps réel entre serveur et client.
-- [Webtor](../../watch/technical-c45c04c570d8ed1549e8.md) — Permet de gérer des torrents avec streaming et téléchargement direct
-- [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Crée des portraits professionnels avec des prompts textuels.
-- [AICLIPS Studio](../../watch/technical-937b200dbfd957aae460.md) — Extrait automatiquement des highlights viraux depuis des vidéos YouTube.
-- [asn](../../watch/technical-6343df31e02d35267485.md) — Analyse de réputation IP et menace
-- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Découvrir, évaluer et exécuter 500+ modèles multimodaux en un clic.
+- [Webtor](../../watch/technical-c45c04c570d8ed1549e8.md) — Fonction · Torrents en direct, streaming, téléchargement ZIP.
+Avantages · Formats vidéo/audio prédéfinis, API pour intégration.
+Gain · Lancer des tâches sans client, organiser une bibliothèque.
+- [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Fonction · Génère des portraits professionnels via des prompts textuels.
+Avantages · Gère l'authentification, facturation et stockage des images.
+Gain · Lancer des générations en quelques clics sans configuration complexe.
+- [AICLIPS Studio](../../watch/technical-937b200dbfd957aae460.md) — Fonction · Extraire des highlights viraux de vidéos YouTube.
+Avantages · Gestion automatique des crédits et durées.
+Gain · Lancer la génération sans configuration complexe.
+- [asn](../../watch/technical-6343df31e02d35267485.md) — Fonction · Rechercher des informations AS, tracer des routes, géolocaliser des IPs.
+Avantages · Vérification RPKI, analyse de menace, données de plusieurs sources.
+Gain · Identifier des fuites BGP, éviter des attaques, analyser des logs.
+- [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Fonction · Générer, éditer et afficher des médias professionnels via muapi-cli.
+Avantages · Accès à 100+ modèles AI et outils MCP pour agents.
+Gain · Lancer des workflows en un clic avec des recettes prêtes à exécuter.
 - [Old Photo Restore](../../watch/technical-1a1b1c01fccbb652af5e.md) — Restaure des photos anciennes avec un moteur d'IA.
-- [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md) — Génère des vidéos AI en quelques clics.
-- [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Analyse de type rapide avec diagnostics précis pour code Python
-- [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md) — Générer des vidéos en quelques clics avec un interface intuitive.
-- [Cabal Proxy Harvester](../../watch/technical-dee6cae45f8c3798057c.md) — Collecte des proxies fonctionnels pour usage OSINT
+- [seedance-2-generator](../../watch/technical-ad3b72610e20f4f2c9a6.md) — Fonction · Génère et édite des vidéos AI avec Seedance 2.0 et Mini.
+Avantages · Interface responsive et gestion des crédits intégrée.
+Gain · Lancer des tâches de génération sans configuration complexe.
+- [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Fonction · Vérifie les types en Rust, serveur de langage.
+Avantages · 10x plus rapide que mypy et Pyright.
+Gain · Éviter de recompiler sans cache, analyses incrémentales.
+- [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md) — Fonction · Générer, éditer et gérer des vidéos AI haute fidélité.
+Avantages · Interface responsive et gestion des crédits intégrée.
+Gain · Lancer des tâches de génération sans configuration complexe.
+- [Cabal Proxy Harvester](../../watch/technical-dee6cae45f8c3798057c.md) — Fonction · Collecte et vérification continue de proxys HTTP/SOCKS5.
+Avantages · Tests parallèles et sauvegarde des proxys validés.
+Gain · Lancer la collecte sans configuration complexe.
 - [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Identifier rapidement un IP via proxycheck.io pour détecter proxy, VPN, TOR ou serveur.
-- [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Déployer des applications et services sur des serveurs propres avec gestion automatisée.
+- [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Fonction · Déployer des apps, bases de données et services sur des serveurs.
+Avantages · Support Git, Docker, Nixpacks et plus de 360 services prêts à l'emploi.
+Gain · Lancer des déploiements sans configuration complexe.
 - [MoneyPrinter](../../watch/technical-9bd95807fef95eea1d8c.md) — Génère automatiquement des vidéos courtes pour YouTube à partir d'un sujet.
-- [fmkr](../../watch/technical-bf5985ec6b47da44a51e.md) — Permet d'interagir avec des bases de données FileMaker via Python
-- [molmass](../../watch/technical-61da906d94d21f2f647a.md) — Calculer la masse moléculaire et la composition élémentaire d'une molécule.
-- [community-edition](../../watch/technical-cf13d710b766f0f10a31.md) — Démarre Plausible avec Docker Compose pour hébergement local.
+- [fmkr](../../watch/technical-bf5985ec6b47da44a51e.md) — Fonction · Accéder aux bases de données FileMaker Server via XML.
+Avantages · Utilise lxml pour parser les résultats XML.
+Gain · Éviter l'utilisation de minidom pour traiter les données.
+- [molmass](../../watch/technical-61da906d94d21f2f647a.md) — Fonction · Calculer masse moléculaire, composition élémentaire, spectre de masse.
+Avantages · Données isotopiques et masses atomiques à jour.
+Gain · Analyser formule chimique, obtenir résultats sans configuration.
+- [certifi](../../watch/technical-cba966f73723eddffaaa.md) — Fonction · Fournit des certificats SSL pour vérifier l'identité des serveurs TLS.
+Avantages · Certificats racines Mozilla prédéfinis et vérifiés.
+Gain · Éviter de configurer manuellement les certificats SSL.
+- [community-edition](../../watch/technical-cf13d710b766f0f10a31.md) — Fonction · Self-hosting d'analyse web avec Docker.
+Avantages · Support Let's Encrypt via DNS.
+Gain · Déployer un serveur web sécurisé en quelques étapes.
 - [curl-impersonate](../../watch/technical-b9848ad223c40a32fb39.md) — Imiter les navigateurs web pour contourner les restrictions de serveurs.
-- [Evilginx2](../../watch/technical-1380f00a7374bcec86ff.md) — Réalise des attaques de phishing pour récupérer des données sensibles
-- [immich-app/immich](../../watch/technical-bfefa0db462ca5c030a2.md) — Gère les photos et vidéos avec une sauvegarde automatique
-- [LocalSend Protocol](../../watch/technical-31ab29a98885946215cd.md)
-- [realm-swift](../../watch/technical-2174eaf93f622d57be86.md) — Gérer données mobiles avec modèle objet.
-- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Propose des corrections de code en temps réel via un terminal interactif
-- [Stirling PDF](../../watch/technical-6b15eaf11d9b70cfb83f.md) — Traite des PDF localement sans service externe
+- [Evilginx2](../../watch/technical-1380f00a7374bcec86ff.md) — Fonction · Attaque man-in-the-middle pour pirater des comptes.
+Avantages · Fournit des certificats TLS et spoofing de site.
+Gain · Éviter la détection par les protections du navigateur.
+- [immich-app/immich](../../watch/technical-bfefa0db462ca5c030a2.md) — Fonction · Gère photos et vidéos en local ou en cloud.
+Avantages · Sauvegarde automatique et reconnaissance faciale.
+Gain · Accéder aux données sans internet, partager en public.
+- [Jellyfin](../../watch/technical-8fb43f191cc62af1f389.md) — Fonction · Gère et diffuse des médias via un serveur.
+Avantages · Support multiplateforme et licence libre.
+Gain · Éviter les frais d'abonnement et contrôler les données.
+- [LocalSend](../../watch/technical-2654a48caa01902c8b1d.md) — Fonction · Partage de fichiers et messages entre appareils locaux.
+Avantages · Communication sécurisée via HTTPS et API REST.
+Gain · Éviter les serveurs externes pour transférer des données.
+- [LocalSend Protocol](../../watch/technical-31ab29a98885946215cd.md) — Fonction · Échanger des fichiers sans serveur externe.
+Avantages · Utilise multicast et HTTP pour la découverte.
+Gain · Éviter la configuration manuelle des ports.
+- [realm-swift](../../watch/technical-2174eaf93f622d57be86.md) — Fonction · Base de données mobile pour iOS, macOS, tvOS, watchOS.
+Avantages · Modèle objet simplifié, pas besoin d'ORM.
+Gain · Créer et gérer des objets sans code complexe.
+- [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Fonction · Écrire, corriger et exécuter du code via un terminal.
+Avantages · Support multi-fournisseurs et mode serveur HTTP.
+Gain · Automatiser des tâches via des pipelines ou des scripts.
+- [Stirling PDF](../../watch/technical-6b15eaf11d9b70cfb83f.md) — Fonction · Editer, signer, rediger, convertir PDF localement ou en ligne.
+Avantages · Outils de traitement PDF sans dépendance externe.
+Gain · Automatiser workflows sans coder via interface graphique.
+- [uptime-kuma](../../watch/technical-05b853ba300b6a897894.md) — Fonction · Surveillance d'URL, serveurs, services réseau.
+Avantages · Alertes via 90+ canaux, interface réactive.
+Gain · Déployer en Docker ou local sans configuration complexe.
 - [User Scanner](../../watch/technical-1d55b4cad34f154042bf.md) — Analyse des emails et usernames pour extraire des données.
+- [minimax-code](../../watch/technical-e8ac251258a46bd1e943.md) — Fonction · Convertir un prompt en code fonctionnel via terminal.
+Avantages · Intégration de modèles locaux ou MiniMax avec API.
+Gain · Exécuter des tâches sans infrastructure serveur.
 - [websockets](../../watch/technical-819ffa493e2a00dcc10b.md) — Permet d'établir des connexions WebSocket en Python
-- [workerd](../../watch/technical-4ca7b79d976e015db39b.md) — Exécutez des applications Cloudflare Workers localement pour tester et développer.
-- [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Permet aux agents d'intégrer instantanément la plateforme pour trader.
+- [workerd](../../watch/technical-4ca7b79d976e015db39b.md) — Fonction · Exécute des scripts JavaScript/Wasm en tant que serveur ou proxy.
+Avantages · Isolation des workers avec configuration par capacités.
+Gain · Déployer des nanoservices sans infrastructure complexe.
+- [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Fonction · Intégration instantanée des agents IA.
+Avantages · Signaux et stratégies prédéfinis.
+Gain · Lancer des trades en quelques secondes.
 - [xianyu-auto-reply-fix](../../watch/technical-aa8e0008d94afed17913.md) — Gère automatiquement les réponses et commandes sur Xianyu.
-- [Liste de serveurs MCP publics](../../watch/technical-0ddca6b2cefbbbc15347.md) — Connecter des assistants à des outils et données via des serveurs MCP.
-- [Liste de serveurs MCP publics](../../watch/technical-8c7fcab8649bc99384b3.md) — Rejoindre des serveurs MCP pour accéder à des outils et données.
-- [Mac Mini pour l'IA](../../watch/technical-f0066d78062c33a0cb18.md)
-- [OpenWA](../../watch/technical-aabd475730fdd2c418b7.md) — Exécute l'API WhatsApp sur un serveur interne sans dépendre de tiers
-- [polymarket-mcp-server](../../watch/technical-dabb4187a6c2e7d576c7.md) — Gère les ordres et positions de trading avec des outils d'analyse et de sécurité
+- [Liste de serveurs MCP publics](../../watch/technical-0ddca6b2cefbbbc15347.md) — Fonction · Connecter assistants et agents à des outils, données et workflows.
+Avantages · Liens vers sources officielles et contexte pour évaluer les serveurs.
+Gain · Éviter de rechercher manuellement des serveurs MCP adaptés.
+- [Liste de serveurs MCP publics](../../watch/technical-8c7fcab8649bc99384b3.md) — Fonction · Connecter assistants et agents à des outils, données et workflows.
+Avantages · Liens vers sources officielles et contexte pour évaluer les serveurs.
+Gain · Éviter de rechercher des serveurs, lancer des connexions directement.
+- [Mac Mini pour l'IA](../../watch/technical-f0066d78062c33a0cb18.md) — Fonction · Exécuter des tâches IA via un serveur local.
+Avantages · Moins dépendant d'une connexion internet stable.
+Gain · Générer des modèles d'IA sans interruption réseau.
+- [OpenWA](../../watch/technical-aabd475730fdd2c418b7.md) — Fonction · Exécute l'API WhatsApp sur un serveur interne.
+Avantages · Nécessite pas de dépendre de tiers.
+Gain · Éviter l'utilisation de services externes.
+- [polymarket-mcp-server](../../watch/technical-dabb4187a6c2e7d576c7.md) — Fonction · Server pour trader, analyser et gérer des positions sur Polymarket.
+Avantages · Outils AI pour analyse, ordres et gestion de portefeuille.
+Gain · Exécuter des ordres sans interface, gérer des positions en temps réel.
 - [BotD](../../watch/technical-5de7dfd42a2301a6c06e.md) — Détecte les bots sur les applications web sans serveur.
 - [Project NOMAD](../../watch/technical-3d7c7b2843ae85360da7.md) — Permet d'accéder à des ressources éducatives sans connexion internet.
 - [Référentiel de 50 serveurs MCP essentiels pour les agents IA](../../watch/technical-7b8e03d6451fa9dc855f.md) — Installation de serveurs MCP pour agents IA : optimisation des tâches techniques.

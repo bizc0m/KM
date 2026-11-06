@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Accéder aux alertes météo via terminal
+Fonction · Recherche météo via API NWS avec alertes, prévisions, observations.  
+Avantages · Données en temps réel sans clé API, interface terminal.  
+Gain · Lancer des requêtes météo sans configuration complexe.
 
 ## Identité
 

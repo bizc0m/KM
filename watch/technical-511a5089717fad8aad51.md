@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Télécharge des contenus multimédia depuis des sites web.
+Fonction · Télécharge des vidéos et audios depuis des sites web.  
+Avantages · Supporte des milliers de sites et des formats variés.  
+Gain · Éviter de télécharger manuellement chaque fichier.
 
 ## Identité
 

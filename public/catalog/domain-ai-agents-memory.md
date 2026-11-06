@@ -12,9 +12,13 @@ Gain · Éviter d'envoyer des données redondantes sans altérer les réponses.
 - [Hermes Agent](../../watch/nousresearch-hermes-agent.md) — Fonction · Agent IA auto-optimisant avec boucle d'apprentissage.
 Avantages · Mémoire curatée par l'agent avec rappels réguliers.
 Gain · Lancer des tâches complexes sans configuration initiale.
-- [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Permet une collaboration équipe via un agent partagé par canal
+- [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Fonction · Agent IA auto-configure pour Slack par canal.
+Avantages · Mémoire curatée et création automatique de compétences.
+Gain · Éviter les logs bruyants, lancer des tâches en contexte.
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
-- [CodeGraph](../../watch/technical-5ae8aede20b527323884.md) — Analyse le code pour fournir un contexte précis aux agents
+- [CodeGraph](../../watch/technical-5ae8aede20b527323884.md) — Fonction · Construit un graphe de code pour les agents.
+Avantages · Analyse structurelle et résolution inter-fichiers.
+Gain · Éviter de synchroniser manuellement les changements.
 - [SeekerClaw](../../watch/technical-6a7363072642ee3e6fc9.md) — Contrôle des appareils Android via un agent AI en temps réel
 - [Architecture de mémoire pour les agents IA : Mémoires de travail, épisodique, sémantique, procédimentale et oubli](../../watch/technical-20a53ace05cd6a858833.md) — Garder les informations pertinentes pour les décisions futures.
 - [Capsule Hub](../../watch/technical-7ce70d893933b807a8be.md) — Capturer et stocker le contexte des conversations IA pour le réutiliser dans d'autres sessions.

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Exécute des ordres de trading en temps réel sur des marchés de prédiction
+Fonction · Exécuter des trades sur Fanatics Markets via un moteur partagé.  
+Avantages · Adapte aux sports et loisirs avec un moteur de risque unifié.  
+Gain · Lancer des trades en mode simulation avant de déployer en live.
 
 ## Métadonnées
 
@@ -25,8 +27,9 @@ Exécute des ordres de trading en temps réel sur des marchés de prédiction
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
+- Identifiants : domain.finance.prediction capability.simulate source.x source.github lifecycle.active
 - Sujets : Analyse financière > Marchés prédictifs
+- Fonctions : Simuler et tester
 - Provenance : X / Twitter ; GitHub
 - État : Actif
 

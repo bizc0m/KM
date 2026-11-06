@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Génère des schémas de couleurs adaptés aux besoins visuels.
+Fonction · Générer et manipuler des couleurs selon des règles de design.  
+Avantages · Calculs de contraste et de compatibilité visuelle.  
+Gain · Adapter des thèmes dynamiques sans coder.
 
 ## Identité
 

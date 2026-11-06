@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Exécute des trades avec des stratégies prédéfinies
+Fonction · Bot de trading sur Interactive Brokers pour événements financiers.  
+Avantages · Stratégies prédéfinies : sniper, farming, market making.  
+Gain · Lancer des trades en mode simulation avant déploiement réel.
 
 ## Métadonnées
 
@@ -23,8 +25,9 @@ Exécute des trades avec des stratégies prédéfinies
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.finance.prediction source.x source.github lifecycle.active
+- Identifiants : domain.finance.prediction capability.simulate source.x source.github lifecycle.active
 - Sujets : Analyse financière > Marchés prédictifs
+- Fonctions : Simuler et tester
 - Provenance : X / Twitter ; GitHub
 - État : Actif
 

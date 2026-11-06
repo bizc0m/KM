@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Analyser les performances SEO d'un site web
+Fonction · Outils et API pour SEO, génération de leads et ingénierie de croissance.  
+Avantages · Solutions pour audits, optimisation et analyse de données.  
+Gain · Automatiser la recherche, créer du contenu et suivre les performances.
 
 ## Métadonnées
 

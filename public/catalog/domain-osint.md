@@ -1,24 +1,57 @@
 # Renseignement en sources ouvertes
 
-- [DepthSearch](../../watch/technical-f8b3849874961eb09fd8.md) — Recherche OSINT dans le web profond avec anonymisation et informations système
-- [DorkSint](../../watch/technical-de90088a7594bcc86157.md) — Recherche rapide de dorks pour trouver des informations via des moteurs de recherche
-- [Eyes](../../watch/technical-acd9eb29cb67574c16ec.md) — Recherche des comptes associés à une adresse email sans alerte.
-- [Ominis-OSINT](../../watch/technical-4d65fd0e0a726a41e3d2.md) — Rechercher des mentions en ligne d'une cible et identifier des profils sociaux
-- [OSINT Cabal Live Center](../../watch/technical-1049081f67e5576ca9e6.md) — Collecte d'informations publiques via des outils OSINT en ligne.
-- [OSINTSky](../../watch/technical-cdbdf85699a704f19664.md)
-- [TeleGramSint](../../watch/technical-57e845072d92fede6967.md) — Rechercher des informations sur des comptes Telegram via des API.
-- [WhatsMyName](../../watch/technical-d6babbc48c72c3692516.md) — Vérifier l'existence d'un nom d'utilisateur sur des sites web.
-- [Cabal Proxy Harvester](../../watch/technical-dee6cae45f8c3798057c.md) — Collecte des proxies fonctionnels pour usage OSINT
+- [DepthSearch](../../watch/technical-f8b3849874961eb09fd8.md) — Fonction · Recherche dans le web profond avec moteurs spécialisés.
+Avantages · Rotation de proxies et info système intégrée.
+Gain · Lancer des requêtes anonymes sans configuration complexe.
+- [DorkSint](../../watch/technical-de90088a7594bcc86157.md) — Fonction · Recherche d'informations via des dorks sur Yandex, Google, Bing.
+Avantages · Code source ouvert, mises à jour hebdomadaires.
+Gain · Exécuter des requêtes rapidement, traiter des fichiers divers.
+- [Eyes](../../watch/technical-acd9eb29cb67574c16ec.md) — Fonction · Rechercher des comptes existants à partir d'une adresse email.
+Avantages · Analyse des profils sans alerte du ciblé.
+Gain · Identifier des comptes via reconnaissance faciale sur GitHub.
+- [google_dorker](../../watch/technical-d924e27b47fa985d6e04.md) — Fonction · Ouvrir des requêtes Google Dork aléatoires ou personnalisées.
+Avantages · Fournir des exemples de requêtes pour l'OSINT et l'apprentissage.
+Gain · Lancer des recherches sans saisir manuellement les requêtes.
+- [Ominis-OSINT](../../watch/technical-4d65fd0e0a726a41e3d2.md) — Fonction · Recherche web et analyse de mentions.
+Avantages · Résultats complets avec métadonnées et URLs.
+Gain · Éviter de scraper manuellement les pages.
+- [OSINT Cabal Live Center](../../watch/technical-1049081f67e5576ca9e6.md) — Fonction · Collecte d'informations publiques via OSINT.
+Avantages · Intégration de sources comme Twitter et GitHub.
+Gain · Suivre des sujets en temps réel sans outil externe.
+- [OSINTSky](../../watch/technical-cdbdf85699a704f19664.md) — Fonction · Recherche et analyse d'informations sur BlueSky/AT Protocol.
+Avantages · Fonctionnalités de suivi en temps réel et analyse de réseau.
+Gain · Comparer des comptes pour identifier des connexions partagées.
+- [TeleGramSint](../../watch/technical-57e845072d92fede6967.md) — Fonction · Recherche d'informations sur des comptes et canaux Telegram.
+Avantages · Utilisation de plusieurs APIs avec suivi d'usage.
+Gain · Exécuter des requêtes sans configuration complexe.
+- [WhatsMyName](../../watch/technical-d6babbc48c72c3692516.md) — Fonction · Vérifie l'existence d'un nom d'utilisateur sur des sites web.
+Avantages · Données actualisées et structurées pour des recherches précises.
+Gain · Éviter des faux positifs en utilisant des critères de validation clairs.
+- [Cabal Proxy Harvester](../../watch/technical-dee6cae45f8c3798057c.md) — Fonction · Collecte et vérification continue de proxys HTTP/SOCKS5.
+Avantages · Tests parallèles et sauvegarde des proxys validés.
+Gain · Lancer la collecte sans configuration complexe.
 - [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Identifier rapidement un IP via proxycheck.io pour détecter proxy, VPN, TOR ou serveur.
-- [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Accéder aux alertes météo via terminal
-- [CoronavirOSINT](../../watch/technical-19c0251e942e91d7ee33.md) — Analyse des données de santé globales en temps réel
-- [Sublist3r](../../watch/technical-91a4ed33e0fa4b66d349.md) — Trouver des sous-domaines d'un site web.
+- [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Fonction · Recherche météo via API NWS avec alertes, prévisions, observations.
+Avantages · Données en temps réel sans clé API, interface terminal.
+Gain · Lancer des requêtes météo sans configuration complexe.
+- [CoronavirOSINT](../../watch/technical-19c0251e942e91d7ee33.md) — Fonction · Collecte et analyse en temps réel des données COVID-19.
+Avantages · Sauvegarde automatique des données historiques.
+Gain · Exporter les données en JSON avec horodatage.
+- [Sublist3r](../../watch/technical-91a4ed33e0fa4b66d349.md) — Fonction · Enumère des sous-domaines via des moteurs de recherche.
+Avantages · Intègre subbrute pour force brute avec liste de mots.
+Gain · Lancer l'analyse de sous-domaines sans configuration complexe.
 - [VIN-Number-OSINT](../../watch/technical-ca8e59013ec56e1d2be5.md) — Analyse VIN pour extraire données techniques et de fabrication
 - [Web-Check](../../watch/technical-654478eba9c74251531f.md) — Analyse les vulnérabilités d'un site web
-- [OpenOSINT](../../watch/technical-0be614d8a1eb180e4b8a.md) — Orchestre des recherches OSINT avec un modèle LLM pour produire un rapport structuré
+- [OpenOSINT](../../watch/technical-0be614d8a1eb180e4b8a.md) — Fonction · Orchestre des recherches OSINT avec modèle LLM.
+Avantages · Génère rapport structuré à partir de sources ouvertes.
+Gain · Éviter de compiler manuellement des informations.
 - [User Scanner](../../watch/technical-1d55b4cad34f154042bf.md) — Analyse des emails et usernames pour extraire des données.
-- [H4X-Tools](../../watch/technical-1805682cce69c18558d8.md) — Analyse de données d'identité à partir de sources externes
-- [Service d'identification de localisation IP gratuit](../../watch/technical-8d55a0f0b5e9b3b01fac.md) — Obtenir la localisation d'une adresse IP sans limitation de requêtes
+- [H4X-Tools](../../watch/technical-1805682cce69c18558d8.md) — Fonction · Scrapes Instagram, effectue des recherches web, analyse des numéros de téléphone.
+Avantages · Modes authentifiés et anonymes, export en formats multiples.
+Gain · Lancer des tâches sans connexion, récupérer des données sans interface.
+- [Service d'identification de localisation IP gratuit](../../watch/technical-8d55a0f0b5e9b3b01fac.md) — Fonction · Identifier la localisation d'une adresse IP.
+Avantages · Données géolocalisées sans limitation de requêtes.
+Gain · Éviter les outils payants pour obtenir des informations IP.
 - [Aliens_eye](../../watch/technical-b36267bf0446d3c6c504.md) — Collecte d'informations précise via 840 plateformes.
 - [GhostTrack](../../watch/technical-b65fc5880997df07fd20.md) — Identifier des plateformes en ligne liées à un utilisateur.
 - [OSINT & Recon Toolkit avec Installateur Unifié](../../watch/technical-54ff5f7d00072879cc4b.md) — Installe rapidement des outils OSINT et de sécurité sur plusieurs systèmes.

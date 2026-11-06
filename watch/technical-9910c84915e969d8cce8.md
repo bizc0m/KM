@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée des applications desktop multiplateformes avec JavaScript
+Fonction · Créer des applications desktop multiplateformes.  
+Avantages · Utilise JavaScript, HTML et CSS.  
+Gain · Lancer des tâches sans configuration complexe.
 
 ## Identité
 

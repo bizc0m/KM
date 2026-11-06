@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Exécute des trades automatisés sur Polymarket avec gestion de risques.
+Fonction · Exécute des stratégies de trading sur Polymarket et d'autres marchés.  
+Avantages · Adapte aux marchés via un seul adaptateur.  
+Gain · Lancer des stratégies sans réécrire le bot.
 
 ## Métadonnées
 

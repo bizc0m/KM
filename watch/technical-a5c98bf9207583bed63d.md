@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Convertir des données volumétriques en fichiers CMAP compatibles Chimera.
+Fonction · Créer des fichiers CMAP à partir de données volumiques.  
+Avantages · Conversion depuis BIN, TIFF, LSM, OIF, OIB.  
+Gain · Générer des fichiers HDF5 visualisables avec Chimera.
 
 ## Identité
 

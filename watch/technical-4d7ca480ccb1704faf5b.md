@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Lire des frames de vidéo comme tableaux numpy via DirectShow
+Fonction · Lire des frames de vidéos en tant que tableaux NumPy.  
+Avantages · Utilise l'interface DirectShow IMediaDet.  
+Gain · Accéder directement aux frames sans conversion intermédiaire.
 
 ## Identité
 

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet d'automatiser des tâches complexes avec un agent d'intelligence artificielle.
+Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.  
+Avantages · Intégration de fournisseurs LLM via une API unifiée.  
+Gain · Lancer des tâches de codage avec un compte ou une clé API.
 
 ## Identité
 
@@ -29,8 +31,9 @@ Permet d'automatiser des tâches complexes avec un agent d'intelligence artifici
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA
+- Identifiants : domain.ai.agents.coding domain.ai.llm domain.dev.quality capability.code.assist compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Modèles de langage ; Développement logiciel > Qualité du code
+- Fonctions : Assister le développement
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
