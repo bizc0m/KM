@@ -1,20 +1,32 @@
 # Vidéo
 
-- [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Fonction · Automatisation de la création et diffusion de contenu.
-Avantages · Intégration de modèles de IA pour vidéo, image et texte.
-Gain · Publication simultanée sur 14 plateformes sans configuration.
+- [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Fonction · Créer, publier et monétiser du contenu sur 14 plateformes.
+Avantages · Automatisation de la publication et des interactions.
+Gain · Publier directement sans configuration complexe.
 - [AlphaTablets](../../watch/technical-ca3c69add82754901cf6.md) — Fonction · Représentation 3D des plans via des rectangles avec canaux alpha.
 Avantages · Combinaison des avantages des représentations 2D et 3D.
 Gain · Reconstruction précise de plans 3D à partir de vidéos monoculaires.
-- [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier.
+- [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Fonction · Envoie d'e-mails, reconnaissance optique de texte, recherche YouTube, gestion de tâches.
+Avantages · Intégration d'API pour les nouvelles dynamiques.
+Gain · Lancer des tâches sans interface graphique.
 - [lobster](../../watch/technical-0ebd1f1b56ff3fc73866.md) — Rechercher et visionner des films et séries en ligne
 - [LongCat-Video](../../watch/technical-3794fe05156a712cb6fd.md) — Convertir du texte ou des images en vidéos longues.
-- [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
-- [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Cloner des voix sans connexion internet.
-- [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Crée des images et vidéos sans filtre de contenu
+- [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Fonction · Exporte vidéos et images pour fonds d'écran animés.
+Avantages · Intégre calendrier NotePlan pour planification.
+Gain · Créer des fonds d'écran sans logiciel externe.
+- [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Fonction · Cloner, synthétiser, traduire et transcrire des voix.
+Avantages · Fonctionnalités audio-vidéo sans connexion internet.
+Gain · Éviter l'export vers des services externes.
+- [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Fonction · Générer images et vidéos via 600+ modèles sans filtres.
+Avantages · Accès à des modèles comme Sora, Midjourney, Veo.
+Gain · Lancer des tâches sans abonnement, sans restrictions.
 - [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Permet d'éditer des vidéos sur plusieurs plateformes.
-- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
-- [ParticleSfM](../../watch/technical-1579309e1b490fa5279c.md) — Traite des séquences vidéo pour extraire des trajectoires de points.
+- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Fonction · Synthétise la voix et génère des vidéos.
+Avantages · Intégre NotePlan et X pour planification.
+Gain · Créer des démos sans abonnement SaaS.
+- [ParticleSfM](../../watch/technical-1579309e1b490fa5279c.md) — Fonction · Reconstruire des trajectoires de caméra à partir de séquences vidéo.
+Avantages · Optimise des points de trajectoires avec ajustement global.
+Gain · Éviter l'analyse manuelle des mouvements dynamiques.
 - [Plugin mov-cli-youtube](../../watch/technical-52593ff508c40e9e2d49.md) — Lire des vidéos YouTube via mov-cli avec options audio et shorts
 - [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Créez des vidéos via du code React, gagnez du temps et plus de contrôle.
 - [embed-sdk-js](../../watch/technical-f4619ecbc826ded4db95.md) — Affiche des vidéos torrent avec sous-titres et personnalisation.

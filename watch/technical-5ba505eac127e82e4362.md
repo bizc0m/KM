@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Cloner des voix sans connexion internet.
+Fonction · Cloner, synthétiser, traduire et transcrire des voix.  
+Avantages · Fonctionnalités audio-vidéo sans connexion internet.  
+Gain · Éviter l'export vers des services externes.
 
 ## Métadonnées
 
@@ -374,7 +376,4 @@ VoiceStudio Pro propose des outils de synthèse vocale et de traitement audio av
 - Créer des voix personnalisées avec paramètres avancés.
 - Transcrire, traduire et revoix des vidéos sans altérer le timing.
 - API locale compatible OpenAI sur le port 3900.
-- Licence commerciale pour usage professionnel.
-- Accès à des voix premium et fonctionnalités avancées.
-- Support technique via email ou issues GitHub.
-- Refu
+- Licence comm

@@ -1,8 +1,14 @@
 # Cybersécurité
 
-- [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA
-- [Bark](../../watch/technical-994bb8c95881181b98b3.md) — Envoyer des notifications via URL avec paramètres personnalisés.
-- [CloakBrowser](../../watch/technical-2ffdb8097dd79859932a.md) — Contourner les détections anti-bot avec un navigateur modifié.
+- [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Fonction · Mappage des compétences en cybersécurité aux frameworks MITRE.
+Avantages · Alignement des compétences avec des modèles de menace standardisés.
+Gain · Adapter les agents IA à des scénarios de sécurité spécifiques.
+- [Bark](../../watch/technical-994bb8c95881181b98b3.md) — Fonction · Envoyer des notifications personnalisées sur iPhone.
+Avantages · Supporte les groupes et les sons personnalisés.
+Gain · Lancer des tâches sans interface graphique.
+- [CloakBrowser](../../watch/technical-2ffdb8097dd79859932a.md) — Fonction · Remplace Playwright/Puppeteer pour naviguer en mode furtif.
+Avantages · Passe 50+ tests de détection anti-bot.
+Gain · Lancer des tâches sans config, avec un seul import.
 - [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Protection des données sensibles avant l'envoi vers un API non contrôlé
 - [undetected-chromedriver](../../watch/technical-270127c4040820721fee.md) — Exécute des navigateurs Chromium sans détection par les services anti-bot.
 - [DepthSearch](../../watch/technical-f8b3849874961eb09fd8.md) — Recherche OSINT dans le web profond avec anonymisation et informations système

@@ -1,20 +1,38 @@
 # Images et graphisme
 
-- [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Fonction · Automatisation de la création et diffusion de contenu.
-Avantages · Intégration de modèles de IA pour vidéo, image et texte.
-Gain · Publication simultanée sur 14 plateformes sans configuration.
-- [DarkFeat](../../watch/technical-74dc45b5f749db3d46d0.md) — Analyse des images RAW sombres avec détection de caractéristiques robuste
+- [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Fonction · Créer, publier et monétiser du contenu sur 14 plateformes.
+Avantages · Automatisation de la publication et des interactions.
+Gain · Publier directement sans configuration complexe.
+- [Assembler3d](../../watch/technical-674690abd042252d5376.md) — Fonction · Assembler 3D via diffusion de points d'ancrage.
+Avantages · Génère des assemblages à partir de modèles et d'images de référence.
+Gain · Éviter la modélisation manuelle des assemblages 3D.
+- [DarkFeat](../../watch/technical-74dc45b5f749db3d46d0.md) — Fonction · Détecte et décrit des caractéristiques dans des images RAW très sombres.
+Avantages · Résistant au bruit et adapté aux conditions extrêmes.
+Gain · Éviter la prétraitement complexe pour les images faiblement éclairées.
 - [DI-PCG](../../watch/technical-80c1535b6e69bb84082c.md) — Crée des modèles 3D à partir d'images avec des modèles pré-entraînés.
-- [diffusers](../../watch/technical-f977c26fe64e30184a6f.md) — Génère des images à partir de texte avec des modèles préentraînés.
+- [diffusers](../../watch/technical-f977c26fe64e30184a6f.md) — Fonction · Générer des images, audio, 3D moléculaires via modèles diffusion.
+Avantages · Pipelines prêts à l'emploi, modèles et schedulers interchangeables.
+Gain · Lancer des générations en quelques lignes de code.
+- [Direct3D-S2](../../watch/technical-f1fa1897837db4db2e4d.md) — Fonction · Génère des formes 3D haute résolution à partir d'images.
+Avantages · Vitesse d'inférence 12,2× plus rapide grâce à SSA.
+Gain · Créer des modèles 1024³ avec 8 GPU au lieu de 32.
 - [Génération d'actifs 3D structurés](../../watch/technical-37356cc78499d8e4af94.md) — Génère des modèles 3D à partir d'images ou de textes.
 - [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
 - [idn-solver](../../watch/technical-3f991f224eb64ace6e0c.md) — Analyse des données stéréoscopiques avec des modèles préentraînés.
 - [LongCat-Video](../../watch/technical-3794fe05156a712cb6fd.md) — Convertir du texte ou des images en vidéos longues.
-- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
-- [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
-- [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Crée des images et vidéos sans filtre de contenu
+- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Fonction · Convertir Markdown en images pour réseaux sociaux.
+Avantages · Templates prédéfinis et personnalisation des thèmes.
+Gain · Générer des images en un clic sans outil externe.
+- [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Fonction · Exporte vidéos et images pour fonds d'écran animés.
+Avantages · Intégre calendrier NotePlan pour planification.
+Gain · Créer des fonds d'écran sans logiciel externe.
+- [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Fonction · Générer images et vidéos via 600+ modèles sans filtres.
+Avantages · Accès à des modèles comme Sora, Midjourney, Veo.
+Gain · Lancer des tâches sans abonnement, sans restrictions.
 - [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Permet d'éditer des vidéos sur plusieurs plateformes.
-- [Penpot](../../watch/technical-c0d4875dd605f77caf57.md) — Créez des interfaces réactives avec des maquettes lisibles par code.
+- [Penpot](../../watch/technical-c0d4875dd605f77caf57.md) — Fonction · Créer et collaborer sur des designs et prototypes.
+Avantages · Intégration avec des outils de développement via API.
+Gain · Exporter directement du code HTML/CSS/SVG sans intermédiaire.
 - [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones
 - [Pixal3D-ComfyUI](../../watch/technical-62ff8b189d833243b52d.md) — Permet de générer des modèles 3D à partir d'images 2D
 - [StdGEN](../../watch/technical-39708b126c037da50e56.md) — Génère un modèle 3D détaillé à partir d'une image de référence.

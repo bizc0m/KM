@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Gère des profils de navigateur avec des paramètres uniques
+Fonction · Gérer des profils de navigateurs isolés avec des empreintes uniques.  
+Avantages · Profils indépendants avec GPU, proxy, cookies et historique distincts.  
+Gain · Lancer des tâches sans lien entre les comptes ou l'utilisateur.
 
 ## Identité
 

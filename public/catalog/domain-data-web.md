@@ -1,9 +1,17 @@
 # Collecte web
 
-- [ani-cli](../../watch/technical-2993f5bd5143a68eff85.md) — Permet de consulter des anime via une interface CLI
-- [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Recherche et stream d'animes via des fournisseurs.
-- [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md)
-- [mov-cli](../../watch/technical-9e0cc8c5c3c327b3c50b.md) — Permet de streamer des médias via des plugins configurés.
+- [ani-cli](../../watch/technical-2993f5bd5143a68eff85.md) — Fonction · CLI pour parcourir et visionner des anime via hianime.
+Avantages · Scrapes hianime pour accéder aux épisodes.
+Gain · Lancer des séances de visionnage sans navigateur.
+- [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Fonction · Télécharge et stream des anime via des fournisseurs.
+Avantages · Supporte des paramètres de qualité et de plage d'épisodes.
+Gain · Lancer le streaming ou la téléchargement sans configuration.
+- [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md) — Fonction · Extraire des données et télécharger des fichiers depuis des sites web.
+Avantages · Supporte HTML, PDF, JPG, PNG et JavaScript via Playwright.
+Gain · Lancer des tâches de scraping sans configuration complexe.
+- [mov-cli](../../watch/technical-9e0cc8c5c3c327b3c50b.md) — Fonction · Streamer des médias via des plugins.
+Avantages · Plugins externes pour scraping et lecture.
+Gain · Lancer une recherche et lecture en quelques commandes.
 - [Scrapling](../../watch/technical-a352cd98ee30cd20d69a.md) — Extrait des données depuis des pages web statiques ou dynamiques
 - [AICLIPS Studio](../../watch/technical-937b200dbfd957aae460.md) — Extrait automatiquement des highlights viraux depuis des vidéos YouTube.
 - [TikTok-User-Info-Scraper](../../watch/technical-0a0ff4b87cf292fe8c93.md) — Récupère des données utilisateur TikTok sans connexion.

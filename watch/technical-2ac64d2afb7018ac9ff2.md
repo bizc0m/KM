@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Analyse un site web et propose un plan d'action pour améliorer son référencement
+Fonction · Audit SEO complet en 10 à 15 minutes.  
+Avantages · 26 sous-compétences et 19 agents spécialisés.  
+Gain · Lancer des tâches d'optimisation rapidement.
 
 ## Identité
 
@@ -27,8 +29,9 @@ Analyse un site web et propose un plan d'action pour améliorer son référencem
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.coding source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement
+- Identifiants : domain.ai.agents.coding domain.ai.agents.skills capability.skills source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents
+- Fonctions : Étendre les compétences d’un agent
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -36,6 +39,9 @@ Analyse un site web et propose un plan d'action pour améliorer son référencem
 
 - https://github.com/agricidaniel/claude-seo
 - https://x.com/i/status/2056640762117566689
+- https://raw.githubusercontent.com/agricidaniel/claude-seo/HEAD/screenshots/seo-command-demo.gif
+- https://raw.githubusercontent.com/agricidaniel/claude-seo/HEAD/README.md
+- https://raw.githubusercontent.com/agricidaniel/claude-seo/HEAD/screenshots/seo-audit-demo.gif
 
 ## Traçabilité
 
@@ -70,3 +76,13 @@ Analyse un site web et propose un plan d'action pour améliorer son référencem
 - Source : https://github.com/agricidaniel/claude-seo
 - Analyse source : 2026-10-26T01:55:26.347Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![Claude SEO /seo command demo in the Claude Code terminal](https://raw.githubusercontent.com/agricidaniel/claude-seo/HEAD/screenshots/seo-command-demo.gif)
+
+[Origine](https://raw.githubusercontent.com/agricidaniel/claude-seo/HEAD/README.md)
+
+![Claude SEO /seo audit demo: parallel agents producing a prioritized action plan](https://raw.githubusercontent.com/agricidaniel/claude-seo/HEAD/screenshots/seo-audit-demo.gif)
+
+[Origine](https://raw.githubusercontent.com/agricidaniel/claude-seo/HEAD/README.md)

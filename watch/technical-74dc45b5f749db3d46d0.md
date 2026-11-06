@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Analyse des images RAW sombres avec détection de caractéristiques robuste
+Fonction · Détecte et décrit des caractéristiques dans des images RAW très sombres.  
+Avantages · Résistant au bruit et adapté aux conditions extrêmes.  
+Gain · Éviter la prétraitement complexe pour les images faiblement éclairées.
 
 ## Identité
 
@@ -36,6 +38,8 @@ Analyse des images RAW sombres avec détection de caractéristiques robuste
 
 - https://github.com/thu-lyj-lab/darkfeat
 - https://x.com/i/status/2057220561613299720
+- https://raw.githubusercontent.com/thu-lyj-lab/darkfeat/HEAD/fig/fig.gif
+- https://raw.githubusercontent.com/thu-lyj-lab/darkfeat/HEAD/README.md
 
 ## Traçabilité
 
@@ -44,3 +48,9 @@ Analyse des images RAW sombres avec détection de caractéristiques robuste
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![darkfeat demo](https://raw.githubusercontent.com/thu-lyj-lab/darkfeat/HEAD/fig/fig.gif)
+
+[Origine](https://raw.githubusercontent.com/thu-lyj-lab/darkfeat/HEAD/README.md)

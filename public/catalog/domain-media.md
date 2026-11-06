@@ -1,40 +1,86 @@
 # Audio, vidéo et création
 
-- [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Fonction · Automatisation de la création et diffusion de contenu.
-Avantages · Intégration de modèles de IA pour vidéo, image et texte.
-Gain · Publication simultanée sur 14 plateformes sans configuration.
+- [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Fonction · Créer, publier et monétiser du contenu sur 14 plateformes.
+Avantages · Automatisation de la publication et des interactions.
+Gain · Publier directement sans configuration complexe.
 - [AlphaTablets](../../watch/technical-ca3c69add82754901cf6.md) — Fonction · Représentation 3D des plans via des rectangles avec canaux alpha.
 Avantages · Combinaison des avantages des représentations 2D et 3D.
 Gain · Reconstruction précise de plans 3D à partir de vidéos monoculaires.
-- [Assembler3d](../../watch/technical-674690abd042252d5376.md) — Assemble des pièces 3D à partir de données GLB et PNG.
-- [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Génère des données 3D à partir de points de contrôle.
+- [Assembler3d](../../watch/technical-674690abd042252d5376.md) — Fonction · Assembler 3D via diffusion de points d'ancrage.
+Avantages · Génère des assemblages à partir de modèles et d'images de référence.
+Gain · Éviter la modélisation manuelle des assemblages 3D.
+- [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Fonction · Génère des styles de cheveux 3D anime via des points de contrôle.
+Avantages · Modèle préentraîné et données de test disponibles.
+Gain · Exécuter des générations et évaluations sans configuration complexe.
 - [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md) — Génère des synthèses vocales en plusieurs langues avec précision.
-- [DarkFeat](../../watch/technical-74dc45b5f749db3d46d0.md) — Analyse des images RAW sombres avec détection de caractéristiques robuste
-- [Demucs](../../watch/technical-c10d8f74eadd9334181e.md) — Sépare les éléments audio d'une piste en utilisant un modèle avancé.
+- [DarkFeat](../../watch/technical-74dc45b5f749db3d46d0.md) — Fonction · Détecte et décrit des caractéristiques dans des images RAW très sombres.
+Avantages · Résistant au bruit et adapté aux conditions extrêmes.
+Gain · Éviter la prétraitement complexe pour les images faiblement éclairées.
+- [Demucs](../../watch/technical-c10d8f74eadd9334181e.md) — Fonction · Sépare drums, bass, vocals et autres pistes d'une musique.
+Avantages · Modèle hybride spectrogramme/vague avec attention croisée.
+Gain · Lancer la séparation en quelques secondes sans paramètres.
 - [DI-PCG](../../watch/technical-80c1535b6e69bb84082c.md) — Crée des modèles 3D à partir d'images avec des modèles pré-entraînés.
-- [diffusers](../../watch/technical-f977c26fe64e30184a6f.md) — Génère des images à partir de texte avec des modèles préentraînés.
-- [Direct3D-S2](../../watch/technical-f1fa1897837db4db2e4d.md) — Génère des modèles 3D à haute résolution avec efficacité.
-- [edge-tts](../../watch/technical-fb7d8c0c8a030338b784.md) — Convertir du texte en parole parlée MP3 avec sous-titres SRT via Microsoft Edge.
-- [F5-TTS](../../watch/technical-a63a06d0b2276c289423.md) — Synthétise de la parole fluide et fidèle à partir de texte.
-- [faster-whisper](../../watch/technical-f5a99e06873448a9f3ba.md) — Transcrire des fichiers audio plus rapidement avec moins de ressources.
+- [diffusers](../../watch/technical-f977c26fe64e30184a6f.md) — Fonction · Générer des images, audio, 3D moléculaires via modèles diffusion.
+Avantages · Pipelines prêts à l'emploi, modèles et schedulers interchangeables.
+Gain · Lancer des générations en quelques lignes de code.
+- [Direct3D-S2](../../watch/technical-f1fa1897837db4db2e4d.md) — Fonction · Génère des formes 3D haute résolution à partir d'images.
+Avantages · Vitesse d'inférence 12,2× plus rapide grâce à SSA.
+Gain · Créer des modèles 1024³ avec 8 GPU au lieu de 32.
+- [edge-tts](../../watch/technical-fb7d8c0c8a030338b784.md) — Fonction · Convertir du texte en parole via Microsoft Edge.
+Avantages · Utilisation sans Edge, gestion des voix et paramètres.
+Gain · Générer et jouer des fichiers audio rapidement.
+- [elevenlabs-python](../../watch/technical-e1728cc13c4a61f359d1.md) — Fonction · Convertir du texte en audio avec des modèles préconfigurés.
+Avantages · Support de 32 à 70 langues selon le modèle.
+Gain · Lancer la synthèse vocale en quelques lignes de code.
+- [F5-TTS](../../watch/technical-a63a06d0b2276c289423.md) — Fonction · Génère de la parole synthétisée fluide et fidèle.
+Avantages · Utilise Flow Matching pour améliorer la qualité.
+Gain · Éviter l'entraînement de modèles vocaux complets.
+- [faster-whisper](../../watch/technical-f5a99e06873448a9f3ba.md) — Fonction · Transcription audio avec CTranslate2.
+Avantages · Plus rapide et moins gourmand en mémoire.
+Gain · Lancer la transcription sans installer FFmpeg.
 - [Génération d'actifs 3D structurés](../../watch/technical-37356cc78499d8e4af94.md) — Génère des modèles 3D à partir d'images ou de textes.
 - [GSPN](../../watch/technical-383ec76df0f9b9e99e36.md) — Génère des propositions de forme 3D pour segmenter des objets dans un nuage de points.
 - [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
 - [idn-solver](../../watch/technical-3f991f224eb64ace6e0c.md) — Analyse des données stéréoscopiques avec des modèles préentraînés.
-- [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier.
-- [kokoro](../../watch/technical-aa11653c4d25a0e989a1.md) — Génère des audio de texte en temps réel avec des paramètres personnalisables
+- [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Fonction · Envoie d'e-mails, reconnaissance optique de texte, recherche YouTube, gestion de tâches.
+Avantages · Intégration d'API pour les nouvelles dynamiques.
+Gain · Lancer des tâches sans interface graphique.
+- [kokoro](../../watch/technical-aa11653c4d25a0e989a1.md) — Fonction · Conversion de texte en parole via modèle TTS.
+Avantages · Modèle léger avec 82M paramètres, qualité comparable.
+Gain · Générer audio sans configuration complexe.
 - [lobster](../../watch/technical-0ebd1f1b56ff3fc73866.md) — Rechercher et visionner des films et séries en ligne
 - [LongCat-Video](../../watch/technical-3794fe05156a712cb6fd.md) — Convertir du texte ou des images en vidéos longues.
-- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
-- [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
-- [O2-Recon](../../watch/technical-712121d9735431107601.md) — Améliore la reconstruction 3D des objets masqués avec un modèle diffusion 2D
-- [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Cloner des voix sans connexion internet.
-- [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Crée des images et vidéos sans filtre de contenu
-- [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel
+- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Fonction · Convertir Markdown en images pour réseaux sociaux.
+Avantages · Templates prédéfinis et personnalisation des thèmes.
+Gain · Générer des images en un clic sans outil externe.
+- [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Fonction · Exporte vidéos et images pour fonds d'écran animés.
+Avantages · Intégre calendrier NotePlan pour planification.
+Gain · Créer des fonds d'écran sans logiciel externe.
+- [NerfingMVS](../../watch/technical-7e07682fe36ee14ea7b5.md) — Fonction · Reconstruction 3D à partir de plusieurs vues.
+Avantages · Intégration de masques pour chaque vue.
+Gain · Éviter recalcul de poses et reconstruction.
+- [O2-Recon](../../watch/technical-712121d9735431107601.md) — Fonction · Reconstruire 3D d'objets masqués via un modèle diffusion 2D.
+Avantages · Utilise un SDF cascade et une perte de cohérence sémantique CLIP.
+Gain · Éviter de recréer les zones invisibles via un modèle pré-entraîné.
+- [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Fonction · Cloner, synthétiser, traduire et transcrire des voix.
+Avantages · Fonctionnalités audio-vidéo sans connexion internet.
+Gain · Éviter l'export vers des services externes.
+- [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Fonction · Générer images et vidéos via 600+ modèles sans filtres.
+Avantages · Accès à des modèles comme Sora, Midjourney, Veo.
+Gain · Lancer des tâches sans abonnement, sans restrictions.
+- [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Fonction · Créer un avatar interactif avec IA et Live2D.
+Avantages · Support multiplateforme et mode offline.
+Gain · Lancer des conversations en temps réel sans connexion.
 - [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Permet d'éditer des vidéos sur plusieurs plateformes.
-- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
-- [ParticleSfM](../../watch/technical-1579309e1b490fa5279c.md) — Traite des séquences vidéo pour extraire des trajectoires de points.
-- [Penpot](../../watch/technical-c0d4875dd605f77caf57.md) — Créez des interfaces réactives avec des maquettes lisibles par code.
+- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Fonction · Synthétise la voix et génère des vidéos.
+Avantages · Intégre NotePlan et X pour planification.
+Gain · Créer des démos sans abonnement SaaS.
+- [ParticleSfM](../../watch/technical-1579309e1b490fa5279c.md) — Fonction · Reconstruire des trajectoires de caméra à partir de séquences vidéo.
+Avantages · Optimise des points de trajectoires avec ajustement global.
+Gain · Éviter l'analyse manuelle des mouvements dynamiques.
+- [Penpot](../../watch/technical-c0d4875dd605f77caf57.md) — Fonction · Créer et collaborer sur des designs et prototypes.
+Avantages · Intégration avec des outils de développement via API.
+Gain · Exporter directement du code HTML/CSS/SVG sans intermédiaire.
 - [Pixal3D](../../watch/technical-1158f7d0b091e0866c17.md) — Convertir des images en modèles 3D avec des réseaux de neurones
 - [Pixal3D-ComfyUI](../../watch/technical-62ff8b189d833243b52d.md) — Permet de générer des modèles 3D à partir d'images 2D
 - [Plugin mov-cli-youtube](../../watch/technical-52593ff508c40e9e2d49.md) — Lire des vidéos YouTube via mov-cli avec options audio et shorts

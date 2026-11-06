@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Extraire des données et télécharger des fichiers depuis des sites web.  
+Avantages · Supporte HTML, PDF, JPG, PNG et JavaScript via Playwright.  
+Gain · Lancer des tâches de scraping sans configuration complexe.
 
 ## Identité
 
@@ -29,10 +31,10 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.data.web domain.dev.browser capability.scraping capability.automation.browser compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.data.web domain.dev.browser capability.scraping capability.automation.browser compatibility.language.python compatibility.format.pdf source.noteplan source.github source.x lifecycle.active
 - Sujets : Données et connaissances > Collecte web ; Développement logiciel > Outils de navigateur
 - Fonctions : Extraire des données web ; Automatiser des actions > Automatiser le navigateur
-- Compatibilités : Langages > Python
+- Compatibilités : Langages > Python ; Formats > PDF
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

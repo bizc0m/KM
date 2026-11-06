@@ -1,6 +1,8 @@
 # Recherche documentaire
 
-- [geo-seo-claude](../../watch/technical-a3b183624a359158d2f2.md) — Analyse la visibilité GEO d'un site en quelques secondes
+- [geo-seo-claude](../../watch/technical-a3b183624a359158d2f2.md) — Fonction · Audit et optimisation SEO pour moteurs AI et moteurs traditionnels.
+Avantages · Analyse de citabilité, balayage de crawlers AI, détection de mentions de marque.
+Gain · Générer rapports PDF, optimiser pour plateformes spécifiques en 60 secondes.
 - [maigret](../../watch/technical-6d84c860baa5311d1e0f.md) — Recherche d'informations sur un utilisateur via des sites web.
 - [OpenOSINT](../../watch/technical-0be614d8a1eb180e4b8a.md) — Orchestre des recherches OSINT avec un modèle LLM pour produire un rapport structuré
 - [GPT Researcher](../../watch/technical-d2fc479804301a66d2d8.md) — Génère des rapports de recherche avec des sources multiples et des citations

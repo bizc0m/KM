@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet d'éditer des fichiers dans un environnement terminal
+Fonction · Terminal basé sur AI pour coder, exécuter, gérer des tâches.  
+Avantages · Interface TUI interactive, gestion de projets, outils intégrés.  
+Gain · Lancer des tâches sans interface graphique, gérer des projets complexes.
 
 ## Identité
 
@@ -29,8 +31,8 @@ Permet d'éditer des fichiers dans un environnement terminal
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.dev.quality capability.code.assist compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel > Qualité du code
+- Identifiants : domain.ai.agents.coding domain.dev.quality domain.data.organization capability.code.assist compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel > Qualité du code ; Données et connaissances > Organisation du travail
 - Fonctions : Assister le développement
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
@@ -40,6 +42,8 @@ Permet d'éditer des fichiers dans un environnement terminal
 
 - https://github.com/xai-org/grok-build
 - https://x.com/i/status/2057218131685146713
+- https://media.x.ai/v1/website/universe-tui-screenshot-6f7a0837.png
+- https://raw.githubusercontent.com/xai-org/grok-build/HEAD/README.md
 
 ## Traçabilité
 
@@ -62,3 +66,9 @@ Permet d'éditer des fichiers dans un environnement terminal
 - Source : https://github.com/xai-org/grok-build
 - Analyse source : 2026-10-26T02:28:20.867Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![Grok Build TUI](https://media.x.ai/v1/website/universe-tui-screenshot-6f7a0837.png)
+
+[Origine](https://raw.githubusercontent.com/xai-org/grok-build/HEAD/README.md)

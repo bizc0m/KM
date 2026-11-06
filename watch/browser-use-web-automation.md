@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Automatiser des tâches web avec un LLM
+Fonction · Automatise la navigation web avec des agents AI.  
+Avantages · Supporte des navigateurs furtifs et des proxies résidentiels.  
+Gain · Exécuter des tâches sans installer Chrome.
 
 ## Identité
 

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Convertir du texte en parole parlée MP3 avec sous-titres SRT via Microsoft Edge.
+Fonction · Convertir du texte en parole via Microsoft Edge.  
+Avantages · Utilisation sans Edge, gestion des voix et paramètres.  
+Gain · Générer et jouer des fichiers audio rapidement.
 
 ## Identité
 

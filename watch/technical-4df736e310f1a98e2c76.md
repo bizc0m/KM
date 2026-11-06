@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Enregistre des démos nettoyées sans abonnement
+Fonction · Synthétise la voix et génère des vidéos.  
+Avantages · Intégre NotePlan et X pour planification.  
+Gain · Créer des démos sans abonnement SaaS.
 
 ## Métadonnées
 

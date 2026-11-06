@@ -1,11 +1,22 @@
 # Compétences des agents
 
 - [Agent Skills](../../watch/technical-48dbbdd8fd0d302995a7.md) — Définir un format ouvert pour partager les compétences des agents.
-- [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA
-- [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
+- [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Fonction · Mappage des compétences en cybersécurité aux frameworks MITRE.
+Avantages · Alignement des compétences avec des modèles de menace standardisés.
+Gain · Adapter les agents IA à des scénarios de sécurité spécifiques.
+- [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fonction · Chargement dynamique de compétences pour tâches spécialisées.
+Avantages · Instructions, scripts et ressources prédéfinis.
+Gain · Exécuter des tâches répétitives avec précision.
 - [book-to-skill](../../watch/book-to-skill.md) — Transforme un livre en compétence accessible par un agent IA
-- [book-to-skill](../../watch/technical-389040200a86ce208431.md) — Enregistre les preuves de conversion de livres en compétences.
-- [skills_feed](../../watch/technical-57435869059c16d7e579.md) — Collecte et organisation des compétences AI pour un accès centralisé
+- [book-to-skill](../../watch/technical-389040200a86ce208431.md) — Fonction · Convertir un livre en compétence pour usage concret.
+Avantages · Données précises sur le format et les tokens générés.
+Gain · Éviter de redéfinir les étapes de traitement du document.
+- [Claude SEO](../../watch/technical-2ac64d2afb7018ac9ff2.md) — Fonction · Audit SEO complet en 10 à 15 minutes.
+Avantages · 26 sous-compétences et 19 agents spécialisés.
+Gain · Lancer des tâches d'optimisation rapidement.
+- [skills_feed](../../watch/technical-57435869059c16d7e579.md) — Fonction · Recherche, installation, copie et partage de compétences AI.
+Avantages · Intégration avec des outils de codage comme Claude Code et Cursor.
+Gain · Accéder directement aux compétences via URL GitHub.
 - [Skills For Real Engineers](../../watch/technical-637c99109af31ed2fe7b.md) — Aide à l'alignement entre utilisateur et agent via des sessions d'interrogation
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Découvrir, évaluer et exécuter 500+ modèles multimodaux en un clic.
 - [Awesome Agent Skills](../../watch/technical-42c5a49b8cf68812c97a.md) — Créez des compétences agent pour des outils comme Claude, Gemini, Cursor.

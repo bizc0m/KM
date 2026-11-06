@@ -1,6 +1,8 @@
 # Paquets et dépendances
 
-- [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Recherche et stream d'animes via des fournisseurs.
+- [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Fonction · Télécharge et stream des anime via des fournisseurs.
+Avantages · Supporte des paramètres de qualité et de plage d'épisodes.
+Gain · Lancer le streaming ou la téléchargement sans configuration.
 - [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Gère les dépendances de projet avec des lockfiles.
 - [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Gère les dépendances et les environnements
 - [PubGrub](../../watch/technical-40431c060cb04bde6a19.md) — Résout des conflits de dépendances avec des explications claires.

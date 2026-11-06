@@ -1,9 +1,23 @@
 # Organisation du travail
 
-- [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.
-- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les rendez-vous sans dépendance commerciale.
-- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
-- [PC-NBV](../../watch/technical-c88e811a1a66f8cd57ba.md) — Génère des données pour entraîner un modèle de visionnage optimal.
+- [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Fonction · Gère les rendez-vous et les calendriers en local.
+Avantages · Aucune dépendance commerciale, licence MIT.
+Gain · Lancer un serveur sans compte ou licence.
+- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Fonction · Gère les rendez-vous et les calendriers en local.
+Avantages · Aucune dépendance commerciale, licence MIT.
+Gain · Lancer un serveur sans compte ou licence.
+- [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Fonction · Terminal basé sur AI pour coder, exécuter, gérer des tâches.
+Avantages · Interface TUI interactive, gestion de projets, outils intégrés.
+Gain · Lancer des tâches sans interface graphique, gérer des projets complexes.
+- [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Fonction · Exporte vidéos et images pour fonds d'écran animés.
+Avantages · Intégre calendrier NotePlan pour planification.
+Gain · Créer des fonds d'écran sans logiciel externe.
+- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Fonction · Synthétise la voix et génère des vidéos.
+Avantages · Intégre NotePlan et X pour planification.
+Gain · Créer des démos sans abonnement SaaS.
+- [PC-NBV](../../watch/technical-c88e811a1a66f8cd57ba.md) — Fonction · Planifier la prochaine vue optimale à partir de nuages de points.
+Avantages · Utilise des réseaux de neurones pour évaluer les vues.
+Gain · Éviter de tester manuellement chaque vue possible.
 - [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Gère les dépendances de projet avec des lockfiles.
 - [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Gère les dépendances et les environnements
 - [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Génère des vidéos à partir d'idées, scénarios ou romans avec cohérence visuelle et narrative.

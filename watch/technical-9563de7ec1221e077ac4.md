@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée des applications web pour des modèles ML en quelques lignes.
+Fonction · Créer et partager des apps ML en Python.  
+Avantages · Interface sans JS, partage en quelques secondes.  
+Gain · Lancer un demo en quelques lignes de code.
 
 ## Identité
 
@@ -39,6 +41,8 @@ Crée des applications web pour des modèles ML en quelques lignes.
 
 - https://github.com/gradio-app/gradio
 - https://x.com/i/status/2058253217335501272
+- https://raw.githubusercontent.com/gradio-app/gradio/HEAD/demo/hello_world_4/screenshot.gif
+- https://raw.githubusercontent.com/gradio-app/gradio/HEAD/README.md
 
 ## Traçabilité
 
@@ -65,3 +69,9 @@ Crée des applications web pour des modèles ML en quelques lignes.
 - Source : https://github.com/gradio-app/gradio
 - Analyse source : 2026-10-26T05:01:03.314Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![`hello_world_4` demo](https://raw.githubusercontent.com/gradio-app/gradio/HEAD/demo/hello_world_4/screenshot.gif)
+
+[Origine](https://raw.githubusercontent.com/gradio-app/gradio/HEAD/README.md)

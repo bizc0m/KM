@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des audio de texte en temps réel avec des paramètres personnalisables
+Fonction · Conversion de texte en parole via modèle TTS.  
+Avantages · Modèle léger avec 82M paramètres, qualité comparable.  
+Gain · Générer audio sans configuration complexe.
 
 ## Identité
 

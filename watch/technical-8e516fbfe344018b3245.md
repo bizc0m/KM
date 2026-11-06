@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Facilite la découverte des outils et compétences pour Codex CLI
+Fonction · Génère du code, refactore, débogue via terminal.  
+Avantages · Intégre sandbox, orchestration multi-agents, MCP.  
+Gain · Lancer des tâches sans interface graphique.
 
 ## Identité
 
@@ -29,8 +31,9 @@ Facilite la découverte des outils et compétences pour Codex CLI
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.infrastructure domain.ai.agents.integration compatibility.protocol.mcp compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Infrastructure ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
+- Identifiants : domain.ai.agents.coding domain.infrastructure domain.ai.agents.integration domain.ai.agents.orchestration capability.automation.orchestrate compatibility.protocol.mcp compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Infrastructure ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents ; Intelligence artificielle > Agents IA > Orchestration des agents
+- Fonctions : Automatiser des actions > Coordonner des agents
 - Compatibilités : Protocoles > MCP ; Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

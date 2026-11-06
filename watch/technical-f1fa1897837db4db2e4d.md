@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des modèles 3D à haute résolution avec efficacité.
+Fonction · Génère des formes 3D haute résolution à partir d'images.  
+Avantages · Vitesse d'inférence 12,2× plus rapide grâce à SSA.  
+Gain · Créer des modèles 1024³ avec 8 GPU au lieu de 32.
 
 ## Identité
 
@@ -29,9 +31,9 @@ Génère des modèles 3D à haute résolution avec efficacité.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.3d capability.generate.3d source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Création 3D
-- Fonctions : Générer des contenus > Générer un objet 3D
+- Identifiants : domain.media.3d domain.media.image capability.generate.3d capability.generate.image source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Création 3D ; Audio, vidéo et création > Images et graphisme
+- Fonctions : Générer des contenus > Générer un objet 3D ; Générer des contenus > Générer une image
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

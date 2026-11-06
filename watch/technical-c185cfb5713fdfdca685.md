@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Créer des campagnes de phishing pour tests de sécurité
+Fonction · Créer des campagnes de phishing et formations.  
+Avantages · Interface web et gestion des cibles.  
+Gain · Lancer des attaques sans configuration complexe.
 
 ## Identité
 

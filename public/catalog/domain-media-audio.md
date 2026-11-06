@@ -1,17 +1,40 @@
 # Audio
 
 - [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md) — Génère des synthèses vocales en plusieurs langues avec précision.
-- [Demucs](../../watch/technical-c10d8f74eadd9334181e.md) — Sépare les éléments audio d'une piste en utilisant un modèle avancé.
-- [diffusers](../../watch/technical-f977c26fe64e30184a6f.md) — Génère des images à partir de texte avec des modèles préentraînés.
-- [edge-tts](../../watch/technical-fb7d8c0c8a030338b784.md) — Convertir du texte en parole parlée MP3 avec sous-titres SRT via Microsoft Edge.
-- [F5-TTS](../../watch/technical-a63a06d0b2276c289423.md) — Synthétise de la parole fluide et fidèle à partir de texte.
-- [faster-whisper](../../watch/technical-f5a99e06873448a9f3ba.md) — Transcrire des fichiers audio plus rapidement avec moins de ressources.
+- [Demucs](../../watch/technical-c10d8f74eadd9334181e.md) — Fonction · Sépare drums, bass, vocals et autres pistes d'une musique.
+Avantages · Modèle hybride spectrogramme/vague avec attention croisée.
+Gain · Lancer la séparation en quelques secondes sans paramètres.
+- [diffusers](../../watch/technical-f977c26fe64e30184a6f.md) — Fonction · Générer des images, audio, 3D moléculaires via modèles diffusion.
+Avantages · Pipelines prêts à l'emploi, modèles et schedulers interchangeables.
+Gain · Lancer des générations en quelques lignes de code.
+- [edge-tts](../../watch/technical-fb7d8c0c8a030338b784.md) — Fonction · Convertir du texte en parole via Microsoft Edge.
+Avantages · Utilisation sans Edge, gestion des voix et paramètres.
+Gain · Générer et jouer des fichiers audio rapidement.
+- [elevenlabs-python](../../watch/technical-e1728cc13c4a61f359d1.md) — Fonction · Convertir du texte en audio avec des modèles préconfigurés.
+Avantages · Support de 32 à 70 langues selon le modèle.
+Gain · Lancer la synthèse vocale en quelques lignes de code.
+- [F5-TTS](../../watch/technical-a63a06d0b2276c289423.md) — Fonction · Génère de la parole synthétisée fluide et fidèle.
+Avantages · Utilise Flow Matching pour améliorer la qualité.
+Gain · Éviter l'entraînement de modèles vocaux complets.
+- [faster-whisper](../../watch/technical-f5a99e06873448a9f3ba.md) — Fonction · Transcription audio avec CTranslate2.
+Avantages · Plus rapide et moins gourmand en mémoire.
+Gain · Lancer la transcription sans installer FFmpeg.
 - [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
-- [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier.
-- [kokoro](../../watch/technical-aa11653c4d25a0e989a1.md) — Génère des audio de texte en temps réel avec des paramètres personnalisables
-- [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Cloner des voix sans connexion internet.
-- [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel
-- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
+- [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Fonction · Envoie d'e-mails, reconnaissance optique de texte, recherche YouTube, gestion de tâches.
+Avantages · Intégration d'API pour les nouvelles dynamiques.
+Gain · Lancer des tâches sans interface graphique.
+- [kokoro](../../watch/technical-aa11653c4d25a0e989a1.md) — Fonction · Conversion de texte en parole via modèle TTS.
+Avantages · Modèle léger avec 82M paramètres, qualité comparable.
+Gain · Générer audio sans configuration complexe.
+- [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Fonction · Cloner, synthétiser, traduire et transcrire des voix.
+Avantages · Fonctionnalités audio-vidéo sans connexion internet.
+Gain · Éviter l'export vers des services externes.
+- [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Fonction · Créer un avatar interactif avec IA et Live2D.
+Avantages · Support multiplateforme et mode offline.
+Gain · Lancer des conversations en temps réel sans connexion.
+- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Fonction · Synthétise la voix et génère des vidéos.
+Avantages · Intégre NotePlan et X pour planification.
+Gain · Créer des démos sans abonnement SaaS.
 - [Plugin mov-cli-youtube](../../watch/technical-52593ff508c40e9e2d49.md) — Lire des vidéos YouTube via mov-cli avec options audio et shorts
 - [Voice-Pro](../../watch/technical-7e01176c9d1442c27f9d.md) — Traite les vidéos YouTube avec extraction audio et séparation vocale
 - [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Cloner des voix à partir d'audio

@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Afficher les emails envoyés dans une interface web
+Fonction · Tester les emails via SMTP et web UI.  
+Avantages · Stockage en mémoire et API JSON.  
+Gain · Lancer les tests sans installation.
 
 ## Identité
 
@@ -37,6 +39,8 @@ Afficher les emails envoyés dans une interface web
 - https://github.com/mailhog/mailhog
 - https://x.com/i/status/2055532691706265605
 - https://x.com/i/status/2057388194711368074
+- https://raw.githubusercontent.com/docs/MailHog.png
+- https://raw.githubusercontent.com/mailhog/mailhog/HEAD/README.md
 
 ## Traçabilité
 
@@ -68,3 +72,9 @@ Afficher les emails envoyés dans une interface web
 - Source : https://github.com/mailhog/mailhog
 - Analyse source : 2026-10-26T06:41:09.492Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![Screenshot of MailHog web interface](https://raw.githubusercontent.com/docs/MailHog.png)
+
+[Origine](https://raw.githubusercontent.com/mailhog/mailhog/HEAD/README.md)

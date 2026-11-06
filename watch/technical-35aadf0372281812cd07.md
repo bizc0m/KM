@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Permet de déployer des agents modulaires et scalables.
+Fonction · Agents pour automatiser des tâches via des principes 12-factor.  
+Avantages · Intégration avec des outils de DevOps et de CI/CD.  
+Gain · Déployer des agents sans configuration complexe.
 
 ## Identité
 

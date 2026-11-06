@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée des fonds d'écran animés en exportant en vidéo et image
+Fonction · Exporte vidéos et images pour fonds d'écran animés.  
+Avantages · Intégre calendrier NotePlan pour planification.  
+Gain · Créer des fonds d'écran sans logiciel externe.
 
 ## Métadonnées
 
@@ -25,8 +27,8 @@ Crée des fonds d'écran animés en exportant en vidéo et image
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.video domain.media.image domain.dev.desktop compatibility.os.macos source.noteplan source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Développement logiciel > Applications et interfaces de bureau
+- Identifiants : domain.media.video domain.media.image domain.dev.desktop domain.data.organization compatibility.os.macos source.noteplan source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme ; Développement logiciel > Applications et interfaces de bureau ; Données et connaissances > Organisation du travail
 - Compatibilités : Systèmes > macOS
 - Provenance : NotePlan Calendar ; X / Twitter
 - État : Actif

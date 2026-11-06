@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Crée un site de publication avec un CMS open source
+Fonction · Plateforme de publication, newsletters et abonnements.  
+Avantages · Support CDN, sauvegardes et maintenance automatiques.  
+Gain · Déployer un site en 2 minutes, sans configuration manuelle.
 
 ## Identité
 

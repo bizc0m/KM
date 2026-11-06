@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Génère des données pour entraîner un modèle de visionnage optimal.
+Fonction · Planifier la prochaine vue optimale à partir de nuages de points.  
+Avantages · Utilise des réseaux de neurones pour évaluer les vues.  
+Gain · Éviter de tester manuellement chaque vue possible.
 
 ## Identité
 

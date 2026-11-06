@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.
+Fonction · Gère les rendez-vous et les calendriers en local.  
+Avantages · Aucune dépendance commerciale, licence MIT.  
+Gain · Lancer un serveur sans compte ou licence.
 
 ## Identité
 

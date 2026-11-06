@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet d'interagir avec un avatar IA en temps réel
+Fonction · Créer un avatar interactif avec IA et Live2D.  
+Avantages · Support multiplateforme et mode offline.  
+Gain · Lancer des conversations en temps réel sans connexion.
 
 ## Identité
 

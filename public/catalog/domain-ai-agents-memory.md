@@ -6,7 +6,12 @@ Gain · Adapter au projet, lancer les tâches rapidement.
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
 Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export
 Gain · Productivité · Réutilisation · Contexte · Collaboration
-- [headroom](../../watch/technical-668711a6e10728221dfc.md) — Compresses data to reduce token costs while preserving content
+- [headroom](../../watch/technical-668711a6e10728221dfc.md) — Fonction · Comprime les entrées avant l'LLM pour réduire les tokens.
+Avantages · Réduction de 21-57% des tokens selon les scénarios.
+Gain · Éviter d'envoyer des données redondantes sans altérer les réponses.
+- [Hermes Agent](../../watch/nousresearch-hermes-agent.md) — Fonction · Agent IA auto-optimisant avec boucle d'apprentissage.
+Avantages · Mémoire curatée par l'agent avec rappels réguliers.
+Gain · Lancer des tâches complexes sans configuration initiale.
 - [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Permet une collaboration équipe via un agent partagé par canal
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
 - [CodeGraph](../../watch/technical-5ae8aede20b527323884.md) — Analyse le code pour fournir un contexte précis aux agents

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier.
+Fonction · Envoie d'e-mails, reconnaissance optique de texte, recherche YouTube, gestion de tâches.  
+Avantages · Intégration d'API pour les nouvelles dynamiques.  
+Gain · Lancer des tâches sans interface graphique.
 
 ## Métadonnées
 
@@ -25,8 +27,8 @@ Contrôle un navigateur web via des commandes vocales pour une navigation sans c
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.audio domain.media.video domain.science.weather capability.forecast compatibility.language.python source.noteplan source.x source.github lifecycle.active
-- Sujets : Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo ; Sciences et prévision > Prévisions météorologiques
+- Identifiants : domain.media.audio domain.media.video domain.science.weather domain.communication.messaging capability.forecast compatibility.language.python source.noteplan source.x source.github lifecycle.active
+- Sujets : Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo ; Sciences et prévision > Prévisions météorologiques ; Communication et publication > Messagerie
 - Fonctions : Prévoir des mesures
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; X / Twitter ; GitHub
@@ -59,6 +61,8 @@ Contrôle un navigateur web via des commandes vocales pour une navigation sans c
 - https://xon.sh/
 - https://techtalkswithgaurav.blogspot.com/2020/06/your-personal-assistant-jarvis.html?showComment=1696128498625
 - https://techtalkswithgaurav.blogspot.com/2020/06/your-personal-assistant-jarvis.html?showComment=1747560109681
+- https://raw.githubusercontent.com/gauravsingh9356/j.a.r.v.i.s/HEAD/images/Screenshot%20(138).png
+- https://raw.githubusercontent.com/gauravsingh9356/j.a.r.v.i.s/HEAD/README.md
 
 ## Traçabilité
 
@@ -366,3 +370,9 @@ Source : https://techtalkswithgaurav.blogspot.com/2020/06/your-personal-assistan
 - Source : https://github.com/gauravsingh9356/j.a.r.v.i.s
 - Analyse source : 2026-10-26T00:11:57.906Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![Aperçu du produit](https://raw.githubusercontent.com/gauravsingh9356/j.a.r.v.i.s/HEAD/images/Screenshot%20(138).png)
+
+[Origine](https://raw.githubusercontent.com/gauravsingh9356/j.a.r.v.i.s/HEAD/README.md)

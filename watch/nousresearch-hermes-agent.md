@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Gère des tâches complexes avec des modèles externes
+Fonction · Agent IA auto-optimisant avec boucle d'apprentissage.  
+Avantages · Mémoire curatée par l'agent avec rappels réguliers.  
+Gain · Lancer des tâches complexes sans configuration initiale.
 
 ## Identité
 
@@ -29,8 +31,9 @@ Gère des tâches complexes avec des modèles externes
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents domain.infrastructure compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA ; Infrastructure
+- Identifiants : domain.infrastructure domain.ai.agents.memory capability.memory compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
+- Sujets : Infrastructure ; Intelligence artificielle > Agents IA > Mémoire des agents
+- Fonctions : Conserver le contexte
 - Compatibilités : Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

@@ -1,19 +1,45 @@
 # Données et connaissances
 
-- [ani-cli](../../watch/technical-2993f5bd5143a68eff85.md) — Permet de consulter des anime via une interface CLI
-- [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Recherche et stream d'animes via des fournisseurs.
-- [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.
-- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les rendez-vous sans dépendance commerciale.
+- [ani-cli](../../watch/technical-2993f5bd5143a68eff85.md) — Fonction · CLI pour parcourir et visionner des anime via hianime.
+Avantages · Scrapes hianime pour accéder aux épisodes.
+Gain · Lancer des séances de visionnage sans navigateur.
+- [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Fonction · Télécharge et stream des anime via des fournisseurs.
+Avantages · Supporte des paramètres de qualité et de plage d'épisodes.
+Gain · Lancer le streaming ou la téléchargement sans configuration.
+- [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Fonction · Gère les rendez-vous et les calendriers en local.
+Avantages · Aucune dépendance commerciale, licence MIT.
+Gain · Lancer un serveur sans compte ou licence.
+- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Fonction · Gère les rendez-vous et les calendriers en local.
+Avantages · Aucune dépendance commerciale, licence MIT.
+Gain · Lancer un serveur sans compte ou licence.
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
-- [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md)
-- [geo-seo-claude](../../watch/technical-a3b183624a359158d2f2.md) — Analyse la visibilité GEO d'un site en quelques secondes
+- [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md) — Fonction · Extraire des données et télécharger des fichiers depuis des sites web.
+Avantages · Supporte HTML, PDF, JPG, PNG et JavaScript via Playwright.
+Gain · Lancer des tâches de scraping sans configuration complexe.
+- [geo-seo-claude](../../watch/technical-a3b183624a359158d2f2.md) — Fonction · Audit et optimisation SEO pour moteurs AI et moteurs traditionnels.
+Avantages · Analyse de citabilité, balayage de crawlers AI, détection de mentions de marque.
+Gain · Générer rapports PDF, optimiser pour plateformes spécifiques en 60 secondes.
+- [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Fonction · Terminal basé sur AI pour coder, exécuter, gérer des tâches.
+Avantages · Interface TUI interactive, gestion de projets, outils intégrés.
+Gain · Lancer des tâches sans interface graphique, gérer des projets complexes.
 - [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
 - [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
 - [maigret](../../watch/technical-6d84c860baa5311d1e0f.md) — Recherche d'informations sur un utilisateur via des sites web.
-- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
-- [mov-cli](../../watch/technical-9e0cc8c5c3c327b3c50b.md) — Permet de streamer des médias via des plugins configurés.
-- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
-- [PC-NBV](../../watch/technical-c88e811a1a66f8cd57ba.md) — Génère des données pour entraîner un modèle de visionnage optimal.
+- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Fonction · Convertir Markdown en images pour réseaux sociaux.
+Avantages · Templates prédéfinis et personnalisation des thèmes.
+Gain · Générer des images en un clic sans outil externe.
+- [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Fonction · Exporte vidéos et images pour fonds d'écran animés.
+Avantages · Intégre calendrier NotePlan pour planification.
+Gain · Créer des fonds d'écran sans logiciel externe.
+- [mov-cli](../../watch/technical-9e0cc8c5c3c327b3c50b.md) — Fonction · Streamer des médias via des plugins.
+Avantages · Plugins externes pour scraping et lecture.
+Gain · Lancer une recherche et lecture en quelques commandes.
+- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Fonction · Synthétise la voix et génère des vidéos.
+Avantages · Intégre NotePlan et X pour planification.
+Gain · Créer des démos sans abonnement SaaS.
+- [PC-NBV](../../watch/technical-c88e811a1a66f8cd57ba.md) — Fonction · Planifier la prochaine vue optimale à partir de nuages de points.
+Avantages · Utilise des réseaux de neurones pour évaluer les vues.
+Gain · Éviter de tester manuellement chaque vue possible.
 - [Scrapling](../../watch/technical-a352cd98ee30cd20d69a.md) — Extrait des données depuis des pages web statiques ou dynamiques
 - [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Gère les dépendances de projet avec des lockfiles.
 - [AICLIPS Studio](../../watch/technical-937b200dbfd957aae460.md) — Extrait automatiquement des highlights viraux depuis des vidéos YouTube.

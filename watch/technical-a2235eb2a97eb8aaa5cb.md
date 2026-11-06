@@ -10,7 +10,9 @@
 
 ## Intérêts
 
-Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA
+Fonction · Mappage des compétences en cybersécurité aux frameworks MITRE.  
+Avantages · Alignement des compétences avec des modèles de menace standardisés.  
+Gain · Adapter les agents IA à des scénarios de sécurité spécifiques.
 
 ## Métadonnées
 
@@ -359,7 +361,4 @@ Source : https://github.com/mukul975/anthropic-cybersecurity-skills/commit/1a7ca
 
 Mise à jour du script pour gérer les descriptions YAML pliées. Analyse du contenu YAML pour extraire la description. Gestion des paragraphes pliés et littéraux. Mise à jour des références dans le README.md.
 
-- Modification du script pour gérer les descriptions YAML pliées.
-- Analyse du contenu YAML pour extraire la description.
-- Gestion des paragraphes pliés et littéraux.
-- Mise à jour des références da
+- Modification du script pour gérer les descriptio

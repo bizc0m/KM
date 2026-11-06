@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Gérer des projets, wikis et équipes avec une interface intuitive et des outils collaboratifs.
+Fonction · Gérer des projets, wikis et équipes avec IA.  
+Avantages · Données sécurisées et expérience native multiplateformes.  
+Gain · Créer des apps personnalisées sans coder.
 
 ## Identité
 
@@ -27,8 +29,8 @@ Gérer des projets, wikis et équipes avec une interface intuitive et des outils
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.active
-- Sujets : À qualifier
+- Identifiants : domain.ai source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

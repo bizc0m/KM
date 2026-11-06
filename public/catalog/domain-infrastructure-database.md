@@ -1,11 +1,15 @@
 # Bases de données
 
-- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Fonction · Client email self-hosted avec agent AI via Workers.
-Avantages · Isolation par boîte mail avec SQLite et R2.
-Gain · Génère des réponses automatiques pour emails entrants.
+- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Fonction · Client email self-hosted avec agent AI.
+Avantages · Isolation par boîte mail et stockage R2.
+Gain · Générer des réponses en temps réel via Workers AI.
 - [arcada-backend](../../watch/technical-672e5954b0a4b96827a6.md) — Démarrer le serveur backend pour la plateforme de design d'intérieur
-- [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.
-- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les rendez-vous sans dépendance commerciale.
+- [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Fonction · Gère les rendez-vous et les calendriers en local.
+Avantages · Aucune dépendance commerciale, licence MIT.
+Gain · Lancer un serveur sans compte ou licence.
+- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Fonction · Gère les rendez-vous et les calendriers en local.
+Avantages · Aucune dépendance commerciale, licence MIT.
+Gain · Lancer un serveur sans compte ou licence.
 - [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée des applications sans installation locale avec des outils open source.
 - [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Crée des portraits professionnels avec des prompts textuels.
 - [AICLIPS Studio](../../watch/technical-937b200dbfd957aae460.md) — Extrait automatiquement des highlights viraux depuis des vidéos YouTube.

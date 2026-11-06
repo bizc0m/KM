@@ -1,16 +1,16 @@
 {
-  "at": "2026-11-06T16:49:18.118Z",
+  "at": "2026-11-06T17:10:43.724Z",
   "scope": "public-index-only",
   "fiches": 658,
-  "sourceReferences": 2623,
+  "sourceReferences": 2646,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
   "pendingReview": 629,
   "counts": {
-    "interest-missing": 172,
-    "keywords-missing": 91,
-    "domain-unqualified": 119,
+    "interest-missing": 171,
+    "keywords-missing": 87,
+    "domain-unqualified": 115,
     "primary-identity-unqualified": 20,
     "nature-unqualified": 608
   },
@@ -61,7 +61,6 @@
       "id": "watch-technical-14991362ba170a15ca07-md",
       "title": "anacrolix/torrent",
       "reasons": [
-        "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
       ]
@@ -85,7 +84,6 @@
       "title": "AppFlowy",
       "reasons": [
         "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -217,7 +215,6 @@
       "id": "watch-technical-37abca5ae9be9ed91364-md",
       "title": "Crawlee",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -295,7 +292,6 @@
       "id": "watch-technical-e1728cc13c4a61f359d1-md",
       "title": "elevenlabs-python",
       "reasons": [
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -326,7 +322,6 @@
       "id": "watch-technical-7c881fd189f1ece84c8b-md",
       "title": "fzf",
       "reasons": [
-        "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
       ]
@@ -516,8 +511,6 @@
       "id": "watch-technical-0096fb39d8f5defe169d-md",
       "title": "Medusa",
       "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -554,8 +547,6 @@
       "id": "watch-technical-7e07682fe36ee14ea7b5-md",
       "title": "NerfingMVS",
       "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },

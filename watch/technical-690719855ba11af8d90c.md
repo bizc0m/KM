@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Crée des présentations avec des composants React
+Fonction · Génère des diapositives React avec un canvas fixe.  
+Avantages · Intégre un panneau d'agent et un mode commentaire.  
+Gain · Lancer un deck en quelques secondes avec un CLI.
 
 ## Identité
 
@@ -29,10 +31,10 @@ Crée des présentations avec des composants React
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.dev.quality domain.dev.web capability.code.assist compatibility.format.pdf source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.ai.agents.coding domain.dev.quality domain.dev.web capability.code.assist compatibility.format.pdf compatibility.interface.terminal source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel > Qualité du code ; Développement logiciel > Développement web
 - Fonctions : Assister le développement
-- Compatibilités : Formats > PDF
+- Compatibilités : Formats > PDF ; Interfaces > Terminal
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

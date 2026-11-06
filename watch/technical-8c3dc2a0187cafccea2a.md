@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Exécute des tâches de codage localement avec un éditeur.
+Fonction · Exécute des tâches de codage dans le terminal.  
+Avantages · Intégre les modèles de codage d'OpenAI.  
+Gain · Lancer des tâches sans interface graphique.
 
 ## Identité
 

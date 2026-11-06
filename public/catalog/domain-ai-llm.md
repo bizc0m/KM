@@ -3,15 +3,34 @@
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Fonction · Définir des principes pour construire des applications LLM fiables et scalables.
 Avantages · Structurer la logique et les interactions avec les outils.
 Gain · Réduire la complexité et améliorer la maintenance du code.
-- [Browser-Use](../../watch/browser-use-web-automation.md) — Automatiser des tâches web avec un LLM
-- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage sans interface utilisateur.
-- [DeepSeek-Reasonix](../../watch/technical-c292611ef4a4a5e37455.md) — Exécute des tâches de codage avec un modèle d'IA configuré
+- [Browser-Use](../../watch/browser-use-web-automation.md) — Fonction · Automatise la navigation web avec des agents AI.
+Avantages · Supporte des navigateurs furtifs et des proxies résidentiels.
+Gain · Exécuter des tâches sans installer Chrome.
+- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Fonction · Exécute des tâches, modifie des fichiers, exécute des commandes.
+Avantages · Supporte plus de 40 fournisseurs et modèles locaux.
+Gain · Lancer des tâches sans interface, avec ou sans sandbox.
+- [DeepSeek-Reasonix](../../watch/technical-c292611ef4a4a5e37455.md) — Fonction · Lire, modifier, exécuter du code dans un projet.
+Avantages · Contrôle des accès et annulation des modifications.
+Gain · Exécuter des tâches sans toucher le historique Git.
+- [headroom](../../watch/technical-668711a6e10728221dfc.md) — Fonction · Comprime les entrées avant l'LLM pour réduire les tokens.
+Avantages · Réduction de 21-57% des tokens selon les scénarios.
+Gain · Éviter d'envoyer des données redondantes sans altérer les réponses.
 - [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
-- [llama.cpp](../../watch/technical-8f4d2163b5e697a72c77.md) — Exécute des modèles LLM localement avec optimisation matérielle
-- [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Permet d'explorer et de modifier le codebase avec des commandes naturelles
-- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
-- [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel
-- [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Crée des workflows personnalisés avec des extensions
+- [llama.cpp](../../watch/technical-8f4d2163b5e697a72c77.md) — Fonction · Inférer des LLM et VLM en C/C++ sans dépendances.
+Avantages · Optimisé pour Apple Silicon, x86, RISC-V et GPU via CUDA/HIP.
+Gain · Exécuter des modèles quantifiés en 1.5-bit à 8-bit sans serveur.
+- [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Fonction · Interagit avec le code via des commandes CLI.
+Avantages · Gère des tâches comme grep, edition de fichiers.
+Gain · Exécuter des commandes sans quitter le terminal.
+- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Fonction · Accès programmatique à Gemini Notebook via Python, CLI et agents AI.
+Avantages · Fonctionnalités non exposées via l'interface web.
+Gain · Générer des artefacts en masse, exporter en formats multiples.
+- [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Fonction · Créer un avatar interactif avec IA et Live2D.
+Avantages · Support multiplateforme et mode offline.
+Gain · Lancer des conversations en temps réel sans connexion.
+- [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
+Avantages · Intégration de fournisseurs LLM via une API unifiée.
+Gain · Exécuter des tâches de codage sans configuration complexe.
 - [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Protection des données sensibles avant l'envoi vers un API non contrôlé
 - [awesome-ai-video-models](../../watch/technical-e0275c5610589cad14d2.md) — Choisir le modèle de génération de vidéos AI adapté à un projet.
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
+Fonction · Chargement dynamique de compétences pour tâches spécialisées.  
+Avantages · Instructions, scripts et ressources prédéfinis.  
+Gain · Exécuter des tâches répétitives avec précision.
 
 ## Métadonnées
 
@@ -383,5 +385,4 @@ Source : https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-
 
 Protocole ouvert permettant aux applications IA de se connecter à des systèmes externes.
 
-- Permet aux applications IA de se connecter à des sources de données externes.
-- Facilite l'intégration avec des outil
+- Permet au

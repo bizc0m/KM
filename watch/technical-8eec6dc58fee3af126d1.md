@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyse les données pour identifier les problèmes et optimiser les campagnes.
+Fonction · Audit et analyse des comptes publicitaires sur 12 plateformes.  
+Avantages · Rapports JSON versionnés avec preuves et diagnostics.  
+Gain · Lancer des audits et optimiser sans modifier directement les comptes.
 
 ## Identité
 

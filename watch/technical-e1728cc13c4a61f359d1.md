@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Convertir du texte en parole avec des modèles vocaux
+Fonction · Convertir du texte en audio avec des modèles préconfigurés.  
+Avantages · Support de 32 à 70 langues selon le modèle.  
+Gain · Lancer la synthèse vocale en quelques lignes de code.
 
 ## Identité
 
@@ -29,8 +31,9 @@ Convertir du texte en parole avec des modèles vocaux
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified compatibility.language.python source.noteplan source.github source.x lifecycle.active
-- Sujets : À qualifier
+- Identifiants : domain.media.audio.voice capability.voice.synthesize compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Audio > Voix
+- Fonctions : Traitement de la voix > Synthétiser une voix
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

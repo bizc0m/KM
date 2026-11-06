@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Analyse de site et de campagne publicitaire avec des workflows prédéfinis.
+Fonction · Audit de site, analyse de trafic, gestion de campagnes publicitaires.  
+Avantages · Workflow structuré avec données en temps réel et références techniques.  
+Gain · Exécuter des analyses et optimisations sans configuration complexe.
 
 ## Identité
 

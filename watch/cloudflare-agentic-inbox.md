@@ -8,9 +8,9 @@ actif
 
 ## Intérêts
 
-Fonction · Client email self-hosted avec agent AI via Workers.  
-Avantages · Isolation par boîte mail avec SQLite et R2.  
-Gain · Génère des réponses automatiques pour emails entrants.
+Fonction · Client email self-hosted avec agent AI.  
+Avantages · Isolation par boîte mail et stockage R2.  
+Gain · Générer des réponses en temps réel via Workers AI.
 
 ## Identité
 

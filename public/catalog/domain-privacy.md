@@ -1,6 +1,8 @@
 # Protection des données
 
-- [Bark](../../watch/technical-994bb8c95881181b98b3.md) — Envoyer des notifications via URL avec paramètres personnalisés.
+- [Bark](../../watch/technical-994bb8c95881181b98b3.md) — Fonction · Envoyer des notifications personnalisées sur iPhone.
+Avantages · Supporte les groupes et les sons personnalisés.
+Gain · Lancer des tâches sans interface graphique.
 - [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Protection des données sensibles avant l'envoi vers un API non contrôlé
 - [DepthSearch](../../watch/technical-f8b3849874961eb09fd8.md) — Recherche OSINT dans le web profond avec anonymisation et informations système
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)

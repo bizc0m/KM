@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Permet de contourner les filtres de réseau
+Fonction · Proxy résistant à la censure, mode SOCKS5, HTTP, TUN.  
+Avantages · Protocole QUIC, masque le trafic HTTP/3.  
+Gain · Éviter le blocage, connecter via des réseaux instables.
 
 ## Identité
 

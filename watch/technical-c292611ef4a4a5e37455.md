@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Exécute des tâches de codage avec un modèle d'IA configuré
+Fonction · Lire, modifier, exécuter du code dans un projet.  
+Avantages · Contrôle des accès et annulation des modifications.  
+Gain · Exécuter des tâches sans toucher le historique Git.
 
 ## Identité
 

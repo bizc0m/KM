@@ -7,50 +7,112 @@ Gain · Réduire la complexité et améliorer la maintenance du code.
 Avantages · Consignes et livrables prédéfinis.
 Gain · Adapter au projet, lancer les tâches rapidement.
 - [Agent Skills](../../watch/technical-48dbbdd8fd0d302995a7.md) — Définir un format ouvert pour partager les compétences des agents.
-- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Fonction · Client email self-hosted avec agent AI via Workers.
-Avantages · Isolation par boîte mail avec SQLite et R2.
-Gain · Génère des réponses automatiques pour emails entrants.
+- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Fonction · Client email self-hosted avec agent AI.
+Avantages · Isolation par boîte mail et stockage R2.
+Gain · Générer des réponses en temps réel via Workers AI.
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
 Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export
 Gain · Productivité · Réutilisation · Contexte · Collaboration
-- [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Fonction · Automatisation de la création et diffusion de contenu.
-Avantages · Intégration de modèles de IA pour vidéo, image et texte.
-Gain · Publication simultanée sur 14 plateformes sans configuration.
-- [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA
-- [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
-- [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
+- [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Fonction · Créer, publier et monétiser du contenu sur 14 plateformes.
+Avantages · Automatisation de la publication et des interactions.
+Gain · Publier directement sans configuration complexe.
+- [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Fonction · Mappage des compétences en cybersécurité aux frameworks MITRE.
+Avantages · Alignement des compétences avec des modèles de menace standardisés.
+Gain · Adapter les agents IA à des scénarios de sécurité spécifiques.
+- [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fonction · Chargement dynamique de compétences pour tâches spécialisées.
+Avantages · Instructions, scripts et ressources prédéfinis.
+Gain · Exécuter des tâches répétitives avec précision.
+- [AppFlowy](../../watch/technical-40cd4bcbc0fb8cf86c20.md) — Fonction · Gérer des projets, wikis et équipes avec IA.
+Avantages · Données sécurisées et expérience native multiplateformes.
+Gain · Créer des apps personnalisées sans coder.
+- [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Fonction · Génère du code, refactore, débogue via terminal.
+Avantages · Intégre sandbox, orchestration multi-agents, MCP.
+Gain · Lancer des tâches sans interface graphique.
 - [BAML](../../watch/technical-b79207044bee1b2d7073.md) — Crée des agents fiables avec des types statiques.
 - [book-to-skill](../../watch/book-to-skill.md) — Transforme un livre en compétence accessible par un agent IA
-- [book-to-skill](../../watch/technical-389040200a86ce208431.md) — Enregistre les preuves de conversion de livres en compétences.
-- [Browser-Use](../../watch/browser-use-web-automation.md) — Automatiser des tâches web avec un LLM
-- [Claude SEO](../../watch/technical-2ac64d2afb7018ac9ff2.md) — Analyse un site web et propose un plan d'action pour améliorer son référencement
+- [book-to-skill](../../watch/technical-389040200a86ce208431.md) — Fonction · Convertir un livre en compétence pour usage concret.
+Avantages · Données précises sur le format et les tokens générés.
+Gain · Éviter de redéfinir les étapes de traitement du document.
+- [Browser-Use](../../watch/browser-use-web-automation.md) — Fonction · Automatise la navigation web avec des agents AI.
+Avantages · Supporte des navigateurs furtifs et des proxies résidentiels.
+Gain · Exécuter des tâches sans installer Chrome.
+- [Claude SEO](../../watch/technical-2ac64d2afb7018ac9ff2.md) — Fonction · Audit SEO complet en 10 à 15 minutes.
+Avantages · 26 sous-compétences et 19 agents spécialisés.
+Gain · Lancer des tâches d'optimisation rapidement.
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
-- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage sans interface utilisateur.
-- [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Exécute des tâches de codage localement avec un éditeur.
-- [skills_feed](../../watch/technical-57435869059c16d7e579.md) — Collecte et organisation des compétences AI pour un accès centralisé
-- [DeepSeek-Reasonix](../../watch/technical-c292611ef4a4a5e37455.md) — Exécute des tâches de codage avec un modèle d'IA configuré
-- [agents](../../watch/technical-35aadf0372281812cd07.md) — Permet de déployer des agents modulaires et scalables.
-- [DESIGN.md](../../watch/technical-ddda9bed5feda3007847.md) — Facilite la création d'interfaces cohérentes avec un design système.
-- [geo-seo-claude](../../watch/technical-a3b183624a359158d2f2.md) — Analyse la visibilité GEO d'un site en quelques secondes
-- [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Permet d'éditer des fichiers dans un environnement terminal
-- [headroom](../../watch/technical-668711a6e10728221dfc.md) — Compresses data to reduce token costs while preserving content
-- [Hermes Agent](../../watch/nousresearch-hermes-agent.md) — Gère des tâches complexes avec des modèles externes
+- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Fonction · Exécute des tâches, modifie des fichiers, exécute des commandes.
+Avantages · Supporte plus de 40 fournisseurs et modèles locaux.
+Gain · Lancer des tâches sans interface, avec ou sans sandbox.
+- [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Fonction · Exécute des tâches de codage dans le terminal.
+Avantages · Intégre les modèles de codage d'OpenAI.
+Gain · Lancer des tâches sans interface graphique.
+- [skills_feed](../../watch/technical-57435869059c16d7e579.md) — Fonction · Recherche, installation, copie et partage de compétences AI.
+Avantages · Intégration avec des outils de codage comme Claude Code et Cursor.
+Gain · Accéder directement aux compétences via URL GitHub.
+- [DeepSeek-Reasonix](../../watch/technical-c292611ef4a4a5e37455.md) — Fonction · Lire, modifier, exécuter du code dans un projet.
+Avantages · Contrôle des accès et annulation des modifications.
+Gain · Exécuter des tâches sans toucher le historique Git.
+- [agents](../../watch/technical-35aadf0372281812cd07.md) — Fonction · Agents pour automatiser des tâches via des principes 12-factor.
+Avantages · Intégration avec des outils de DevOps et de CI/CD.
+Gain · Déployer des agents sans configuration complexe.
+- [DESIGN.md](../../watch/technical-ddda9bed5feda3007847.md) — Fonction · Générer un UI cohérent avec un DESIGN.md.
+Avantages · Analyse des systèmes de design par des experts.
+Gain · Lancer des tâches de codage sans outil spécial.
+- [geo-seo-claude](../../watch/technical-a3b183624a359158d2f2.md) — Fonction · Audit et optimisation SEO pour moteurs AI et moteurs traditionnels.
+Avantages · Analyse de citabilité, balayage de crawlers AI, détection de mentions de marque.
+Gain · Générer rapports PDF, optimiser pour plateformes spécifiques en 60 secondes.
+- [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Fonction · Terminal basé sur AI pour coder, exécuter, gérer des tâches.
+Avantages · Interface TUI interactive, gestion de projets, outils intégrés.
+Gain · Lancer des tâches sans interface graphique, gérer des projets complexes.
+- [headroom](../../watch/technical-668711a6e10728221dfc.md) — Fonction · Comprime les entrées avant l'LLM pour réduire les tokens.
+Avantages · Réduction de 21-57% des tokens selon les scénarios.
+Gain · Éviter d'envoyer des données redondantes sans altérer les réponses.
+- [Hermes Agent](../../watch/nousresearch-hermes-agent.md) — Fonction · Agent IA auto-optimisant avec boucle d'apprentissage.
+Avantages · Mémoire curatée par l'agent avec rappels réguliers.
+Gain · Lancer des tâches complexes sans configuration initiale.
 - [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
-- [llama.cpp](../../watch/technical-8f4d2163b5e697a72c77.md) — Exécute des modèles LLM localement avec optimisation matérielle
+- [llama.cpp](../../watch/technical-8f4d2163b5e697a72c77.md) — Fonction · Inférer des LLM et VLM en C/C++ sans dépendances.
+Avantages · Optimisé pour Apple Silicon, x86, RISC-V et GPU via CUDA/HIP.
+Gain · Exécuter des modèles quantifiés en 1.5-bit à 8-bit sans serveur.
 - [maigret](../../watch/technical-6d84c860baa5311d1e0f.md) — Recherche d'informations sur un utilisateur via des sites web.
-- [Mailcrew](../../watch/technical-0812a3e04271e2d82124.md) — Traite des tâches via des emails.
+- [Mailcrew](../../watch/technical-0812a3e04271e2d82124.md) — Fonction · Agent email pour Stripe et Coinbase via API.
+Avantages · Interaction par email avec validation humaine.
+Gain · Exécuter des tâches sans interface complexe.
+- [Medusa](../../watch/technical-0096fb39d8f5defe169d.md) — Fonction · Plateforme e-commerce modulaire pour agents et développeurs.
+Avantages · Modules commerciaux et infrastructures prêts à l'emploi.
+Gain · Déployer un magasin ou marketplace sans réinventer la logique métier.
 - [Migration vers Kimi Code CLI](../../watch/technical-15ae02c43b612a6e8c46.md) — Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP.
-- [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Permet d'explorer et de modifier le codebase avec des commandes naturelles
-- [Multica](../../watch/technical-1c299b0df37a055a049d.md) — Assigner des tâches aux agents IA pour gérer le travail.
-- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
-- [NotFair Plugin](../../watch/technical-614a514ae65ec429804d.md) — Analyse de site et de campagne publicitaire avec des workflows prédéfinis.
-- [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Crée des images et vidéos sans filtre de contenu
-- [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Permet d'interagir avec un avatar IA en temps réel
-- [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
-- [openclaw](../../watch/technical-0b5c4741d1c147be5fdd.md) — intègre des canaux de messagerie pour un assistant IA local
+- [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Fonction · Interagit avec le code via des commandes CLI.
+Avantages · Gère des tâches comme grep, edition de fichiers.
+Gain · Exécuter des commandes sans quitter le terminal.
+- [Multica](../../watch/technical-1c299b0df37a055a049d.md) — Fonction · Assigner des tâches aux agents AI sur un espace de travail.
+Avantages · Gestion des tâches avec des outils et runtimes prédéfinis.
+Gain · Lancer des tâches sans recontextualiser, avec suivi en temps réel.
+- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Fonction · Accès programmatique à Gemini Notebook via Python, CLI et agents AI.
+Avantages · Fonctionnalités non exposées via l'interface web.
+Gain · Générer des artefacts en masse, exporter en formats multiples.
+- [NotFair Plugin](../../watch/technical-614a514ae65ec429804d.md) — Fonction · Audit de site, analyse de trafic, gestion de campagnes publicitaires.
+Avantages · Workflow structuré avec données en temps réel et références techniques.
+Gain · Exécuter des analyses et optimisations sans configuration complexe.
+- [Open Generative AI](../../watch/technical-411490b28204e94a3778.md) — Fonction · Générer images et vidéos via 600+ modèles sans filtres.
+Avantages · Accès à des modèles comme Sora, Midjourney, Veo.
+Gain · Lancer des tâches sans abonnement, sans restrictions.
+- [Open-LLM-VTuber](../../watch/technical-00898489ed72fd55e12d.md) — Fonction · Créer un avatar interactif avec IA et Live2D.
+Avantages · Support multiplateforme et mode offline.
+Gain · Lancer des conversations en temps réel sans connexion.
+- [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Fonction · Génère des diapositives React avec un canvas fixe.
+Avantages · Intégre un panneau d'agent et un mode commentaire.
+Gain · Lancer un deck en quelques secondes avec un CLI.
+- [openclaw](../../watch/technical-0b5c4741d1c147be5fdd.md) — Fonction · Assistant IA sur appareils personnels, intégré aux chats.
+Avantages · Modèles et outils interchangeables via plugins.
+Gain · Configurer et lancer des tâches sans service externe.
 - [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel
-- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
-- [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Crée des workflows personnalisés avec des extensions
+- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Fonction · Synthétise la voix et génère des vidéos.
+Avantages · Intégre NotePlan et X pour planification.
+Gain · Créer des démos sans abonnement SaaS.
+- [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
+Avantages · Intégration de fournisseurs LLM via une API unifiée.
+Gain · Exécuter des tâches de codage sans configuration complexe.
 - [Pi](../../watch/technical-c133b93b912dffd605a2.md) — Permet d'automatiser des tâches complexes avec un agent d'intelligence artificielle.
 - [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Protection des données sensibles avant l'envoi vers un API non contrôlé
 - [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Créez des vidéos via du code React, gagnez du temps et plus de contrôle.

@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Créez des interfaces réactives avec des maquettes lisibles par code.
+Fonction · Créer et collaborer sur des designs et prototypes.  
+Avantages · Intégration avec des outils de développement via API.  
+Gain · Exporter directement du code HTML/CSS/SVG sans intermédiaire.
 
 ## Identité
 

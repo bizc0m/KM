@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Sépare les éléments audio d'une piste en utilisant un modèle avancé.
+Fonction · Sépare drums, bass, vocals et autres pistes d'une musique.  
+Avantages · Modèle hybride spectrogramme/vague avec attention croisée.  
+Gain · Lancer la séparation en quelques secondes sans paramètres.
 
 ## Identité
 

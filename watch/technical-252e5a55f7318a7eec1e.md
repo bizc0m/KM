@@ -10,9 +10,9 @@ actif
 
 ## Intérêts
 
-Fonction · Automatisation de la création et diffusion de contenu.  
-Avantages · Intégration de modèles de IA pour vidéo, image et texte.  
-Gain · Publication simultanée sur 14 plateformes sans configuration.
+Fonction · Créer, publier et monétiser du contenu sur 14 plateformes.  
+Avantages · Automatisation de la publication et des interactions.  
+Gain · Publier directement sans configuration complexe.
 
 ## Identité
 

@@ -3,14 +3,34 @@
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
 Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export
 Gain · Productivité · Réutilisation · Contexte · Collaboration
-- [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
-- [Claude SEO](../../watch/technical-2ac64d2afb7018ac9ff2.md) — Analyse un site web et propose un plan d'action pour améliorer son référencement
+- [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Fonction · Génère du code, refactore, débogue via terminal.
+Avantages · Intégre sandbox, orchestration multi-agents, MCP.
+Gain · Lancer des tâches sans interface graphique.
+- [Claude SEO](../../watch/technical-2ac64d2afb7018ac9ff2.md) — Fonction · Audit SEO complet en 10 à 15 minutes.
+Avantages · 26 sous-compétences et 19 agents spécialisés.
+Gain · Lancer des tâches d'optimisation rapidement.
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
-- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage sans interface utilisateur.
-- [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Exécute des tâches de codage localement avec un éditeur.
-- [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Permet d'éditer des fichiers dans un environnement terminal
-- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
-- [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
+- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Fonction · Exécute des tâches, modifie des fichiers, exécute des commandes.
+Avantages · Supporte plus de 40 fournisseurs et modèles locaux.
+Gain · Lancer des tâches sans interface, avec ou sans sandbox.
+- [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Fonction · Exécute des tâches de codage dans le terminal.
+Avantages · Intégre les modèles de codage d'OpenAI.
+Gain · Lancer des tâches sans interface graphique.
+- [skills_feed](../../watch/technical-57435869059c16d7e579.md) — Fonction · Recherche, installation, copie et partage de compétences AI.
+Avantages · Intégration avec des outils de codage comme Claude Code et Cursor.
+Gain · Accéder directement aux compétences via URL GitHub.
+- [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Fonction · Terminal basé sur AI pour coder, exécuter, gérer des tâches.
+Avantages · Interface TUI interactive, gestion de projets, outils intégrés.
+Gain · Lancer des tâches sans interface graphique, gérer des projets complexes.
+- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Fonction · Accès programmatique à Gemini Notebook via Python, CLI et agents AI.
+Avantages · Fonctionnalités non exposées via l'interface web.
+Gain · Générer des artefacts en masse, exporter en formats multiples.
+- [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Fonction · Génère des diapositives React avec un canvas fixe.
+Avantages · Intégre un panneau d'agent et un mode commentaire.
+Gain · Lancer un deck en quelques secondes avec un CLI.
+- [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
+Avantages · Intégration de fournisseurs LLM via une API unifiée.
+Gain · Exécuter des tâches de codage sans configuration complexe.
 - [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md)
 - [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Crée des courts métrages 3D avec un agent de codage.
 - [Kami](../../watch/technical-49226a0e2e05fa223d37.md) — Génère des documents professionnels avec des modèles prédéfinis.

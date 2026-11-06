@@ -1,19 +1,36 @@
 # Infrastructure
 
-- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Fonction · Client email self-hosted avec agent AI via Workers.
-Avantages · Isolation par boîte mail avec SQLite et R2.
-Gain · Génère des réponses automatiques pour emails entrants.
+- [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Fonction · Client email self-hosted avec agent AI.
+Avantages · Isolation par boîte mail et stockage R2.
+Gain · Générer des réponses en temps réel via Workers AI.
 - [arcada-backend](../../watch/technical-672e5954b0a4b96827a6.md) — Démarrer le serveur backend pour la plateforme de design d'intérieur
-- [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
-- [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.
-- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les rendez-vous sans dépendance commerciale.
+- [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Fonction · Génère du code, refactore, débogue via terminal.
+Avantages · Intégre sandbox, orchestration multi-agents, MCP.
+Gain · Lancer des tâches sans interface graphique.
+- [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Fonction · Gère les rendez-vous et les calendriers en local.
+Avantages · Aucune dépendance commerciale, licence MIT.
+Gain · Lancer un serveur sans compte ou licence.
+- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Fonction · Gère les rendez-vous et les calendriers en local.
+Avantages · Aucune dépendance commerciale, licence MIT.
+Gain · Lancer un serveur sans compte ou licence.
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
 - [Cloud Torrent](../../watch/technical-fca1fec32410e408c140.md) — Gère les torrents via une interface web
-- [Hermes Agent](../../watch/nousresearch-hermes-agent.md) — Gère des tâches complexes avec des modèles externes
-- [Hysteria](../../watch/technical-457a0ceb1c2bf60a2841.md) — Permet de contourner les filtres de réseau
-- [MailHog](../../watch/technical-ee446b3bf303b677315c.md) — Afficher les emails envoyés dans une interface web
+- [Hermes Agent](../../watch/nousresearch-hermes-agent.md) — Fonction · Agent IA auto-optimisant avec boucle d'apprentissage.
+Avantages · Mémoire curatée par l'agent avec rappels réguliers.
+Gain · Lancer des tâches complexes sans configuration initiale.
+- [Hysteria](../../watch/technical-457a0ceb1c2bf60a2841.md) — Fonction · Proxy résistant à la censure, mode SOCKS5, HTTP, TUN.
+Avantages · Protocole QUIC, masque le trafic HTTP/3.
+Gain · Éviter le blocage, connecter via des réseaux instables.
+- [llama.cpp](../../watch/technical-8f4d2163b5e697a72c77.md) — Fonction · Inférer des LLM et VLM en C/C++ sans dépendances.
+Avantages · Optimisé pour Apple Silicon, x86, RISC-V et GPU via CUDA/HIP.
+Gain · Exécuter des modèles quantifiés en 1.5-bit à 8-bit sans serveur.
+- [MailHog](../../watch/technical-ee446b3bf303b677315c.md) — Fonction · Tester les emails via SMTP et web UI.
+Avantages · Stockage en mémoire et API JSON.
+Gain · Lancer les tests sans installation.
 - [Migration vers Kimi Code CLI](../../watch/technical-15ae02c43b612a6e8c46.md) — Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP.
-- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
+- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Fonction · Synthétise la voix et génère des vidéos.
+Avantages · Intégre NotePlan et X pour planification.
+Gain · Créer des démos sans abonnement SaaS.
 - [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée des applications sans installation locale avec des outils open source.
 - [velox](../../watch/technical-a2736da3d4b4b5c419aa.md) — Synchronise des objets JSON en temps réel entre serveur et client.
 - [Webtor](../../watch/technical-c45c04c570d8ed1549e8.md) — Permet de gérer des torrents avec streaming et téléchargement direct

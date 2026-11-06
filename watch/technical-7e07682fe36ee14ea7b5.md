@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Génère des cartes de profondeur alignées avec les poses.
+Fonction · Reconstruction 3D à partir de plusieurs vues.  
+Avantages · Intégration de masques pour chaque vue.  
+Gain · Éviter recalcul de poses et reconstruction.
 
 ## Identité
 
@@ -27,8 +29,9 @@ Génère des cartes de profondeur alignées avec les poses.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.active
-- Sujets : À qualifier
+- Identifiants : domain.media.3d capability.generate.3d source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Création 3D
+- Fonctions : Générer des contenus > Générer un objet 3D
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -36,6 +39,8 @@ Génère des cartes de profondeur alignées avec les poses.
 
 - https://github.com/weiyithu/nerfingmvs
 - https://x.com/i/status/2057220561613299720
+- https://raw.githubusercontent.com/weiyithu/nerfingmvs/HEAD/imgs/demo.gif
+- https://raw.githubusercontent.com/weiyithu/nerfingmvs/HEAD/README.md
 
 ## Traçabilité
 
@@ -44,3 +49,9 @@ Génère des cartes de profondeur alignées avec les poses.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![Aperçu du produit](https://raw.githubusercontent.com/weiyithu/nerfingmvs/HEAD/imgs/demo.gif)
+
+[Origine](https://raw.githubusercontent.com/weiyithu/nerfingmvs/HEAD/README.md)

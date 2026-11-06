@@ -1,7 +1,11 @@
 # Connecteurs et outils des agents
 
-- [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Facilite la découverte des outils et compétences pour Codex CLI
-- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage sans interface utilisateur.
+- [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Fonction · Génère du code, refactore, débogue via terminal.
+Avantages · Intégre sandbox, orchestration multi-agents, MCP.
+Gain · Lancer des tâches sans interface graphique.
+- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Fonction · Exécute des tâches, modifie des fichiers, exécute des commandes.
+Avantages · Supporte plus de 40 fournisseurs et modèles locaux.
+Gain · Lancer des tâches sans interface, avec ou sans sandbox.
 - [Migration vers Kimi Code CLI](../../watch/technical-15ae02c43b612a6e8c46.md) — Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP.
 - [UI-TARS-desktop](../../watch/technical-bba9c08d417b5cda22d8.md) — Contrôle à distance des navigateurs et ordinateurs via interface graphique
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Découvrir, évaluer et exécuter 500+ modèles multimodaux en un clic.

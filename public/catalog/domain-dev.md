@@ -3,29 +3,74 @@
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
 Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export
 Gain · Productivité · Réutilisation · Contexte · Collaboration
-- [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Recherche et stream d'animes via des fournisseurs.
-- [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fixer un style visuel avant génération de code pour éviter les templates inadaptés.
+- [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Fonction · Télécharge et stream des anime via des fournisseurs.
+Avantages · Supporte des paramètres de qualité et de plage d'épisodes.
+Gain · Lancer le streaming ou la téléchargement sans configuration.
+- [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fonction · Chargement dynamique de compétences pour tâches spécialisées.
+Avantages · Instructions, scripts et ressources prédéfinis.
+Gain · Exécuter des tâches répétitives avec précision.
 - [BAML](../../watch/technical-b79207044bee1b2d7073.md) — Crée des agents fiables avec des types statiques.
-- [Browser-Use](../../watch/browser-use-web-automation.md) — Automatiser des tâches web avec un LLM
-- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Permet de gérer les rendez-vous sans dépendance commerciale.
-- [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Génère des données 3D à partir de points de contrôle.
+- [Browser-Use](../../watch/browser-use-web-automation.md) — Fonction · Automatise la navigation web avec des agents AI.
+Avantages · Supporte des navigateurs furtifs et des proxies résidentiels.
+Gain · Exécuter des tâches sans installer Chrome.
+- [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Fonction · Gère les rendez-vous et les calendriers en local.
+Avantages · Aucune dépendance commerciale, licence MIT.
+Gain · Lancer un serveur sans compte ou licence.
+- [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Fonction · Génère des styles de cheveux 3D anime via des points de contrôle.
+Avantages · Modèle préentraîné et données de test disponibles.
+Gain · Exécuter des générations et évaluations sans configuration complexe.
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
-- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Exécute des tâches de codage sans interface utilisateur.
-- [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Exécute des tâches de codage localement avec un éditeur.
-- [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md)
-- [DeepSeek-Reasonix](../../watch/technical-c292611ef4a4a5e37455.md) — Exécute des tâches de codage avec un modèle d'IA configuré
-- [cloakbrowser-manager](../../watch/technical-f1bc36a07e9a8a388405.md) — Gère des profils de navigateur avec des paramètres uniques
-- [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Permet d'éditer des fichiers dans un environnement terminal
+- [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Fonction · Exécute des tâches, modifie des fichiers, exécute des commandes.
+Avantages · Supporte plus de 40 fournisseurs et modèles locaux.
+Gain · Lancer des tâches sans interface, avec ou sans sandbox.
+- [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Fonction · Exécute des tâches de codage dans le terminal.
+Avantages · Intégre les modèles de codage d'OpenAI.
+Gain · Lancer des tâches sans interface graphique.
+- [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md) — Fonction · Extraire des données et télécharger des fichiers depuis des sites web.
+Avantages · Supporte HTML, PDF, JPG, PNG et JavaScript via Playwright.
+Gain · Lancer des tâches de scraping sans configuration complexe.
+- [skills_feed](../../watch/technical-57435869059c16d7e579.md) — Fonction · Recherche, installation, copie et partage de compétences AI.
+Avantages · Intégration avec des outils de codage comme Claude Code et Cursor.
+Gain · Accéder directement aux compétences via URL GitHub.
+- [DeepSeek-Reasonix](../../watch/technical-c292611ef4a4a5e37455.md) — Fonction · Lire, modifier, exécuter du code dans un projet.
+Avantages · Contrôle des accès et annulation des modifications.
+Gain · Exécuter des tâches sans toucher le historique Git.
+- [DESIGN.md](../../watch/technical-ddda9bed5feda3007847.md) — Fonction · Générer un UI cohérent avec un DESIGN.md.
+Avantages · Analyse des systèmes de design par des experts.
+Gain · Lancer des tâches de codage sans outil spécial.
+- [cloakbrowser-manager](../../watch/technical-f1bc36a07e9a8a388405.md) — Fonction · Gérer des profils de navigateurs isolés avec des empreintes uniques.
+Avantages · Profils indépendants avec GPU, proxy, cookies et historique distincts.
+Gain · Lancer des tâches sans lien entre les comptes ou l'utilisateur.
+- [Grok Build](../../watch/technical-cc7d258f82fc4f055019.md) — Fonction · Terminal basé sur AI pour coder, exécuter, gérer des tâches.
+Avantages · Interface TUI interactive, gestion de projets, outils intégrés.
+Gain · Lancer des tâches sans interface graphique, gérer des projets complexes.
 - [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
-- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Convertir du markdown en image partageable sur les réseaux sociaux
-- [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Crée des fonds d'écran animés en exportant en vidéo et image
+- [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Fonction · Convertir Markdown en images pour réseaux sociaux.
+Avantages · Templates prédéfinis et personnalisation des thèmes.
+Gain · Générer des images en un clic sans outil externe.
+- [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Fonction · Exporte vidéos et images pour fonds d'écran animés.
+Avantages · Intégre calendrier NotePlan pour planification.
+Gain · Créer des fonds d'écran sans logiciel externe.
 - [MiniSim](../../watch/technical-d93ed6a02625034b1939.md) — Lancer les émulateurs iOS et Android depuis la barre de menus macOS.
-- [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Permet d'explorer et de modifier le codebase avec des commandes naturelles
+- [Mistral Vibe](../../watch/technical-4fed931d247d6cb2a3df.md) — Fonction · Interagit avec le code via des commandes CLI.
+Avantages · Gère des tâches comme grep, edition de fichiers.
+Gain · Exécuter des commandes sans quitter le terminal.
 - [myfish](../../watch/technical-ae2b5f1a3fbdf8f6f54d.md)
-- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Intégration d'agents LLM avec Gemini Notebook
-- [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Crée des présentations avec des composants React
-- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Enregistre des démos nettoyées sans abonnement
-- [Penpot](../../watch/technical-c0d4875dd605f77caf57.md) — Créez des interfaces réactives avec des maquettes lisibles par code.
+- [notebooklm-py](../../watch/technical-78d472c25b2758a70776.md) — Fonction · Accès programmatique à Gemini Notebook via Python, CLI et agents AI.
+Avantages · Fonctionnalités non exposées via l'interface web.
+Gain · Générer des artefacts en masse, exporter en formats multiples.
+- [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Fonction · Génère des diapositives React avec un canvas fixe.
+Avantages · Intégre un panneau d'agent et un mode commentaire.
+Gain · Lancer un deck en quelques secondes avec un CLI.
+- [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Fonction · Synthétise la voix et génère des vidéos.
+Avantages · Intégre NotePlan et X pour planification.
+Gain · Créer des démos sans abonnement SaaS.
+- [Penpot](../../watch/technical-c0d4875dd605f77caf57.md) — Fonction · Créer et collaborer sur des designs et prototypes.
+Avantages · Intégration avec des outils de développement via API.
+Gain · Exporter directement du code HTML/CSS/SVG sans intermédiaire.
+- [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
+Avantages · Intégration de fournisseurs LLM via une API unifiée.
+Gain · Exécuter des tâches de codage sans configuration complexe.
 - [Popcorn Time](../../watch/technical-f2ad2f5dfae253d2f4b6.md) — Accéder à des contenus multimédia via des liens.
 - [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Créez des vidéos via du code React, gagnez du temps et plus de contrôle.
 - [Selenium](../../watch/technical-d03eda2466f2556e6e1c.md) — Automatise les tests web avec des scripts.

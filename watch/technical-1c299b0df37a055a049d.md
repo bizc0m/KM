@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Assigner des tâches aux agents IA pour gérer le travail.
+Fonction · Assigner des tâches aux agents AI sur un espace de travail.  
+Avantages · Gestion des tâches avec des outils et runtimes prédéfinis.  
+Gain · Lancer des tâches sans recontextualiser, avec suivi en temps réel.
 
 ## Identité
 

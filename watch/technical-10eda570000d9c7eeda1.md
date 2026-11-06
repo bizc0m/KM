@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Convertir du markdown en image partageable sur les réseaux sociaux
+Fonction · Convertir Markdown en images pour réseaux sociaux.  
+Avantages · Templates prédéfinis et personnalisation des thèmes.  
+Gain · Générer des images en un clic sans outil externe.
 
 ## Identité
 
@@ -29,9 +31,9 @@ Convertir du markdown en image partageable sur les réseaux sociaux
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.image domain.dev.web domain.data.documents capability.documents.convert source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.media.image domain.dev.web domain.data.documents capability.documents.convert capability.generate.image source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Images et graphisme ; Développement logiciel > Développement web ; Données et connaissances > Documents
-- Fonctions : Traiter des documents > Convertir des documents
+- Fonctions : Traiter des documents > Convertir des documents ; Générer des contenus > Générer une image
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

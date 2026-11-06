@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Gère les contenus reproduits via des règles définies
+Fonction · Gère les contenus reproduits via des règles définies.  
+Avantages · Sujets et provenance documentés.  
+Gain · Éviter la duplication manuelle des contenus.
 
 ## Métadonnées
 

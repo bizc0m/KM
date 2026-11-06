@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-intègre des canaux de messagerie pour un assistant IA local
+Fonction · Assistant IA sur appareils personnels, intégré aux chats.  
+Avantages · Modèles et outils interchangeables via plugins.  
+Gain · Configurer et lancer des tâches sans service externe.
 
 ## Identité
 

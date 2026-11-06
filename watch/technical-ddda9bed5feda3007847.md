@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Facilite la création d'interfaces cohérentes avec un design système.
+Fonction · Générer un UI cohérent avec un DESIGN.md.  
+Avantages · Analyse des systèmes de design par des experts.  
+Gain · Lancer des tâches de codage sans outil spécial.
 
 ## Identité
 
@@ -27,8 +29,8 @@ Facilite la création d'interfaces cohérentes avec un design système.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA
+- Identifiants : domain.ai.agents domain.dev.quality source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel > Qualité du code
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

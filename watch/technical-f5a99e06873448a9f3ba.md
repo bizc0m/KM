@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Transcrire des fichiers audio plus rapidement avec moins de ressources.
+Fonction · Transcription audio avec CTranslate2.  
+Avantages · Plus rapide et moins gourmand en mémoire.  
+Gain · Lancer la transcription sans installer FFmpeg.
 
 ## Identité
 

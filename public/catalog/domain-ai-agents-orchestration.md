@@ -1,5 +1,8 @@
 # Orchestration des agents
 
+- [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Fonction · Génère du code, refactore, débogue via terminal.
+Avantages · Intégre sandbox, orchestration multi-agents, MCP.
+Gain · Lancer des tâches sans interface graphique.
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
 - [Génération automatique de micro-dramas vidéo](../../watch/technical-041ee9bffa76ace2d6ef.md) — Crée un micro-drama vidéo à partir d'une idée
 - [Open Multi-Agent (OMA)](../../watch/technical-b1a37537c70048612638.md) — Gère l'orchestration des agents avec approbations durables et enregistrements vérifiables.

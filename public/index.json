@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-06T16:49:17.920Z",
+  "at": "2026-11-06T17:10:43.526Z",
   "count": 658,
   "rows": [
     {
@@ -1755,7 +1755,7 @@
       "github": "https://github.com/cloudflare/agentic-inbox",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Fonction · Client email self-hosted avec agent AI via Workers.  \nAvantages · Isolation par boîte mail avec SQLite et R2.  \nGain · Génère des réponses automatiques pour emails entrants.",
+      "summary": "Fonction · Client email self-hosted avec agent AI.  \nAvantages · Isolation par boîte mail et stockage R2.  \nGain · Générer des réponses en temps réel via Workers AI.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -2188,7 +2188,7 @@
         }
       ],
       "cardTitle": "Agentic Inbox",
-      "cardInterest": "Fonction · Client email self-hosted avec agent AI via Workers.\nAvantages · Isolation par boîte mail avec SQLite et R2.\nGain · Génère des réponses automatiques pour emails entrants."
+      "cardInterest": "Fonction · Client email self-hosted avec agent AI.\nAvantages · Isolation par boîte mail et stockage R2.\nGain · Générer des réponses en temps réel via Workers AI."
     },
     {
       "id": "watch-technical-ea311829e667eb1acdcc-md",
@@ -2910,7 +2910,7 @@
       "github": "https://github.com/yikart/aitoearn",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Fonction · Automatisation de la création et diffusion de contenu.  \nAvantages · Intégration de modèles de IA pour vidéo, image et texte.  \nGain · Publication simultanée sur 14 plateformes sans configuration.",
+      "summary": "Fonction · Créer, publier et monétiser du contenu sur 14 plateformes.  \nAvantages · Automatisation de la publication et des interactions.  \nGain · Publier directement sans configuration complexe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -3504,7 +3504,7 @@
         }
       ],
       "cardTitle": "AiToEarn",
-      "cardInterest": "Fonction · Automatisation de la création et diffusion de contenu.\nAvantages · Intégration de modèles de IA pour vidéo, image et texte.\nGain · Publication simultanée sur 14 plateformes sans configuration."
+      "cardInterest": "Fonction · Créer, publier et monétiser du contenu sur 14 plateformes.\nAvantages · Automatisation de la publication et des interactions.\nGain · Publier directement sans configuration complexe."
     },
     {
       "id": "watch-technical-ca3c69add82754901cf6-md",
@@ -3910,7 +3910,11 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [],
+      "tags": [
+        "#utp",
+        "#webtorrent",
+        "#terminal"
+      ],
       "status": "actif",
       "path": "watch/technical-14991362ba170a15ca07.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-14991362ba170a15ca07.md",
@@ -3932,7 +3936,7 @@
       "github": "https://github.com/anacrolix/torrent",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet de télécharger des torrents depuis la ligne de commande. Résultat : fichier téléchargé complet.",
+      "summary": "Fonction · Client BitTorrent avec outils et bibliothèque Go.  \nAvantages · Support DHT, uTP, WebTorrent, et stockage personnalisable.  \nGain · Lancer des téléchargements et gérer des torrents via CLI.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -3945,7 +3949,9 @@
             "domain.unclassified"
           ],
           "capability": [],
-          "compatibility": [],
+          "compatibility": [
+            "compatibility.interface.terminal"
+          ],
           "risk": [],
           "source": [
             "source.noteplan",
@@ -3957,6 +3963,38 @@
           ]
         },
         "concepts": [
+          {
+            "id": "compatibility.interface.terminal",
+            "label": "Terminal",
+            "parent": "compatibility.interface",
+            "aliases": [
+              "#terminal",
+              "#cli"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces",
+              "Terminal"
+            ]
+          },
+          {
+            "id": "compatibility.interface",
+            "label": "Interfaces",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
           {
             "id": "lifecycle.active",
             "label": "Actif",
@@ -4036,9 +4074,44 @@
             "path": []
           }
         ],
-        "unmappedTags": []
+        "unmappedTags": [
+          "#utp",
+          "#webtorrent"
+        ]
       },
       "concepts": [
+        {
+          "id": "compatibility.interface.terminal",
+          "label": "Terminal",
+          "parent": "compatibility.interface",
+          "aliases": [
+            "#terminal",
+            "#cli"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces",
+            "Terminal"
+          ]
+        },
+        {
+          "id": "compatibility.interface",
+          "label": "Interfaces",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
         {
           "id": "lifecycle.active",
           "label": "Actif",
@@ -4118,9 +4191,28 @@
           "path": []
         }
       ],
-      "keywords": [],
+      "keywords": [
+        {
+          "label": "#utp",
+          "fullLabel": "utp",
+          "color": "tool",
+          "tag": "#utp"
+        },
+        {
+          "label": "#webtorrent",
+          "fullLabel": "webtorrent",
+          "color": "tool",
+          "tag": "#webtorrent"
+        },
+        {
+          "label": "#terminal",
+          "fullLabel": "terminal",
+          "color": "tool",
+          "tag": "#terminal"
+        }
+      ],
       "cardTitle": "anacrolix/torrent",
-      "cardInterest": "Permet de télécharger des torrents depuis la ligne de commande."
+      "cardInterest": "Fonction · Client BitTorrent avec outils et bibliothèque Go.\nAvantages · Support DHT, uTP, WebTorrent, et stockage personnalisable.\nGain · Lancer des téléchargements et gérer des torrents via CLI."
     },
     {
       "id": "watch-technical-2993f5bd5143a68eff85-md",
@@ -4169,7 +4261,7 @@
       "github": "https://github.com/pystardust/ani-cli",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet de consulter des anime via une interface CLI",
+      "summary": "Fonction · CLI pour parcourir et visionner des anime via hianime.  \nAvantages · Scrapes hianime pour accéder aux épisodes.  \nGain · Lancer des séances de visionnage sans navigateur.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -4514,7 +4606,7 @@
         }
       ],
       "cardTitle": "ani-cli",
-      "cardInterest": "Permet de consulter des anime via une interface CLI"
+      "cardInterest": "Fonction · CLI pour parcourir et visionner des anime via hianime.\nAvantages · Scrapes hianime pour accéder aux épisodes.\nGain · Lancer des séances de visionnage sans navigateur."
     },
     {
       "id": "watch-technical-42965a7ae63080ec3407-md",
@@ -4562,7 +4654,7 @@
       "github": "https://github.com/justfoolingaround/animdl",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Recherche et stream d'animes via des fournisseurs.",
+      "summary": "Fonction · Télécharge et stream des anime via des fournisseurs.  \nAvantages · Supporte des paramètres de qualité et de plage d'épisodes.  \nGain · Lancer le streaming ou la téléchargement sans configuration.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -4924,7 +5016,7 @@
         }
       ],
       "cardTitle": "animdl",
-      "cardInterest": "Recherche et stream d'animes via des fournisseurs."
+      "cardInterest": "Fonction · Télécharge et stream des anime via des fournisseurs.\nAvantages · Supporte des paramètres de qualité et de plage d'épisodes.\nGain · Lancer le streaming ou la téléchargement sans configuration."
     },
     {
       "id": "watch-technical-a2235eb2a97eb8aaa5cb-md",
@@ -5128,7 +5220,7 @@
       "github": "",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA",
+      "summary": "Fonction · Mappage des compétences en cybersécurité aux frameworks MITRE.  \nAvantages · Alignement des compétences avec des modèles de menace standardisés.  \nGain · Adapter les agents IA à des scénarios de sécurité spécifiques.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -5512,7 +5604,7 @@
         }
       ],
       "cardTitle": "Anthropic-Cybersecurity-Skills",
-      "cardInterest": "Mappage des compétences en cybersécurité aux frameworks MITRE pour agents d'IA"
+      "cardInterest": "Fonction · Mappage des compétences en cybersécurité aux frameworks MITRE.\nAvantages · Alignement des compétences avec des modèles de menace standardisés.\nGain · Adapter les agents IA à des scénarios de sécurité spécifiques."
     },
     {
       "id": "watch-technical-4ebbe613827a1ffc3c29-md",
@@ -5747,7 +5839,7 @@
       "github": "https://github.com/anthropics/skills",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Fixer un style visuel avant génération de code pour éviter les templates inadaptés.",
+      "summary": "Fonction · Chargement dynamique de compétences pour tâches spécialisées.  \nAvantages · Instructions, scripts et ressources prédéfinis.  \nGain · Exécuter des tâches répétitives avec précision.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -6181,7 +6273,7 @@
         }
       ],
       "cardTitle": "Anthropic/skills",
-      "cardInterest": "Fixer un style visuel avant génération de code pour éviter les templates inadaptés."
+      "cardInterest": "Fonction · Chargement dynamique de compétences pour tâches spécialisées.\nAvantages · Instructions, scripts et ressources prédéfinis.\nGain · Exécuter des tâches répétitives avec précision."
     },
     {
       "id": "watch-technical-40cd4bcbc0fb8cf86c20-md",
@@ -6239,17 +6331,17 @@
       "github": "https://github.com/appflowy-io/appflowy",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Gérer des projets, wikis et équipes avec une interface intuitive et des outils collaboratifs.",
+      "summary": "Fonction · Gérer des projets, wikis et équipes avec IA.  \nAvantages · Données sécurisées et expérience native multiplateformes.  \nGain · Créer des apps personnalisées sans coder.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
-      "theme": "tool",
-      "themeLabel": "À qualifier",
+      "theme": "llm",
+      "themeLabel": "Intelligence artificielle",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.unclassified"
+            "domain.ai"
           ],
           "capability": [],
           "compatibility": [],
@@ -6264,6 +6356,36 @@
           ]
         },
         "concepts": [
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
           {
             "id": "lifecycle.active",
             "label": "Actif",
@@ -6322,30 +6444,41 @@
             "path": [
               "X / Twitter"
             ]
-          },
-          {
-            "id": "domain.unclassified",
-            "label": "À qualifier",
-            "parent": "domain",
-            "aliases": [],
-            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
-            "facet": "domain",
-            "path": [
-              "À qualifier"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
           }
         ],
         "unmappedTags": []
       },
       "concepts": [
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
         {
           "id": "lifecycle.active",
           "label": "Actif",
@@ -6404,30 +6537,11 @@
           "path": [
             "X / Twitter"
           ]
-        },
-        {
-          "id": "domain.unclassified",
-          "label": "À qualifier",
-          "parent": "domain",
-          "aliases": [],
-          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
-          "facet": "domain",
-          "path": [
-            "À qualifier"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
         }
       ],
       "keywords": [],
       "cardTitle": "AppFlowy",
-      "cardInterest": "Gérer des projets, wikis et équipes avec une interface intuitive et des outils collaboratifs."
+      "cardInterest": "Fonction · Gérer des projets, wikis et équipes avec IA.\nAvantages · Données sécurisées et expérience native multiplateformes.\nGain · Créer des apps personnalisées sans coder."
     },
     {
       "id": "watch-technical-26c8fae19248128175bf-md",
@@ -6996,7 +7110,8 @@
       "shareable": true,
       "tags": [
         "#generation-3d",
-        "#python"
+        "#python",
+        "#generation-images"
       ],
       "status": "actif",
       "path": "watch/technical-674690abd042252d5376.md",
@@ -7019,7 +7134,7 @@
       "github": "https://github.com/assembler3d/assembler3d",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Assemble des pièces 3D à partir de données GLB et PNG.",
+      "summary": "Fonction · Assembler 3D via diffusion de points d'ancrage.  \nAvantages · Génère des assemblages à partir de modèles et d'images de référence.  \nGain · Éviter la modélisation manuelle des assemblages 3D.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -7029,10 +7144,12 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.media.3d"
+            "domain.media.3d",
+            "domain.media.image"
           ],
           "capability": [
-            "capability.generate.3d"
+            "capability.generate.3d",
+            "capability.generate.image"
           ],
           "compatibility": [
             "compatibility.language.python"
@@ -7081,6 +7198,30 @@
             "path": []
           },
           {
+            "id": "domain.media.image",
+            "label": "Images et graphisme",
+            "parent": "domain.media",
+            "aliases": [
+              "#compression-images",
+              "#generation-images",
+              "#animation-svg",
+              "#image",
+              "#design",
+              "#svg",
+              "#inspiration"
+            ],
+            "patterns": [
+              "\\bimages?\\b",
+              "\\bsvg\\b",
+              "visual intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Images et graphisme"
+            ]
+          },
+          {
             "id": "capability.generate.3d",
             "label": "Générer un objet 3D",
             "parent": "capability.generate",
@@ -7110,6 +7251,19 @@
             "aliases": [],
             "facet": "capability",
             "path": []
+          },
+          {
+            "id": "capability.generate.image",
+            "label": "Générer une image",
+            "parent": "capability.generate",
+            "aliases": [
+              "#generation-images"
+            ],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus",
+              "Générer une image"
+            ]
           },
           {
             "id": "compatibility.language.python",
@@ -7238,6 +7392,30 @@
           "path": []
         },
         {
+          "id": "domain.media.image",
+          "label": "Images et graphisme",
+          "parent": "domain.media",
+          "aliases": [
+            "#compression-images",
+            "#generation-images",
+            "#animation-svg",
+            "#image",
+            "#design",
+            "#svg",
+            "#inspiration"
+          ],
+          "patterns": [
+            "\\bimages?\\b",
+            "\\bsvg\\b",
+            "visual intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Images et graphisme"
+          ]
+        },
+        {
           "id": "capability.generate.3d",
           "label": "Générer un objet 3D",
           "parent": "capability.generate",
@@ -7267,6 +7445,19 @@
           "aliases": [],
           "facet": "capability",
           "path": []
+        },
+        {
+          "id": "capability.generate.image",
+          "label": "Générer une image",
+          "parent": "capability.generate",
+          "aliases": [
+            "#generation-images"
+          ],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus",
+            "Générer une image"
+          ]
         },
         {
           "id": "compatibility.language.python",
@@ -7371,10 +7562,16 @@
           "fullLabel": "python",
           "color": "dev",
           "tag": "#python"
+        },
+        {
+          "label": "#Images",
+          "fullLabel": "Génération d’images",
+          "color": "media",
+          "tag": "#generation-images"
         }
       ],
       "cardTitle": "Assembler3d",
-      "cardInterest": "Assemble des pièces 3D à partir de données GLB et PNG."
+      "cardInterest": "Fonction · Assembler 3D via diffusion de points d'ancrage.\nAvantages · Génère des assemblages à partir de modèles et d'images de référence.\nGain · Éviter la modélisation manuelle des assemblages 3D."
     },
     {
       "id": "watch-technical-8e516fbfe344018b3245-md",
@@ -7400,7 +7597,8 @@
       "shareable": true,
       "tags": [
         "#mcp",
-        "#terminal"
+        "#terminal",
+        "#orchestration-agents"
       ],
       "status": "actif",
       "path": "watch/technical-8e516fbfe344018b3245.md",
@@ -7423,7 +7621,7 @@
       "github": "https://github.com/roggeohta/awesome-codex-cli",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Facilite la découverte des outils et compétences pour Codex CLI",
+      "summary": "Fonction · Génère du code, refactore, débogue via terminal.  \nAvantages · Intégre sandbox, orchestration multi-agents, MCP.  \nGain · Lancer des tâches sans interface graphique.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -7435,9 +7633,12 @@
           "domain": [
             "domain.ai.agents.coding",
             "domain.infrastructure",
-            "domain.ai.agents.integration"
+            "domain.ai.agents.integration",
+            "domain.ai.agents.orchestration"
           ],
-          "capability": [],
+          "capability": [
+            "capability.automation.orchestrate"
+          ],
           "compatibility": [
             "compatibility.protocol.mcp",
             "compatibility.interface.terminal"
@@ -7571,6 +7772,65 @@
               "Agents IA",
               "Connecteurs et outils des agents"
             ]
+          },
+          {
+            "id": "domain.ai.agents.orchestration",
+            "label": "Orchestration des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#orchestration-agents",
+              "#multi-agent",
+              "#orchestration",
+              "#ai-agency"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Orchestration des agents"
+            ]
+          },
+          {
+            "id": "capability.automation.orchestrate",
+            "label": "Coordonner des agents",
+            "parent": "capability.automation",
+            "aliases": [
+              "#orchestration-agents",
+              "#multi-agent",
+              "#orchestration"
+            ],
+            "facet": "capability",
+            "path": [
+              "Automatiser des actions",
+              "Coordonner des agents"
+            ]
+          },
+          {
+            "id": "capability.automation",
+            "label": "Automatiser des actions",
+            "parent": "capability",
+            "aliases": [
+              "#automation",
+              "#workflow",
+              "#workflows",
+              "#ui-automation"
+            ],
+            "patterns": [
+              "automatise.*tests",
+              "automatisation"
+            ],
+            "facet": "capability",
+            "path": [
+              "Automatiser des actions"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
           },
           {
             "id": "compatibility.protocol.mcp",
@@ -7811,6 +8071,65 @@
           ]
         },
         {
+          "id": "domain.ai.agents.orchestration",
+          "label": "Orchestration des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#orchestration-agents",
+            "#multi-agent",
+            "#orchestration",
+            "#ai-agency"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Orchestration des agents"
+          ]
+        },
+        {
+          "id": "capability.automation.orchestrate",
+          "label": "Coordonner des agents",
+          "parent": "capability.automation",
+          "aliases": [
+            "#orchestration-agents",
+            "#multi-agent",
+            "#orchestration"
+          ],
+          "facet": "capability",
+          "path": [
+            "Automatiser des actions",
+            "Coordonner des agents"
+          ]
+        },
+        {
+          "id": "capability.automation",
+          "label": "Automatiser des actions",
+          "parent": "capability",
+          "aliases": [
+            "#automation",
+            "#workflow",
+            "#workflows",
+            "#ui-automation"
+          ],
+          "patterns": [
+            "automatise.*tests",
+            "automatisation"
+          ],
+          "facet": "capability",
+          "path": [
+            "Automatiser des actions"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
           "id": "compatibility.protocol.mcp",
           "label": "MCP",
           "parent": "compatibility.protocol",
@@ -7938,10 +8257,16 @@
           "fullLabel": "terminal",
           "color": "tool",
           "tag": "#terminal"
+        },
+        {
+          "label": "#Orchestration",
+          "fullLabel": "Orchestration des agents",
+          "color": "agent",
+          "tag": "#orchestration-agents"
         }
       ],
       "cardTitle": "Awesome Codex CLI",
-      "cardInterest": "Facilite la découverte des outils et compétences pour Codex CLI"
+      "cardInterest": "Fonction · Génère du code, refactore, débogue via terminal.\nAvantages · Intégre sandbox, orchestration multi-agents, MCP.\nGain · Lancer des tâches sans interface graphique."
     },
     {
       "id": "watch-technical-b79207044bee1b2d7073-md",
@@ -8351,7 +8676,7 @@
       "github": "https://github.com/finb/bark",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Envoyer des notifications via URL avec paramètres personnalisés.",
+      "summary": "Fonction · Envoyer des notifications personnalisées sur iPhone.  \nAvantages · Supporte les groupes et les sons personnalisés.  \nGain · Lancer des tâches sans interface graphique.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -8644,7 +8969,7 @@
         }
       ],
       "cardTitle": "Bark",
-      "cardInterest": "Envoyer des notifications via URL avec paramètres personnalisés."
+      "cardInterest": "Fonction · Envoyer des notifications personnalisées sur iPhone.\nAvantages · Supporte les groupes et les sons personnalisés.\nGain · Lancer des tâches sans interface graphique."
     },
     {
       "id": "watch-book-to-skill-md",
@@ -9443,7 +9768,7 @@
       "github": "https://github.com/virgiliojr94/book-to-skill-use-cases",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Enregistre les preuves de conversion de livres en compétences.",
+      "summary": "Fonction · Convertir un livre en compétence pour usage concret.  \nAvantages · Données précises sur le format et les tokens générés.  \nGain · Éviter de redéfinir les étapes de traitement du document.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -9792,7 +10117,7 @@
         }
       ],
       "cardTitle": "book-to-skill",
-      "cardInterest": "Enregistre les preuves de conversion de livres en compétences."
+      "cardInterest": "Fonction · Convertir un livre en compétence pour usage concret.\nAvantages · Données précises sur le format et les tokens générés.\nGain · Éviter de redéfinir les étapes de traitement du document."
     },
     {
       "id": "watch-browser-use-web-automation-md",
@@ -9840,7 +10165,7 @@
       "github": "https://github.com/browser-use/browser-use",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Automatiser des tâches web avec un LLM",
+      "summary": "Fonction · Automatise la navigation web avec des agents AI.  \nAvantages · Supporte des navigateurs furtifs et des proxies résidentiels.  \nGain · Exécuter des tâches sans installer Chrome.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -10331,7 +10656,7 @@
         }
       ],
       "cardTitle": "Browser-Use",
-      "cardInterest": "Automatiser des tâches web avec un LLM"
+      "cardInterest": "Fonction · Automatise la navigation web avec des agents AI.\nAvantages · Supporte des navigateurs furtifs et des proxies résidentiels.\nGain · Exécuter des tâches sans installer Chrome."
     },
     {
       "id": "watch-technical-159ec935b39905997411-md",
@@ -10923,7 +11248,7 @@
       "github": "https://github.com/calcom/cal.diy",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale.",
+      "summary": "Fonction · Gère les rendez-vous et les calendriers en local.  \nAvantages · Aucune dépendance commerciale, licence MIT.  \nGain · Lancer un serveur sans compte ou licence.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -11249,7 +11574,7 @@
         }
       ],
       "cardTitle": "Cal.diy",
-      "cardInterest": "Permet de gérer les disponibilités et rendez-vous sans dépendance commerciale."
+      "cardInterest": "Fonction · Gère les rendez-vous et les calendriers en local.\nAvantages · Aucune dépendance commerciale, licence MIT.\nGain · Lancer un serveur sans compte ou licence."
     },
     {
       "id": "watch-technical-cb5d126cbda2eedef29e-md",
@@ -11315,7 +11640,7 @@
       "github": "https://github.com/calcom/cal.com",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet de gérer les rendez-vous sans dépendance commerciale.",
+      "summary": "Fonction · Gère les rendez-vous et les calendriers en local.  \nAvantages · Aucune dépendance commerciale, licence MIT.  \nGain · Lancer un serveur sans compte ou licence.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -11714,7 +12039,7 @@
         }
       ],
       "cardTitle": "Cal.diy",
-      "cardInterest": "Permet de gérer les rendez-vous sans dépendance commerciale."
+      "cardInterest": "Fonction · Gère les rendez-vous et les calendriers en local.\nAvantages · Aucune dépendance commerciale, licence MIT.\nGain · Lancer un serveur sans compte ou licence."
     },
     {
       "id": "watch-technical-4f72d6274858ca1e8190-md",
@@ -11762,7 +12087,7 @@
       "github": "https://github.com/hyz317/charm",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Génère des données 3D à partir de points de contrôle.",
+      "summary": "Fonction · Génère des styles de cheveux 3D anime via des points de contrôle.  \nAvantages · Modèle préentraîné et données de test disponibles.  \nGain · Exécuter des générations et évaluations sans configuration complexe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -12140,7 +12465,7 @@
         }
       ],
       "cardTitle": "CHARM",
-      "cardInterest": "Génère des données 3D à partir de points de contrôle."
+      "cardInterest": "Fonction · Génère des styles de cheveux 3D anime via des points de contrôle.\nAvantages · Modèle préentraîné et données de test disponibles.\nGain · Exécuter des générations et évaluations sans configuration complexe."
     },
     {
       "id": "watch-technical-8eec6dc58fee3af126d1-md",
@@ -12188,7 +12513,7 @@
       "github": "https://github.com/agricidaniel/claude-ads",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Analyse les données pour identifier les problèmes et optimiser les campagnes.",
+      "summary": "Fonction · Audit et analyse des comptes publicitaires sur 12 plateformes.  \nAvantages · Rapports JSON versionnés avec preuves et diagnostics.  \nGain · Lancer des audits et optimiser sans modifier directement les comptes.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -12479,7 +12804,7 @@
         }
       ],
       "cardTitle": "Claude Ads",
-      "cardInterest": "Analyse les données pour identifier les problèmes et optimiser les campagnes."
+      "cardInterest": "Fonction · Audit et analyse des comptes publicitaires sur 12 plateformes.\nAvantages · Rapports JSON versionnés avec preuves et diagnostics.\nGain · Lancer des audits et optimiser sans modifier directement les comptes."
     },
     {
       "id": "watch-technical-2ac64d2afb7018ac9ff2-md",
@@ -12503,7 +12828,9 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [],
+      "tags": [
+        "#skills-agents"
+      ],
       "status": "actif",
       "path": "watch/technical-2ac64d2afb7018ac9ff2.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-2ac64d2afb7018ac9ff2.md",
@@ -12520,12 +12847,30 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/agricidaniel/claude-seo/HEAD/screenshots/seo-command-demo.gif",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/agricidaniel/claude-seo/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/agricidaniel/claude-seo/HEAD/screenshots/seo-audit-demo.gif",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/agricidaniel/claude-seo",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Analyse un site web et propose un plan d'action pour améliorer son référencement",
+      "summary": "Fonction · Audit SEO complet en 10 à 15 minutes.  \nAvantages · 26 sous-compétences et 19 agents spécialisés.  \nGain · Lancer des tâches d'optimisation rapidement.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -12535,9 +12880,12 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents.coding"
+            "domain.ai.agents.coding",
+            "domain.ai.agents.skills"
           ],
-          "capability": [],
+          "capability": [
+            "capability.skills"
+          ],
           "compatibility": [],
           "risk": [],
           "source": [
@@ -12624,6 +12972,46 @@
             "parent": null,
             "aliases": [],
             "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.ai.agents.skills",
+            "label": "Compétences des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#skills-agents",
+              "#agent-skills",
+              "#skills"
+            ],
+            "patterns": [
+              "\\bskills?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Compétences des agents"
+            ]
+          },
+          {
+            "id": "capability.skills",
+            "label": "Étendre les compétences d’un agent",
+            "parent": "capability",
+            "aliases": [
+              "#skills-agents",
+              "#agent-skills"
+            ],
+            "facet": "capability",
+            "path": [
+              "Étendre les compétences d’un agent"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
             "path": []
           },
           {
@@ -12766,6 +13154,46 @@
           "path": []
         },
         {
+          "id": "domain.ai.agents.skills",
+          "label": "Compétences des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#skills-agents",
+            "#agent-skills",
+            "#skills"
+          ],
+          "patterns": [
+            "\\bskills?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Compétences des agents"
+          ]
+        },
+        {
+          "id": "capability.skills",
+          "label": "Étendre les compétences d’un agent",
+          "parent": "capability",
+          "aliases": [
+            "#skills-agents",
+            "#agent-skills"
+          ],
+          "facet": "capability",
+          "path": [
+            "Étendre les compétences d’un agent"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -12827,14 +13255,14 @@
       ],
       "keywords": [
         {
-          "label": "#agents-code",
-          "fullLabel": "agents-code",
+          "label": "#Skills",
+          "fullLabel": "Compétences des agents",
           "color": "agent",
-          "subjectId": "domain.ai.agents.coding"
+          "tag": "#skills-agents"
         }
       ],
       "cardTitle": "Claude SEO",
-      "cardInterest": "Analyse un site web et propose un plan d'action pour améliorer son référencement"
+      "cardInterest": "Fonction · Audit SEO complet en 10 à 15 minutes.\nAvantages · 26 sous-compétences et 19 agents spécialisés.\nGain · Lancer des tâches d'optimisation rapidement."
     },
     {
       "id": "watch-technical-533d51d9d3dea76fea8f-md",
@@ -13826,7 +14254,7 @@
       "github": "https://github.com/cloakhq/cloakbrowser",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Contourner les détections anti-bot avec un navigateur modifié.",
+      "summary": "Fonction · Remplace Playwright/Puppeteer pour naviguer en mode furtif.  \nAvantages · Passe 50+ tests de détection anti-bot.  \nGain · Lancer des tâches sans config, avec un seul import.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -14111,7 +14539,7 @@
         }
       ],
       "cardTitle": "CloakBrowser",
-      "cardInterest": "Contourner les détections anti-bot avec un navigateur modifié."
+      "cardInterest": "Fonction · Remplace Playwright/Puppeteer pour naviguer en mode furtif.\nAvantages · Passe 50+ tests de détection anti-bot.\nGain · Lancer des tâches sans config, avec un seul import."
     },
     {
       "id": "watch-technical-fca1fec32410e408c140-md",
@@ -14418,12 +14846,24 @@
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/hmbown/deepseek-tui/HEAD/web/public/codewhale-tui-0102-demo.png",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/hmbown/deepseek-tui/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/hmbown/deepseek-tui",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Exécute des tâches de codage sans interface utilisateur.",
+      "summary": "Fonction · Exécute des tâches, modifie des fichiers, exécute des commandes.  \nAvantages · Supporte plus de 40 fournisseurs et modèles locaux.  \nGain · Lancer des tâches sans interface, avec ou sans sandbox.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -15106,7 +15546,7 @@
         }
       ],
       "cardTitle": "CodeWhale",
-      "cardInterest": "Exécute des tâches de codage sans interface utilisateur."
+      "cardInterest": "Fonction · Exécute des tâches, modifie des fichiers, exécute des commandes.\nAvantages · Supporte plus de 40 fournisseurs et modèles locaux.\nGain · Lancer des tâches sans interface, avec ou sans sandbox."
     },
     {
       "id": "watch-technical-8c3dc2a0187cafccea2a-md",
@@ -15166,7 +15606,7 @@
       "github": "https://github.com/openai/codex",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Exécute des tâches de codage localement avec un éditeur.",
+      "summary": "Fonction · Exécute des tâches de codage dans le terminal.  \nAvantages · Intégre les modèles de codage d'OpenAI.  \nGain · Lancer des tâches sans interface graphique.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -15687,7 +16127,7 @@
         }
       ],
       "cardTitle": "Codex CLI",
-      "cardInterest": "Exécute des tâches de codage localement avec un éditeur."
+      "cardInterest": "Fonction · Exécute des tâches de codage dans le terminal.\nAvantages · Intégre les modèles de codage d'OpenAI.\nGain · Lancer des tâches sans interface graphique."
     },
     {
       "id": "watch-technical-4dbf8b61c8b24b3bf369-md",
@@ -16099,7 +16539,8 @@
       "tags": [
         "#extraction-web",
         "#automatisation-navigateur",
-        "#python"
+        "#python",
+        "#pdf"
       ],
       "status": "actif",
       "path": "watch/technical-37abca5ae9be9ed91364.md",
@@ -16122,7 +16563,7 @@
       "github": "https://github.com/apify/crawlee-python",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Fonction · Extraire des données et télécharger des fichiers depuis des sites web.  \nAvantages · Supporte HTML, PDF, JPG, PNG et JavaScript via Playwright.  \nGain · Lancer des tâches de scraping sans configuration complexe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -16140,7 +16581,8 @@
             "capability.automation.browser"
           ],
           "compatibility": [
-            "compatibility.language.python"
+            "compatibility.language.python",
+            "compatibility.format.pdf"
           ],
           "risk": [],
           "source": [
@@ -16315,6 +16757,29 @@
             "aliases": [],
             "facet": "compatibility",
             "path": []
+          },
+          {
+            "id": "compatibility.format.pdf",
+            "label": "PDF",
+            "parent": "compatibility.format",
+            "aliases": [
+              "#pdf"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Formats",
+              "PDF"
+            ]
+          },
+          {
+            "id": "compatibility.format",
+            "label": "Formats",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Formats"
+            ]
           },
           {
             "id": "lifecycle.active",
@@ -16543,6 +17008,29 @@
           "path": []
         },
         {
+          "id": "compatibility.format.pdf",
+          "label": "PDF",
+          "parent": "compatibility.format",
+          "aliases": [
+            "#pdf"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Formats",
+            "PDF"
+          ]
+        },
+        {
+          "id": "compatibility.format",
+          "label": "Formats",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Formats"
+          ]
+        },
+        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -16620,10 +17108,16 @@
           "fullLabel": "python",
           "color": "dev",
           "tag": "#python"
+        },
+        {
+          "label": "#pdf",
+          "fullLabel": "pdf",
+          "color": "tool",
+          "tag": "#pdf"
         }
       ],
       "cardTitle": "Crawlee",
-      "cardInterest": ""
+      "cardInterest": "Fonction · Extraire des données et télécharger des fichiers depuis des sites web.\nAvantages · Supporte HTML, PDF, JPG, PNG et JavaScript via Playwright.\nGain · Lancer des tâches de scraping sans configuration complexe."
     },
     {
       "id": "watch-technical-57435869059c16d7e579-md",
@@ -16677,7 +17171,7 @@
       "github": "https://github.com/neversight/skills_feed",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Collecte et organisation des compétences AI pour un accès centralisé",
+      "summary": "Fonction · Recherche, installation, copie et partage de compétences AI.  \nAvantages · Intégration avec des outils de codage comme Claude Code et Cursor.  \nGain · Accéder directement aux compétences via URL GitHub.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -16687,7 +17181,9 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents.skills"
+            "domain.ai.agents.skills",
+            "domain.ai.agents.coding",
+            "domain.dev.quality"
           ],
           "capability": [
             "capability.skills"
@@ -16777,6 +17273,73 @@
             "aliases": [],
             "facet": "domain",
             "path": []
+          },
+          {
+            "id": "domain.ai.agents.coding",
+            "label": "Agents de développement",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents"
+            ],
+            "patterns": [
+              "claude code",
+              "\\bcodex\\b",
+              "coding agents?",
+              "agents? de cod"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Agents de développement"
+            ]
+          },
+          {
+            "id": "domain.dev.quality",
+            "label": "Qualité du code",
+            "parent": "domain.dev",
+            "aliases": [
+              "#code-review",
+              "#sast",
+              "#tests",
+              "#linting"
+            ],
+            "patterns": [
+              "reformat.*code",
+              "code python",
+              "codage",
+              "linting"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel",
+              "Qualité du code"
+            ]
+          },
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
+            ]
           },
           {
             "id": "capability.skills",
@@ -16937,6 +17500,73 @@
           "path": []
         },
         {
+          "id": "domain.ai.agents.coding",
+          "label": "Agents de développement",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents"
+          ],
+          "patterns": [
+            "claude code",
+            "\\bcodex\\b",
+            "coding agents?",
+            "agents? de cod"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Agents de développement"
+          ]
+        },
+        {
+          "id": "domain.dev.quality",
+          "label": "Qualité du code",
+          "parent": "domain.dev",
+          "aliases": [
+            "#code-review",
+            "#sast",
+            "#tests",
+            "#linting"
+          ],
+          "patterns": [
+            "reformat.*code",
+            "code python",
+            "codage",
+            "linting"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel",
+            "Qualité du code"
+          ]
+        },
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
+          ]
+        },
+        {
           "id": "capability.skills",
           "label": "Étendre les compétences d’un agent",
           "parent": "capability",
@@ -17026,7 +17656,7 @@
         }
       ],
       "cardTitle": "skills_feed",
-      "cardInterest": "Collecte et organisation des compétences AI pour un accès centralisé"
+      "cardInterest": "Fonction · Recherche, installation, copie et partage de compétences AI.\nAvantages · Intégration avec des outils de codage comme Claude Code et Cursor.\nGain · Accéder directement aux compétences via URL GitHub."
     },
     {
       "id": "watch-technical-74dc45b5f749db3d46d0-md",
@@ -17067,12 +17697,24 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/thu-lyj-lab/darkfeat/HEAD/fig/fig.gif",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/thu-lyj-lab/darkfeat/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/thu-lyj-lab/darkfeat",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Analyse des images RAW sombres avec détection de caractéristiques robuste",
+      "summary": "Fonction · Détecte et décrit des caractéristiques dans des images RAW très sombres.  \nAvantages · Résistant au bruit et adapté aux conditions extrêmes.  \nGain · Éviter la prétraitement complexe pour les images faiblement éclairées.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -17313,7 +17955,7 @@
         }
       ],
       "cardTitle": "DarkFeat",
-      "cardInterest": "Analyse des images RAW sombres avec détection de caractéristiques robuste"
+      "cardInterest": "Fonction · Détecte et décrit des caractéristiques dans des images RAW très sombres.\nAvantages · Résistant au bruit et adapté aux conditions extrêmes.\nGain · Éviter la prétraitement complexe pour les images faiblement éclairées."
     },
     {
       "id": "watch-technical-c292611ef4a4a5e37455-md",
@@ -17337,7 +17979,9 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [],
+      "tags": [
+        "#modifier"
+      ],
       "status": "actif",
       "path": "watch/technical-c292611ef4a4a5e37455.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-c292611ef4a4a5e37455.md",
@@ -17359,7 +18003,7 @@
       "github": "https://github.com/esengine/deepseek-reasonix",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Exécute des tâches de codage avec un modèle d'IA configuré",
+      "summary": "Fonction · Lire, modifier, exécuter du code dans un projet.  \nAvantages · Contrôle des accès et annulation des modifications.  \nGain · Exécuter des tâches sans toucher le historique Git.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -17577,7 +18221,9 @@
             ]
           }
         ],
-        "unmappedTags": []
+        "unmappedTags": [
+          "#modifier"
+        ]
       },
       "concepts": [
         {
@@ -17772,20 +18418,14 @@
       ],
       "keywords": [
         {
-          "label": "#LLM",
-          "fullLabel": "Modèles de langage",
-          "color": "llm",
-          "subjectId": "domain.ai.llm"
-        },
-        {
-          "label": "#code-review",
-          "fullLabel": "code-review",
-          "color": "dev",
-          "subjectId": "domain.dev.quality"
+          "label": "#modifier",
+          "fullLabel": "modifier",
+          "color": "tool",
+          "tag": "#modifier"
         }
       ],
       "cardTitle": "DeepSeek-Reasonix",
-      "cardInterest": "Exécute des tâches de codage avec un modèle d'IA configuré"
+      "cardInterest": "Fonction · Lire, modifier, exécuter du code dans un projet.\nAvantages · Contrôle des accès et annulation des modifications.\nGain · Exécuter des tâches sans toucher le historique Git."
     },
     {
       "id": "watch-technical-c10d8f74eadd9334181e-md",
@@ -17809,7 +18449,9 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [],
+      "tags": [
+        "#bass"
+      ],
       "status": "actif",
       "path": "watch/technical-c10d8f74eadd9334181e.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-c10d8f74eadd9334181e.md",
@@ -17831,7 +18473,7 @@
       "github": "https://github.com/facebookresearch/demucs",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Sépare les éléments audio d'une piste en utilisant un modèle avancé.",
+      "summary": "Fonction · Sépare drums, bass, vocals et autres pistes d'une musique.  \nAvantages · Modèle hybride spectrogramme/vague avec attention croisée.  \nGain · Lancer la séparation en quelques secondes sans paramètres.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -17953,7 +18595,9 @@
             ]
           }
         ],
-        "unmappedTags": []
+        "unmappedTags": [
+          "#bass"
+        ]
       },
       "concepts": [
         {
@@ -18055,14 +18699,14 @@
       ],
       "keywords": [
         {
-          "label": "#audio",
-          "fullLabel": "audio",
-          "color": "media",
-          "subjectId": "domain.media.audio"
+          "label": "#bass",
+          "fullLabel": "bass",
+          "color": "tool",
+          "tag": "#bass"
         }
       ],
       "cardTitle": "Demucs",
-      "cardInterest": "Sépare les éléments audio d'une piste en utilisant un modèle avancé."
+      "cardInterest": "Fonction · Sépare drums, bass, vocals et autres pistes d'une musique.\nAvantages · Modèle hybride spectrogramme/vague avec attention croisée.\nGain · Lancer la séparation en quelques secondes sans paramètres."
     },
     {
       "id": "watch-technical-35aadf0372281812cd07-md",
@@ -18108,7 +18752,7 @@
       "github": "https://github.com/got-agents/agents",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet de déployer des agents modulaires et scalables.",
+      "summary": "Fonction · Agents pour automatiser des tâches via des principes 12-factor.  \nAvantages · Intégration avec des outils de DevOps et de CI/CD.  \nGain · Déployer des agents sans configuration complexe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -18375,7 +19019,7 @@
         }
       ],
       "cardTitle": "agents",
-      "cardInterest": "Permet de déployer des agents modulaires et scalables."
+      "cardInterest": "Fonction · Agents pour automatiser des tâches via des principes 12-factor.\nAvantages · Intégration avec des outils de DevOps et de CI/CD.\nGain · Déployer des agents sans configuration complexe."
     },
     {
       "id": "watch-technical-ddda9bed5feda3007847-md",
@@ -18421,7 +19065,7 @@
       "github": "https://github.com/voltagent/awesome-design-md",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Facilite la création d'interfaces cohérentes avec un design système.",
+      "summary": "Fonction · Générer un UI cohérent avec un DESIGN.md.  \nAvantages · Analyse des systèmes de design par des experts.  \nGain · Lancer des tâches de codage sans outil spécial.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -18431,7 +19075,8 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents"
+            "domain.ai.agents",
+            "domain.dev.quality"
           ],
           "capability": [],
           "compatibility": [],
@@ -18500,6 +19145,52 @@
             "aliases": [],
             "facet": "domain",
             "path": []
+          },
+          {
+            "id": "domain.dev.quality",
+            "label": "Qualité du code",
+            "parent": "domain.dev",
+            "aliases": [
+              "#code-review",
+              "#sast",
+              "#tests",
+              "#linting"
+            ],
+            "patterns": [
+              "reformat.*code",
+              "code python",
+              "codage",
+              "linting"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel",
+              "Qualité du code"
+            ]
+          },
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
+            ]
           },
           {
             "id": "lifecycle.active",
@@ -18620,6 +19311,52 @@
           "path": []
         },
         {
+          "id": "domain.dev.quality",
+          "label": "Qualité du code",
+          "parent": "domain.dev",
+          "aliases": [
+            "#code-review",
+            "#sast",
+            "#tests",
+            "#linting"
+          ],
+          "patterns": [
+            "reformat.*code",
+            "code python",
+            "codage",
+            "linting"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel",
+            "Qualité du code"
+          ]
+        },
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
+          ]
+        },
+        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -18685,10 +19422,16 @@
           "fullLabel": "ai-agents",
           "color": "agent",
           "subjectId": "domain.ai.agents"
+        },
+        {
+          "label": "#code-review",
+          "fullLabel": "code-review",
+          "color": "dev",
+          "subjectId": "domain.dev.quality"
         }
       ],
       "cardTitle": "DESIGN.md",
-      "cardInterest": "Facilite la création d'interfaces cohérentes avec un design système."
+      "cardInterest": "Fonction · Générer un UI cohérent avec un DESIGN.md.\nAvantages · Analyse des systèmes de design par des experts.\nGain · Lancer des tâches de codage sans outil spécial."
     },
     {
       "id": "watch-technical-80c1535b6e69bb84082c-md",
@@ -19129,7 +19872,8 @@
       "publishable": true,
       "shareable": true,
       "tags": [
-        "#generation-images"
+        "#generation-images",
+        "#generation-3d"
       ],
       "status": "actif",
       "path": "watch/technical-f977c26fe64e30184a6f.md",
@@ -19152,7 +19896,7 @@
       "github": "https://github.com/huggingface/diffusers",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Génère des images à partir de texte avec des modèles préentraînés.",
+      "summary": "Fonction · Générer des images, audio, 3D moléculaires via modèles diffusion.  \nAvantages · Pipelines prêts à l'emploi, modèles et schedulers interchangeables.  \nGain · Lancer des générations en quelques lignes de code.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -19163,10 +19907,12 @@
         "facets": {
           "domain": [
             "domain.media.audio",
-            "domain.media.image"
+            "domain.media.image",
+            "domain.media.3d"
           ],
           "capability": [
-            "capability.generate.image"
+            "capability.generate.image",
+            "capability.generate.3d"
           ],
           "compatibility": [],
           "risk": [],
@@ -19242,6 +19988,20 @@
             ]
           },
           {
+            "id": "domain.media.3d",
+            "label": "Création 3D",
+            "parent": "domain.media",
+            "aliases": [
+              "#generation-3d",
+              "#3d"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Création 3D"
+            ]
+          },
+          {
             "id": "capability.generate.image",
             "label": "Générer une image",
             "parent": "capability.generate",
@@ -19271,6 +20031,19 @@
             "aliases": [],
             "facet": "capability",
             "path": []
+          },
+          {
+            "id": "capability.generate.3d",
+            "label": "Générer un objet 3D",
+            "parent": "capability.generate",
+            "aliases": [
+              "#generation-3d"
+            ],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus",
+              "Générer un objet 3D"
+            ]
           },
           {
             "id": "lifecycle.active",
@@ -19397,6 +20170,20 @@
           ]
         },
         {
+          "id": "domain.media.3d",
+          "label": "Création 3D",
+          "parent": "domain.media",
+          "aliases": [
+            "#generation-3d",
+            "#3d"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Création 3D"
+          ]
+        },
+        {
           "id": "capability.generate.image",
           "label": "Générer une image",
           "parent": "capability.generate",
@@ -19426,6 +20213,19 @@
           "aliases": [],
           "facet": "capability",
           "path": []
+        },
+        {
+          "id": "capability.generate.3d",
+          "label": "Générer un objet 3D",
+          "parent": "capability.generate",
+          "aliases": [
+            "#generation-3d"
+          ],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus",
+            "Générer un objet 3D"
+          ]
         },
         {
           "id": "lifecycle.active",
@@ -19493,10 +20293,16 @@
           "fullLabel": "Génération d’images",
           "color": "media",
           "tag": "#generation-images"
+        },
+        {
+          "label": "#generation-3d",
+          "fullLabel": "generation-3d",
+          "color": "media",
+          "tag": "#generation-3d"
         }
       ],
       "cardTitle": "diffusers",
-      "cardInterest": "Génère des images à partir de texte avec des modèles préentraînés."
+      "cardInterest": "Fonction · Générer des images, audio, 3D moléculaires via modèles diffusion.\nAvantages · Pipelines prêts à l'emploi, modèles et schedulers interchangeables.\nGain · Lancer des générations en quelques lignes de code."
     },
     {
       "id": "watch-technical-f1fa1897837db4db2e4d-md",
@@ -19521,7 +20327,8 @@
       "publishable": true,
       "shareable": true,
       "tags": [
-        "#generation-3d"
+        "#generation-3d",
+        "#generation-images"
       ],
       "status": "actif",
       "path": "watch/technical-f1fa1897837db4db2e4d.md",
@@ -19544,7 +20351,7 @@
       "github": "https://github.com/dreamtechai/direct3d-s2",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Génère des modèles 3D à haute résolution avec efficacité.",
+      "summary": "Fonction · Génère des formes 3D haute résolution à partir d'images.  \nAvantages · Vitesse d'inférence 12,2× plus rapide grâce à SSA.  \nGain · Créer des modèles 1024³ avec 8 GPU au lieu de 32.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -19554,10 +20361,12 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.media.3d"
+            "domain.media.3d",
+            "domain.media.image"
           ],
           "capability": [
-            "capability.generate.3d"
+            "capability.generate.3d",
+            "capability.generate.image"
           ],
           "compatibility": [],
           "risk": [],
@@ -19604,6 +20413,30 @@
             "path": []
           },
           {
+            "id": "domain.media.image",
+            "label": "Images et graphisme",
+            "parent": "domain.media",
+            "aliases": [
+              "#compression-images",
+              "#generation-images",
+              "#animation-svg",
+              "#image",
+              "#design",
+              "#svg",
+              "#inspiration"
+            ],
+            "patterns": [
+              "\\bimages?\\b",
+              "\\bsvg\\b",
+              "visual intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Images et graphisme"
+            ]
+          },
+          {
             "id": "capability.generate.3d",
             "label": "Générer un objet 3D",
             "parent": "capability.generate",
@@ -19633,6 +20466,19 @@
             "aliases": [],
             "facet": "capability",
             "path": []
+          },
+          {
+            "id": "capability.generate.image",
+            "label": "Générer une image",
+            "parent": "capability.generate",
+            "aliases": [
+              "#generation-images"
+            ],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus",
+              "Générer une image"
+            ]
           },
           {
             "id": "lifecycle.active",
@@ -19730,6 +20576,30 @@
           "path": []
         },
         {
+          "id": "domain.media.image",
+          "label": "Images et graphisme",
+          "parent": "domain.media",
+          "aliases": [
+            "#compression-images",
+            "#generation-images",
+            "#animation-svg",
+            "#image",
+            "#design",
+            "#svg",
+            "#inspiration"
+          ],
+          "patterns": [
+            "\\bimages?\\b",
+            "\\bsvg\\b",
+            "visual intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Images et graphisme"
+          ]
+        },
+        {
           "id": "capability.generate.3d",
           "label": "Générer un objet 3D",
           "parent": "capability.generate",
@@ -19759,6 +20629,19 @@
           "aliases": [],
           "facet": "capability",
           "path": []
+        },
+        {
+          "id": "capability.generate.image",
+          "label": "Générer une image",
+          "parent": "capability.generate",
+          "aliases": [
+            "#generation-images"
+          ],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus",
+            "Générer une image"
+          ]
         },
         {
           "id": "lifecycle.active",
@@ -19826,10 +20709,16 @@
           "fullLabel": "generation-3d",
           "color": "media",
           "tag": "#generation-3d"
+        },
+        {
+          "label": "#Images",
+          "fullLabel": "Génération d’images",
+          "color": "media",
+          "tag": "#generation-images"
         }
       ],
       "cardTitle": "Direct3D-S2",
-      "cardInterest": "Génère des modèles 3D à haute résolution avec efficacité."
+      "cardInterest": "Fonction · Génère des formes 3D haute résolution à partir d'images.\nAvantages · Vitesse d'inférence 12,2× plus rapide grâce à SSA.\nGain · Créer des modèles 1024³ avec 8 GPU au lieu de 32."
     },
     {
       "id": "watch-technical-fb7d8c0c8a030338b784-md",
@@ -19878,7 +20767,7 @@
       "github": "https://github.com/rany2/edge-tts",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Convertir du texte en parole parlée MP3 avec sous-titres SRT via Microsoft Edge.",
+      "summary": "Fonction · Convertir du texte en parole via Microsoft Edge.  \nAvantages · Utilisation sans Edge, gestion des voix et paramètres.  \nGain · Générer et jouer des fichiers audio rapidement.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -20285,7 +21174,7 @@
         }
       ],
       "cardTitle": "edge-tts",
-      "cardInterest": "Convertir du texte en parole parlée MP3 avec sous-titres SRT via Microsoft Edge."
+      "cardInterest": "Fonction · Convertir du texte en parole via Microsoft Edge.\nAvantages · Utilisation sans Edge, gestion des voix et paramètres.\nGain · Générer et jouer des fichiers audio rapidement."
     },
     {
       "id": "watch-technical-e1728cc13c4a61f359d1-md",
@@ -20310,7 +21199,8 @@
       "publishable": true,
       "shareable": true,
       "tags": [
-        "#python"
+        "#python",
+        "#synthese-vocale"
       ],
       "status": "actif",
       "path": "watch/technical-e1728cc13c4a61f359d1.md",
@@ -20333,19 +21223,21 @@
       "github": "https://github.com/elevenlabs/elevenlabs-python",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Convertir du texte en parole avec des modèles vocaux",
+      "summary": "Fonction · Convertir du texte en audio avec des modèles préconfigurés.  \nAvantages · Support de 32 à 70 langues selon le modèle.  \nGain · Lancer la synthèse vocale en quelques lignes de code.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
-      "theme": "tool",
-      "themeLabel": "À qualifier",
+      "theme": "media",
+      "themeLabel": "Voix",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.unclassified"
+            "domain.media.audio.voice"
           ],
-          "capability": [],
+          "capability": [
+            "capability.voice.synthesize"
+          ],
           "compatibility": [
             "compatibility.language.python"
           ],
@@ -20360,6 +21252,95 @@
           ]
         },
         "concepts": [
+          {
+            "id": "domain.media.audio.voice",
+            "label": "Voix",
+            "parent": "domain.media.audio",
+            "aliases": [
+              "#synthese-vocale",
+              "#clonage-vocal",
+              "#transcription",
+              "#traduction-audio",
+              "#voice",
+              "#tts",
+              "#speech-to-text"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Audio",
+              "Voix"
+            ]
+          },
+          {
+            "id": "domain.media.audio",
+            "label": "Audio",
+            "parent": "domain.media",
+            "aliases": [
+              "#audio"
+            ],
+            "patterns": [
+              "\\baudio\\b",
+              "creation musicale",
+              "\\bvoix\\b",
+              "\\bvocale\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Audio"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "capability.voice.synthesize",
+            "label": "Synthétiser une voix",
+            "parent": "capability.voice",
+            "aliases": [
+              "#synthese-vocale",
+              "#tts"
+            ],
+            "facet": "capability",
+            "path": [
+              "Traitement de la voix",
+              "Synthétiser une voix"
+            ]
+          },
+          {
+            "id": "capability.voice",
+            "label": "Traitement de la voix",
+            "parent": "capability",
+            "aliases": [],
+            "facet": "capability",
+            "path": [
+              "Traitement de la voix"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
           {
             "id": "compatibility.language.python",
             "label": "Python",
@@ -20449,30 +21430,100 @@
             "path": [
               "X / Twitter"
             ]
-          },
-          {
-            "id": "domain.unclassified",
-            "label": "À qualifier",
-            "parent": "domain",
-            "aliases": [],
-            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
-            "facet": "domain",
-            "path": [
-              "À qualifier"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
           }
         ],
         "unmappedTags": []
       },
       "concepts": [
+        {
+          "id": "domain.media.audio.voice",
+          "label": "Voix",
+          "parent": "domain.media.audio",
+          "aliases": [
+            "#synthese-vocale",
+            "#clonage-vocal",
+            "#transcription",
+            "#traduction-audio",
+            "#voice",
+            "#tts",
+            "#speech-to-text"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Audio",
+            "Voix"
+          ]
+        },
+        {
+          "id": "domain.media.audio",
+          "label": "Audio",
+          "parent": "domain.media",
+          "aliases": [
+            "#audio"
+          ],
+          "patterns": [
+            "\\baudio\\b",
+            "creation musicale",
+            "\\bvoix\\b",
+            "\\bvocale\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Audio"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "capability.voice.synthesize",
+          "label": "Synthétiser une voix",
+          "parent": "capability.voice",
+          "aliases": [
+            "#synthese-vocale",
+            "#tts"
+          ],
+          "facet": "capability",
+          "path": [
+            "Traitement de la voix",
+            "Synthétiser une voix"
+          ]
+        },
+        {
+          "id": "capability.voice",
+          "label": "Traitement de la voix",
+          "parent": "capability",
+          "aliases": [],
+          "facet": "capability",
+          "path": [
+            "Traitement de la voix"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
         {
           "id": "compatibility.language.python",
           "label": "Python",
@@ -20562,25 +21613,6 @@
           "path": [
             "X / Twitter"
           ]
-        },
-        {
-          "id": "domain.unclassified",
-          "label": "À qualifier",
-          "parent": "domain",
-          "aliases": [],
-          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
-          "facet": "domain",
-          "path": [
-            "À qualifier"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
         }
       ],
       "keywords": [
@@ -20589,10 +21621,16 @@
           "fullLabel": "python",
           "color": "dev",
           "tag": "#python"
+        },
+        {
+          "label": "#TTS",
+          "fullLabel": "Synthèse vocale",
+          "color": "media",
+          "tag": "#synthese-vocale"
         }
       ],
       "cardTitle": "elevenlabs-python",
-      "cardInterest": "Convertir du texte en parole avec des modèles vocaux"
+      "cardInterest": "Fonction · Convertir du texte en audio avec des modèles préconfigurés.\nAvantages · Support de 32 à 70 langues selon le modèle.\nGain · Lancer la synthèse vocale en quelques lignes de code."
     },
     {
       "id": "watch-technical-a63a06d0b2276c289423-md",
@@ -20640,7 +21678,7 @@
       "github": "https://github.com/swivid/f5-tts",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Synthétise de la parole fluide et fidèle à partir de texte.",
+      "summary": "Fonction · Génère de la parole synthétisée fluide et fidèle.  \nAvantages · Utilise Flow Matching pour améliorer la qualité.  \nGain · Éviter l'entraînement de modèles vocaux complets.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -20977,7 +22015,7 @@
         }
       ],
       "cardTitle": "F5-TTS",
-      "cardInterest": "Synthétise de la parole fluide et fidèle à partir de texte."
+      "cardInterest": "Fonction · Génère de la parole synthétisée fluide et fidèle.\nAvantages · Utilise Flow Matching pour améliorer la qualité.\nGain · Éviter l'entraînement de modèles vocaux complets."
     },
     {
       "id": "watch-technical-f5a99e06873448a9f3ba-md",
@@ -21025,7 +22063,7 @@
       "github": "https://github.com/systran/faster-whisper",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Transcrire des fichiers audio plus rapidement avec moins de ressources.",
+      "summary": "Fonction · Transcription audio avec CTranslate2.  \nAvantages · Plus rapide et moins gourmand en mémoire.  \nGain · Lancer la transcription sans installer FFmpeg.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -21364,7 +22402,7 @@
         }
       ],
       "cardTitle": "faster-whisper",
-      "cardInterest": "Transcrire des fichiers audio plus rapidement avec moins de ressources."
+      "cardInterest": "Fonction · Transcription audio avec CTranslate2.\nAvantages · Plus rapide et moins gourmand en mémoire.\nGain · Lancer la transcription sans installer FFmpeg."
     },
     {
       "id": "watch-technical-7ae9451cd62fb317043f-md",
@@ -21518,7 +22556,7 @@
       "github": "",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Gère les contenus reproduits via des règles définies",
+      "summary": "Fonction · Gère les contenus reproduits via des règles définies.  \nAvantages · Sujets et provenance documentés.  \nGain · Éviter la duplication manuelle des contenus.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -21685,7 +22723,7 @@
       ],
       "keywords": [],
       "cardTitle": "Formulaire Web YouTube",
-      "cardInterest": "Gère les contenus reproduits via des règles définies"
+      "cardInterest": "Fonction · Gère les contenus reproduits via des règles définies.\nAvantages · Sujets et provenance documentés.\nGain · Éviter la duplication manuelle des contenus."
     },
     {
       "id": "watch-technical-7c881fd189f1ece84c8b-md",
@@ -21709,7 +22747,9 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [],
+      "tags": [
+        "#zsh"
+      ],
       "status": "actif",
       "path": "watch/technical-7c881fd189f1ece84c8b.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-7c881fd189f1ece84c8b.md",
@@ -21726,12 +22766,24 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/junegunn/i/master/fzf-preview.png",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/junegunn/fzf/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/junegunn/fzf",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Sélectionner des fichiers rapidement avec une recherche floue.",
+      "summary": "Fonction · Trouver des fichiers ou lignes dans des listes.  \nAvantages · Intégration avec Bash, Zsh, Vim et Neovim.  \nGain · Éviter de taper des commandes longues pour sélectionner.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -21835,7 +22887,9 @@
             "path": []
           }
         ],
-        "unmappedTags": []
+        "unmappedTags": [
+          "#zsh"
+        ]
       },
       "concepts": [
         {
@@ -21917,9 +22971,16 @@
           "path": []
         }
       ],
-      "keywords": [],
+      "keywords": [
+        {
+          "label": "#zsh",
+          "fullLabel": "zsh",
+          "color": "tool",
+          "tag": "#zsh"
+        }
+      ],
       "cardTitle": "fzf",
-      "cardInterest": "Sélectionner des fichiers rapidement avec une recherche floue."
+      "cardInterest": "Fonction · Trouver des fichiers ou lignes dans des listes.\nAvantages · Intégration avec Bash, Zsh, Vim et Neovim.\nGain · Éviter de taper des commandes longues pour sélectionner."
     },
     {
       "id": "watch-technical-37356cc78499d8e4af94-md",
@@ -22383,7 +23444,7 @@
       "github": "https://github.com/zubair-trabzada/geo-seo-claude",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Analyse la visibilité GEO d'un site en quelques secondes",
+      "summary": "Fonction · Audit et optimisation SEO pour moteurs AI et moteurs traditionnels.  \nAvantages · Analyse de citabilité, balayage de crawlers AI, détection de mentions de marque.  \nGain · Générer rapports PDF, optimiser pour plateformes spécifiques en 60 secondes.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -22769,7 +23830,7 @@
         }
       ],
       "cardTitle": "geo-seo-claude",
-      "cardInterest": "Analyse la visibilité GEO d'un site en quelques secondes"
+      "cardInterest": "Fonction · Audit et optimisation SEO pour moteurs AI et moteurs traditionnels.\nAvantages · Analyse de citabilité, balayage de crawlers AI, détection de mentions de marque.\nGain · Générer rapports PDF, optimiser pour plateformes spécifiques en 60 secondes."
     },
     {
       "id": "watch-technical-f1bc36a07e9a8a388405-md",
@@ -22793,7 +23854,9 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [],
+      "tags": [
+        "#proxy"
+      ],
       "status": "actif",
       "path": "watch/technical-f1bc36a07e9a8a388405.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-f1bc36a07e9a8a388405.md",
@@ -22815,7 +23878,7 @@
       "github": "https://github.com/cloakhq/cloakbrowser-manager",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Gère des profils de navigateur avec des paramètres uniques",
+      "summary": "Fonction · Gérer des profils de navigateurs isolés avec des empreintes uniques.  \nAvantages · Profils indépendants avec GPU, proxy, cookies et historique distincts.  \nGain · Lancer des tâches sans lien entre les comptes ou l'utilisateur.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -22950,7 +24013,9 @@
             ]
           }
         ],
-        "unmappedTags": []
+        "unmappedTags": [
+          "#proxy"
+        ]
       },
       "concepts": [
         {
@@ -23065,14 +24130,14 @@
       ],
       "keywords": [
         {
-          "label": "#browser-profiles",
-          "fullLabel": "browser-profiles",
-          "color": "dev",
-          "subjectId": "domain.dev.browser"
+          "label": "#proxy",
+          "fullLabel": "proxy",
+          "color": "tool",
+          "tag": "#proxy"
         }
       ],
       "cardTitle": "cloakbrowser-manager",
-      "cardInterest": "Gère des profils de navigateur avec des paramètres uniques"
+      "cardInterest": "Fonction · Gérer des profils de navigateurs isolés avec des empreintes uniques.\nAvantages · Profils indépendants avec GPU, proxy, cookies et historique distincts.\nGain · Lancer des tâches sans lien entre les comptes ou l'utilisateur."
     },
     {
       "id": "watch-technical-c750bc2f9f73e8e1f5bd-md",
@@ -23130,7 +24195,7 @@
       "github": "https://github.com/tryghost/ghost",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée un site de publication avec un CMS open source",
+      "summary": "Fonction · Plateforme de publication, newsletters et abonnements.  \nAvantages · Support CDN, sauvegardes et maintenance automatiques.  \nGain · Déployer un site en 2 minutes, sans configuration manuelle.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -23377,7 +24442,7 @@
         }
       ],
       "cardTitle": "Ghost",
-      "cardInterest": "Crée un site de publication avec un CMS open source"
+      "cardInterest": "Fonction · Plateforme de publication, newsletters et abonnements.\nAvantages · Support CDN, sauvegardes et maintenance automatiques.\nGain · Déployer un site en 2 minutes, sans configuration manuelle."
     },
     {
       "id": "watch-technical-c185cfb5713fdfdca685-md",
@@ -23423,7 +24488,7 @@
       "github": "https://github.com/kgretzky/gophish",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Créer des campagnes de phishing pour tests de sécurité",
+      "summary": "Fonction · Créer des campagnes de phishing et formations.  \nAvantages · Interface web et gestion des cibles.  \nGain · Lancer des attaques sans configuration complexe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -23611,7 +24676,7 @@
       ],
       "keywords": [],
       "cardTitle": "gophish",
-      "cardInterest": "Créer des campagnes de phishing pour tests de sécurité"
+      "cardInterest": "Fonction · Créer des campagnes de phishing et formations.\nAvantages · Interface web et gestion des cibles.\nGain · Lancer des attaques sans configuration complexe."
     },
     {
       "id": "watch-technical-9563de7ec1221e077ac4-md",
@@ -23654,12 +24719,24 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/gradio-app/gradio/HEAD/demo/hello_world_4/screenshot.gif",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/gradio-app/gradio/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/gradio-app/gradio",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des applications web pour des modèles ML en quelques lignes.",
+      "summary": "Fonction · Créer et partager des apps ML en Python.  \nAvantages · Interface sans JS, partage en quelques secondes.  \nGain · Lancer un demo en quelques lignes de code.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -23918,7 +24995,7 @@
         }
       ],
       "cardTitle": "Gradio",
-      "cardInterest": "Crée des applications web pour des modèles ML en quelques lignes."
+      "cardInterest": "Fonction · Créer et partager des apps ML en Python.\nAvantages · Interface sans JS, partage en quelques secondes.\nGain · Lancer un demo en quelques lignes de code."
     },
     {
       "id": "watch-technical-cc7d258f82fc4f055019-md",
@@ -23962,12 +25039,24 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
+        },
+        {
+          "url": "https://media.x.ai/v1/website/universe-tui-screenshot-6f7a0837.png",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/xai-org/grok-build/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/xai-org/grok-build",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet d'éditer des fichiers dans un environnement terminal",
+      "summary": "Fonction · Terminal basé sur AI pour coder, exécuter, gérer des tâches.  \nAvantages · Interface TUI interactive, gestion de projets, outils intégrés.  \nGain · Lancer des tâches sans interface graphique, gérer des projets complexes.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -23978,7 +25067,8 @@
         "facets": {
           "domain": [
             "domain.ai.agents.coding",
-            "domain.dev.quality"
+            "domain.dev.quality",
+            "domain.data.organization"
           ],
           "capability": [
             "capability.code.assist"
@@ -24117,6 +25207,37 @@
             "facet": "domain",
             "path": [
               "Développement logiciel"
+            ]
+          },
+          {
+            "id": "domain.data.organization",
+            "label": "Organisation du travail",
+            "parent": "domain.data",
+            "aliases": [
+              "#project-management",
+              "#calendar",
+              "#rendez-vous"
+            ],
+            "patterns": [
+              "projets et taches",
+              "gestion de projet",
+              "planification",
+              "rendez.vous"
+            ],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances",
+              "Organisation du travail"
+            ]
+          },
+          {
+            "id": "domain.data",
+            "label": "Données et connaissances",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances"
             ]
           },
           {
@@ -24364,6 +25485,37 @@
           ]
         },
         {
+          "id": "domain.data.organization",
+          "label": "Organisation du travail",
+          "parent": "domain.data",
+          "aliases": [
+            "#project-management",
+            "#calendar",
+            "#rendez-vous"
+          ],
+          "patterns": [
+            "projets et taches",
+            "gestion de projet",
+            "planification",
+            "rendez.vous"
+          ],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances",
+            "Organisation du travail"
+          ]
+        },
+        {
+          "id": "domain.data",
+          "label": "Données et connaissances",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances"
+          ]
+        },
+        {
           "id": "capability.code.assist",
           "label": "Assister le développement",
           "parent": "capability",
@@ -24497,7 +25649,7 @@
         }
       ],
       "cardTitle": "Grok Build",
-      "cardInterest": "Permet d'éditer des fichiers dans un environnement terminal"
+      "cardInterest": "Fonction · Terminal basé sur AI pour coder, exécuter, gérer des tâches.\nAvantages · Interface TUI interactive, gestion de projets, outils intégrés.\nGain · Lancer des tâches sans interface graphique, gérer des projets complexes."
     },
     {
       "id": "watch-technical-383ec76df0f9b9e99e36-md",
@@ -24873,12 +26025,24 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/headroomlabs-ai/headroom/main/HeadroomDemo-Fast.gif",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/headroomlabs-ai/headroom/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/headroomlabs-ai/headroom",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Compresses data to reduce token costs while preserving content",
+      "summary": "Fonction · Comprime les entrées avant l'LLM pour réduire les tokens.  \nAvantages · Réduction de 21-57% des tokens selon les scénarios.  \nGain · Éviter d'envoyer des données redondantes sans altérer les réponses.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -24888,7 +26052,8 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents.memory"
+            "domain.ai.agents.memory",
+            "domain.ai.llm"
           ],
           "capability": [
             "capability.memory"
@@ -24980,6 +26145,33 @@
             "aliases": [],
             "facet": "domain",
             "path": []
+          },
+          {
+            "id": "domain.ai.llm",
+            "label": "Modèles de langage",
+            "parent": "domain.ai",
+            "aliases": [
+              "#llm",
+              "#inference",
+              "#providers",
+              "#openai-compatible",
+              "#comparaison-modeles",
+              "#inference-locale"
+            ],
+            "patterns": [
+              "\\bllm\\b",
+              "\\bqwen\\w*",
+              "\\bdeepseek\\b",
+              "\\bnotebooklm\\b",
+              "\\bgemini\\b",
+              "\\bgpt[ -]?\\d",
+              "mistral vibe"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Modèles de langage"
+            ]
           },
           {
             "id": "capability.memory",
@@ -25144,6 +26336,33 @@
           "path": []
         },
         {
+          "id": "domain.ai.llm",
+          "label": "Modèles de langage",
+          "parent": "domain.ai",
+          "aliases": [
+            "#llm",
+            "#inference",
+            "#providers",
+            "#openai-compatible",
+            "#comparaison-modeles",
+            "#inference-locale"
+          ],
+          "patterns": [
+            "\\bllm\\b",
+            "\\bqwen\\w*",
+            "\\bdeepseek\\b",
+            "\\bnotebooklm\\b",
+            "\\bgemini\\b",
+            "\\bgpt[ -]?\\d",
+            "mistral vibe"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Modèles de langage"
+          ]
+        },
+        {
           "id": "capability.memory",
           "label": "Conserver le contexte",
           "parent": "capability",
@@ -25235,7 +26454,7 @@
         }
       ],
       "cardTitle": "headroom",
-      "cardInterest": "Compresses data to reduce token costs while preserving content"
+      "cardInterest": "Fonction · Comprime les entrées avant l'LLM pour réduire les tokens.\nAvantages · Réduction de 21-57% des tokens selon les scénarios.\nGain · Éviter d'envoyer des données redondantes sans altérer les réponses."
     },
     {
       "id": "watch-nousresearch-hermes-agent-md",
@@ -25260,7 +26479,8 @@
       "publishable": true,
       "shareable": true,
       "tags": [
-        "#terminal"
+        "#terminal",
+        "#memoire-agents"
       ],
       "status": "actif",
       "path": "watch/nousresearch-hermes-agent.md",
@@ -25307,20 +26527,22 @@
       "github": "https://github.com/nousresearch/hermes-agent",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Gère des tâches complexes avec des modèles externes",
+      "summary": "Fonction · Agent IA auto-optimisant avec boucle d'apprentissage.  \nAvantages · Mémoire curatée par l'agent avec rappels réguliers.  \nGain · Lancer des tâches complexes sans configuration initiale.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
       "theme": "agent",
-      "themeLabel": "Agents IA",
+      "themeLabel": "Mémoire des agents",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents",
-            "domain.infrastructure"
+            "domain.infrastructure",
+            "domain.ai.agents.memory"
           ],
-          "capability": [],
+          "capability": [
+            "capability.memory"
+          ],
           "compatibility": [
             "compatibility.interface.terminal"
           ],
@@ -25335,6 +26557,57 @@
           ]
         },
         "concepts": [
+          {
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
+            "parent": "domain",
+            "aliases": [
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
+            ],
+            "patterns": [
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Infrastructure"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.ai.agents.memory",
+            "label": "Mémoire des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#memoire-agents",
+              "#memory",
+              "#long-term-memory",
+              "#context-engineering"
+            ],
+            "patterns": [
+              "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
+              "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Mémoire des agents"
+            ]
+          },
           {
             "id": "domain.ai.agents",
             "label": "Agents IA",
@@ -25383,34 +26656,27 @@
             ]
           },
           {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
+            "id": "capability.memory",
+            "label": "Conserver le contexte",
+            "parent": "capability",
+            "aliases": [
+              "#memoire-agents",
+              "#memory",
+              "#long-term-memory",
+              "#context-engineering"
+            ],
+            "facet": "capability",
+            "path": [
+              "Conserver le contexte"
+            ]
           },
           {
-            "id": "domain.infrastructure",
-            "label": "Infrastructure",
-            "parent": "domain",
-            "aliases": [
-              "#infrastructure",
-              "#network-security",
-              "#vpn",
-              "#tailscale",
-              "#server",
-              "#linux-server"
-            ],
-            "patterns": [
-              "\\bvps\\b",
-              "serveurs?",
-              "\\bservers?\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Infrastructure"
-            ]
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
           },
           {
             "id": "compatibility.interface.terminal",
@@ -25508,6 +26774,57 @@
       },
       "concepts": [
         {
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
+          "parent": "domain",
+          "aliases": [
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
+          ],
+          "patterns": [
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Infrastructure"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.ai.agents.memory",
+          "label": "Mémoire des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#memoire-agents",
+            "#memory",
+            "#long-term-memory",
+            "#context-engineering"
+          ],
+          "patterns": [
+            "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
+            "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Mémoire des agents"
+          ]
+        },
+        {
           "id": "domain.ai.agents",
           "label": "Agents IA",
           "parent": "domain.ai",
@@ -25555,34 +26872,27 @@
           ]
         },
         {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
+          "id": "capability.memory",
+          "label": "Conserver le contexte",
+          "parent": "capability",
+          "aliases": [
+            "#memoire-agents",
+            "#memory",
+            "#long-term-memory",
+            "#context-engineering"
+          ],
+          "facet": "capability",
+          "path": [
+            "Conserver le contexte"
+          ]
         },
         {
-          "id": "domain.infrastructure",
-          "label": "Infrastructure",
-          "parent": "domain",
-          "aliases": [
-            "#infrastructure",
-            "#network-security",
-            "#vpn",
-            "#tailscale",
-            "#server",
-            "#linux-server"
-          ],
-          "patterns": [
-            "\\bvps\\b",
-            "serveurs?",
-            "\\bservers?\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Infrastructure"
-          ]
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
         },
         {
           "id": "compatibility.interface.terminal",
@@ -25682,10 +26992,16 @@
           "fullLabel": "terminal",
           "color": "tool",
           "tag": "#terminal"
+        },
+        {
+          "label": "#Mémoire",
+          "fullLabel": "Mémoire des agents",
+          "color": "agent",
+          "tag": "#memoire-agents"
         }
       ],
       "cardTitle": "Hermes Agent",
-      "cardInterest": "Gère des tâches complexes avec des modèles externes"
+      "cardInterest": "Fonction · Agent IA auto-optimisant avec boucle d'apprentissage.\nAvantages · Mémoire curatée par l'agent avec rappels réguliers.\nGain · Lancer des tâches complexes sans configuration initiale."
     },
     {
       "id": "watch-technical-02e627709adedd541e23-md",
@@ -26281,7 +27597,9 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [],
+      "tags": [
+        "#http"
+      ],
       "status": "actif",
       "path": "watch/technical-457a0ceb1c2bf60a2841.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-457a0ceb1c2bf60a2841.md",
@@ -26309,7 +27627,7 @@
       "github": "https://github.com/apernet/hysteria",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet de contourner les filtres de réseau",
+      "summary": "Fonction · Proxy résistant à la censure, mode SOCKS5, HTTP, TUN.  \nAvantages · Protocole QUIC, masque le trafic HTTP/3.  \nGain · Éviter le blocage, connecter via des réseaux instables.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -26444,7 +27762,9 @@
             ]
           }
         ],
-        "unmappedTags": []
+        "unmappedTags": [
+          "#http"
+        ]
       },
       "concepts": [
         {
@@ -26559,14 +27879,14 @@
       ],
       "keywords": [
         {
-          "label": "#network",
-          "fullLabel": "network",
-          "color": "dev",
-          "subjectId": "domain.infrastructure.network"
+          "label": "#http",
+          "fullLabel": "http",
+          "color": "tool",
+          "tag": "#http"
         }
       ],
       "cardTitle": "Hysteria",
-      "cardInterest": "Permet de contourner les filtres de réseau"
+      "cardInterest": "Fonction · Proxy résistant à la censure, mode SOCKS5, HTTP, TUN.\nAvantages · Protocole QUIC, masque le trafic HTTP/3.\nGain · Éviter le blocage, connecter via des réseaux instables."
     },
     {
       "id": "watch-technical-3f991f224eb64ace6e0c-md",
@@ -27035,12 +28355,24 @@
           "kind": "source",
           "role": "secondaryReference",
           "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/gauravsingh9356/j.a.r.v.i.s/HEAD/images/Screenshot%20(138).png",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/gauravsingh9356/j.a.r.v.i.s/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/gauravsingh9356/j.a.r.v.i.s",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier.",
+      "summary": "Fonction · Envoie d'e-mails, reconnaissance optique de texte, recherche YouTube, gestion de tâches.  \nAvantages · Intégration d'API pour les nouvelles dynamiques.  \nGain · Lancer des tâches sans interface graphique.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -27052,7 +28384,8 @@
           "domain": [
             "domain.media.audio",
             "domain.media.video",
-            "domain.science.weather"
+            "domain.science.weather",
+            "domain.communication.messaging"
           ],
           "capability": [
             "capability.forecast"
@@ -27155,6 +28488,43 @@
             "facet": "domain",
             "path": [
               "Sciences et prévision"
+            ]
+          },
+          {
+            "id": "domain.communication.messaging",
+            "label": "Messagerie",
+            "parent": "domain.communication",
+            "aliases": [
+              "#smtp",
+              "#slack"
+            ],
+            "patterns": [
+              "e.mails?",
+              "\\bslack\\b",
+              "rechercher des tweets"
+            ],
+            "facet": "domain",
+            "path": [
+              "Communication et publication",
+              "Messagerie"
+            ]
+          },
+          {
+            "id": "domain.communication",
+            "label": "Communication et publication",
+            "parent": "domain",
+            "aliases": [
+              "#publication-sociale",
+              "#social-media",
+              "#email"
+            ],
+            "patterns": [
+              "publication.*(?:contenus|reseaux)",
+              "client email"
+            ],
+            "facet": "domain",
+            "path": [
+              "Communication et publication"
             ]
           },
           {
@@ -27358,6 +28728,43 @@
           ]
         },
         {
+          "id": "domain.communication.messaging",
+          "label": "Messagerie",
+          "parent": "domain.communication",
+          "aliases": [
+            "#smtp",
+            "#slack"
+          ],
+          "patterns": [
+            "e.mails?",
+            "\\bslack\\b",
+            "rechercher des tweets"
+          ],
+          "facet": "domain",
+          "path": [
+            "Communication et publication",
+            "Messagerie"
+          ]
+        },
+        {
+          "id": "domain.communication",
+          "label": "Communication et publication",
+          "parent": "domain",
+          "aliases": [
+            "#publication-sociale",
+            "#social-media",
+            "#email"
+          ],
+          "patterns": [
+            "publication.*(?:contenus|reseaux)",
+            "client email"
+          ],
+          "facet": "domain",
+          "path": [
+            "Communication et publication"
+          ]
+        },
+        {
           "id": "capability.forecast",
           "label": "Prévoir des mesures",
           "parent": "capability",
@@ -27483,7 +28890,7 @@
         }
       ],
       "cardTitle": "J.A.R.V.I.S.",
-      "cardInterest": "Contrôle un navigateur web via des commandes vocales pour une navigation sans clavier."
+      "cardInterest": "Fonction · Envoie d'e-mails, reconnaissance optique de texte, recherche YouTube, gestion de tâches.\nAvantages · Intégration d'API pour les nouvelles dynamiques.\nGain · Lancer des tâches sans interface graphique."
     },
     {
       "id": "watch-technical-5e7f5b459d52bc0badc8-md",
@@ -27838,7 +29245,7 @@
       "github": "https://github.com/hexgrad/kokoro",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Génère des audio de texte en temps réel avec des paramètres personnalisables",
+      "summary": "Fonction · Conversion de texte en parole via modèle TTS.  \nAvantages · Modèle léger avec 82M paramètres, qualité comparable.  \nGain · Générer audio sans configuration complexe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -28175,7 +29582,7 @@
         }
       ],
       "cardTitle": "kokoro",
-      "cardInterest": "Génère des audio de texte en temps réel avec des paramètres personnalisables"
+      "cardInterest": "Fonction · Conversion de texte en parole via modèle TTS.\nAvantages · Modèle léger avec 82M paramètres, qualité comparable.\nGain · Générer audio sans configuration complexe."
     },
     {
       "id": "watch-technical-c5a32632e586ab2c7c9c-md",
@@ -28767,7 +30174,9 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [],
+      "tags": [
+        "#x86"
+      ],
       "status": "actif",
       "path": "watch/technical-8f4d2163b5e697a72c77.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-8f4d2163b5e697a72c77.md",
@@ -28789,7 +30198,7 @@
       "github": "https://github.com/ggml-org/llama.cpp",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Exécute des modèles LLM localement avec optimisation matérielle",
+      "summary": "Fonction · Inférer des LLM et VLM en C/C++ sans dépendances.  \nAvantages · Optimisé pour Apple Silicon, x86, RISC-V et GPU via CUDA/HIP.  \nGain · Exécuter des modèles quantifiés en 1.5-bit à 8-bit sans serveur.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -28799,7 +30208,8 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.llm"
+            "domain.ai.llm",
+            "domain.infrastructure"
           ],
           "capability": [],
           "compatibility": [],
@@ -28872,6 +30282,28 @@
             "path": []
           },
           {
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
+            "parent": "domain",
+            "aliases": [
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
+            ],
+            "patterns": [
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Infrastructure"
+            ]
+          },
+          {
             "id": "lifecycle.active",
             "label": "Actif",
             "parent": "lifecycle",
@@ -28931,7 +30363,9 @@
             ]
           }
         ],
-        "unmappedTags": []
+        "unmappedTags": [
+          "#x86"
+        ]
       },
       "concepts": [
         {
@@ -28990,6 +30424,28 @@
           "aliases": [],
           "facet": "domain",
           "path": []
+        },
+        {
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
+          "parent": "domain",
+          "aliases": [
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
+          ],
+          "patterns": [
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Infrastructure"
+          ]
         },
         {
           "id": "lifecycle.active",
@@ -29053,14 +30509,14 @@
       ],
       "keywords": [
         {
-          "label": "#LLM",
-          "fullLabel": "Modèles de langage",
-          "color": "llm",
-          "subjectId": "domain.ai.llm"
+          "label": "#x86",
+          "fullLabel": "x86",
+          "color": "tool",
+          "tag": "#x86"
         }
       ],
       "cardTitle": "llama.cpp",
-      "cardInterest": "Exécute des modèles LLM localement avec optimisation matérielle"
+      "cardInterest": "Fonction · Inférer des LLM et VLM en C/C++ sans dépendances.\nAvantages · Optimisé pour Apple Silicon, x86, RISC-V et GPU via CUDA/HIP.\nGain · Exécuter des modèles quantifiés en 1.5-bit à 8-bit sans serveur."
     },
     {
       "id": "watch-technical-0ebd1f1b56ff3fc73866-md",
@@ -30743,7 +32199,7 @@
       "github": "https://github.com/dexhorthy/mailcrew",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Traite des tâches via des emails. Interagit avec Stripe et Coinbase.",
+      "summary": "Fonction · Agent email pour Stripe et Coinbase via API.  \nAvantages · Interaction par email avec validation humaine.  \nGain · Exécuter des tâches sans interface complexe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -31010,7 +32466,7 @@
         }
       ],
       "cardTitle": "Mailcrew",
-      "cardInterest": "Traite des tâches via des emails."
+      "cardInterest": "Fonction · Agent email pour Stripe et Coinbase via API.\nAvantages · Interaction par email avec validation humaine.\nGain · Exécuter des tâches sans interface complexe."
     },
     {
       "id": "watch-technical-ee446b3bf303b677315c-md",
@@ -31057,12 +32513,24 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/docs/MailHog.png",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/mailhog/mailhog/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/mailhog/mailhog",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Afficher les emails envoyés dans une interface web",
+      "summary": "Fonction · Tester les emails via SMTP et web UI.  \nAvantages · Stockage en mémoire et API JSON.  \nGain · Lancer les tests sans installation.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -31272,7 +32740,7 @@
       ],
       "keywords": [],
       "cardTitle": "MailHog",
-      "cardInterest": "Afficher les emails envoyés dans une interface web"
+      "cardInterest": "Fonction · Tester les emails via SMTP et web UI.\nAvantages · Stockage en mémoire et API JSON.\nGain · Lancer les tests sans installation."
     },
     {
       "id": "watch-technical-10eda570000d9c7eeda1-md",
@@ -31298,7 +32766,8 @@
       "shareable": true,
       "tags": [
         "#react",
-        "#conversion-documents"
+        "#conversion-documents",
+        "#generation-images"
       ],
       "status": "actif",
       "path": "watch/technical-10eda570000d9c7eeda1.md",
@@ -31321,7 +32790,7 @@
       "github": "https://github.com/gcui-art/markdown-to-image",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Convertir du markdown en image partageable sur les réseaux sociaux",
+      "summary": "Fonction · Convertir Markdown en images pour réseaux sociaux.  \nAvantages · Templates prédéfinis et personnalisation des thèmes.  \nGain · Générer des images en un clic sans outil externe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -31336,7 +32805,8 @@
             "domain.data.documents"
           ],
           "capability": [
-            "capability.documents.convert"
+            "capability.documents.convert",
+            "capability.generate.image"
           ],
           "compatibility": [],
           "risk": [],
@@ -31488,6 +32958,29 @@
             "aliases": [],
             "facet": "capability",
             "path": []
+          },
+          {
+            "id": "capability.generate.image",
+            "label": "Générer une image",
+            "parent": "capability.generate",
+            "aliases": [
+              "#generation-images"
+            ],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus",
+              "Générer une image"
+            ]
+          },
+          {
+            "id": "capability.generate",
+            "label": "Générer des contenus",
+            "parent": "capability",
+            "aliases": [],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus"
+            ]
           },
           {
             "id": "lifecycle.active",
@@ -31692,6 +33185,29 @@
           "path": []
         },
         {
+          "id": "capability.generate.image",
+          "label": "Générer une image",
+          "parent": "capability.generate",
+          "aliases": [
+            "#generation-images"
+          ],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus",
+            "Générer une image"
+          ]
+        },
+        {
+          "id": "capability.generate",
+          "label": "Générer des contenus",
+          "parent": "capability",
+          "aliases": [],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus"
+          ]
+        },
+        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -31763,10 +33279,16 @@
           "fullLabel": "conversion-documents",
           "color": "research",
           "tag": "#conversion-documents"
+        },
+        {
+          "label": "#Images",
+          "fullLabel": "Génération d’images",
+          "color": "media",
+          "tag": "#generation-images"
         }
       ],
       "cardTitle": "markdown-to-image",
-      "cardInterest": "Convertir du markdown en image partageable sur les réseaux sociaux"
+      "cardInterest": "Fonction · Convertir Markdown en images pour réseaux sociaux.\nAvantages · Templates prédéfinis et personnalisation des thèmes.\nGain · Générer des images en un clic sans outil externe."
     },
     {
       "id": "watch-technical-0096fb39d8f5defe169d-md",
@@ -31824,17 +33346,17 @@
       "github": "https://github.com/medusajs/medusa",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des magasins B2B ou DTC avec des primitives commerciales",
+      "summary": "Fonction · Plateforme e-commerce modulaire pour agents et développeurs.  \nAvantages · Modules commerciaux et infrastructures prêts à l'emploi.  \nGain · Déployer un magasin ou marketplace sans réinventer la logique métier.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
-      "theme": "tool",
-      "themeLabel": "À qualifier",
+      "theme": "agent",
+      "themeLabel": "Agents IA",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.unclassified"
+            "domain.ai.agents"
           ],
           "capability": [],
           "compatibility": [],
@@ -31849,6 +33371,61 @@
           ]
         },
         "concepts": [
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
           {
             "id": "lifecycle.active",
             "label": "Actif",
@@ -31907,30 +33484,66 @@
             "path": [
               "X / Twitter"
             ]
-          },
-          {
-            "id": "domain.unclassified",
-            "label": "À qualifier",
-            "parent": "domain",
-            "aliases": [],
-            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
-            "facet": "domain",
-            "path": [
-              "À qualifier"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
           }
         ],
         "unmappedTags": []
       },
       "concepts": [
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
         {
           "id": "lifecycle.active",
           "label": "Actif",
@@ -31989,30 +33602,18 @@
           "path": [
             "X / Twitter"
           ]
-        },
-        {
-          "id": "domain.unclassified",
-          "label": "À qualifier",
-          "parent": "domain",
-          "aliases": [],
-          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
-          "facet": "domain",
-          "path": [
-            "À qualifier"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
         }
       ],
-      "keywords": [],
+      "keywords": [
+        {
+          "label": "#ai-agents",
+          "fullLabel": "ai-agents",
+          "color": "agent",
+          "subjectId": "domain.ai.agents"
+        }
+      ],
       "cardTitle": "Medusa",
-      "cardInterest": "Crée des magasins B2B ou DTC avec des primitives commerciales"
+      "cardInterest": "Fonction · Plateforme e-commerce modulaire pour agents et développeurs.\nAvantages · Modules commerciaux et infrastructures prêts à l'emploi.\nGain · Déployer un magasin ou marketplace sans réinventer la logique métier."
     },
     {
       "id": "watch-technical-6a483fbc42057e7dc8d1-md",
@@ -32090,7 +33691,7 @@
       "github": "",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des fonds d'écran animés en exportant en vidéo et image",
+      "summary": "Fonction · Exporte vidéos et images pour fonds d'écran animés.  \nAvantages · Intégre calendrier NotePlan pour planification.  \nGain · Créer des fonds d'écran sans logiciel externe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -32102,7 +33703,8 @@
           "domain": [
             "domain.media.video",
             "domain.media.image",
-            "domain.dev.desktop"
+            "domain.dev.desktop",
+            "domain.data.organization"
           ],
           "capability": [],
           "compatibility": [
@@ -32231,6 +33833,37 @@
             "facet": "domain",
             "path": [
               "Développement logiciel"
+            ]
+          },
+          {
+            "id": "domain.data.organization",
+            "label": "Organisation du travail",
+            "parent": "domain.data",
+            "aliases": [
+              "#project-management",
+              "#calendar",
+              "#rendez-vous"
+            ],
+            "patterns": [
+              "projets et taches",
+              "gestion de projet",
+              "planification",
+              "rendez.vous"
+            ],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances",
+              "Organisation du travail"
+            ]
+          },
+          {
+            "id": "domain.data",
+            "label": "Données et connaissances",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances"
             ]
           },
           {
@@ -32433,6 +34066,37 @@
           ]
         },
         {
+          "id": "domain.data.organization",
+          "label": "Organisation du travail",
+          "parent": "domain.data",
+          "aliases": [
+            "#project-management",
+            "#calendar",
+            "#rendez-vous"
+          ],
+          "patterns": [
+            "projets et taches",
+            "gestion de projet",
+            "planification",
+            "rendez.vous"
+          ],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances",
+            "Organisation du travail"
+          ]
+        },
+        {
+          "id": "domain.data",
+          "label": "Données et connaissances",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances"
+          ]
+        },
+        {
           "id": "compatibility.os.macos",
           "label": "macOS",
           "parent": "compatibility.os",
@@ -32522,7 +34186,7 @@
         }
       ],
       "cardTitle": "MeltKit",
-      "cardInterest": "Crée des fonds d'écran animés en exportant en vidéo et image"
+      "cardInterest": "Fonction · Exporte vidéos et images pour fonds d'écran animés.\nAvantages · Intégre calendrier NotePlan pour planification.\nGain · Créer des fonds d'écran sans logiciel externe."
     },
     {
       "id": "watch-technical-15ae02c43b612a6e8c46-md",
@@ -33784,7 +35448,7 @@
       "github": "https://github.com/mistralai/mistral-vibe",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet d'explorer et de modifier le codebase avec des commandes naturelles",
+      "summary": "Fonction · Interagit avec le code via des commandes CLI.  \nAvantages · Gère des tâches comme grep, edition de fichiers.  \nGain · Exécuter des commandes sans quitter le terminal.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -34221,7 +35885,7 @@
         }
       ],
       "cardTitle": "Mistral Vibe",
-      "cardInterest": "Permet d'explorer et de modifier le codebase avec des commandes naturelles"
+      "cardInterest": "Fonction · Interagit avec le code via des commandes CLI.\nAvantages · Gère des tâches comme grep, edition de fichiers.\nGain · Exécuter des commandes sans quitter le terminal."
     },
     {
       "id": "watch-technical-9e0cc8c5c3c327b3c50b-md",
@@ -34271,7 +35935,7 @@
       "github": "https://github.com/mov-cli/mov-cli",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet de streamer des médias via des plugins configurés.",
+      "summary": "Fonction · Streamer des médias via des plugins.  \nAvantages · Plugins externes pour scraping et lecture.  \nGain · Lancer une recherche et lecture en quelques commandes.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -34669,7 +36333,7 @@
         }
       ],
       "cardTitle": "mov-cli",
-      "cardInterest": "Permet de streamer des médias via des plugins configurés."
+      "cardInterest": "Fonction · Streamer des médias via des plugins.\nAvantages · Plugins externes pour scraping et lecture.\nGain · Lancer une recherche et lecture en quelques commandes."
     },
     {
       "id": "watch-technical-1c299b0df37a055a049d-md",
@@ -34715,7 +36379,7 @@
       "github": "https://github.com/multica-ai/multica",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Assigner des tâches aux agents IA pour gérer le travail.",
+      "summary": "Fonction · Assigner des tâches aux agents AI sur un espace de travail.  \nAvantages · Gestion des tâches avec des outils et runtimes prédéfinis.  \nGain · Lancer des tâches sans recontextualiser, avec suivi en temps réel.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -34982,7 +36646,7 @@
         }
       ],
       "cardTitle": "Multica",
-      "cardInterest": "Assigner des tâches aux agents IA pour gérer le travail."
+      "cardInterest": "Fonction · Assigner des tâches aux agents AI sur un espace de travail.\nAvantages · Gestion des tâches avec des outils et runtimes prédéfinis.\nGain · Lancer des tâches sans recontextualiser, avec suivi en temps réel."
     },
     {
       "id": "watch-technical-ae2b5f1a3fbdf8f6f54d-md",
@@ -35339,7 +37003,9 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [],
+      "tags": [
+        "#generation-3d"
+      ],
       "status": "actif",
       "path": "watch/technical-7e07682fe36ee14ea7b5.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-7e07682fe36ee14ea7b5.md",
@@ -35356,24 +37022,38 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/weiyithu/nerfingmvs/HEAD/imgs/demo.gif",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/weiyithu/nerfingmvs/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/weiyithu/nerfingmvs",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Génère des cartes de profondeur alignées avec les poses.",
+      "summary": "Fonction · Reconstruction 3D à partir de plusieurs vues.  \nAvantages · Intégration de masques pour chaque vue.  \nGain · Éviter recalcul de poses et reconstruction.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
-      "theme": "tool",
-      "themeLabel": "À qualifier",
+      "theme": "media",
+      "themeLabel": "Création 3D",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.unclassified"
+            "domain.media.3d"
           ],
-          "capability": [],
+          "capability": [
+            "capability.generate.3d"
+          ],
           "compatibility": [],
           "risk": [],
           "source": [
@@ -35386,6 +37066,69 @@
           ]
         },
         "concepts": [
+          {
+            "id": "domain.media.3d",
+            "label": "Création 3D",
+            "parent": "domain.media",
+            "aliases": [
+              "#generation-3d",
+              "#3d"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Création 3D"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "capability.generate.3d",
+            "label": "Générer un objet 3D",
+            "parent": "capability.generate",
+            "aliases": [
+              "#generation-3d"
+            ],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus",
+              "Générer un objet 3D"
+            ]
+          },
+          {
+            "id": "capability.generate",
+            "label": "Générer des contenus",
+            "parent": "capability",
+            "aliases": [],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
           {
             "id": "lifecycle.active",
             "label": "Actif",
@@ -35444,30 +37187,74 @@
             "path": [
               "X / Twitter"
             ]
-          },
-          {
-            "id": "domain.unclassified",
-            "label": "À qualifier",
-            "parent": "domain",
-            "aliases": [],
-            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
-            "facet": "domain",
-            "path": [
-              "À qualifier"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
           }
         ],
         "unmappedTags": []
       },
       "concepts": [
+        {
+          "id": "domain.media.3d",
+          "label": "Création 3D",
+          "parent": "domain.media",
+          "aliases": [
+            "#generation-3d",
+            "#3d"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Création 3D"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "capability.generate.3d",
+          "label": "Générer un objet 3D",
+          "parent": "capability.generate",
+          "aliases": [
+            "#generation-3d"
+          ],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus",
+            "Générer un objet 3D"
+          ]
+        },
+        {
+          "id": "capability.generate",
+          "label": "Générer des contenus",
+          "parent": "capability",
+          "aliases": [],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
         {
           "id": "lifecycle.active",
           "label": "Actif",
@@ -35526,30 +37313,18 @@
           "path": [
             "X / Twitter"
           ]
-        },
-        {
-          "id": "domain.unclassified",
-          "label": "À qualifier",
-          "parent": "domain",
-          "aliases": [],
-          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
-          "facet": "domain",
-          "path": [
-            "À qualifier"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
         }
       ],
-      "keywords": [],
+      "keywords": [
+        {
+          "label": "#generation-3d",
+          "fullLabel": "generation-3d",
+          "color": "media",
+          "tag": "#generation-3d"
+        }
+      ],
       "cardTitle": "NerfingMVS",
-      "cardInterest": "Génère des cartes de profondeur alignées avec les poses."
+      "cardInterest": "Fonction · Reconstruction 3D à partir de plusieurs vues.\nAvantages · Intégration de masques pour chaque vue.\nGain · Éviter recalcul de poses et reconstruction."
     },
     {
       "id": "watch-technical-78d472c25b2758a70776-md",
@@ -35875,12 +37650,24 @@
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/docs/demo.png",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/teng-lin/notebooklm-py",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intégration d'agents LLM avec Gemini Notebook",
+      "summary": "Fonction · Accès programmatique à Gemini Notebook via Python, CLI et agents AI.  \nAvantages · Fonctionnalités non exposées via l'interface web.  \nGain · Générer des artefacts en masse, exporter en formats multiples.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -36412,7 +38199,7 @@
         }
       ],
       "cardTitle": "notebooklm-py",
-      "cardInterest": "Intégration d'agents LLM avec Gemini Notebook"
+      "cardInterest": "Fonction · Accès programmatique à Gemini Notebook via Python, CLI et agents AI.\nAvantages · Fonctionnalités non exposées via l'interface web.\nGain · Générer des artefacts en masse, exporter en formats multiples."
     },
     {
       "id": "watch-technical-614a514ae65ec429804d-md",
@@ -36500,7 +38287,7 @@
       "github": "https://github.com/nowork-studio/notfair-plugin",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Analyse de site et de campagne publicitaire avec des workflows prédéfinis.",
+      "summary": "Fonction · Audit de site, analyse de trafic, gestion de campagnes publicitaires.  \nAvantages · Workflow structuré avec données en temps réel et références techniques.  \nGain · Exécuter des analyses et optimisations sans configuration complexe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -36767,7 +38554,7 @@
         }
       ],
       "cardTitle": "NotFair Plugin",
-      "cardInterest": "Analyse de site et de campagne publicitaire avec des workflows prédéfinis."
+      "cardInterest": "Fonction · Audit de site, analyse de trafic, gestion de campagnes publicitaires.\nAvantages · Workflow structuré avec données en temps réel et références techniques.\nGain · Exécuter des analyses et optimisations sans configuration complexe."
     },
     {
       "id": "watch-technical-712121d9735431107601-md",
@@ -36815,7 +38602,7 @@
       "github": "https://github.com/thu-lyj-lab/o2-recon",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Améliore la reconstruction 3D des objets masqués avec un modèle diffusion 2D",
+      "summary": "Fonction · Reconstruire 3D d'objets masqués via un modèle diffusion 2D.  \nAvantages · Utilise un SDF cascade et une perte de cohérence sémantique CLIP.  \nGain · Éviter de recréer les zones invisibles via un modèle pré-entraîné.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -37100,7 +38887,7 @@
         }
       ],
       "cardTitle": "O2-Recon",
-      "cardInterest": "Améliore la reconstruction 3D des objets masqués avec un modèle diffusion 2D"
+      "cardInterest": "Fonction · Reconstruire 3D d'objets masqués via un modèle diffusion 2D.\nAvantages · Utilise un SDF cascade et une perte de cohérence sémantique CLIP.\nGain · Éviter de recréer les zones invisibles via un modèle pré-entraîné."
     },
     {
       "id": "watch-technical-5ba505eac127e82e4362-md",
@@ -37367,7 +39154,7 @@
       "github": "",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Cloner des voix sans connexion internet.",
+      "summary": "Fonction · Cloner, synthétiser, traduire et transcrire des voix.  \nAvantages · Fonctionnalités audio-vidéo sans connexion internet.  \nGain · Éviter l'export vers des services externes.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -37856,7 +39643,7 @@
         }
       ],
       "cardTitle": "OmniVoice Studio",
-      "cardInterest": "Cloner des voix sans connexion internet."
+      "cardInterest": "Fonction · Cloner, synthétiser, traduire et transcrire des voix.\nAvantages · Fonctionnalités audio-vidéo sans connexion internet.\nGain · Éviter l'export vers des services externes."
     },
     {
       "id": "watch-technical-411490b28204e94a3778-md",
@@ -38403,7 +40190,7 @@
       "github": "https://github.com/anil-matcha/open-generative-ai",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des images et vidéos sans filtre de contenu",
+      "summary": "Fonction · Générer images et vidéos via 600+ modèles sans filtres.  \nAvantages · Accès à des modèles comme Sora, Midjourney, Veo.  \nGain · Lancer des tâches sans abonnement, sans restrictions.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -38839,7 +40626,7 @@
         }
       ],
       "cardTitle": "Open Generative AI",
-      "cardInterest": "Crée des images et vidéos sans filtre de contenu"
+      "cardInterest": "Fonction · Générer images et vidéos via 600+ modèles sans filtres.\nAvantages · Accès à des modèles comme Sora, Midjourney, Veo.\nGain · Lancer des tâches sans abonnement, sans restrictions."
     },
     {
       "id": "watch-technical-00898489ed72fd55e12d-md",
@@ -38889,7 +40676,7 @@
       "github": "https://github.com/open-llm-vtuber/open-llm-vtuber",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Permet d'interagir avec un avatar IA en temps réel",
+      "summary": "Fonction · Créer un avatar interactif avec IA et Live2D.  \nAvantages · Support multiplateforme et mode offline.  \nGain · Lancer des conversations en temps réel sans connexion.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -39450,7 +41237,7 @@
         }
       ],
       "cardTitle": "Open-LLM-VTuber",
-      "cardInterest": "Permet d'interagir avec un avatar IA en temps réel"
+      "cardInterest": "Fonction · Créer un avatar interactif avec IA et Live2D.\nAvantages · Support multiplateforme et mode offline.\nGain · Lancer des conversations en temps réel sans connexion."
     },
     {
       "id": "watch-technical-690719855ba11af8d90c-md",
@@ -39477,7 +41264,8 @@
       "tags": [
         "#react",
         "#agents-code",
-        "#pdf"
+        "#pdf",
+        "#terminal"
       ],
       "status": "actif",
       "path": "watch/technical-690719855ba11af8d90c.md",
@@ -39506,7 +41294,7 @@
       "github": "https://github.com/1weiho/open-slide",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des présentations avec des composants React",
+      "summary": "Fonction · Génère des diapositives React avec un canvas fixe.  \nAvantages · Intégre un panneau d'agent et un mode commentaire.  \nGain · Lancer un deck en quelques secondes avec un CLI.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -39524,7 +41312,8 @@
             "capability.code.assist"
           ],
           "compatibility": [
-            "compatibility.format.pdf"
+            "compatibility.format.pdf",
+            "compatibility.interface.terminal"
           ],
           "risk": [],
           "source": [
@@ -39731,6 +41520,30 @@
             "aliases": [],
             "facet": "compatibility",
             "path": []
+          },
+          {
+            "id": "compatibility.interface.terminal",
+            "label": "Terminal",
+            "parent": "compatibility.interface",
+            "aliases": [
+              "#terminal",
+              "#cli"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces",
+              "Terminal"
+            ]
+          },
+          {
+            "id": "compatibility.interface",
+            "label": "Interfaces",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces"
+            ]
           },
           {
             "id": "lifecycle.active",
@@ -39991,6 +41804,30 @@
           "path": []
         },
         {
+          "id": "compatibility.interface.terminal",
+          "label": "Terminal",
+          "parent": "compatibility.interface",
+          "aliases": [
+            "#terminal",
+            "#cli"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces",
+            "Terminal"
+          ]
+        },
+        {
+          "id": "compatibility.interface",
+          "label": "Interfaces",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces"
+          ]
+        },
+        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -40068,10 +41905,16 @@
           "fullLabel": "pdf",
           "color": "tool",
           "tag": "#pdf"
+        },
+        {
+          "label": "#terminal",
+          "fullLabel": "terminal",
+          "color": "tool",
+          "tag": "#terminal"
         }
       ],
       "cardTitle": "open-slide",
-      "cardInterest": "Crée des présentations avec des composants React"
+      "cardInterest": "Fonction · Génère des diapositives React avec un canvas fixe.\nAvantages · Intégre un panneau d'agent et un mode commentaire.\nGain · Lancer un deck en quelques secondes avec un CLI."
     },
     {
       "id": "watch-technical-0b5c4741d1c147be5fdd-md",
@@ -40117,7 +41960,7 @@
       "github": "https://github.com/openclaw/openclaw",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "intègre des canaux de messagerie pour un assistant IA local",
+      "summary": "Fonction · Assistant IA sur appareils personnels, intégré aux chats.  \nAvantages · Modèles et outils interchangeables via plugins.  \nGain · Configurer et lancer des tâches sans service externe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -40384,7 +42227,7 @@
         }
       ],
       "cardTitle": "openclaw",
-      "cardInterest": "intègre des canaux de messagerie pour un assistant IA local"
+      "cardInterest": "Fonction · Assistant IA sur appareils personnels, intégré aux chats.\nAvantages · Modèles et outils interchangeables via plugins.\nGain · Configurer et lancer des tâches sans service externe."
     },
     {
       "id": "watch-technical-7f84d8cb0f021d98f595-md",
@@ -41402,7 +43245,7 @@
       "github": "",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Enregistre des démos nettoyées sans abonnement",
+      "summary": "Fonction · Synthétise la voix et génère des vidéos.  \nAvantages · Intégre NotePlan et X pour planification.  \nGain · Créer des démos sans abonnement SaaS.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -42126,7 +43969,7 @@
         }
       ],
       "cardTitle": "Outils open source pour remplacer des SaaS",
-      "cardInterest": "Enregistre des démos nettoyées sans abonnement"
+      "cardInterest": "Fonction · Synthétise la voix et génère des vidéos.\nAvantages · Intégre NotePlan et X pour planification.\nGain · Créer des démos sans abonnement SaaS."
     },
     {
       "id": "watch-technical-1579309e1b490fa5279c-md",
@@ -42172,7 +44015,7 @@
       "github": "https://github.com/bytedance/particle-sfm",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Traite des séquences vidéo pour extraire des trajectoires de points.",
+      "summary": "Fonction · Reconstruire des trajectoires de caméra à partir de séquences vidéo.  \nAvantages · Optimise des points de trajectoires avec ajustement global.  \nGain · Éviter l'analyse manuelle des mouvements dynamiques.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -42413,7 +44256,7 @@
         }
       ],
       "cardTitle": "ParticleSfM",
-      "cardInterest": "Traite des séquences vidéo pour extraire des trajectoires de points."
+      "cardInterest": "Fonction · Reconstruire des trajectoires de caméra à partir de séquences vidéo.\nAvantages · Optimise des points de trajectoires avec ajustement global.\nGain · Éviter l'analyse manuelle des mouvements dynamiques."
     },
     {
       "id": "watch-technical-c88e811a1a66f8cd57ba-md",
@@ -42459,7 +44302,7 @@
       "github": "https://github.com/surean233/pc-nbv",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Génère des données pour entraîner un modèle de visionnage optimal.",
+      "summary": "Fonction · Planifier la prochaine vue optimale à partir de nuages de points.  \nAvantages · Utilise des réseaux de neurones pour évaluer les vues.  \nGain · Éviter de tester manuellement chaque vue possible.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -42694,7 +44537,7 @@
         }
       ],
       "cardTitle": "PC-NBV",
-      "cardInterest": "Génère des données pour entraîner un modèle de visionnage optimal."
+      "cardInterest": "Fonction · Planifier la prochaine vue optimale à partir de nuages de points.\nAvantages · Utilise des réseaux de neurones pour évaluer les vues.\nGain · Éviter de tester manuellement chaque vue possible."
     },
     {
       "id": "watch-technical-c0d4875dd605f77caf57-md",
@@ -42752,7 +44595,7 @@
       "github": "https://github.com/penpot/penpot",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Créez des interfaces réactives avec des maquettes lisibles par code.",
+      "summary": "Fonction · Créer et collaborer sur des designs et prototypes.  \nAvantages · Intégration avec des outils de développement via API.  \nGain · Exporter directement du code HTML/CSS/SVG sans intermédiaire.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -43100,7 +44943,7 @@
         }
       ],
       "cardTitle": "Penpot",
-      "cardInterest": "Créez des interfaces réactives avec des maquettes lisibles par code."
+      "cardInterest": "Fonction · Créer et collaborer sur des designs et prototypes.\nAvantages · Intégration avec des outils de développement via API.\nGain · Exporter directement du code HTML/CSS/SVG sans intermédiaire."
     },
     {
       "id": "watch-technical-97416d4ba88591c565b7-md",
@@ -43124,7 +44967,9 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [],
+      "tags": [
+        "#agents-code"
+      ],
       "status": "actif",
       "path": "watch/technical-97416d4ba88591c565b7.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-97416d4ba88591c565b7.md",
@@ -43152,21 +44997,23 @@
       "github": "https://github.com/badlogic/pi-mono",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des workflows personnalisés avec des extensions",
+      "summary": "Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.  \nAvantages · Intégration de fournisseurs LLM via une API unifiée.  \nGain · Exécuter des tâches de codage sans configuration complexe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
       "theme": "agent",
-      "themeLabel": "Agents IA",
+      "themeLabel": "Agents de développement",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents",
-            "domain.ai.llm"
+            "domain.ai.llm",
+            "domain.ai.agents.coding",
+            "domain.dev.quality"
           ],
           "capability": [
-            "capability.automation"
+            "capability.automation",
+            "capability.code.assist"
           ],
           "compatibility": [],
           "risk": [],
@@ -43181,28 +45028,30 @@
         },
         "concepts": [
           {
-            "id": "domain.ai.agents",
-            "label": "Agents IA",
+            "id": "domain.ai.llm",
+            "label": "Modèles de langage",
             "parent": "domain.ai",
             "aliases": [
-              "#agent",
-              "#agents",
-              "#ai-agents",
-              "#personal-agent",
-              "#autonomous-agent",
-              "#ai-companion",
-              "#autonomous-company",
-              "#autonomous-research"
+              "#llm",
+              "#inference",
+              "#providers",
+              "#openai-compatible",
+              "#comparaison-modeles",
+              "#inference-locale"
             ],
             "patterns": [
-              "\\bagents?\\b",
-              "agentique",
-              "\\bopenclaw\\b"
+              "\\bllm\\b",
+              "\\bqwen\\w*",
+              "\\bdeepseek\\b",
+              "\\bnotebooklm\\b",
+              "\\bgemini\\b",
+              "\\bgpt[ -]?\\d",
+              "mistral vibe"
             ],
             "facet": "domain",
             "path": [
               "Intelligence artificielle",
-              "Agents IA"
+              "Modèles de langage"
             ]
           },
           {
@@ -43236,30 +45085,95 @@
             "path": []
           },
           {
-            "id": "domain.ai.llm",
-            "label": "Modèles de langage",
-            "parent": "domain.ai",
+            "id": "domain.ai.agents.coding",
+            "label": "Agents de développement",
+            "parent": "domain.ai.agents",
             "aliases": [
-              "#llm",
-              "#inference",
-              "#providers",
-              "#openai-compatible",
-              "#comparaison-modeles",
-              "#inference-locale"
+              "#agents-code",
+              "#coding-agents"
             ],
             "patterns": [
-              "\\bllm\\b",
-              "\\bqwen\\w*",
-              "\\bdeepseek\\b",
-              "\\bnotebooklm\\b",
-              "\\bgemini\\b",
-              "\\bgpt[ -]?\\d",
-              "mistral vibe"
+              "claude code",
+              "\\bcodex\\b",
+              "coding agents?",
+              "agents? de cod"
             ],
             "facet": "domain",
             "path": [
               "Intelligence artificielle",
-              "Modèles de langage"
+              "Agents IA",
+              "Agents de développement"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.dev.quality",
+            "label": "Qualité du code",
+            "parent": "domain.dev",
+            "aliases": [
+              "#code-review",
+              "#sast",
+              "#tests",
+              "#linting"
+            ],
+            "patterns": [
+              "reformat.*code",
+              "code python",
+              "codage",
+              "linting"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel",
+              "Qualité du code"
+            ]
+          },
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
             ]
           },
           {
@@ -43288,6 +45202,25 @@
             "aliases": [],
             "facet": "capability",
             "path": []
+          },
+          {
+            "id": "capability.code.assist",
+            "label": "Assister le développement",
+            "parent": "capability",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents",
+              "#pair-programming"
+            ],
+            "patterns": [
+              "reformat.*code",
+              "assistance de codage",
+              "modifier.*fichiers.*projet"
+            ],
+            "facet": "capability",
+            "path": [
+              "Assister le développement"
+            ]
           },
           {
             "id": "lifecycle.active",
@@ -43353,28 +45286,30 @@
       },
       "concepts": [
         {
-          "id": "domain.ai.agents",
-          "label": "Agents IA",
+          "id": "domain.ai.llm",
+          "label": "Modèles de langage",
           "parent": "domain.ai",
           "aliases": [
-            "#agent",
-            "#agents",
-            "#ai-agents",
-            "#personal-agent",
-            "#autonomous-agent",
-            "#ai-companion",
-            "#autonomous-company",
-            "#autonomous-research"
+            "#llm",
+            "#inference",
+            "#providers",
+            "#openai-compatible",
+            "#comparaison-modeles",
+            "#inference-locale"
           ],
           "patterns": [
-            "\\bagents?\\b",
-            "agentique",
-            "\\bopenclaw\\b"
+            "\\bllm\\b",
+            "\\bqwen\\w*",
+            "\\bdeepseek\\b",
+            "\\bnotebooklm\\b",
+            "\\bgemini\\b",
+            "\\bgpt[ -]?\\d",
+            "mistral vibe"
           ],
           "facet": "domain",
           "path": [
             "Intelligence artificielle",
-            "Agents IA"
+            "Modèles de langage"
           ]
         },
         {
@@ -43408,30 +45343,95 @@
           "path": []
         },
         {
-          "id": "domain.ai.llm",
-          "label": "Modèles de langage",
-          "parent": "domain.ai",
+          "id": "domain.ai.agents.coding",
+          "label": "Agents de développement",
+          "parent": "domain.ai.agents",
           "aliases": [
-            "#llm",
-            "#inference",
-            "#providers",
-            "#openai-compatible",
-            "#comparaison-modeles",
-            "#inference-locale"
+            "#agents-code",
+            "#coding-agents"
           ],
           "patterns": [
-            "\\bllm\\b",
-            "\\bqwen\\w*",
-            "\\bdeepseek\\b",
-            "\\bnotebooklm\\b",
-            "\\bgemini\\b",
-            "\\bgpt[ -]?\\d",
-            "mistral vibe"
+            "claude code",
+            "\\bcodex\\b",
+            "coding agents?",
+            "agents? de cod"
           ],
           "facet": "domain",
           "path": [
             "Intelligence artificielle",
-            "Modèles de langage"
+            "Agents IA",
+            "Agents de développement"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.dev.quality",
+          "label": "Qualité du code",
+          "parent": "domain.dev",
+          "aliases": [
+            "#code-review",
+            "#sast",
+            "#tests",
+            "#linting"
+          ],
+          "patterns": [
+            "reformat.*code",
+            "code python",
+            "codage",
+            "linting"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel",
+            "Qualité du code"
+          ]
+        },
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
           ]
         },
         {
@@ -43460,6 +45460,25 @@
           "aliases": [],
           "facet": "capability",
           "path": []
+        },
+        {
+          "id": "capability.code.assist",
+          "label": "Assister le développement",
+          "parent": "capability",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents",
+            "#pair-programming"
+          ],
+          "patterns": [
+            "reformat.*code",
+            "assistance de codage",
+            "modifier.*fichiers.*projet"
+          ],
+          "facet": "capability",
+          "path": [
+            "Assister le développement"
+          ]
         },
         {
           "id": "lifecycle.active",
@@ -43523,20 +45542,14 @@
       ],
       "keywords": [
         {
-          "label": "#ai-agents",
-          "fullLabel": "ai-agents",
+          "label": "#agents-code",
+          "fullLabel": "agents-code",
           "color": "agent",
-          "subjectId": "domain.ai.agents"
-        },
-        {
-          "label": "#LLM",
-          "fullLabel": "Modèles de langage",
-          "color": "llm",
-          "subjectId": "domain.ai.llm"
+          "tag": "#agents-code"
         }
       ],
       "cardTitle": "Pi",
-      "cardInterest": "Crée des workflows personnalisés avec des extensions"
+      "cardInterest": "Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.\nAvantages · Intégration de fournisseurs LLM via une API unifiée.\nGain · Exécuter des tâches de codage sans configuration complexe."
     },
     {
       "id": "watch-technical-c133b93b912dffd605a2-md",

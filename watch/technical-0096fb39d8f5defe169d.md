@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Crée des magasins B2B ou DTC avec des primitives commerciales
+Fonction · Plateforme e-commerce modulaire pour agents et développeurs.  
+Avantages · Modules commerciaux et infrastructures prêts à l'emploi.  
+Gain · Déployer un magasin ou marketplace sans réinventer la logique métier.
 
 ## Identité
 
@@ -27,8 +29,8 @@ Crée des magasins B2B ou DTC avec des primitives commerciales
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.active
-- Sujets : À qualifier
+- Identifiants : domain.ai.agents source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

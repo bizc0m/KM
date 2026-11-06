@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet d'explorer et de modifier le codebase avec des commandes naturelles
+Fonction · Interagit avec le code via des commandes CLI.  
+Avantages · Gère des tâches comme grep, edition de fichiers.  
+Gain · Exécuter des commandes sans quitter le terminal.
 
 ## Identité
 

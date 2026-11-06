@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet de streamer des médias via des plugins configurés.
+Fonction · Streamer des médias via des plugins.  
+Avantages · Plugins externes pour scraping et lecture.  
+Gain · Lancer une recherche et lecture en quelques commandes.
 
 ## Identité
 

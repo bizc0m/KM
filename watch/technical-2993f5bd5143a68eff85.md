@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Permet de consulter des anime via une interface CLI
+Fonction · CLI pour parcourir et visionner des anime via hianime.  
+Avantages · Scrapes hianime pour accéder aux épisodes.  
+Gain · Lancer des séances de visionnage sans navigateur.
 
 ## Identité
 

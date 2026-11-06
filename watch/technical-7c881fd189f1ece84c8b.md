@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Sélectionner des fichiers rapidement avec une recherche floue.
+Fonction · Trouver des fichiers ou lignes dans des listes.  
+Avantages · Intégration avec Bash, Zsh, Vim et Neovim.  
+Gain · Éviter de taper des commandes longues pour sélectionner.
 
 ## Identité
 
@@ -36,6 +38,8 @@ Sélectionner des fichiers rapidement avec une recherche floue.
 
 - https://github.com/junegunn/fzf
 - https://x.com/i/status/2057730938570981639
+- https://raw.githubusercontent.com/junegunn/i/master/fzf-preview.png
+- https://raw.githubusercontent.com/junegunn/fzf/HEAD/README.md
 
 ## Traçabilité
 
@@ -44,3 +48,9 @@ Sélectionner des fichiers rapidement avec une recherche floue.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-26
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![Aperçu du produit](https://raw.githubusercontent.com/junegunn/i/master/fzf-preview.png)
+
+[Origine](https://raw.githubusercontent.com/junegunn/fzf/HEAD/README.md)

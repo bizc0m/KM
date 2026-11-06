@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Exécute des modèles LLM localement avec optimisation matérielle
+Fonction · Inférer des LLM et VLM en C/C++ sans dépendances.  
+Avantages · Optimisé pour Apple Silicon, x86, RISC-V et GPU via CUDA/HIP.  
+Gain · Exécuter des modèles quantifiés en 1.5-bit à 8-bit sans serveur.
 
 ## Identité
 
@@ -27,8 +29,8 @@ Exécute des modèles LLM localement avec optimisation matérielle
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.llm source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Modèles de langage
+- Identifiants : domain.ai.llm domain.infrastructure source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Modèles de langage ; Infrastructure
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 

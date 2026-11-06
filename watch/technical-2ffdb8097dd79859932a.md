@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Contourner les détections anti-bot avec un navigateur modifié.
+Fonction · Remplace Playwright/Puppeteer pour naviguer en mode furtif.  
+Avantages · Passe 50+ tests de détection anti-bot.  
+Gain · Lancer des tâches sans config, avec un seul import.
 
 ## Identité
 
