@@ -27,7 +27,9 @@ Gain · Lancer des workflows en un clic avec des recettes prêtes à exécuter.
 - [Anthropic Cybersecurity Skills](../../watch/technical-02d73009ec03d24b2e22.md) — Fonction · Donner des compétences de sécurité à un agent AI.
 Avantages · Mappage à 6 frameworks de sécurité.
 Gain · Exécuter des tâches de sécurité en quelques secondes.
-- [700-cybersecurity-skills](../../watch/technical-f26c6abfcce6e427cbf6.md) — Ajout de compétences de cybersécurité pour agents IA
+- [700-cybersecurity-skills](../../watch/technical-f26c6abfcce6e427cbf6.md) — Fonction · Donner des compétences de sécurité à un agent AI.
+Avantages · Mappage à 6 frameworks de sécurité.
+Gain · Exécuter des tâches de cybersécurité en temps réel.
 - [last30days-skill](../../watch/technical-b88590c43555a909e1ff.md) — Fonction · Recherche d'informations via des sources sociales et techniques.
 Avantages · Synthèse basée sur l'engagement réel des utilisateurs.
 Gain · Comparer des outils ou comprendre des sujets en 30 secondes.

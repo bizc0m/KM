@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Ajout de compétences de cybersécurité pour agents IA
+Fonction · Donner des compétences de sécurité à un agent AI.  
+Avantages · Mappage à 6 frameworks de sécurité.  
+Gain · Exécuter des tâches de cybersécurité en temps réel.
 
 ## Métadonnées
 

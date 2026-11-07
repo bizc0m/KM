@@ -65,7 +65,9 @@ Gain · Lancer une analyse sans configuration complexe.
 - [Analyse et détection du malware sur macOS](../../watch/technical-53b65313df1efd7a5d72.md) — Fonction · Analyser les processus pour détecter des anomalies.
 Avantages · Identifier des comportements suspects en temps réel.
 Gain · Éviter les attaques malveillantes sans expertise technique.
-- [curl-impersonate](../../watch/technical-b9848ad223c40a32fb39.md) — Imiter les navigateurs web pour contourner les restrictions de serveurs.
+- [curl-impersonate](../../watch/technical-b9848ad223c40a32fb39.md) — Fonction · Impersonne les navigateurs Chrome, Firefox, Edge et Safari.
+Avantages · TLS et HTTP/2 identiques à un navigateur réel.
+Gain · Éviter la détection par fingerprinting sans modifier le code.
 - [FreeTube](../../watch/technical-91d6b06125ea90507740.md) — Fonction · Jouer des vidéos YouTube sans publicités.
 Avantages · Bloque le suivi de Google via les cookies.
 Gain · Lancer des vidéos directement depuis le navigateur.
@@ -82,7 +84,9 @@ Gain · Créer et gérer des objets sans code complexe.
 - [Anthropic Cybersecurity Skills](../../watch/technical-02d73009ec03d24b2e22.md) — Fonction · Donner des compétences de sécurité à un agent AI.
 Avantages · Mappage à 6 frameworks de sécurité.
 Gain · Exécuter des tâches de sécurité en quelques secondes.
-- [700-cybersecurity-skills](../../watch/technical-f26c6abfcce6e427cbf6.md) — Ajout de compétences de cybersécurité pour agents IA
+- [700-cybersecurity-skills](../../watch/technical-f26c6abfcce6e427cbf6.md) — Fonction · Donner des compétences de sécurité à un agent AI.
+Avantages · Mappage à 6 frameworks de sécurité.
+Gain · Exécuter des tâches de cybersécurité en temps réel.
 - [H4X-Tools](../../watch/technical-1805682cce69c18558d8.md) — Fonction · Scrapes Instagram, effectue des recherches web, analyse des numéros de téléphone.
 Avantages · Modes authentifiés et anonymes, export en formats multiples.
 Gain · Lancer des tâches sans connexion, récupérer des données sans interface.

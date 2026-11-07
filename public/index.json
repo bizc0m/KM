@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-07T08:11:30.374Z",
+  "at": "2026-11-07T12:21:40.533Z",
   "count": 660,
   "rows": [
     {
@@ -104415,7 +104415,7 @@
       "github": "https://github.com/cgohlke/lfdfiles",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Convertir des fichiers expérimentaux en formats compatibles.",
+      "summary": "Fonction · Lecture et conversion de formats de fichiers expérimentaux.  \nAvantages · Support de formats propriétaires et métadonnées.  \nGain · Traiter des données binaires et journalières sans réécriture.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-21",
@@ -104674,7 +104674,7 @@
         }
       ],
       "cardTitle": "lfdfiles",
-      "cardInterest": "Convertir des fichiers expérimentaux en formats compatibles."
+      "cardInterest": "Fonction · Lecture et conversion de formats de fichiers expérimentaux.\nAvantages · Support de formats propriétaires et métadonnées.\nGain · Traiter des données binaires et journalières sans réécriture."
     },
     {
       "id": "watch-technical-7efadf61d584319cb74d-md",
@@ -106837,7 +106837,7 @@
       "github": "https://github.com/cgohlke/oiffile",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Lire des images OIF/OIB avec Python. Extraire données et métadonnées. Convertir OIB en OIF.",
+      "summary": "Fonction · Lire des fichiers OIF et OIB d'Olympus.  \nAvantages · Gère des formats multi-fichiers et binaires.  \nGain · Extraire et visualiser des données et métadonnées.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-21",
@@ -107142,7 +107142,7 @@
         }
       ],
       "cardTitle": "oiffile",
-      "cardInterest": "Lire des images OIF/OIB avec Python."
+      "cardInterest": "Fonction · Lire des fichiers OIF et OIB d'Olympus.\nAvantages · Gère des formats multi-fichiers et binaires.\nGain · Extraire et visualiser des données et métadonnées."
     },
     {
       "id": "watch-technical-f19c3baa5f5288e9f875-md",
@@ -113244,7 +113244,7 @@
       "github": "https://github.com/cgohlke/transformations",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Calcul de matrices de transformation 3D avec des quaternions. Gestion des rotations et translations.",
+      "summary": "Fonction · Calculer des matrices 4x4 pour transformations 3D et conversions quaternions.  \nAvantages · Gestion d'arrays de coordonnées homogènes et décomposition de matrices.  \nGain · Éviter recalculs avec des fonctions prêtes à l'emploi.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-21",
@@ -113599,7 +113599,7 @@
         }
       ],
       "cardTitle": "transformations",
-      "cardInterest": "Calcul de matrices de transformation 3D avec des quaternions."
+      "cardInterest": "Fonction · Calculer des matrices 4x4 pour transformations 3D et conversions quaternions.\nAvantages · Gestion d'arrays de coordonnées homogènes et décomposition de matrices.\nGain · Éviter recalculs avec des fonctions prêtes à l'emploi."
     },
     {
       "id": "watch-technical-05f2d81f059f3b669d94-md",
@@ -119649,7 +119649,7 @@
       "github": "https://github.com/lexiforest/curl-impersonate",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Imiter les navigateurs web pour contourner les restrictions de serveurs.",
+      "summary": "Fonction · Impersonne les navigateurs Chrome, Firefox, Edge et Safari.  \nAvantages · TLS et HTTP/2 identiques à un navigateur réel.  \nGain · Éviter la détection par fingerprinting sans modifier le code.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-20",
@@ -119987,7 +119987,7 @@
         }
       ],
       "cardTitle": "curl-impersonate",
-      "cardInterest": "Imiter les navigateurs web pour contourner les restrictions de serveurs."
+      "cardInterest": "Fonction · Impersonne les navigateurs Chrome, Firefox, Edge et Safari.\nAvantages · TLS et HTTP/2 identiques à un navigateur réel.\nGain · Éviter la détection par fingerprinting sans modifier le code."
     },
     {
       "id": "watch-technical-43f36e57eefe1580091a-md",
@@ -130551,7 +130551,7 @@
       "github": "https://github.com/shopify/react-native-skia",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Rendu graphique 2D performant pour applications React Native",
+      "summary": "Fonction · Dessiner des graphismes 2D performants en React Native.  \nAvantages · Utilise la bibliothèque Skia pour Chrome, Android, Flutter.  \nGain · Exécuter des rendus GPU via Vulkan/Metal sans duplication.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-20",
@@ -130872,7 +130872,7 @@
         }
       ],
       "cardTitle": "React Native Skia",
-      "cardInterest": "Rendu graphique 2D performant pour applications React Native"
+      "cardInterest": "Fonction · Dessiner des graphismes 2D performants en React Native.\nAvantages · Utilise la bibliothèque Skia pour Chrome, Android, Flutter.\nGain · Exécuter des rendus GPU via Vulkan/Metal sans duplication."
     },
     {
       "id": "watch-technical-86179b264553419a3af1-md",
@@ -146935,7 +146935,7 @@
       "github": "https://github.com/0xsojalsec/700-cybersecurity-skills",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Ajout de compétences de cybersécurité pour agents IA",
+      "summary": "Fonction · Donner des compétences de sécurité à un agent AI.  \nAvantages · Mappage à 6 frameworks de sécurité.  \nGain · Exécuter des tâches de cybersécurité en temps réel.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-19",
@@ -147362,7 +147362,7 @@
         }
       ],
       "cardTitle": "700-cybersecurity-skills",
-      "cardInterest": "Ajout de compétences de cybersécurité pour agents IA"
+      "cardInterest": "Fonction · Donner des compétences de sécurité à un agent AI.\nAvantages · Mappage à 6 frameworks de sécurité.\nGain · Exécuter des tâches de cybersécurité en temps réel."
     },
     {
       "id": "watch-technical-c7981ee6b566fce67d68-md",

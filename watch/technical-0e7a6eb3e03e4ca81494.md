@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Lire des images OIF/OIB avec Python. Extraire données et métadonnées. Convertir OIB en OIF.
+Fonction · Lire des fichiers OIF et OIB d'Olympus.  
+Avantages · Gère des formats multi-fichiers et binaires.  
+Gain · Extraire et visualiser des données et métadonnées.
 
 ## Identité
 

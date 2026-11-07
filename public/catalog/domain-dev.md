@@ -162,7 +162,9 @@ Gain · Lancer des tâches sans configuration, utiliser des modèles Qwen locaux
 - [React Native Firebase](../../watch/technical-3681504d2fddfa84e41c.md) — Fonction · Intégre Firebase services via modules natifs.
 Avantages · Typage intégré, documentation complète.
 Gain · Éviter configuration manuelle des SDK Firebase.
-- [React Native Skia](../../watch/technical-7cd3c79123c711ed22a3.md) — Rendu graphique 2D performant pour applications React Native
+- [React Native Skia](../../watch/technical-7cd3c79123c711ed22a3.md) — Fonction · Dessiner des graphismes 2D performants en React Native.
+Avantages · Utilise la bibliothèque Skia pour Chrome, Android, Flutter.
+Gain · Exécuter des rendus GPU via Vulkan/Metal sans duplication.
 - [react-native-async-storage/async-storage](../../watch/technical-86179b264553419a3af1.md) — Stocke des données clé-valeur persistantes dans une application React Native
 - [react-native-geolocation-service](../../watch/technical-4b680fb1ac30d77fae4c.md) — Fonction · Obtenir la position via Google Play Services sur Android.
 Avantages · Gère les timeout de localisation sur Android.

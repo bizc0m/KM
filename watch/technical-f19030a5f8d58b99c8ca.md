@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Calcul de matrices de transformation 3D avec des quaternions. Gestion des rotations et translations.
+Fonction · Calculer des matrices 4x4 pour transformations 3D et conversions quaternions.  
+Avantages · Gestion d'arrays de coordonnées homogènes et décomposition de matrices.  
+Gain · Éviter recalculs avec des fonctions prêtes à l'emploi.
 
 ## Identité
 

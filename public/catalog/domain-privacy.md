@@ -9,7 +9,9 @@ Avantages · Rotation de proxies et info système intégrée.
 Gain · Lancer des requêtes anonymes sans configuration complexe.
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
 - [Faker](../../watch/technical-72da768867f7d20473e6.md) — Génère des données fictives pour remplir des bases de données
-- [curl-impersonate](../../watch/technical-b9848ad223c40a32fb39.md) — Imiter les navigateurs web pour contourner les restrictions de serveurs.
+- [curl-impersonate](../../watch/technical-b9848ad223c40a32fb39.md) — Fonction · Impersonne les navigateurs Chrome, Firefox, Edge et Safari.
+Avantages · TLS et HTTP/2 identiques à un navigateur réel.
+Gain · Éviter la détection par fingerprinting sans modifier le code.
 - [FreeTube](../../watch/technical-91d6b06125ea90507740.md) — Fonction · Jouer des vidéos YouTube sans publicités.
 Avantages · Bloque le suivi de Google via les cookies.
 Gain · Lancer des vidéos directement depuis le navigateur.

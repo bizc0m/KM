@@ -241,7 +241,9 @@ Gain · Traiter des images sans correction gamma ou échelle.
 - [obffile](../../watch/technical-31ee21281c253175f879.md) — Fonction · Lire des fichiers OBF et MSR pour extraire images et métadonnées.
 Avantages · Support des formats compressés et non compressés avec mémoire mappée.
 Gain · Analyser directement les données sans conversion intermédiaire.
-- [oiffile](../../watch/technical-0e7a6eb3e03e4ca81494.md) — Lire des images OIF/OIB avec Python.
+- [oiffile](../../watch/technical-0e7a6eb3e03e4ca81494.md) — Fonction · Lire des fichiers OIF et OIB d'Olympus.
+Avantages · Gère des formats multi-fichiers et binaires.
+Gain · Extraire et visualiser des données et métadonnées.
 - [oirfile](../../watch/technical-f19c3baa5f5288e9f875.md) — Fonction · Lire des fichiers OIR, POIR et MPOIR.
 Avantages · Gérer des archives ZIP et extraire des métadonnées.
 Gain · Analyser des images et données sans conversion préalable.
@@ -266,7 +268,9 @@ Gain · Analyser des mesures de photons sans logiciel tiers.
 - [tifffile](../../watch/technical-6efa01af6ecbb2a6854a.md) — Fonction · Lire/écrire TIFF, BigTIFF, OME-TIFF, NDPI, STK, LSM.
 Avantages · Support compression JPEG, LZW, PNG, Zstd, LERC.
 Gain · Traiter images multidimensionnelles sans conversion.
-- [transformations](../../watch/technical-f19030a5f8d58b99c8ca.md) — Calcul de matrices de transformation 3D avec des quaternions.
+- [transformations](../../watch/technical-f19030a5f8d58b99c8ca.md) — Fonction · Calculer des matrices 4x4 pour transformations 3D et conversions quaternions.
+Avantages · Gestion d'arrays de coordonnées homogènes et décomposition de matrices.
+Gain · Éviter recalculs avec des fonctions prêtes à l'emploi.
 - [vidsrc](../../watch/technical-4d7ca480ccb1704faf5b.md) — Fonction · Lire des frames de vidéos en tant que tableaux NumPy.
 Avantages · Utilise l'interface DirectShow IMediaDet.
 Gain · Accéder directement aux frames sans conversion intermédiaire.

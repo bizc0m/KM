@@ -144,7 +144,9 @@ Gain · Traiter des images sans correction gamma ou échelle.
 - [obffile](../../watch/technical-31ee21281c253175f879.md) — Fonction · Lire des fichiers OBF et MSR pour extraire images et métadonnées.
 Avantages · Support des formats compressés et non compressés avec mémoire mappée.
 Gain · Analyser directement les données sans conversion intermédiaire.
-- [oiffile](../../watch/technical-0e7a6eb3e03e4ca81494.md) — Lire des images OIF/OIB avec Python.
+- [oiffile](../../watch/technical-0e7a6eb3e03e4ca81494.md) — Fonction · Lire des fichiers OIF et OIB d'Olympus.
+Avantages · Gère des formats multi-fichiers et binaires.
+Gain · Extraire et visualiser des données et métadonnées.
 - [oirfile](../../watch/technical-f19c3baa5f5288e9f875.md) — Fonction · Lire des fichiers OIR, POIR et MPOIR.
 Avantages · Gérer des archives ZIP et extraire des métadonnées.
 Gain · Analyser des images et données sans conversion préalable.

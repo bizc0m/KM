@@ -64,7 +64,9 @@ Gain · Lancer des tâches sans configuration, adapter au projet directement.
 - [Claude Code gratuit avec proxy NVIDIA](../../watch/technical-227e249fa68647e0ca82.md) — Fonction · Convertir les appels API Anthropic en format NVIDIA NIM.
 Avantages · Intégration avec NotePlan et X / Twitter.
 Gain · Automatiser la conversion des requêtes sans réécriture.
-- [700-cybersecurity-skills](../../watch/technical-f26c6abfcce6e427cbf6.md) — Ajout de compétences de cybersécurité pour agents IA
+- [700-cybersecurity-skills](../../watch/technical-f26c6abfcce6e427cbf6.md) — Fonction · Donner des compétences de sécurité à un agent AI.
+Avantages · Mappage à 6 frameworks de sécurité.
+Gain · Exécuter des tâches de cybersécurité en temps réel.
 - [Free Claude Code](../../watch/technical-2ee41fd0d683c0958502.md) — Utilise des modèles d'IA pour le développement
 - [awesome-seo-agent-skills](../../watch/technical-2eb5b1b4690cd51d126c.md) — Fonction · Analyse SEO, audits techniques, recherches de mots-clés.
 Avantages · Intégration avec des agents comme Claude Code et OpenClaw.

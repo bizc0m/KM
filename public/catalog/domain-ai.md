@@ -291,7 +291,9 @@ Gain · Automatiser la conversion des requêtes sans réécriture.
 - [CloddsBot](../../watch/technical-d6a24343d25ffd74d14c.md) — Fonction · Terminal de trading AI pour marchés prédictifs, crypto et futures.
 Avantages · Intégration Solana et EVM avec 1000+ marchés.
 Gain · Exécuter des ordres en un clic via 21 plateformes.
-- [700-cybersecurity-skills](../../watch/technical-f26c6abfcce6e427cbf6.md) — Ajout de compétences de cybersécurité pour agents IA
+- [700-cybersecurity-skills](../../watch/technical-f26c6abfcce6e427cbf6.md) — Fonction · Donner des compétences de sécurité à un agent AI.
+Avantages · Mappage à 6 frameworks de sécurité.
+Gain · Exécuter des tâches de cybersécurité en temps réel.
 - [Free Claude Code](../../watch/technical-2ee41fd0d683c0958502.md) — Utilise des modèles d'IA pour le développement
 - [ai-faceless-video-generator](../../watch/technical-8d8cf40ff98876dc4965.md) — Fonction · Génère des vidéos avec un visage animé à partir d'un sujet.
 Avantages · Utilise GPT pour le script, gTTS pour la voix, SadTalker pour l'animation.

@@ -94,7 +94,9 @@ Gain · Éviter de configurer manuellement les certificats SSL.
 - [community-edition](../../watch/technical-cf13d710b766f0f10a31.md) — Fonction · Self-hosting d'analyse web avec Docker.
 Avantages · Support Let's Encrypt via DNS.
 Gain · Déployer un serveur web sécurisé en quelques étapes.
-- [curl-impersonate](../../watch/technical-b9848ad223c40a32fb39.md) — Imiter les navigateurs web pour contourner les restrictions de serveurs.
+- [curl-impersonate](../../watch/technical-b9848ad223c40a32fb39.md) — Fonction · Impersonne les navigateurs Chrome, Firefox, Edge et Safari.
+Avantages · TLS et HTTP/2 identiques à un navigateur réel.
+Gain · Éviter la détection par fingerprinting sans modifier le code.
 - [Evilginx2](../../watch/technical-1380f00a7374bcec86ff.md) — Fonction · Attaque man-in-the-middle pour pirater des comptes.
 Avantages · Fournit des certificats TLS et spoofing de site.
 Gain · Éviter la détection par les protections du navigateur.

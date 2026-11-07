@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Convertir des fichiers expérimentaux en formats compatibles.
+Fonction · Lecture et conversion de formats de fichiers expérimentaux.  
+Avantages · Support de formats propriétaires et métadonnées.  
+Gain · Traiter des données binaires et journalières sans réécriture.
 
 ## Identité
 

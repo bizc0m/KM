@@ -52,7 +52,9 @@ Gain · Exécuter des calculs scientifiques sans compiler du code C++.
 - [psf](../../watch/technical-0a61327e7795d4222c1f.md) — Fonction · Calculer les fonctions de réponse d'impulsions (PSF) pour microscopie fluorescence.
 Avantages · Implémente des modèles optiques et des calculs de diffraction.
 Gain · Générer des volumes d'observation 3D pour analyse ou visualisation.
-- [transformations](../../watch/technical-f19030a5f8d58b99c8ca.md) — Calcul de matrices de transformation 3D avec des quaternions.
+- [transformations](../../watch/technical-f19030a5f8d58b99c8ca.md) — Fonction · Calculer des matrices 4x4 pour transformations 3D et conversions quaternions.
+Avantages · Gestion d'arrays de coordonnées homogènes et décomposition de matrices.
+Gain · Éviter recalculs avec des fonctions prêtes à l'emploi.
 - [Kalidokit](../../watch/technical-2673d20da2d7143af84e.md) — Kalidokit est un outil pour rigiser des visages, corps et mains.
 - [SysMocap](../../watch/technical-265f4b5b46b161719305.md) — Fonction · Capture de mouvement en temps réel via vidéo.
 Avantages · Support VRM et FBX avec détection automatique.

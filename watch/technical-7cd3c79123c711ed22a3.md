@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Rendu graphique 2D performant pour applications React Native
+Fonction · Dessiner des graphismes 2D performants en React Native.  
+Avantages · Utilise la bibliothèque Skia pour Chrome, Android, Flutter.  
+Gain · Exécuter des rendus GPU via Vulkan/Metal sans duplication.
 
 ## Identité
 

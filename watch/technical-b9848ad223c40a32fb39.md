@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Imiter les navigateurs web pour contourner les restrictions de serveurs.
+Fonction · Impersonne les navigateurs Chrome, Firefox, Edge et Safari.  
+Avantages · TLS et HTTP/2 identiques à un navigateur réel.  
+Gain · Éviter la détection par fingerprinting sans modifier le code.
 
 ## Identité
 
