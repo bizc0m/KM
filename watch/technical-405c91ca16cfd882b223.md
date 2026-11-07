@@ -6,6 +6,8 @@ actif
 
 ## Tags
 
+#macos
+
 ## Intérêts
 
 Fonction · Fonte variable avec variations de rondeur et poids.  
@@ -19,7 +21,7 @@ Gain · Déployer des polices optimisées pour Windows, macOS et Linux.
 ## Métadonnées
 
 - Nature : À vérifier
-- OS : À vérifier
+- OS : macOS
 - Licence : À vérifier
 - Tarification : À vérifier
 - Accès : À vérifier

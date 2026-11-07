@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-06T19:10:56.734Z",
+  "at": "2026-11-07T07:11:25.365Z",
   "count": 660,
   "rows": [
     {
@@ -51020,8 +51020,7 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.dev.browser",
-            "domain.dev.testing"
+            "domain.dev.browser"
           ],
           "capability": [
             "capability.automation.browser"
@@ -51087,26 +51086,6 @@
             "aliases": [],
             "facet": "domain",
             "path": []
-          },
-          {
-            "id": "domain.dev.testing",
-            "label": "Tests logiciels",
-            "parent": "domain.dev",
-            "aliases": [
-              "#testing",
-              "#test-automation"
-            ],
-            "patterns": [
-              "tests web",
-              "test smtp",
-              "plan de test",
-              "type python"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel",
-              "Tests logiciels"
-            ]
           },
           {
             "id": "capability.automation.browser",
@@ -51261,26 +51240,6 @@
           "aliases": [],
           "facet": "domain",
           "path": []
-        },
-        {
-          "id": "domain.dev.testing",
-          "label": "Tests logiciels",
-          "parent": "domain.dev",
-          "aliases": [
-            "#testing",
-            "#test-automation"
-          ],
-          "patterns": [
-            "tests web",
-            "test smtp",
-            "plan de test",
-            "type python"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel",
-            "Tests logiciels"
-          ]
         },
         {
           "id": "capability.automation.browser",
@@ -57206,7 +57165,6 @@
       "publishable": true,
       "shareable": true,
       "tags": [
-        "#amelioration",
         "#montage-video"
       ],
       "status": "actif",
@@ -57423,9 +57381,7 @@
             ]
           }
         ],
-        "unmappedTags": [
-          "#amelioration"
-        ]
+        "unmappedTags": []
       },
       "concepts": [
         {
@@ -57576,12 +57532,6 @@
         }
       ],
       "keywords": [
-        {
-          "label": "#amelioration",
-          "fullLabel": "amelioration",
-          "color": "tool",
-          "tag": "#amelioration"
-        },
         {
           "label": "#montage-video",
           "fullLabel": "montage-video",
@@ -81107,8 +81057,7 @@
         "facets": {
           "domain": [
             "domain.infrastructure",
-            "domain.dev.ui",
-            "domain.dev.quality"
+            "domain.dev.ui"
           ],
           "capability": [],
           "compatibility": [
@@ -81203,28 +81152,6 @@
             "facet": "domain",
             "path": [
               "Développement logiciel"
-            ]
-          },
-          {
-            "id": "domain.dev.quality",
-            "label": "Qualité du code",
-            "parent": "domain.dev",
-            "aliases": [
-              "#code-review",
-              "#sast",
-              "#tests",
-              "#linting"
-            ],
-            "patterns": [
-              "reformat.*code",
-              "code python",
-              "codage",
-              "linting"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel",
-              "Qualité du code"
             ]
           },
           {
@@ -81399,28 +81326,6 @@
           "facet": "domain",
           "path": [
             "Développement logiciel"
-          ]
-        },
-        {
-          "id": "domain.dev.quality",
-          "label": "Qualité du code",
-          "parent": "domain.dev",
-          "aliases": [
-            "#code-review",
-            "#sast",
-            "#tests",
-            "#linting"
-          ],
-          "patterns": [
-            "reformat.*code",
-            "code python",
-            "codage",
-            "linting"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel",
-            "Qualité du code"
           ]
         },
         {
@@ -105424,10 +105329,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [
-        "#pgm",
-        "#ppm",
-        "#pam",
-        "#pgx"
+        "#python"
       ],
       "status": "actif",
       "path": "watch/technical-3e71b5f6fda8c41d55e1.md",
@@ -105463,7 +105365,9 @@
             "domain.media.image"
           ],
           "capability": [],
-          "compatibility": [],
+          "compatibility": [
+            "compatibility.language.python"
+          ],
           "risk": [],
           "source": [
             "source.noteplan",
@@ -105515,6 +105419,37 @@
             "parent": null,
             "aliases": [],
             "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "compatibility.language.python",
+            "label": "Python",
+            "parent": "compatibility.language",
+            "aliases": [
+              "#python"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Langages",
+              "Python"
+            ]
+          },
+          {
+            "id": "compatibility.language",
+            "label": "Langages",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Langages"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
             "path": []
           },
           {
@@ -105577,12 +105512,7 @@
             ]
           }
         ],
-        "unmappedTags": [
-          "#pgm",
-          "#ppm",
-          "#pam",
-          "#pgx"
-        ]
+        "unmappedTags": []
       },
       "concepts": [
         {
@@ -105625,6 +105555,37 @@
           "parent": null,
           "aliases": [],
           "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "compatibility.language.python",
+          "label": "Python",
+          "parent": "compatibility.language",
+          "aliases": [
+            "#python"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Langages",
+            "Python"
+          ]
+        },
+        {
+          "id": "compatibility.language",
+          "label": "Langages",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Langages"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
           "path": []
         },
         {
@@ -105689,28 +105650,10 @@
       ],
       "keywords": [
         {
-          "label": "#pgm",
-          "fullLabel": "pgm",
-          "color": "tool",
-          "tag": "#pgm"
-        },
-        {
-          "label": "#ppm",
-          "fullLabel": "ppm",
-          "color": "tool",
-          "tag": "#ppm"
-        },
-        {
-          "label": "#pam",
-          "fullLabel": "pam",
-          "color": "tool",
-          "tag": "#pam"
-        },
-        {
-          "label": "#pgx",
-          "fullLabel": "pgx",
-          "color": "tool",
-          "tag": "#pgx"
+          "label": "#python",
+          "fullLabel": "python",
+          "color": "dev",
+          "tag": "#python"
         }
       ],
       "cardTitle": "netpbmfile",
@@ -126023,8 +125966,7 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.media.audio",
-            "domain.dev.dependencies"
+            "domain.media.audio"
           ],
           "capability": [],
           "compatibility": [
@@ -126077,50 +126019,6 @@
             "aliases": [],
             "facet": "domain",
             "path": []
-          },
-          {
-            "id": "domain.dev.dependencies",
-            "label": "Paquets et dépendances",
-            "parent": "domain.dev",
-            "aliases": [
-              "#package-manager",
-              "#dependencies"
-            ],
-            "patterns": [
-              "gestionnaire de paquets",
-              "gestion.*dependances",
-              "resol.*dependances",
-              "ger.*dependances"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel",
-              "Paquets et dépendances"
-            ]
-          },
-          {
-            "id": "domain.dev",
-            "label": "Développement logiciel",
-            "parent": "domain",
-            "aliases": [
-              "#coding",
-              "#devtools",
-              "#editor",
-              "#code-quality"
-            ],
-            "patterns": [
-              "developpement logiciel",
-              "software development",
-              "ingenierie logicielle",
-              "developpement",
-              "programmat",
-              "modifier.*fichiers.*projet",
-              "modifier un projet"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel"
-            ]
           },
           {
             "id": "compatibility.language.python",
@@ -126252,50 +126150,6 @@
           "aliases": [],
           "facet": "domain",
           "path": []
-        },
-        {
-          "id": "domain.dev.dependencies",
-          "label": "Paquets et dépendances",
-          "parent": "domain.dev",
-          "aliases": [
-            "#package-manager",
-            "#dependencies"
-          ],
-          "patterns": [
-            "gestionnaire de paquets",
-            "gestion.*dependances",
-            "resol.*dependances",
-            "ger.*dependances"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel",
-            "Paquets et dépendances"
-          ]
-        },
-        {
-          "id": "domain.dev",
-          "label": "Développement logiciel",
-          "parent": "domain",
-          "aliases": [
-            "#coding",
-            "#devtools",
-            "#editor",
-            "#code-quality"
-          ],
-          "patterns": [
-            "developpement logiciel",
-            "software development",
-            "ingenierie logicielle",
-            "developpement",
-            "programmat",
-            "modifier.*fichiers.*projet",
-            "modifier un projet"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel"
-          ]
         },
         {
           "id": "compatibility.language.python",
@@ -153405,7 +153259,6 @@
       "publishable": true,
       "shareable": true,
       "tags": [
-        "#farming",
         "#simulation"
       ],
       "status": "actif",
@@ -153580,9 +153433,7 @@
             ]
           }
         ],
-        "unmappedTags": [
-          "#farming"
-        ]
+        "unmappedTags": []
       },
       "concepts": [
         {
@@ -153711,12 +153562,6 @@
         }
       ],
       "keywords": [
-        {
-          "label": "#farming",
-          "fullLabel": "farming",
-          "color": "tool",
-          "tag": "#farming"
-        },
         {
           "label": "#simulation",
           "fullLabel": "simulation",
@@ -213692,7 +213537,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [],
-      "status": "a verifier",
+      "status": "sensible",
       "path": "watch/alpinechain-workshop-2026.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/alpinechain-workshop-2026.md",
       "sourceUrl": "https://join.alpinechain.xyz/org/workshop2026/",
@@ -213721,32 +213566,33 @@
           ],
           "capability": [],
           "compatibility": [],
-          "risk": [],
+          "risk": [
+            "risk.sensitive"
+          ],
           "source": [],
-          "lifecycle": [
-            "lifecycle.review"
-          ]
+          "lifecycle": []
         },
         "concepts": [
           {
-            "id": "lifecycle.review",
-            "label": "À vérifier",
-            "parent": "lifecycle",
+            "id": "risk.sensitive",
+            "label": "Risque signalé",
+            "parent": "risk",
             "aliases": [
-              "#a-verifier",
-              "#to-verify"
+              "#sensible",
+              "#sensitive",
+              "#privacy-risk"
             ],
-            "facet": "lifecycle",
+            "facet": "risk",
             "path": [
-              "À vérifier"
+              "Risque signalé"
             ]
           },
           {
-            "id": "lifecycle",
-            "label": "État",
+            "id": "risk",
+            "label": "Risques",
             "parent": null,
             "aliases": [],
-            "facet": "lifecycle",
+            "facet": "risk",
             "path": []
           },
           {
@@ -213773,24 +213619,25 @@
       },
       "concepts": [
         {
-          "id": "lifecycle.review",
-          "label": "À vérifier",
-          "parent": "lifecycle",
+          "id": "risk.sensitive",
+          "label": "Risque signalé",
+          "parent": "risk",
           "aliases": [
-            "#a-verifier",
-            "#to-verify"
+            "#sensible",
+            "#sensitive",
+            "#privacy-risk"
           ],
-          "facet": "lifecycle",
+          "facet": "risk",
           "path": [
-            "À vérifier"
+            "Risque signalé"
           ]
         },
         {
-          "id": "lifecycle",
-          "label": "État",
+          "id": "risk",
+          "label": "Risques",
           "parent": null,
           "aliases": [],
-          "facet": "lifecycle",
+          "facet": "risk",
           "path": []
         },
         {
@@ -213840,7 +213687,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [],
-      "status": "a verifier",
+      "status": "sensible",
       "path": "watch/chathub-multi-llm-workspace.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/chathub-multi-llm-workspace.md",
       "sourceUrl": "https://chathub.gg/fr",
@@ -213869,11 +213716,11 @@
           ],
           "capability": [],
           "compatibility": [],
-          "risk": [],
+          "risk": [
+            "risk.sensitive"
+          ],
           "source": [],
-          "lifecycle": [
-            "lifecycle.review"
-          ]
+          "lifecycle": []
         },
         "concepts": [
           {
@@ -213934,24 +213781,25 @@
             "path": []
           },
           {
-            "id": "lifecycle.review",
-            "label": "À vérifier",
-            "parent": "lifecycle",
+            "id": "risk.sensitive",
+            "label": "Risque signalé",
+            "parent": "risk",
             "aliases": [
-              "#a-verifier",
-              "#to-verify"
+              "#sensible",
+              "#sensitive",
+              "#privacy-risk"
             ],
-            "facet": "lifecycle",
+            "facet": "risk",
             "path": [
-              "À vérifier"
+              "Risque signalé"
             ]
           },
           {
-            "id": "lifecycle",
-            "label": "État",
+            "id": "risk",
+            "label": "Risques",
             "parent": null,
             "aliases": [],
-            "facet": "lifecycle",
+            "facet": "risk",
             "path": []
           }
         ],
@@ -214016,24 +213864,25 @@
           "path": []
         },
         {
-          "id": "lifecycle.review",
-          "label": "À vérifier",
-          "parent": "lifecycle",
+          "id": "risk.sensitive",
+          "label": "Risque signalé",
+          "parent": "risk",
           "aliases": [
-            "#a-verifier",
-            "#to-verify"
+            "#sensible",
+            "#sensitive",
+            "#privacy-risk"
           ],
-          "facet": "lifecycle",
+          "facet": "risk",
           "path": [
-            "À vérifier"
+            "Risque signalé"
           ]
         },
         {
-          "id": "lifecycle",
-          "label": "État",
+          "id": "risk",
+          "label": "Risques",
           "parent": null,
           "aliases": [],
-          "facet": "lifecycle",
+          "facet": "risk",
           "path": []
         }
       ],
@@ -214071,7 +213920,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [],
-      "status": "a verifier",
+      "status": "sensible",
       "path": "watch/km-d3-scan-integration-20260901.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/km-d3-scan-integration-20260901.md",
       "sourceUrl": "",
@@ -214094,11 +213943,11 @@
           ],
           "capability": [],
           "compatibility": [],
-          "risk": [],
+          "risk": [
+            "risk.sensitive"
+          ],
           "source": [],
-          "lifecycle": [
-            "lifecycle.review"
-          ]
+          "lifecycle": []
         },
         "concepts": [
           {
@@ -214205,24 +214054,25 @@
             ]
           },
           {
-            "id": "lifecycle.review",
-            "label": "À vérifier",
-            "parent": "lifecycle",
+            "id": "risk.sensitive",
+            "label": "Risque signalé",
+            "parent": "risk",
             "aliases": [
-              "#a-verifier",
-              "#to-verify"
+              "#sensible",
+              "#sensitive",
+              "#privacy-risk"
             ],
-            "facet": "lifecycle",
+            "facet": "risk",
             "path": [
-              "À vérifier"
+              "Risque signalé"
             ]
           },
           {
-            "id": "lifecycle",
-            "label": "État",
+            "id": "risk",
+            "label": "Risques",
             "parent": null,
             "aliases": [],
-            "facet": "lifecycle",
+            "facet": "risk",
             "path": []
           }
         ],
@@ -214333,24 +214183,25 @@
           ]
         },
         {
-          "id": "lifecycle.review",
-          "label": "À vérifier",
-          "parent": "lifecycle",
+          "id": "risk.sensitive",
+          "label": "Risque signalé",
+          "parent": "risk",
           "aliases": [
-            "#a-verifier",
-            "#to-verify"
+            "#sensible",
+            "#sensitive",
+            "#privacy-risk"
           ],
-          "facet": "lifecycle",
+          "facet": "risk",
           "path": [
-            "À vérifier"
+            "Risque signalé"
           ]
         },
         {
-          "id": "lifecycle",
-          "label": "État",
+          "id": "risk",
+          "label": "Risques",
           "parent": null,
           "aliases": [],
-          "facet": "lifecycle",
+          "facet": "risk",
           "path": []
         }
       ],

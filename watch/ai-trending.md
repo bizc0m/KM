@@ -18,6 +18,12 @@ Suivre les projets open source IA en tendance : agents, skills, LLM, RAG, chat, 
 
 - Objectif : enregistrer NGJOO comme source de veille KM.
 
+## Intérêts
+
+Fonction · Suivre les projets open source IA en tendance.  
+Avantages · Filtrer par agents, LLM, RAG et multimodal.  
+Gain · Comparer les tendances sans quitter l'outil.
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,12 +32,6 @@ Suivre les projets open source IA en tendance : agents, skills, LLM, RAG, chat, 
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
-
-## Intérêts
-
-Fonction · Suivre les projets open source IA en tendance.  
-Avantages · Filtrer par agents, LLM, RAG et multimodal.  
-Gain · Comparer les tendances sans quitter l'outil.
 
 ## Ontologie
 

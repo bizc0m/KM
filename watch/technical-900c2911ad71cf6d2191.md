@@ -6,6 +6,8 @@ actif
 
 ## Tags
 
+#generation-video
+
 ## Intérêts
 
 Fonction · Génère automatiquement présentations et vidéos.  

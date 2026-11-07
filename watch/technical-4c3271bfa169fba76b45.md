@@ -6,7 +6,7 @@ actif
 
 ## Tags
 
-#previsions-meteo
+#previsions-meteo, #marches-predictifs
 
 ## Intérêts
 

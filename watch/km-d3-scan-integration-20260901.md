@@ -24,6 +24,12 @@ Aucune suppression effectuee. Integration faite dans KM/Base/watch sur M5 via fi
 
 ## Tags
 
+## Intérêts
+
+Fonction · Intégration de notes et fichiers dans KM/Base/watch.  
+Avantages · Accès via fichiers Markdown et workflow d'indexation.  
+Gain · Importer des données sans suppression, structurer les informations.
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -32,9 +38,3 @@ Aucune suppression effectuee. Integration faite dans KM/Base/watch sur M5 via fi
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
-
-## Intérêts
-
-Fonction · Intégration de notes et fichiers dans KM/Base/watch.  
-Avantages · Accès via fichiers Markdown et workflow d'indexation.  
-Gain · Importer des données sans suppression, structurer les informations.

@@ -6,7 +6,7 @@ actif
 
 ## Tags
 
-#osint
+#osint, #extraction-web
 
 ## Intérêts
 

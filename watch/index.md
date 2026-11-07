@@ -521,9 +521,9 @@
 | `watch-vace-video-creation-editing-md` | `vace-video-creation-editing.md` | outil | sensible |
 | `watch-veejay-live-video-sampler-md` | `veejay-live-video-sampler.md` | outil | actif |
 | `watch-vista-video-style-transfer-md` | `vista-video-style-transfer.md` | outil | sensible |
-| `watch-alpinechain-workshop-2026-md` | `alpinechain-workshop-2026.md` | outil | a verifier |
-| `watch-chathub-multi-llm-workspace-md` | `chathub-multi-llm-workspace.md` | outil | a verifier |
-| `watch-km-d3-scan-integration-20260901-md` | `km-d3-scan-integration-20260901.md` | outil | a verifier |
+| `watch-alpinechain-workshop-2026-md` | `alpinechain-workshop-2026.md` | outil | sensible |
+| `watch-chathub-multi-llm-workspace-md` | `chathub-multi-llm-workspace.md` | outil | sensible |
+| `watch-km-d3-scan-integration-20260901-md` | `km-d3-scan-integration-20260901.md` | outil | sensible |
 | `watch-noteplan-km-indexing-workflow-md` | `noteplan-km-indexing-workflow.md` | outil | sensible |
 | `watch-osaurus-local-ai-agents-mac-md` | `osaurus-local-ai-agents-mac.md` | outil | a verifier |
 | `watch-betterdisplay-macos-display-control-md` | `betterdisplay-macos-display-control.md` | outil | actif |

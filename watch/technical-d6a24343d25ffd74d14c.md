@@ -6,6 +6,8 @@ actif
 
 ## Tags
 
+#terminal
+
 ## Intérêts
 
 Fonction · Terminal de trading AI pour marchés prédictifs, crypto et futures.  

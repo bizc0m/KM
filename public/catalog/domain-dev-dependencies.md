@@ -16,7 +16,4 @@ Gain · Éviter de vérifier manuellement les mises à jour.
 - [Carthage](../../watch/technical-db0404acb89369a258a1.md) — Fonction · Gère les dépendances pour les projets Cocoa.
 Avantages · Fournit des frameworks binaires sans modifier le projet.
 Gain · Éviter de configurer manuellement les dépendances.
-- [mutagen](../../watch/technical-5a9ba13528ab94de7bad.md) — Fonction · Gère les métadonnées audio avec Python.
-Avantages · Supporte divers formats et ID3v2.
-Gain · Modifier tags sans changer le fichier audio.
 - [yt-dlp-ejs](../../watch/technical-df2c1d26b3d255b2b015.md) — Facilite l'intégration de JavaScript avec yt-dlp

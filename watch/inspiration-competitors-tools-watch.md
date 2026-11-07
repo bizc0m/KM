@@ -87,6 +87,12 @@ Blog personnel de Scott Yoshinaga avec archives, updates, posts culturels et not
 - Objectif : resserrer `#ROUGE` aux abus offensifs directs et classer le reste en sensible.
 - Risques : social planning et blogs personnels restent privacy-sensitive.
 
+## Intérêts
+
+Fonction · Centraliser les sites inspirants, concurrents et outils utiles.  
+Avantages · Identifier les patterns, risques et opportunités d'intégration.  
+Gain · Éviter la copie, analyser sans reproduire les identités visuelles.
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -95,12 +101,6 @@ Blog personnel de Scott Yoshinaga avec archives, updates, posts culturels et not
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
-
-## Intérêts
-
-Fonction · Centraliser les sites inspirants, concurrents et outils utiles.  
-Avantages · Identifier les patterns, risques et opportunités d'intégration.  
-Gain · Éviter la copie, analyser sans reproduire les identités visuelles.
 
 ## Ontologie
 

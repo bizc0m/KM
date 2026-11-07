@@ -148,9 +148,6 @@ Gain · Exécuter tâches complexes sans session navigateur.
 - [LocalSend](../../watch/technical-2654a48caa01902c8b1d.md) — Fonction · Partage de fichiers et messages entre appareils locaux.
 Avantages · Communication sécurisée via HTTPS et API REST.
 Gain · Éviter les serveurs externes pour transférer des données.
-- [mutagen](../../watch/technical-5a9ba13528ab94de7bad.md) — Fonction · Gère les métadonnées audio avec Python.
-Avantages · Supporte divers formats et ID3v2.
-Gain · Modifier tags sans changer le fichier audio.
 - [PROQCIMA](../../watch/technical-252f85e1a80b7d2702ca.md) — Fonction · Financer la recherche en informatique quantique.
 Avantages · Développement de technologies de pointe en France.
 Gain · Accélérer l'innovation dans le domaine quantique.

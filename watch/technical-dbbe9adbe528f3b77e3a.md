@@ -6,6 +6,8 @@ actif
 
 ## Tags
 
+#montage-video
+
 ## Intérêts
 
 Fonction · Échange de visage, amélioration, montage vidéo et webcam.  

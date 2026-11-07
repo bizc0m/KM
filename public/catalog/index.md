@@ -7,9 +7,9 @@
 - [Agents de développement](domain-ai-agents-coding.md) — 51 fiches
 - [Compétences des agents](domain-ai-agents-skills.md) — 39 fiches
 - [Modèles de langage](domain-ai-llm.md) — 62 fiches
-- [Développement logiciel](domain-dev.md) — 122 fiches
+- [Développement logiciel](domain-dev.md) — 121 fiches
 - [Développement web](domain-dev-web.md) — 26 fiches
-- [Qualité du code](domain-dev-quality.md) — 35 fiches
+- [Qualité du code](domain-dev-quality.md) — 34 fiches
 - [Audio, vidéo et création](domain-media.md) — 168 fiches
 - [Audio](domain-media-audio.md) — 38 fiches
 - [Voix](domain-media-audio-voice.md) — 20 fiches
@@ -44,9 +44,9 @@
 - [Recherche et indexation](domain-data-search.md) — 4 fiches
 - [Infrastructure de contrôle et commande](domain-security-c2.md) — 1 fiches
 - [Création et diffusion en direct](domain-media-live.md) — 3 fiches
-- [Paquets et dépendances](domain-dev-dependencies.md) — 8 fiches
+- [Paquets et dépendances](domain-dev-dependencies.md) — 7 fiches
 - [Environnements d’exécution](domain-dev-runtime.md) — 2 fiches
-- [Tests logiciels](domain-dev-testing.md) — 2 fiches
+- [Tests logiciels](domain-dev-testing.md) — 1 fiches
 - [API et services applicatifs](domain-dev-api.md) — 5 fiches
 - [Déploiement et hébergement](domain-infrastructure-deployment.md) — 5 fiches
 - [Bases de données](domain-infrastructure-database.md) — 17 fiches

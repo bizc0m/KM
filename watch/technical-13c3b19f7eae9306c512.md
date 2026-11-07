@@ -6,6 +6,8 @@ actif
 
 ## Tags
 
+#backtesting, #simulation
+
 ## Intérêts
 
 Fonction · Backtest et exécution d'ordres automatisés.  

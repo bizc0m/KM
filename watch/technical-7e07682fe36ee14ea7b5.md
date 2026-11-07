@@ -6,6 +6,8 @@ actif
 
 ## Tags
 
+#generation-3d
+
 ## Intérêts
 
 Fonction · Reconstruction 3D à partir de plusieurs vues.  

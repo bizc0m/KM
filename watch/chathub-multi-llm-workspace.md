@@ -16,6 +16,12 @@ ChatHub permet de comparer plusieurs LLM cote a cote. Utile pour arbitrer prompt
 
 ## Tags
 
+## Intérêts
+
+Fonction · Comparer réponses de plusieurs LLM en simultané.  
+Avantages · Aide à évaluer et scorer les prompts utilisés.  
+Gain · Contrôler et valider des fiches KM sans déplacement.
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -25,18 +31,12 @@ ChatHub permet de comparer plusieurs LLM cote a cote. Utile pour arbitrer prompt
 - Accès : À vérifier
 - Preuve : À vérifier
 
-## Intérêts
-
-Fonction · Comparer réponses de plusieurs LLM en simultané.  
-Avantages · Aide à évaluer et scorer les prompts utilisés.  
-Gain · Contrôler et valider des fiches KM sans déplacement.
-
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.llm lifecycle.review
+- Identifiants : domain.ai.llm risk.sensitive
 - Sujets : Intelligence artificielle > Modèles de langage
-- État : À vérifier
+- Risques : Risque signalé
 
 ## Sources
 

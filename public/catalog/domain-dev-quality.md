@@ -34,9 +34,6 @@ Gain · Exécuter des tâches de codage sans configuration complexe.
 - [Pi](../../watch/technical-c133b93b912dffd605a2.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
 Avantages · Intégration de fournisseurs LLM via une API unifiée.
 Gain · Lancer des tâches de codage avec un compte ou une clé API.
-- [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Fonction · Vérifie les types en Rust, serveur de langage.
-Avantages · 10x plus rapide que mypy et Pyright.
-Gain · Éviter de recompiler sans cache, analyses incrémentales.
 - [zack-d-films-ai-video-generator](../../watch/technical-e7559ed70d863d3b8f6d.md) — Fonction · Génère des vidéos 3D animées expliquant un sujet.
 Avantages · Workflow agent-native avec MuAPI et Veo 3.1.
 Gain · Créer un court métrage vertical en 3D en quelques étapes.

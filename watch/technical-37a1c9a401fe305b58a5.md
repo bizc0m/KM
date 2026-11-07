@@ -6,7 +6,7 @@ actif
 
 ## Tags
 
-#synthese-vocale, #generation-video, #generation-images
+#synthese-vocale, #generation-video, #generation-images, #generation-3d
 
 ## Intérêts
 

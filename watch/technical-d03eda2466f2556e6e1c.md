@@ -31,8 +31,8 @@ Gain · Éviter de coder manuellement les interactions.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.dev.browser domain.dev.testing capability.automation.browser source.noteplan source.github source.x lifecycle.active
-- Sujets : Développement logiciel > Outils de navigateur ; Développement logiciel > Tests logiciels
+- Identifiants : domain.dev.browser capability.automation.browser source.noteplan source.github source.x lifecycle.active
+- Sujets : Développement logiciel > Outils de navigateur
 - Fonctions : Automatiser des actions > Automatiser le navigateur
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

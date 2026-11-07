@@ -6,7 +6,7 @@ actif
 
 ## Tags
 
-#osint, #recherche-documentaire
+#osint
 
 ## Intérêts
 

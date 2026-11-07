@@ -6,7 +6,7 @@ actif
 
 ## Tags
 
-#marches-predictifs
+#marches-predictifs, #simulation
 
 ## Intérêts
 

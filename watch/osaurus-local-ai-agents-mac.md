@@ -18,6 +18,12 @@ Osaurus est une piste d outil pour faire tourner ou piloter des agents IA locale
 
 #macos
 
+## Intérêts
+
+Fonction · Exécute des agents IA locaux sur macOS.  
+Avantages · Intégration possible avec NotePlan et automatisations.  
+Gain · Éviter l'envoi de données vers le cloud.
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -26,12 +32,6 @@ Osaurus est une piste d outil pour faire tourner ou piloter des agents IA locale
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
-
-## Intérêts
-
-Fonction · Exécute des agents IA locaux sur macOS.  
-Avantages · Intégration possible avec NotePlan et automatisations.  
-Gain · Éviter l'envoi de données vers le cloud.
 
 ## Ontologie
 

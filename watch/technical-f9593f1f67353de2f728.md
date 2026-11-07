@@ -6,6 +6,8 @@ actif
 
 ## Tags
 
+#backtesting, #simulation
+
 ## Intérêts
 
 Fonction · Exécution et backtest de stratégies multi-actifs.  

@@ -129,7 +129,7 @@
 | `watch-technical-270127c4040820721fee-md` | `watch/technical-270127c4040820721fee.md` | outil | #detection-bots, #securite-web, #python | actif |
 | `watch-technical-30e283a9b3f70e35d81a-md` | `watch/technical-30e283a9b3f70e35d81a.md` | outil | #python | actif |
 | `watch-technical-a2736da3d4b4b5c419aa-md` | `watch/technical-a2736da3d4b4b5c419aa.md` | outil |  | actif |
-| `watch-technical-dbbe9adbe528f3b77e3a-md` | `watch/technical-dbbe9adbe528f3b77e3a.md` | outil | #amelioration, #montage-video | actif |
+| `watch-technical-dbbe9adbe528f3b77e3a-md` | `watch/technical-dbbe9adbe528f3b77e3a.md` | outil | #montage-video | actif |
 | `watch-technical-f26060981b4112b4411f-md` | `watch/technical-f26060981b4112b4411f.md` | outil |  | sensible |
 | `watch-technical-7e01176c9d1442c27f9d-md` | `watch/technical-7e01176c9d1442c27f9d.md` | outil | #synthese-vocale | actif |
 | `watch-technical-143ce5c3c11e34fe9ea8-md` | `watch/technical-143ce5c3c11e34fe9ea8.md` | outil | #synthese-vocale, #clonage-vocal | actif |
@@ -240,7 +240,7 @@
 | `watch-technical-7efadf61d584319cb74d-md` | `watch/technical-7efadf61d584319cb74d.md` | outil | #python | actif |
 | `watch-technical-a2b88cb598cc82a1ed3b-md` | `watch/technical-a2b88cb598cc82a1ed3b.md` | outil | #python | actif |
 | `watch-technical-61da906d94d21f2f647a-md` | `watch/technical-61da906d94d21f2f647a.md` | outil |  | actif |
-| `watch-technical-3e71b5f6fda8c41d55e1-md` | `watch/technical-3e71b5f6fda8c41d55e1.md` | outil | #pgm, #ppm, #pam, #pgx | actif |
+| `watch-technical-3e71b5f6fda8c41d55e1-md` | `watch/technical-3e71b5f6fda8c41d55e1.md` | outil | #python | actif |
 | `watch-technical-91c93b1bcde55904917c-md` | `watch/technical-91c93b1bcde55904917c.md` | outil | #python | actif |
 | `watch-technical-31ee21281c253175f879-md` | `watch/technical-31ee21281c253175f879.md` | outil | #python | actif |
 | `watch-technical-0e7a6eb3e03e4ca81494-md` | `watch/technical-0e7a6eb3e03e4ca81494.md` | outil | #python | actif |
@@ -368,7 +368,7 @@
 | `watch-technical-2c77d6ac468e756216f6-md` | `watch/technical-2c77d6ac468e756216f6.md` | outil | #simulation | actif |
 | `watch-technical-4f5360b51f5e48b701f2-md` | `watch/technical-4f5360b51f5e48b701f2.md` | outil | #marches-predictifs, #previsions-meteo | actif |
 | `watch-technical-1fca81e0d4c208d8ff35-md` | `watch/technical-1fca81e0d4c208d8ff35.md` | outil | #react | actif |
-| `watch-technical-8a9178e6e40f90af4053-md` | `watch/technical-8a9178e6e40f90af4053.md` | outil | #farming, #simulation | actif |
+| `watch-technical-8a9178e6e40f90af4053-md` | `watch/technical-8a9178e6e40f90af4053.md` | outil | #simulation | actif |
 | `watch-technical-3de5fe321bc7be772fd3-md` | `watch/technical-3de5fe321bc7be772fd3.md` | outil | #previsions-meteo, #simulation, #marches-predictifs | actif |
 | `watch-technical-5ea1d4fd1ccb4341a6ba-md` | `watch/technical-5ea1d4fd1ccb4341a6ba.md` | outil |  | actif |
 | `watch-technical-b88590c43555a909e1ff-md` | `watch/technical-b88590c43555a909e1ff.md` | outil | #skills-agents | actif |
@@ -522,9 +522,9 @@
 | `watch-vace-video-creation-editing-md` | `watch/vace-video-creation-editing.md` | outil | #generation-video, #montage-video | sensible |
 | `watch-veejay-live-video-sampler-md` | `watch/veejay-live-video-sampler.md` | outil | #video, #vj, #live-video, #visuals | actif |
 | `watch-vista-video-style-transfer-md` | `watch/vista-video-style-transfer.md` | outil | #generation-video, #style-transfer, #diffusion | sensible |
-| `watch-alpinechain-workshop-2026-md` | `watch/alpinechain-workshop-2026.md` | outil |  | a verifier |
-| `watch-chathub-multi-llm-workspace-md` | `watch/chathub-multi-llm-workspace.md` | outil |  | a verifier |
-| `watch-km-d3-scan-integration-20260901-md` | `watch/km-d3-scan-integration-20260901.md` | outil |  | a verifier |
+| `watch-alpinechain-workshop-2026-md` | `watch/alpinechain-workshop-2026.md` | outil |  | sensible |
+| `watch-chathub-multi-llm-workspace-md` | `watch/chathub-multi-llm-workspace.md` | outil |  | sensible |
+| `watch-km-d3-scan-integration-20260901-md` | `watch/km-d3-scan-integration-20260901.md` | outil |  | sensible |
 | `watch-noteplan-km-indexing-workflow-md` | `watch/noteplan-km-indexing-workflow.md` | outil | #dedoublonnage, #macos | sensible |
 | `watch-osaurus-local-ai-agents-mac-md` | `watch/osaurus-local-ai-agents-mac.md` | outil | #macos | a verifier |
 | `watch-betterdisplay-macos-display-control-md` | `watch/betterdisplay-macos-display-control.md` | outil | #macos, #display, #hidpi | actif |

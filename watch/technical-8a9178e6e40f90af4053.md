@@ -6,6 +6,8 @@ actif
 
 ## Tags
 
+#simulation
+
 ## Intérêts
 
 Fonction · Bot de trading sur Interactive Brokers pour événements financiers.  

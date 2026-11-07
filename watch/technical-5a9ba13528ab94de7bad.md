@@ -31,8 +31,8 @@ Gain · Modifier tags sans changer le fichier audio.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.audio domain.dev.dependencies compatibility.language.python source.noteplan source.github source.x lifecycle.active
-- Sujets : Audio, vidéo et création > Audio ; Développement logiciel > Paquets et dépendances
+- Identifiants : domain.media.audio compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Audio
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

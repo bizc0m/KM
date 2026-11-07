@@ -15,6 +15,12 @@ Lien evenement/workshop AlpineChain 2026. A qualifier : blockchain, atelier, res
 
 ## Tags
 
+## Intérêts
+
+Fonction · Lien vers atelier AlpineChain 2026.  
+Avantages · Accès à veille crypto et communauté.  
+Gain · Éviter engagement sans vérification.
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -24,18 +30,12 @@ Lien evenement/workshop AlpineChain 2026. A qualifier : blockchain, atelier, res
 - Accès : À vérifier
 - Preuve : À vérifier
 
-## Intérêts
-
-Fonction · Lien vers atelier AlpineChain 2026.  
-Avantages · Accès à veille crypto et communauté.  
-Gain · Éviter engagement sans vérification.
-
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified lifecycle.review
+- Identifiants : domain.unclassified risk.sensitive
 - Sujets : À qualifier
-- État : À vérifier
+- Risques : Risque signalé
 
 ## Sources
 

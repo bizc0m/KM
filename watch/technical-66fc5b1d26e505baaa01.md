@@ -31,8 +31,8 @@ Gain · Éviter de recompiler sans cache, analyses incrémentales.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.infrastructure domain.dev.ui domain.dev.quality compatibility.language.python source.noteplan source.github source.x lifecycle.active
-- Sujets : Infrastructure ; Développement logiciel > Conception d’interfaces ; Développement logiciel > Qualité du code
+- Identifiants : domain.infrastructure domain.dev.ui compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Sujets : Infrastructure ; Développement logiciel > Conception d’interfaces
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

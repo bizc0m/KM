@@ -6,7 +6,7 @@ actif
 
 ## Tags
 
-#agents-code, #skills-agents, #terminal
+#agents-code, #skills-agents, #terminal, #planification-taches
 
 ## Intérêts
 

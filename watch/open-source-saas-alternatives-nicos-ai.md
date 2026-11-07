@@ -75,6 +75,12 @@ Deja presents dans KM :
 - Objectif : integrer le post nicos_ai et dedupliquer les outils open source cites.
 - Risques : claims promotionnels, usages sensibles de yt-dlp/n8n/Fooocus.
 
+## Intérêts
+
+Fonction · Génère du texte et des images localement.  
+Avantages · Supporte plusieurs modèles et langages.  
+Gain · Éviter l'envoi de données vers le cloud.
+
 ## Métadonnées
 
 - Nature : Application web
@@ -83,12 +89,6 @@ Deja presents dans KM :
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
-
-## Intérêts
-
-Fonction · Génère du texte et des images localement.  
-Avantages · Supporte plusieurs modèles et langages.  
-Gain · Éviter l'envoi de données vers le cloud.
 
 ## Ontologie
 

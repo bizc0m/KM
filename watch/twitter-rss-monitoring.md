@@ -115,6 +115,12 @@ Points verifies :
 - Objectif : confirmer `https://openrss.org/` comme source directe du nouveau lot.
 - Risques : conditions et disponibilite variables.
 
+## Intérêts
+
+Fonction · Suivre des comptes Twitter via RSS.  
+Avantages · Flux RSS sans algorithmes de recommandation.  
+Gain · Éviter l'interface addictive de X pour veille.
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -123,12 +129,6 @@ Points verifies :
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
-
-## Intérêts
-
-Fonction · Suivre des comptes Twitter via RSS.  
-Avantages · Flux RSS sans algorithmes de recommandation.  
-Gain · Éviter l'interface addictive de X pour veille.
 
 ## Ontologie
 

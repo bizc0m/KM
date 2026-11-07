@@ -6,6 +6,8 @@ actif
 
 ## Tags
 
+#marches-predictifs
+
 ## Intérêts
 
 Fonction · Exécute des stratégies de trading sur des marchés de prévision.  

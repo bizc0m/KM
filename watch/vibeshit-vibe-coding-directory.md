@@ -22,6 +22,12 @@ Site : `https://vibeshit.org/`
 - Objectif : integrer `https://vibeshit.org/` comme source de veille vibe coding.
 - Risques : annuaire externe, claims variables, presence possible d'outils dual-use.
 
+## Intérêts
+
+Fonction · Identifier des outils IA, agents et projets open source.  
+Avantages · Suivre les tendances sans dépendre exclusivement de GitHub.  
+Gain · Éviter de rechercher manuellement des ressources inspirantes.
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -30,12 +36,6 @@ Site : `https://vibeshit.org/`
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
-
-## Intérêts
-
-Fonction · Identifier des outils IA, agents et projets open source.  
-Avantages · Suivre les tendances sans dépendre exclusivement de GitHub.  
-Gain · Éviter de rechercher manuellement des ressources inspirantes.
 
 ## Ontologie
 

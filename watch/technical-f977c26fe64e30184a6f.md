@@ -6,7 +6,7 @@ actif
 
 ## Tags
 
-#generation-images
+#generation-images, #generation-3d
 
 ## Intérêts
 

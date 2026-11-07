@@ -29,6 +29,12 @@ Idee de workflow pour indexer NotePlan dans KM : prompt, sujet, deeplink, statut
 
 #dedoublonnage, #macos
 
+## Intérêts
+
+Fonction · Scanner les notes récentes, extraire liens et tâches, dedoublonner avec KM.  
+Avantages · Produire fiches Markdown, marquer éléments comme traités dans un log.  
+Gain · Éviter reimport, contrôler intégration des éléments déjà traités.
+
 ## Métadonnées
 
 - Nature : À vérifier
@@ -37,9 +43,3 @@ Idee de workflow pour indexer NotePlan dans KM : prompt, sujet, deeplink, statut
 - Tarification : À vérifier
 - Accès : À vérifier
 - Preuve : À vérifier
-
-## Intérêts
-
-Fonction · Scanner les notes récentes, extraire liens et tâches, dedoublonner avec KM.  
-Avantages · Produire fiches Markdown, marquer éléments comme traités dans un log.  
-Gain · Éviter reimport, contrôler intégration des éléments déjà traités.

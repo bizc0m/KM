@@ -6,6 +6,8 @@ actif
 
 ## Tags
 
+#python
+
 ## Intérêts
 
 Fonction · Envoyer des requêtes HTTP avec Python.  

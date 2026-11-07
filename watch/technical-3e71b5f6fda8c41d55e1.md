@@ -6,6 +6,8 @@ actif
 
 ## Tags
 
+#python
+
 ## Intérêts
 
 Fonction · Lire et écrire des fichiers Netpbm en Python.  
@@ -29,8 +31,9 @@ Gain · Traiter des images sans correction gamma ou échelle.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.image source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.media.image compatibility.language.python source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Images et graphisme
+- Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
