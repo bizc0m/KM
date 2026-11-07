@@ -37,7 +37,9 @@ Gain · Lancer des tâches de codage avec un compte ou une clé API.
 - [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Protection des données sensibles avant l'envoi vers un API non contrôlé
 - [awesome-ai-video-models](../../watch/technical-e0275c5610589cad14d2.md) — Choisir le modèle de génération de vidéos AI adapté à un projet.
 - [FreeLLMAPI](../../watch/technical-812162d99641f3f436b1.md)
-- [LLM Wiki Agent](../../watch/technical-9e4c4b6c4c6a7d12ceff.md) — Ingestion de documents pour construire un wiki structuré
+- [LLM Wiki Agent](../../watch/technical-9e4c4b6c4c6a7d12ceff.md) — Fonction · Ingestion de documents pour créer un wiki interconnecté.
+Avantages · Contradictions détectées à l'ingestion, pas à la recherche.
+Gain · Générer automatiquement des pages d'entités et de concepts.
 - [Open Claude Tag](../../watch/technical-79b08dab72dcf263294d.md) — Fonction · Agent IA auto-configure pour Slack par canal.
 Avantages · Mémoire curatée et création automatique de compétences.
 Gain · Éviter les logs bruyants, lancer des tâches en contexte.

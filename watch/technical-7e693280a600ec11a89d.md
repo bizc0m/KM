@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Télécharge et analyse des contenus Snapchat avec des options de filtrage et de multi-threading.
+Fonction · Analyse utilisateurs Snapchat, extraction contenus.  
+Avantages · Téléchargement stories, bitmojis, lenses.  
+Gain · Générer heatmap, filtrer données via options.
 
 ## Identité
 

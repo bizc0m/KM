@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Cloner des voix à partir d'audio
+Fonction · Cloner des voix, générer du texte vocal, dictater dans n'importe quelle application.  
+Avantages · 8 moteurs TTS, 23 langues, effets audio, personnalisation vocale.  
+Gain · Éviter les uploads, gérer des projets locaux, personnaliser les voix.
 
 ## Métadonnées
 
@@ -98,6 +100,9 @@ Cloner des voix à partir d'audio
 - https://github.com/jamiepine/voicebox/pull/428
 - https://github.com/jamiepine/voicebox/pull/361
 - https://github.com/jamiepine/voicebox/pull/402
+- https://raw.githubusercontent.com/jamiepine/voicebox/HEAD/.github/assets/app-screenshot-1.webp
+- https://raw.githubusercontent.com/jamiepine/voicebox/HEAD/README.md
+- https://raw.githubusercontent.com/jamiepine/voicebox/HEAD/.github/assets/app-screenshot-2.webp
 
 ## Traçabilité
 
@@ -408,9 +413,4 @@ Source : https://github.com/jamiepine/voicebox/releases/tag/v0.4.3 ; niveau 3.
 
 ### voicebox
 
-Studio de synthèse vocale open source. Clonage de voix. Génération de parole. Effets post-traitement. Éditeur de projets.
-
-- Studio de synthèse vocale open source
-- Clonage de voix à partir d'audio ou de voix prédéfinies
-- Génération de parole en 23 langues avec 7 moteurs TTS
-- Effets post-trai
+Studio de synthèse vocale open source. Clonage de voix. Génération de par

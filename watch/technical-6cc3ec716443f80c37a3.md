@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Soumet une requête de génération et récupère l'identifiant de demande pour suivre le statut
+Fonction · Générer vidéo à partir de texte, image ou mouvement.  
+Avantages · API unifiée pour différents workflows.  
+Gain · Lancer création vidéo sans configuration complexe.
 
 ## Identité
 

@@ -62,6 +62,9 @@ Gain · Générer des artefacts en masse, exporter en formats multiples.
 - [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Fonction · Génère des diapositives React avec un canvas fixe.
 Avantages · Intégre un panneau d'agent et un mode commentaire.
 Gain · Lancer un deck en quelques secondes avec un CLI.
+- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Fonction · Créer des prototypes, images, présentations et motion graphics.
+Avantages · Intégration avec 26 agents de codage, export direct, interface visuelle.
+Gain · Générer des artefacts interactifs sans serveur, modifier en temps réel.
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Fonction · Synthétise la voix et génère des vidéos.
 Avantages · Intégre NotePlan et X pour planification.
 Gain · Créer des démos sans abonnement SaaS.
@@ -98,7 +101,9 @@ Gain · Exécuter des outils sans créer d'environnement.
 - [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Fonction · Installer Python et gérer les dépendances.
 Avantages · Utilise un résolveur basé sur PubGrub.
 Gain · Lancer des scripts sans installer Python.
-- [PubGrub](../../watch/technical-40431c060cb04bde6a19.md) — Résout des conflits de dépendances avec des explications claires.
+- [PubGrub](../../watch/technical-40431c060cb04bde6a19.md) — Fonction · Résoudre les versions des packages et leurs dépendances.
+Avantages · Expliquer clairement les conflits de versions.
+Gain · Éviter les incompatibilités entre dépendances.
 - [SubCat](../../watch/technical-c67a2647c3e09c338891.md) — Découvre des sous-domaines et génère des rapports web avec captures d'écran.
 - [ty](../../watch/technical-66fc5b1d26e505baaa01.md) — Fonction · Vérifie les types en Rust, serveur de langage.
 Avantages · 10x plus rapide que mypy et Pyright.

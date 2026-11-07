@@ -26,7 +26,9 @@ Gain · Lancer des conversations en temps réel sans connexion.
 Avantages · Intégre NotePlan et X pour planification.
 Gain · Créer des démos sans abonnement SaaS.
 - [Voice-Pro](../../watch/technical-7e01176c9d1442c27f9d.md) — Traite les vidéos YouTube avec extraction audio et séparation vocale
-- [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Cloner des voix à partir d'audio
+- [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Fonction · Cloner des voix, générer du texte vocal, dictater dans n'importe quelle application.
+Avantages · 8 moteurs TTS, 23 langues, effets audio, personnalisation vocale.
+Gain · Éviter les uploads, gérer des projets locaux, personnaliser les voix.
 - [Whisper](../../watch/technical-24d2ebb24ff35b75f31b.md) — Transcrire la parole multilingue et traduire des enregistrements vers l’anglais.
 - [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Fonction · Transcription avec timestamps et confiance par mot.
 Avantages · Estimation précise des segments sans détection de VAD.

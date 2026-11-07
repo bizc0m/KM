@@ -9,7 +9,9 @@ Gain · Exécuter des outils sans créer d'environnement.
 - [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Fonction · Installer Python et gérer les dépendances.
 Avantages · Utilise un résolveur basé sur PubGrub.
 Gain · Lancer des scripts sans installer Python.
-- [PubGrub](../../watch/technical-40431c060cb04bde6a19.md) — Résout des conflits de dépendances avec des explications claires.
+- [PubGrub](../../watch/technical-40431c060cb04bde6a19.md) — Fonction · Résoudre les versions des packages et leurs dépendances.
+Avantages · Expliquer clairement les conflits de versions.
+Gain · Éviter les incompatibilités entre dépendances.
 - [orogene](../../watch/technical-6bb0ffb5ad3771787603.md) — Fonction · Gère les dépendances pour les outils utilisant node_modules.
 Avantages · Installe rapidement avec peu de ressources.
 Gain · Éviter de vérifier manuellement les mises à jour.

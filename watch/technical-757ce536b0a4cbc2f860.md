@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel
+Fonction · Créer des prototypes, images, présentations et motion graphics.  
+Avantages · Intégration avec 26 agents de codage, export direct, interface visuelle.  
+Gain · Générer des artefacts interactifs sans serveur, modifier en temps réel.
 
 ## Identité
 
@@ -27,8 +29,9 @@ Crée des prototypes interactifs avec un agent et une prévisualisation en temps
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA
+- Identifiants : domain.ai.agents.coding domain.dev.quality domain.media.image domain.infrastructure capability.code.assist source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel > Qualité du code ; Audio, vidéo et création > Images et graphisme ; Infrastructure
+- Fonctions : Assister le développement
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -51,6 +54,9 @@ Crée des prototypes interactifs avec un agent et une prévisualisation en temps
 - https://raw.githubusercontent.com/nexu-io/html-anything/main/next/src/lib/security/host-validation.test.ts
 - https://raw.githubusercontent.com/nexu-io/html-anything/main/e2e/ui/host-validation.spec.ts
 - https://x.com/i/status/2056258502050357334
+- https://raw.githubusercontent.com/nexu-io/open-design/HEAD/docs/screenshots/product-tour/home-workspace-2026-09-30-220844.png
+- https://raw.githubusercontent.com/nexu-io/open-design/HEAD/README.md
+- https://raw.githubusercontent.com/nexu-io/open-design/HEAD/docs/screenshots/product-tour/all-projects-2026-09-30-220900.webp
 
 ## Traçabilité
 
@@ -81,3 +87,13 @@ Crée des prototypes interactifs avec un agent et une prévisualisation en temps
 - Source : https://github.com/nexu-io/open-design
 - Analyse source : 2026-10-26T06:15:00.094Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![OpenDesign Home page with the prototype composer and example prompts](https://raw.githubusercontent.com/nexu-io/open-design/HEAD/docs/screenshots/product-tour/home-workspace-2026-09-30-220844.png)
+
+[Origine](https://raw.githubusercontent.com/nexu-io/open-design/HEAD/README.md)
+
+![OpenDesign All projects page showing recent design systems, media, and prototypes](https://raw.githubusercontent.com/nexu-io/open-design/HEAD/docs/screenshots/product-tour/all-projects-2026-09-30-220900.webp)
+
+[Origine](https://raw.githubusercontent.com/nexu-io/open-design/HEAD/README.md)

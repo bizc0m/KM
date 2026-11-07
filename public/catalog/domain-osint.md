@@ -30,7 +30,9 @@ Gain · Éviter des faux positifs en utilisant des critères de validation clair
 - [Cabal Proxy Harvester](../../watch/technical-dee6cae45f8c3798057c.md) — Fonction · Collecte et vérification continue de proxys HTTP/SOCKS5.
 Avantages · Tests parallèles et sauvegarde des proxys validés.
 Gain · Lancer la collecte sans configuration complexe.
-- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Identifier rapidement un IP via proxycheck.io pour détecter proxy, VPN, TOR ou serveur.
+- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Fonction · Vérifie si un IP est un proxy, VPN, TOR ou serveur.
+Avantages · Détecte anonymat, type de réseau et fournisseur.
+Gain · Analyser rapidement un IP sans interface graphique.
 - [Cabal Weather Check](../../watch/technical-a194ad9339f6df4c73ea.md) — Fonction · Recherche météo via API NWS avec alertes, prévisions, observations.
 Avantages · Données en temps réel sans clé API, interface terminal.
 Gain · Lancer des requêtes météo sans configuration complexe.
@@ -41,7 +43,9 @@ Gain · Exporter les données en JSON avec horodatage.
 Avantages · Intègre subbrute pour force brute avec liste de mots.
 Gain · Lancer l'analyse de sous-domaines sans configuration complexe.
 - [VIN-Number-OSINT](../../watch/technical-ca8e59013ec56e1d2be5.md) — Analyse VIN pour extraire données techniques et de fabrication
-- [Web-Check](../../watch/technical-654478eba9c74251531f.md) — Analyse les vulnérabilités d'un site web
+- [Web-Check](../../watch/technical-654478eba9c74251531f.md) — Fonction · Analyse technique d'un site web pour détecter des vulnérabilités.
+Avantages · Intègre des API pour vérifier la sécurité et les serveurs.
+Gain · Lancer une analyse sans configuration complexe.
 - [OpenOSINT](../../watch/technical-0be614d8a1eb180e4b8a.md) — Fonction · Orchestre des recherches OSINT avec modèle LLM.
 Avantages · Génère rapport structuré à partir de sources ouvertes.
 Gain · Éviter de compiler manuellement des informations.

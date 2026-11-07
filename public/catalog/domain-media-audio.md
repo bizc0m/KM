@@ -39,7 +39,9 @@ Gain · Créer des démos sans abonnement SaaS.
 Avantages · Support audio seul et vidéos courtes.
 Gain · Exécuter des requêtes sans navigateur.
 - [Voice-Pro](../../watch/technical-7e01176c9d1442c27f9d.md) — Traite les vidéos YouTube avec extraction audio et séparation vocale
-- [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Cloner des voix à partir d'audio
+- [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Fonction · Cloner des voix, générer du texte vocal, dictater dans n'importe quelle application.
+Avantages · 8 moteurs TTS, 23 langues, effets audio, personnalisation vocale.
+Gain · Éviter les uploads, gérer des projets locaux, personnaliser les voix.
 - [Webtor](../../watch/technical-c45c04c570d8ed1549e8.md) — Fonction · Torrents en direct, streaming, téléchargement ZIP.
 Avantages · Formats vidéo/audio prédéfinis, API pour intégration.
 Gain · Lancer des tâches sans client, organiser une bibliothèque.

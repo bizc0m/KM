@@ -64,8 +64,12 @@ Gain · Générer un rapport pour analyser les données.
 - [ViMax](../../watch/technical-47bd68997bedeb6edcef.md) — Fonction · Génère des vidéos à partir de concepts, scénarios ou romans.
 Avantages · Intègre audio, storyboard, et gestion de cohérence visuelle.
 Gain · Créer des vidéos longues sans expertise technique.
-- [WebDiver](../../watch/technical-8a4e0d1ee4f13f3119dd.md) — Analyser les liens et extraire des données de sites web.
-- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Identifier rapidement un IP via proxycheck.io pour détecter proxy, VPN, TOR ou serveur.
+- [WebDiver](../../watch/technical-8a4e0d1ee4f13f3119dd.md) — Fonction · Extraire titres, liens, métadonnées et emails.
+Avantages · Analyser structure et flux d'informations.
+Gain · Identifier contacts et localiser serveurs ciblés.
+- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Fonction · Vérifie si un IP est un proxy, VPN, TOR ou serveur.
+Avantages · Détecte anonymat, type de réseau et fournisseur.
+Gain · Analyser rapidement un IP sans interface graphique.
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Fonction · Déployer des apps, bases de données et services sur des serveurs.
 Avantages · Support Git, Docker, Nixpacks et plus de 360 services prêts à l'emploi.
 Gain · Lancer des déploiements sans configuration complexe.

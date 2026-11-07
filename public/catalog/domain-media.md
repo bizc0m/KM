@@ -72,6 +72,9 @@ Gain · Lancer des tâches sans abonnement, sans restrictions.
 Avantages · Support multiplateforme et mode offline.
 Gain · Lancer des conversations en temps réel sans connexion.
 - [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Permet d'éditer des vidéos sur plusieurs plateformes.
+- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Fonction · Créer des prototypes, images, présentations et motion graphics.
+Avantages · Intégration avec 26 agents de codage, export direct, interface visuelle.
+Gain · Générer des artefacts interactifs sans serveur, modifier en temps réel.
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Fonction · Synthétise la voix et génère des vidéos.
 Avantages · Intégre NotePlan et X pour planification.
 Gain · Créer des démos sans abonnement SaaS.
@@ -108,7 +111,9 @@ Gain · Lancer des tâches sans installation, configurer rapidement.
 Avantages · Utilisation gratuite et open source.
 Gain · Éviter le transfert de données sensibles.
 - [Voice-Pro](../../watch/technical-7e01176c9d1442c27f9d.md) — Traite les vidéos YouTube avec extraction audio et séparation vocale
-- [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Cloner des voix à partir d'audio
+- [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Fonction · Cloner des voix, générer du texte vocal, dictater dans n'importe quelle application.
+Avantages · 8 moteurs TTS, 23 langues, effets audio, personnalisation vocale.
+Gain · Éviter les uploads, gérer des projets locaux, personnaliser les voix.
 - [Webtor](../../watch/technical-c45c04c570d8ed1549e8.md) — Fonction · Torrents en direct, streaming, téléchargement ZIP.
 Avantages · Formats vidéo/audio prédéfinis, API pour intégration.
 Gain · Lancer des tâches sans client, organiser une bibliothèque.
@@ -141,7 +146,9 @@ Gain · Lancer des tâches d'édition en quelques clics sans configuration compl
 - [openai-api](../../watch/technical-f8f551d25eb73ecda1fd.md) — Fonction · Générer des images, vidéos et raisonner avec des modèles OpenAI via MuAPI.
 Avantages · Exemples cURL et Python avec paramètres de résolution et durée.
 Gain · Lancer des tâches d'IA sans configuration complexe.
-- [Kling Video API via Muapi](../../watch/technical-6cc3ec716443f80c37a3.md) — Soumet une requête de génération et récupère l'identifiant de demande pour suivre le statut
+- [Kling Video API via Muapi](../../watch/technical-6cc3ec716443f80c37a3.md) — Fonction · Générer vidéo à partir de texte, image ou mouvement.
+Avantages · API unifiée pour différents workflows.
+Gain · Lancer création vidéo sans configuration complexe.
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Fonction · Générer, éditer et afficher des médias professionnels via muapi-cli.
 Avantages · Accès à 100+ modèles AI et outils MCP pour agents.
 Gain · Lancer des workflows en un clic avec des recettes prêtes à exécuter.

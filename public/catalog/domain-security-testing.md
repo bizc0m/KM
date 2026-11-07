@@ -1,7 +1,9 @@
 # Tests de sécurité
 
 - [SubCat](../../watch/technical-c67a2647c3e09c338891.md) — Découvre des sous-domaines et génère des rapports web avec captures d'écran.
-- [Web-Check](../../watch/technical-654478eba9c74251531f.md) — Analyse les vulnérabilités d'un site web
+- [Web-Check](../../watch/technical-654478eba9c74251531f.md) — Fonction · Analyse technique d'un site web pour détecter des vulnérabilités.
+Avantages · Intègre des API pour vérifier la sécurité et les serveurs.
+Gain · Lancer une analyse sans configuration complexe.
 - [Agentic-Bug-Hunter](../../watch/technical-f52ece2572fe00c08e7a.md) — Identifier automatiquement des vulnérabilités et générer des rapports exploitables.
 - [ECC](../../watch/technical-cac46266b186a438c4a0.md) — Fonction · Détecter des vulnérabilités et étendre les compétences des agents IA.
 Avantages · Intégration de tests de sécurité et de compétences prédéfinies.

@@ -106,7 +106,9 @@ Gain · Lancer un deck en quelques secondes avec un CLI.
 - [openclaw](../../watch/technical-0b5c4741d1c147be5fdd.md) — Fonction · Assistant IA sur appareils personnels, intégré aux chats.
 Avantages · Modèles et outils interchangeables via plugins.
 Gain · Configurer et lancer des tâches sans service externe.
-- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel
+- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Fonction · Créer des prototypes, images, présentations et motion graphics.
+Avantages · Intégration avec 26 agents de codage, export direct, interface visuelle.
+Gain · Générer des artefacts interactifs sans serveur, modifier en temps réel.
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Fonction · Synthétise la voix et génère des vidéos.
 Avantages · Intégre NotePlan et X pour planification.
 Gain · Créer des démos sans abonnement SaaS.
@@ -131,7 +133,9 @@ Avantages · Adaptation par projet, mise à jour automatique.
 Gain · Configurer le suivi des tickets, lancer les tâches rapidement.
 - [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée des applications sans installation locale avec des outils open source.
 - [UI-TARS-desktop](../../watch/technical-bba9c08d417b5cda22d8.md) — Contrôle à distance des navigateurs et ordinateurs via interface graphique
-- [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Cloner des voix à partir d'audio
+- [VoiceBox](../../watch/technical-143ce5c3c11e34fe9ea8.md) — Fonction · Cloner des voix, générer du texte vocal, dictater dans n'importe quelle application.
+Avantages · 8 moteurs TTS, 23 langues, effets audio, personnalisation vocale.
+Gain · Éviter les uploads, gérer des projets locaux, personnaliser les voix.
 - [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Fonction · Transcription avec timestamps et confiance par mot.
 Avantages · Estimation précise des segments sans détection de VAD.
 Gain · Éviter les hallucinations avec détection VAD intégrée.
@@ -159,7 +163,9 @@ Gain · Lancer des tâches d'édition en quelques clics sans configuration compl
 - [openai-api](../../watch/technical-f8f551d25eb73ecda1fd.md) — Fonction · Générer des images, vidéos et raisonner avec des modèles OpenAI via MuAPI.
 Avantages · Exemples cURL et Python avec paramètres de résolution et durée.
 Gain · Lancer des tâches d'IA sans configuration complexe.
-- [LLM Wiki Agent](../../watch/technical-9e4c4b6c4c6a7d12ceff.md) — Ingestion de documents pour construire un wiki structuré
+- [LLM Wiki Agent](../../watch/technical-9e4c4b6c4c6a7d12ceff.md) — Fonction · Ingestion de documents pour créer un wiki interconnecté.
+Avantages · Contradictions détectées à l'ingestion, pas à la recherche.
+Gain · Générer automatiquement des pages d'entités et de concepts.
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Fonction · Générer, éditer et afficher des médias professionnels via muapi-cli.
 Avantages · Accès à 100+ modèles AI et outils MCP pour agents.
 Gain · Lancer des workflows en un clic avec des recettes prêtes à exécuter.
@@ -206,7 +212,9 @@ Gain · Lancer des tâches sans configuration manuelle des clés.
 - [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md) — Fonction · Convertir HTML, CSS, médias en vidéos MP4 déterministes.
 Avantages · Intégration avec des agents de codage pour générer des vidéos.
 Gain · Lancer des tâches de rendu sans configuration complexe.
-- [Kami](../../watch/technical-49226a0e2e05fa223d37.md) — Génère des documents professionnels avec des modèles prédéfinis.
+- [Kami](../../watch/technical-49226a0e2e05fa223d37.md) — Fonction · Export PDF, PNG et PowerPoint avec modèles prédéfinis.
+Avantages · Templates de documents et de présentations multilingues.
+Gain · Créer des visuels professionnels sans paramétrage complexe.
 - [Qwen-Image-API](../../watch/technical-c341f7566eb8b34cd45a.md) — Fonction · Générer ou éditer des images via des endpoints Qwen.
 Avantages · Supporte des paramètres comme résolution, format et masque.
 Gain · Lancer des tâches d'images avec un API unifié.

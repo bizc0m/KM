@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Synchronise des objets JSON en temps réel entre serveur et client.
+Fonction · Synchronise en temps réel des structures Go/JS via SSE/WebSockets.  
+Avantages · Mises à jour delta via arbre merkle, reprise après perte de connexion.  
+Gain · Éviter de gérer les connexions manuellement, synchroniser selectivement.
 
 ## Identité
 
@@ -36,6 +38,8 @@ Synchronise des objets JSON en temps réel entre serveur et client.
 
 - https://github.com/jpillora/velox
 - https://x.com/i/status/2057730938570981639
+- https://cloud.githubusercontent.com/assets/633843/13481947/8eea1804-e13d-11e5-80c8-be9317c54fbc.png
+- https://raw.githubusercontent.com/jpillora/velox/HEAD/README.md
 
 ## Traçabilité
 
@@ -72,3 +76,9 @@ Synchronise des objets JSON en temps réel entre serveur et client.
 - Source : https://github.com/jpillora/velox
 - Analyse source : 2026-10-26T04:16:48.186Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![screenshot](https://cloud.githubusercontent.com/assets/633843/13481947/8eea1804-e13d-11e5-80c8-be9317c54fbc.png)
+
+[Origine](https://raw.githubusercontent.com/jpillora/velox/HEAD/README.md)

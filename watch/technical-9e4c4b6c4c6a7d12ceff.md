@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Ingestion de documents pour construire un wiki structuré
+Fonction · Ingestion de documents pour créer un wiki interconnecté.  
+Avantages · Contradictions détectées à l'ingestion, pas à la recherche.  
+Gain · Générer automatiquement des pages d'entités et de concepts.
 
 ## Identité
 

@@ -30,6 +30,9 @@ Gain · Créer des fonds d'écran sans logiciel externe.
 Avantages · Accès à des modèles comme Sora, Midjourney, Veo.
 Gain · Lancer des tâches sans abonnement, sans restrictions.
 - [OpenCut](../../watch/technical-7f84d8cb0f021d98f595.md) — Permet d'éditer des vidéos sur plusieurs plateformes.
+- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Fonction · Créer des prototypes, images, présentations et motion graphics.
+Avantages · Intégration avec 26 agents de codage, export direct, interface visuelle.
+Gain · Générer des artefacts interactifs sans serveur, modifier en temps réel.
 - [Penpot](../../watch/technical-c0d4875dd605f77caf57.md) — Fonction · Créer et collaborer sur des designs et prototypes.
 Avantages · Intégration avec des outils de développement via API.
 Gain · Exporter directement du code HTML/CSS/SVG sans intermédiaire.
@@ -65,7 +68,9 @@ Gain · Lancer des tâches d'édition en quelques clics sans configuration compl
 - [openai-api](../../watch/technical-f8f551d25eb73ecda1fd.md) — Fonction · Générer des images, vidéos et raisonner avec des modèles OpenAI via MuAPI.
 Avantages · Exemples cURL et Python avec paramètres de résolution et durée.
 Gain · Lancer des tâches d'IA sans configuration complexe.
-- [Kling Video API via Muapi](../../watch/technical-6cc3ec716443f80c37a3.md) — Soumet une requête de génération et récupère l'identifiant de demande pour suivre le statut
+- [Kling Video API via Muapi](../../watch/technical-6cc3ec716443f80c37a3.md) — Fonction · Générer vidéo à partir de texte, image ou mouvement.
+Avantages · API unifiée pour différents workflows.
+Gain · Lancer création vidéo sans configuration complexe.
 - [muapi-skills](../../watch/technical-b8cbc6e661d7a948ed3d.md) — Fonction · Générer, éditer et afficher des médias professionnels via muapi-cli.
 Avantages · Accès à 100+ modèles AI et outils MCP pour agents.
 Gain · Lancer des workflows en un clic avec des recettes prêtes à exécuter.

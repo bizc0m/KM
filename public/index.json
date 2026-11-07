@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-07T07:11:25.365Z",
+  "at": "2026-11-07T08:11:30.374Z",
   "count": 660,
   "rows": [
     {
@@ -42787,7 +42787,10 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [],
+      "tags": [
+        "#images",
+        "#agents-code"
+      ],
       "status": "actif",
       "path": "watch/technical-757ce536b0a4cbc2f860.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-757ce536b0a4cbc2f860.md",
@@ -42894,24 +42897,47 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/nexu-io/open-design/HEAD/docs/screenshots/product-tour/home-workspace-2026-09-30-220844.png",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/nexu-io/open-design/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/nexu-io/open-design/HEAD/docs/screenshots/product-tour/all-projects-2026-09-30-220900.webp",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/nexu-io/open-design",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel",
+      "summary": "Fonction · Créer des prototypes, images, présentations et motion graphics.  \nAvantages · Intégration avec 26 agents de codage, export direct, interface visuelle.  \nGain · Générer des artefacts interactifs sans serveur, modifier en temps réel.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
       "theme": "agent",
-      "themeLabel": "Agents IA",
+      "themeLabel": "Agents de développement",
       "classification": {
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.ai.agents"
+            "domain.ai.agents.coding",
+            "domain.dev.quality",
+            "domain.media.image",
+            "domain.infrastructure"
           ],
-          "capability": [],
+          "capability": [
+            "capability.code.assist"
+          ],
           "compatibility": [],
           "risk": [],
           "source": [
@@ -42924,6 +42950,27 @@
           ]
         },
         "concepts": [
+          {
+            "id": "domain.ai.agents.coding",
+            "label": "Agents de développement",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents"
+            ],
+            "patterns": [
+              "claude code",
+              "\\bcodex\\b",
+              "coding agents?",
+              "agents? de cod"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Agents de développement"
+            ]
+          },
           {
             "id": "domain.ai.agents",
             "label": "Agents IA",
@@ -42977,6 +43024,135 @@
             "parent": null,
             "aliases": [],
             "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.dev.quality",
+            "label": "Qualité du code",
+            "parent": "domain.dev",
+            "aliases": [
+              "#code-review",
+              "#sast",
+              "#tests",
+              "#linting"
+            ],
+            "patterns": [
+              "reformat.*code",
+              "code python",
+              "codage",
+              "linting"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel",
+              "Qualité du code"
+            ]
+          },
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
+            ]
+          },
+          {
+            "id": "domain.media.image",
+            "label": "Images et graphisme",
+            "parent": "domain.media",
+            "aliases": [
+              "#compression-images",
+              "#generation-images",
+              "#animation-svg",
+              "#image",
+              "#design",
+              "#svg",
+              "#inspiration"
+            ],
+            "patterns": [
+              "\\bimages?\\b",
+              "\\bsvg\\b",
+              "visual intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Images et graphisme"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
+            "parent": "domain",
+            "aliases": [
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
+            ],
+            "patterns": [
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Infrastructure"
+            ]
+          },
+          {
+            "id": "capability.code.assist",
+            "label": "Assister le développement",
+            "parent": "capability",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents",
+              "#pair-programming"
+            ],
+            "patterns": [
+              "reformat.*code",
+              "assistance de codage",
+              "modifier.*fichiers.*projet"
+            ],
+            "facet": "capability",
+            "path": [
+              "Assister le développement"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
             "path": []
           },
           {
@@ -43039,9 +43215,32 @@
             ]
           }
         ],
-        "unmappedTags": []
+        "unmappedTags": [
+          "#images"
+        ]
       },
       "concepts": [
+        {
+          "id": "domain.ai.agents.coding",
+          "label": "Agents de développement",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents"
+          ],
+          "patterns": [
+            "claude code",
+            "\\bcodex\\b",
+            "coding agents?",
+            "agents? de cod"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Agents de développement"
+          ]
+        },
         {
           "id": "domain.ai.agents",
           "label": "Agents IA",
@@ -43095,6 +43294,135 @@
           "parent": null,
           "aliases": [],
           "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.dev.quality",
+          "label": "Qualité du code",
+          "parent": "domain.dev",
+          "aliases": [
+            "#code-review",
+            "#sast",
+            "#tests",
+            "#linting"
+          ],
+          "patterns": [
+            "reformat.*code",
+            "code python",
+            "codage",
+            "linting"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel",
+            "Qualité du code"
+          ]
+        },
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
+          ]
+        },
+        {
+          "id": "domain.media.image",
+          "label": "Images et graphisme",
+          "parent": "domain.media",
+          "aliases": [
+            "#compression-images",
+            "#generation-images",
+            "#animation-svg",
+            "#image",
+            "#design",
+            "#svg",
+            "#inspiration"
+          ],
+          "patterns": [
+            "\\bimages?\\b",
+            "\\bsvg\\b",
+            "visual intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Images et graphisme"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
+          "parent": "domain",
+          "aliases": [
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
+          ],
+          "patterns": [
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Infrastructure"
+          ]
+        },
+        {
+          "id": "capability.code.assist",
+          "label": "Assister le développement",
+          "parent": "capability",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents",
+            "#pair-programming"
+          ],
+          "patterns": [
+            "reformat.*code",
+            "assistance de codage",
+            "modifier.*fichiers.*projet"
+          ],
+          "facet": "capability",
+          "path": [
+            "Assister le développement"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
           "path": []
         },
         {
@@ -43159,14 +43487,20 @@
       ],
       "keywords": [
         {
-          "label": "#ai-agents",
-          "fullLabel": "ai-agents",
+          "label": "#Images",
+          "fullLabel": "Génération d’images",
+          "color": "media",
+          "tag": "#images"
+        },
+        {
+          "label": "#agents-code",
+          "fullLabel": "agents-code",
           "color": "agent",
-          "subjectId": "domain.ai.agents"
+          "tag": "#agents-code"
         }
       ],
       "cardTitle": "OpenDesign",
-      "cardInterest": "Crée des prototypes interactifs avec un agent et une prévisualisation en temps réel"
+      "cardInterest": "Fonction · Créer des prototypes, images, présentations et motion graphics.\nAvantages · Intégration avec 26 agents de codage, export direct, interface visuelle.\nGain · Générer des artefacts interactifs sans serveur, modifier en temps réel."
     },
     {
       "id": "watch-technical-4df736e310f1a98e2c76-md",
@@ -56925,12 +57259,24 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
+        },
+        {
+          "url": "https://cloud.githubusercontent.com/assets/633843/13481947/8eea1804-e13d-11e5-80c8-be9317c54fbc.png",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/jpillora/velox/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/jpillora/velox",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Synchronise des objets JSON en temps réel entre serveur et client.",
+      "summary": "Fonction · Synchronise en temps réel des structures Go/JS via SSE/WebSockets.  \nAvantages · Mises à jour delta via arbre merkle, reprise après perte de connexion.  \nGain · Éviter de gérer les connexions manuellement, synchroniser selectivement.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -57140,7 +57486,7 @@
       ],
       "keywords": [],
       "cardTitle": "velox",
-      "cardInterest": "Synchronise des objets JSON en temps réel entre serveur et client."
+      "cardInterest": "Fonction · Synchronise en temps réel des structures Go/JS via SSE/WebSockets.\nAvantages · Mises à jour delta via arbre merkle, reprise après perte de connexion.\nGain · Éviter de gérer les connexions manuellement, synchroniser selectivement."
     },
     {
       "id": "watch-technical-dbbe9adbe528f3b77e3a-md",
@@ -58872,12 +59218,30 @@
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/jamiepine/voicebox/HEAD/.github/assets/app-screenshot-1.webp",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/jamiepine/voicebox/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/jamiepine/voicebox/HEAD/.github/assets/app-screenshot-2.webp",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/jamiepine/voicebox",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Cloner des voix à partir d'audio",
+      "summary": "Fonction · Cloner des voix, générer du texte vocal, dictater dans n'importe quelle application.  \nAvantages · 8 moteurs TTS, 23 langues, effets audio, personnalisation vocale.  \nGain · Éviter les uploads, gérer des projets locaux, personnaliser les voix.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -59342,7 +59706,7 @@
         }
       ],
       "cardTitle": "VoiceBox",
-      "cardInterest": "Cloner des voix à partir d'audio"
+      "cardInterest": "Fonction · Cloner des voix, générer du texte vocal, dictater dans n'importe quelle application.\nAvantages · 8 moteurs TTS, 23 langues, effets audio, personnalisation vocale.\nGain · Éviter les uploads, gérer des projets locaux, personnaliser les voix."
     },
     {
       "id": "watch-technical-c45c04c570d8ed1549e8-md",
@@ -68769,7 +69133,7 @@
       "github": "https://github.com/anil-matcha/kling-video-api",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Soumet une requête de génération et récupère l'identifiant de demande pour suivre le statut",
+      "summary": "Fonction · Générer vidéo à partir de texte, image ou mouvement.  \nAvantages · API unifiée pour différents workflows.  \nGain · Lancer création vidéo sans configuration complexe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -69160,7 +69524,7 @@
         }
       ],
       "cardTitle": "Kling Video API via Muapi",
-      "cardInterest": "Soumet une requête de génération et récupère l'identifiant de demande pour suivre le statut"
+      "cardInterest": "Fonction · Générer vidéo à partir de texte, image ou mouvement.\nAvantages · API unifiée pour différents workflows.\nGain · Lancer création vidéo sans configuration complexe."
     },
     {
       "id": "watch-technical-9e4c4b6c4c6a7d12ceff-md",
@@ -69206,7 +69570,7 @@
       "github": "https://github.com/samuraigpt/llm-wiki-agent",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Ingestion de documents pour construire un wiki structuré",
+      "summary": "Fonction · Ingestion de documents pour créer un wiki interconnecté.  \nAvantages · Contradictions détectées à l'ingestion, pas à la recherche.  \nGain · Générer automatiquement des pages d'entités et de concepts.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -69534,7 +69898,7 @@
         }
       ],
       "cardTitle": "LLM Wiki Agent",
-      "cardInterest": "Ingestion de documents pour construire un wiki structuré"
+      "cardInterest": "Fonction · Ingestion de documents pour créer un wiki interconnecté.\nAvantages · Contradictions détectées à l'ingestion, pas à la recherche.\nGain · Générer automatiquement des pages d'entités et de concepts."
     },
     {
       "id": "watch-technical-772a97605758aae798a9-md",
@@ -69580,7 +69944,7 @@
       "github": "https://github.com/sharsil/mailcat",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Trouver des adresses emails à partir d'un nom d'utilisateur.",
+      "summary": "Fonction · Trouver des adresses emails existantes par pseudo via API/SMTP.  \nAvantages · Vérifie 26 fournisseurs sur plus de 158 domaines.  \nGain · Éviter de contacter manuellement chaque fournisseur.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -69768,7 +70132,7 @@
       ],
       "keywords": [],
       "cardTitle": "mailcat",
-      "cardInterest": "Trouver des adresses emails à partir d'un nom d'utilisateur."
+      "cardInterest": "Fonction · Trouver des adresses emails existantes par pseudo via API/SMTP.\nAvantages · Vérifie 26 fournisseurs sur plus de 158 domaines.\nGain · Éviter de contacter manuellement chaque fournisseur."
     },
     {
       "id": "watch-technical-b8cbc6e661d7a948ed3d-md",
@@ -77138,7 +77502,7 @@
       "github": "https://github.com/pubgrub-rs/pubgrub",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Résout des conflits de dépendances avec des explications claires.",
+      "summary": "Fonction · Résoudre les versions des packages et leurs dépendances.  \nAvantages · Expliquer clairement les conflits de versions.  \nGain · Éviter les incompatibilités entre dépendances.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -77399,7 +77763,7 @@
         }
       ],
       "cardTitle": "PubGrub",
-      "cardInterest": "Résout des conflits de dépendances avec des explications claires."
+      "cardInterest": "Fonction · Résoudre les versions des packages et leurs dépendances.\nAvantages · Expliquer clairement les conflits de versions.\nGain · Éviter les incompatibilités entre dépendances."
     },
     {
       "id": "watch-technical-4f09686ddcb30b511532-md",
@@ -78490,7 +78854,7 @@
       "github": "https://github.com/kr0wz/snapintel",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Télécharge et analyse des contenus Snapchat avec des options de filtrage et de multi-threading.",
+      "summary": "Fonction · Analyse utilisateurs Snapchat, extraction contenus.  \nAvantages · Téléchargement stories, bitmojis, lenses.  \nGain · Générer heatmap, filtrer données via options.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -78749,7 +79113,7 @@
         }
       ],
       "cardTitle": "SnapIntel",
-      "cardInterest": "Télécharge et analyse des contenus Snapchat avec des options de filtrage et de multi-threading."
+      "cardInterest": "Fonction · Analyse utilisateurs Snapchat, extraction contenus.\nAvantages · Téléchargement stories, bitmojis, lenses.\nGain · Générer heatmap, filtrer données via options."
     },
     {
       "id": "watch-technical-94c4f976278cef504540-md",
@@ -84407,7 +84771,7 @@
       "github": "https://github.com/anoncatalyst/webdiver",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Analyser les liens et extraire des données de sites web.",
+      "summary": "Fonction · Extraire titres, liens, métadonnées et emails.  \nAvantages · Analyser structure et flux d'informations.  \nGain · Identifier contacts et localiser serveurs ciblés.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-25",
@@ -84417,7 +84781,8 @@
         "version": "1.1",
         "facets": {
           "domain": [
-            "domain.data.web"
+            "domain.data.web",
+            "domain.infrastructure"
           ],
           "capability": [
             "capability.scraping"
@@ -84467,6 +84832,28 @@
             "aliases": [],
             "facet": "domain",
             "path": []
+          },
+          {
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
+            "parent": "domain",
+            "aliases": [
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
+            ],
+            "patterns": [
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Infrastructure"
+            ]
           },
           {
             "id": "capability.scraping",
@@ -84589,6 +84976,28 @@
           "path": []
         },
         {
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
+          "parent": "domain",
+          "aliases": [
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
+          ],
+          "patterns": [
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Infrastructure"
+          ]
+        },
+        {
           "id": "capability.scraping",
           "label": "Extraire des données web",
           "parent": "capability",
@@ -84680,7 +85089,7 @@
         }
       ],
       "cardTitle": "WebDiver",
-      "cardInterest": "Analyser les liens et extraire des données de sites web."
+      "cardInterest": "Fonction · Extraire titres, liens, métadonnées et emails.\nAvantages · Analyser structure et flux d'informations.\nGain · Identifier contacts et localiser serveurs ciblés."
     },
     {
       "id": "watch-technical-d6babbc48c72c3692516-md",
@@ -86243,7 +86652,7 @@
       "github": "https://github.com/osintcabal/cabal-ip-stealth-checker-",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Identifier rapidement un IP via proxycheck.io pour détecter proxy, VPN, TOR ou serveur.",
+      "summary": "Fonction · Vérifie si un IP est un proxy, VPN, TOR ou serveur.  \nAvantages · Détecte anonymat, type de réseau et fournisseur.  \nGain · Analyser rapidement un IP sans interface graphique.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-24",
@@ -86714,7 +87123,7 @@
         }
       ],
       "cardTitle": "Cabal Stealth Checker",
-      "cardInterest": "Identifier rapidement un IP via proxycheck.io pour détecter proxy, VPN, TOR ou serveur."
+      "cardInterest": "Fonction · Vérifie si un IP est un proxy, VPN, TOR ou serveur.\nAvantages · Détecte anonymat, type de réseau et fournisseur.\nGain · Analyser rapidement un IP sans interface graphique."
     },
     {
       "id": "watch-technical-a194ad9339f6df4c73ea-md",
@@ -89938,12 +90347,30 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/tw93/kami/HEAD/site/assets/demos/demo-musk-resume.png",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/tw93/kami/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/tw93/kami/HEAD/site/assets/demos/demo-kami-print.png",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/tw93/kami",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Génère des documents professionnels avec des modèles prédéfinis.",
+      "summary": "Fonction · Export PDF, PNG et PowerPoint avec modèles prédéfinis.  \nAvantages · Templates de documents et de présentations multilingues.  \nGain · Créer des visuels professionnels sans paramétrage complexe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-24",
@@ -90316,7 +90743,7 @@
         }
       ],
       "cardTitle": "Kami",
-      "cardInterest": "Génère des documents professionnels avec des modèles prédéfinis."
+      "cardInterest": "Fonction · Export PDF, PNG et PowerPoint avec modèles prédéfinis.\nAvantages · Templates de documents et de présentations multilingues.\nGain · Créer des visuels professionnels sans paramétrage complexe."
     },
     {
       "id": "watch-technical-9bd95807fef95eea1d8c-md",
@@ -92934,7 +93361,7 @@
       "github": "https://github.com/lissy93/web-check",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Analyse les vulnérabilités d'un site web",
+      "summary": "Fonction · Analyse technique d'un site web pour détecter des vulnérabilités.  \nAvantages · Intègre des API pour vérifier la sécurité et les serveurs.  \nGain · Lancer une analyse sans configuration complexe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-24",
@@ -92945,7 +93372,8 @@
         "facets": {
           "domain": [
             "domain.security.testing",
-            "domain.osint"
+            "domain.osint",
+            "domain.infrastructure"
           ],
           "capability": [
             "capability.security.vulnerabilities"
@@ -93027,6 +93455,28 @@
             "path": [
               "Cybersécurité",
               "Renseignement en sources ouvertes"
+            ]
+          },
+          {
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
+            "parent": "domain",
+            "aliases": [
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
+            ],
+            "patterns": [
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Infrastructure"
             ]
           },
           {
@@ -93182,6 +93632,28 @@
           ]
         },
         {
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
+          "parent": "domain",
+          "aliases": [
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
+          ],
+          "patterns": [
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Infrastructure"
+          ]
+        },
+        {
           "id": "capability.security.vulnerabilities",
           "label": "Détecter des vulnérabilités",
           "parent": "capability",
@@ -93278,7 +93750,7 @@
         }
       ],
       "cardTitle": "Web-Check",
-      "cardInterest": "Analyse les vulnérabilités d'un site web"
+      "cardInterest": "Fonction · Analyse technique d'un site web pour détecter des vulnérabilités.\nAvantages · Intègre des API pour vérifier la sécurité et les serveurs.\nGain · Lancer une analyse sans configuration complexe."
     },
     {
       "id": "watch-technical-2005809e9644ca2d23ec-md",

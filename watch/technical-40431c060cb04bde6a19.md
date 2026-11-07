@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Résout des conflits de dépendances avec des explications claires.
+Fonction · Résoudre les versions des packages et leurs dépendances.  
+Avantages · Expliquer clairement les conflits de versions.  
+Gain · Éviter les incompatibilités entre dépendances.
 
 ## Identité
 

@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Analyser les liens et extraire des données de sites web.
+Fonction · Extraire titres, liens, métadonnées et emails.  
+Avantages · Analyser structure et flux d'informations.  
+Gain · Identifier contacts et localiser serveurs ciblés.
 
 ## Identité
 
@@ -29,8 +31,8 @@ Analyser les liens et extraire des données de sites web.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.data.web capability.scraping source.noteplan source.github source.x lifecycle.active
-- Sujets : Données et connaissances > Collecte web
+- Identifiants : domain.data.web domain.infrastructure capability.scraping source.noteplan source.github source.x lifecycle.active
+- Sujets : Données et connaissances > Collecte web ; Infrastructure
 - Fonctions : Extraire des données web
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

@@ -28,6 +28,9 @@ Gain · Exécuter des modèles quantifiés en 1.5-bit à 8-bit sans serveur.
 Avantages · Stockage en mémoire et API JSON.
 Gain · Lancer les tests sans installation.
 - [Migration vers Kimi Code CLI](../../watch/technical-15ae02c43b612a6e8c46.md) — Migrer les configurations vers le nouveau CLI pour continuer à utiliser les serveurs MCP.
+- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Fonction · Créer des prototypes, images, présentations et motion graphics.
+Avantages · Intégration avec 26 agents de codage, export direct, interface visuelle.
+Gain · Générer des artefacts interactifs sans serveur, modifier en temps réel.
 - [Outils open source pour remplacer des SaaS](../../watch/technical-4df736e310f1a98e2c76.md) — Fonction · Synthétise la voix et génère des vidéos.
 Avantages · Intégre NotePlan et X pour planification.
 Gain · Créer des démos sans abonnement SaaS.
@@ -35,7 +38,9 @@ Gain · Créer des démos sans abonnement SaaS.
 Avantages · Connexion directe aux serveurs sans interface graphique.
 Gain · Exécuter des requêtes de recherche et de lecture en ligne de commande.
 - [Supabase](../../watch/technical-2b5226bf08105545e1cf.md) — Crée des applications sans installation locale avec des outils open source.
-- [velox](../../watch/technical-a2736da3d4b4b5c419aa.md) — Synchronise des objets JSON en temps réel entre serveur et client.
+- [velox](../../watch/technical-a2736da3d4b4b5c419aa.md) — Fonction · Synchronise en temps réel des structures Go/JS via SSE/WebSockets.
+Avantages · Mises à jour delta via arbre merkle, reprise après perte de connexion.
+Gain · Éviter de gérer les connexions manuellement, synchroniser selectivement.
 - [Webtor](../../watch/technical-c45c04c570d8ed1549e8.md) — Fonction · Torrents en direct, streaming, téléchargement ZIP.
 Avantages · Formats vidéo/audio prédéfinis, API pour intégration.
 Gain · Lancer des tâches sans client, organiser une bibliothèque.
@@ -61,14 +66,22 @@ Gain · Éviter de recompiler sans cache, analyses incrémentales.
 - [Veo 3.1 Studio Generator](../../watch/technical-75510e336991262df5d4.md) — Fonction · Générer, éditer et gérer des vidéos AI haute fidélité.
 Avantages · Interface responsive et gestion des crédits intégrée.
 Gain · Lancer des tâches de génération sans configuration complexe.
+- [WebDiver](../../watch/technical-8a4e0d1ee4f13f3119dd.md) — Fonction · Extraire titres, liens, métadonnées et emails.
+Avantages · Analyser structure et flux d'informations.
+Gain · Identifier contacts et localiser serveurs ciblés.
 - [Cabal Proxy Harvester](../../watch/technical-dee6cae45f8c3798057c.md) — Fonction · Collecte et vérification continue de proxys HTTP/SOCKS5.
 Avantages · Tests parallèles et sauvegarde des proxys validés.
 Gain · Lancer la collecte sans configuration complexe.
-- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Identifier rapidement un IP via proxycheck.io pour détecter proxy, VPN, TOR ou serveur.
+- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Fonction · Vérifie si un IP est un proxy, VPN, TOR ou serveur.
+Avantages · Détecte anonymat, type de réseau et fournisseur.
+Gain · Analyser rapidement un IP sans interface graphique.
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Fonction · Déployer des apps, bases de données et services sur des serveurs.
 Avantages · Support Git, Docker, Nixpacks et plus de 360 services prêts à l'emploi.
 Gain · Lancer des déploiements sans configuration complexe.
 - [MoneyPrinter](../../watch/technical-9bd95807fef95eea1d8c.md) — Génère automatiquement des vidéos courtes pour YouTube à partir d'un sujet.
+- [Web-Check](../../watch/technical-654478eba9c74251531f.md) — Fonction · Analyse technique d'un site web pour détecter des vulnérabilités.
+Avantages · Intègre des API pour vérifier la sécurité et les serveurs.
+Gain · Lancer une analyse sans configuration complexe.
 - [fmkr](../../watch/technical-bf5985ec6b47da44a51e.md) — Fonction · Accéder aux bases de données FileMaker Server via XML.
 Avantages · Utilise lxml pour parser les résultats XML.
 Gain · Éviter l'utilisation de minidom pour traiter les données.

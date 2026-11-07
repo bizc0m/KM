@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des documents professionnels avec des modèles prédéfinis.
+Fonction · Export PDF, PNG et PowerPoint avec modèles prédéfinis.  
+Avantages · Templates de documents et de présentations multilingues.  
+Gain · Créer des visuels professionnels sans paramétrage complexe.
 
 ## Identité
 
@@ -39,6 +41,9 @@ Génère des documents professionnels avec des modèles prédéfinis.
 
 - https://github.com/tw93/kami
 - https://x.com/i/status/2054860595422236873
+- https://raw.githubusercontent.com/tw93/kami/HEAD/site/assets/demos/demo-musk-resume.png
+- https://raw.githubusercontent.com/tw93/kami/HEAD/README.md
+- https://raw.githubusercontent.com/tw93/kami/HEAD/site/assets/demos/demo-kami-print.png
 
 ## Traçabilité
 
@@ -47,3 +52,13 @@ Génère des documents professionnels avec des modèles prédéfinis.
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-10-24
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![Founder resume](https://raw.githubusercontent.com/tw93/kami/HEAD/site/assets/demos/demo-musk-resume.png)
+
+[Origine](https://raw.githubusercontent.com/tw93/kami/HEAD/README.md)
+
+![Kami print one-pager](https://raw.githubusercontent.com/tw93/kami/HEAD/site/assets/demos/demo-kami-print.png)
+
+[Origine](https://raw.githubusercontent.com/tw93/kami/HEAD/README.md)

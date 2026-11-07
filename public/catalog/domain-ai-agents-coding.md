@@ -28,6 +28,9 @@ Gain · Générer des artefacts en masse, exporter en formats multiples.
 - [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Fonction · Génère des diapositives React avec un canvas fixe.
 Avantages · Intégre un panneau d'agent et un mode commentaire.
 Gain · Lancer un deck en quelques secondes avec un CLI.
+- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Fonction · Créer des prototypes, images, présentations et motion graphics.
+Avantages · Intégration avec 26 agents de codage, export direct, interface visuelle.
+Gain · Générer des artefacts interactifs sans serveur, modifier en temps réel.
 - [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
 Avantages · Intégration de fournisseurs LLM via une API unifiée.
 Gain · Exécuter des tâches de codage sans configuration complexe.
@@ -46,7 +49,9 @@ Gain · Créer un court métrage vertical en 3D en quelques étapes.
 - [HyperFrames](../../watch/technical-6e18aa23e1f0d14413d5.md) — Fonction · Convertir HTML, CSS, médias en vidéos MP4 déterministes.
 Avantages · Intégration avec des agents de codage pour générer des vidéos.
 Gain · Lancer des tâches de rendu sans configuration complexe.
-- [Kami](../../watch/technical-49226a0e2e05fa223d37.md) — Génère des documents professionnels avec des modèles prédéfinis.
+- [Kami](../../watch/technical-49226a0e2e05fa223d37.md) — Fonction · Export PDF, PNG et PowerPoint avec modèles prédéfinis.
+Avantages · Templates de documents et de présentations multilingues.
+Gain · Créer des visuels professionnels sans paramétrage complexe.
 - [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Fonction · Exécuter des tâches de codage via terminal, éditeur, chat ou application.
 Avantages · Intégration avec VS Code, Zed, JetBrains, Telegram, WeChat.
 Gain · Lancer des tâches sans configuration, utiliser des modèles Qwen locaux ou distants.

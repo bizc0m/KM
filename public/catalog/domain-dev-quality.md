@@ -28,6 +28,9 @@ Gain · Lancer des tâches sans interface graphique, gérer des projets complexe
 - [open-slide](../../watch/technical-690719855ba11af8d90c.md) — Fonction · Génère des diapositives React avec un canvas fixe.
 Avantages · Intégre un panneau d'agent et un mode commentaire.
 Gain · Lancer un deck en quelques secondes avec un CLI.
+- [OpenDesign](../../watch/technical-757ce536b0a4cbc2f860.md) — Fonction · Créer des prototypes, images, présentations et motion graphics.
+Avantages · Intégration avec 26 agents de codage, export direct, interface visuelle.
+Gain · Générer des artefacts interactifs sans serveur, modifier en temps réel.
 - [Pi](../../watch/technical-97416d4ba88591c565b7.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
 Avantages · Intégration de fournisseurs LLM via une API unifiée.
 Gain · Exécuter des tâches de codage sans configuration complexe.

@@ -23,8 +23,12 @@ Gain · Éviter de scraper manuellement les pages.
 - [Uscrapper Vanta](../../watch/technical-9068e1e4bc2dea6a7322.md) — Fonction · Extraire emails, liens, noms, géolocations, numéros.
 Avantages · Crawl et scrape dans le même domaine.
 Gain · Générer un rapport pour analyser les données.
-- [WebDiver](../../watch/technical-8a4e0d1ee4f13f3119dd.md) — Analyser les liens et extraire des données de sites web.
-- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Identifier rapidement un IP via proxycheck.io pour détecter proxy, VPN, TOR ou serveur.
+- [WebDiver](../../watch/technical-8a4e0d1ee4f13f3119dd.md) — Fonction · Extraire titres, liens, métadonnées et emails.
+Avantages · Analyser structure et flux d'informations.
+Gain · Identifier contacts et localiser serveurs ciblés.
+- [Cabal Stealth Checker](../../watch/technical-736ba7730a16f99e6717.md) — Fonction · Vérifie si un IP est un proxy, VPN, TOR ou serveur.
+Avantages · Détecte anonymat, type de réseau et fournisseur.
+Gain · Analyser rapidement un IP sans interface graphique.
 - [H4X-Tools](../../watch/technical-2005809e9644ca2d23ec.md) — Fonction · Extraire des données depuis GitHub, Twitter, NotePlan.
 Avantages · Gère les avertissements et améliore le scraping Git.
 Gain · Lancer l'extraction sans configuration complexe.
