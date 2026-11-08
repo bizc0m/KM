@@ -31,8 +31,8 @@ Gain · Éviter la détection par fingerprinting sans modifier le code.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.privacy domain.infrastructure capability.privacy.encrypt source.noteplan source.github source.x lifecycle.active
-- Sujets : Cybersécurité > Protection des données ; Infrastructure
+- Identifiants : domain.privacy capability.privacy.encrypt source.noteplan source.github source.x lifecycle.active
+- Sujets : Cybersécurité > Protection des données
 - Fonctions : Chiffrer
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif

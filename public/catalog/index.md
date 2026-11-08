@@ -23,7 +23,7 @@
 - [Tests de sécurité](domain-security-testing.md) — 15 fiches
 - [Renseignement en sources ouvertes](domain-osint.md) — 49 fiches
 - [Protection des données](domain-privacy.md) — 11 fiches
-- [Infrastructure](domain-infrastructure.md) — 72 fiches
+- [Infrastructure](domain-infrastructure.md) — 71 fiches
 - [Réseaux](domain-infrastructure-network.md) — 3 fiches
 - [Données et connaissances](domain-data.md) — 82 fiches
 - [Collecte web](domain-data-web.md) — 24 fiches
