@@ -13,7 +13,9 @@ Gain · Lancer un serveur sans compte ou licence.
 - [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Fonction · Gère les rendez-vous et les calendriers en local.
 Avantages · Aucune dépendance commerciale, licence MIT.
 Gain · Lancer un serveur sans compte ou licence.
-- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
+- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Fonction · Exécute des commandes en terminal et modifie du code.
+Avantages · Gère les erreurs de syntaxe et les imports manquants.
+Gain · Appliquer des changements avec validation manuelle ou automatique.
 - [Cloud Torrent](../../watch/technical-fca1fec32410e408c140.md) — Gère les torrents via une interface web
 - [Hermes Agent](../../watch/nousresearch-hermes-agent.md) — Fonction · Agent IA auto-optimisant avec boucle d'apprentissage.
 Avantages · Mémoire curatée par l'agent avec rappels réguliers.
@@ -173,7 +175,9 @@ Gain · Éviter configuration manuelle, sécuriser communications automatiquemen
 - [Essential MCP Servers Collection](../../watch/this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi.md) — Fonction · Serveurs MCP pour veille et monitoring.
 Avantages · Intégration agents IA et protocoles MCP.
 Gain · Éviter configuration manuelle des serveurs MCP.
-- [Awesome MCP Servers](../../watch/awesome-mcp-servers.md)
+- [Awesome MCP Servers](../../watch/awesome-mcp-servers.md) — Fonction · Dépôt GitHub avec liste de serveurs MCP.
+Avantages · Serveurs configurés pour modding Minecraft.
+Gain · Éviter la configuration de base des serveurs.
 - [CONET](../../watch/conet-privacy-depin-network.md) — Fonction · Permet de surveiller des réseaux DePIN via des adresses wallet.
 Avantages · Intègre des protocoles de confidentialité pour les données réseau.
 Gain · Éviter de stocker des informations sensibles sur les nœuds.

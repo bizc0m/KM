@@ -36,7 +36,9 @@ Gain · Exécuter des tâches sans installer Chrome.
 - [Claude SEO](../../watch/technical-2ac64d2afb7018ac9ff2.md) — Fonction · Audit SEO complet en 10 à 15 minutes.
 Avantages · 26 sous-compétences et 19 agents spécialisés.
 Gain · Lancer des tâches d'optimisation rapidement.
-- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
+- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Fonction · Exécute des commandes en terminal et modifie du code.
+Avantages · Gère les erreurs de syntaxe et les imports manquants.
+Gain · Appliquer des changements avec validation manuelle ou automatique.
 - [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Fonction · Exécute des tâches, modifie des fichiers, exécute des commandes.
 Avantages · Supporte plus de 40 fournisseurs et modèles locaux.
 Gain · Lancer des tâches sans interface, avec ou sans sandbox.
@@ -429,7 +431,9 @@ Gain · Éviter de répéter les informations.
 Avantages · Accès à des données récentes et actualisées.
 Gain · Éviter de consulter des sources obsolètes.
 - [Aider AI Pair Programming](../../watch/aider-ai-pair-programming.md)
-- [Awesome MCP Servers](../../watch/awesome-mcp-servers.md)
+- [Awesome MCP Servers](../../watch/awesome-mcp-servers.md) — Fonction · Dépôt GitHub avec liste de serveurs MCP.
+Avantages · Serveurs configurés pour modding Minecraft.
+Gain · Éviter la configuration de base des serveurs.
 - [Claude Task Master](../../watch/claude-task-master-ai-task-management.md) — Fonction · Gère les tâches via des API d'IA dans un éditeur.
 Avantages · Intègre des modèles comme Claude, OpenAI, Gemini.
 Gain · Lancer des tâches sans config complexe.
@@ -445,7 +449,9 @@ Gain · Déployer des agents sans reprise manuelle.
 - [n8n Workflow Automation](../../watch/n8n-workflow-automation.md) — Fonction · Créer et exécuter des workflows et agents AI.
 Avantages · Intégrations 1500+ et modèles prêts à l'emploi.
 Gain · Déployer des tâches sans coder, via un canvas visuel.
-- [OpenHands](../../watch/openhands-ai-development.md)
+- [OpenHands](../../watch/openhands-ai-development.md) — Fonction · Gère des agents de développement sur des backends locaux ou distants.
+Avantages · Intègre des outils comme GitHub, Slack et Notion.
+Gain · Lancer des tâches automatiques sans configuration complexe.
 - [PromptSpy](../../watch/promptspy-ai-android-malware.md) — Fonction · Analyse comportementale d'applications Android via IA.
 Avantages · Détection d'appels vers API IA pour evasion.
 Gain · Éviter les malwares adaptatifs via surveillance réseau.
@@ -454,11 +460,15 @@ Avantages · Filtrer les données par projet ou requête.
 Gain · Comparer les coûts sans lancer un serveur.
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
 - [AutoResearchClaw](../../watch/autoresearchclaw-autonomous-research.md)
-- [NanoClaw](../../watch/nanoclaw-personal-agent.md)
+- [NanoClaw](../../watch/nanoclaw-personal-agent.md) — Fonction · Exécute des agents dans des conteneurs sécurisés pour messagerie et tâches.
+Avantages · Isolation OS, conteneurs Linux, gestion des clés via un gateway.
+Gain · Lancer un agent en quelques étapes, sans configuration complexe.
 - [Open Source SaaS Alternatives](../../watch/open-source-saas-alternatives-nicos-ai.md) — Fonction · Génère du texte et des images localement.
 Avantages · Supporte plusieurs modèles et langages.
 Gain · Éviter l'envoi de données vers le cloud.
-- [PentestGPT](../../watch/pentestgpt-autonomous-pentest.md)
+- [PentestGPT](../../watch/pentestgpt-autonomous-pentest.md) — Fonction · Automatise tests de pénétration avec des modèles LLM.
+Avantages · Pipeline multi-étapes avec persistences de sessions.
+Gain · Exécuter des tests sans intervention humaine.
 - [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md) — Fonction · Identifier et surveiller les outils offensifs ou abusables.
 Avantages · Distinguer usage légitime et usage abusif documenté.
 Gain · Éviter diffusion publique et exploitation offensive.

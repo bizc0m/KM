@@ -12,7 +12,9 @@ Gain · Lancer un serveur sans compte ou licence.
 - [Cal.diy](../../watch/technical-cb5d126cbda2eedef29e.md) — Fonction · Gère les rendez-vous et les calendriers en local.
 Avantages · Aucune dépendance commerciale, licence MIT.
 Gain · Lancer un serveur sans compte ou licence.
-- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
+- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Fonction · Exécute des commandes en terminal et modifie du code.
+Avantages · Gère les erreurs de syntaxe et les imports manquants.
+Gain · Appliquer des changements avec validation manuelle ou automatique.
 - [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md) — Fonction · Extraire des données et télécharger des fichiers depuis des sites web.
 Avantages · Supporte HTML, PDF, JPG, PNG et JavaScript via Playwright.
 Gain · Lancer des tâches de scraping sans configuration complexe.
@@ -170,7 +172,9 @@ Gain · Éviter de consulter des sources obsolètes.
 - [Miranda](../../watch/miranda-start-me.md) — Fonction · Surveillance et collecte d'informations en temps réel.
 Avantages · Intégration avec des sources de veille spécialisées.
 Gain · Éviter de consulter plusieurs outils pour suivre des menaces.
-- [Awesome MCP Servers](../../watch/awesome-mcp-servers.md)
+- [Awesome MCP Servers](../../watch/awesome-mcp-servers.md) — Fonction · Dépôt GitHub avec liste de serveurs MCP.
+Avantages · Serveurs configurés pour modding Minecraft.
+Gain · Éviter la configuration de base des serveurs.
 - [The OSINT Rack](../../watch/osint-rack-curated-tools.md) — Fonction · Catalogue d'outils OSINT et renseignement.
 Avantages · Filtrage et organisation des ressources.
 Gain · Accéder rapidement aux outils pertinents.

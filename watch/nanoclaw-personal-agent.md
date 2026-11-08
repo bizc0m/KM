@@ -69,3 +69,9 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : ajouter la page francaise officielle fournie dans le lot.
 - Risques : contenu localise pouvant diverger du site EN.
+
+## Intérêts
+
+Fonction · Exécute des agents dans des conteneurs sécurisés pour messagerie et tâches.  
+Avantages · Isolation OS, conteneurs Linux, gestion des clés via un gateway.  
+Gain · Lancer un agent en quelques étapes, sans configuration complexe.

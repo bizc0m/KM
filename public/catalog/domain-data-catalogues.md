@@ -12,7 +12,9 @@ Gain · Lancer des tâches sans abonnement, utiliser des outils libres.
 Avantages · Organise et classe des compétences IA.
 Gain · Réutiliser des prompts pour accélérer le développement.
 - [Awesome AI Companion](../../watch/awesome-ai-companion.md)
-- [Awesome MCP Servers](../../watch/awesome-mcp-servers.md)
+- [Awesome MCP Servers](../../watch/awesome-mcp-servers.md) — Fonction · Dépôt GitHub avec liste de serveurs MCP.
+Avantages · Serveurs configurés pour modding Minecraft.
+Gain · Éviter la configuration de base des serveurs.
 - [The OSINT Rack](../../watch/osint-rack-curated-tools.md) — Fonction · Catalogue d'outils OSINT et renseignement.
 Avantages · Filtrage et organisation des ressources.
 Gain · Accéder rapidement aux outils pertinents.

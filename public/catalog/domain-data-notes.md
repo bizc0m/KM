@@ -1,6 +1,8 @@
 # Notes et organisation
 
-- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
+- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Fonction · Exécute des commandes en terminal et modifie du code.
+Avantages · Gère les erreurs de syntaxe et les imports manquants.
+Gain · Appliquer des changements avec validation manuelle ou automatique.
 - [LangChain](../../watch/technical-c5a32632e586ab2c7c9c.md) — Crée des agents capables de planifier et d'utiliser des sous-agents pour des tâches complexes.
 - [Coolify](../../watch/technical-d9575f3020769f3b284b.md) — Fonction · Déployer des apps, bases de données et services sur des serveurs.
 Avantages · Support Git, Docker, Nixpacks et plus de 360 services prêts à l'emploi.

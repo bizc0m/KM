@@ -1,14 +1,14 @@
 {
-  "at": "2026-11-08T07:03:17.203Z",
+  "at": "2026-11-08T12:24:10.502Z",
   "scope": "public-index-only",
   "fiches": 660,
-  "sourceReferences": 2778,
+  "sourceReferences": 2783,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 619,
+  "pendingReview": 618,
   "counts": {
-    "interest-missing": 38,
+    "interest-missing": 34,
     "keywords-missing": 76,
     "domain-unqualified": 104,
     "primary-identity-unqualified": 20,
@@ -4226,13 +4226,6 @@
       ]
     },
     {
-      "id": "watch-awesome-mcp-servers-md",
-      "title": "Awesome MCP Servers",
-      "reasons": [
-        "interest-missing"
-      ]
-    },
-    {
       "id": "watch-claude-task-master-ai-task-management-md",
       "title": "Claude Task Master",
       "reasons": [
@@ -4279,7 +4272,6 @@
       "id": "watch-openhands-ai-development-md",
       "title": "OpenHands",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4391,7 +4383,6 @@
       "id": "watch-nanoclaw-personal-agent-md",
       "title": "NanoClaw",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -4413,7 +4404,6 @@
       "id": "watch-pentestgpt-autonomous-pentest-md",
       "title": "PentestGPT",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },

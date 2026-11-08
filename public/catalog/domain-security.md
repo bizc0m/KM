@@ -189,7 +189,9 @@ Gain · Éviter la copie, analyser sans reproduire les identités visuelles.
 - [OSINT Tools Watch](../../watch/osint-tools-watch.md) — Fonction · Suivi et analyse d'outils OSINT.
 Avantages · Informations sur les outils de veille.
 Gain · Identifier des outils pour la veille OSINT.
-- [PentestGPT](../../watch/pentestgpt-autonomous-pentest.md)
+- [PentestGPT](../../watch/pentestgpt-autonomous-pentest.md) — Fonction · Automatise tests de pénétration avec des modèles LLM.
+Avantages · Pipeline multi-étapes avec persistences de sessions.
+Gain · Exécuter des tests sans intervention humaine.
 - [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md) — Fonction · Identifier et surveiller les outils offensifs ou abusables.
 Avantages · Distinguer usage légitime et usage abusif documenté.
 Gain · Éviter diffusion publique et exploitation offensive.

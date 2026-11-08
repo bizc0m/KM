@@ -6,7 +6,9 @@ Gain · Productivité · Réutilisation · Contexte · Collaboration
 - [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Fonction · Génère des styles de cheveux 3D anime via des points de contrôle.
 Avantages · Modèle préentraîné et données de test disponibles.
 Gain · Exécuter des générations et évaluations sans configuration complexe.
-- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
+- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Fonction · Exécute des commandes en terminal et modifie du code.
+Avantages · Gère les erreurs de syntaxe et les imports manquants.
+Gain · Appliquer des changements avec validation manuelle ou automatique.
 - [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Fonction · Exécute des tâches, modifie des fichiers, exécute des commandes.
 Avantages · Supporte plus de 40 fournisseurs et modèles locaux.
 Gain · Lancer des tâches sans interface, avec ou sans sandbox.

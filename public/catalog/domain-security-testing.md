@@ -31,7 +31,9 @@ Gain · Exécuter des attaques sans configuration API, avec des outils distants.
 - [CodePatrol](../../watch/codepatrol-code-security.md) — Fonction · Détecte des vulnérabilités dans le code.
 Avantages · Analyse statique des sources pour identifier des risques.
 Gain · Éviter les failles de sécurité avant la mise en production.
-- [PentestGPT](../../watch/pentestgpt-autonomous-pentest.md)
+- [PentestGPT](../../watch/pentestgpt-autonomous-pentest.md) — Fonction · Automatise tests de pénétration avec des modèles LLM.
+Avantages · Pipeline multi-étapes avec persistences de sessions.
+Gain · Exécuter des tests sans intervention humaine.
 - [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md) — Fonction · Identifier et surveiller les outils offensifs ou abusables.
 Avantages · Distinguer usage légitime et usage abusif documenté.
 Gain · Éviter diffusion publique et exploitation offensive.

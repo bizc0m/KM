@@ -29,6 +29,8 @@ Veille outil IA / agent de developpement.
 ## Sources
 
 - https://github.com/openhands/openhands
+- https://assets.openhands.dev/screenshot/automation-preview.png
+- https://raw.githubusercontent.com/openhands/openhands/HEAD/README.md
 
 ## Metadata GitHub publique
 
@@ -49,3 +51,15 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer OpenHands depuis Raindrop KM Monitor.
 - Risques : agent code sensible.
+
+## Intérêts
+
+Fonction · Gère des agents de développement sur des backends locaux ou distants.  
+Avantages · Intègre des outils comme GitHub, Slack et Notion.  
+Gain · Lancer des tâches automatiques sans configuration complexe.
+
+## Aperçus
+
+![Agent Canvas automation preview](https://assets.openhands.dev/screenshot/automation-preview.png)
+
+[Origine](https://raw.githubusercontent.com/openhands/openhands/HEAD/README.md)

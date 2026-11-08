@@ -19,7 +19,9 @@ Gain · Lancer un serveur sans compte ou licence.
 - [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Fonction · Génère des styles de cheveux 3D anime via des points de contrôle.
 Avantages · Modèle préentraîné et données de test disponibles.
 Gain · Exécuter des générations et évaluations sans configuration complexe.
-- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
+- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Fonction · Exécute des commandes en terminal et modifie du code.
+Avantages · Gère les erreurs de syntaxe et les imports manquants.
+Gain · Appliquer des changements avec validation manuelle ou automatique.
 - [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Fonction · Exécute des tâches, modifie des fichiers, exécute des commandes.
 Avantages · Supporte plus de 40 fournisseurs et modèles locaux.
 Gain · Lancer des tâches sans interface, avec ou sans sandbox.
@@ -287,7 +289,9 @@ Gain · Automatiser la création d'applications sans codage.
 - [Claude Task Master](../../watch/claude-task-master-ai-task-management.md) — Fonction · Gère les tâches via des API d'IA dans un éditeur.
 Avantages · Intègre des modèles comme Claude, OpenAI, Gemini.
 Gain · Lancer des tâches sans config complexe.
-- [OpenHands](../../watch/openhands-ai-development.md)
+- [OpenHands](../../watch/openhands-ai-development.md) — Fonction · Gère des agents de développement sur des backends locaux ou distants.
+Avantages · Intègre des outils comme GitHub, Slack et Notion.
+Gain · Lancer des tâches automatiques sans configuration complexe.
 - [PromptSpy](../../watch/promptspy-ai-android-malware.md) — Fonction · Analyse comportementale d'applications Android via IA.
 Avantages · Détection d'appels vers API IA pour evasion.
 Gain · Éviter les malwares adaptatifs via surveillance réseau.

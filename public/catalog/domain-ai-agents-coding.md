@@ -9,7 +9,9 @@ Gain · Lancer des tâches sans interface graphique.
 - [Claude SEO](../../watch/technical-2ac64d2afb7018ac9ff2.md) — Fonction · Audit SEO complet en 10 à 15 minutes.
 Avantages · 26 sous-compétences et 19 agents spécialisés.
 Gain · Lancer des tâches d'optimisation rapidement.
-- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Génère des codes et corrige les erreurs dans un projet.
+- [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Fonction · Exécute des commandes en terminal et modifie du code.
+Avantages · Gère les erreurs de syntaxe et les imports manquants.
+Gain · Appliquer des changements avec validation manuelle ou automatique.
 - [CodeWhale](../../watch/technical-4ae9875513059238a6b2.md) — Fonction · Exécute des tâches, modifie des fichiers, exécute des commandes.
 Avantages · Supporte plus de 40 fournisseurs et modèles locaux.
 Gain · Lancer des tâches sans interface, avec ou sans sandbox.

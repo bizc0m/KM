@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Génère des codes et corrige les erreurs dans un projet.
+Fonction · Exécute des commandes en terminal et modifie du code.  
+Avantages · Gère les erreurs de syntaxe et les imports manquants.  
+Gain · Appliquer des changements avec validation manuelle ou automatique.
 
 ## Identité
 

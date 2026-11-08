@@ -50,3 +50,9 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer Awesome MCP Servers depuis Raindrop KM Monitor.
 - Risques : annuaire externe et connecteurs sensibles.
+
+## Intérêts
+
+Fonction · Dépôt GitHub avec liste de serveurs MCP.  
+Avantages · Serveurs configurés pour modding Minecraft.  
+Gain · Éviter la configuration de base des serveurs.

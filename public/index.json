@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-08T07:03:16.957Z",
+  "at": "2026-11-08T12:24:10.284Z",
   "count": 660,
   "rows": [
     {
@@ -13324,7 +13324,7 @@
       "github": "https://github.com/cline/cline",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Génère des codes et corrige les erreurs dans un projet.",
+      "summary": "Fonction · Exécute des commandes en terminal et modifie du code.  \nAvantages · Gère les erreurs de syntaxe et les imports manquants.  \nGain · Appliquer des changements avec validation manuelle ou automatique.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-26",
@@ -14037,7 +14037,7 @@
         }
       ],
       "cardTitle": "Cline",
-      "cardInterest": "Génère des codes et corrige les erreurs dans un projet."
+      "cardInterest": "Fonction · Exécute des commandes en terminal et modifie du code.\nAvantages · Gère les erreurs de syntaxe et les imports manquants.\nGain · Appliquer des changements avec validation manuelle ou automatique."
     },
     {
       "id": "watch-technical-2ffdb8097dd79859932a-md",
@@ -241930,7 +241930,7 @@
       "github": "https://github.com/punkpeye/awesome-mcp-servers",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "",
+      "summary": "Fonction · Dépôt GitHub avec liste de serveurs MCP.  \nAvantages · Serveurs configurés pour modding Minecraft.  \nGain · Éviter la configuration de base des serveurs.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-06-24",
@@ -242399,7 +242399,7 @@
         }
       ],
       "cardTitle": "Awesome MCP Servers",
-      "cardInterest": ""
+      "cardInterest": "Fonction · Dépôt GitHub avec liste de serveurs MCP.\nAvantages · Serveurs configurés pour modding Minecraft.\nGain · Éviter la configuration de base des serveurs."
     },
     {
       "id": "watch-claude-task-master-ai-task-management-md",
@@ -244754,12 +244754,24 @@
           "kind": "github",
           "role": "primaryRepository",
           "label": "GitHub"
+        },
+        {
+          "url": "https://assets.openhands.dev/screenshot/automation-preview.png",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/openhands/openhands/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/openhands/openhands",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "",
+      "summary": "Fonction · Gère des agents de développement sur des backends locaux ou distants.  \nAvantages · Intègre des outils comme GitHub, Slack et Notion.  \nGain · Lancer des tâches automatiques sans configuration complexe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-06-24",
@@ -245043,7 +245055,7 @@
         }
       ],
       "cardTitle": "OpenHands",
-      "cardInterest": ""
+      "cardInterest": "Fonction · Gère des agents de développement sur des backends locaux ou distants.\nAvantages · Intègre des outils comme GitHub, Slack et Notion.\nGain · Lancer des tâches automatiques sans configuration complexe."
     },
     {
       "id": "watch-osint-rack-curated-tools-md",
@@ -252186,7 +252198,7 @@
       "github": "https://github.com/nanocoai/nanoclaw",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "",
+      "summary": "Fonction · Exécute des agents dans des conteneurs sécurisés pour messagerie et tâches.  \nAvantages · Isolation OS, conteneurs Linux, gestion des clés via un gateway.  \nGain · Lancer un agent en quelques étapes, sans configuration complexe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-05-22",
@@ -252435,7 +252447,7 @@
         }
       ],
       "cardTitle": "NanoClaw",
-      "cardInterest": ""
+      "cardInterest": "Fonction · Exécute des agents dans des conteneurs sécurisés pour messagerie et tâches.\nAvantages · Isolation OS, conteneurs Linux, gestion des clés via un gateway.\nGain · Lancer un agent en quelques étapes, sans configuration complexe."
     },
     {
       "id": "watch-open-source-saas-alternatives-nicos-ai-md",
@@ -253774,12 +253786,30 @@
           "kind": "source",
           "role": "secondaryReference",
           "label": "Référence"
+        },
+        {
+          "url": "https://asciinema.org/a/761661.svg",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/greydgl/pentestgpt/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://asciinema.org/a/761663.svg",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
         }
       ],
       "github": "https://github.com/greydgl/pentestgpt",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "",
+      "summary": "Fonction · Automatise tests de pénétration avec des modèles LLM.  \nAvantages · Pipeline multi-étapes avec persistences de sessions.  \nGain · Exécuter des tests sans intervention humaine.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-05-22",
@@ -254145,7 +254175,7 @@
         }
       ],
       "cardTitle": "PentestGPT",
-      "cardInterest": ""
+      "cardInterest": "Fonction · Automatise tests de pénétration avec des modèles LLM.\nAvantages · Pipeline multi-étapes avec persistences de sessions.\nGain · Exécuter des tests sans intervention humaine."
     },
     {
       "id": "watch-red-team-risk-tools-watch-md",

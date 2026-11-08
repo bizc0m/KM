@@ -56,7 +56,9 @@ Gain · Créer des contenus vidéo sans outil externe.
 - [Essential MCP Servers Collection](../../watch/this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi.md) — Fonction · Serveurs MCP pour veille et monitoring.
 Avantages · Intégration agents IA et protocoles MCP.
 Gain · Éviter configuration manuelle des serveurs MCP.
-- [Awesome MCP Servers](../../watch/awesome-mcp-servers.md)
+- [Awesome MCP Servers](../../watch/awesome-mcp-servers.md) — Fonction · Dépôt GitHub avec liste de serveurs MCP.
+Avantages · Serveurs configurés pour modding Minecraft.
+Gain · Éviter la configuration de base des serveurs.
 - [Claude AGENTS.md Config](../../watch/claude-agents-md-config-alexsoyes.md) — Fonction · Configuration des agents Claude via un fichier AGENTS.md.
 Avantages · Centralisation des instructions et paramètres d'intégration.
 Gain · Éviter de répéter les configurations pour chaque agent.
