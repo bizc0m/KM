@@ -219,7 +219,9 @@ Gain · Générer des fichiers HDF5 visualisables avec Chimera.
 - [czi2b64](../../watch/technical-092f153418d9f0fea556.md) — Fonction · Convertir fichiers CZI en B64 pour SimFCS.
 Avantages · Gère les images Fast Airyscan avec groupes détecteurs.
 Gain · Éviter de retraiter les données CZI pour FCS.
-- [czifile](../../watch/technical-2c7618ba43d1b3a66f75.md) — Lire et analyser des fichiers CZI pour extraire des données et métadonnées.
+- [czifile](../../watch/technical-2c7618ba43d1b3a66f75.md) — Fonction · Lire et extraire données et métadonnées de fichiers CZI.
+Avantages · Support compression Zstd, JPEG XR, Chunked, et gestion des segments ZISRAW.
+Gain · Accéder directement aux données sans conversion intermédiaire.
 - [dnacurve](../../watch/technical-9e1242d02e9fdde47335.md) — Fonction · Calculer la courbure 3D d'une molécule d'ADN à partir de sa séquence.
 Avantages · Modèle dinucléotidique pour angles de courbure locaux et macroscopiques.
 Gain · Exporter en PDB, CSV ou PNG pour visualisation et analyse.

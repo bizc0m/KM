@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Lire et analyser des fichiers CZI pour extraire des données et métadonnées.
+Fonction · Lire et extraire données et métadonnées de fichiers CZI.  
+Avantages · Support compression Zstd, JPEG XR, Chunked, et gestion des segments ZISRAW.  
+Gain · Accéder directement aux données sans conversion intermédiaire.
 
 ## Identité
 

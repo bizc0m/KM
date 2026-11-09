@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-08T12:24:10.284Z",
+  "at": "2026-11-09T07:45:59.322Z",
   "count": 660,
   "rows": [
     {
@@ -100837,7 +100837,7 @@
       "github": "https://github.com/cgohlke/czifile",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Lire et analyser des fichiers CZI pour extraire des données et métadonnées.",
+      "summary": "Fonction · Lire et extraire données et métadonnées de fichiers CZI.  \nAvantages · Support compression Zstd, JPEG XR, Chunked, et gestion des segments ZISRAW.  \nGain · Accéder directement aux données sans conversion intermédiaire.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-21",
@@ -101120,7 +101120,7 @@
         }
       ],
       "cardTitle": "czifile",
-      "cardInterest": "Lire et analyser des fichiers CZI pour extraire des données et métadonnées."
+      "cardInterest": "Fonction · Lire et extraire données et métadonnées de fichiers CZI.\nAvantages · Support compression Zstd, JPEG XR, Chunked, et gestion des segments ZISRAW.\nGain · Accéder directement aux données sans conversion intermédiaire."
     },
     {
       "id": "watch-technical-36af88678b68da293751-md",
