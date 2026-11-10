@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-09T07:45:59.502Z",
+  "at": "2026-11-10T08:06:48.919Z",
   "scope": "public-index-only",
   "fiches": 660,
   "sourceReferences": 2783,
@@ -8,7 +8,7 @@
   "primaryDuplicateGroups": [],
   "pendingReview": 618,
   "counts": {
-    "interest-missing": 34,
+    "interest-missing": 33,
     "keywords-missing": 76,
     "domain-unqualified": 104,
     "primary-identity-unqualified": 20,
@@ -2759,7 +2759,6 @@
       "id": "watch-technical-83811fe337d142092d4c-md",
       "title": "polymarket-kalshi-weather-bot",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },

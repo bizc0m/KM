@@ -68,7 +68,9 @@ Gain · Exécuter des ordres sans interface, gérer des positions en temps réel
 - [automated-trading-system-kalshi-weather-model](../../watch/technical-4c3271bfa169fba76b45.md) — Fonction · Prédire la température maximale quotidienne via XGBoost.
 Avantages · Optimisation des hyperparamètres pour réduire l'erreur MSE.
 Gain · Automatiser les trades via l'API Kalshi avec des prédictions.
-- [polymarket-kalshi-weather-bot](../../watch/technical-83811fe337d142092d4c.md)
+- [polymarket-kalshi-weather-bot](../../watch/technical-83811fe337d142092d4c.md) — Fonction · Bot de trading sur des marchés de prévision météo et BTC.
+Avantages · Analyse microstructure BTC + prévisions météo probabilistes.
+Gain · Lancer des trades en temps réel sans API payante.
 - [OpenTerminal](../../watch/technical-37a5c753c0c9dc1a3d4f.md) — Fonction · Terminal de trading basé sur des données gratuites.
 Avantages · Widget personnalisable avec sauvegarde locale.
 Gain · Lancer une interface de trading en quelques secondes.

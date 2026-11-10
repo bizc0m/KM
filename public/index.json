@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-09T07:45:59.322Z",
+  "at": "2026-11-10T08:06:48.747Z",
   "count": 660,
   "rows": [
     {
@@ -168470,7 +168470,7 @@
       "github": "https://github.com/suislanchez/polymarket-kalshi-weather-bot",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "Intérêt à vérifier",
+      "summary": "Fonction · Bot de trading sur des marchés de prévision météo et BTC.  \nAvantages · Analyse microstructure BTC + prévisions météo probabilistes.  \nGain · Lancer des trades en temps réel sans API payante.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-10-19",
@@ -168815,7 +168815,7 @@
         }
       ],
       "cardTitle": "polymarket-kalshi-weather-bot",
-      "cardInterest": ""
+      "cardInterest": "Fonction · Bot de trading sur des marchés de prévision météo et BTC.\nAvantages · Analyse microstructure BTC + prévisions météo probabilistes.\nGain · Lancer des trades en temps réel sans API payante."
     },
     {
       "id": "watch-technical-acb8c4977c9c6f208a52-md",
