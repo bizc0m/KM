@@ -5,7 +5,7 @@ import path from 'node:path';
 import os from 'node:os';
 import crypto from 'node:crypto';
 import {blocked,technicalSignal} from './km-technical-policy.mjs';
-import {inWindow,cutoff} from './km-noteplan-window.mjs';
+import {inWindow,cutoff,noteDay} from './km-noteplan-window.mjs';
 const data=process.env.KM_PIPELINE_DATA||path.join(os.homedir(),'Library/Application Support/KM/pipeline');
 let cursor={};try{cursor=JSON.parse(await readFile(path.join(data,'noteplan-cursor.json'),'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;}
 let manifest={},state={};try{manifest=JSON.parse(await readFile(path.join(data,'noteplan-reader-manifest.json'),'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;}try{state=JSON.parse(await readFile(path.join(data,'state.json'),'utf8'));}catch(e){if(e.code!=='ENOENT')throw e;}
@@ -35,7 +35,7 @@ for(const root of roots){
     return links.map(u=>u.replace(/[).,;!}`]+$/g,''));
    });
    const allowText=!blocked(body);
-   const digest=hash(body);manifest[id]={mtimeMs:metadata.mtimeMs,size:metadata.size,digest};notes.push({id,digest,segments,allowText});
+   const digest=hash(body);manifest[id]={mtimeMs:metadata.mtimeMs,size:metadata.size,digest};notes.push({id,digest,segments,allowText,priorityAt:noteDay(file)||metadata.mtimeMs});
   }catch{unreadable++;}
  }
  break;

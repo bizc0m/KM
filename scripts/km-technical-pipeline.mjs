@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import {noteplanCommand} from './km-noteplan-command.mjs';
 import {findProductImages} from './km-product-media.mjs';
 import {loadSources,fetchFeed} from './km-sources.mjs';
 import {correctedResource} from './km-verified-resources.mjs';
@@ -97,16 +98,18 @@ async function main(){
       await exec(process.execPath,[path.join(ROOT,'scripts/km-verify-placement.mjs')],{cwd:ROOT,env:process.env,timeout:30000,maxBuffer:1000000});
       builtCount=changed;status.dashboard={ok:true,file:'search-v2.html',updatedAt:now()};
     }
-    if(noteplanEnabled && process.env.KM_NOTEPLAN_SSH==='1' && Date.now()-lastWriteback>300000){lastWriteback=Date.now();try{const r=await exec(process.execPath,[path.join(ROOT,'scripts/km-noteplan-writeback.mjs'),'--apply'],{cwd:ROOT,env:process.env,timeout:120000,maxBuffer:1000000});status.noteplanWriteback=JSON.parse(r.stdout);}catch{status.noteplanWriteback={ok:false,reason:'NOTEPLAN_WRITEBACK_FAILED'};}}
+    if(noteplanEnabled && process.env.KM_NOTEPLAN_SSH==='1' && Date.now()-lastWriteback>300000){lastWriteback=Date.now();try{const invocation=noteplanCommand('km-noteplan-writeback.mjs',['--apply'],{root:ROOT,data:DATA});const r=await exec(invocation.command,invocation.args,{cwd:ROOT,env:process.env,timeout:120000,maxBuffer:1000000});status.noteplanWriteback=JSON.parse(r.stdout);}catch{status.noteplanWriteback={ok:false,reason:'NOTEPLAN_WRITEBACK_FAILED'};}}
     await atomic(path.join(DATA,'progress.json'),JSON.stringify({...status,processed,limit:LIMIT,updatedAt:now()}));
   }
-  const known=new Set(),tweetFiles=new Map();
+  const known=new Set(),knownFiles=new Map(),tweetFiles=new Map();
   const targets=await toolTargets(ROOT);
   for(const folder of ['watch','resources','books']){for(const file of await walk(path.join(ROOT,folder))){
     const text=await readFile(file,'utf8');
     for(const u of urls(text)){try{known.add(canonical(u));}catch{}}
+    if(!blocked(text)){const sourceSection=text.match(/## Sources?\n([\s\S]*?)(?=\n## |$)/)?.[1]||'';for(const u of urls(sourceSection)){try{const key=canonical(u),files=knownFiles.get(key)||[];files.push(path.relative(ROOT,file));knownFiles.set(key,[...new Set(files)]);}catch{}}}
     if(/^technical-/.test(path.basename(file))){const first=urls(text.split('## Sources')[1]?.split('\n## ')[0] || '')[0];if(first && /^https?:\/\/(?:x\.com|twitter\.com)\/.*\/status\/\d+/.test(first))tweetFiles.set(crawlKey(first),path.relative(ROOT,file));}
   }}
+  for(const [url,files] of knownFiles){const record=state.urls[hash(url)];if(record?.status==='done'&&!record.fiche&&!record.fiches?.length)record.fiches=files;}
   async function processCandidate(key,evidence,sources,origin,analysis){
     if(blocked(evidence) || !technicalSignal(evidence)){status.ignored++;return 'ignored';}
     const d=analysis?.decision || await classify(evidence);
@@ -122,9 +125,9 @@ async function main(){
     const k=hash(key);const old=state.urls[k];
     const isTweet=/^https?:\/\/(?:x\.com|twitter\.com)\/.*\/status\/\d+/.test(key);
     const needsRecrawl=isTweet && old?.crawlVersion!==CRAWL_VERSION;
-    if(!needsRecrawl && (old?.status==='done' || (old?.status==='ignored' && old.policy===POLICY_VERSION)))return;
+    if(!needsRecrawl && (old?.status==='done' && (old.fiche || old.fiches?.length) || (old?.status==='ignored' && old.policy===POLICY_VERSION)))return;
     if(!needsRecrawl && old?.status==='retry' && Date.now()-Date.parse(old.at)<5*3600000)return;
-    if(!isTweet && known.has(key)){state.urls[k]={status:'done',at:now(),existing:true};return;}
+    if(!isTweet && knownFiles.has(key)){state.urls[k]={status:'done',at:now(),existing:true,fiches:knownFiles.get(key)};return;}
     if(processed>=LIMIT)return;processed++;
     try{
       const s=await resolveSource(key,async report=>{status.currentExploration=report;await checkpoint();});
@@ -137,8 +140,8 @@ async function main(){
         await checkpoint();
       }
       const incomplete=s.crawl && (s.crawl.errors || s.crawl.analysisErrors || s.crawl.review || s.crawl.analysisPending || s.crawl.pageLimited || s.crawl.timeLimited);
-      if(!isTweet && !s.blocked && s.sources.some(u=>{try{return known.has(canonical(u));}catch{return false;}})){
-        state.urls[k]={status:'done',at:now(),existing:true};await checkpoint();return;
+      if(!isTweet && !s.blocked && s.sources.some(u=>{try{return knownFiles.has(canonical(u));}catch{return false;}})){
+        state.urls[k]={status:'done',at:now(),existing:true,fiches:[...new Set(s.sources.flatMap(u=>{try{return knownFiles.get(canonical(u))||[];}catch{return [];}}))]};await checkpoint();return;
       }
       const result=s.blocked?'ignored':!s.text&&incomplete?'review':await processCandidate(key,s.text,s.sources,origin,s);
       state.urls[k]={origin,fiches:s.toolFiles || [],status:result==='review'||incomplete?'retry':result==='ignored'?'ignored':'done',policy:POLICY_VERSION,at:now(),...(isTweet?{crawlVersion:CRAWL_VERSION,crawl:s.crawl}:{}),...(result?.endsWith('.md')?{fiche:result}:{})};
@@ -167,7 +170,7 @@ async function main(){
       if(!scan.ok){status.errors.push(scan.reason || 'NOTEPLAN_PARTIAL_READ');status.noteplan={ok:false,reason:scan.reason==='NOTEPLAN_PERMISSION_DENIED'?'Autorisation macOS nécessaire pour accéder à NotePlan':scan.reason==='NOTEPLAN_READ_TIMEOUT'?'Lecture NotePlan bloquée ou autorisation macOS en attente (limite 30 secondes)':'Données NotePlan indisponibles ou partiellement lisibles'};}
       else{
         let complete=true;const retryNotes=[];status.noteplan={ok:true,scope:scan.scope,scanned:scan.scanned,metadataExamined:scan.examined,notRead:scan.unchanged,scanStartedAt:scan.scanStartedAt,cutoff:scan.cutoff};
-        for(const note of scan.notes.sort((a,b)=>Number(b.segments.some(s=>/\/status\/\d+/.test(s)))-Number(a.segments.some(s=>/\/status\/\d+/.test(s))))){
+        for(const note of scan.notes.sort((a,b)=>(b.priorityAt||0)-(a.priorityAt||0))){
           const k=note.id;const digest=note.digest;
           if(state.notes[k]?.hash===digest)continue;
           const segments=[...note.segments].sort((a,b)=>Number(/\/status\/\d+/.test(b))-Number(/\/status\/\d+/.test(a)));
