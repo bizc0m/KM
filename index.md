@@ -2,6 +2,21 @@
 
 | Identifiant | Fichier | Type | Tags | Statut |
 | --- | --- | --- | --- | --- |
+| `watch-technical-401c6af5b51d16a5ed2f-md` | `watch/technical-401c6af5b51d16a5ed2f.md` | outil | #automatisation-navigateur, #terminal | actif |
+| `watch-technical-23746973c38c4e68bc89-md` | `watch/technical-23746973c38c4e68bc89.md` | outil | #application-bureau | actif |
+| `watch-technical-70ff3d2843a80c7cf867-md` | `watch/technical-70ff3d2843a80c7cf867.md` | outil | #python | actif |
+| `watch-technical-6056740628cf01a1e192-md` | `watch/technical-6056740628cf01a1e192.md` | outil | #extraction-web, #python | actif |
+| `watch-technical-58c0429fbd3fbdeb924d-md` | `watch/technical-58c0429fbd3fbdeb924d.md` | outil | #extraction-web, #automatisation-navigateur | actif |
+| `watch-technical-37abca5ae9be9ed91364-md` | `watch/technical-37abca5ae9be9ed91364.md` | outil | #extraction-web, #automatisation-navigateur, #python | actif |
+| `watch-technical-8d00fb1736bf5ed195c0-md` | `watch/technical-8d00fb1736bf5ed195c0.md` | outil |  | a verifier |
+| `watch-technical-414ea35d29a6a6753f30-md` | `watch/technical-414ea35d29a6a6753f30.md` | outil |  | a verifier |
+| `watch-technical-0d58a5af5e1ec59c12fd-md` | `watch/technical-0d58a5af5e1ec59c12fd.md` | outil | #python | actif |
+| `watch-technical-9cd3273e9ce8f0bb884d-md` | `watch/technical-9cd3273e9ce8f0bb884d.md` | outil | #macos | actif |
+| `watch-technical-2e317194feb446319292-md` | `watch/technical-2e317194feb446319292.md` | outil | #extraction-web | actif |
+| `watch-technical-23762f3396360616b66d-md` | `watch/technical-23762f3396360616b66d.md` | outil | #python | actif |
+| `watch-technical-863adbb8c03ef3ea3d6b-md` | `watch/technical-863adbb8c03ef3ea3d6b.md` | outil | #capture-notes | actif |
+| `watch-technical-a6c0816f71eb3b27ed5d-md` | `watch/technical-a6c0816f71eb3b27ed5d.md` | outil | #inference-locale, #extraction-web | actif |
+| `watch-technical-aa8ca5206f8b696337e9-md` | `watch/technical-aa8ca5206f8b696337e9.md` | outil | #extraction-web, #python, #terminal | actif |
 | `watch-technical-e9eb05e2bf38f125a62f-md` | `watch/technical-e9eb05e2bf38f125a62f.md` | outil |  | actif |
 | `watch-technical-1e83b6596b947b071d50-md` | `watch/technical-1e83b6596b947b071d50.md` | outil | #simulation, #memoire-agents | actif |
 | `watch-technical-48dbbdd8fd0d302995a7-md` | `watch/technical-48dbbdd8fd0d302995a7.md` | outil | #skills-agents, #specification | actif |
@@ -36,7 +51,6 @@
 | `watch-technical-4ae9875513059238a6b2-md` | `watch/technical-4ae9875513059238a6b2.md` | outil | #agents-code, #mcp, #terminal | actif |
 | `watch-technical-8c3dc2a0187cafccea2a-md` | `watch/technical-8c3dc2a0187cafccea2a.md` | outil | #terminal | actif |
 | `watch-technical-4dbf8b61c8b24b3bf369-md` | `watch/technical-4dbf8b61c8b24b3bf369.md` | outil | #synthese-vocale | actif |
-| `watch-technical-37abca5ae9be9ed91364-md` | `watch/technical-37abca5ae9be9ed91364.md` | outil | #extraction-web, #automatisation-navigateur, #python, #pdf | actif |
 | `watch-technical-57435869059c16d7e579-md` | `watch/technical-57435869059c16d7e579.md` | outil | #skills-agents | actif |
 | `watch-technical-74dc45b5f749db3d46d0-md` | `watch/technical-74dc45b5f749db3d46d0.md` | outil |  | actif |
 | `watch-technical-c292611ef4a4a5e37455-md` | `watch/technical-c292611ef4a4a5e37455.md` | outil | #modifier | actif |

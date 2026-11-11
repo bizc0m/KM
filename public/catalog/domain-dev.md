@@ -1,5 +1,9 @@
 # Développement logiciel
 
+- [agent-browser](../../watch/technical-401c6af5b51d16a5ed2f.md)
+- [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
+- [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
+- [Noticky](../../watch/technical-9cd3273e9ce8f0bb884d.md)
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
 Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export
 Gain · Productivité · Réutilisation · Contexte · Collaboration
@@ -28,9 +32,6 @@ Gain · Lancer des tâches sans interface, avec ou sans sandbox.
 - [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Fonction · Exécute des tâches de codage dans le terminal.
 Avantages · Intégre les modèles de codage d'OpenAI.
 Gain · Lancer des tâches sans interface graphique.
-- [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md) — Fonction · Extraire des données et télécharger des fichiers depuis des sites web.
-Avantages · Supporte HTML, PDF, JPG, PNG et JavaScript via Playwright.
-Gain · Lancer des tâches de scraping sans configuration complexe.
 - [skills_feed](../../watch/technical-57435869059c16d7e579.md) — Fonction · Recherche, installation, copie et partage de compétences AI.
 Avantages · Intégration avec des outils de codage comme Claude Code et Cursor.
 Gain · Accéder directement aux compétences via URL GitHub.

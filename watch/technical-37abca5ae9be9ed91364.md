@@ -1,4 +1,4 @@
-# Crawlee : bibliothèque de scraping et automatisation navigateur
+# crawlee-python
 
 ## Statut
 
@@ -10,9 +10,7 @@ actif
 
 ## Intérêts
 
-Fonction · Extraire des données et télécharger des fichiers depuis des sites web.  
-Avantages · Supporte HTML, PDF, JPG, PNG et JavaScript via Playwright.  
-Gain · Lancer des tâches de scraping sans configuration complexe.
+Intérêt à vérifier
 
 ## Identité
 
@@ -31,10 +29,10 @@ Gain · Lancer des tâches de scraping sans configuration complexe.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.data.web domain.dev.browser capability.scraping capability.automation.browser compatibility.language.python compatibility.format.pdf source.noteplan source.github source.x lifecycle.active
-- Sujets : Données et connaissances > Collecte web ; Développement logiciel > Outils de navigateur
+- Identifiants : domain.ai domain.data.web domain.dev.browser capability.scraping capability.automation.browser compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle ; Données et connaissances > Collecte web ; Développement logiciel > Outils de navigateur
 - Fonctions : Extraire des données web ; Automatiser des actions > Automatiser le navigateur
-- Compatibilités : Langages > Python ; Formats > PDF
+- Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -42,38 +40,12 @@ Gain · Lancer des tâches de scraping sans configuration complexe.
 
 - https://github.com/apify/crawlee-python
 - https://x.com/i/status/2056302799508697343
+- https://x.com/i/status/2117933158926880946
 
 ## Traçabilité
 
 - Origine : NotePlan
 - Identifiant source : 37abca5ae9be9ed91364b462157579a800bf371d8632fcf743925f930dfce971
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-26
+- Lecture KM : 2026-11-11
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Permet de scraper des pages web avec ou sans JavaScript.
-- Utilise Playwright pour exécuter du JavaScript côté client.
-- Fournit des outils pour stocker les données de manière persistante.
-- Supporte la navigation automatique et la gestion de sessions.
-
-## Usages documentés
-
-- python -m pip install 'crawlee[all]'
-- playwright install
-- python -c 'import crawlee; print(crawlee.__version__)'
-
-## Limites
-
-- Requiert Python 3.10 ou supérieur.
-- Nécessite des dépendances comme Playwright.
-- Fonctionne avec des navigateurs headless.
-- Nécessite des configurations spécifiques pour exécuter du JavaScript.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/apify/crawlee-python
-- Analyse source : 2026-10-26T00:32:26.679Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

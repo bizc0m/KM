@@ -1,11 +1,11 @@
 # Outils de navigateur
 
+- [agent-browser](../../watch/technical-401c6af5b51d16a5ed2f.md)
+- [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
+- [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
 - [Browser-Use](../../watch/browser-use-web-automation.md) — Fonction · Automatise la navigation web avec des agents AI.
 Avantages · Supporte des navigateurs furtifs et des proxies résidentiels.
 Gain · Exécuter des tâches sans installer Chrome.
-- [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md) — Fonction · Extraire des données et télécharger des fichiers depuis des sites web.
-Avantages · Supporte HTML, PDF, JPG, PNG et JavaScript via Playwright.
-Gain · Lancer des tâches de scraping sans configuration complexe.
 - [cloakbrowser-manager](../../watch/technical-f1bc36a07e9a8a388405.md) — Fonction · Gérer des profils de navigateurs isolés avec des empreintes uniques.
 Avantages · Profils indépendants avec GPU, proxy, cookies et historique distincts.
 Gain · Lancer des tâches sans lien entre les comptes ou l'utilisateur.

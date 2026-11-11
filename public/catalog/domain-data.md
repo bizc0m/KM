@@ -1,5 +1,12 @@
 # Données et connaissances
 
+- [Crawlab](../../watch/technical-6056740628cf01a1e192.md)
+- [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
+- [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
+- [scrapy-playwright](../../watch/technical-2e317194feb446319292.md)
+- [SideNotes](../../watch/technical-863adbb8c03ef3ea3d6b.md)
+- [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
+- [trafilatura](../../watch/technical-aa8ca5206f8b696337e9.md)
 - [ani-cli](../../watch/technical-2993f5bd5143a68eff85.md) — Fonction · CLI pour parcourir et visionner des anime via hianime.
 Avantages · Scrapes hianime pour accéder aux épisodes.
 Gain · Lancer des séances de visionnage sans navigateur.
@@ -15,9 +22,6 @@ Gain · Lancer un serveur sans compte ou licence.
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Fonction · Exécute des commandes en terminal et modifie du code.
 Avantages · Gère les erreurs de syntaxe et les imports manquants.
 Gain · Appliquer des changements avec validation manuelle ou automatique.
-- [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md) — Fonction · Extraire des données et télécharger des fichiers depuis des sites web.
-Avantages · Supporte HTML, PDF, JPG, PNG et JavaScript via Playwright.
-Gain · Lancer des tâches de scraping sans configuration complexe.
 - [geo-seo-claude](../../watch/technical-a3b183624a359158d2f2.md) — Fonction · Audit et optimisation SEO pour moteurs AI et moteurs traditionnels.
 Avantages · Analyse de citabilité, balayage de crawlers AI, détection de mentions de marque.
 Gain · Générer rapports PDF, optimiser pour plateformes spécifiques en 60 secondes.

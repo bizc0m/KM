@@ -1,5 +1,6 @@
 # Notes et organisation
 
+- [SideNotes](../../watch/technical-863adbb8c03ef3ea3d6b.md)
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Fonction · Exécute des commandes en terminal et modifie du code.
 Avantages · Gère les erreurs de syntaxe et les imports manquants.
 Gain · Appliquer des changements avec validation manuelle ou automatique.

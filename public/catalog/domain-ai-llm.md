@@ -1,5 +1,6 @@
 # Modèles de langage
 
+- [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Fonction · Définir des principes pour construire des applications LLM fiables et scalables.
 Avantages · Structurer la logique et les interactions avec les outils.
 Gain · Réduire la complexité et améliorer la maintenance du code.

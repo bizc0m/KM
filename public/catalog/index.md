@@ -1,13 +1,13 @@
 # Index des sujets KM
 
-- [Intelligence artificielle](domain-ai.md) — 292 fiches
-- [Agents IA](domain-ai-agents.md) — 186 fiches
+- [Intelligence artificielle](domain-ai.md) — 297 fiches
+- [Agents IA](domain-ai-agents.md) — 189 fiches
 - [Mémoire des agents](domain-ai-agents-memory.md) — 25 fiches
 - [Orchestration des agents](domain-ai-agents-orchestration.md) — 14 fiches
 - [Agents de développement](domain-ai-agents-coding.md) — 52 fiches
 - [Compétences des agents](domain-ai-agents-skills.md) — 39 fiches
-- [Modèles de langage](domain-ai-llm.md) — 62 fiches
-- [Développement logiciel](domain-dev.md) — 122 fiches
+- [Modèles de langage](domain-ai-llm.md) — 63 fiches
+- [Développement logiciel](domain-dev.md) — 125 fiches
 - [Développement web](domain-dev-web.md) — 26 fiches
 - [Qualité du code](domain-dev-quality.md) — 35 fiches
 - [Audio, vidéo et création](domain-media.md) — 169 fiches
@@ -25,10 +25,10 @@
 - [Protection des données](domain-privacy.md) — 11 fiches
 - [Infrastructure](domain-infrastructure.md) — 71 fiches
 - [Réseaux](domain-infrastructure-network.md) — 3 fiches
-- [Données et connaissances](domain-data.md) — 82 fiches
-- [Collecte web](domain-data-web.md) — 24 fiches
+- [Données et connaissances](domain-data.md) — 88 fiches
+- [Collecte web](domain-data-web.md) — 29 fiches
 - [Documents](domain-data-documents.md) — 8 fiches
-- [Notes et organisation](domain-data-notes.md) — 14 fiches
+- [Notes et organisation](domain-data-notes.md) — 15 fiches
 - [Recherche documentaire](domain-data-research.md) — 7 fiches
 - [Analyse financière](domain-finance.md) — 29 fiches
 - [Marchés prédictifs](domain-finance-prediction.md) — 19 fiches
@@ -36,7 +36,7 @@
 - [Sciences et prévision](domain-science.md) — 7 fiches
 - [Prévisions météorologiques](domain-science-weather.md) — 7 fiches
 - [Communication et publication](domain-communication.md) — 17 fiches
-- [Applications et interfaces de bureau](domain-dev-desktop.md) — 15 fiches
+- [Applications et interfaces de bureau](domain-dev-desktop.md) — 16 fiches
 - [Conception d’interfaces](domain-dev-ui.md) — 10 fiches
 - [Connecteurs et outils des agents](domain-ai-agents-integration.md) — 25 fiches
 - [Instructions et prompts](domain-ai-prompts.md) — 3 fiches
@@ -45,7 +45,7 @@
 - [Infrastructure de contrôle et commande](domain-security-c2.md) — 1 fiches
 - [Création et diffusion en direct](domain-media-live.md) — 3 fiches
 - [Paquets et dépendances](domain-dev-dependencies.md) — 7 fiches
-- [Environnements d’exécution](domain-dev-runtime.md) — 2 fiches
+- [Environnements d’exécution](domain-dev-runtime.md) — 3 fiches
 - [Tests logiciels](domain-dev-testing.md) — 1 fiches
 - [API et services applicatifs](domain-dev-api.md) — 5 fiches
 - [Déploiement et hébergement](domain-infrastructure-deployment.md) — 5 fiches
@@ -54,6 +54,6 @@
 - [Publication de contenus](domain-communication-publishing.md) — 2 fiches
 - [Messagerie](domain-communication-messaging.md) — 10 fiches
 - [Organisation du travail](domain-data-organization.md) — 17 fiches
-- [Outils de navigateur](domain-dev-browser.md) — 8 fiches
+- [Outils de navigateur](domain-dev-browser.md) — 10 fiches
 - [Productivité](domain-productivity.md) — 1 fiches
 - [Tâches et agenda](domain-productivity-tasks.md) — 1 fiches

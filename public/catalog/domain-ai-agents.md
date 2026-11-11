@@ -1,5 +1,8 @@
 # Agents IA
 
+- [agent-browser](../../watch/technical-401c6af5b51d16a5ed2f.md)
+- [agent-desktop](../../watch/technical-23746973c38c4e68bc89.md)
+- [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Fonction · Définir des principes pour construire des applications LLM fiables et scalables.
 Avantages · Structurer la logique et les interactions avec les outils.
 Gain · Réduire la complexité et améliorer la maintenance du code.

@@ -1,14 +1,17 @@
 # Collecte web
 
+- [Crawlab](../../watch/technical-6056740628cf01a1e192.md)
+- [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
+- [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
+- [scrapy-playwright](../../watch/technical-2e317194feb446319292.md)
+- [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
+- [trafilatura](../../watch/technical-aa8ca5206f8b696337e9.md)
 - [ani-cli](../../watch/technical-2993f5bd5143a68eff85.md) — Fonction · CLI pour parcourir et visionner des anime via hianime.
 Avantages · Scrapes hianime pour accéder aux épisodes.
 Gain · Lancer des séances de visionnage sans navigateur.
 - [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Fonction · Télécharge et stream des anime via des fournisseurs.
 Avantages · Supporte des paramètres de qualité et de plage d'épisodes.
 Gain · Lancer le streaming ou la téléchargement sans configuration.
-- [Crawlee](../../watch/technical-37abca5ae9be9ed91364.md) — Fonction · Extraire des données et télécharger des fichiers depuis des sites web.
-Avantages · Supporte HTML, PDF, JPG, PNG et JavaScript via Playwright.
-Gain · Lancer des tâches de scraping sans configuration complexe.
 - [mov-cli](../../watch/technical-9e0cc8c5c3c327b3c50b.md) — Fonction · Streamer des médias via des plugins.
 Avantages · Plugins externes pour scraping et lecture.
 Gain · Lancer une recherche et lecture en quelques commandes.

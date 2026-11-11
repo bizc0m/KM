@@ -1,20 +1,146 @@
 {
-  "at": "2026-11-11T09:34:56.249Z",
+  "at": "2026-11-11T13:35:20.360Z",
   "scope": "public-index-only",
-  "fiches": 660,
-  "sourceReferences": 2788,
+  "fiches": 674,
+  "sourceReferences": 2823,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 617,
+  "pendingReview": 631,
   "counts": {
-    "interest-missing": 29,
-    "keywords-missing": 76,
-    "domain-unqualified": 104,
+    "interest-missing": 44,
+    "keywords-missing": 78,
+    "domain-unqualified": 109,
     "primary-identity-unqualified": 20,
-    "nature-unqualified": 610
+    "nature-unqualified": 623
   },
   "queue": [
+    {
+      "id": "watch-technical-401c6af5b51d16a5ed2f-md",
+      "title": "agent-browser",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-23746973c38c4e68bc89-md",
+      "title": "agent-desktop",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-70ff3d2843a80c7cf867-md",
+      "title": "capsolver-extension-python",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-6056740628cf01a1e192-md",
+      "title": "Crawlab",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-58c0429fbd3fbdeb924d-md",
+      "title": "crawlee",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-37abca5ae9be9ed91364-md",
+      "title": "crawlee-python",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8d00fb1736bf5ed195c0-md",
+      "title": "Ferret",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-414ea35d29a6a6753f30-md",
+      "title": "kimi-k3-in-c",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0d58a5af5e1ec59c12fd-md",
+      "title": "MechanicalSoup",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-9cd3273e9ce8f0bb884d-md",
+      "title": "Noticky",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-2e317194feb446319292-md",
+      "title": "scrapy-playwright",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-23762f3396360616b66d-md",
+      "title": "selectolax",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-863adbb8c03ef3ea3d6b-md",
+      "title": "SideNotes",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-a6c0816f71eb3b27ed5d-md",
+      "title": "spider-rs/spider",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-aa8ca5206f8b696337e9-md",
+      "title": "trafilatura",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
     {
       "id": "watch-technical-e9eb05e2bf38f125a62f-md",
       "title": "12-factor-agents",
@@ -207,13 +333,6 @@
     {
       "id": "watch-technical-4dbf8b61c8b24b3bf369-md",
       "title": "CosyVoice",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-37abca5ae9be9ed91364-md",
-      "title": "Crawlee",
       "reasons": [
         "nature-unqualified"
       ]
