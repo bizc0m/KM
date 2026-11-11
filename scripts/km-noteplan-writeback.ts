@@ -23,15 +23,15 @@ export function planWriteback(body:string,state:any,validFiles:Set<string>){
    if(r?.status!=='done'||!f.length||f.some((p:string)=>!validFiles.has(p))||r.crawl&&(!r.crawl.complete)){complete=false;break;}f.forEach((p:string)=>files.add(p));
   }
   if(!complete){const known=links.map(u=>{try{return state.urls[hash(canonical(u))];}catch{return null;}}).filter(Boolean);if(known.length)pending.push({sources:links,files:[...new Set(known.flatMap(r=>[...(r.fiches||[]),...(r.fiche?[r.fiche]:[])]))],reason:'Liens non terminés, exploration partielle ou fiche non établie'});continue;}
-  lines[i]=lines[i].replace(/\[ \]/,'[x]')+' #km-fait';items.push({files:[...files]});marked++;
+  lines[i]=lines[i].replace(/\[ \]/,'[x]')+' #KM-OK';items.push({files:[...files]});marked++;
  }
  
  const beforeSort=lines.join('\n');let moved=0;
- for(let n=0;n<lines.length;n++)if(lines[n].includes('#km-fait'))lines[n]=lines[n].replace(/ +\[KM\]\(https:\/\/bizc0m\.github\.io\/KM\/search-v2\.html#fiche=[a-zA-Z0-9-]+\)/g,'');
+ for(let n=0;n<lines.length;n++)if(/#(?:km-fait|KM-OK)\b/.test(lines[n]))lines[n]=lines[n].replace(/ +\[KM\]\(https:\/\/bizc0m\.github\.io\/KM\/search-v2\.html#fiche=[a-zA-Z0-9-]+\)/g,'');
  let candidate=lines.join(body.includes('\r\n')?'\r\n':'\n');
  // Sort only homogeneous task sections. Free-standing prose must not move.
  const sections=candidate.split(/(?=^#{1,6}\s)/m);
- candidate=sections.map(section=>{const ls=section.split(/\r?\n/);const hasMarker=section.includes('#km-fait')||technicalSignal(section);const unsafe=ls.some((l,k)=>l.trim()&&!/^#{1,6}\s/.test(l)&&!task.test(l)&&!/^\s/.test(l));return hasMarker&&!unsafe?smartSortMarkdown(section):section;}).join('');
+ candidate=sections.map(section=>{const ls=section.split(/\r?\n/);const hasMarker=/#(?:km-fait|KM-OK)\b/.test(section)||technicalSignal(section);const unsafe=ls.some((l,k)=>l.trim()&&!/^#{1,6}\s/.test(l)&&!task.test(l)&&!/^\s/.test(l));return hasMarker&&!unsafe?smartSortMarkdown(section):section;}).join('');
  const positions=(text:string)=>text.split(/\r?\n/).map((line,index)=>({line,index})).filter(x=>task.test(x.line));const old=positions(lines.join('\n')),next=positions(candidate);const used=new Set<number>();for(const x of old){const n=next.findIndex((y,k)=>!used.has(k)&&y.line===x.line);if(n>=0){used.add(n);if(next[n].index!==x.index)moved++;}}
  return {content:candidate,marked,items,pending,moved};
 }
@@ -43,7 +43,7 @@ async function main(){
  const report:any={at:started,apply,examined:0,scanned:0,notRead:0,candidates:0,marked:0,moved:0,written:0,conflicts:0,unreadable:0,skipped:0,backup:'',items:[],pending:[],sortedNotes:[]};
  const backup=path.join(os.homedir(),'Library/Application Support/KM/backups','noteplan-writeback-'+Date.now());let activeBase='';
  const signature=(keys:string[])=>hash(JSON.stringify(keys.map(k=>state.urls[k]||null)));
- async function walk(dir:string):Promise<string[]>{let out:string[]=[];for(const e of await fs.readdir(dir,{withFileTypes:true})){if(e.name.startsWith('.')||/^(@Archive|@Trash|@Templates)$/.test(e.name)||e.name.endsWith('_attachments'))continue;const p=path.join(dir,e.name);if(e.isDirectory())out.push(...await walk(p));else if(e.isFile())out.push(p);}return out;}
+ async function walk(dir:string):Promise<string[]>{let out:string[]=[];for(const e of await timed(fs.readdir(dir,{withFileTypes:true}))){if(e.name.startsWith('.')||/^(@Archive|@Trash|@Templates)$/.test(e.name)||e.name.endsWith('_attachments'))continue;const p=path.join(dir,e.name);if(e.isDirectory())out.push(...await walk(p));else if(e.isFile())out.push(p);}return out;}
  for(const base of roots){const cal=path.join(base,'Calendar');let names:string[];try{names=await walk(cal);}catch{continue;}activeBase=base;
   for(const file of names){const name=path.relative(cal,file);if(!/\.(md|txt)$/i.test(file))continue;
    try{if(Date.now()-Date.parse(started)>90000){report.unreadable++;break;}const st=await timed(fs.lstat(file));if(!st.isFile()||st.size>512000)continue;report.examined++;const id=hash(file),prior=cursor.files[id];

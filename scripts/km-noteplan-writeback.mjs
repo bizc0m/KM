@@ -310,18 +310,18 @@ function planWriteback(body, state, validFiles) {
       if (known.length) pending.push({ sources: links, files: [...new Set(known.flatMap((r) => [...r.fiches || [], ...r.fiche ? [r.fiche] : []]))], reason: "Liens non termin\xE9s, exploration partielle ou fiche non \xE9tablie" });
       continue;
     }
-    lines[i] = lines[i].replace(/\[ \]/, "[x]") + " #km-fait";
+    lines[i] = lines[i].replace(/\[ \]/, "[x]") + " #KM-OK";
     items.push({ files: [...files] });
     marked++;
   }
   const beforeSort = lines.join("\n");
   let moved = 0;
-  for (let n = 0; n < lines.length; n++) if (lines[n].includes("#km-fait")) lines[n] = lines[n].replace(/ +\[KM\]\(https:\/\/bizc0m\.github\.io\/KM\/search-v2\.html#fiche=[a-zA-Z0-9-]+\)/g, "");
+  for (let n = 0; n < lines.length; n++) if (/#(?:km-fait|KM-OK)\b/.test(lines[n])) lines[n] = lines[n].replace(/ +\[KM\]\(https:\/\/bizc0m\.github\.io\/KM\/search-v2\.html#fiche=[a-zA-Z0-9-]+\)/g, "");
   let candidate = lines.join(body.includes("\r\n") ? "\r\n" : "\n");
   const sections = candidate.split(/(?=^#{1,6}\s)/m);
   candidate = sections.map((section) => {
     const ls = section.split(/\r?\n/);
-    const hasMarker = section.includes("#km-fait") || technicalSignal(section);
+    const hasMarker = /#(?:km-fait|KM-OK)\b/.test(section) || technicalSignal(section);
     const unsafe = ls.some((l, k) => l.trim() && !/^#{1,6}\s/.test(l) && !task.test(l) && !/^\s/.test(l));
     return hasMarker && !unsafe ? smartSortMarkdown(section) : section;
   }).join("");
@@ -366,7 +366,7 @@ async function main() {
   const signature = (keys) => hash(JSON.stringify(keys.map((k) => state.urls[k] || null)));
   async function walk(dir) {
     let out = [];
-    for (const e of await fs.readdir(dir, { withFileTypes: true })) {
+    for (const e of await timed(fs.readdir(dir, { withFileTypes: true }))) {
       if (e.name.startsWith(".") || /^(@Archive|@Trash|@Templates)$/.test(e.name) || e.name.endsWith("_attachments")) continue;
       const p = path2.join(dir, e.name);
       if (e.isDirectory()) out.push(...await walk(p));
