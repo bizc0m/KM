@@ -18,7 +18,9 @@ Avantages · Gérer des agents spécialisés en développement.
 Gain · Lancer des tâches sans configuration complexe.
 - [Herdr Multiplexer](../../watch/herdr-agent-multiplexer.md)
 - [Open Maestri macOS Agent Orchestration](../../watch/open-maestri-macos-agent-orchestration.md)
-- [Auto Company Autonomous AI Company](../../watch/auto-company-autonomous-ai-company.md)
+- [Auto Company Autonomous AI Company](../../watch/auto-company-autonomous-ai-company.md) — Fonction · Gère des tâches autonomes via des agents AI.
+Avantages · Exécute recherche, codage, déploiement et marketing.
+Gain · Lancer des projets sans intervention manuelle.
 - [Agency Agents](../../watch/agency-agents-ai-agency.md) — Fonction · Installer des agents AI dans des outils comme Claude Code ou Gemini.
 Avantages · Agents prêts à l'emploi avec code et processus validés.
 Gain · Lancer des tâches sans configuration, directement via l'interface.

@@ -30,6 +30,8 @@
 
 - https://github.com/mifi/lossless-cut
 - https://github.com/mifi/lossless-cut](https://github.com/mifi/lossless-cut
+- https://static.mifi.no/media/InHeghy_4DwVeujK/2000.jpg
+- https://raw.githubusercontent.com/mifi/lossless-cut/HEAD/README.md
 
 ## Topics GitHub
 
@@ -48,3 +50,15 @@
 ### v0.1 - 2026-09-09
 
 - Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
+
+## Intérêts
+
+Fonction · Couper, trimmer, fusionner vidéos/sons sans perte.  
+Avantages · Gère formats complexes via FFmpeg.  
+Gain · Exporter sans re-encoder, sauvegarder espace.
+
+## Aperçus
+
+![screenshot](https://static.mifi.no/media/InHeghy_4DwVeujK/2000.jpg)
+
+[Origine](https://raw.githubusercontent.com/mifi/lossless-cut/HEAD/README.md)

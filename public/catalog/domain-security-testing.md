@@ -20,7 +20,9 @@ Gain · Éviter de saisir manuellement des requêtes.
 - [AdaptixC2 C2 Risk Article](../../watch/adaptixc2-c2-risk-article.md) — Fonction · Permet de contrôler des systèmes via des commandes C2.
 Avantages · Intégré à des outils de test de sécurité.
 Gain · Éviter de développer un C2 personnalisé.
-- [Pentagi](../../watch/pentagi-autonomous-pentest-agents.md)
+- [Pentagi](../../watch/pentagi-autonomous-pentest-agents.md) — Fonction · Test pénétration automatisé via agents AI.
+Avantages · Isolation Docker, 20+ outils professionnels.
+Gain · Lancer des tâches sans configuration complexe.
 - [Bug Hunter](../../watch/bug-hunter.md) — Fonction · Détection de vulnérabilités via des tests automatisés.
 Avantages · Analyse de code et identification de risques de fuite de données.
 Gain · Éviter les fuites de données sensibles en phase de développement.

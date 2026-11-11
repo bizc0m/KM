@@ -374,7 +374,9 @@ Gain · Modifier directement la première image pour lancer l'édition.
 Avantages · Communication via Web et Discord avec messages vocaux.
 Gain · Lancer un daemon pour gérer les canaux et les tâches.
 - [Kiwi Edit Video Editing](../../watch/kiwi-edit-video-editing.md)
-- [LosslessCut Video Audio Editing](../../watch/losslesscut-video-audio-editing.md)
+- [LosslessCut Video Audio Editing](../../watch/losslesscut-video-audio-editing.md) — Fonction · Couper, trimmer, fusionner vidéos/sons sans perte.
+Avantages · Gère formats complexes via FFmpeg.
+Gain · Exporter sans re-encoder, sauvegarder espace.
 - [OBS Shaderfilter](../../watch/obs-shaderfilter.md) — Fonction · Applique des shaders HLSL aux sources OBS.
 Avantages · Paramètres dynamiques avec annotations.
 Gain · Éviter de coder un vertex shader complet.

@@ -1,14 +1,14 @@
 {
-  "at": "2026-11-10T08:06:48.919Z",
+  "at": "2026-11-11T09:34:56.249Z",
   "scope": "public-index-only",
   "fiches": 660,
-  "sourceReferences": 2783,
+  "sourceReferences": 2788,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 618,
+  "pendingReview": 617,
   "counts": {
-    "interest-missing": 33,
+    "interest-missing": 29,
     "keywords-missing": 76,
     "domain-unqualified": 104,
     "primary-identity-unqualified": 20,
@@ -3526,7 +3526,6 @@
       "id": "watch-losslesscut-video-audio-editing-md",
       "title": "LosslessCut Video Audio Editing",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3688,7 +3687,6 @@
       "id": "watch-firecrawl-pdf-inspector-md",
       "title": "Firecrawl PDF Inspector",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3740,7 +3738,6 @@
       "id": "watch-auto-company-autonomous-ai-company-md",
       "title": "Auto Company Autonomous AI Company",
       "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3765,13 +3762,6 @@
       "reasons": [
         "interest-missing",
         "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-pentagi-autonomous-pentest-agents-md",
-      "title": "Pentagi",
-      "reasons": [
-        "interest-missing"
       ]
     },
     {

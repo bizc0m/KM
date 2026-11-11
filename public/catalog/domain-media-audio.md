@@ -93,7 +93,9 @@ Gain · Exporter en M4A ou modifier le score ABC directement.
 - [EchoVessel Persona Memory Engine](../../watch/echovessel-persona-memory-engine.md) — Fonction · Créer des personas numériques avec mémoire et interaction.
 Avantages · Communication via Web et Discord avec messages vocaux.
 Gain · Lancer un daemon pour gérer les canaux et les tâches.
-- [LosslessCut Video Audio Editing](../../watch/losslesscut-video-audio-editing.md)
+- [LosslessCut Video Audio Editing](../../watch/losslesscut-video-audio-editing.md) — Fonction · Couper, trimmer, fusionner vidéos/sons sans perte.
+Avantages · Gère formats complexes via FFmpeg.
+Gain · Exporter sans re-encoder, sauvegarder espace.
 - [AI Open Source Tools Inventory](../../watch/ai-open-source-tools-inventory.md)
 - [Red Team Risk Tools Watch](../../watch/red-team-risk-tools-watch.md) — Fonction · Identifier et surveiller les outils offensifs ou abusables.
 Avantages · Distinguer usage légitime et usage abusif documenté.

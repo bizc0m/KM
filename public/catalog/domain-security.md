@@ -131,7 +131,9 @@ Gain · Lancer des tâches sans configuration, rester en conformité.
 - [Project Eyes On](../../watch/project-eyes-on-open-ip-camera-osint.md) — Fonction · Scanner massif de caméras IP via moteurs de recherche et Insecam.
 Avantages · Détection automatique de type de flux et géolocalisation précise.
 Gain · Lancer une reconnaissance sans configuration complexe en quelques secondes.
-- [Pentagi](../../watch/pentagi-autonomous-pentest-agents.md)
+- [Pentagi](../../watch/pentagi-autonomous-pentest-agents.md) — Fonction · Test pénétration automatisé via agents AI.
+Avantages · Isolation Docker, 20+ outils professionnels.
+Gain · Lancer des tâches sans configuration complexe.
 - [Aliens Eye AI OSINT Platform](../../watch/aliens-eye-ai-osint-platform.md) — Fonction · Analyse d'empreintes numériques via IA.
 Avantages · Détection de risques de confidentialité.
 Gain · Éviter les fuites d'informations sensibles.

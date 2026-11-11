@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-10T08:06:48.747Z",
+  "at": "2026-11-11T09:34:55.461Z",
   "count": 660,
   "rows": [
     {
@@ -211134,6 +211134,18 @@
           "kind": "github",
           "role": "secondaryReference",
           "label": "Référence"
+        },
+        {
+          "url": "https://static.mifi.no/media/InHeghy_4DwVeujK/2000.jpg",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/mifi/lossless-cut/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/mifi/lossless-cut",
@@ -211150,7 +211162,7 @@
         "video-editor",
         "video-files"
       ],
-      "summary": "",
+      "summary": "Fonction · Couper, trimmer, fusionner vidéos/sons sans perte.  \nAvantages · Gère formats complexes via FFmpeg.  \nGain · Exporter sans re-encoder, sauvegarder espace.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-09-09",
@@ -211409,7 +211421,7 @@
         }
       ],
       "cardTitle": "LosslessCut Video Audio Editing",
-      "cardInterest": ""
+      "cardInterest": "Fonction · Couper, trimmer, fusionner vidéos/sons sans perte.\nAvantages · Gère formats complexes via FFmpeg.\nGain · Exporter sans re-encoder, sauvegarder espace."
     },
     {
       "id": "watch-obs-shaderfilter-md",
@@ -218617,7 +218629,7 @@
       "github": "https://github.com/firecrawl/pdf-inspector",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "",
+      "summary": "Fonction · Analyse et extraction de texte de PDF avec détection de type.  \nAvantages · Découvre automatiquement les PDF textuels ou numérisés.  \nGain · Éviter l'OCR inutile pour 54% des PDF sans perte de temps.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-08-09",
@@ -218966,7 +218978,7 @@
         }
       ],
       "cardTitle": "Firecrawl PDF Inspector",
-      "cardInterest": ""
+      "cardInterest": "Fonction · Analyse et extraction de texte de PDF avec détection de type.\nAvantages · Découvre automatiquement les PDF textuels ou numérisés.\nGain · Éviter l'OCR inutile pour 54% des PDF sans perte de temps."
     },
     {
       "id": "watch-herdr-agent-multiplexer-md",
@@ -221586,12 +221598,30 @@
           "kind": "source",
           "role": "secondaryReference",
           "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/maxmiksa/auto-company/HEAD/presentation/products/scopefence-en-result.png",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/maxmiksa/auto-company/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/maxmiksa/auto-company/HEAD/presentation/products/tujiandan-en.png",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
         }
       ],
       "github": "https://github.com/maxmiksa/auto-company",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "",
+      "summary": "Fonction · Gère des tâches autonomes via des agents AI.  \nAvantages · Exécute recherche, codage, déploiement et marketing.  \nGain · Lancer des projets sans intervention manuelle.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-07-22",
@@ -222022,7 +222052,7 @@
         }
       ],
       "cardTitle": "Auto Company Autonomous AI Company",
-      "cardInterest": ""
+      "cardInterest": "Fonction · Gère des tâches autonomes via des agents AI.\nAvantages · Exécute recherche, codage, déploiement et marketing.\nGain · Lancer des projets sans intervention manuelle."
     },
     {
       "id": "watch-neodisk-macos-disk-visualizer-md",
@@ -223245,7 +223275,7 @@
       "github": "https://github.com/vxcontrol/pentagi",
       "officialSite": "",
       "githubTopics": [],
-      "summary": "",
+      "summary": "Fonction · Test pénétration automatisé via agents AI.  \nAvantages · Isolation Docker, 20+ outils professionnels.  \nGain · Lancer des tâches sans configuration complexe.",
       "kmUsage": "",
       "relations": [],
       "integratedAt": "2026-07-11",
@@ -223612,7 +223642,7 @@
         }
       ],
       "cardTitle": "Pentagi",
-      "cardInterest": ""
+      "cardInterest": "Fonction · Test pénétration automatisé via agents AI.\nAvantages · Isolation Docker, 20+ outils professionnels.\nGain · Lancer des tâches sans configuration complexe."
     },
     {
       "id": "watch-tencentdb-agent-memory-md",

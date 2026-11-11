@@ -11,7 +11,9 @@ Gain · Automatiser workflows sans coder via interface graphique.
 - [MinerU](../../watch/technical-703d6de987a070db2edf.md) — Fonction · Convertir PDF, Word, Excel, images en Markdown.
 Avantages · Génère code Markdown structuré à partir de documents.
 Gain · Éviter de reformater manuellement les contenus.
-- [Firecrawl PDF Inspector](../../watch/firecrawl-pdf-inspector.md)
+- [Firecrawl PDF Inspector](../../watch/firecrawl-pdf-inspector.md) — Fonction · Analyse et extraction de texte de PDF avec détection de type.
+Avantages · Découvre automatiquement les PDF textuels ou numérisés.
+Gain · Éviter l'OCR inutile pour 54% des PDF sans perte de temps.
 - [Notion](../../watch/notion-les-7-docs-avant-de-coder-avec-ia.md) — Fonction · Structurer les 7 documents clés avant le développement IA.
 Avantages · Centraliser les besoins, données et contraintes du projet.
 Gain · Éviter les retours en arrière, accélérer la phase de préparation.

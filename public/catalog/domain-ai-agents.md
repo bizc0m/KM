@@ -385,12 +385,16 @@ Gain · Éviter de répéter des informations déjà fournies.
 Avantages · Gère des projets, code, calendrier et apps macOS.
 Gain · Lancer des tâches sans compilation, avec API prédéfinies.
 - [Open Maestri macOS Agent Orchestration](../../watch/open-maestri-macos-agent-orchestration.md)
-- [Auto Company Autonomous AI Company](../../watch/auto-company-autonomous-ai-company.md)
+- [Auto Company Autonomous AI Company](../../watch/auto-company-autonomous-ai-company.md) — Fonction · Gère des tâches autonomes via des agents AI.
+Avantages · Exécute recherche, codage, déploiement et marketing.
+Gain · Lancer des projets sans intervention manuelle.
 - [Agency Agents](../../watch/agency-agents-ai-agency.md) — Fonction · Installer des agents AI dans des outils comme Claude Code ou Gemini.
 Avantages · Agents prêts à l'emploi avec code et processus validés.
 Gain · Lancer des tâches sans configuration, directement via l'interface.
 - [Alook](../../watch/alook-ai-workforce-collaboration.md)
-- [Pentagi](../../watch/pentagi-autonomous-pentest-agents.md)
+- [Pentagi](../../watch/pentagi-autonomous-pentest-agents.md) — Fonction · Test pénétration automatisé via agents AI.
+Avantages · Isolation Docker, 20+ outils professionnels.
+Gain · Lancer des tâches sans configuration complexe.
 - [TencentDB Agent Memory](../../watch/tencentdb-agent-memory.md) — Fonction · Gère la mémoire commune entre agents pour éviter la répétition.
 Avantages · Extraction automatique de connaissances et de compétences.
 Gain · Importer des données et lancer des tâches sans reconfiguration.

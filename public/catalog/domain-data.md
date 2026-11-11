@@ -153,7 +153,9 @@ Gain · Éviter de saisir manuellement les notes.
 Avantages · Gestion des projets sans dépendance réseau.
 Gain · Éviter la perte de données en cas de déconnexion.
 - [Awesome AI Companion](../../watch/awesome-ai-companion.md)
-- [Firecrawl PDF Inspector](../../watch/firecrawl-pdf-inspector.md)
+- [Firecrawl PDF Inspector](../../watch/firecrawl-pdf-inspector.md) — Fonction · Analyse et extraction de texte de PDF avec détection de type.
+Avantages · Découvre automatiquement les PDF textuels ou numérisés.
+Gain · Éviter l'OCR inutile pour 54% des PDF sans perte de temps.
 - [Aliens Eye AI OSINT Platform](../../watch/aliens-eye-ai-osint-platform.md) — Fonction · Analyse d'empreintes numériques via IA.
 Avantages · Détection de risques de confidentialité.
 Gain · Éviter les fuites d'informations sensibles.

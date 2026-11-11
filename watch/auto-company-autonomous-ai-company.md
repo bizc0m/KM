@@ -33,6 +33,9 @@ Veille Raindrop KM Monitor / orchestration multi-agents autonome.
 - https://github.com/maxmiksa/auto-company
 - https://github.com/MaxMiksa/Auto-Company](https://github.com/MaxMiksa/Auto-Company
 - https://api.github.com/repos/MaxMiksa/Auto-Company
+- https://raw.githubusercontent.com/maxmiksa/auto-company/HEAD/presentation/products/scopefence-en-result.png
+- https://raw.githubusercontent.com/maxmiksa/auto-company/HEAD/README.md
+- https://raw.githubusercontent.com/maxmiksa/auto-company/HEAD/presentation/products/tujiandan-en.png
 
 ## Metadata GitHub publique
 
@@ -53,3 +56,19 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 
 - Objectif : integrer la nouveaute Raindrop KM Monitor `MaxMiksa/Auto-Company`.
 - Risques : boucle agentique autonome, commandes locales, quotas LLM, secrets et publication automatique a cadrer.
+
+## Intérêts
+
+Fonction · Gère des tâches autonomes via des agents AI.  
+Avantages · Exécute recherche, codage, déploiement et marketing.  
+Gain · Lancer des projets sans intervention manuelle.
+
+## Aperçus
+
+![ScopeFence · product interface](https://raw.githubusercontent.com/maxmiksa/auto-company/HEAD/presentation/products/scopefence-en-result.png)
+
+[Origine](https://raw.githubusercontent.com/maxmiksa/auto-company/HEAD/README.md)
+
+![Image Checklist · product interface](https://raw.githubusercontent.com/maxmiksa/auto-company/HEAD/presentation/products/tujiandan-en.png)
+
+[Origine](https://raw.githubusercontent.com/maxmiksa/auto-company/HEAD/README.md)
