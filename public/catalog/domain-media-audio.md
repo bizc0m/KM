@@ -1,13 +1,13 @@
 # Audio
 
 - [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md)
+- [LTX-2](../../watch/technical-fa120014620b12d49e58.md)
+- [moviepy](../../watch/technical-8850110282c0b220a399.md)
+- [TalkVerse](../../watch/technical-b9a75739439a1096d99d.md)
 - [HuMo](../../watch/technical-d758de2fa9fb5f8a8a0a.md)
 - [Kokoro](../../watch/technical-aa11653c4d25a0e989a1.md)
-- [LTX-2](../../watch/technical-fa120014620b12d49e58.md)
 - [LTX-Video (Legacy)](../../watch/technical-8c429240f3eff91a1b36.md)
-- [moviepy](../../watch/technical-8850110282c0b220a399.md)
 - [StyleTTS2](../../watch/technical-b1d87499edb0ad1e43f4.md)
-- [TalkVerse](../../watch/technical-b9a75739439a1096d99d.md)
 - [VoiceStudio](../../watch/technical-8bee61d896b5e33a0c30.md)
 - [Demucs](../../watch/technical-c10d8f74eadd9334181e.md) — Fonction · Sépare drums, bass, vocals et autres pistes d'une musique.
 Avantages · Modèle hybride spectrogramme/vague avec attention croisée.

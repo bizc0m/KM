@@ -1,9 +1,9 @@
 # Modèles de langage
 
-- [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
-- [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
 - [cache-dit](../../watch/technical-159ec935b39905997411.md)
 - [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md)
+- [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
+- [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
 - [DeepResearch Bench](../../watch/technical-a99452c8e16aa64919f7.md)
 - [deepseek-harness](../../watch/technical-890a56b0d2aff0c91c90.md)
 - [desloppify](../../watch/technical-273aed2396317e012b08.md)

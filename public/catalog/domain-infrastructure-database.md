@@ -1,8 +1,8 @@
 # Bases de données
 
+- [supermetry](../../watch/technical-9393728b99ba6f234816.md)
 - [dagu](../../watch/technical-ba28cf8980c41a0f6c5e.md)
 - [OpenAlex](../../watch/technical-ec41529cbfe7f574fbb1.md)
-- [supermetry](../../watch/technical-9393728b99ba6f234816.md)
 - [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Fonction · Client email self-hosted avec agent AI.
 Avantages · Isolation par boîte mail et stockage R2.
 Gain · Générer des réponses en temps réel via Workers AI.

@@ -1,8 +1,11 @@
 # Images et graphisme
 
-- [claude-animation-skill](../../watch/technical-bcd0154c6d60ef4c770e.md)
-- [aesthetic-predictor-v2-5](../../watch/technical-bd69dc0d4bb066bb0ea3.md)
 - [AnimateDiff](../../watch/technical-013b39bacbc70af1bc3e.md)
+- [claude-animation-skill](../../watch/technical-bcd0154c6d60ef4c770e.md)
+- [TalkVerse](../../watch/technical-b9a75739439a1096d99d.md)
+- [Wan2.1](../../watch/technical-20e40e65da16af4ff766.md)
+- [Wan2.2](../../watch/technical-4f061292f12439d8c314.md)
+- [aesthetic-predictor-v2-5](../../watch/technical-bd69dc0d4bb066bb0ea3.md)
 - [facebookresearch/DiT](../../watch/technical-99f7e720fd6c858f2647.md)
 - [FlowEdit](../../watch/technical-9cd479303e19239f0e30.md)
 - [HuMo](../../watch/technical-d758de2fa9fb5f8a8a0a.md)
@@ -16,10 +19,7 @@
 - [Pasteboard Viewer](../../watch/technical-1d1f56d738ca1db480ae.md)
 - [RF-Solver-Edit](../../watch/technical-4c623ce305ac3d1576ec.md)
 - [SteadyDancer](../../watch/technical-8317f5fa97f4954a5d4f.md)
-- [TalkVerse](../../watch/technical-b9a75739439a1096d99d.md)
 - [VACE](../../watch/vace-video-creation-editing.md)
-- [Wan2.1](../../watch/technical-20e40e65da16af4ff766.md)
-- [Wan2.2](../../watch/technical-4f061292f12439d8c314.md)
 - [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Fonction · Créer, publier et monétiser du contenu sur 14 plateformes.
 Avantages · Automatisation de la publication et des interactions.
 Gain · Publier directement sans configuration complexe.

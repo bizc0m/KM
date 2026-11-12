@@ -1,8 +1,8 @@
 {
-  "at": "2026-11-12T09:51:41.578Z",
+  "at": "2026-11-12T10:51:52.467Z",
   "scope": "public-index-only",
   "fiches": 747,
-  "sourceReferences": 3006,
+  "sourceReferences": 3027,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
@@ -41,6 +41,22 @@
       ]
     },
     {
+      "id": "watch-technical-013b39bacbc70af1bc3e-md",
+      "title": "AnimateDiff",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-159ec935b39905997411-md",
+      "title": "cache-dit",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-70ff3d2843a80c7cf867-md",
       "title": "capsolver-extension-python",
       "reasons": [
@@ -61,6 +77,14 @@
       "title": "claude-animation-skill",
       "reasons": [
         "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-technical-4dbf8b61c8b24b3bf369-md",
+      "title": "CosyVoice",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
       ]
     },
     {
@@ -106,6 +130,22 @@
       ]
     },
     {
+      "id": "watch-technical-9f2d613fa72208f070af-md",
+      "title": "Helios",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c68e0c3a6fae281f326e-md",
+      "title": "HunyuanVideo",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-414ea35d29a6a6753f30-md",
       "title": "kimi-k3-in-c",
       "reasons": [
@@ -126,11 +166,35 @@
       ]
     },
     {
+      "id": "watch-technical-fa120014620b12d49e58-md",
+      "title": "LTX-2",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c5c0bf6589cc8ba1d595-md",
+      "title": "LTX-Video-Trainer",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-0d58a5af5e1ec59c12fd-md",
       "title": "MechanicalSoup",
       "reasons": [
         "interest-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8850110282c0b220a399-md",
+      "title": "moviepy",
+      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -141,6 +205,14 @@
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-917d0189f02f4a95ace6-md",
+      "title": "Prompt Relay",
+      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -178,6 +250,22 @@
       ]
     },
     {
+      "id": "watch-technical-9393728b99ba6f234816-md",
+      "title": "supermetry",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-b9a75739439a1096d99d-md",
+      "title": "TalkVerse",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-aa8ca5206f8b696337e9-md",
       "title": "trafilatura",
       "reasons": [
@@ -194,16 +282,24 @@
       ]
     },
     {
-      "id": "watch-technical-bd69dc0d4bb066bb0ea3-md",
-      "title": "aesthetic-predictor-v2-5",
+      "id": "watch-technical-20e40e65da16af4ff766-md",
+      "title": "Wan2.1",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
       ]
     },
     {
-      "id": "watch-technical-013b39bacbc70af1bc3e-md",
-      "title": "AnimateDiff",
+      "id": "watch-technical-4f061292f12439d8c314-md",
+      "title": "Wan2.2",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-bd69dc0d4bb066bb0ea3-md",
+      "title": "aesthetic-predictor-v2-5",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -227,14 +323,6 @@
       ]
     },
     {
-      "id": "watch-technical-159ec935b39905997411-md",
-      "title": "cache-dit",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-788ada22f51fe2f2fa47-md",
       "title": "ComfyUI-LTXVideo",
       "reasons": [
@@ -249,14 +337,6 @@
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-4dbf8b61c8b24b3bf369-md",
-      "title": "CosyVoice",
-      "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -352,14 +432,6 @@
       ]
     },
     {
-      "id": "watch-technical-9f2d613fa72208f070af-md",
-      "title": "Helios",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-a20c9aa0d65af0c30ef3-md",
       "title": "Homebrew Cask",
       "reasons": [
@@ -381,14 +453,6 @@
     {
       "id": "watch-technical-d758de2fa9fb5f8a8a0a-md",
       "title": "HuMo",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-c68e0c3a6fae281f326e-md",
-      "title": "HunyuanVideo",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -461,14 +525,6 @@
       ]
     },
     {
-      "id": "watch-technical-fa120014620b12d49e58-md",
-      "title": "LTX-2",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-ce7290d953bccb2d84d8-md",
       "title": "LTX-Video",
       "reasons": [
@@ -479,14 +535,6 @@
     {
       "id": "watch-technical-8c429240f3eff91a1b36-md",
       "title": "LTX-Video (Legacy)",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-c5c0bf6589cc8ba1d595-md",
-      "title": "LTX-Video-Trainer",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -549,14 +597,6 @@
     {
       "id": "watch-technical-bfbf509a4b3bf34e42fa-md",
       "title": "MoCha",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-8850110282c0b220a399-md",
-      "title": "moviepy",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -638,14 +678,6 @@
       ]
     },
     {
-      "id": "watch-technical-917d0189f02f4a95ace6-md",
-      "title": "Prompt Relay",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-dca806554efeda77bfb9-md",
       "title": "retrieval-go",
       "reasons": [
@@ -719,22 +751,6 @@
       ]
     },
     {
-      "id": "watch-technical-9393728b99ba6f234816-md",
-      "title": "supermetry",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-b9a75739439a1096d99d-md",
-      "title": "TalkVerse",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-910a08b6af8e55cc077d-md",
       "title": "tantivy",
       "reasons": [
@@ -773,22 +789,6 @@
     {
       "id": "watch-technical-8bee61d896b5e33a0c30-md",
       "title": "VoiceStudio",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-20e40e65da16af4ff766-md",
-      "title": "Wan2.1",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-4f061292f12439d8c314-md",
-      "title": "Wan2.2",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
