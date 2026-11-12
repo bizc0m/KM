@@ -8,11 +8,11 @@
 - [research-mcp](../../watch/technical-ffc05a5b982c09b92791.md)
 - [oxylabs/web-api-mcp](../../watch/technical-4d03aa0eeecb3abfcbad.md)
 - [retrieval-go](../../watch/technical-dca806554efeda77bfb9.md)
+- [scrapecreators-cli](../../watch/technical-fcf0bfc48ab0ce73e30a.md)
 - [scrapy-playwright](../../watch/technical-2e317194feb446319292.md)
 - [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
 - [trafilatura](../../watch/technical-aa8ca5206f8b696337e9.md)
 - [web-scout-mcp](../../watch/technical-e54359e32dffb4db43b7.md)
-- [scrapecreators-cli](../../watch/technical-fcf0bfc48ab0ce73e30a.md)
 - [ani-cli](../../watch/technical-2993f5bd5143a68eff85.md) — Fonction · CLI pour parcourir et visionner des anime via hianime.
 Avantages · Scrapes hianime pour accéder aux épisodes.
 Gain · Lancer des séances de visionnage sans navigateur.

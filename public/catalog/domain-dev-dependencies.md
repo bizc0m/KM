@@ -1,11 +1,9 @@
 # Paquets et dépendances
 
+- [uv](../../watch/technical-30e283a9b3f70e35d81a.md)
 - [animdl](../../watch/technical-42965a7ae63080ec3407.md) — Fonction · Télécharge et stream des anime via des fournisseurs.
 Avantages · Supporte des paramètres de qualité et de plage d'épisodes.
 Gain · Lancer le streaming ou la téléchargement sans configuration.
-- [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Fonction · Installe et gère les packages Python et les environnements.
-Avantages · Vitesse 10-100x supérieure à pip.
-Gain · Exécuter des outils sans créer d'environnement.
 - [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Fonction · Installer Python et gérer les dépendances.
 Avantages · Utilise un résolveur basé sur PubGrub.
 Gain · Lancer des scripts sans installer Python.

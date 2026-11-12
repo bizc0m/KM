@@ -2,7 +2,10 @@
 
 - [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md)
 - [Kokoro](../../watch/technical-aa11653c4d25a0e989a1.md)
+- [pinyin-to-ipa](../../watch/technical-f57d7abfe4ccf7114148.md)
+- [pyopenjtalk](../../watch/technical-730c4fe9b7d1ccd6c608.md)
 - [StyleTTS2](../../watch/technical-b1d87499edb0ad1e43f4.md)
+- [viphoneme](../../watch/technical-7fc5c927ea623c45d807.md)
 - [VoiceStudio](../../watch/technical-8bee61d896b5e33a0c30.md)
 - [edge-tts](../../watch/technical-fb7d8c0c8a030338b784.md) — Fonction · Convertir du texte en parole via Microsoft Edge.
 Avantages · Utilisation sans Edge, gestion des voix et paramètres.

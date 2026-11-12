@@ -7,12 +7,12 @@
 - [Agents de développement](domain-ai-agents-coding.md) — 54 fiches
 - [Compétences des agents](domain-ai-agents-skills.md) — 40 fiches
 - [Modèles de langage](domain-ai-llm.md) — 72 fiches
-- [Développement logiciel](domain-dev.md) — 130 fiches
+- [Développement logiciel](domain-dev.md) — 131 fiches
 - [Développement web](domain-dev-web.md) — 26 fiches
 - [Qualité du code](domain-dev-quality.md) — 36 fiches
-- [Audio, vidéo et création](domain-media.md) — 202 fiches
-- [Audio](domain-media-audio.md) — 45 fiches
-- [Voix](domain-media-audio-voice.md) — 22 fiches
+- [Audio, vidéo et création](domain-media.md) — 205 fiches
+- [Audio](domain-media-audio.md) — 48 fiches
+- [Voix](domain-media-audio-voice.md) — 25 fiches
 - [Identification audio](domain-media-audio-identification.md) — 1 fiches
 - [Vidéo](domain-media-video.md) — 105 fiches
 - [Images et graphisme](domain-media-image.md) — 111 fiches

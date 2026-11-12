@@ -1,13 +1,13 @@
 # Connecteurs et outils des agents
 
+- [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
 - [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
 - [mcp-webresearch](../../watch/technical-6b0d6844a1825aa4d5da.md)
 - [research-mcp](../../watch/technical-ffc05a5b982c09b92791.md)
 - [oxylabs/web-api-mcp](../../watch/technical-4d03aa0eeecb3abfcbad.md)
+- [scrapecreators-cli](../../watch/technical-fcf0bfc48ab0ce73e30a.md)
 - [Searchlight](../../watch/technical-d4d044cd39765ba2f35d.md)
 - [web-scout-mcp](../../watch/technical-e54359e32dffb4db43b7.md)
-- [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
-- [scrapecreators-cli](../../watch/technical-fcf0bfc48ab0ce73e30a.md)
 - [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Fonction · Génère du code, refactore, débogue via terminal.
 Avantages · Intégre sandbox, orchestration multi-agents, MCP.
 Gain · Lancer des tâches sans interface graphique.

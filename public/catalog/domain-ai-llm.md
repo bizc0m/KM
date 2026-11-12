@@ -3,13 +3,13 @@
 - [cache-dit](../../watch/technical-159ec935b39905997411.md)
 - [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md)
 - [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
+- [DeepResearch Bench](../../watch/technical-a99452c8e16aa64919f7.md)
 - [deepseek-harness](../../watch/technical-890a56b0d2aff0c91c90.md)
+- [llamafile](../../watch/technical-48b940fe487c37d639ca.md)
 - [retrieval-go](../../watch/technical-dca806554efeda77bfb9.md)
 - [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
-- [DeepResearch Bench](../../watch/technical-a99452c8e16aa64919f7.md)
 - [desloppify](../../watch/technical-273aed2396317e012b08.md)
 - [facebookresearch/DiT](../../watch/technical-99f7e720fd6c858f2647.md)
-- [llamafile](../../watch/technical-48b940fe487c37d639ca.md)
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Fonction · Définir des principes pour construire des applications LLM fiables et scalables.
 Avantages · Structurer la logique et les interactions avec les outils.
 Gain · Réduire la complexité et améliorer la maintenance du code.

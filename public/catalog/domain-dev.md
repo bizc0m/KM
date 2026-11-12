@@ -5,9 +5,11 @@
 - [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
 - [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
 - [impeccable](../../watch/technical-ec673bd7694d3a658bba.md)
+- [mypy](../../watch/technical-9bb481e842fecd6c2088.md)
 - [opencode](../../watch/technical-ffccace0ba14fd154d90.md)
 - [qlib](../../watch/technical-c750f525fc3dfb26b9af.md)
 - [TwinDesk](../../watch/technical-f7e87bae1ea9b74959c4.md)
+- [uv](../../watch/technical-30e283a9b3f70e35d81a.md)
 - [Noticky](../../watch/technical-9cd3273e9ce8f0bb884d.md)
 - [Pasteboard Viewer](../../watch/technical-1d1f56d738ca1db480ae.md)
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
@@ -102,9 +104,6 @@ Gain · Automatiser la gestion des captures d'écran.
 - [tygo](../../watch/technical-b19b418d3fe93785fa21.md) — Fonction · Génère des typings TypeScript à partir de fichiers Go.
 Avantages · Conserve commentaires et structure des types.
 Gain · Éviter de réécrire les types en TypeScript.
-- [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Fonction · Installe et gère les packages Python et les environnements.
-Avantages · Vitesse 10-100x supérieure à pip.
-Gain · Exécuter des outils sans créer d'environnement.
 - [Bun](../../watch/technical-1f8d61fe04f2cb529ec1.md) — Exécute des scripts JavaScript et TypeScript rapidement.
 - [open-grok-bot](../../watch/technical-dfc871508eb563893ba5.md) — Crée des personas bots avec des modèles spécifiques
 - [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Fonction · Installer Python et gérer les dépendances.

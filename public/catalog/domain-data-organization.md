@@ -1,5 +1,6 @@
 # Organisation du travail
 
+- [uv](../../watch/technical-30e283a9b3f70e35d81a.md)
 - [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Fonction · Gère les rendez-vous et les calendriers en local.
 Avantages · Aucune dépendance commerciale, licence MIT.
 Gain · Lancer un serveur sans compte ou licence.
@@ -18,9 +19,6 @@ Gain · Créer des démos sans abonnement SaaS.
 - [PC-NBV](../../watch/technical-c88e811a1a66f8cd57ba.md) — Fonction · Planifier la prochaine vue optimale à partir de nuages de points.
 Avantages · Utilise des réseaux de neurones pour évaluer les vues.
 Gain · Éviter de tester manuellement chaque vue possible.
-- [uv](../../watch/technical-30e283a9b3f70e35d81a.md) — Fonction · Installe et gère les packages Python et les environnements.
-Avantages · Vitesse 10-100x supérieure à pip.
-Gain · Exécuter des outils sans créer d'environnement.
 - [posy](../../watch/technical-eb37530b4bcfa1e9bde8.md) — Fonction · Installer Python et gérer les dépendances.
 Avantages · Utilise un résolveur basé sur PubGrub.
 Gain · Lancer des scripts sans installer Python.
