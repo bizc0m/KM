@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -48,3 +50,17 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Ajoute des nodes pour LTX-2 dans ComfyUI
+- Permet la génération de vidéos via LTX-2
+- Inclut des workflows préconfigurés pour différents usages
+- Requiert des modèles spécifiques pour fonctionner
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/lightricks/comfyui-ltxvideo
+- Analyse source : 2026-11-12T16:20:36.270Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

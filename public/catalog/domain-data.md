@@ -1,6 +1,5 @@
 # Données et connaissances
 
-- [agent-skills](../../watch/technical-dae9f02535f7c22f84f1.md)
 - [Crawlab](../../watch/technical-6056740628cf01a1e192.md)
 - [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
 - [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
@@ -8,9 +7,9 @@
 - [GPT Researcher](../../watch/technical-d2fc479804301a66d2d8.md)
 - [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
 - [mcp-webresearch](../../watch/technical-6b0d6844a1825aa4d5da.md)
+- [obsidian-mind](../../watch/technical-187af07c5c79815c0323.md)
 - [research-mcp](../../watch/technical-ffc05a5b982c09b92791.md)
 - [oxylabs/web-api-mcp](../../watch/technical-4d03aa0eeecb3abfcbad.md)
-- [oxylabs/web-api-skills](../../watch/technical-ae44b7c5c77979957073.md)
 - [Remotion Agent Skills](../../watch/technical-0a09b687d088cc7fc778.md)
 - [scrapecreators-cli](../../watch/technical-fcf0bfc48ab0ce73e30a.md)
 - [scrapy-playwright](../../watch/technical-2e317194feb446319292.md)

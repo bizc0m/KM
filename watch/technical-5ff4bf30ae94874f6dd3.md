@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -60,3 +62,17 @@ Intérêt à vérifier
 ![Agentic workflow demonstration](https://raw.githubusercontent.com/infiniflow/ragflow-docs/refs/heads/image/image/agentic-dark.gif)
 
 [Origine](https://raw.githubusercontent.com/infiniflow/ragflow/HEAD/README.md)
+
+## Capacités documentées
+
+- Moteur open-source de génération augmentée par la récupération
+- Combinaison de RAG et de capacités d'agent
+- Workflow RAG simplifié adaptable aux entreprises
+- Transformation de données complexes en systèmes d'IA prêts à la production
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/infiniflow/ragflow
+- Analyse source : 2026-11-12T19:43:36.837Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

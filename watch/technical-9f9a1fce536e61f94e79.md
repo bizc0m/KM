@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -27,10 +29,10 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.media.audio source.noteplan source.github source.x lifecycle.review
+- Identifiants : domain.media.audio source.noteplan source.github source.x lifecycle.active
 - Sujets : Audio, vidéo et création > Audio
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
 
 ## Sources
 
@@ -44,3 +46,17 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Client GameStream pour PC Windows, Mac, Linux et Steam Link
+- Support des codecs H.264, HEVC et AV1 (AV1 nécessite Sunshine et GPU compatible)
+- Streaming HDR et audio 7.1 disponible
+- Support des contrôles de jeu et de la capture de pointeur
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/moonlight-stream/moonlight-qt
+- Analyse source : 2026-11-12T18:29:15.684Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

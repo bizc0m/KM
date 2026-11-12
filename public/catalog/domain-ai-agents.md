@@ -8,6 +8,7 @@
 - [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
 - [DeepResearch Bench](../../watch/technical-a99452c8e16aa64919f7.md)
 - [deepseek-harness](../../watch/technical-890a56b0d2aff0c91c90.md)
+- [DesignCraft](../../watch/technical-ba11e79c961dab6dc314.md)
 - [FireRed-OpenStoryline](../../watch/technical-78dddd0d96a910917d94.md)
 - [GPT Researcher](../../watch/technical-d2fc479804301a66d2d8.md)
 - [gsap-skills](../../watch/technical-ef984a9e4c84dd12f20d.md)
@@ -17,6 +18,7 @@
 - [mcp-webresearch](../../watch/technical-6b0d6844a1825aa4d5da.md)
 - [Motion](../../watch/technical-d0d951d500e0a6ae2a0e.md)
 - [Motion Design Skill](../../watch/technical-17c9d333777b6545efcf.md)
+- [obsidian-mind](../../watch/technical-187af07c5c79815c0323.md)
 - [opencode](../../watch/technical-ffccace0ba14fd154d90.md)
 - [OpenMausBot](../../watch/technical-a9b556051dc6e3270941.md)
 - [research-mcp](../../watch/technical-ffc05a5b982c09b92791.md)
@@ -329,7 +331,6 @@ Gain · Lancer des tâches sans polyfill grâce à des solutions natives.
 - [NotePlan Changelog](../../watch/technical-d5330ab75d554eda8c08.md) — Fonction · Intégration avec Apple Reminders pour rappels.
 Avantages · Synchronisation des rappels entre NotePlan et Reminders.
 Gain · Éviter de gérer des rappels manuellement.
-- [Obsidian Mind](../../watch/technical-187af07c5c79815c0323.md) — Permettre aux agents IA de reprendre des tâches et décisions antérieures.
 - [Open Multi-Agent (OMA)](../../watch/technical-b1a37537c70048612638.md) — Fonction · Exécute des agents avec approbation et journalisation.
 Avantages · Contrôle des modèles et des fournisseurs locaux ou distants.
 Gain · Lancer des tâches sans clé API ni appel de modèle.

@@ -2,6 +2,8 @@
 
 - [agent-skills](../../watch/technical-dae9f02535f7c22f84f1.md)
 - [impeccable](../../watch/technical-ec673bd7694d3a658bba.md)
+- [node-qrcode](../../watch/technical-e4d3b81674545d24dce2.md)
+- [obsidian-mind](../../watch/technical-187af07c5c79815c0323.md)
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
 Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export
 Gain · Productivité · Réutilisation · Contexte · Collaboration
@@ -66,9 +68,6 @@ Gain · Exécuter tâches complexes sans session navigateur.
 - [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Fonction · Exécuter des tâches de codage via terminal, éditeur, chat ou application.
 Avantages · Intégration avec VS Code, Zed, JetBrains, Telegram, WeChat.
 Gain · Lancer des tâches sans configuration, utiliser des modèles Qwen locaux ou distants.
-- [Requests](../../watch/technical-0d1a89c543bad402b2da.md) — Fonction · Envoyer des requêtes HTTP avec Python.
-Avantages · Gère les authentifications et encodages automatiquement.
-Gain · Lancer des appels API sans config manuelle.
 - [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Fonction · Écrire, corriger et exécuter du code via un terminal.
 Avantages · Support multi-fournisseurs et mode serveur HTTP.
 Gain · Automatiser des tâches via des pipelines ou des scripts.

@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -27,10 +29,10 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents domain.media.audio domain.media.video source.noteplan source.github source.x lifecycle.review
+- Identifiants : domain.ai.agents domain.media.audio domain.media.video source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA ; Audio, vidéo et création > Audio ; Audio, vidéo et création > Vidéo
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
 
 ## Sources
 
@@ -52,3 +54,29 @@ Intérêt à vérifier
 ![openstoryline architecture](https://raw.githubusercontent.com/FireRedTeam/fireredteam.github.io/main/demos/firered_openstoryline/pics/structure.jpg)
 
 [Origine](https://raw.githubusercontent.com/fireredteam/firered-openstoryline/HEAD/README.md)
+
+## Capacités documentées
+
+- Agent d'édition vidéo via interaction linguistique
+- Compétences de style réutilisables pour storytelling
+- Création narrative avec précision et cohérence
+- Intégration de musique, voix et police intelligente
+
+## Usages documentés
+
+- sh build_env.sh
+- python cli.py
+- uvicorn agent_fastapi:app --host 127.0.0.1 --port 8005
+
+## Limites
+
+- Requis Python ≥3.11
+- Compatibilité Linux/macOS
+- Dépendances externes requises
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/fireredteam/firered-openstoryline
+- Analyse source : 2026-11-12T16:20:36.270Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

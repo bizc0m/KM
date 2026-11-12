@@ -2,7 +2,9 @@
 
 - [GSAP](../../watch/technical-f017fa6f1c553ef834f0.md)
 - [Motion](../../watch/technical-d0d951d500e0a6ae2a0e.md)
-- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
+- [node-qrcode](../../watch/technical-e4d3b81674545d24dce2.md)
+- [react/react](../../watch/technical-3d9501686f55868429dd.md)
+- [zustand](../../watch/technical-75279b216fe826400d21.md)
 - [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fonction · Chargement dynamique de compétences pour tâches spécialisées.
 Avantages · Instructions, scripts et ressources prédéfinis.
 Gain · Exécuter des tâches répétitives avec précision.

@@ -1,18 +1,18 @@
 {
-  "at": "2026-11-12T22:52:55.341Z",
+  "at": "2026-11-12T23:36:52.923Z",
   "scope": "public-index-only",
-  "fiches": 816,
-  "sourceReferences": 3256,
+  "fiches": 847,
+  "sourceReferences": 3354,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 774,
+  "pendingReview": 805,
   "counts": {
-    "interest-missing": 201,
-    "keywords-missing": 123,
-    "domain-unqualified": 164,
-    "primary-identity-unqualified": 21,
-    "nature-unqualified": 758
+    "interest-missing": 235,
+    "keywords-missing": 135,
+    "domain-unqualified": 181,
+    "primary-identity-unqualified": 22,
+    "nature-unqualified": 789
   },
   "queue": [
     {
@@ -106,6 +106,15 @@
       ]
     },
     {
+      "id": "watch-technical-c386b66c5f86a646305d-md",
+      "title": "boto3",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-159ec935b39905997411-md",
       "title": "cache-dit",
       "reasons": [
@@ -124,6 +133,14 @@
     {
       "id": "watch-technical-b311af1e723666baa9db-md",
       "title": "ccxt",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e9d5c8675243580ba00f-md",
+      "title": "channels_redis",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -245,6 +262,14 @@
       ]
     },
     {
+      "id": "watch-technical-ba11e79c961dab6dc314-md",
+      "title": "DesignCraft",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-a43c7bed70343513b48b-md",
       "title": "DeskThing",
       "reasons": [
@@ -257,6 +282,73 @@
       "title": "desloppify",
       "reasons": [
         "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-cd61fa031fdccede3668-md",
+      "title": "Django REST framework",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-d012da1876973c2cc17a-md",
+      "title": "django-cors-headers",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0dae082fa22140c0c5c3-md",
+      "title": "django-environ",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-125f4b9cd7c4631c11b0-md",
+      "title": "django-filter",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-9e518a04275ef9b46dcd-md",
+      "title": "django-storages",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-a9ae7dc45e87b31a65fa-md",
+      "title": "django-unfold",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-33f58901b4753a966d04-md",
+      "title": "django/channels",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -275,6 +367,16 @@
       "title": "DOVER",
       "reasons": [
         "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c0f5ff2acace3139a270-md",
+      "title": "drf-spectacular",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -351,6 +453,16 @@
       ]
     },
     {
+      "id": "watch-technical-52787cf119405f5a3ce9-md",
+      "title": "fflate",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-78dddd0d96a910917d94-md",
       "title": "FireRed-OpenStoryline",
       "reasons": [
@@ -403,6 +515,16 @@
       ]
     },
     {
+      "id": "watch-technical-c17886ded057e3112639-md",
+      "title": "google/brotli",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-d2fc479804301a66d2d8-md",
       "title": "GPT Researcher",
       "reasons": [
@@ -433,6 +555,15 @@
       "title": "gsap-skills",
       "reasons": [
         "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-technical-9f14a6224e73db4d7ce6-md",
+      "title": "gunicorn",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "nature-unqualified"
       ]
     },
     {
@@ -497,12 +628,19 @@
       ]
     },
     {
+      "id": "watch-technical-5df796ab503a8d739fed-md",
+      "title": "Image optimization",
+      "reasons": [
+        "interest-missing",
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-520e4da6a7c1579f99e5-md",
       "title": "ImHex",
       "reasons": [
         "interest-missing",
-        "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -572,8 +710,27 @@
       ]
     },
     {
+      "id": "watch-technical-974efe047684d1a87507-md",
+      "title": "jev-fraud",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-85cf39efea4c32d2ef3c-md",
       "title": "jieba",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8208986b80739b08a9f8-md",
+      "title": "jsPDF",
       "reasons": [
         "interest-missing",
         "domain-unqualified",
@@ -627,6 +784,16 @@
     {
       "id": "watch-technical-57fa204447f266d16183-md",
       "title": "Kronos",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ca68de9c1cfac94ff2db-md",
+      "title": "lib0",
       "reasons": [
         "interest-missing",
         "keywords-missing",
@@ -718,6 +885,14 @@
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-4f826eb69fc40d075e63-md",
+      "title": "lucide",
+      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -859,6 +1034,16 @@
       ]
     },
     {
+      "id": "watch-technical-8d80d6118f5a27e2511a-md",
+      "title": "mp4box.js",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-240047400ae5b10cd237-md",
       "title": "MuseTalk",
       "reasons": [
@@ -896,6 +1081,14 @@
       ]
     },
     {
+      "id": "watch-technical-e4d3b81674545d24dce2-md",
+      "title": "node-qrcode",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-6087a9e93e8370bfdf37-md",
       "title": "Nuclear",
       "reasons": [
@@ -908,6 +1101,24 @@
     {
       "id": "watch-technical-dfc79e04c31dedce2fda-md",
       "title": "num2words",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-187af07c5c79815c0323-md",
+      "title": "obsidian-mind",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-92e08c29ab9430064973-md",
+      "title": "onnxruntime",
       "reasons": [
         "interest-missing",
         "keywords-missing",
@@ -1018,6 +1229,15 @@
       ]
     },
     {
+      "id": "watch-technical-4a0a9b6b8e6fee613315-md",
+      "title": "Parall",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-1d1f56d738ca1db480ae-md",
       "title": "Pasteboard Viewer",
       "reasons": [
@@ -1044,8 +1264,24 @@
       ]
     },
     {
+      "id": "watch-technical-b16a853fd3330c5eaa09-md",
+      "title": "Pillow",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-f57d7abfe4ccf7114148-md",
       "title": "pinyin-to-ipa",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ec8eeed6bdfe52f370a1-md",
+      "title": "Playwright Python",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -1064,6 +1300,15 @@
       "title": "pyopenjtalk",
       "reasons": [
         "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c6f0cfef4c5ef47fe0c1-md",
+      "title": "pypdf",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -1104,6 +1349,14 @@
       ]
     },
     {
+      "id": "watch-technical-3d9501686f55868429dd-md",
+      "title": "react/react",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-c8e0d0b7ca0f7e400713-md",
       "title": "remotion",
       "reasons": [
@@ -1116,6 +1369,14 @@
       "title": "Remotion Agent Skills",
       "reasons": [
         "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-technical-0d1a89c543bad402b2da-md",
+      "title": "requests",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
       ]
     },
     {
@@ -1289,10 +1550,27 @@
       ]
     },
     {
+      "id": "watch-technical-9030808704b6bf9050c8-md",
+      "title": "system-one-adapter-python",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-b9a75739439a1096d99d-md",
       "title": "TalkVerse",
       "reasons": [
         "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-988f8f7e5e6a1cde515f-md",
+      "title": "TanStack Query",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
         "nature-unqualified"
       ]
     },
@@ -1368,6 +1646,14 @@
       ]
     },
     {
+      "id": "watch-technical-99074f996dd3d4c228ea-md",
+      "title": "uvicorn",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-vace-video-creation-editing-md",
       "title": "VACE",
       "reasons": [
@@ -1435,6 +1721,16 @@
       ]
     },
     {
+      "id": "watch-technical-f455244019dc799e3f60-md",
+      "title": "yjs",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-200f4f9f3b7e9e0f30c9-md",
       "title": "youtube-dl",
       "reasons": [
@@ -1457,6 +1753,14 @@
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-75279b216fe826400d21-md",
+      "title": "zustand",
+      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -3339,15 +3643,6 @@
       ]
     },
     {
-      "id": "watch-technical-c17886ded057e3112639-md",
-      "title": "google/brotli",
-      "reasons": [
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-75e00de51f7cccf3faba-md",
       "title": "Gophish",
       "reasons": [
@@ -3581,13 +3876,6 @@
     {
       "id": "watch-technical-0c43c4b9eb7d7f87237a-md",
       "title": "Répertoire de ressources design",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-0d1a89c543bad402b2da-md",
-      "title": "Requests",
       "reasons": [
         "nature-unqualified"
       ]
@@ -4521,13 +4809,6 @@
     {
       "id": "watch-technical-d5330ab75d554eda8c08-md",
       "title": "NotePlan Changelog",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-187af07c5c79815c0323-md",
-      "title": "Obsidian Mind",
       "reasons": [
         "nature-unqualified"
       ]

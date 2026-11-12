@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -27,10 +29,10 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.dev domain.media.image source.noteplan source.github source.x lifecycle.review
+- Identifiants : domain.dev domain.media.image source.noteplan source.github source.x lifecycle.active
 - Sujets : Développement logiciel ; Audio, vidéo et création > Images et graphisme
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
 
 ## Sources
 
@@ -44,3 +46,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Outils de finetuning et inférence pour CogView4 et CogVideoX
+- Interface utilisateur améliorée pour recherche et développement
+- Support pour entraînement à résolution native des images
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/thudm/cogkit
+- Analyse source : 2026-11-12T16:20:36.270Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

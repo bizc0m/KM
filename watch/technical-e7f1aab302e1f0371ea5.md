@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -27,10 +29,10 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai source.noteplan source.github source.x lifecycle.review
+- Identifiants : domain.ai source.noteplan source.github source.x lifecycle.active
 - Sujets : Intelligence artificielle
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
 
 ## Sources
 
@@ -45,3 +47,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Framework open source pour construire des applications basées sur l'IA
+- Intègre des outils pour traiter et structurer des données
+- Permet l'indexation et la recherche via des modèles de langage
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/run-llama/llama_index
+- Analyse source : 2026-11-12T19:43:36.837Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

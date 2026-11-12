@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -55,3 +57,16 @@ Intérêt à vérifier
 ![Demo](https://user-images.githubusercontent.com/12150276/75177190-91d4ab00-572d-11ea-80bd-c5e28c7b17ad.gif)
 
 [Origine](https://raw.githubusercontent.com/rigellute/spotify-tui/HEAD/README.md)
+
+## Capacités documentées
+
+- Client Spotify pour terminal écrit en Rust
+- Utilise l'API Spotify pour trouver et jouer de la musique
+- Interface texte interactive avec gestion de lecture
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/rigellute/spotify-tui
+- Analyse source : 2026-11-12T18:29:15.684Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

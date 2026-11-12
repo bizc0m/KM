@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -60,3 +62,17 @@ Intérêt à vérifier
 ![Clip Results](https://raw.githubusercontent.com/mutonby/openshorts/HEAD/screenshots/clip-results.png)
 
 [Origine](https://raw.githubusercontent.com/mutonby/openshorts/HEAD/README.md)
+
+## Capacités documentées
+
+- Plateforme open source pour créer des vidéos courtes.
+- Conversion automatique de vidéos longues en formats 9:16.
+- Génération de contenus UGC avec des acteurs IA.
+- Publication directe sur TikTok, Instagram et YouTube.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/mutonby/openshorts
+- Analyse source : 2026-11-12T22:04:28.554Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

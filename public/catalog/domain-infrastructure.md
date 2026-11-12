@@ -1,16 +1,23 @@
 # Infrastructure
 
 - [awesome-reverse-engineered](../../watch/technical-17de07d1eb3071810eb0.md)
+- [channels_redis](../../watch/technical-e9d5c8675243580ba00f.md)
 - [dagu](../../watch/technical-ba28cf8980c41a0f6c5e.md)
 - [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
+- [DesignCraft](../../watch/technical-ba11e79c961dab6dc314.md)
+- [gunicorn](../../watch/technical-9f14a6224e73db4d7ce6.md)
 - [MCP Registry](../../watch/technical-0ab174b3cfd6fa55ca88.md)
 - [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
 - [mcp-webresearch](../../watch/technical-6b0d6844a1825aa4d5da.md)
+- [node-qrcode](../../watch/technical-e4d3b81674545d24dce2.md)
 - [Open OSCAR Server](../../watch/technical-d448ff464953c624c46b.md)
 - [OpenAlex](../../watch/technical-ec41529cbfe7f574fbb1.md)
 - [oxylabs/web-api-mcp](../../watch/technical-4d03aa0eeecb3abfcbad.md)
+- [requests](../../watch/technical-0d1a89c543bad402b2da.md)
 - [Searchlight](../../watch/technical-d4d044cd39765ba2f35d.md)
 - [supermetry](../../watch/technical-9393728b99ba6f234816.md)
+- [TanStack Query](../../watch/technical-988f8f7e5e6a1cde515f.md)
+- [uvicorn](../../watch/technical-99074f996dd3d4c228ea.md)
 - [vaultwarden](../../watch/technical-4b5ff39c88f99c8174f1.md)
 - [web-scout-mcp](../../watch/technical-e54359e32dffb4db43b7.md)
 - [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Fonction · Client email self-hosted avec agent AI.

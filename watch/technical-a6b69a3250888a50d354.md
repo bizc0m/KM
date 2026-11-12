@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Métadonnées
 
@@ -23,10 +25,10 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified source.noteplan lifecycle.review
+- Identifiants : domain.unclassified source.noteplan lifecycle.active
 - Sujets : À qualifier
 - Provenance : NotePlan Calendar
-- État : À vérifier
+- État : Actif
 
 ## Sources
 

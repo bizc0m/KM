@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -47,3 +49,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Dépôt GitHub pour le MCP Registry
+- Fournit une liste de serveurs MCP
+- Permet de publier des serveurs MCP
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/modelcontextprotocol/registry
+- Analyse source : 2026-11-12T19:43:36.837Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

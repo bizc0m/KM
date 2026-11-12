@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -27,10 +29,10 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.infrastructure source.noteplan source.github source.x lifecycle.review
+- Identifiants : domain.infrastructure source.noteplan source.github source.x lifecycle.active
 - Sujets : Infrastructure
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
 
 ## Sources
 
@@ -44,3 +46,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Serveur de stockage de mots de passe compatible Bitwarden
+- Implémente l'API client Bitwarden
+- Alternative au serveur officiel Bitwarden
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/dani-garcia/vaultwarden
+- Analyse source : 2026-11-12T18:29:15.684Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

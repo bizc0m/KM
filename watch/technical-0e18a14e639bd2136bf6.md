@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -19,7 +21,7 @@ Intérêt à vérifier
 ## Métadonnées
 
 - Nature : À vérifier
-- OS : À vérifier
+- OS : macOS
 - Licence : MIT
 - Tarification : À vérifier
 - Accès : À vérifier
@@ -60,3 +62,17 @@ Intérêt à vérifier
 ![Screenshot](https://raw.githubusercontent.com/monitorcontrol/monitorcontrol/HEAD/.github/pref_1.png)
 
 [Origine](https://raw.githubusercontent.com/monitorcontrol/monitorcontrol/HEAD/README.md)
+
+## Capacités documentées
+
+- Contrôle la luminosité et le volume des écrans externes
+- Affiche les OSD natifs macOS pour luminosité et volume
+- Support DDC pour écrans externes et protocole Apple pour écrans Apple
+- Synchronise la luminosité entre écrans externes et intégrés
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/monitorcontrol/monitorcontrol
+- Analyse source : 2026-11-12T18:29:15.684Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

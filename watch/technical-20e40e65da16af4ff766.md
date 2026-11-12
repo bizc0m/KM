@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -50,3 +52,17 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Modèle de génération vidéo ouvert et avancé
+- Performances SOTA sur plusieurs benchmarks
+- Support GPU de consommation
+- Génère vidéo 480P en 4 minutes
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/wan-video/wan2.1
+- Analyse source : 2026-11-12T16:20:36.270Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

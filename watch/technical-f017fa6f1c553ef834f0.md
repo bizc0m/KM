@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -47,3 +49,17 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Animation framework agnostic
+- High-performance animations
+- Works across all major browsers
+- Animates CSS, SVG, canvas, React, Vue, WebGL
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/greensock/gsap
+- Analyse source : 2026-11-12T22:25:48.430Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -1,6 +1,7 @@
 # Mémoire des agents
 
 - [GPT Researcher](../../watch/technical-d2fc479804301a66d2d8.md)
+- [obsidian-mind](../../watch/technical-187af07c5c79815c0323.md)
 - [RAGFlow](../../watch/technical-5ff4bf30ae94874f6dd3.md)
 - [agency-agents](../../watch/technical-1e83b6596b947b071d50.md) — Fonction · Profils d’agents Dev, design, marketing.
 Avantages · Consignes et livrables prédéfinis.
@@ -38,7 +39,6 @@ Gain · Éviter de réexpliquer des informations déjà fournies.
 - [Memanto](../../watch/technical-e88bf76aa79a7c56f5d0.md) — Fonction · Conserver le contexte des sessions des agents IA.
 Avantages · Classer et retrouver des informations contextuelles.
 Gain · Éviter de répéter des données sans lien.
-- [Obsidian Mind](../../watch/technical-187af07c5c79815c0323.md) — Permettre aux agents IA de reprendre des tâches et décisions antérieures.
 - [Référentiel de 50 serveurs MCP essentiels pour les agents IA](../../watch/technical-7b8e03d6451fa9dc855f.md) — Fonction · Conserver le contexte des agents IA via des serveurs MCP.
 Avantages · Compatibilité avec protocoles MCP et interfaces terminal.
 Gain · Éviter la perte de données contextuelles lors des interactions.

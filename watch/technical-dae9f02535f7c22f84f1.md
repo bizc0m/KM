@@ -6,11 +6,13 @@ actif
 
 ## Tags
 
-#agents-code, #skills-agents, #terminal, #planification-taches
+#skills-agents
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -29,10 +31,9 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.skills domain.dev.quality domain.ai.agents.coding domain.data.notes capability.code.assist capability.skills capability.automation.schedule compatibility.interface.terminal source.raindrop source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Développement logiciel > Qualité du code ; Intelligence artificielle > Agents IA > Agents de développement ; Données et connaissances > Notes et organisation
-- Fonctions : Assister le développement ; Étendre les compétences d’un agent ; Automatiser des actions > Planifier des tâches
-- Compatibilités : Interfaces > Terminal
+- Identifiants : domain.ai.agents.skills domain.dev.quality capability.automation capability.skills source.raindrop source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Développement logiciel > Qualité du code
+- Fonctions : Automatiser des actions ; Étendre les compétences d’un agent
 - Provenance : Raindrop ; GitHub ; X / Twitter
 - État : Actif
 
@@ -48,3 +49,27 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Fournit des compétences pour structurer le développement logiciel.
+- Intègre des vérifications qualité et des bonnes pratiques.
+- Permet l'automatisation des phases de développement via des commandes.
+
+## Usages documentés
+
+- npx skills add addyosmani/agent-skills
+- npx skills add addyosmani/agent-skills --list
+- npx skills add addyosmani/agent-skills --skill code-review-and-quality
+
+## Limites
+
+- Compatibilité limitée avec certains outils sans intégration native.
+- Portabilité limitée pour les références partagées sans réplication manuelle.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/addyosmani/agent-skills
+- Analyse source : 2026-11-12T21:00:29.159Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

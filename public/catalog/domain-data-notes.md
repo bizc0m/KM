@@ -1,6 +1,6 @@
 # Notes et organisation
 
-- [agent-skills](../../watch/technical-dae9f02535f7c22f84f1.md)
+- [obsidian-mind](../../watch/technical-187af07c5c79815c0323.md)
 - [SideNotes](../../watch/technical-863adbb8c03ef3ea3d6b.md)
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Fonction · Exécute des commandes en terminal et modifie du code.
 Avantages · Gère les erreurs de syntaxe et les imports manquants.

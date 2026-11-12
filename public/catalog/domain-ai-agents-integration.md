@@ -1,6 +1,7 @@
 # Connecteurs et outils des agents
 
 - [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
+- [DesignCraft](../../watch/technical-ba11e79c961dab6dc314.md)
 - [MCP Registry](../../watch/technical-0ab174b3cfd6fa55ca88.md)
 - [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
 - [mcp-webresearch](../../watch/technical-6b0d6844a1825aa4d5da.md)

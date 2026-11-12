@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -48,3 +50,24 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Apprend aux agents IA à concevoir des animations en suivant des principes de motion design.
+- Compatibilité avec divers systèmes d'animation comme CSS, GSAP, Lottie.
+- Inclut des modèles prêts à l'emploi pour des animations d'entrée, de sortie et d'états.
+
+## Usages documentés
+
+- npx skills add LottieFiles/motion-design-skill
+
+## Limites
+
+- Requiert l'environnement Skills.sh pour l'installation
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/lottiefiles/motion-design-skill
+- Analyse source : 2026-11-12T22:25:48.430Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

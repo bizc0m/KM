@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -19,7 +21,7 @@ Intérêt à vérifier
 ## Métadonnées
 
 - Nature : À vérifier
-- OS : À vérifier
+- OS : macOS
 - Licence : GPL-2.0
 - Tarification : À vérifier
 - Accès : À vérifier
@@ -47,3 +49,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Emulateur PlayStation 3 open source
+- Débogueur de jeux PlayStation 3
+- Support pour Windows, Linux, macOS et FreeBSD
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/rpcs3/rpcs3
+- Analyse source : 2026-11-12T18:29:15.684Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

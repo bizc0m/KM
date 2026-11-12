@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -47,3 +49,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Dépôt GitHub pour designers et ingénieurs
+- Compétences basées sur l'expérience professionnelle
+- Améliore les décisions en animations et design
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/emilkowalski/skills
+- Analyse source : 2026-11-12T17:23:21.691Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

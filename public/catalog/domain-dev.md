@@ -8,17 +8,22 @@
 - [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
 - [fastlane](../../watch/technical-026d3ff8cb1d2ae22fa5.md)
 - [GSAP](../../watch/technical-f017fa6f1c553ef834f0.md)
+- [ImHex](../../watch/technical-520e4da6a7c1579f99e5.md)
 - [impeccable](../../watch/technical-ec673bd7694d3a658bba.md)
 - [MonitorControl](../../watch/technical-0e18a14e639bd2136bf6.md)
 - [Motion](../../watch/technical-d0d951d500e0a6ae2a0e.md)
 - [mypy](../../watch/technical-9bb481e842fecd6c2088.md)
+- [node-qrcode](../../watch/technical-e4d3b81674545d24dce2.md)
+- [obsidian-mind](../../watch/technical-187af07c5c79815c0323.md)
 - [opencode](../../watch/technical-ffccace0ba14fd154d90.md)
 - [Pasteboard Viewer](../../watch/technical-1d1f56d738ca1db480ae.md)
+- [Playwright Python](../../watch/technical-ec8eeed6bdfe52f370a1.md)
 - [qlib](../../watch/technical-c750f525fc3dfb26b9af.md)
-- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
+- [react/react](../../watch/technical-3d9501686f55868429dd.md)
 - [Remotion Agent Skills](../../watch/technical-0a09b687d088cc7fc778.md)
 - [TwinDesk](../../watch/technical-f7e87bae1ea9b74959c4.md)
 - [uv](../../watch/technical-30e283a9b3f70e35d81a.md)
+- [zustand](../../watch/technical-75279b216fe826400d21.md)
 - [Noticky](../../watch/technical-9cd3273e9ce8f0bb884d.md)
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
 Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export
@@ -188,9 +193,6 @@ Gain · Lancer graphismes sans réécriture.
 - [Répertoire de ressources design](../../watch/technical-0c43c4b9eb7d7f87237a.md) — Fonction · Ressources UI prêtes à l'emploi pour React.
 Avantages · Accélère le développement avec des composants réutilisables.
 Gain · Éviter de recréer des éléments UI complexes.
-- [Requests](../../watch/technical-0d1a89c543bad402b2da.md) — Fonction · Envoyer des requêtes HTTP avec Python.
-Avantages · Gère les authentifications et encodages automatiquement.
-Gain · Lancer des appels API sans config manuelle.
 - [shai](../../watch/technical-0879775e9d9de16c47b9.md) — Fonction · Écrire, corriger et exécuter du code via un terminal.
 Avantages · Support multi-fournisseurs et mode serveur HTTP.
 Gain · Automatiser des tâches via des pipelines ou des scripts.

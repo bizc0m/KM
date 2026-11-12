@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -47,3 +49,27 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Parsing PDF local et rapide avec boîtes de texte
+- Support multi-langue : Rust, Node.js, Python, navigateur
+- Génération de sortie Markdown, JSON et texte
+
+## Usages documentés
+
+- lit parse document.pdf
+- lit parse --format markdown -o output.md
+- lit parse --no-ocr
+
+## Limites
+
+- Nécessite des dépendances locales
+- Pas de support pour les PDF complexes sans OCR
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/run-llama/liteparse
+- Analyse source : 2026-11-12T19:43:36.837Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

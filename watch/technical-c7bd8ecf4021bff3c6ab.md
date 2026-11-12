@@ -10,7 +10,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -19,7 +21,7 @@ Intérêt à vérifier
 ## Métadonnées
 
 - Nature : À vérifier
-- OS : À vérifier
+- OS : macOS
 - Licence : GPL-2.0
 - Tarification : À vérifier
 - Accès : À vérifier
@@ -60,3 +62,21 @@ Intérêt à vérifier
 ![Project DIVA screenshot](https://raw.githubusercontent.com/shadps4-emu/shadps4/HEAD/documents/Screenshots/2.png)
 
 [Origine](https://raw.githubusercontent.com/shadps4-emu/shadps4/HEAD/README.md)
+
+## Capacités documentées
+
+- Emulation de PlayStation 4 sur Windows, Linux et macOS
+- Implémentation en langage C++
+- Pas de GUI inclus, nécessite QtLauncher pour interface
+
+## Limites
+
+- Compatibilité macOS à partir de version 26.0
+- Pas de support pour les Mac Intel
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/shadps4-emu/shadps4
+- Analyse source : 2026-11-12T18:29:15.684Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

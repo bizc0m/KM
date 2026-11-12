@@ -8,7 +8,9 @@ actif
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -27,11 +29,11 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified capability.automation source.noteplan source.github source.x lifecycle.review
+- Identifiants : domain.unclassified capability.automation source.noteplan source.github source.x lifecycle.active
 - Sujets : À qualifier
 - Fonctions : Automatiser des actions
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
-- État : À vérifier
+- État : Actif
 
 ## Sources
 

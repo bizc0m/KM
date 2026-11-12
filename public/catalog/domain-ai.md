@@ -13,6 +13,7 @@
 - [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
 - [DeepResearch Bench](../../watch/technical-a99452c8e16aa64919f7.md)
 - [deepseek-harness](../../watch/technical-890a56b0d2aff0c91c90.md)
+- [DesignCraft](../../watch/technical-ba11e79c961dab6dc314.md)
 - [desloppify](../../watch/technical-273aed2396317e012b08.md)
 - [EchoShot](../../watch/technical-de2f95b61d2c02d5ce4d.md)
 - [facebookresearch/DiT](../../watch/technical-99f7e720fd6c858f2647.md)
@@ -30,6 +31,7 @@
 - [Motion](../../watch/technical-d0d951d500e0a6ae2a0e.md)
 - [Motion Design Skill](../../watch/technical-17c9d333777b6545efcf.md)
 - [new-term-radar](../../watch/technical-baffcb4d50a5b911d3b9.md)
+- [obsidian-mind](../../watch/technical-187af07c5c79815c0323.md)
 - [opencode](../../watch/technical-ffccace0ba14fd154d90.md)
 - [OpenMausBot](../../watch/technical-a9b556051dc6e3270941.md)
 - [OpenShorts.app](../../watch/technical-9d73bfe0d8c7ab5fcbad.md)
@@ -45,6 +47,7 @@
 - [Searchlight](../../watch/technical-d4d044cd39765ba2f35d.md)
 - [skills](../../watch/technical-6ec106f9407cdfec724a.md)
 - [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
+- [system-one-adapter-python](../../watch/technical-9030808704b6bf9050c8.md)
 - [web-scout-mcp](../../watch/technical-e54359e32dffb4db43b7.md)
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Fonction · Définir des principes pour construire des applications LLM fiables et scalables.
 Avantages · Structurer la logique et les interactions avec les outils.
@@ -481,7 +484,6 @@ Gain · Lancer des tâches sans polyfill grâce à des solutions natives.
 - [NotePlan Changelog](../../watch/technical-d5330ab75d554eda8c08.md) — Fonction · Intégration avec Apple Reminders pour rappels.
 Avantages · Synchronisation des rappels entre NotePlan et Reminders.
 Gain · Éviter de gérer des rappels manuellement.
-- [Obsidian Mind](../../watch/technical-187af07c5c79815c0323.md) — Permettre aux agents IA de reprendre des tâches et décisions antérieures.
 - [Odysseus](../../watch/technical-a8c5ca7589de2b644bba.md) — Fonction · Déployer des modèles IA localement via Docker.
 Avantages · Gestion centralisée des tâches IA sur serveur interne.
 Gain · Éviter dépendances externes, sécuriser données sensibles.

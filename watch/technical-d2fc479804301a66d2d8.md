@@ -6,11 +6,13 @@ actif
 
 ## Tags
 
-#recherche-documentaire, #memoire-agents
+#recherche-documentaire
 
 ## Intérêts
 
-Intérêt à vérifier
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
 
 ## Identité
 
@@ -29,9 +31,9 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.memory domain.data.research capability.research capability.memory source.x source.github lifecycle.active
+- Identifiants : domain.ai.agents.memory domain.data.research capability.research source.x source.github lifecycle.active
 - Sujets : Intelligence artificielle > Agents IA > Mémoire des agents ; Données et connaissances > Recherche documentaire
-- Fonctions : Rechercher des documents ; Conserver le contexte
+- Fonctions : Rechercher des documents
 - Provenance : X / Twitter ; GitHub
 - État : Actif
 
@@ -56,3 +58,16 @@ Intérêt à vérifier
 ![Demo video](https://github.com/user-attachments/assets/ac2ec55f-b487-4b3f-ae6f-b8743ad296e4)
 
 [Origine](https://raw.githubusercontent.com/assafelovic/gpt-researcher/HEAD/README.md)
+
+## Capacités documentées
+
+- Agent de recherche utilisant des sources web et locales
+- Génère des rapports détaillés avec citations
+- Utilise des filtres contextuels pour la pertinence
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/assafelovic/gpt-researcher
+- Analyse source : 2026-11-12T19:43:36.837Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.
