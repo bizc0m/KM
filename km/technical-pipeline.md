@@ -1,13 +1,13 @@
 # Veille KM technique — M2
 
-Mise en place le 17 octobre 2026. Le M2 exécute la collecte et construit `search-v2.html` dans `/Users/JOB/#DEV/06-km/KM`. Les fichiers déjà présents sur le M2 ont été conservés ; les index des deux copies ont été réunis. Cette installation ne configure pas de synchronisation permanente M2/M5 et ne publie pas sur GitHub.
+Mise en place le 17 octobre 2026. Le M2 exécute la collecte et construit `search-v2.html` dans `/Users/JOB/#DEV/06-km/KM`. Les fichiers déjà présents sur le M2 ont été conservés ; les index des deux copies ont été réunis. Le publisher existant sur le M5 importe uniquement les données filtrées du viewer M2 et publie sur `codex/km-technical-pipeline`, sans fusion dans main.
 
 ## Sources et cadence
 
 - Raindrop : collection publique KM Monitor, données structurées de chaque page, pagination et vérification du nombre d'identifiants distincts par rapport au total annoncé. RSS complémentaire, jamais utilisé comme preuve d'exhaustivité.
 - NotePlan : **Calendar uniquement**, éléments nouveaux ou modifiés suivis par empreinte de contenu. Le dossier Notes est exclu. Le premier passage peut parcourir tout l'historique accessible. Les notes brutes ne sont pas exportées. Les blocs mixtes sont séparés avant le filtre ; les dossiers personnels et contenus exclus sont ignorés. Les captures Calendar sans lien exigent une note entière sans contenu exclu et des passages techniques validés.
-- Horaires du M2 : 02:30, 08:30, 14:30, 20:30. NotePlan est parcouru au plus une fois toutes les 20 heures, donc normalement une fois par jour. Si le scan est incomplet, il reprend au passage suivant.
-- 80 nouvelles sources maximum par lot ; le service enchaîne les lots de rattrapage sans attendre le prochain horaire. Les sources temporairement inaccessibles attendent au moins cinq heures avant une nouvelle tentative. Un verrou empêche les exécutions concurrentes. Les sources temporairement indisponibles ou ambiguës restent à réessayer, sans fiche inventée.
+- Déclenchement Paseo uniquement à 08:00 et 12:00, Europe/Zurich. Le LaunchAgent du pipeline reste désactivé ; le serveur et le publisher restent disponibles. Calendar reprend au dernier marqueur réussi avec recouvrement et notes anciennes modifiées/en attente ; les notes récentes passent en premier.
+- Un seul lot par passage : 80 sources maximum (`KM_PIPELINE_LIMIT`), dont au plus 40 Calendar par défaut (`KM_NOTEPLAN_LIMIT`). Chaque phase Calendar/public dispose de 30 minutes (`KM_PHASE_BUDGET_MS`), contrôlées entre sources et analyses ; la requête en vol peut finir après ce délai. Les analyses non achevées et le rattrapage restent en attente pour le passage suivant. Le runner ne lance plus `--backfill` automatiquement. Les sources temporairement inaccessibles attendent au moins cinq heures avant une nouvelle tentative. Un verrou empêche les exécutions concurrentes. Les sources temporairement indisponibles ou ambiguës restent à réessayer, sans fiche inventée.
 
 ## Traitement
 
@@ -23,32 +23,30 @@ Les fiches admises sont écrites dans `watch/technical-<empreinte>.md` avec sour
 
 Trois LaunchAgents dans `~/Library/LaunchAgents/` :
 
-- `com.bizc0m.km-technical-pipeline` : collecte et reconstruction.
+- `com.bizc0m.km-technical-pipeline` : ancien déclencheur, désactivé pour éviter les doublons avec Paseo.
 - `com.bizc0m.km-technical-server` : dashboard en lecture seule, lié à `127.0.0.1:8766`.
 - `com.bizc0m.km-technical-health` : contrôle chaque heure et notification si aucun passage entièrement réussi depuis 24 heures.
 
 Le premier service signale aussi les changements d'état problématiques par notification macOS, sans répéter un problème inchangé. Les notifications dépendent des autorisations macOS. L'état reste disponible dans `~/Library/Application Support/KM/pipeline/status.json`, `progress.json`, `health.txt` et les journaux des services. Une absence d'accès NotePlan donne explicitement `NOTEPLAN_PERMISSION_DENIED` ; Raindrop continue.
 
-Ouvrir sur le M2 : `http://127.0.0.1:8766/search-v2.html`. État lisible et progression : `http://127.0.0.1:8766/status`. Le serveur n'expose ni la configuration ni les notes sources. La session utilisateur doit être ouverte ; le Mac endormi ne garantit pas les horaires exacts et les tâches reprennent selon launchd.
+Ouvrir sur le M2 : `http://127.0.0.1:8766/search-v2.html`. État lisible et progression : `http://127.0.0.1:8766/status`. Le serveur n'expose ni la configuration ni les notes sources. La session utilisateur doit être ouverte ; le Mac endormi ne garantit pas les horaires exacts et Paseo assure les deux déclenchements ; un PID actif doit être suivi sans lancer une seconde collecte.
 
 ## Commandes
 
 ```sh
 cd '/Users/JOB/#DEV/06-km/KM'
-/opt/homebrew/bin/node --test tests/technical-policy.test.mjs
+/opt/homebrew/bin/node --test tests/technical-policy.test.mjs tests/source-crawl.test.mjs tests/cycle-budget.test.mjs tests/raindrop-public.test.mjs
 /opt/homebrew/bin/node scripts/km-verify-placement.mjs
-/opt/homebrew/bin/node scripts/km-technical-pipeline.mjs
-bash scripts/km-technical-install.sh
-launchctl kickstart gui/$(id -u)/com.bizc0m.km-technical-pipeline
+KM_ROOT="$PWD" KM_PIPELINE_DATA="$HOME/Library/Application Support/KM/pipeline" KM_NOTEPLAN_SSH=1 PATH="/opt/homebrew/bin:$PATH" node scripts/km-technical-run.mjs
 ```
 
-Pour un emplacement NotePlan différent, définir `NOTEPLAN_ROOT` dans l'environnement du LaunchAgent. Une autorisation macOS requise doit être accordée dans la session M2 : aucune modification de la base de confidentialité du système n'est effectuée par ces scripts.
+Pour un emplacement NotePlan différent, définir `NOTEPLAN_ROOT` dans l'environnement du passage Paseo. Une autorisation macOS requise doit être accordée dans la session M2 : aucune modification de la base de confidentialité du système n'est effectuée par ces scripts.
 
 ## Sauvegarde et retour arrière
 
 Sauvegardes initiales : `~/Library/Application Support/KM/backups/m2-before-pipeline-20261017.tgz` sur M2 et `m5-before-pipeline-20261017.tgz` sur M5. Le diff Git original du M2 est conservé dans le même dossier. Ne pas les publier : elles peuvent contenir des sources privées originales.
 
-Pour arrêter : `launchctl bootout gui/$(id -u)/com.bizc0m.km-technical-pipeline` puis arrêter de même les services `server` et `health`. Déplacer leurs plists hors de `~/Library/LaunchAgents/` pour empêcher leur rechargement à la prochaine session. Examiner les sauvegardes avant toute restauration afin de préserver les fiches ajoutées depuis l'installation.
+Le déclencheur launchd du pipeline doit rester désactivé. Ne pas arrêter le serveur du viewer ni le publisher lors du transfert à Paseo. Examiner les sauvegardes avant toute restauration afin de préserver les fiches ajoutées depuis l'installation.
 
 Les scripts de déploiement serveur ont été réalignés sur v2 avec contrôle de checksum, sauvegardes distinctes et remplacement de fichier atomique. Le serveur distant était inaccessible pendant l'installation : aucune publication distante ni activation de ses minuteurs n'a été vérifiée. La publication des vues secondaires et le retour arrière automatique d'une publication complète restent à traiter avant de réactiver une publication serveur régulière.
 
@@ -94,12 +92,16 @@ La taxonomie partagée `scripts/km-tags.mjs` est utilisée par la génération, 
 
 ### Exécution automatique sur le M2
 
-Le LaunchAgent lance `km-technical-run.mjs` à 02:30, 08:30, 14:30 et 20:30. Ce point d’entrée attend la fin d’un retraitement ciblé de tweet, évite les migrations concurrentes, normalise les hashtags existants, reconstruit et vérifie KM, puis lance la collecte. Toute fiche créée ou enrichie passe déjà par la taxonomie partagée dans `addFiche`. Un contrôle de couverture termine l’exécution. L’état des étapes est enregistré dans `pipeline/automation-status.json` ; aucun nouveau service récurrent n’est ajouté.
+Paseo lance `km-technical-run.mjs` à 08:00 et 12:00 Europe/Zurich. Ce point d’entrée attend les traitements existants, collecte d’abord les nouveautés, puis exécute les migrations, reconstruit et vérifie KM. Le marquage Calendar et le bilan de couverture viennent ensuite. Un échec de marquage ne bloque pas les fiches. Les états partiels restent signalés par `complete_with_warnings` ; cela ne signifie jamais une collecte exhaustive. Le reader et le writeback partagent `km-noteplan-command.mjs` avec `KM_NOTEPLAN_SSH=1`. L’état des étapes est enregistré dans `pipeline/automation-status.json`.
 
-Le bilan de reprise, les correctifs de redirection, la fusion réversible, le rapprochement Calendar et la procédure de récupération sont documentés dans [reprise-m2-2026-10-19.md](reprise-m2-2026-10-19.md). Les fusions et le rapprochement des liens sont exécutés avant la collecte par le point d’entrée automatique.
+Le bilan de reprise, les correctifs de redirection, la fusion réversible, le rapprochement Calendar et la procédure de récupération sont documentés dans [reprise-m2-2026-10-19.md](reprise-m2-2026-10-19.md). Les migrations facultatives viennent après la collecte.
 
 ### Ontologie et hiérarchie
 
-Le classement utilise désormais l’ontologie partagée version 1.0, avec sujets hiérarchiques, fonctions, compatibilités, risques, provenance et état séparés. `km-classify-fiches.mjs` est exécuté automatiquement avant la reconstruction et la collecte ; `addFiche` classe directement toute nouvelle fiche. Voir [ontologie.md](ontologie.md) pour les synonymes, le fonctionnement des trois filtres, les sauvegardes, les limites et la procédure d’évolution.
+Le classement utilise désormais l’ontologie partagée version 1.0, avec sujets hiérarchiques, fonctions, compatibilités, risques, provenance et état séparés. `km-classify-fiches.mjs` est exécuté automatiquement après la collecte et avant la reconstruction finale ; `addFiche` classe directement toute nouvelle fiche. Voir [ontologie.md](ontologie.md) pour les synonymes, le fonctionnement des trois filtres, les sauvegardes, les limites et la procédure d’évolution.
 
 - Dépôts GitHub : un fork vérifié appartient au projet source (`source.full_name`), pas à un nouvel outil. Résoudre les forks avant publication ; conserver les références lors des fusions sauvegardées. Ne pas explorer les pages GitHub fork/network/stargazers/contributeurs comme des catalogues d’outils. Les alias vérifiés sont dans `km.repository-aliases.json`.
+
+### Pagination publique Raindrop
+
+Le lecteur utilise l’identifiant trouvé dans la page publique activée, puis l’API publique `https://api.raindrop.io/v2/raindrops/{id}` par pages de 50. Cet endpoint est celui du [client officiel des pages publiques](https://github.com/raindropio/pages/blob/master/src/api/raindrops/get.js). Aucun jeton ni accès aux collections privées. Les identifiants distincts sont comparés au total annoncé ; pages répétées, erreurs et limites ne deviennent jamais une couverture complète. La découverte des références ne prouve pas que leurs liens ont tous été analysés.
