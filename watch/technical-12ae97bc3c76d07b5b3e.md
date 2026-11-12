@@ -48,3 +48,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Librairie Python pour traitement du langage naturel
+- Pipelines préentraînés pour diverses tâches NLP
+- Support pour 70+ langues
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/explosion/spacy
+- Analyse source : 2026-11-12T12:06:51.602Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

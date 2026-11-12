@@ -68,5 +68,5 @@ Gain · Lancer des attaques sans configuration complexe.
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/kgretzky/gophish
-- Analyse source : 2026-10-26T05:28:53.238Z
+- Analyse source : 2026-11-11T11:41:24.138Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

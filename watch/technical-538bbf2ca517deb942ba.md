@@ -56,3 +56,16 @@ Intérêt à vérifier
 ![freqtrade](https://raw.githubusercontent.com/freqtrade/freqtrade/develop/docs/assets/freqtrade-screenshot.png)
 
 [Origine](https://raw.githubusercontent.com/freqtrade/freqtrade/HEAD/README.md)
+
+## Capacités documentées
+
+- Trading bot crypto Python
+- Support exchanges
+- Backtesting machine learning
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/freqtrade/freqtrade
+- Analyse source : 2026-11-12T09:38:04.799Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

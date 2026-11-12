@@ -48,3 +48,17 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Serveur MCP pour recherche web et extraction de contenu
+- Intègre DuckDuckGo et extraction de texte
+- Permet aux assistants IA de rechercher et extraire des pages web
+- Optimisations de mémoire et gestion des erreurs
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/pinkpixel-dev/web-scout-mcp
+- Analyse source : 2026-11-12T11:07:18.060Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -47,3 +47,28 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Bibliothèque Python pour créer un watermark invisible sur des images
+- Supporte des algorithmes comme DWT+DCT et RivaGAN
+- Fournit des outils pour encoder et décoder les watermarks
+
+## Usages documentés
+
+- pip install invisible-watermark
+- encoder.encode(bgr, 'dwtDct')
+- decoder.decode(bgr, 'dwtDct')
+
+## Limites
+
+- Pas de support GPU
+- Méthodes lentes pour les grandes images
+- Pas de garantie de décodage exact
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/shieldmnt/invisible-watermark
+- Analyse source : 2026-11-12T10:55:57.622Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

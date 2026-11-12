@@ -56,3 +56,16 @@ Intérêt à vérifier
 ![Screenshot Hugging Face](https://github.com/stefantaubert/pinyin-to-ipa/raw/master/img/gui.png)
 
 [Origine](https://raw.githubusercontent.com/stefantaubert/pinyin-to-ipa/HEAD/README.md)
+
+## Capacités documentées
+
+- Transcrit le pinyin en notation IPA
+- Attache les tons aux voyelles des syllabes
+- Fournit une interface CLI, web et bibliothèque Python
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/stefantaubert/pinyin-to-ipa
+- Analyse source : 2026-11-12T12:06:51.602Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

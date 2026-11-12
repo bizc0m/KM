@@ -47,3 +47,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- angr est un framework d'analyse de binaires.
+- angr permet l'analyse symbolique et la décomposition de programmes.
+- angr s'applique à divers types de binaires.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/angr/angr
+- Analyse source : 2026-11-12T15:41:59.150Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

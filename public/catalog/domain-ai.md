@@ -15,6 +15,7 @@
 - [desloppify](../../watch/technical-273aed2396317e012b08.md)
 - [EchoShot](../../watch/technical-de2f95b61d2c02d5ce4d.md)
 - [facebookresearch/DiT](../../watch/technical-99f7e720fd6c858f2647.md)
+- [FireRed-OpenStoryline](../../watch/technical-78dddd0d96a910917d94.md)
 - [impeccable](../../watch/technical-ec673bd7694d3a658bba.md)
 - [krita-ai-diffusion](../../watch/technical-2ef347c5b5044c98dbe3.md)
 - [llamafile](../../watch/technical-48b940fe487c37d639ca.md)

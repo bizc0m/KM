@@ -48,3 +48,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Fonction · Accès à 180+ endpoints via des commandes CLI
+- Avantages · Gestion de l'authentification multi-méthodes
+- Gain · Exécution de requêtes sans installation
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/scrapecreators/scrapecreators-cli
+- Analyse source : 2026-11-12T12:06:51.602Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

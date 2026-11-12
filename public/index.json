@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-12T15:52:18.045Z",
-  "count": 771,
+  "at": "2026-11-12T16:52:23.431Z",
+  "count": 777,
   "rows": [
     {
       "id": "watch-technical-bd69dc0d4bb066bb0ea3-md",
@@ -2233,8 +2233,7 @@
       "publishable": true,
       "shareable": true,
       "tags": [
-        "#python",
-        "#pdf"
+        "#python"
       ],
       "status": "actif",
       "path": "watch/technical-5600438c08d958172906.md",
@@ -2271,8 +2270,7 @@
           ],
           "capability": [],
           "compatibility": [
-            "compatibility.language.python",
-            "compatibility.format.pdf"
+            "compatibility.language.python"
           ],
           "risk": [],
           "source": [
@@ -2315,29 +2313,6 @@
             "aliases": [],
             "facet": "compatibility",
             "path": []
-          },
-          {
-            "id": "compatibility.format.pdf",
-            "label": "PDF",
-            "parent": "compatibility.format",
-            "aliases": [
-              "#pdf"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Formats",
-              "PDF"
-            ]
-          },
-          {
-            "id": "compatibility.format",
-            "label": "Formats",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Formats"
-            ]
           },
           {
             "id": "lifecycle.active",
@@ -2453,29 +2428,6 @@
           "path": []
         },
         {
-          "id": "compatibility.format.pdf",
-          "label": "PDF",
-          "parent": "compatibility.format",
-          "aliases": [
-            "#pdf"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Formats",
-            "PDF"
-          ]
-        },
-        {
-          "id": "compatibility.format",
-          "label": "Formats",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Formats"
-          ]
-        },
-        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -2560,12 +2512,6 @@
           "fullLabel": "python",
           "color": "dev",
           "tag": "#python"
-        },
-        {
-          "label": "#pdf",
-          "fullLabel": "pdf",
-          "color": "tool",
-          "tag": "#pdf"
         }
       ],
       "cardTitle": "arxiv.py",
@@ -2580,12 +2526,12 @@
         "os": [
           "À vérifier"
         ],
-        "license": "À vérifier",
+        "license": "Apache-2.0",
         "pricing": "À vérifier",
         "access": [
           "À vérifier"
         ],
-        "evidence": "À vérifier"
+        "evidence": "https://github.com/bytedance/BindWeave"
       },
       "type": "watch",
       "bucket": "watch",
@@ -2609,6 +2555,12 @@
         },
         {
           "url": "https://x.com/i/status/2115634257314107707",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2114672104021148033",
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
@@ -4553,6 +4505,794 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-d19bb531a3fa1cced1d5-md",
+      "title": "CogKit",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "Apache-2.0",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/THUDM/CogKit"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [],
+      "status": "a verifier",
+      "path": "watch/technical-d19bb531a3fa1cced1d5.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-d19bb531a3fa1cced1d5.md",
+      "sourceUrl": "https://github.com/thudm/cogkit",
+      "sources": [
+        {
+          "url": "https://github.com/thudm/cogkit",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2114672104021148033",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/thudm/cogkit",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "media",
+      "themeLabel": "Images et graphisme",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.dev",
+            "domain.media.image"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.review"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.media.image",
+            "label": "Images et graphisme",
+            "parent": "domain.media",
+            "aliases": [
+              "#compression-images",
+              "#generation-images",
+              "#animation-svg",
+              "#image",
+              "#design",
+              "#svg",
+              "#inspiration"
+            ],
+            "patterns": [
+              "\\bimages?\\b",
+              "\\bsvg\\b",
+              "visual intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Images et graphisme"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "lifecycle.review",
+            "label": "À vérifier",
+            "parent": "lifecycle",
+            "aliases": [
+              "#a-verifier",
+              "#to-verify"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "À vérifier"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.media.image",
+          "label": "Images et graphisme",
+          "parent": "domain.media",
+          "aliases": [
+            "#compression-images",
+            "#generation-images",
+            "#animation-svg",
+            "#image",
+            "#design",
+            "#svg",
+            "#inspiration"
+          ],
+          "patterns": [
+            "\\bimages?\\b",
+            "\\bsvg\\b",
+            "visual intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Images et graphisme"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "lifecycle.review",
+          "label": "À vérifier",
+          "parent": "lifecycle",
+          "aliases": [
+            "#a-verifier",
+            "#to-verify"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "À vérifier"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#compression-images",
+          "fullLabel": "compression-images",
+          "color": "media",
+          "subjectId": "domain.media.image"
+        }
+      ],
+      "cardTitle": "CogKit",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-7f0fab5ea6c7bf3c66b8-md",
+      "title": "CogVideo & CogVideoX",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "Apache-2.0",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/zai-org/CogVideo"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#generation-video",
+        "#generation-images"
+      ],
+      "status": "actif",
+      "path": "watch/technical-7f0fab5ea6c7bf3c66b8.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-7f0fab5ea6c7bf3c66b8.md",
+      "sourceUrl": "https://github.com/zai-org/cogvideo",
+      "sources": [
+        {
+          "url": "https://github.com/zai-org/cogvideo",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2114672104021148033",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/zai-org/cogvideo/HEAD/resources/web_demo.png",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/zai-org/cogvideo/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        }
+      ],
+      "github": "https://github.com/zai-org/cogvideo",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "media",
+      "themeLabel": "Vidéo",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.media.video",
+            "domain.media.image"
+          ],
+          "capability": [
+            "capability.generate.video",
+            "capability.generate.image"
+          ],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.media.video",
+            "label": "Vidéo",
+            "parent": "domain.media",
+            "aliases": [
+              "#montage-video",
+              "#video-editing",
+              "#generation-video",
+              "#video-generation",
+              "#ai-video",
+              "#video",
+              "#shortvideo",
+              "#ai-video-generator"
+            ],
+            "patterns": [
+              "\\bvideos?\\b",
+              "\\bvideo\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Vidéo"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.media.image",
+            "label": "Images et graphisme",
+            "parent": "domain.media",
+            "aliases": [
+              "#compression-images",
+              "#generation-images",
+              "#animation-svg",
+              "#image",
+              "#design",
+              "#svg",
+              "#inspiration"
+            ],
+            "patterns": [
+              "\\bimages?\\b",
+              "\\bsvg\\b",
+              "visual intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Images et graphisme"
+            ]
+          },
+          {
+            "id": "capability.generate.video",
+            "label": "Générer une vidéo",
+            "parent": "capability.generate",
+            "aliases": [
+              "#generation-video",
+              "#video-generation",
+              "#ai-video"
+            ],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus",
+              "Générer une vidéo"
+            ]
+          },
+          {
+            "id": "capability.generate",
+            "label": "Générer des contenus",
+            "parent": "capability",
+            "aliases": [],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "capability.generate.image",
+            "label": "Générer une image",
+            "parent": "capability.generate",
+            "aliases": [
+              "#generation-images"
+            ],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus",
+              "Générer une image"
+            ]
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.media.video",
+          "label": "Vidéo",
+          "parent": "domain.media",
+          "aliases": [
+            "#montage-video",
+            "#video-editing",
+            "#generation-video",
+            "#video-generation",
+            "#ai-video",
+            "#video",
+            "#shortvideo",
+            "#ai-video-generator"
+          ],
+          "patterns": [
+            "\\bvideos?\\b",
+            "\\bvideo\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Vidéo"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.media.image",
+          "label": "Images et graphisme",
+          "parent": "domain.media",
+          "aliases": [
+            "#compression-images",
+            "#generation-images",
+            "#animation-svg",
+            "#image",
+            "#design",
+            "#svg",
+            "#inspiration"
+          ],
+          "patterns": [
+            "\\bimages?\\b",
+            "\\bsvg\\b",
+            "visual intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Images et graphisme"
+          ]
+        },
+        {
+          "id": "capability.generate.video",
+          "label": "Générer une vidéo",
+          "parent": "capability.generate",
+          "aliases": [
+            "#generation-video",
+            "#video-generation",
+            "#ai-video"
+          ],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus",
+            "Générer une vidéo"
+          ]
+        },
+        {
+          "id": "capability.generate",
+          "label": "Générer des contenus",
+          "parent": "capability",
+          "aliases": [],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "capability.generate.image",
+          "label": "Générer une image",
+          "parent": "capability.generate",
+          "aliases": [
+            "#generation-images"
+          ],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus",
+            "Générer une image"
+          ]
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#Vidéo",
+          "fullLabel": "Génération vidéo",
+          "color": "media",
+          "tag": "#generation-video"
+        },
+        {
+          "label": "#Images",
+          "fullLabel": "Génération d’images",
+          "color": "media",
+          "tag": "#generation-images"
+        }
+      ],
+      "cardTitle": "CogVideo & CogVideoX",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-788ada22f51fe2f2fa47-md",
       "title": "ComfyUI-LTXVideo",
       "canonical": "",
@@ -4561,12 +5301,12 @@
         "os": [
           "À vérifier"
         ],
-        "license": "À vérifier",
+        "license": "Non précisée",
         "pricing": "À vérifier",
         "access": [
           "À vérifier"
         ],
-        "evidence": "À vérifier"
+        "evidence": "https://github.com/Lightricks/ComfyUI-LTXVideo"
       },
       "type": "watch",
       "bucket": "watch",
@@ -4590,6 +5330,12 @@
         },
         {
           "url": "https://x.com/i/status/2115634257314107707",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2114672104021148033",
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
@@ -10459,12 +11205,12 @@
         "os": [
           "À vérifier"
         ],
-        "license": "À vérifier",
+        "license": "Non précisée",
         "pricing": "À vérifier",
         "access": [
           "À vérifier"
         ],
-        "evidence": "À vérifier"
+        "evidence": "https://github.com/D2I-ai/EchoShot"
       },
       "type": "watch",
       "bucket": "watch",
@@ -10488,6 +11234,12 @@
         },
         {
           "url": "https://x.com/i/status/2115634257314107707",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2114672104021148033",
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
@@ -10850,6 +11602,512 @@
         }
       ],
       "cardTitle": "EchoShot",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-4363f9e6c05405225725-md",
+      "title": "editly",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "MIT",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/mifi/editly"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#montage-video",
+        "#terminal"
+      ],
+      "status": "actif",
+      "path": "watch/technical-4363f9e6c05405225725.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-4363f9e6c05405225725.md",
+      "sourceUrl": "https://github.com/mifi/editly",
+      "sources": [
+        {
+          "url": "https://github.com/mifi/editly",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2114672104021148033",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://github.com/mifi/gifs/raw/master/commonFeatures.gif",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/mifi/editly/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        }
+      ],
+      "github": "https://github.com/mifi/editly",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "media",
+      "themeLabel": "Audio",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.media.audio",
+            "domain.media.video",
+            "domain.media.image"
+          ],
+          "capability": [
+            "capability.edit.video"
+          ],
+          "compatibility": [
+            "compatibility.interface.terminal"
+          ],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.media.audio",
+            "label": "Audio",
+            "parent": "domain.media",
+            "aliases": [
+              "#audio"
+            ],
+            "patterns": [
+              "\\baudio\\b",
+              "creation musicale",
+              "\\bvoix\\b",
+              "\\bvocale\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Audio"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.media.video",
+            "label": "Vidéo",
+            "parent": "domain.media",
+            "aliases": [
+              "#montage-video",
+              "#video-editing",
+              "#generation-video",
+              "#video-generation",
+              "#ai-video",
+              "#video",
+              "#shortvideo",
+              "#ai-video-generator"
+            ],
+            "patterns": [
+              "\\bvideos?\\b",
+              "\\bvideo\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Vidéo"
+            ]
+          },
+          {
+            "id": "domain.media.image",
+            "label": "Images et graphisme",
+            "parent": "domain.media",
+            "aliases": [
+              "#compression-images",
+              "#generation-images",
+              "#animation-svg",
+              "#image",
+              "#design",
+              "#svg",
+              "#inspiration"
+            ],
+            "patterns": [
+              "\\bimages?\\b",
+              "\\bsvg\\b",
+              "visual intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Images et graphisme"
+            ]
+          },
+          {
+            "id": "capability.edit.video",
+            "label": "Monter une vidéo",
+            "parent": "capability",
+            "aliases": [
+              "#montage-video",
+              "#video-editing"
+            ],
+            "facet": "capability",
+            "path": [
+              "Monter une vidéo"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "compatibility.interface.terminal",
+            "label": "Terminal",
+            "parent": "compatibility.interface",
+            "aliases": [
+              "#terminal",
+              "#cli"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces",
+              "Terminal"
+            ]
+          },
+          {
+            "id": "compatibility.interface",
+            "label": "Interfaces",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.media.audio",
+          "label": "Audio",
+          "parent": "domain.media",
+          "aliases": [
+            "#audio"
+          ],
+          "patterns": [
+            "\\baudio\\b",
+            "creation musicale",
+            "\\bvoix\\b",
+            "\\bvocale\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Audio"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.media.video",
+          "label": "Vidéo",
+          "parent": "domain.media",
+          "aliases": [
+            "#montage-video",
+            "#video-editing",
+            "#generation-video",
+            "#video-generation",
+            "#ai-video",
+            "#video",
+            "#shortvideo",
+            "#ai-video-generator"
+          ],
+          "patterns": [
+            "\\bvideos?\\b",
+            "\\bvideo\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Vidéo"
+          ]
+        },
+        {
+          "id": "domain.media.image",
+          "label": "Images et graphisme",
+          "parent": "domain.media",
+          "aliases": [
+            "#compression-images",
+            "#generation-images",
+            "#animation-svg",
+            "#image",
+            "#design",
+            "#svg",
+            "#inspiration"
+          ],
+          "patterns": [
+            "\\bimages?\\b",
+            "\\bsvg\\b",
+            "visual intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Images et graphisme"
+          ]
+        },
+        {
+          "id": "capability.edit.video",
+          "label": "Monter une vidéo",
+          "parent": "capability",
+          "aliases": [
+            "#montage-video",
+            "#video-editing"
+          ],
+          "facet": "capability",
+          "path": [
+            "Monter une vidéo"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "compatibility.interface.terminal",
+          "label": "Terminal",
+          "parent": "compatibility.interface",
+          "aliases": [
+            "#terminal",
+            "#cli"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces",
+            "Terminal"
+          ]
+        },
+        {
+          "id": "compatibility.interface",
+          "label": "Interfaces",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#montage-video",
+          "fullLabel": "montage-video",
+          "color": "media",
+          "tag": "#montage-video"
+        },
+        {
+          "label": "#terminal",
+          "fullLabel": "terminal",
+          "color": "tool",
+          "tag": "#terminal"
+        }
+      ],
+      "cardTitle": "editly",
       "cardInterest": ""
     },
     {
@@ -11571,6 +12829,258 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-c42bc46d86b9f49c0309-md",
+      "title": "FantasyPortrait",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "Apache-2.0",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/Fantasy-AMAP/fantasy-portrait"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [],
+      "status": "a verifier",
+      "path": "watch/technical-c42bc46d86b9f49c0309.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-c42bc46d86b9f49c0309.md",
+      "sourceUrl": "https://github.com/fantasy-amap/fantasy-portrait",
+      "sources": [
+        {
+          "url": "https://github.com/fantasy-amap/fantasy-portrait",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2114672104021148033",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/fantasy-amap/fantasy-portrait/HEAD/assert/demo/danren_1.gif",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/fantasy-amap/fantasy-portrait/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/fantasy-amap/fantasy-portrait/HEAD/assert/demo/duibi.gif",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        }
+      ],
+      "github": "https://github.com/fantasy-amap/fantasy-portrait",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.unclassified"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.review"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "lifecycle.review",
+            "label": "À vérifier",
+            "parent": "lifecycle",
+            "aliases": [
+              "#a-verifier",
+              "#to-verify"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "À vérifier"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "lifecycle.review",
+          "label": "À vérifier",
+          "parent": "lifecycle",
+          "aliases": [
+            "#a-verifier",
+            "#to-verify"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "À vérifier"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        }
+      ],
+      "keywords": [],
+      "cardTitle": "FantasyPortrait",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-8d00fb1736bf5ed195c0-md",
       "title": "Ferret",
       "canonical": "",
@@ -11858,6 +13368,445 @@
       ],
       "keywords": [],
       "cardTitle": "Ferret",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-78dddd0d96a910917d94-md",
+      "title": "FireRed-OpenStoryline",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "Apache-2.0",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/FireRedTeam/FireRed-OpenStoryline"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [],
+      "status": "a verifier",
+      "path": "watch/technical-78dddd0d96a910917d94.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-78dddd0d96a910917d94.md",
+      "sourceUrl": "https://github.com/fireredteam/firered-openstoryline",
+      "sources": [
+        {
+          "url": "https://github.com/fireredteam/firered-openstoryline",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2114672104021148033",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/FireRedTeam/fireredteam.github.io/main/demos/firered_openstoryline/pics/structure.jpg",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/fireredteam/firered-openstoryline/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        }
+      ],
+      "github": "https://github.com/fireredteam/firered-openstoryline",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "agent",
+      "themeLabel": "Agents IA",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents",
+            "domain.media.audio",
+            "domain.media.video"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.review"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.media.audio",
+            "label": "Audio",
+            "parent": "domain.media",
+            "aliases": [
+              "#audio"
+            ],
+            "patterns": [
+              "\\baudio\\b",
+              "creation musicale",
+              "\\bvoix\\b",
+              "\\bvocale\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Audio"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "domain.media.video",
+            "label": "Vidéo",
+            "parent": "domain.media",
+            "aliases": [
+              "#montage-video",
+              "#video-editing",
+              "#generation-video",
+              "#video-generation",
+              "#ai-video",
+              "#video",
+              "#shortvideo",
+              "#ai-video-generator"
+            ],
+            "patterns": [
+              "\\bvideos?\\b",
+              "\\bvideo\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Vidéo"
+            ]
+          },
+          {
+            "id": "lifecycle.review",
+            "label": "À vérifier",
+            "parent": "lifecycle",
+            "aliases": [
+              "#a-verifier",
+              "#to-verify"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "À vérifier"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.media.audio",
+          "label": "Audio",
+          "parent": "domain.media",
+          "aliases": [
+            "#audio"
+          ],
+          "patterns": [
+            "\\baudio\\b",
+            "creation musicale",
+            "\\bvoix\\b",
+            "\\bvocale\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Audio"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "domain.media.video",
+          "label": "Vidéo",
+          "parent": "domain.media",
+          "aliases": [
+            "#montage-video",
+            "#video-editing",
+            "#generation-video",
+            "#video-generation",
+            "#ai-video",
+            "#video",
+            "#shortvideo",
+            "#ai-video-generator"
+          ],
+          "patterns": [
+            "\\bvideos?\\b",
+            "\\bvideo\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Vidéo"
+          ]
+        },
+        {
+          "id": "lifecycle.review",
+          "label": "À vérifier",
+          "parent": "lifecycle",
+          "aliases": [
+            "#a-verifier",
+            "#to-verify"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "À vérifier"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#ai-agents",
+          "fullLabel": "ai-agents",
+          "color": "agent",
+          "subjectId": "domain.ai.agents"
+        },
+        {
+          "label": "#audio",
+          "fullLabel": "audio",
+          "color": "media",
+          "subjectId": "domain.media.audio"
+        }
+      ],
+      "cardTitle": "FireRed-OpenStoryline",
       "cardInterest": ""
     },
     {
@@ -13229,10 +15178,8 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [
-        "#pdf"
-      ],
-      "status": "actif",
+      "tags": [],
+      "status": "a verifier",
       "path": "watch/technical-9292e6965115f637ed3c.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-9292e6965115f637ed3c.md",
       "sourceUrl": "https://github.com/kermitt2/grobid",
@@ -13272,9 +15219,7 @@
             "domain.unclassified"
           ],
           "capability": [],
-          "compatibility": [
-            "compatibility.format.pdf"
-          ],
+          "compatibility": [],
           "risk": [],
           "source": [
             "source.noteplan",
@@ -13282,52 +15227,21 @@
             "source.x"
           ],
           "lifecycle": [
-            "lifecycle.active"
+            "lifecycle.review"
           ]
         },
         "concepts": [
           {
-            "id": "compatibility.format.pdf",
-            "label": "PDF",
-            "parent": "compatibility.format",
-            "aliases": [
-              "#pdf"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Formats",
-              "PDF"
-            ]
-          },
-          {
-            "id": "compatibility.format",
-            "label": "Formats",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Formats"
-            ]
-          },
-          {
-            "id": "compatibility",
-            "label": "Compatibilités",
-            "parent": null,
-            "aliases": [],
-            "facet": "compatibility",
-            "path": []
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
+            "id": "lifecycle.review",
+            "label": "À vérifier",
             "parent": "lifecycle",
             "aliases": [
-              "#actif",
-              "#active"
+              "#a-verifier",
+              "#to-verify"
             ],
             "facet": "lifecycle",
             "path": [
-              "Actif"
+              "À vérifier"
             ]
           },
           {
@@ -13400,47 +15314,16 @@
       },
       "concepts": [
         {
-          "id": "compatibility.format.pdf",
-          "label": "PDF",
-          "parent": "compatibility.format",
-          "aliases": [
-            "#pdf"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Formats",
-            "PDF"
-          ]
-        },
-        {
-          "id": "compatibility.format",
-          "label": "Formats",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Formats"
-          ]
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibilités",
-          "parent": null,
-          "aliases": [],
-          "facet": "compatibility",
-          "path": []
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
+          "id": "lifecycle.review",
+          "label": "À vérifier",
           "parent": "lifecycle",
           "aliases": [
-            "#actif",
-            "#active"
+            "#a-verifier",
+            "#to-verify"
           ],
           "facet": "lifecycle",
           "path": [
-            "Actif"
+            "À vérifier"
           ]
         },
         {
@@ -13509,14 +15392,7 @@
           "path": []
         }
       ],
-      "keywords": [
-        {
-          "label": "#pdf",
-          "fullLabel": "pdf",
-          "color": "tool",
-          "tag": "#pdf"
-        }
-      ],
+      "keywords": [],
       "cardTitle": "grobidOrg/grobid",
       "cardInterest": ""
     },
@@ -20351,6 +22227,12 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2114672104021148033",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
         }
       ],
       "github": "https://github.com/lightricks/ltx-2",
@@ -22232,12 +24114,12 @@
         "os": [
           "À vérifier"
         ],
-        "license": "À vérifier",
+        "license": "Apache-2.0",
         "pricing": "À vérifier",
         "access": [
           "À vérifier"
         ],
-        "evidence": "À vérifier"
+        "evidence": "https://github.com/bytedance/lynx"
       },
       "type": "watch",
       "bucket": "watch",
@@ -22262,6 +24144,12 @@
         },
         {
           "url": "https://x.com/i/status/2115634257314107707",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2114672104021148033",
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
@@ -24781,12 +26669,12 @@
         "os": [
           "À vérifier"
         ],
-        "license": "À vérifier",
+        "license": "Non précisée",
         "pricing": "À vérifier",
         "access": [
           "À vérifier"
         ],
-        "evidence": "À vérifier"
+        "evidence": "https://github.com/Orange-3DV-Team/MoCha"
       },
       "type": "watch",
       "bucket": "watch",
@@ -24811,6 +26699,12 @@
         },
         {
           "url": "https://x.com/i/status/2115634257314107707",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2114672104021148033",
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
@@ -25836,6 +27730,240 @@
         }
       ],
       "cardTitle": "moviepy",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-240047400ae5b10cd237-md",
+      "title": "MuseTalk",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "Non précisée",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/TMElyralab/MuseTalk"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [],
+      "status": "a verifier",
+      "path": "watch/technical-240047400ae5b10cd237.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-240047400ae5b10cd237.md",
+      "sourceUrl": "https://github.com/tmelyralab/musetalk",
+      "sources": [
+        {
+          "url": "https://github.com/tmelyralab/musetalk",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2114672104021148033",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/tmelyralab/musetalk",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.unclassified"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.review"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "lifecycle.review",
+            "label": "À vérifier",
+            "parent": "lifecycle",
+            "aliases": [
+              "#a-verifier",
+              "#to-verify"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "À vérifier"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "lifecycle.review",
+          "label": "À vérifier",
+          "parent": "lifecycle",
+          "aliases": [
+            "#a-verifier",
+            "#to-verify"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "À vérifier"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        }
+      ],
+      "keywords": [],
+      "cardTitle": "MuseTalk",
       "cardInterest": ""
     },
     {
@@ -31120,7 +33248,7 @@
       "tags": [
         "#python"
       ],
-      "status": "a verifier",
+      "status": "actif",
       "path": "watch/technical-031301b35683f59d53f5.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-031301b35683f59d53f5.md",
       "sourceUrl": "https://github.com/mozillazg/python-pinyin",
@@ -31164,7 +33292,7 @@
             "source.x"
           ],
           "lifecycle": [
-            "lifecycle.review"
+            "lifecycle.active"
           ]
         },
         "concepts": [
@@ -31200,16 +33328,16 @@
             "path": []
           },
           {
-            "id": "lifecycle.review",
-            "label": "À vérifier",
+            "id": "lifecycle.active",
+            "label": "Actif",
             "parent": "lifecycle",
             "aliases": [
-              "#a-verifier",
-              "#to-verify"
+              "#actif",
+              "#active"
             ],
             "facet": "lifecycle",
             "path": [
-              "À vérifier"
+              "Actif"
             ]
           },
           {
@@ -31313,16 +33441,16 @@
           "path": []
         },
         {
-          "id": "lifecycle.review",
-          "label": "À vérifier",
+          "id": "lifecycle.active",
+          "label": "Actif",
           "parent": "lifecycle",
           "aliases": [
-            "#a-verifier",
-            "#to-verify"
+            "#actif",
+            "#active"
           ],
           "facet": "lifecycle",
           "path": [
-            "À vérifier"
+            "Actif"
           ]
         },
         {
@@ -31798,10 +33926,8 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [
-        "#extraction-web"
-      ],
-      "status": "actif",
+      "tags": [],
+      "status": "a verifier",
       "path": "watch/technical-dca806554efeda77bfb9.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-dca806554efeda77bfb9.md",
       "sourceUrl": "https://github.com/free-llms-foundation/retrieval-go",
@@ -31833,12 +33959,9 @@
         "facets": {
           "domain": [
             "domain.ai.agents",
-            "domain.ai.llm",
-            "domain.data.web"
+            "domain.ai.llm"
           ],
-          "capability": [
-            "capability.scraping"
-          ],
+          "capability": [],
           "compatibility": [],
           "risk": [],
           "source": [
@@ -31847,7 +33970,7 @@
             "source.x"
           ],
           "lifecycle": [
-            "lifecycle.active"
+            "lifecycle.review"
           ]
         },
         "concepts": [
@@ -31934,65 +34057,16 @@
             ]
           },
           {
-            "id": "domain.data.web",
-            "label": "Collecte web",
-            "parent": "domain.data",
-            "aliases": [
-              "#extraction-web",
-              "#scraping",
-              "#web-extraction",
-              "#crawler"
-            ],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances",
-              "Collecte web"
-            ]
-          },
-          {
-            "id": "domain.data",
-            "label": "Données et connaissances",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances"
-            ]
-          },
-          {
-            "id": "capability.scraping",
-            "label": "Extraire des données web",
-            "parent": "capability",
-            "aliases": [
-              "#extraction-web",
-              "#scraping",
-              "#web-extraction",
-              "#crawler"
-            ],
-            "facet": "capability",
-            "path": [
-              "Extraire des données web"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
+            "id": "lifecycle.review",
+            "label": "À vérifier",
             "parent": "lifecycle",
             "aliases": [
-              "#actif",
-              "#active"
+              "#a-verifier",
+              "#to-verify"
             ],
             "facet": "lifecycle",
             "path": [
-              "Actif"
+              "À vérifier"
             ]
           },
           {
@@ -32128,65 +34202,16 @@
           ]
         },
         {
-          "id": "domain.data.web",
-          "label": "Collecte web",
-          "parent": "domain.data",
-          "aliases": [
-            "#extraction-web",
-            "#scraping",
-            "#web-extraction",
-            "#crawler"
-          ],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances",
-            "Collecte web"
-          ]
-        },
-        {
-          "id": "domain.data",
-          "label": "Données et connaissances",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances"
-          ]
-        },
-        {
-          "id": "capability.scraping",
-          "label": "Extraire des données web",
-          "parent": "capability",
-          "aliases": [
-            "#extraction-web",
-            "#scraping",
-            "#web-extraction",
-            "#crawler"
-          ],
-          "facet": "capability",
-          "path": [
-            "Extraire des données web"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
+          "id": "lifecycle.review",
+          "label": "À vérifier",
           "parent": "lifecycle",
           "aliases": [
-            "#actif",
-            "#active"
+            "#a-verifier",
+            "#to-verify"
           ],
           "facet": "lifecycle",
           "path": [
-            "Actif"
+            "À vérifier"
           ]
         },
         {
@@ -32238,10 +34263,16 @@
       ],
       "keywords": [
         {
-          "label": "#extraction-web",
-          "fullLabel": "extraction-web",
-          "color": "research",
-          "tag": "#extraction-web"
+          "label": "#ai-agents",
+          "fullLabel": "ai-agents",
+          "color": "agent",
+          "subjectId": "domain.ai.agents"
+        },
+        {
+          "label": "#LLM",
+          "fullLabel": "Modèles de langage",
+          "color": "llm",
+          "subjectId": "domain.ai.llm"
         }
       ],
       "cardTitle": "retrieval-go",
@@ -36051,12 +38082,12 @@
         "os": [
           "À vérifier"
         ],
-        "license": "À vérifier",
+        "license": "Apache-2.0",
         "pricing": "À vérifier",
         "access": [
           "À vérifier"
         ],
-        "evidence": "À vérifier"
+        "evidence": "https://github.com/MCG-NJU/SteadyDancer"
       },
       "type": "watch",
       "bucket": "watch",
@@ -36081,6 +38112,12 @@
         },
         {
           "url": "https://x.com/i/status/2115634257314107707",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2114672104021148033",
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
@@ -37957,12 +39994,12 @@
         "os": [
           "À vérifier"
         ],
-        "license": "À vérifier",
+        "license": "Apache-2.0",
         "pricing": "À vérifier",
         "access": [
           "À vérifier"
         ],
-        "evidence": "À vérifier"
+        "evidence": "https://github.com/time-to-move/TTM"
       },
       "type": "watch",
       "bucket": "watch",
@@ -37986,6 +40023,12 @@
         },
         {
           "url": "https://x.com/i/status/2115634257314107707",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2114672104021148033",
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
@@ -40053,12 +42096,12 @@
         "os": [
           "À vérifier"
         ],
-        "license": "À vérifier",
+        "license": "Apache-2.0",
         "pricing": "À vérifier",
         "access": [
           "À vérifier"
         ],
-        "evidence": "À vérifier"
+        "evidence": "https://github.com/ali-vilab/VACE"
       },
       "type": "watch",
       "bucket": "watch",
@@ -40090,6 +42133,12 @@
         },
         {
           "url": "https://x.com/i/status/2115634257314107707",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2114672104021148033",
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
@@ -40960,6 +43009,12 @@
         },
         {
           "url": "https://x.com/i/status/2115634257314107707",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2114672104021148033",
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
@@ -163261,9 +165316,7 @@
       "folderLabel": "Watch",
       "publishable": true,
       "shareable": true,
-      "tags": [
-        "#simulation"
-      ],
+      "tags": [],
       "status": "actif",
       "path": "watch/technical-75e00de51f7cccf3faba.md",
       "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-75e00de51f7cccf3faba.md",
@@ -163297,9 +165350,7 @@
           "domain": [
             "domain.unclassified"
           ],
-          "capability": [
-            "capability.simulate"
-          ],
+          "capability": [],
           "compatibility": [],
           "risk": [],
           "source": [
@@ -163312,26 +165363,6 @@
           ]
         },
         "concepts": [
-          {
-            "id": "capability.simulate",
-            "label": "Simuler et tester",
-            "parent": "capability",
-            "aliases": [
-              "#simulation"
-            ],
-            "facet": "capability",
-            "path": [
-              "Simuler et tester"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
           {
             "id": "lifecycle.active",
             "label": "Actif",
@@ -163415,26 +165446,6 @@
       },
       "concepts": [
         {
-          "id": "capability.simulate",
-          "label": "Simuler et tester",
-          "parent": "capability",
-          "aliases": [
-            "#simulation"
-          ],
-          "facet": "capability",
-          "path": [
-            "Simuler et tester"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
           "id": "lifecycle.active",
           "label": "Actif",
           "parent": "lifecycle",
@@ -163513,14 +165524,7 @@
           "path": []
         }
       ],
-      "keywords": [
-        {
-          "label": "#simulation",
-          "fullLabel": "simulation",
-          "color": "finance",
-          "tag": "#simulation"
-        }
-      ],
+      "keywords": [],
       "cardTitle": "Gophish",
       "cardInterest": "Fonction · Créer des campagnes de phishing et formations.\nAvantages · Interface web et gestion des cibles.\nGain · Lancer des attaques sans configuration complexe."
     },

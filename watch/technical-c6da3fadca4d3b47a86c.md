@@ -48,3 +48,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Dépôt GitHub avec tutoriels pour construire un système de recherche. 
+- Utilise des agents pour clarifier la recherche et générer des rapports. 
+- Intègre des outils de recherche externes et des serveurs MCP.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/langchain-ai/deep_research_from_scratch
+- Analyse source : 2026-11-12T12:32:01.686Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

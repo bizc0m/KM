@@ -52,3 +52,17 @@ Intérêt à vérifier
 ![Aperçu du produit](https://github.com/demon143/qlib/raw/main/docs/_static/img/change%20doc.gif)
 
 [Origine](https://raw.githubusercontent.com/microsoft/qlib/HEAD/README.md)
+
+## Capacités documentées
+
+- Plateforme d'investissement quantitatif basée sur l'IA
+- Supporte l'apprentissage supervisé, la modélisation des dynamiques de marché et l'apprentissage par renforcement
+- Intègre RD-Agent pour automatiser la recherche et le développement
+- Permet la modélisation des dynamiques de marché et l'optimisation des stratégies d'investissement
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/microsoft/qlib
+- Analyse source : 2026-11-12T09:38:04.799Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

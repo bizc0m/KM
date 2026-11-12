@@ -45,3 +45,28 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Fonction · Vérifie des traces de logiciels espions sur PC, Android et iPhone.
+- Avantages · Ne modifie pas les données sources et ne fait pas de requêtes réseau.
+- Gain · Rapport clair sur les résultats sans interprétation.
+
+## Usages documentés
+
+- Télécharger le programme.
+- Ouvrir le programme et choisir un test.
+- Lire le résultat et sauvegarder le rapport.
+
+## Limites
+
+- Pas de vérification des données non accessibles.
+- Pas de garantie de sécurité même avec un résultat positif.
+- Antivirus peut marquer le programme comme suspect.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/interplains/zero-breach-toolkit
+- Analyse source : 2026-11-12T15:05:41.908Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -60,3 +60,16 @@ Intérêt à vérifier
 ![Watch video demo](https://raw.githubusercontent.com/acly/krita-ai-diffusion/HEAD/media/screenshot-regions.png)
 
 [Origine](https://raw.githubusercontent.com/acly/krita-ai-diffusion/HEAD/README.md)
+
+## Capacités documentées
+
+- Plugin Krita pour IA générative
+- Inpainting et outpainting avec prompts
+- Intégration workflow éditorial
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/acly/krita-ai-diffusion
+- Analyse source : 2026-11-12T10:55:57.622Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

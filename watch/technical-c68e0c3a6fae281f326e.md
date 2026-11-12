@@ -47,3 +47,28 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Génère des vidéos à partir de textes
+- Modèle de 13 milliards de paramètres
+- Compatibilité avec des GPU de 45 à 80 Go
+
+## Usages documentés
+
+- Cloner le dépôt
+- Installer PyTorch
+- Exécuter le modèle
+
+## Limites
+
+- Nécessite un GPU NVIDIA avec CUDA
+- Testé sous Linux
+- Requiert 60 Go pour 720px1280px129f
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/tencent-hunyuan/hunyuanvideo
+- Analyse source : 2026-11-12T10:33:34.962Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -6,8 +6,6 @@ actif
 
 ## Tags
 
-#simulation
-
 ## Intérêts
 
 Fonction · Créer des campagnes de phishing et formations.  
@@ -27,9 +25,8 @@ Gain · Lancer des attaques sans configuration complexe.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.unclassified capability.simulate source.noteplan source.github source.x lifecycle.active
+- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.active
 - Sujets : À qualifier
-- Fonctions : Simuler et tester
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
 - État : Actif
 
@@ -52,14 +49,13 @@ Gain · Lancer des attaques sans configuration complexe.
 
 ## Capacités documentées
 
-- Permet de créer rapidement des campagnes de phishing.
-- Facilite la formation en sécurité via des simulations.
-- Disponible pour Windows, Mac et Linux.
-- Utilisation via Docker possible.
+- Dépôt GitHub pour un outil de phishing open source
+- Outil permettant de créer et exécuter des campagnes de phishing
+- Utilisé pour la formation et les tests de sécurité
 
 ## Qualification
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/gophish/gophish
-- Analyse source : 2026-10-20T04:50:32.694Z
+- Analyse source : 2026-11-11T11:41:24.138Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

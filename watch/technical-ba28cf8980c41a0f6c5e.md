@@ -47,3 +47,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Orchestre des workflows locaux sans base de données externe
+- Utilise un format YAML déclaratif pour définir les workflows
+- Supporte les scripts, conteneurs Docker, commandes SSH
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/dagucloud/dagu
+- Analyse source : 2026-11-12T10:55:57.622Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

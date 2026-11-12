@@ -44,3 +44,27 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Projet éducatif et de recherche uniquement
+- Pas de trades réels effectués
+- Utilise des clés API pour les modèles d'IA
+
+## Usages documentés
+
+- pipx install aihf
+- aihf
+- poetry install
+- poetry run aihf
+
+## Limites
+
+- Nécessite des clés API ou un wallet Base
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/virattt/ai-hedge-fund
+- Analyse source : 2026-11-12T09:38:04.799Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

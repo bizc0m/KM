@@ -54,3 +54,21 @@ Intérêt à vérifier
 
 
 [Origine](https://raw.githubusercontent.com/newmarcel/keepingyouawake/HEAD/README.md)
+
+## Capacités documentées
+
+- Fonction · Empêche l'endormissement du Mac.
+- Avantages · Utilise caffeinate officiel.
+- Gain · Active sans redémarrage.
+
+## Limites
+
+- Compatibilité macOS 10.13 et plus.
+- Ne fonctionne pas avec le couvercle fermé.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/newmarcel/keepingyouawake
+- Analyse source : 2026-11-12T13:26:51.888Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

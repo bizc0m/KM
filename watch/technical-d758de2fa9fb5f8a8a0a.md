@@ -47,3 +47,28 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Génération vidéo à partir de textes, images et sons multimodaux
+- Préservation de l'identité du sujet dans la vidéo
+- Synchronisation précise entre audio et vidéo
+
+## Usages documentés
+
+- Installer les dépendances via conda et pip
+- Télécharger les modèles depuis HuggingFace
+- Exécuter des scripts d'inférence pour générer des vidéos
+
+## Limites
+
+- Compatibilité avec des GPU multi-serveurs
+- Limitation à 97 frames pour la génération vidéo
+- Requiert des ressources GPU pour la génération haute résolution
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/phantom-video/humo
+- Analyse source : 2026-11-12T13:09:56.531Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

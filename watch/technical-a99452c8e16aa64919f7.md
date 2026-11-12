@@ -47,3 +47,28 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Fonction · Évaluation des agents de recherche profonde via des tâches académiques.
+- Avantages · Critères d'évaluation dynamiques et adaptés aux tâches.
+- Gain · Comparaison des modèles sur des données de recherche réelles.
+
+## Usages documentés
+
+- Utiliser des requêtes de benchmark pour exécuter l'agent.
+- Sauvegarder les résultats dans un format JSONL spécifique.
+- Exécuter le script d'évaluation avec les modèles ciblés.
+
+## Limites
+
+- Requiert des clés API pour les modèles de calcul.
+- Compatibilité limitée aux modèles GPT-5.5 et dérivés.
+- Nécessite un environnement Python 3.9+.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/ayanami0730/deep_research_bench
+- Analyse source : 2026-11-12T12:32:01.686Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

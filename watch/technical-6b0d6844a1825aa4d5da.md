@@ -56,3 +56,28 @@ Intérêt à vérifier
 ![Example screenshot of web research](https://i.ibb.co/N6Y3C0q/Screenshot-2024-12-05-at-11-01-27-PM.png)
 
 [Origine](https://raw.githubusercontent.com/mzxrai/mcp-webresearch/HEAD/README.md)
+
+## Capacités documentées
+
+- Serveur MCP pour intégrer des informations web en temps réel.
+- Intègre la recherche Google et extrait le contenu des pages web.
+- Permet de suivre les sessions de recherche avec historique des requêtes et pages visitées.
+
+## Usages documentés
+
+- Ajouter la configuration dans claude_desktop_config.json
+- Utiliser le prompt agentic-research via l'icône Paperclip
+- Exécuter npx @mzxrai/mcp-webresearch@latest
+
+## Limites
+
+- Nécessite Node.js >= 18
+- Seulement vérifié sur macOS
+- Pré-alpha avec risques de bugs
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/mzxrai/mcp-webresearch
+- Analyse source : 2026-11-12T11:07:18.060Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

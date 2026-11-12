@@ -47,3 +47,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Homebrew Cask étend Homebrew pour gérer des logiciels précompilés.
+- Il simplifie l'installation de logiciels sur macOS et Linux.
+- Il permet d'installer des applications sans interface graphique.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/homebrew/homebrew-cask
+- Analyse source : 2026-11-12T13:26:51.888Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -47,3 +47,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- API unifiée pour plus de 100 exchanges cryptomonnaies
+- Support des APIs REST et WebSocket publiques et privées
+- Normalisation des données pour analyse inter-exchanges
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/ccxt/ccxt
+- Analyse source : 2026-11-12T09:38:04.799Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -50,3 +50,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Outil de gestion de projet et de dépendances Python.
+- Gère les environnements virtuels et les versions Python.
+- Fournit une interface pip optimisée.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/astral-sh/uv
+- Analyse source : 2026-11-12T12:32:01.686Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

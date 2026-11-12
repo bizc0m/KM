@@ -20,10 +20,10 @@ Intérêt à vérifier
 
 - Nature : À vérifier
 - OS : À vérifier
-- Licence : À vérifier
+- Licence : Apache-2.0
 - Tarification : À vérifier
 - Accès : À vérifier
-- Preuve : À vérifier
+- Preuve : https://github.com/ali-vilab/VACE
 
 
 ## Ontologie
@@ -40,6 +40,7 @@ Intérêt à vérifier
 - https://github.com/ali-vilab/vace
 - https://github.com/ali-vilab/VACE](https://github.com/ali-vilab/VACE
 - https://x.com/i/status/2115634257314107707
+- https://x.com/i/status/2114672104021148033
 
 ## Traçabilité
 

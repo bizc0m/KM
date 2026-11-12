@@ -47,3 +47,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Crée des animations 2D manuelles en code.
+- Utilise un rig d'ant avec anatomie détaillée.
+- Génère des fichiers MP4 avec synchronisation image-son.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/buildwithhanif/claude-animation-skill
+- Analyse source : 2026-11-12T09:14:28.312Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

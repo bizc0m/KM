@@ -56,3 +56,16 @@ Intérêt à vérifier
 ![OpenCode Terminal UI](https://raw.githubusercontent.com/anomalyco/opencode/HEAD/packages/web/src/assets/lander/screenshot.png)
 
 [Origine](https://raw.githubusercontent.com/anomalyco/opencode/HEAD/README.md)
+
+## Capacités documentées
+
+- Agent IA pour générer et analyser du code.
+- Outils de développement et exploration de codebases.
+- Interface terminal et application desktop disponibles.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/anomalyco/opencode
+- Analyse source : 2026-11-12T11:07:18.060Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

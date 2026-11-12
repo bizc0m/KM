@@ -48,3 +48,31 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Serveur MCP self-hostable pour l'API Web d'Oxylabs
+- Permet la recherche web, le scraping de pages et l'exécution de scrapers
+- Fournit des outils comme search, scrape et run_scraper
+
+## Usages documentés
+
+- search
+- scrape
+- run_scraper
+- list_scrapers
+- check_requests
+- read_result
+
+## Limites
+
+- Requiert Python 3.10+
+- Nécessite une clé API d'Oxylabs
+- Limite de 10 000 tokens pour les réponses
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/oxylabs/web-api-mcp
+- Analyse source : 2026-11-12T11:07:18.060Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

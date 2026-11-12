@@ -48,3 +48,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Dépôt GitHub OrbisAPI/research-mcp
+- 500+ APIs pour recherche, web search, scraping et extraction de données
+- Pay per call avec USDC via x402
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/orbisapi/research-mcp
+- Analyse source : 2026-11-12T11:07:18.060Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

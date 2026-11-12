@@ -47,3 +47,17 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Automatise l'interaction avec des sites web
+- Gère les cookies et les redirections
+- Utilise Requests pour les sessions HTTP
+- Intègre BeautifulSoup pour naviguer dans les documents
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/mechanicalsoup/mechanicalsoup
+- Analyse source : 2026-11-12T08:17:02.257Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

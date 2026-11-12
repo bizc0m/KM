@@ -52,3 +52,28 @@ Intérêt à vérifier
 ![Screenshot of the demo project](https://raw.githubusercontent.com/shpakovski/MASShortcut/master/Demo/screenshot.png)
 
 [Origine](https://raw.githubusercontent.com/shpakovski/masshortcut/HEAD/README.md)
+
+## Capacités documentées
+
+- Gère les raccourcis clavier système
+- Interface utilisateur moderne
+- API documentée pour enregistrement et utilisation
+- Compatibilité avec Shortcut Recorder
+
+## Usages documentés
+
+- #import <Shortcut.h>
+- self.shortcutView.associatedUserDefaultsKey = kPreferenceGlobalShortcut
+- bindShortcutWithDefaultsKey:kPreferenceGlobalShortcut toAction:^{}
+
+## Limites
+
+- Compatibilité avec OS X 10.10 et supérieur
+- Nécessite CocoaPods, Carthage ou Swift Package Manager
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/shpakovski/masshortcut
+- Analyse source : 2026-11-12T13:26:51.888Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

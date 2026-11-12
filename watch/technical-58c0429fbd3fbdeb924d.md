@@ -47,3 +47,18 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Bibliothèque JavaScript/TypeScript pour le scraping web.
+- Supporte les navigateurs headless et headful.
+- Permet d'extraire des données pour des modèles d'IA.
+- Gère les téléchargements de fichiers web.
+- Intègre Puppeteer, Playwright et proxy rotation.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/apify/crawlee
+- Analyse source : 2026-11-12T08:17:02.257Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

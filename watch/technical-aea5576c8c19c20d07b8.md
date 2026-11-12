@@ -47,3 +47,27 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Instrumentation dynamique des applications
+- Support Python, Node.js et CLI
+- Permet l'analyse et modification en temps réel
+
+## Usages documentés
+
+- pip install frida-tools
+- pip install frida
+- npm install frida
+
+## Limites
+
+- Requiert certificats pour macOS
+- Compatibilité dépendante des systèmes Apple
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/frida/frida
+- Analyse source : 2026-11-12T15:41:59.150Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

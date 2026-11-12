@@ -7,6 +7,7 @@
 - [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
 - [DeepResearch Bench](../../watch/technical-a99452c8e16aa64919f7.md)
 - [deepseek-harness](../../watch/technical-890a56b0d2aff0c91c90.md)
+- [FireRed-OpenStoryline](../../watch/technical-78dddd0d96a910917d94.md)
 - [impeccable](../../watch/technical-ec673bd7694d3a658bba.md)
 - [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
 - [mcp-webresearch](../../watch/technical-6b0d6844a1825aa4d5da.md)

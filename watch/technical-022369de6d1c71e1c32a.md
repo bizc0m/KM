@@ -47,3 +47,25 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Paquet Python pour utiliser UniDic
+- Supporte la version 3.1.0 de UniDic
+- Nécessite téléchargement séparé des données
+
+## Usages documentés
+
+- python -m unidic download
+
+## Limites
+
+- Nécessite téléchargement séparé des données
+- Taille du package 770MB
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/polm/unidic-py
+- Analyse source : 2026-11-12T12:06:51.602Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

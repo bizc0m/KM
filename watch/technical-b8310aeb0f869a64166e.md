@@ -44,3 +44,28 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Fonction · Évalue la qualité vidéo en séparant les aspects esthétique et technique.
+- Avantages · Prise en charge des bases de données comme KoNViD-1k et LIVE-VQC.
+- Gain · Conversion en ONNX pour déployment sur divers appareils.
+
+## Usages documentés
+
+- python convert_to_onnx.py
+- python onnx_inference.py -v ./demo/17734.mp4
+- python evaluate_one_video.py -v ./demo/17734.mp4 -f
+
+## Limites
+
+- Requiert des poids pré-entraînés.
+- Nécessite des données vidéo pour l'évaluation.
+- Compatibilité limitée aux systèmes avec des ressources GPU.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/vqassessment/dover
+- Analyse source : 2026-11-12T11:28:42.365Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

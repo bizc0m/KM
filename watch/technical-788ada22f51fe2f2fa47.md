@@ -20,10 +20,10 @@ Intérêt à vérifier
 
 - Nature : À vérifier
 - OS : À vérifier
-- Licence : À vérifier
+- Licence : Non précisée
 - Tarification : À vérifier
 - Accès : À vérifier
-- Preuve : À vérifier
+- Preuve : https://github.com/Lightricks/ComfyUI-LTXVideo
 
 
 ## Ontologie
@@ -39,6 +39,7 @@ Intérêt à vérifier
 
 - https://github.com/lightricks/comfyui-ltxvideo
 - https://x.com/i/status/2115634257314107707
+- https://x.com/i/status/2114672104021148033
 
 ## Traçabilité
 

@@ -1,6 +1,8 @@
 # Audio
 
 - [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md)
+- [editly](../../watch/technical-4363f9e6c05405225725.md)
+- [FireRed-OpenStoryline](../../watch/technical-78dddd0d96a910917d94.md)
 - [HuMo](../../watch/technical-d758de2fa9fb5f8a8a0a.md)
 - [Kokoro](../../watch/technical-aa11653c4d25a0e989a1.md)
 - [LTX-2](../../watch/technical-fa120014620b12d49e58.md)

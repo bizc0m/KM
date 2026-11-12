@@ -47,3 +47,17 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Code officiel du papier CVPR 2026.
+- Modèle 14B DiT pour l'inférence.
+- Représentation de pose 3D cohérente.
+- Apprentissage par contexte pour injecter la condition de pose.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/zai-org/scail
+- Analyse source : 2026-11-12T13:09:56.531Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

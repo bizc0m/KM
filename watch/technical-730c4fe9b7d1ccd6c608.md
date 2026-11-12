@@ -48,3 +48,27 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Wrapper Python pour OpenJTalk
+- Utilise des versions modifiées de OpenJTalk et hts_engine_API
+- Permet synthèse vocale et traitement de texte
+
+## Usages documentés
+
+- pip install pyopenjtalk
+- git submodule update --recursive --init
+- pip install -e .
+
+## Limites
+
+- Requiert compilateur C/C++
+- Compatibilité Linux, macOS, Windows
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/r9y9/pyopenjtalk
+- Analyse source : 2026-11-12T12:06:51.602Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -44,3 +44,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Reconstruction du jeu DX-Ball en C/C++
+- Utilisation de REA pour inspecter et récupérer le code
+- Compilation avec VC4 pour reproduire le comportement original
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/n0zom1z0/dx-ball
+- Analyse source : 2026-11-12T15:41:59.150Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

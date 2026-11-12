@@ -15,7 +15,7 @@ Intérêt à vérifier
 ## Métadonnées
 
 - Nature : À vérifier
-- OS : À vérifier
+- OS : macOS
 - Licence : À vérifier
 - Tarification : À vérifier
 - Accès : À vérifier

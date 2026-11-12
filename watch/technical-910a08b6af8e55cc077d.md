@@ -44,3 +44,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Bibliothèque de recherche de texte complet
+- Écrit en Rust
+- S'inspire de Lucene
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/quickwit-oss/tantivy
+- Analyse source : 2026-11-12T12:32:01.686Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -1,9 +1,12 @@
 # Vidéo
 
 - [BindWeave](../../watch/technical-fa71f92dbb3617f853df.md)
+- [CogVideo & CogVideoX](../../watch/technical-7f0fab5ea6c7bf3c66b8.md)
 - [ComfyUI-LTXVideo](../../watch/technical-788ada22f51fe2f2fa47.md)
 - [DOVER](../../watch/technical-b8310aeb0f869a64166e.md)
 - [EchoShot](../../watch/technical-de2f95b61d2c02d5ce4d.md)
+- [editly](../../watch/technical-4363f9e6c05405225725.md)
+- [FireRed-OpenStoryline](../../watch/technical-78dddd0d96a910917d94.md)
 - [Helios](../../watch/technical-9f2d613fa72208f070af.md)
 - [HuMo](../../watch/technical-d758de2fa9fb5f8a8a0a.md)
 - [HunyuanVideo](../../watch/technical-c68e0c3a6fae281f326e.md)

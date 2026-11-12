@@ -47,3 +47,29 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Supports accurate, full, and search engine modes
+- Allows for custom dictionaries
+- Provides parallel processing and tokenization
+- MIT licensed
+- Has implementations in other languages
+
+## Usages documentés
+
+- Text analysis
+- Search engines
+- Natural language processing
+
+## Limites
+
+- Does not support Windows for parallel processing
+- Requires manual initialization for dictionary loading
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/fxsjy/jieba
+- Analyse source : 2026-11-12T12:06:51.602Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

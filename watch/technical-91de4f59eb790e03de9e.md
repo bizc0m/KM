@@ -48,3 +48,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Serveur MCP écrit en Go pour fournir des outils de recherche web, images et scraping.
+- Utilise DuckDuckGo pour la recherche web et Bing Images pour la recherche d'images.
+- Résultats sont convertis en Markdown et fournis en lecture seule.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/role1776/mcp-retrieval
+- Analyse source : 2026-11-12T11:07:18.060Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

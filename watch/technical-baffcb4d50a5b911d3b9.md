@@ -44,3 +44,16 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Collecte de noms de termes AI récents.
+- Surveillance de sources comme X, Hugging Face, GitHub.
+- Génération d'un tableau de mots-clés avec analyse de trafic et difficultés.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/zhuyansen/new-term-radar
+- Analyse source : 2026-11-12T10:55:57.622Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

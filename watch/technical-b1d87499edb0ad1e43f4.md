@@ -47,3 +47,28 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Synthèse vocale text-to-speech via diffusion de style et entraînement adversarial
+- Utilise des modèles de langage audio pré-entraînés comme discriminateurs
+- Performance supérieure aux enregistrements humains sur des jeux de données mono-parleur
+
+## Usages documentés
+
+- accelerate launch train_first.py --config_path ./Configs/config.yml
+- python train_second.py --config_path ./Configs/config.yml
+- python train_finetune.py --config_path ./Configs/config_ft.yml
+
+## Limites
+
+- Compatibilité limitée avec DDP pour train_second.py
+- Exige des ressources GPU pour l'entraînement
+- Nécessite des données prétraitées pour les modèles multi-parleurs
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/yl4579/styletts2
+- Analyse source : 2026-11-12T12:06:51.602Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.
