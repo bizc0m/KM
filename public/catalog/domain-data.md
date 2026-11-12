@@ -4,10 +4,12 @@
 - [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
 - [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
 - [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
+- [GPT Researcher](../../watch/technical-d2fc479804301a66d2d8.md)
 - [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
 - [mcp-webresearch](../../watch/technical-6b0d6844a1825aa4d5da.md)
 - [research-mcp](../../watch/technical-ffc05a5b982c09b92791.md)
 - [oxylabs/web-api-mcp](../../watch/technical-4d03aa0eeecb3abfcbad.md)
+- [oxylabs/web-api-skills](../../watch/technical-ae44b7c5c77979957073.md)
 - [scrapecreators-cli](../../watch/technical-fcf0bfc48ab0ce73e30a.md)
 - [scrapy-playwright](../../watch/technical-2e317194feb446319292.md)
 - [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
@@ -106,9 +108,6 @@ Gain · Automatiser workflows sans coder via interface graphique.
 Avantages · Gère les tâches sans connexion internet.
 Gain · Éviter de synchroniser avec des services en ligne.
 - [camofox-browser](../../watch/technical-05a714c23543244771cf.md) — Piloter un navigateur headless pour les tâches web des agents.
-- [GPT Researcher](../../watch/technical-d2fc479804301a66d2d8.md) — Fonction · Génère des rapports de recherche avec citations et sources.
-Avantages · Filtrage contextuel avancé avec Jev, 73% de passages pertinents.
-Gain · Éviter les fausses informations, réduire le temps de traitement.
 - [H4X-Tools](../../watch/technical-1805682cce69c18558d8.md) — Fonction · Scrapes Instagram, effectue des recherches web, analyse des numéros de téléphone.
 Avantages · Modes authentifiés et anonymes, export en formats multiples.
 Gain · Lancer des tâches sans connexion, récupérer des données sans interface.

@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-12T18:52:33.919Z",
-  "count": 803,
+  "at": "2026-11-12T19:52:39.336Z",
+  "count": 808,
   "rows": [
     {
       "id": "watch-technical-bd69dc0d4bb066bb0ea3-md",
@@ -16828,6 +16828,503 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-d2fc479804301a66d2d8-md",
+      "title": "GPT Researcher",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "Apache-2.0",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/assafelovic/gpt-researcher"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#recherche-documentaire",
+        "#memoire-agents"
+      ],
+      "status": "actif",
+      "path": "watch/technical-d2fc479804301a66d2d8.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-d2fc479804301a66d2d8.md",
+      "sourceUrl": "https://github.com/assafelovic/gpt-researcher",
+      "sources": [
+        {
+          "url": "https://github.com/assafelovic/gpt-researcher",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2092332393172521418",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2112820932800811503",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://github.com/user-attachments/assets/ac2ec55f-b487-4b3f-ae6f-b8743ad296e4",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/assafelovic/gpt-researcher/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        }
+      ],
+      "github": "https://github.com/assafelovic/gpt-researcher",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "agent",
+      "themeLabel": "Mémoire des agents",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents.memory",
+            "domain.data.research"
+          ],
+          "capability": [
+            "capability.research",
+            "capability.memory"
+          ],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.x",
+            "source.github"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents.memory",
+            "label": "Mémoire des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#memoire-agents",
+              "#memory",
+              "#long-term-memory",
+              "#context-engineering"
+            ],
+            "patterns": [
+              "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
+              "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Mémoire des agents"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.data.research",
+            "label": "Recherche documentaire",
+            "parent": "domain.data",
+            "aliases": [
+              "#recherche-documentaire",
+              "#research-agent",
+              "#citations",
+              "#papers"
+            ],
+            "patterns": [
+              "recherche documentaire",
+              "recherche.*rapports?",
+              "research agent"
+            ],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances",
+              "Recherche documentaire"
+            ]
+          },
+          {
+            "id": "domain.data",
+            "label": "Données et connaissances",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances"
+            ]
+          },
+          {
+            "id": "capability.research",
+            "label": "Rechercher des documents",
+            "parent": "capability",
+            "aliases": [
+              "#recherche-documentaire"
+            ],
+            "facet": "capability",
+            "path": [
+              "Rechercher des documents"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "capability.memory",
+            "label": "Conserver le contexte",
+            "parent": "capability",
+            "aliases": [
+              "#memoire-agents",
+              "#memory",
+              "#long-term-memory",
+              "#context-engineering"
+            ],
+            "facet": "capability",
+            "path": [
+              "Conserver le contexte"
+            ]
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents.memory",
+          "label": "Mémoire des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#memoire-agents",
+            "#memory",
+            "#long-term-memory",
+            "#context-engineering"
+          ],
+          "patterns": [
+            "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
+            "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Mémoire des agents"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.data.research",
+          "label": "Recherche documentaire",
+          "parent": "domain.data",
+          "aliases": [
+            "#recherche-documentaire",
+            "#research-agent",
+            "#citations",
+            "#papers"
+          ],
+          "patterns": [
+            "recherche documentaire",
+            "recherche.*rapports?",
+            "research agent"
+          ],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances",
+            "Recherche documentaire"
+          ]
+        },
+        {
+          "id": "domain.data",
+          "label": "Données et connaissances",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances"
+          ]
+        },
+        {
+          "id": "capability.research",
+          "label": "Rechercher des documents",
+          "parent": "capability",
+          "aliases": [
+            "#recherche-documentaire"
+          ],
+          "facet": "capability",
+          "path": [
+            "Rechercher des documents"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "capability.memory",
+          "label": "Conserver le contexte",
+          "parent": "capability",
+          "aliases": [
+            "#memoire-agents",
+            "#memory",
+            "#long-term-memory",
+            "#context-engineering"
+          ],
+          "facet": "capability",
+          "path": [
+            "Conserver le contexte"
+          ]
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#Recherche",
+          "fullLabel": "Recherche documentaire",
+          "color": "research",
+          "tag": "#recherche-documentaire"
+        },
+        {
+          "label": "#Mémoire",
+          "fullLabel": "Mémoire des agents",
+          "color": "agent",
+          "tag": "#memoire-agents"
+        }
+      ],
+      "cardTitle": "GPT Researcher",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-9292e6965115f637ed3c-md",
       "title": "grobidOrg/grobid",
       "canonical": "",
@@ -24002,6 +24499,623 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-8ba92212f68080ea31a0-md",
+      "title": "LiteParse",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#python",
+        "#pdf"
+      ],
+      "status": "actif",
+      "path": "watch/technical-8ba92212f68080ea31a0.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-8ba92212f68080ea31a0.md",
+      "sourceUrl": "https://github.com/run-llama/liteparse",
+      "sources": [
+        {
+          "url": "https://github.com/run-llama/liteparse",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2112820932800811503",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/run-llama/liteparse",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.unclassified"
+          ],
+          "capability": [],
+          "compatibility": [
+            "compatibility.language.python",
+            "compatibility.format.pdf"
+          ],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "compatibility.language.python",
+            "label": "Python",
+            "parent": "compatibility.language",
+            "aliases": [
+              "#python"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Langages",
+              "Python"
+            ]
+          },
+          {
+            "id": "compatibility.language",
+            "label": "Langages",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Langages"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "compatibility.format.pdf",
+            "label": "PDF",
+            "parent": "compatibility.format",
+            "aliases": [
+              "#pdf"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Formats",
+              "PDF"
+            ]
+          },
+          {
+            "id": "compatibility.format",
+            "label": "Formats",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Formats"
+            ]
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "compatibility.language.python",
+          "label": "Python",
+          "parent": "compatibility.language",
+          "aliases": [
+            "#python"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Langages",
+            "Python"
+          ]
+        },
+        {
+          "id": "compatibility.language",
+          "label": "Langages",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Langages"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "compatibility.format.pdf",
+          "label": "PDF",
+          "parent": "compatibility.format",
+          "aliases": [
+            "#pdf"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Formats",
+            "PDF"
+          ]
+        },
+        {
+          "id": "compatibility.format",
+          "label": "Formats",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Formats"
+          ]
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#python",
+          "fullLabel": "python",
+          "color": "dev",
+          "tag": "#python"
+        },
+        {
+          "label": "#pdf",
+          "fullLabel": "pdf",
+          "color": "tool",
+          "tag": "#pdf"
+        }
+      ],
+      "cardTitle": "LiteParse",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-6af4ace5040a22ac0365-md",
+      "title": "llama_index",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [],
+      "status": "a verifier",
+      "path": "watch/technical-6af4ace5040a22ac0365.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-6af4ace5040a22ac0365.md",
+      "sourceUrl": "https://github.com/jerryjliu/llama_index",
+      "sources": [
+        {
+          "url": "https://github.com/jerryjliu/llama_index",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2112820932800811503",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/jerryjliu/llama_index",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "llm",
+      "themeLabel": "Intelligence artificielle",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.review"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "lifecycle.review",
+            "label": "À vérifier",
+            "parent": "lifecycle",
+            "aliases": [
+              "#a-verifier",
+              "#to-verify"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "À vérifier"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "lifecycle.review",
+          "label": "À vérifier",
+          "parent": "lifecycle",
+          "aliases": [
+            "#a-verifier",
+            "#to-verify"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "À vérifier"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [],
+      "cardTitle": "llama_index",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-f5f27b7d8a492f91db53-md",
       "title": "llama-hd-dataset",
       "canonical": "",
@@ -24658,6 +25772,12 @@
         },
         {
           "url": "https://x.com/i/status/2115442971164524628",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2112820932800811503",
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
@@ -27499,6 +28619,474 @@
       ],
       "keywords": [],
       "cardTitle": "MASShortcut",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-0ab174b3cfd6fa55ca88-md",
+      "title": "MCP Registry",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#mcp"
+      ],
+      "status": "actif",
+      "path": "watch/technical-0ab174b3cfd6fa55ca88.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-0ab174b3cfd6fa55ca88.md",
+      "sourceUrl": "https://github.com/modelcontextprotocol/registry",
+      "sources": [
+        {
+          "url": "https://github.com/modelcontextprotocol/registry",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2112820932800811503",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/modelcontextprotocol/registry",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "agent",
+      "themeLabel": "Connecteurs et outils des agents",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.infrastructure",
+            "domain.ai.agents.integration"
+          ],
+          "capability": [],
+          "compatibility": [
+            "compatibility.protocol.mcp"
+          ],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
+            "parent": "domain",
+            "aliases": [
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
+            ],
+            "patterns": [
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Infrastructure"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.ai.agents.integration",
+            "label": "Connecteurs et outils des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#mcp",
+              "#mcp-server",
+              "#integrations",
+              "#agent-instructions",
+              "#agents-md",
+              "#agent-skill",
+              "#plugins"
+            ],
+            "patterns": [],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Connecteurs et outils des agents"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "compatibility.protocol.mcp",
+            "label": "MCP",
+            "parent": "compatibility.protocol",
+            "aliases": [
+              "#mcp",
+              "#mcp-server"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Protocoles",
+              "MCP"
+            ]
+          },
+          {
+            "id": "compatibility.protocol",
+            "label": "Protocoles",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Protocoles"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
+          "parent": "domain",
+          "aliases": [
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
+          ],
+          "patterns": [
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Infrastructure"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.ai.agents.integration",
+          "label": "Connecteurs et outils des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#mcp",
+            "#mcp-server",
+            "#integrations",
+            "#agent-instructions",
+            "#agents-md",
+            "#agent-skill",
+            "#plugins"
+          ],
+          "patterns": [],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Connecteurs et outils des agents"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "compatibility.protocol.mcp",
+          "label": "MCP",
+          "parent": "compatibility.protocol",
+          "aliases": [
+            "#mcp",
+            "#mcp-server"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Protocoles",
+            "MCP"
+          ]
+        },
+        {
+          "id": "compatibility.protocol",
+          "label": "Protocoles",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Protocoles"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#mcp",
+          "fullLabel": "mcp",
+          "color": "agent",
+          "tag": "#mcp"
+        }
+      ],
+      "cardTitle": "MCP Registry",
       "cardInterest": ""
     },
     {
@@ -31698,6 +33286,12 @@
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2112820932800811503",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
         }
       ],
       "github": "https://github.com/python/mypy",
@@ -35664,6 +37258,648 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-ae44b7c5c77979957073-md",
+      "title": "oxylabs/web-api-skills",
+      "canonical": "",
+      "resource": {
+        "nature": "Collection de skills",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#extraction-web",
+        "#orchestration-agents",
+        "#skills-agents"
+      ],
+      "status": "actif",
+      "path": "watch/technical-ae44b7c5c77979957073.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-ae44b7c5c77979957073.md",
+      "sourceUrl": "https://github.com/oxylabs/web-api-skills",
+      "sources": [
+        {
+          "url": "https://github.com/oxylabs/web-api-skills",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2112820932800811503",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/oxylabs/web-api-skills",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "agent",
+      "themeLabel": "Agents de développement",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents.coding",
+            "domain.ai.agents.skills",
+            "domain.data.web",
+            "domain.ai.agents.orchestration"
+          ],
+          "capability": [
+            "capability.scraping",
+            "capability.automation.orchestrate",
+            "capability.skills"
+          ],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents.coding",
+            "label": "Agents de développement",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents"
+            ],
+            "patterns": [
+              "claude code",
+              "\\bcodex\\b",
+              "coding agents?",
+              "agents? de cod"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Agents de développement"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.ai.agents.skills",
+            "label": "Compétences des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#skills-agents",
+              "#agent-skills",
+              "#skills"
+            ],
+            "patterns": [
+              "\\bskills?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Compétences des agents"
+            ]
+          },
+          {
+            "id": "domain.data.web",
+            "label": "Collecte web",
+            "parent": "domain.data",
+            "aliases": [
+              "#extraction-web",
+              "#scraping",
+              "#web-extraction",
+              "#crawler"
+            ],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances",
+              "Collecte web"
+            ]
+          },
+          {
+            "id": "domain.data",
+            "label": "Données et connaissances",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances"
+            ]
+          },
+          {
+            "id": "domain.ai.agents.orchestration",
+            "label": "Orchestration des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#orchestration-agents",
+              "#multi-agent",
+              "#orchestration",
+              "#ai-agency"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Orchestration des agents"
+            ]
+          },
+          {
+            "id": "capability.scraping",
+            "label": "Extraire des données web",
+            "parent": "capability",
+            "aliases": [
+              "#extraction-web",
+              "#scraping",
+              "#web-extraction",
+              "#crawler"
+            ],
+            "facet": "capability",
+            "path": [
+              "Extraire des données web"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "capability.automation.orchestrate",
+            "label": "Coordonner des agents",
+            "parent": "capability.automation",
+            "aliases": [
+              "#orchestration-agents",
+              "#multi-agent",
+              "#orchestration"
+            ],
+            "facet": "capability",
+            "path": [
+              "Automatiser des actions",
+              "Coordonner des agents"
+            ]
+          },
+          {
+            "id": "capability.automation",
+            "label": "Automatiser des actions",
+            "parent": "capability",
+            "aliases": [
+              "#automation",
+              "#workflow",
+              "#workflows",
+              "#ui-automation"
+            ],
+            "patterns": [
+              "automatise.*tests",
+              "automatisation"
+            ],
+            "facet": "capability",
+            "path": [
+              "Automatiser des actions"
+            ]
+          },
+          {
+            "id": "capability.skills",
+            "label": "Étendre les compétences d’un agent",
+            "parent": "capability",
+            "aliases": [
+              "#skills-agents",
+              "#agent-skills"
+            ],
+            "facet": "capability",
+            "path": [
+              "Étendre les compétences d’un agent"
+            ]
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents.coding",
+          "label": "Agents de développement",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents"
+          ],
+          "patterns": [
+            "claude code",
+            "\\bcodex\\b",
+            "coding agents?",
+            "agents? de cod"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Agents de développement"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.ai.agents.skills",
+          "label": "Compétences des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#skills-agents",
+            "#agent-skills",
+            "#skills"
+          ],
+          "patterns": [
+            "\\bskills?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Compétences des agents"
+          ]
+        },
+        {
+          "id": "domain.data.web",
+          "label": "Collecte web",
+          "parent": "domain.data",
+          "aliases": [
+            "#extraction-web",
+            "#scraping",
+            "#web-extraction",
+            "#crawler"
+          ],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances",
+            "Collecte web"
+          ]
+        },
+        {
+          "id": "domain.data",
+          "label": "Données et connaissances",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances"
+          ]
+        },
+        {
+          "id": "domain.ai.agents.orchestration",
+          "label": "Orchestration des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#orchestration-agents",
+            "#multi-agent",
+            "#orchestration",
+            "#ai-agency"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Orchestration des agents"
+          ]
+        },
+        {
+          "id": "capability.scraping",
+          "label": "Extraire des données web",
+          "parent": "capability",
+          "aliases": [
+            "#extraction-web",
+            "#scraping",
+            "#web-extraction",
+            "#crawler"
+          ],
+          "facet": "capability",
+          "path": [
+            "Extraire des données web"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "capability.automation.orchestrate",
+          "label": "Coordonner des agents",
+          "parent": "capability.automation",
+          "aliases": [
+            "#orchestration-agents",
+            "#multi-agent",
+            "#orchestration"
+          ],
+          "facet": "capability",
+          "path": [
+            "Automatiser des actions",
+            "Coordonner des agents"
+          ]
+        },
+        {
+          "id": "capability.automation",
+          "label": "Automatiser des actions",
+          "parent": "capability",
+          "aliases": [
+            "#automation",
+            "#workflow",
+            "#workflows",
+            "#ui-automation"
+          ],
+          "patterns": [
+            "automatise.*tests",
+            "automatisation"
+          ],
+          "facet": "capability",
+          "path": [
+            "Automatiser des actions"
+          ]
+        },
+        {
+          "id": "capability.skills",
+          "label": "Étendre les compétences d’un agent",
+          "parent": "capability",
+          "aliases": [
+            "#skills-agents",
+            "#agent-skills"
+          ],
+          "facet": "capability",
+          "path": [
+            "Étendre les compétences d’un agent"
+          ]
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#extraction-web",
+          "fullLabel": "extraction-web",
+          "color": "research",
+          "tag": "#extraction-web"
+        },
+        {
+          "label": "#Orchestration",
+          "fullLabel": "Orchestration des agents",
+          "color": "agent",
+          "tag": "#orchestration-agents"
+        },
+        {
+          "label": "#Skills",
+          "fullLabel": "Compétences des agents",
+          "color": "agent",
+          "tag": "#skills-agents"
+        }
+      ],
+      "cardTitle": "oxylabs/web-api-skills",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-93152872bca09aedc930-md",
       "title": "p5.brush.js",
       "canonical": "",
@@ -39141,6 +41377,484 @@
         }
       ],
       "cardTitle": "qlib",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-5ff4bf30ae94874f6dd3-md",
+      "title": "RAGFlow",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#memoire-agents"
+      ],
+      "status": "actif",
+      "path": "watch/technical-5ff4bf30ae94874f6dd3.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-5ff4bf30ae94874f6dd3.md",
+      "sourceUrl": "https://github.com/infiniflow/ragflow",
+      "sources": [
+        {
+          "url": "https://github.com/infiniflow/ragflow",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2112820932800811503",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/infiniflow/ragflow-docs/refs/heads/image/image/chunking.gif",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/infiniflow/ragflow/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/infiniflow/ragflow-docs/refs/heads/image/image/agentic-dark.gif",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        }
+      ],
+      "github": "https://github.com/infiniflow/ragflow",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "agent",
+      "themeLabel": "Mémoire des agents",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents.memory",
+            "domain.ai.llm"
+          ],
+          "capability": [
+            "capability.memory"
+          ],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents.memory",
+            "label": "Mémoire des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#memoire-agents",
+              "#memory",
+              "#long-term-memory",
+              "#context-engineering"
+            ],
+            "patterns": [
+              "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
+              "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Mémoire des agents"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.ai.llm",
+            "label": "Modèles de langage",
+            "parent": "domain.ai",
+            "aliases": [
+              "#llm",
+              "#inference",
+              "#providers",
+              "#openai-compatible",
+              "#comparaison-modeles",
+              "#inference-locale"
+            ],
+            "patterns": [
+              "\\bllm\\b",
+              "\\bqwen\\w*",
+              "\\bdeepseek\\b",
+              "\\bnotebooklm\\b",
+              "\\bgemini\\b",
+              "\\bgpt[ -]?\\d",
+              "mistral vibe"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Modèles de langage"
+            ]
+          },
+          {
+            "id": "capability.memory",
+            "label": "Conserver le contexte",
+            "parent": "capability",
+            "aliases": [
+              "#memoire-agents",
+              "#memory",
+              "#long-term-memory",
+              "#context-engineering"
+            ],
+            "facet": "capability",
+            "path": [
+              "Conserver le contexte"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents.memory",
+          "label": "Mémoire des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#memoire-agents",
+            "#memory",
+            "#long-term-memory",
+            "#context-engineering"
+          ],
+          "patterns": [
+            "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
+            "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Mémoire des agents"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.ai.llm",
+          "label": "Modèles de langage",
+          "parent": "domain.ai",
+          "aliases": [
+            "#llm",
+            "#inference",
+            "#providers",
+            "#openai-compatible",
+            "#comparaison-modeles",
+            "#inference-locale"
+          ],
+          "patterns": [
+            "\\bllm\\b",
+            "\\bqwen\\w*",
+            "\\bdeepseek\\b",
+            "\\bnotebooklm\\b",
+            "\\bgemini\\b",
+            "\\bgpt[ -]?\\d",
+            "mistral vibe"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Modèles de langage"
+          ]
+        },
+        {
+          "id": "capability.memory",
+          "label": "Conserver le contexte",
+          "parent": "capability",
+          "aliases": [
+            "#memoire-agents",
+            "#memory",
+            "#long-term-memory",
+            "#context-engineering"
+          ],
+          "facet": "capability",
+          "path": [
+            "Conserver le contexte"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#Mémoire",
+          "fullLabel": "Mémoire des agents",
+          "color": "agent",
+          "tag": "#memoire-agents"
+        }
+      ],
+      "cardTitle": "RAGFlow",
       "cardInterest": ""
     },
     {
@@ -202531,322 +205245,6 @@
       ],
       "cardTitle": "xianyu-auto-reply-fix",
       "cardInterest": "Gère automatiquement les réponses et commandes sur Xianyu."
-    },
-    {
-      "id": "watch-technical-d2fc479804301a66d2d8-md",
-      "title": "GPT Researcher",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "Apache-2.0",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/assafelovic/gpt-researcher"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#recherche-documentaire"
-      ],
-      "status": "actif",
-      "path": "watch/technical-d2fc479804301a66d2d8.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-d2fc479804301a66d2d8.md",
-      "sourceUrl": "https://github.com/assafelovic/gpt-researcher",
-      "sources": [
-        {
-          "url": "https://github.com/assafelovic/gpt-researcher",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://x.com/i/status/2092332393172521418",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://github.com/user-attachments/assets/ac2ec55f-b487-4b3f-ae6f-b8743ad296e4",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/assafelovic/gpt-researcher/HEAD/README.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        }
-      ],
-      "github": "https://github.com/assafelovic/gpt-researcher",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Fonction · Génère des rapports de recherche avec citations et sources.  \nAvantages · Filtrage contextuel avancé avec Jev, 73% de passages pertinents.  \nGain · Éviter les fausses informations, réduire le temps de traitement.",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-19",
-      "theme": "research",
-      "themeLabel": "Recherche documentaire",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.data.research"
-          ],
-          "capability": [
-            "capability.research"
-          ],
-          "compatibility": [],
-          "risk": [],
-          "source": [
-            "source.x",
-            "source.github"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.data.research",
-            "label": "Recherche documentaire",
-            "parent": "domain.data",
-            "aliases": [
-              "#recherche-documentaire",
-              "#research-agent",
-              "#citations",
-              "#papers"
-            ],
-            "patterns": [
-              "recherche documentaire",
-              "recherche.*rapports?",
-              "research agent"
-            ],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances",
-              "Recherche documentaire"
-            ]
-          },
-          {
-            "id": "domain.data",
-            "label": "Données et connaissances",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "capability.research",
-            "label": "Rechercher des documents",
-            "parent": "capability",
-            "aliases": [
-              "#recherche-documentaire"
-            ],
-            "facet": "capability",
-            "path": [
-              "Rechercher des documents"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.data.research",
-          "label": "Recherche documentaire",
-          "parent": "domain.data",
-          "aliases": [
-            "#recherche-documentaire",
-            "#research-agent",
-            "#citations",
-            "#papers"
-          ],
-          "patterns": [
-            "recherche documentaire",
-            "recherche.*rapports?",
-            "research agent"
-          ],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances",
-            "Recherche documentaire"
-          ]
-        },
-        {
-          "id": "domain.data",
-          "label": "Données et connaissances",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "capability.research",
-          "label": "Rechercher des documents",
-          "parent": "capability",
-          "aliases": [
-            "#recherche-documentaire"
-          ],
-          "facet": "capability",
-          "path": [
-            "Rechercher des documents"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#Recherche",
-          "fullLabel": "Recherche documentaire",
-          "color": "research",
-          "tag": "#recherche-documentaire"
-        }
-      ],
-      "cardTitle": "GPT Researcher",
-      "cardInterest": "Fonction · Génère des rapports de recherche avec citations et sources.\nAvantages · Filtrage contextuel avancé avec Jev, 73% de passages pertinents.\nGain · Éviter les fausses informations, réduire le temps de traitement."
     },
     {
       "id": "watch-technical-1805682cce69c18558d8-md",

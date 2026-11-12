@@ -1,6 +1,7 @@
 # Compétences des agents
 
 - [claude-animation-skill](../../watch/technical-bcd0154c6d60ef4c770e.md)
+- [oxylabs/web-api-skills](../../watch/technical-ae44b7c5c77979957073.md)
 - [skills](../../watch/technical-6ec106f9407cdfec724a.md)
 - [Agent Skills](../../watch/technical-48dbbdd8fd0d302995a7.md) — Définir un format ouvert pour partager les compétences des agents.
 - [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Fonction · Mappage des compétences en cybersécurité aux frameworks MITRE.

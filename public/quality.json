@@ -1,18 +1,18 @@
 {
-  "at": "2026-11-12T18:52:34.096Z",
+  "at": "2026-11-12T19:52:39.526Z",
   "scope": "public-index-only",
-  "fiches": 803,
-  "sourceReferences": 3215,
+  "fiches": 808,
+  "sourceReferences": 3231,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 760,
+  "pendingReview": 765,
   "counts": {
-    "interest-missing": 185,
-    "keywords-missing": 121,
-    "domain-unqualified": 162,
+    "interest-missing": 191,
+    "keywords-missing": 122,
+    "domain-unqualified": 163,
     "primary-identity-unqualified": 21,
-    "nature-unqualified": 749
+    "nature-unqualified": 753
   },
   "queue": [
     {
@@ -396,6 +396,14 @@
       ]
     },
     {
+      "id": "watch-technical-d2fc479804301a66d2d8-md",
+      "title": "GPT Researcher",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-9292e6965115f637ed3c-md",
       "title": "grobidOrg/grobid",
       "reasons": [
@@ -605,6 +613,24 @@
       ]
     },
     {
+      "id": "watch-technical-8ba92212f68080ea31a0-md",
+      "title": "LiteParse",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-6af4ace5040a22ac0365-md",
+      "title": "llama_index",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-f5f27b7d8a492f91db53-md",
       "title": "llama-hd-dataset",
       "reasons": [
@@ -688,6 +714,14 @@
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0ab174b3cfd6fa55ca88-md",
+      "title": "MCP Registry",
+      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -894,6 +928,13 @@
       ]
     },
     {
+      "id": "watch-technical-ae44b7c5c77979957073-md",
+      "title": "oxylabs/web-api-skills",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
       "id": "watch-technical-93152872bca09aedc930-md",
       "title": "p5.brush.js",
       "reasons": [
@@ -975,6 +1016,14 @@
     {
       "id": "watch-technical-c750f525fc3dfb26b9af-md",
       "title": "qlib",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-5ff4bf30ae94874f6dd3-md",
+      "title": "RAGFlow",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -3744,13 +3793,6 @@
     {
       "id": "watch-technical-aa8e0008d94afed17913-md",
       "title": "xianyu-auto-reply-fix",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-d2fc479804301a66d2d8-md",
-      "title": "GPT Researcher",
       "reasons": [
         "nature-unqualified"
       ]

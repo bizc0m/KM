@@ -1,12 +1,12 @@
 # Index des sujets KM
 
-- [Intelligence artificielle](domain-ai.md) — 324 fiches
-- [Agents IA](domain-ai-agents.md) — 207 fiches
-- [Mémoire des agents](domain-ai-agents-memory.md) — 25 fiches
-- [Orchestration des agents](domain-ai-agents-orchestration.md) — 15 fiches
-- [Agents de développement](domain-ai-agents-coding.md) — 53 fiches
-- [Compétences des agents](domain-ai-agents-skills.md) — 41 fiches
-- [Modèles de langage](domain-ai-llm.md) — 72 fiches
+- [Intelligence artificielle](domain-ai.md) — 329 fiches
+- [Agents IA](domain-ai-agents.md) — 211 fiches
+- [Mémoire des agents](domain-ai-agents-memory.md) — 27 fiches
+- [Orchestration des agents](domain-ai-agents-orchestration.md) — 16 fiches
+- [Agents de développement](domain-ai-agents-coding.md) — 54 fiches
+- [Compétences des agents](domain-ai-agents-skills.md) — 42 fiches
+- [Modèles de langage](domain-ai-llm.md) — 73 fiches
 - [Développement logiciel](domain-dev.md) — 134 fiches
 - [Développement web](domain-dev-web.md) — 26 fiches
 - [Qualité du code](domain-dev-quality.md) — 36 fiches
@@ -23,10 +23,10 @@
 - [Tests de sécurité](domain-security-testing.md) — 16 fiches
 - [Renseignement en sources ouvertes](domain-osint.md) — 49 fiches
 - [Protection des données](domain-privacy.md) — 11 fiches
-- [Infrastructure](domain-infrastructure.md) — 83 fiches
+- [Infrastructure](domain-infrastructure.md) — 84 fiches
 - [Réseaux](domain-infrastructure-network.md) — 3 fiches
-- [Données et connaissances](domain-data.md) — 97 fiches
-- [Collecte web](domain-data-web.md) — 36 fiches
+- [Données et connaissances](domain-data.md) — 98 fiches
+- [Collecte web](domain-data-web.md) — 37 fiches
 - [Documents](domain-data-documents.md) — 9 fiches
 - [Notes et organisation](domain-data-notes.md) — 15 fiches
 - [Recherche documentaire](domain-data-research.md) — 8 fiches
@@ -38,7 +38,7 @@
 - [Communication et publication](domain-communication.md) — 17 fiches
 - [Applications et interfaces de bureau](domain-dev-desktop.md) — 19 fiches
 - [Conception d’interfaces](domain-dev-ui.md) — 10 fiches
-- [Connecteurs et outils des agents](domain-ai-agents-integration.md) — 33 fiches
+- [Connecteurs et outils des agents](domain-ai-agents-integration.md) — 34 fiches
 - [Instructions et prompts](domain-ai-prompts.md) — 3 fiches
 - [Catalogues de ressources](domain-data-catalogues.md) — 12 fiches
 - [Recherche et indexation](domain-data-search.md) — 4 fiches

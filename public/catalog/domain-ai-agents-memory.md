@@ -1,5 +1,7 @@
 # Mémoire des agents
 
+- [GPT Researcher](../../watch/technical-d2fc479804301a66d2d8.md)
+- [RAGFlow](../../watch/technical-5ff4bf30ae94874f6dd3.md)
 - [agency-agents](../../watch/technical-1e83b6596b947b071d50.md) — Fonction · Profils d’agents Dev, design, marketing.
 Avantages · Consignes et livrables prédéfinis.
 Gain · Adapter au projet, lancer les tâches rapidement.

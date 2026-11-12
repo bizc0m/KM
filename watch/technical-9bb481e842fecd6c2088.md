@@ -39,6 +39,7 @@ Intérêt à vérifier
 
 - https://github.com/python/mypy
 - https://x.com/i/status/2115442971164524628
+- https://x.com/i/status/2112820932800811503
 
 ## Traçabilité
 
@@ -47,16 +48,3 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Vérifie les erreurs de type sans exécuter le code
-- Supporte les types inférés, généricité, unions et sous-typage structurel
-- Intégré dans plusieurs IDE et outils de développement
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/python/mypy
-- Analyse source : 2026-11-12T12:32:01.686Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

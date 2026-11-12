@@ -3,6 +3,7 @@
 - [awesome-reverse-engineered](../../watch/technical-17de07d1eb3071810eb0.md)
 - [dagu](../../watch/technical-ba28cf8980c41a0f6c5e.md)
 - [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
+- [MCP Registry](../../watch/technical-0ab174b3cfd6fa55ca88.md)
 - [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
 - [mcp-webresearch](../../watch/technical-6b0d6844a1825aa4d5da.md)
 - [Open OSCAR Server](../../watch/technical-d448ff464953c624c46b.md)
