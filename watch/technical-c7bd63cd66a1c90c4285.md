@@ -39,6 +39,7 @@ Intérêt à vérifier
 
 - https://github.com/x64dbg/x64dbg
 - https://x.com/i/status/2114847015091794206
+- https://x.com/i/status/2112567090997567775
 - https://raw.githubusercontent.com/x64dbg/x64dbg/HEAD/.github/screenshots/cpu-light.png
 - https://raw.githubusercontent.com/x64dbg/x64dbg/HEAD/README.md
 - https://raw.githubusercontent.com/x64dbg/x64dbg/HEAD/.github/screenshots/cpu-dark.png
@@ -60,16 +61,3 @@ Intérêt à vérifier
 ![main interface (dark)](https://raw.githubusercontent.com/x64dbg/x64dbg/HEAD/.github/screenshots/cpu-dark.png)
 
 [Origine](https://raw.githubusercontent.com/x64dbg/x64dbg/HEAD/README.md)
-
-## Capacités documentées
-
-- Débogueur de code binaire pour Windows
-- Analyse de malware et reverse engineering
-- Système de plugins extensif
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/x64dbg/x64dbg
-- Analyse source : 2026-11-12T15:41:59.150Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

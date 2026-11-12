@@ -1,18 +1,21 @@
 # Audio
 
 - [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md)
+- [DeskThing](../../watch/technical-a43c7bed70343513b48b.md)
 - [editly](../../watch/technical-4363f9e6c05405225725.md)
 - [FireRed-OpenStoryline](../../watch/technical-78dddd0d96a910917d94.md)
 - [HuMo](../../watch/technical-d758de2fa9fb5f8a8a0a.md)
 - [Kokoro](../../watch/technical-aa11653c4d25a0e989a1.md)
 - [LTX-2](../../watch/technical-fa120014620b12d49e58.md)
 - [LTX-Video (Legacy)](../../watch/technical-8c429240f3eff91a1b36.md)
+- [moonlight-qt](../../watch/technical-9f9a1fce536e61f94e79.md)
 - [moviepy](../../watch/technical-8850110282c0b220a399.md)
 - [pinyin-to-ipa](../../watch/technical-f57d7abfe4ccf7114148.md)
 - [pyopenjtalk](../../watch/technical-730c4fe9b7d1ccd6c608.md)
 - [StyleTTS2](../../watch/technical-b1d87499edb0ad1e43f4.md)
 - [TalkVerse](../../watch/technical-b9a75739439a1096d99d.md)
 - [viphoneme](../../watch/technical-7fc5c927ea623c45d807.md)
+- [yt-dlp](../../watch/technical-511a5089717fad8aad51.md)
 - [VoiceStudio](../../watch/technical-8bee61d896b5e33a0c30.md)
 - [Demucs](../../watch/technical-c10d8f74eadd9334181e.md) — Fonction · Sépare drums, bass, vocals et autres pistes d'une musique.
 Avantages · Modèle hybride spectrogramme/vague avec attention croisée.

@@ -15,6 +15,7 @@
 - [trafilatura](../../watch/technical-aa8ca5206f8b696337e9.md)
 - [uv](../../watch/technical-30e283a9b3f70e35d81a.md)
 - [web-scout-mcp](../../watch/technical-e54359e32dffb4db43b7.md)
+- [yt-dlp](../../watch/technical-511a5089717fad8aad51.md)
 - [SideNotes](../../watch/technical-863adbb8c03ef3ea3d6b.md)
 - [ani-cli](../../watch/technical-2993f5bd5143a68eff85.md) — Fonction · CLI pour parcourir et visionner des anime via hianime.
 Avantages · Scrapes hianime pour accéder aux épisodes.

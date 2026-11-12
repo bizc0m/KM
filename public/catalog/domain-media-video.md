@@ -26,6 +26,8 @@
 - [VACE](../../watch/vace-video-creation-editing.md)
 - [Wan2.1](../../watch/technical-20e40e65da16af4ff766.md)
 - [Wan2.2](../../watch/technical-4f061292f12439d8c314.md)
+- [youtube-dl](../../watch/technical-200f4f9f3b7e9e0f30c9.md)
+- [yt-dlp](../../watch/technical-511a5089717fad8aad51.md)
 - [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Fonction · Créer, publier et monétiser du contenu sur 14 plateformes.
 Avantages · Automatisation de la publication et des interactions.
 Gain · Publier directement sans configuration complexe.
@@ -70,9 +72,6 @@ Gain · Éviter le transfert de données sensibles.
 - [Webtor](../../watch/technical-c45c04c570d8ed1549e8.md) — Fonction · Torrents en direct, streaming, téléchargement ZIP.
 Avantages · Formats vidéo/audio prédéfinis, API pour intégration.
 Gain · Lancer des tâches sans client, organiser une bibliothèque.
-- [yt-dlp](../../watch/technical-511a5089717fad8aad51.md) — Fonction · Télécharge des vidéos et audios depuis des sites web.
-Avantages · Supporte des milliers de sites et des formats variés.
-Gain · Éviter de télécharger manuellement chaque fichier.
 - [AI Meme Studio](../../watch/technical-28efa5970d38e5616943.md) — Fonction · Générer des memes et vidéos courtes avec des modèles AI.
 Avantages · Support multi-modèle et routage intelligent.
 Gain · Créer des contenus viraux sans attendre.
@@ -153,9 +152,6 @@ Gain · Éviter de recréer des éléments UI complexes.
 - [SysMocap](../../watch/technical-265f4b5b46b161719305.md) — Fonction · Capture de mouvement en temps réel via vidéo.
 Avantages · Support VRM et FBX avec détection automatique.
 Gain · Lancer la capture sans configuration manuelle.
-- [youtube-dl](../../watch/technical-200f4f9f3b7e9e0f30c9.md) — Fonction · Télécharger des vidéos depuis YouTube et d'autres plateformes.
-Avantages · Gère les restrictions géographiques et les proxies.
-Gain · Éviter de configurer des outils externes pour accéder aux contenus.
 - [youtube-dlc](../../watch/technical-350bc4fbd59269522ae3.md) — Fonction · Télécharger des vidéos depuis YouTube et d'autres plateformes.
 Avantages · Gestion des listes de lecture et filtres de contenu.
 Gain · Éviter de télécharger des vidéos inutiles via des filtres.

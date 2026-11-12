@@ -7,26 +7,26 @@
 - [Agents de développement](domain-ai-agents-coding.md) — 53 fiches
 - [Compétences des agents](domain-ai-agents-skills.md) — 41 fiches
 - [Modèles de langage](domain-ai-llm.md) — 72 fiches
-- [Développement logiciel](domain-dev.md) — 133 fiches
+- [Développement logiciel](domain-dev.md) — 134 fiches
 - [Développement web](domain-dev-web.md) — 26 fiches
 - [Qualité du code](domain-dev-quality.md) — 36 fiches
-- [Audio, vidéo et création](domain-media.md) — 209 fiches
-- [Audio](domain-media-audio.md) — 50 fiches
+- [Audio, vidéo et création](domain-media.md) — 211 fiches
+- [Audio](domain-media-audio.md) — 53 fiches
 - [Voix](domain-media-audio-voice.md) — 25 fiches
 - [Identification audio](domain-media-audio-identification.md) — 1 fiches
 - [Vidéo](domain-media-video.md) — 108 fiches
 - [Images et graphisme](domain-media-image.md) — 114 fiches
 - [Création 3D](domain-media-3d.md) — 26 fiches
-- [Cybersécurité](domain-security.md) — 78 fiches
+- [Cybersécurité](domain-security.md) — 79 fiches
 - [Sécurité web](domain-security-web.md) — 4 fiches
 - [Analyse de logiciels malveillants](domain-security-malware.md) — 5 fiches
-- [Tests de sécurité](domain-security-testing.md) — 15 fiches
+- [Tests de sécurité](domain-security-testing.md) — 16 fiches
 - [Renseignement en sources ouvertes](domain-osint.md) — 49 fiches
 - [Protection des données](domain-privacy.md) — 11 fiches
-- [Infrastructure](domain-infrastructure.md) — 80 fiches
+- [Infrastructure](domain-infrastructure.md) — 83 fiches
 - [Réseaux](domain-infrastructure-network.md) — 3 fiches
-- [Données et connaissances](domain-data.md) — 96 fiches
-- [Collecte web](domain-data-web.md) — 35 fiches
+- [Données et connaissances](domain-data.md) — 97 fiches
+- [Collecte web](domain-data-web.md) — 36 fiches
 - [Documents](domain-data-documents.md) — 9 fiches
 - [Notes et organisation](domain-data-notes.md) — 15 fiches
 - [Recherche documentaire](domain-data-research.md) — 8 fiches
@@ -36,8 +36,8 @@
 - [Sciences et prévision](domain-science.md) — 7 fiches
 - [Prévisions météorologiques](domain-science-weather.md) — 7 fiches
 - [Communication et publication](domain-communication.md) — 17 fiches
-- [Applications et interfaces de bureau](domain-dev-desktop.md) — 17 fiches
-- [Conception d’interfaces](domain-dev-ui.md) — 11 fiches
+- [Applications et interfaces de bureau](domain-dev-desktop.md) — 19 fiches
+- [Conception d’interfaces](domain-dev-ui.md) — 10 fiches
 - [Connecteurs et outils des agents](domain-ai-agents-integration.md) — 33 fiches
 - [Instructions et prompts](domain-ai-prompts.md) — 3 fiches
 - [Catalogues de ressources](domain-data-catalogues.md) — 12 fiches
@@ -49,7 +49,7 @@
 - [Tests logiciels](domain-dev-testing.md) — 1 fiches
 - [API et services applicatifs](domain-dev-api.md) — 5 fiches
 - [Déploiement et hébergement](domain-infrastructure-deployment.md) — 5 fiches
-- [Bases de données](domain-infrastructure-database.md) — 20 fiches
+- [Bases de données](domain-infrastructure-database.md) — 21 fiches
 - [Analyse de fréquentation](domain-data-analytics.md) — 3 fiches
 - [Publication de contenus](domain-communication-publishing.md) — 2 fiches
 - [Messagerie](domain-communication-messaging.md) — 10 fiches

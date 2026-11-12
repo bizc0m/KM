@@ -1,13 +1,13 @@
 # Qualité des fiches KM
 
-779 fiches publiées. 4 corrections sémantiques explicitement vérifiées. 736 fiches ont au moins un point à qualifier ; les critères se chevauchent.
+803 fiches publiées. 4 corrections sémantiques explicitement vérifiées. 760 fiches ont au moins un point à qualifier ; les critères se chevauchent.
 
 - Sources : aucun plafond silencieux ; toutes les références publiques autorisées restent accessibles dans le détail.
 - Doublons de dépôt principal identifié : 0 groupe(s). Ce compte ne certifie pas toutes les identités encore inconnues.
-- interest-missing : 159
-- keywords-missing : 110
-- domain-unqualified : 145
-- primary-identity-unqualified : 20
-- nature-unqualified : 725
+- interest-missing : 185
+- keywords-missing : 121
+- domain-unqualified : 162
+- primary-identity-unqualified : 21
+- nature-unqualified : 749
 
 Les tests fonctionnels ne constituent pas une validation sémantique de tout le corpus. La file de revue est dans [quality.json](quality.json).

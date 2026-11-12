@@ -8,6 +8,7 @@
 - [CogVideo & CogVideoX](../../watch/technical-7f0fab5ea6c7bf3c66b8.md)
 - [ComfyUI-LTXVideo](../../watch/technical-788ada22f51fe2f2fa47.md)
 - [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md)
+- [DeskThing](../../watch/technical-a43c7bed70343513b48b.md)
 - [DOVER](../../watch/technical-b8310aeb0f869a64166e.md)
 - [EchoShot](../../watch/technical-de2f95b61d2c02d5ce4d.md)
 - [editly](../../watch/technical-4363f9e6c05405225725.md)
@@ -28,6 +29,7 @@
 - [Lynx](../../watch/technical-552480b4f83f4b977645.md)
 - [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
 - [MoCha](../../watch/technical-bfbf509a4b3bf34e42fa.md)
+- [moonlight-qt](../../watch/technical-9f9a1fce536e61f94e79.md)
 - [moviepy](../../watch/technical-8850110282c0b220a399.md)
 - [Pasteboard Viewer](../../watch/technical-1d1f56d738ca1db480ae.md)
 - [photopea/photopea](../../watch/technical-34a75990427dfeb34af2.md)
@@ -44,6 +46,8 @@
 - [viphoneme](../../watch/technical-7fc5c927ea623c45d807.md)
 - [Wan2.1](../../watch/technical-20e40e65da16af4ff766.md)
 - [Wan2.2](../../watch/technical-4f061292f12439d8c314.md)
+- [youtube-dl](../../watch/technical-200f4f9f3b7e9e0f30c9.md)
+- [yt-dlp](../../watch/technical-511a5089717fad8aad51.md)
 - [VoiceStudio](../../watch/technical-8bee61d896b5e33a0c30.md)
 - [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Fonction · Créer, publier et monétiser du contenu sur 14 plateformes.
 Avantages · Automatisation de la publication et des interactions.
@@ -162,9 +166,6 @@ Gain · Lancer des tâches sans client, organiser une bibliothèque.
 - [whisper-timestamped](../../watch/technical-4c4ce27d0a709ee5357e.md) — Fonction · Transcription avec timestamps et confiance par mot.
 Avantages · Estimation précise des segments sans détection de VAD.
 Gain · Éviter les hallucinations avec détection VAD intégrée.
-- [yt-dlp](../../watch/technical-511a5089717fad8aad51.md) — Fonction · Télécharge des vidéos et audios depuis des sites web.
-Avantages · Supporte des milliers de sites et des formats variés.
-Gain · Éviter de télécharger manuellement chaque fichier.
 - [AI Headshot Generator](../../watch/technical-0c9607a1c8e9eb918265.md) — Fonction · Génère des portraits professionnels via des prompts textuels.
 Avantages · Gère l'authentification, facturation et stockage des images.
 Gain · Lancer des générations en quelques clics sans configuration complexe.
@@ -341,9 +342,6 @@ Gain · Lancer la capture sans configuration manuelle.
 - [gemini-cli](../../watch/technical-24684c1ecca249c03e58.md) — Fonction · Exécuter des tâches via un terminal avec des modèles Gemini.
 Avantages · Authentification via clé API ou projet Cloud.
 Gain · Lancer des scripts sans interface graphique.
-- [youtube-dl](../../watch/technical-200f4f9f3b7e9e0f30c9.md) — Fonction · Télécharger des vidéos depuis YouTube et d'autres plateformes.
-Avantages · Gère les restrictions géographiques et les proxies.
-Gain · Éviter de configurer des outils externes pour accéder aux contenus.
 - [youtube-dlc](../../watch/technical-350bc4fbd59269522ae3.md) — Fonction · Télécharger des vidéos depuis YouTube et d'autres plateformes.
 Avantages · Gestion des listes de lecture et filtres de contenu.
 Gain · Éviter de télécharger des vidéos inutiles via des filtres.

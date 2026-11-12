@@ -10,9 +10,7 @@ actif
 
 ## Intérêts
 
-Fonction · Télécharger des vidéos depuis YouTube et d'autres plateformes.  
-Avantages · Gère les restrictions géographiques et les proxies.  
-Gain · Éviter de configurer des outils externes pour accéder aux contenus.
+Intérêt à vérifier
 
 ## Identité
 
@@ -22,10 +20,10 @@ Gain · Éviter de configurer des outils externes pour accéder aux contenus.
 
 - Nature : À vérifier
 - OS : macOS
-- Licence : À vérifier
+- Licence : Unlicense
 - Tarification : À vérifier
 - Accès : À vérifier
-- Preuve : À vérifier
+- Preuve : https://github.com/ytdl-org/youtube-dl
 
 
 ## Ontologie
@@ -41,34 +39,12 @@ Gain · Éviter de configurer des outils externes pour accéder aux contenus.
 
 - https://github.com/ytdl-org/youtube-dl
 - https://x.com/i/status/2059648731801399524
+- https://x.com/i/status/2112567090997567775
 
 ## Traçabilité
 
 - Origine : NotePlan
 - Identifiant source : 200f4f9f3b7e9e0f30c9f611d4fdf2e89fb8acd491e70817b4ac8e19101f6649
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Télécharge des vidéos depuis YouTube et d'autres plateformes.
-- Fonctionne sur les systèmes Unix, Windows et macOS.
-- Disponible sous licence public domain.
-- Requiert l'interpréteur Python 2.6, 2.7 ou 3.2+.
-
-## Usages documentés
-
-- youtube-dl [OPTIONS] URL [URL...]
-
-## Limites
-
-- Requiert Python 2.6, 2.7 ou 3.2+
-- Fonctionne sur les systèmes Unix, Windows et macOS
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/ytdl-org/youtube-dl
-- Analyse source : 2026-10-20T18:06:49.963Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -1,5 +1,7 @@
 # Applications et interfaces de bureau
 
+- [fastlane](../../watch/technical-026d3ff8cb1d2ae22fa5.md)
+- [MonitorControl](../../watch/technical-0e18a14e639bd2136bf6.md)
 - [TwinDesk](../../watch/technical-f7e87bae1ea9b74959c4.md)
 - [Noticky](../../watch/technical-9cd3273e9ce8f0bb884d.md)
 - [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Fonction · Exporte vidéos et images pour fonds d'écran animés.
