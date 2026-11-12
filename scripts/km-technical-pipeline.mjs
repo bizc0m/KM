@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import {collectPublicRaindrops} from './km-raindrop-public.mjs';
 import {noteplanCommand} from './km-noteplan-command.mjs';
 import {findProductImages} from './km-product-media.mjs';
 import {loadSources,fetchFeed} from './km-sources.mjs';
@@ -24,8 +25,12 @@ const ROOT=process.env.KM_ROOT || fileURLToPath(new URL('..',import.meta.url)).r
 const DATA=process.env.KM_PIPELINE_DATA || path.join(os.homedir(),'Library/Application Support/KM/pipeline');
 const MODEL=process.env.KM_OLLAMA_MODEL || 'qwen3:8b';
 const LIMIT=Number(process.env.KM_PIPELINE_LIMIT || 80);
+const NOTEPLAN_LIMIT=Number(process.env.KM_NOTEPLAN_LIMIT ?? Math.floor(LIMIT/2));
+const PHASE_BUDGET_MS=Number(process.env.KM_PHASE_BUDGET_MS || 30*60*1000);
+if(!Number.isInteger(LIMIT)||LIMIT<1||!Number.isInteger(NOTEPLAN_LIMIT)||NOTEPLAN_LIMIT<0||!Number.isFinite(PHASE_BUDGET_MS)||PHASE_BUDGET_MS<=0)throw new Error('invalid_cycle_budget');
 const cycleStartedAt=Date.parse(process.env.KM_CYCLE_STARTED_AT || new Date().toISOString());
 if(!Number.isFinite(cycleStartedAt))throw new Error("invalid_cycle_started_at");
+export function cycleBudgetAllows({processed,origin,phaseStartedAt,at=Date.now(),limit=LIMIT,noteplanLimit=NOTEPLAN_LIMIT,phaseBudgetMs=PHASE_BUDGET_MS}){return processed<(origin==='NotePlan'?Math.min(limit,noteplanLimit):limit)&&at-phaseStartedAt<phaseBudgetMs;}
 const hash=s=>crypto.createHash('sha256').update(s).digest('hex');
 const now=()=>new Date().toISOString();
 const readJson=async(p,f)=>{try{return JSON.parse(await readFile(p,'utf8'));}catch(e){if(e.code==='ENOENT')return f;throw e;}};
@@ -43,7 +48,7 @@ export async function classify(evidence){
   if(!response.ok)throw new Error(`model_http_${response.status}`);
   return JSON.parse((await response.json()).response);
 }
-async function resolveSource(url,onProgress=async()=>{}){
+async function resolveSource(url,onProgress=async()=>{},deadline=Infinity){
   const u=new URL(url);const isTweet=/^(x\.com|twitter\.com)$/.test(u.hostname)&&/\/status\/\d+/.test(u.pathname);
   if(!isTweet){const page=await loadPublicPage(url);return blocked(page.text)?{blocked:true}:{url:page.url,text:page.text.slice(0,24000),sources:[page.url]};}
   const dir=path.join(DATA,'crawls');await mkdir(dir,{recursive:true,mode:0o700});
@@ -51,7 +56,7 @@ async function resolveSource(url,onProgress=async()=>{}){
   const old=await readJson(file,{});const cache=old.version===CRAWL_VERSION?old.decisions || {}:{};
   const crawl=await crawlSource(url,{onProgress});
   if(crawl.blocked)return {blocked:true,crawl:crawl.report};
-  const analysis=await analyzeCrawl(crawl,classify,{cache,onProgress:async part=>{
+  const analysis=await analyzeCrawl(crawl,classify,{cache,deadline,onProgress:async part=>{
     await atomic(file,JSON.stringify({version:CRAWL_VERSION,at:now(),...part,decisions:{...cache,...part.decisions}}));
     await onProgress(part.report);
   }});
@@ -87,7 +92,7 @@ async function main(){
   const lock=path.join(DATA,'run.lock');let handle;
   try{handle=await open(lock,'wx',0o600);}catch(e){if(e.code!=='EEXIST')throw e;const l=await readJson(lock,{});try{process.kill(l.pid,0);console.log('already_running');return;}catch{}await rm(lock);handle=await open(lock,'wx',0o600);}
   await handle.writeFile(JSON.stringify({pid:process.pid,at:now()}));await handle.close();
-  const status={startedAt:now(),policy:POLICY_VERSION,created:0,updated:0,ignored:0,review:0,failures:0,noteplan:{ok:false},raindrop:{ok:false},errors:[]};
+  const status={startedAt:now(),policy:POLICY_VERSION,budget:{limit:LIMIT,noteplanLimit:NOTEPLAN_LIMIT,phaseBudgetMs:PHASE_BUDGET_MS},created:0,updated:0,ignored:0,review:0,failures:0,noteplan:{ok:false},raindrop:{ok:false},errors:[]};
   const state=await readJson(path.join(DATA,'state.json'),{urls:{},notes:{}});
   state.firstRun ||= now();
   if(state.toolFicheVersion!==CRAWL_VERSION){for(const note of Object.values(state.notes || {}))delete note.hash;state.lastNoteplanSuccess=null;state.toolFicheVersion=CRAWL_VERSION;}
@@ -121,6 +126,8 @@ async function main(){
     const fiche=await addFiche(key,d,sources,origin,analysis);status[existing?'updated':'created']++;
     return fiche;
   }
+  let phaseStartedAt=Date.now();
+  const hasBudget=origin=>cycleBudgetAllows({processed,origin,phaseStartedAt});
   async function processUrl(url,origin){
     let key;try{key=canonical(url);}catch{return;}
     if(blocked(key)){status.ignored++;return;}
@@ -132,9 +139,9 @@ async function main(){
     if(!needsRecrawl && (old?.status==='done' && (old.fiche || old.fiches?.length) || (old?.status==='ignored' && old.policy===POLICY_VERSION)))return;
     if(!needsRecrawl && old?.status==='retry' && Date.now()-Date.parse(old.at)<5*3600000)return;
     if(!isTweet && knownFiles.has(key)){state.urls[k]={status:'done',at:now(),existing:true,fiches:knownFiles.get(key)};return;}
-    if(processed>=LIMIT)return;processed++;
+    if(!hasBudget(origin))return;processed++;
     try{
-      const s=await resolveSource(key,async report=>{status.currentExploration=report;await checkpoint();});
+      const s=await resolveSource(key,async report=>{status.currentExploration=report;await checkpoint();},phaseStartedAt+PHASE_BUDGET_MS);
       if(isTweet){
         s.target=tweetFiles.get(crawlKey(key));
         const tools=await publishTools(s.details || [],{root:ROOT,origin,parent:crawlKey(key),addFiche,targets});
@@ -175,7 +182,7 @@ async function main(){
           let done=true;
           for(const segment of segments){
             for(const u of urls(segment).sort((a,b)=>Number(/\/status\/\d+/.test(b))-Number(/\/status\/\d+/.test(a)))){
-              if(processed>=LIMIT){done=false;complete=false;break;}
+              if(!hasBudget('NotePlan')){done=false;complete=false;break;}
               await processUrl(u,'NotePlan');
               const linked=state.urls[hash(canonical(u))];
               if(linked){const previous=state.notes[k] || {};state.notes[k]={...previous,fiches:[...new Set([...(previous.fiches || []),...(linked.fiches || []),...(linked.fiche?[linked.fiche]:[])])],at:now()};}
@@ -184,7 +191,7 @@ async function main(){
           }
           // Text-only Calendar captures require a wholly clean note and technical segments.
           if(note.allowText && segments.length && !segments.some(s=>urls(s).length)){
-            if(processed>=LIMIT){done=false;complete=false;}else{processed++;try{const r=await processCandidate(k,segments.join('\n').slice(0,16000),[],'NotePlan');if(r==='review'){done=false;complete=false;}else state.notes[k]={hash:digest,fiche:r,at:now()};}catch{done=false;complete=false;status.failures++;}}
+            if(!hasBudget('NotePlan')){done=false;complete=false;}else{processed++;try{const r=await processCandidate(k,segments.join('\n').slice(0,16000),[],'NotePlan');if(r==='review'){done=false;complete=false;}else state.notes[k]={hash:digest,fiche:r,at:now()};}catch{done=false;complete=false;status.failures++;}}
           }
           if(done)state.notes[k]={...state.notes[k],hash:digest,at:now()};else retryNotes.push(k);
           await checkpoint();
@@ -194,29 +201,32 @@ async function main(){
     }else status.noteplan={ok:true,skipped:'source désactivée dans sources.md'};
     await checkpoint();
     for(const source of configuredSources.filter(s=>s.type==='noteplan'))status.sources.push({name:source.name,type:source.type,...status.noteplan,items:status.noteplan.scanned||0,at:now()});
+    phaseStartedAt=Date.now();
     // Public page is inspected on every run; structured RSS is supplemental.
     const candidates=new Map();status.raindrop={ok:true,skipped:'source désactivée'};
     for(const source of configuredSources.filter(s=>s.type==='raindrop'&&s.enabled)){
     const publicPage=source.url;
     try{
       const page=await publicFetch(publicPage);
-      const seenIds=new Set();let expected=0;
+      const seenIds=new Set();let expected=0,collectionId;
+      const addItem=item=>{const hint=[item.title,item.excerpt,...(item.tags || [])].join(' ');if(item.link&&!blocked(hint+' '+item.link))candidates.set(item.link,'Raindrop');};
       function collectPage(html){
         for(const [,raw] of html.matchAll(/<script\b[^>]*type="application\/json"[^>]*>([\s\S]*?)<\/script>/g)){
           let data;try{data=JSON.parse(raw).data;}catch{continue;}
           if(!Array.isArray(data?.raindrops?.items))continue;
           expected=Math.max(expected,Number(data.raindrops.count || data.collection?.count || 0));
+          collectionId=data.collection?._id ?? collectionId;
           for(const item of data.raindrops.items){
             seenIds.add(String(item._id));
-            const hint=[item.title,item.excerpt,...(item.tags || [])].join(' ');
-            if(item.link && !blocked(hint+' '+item.link))candidates.set(item.link,'Raindrop');
+            addItem(item);
           }
         }
       }
       collectPage(page.text);
       const pages=[...new Set([...page.text.matchAll(/href="([^"]+)"/g)].map(m=>decode(m[1])).filter(p=>{try{const u=new URL(p,publicPage);return u.origin===new URL(publicPage).origin&&u.pathname.startsWith(new URL(publicPage).pathname)&&u.searchParams.has('page');}catch{return false;}}))];
       for(const p of pages.slice(0,100)){const u=new URL(p,publicPage);if(u.origin===new URL(publicPage).origin)collectPage((await publicFetch(u.href)).text);}
-      status.raindrop={pageRead:true,publicItems:seenIds.size,expectedPublicItems:expected,complete:expected>0 && seenIds.size>=expected};
+      let apiPagesRead=0;if(collectionId&&seenIds.size<expected)try{const pagination=await collectPublicRaindrops({collectionId,expected,seenIds,addItem});expected=pagination.expected;apiPagesRead=pagination.pagesRead;}catch{status.errors.push('RAINDROP_PUBLIC_PAGINATION_UNAVAILABLE');}
+      status.raindrop={pageRead:true,apiPagesRead,publicItems:seenIds.size,expectedPublicItems:expected,complete:expected>0 && seenIds.size>=expected};
       if(!status.raindrop.complete)status.errors.push('RAINDROP_PUBLIC_COVERAGE_INCOMPLETE');
     }catch{status.errors.push('RAINDROP_PAGE_UNAVAILABLE');}
     try{
@@ -231,7 +241,7 @@ async function main(){
     await atomic(path.join(DATA,'source-status.json'),JSON.stringify({at:now(),sources:status.sources}));
     await checkpoint();
     const ordered=[...candidates].sort(([a],[b])=>Number(/github\.com|gitlab\.com|huggingface\.co/.test(b))-Number(/github\.com|gitlab\.com|huggingface\.co/.test(a)));
-    for(const [u,origin] of ordered){const before=status.created+status.updated;await processUrl(u,origin);const source=status.sources.find(s=>origin==='RSS : '+s.name);if(source){source.processed=(source.processed||0)+1;source.ficheWrites=(source.ficheWrites||0)+status.created+status.updated-before;}}
+    for(const [u,origin] of ordered){const before=status.created+status.updated,beforeProcessed=processed;await processUrl(u,origin);const source=status.sources.find(s=>origin==='RSS : '+s.name || origin==='Raindrop'&&s.type==='raindrop');if(source){source.processed=(source.processed||0)+processed-beforeProcessed;source.ficheWrites=(source.ficheWrites||0)+status.created+status.updated-before;}}
     await atomic(path.join(DATA,'source-status.json'),JSON.stringify({at:now(),sources:status.sources}));
     status.pendingCalendar=Object.values(state.notes || {}).filter(n=>!n.hash).length;
     status.pending=[...candidates.keys()].filter(u=>{try{const r=state.urls[hash(canonical(u))];return !r || r.status==='retry';}catch{return false;}}).length;
@@ -241,7 +251,7 @@ async function main(){
     if(!html.includes('KM Search v2') || !html.includes('const KM_INDEX='))throw new Error('dashboard_verification_failed');
     await exec(process.execPath,[path.join(ROOT,'scripts/km-verify-placement.mjs')],{cwd:ROOT,env:process.env,timeout:30000,maxBuffer:1000000});
     status.dashboard={ok:true,file:'search-v2.html'};
-    if(!status.noteplan.ok || !status.raindrop.ok || status.failures || status.errors.length)status.health='attention';else status.health='ok';
+    if(!status.noteplan.ok || !status.raindrop.ok || status.failures || status.errors.length || status.pendingCalendar || status.pending)status.health='attention';else status.health='ok';
     state.lastRun=now();if(status.health==='ok')state.lastSuccess=now();await checkpoint();
   }catch(e){status.health='error';status.errors.push(String(e.message).replace(/https?:\/\/\S+/g,'[source]').slice(0,100));}
   finally{

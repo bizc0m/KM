@@ -69,10 +69,11 @@ export function summarizeCrawl(nodes,limits=CRAWL_DEFAULTS){
  const pending=nodes.filter(n=>['depth_limit','page_limit','time_limit','error'].includes(n.status)).length;
  return {version:CRAWL_VERSION,maxDepth:limits.maxDepth,maxPages:limits.maxPages,found:Math.max(0,nodes.length-1),read:count('read'),technical:nodes.filter(n=>n.analysis==='technical').length,review:nodes.filter(n=>n.analysis==='review').length,analysisErrors:nodes.filter(n=>n.analysis==='error').length,analysisPending:nodes.filter(n=>n.status==='read'&&n.analysis==='pending').length,excerpted:nodes.filter(n=>n.excerpted).length,unread:pending,excluded:count('excluded')+count('nontechnical')+count('navigation')+count('unsupported')+count('invalid')+nodes.filter(n=>n.analysis==='ignored').length,duplicates:count('duplicate'),depthLimited:count('depth_limit'),pageLimited:count('page_limit'),timeLimited:count('time_limit'),errors:count('error'),complete:pending===0&&!nodes.some(n=>n.partial||n.status==='read'&&['pending','review','error'].includes(n.analysis))};
 }
-export async function analyzeCrawl(crawl,classify,{cache={},onProgress=async()=>{}}={}){
+export async function analyzeCrawl(crawl,classify,{cache={},onProgress=async()=>{},deadline=Infinity}={}){
  const decisions={};
  for(const node of crawl.nodes){
   if(node.status!=='read')continue;
+  if(Date.now()>=deadline)break;
   const digest=crypto.createHash('sha256').update(node.text).digest('hex');
   const evidence=node.text.slice(0,18000);node.excerpted=node.text.length>18000;
   try{
