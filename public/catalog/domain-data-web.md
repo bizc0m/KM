@@ -3,16 +3,16 @@
 - [Crawlab](../../watch/technical-6056740628cf01a1e192.md)
 - [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
 - [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
-- [scrapy-playwright](../../watch/technical-2e317194feb446319292.md)
-- [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
-- [trafilatura](../../watch/technical-aa8ca5206f8b696337e9.md)
 - [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
 - [mcp-webresearch](../../watch/technical-6b0d6844a1825aa4d5da.md)
 - [research-mcp](../../watch/technical-ffc05a5b982c09b92791.md)
 - [oxylabs/web-api-mcp](../../watch/technical-4d03aa0eeecb3abfcbad.md)
 - [retrieval-go](../../watch/technical-dca806554efeda77bfb9.md)
-- [scrapecreators-cli](../../watch/technical-fcf0bfc48ab0ce73e30a.md)
+- [scrapy-playwright](../../watch/technical-2e317194feb446319292.md)
+- [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
+- [trafilatura](../../watch/technical-aa8ca5206f8b696337e9.md)
 - [web-scout-mcp](../../watch/technical-e54359e32dffb4db43b7.md)
+- [scrapecreators-cli](../../watch/technical-fcf0bfc48ab0ce73e30a.md)
 - [ani-cli](../../watch/technical-2993f5bd5143a68eff85.md) — Fonction · CLI pour parcourir et visionner des anime via hianime.
 Avantages · Scrapes hianime pour accéder aux épisodes.
 Gain · Lancer des séances de visionnage sans navigateur.

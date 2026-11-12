@@ -1,5 +1,6 @@
 # Vidéo
 
+- [DOVER](../../watch/technical-b8310aeb0f869a64166e.md)
 - [Helios](../../watch/technical-9f2d613fa72208f070af.md)
 - [HunyuanVideo](../../watch/technical-c68e0c3a6fae281f326e.md)
 - [LTX-2](../../watch/technical-fa120014620b12d49e58.md)
@@ -11,7 +12,6 @@
 - [Wan2.2](../../watch/technical-4f061292f12439d8c314.md)
 - [BindWeave](../../watch/technical-fa71f92dbb3617f853df.md)
 - [ComfyUI-LTXVideo](../../watch/technical-788ada22f51fe2f2fa47.md)
-- [DOVER](../../watch/technical-b8310aeb0f869a64166e.md)
 - [EchoShot](../../watch/technical-de2f95b61d2c02d5ce4d.md)
 - [HuMo](../../watch/technical-d758de2fa9fb5f8a8a0a.md)
 - [IINA](../../watch/technical-ddaf6a4e47052c78f577.md)

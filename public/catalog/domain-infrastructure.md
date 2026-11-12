@@ -1,14 +1,14 @@
 # Infrastructure
 
-- [supermetry](../../watch/technical-9393728b99ba6f234816.md)
 - [dagu](../../watch/technical-ba28cf8980c41a0f6c5e.md)
-- [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
 - [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
 - [mcp-webresearch](../../watch/technical-6b0d6844a1825aa4d5da.md)
-- [OpenAlex](../../watch/technical-ec41529cbfe7f574fbb1.md)
 - [oxylabs/web-api-mcp](../../watch/technical-4d03aa0eeecb3abfcbad.md)
 - [Searchlight](../../watch/technical-d4d044cd39765ba2f35d.md)
+- [supermetry](../../watch/technical-9393728b99ba6f234816.md)
 - [web-scout-mcp](../../watch/technical-e54359e32dffb4db43b7.md)
+- [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
+- [OpenAlex](../../watch/technical-ec41529cbfe7f574fbb1.md)
 - [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Fonction · Client email self-hosted avec agent AI.
 Avantages · Isolation par boîte mail et stockage R2.
 Gain · Générer des réponses en temps réel via Workers AI.
