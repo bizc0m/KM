@@ -1,5 +1,6 @@
 # Création 3D
 
+- [SCAIL](../../watch/technical-b9ba8444c3aad5509895.md)
 - [AlphaTablets](../../watch/technical-ca3c69add82754901cf6.md) — Fonction · Représentation 3D des plans via des rectangles avec canaux alpha.
 Avantages · Combinaison des avantages des représentations 2D et 3D.
 Gain · Reconstruction précise de plans 3D à partir de vidéos monoculaires.

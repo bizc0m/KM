@@ -1,4 +1,4 @@
-# kokoro
+# Kokoro
 
 ## Statut
 
@@ -10,9 +10,7 @@ actif
 
 ## Intérêts
 
-Fonction · Conversion de texte en parole via modèle TTS.  
-Avantages · Modèle léger avec 82M paramètres, qualité comparable.  
-Gain · Générer audio sans configuration complexe.
+Intérêt à vérifier
 
 ## Identité
 
@@ -22,10 +20,10 @@ Gain · Générer audio sans configuration complexe.
 
 - Nature : À vérifier
 - OS : À vérifier
-- Licence : À vérifier
+- Licence : Apache-2.0
 - Tarification : À vérifier
 - Accès : À vérifier
-- Preuve : À vérifier
+- Preuve : https://github.com/hexgrad/kokoro
 
 
 ## Ontologie
@@ -41,11 +39,12 @@ Gain · Générer audio sans configuration complexe.
 
 - https://github.com/hexgrad/kokoro
 - https://x.com/i/status/2058253217335501272
+- https://x.com/i/status/2115529519830585366
 
 ## Traçabilité
 
 - Origine : NotePlan
 - Identifiant source : aa11653c4d25a0e989a1cafb5a4c09ae86a55ce4e802a34df9f08616be2ffcae
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-26
+- Lecture KM : 2026-11-11
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

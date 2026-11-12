@@ -1,5 +1,8 @@
 # Analyse financière
 
+- [ai-hedge-fund](../../watch/technical-93b2cfb4f88278ad5c7f.md)
+- [ccxt](../../watch/technical-b311af1e723666baa9db.md)
+- [freqtrade](../../watch/technical-538bbf2ca517deb942ba.md)
 - [SeekerClaw](../../watch/technical-6a7363072642ee3e6fc9.md) — Contrôle des appareils Android via un agent AI en temps réel
 - [AI-Trader](../../watch/technical-696f5b09666c81fe3adc.md) — Fonction · Intégration instantanée des agents IA.
 Avantages · Signaux et stratégies prédéfinis.

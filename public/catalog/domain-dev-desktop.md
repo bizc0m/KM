@@ -1,6 +1,7 @@
 # Applications et interfaces de bureau
 
 - [Noticky](../../watch/technical-9cd3273e9ce8f0bb884d.md)
+- [TwinDesk](../../watch/technical-f7e87bae1ea9b74959c4.md)
 - [MeltKit](../../watch/technical-6a483fbc42057e7dc8d1.md) — Fonction · Exporte vidéos et images pour fonds d'écran animés.
 Avantages · Intégre calendrier NotePlan pour planification.
 Gain · Créer des fonds d'écran sans logiciel externe.

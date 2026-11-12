@@ -1,5 +1,6 @@
 # Marchés prédictifs
 
+- [ccxt](../../watch/technical-b311af1e723666baa9db.md)
 - [Augur Trading Bot](../../watch/technical-1f02bc8ebd550362cbc2.md) — Fonction · Exécute des stratégies de trading sur des marchés de prévision.
 Avantages · Adapte aux plateformes comme Predict.fun et Polymarket.
 Gain · Lancer des tests sans risque avant de trader réellement.

@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Génère des synthèses vocales en plusieurs langues avec précision.
+Intérêt à vérifier
 
 ## Identité
 
@@ -20,10 +20,10 @@ Génère des synthèses vocales en plusieurs langues avec précision.
 
 - Nature : À vérifier
 - OS : À vérifier
-- Licence : À vérifier
+- Licence : Apache-2.0
 - Tarification : À vérifier
 - Accès : À vérifier
-- Preuve : À vérifier
+- Preuve : https://github.com/QwenAudio/CosyVoice
 
 
 ## Ontologie
@@ -39,25 +39,13 @@ Génère des synthèses vocales en plusieurs langues avec précision.
 
 - https://github.com/funaudiollm/cosyvoice
 - https://x.com/i/status/2058253217335501272
+- https://x.com/i/status/2116455490846876025
+- https://github.com/QwenAudio/CosyVoice
 
 ## Traçabilité
 
 - Origine : NotePlan
 - Identifiant source : 4dbf8b61c8b24b3bf3690be4996d2a3cf0b6ce35a06a1f11e923e756105ce2fd
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-26
+- Lecture KM : 2026-11-11
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Système de synthèse vocale textuelle basé sur des modèles de langage.
-- Support 9 langues et 18 dialectes chinois.
-- Performances élevées en cohérence et naturel.
-- Prise en charge de l'analyse phonétique et de la normalisation textuelle.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/funaudiollm/cosyvoice
-- Analyse source : 2026-10-26T05:01:03.314Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

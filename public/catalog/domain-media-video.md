@@ -1,5 +1,28 @@
 # Vidéo
 
+- [BindWeave](../../watch/technical-fa71f92dbb3617f853df.md)
+- [ComfyUI-LTXVideo](../../watch/technical-788ada22f51fe2f2fa47.md)
+- [DOVER](../../watch/technical-b8310aeb0f869a64166e.md)
+- [EchoShot](../../watch/technical-de2f95b61d2c02d5ce4d.md)
+- [Helios](../../watch/technical-9f2d613fa72208f070af.md)
+- [HuMo](../../watch/technical-d758de2fa9fb5f8a8a0a.md)
+- [HunyuanVideo](../../watch/technical-c68e0c3a6fae281f326e.md)
+- [IINA](../../watch/technical-ddaf6a4e47052c78f577.md)
+- [LTX-2](../../watch/technical-fa120014620b12d49e58.md)
+- [LTX-Video](../../watch/technical-ce7290d953bccb2d84d8.md)
+- [LTX-Video (Legacy)](../../watch/technical-8c429240f3eff91a1b36.md)
+- [LTX-Video-Trainer](../../watch/technical-c5c0bf6589cc8ba1d595.md)
+- [Lynx](../../watch/technical-552480b4f83f4b977645.md)
+- [MoCha](../../watch/technical-bfbf509a4b3bf34e42fa.md)
+- [moviepy](../../watch/technical-8850110282c0b220a399.md)
+- [Prompt Relay](../../watch/technical-917d0189f02f4a95ace6.md)
+- [RF-Solver-Edit](../../watch/technical-4c623ce305ac3d1576ec.md)
+- [SteadyDancer](../../watch/technical-8317f5fa97f4954a5d4f.md)
+- [TalkVerse](../../watch/technical-b9a75739439a1096d99d.md)
+- [Time-to-Move](../../watch/technical-e0c736c548ec8d5fa375.md)
+- [VACE](../../watch/vace-video-creation-editing.md)
+- [Wan2.1](../../watch/technical-20e40e65da16af4ff766.md)
+- [Wan2.2](../../watch/technical-4f061292f12439d8c314.md)
 - [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Fonction · Créer, publier et monétiser du contenu sur 14 plateformes.
 Avantages · Automatisation de la publication et des interactions.
 Gain · Publier directement sans configuration complexe.
@@ -112,7 +135,6 @@ Gain · Lancer des projets sans coder, avec modèles prêts.
 - [Générateur de vidéo d'embrassade IA](../../watch/technical-d85e8aba072628b2e82b.md) — Fonction · Génère des vidéos de baisers en fusionnant deux photos.
 Avantages · Support multi-modèles et gestion des crédits via Stripe.
 Gain · Créer des animations en quelques secondes sans codage.
-- [Wan2.1](../../watch/technical-20e40e65da16af4ff766.md) — Génère des vidéos à partir de texte et d'images avec des modèles optimisés pour GPU.
 - [vidsrc](../../watch/technical-4d7ca480ccb1704faf5b.md) — Fonction · Lire des frames de vidéos en tant que tableaux NumPy.
 Avantages · Utilise l'interface DirectShow IMediaDet.
 Gain · Accéder directement aux frames sans conversion intermédiaire.
@@ -183,9 +205,6 @@ Gain · Exporter sans re-encoder, sauvegarder espace.
 - [OBS Shaderfilter](../../watch/obs-shaderfilter.md) — Fonction · Applique des shaders HLSL aux sources OBS.
 Avantages · Paramètres dynamiques avec annotations.
 Gain · Éviter de coder un vertex shader complet.
-- [VACE Video Creation Editing](../../watch/vace-video-creation-editing.md) — Fonction · Créer et éditer des vidéos via des prompts textuels et des masques.
-Avantages · Supporte des tâches comme Move-Anything et Swap-Anything.
-Gain · Lancer des tâches d'éditation sans prétraitement complexe.
 - [Veejay Live Video Sampler](../../watch/veejay-live-video-sampler.md) — Fonction · Traitement vidéo en temps réel, échantillonnage, enregistrement.
 Avantages · Gestion de multiples instances et automatisation VIMS.
 Gain · Contrôler plusieurs VeeJay comme un système de performance.

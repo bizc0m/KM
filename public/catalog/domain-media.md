@@ -1,5 +1,42 @@
 # Audio, vidéo et création
 
+- [aesthetic-predictor-v2-5](../../watch/technical-bd69dc0d4bb066bb0ea3.md)
+- [AnimateDiff](../../watch/technical-013b39bacbc70af1bc3e.md)
+- [BindWeave](../../watch/technical-fa71f92dbb3617f853df.md)
+- [claude-animation-skill](../../watch/technical-bcd0154c6d60ef4c770e.md)
+- [ComfyUI-LTXVideo](../../watch/technical-788ada22f51fe2f2fa47.md)
+- [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md)
+- [DOVER](../../watch/technical-b8310aeb0f869a64166e.md)
+- [EchoShot](../../watch/technical-de2f95b61d2c02d5ce4d.md)
+- [facebookresearch/DiT](../../watch/technical-99f7e720fd6c858f2647.md)
+- [FlowEdit](../../watch/technical-9cd479303e19239f0e30.md)
+- [Helios](../../watch/technical-9f2d613fa72208f070af.md)
+- [HuMo](../../watch/technical-d758de2fa9fb5f8a8a0a.md)
+- [HunyuanVideo](../../watch/technical-c68e0c3a6fae281f326e.md)
+- [IINA](../../watch/technical-ddaf6a4e47052c78f577.md)
+- [invisible-watermark](../../watch/technical-005abdbffd4cbd1b8847.md)
+- [Kokoro](../../watch/technical-aa11653c4d25a0e989a1.md)
+- [krita-ai-diffusion](../../watch/technical-2ef347c5b5044c98dbe3.md)
+- [LTX-2](../../watch/technical-fa120014620b12d49e58.md)
+- [LTX-Video](../../watch/technical-ce7290d953bccb2d84d8.md)
+- [LTX-Video (Legacy)](../../watch/technical-8c429240f3eff91a1b36.md)
+- [LTX-Video-Trainer](../../watch/technical-c5c0bf6589cc8ba1d595.md)
+- [Lynx](../../watch/technical-552480b4f83f4b977645.md)
+- [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
+- [MoCha](../../watch/technical-bfbf509a4b3bf34e42fa.md)
+- [moviepy](../../watch/technical-8850110282c0b220a399.md)
+- [Pasteboard Viewer](../../watch/technical-1d1f56d738ca1db480ae.md)
+- [Prompt Relay](../../watch/technical-917d0189f02f4a95ace6.md)
+- [RF-Solver-Edit](../../watch/technical-4c623ce305ac3d1576ec.md)
+- [SCAIL](../../watch/technical-b9ba8444c3aad5509895.md)
+- [SteadyDancer](../../watch/technical-8317f5fa97f4954a5d4f.md)
+- [StyleTTS2](../../watch/technical-b1d87499edb0ad1e43f4.md)
+- [TalkVerse](../../watch/technical-b9a75739439a1096d99d.md)
+- [Time-to-Move](../../watch/technical-e0c736c548ec8d5fa375.md)
+- [VACE](../../watch/vace-video-creation-editing.md)
+- [VoiceStudio](../../watch/technical-8bee61d896b5e33a0c30.md)
+- [Wan2.1](../../watch/technical-20e40e65da16af4ff766.md)
+- [Wan2.2](../../watch/technical-4f061292f12439d8c314.md)
 - [AiToEarn](../../watch/technical-252e5a55f7318a7eec1e.md) — Fonction · Créer, publier et monétiser du contenu sur 14 plateformes.
 Avantages · Automatisation de la publication et des interactions.
 Gain · Publier directement sans configuration complexe.
@@ -12,7 +49,6 @@ Gain · Éviter la modélisation manuelle des assemblages 3D.
 - [CHARM](../../watch/technical-4f72d6274858ca1e8190.md) — Fonction · Génère des styles de cheveux 3D anime via des points de contrôle.
 Avantages · Modèle préentraîné et données de test disponibles.
 Gain · Exécuter des générations et évaluations sans configuration complexe.
-- [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md) — Génère des synthèses vocales en plusieurs langues avec précision.
 - [DarkFeat](../../watch/technical-74dc45b5f749db3d46d0.md) — Fonction · Détecte et décrit des caractéristiques dans des images RAW très sombres.
 Avantages · Résistant au bruit et adapté aux conditions extrêmes.
 Gain · Éviter la prétraitement complexe pour les images faiblement éclairées.
@@ -45,9 +81,6 @@ Gain · Lancer la transcription sans installer FFmpeg.
 - [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Fonction · Envoie d'e-mails, reconnaissance optique de texte, recherche YouTube, gestion de tâches.
 Avantages · Intégration d'API pour les nouvelles dynamiques.
 Gain · Lancer des tâches sans interface graphique.
-- [kokoro](../../watch/technical-aa11653c4d25a0e989a1.md) — Fonction · Conversion de texte en parole via modèle TTS.
-Avantages · Modèle léger avec 82M paramètres, qualité comparable.
-Gain · Générer audio sans configuration complexe.
 - [lobster](../../watch/technical-0ebd1f1b56ff3fc73866.md) — Rechercher et visionner des films et séries en ligne
 - [LongCat-Video](../../watch/technical-3794fe05156a712cb6fd.md) — Convertir du texte ou des images en vidéos longues.
 - [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Fonction · Convertir Markdown en images pour réseaux sociaux.
@@ -209,7 +242,6 @@ Gain · Créer des animations en quelques secondes sans codage.
 - [Nano Banana Generator](../../watch/technical-d5417dd0599d69bd651b.md) — Fonction · Générer et éditer des images via des prompts ou des références visuelles.
 Avantages · Intégration de Google Search et de Stripe pour validation et facturation.
 Gain · Créer des œuvres en mode édition avec 14 références et historique persistant.
-- [Wan2.1](../../watch/technical-20e40e65da16af4ff766.md) — Génère des vidéos à partir de texte et d'images avec des modèles optimisés pour GPU.
 - [chebyfit](../../watch/technical-6ff3b2d69dcfadd6ca9a.md) — Fonction · Fitting de fonctions exponentielles et harmoniques.
 Avantages · Algorithmes analytiques avec précision.
 Gain · Analyser des images en domaine temporel sans prétraitement.
@@ -383,9 +415,6 @@ Gain · Éviter de coder un vertex shader complet.
 - [OpenVJ Web VJ Tool](../../watch/openvj-web-vj-tool.md) — Fonction · Projection mapping et visualisation en temps réel via navigateur.
 Avantages · Contrôle MIDI, réactivité audio, génération de shaders IA.
 Gain · Lancer des performances sans matériel coûteux.
-- [VACE Video Creation Editing](../../watch/vace-video-creation-editing.md) — Fonction · Créer et éditer des vidéos via des prompts textuels et des masques.
-Avantages · Supporte des tâches comme Move-Anything et Swap-Anything.
-Gain · Lancer des tâches d'éditation sans prétraitement complexe.
 - [Veejay Live Video Sampler](../../watch/veejay-live-video-sampler.md) — Fonction · Traitement vidéo en temps réel, échantillonnage, enregistrement.
 Avantages · Gestion de multiples instances et automatisation VIMS.
 Gain · Contrôler plusieurs VeeJay comme un système de performance.

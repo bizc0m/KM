@@ -2,7 +2,24 @@
 
 - [agent-browser](../../watch/technical-401c6af5b51d16a5ed2f.md)
 - [agent-desktop](../../watch/technical-23746973c38c4e68bc89.md)
+- [claude-animation-skill](../../watch/technical-bcd0154c6d60ef4c770e.md)
+- [dagu](../../watch/technical-ba28cf8980c41a0f6c5e.md)
+- [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
+- [DeepResearch Bench](../../watch/technical-a99452c8e16aa64919f7.md)
+- [deepseek-harness](../../watch/technical-890a56b0d2aff0c91c90.md)
+- [impeccable](../../watch/technical-ec673bd7694d3a658bba.md)
+- [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
+- [mcp-webresearch](../../watch/technical-6b0d6844a1825aa4d5da.md)
+- [opencode](../../watch/technical-ffccace0ba14fd154d90.md)
+- [OpenMausBot](../../watch/technical-a9b556051dc6e3270941.md)
+- [research-mcp](../../watch/technical-ffc05a5b982c09b92791.md)
+- [oxylabs/web-api-mcp](../../watch/technical-4d03aa0eeecb3abfcbad.md)
+- [qlib](../../watch/technical-c750f525fc3dfb26b9af.md)
+- [retrieval-go](../../watch/technical-dca806554efeda77bfb9.md)
+- [scrapecreators-cli](../../watch/technical-fcf0bfc48ab0ce73e30a.md)
+- [Searchlight](../../watch/technical-d4d044cd39765ba2f35d.md)
 - [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
+- [web-scout-mcp](../../watch/technical-e54359e32dffb4db43b7.md)
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Fonction · Définir des principes pour construire des applications LLM fiables et scalables.
 Avantages · Structurer la logique et les interactions avec les outils.
 Gain · Réduire la complexité et améliorer la maintenance du code.
@@ -155,9 +172,6 @@ Gain · Lancer des tâches de rendu sans configuration complexe.
 Avantages · Templates de documents et de présentations multilingues.
 Gain · Créer des visuels professionnels sans paramétrage complexe.
 - [Raven](../../watch/technical-991d8b9d9433d93423eb.md) — Orchestre des agents pour exécuter des tâches complexes
-- [OpenCode](../../watch/technical-ffccace0ba14fd154d90.md) — Fonction · Génère du code via un agent IA.
-Avantages · Agent build pour développement, agent plan pour analyse.
-Gain · Éviter de rédiger du code sans contexte.
 - [Awesome Agent Skills](../../watch/technical-42c5a49b8cf68812c97a.md) — Créez des compétences agent pour des outils comme Claude, Gemini, Cursor.
 - [CodeGraph](../../watch/technical-5ae8aede20b527323884.md) — Fonction · Construit un graphe de code pour les agents.
 Avantages · Analyse structurelle et résolution inter-fichiers.

@@ -1,12 +1,20 @@
-# VACE Video Creation Editing
+# VACE
 
-## Type
+## Statut
 
- creation et edition video IA.
+actif
 
 ## Tags
 
-#generation-video, #montage-video
+#generation-video, #montage-video, #generation-images
+
+## Intérêts
+
+Intérêt à vérifier
+
+## Identité
+
+- Dépôt principal : https://github.com/ali-vilab/vace
 
 ## Métadonnées
 
@@ -21,37 +29,22 @@
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai domain.media.video capability.generate.video capability.edit.video risk.sensitive source.github
-- Sujets : Intelligence artificielle ; Audio, vidéo et création > Vidéo
-- Fonctions : Générer des contenus > Générer une vidéo ; Monter une vidéo
-- Risques : Risque signalé
-- Provenance : GitHub
+- Identifiants : domain.media.video domain.media.image capability.generate.video capability.edit.video capability.generate.image source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
+- Fonctions : Générer des contenus > Générer une vidéo ; Monter une vidéo ; Générer des contenus > Générer une image
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
 
 ## Sources
 
 - https://github.com/ali-vilab/vace
 - https://github.com/ali-vilab/VACE](https://github.com/ali-vilab/VACE
+- https://x.com/i/status/2115634257314107707
 
-## Topics GitHub
+## Traçabilité
 
-- Repo: `https://github.com/ali-vilab/VACE`
-- Topics: video-editing, video-generation
-- Licence relevee: Apache-2.0
-- Etoiles relevees: 3939
-- Derniere activite relevee: 2026-09-08T18:44:47Z
-
-## A verifier
-
-- Licence des modeles/poids.
-- Donnees d'entrainement et restrictions.
-- Execution locale et cout materiel.
-
-### v0.1 - 2026-09-09
-
-- Objectif: creer la fiche individuelle depuis l'archive NotePlan 2026.
-
-## Intérêts
-
-Fonction · Créer et éditer des vidéos via des prompts textuels et des masques.  
-Avantages · Supporte des tâches comme Move-Anything et Swap-Anything.  
-Gain · Lancer des tâches d'éditation sans prétraitement complexe.
+- Origine : NotePlan
+- Identifiant source : 1543d8f50bdad8026b61cc6545d2b2436160f6e1eb7bc8ca9ed6a26e91ef80fd
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-11-11
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

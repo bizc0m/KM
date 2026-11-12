@@ -1,6 +1,9 @@
 # Voix
 
-- [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md) — Génère des synthèses vocales en plusieurs langues avec précision.
+- [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md)
+- [Kokoro](../../watch/technical-aa11653c4d25a0e989a1.md)
+- [StyleTTS2](../../watch/technical-b1d87499edb0ad1e43f4.md)
+- [VoiceStudio](../../watch/technical-8bee61d896b5e33a0c30.md)
 - [edge-tts](../../watch/technical-fb7d8c0c8a030338b784.md) — Fonction · Convertir du texte en parole via Microsoft Edge.
 Avantages · Utilisation sans Edge, gestion des voix et paramètres.
 Gain · Générer et jouer des fichiers audio rapidement.
@@ -13,9 +16,6 @@ Gain · Éviter l'entraînement de modèles vocaux complets.
 - [faster-whisper](../../watch/technical-f5a99e06873448a9f3ba.md) — Fonction · Transcription audio avec CTranslate2.
 Avantages · Plus rapide et moins gourmand en mémoire.
 Gain · Lancer la transcription sans installer FFmpeg.
-- [kokoro](../../watch/technical-aa11653c4d25a0e989a1.md) — Fonction · Conversion de texte en parole via modèle TTS.
-Avantages · Modèle léger avec 82M paramètres, qualité comparable.
-Gain · Générer audio sans configuration complexe.
 - [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Fonction · Cloner, synthétiser, traduire et transcrire des voix.
 Avantages · Fonctionnalités audio-vidéo sans connexion internet.
 Gain · Éviter l'export vers des services externes.

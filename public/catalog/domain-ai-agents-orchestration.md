@@ -1,5 +1,6 @@
 # Orchestration des agents
 
+- [dagu](../../watch/technical-ba28cf8980c41a0f6c5e.md)
 - [Awesome Codex CLI](../../watch/technical-8e516fbfe344018b3245.md) — Fonction · Génère du code, refactore, débogue via terminal.
 Avantages · Intégre sandbox, orchestration multi-agents, MCP.
 Gain · Lancer des tâches sans interface graphique.

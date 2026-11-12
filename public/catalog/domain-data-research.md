@@ -1,5 +1,6 @@
 # Recherche documentaire
 
+- [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
 - [geo-seo-claude](../../watch/technical-a3b183624a359158d2f2.md) — Fonction · Audit et optimisation SEO pour moteurs AI et moteurs traditionnels.
 Avantages · Analyse de citabilité, balayage de crawlers AI, détection de mentions de marque.
 Gain · Générer rapports PDF, optimiser pour plateformes spécifiques en 60 secondes.

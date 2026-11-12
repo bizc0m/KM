@@ -1,6 +1,14 @@
 # Audio
 
-- [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md) — Génère des synthèses vocales en plusieurs langues avec précision.
+- [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md)
+- [HuMo](../../watch/technical-d758de2fa9fb5f8a8a0a.md)
+- [Kokoro](../../watch/technical-aa11653c4d25a0e989a1.md)
+- [LTX-2](../../watch/technical-fa120014620b12d49e58.md)
+- [LTX-Video (Legacy)](../../watch/technical-8c429240f3eff91a1b36.md)
+- [moviepy](../../watch/technical-8850110282c0b220a399.md)
+- [StyleTTS2](../../watch/technical-b1d87499edb0ad1e43f4.md)
+- [TalkVerse](../../watch/technical-b9a75739439a1096d99d.md)
+- [VoiceStudio](../../watch/technical-8bee61d896b5e33a0c30.md)
 - [Demucs](../../watch/technical-c10d8f74eadd9334181e.md) — Fonction · Sépare drums, bass, vocals et autres pistes d'une musique.
 Avantages · Modèle hybride spectrogramme/vague avec attention croisée.
 Gain · Lancer la séparation en quelques secondes sans paramètres.
@@ -23,9 +31,6 @@ Gain · Lancer la transcription sans installer FFmpeg.
 - [J.A.R.V.I.S.](../../watch/technical-175145cf9f61d50d798d.md) — Fonction · Envoie d'e-mails, reconnaissance optique de texte, recherche YouTube, gestion de tâches.
 Avantages · Intégration d'API pour les nouvelles dynamiques.
 Gain · Lancer des tâches sans interface graphique.
-- [kokoro](../../watch/technical-aa11653c4d25a0e989a1.md) — Fonction · Conversion de texte en parole via modèle TTS.
-Avantages · Modèle léger avec 82M paramètres, qualité comparable.
-Gain · Générer audio sans configuration complexe.
 - [OmniVoice Studio](../../watch/technical-5ba505eac127e82e4362.md) — Fonction · Cloner, synthétiser, traduire et transcrire des voix.
 Avantages · Fonctionnalités audio-vidéo sans connexion internet.
 Gain · Éviter l'export vers des services externes.

@@ -10,7 +10,7 @@ actif
 
 ## Intérêts
 
-Génère des vidéos à partir de texte et d'images avec des modèles optimisés pour GPU.
+Intérêt à vérifier
 
 ## Identité
 
@@ -39,11 +39,13 @@ Génère des vidéos à partir de texte et d'images avec des modèles optimisés
 
 - https://github.com/wan-video/wan2.1
 - https://x.com/i/status/2056408789327462486
+- https://x.com/i/status/2116455490846876025
+- https://x.com/i/status/2115634257314107707
 
 ## Traçabilité
 
 - Origine : NotePlan
 - Identifiant source : 20e40e65da16af4ff7666a42bdf69b3c02db77b6068dc56b2e2166c94bcf8945
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-22
+- Lecture KM : 2026-11-11
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

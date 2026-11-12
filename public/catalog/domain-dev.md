@@ -1,9 +1,15 @@
 # Développement logiciel
 
 - [agent-browser](../../watch/technical-401c6af5b51d16a5ed2f.md)
+- [ccxt](../../watch/technical-b311af1e723666baa9db.md)
 - [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
 - [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
+- [impeccable](../../watch/technical-ec673bd7694d3a658bba.md)
 - [Noticky](../../watch/technical-9cd3273e9ce8f0bb884d.md)
+- [opencode](../../watch/technical-ffccace0ba14fd154d90.md)
+- [Pasteboard Viewer](../../watch/technical-1d1f56d738ca1db480ae.md)
+- [qlib](../../watch/technical-c750f525fc3dfb26b9af.md)
+- [TwinDesk](../../watch/technical-f7e87bae1ea9b74959c4.md)
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
 Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export
 Gain · Productivité · Réutilisation · Contexte · Collaboration
@@ -124,9 +130,6 @@ Gain · Lancer des tâches de rendu sans configuration complexe.
 - [Générateur de vidéo d'embrassade IA](../../watch/technical-d85e8aba072628b2e82b.md) — Fonction · Génère des vidéos de baisers en fusionnant deux photos.
 Avantages · Support multi-modèles et gestion des crédits via Stripe.
 Gain · Créer des animations en quelques secondes sans codage.
-- [OpenCode](../../watch/technical-ffccace0ba14fd154d90.md) — Fonction · Génère du code via un agent IA.
-Avantages · Agent build pour développement, agent plan pour analyse.
-Gain · Éviter de rédiger du code sans contexte.
 - [orogene](../../watch/technical-6bb0ffb5ad3771787603.md) — Fonction · Gère les dépendances pour les outils utilisant node_modules.
 Avantages · Installe rapidement avec peu de ressources.
 Gain · Éviter de vérifier manuellement les mises à jour.

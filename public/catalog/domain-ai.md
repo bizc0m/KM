@@ -2,9 +2,36 @@
 
 - [agent-browser](../../watch/technical-401c6af5b51d16a5ed2f.md)
 - [agent-desktop](../../watch/technical-23746973c38c4e68bc89.md)
+- [ai-hedge-fund](../../watch/technical-93b2cfb4f88278ad5c7f.md)
+- [cache-dit](../../watch/technical-159ec935b39905997411.md)
+- [claude-animation-skill](../../watch/technical-bcd0154c6d60ef4c770e.md)
+- [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md)
 - [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
 - [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
+- [dagu](../../watch/technical-ba28cf8980c41a0f6c5e.md)
+- [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
+- [DeepResearch Bench](../../watch/technical-a99452c8e16aa64919f7.md)
+- [deepseek-harness](../../watch/technical-890a56b0d2aff0c91c90.md)
+- [desloppify](../../watch/technical-273aed2396317e012b08.md)
+- [EchoShot](../../watch/technical-de2f95b61d2c02d5ce4d.md)
+- [facebookresearch/DiT](../../watch/technical-99f7e720fd6c858f2647.md)
+- [impeccable](../../watch/technical-ec673bd7694d3a658bba.md)
+- [krita-ai-diffusion](../../watch/technical-2ef347c5b5044c98dbe3.md)
+- [llamafile](../../watch/technical-48b940fe487c37d639ca.md)
+- [LlamaIndex Framework](../../watch/technical-e7f1aab302e1f0371ea5.md)
+- [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
+- [mcp-webresearch](../../watch/technical-6b0d6844a1825aa4d5da.md)
+- [new-term-radar](../../watch/technical-baffcb4d50a5b911d3b9.md)
+- [opencode](../../watch/technical-ffccace0ba14fd154d90.md)
+- [OpenMausBot](../../watch/technical-a9b556051dc6e3270941.md)
+- [research-mcp](../../watch/technical-ffc05a5b982c09b92791.md)
+- [oxylabs/web-api-mcp](../../watch/technical-4d03aa0eeecb3abfcbad.md)
+- [qlib](../../watch/technical-c750f525fc3dfb26b9af.md)
+- [retrieval-go](../../watch/technical-dca806554efeda77bfb9.md)
+- [scrapecreators-cli](../../watch/technical-fcf0bfc48ab0ce73e30a.md)
+- [Searchlight](../../watch/technical-d4d044cd39765ba2f35d.md)
 - [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
+- [web-scout-mcp](../../watch/technical-e54359e32dffb4db43b7.md)
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Fonction · Définir des principes pour construire des applications LLM fiables et scalables.
 Avantages · Structurer la logique et les interactions avec les outils.
 Gain · Réduire la complexité et améliorer la maintenance du code.
@@ -241,9 +268,6 @@ Gain · Exécuter des tâches complexes avec des vérifications intermédiaires.
 - [Nano Banana Generator](../../watch/technical-d5417dd0599d69bd651b.md) — Fonction · Générer et éditer des images via des prompts ou des références visuelles.
 Avantages · Intégration de Google Search et de Stripe pour validation et facturation.
 Gain · Créer des œuvres en mode édition avec 14 références et historique persistant.
-- [OpenCode](../../watch/technical-ffccace0ba14fd154d90.md) — Fonction · Génère du code via un agent IA.
-Avantages · Agent build pour développement, agent plan pour analyse.
-Gain · Éviter de rédiger du code sans contexte.
 - [ai-engineering-from-scratch](../../watch/technical-7b553354eb5444076503.md) — Apprendre l'ingénierie IA avec des leçons et des projets
 - [Awesome Agent Skills](../../watch/technical-42c5a49b8cf68812c97a.md) — Créez des compétences agent pour des outils comme Claude, Gemini, Cursor.
 - [Cleanup.pictures](../../watch/technical-6e8858c6b6c8c8c1712a.md) — Fonction · Supprime des éléments indésirables d'une image en ligne.
@@ -541,9 +565,6 @@ Gain · Éviter la configuration manuelle du VPS.
 - [OpenBot AI Coworkers](../../watch/openbot-ai-coworkers.md) — Fonction · Créer et gérer des bots avec des outils et des fichiers.
 Avantages · Gestion des accès et des permissions par bot.
 Gain · Lancer des tâches sans configuration complexe.
-- [VACE Video Creation Editing](../../watch/vace-video-creation-editing.md) — Fonction · Créer et éditer des vidéos via des prompts textuels et des masques.
-Avantages · Supporte des tâches comme Move-Anything et Swap-Anything.
-Gain · Lancer des tâches d'éditation sans prétraitement complexe.
 - [ChatHub](../../watch/chathub-multi-llm-workspace.md) — Fonction · Comparer réponses de plusieurs LLM en simultané.
 Avantages · Aide à évaluer et scorer les prompts utilisés.
 Gain · Contrôler et valider des fiches KM sans déplacement.

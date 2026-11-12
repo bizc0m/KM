@@ -1,5 +1,6 @@
 # Simulation et analyse quantitative
 
+- [freqtrade](../../watch/technical-538bbf2ca517deb942ba.md)
 - [prediction-market-backtesting](../../watch/technical-c68d8c6560271f81a81f.md) — Fonction · Backtest de stratégies sur des marchés de prévision.
 Avantages · Simulations avec visualisation de performances.
 Gain · Exécuter des tests sans déployer de code.

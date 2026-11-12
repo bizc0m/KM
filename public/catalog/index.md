@@ -1,56 +1,56 @@
 # Index des sujets KM
 
-- [Intelligence artificielle](domain-ai.md) — 297 fiches
-- [Agents IA](domain-ai-agents.md) — 189 fiches
+- [Intelligence artificielle](domain-ai.md) — 322 fiches
+- [Agents IA](domain-ai-agents.md) — 205 fiches
 - [Mémoire des agents](domain-ai-agents-memory.md) — 25 fiches
-- [Orchestration des agents](domain-ai-agents-orchestration.md) — 14 fiches
-- [Agents de développement](domain-ai-agents-coding.md) — 52 fiches
-- [Compétences des agents](domain-ai-agents-skills.md) — 39 fiches
-- [Modèles de langage](domain-ai-llm.md) — 63 fiches
-- [Développement logiciel](domain-dev.md) — 125 fiches
+- [Orchestration des agents](domain-ai-agents-orchestration.md) — 15 fiches
+- [Agents de développement](domain-ai-agents-coding.md) — 54 fiches
+- [Compétences des agents](domain-ai-agents-skills.md) — 40 fiches
+- [Modèles de langage](domain-ai-llm.md) — 71 fiches
+- [Développement logiciel](domain-dev.md) — 130 fiches
 - [Développement web](domain-dev-web.md) — 26 fiches
-- [Qualité du code](domain-dev-quality.md) — 35 fiches
-- [Audio, vidéo et création](domain-media.md) — 169 fiches
-- [Audio](domain-media-audio.md) — 38 fiches
-- [Voix](domain-media-audio-voice.md) — 20 fiches
+- [Qualité du code](domain-dev-quality.md) — 36 fiches
+- [Audio, vidéo et création](domain-media.md) — 202 fiches
+- [Audio](domain-media-audio.md) — 45 fiches
+- [Voix](domain-media-audio-voice.md) — 22 fiches
 - [Identification audio](domain-media-audio-identification.md) — 1 fiches
-- [Vidéo](domain-media-video.md) — 84 fiches
-- [Images et graphisme](domain-media-image.md) — 92 fiches
-- [Création 3D](domain-media-3d.md) — 25 fiches
+- [Vidéo](domain-media-video.md) — 105 fiches
+- [Images et graphisme](domain-media-image.md) — 111 fiches
+- [Création 3D](domain-media-3d.md) — 26 fiches
 - [Cybersécurité](domain-security.md) — 77 fiches
 - [Sécurité web](domain-security-web.md) — 4 fiches
 - [Analyse de logiciels malveillants](domain-security-malware.md) — 4 fiches
 - [Tests de sécurité](domain-security-testing.md) — 15 fiches
 - [Renseignement en sources ouvertes](domain-osint.md) — 49 fiches
 - [Protection des données](domain-privacy.md) — 11 fiches
-- [Infrastructure](domain-infrastructure.md) — 71 fiches
+- [Infrastructure](domain-infrastructure.md) — 80 fiches
 - [Réseaux](domain-infrastructure-network.md) — 3 fiches
-- [Données et connaissances](domain-data.md) — 88 fiches
-- [Collecte web](domain-data-web.md) — 29 fiches
-- [Documents](domain-data-documents.md) — 8 fiches
+- [Données et connaissances](domain-data.md) — 97 fiches
+- [Collecte web](domain-data-web.md) — 36 fiches
+- [Documents](domain-data-documents.md) — 9 fiches
 - [Notes et organisation](domain-data-notes.md) — 15 fiches
-- [Recherche documentaire](domain-data-research.md) — 7 fiches
-- [Analyse financière](domain-finance.md) — 29 fiches
-- [Marchés prédictifs](domain-finance-prediction.md) — 19 fiches
-- [Simulation et analyse quantitative](domain-finance-quant.md) — 4 fiches
+- [Recherche documentaire](domain-data-research.md) — 8 fiches
+- [Analyse financière](domain-finance.md) — 32 fiches
+- [Marchés prédictifs](domain-finance-prediction.md) — 20 fiches
+- [Simulation et analyse quantitative](domain-finance-quant.md) — 5 fiches
 - [Sciences et prévision](domain-science.md) — 7 fiches
 - [Prévisions météorologiques](domain-science-weather.md) — 7 fiches
 - [Communication et publication](domain-communication.md) — 17 fiches
-- [Applications et interfaces de bureau](domain-dev-desktop.md) — 16 fiches
+- [Applications et interfaces de bureau](domain-dev-desktop.md) — 17 fiches
 - [Conception d’interfaces](domain-dev-ui.md) — 10 fiches
-- [Connecteurs et outils des agents](domain-ai-agents-integration.md) — 25 fiches
+- [Connecteurs et outils des agents](domain-ai-agents-integration.md) — 33 fiches
 - [Instructions et prompts](domain-ai-prompts.md) — 3 fiches
 - [Catalogues de ressources](domain-data-catalogues.md) — 12 fiches
 - [Recherche et indexation](domain-data-search.md) — 4 fiches
 - [Infrastructure de contrôle et commande](domain-security-c2.md) — 1 fiches
 - [Création et diffusion en direct](domain-media-live.md) — 3 fiches
 - [Paquets et dépendances](domain-dev-dependencies.md) — 7 fiches
-- [Environnements d’exécution](domain-dev-runtime.md) — 3 fiches
+- [Environnements d’exécution](domain-dev-runtime.md) — 4 fiches
 - [Tests logiciels](domain-dev-testing.md) — 1 fiches
 - [API et services applicatifs](domain-dev-api.md) — 5 fiches
 - [Déploiement et hébergement](domain-infrastructure-deployment.md) — 5 fiches
-- [Bases de données](domain-infrastructure-database.md) — 17 fiches
-- [Analyse de fréquentation](domain-data-analytics.md) — 2 fiches
+- [Bases de données](domain-infrastructure-database.md) — 20 fiches
+- [Analyse de fréquentation](domain-data-analytics.md) — 3 fiches
 - [Publication de contenus](domain-communication-publishing.md) — 2 fiches
 - [Messagerie](domain-communication-messaging.md) — 10 fiches
 - [Organisation du travail](domain-data-organization.md) — 17 fiches

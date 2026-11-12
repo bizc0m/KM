@@ -1,5 +1,6 @@
 # Documents
 
+- [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
 - [huashu-md-html](../../watch/technical-02e627709adedd541e23.md) — Convertir des fichiers vers markdown et générer des html ou docx.
 - [markdown-to-image](../../watch/technical-10eda570000d9c7eeda1.md) — Fonction · Convertir Markdown en images pour réseaux sociaux.
 Avantages · Templates prédéfinis et personnalisation des thèmes.
