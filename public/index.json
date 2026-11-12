@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-12T20:52:44.889Z",
+  "at": "2026-11-12T21:52:50.054Z",
   "count": 813,
   "rows": [
     {
@@ -1225,6 +1225,797 @@
         }
       ],
       "cardTitle": "agent-desktop",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-dae9f02535f7c22f84f1-md",
+      "title": "agent-skills",
+      "canonical": "",
+      "resource": {
+        "nature": "Collection de skills",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "MIT",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/addyosmani/agent-skills"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#agents-code",
+        "#skills-agents",
+        "#terminal",
+        "#planification-taches"
+      ],
+      "status": "actif",
+      "path": "watch/technical-dae9f02535f7c22f84f1.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-dae9f02535f7c22f84f1.md",
+      "sourceUrl": "https://github.com/addyosmani/agent-skills",
+      "sources": [
+        {
+          "url": "https://github.com/addyosmani/agent-skills",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2111867588405862713",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/addyosmani/agent-skills",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "agent",
+      "themeLabel": "Compétences des agents",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents.skills",
+            "domain.dev.quality",
+            "domain.ai.agents.coding",
+            "domain.data.notes"
+          ],
+          "capability": [
+            "capability.code.assist",
+            "capability.skills",
+            "capability.automation.schedule"
+          ],
+          "compatibility": [
+            "compatibility.interface.terminal"
+          ],
+          "risk": [],
+          "source": [
+            "source.raindrop",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents.skills",
+            "label": "Compétences des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#skills-agents",
+              "#agent-skills",
+              "#skills"
+            ],
+            "patterns": [
+              "\\bskills?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Compétences des agents"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.dev.quality",
+            "label": "Qualité du code",
+            "parent": "domain.dev",
+            "aliases": [
+              "#code-review",
+              "#sast",
+              "#tests",
+              "#linting"
+            ],
+            "patterns": [
+              "reformat.*code",
+              "code python",
+              "codage",
+              "linting"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel",
+              "Qualité du code"
+            ]
+          },
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
+            ]
+          },
+          {
+            "id": "domain.ai.agents.coding",
+            "label": "Agents de développement",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents"
+            ],
+            "patterns": [
+              "claude code",
+              "\\bcodex\\b",
+              "coding agents?",
+              "agents? de cod"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Agents de développement"
+            ]
+          },
+          {
+            "id": "domain.data.notes",
+            "label": "Notes et organisation",
+            "parent": "domain.data",
+            "aliases": [
+              "#capture-notes",
+              "#metadonnees-notes",
+              "#planification-taches",
+              "#knowledge-management",
+              "#notes"
+            ],
+            "patterns": [
+              "prise de notes",
+              "gestion.*notes",
+              "planification.*taches",
+              "proprietes.*notes"
+            ],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances",
+              "Notes et organisation"
+            ]
+          },
+          {
+            "id": "domain.data",
+            "label": "Données et connaissances",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances"
+            ]
+          },
+          {
+            "id": "capability.code.assist",
+            "label": "Assister le développement",
+            "parent": "capability",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents",
+              "#pair-programming"
+            ],
+            "patterns": [
+              "reformat.*code",
+              "assistance de codage",
+              "modifier.*fichiers.*projet"
+            ],
+            "facet": "capability",
+            "path": [
+              "Assister le développement"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "capability.skills",
+            "label": "Étendre les compétences d’un agent",
+            "parent": "capability",
+            "aliases": [
+              "#skills-agents",
+              "#agent-skills"
+            ],
+            "facet": "capability",
+            "path": [
+              "Étendre les compétences d’un agent"
+            ]
+          },
+          {
+            "id": "capability.automation.schedule",
+            "label": "Planifier des tâches",
+            "parent": "capability.automation",
+            "aliases": [
+              "#planification-taches"
+            ],
+            "facet": "capability",
+            "path": [
+              "Automatiser des actions",
+              "Planifier des tâches"
+            ]
+          },
+          {
+            "id": "capability.automation",
+            "label": "Automatiser des actions",
+            "parent": "capability",
+            "aliases": [
+              "#automation",
+              "#workflow",
+              "#workflows",
+              "#ui-automation"
+            ],
+            "patterns": [
+              "automatise.*tests",
+              "automatisation"
+            ],
+            "facet": "capability",
+            "path": [
+              "Automatiser des actions"
+            ]
+          },
+          {
+            "id": "compatibility.interface.terminal",
+            "label": "Terminal",
+            "parent": "compatibility.interface",
+            "aliases": [
+              "#terminal",
+              "#cli"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces",
+              "Terminal"
+            ]
+          },
+          {
+            "id": "compatibility.interface",
+            "label": "Interfaces",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.raindrop",
+            "label": "Raindrop",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "Raindrop"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents.skills",
+          "label": "Compétences des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#skills-agents",
+            "#agent-skills",
+            "#skills"
+          ],
+          "patterns": [
+            "\\bskills?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Compétences des agents"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.dev.quality",
+          "label": "Qualité du code",
+          "parent": "domain.dev",
+          "aliases": [
+            "#code-review",
+            "#sast",
+            "#tests",
+            "#linting"
+          ],
+          "patterns": [
+            "reformat.*code",
+            "code python",
+            "codage",
+            "linting"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel",
+            "Qualité du code"
+          ]
+        },
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
+          ]
+        },
+        {
+          "id": "domain.ai.agents.coding",
+          "label": "Agents de développement",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents"
+          ],
+          "patterns": [
+            "claude code",
+            "\\bcodex\\b",
+            "coding agents?",
+            "agents? de cod"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Agents de développement"
+          ]
+        },
+        {
+          "id": "domain.data.notes",
+          "label": "Notes et organisation",
+          "parent": "domain.data",
+          "aliases": [
+            "#capture-notes",
+            "#metadonnees-notes",
+            "#planification-taches",
+            "#knowledge-management",
+            "#notes"
+          ],
+          "patterns": [
+            "prise de notes",
+            "gestion.*notes",
+            "planification.*taches",
+            "proprietes.*notes"
+          ],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances",
+            "Notes et organisation"
+          ]
+        },
+        {
+          "id": "domain.data",
+          "label": "Données et connaissances",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances"
+          ]
+        },
+        {
+          "id": "capability.code.assist",
+          "label": "Assister le développement",
+          "parent": "capability",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents",
+            "#pair-programming"
+          ],
+          "patterns": [
+            "reformat.*code",
+            "assistance de codage",
+            "modifier.*fichiers.*projet"
+          ],
+          "facet": "capability",
+          "path": [
+            "Assister le développement"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "capability.skills",
+          "label": "Étendre les compétences d’un agent",
+          "parent": "capability",
+          "aliases": [
+            "#skills-agents",
+            "#agent-skills"
+          ],
+          "facet": "capability",
+          "path": [
+            "Étendre les compétences d’un agent"
+          ]
+        },
+        {
+          "id": "capability.automation.schedule",
+          "label": "Planifier des tâches",
+          "parent": "capability.automation",
+          "aliases": [
+            "#planification-taches"
+          ],
+          "facet": "capability",
+          "path": [
+            "Automatiser des actions",
+            "Planifier des tâches"
+          ]
+        },
+        {
+          "id": "capability.automation",
+          "label": "Automatiser des actions",
+          "parent": "capability",
+          "aliases": [
+            "#automation",
+            "#workflow",
+            "#workflows",
+            "#ui-automation"
+          ],
+          "patterns": [
+            "automatise.*tests",
+            "automatisation"
+          ],
+          "facet": "capability",
+          "path": [
+            "Automatiser des actions"
+          ]
+        },
+        {
+          "id": "compatibility.interface.terminal",
+          "label": "Terminal",
+          "parent": "compatibility.interface",
+          "aliases": [
+            "#terminal",
+            "#cli"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces",
+            "Terminal"
+          ]
+        },
+        {
+          "id": "compatibility.interface",
+          "label": "Interfaces",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.raindrop",
+          "label": "Raindrop",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "Raindrop"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#agents-code",
+          "fullLabel": "agents-code",
+          "color": "agent",
+          "tag": "#agents-code"
+        },
+        {
+          "label": "#Skills",
+          "fullLabel": "Compétences des agents",
+          "color": "agent",
+          "tag": "#skills-agents"
+        },
+        {
+          "label": "#terminal",
+          "fullLabel": "terminal",
+          "color": "tool",
+          "tag": "#terminal"
+        },
+        {
+          "label": "#planification-taches",
+          "fullLabel": "planification-taches",
+          "color": "source",
+          "tag": "#planification-taches"
+        }
+      ],
+      "cardTitle": "agent-skills",
       "cardInterest": ""
     },
     {
@@ -226362,677 +227153,6 @@
       ],
       "cardTitle": "Agent de décision multi-competences basé sur des systèmes JEV",
       "cardInterest": "Fonction · Routage en temps réel des flux via MCP.\nAvantages · Optimisation des trajectoires par IA.\nGain · Éviter les blocages sans intervention humaine."
-    },
-    {
-      "id": "watch-technical-dae9f02535f7c22f84f1-md",
-      "title": "Agent Skills - Framework for AI Coding Agents",
-      "canonical": "",
-      "resource": {
-        "nature": "Collection de skills",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "MIT",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/addyosmani/agent-skills"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#agents-code",
-        "#skills-agents",
-        "#terminal",
-        "#planification-taches"
-      ],
-      "status": "actif",
-      "path": "watch/technical-dae9f02535f7c22f84f1.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-dae9f02535f7c22f84f1.md",
-      "sourceUrl": "https://github.com/addyosmani/agent-skills",
-      "sources": [
-        {
-          "url": "https://github.com/addyosmani/agent-skills",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        }
-      ],
-      "github": "https://github.com/addyosmani/agent-skills",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Fonction · Définir, planifier, construire, tester, reviewer, livrer des tâches.  \nAvantages · Commandes slash pour automatiser les workflows.  \nGain · Lancer des tâches sans étape manuelle intermédiaire.",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-17",
-      "theme": "agent",
-      "themeLabel": "Agents de développement",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.ai.agents.coding",
-            "domain.ai.agents.skills",
-            "domain.data.notes"
-          ],
-          "capability": [
-            "capability.code.assist",
-            "capability.skills",
-            "capability.automation.schedule"
-          ],
-          "compatibility": [
-            "compatibility.interface.terminal"
-          ],
-          "risk": [],
-          "source": [
-            "source.raindrop",
-            "source.github"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.ai.agents.coding",
-            "label": "Agents de développement",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#agents-code",
-              "#coding-agents"
-            ],
-            "patterns": [
-              "claude code",
-              "\\bcodex\\b",
-              "coding agents?",
-              "agents? de cod"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Agents de développement"
-            ]
-          },
-          {
-            "id": "domain.ai.agents",
-            "label": "Agents IA",
-            "parent": "domain.ai",
-            "aliases": [
-              "#agent",
-              "#agents",
-              "#ai-agents",
-              "#personal-agent",
-              "#autonomous-agent",
-              "#ai-companion",
-              "#autonomous-company",
-              "#autonomous-research"
-            ],
-            "patterns": [
-              "\\bagents?\\b",
-              "agentique",
-              "\\bopenclaw\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA"
-            ]
-          },
-          {
-            "id": "domain.ai",
-            "label": "Intelligence artificielle",
-            "parent": "domain",
-            "aliases": [
-              "#ia",
-              "#ai",
-              "#generative-ai",
-              "#ai-assistant",
-              "#creative-ai"
-            ],
-            "patterns": [
-              "\\bia\\b",
-              "\\bai\\b",
-              "intelligence artificielle",
-              "artificial intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "domain.ai.agents.skills",
-            "label": "Compétences des agents",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#skills-agents",
-              "#agent-skills",
-              "#skills"
-            ],
-            "patterns": [
-              "\\bskills?\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Compétences des agents"
-            ]
-          },
-          {
-            "id": "domain.data.notes",
-            "label": "Notes et organisation",
-            "parent": "domain.data",
-            "aliases": [
-              "#capture-notes",
-              "#metadonnees-notes",
-              "#planification-taches",
-              "#knowledge-management",
-              "#notes"
-            ],
-            "patterns": [
-              "prise de notes",
-              "gestion.*notes",
-              "planification.*taches",
-              "proprietes.*notes"
-            ],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances",
-              "Notes et organisation"
-            ]
-          },
-          {
-            "id": "domain.data",
-            "label": "Données et connaissances",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances"
-            ]
-          },
-          {
-            "id": "capability.code.assist",
-            "label": "Assister le développement",
-            "parent": "capability",
-            "aliases": [
-              "#agents-code",
-              "#coding-agents",
-              "#pair-programming"
-            ],
-            "patterns": [
-              "reformat.*code",
-              "assistance de codage",
-              "modifier.*fichiers.*projet"
-            ],
-            "facet": "capability",
-            "path": [
-              "Assister le développement"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
-          {
-            "id": "capability.skills",
-            "label": "Étendre les compétences d’un agent",
-            "parent": "capability",
-            "aliases": [
-              "#skills-agents",
-              "#agent-skills"
-            ],
-            "facet": "capability",
-            "path": [
-              "Étendre les compétences d’un agent"
-            ]
-          },
-          {
-            "id": "capability.automation.schedule",
-            "label": "Planifier des tâches",
-            "parent": "capability.automation",
-            "aliases": [
-              "#planification-taches"
-            ],
-            "facet": "capability",
-            "path": [
-              "Automatiser des actions",
-              "Planifier des tâches"
-            ]
-          },
-          {
-            "id": "capability.automation",
-            "label": "Automatiser des actions",
-            "parent": "capability",
-            "aliases": [
-              "#automation",
-              "#workflow",
-              "#workflows",
-              "#ui-automation"
-            ],
-            "patterns": [
-              "automatise.*tests",
-              "automatisation"
-            ],
-            "facet": "capability",
-            "path": [
-              "Automatiser des actions"
-            ]
-          },
-          {
-            "id": "compatibility.interface.terminal",
-            "label": "Terminal",
-            "parent": "compatibility.interface",
-            "aliases": [
-              "#terminal",
-              "#cli"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces",
-              "Terminal"
-            ]
-          },
-          {
-            "id": "compatibility.interface",
-            "label": "Interfaces",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces"
-            ]
-          },
-          {
-            "id": "compatibility",
-            "label": "Compatibilités",
-            "parent": null,
-            "aliases": [],
-            "facet": "compatibility",
-            "path": []
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.raindrop",
-            "label": "Raindrop",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "Raindrop"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.ai.agents.coding",
-          "label": "Agents de développement",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#agents-code",
-            "#coding-agents"
-          ],
-          "patterns": [
-            "claude code",
-            "\\bcodex\\b",
-            "coding agents?",
-            "agents? de cod"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Agents de développement"
-          ]
-        },
-        {
-          "id": "domain.ai.agents",
-          "label": "Agents IA",
-          "parent": "domain.ai",
-          "aliases": [
-            "#agent",
-            "#agents",
-            "#ai-agents",
-            "#personal-agent",
-            "#autonomous-agent",
-            "#ai-companion",
-            "#autonomous-company",
-            "#autonomous-research"
-          ],
-          "patterns": [
-            "\\bagents?\\b",
-            "agentique",
-            "\\bopenclaw\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA"
-          ]
-        },
-        {
-          "id": "domain.ai",
-          "label": "Intelligence artificielle",
-          "parent": "domain",
-          "aliases": [
-            "#ia",
-            "#ai",
-            "#generative-ai",
-            "#ai-assistant",
-            "#creative-ai"
-          ],
-          "patterns": [
-            "\\bia\\b",
-            "\\bai\\b",
-            "intelligence artificielle",
-            "artificial intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "domain.ai.agents.skills",
-          "label": "Compétences des agents",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#skills-agents",
-            "#agent-skills",
-            "#skills"
-          ],
-          "patterns": [
-            "\\bskills?\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Compétences des agents"
-          ]
-        },
-        {
-          "id": "domain.data.notes",
-          "label": "Notes et organisation",
-          "parent": "domain.data",
-          "aliases": [
-            "#capture-notes",
-            "#metadonnees-notes",
-            "#planification-taches",
-            "#knowledge-management",
-            "#notes"
-          ],
-          "patterns": [
-            "prise de notes",
-            "gestion.*notes",
-            "planification.*taches",
-            "proprietes.*notes"
-          ],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances",
-            "Notes et organisation"
-          ]
-        },
-        {
-          "id": "domain.data",
-          "label": "Données et connaissances",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances"
-          ]
-        },
-        {
-          "id": "capability.code.assist",
-          "label": "Assister le développement",
-          "parent": "capability",
-          "aliases": [
-            "#agents-code",
-            "#coding-agents",
-            "#pair-programming"
-          ],
-          "patterns": [
-            "reformat.*code",
-            "assistance de codage",
-            "modifier.*fichiers.*projet"
-          ],
-          "facet": "capability",
-          "path": [
-            "Assister le développement"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
-          "id": "capability.skills",
-          "label": "Étendre les compétences d’un agent",
-          "parent": "capability",
-          "aliases": [
-            "#skills-agents",
-            "#agent-skills"
-          ],
-          "facet": "capability",
-          "path": [
-            "Étendre les compétences d’un agent"
-          ]
-        },
-        {
-          "id": "capability.automation.schedule",
-          "label": "Planifier des tâches",
-          "parent": "capability.automation",
-          "aliases": [
-            "#planification-taches"
-          ],
-          "facet": "capability",
-          "path": [
-            "Automatiser des actions",
-            "Planifier des tâches"
-          ]
-        },
-        {
-          "id": "capability.automation",
-          "label": "Automatiser des actions",
-          "parent": "capability",
-          "aliases": [
-            "#automation",
-            "#workflow",
-            "#workflows",
-            "#ui-automation"
-          ],
-          "patterns": [
-            "automatise.*tests",
-            "automatisation"
-          ],
-          "facet": "capability",
-          "path": [
-            "Automatiser des actions"
-          ]
-        },
-        {
-          "id": "compatibility.interface.terminal",
-          "label": "Terminal",
-          "parent": "compatibility.interface",
-          "aliases": [
-            "#terminal",
-            "#cli"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces",
-            "Terminal"
-          ]
-        },
-        {
-          "id": "compatibility.interface",
-          "label": "Interfaces",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces"
-          ]
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibilités",
-          "parent": null,
-          "aliases": [],
-          "facet": "compatibility",
-          "path": []
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.raindrop",
-          "label": "Raindrop",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "Raindrop"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#agents-code",
-          "fullLabel": "agents-code",
-          "color": "agent",
-          "tag": "#agents-code"
-        },
-        {
-          "label": "#Skills",
-          "fullLabel": "Compétences des agents",
-          "color": "agent",
-          "tag": "#skills-agents"
-        },
-        {
-          "label": "#terminal",
-          "fullLabel": "terminal",
-          "color": "tool",
-          "tag": "#terminal"
-        },
-        {
-          "label": "#planification-taches",
-          "fullLabel": "planification-taches",
-          "color": "source",
-          "tag": "#planification-taches"
-        }
-      ],
-      "cardTitle": "Agent Skills",
-      "cardInterest": "Fonction · Définir, planifier, construire, tester, reviewer, livrer des tâches.\nAvantages · Commandes slash pour automatiser les workflows.\nGain · Lancer des tâches sans étape manuelle intermédiaire."
     },
     {
       "id": "watch-technical-f52ece2572fe00c08e7a-md",

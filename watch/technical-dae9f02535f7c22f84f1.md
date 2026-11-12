@@ -1,4 +1,4 @@
-# Agent Skills - Framework for AI Coding Agents
+# agent-skills
 
 ## Statut
 
@@ -10,9 +10,11 @@ actif
 
 ## Intérêts
 
-Fonction · Définir, planifier, construire, tester, reviewer, livrer des tâches.  
-Avantages · Commandes slash pour automatiser les workflows.  
-Gain · Lancer des tâches sans étape manuelle intermédiaire.
+Intérêt à vérifier
+
+## Identité
+
+- Dépôt principal : https://github.com/addyosmani/agent-skills
 
 ## Métadonnées
 
@@ -27,21 +29,22 @@ Gain · Lancer des tâches sans étape manuelle intermédiaire.
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai.agents.coding domain.ai.agents.skills domain.data.notes capability.code.assist capability.skills capability.automation.schedule compatibility.interface.terminal source.raindrop source.github lifecycle.active
-- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents ; Données et connaissances > Notes et organisation
+- Identifiants : domain.ai.agents.skills domain.dev.quality domain.ai.agents.coding domain.data.notes capability.code.assist capability.skills capability.automation.schedule compatibility.interface.terminal source.raindrop source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Développement logiciel > Qualité du code ; Intelligence artificielle > Agents IA > Agents de développement ; Données et connaissances > Notes et organisation
 - Fonctions : Assister le développement ; Étendre les compétences d’un agent ; Automatiser des actions > Planifier des tâches
 - Compatibilités : Interfaces > Terminal
-- Provenance : Raindrop ; GitHub
+- Provenance : Raindrop ; GitHub ; X / Twitter
 - État : Actif
 
 ## Sources
 
 - https://github.com/addyosmani/agent-skills
+- https://x.com/i/status/2111867588405862713
 
 ## Traçabilité
 
 - Origine : Raindrop
 - Identifiant source : dae9f02535f7c22f84f17fbea3935ee8bbaa69688ce71665d06d6af3eb862d3e
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-17
+- Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -1,5 +1,6 @@
 # Qualité du code
 
+- [agent-skills](../../watch/technical-dae9f02535f7c22f84f1.md)
 - [impeccable](../../watch/technical-ec673bd7694d3a658bba.md)
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
 Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export

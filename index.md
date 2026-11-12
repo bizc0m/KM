@@ -5,6 +5,7 @@
 | `watch-technical-bd69dc0d4bb066bb0ea3-md` | `watch/technical-bd69dc0d4bb066bb0ea3.md` | outil |  | a verifier |
 | `watch-technical-401c6af5b51d16a5ed2f-md` | `watch/technical-401c6af5b51d16a5ed2f.md` | outil | #automatisation-navigateur, #terminal | actif |
 | `watch-technical-23746973c38c4e68bc89-md` | `watch/technical-23746973c38c4e68bc89.md` | outil | #application-bureau | actif |
+| `watch-technical-dae9f02535f7c22f84f1-md` | `watch/technical-dae9f02535f7c22f84f1.md` | outil | #agents-code, #skills-agents, #terminal, #planification-taches | actif |
 | `watch-technical-93b2cfb4f88278ad5c7f-md` | `watch/technical-93b2cfb4f88278ad5c7f.md` | outil |  | a verifier |
 | `watch-technical-217eac1f0a13e9255392-md` | `watch/technical-217eac1f0a13e9255392.md` | outil | #analyse-vulnerabilites | actif |
 | `watch-technical-5b1035d72d0f62a104fc-md` | `watch/technical-5b1035d72d0f62a104fc.md` | outil | #python | actif |
@@ -567,7 +568,6 @@
 | `watch-technical-60d78a24f5ceb1c0cf35-md` | `watch/technical-60d78a24f5ceb1c0cf35.md` | outil | #terminal | actif |
 | `watch-technical-126e0bcbd6b43332ca45-md` | `watch/technical-126e0bcbd6b43332ca45.md` | outil | #publication-sociale | actif |
 | `watch-technical-1b568dfd20e94e409912-md` | `watch/technical-1b568dfd20e94e409912.md` | outil | #mcp | actif |
-| `watch-technical-dae9f02535f7c22f84f1-md` | `watch/technical-dae9f02535f7c22f84f1.md` | outil | #agents-code, #skills-agents, #terminal, #planification-taches | actif |
 | `watch-technical-f52ece2572fe00c08e7a-md` | `watch/technical-f52ece2572fe00c08e7a.md` | outil | #analyse-vulnerabilites, #terminal | actif |
 | `watch-technical-4125f24a0a6925019b78-md` | `watch/technical-4125f24a0a6925019b78.md` | outil | #agents-code, #python | actif |
 | `watch-technical-88ba69ee97608c5a2703-md` | `watch/technical-88ba69ee97608c5a2703.md` | outil | #export-conversations, #pdf | actif |

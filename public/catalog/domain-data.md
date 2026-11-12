@@ -1,5 +1,6 @@
 # Données et connaissances
 
+- [agent-skills](../../watch/technical-dae9f02535f7c22f84f1.md)
 - [Crawlab](../../watch/technical-6056740628cf01a1e192.md)
 - [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
 - [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
@@ -118,9 +119,6 @@ Gain · Créer des vidéos animées directement depuis les assets générés.
 - [ViMax](../../watch/technical-ef1500532ddc132c577d.md) — Fonction · Génère des courts-métrages à partir d'idées.
 Avantages · Intégre des outils de planification et de calendrier.
 Gain · Lancer la création sans édition vidéo préalable.
-- [Agent Skills](../../watch/technical-dae9f02535f7c22f84f1.md) — Fonction · Définir, planifier, construire, tester, reviewer, livrer des tâches.
-Avantages · Commandes slash pour automatiser les workflows.
-Gain · Lancer des tâches sans étape manuelle intermédiaire.
 - [Capsule Hub](../../watch/technical-7ce70d893933b807a8be.md) — Fonction · Capturer et stocker le contexte des conversations IA.
 Avantages · Permet de réutiliser le contexte dans d'autres sessions.
 Gain · Éviter de réexpliquer le contexte à chaque nouvelle session.

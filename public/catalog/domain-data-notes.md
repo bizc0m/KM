@@ -1,5 +1,6 @@
 # Notes et organisation
 
+- [agent-skills](../../watch/technical-dae9f02535f7c22f84f1.md)
 - [SideNotes](../../watch/technical-863adbb8c03ef3ea3d6b.md)
 - [Cline](../../watch/technical-533d51d9d3dea76fea8f.md) — Fonction · Exécute des commandes en terminal et modifie du code.
 Avantages · Gère les erreurs de syntaxe et les imports manquants.
@@ -11,9 +12,6 @@ Gain · Lancer des déploiements sans configuration complexe.
 - [ARGO](../../watch/technical-e3f44ce252af9ba887f8.md) — Fonction · Planifier des tâches avec des notes et des calendriers.
 Avantages · Gère les tâches sans connexion internet.
 Gain · Éviter de synchroniser avec des services en ligne.
-- [Agent Skills](../../watch/technical-dae9f02535f7c22f84f1.md) — Fonction · Définir, planifier, construire, tester, reviewer, livrer des tâches.
-Avantages · Commandes slash pour automatiser les workflows.
-Gain · Lancer des tâches sans étape manuelle intermédiaire.
 - [Capsule Hub](../../watch/technical-7ce70d893933b807a8be.md) — Fonction · Capturer et stocker le contexte des conversations IA.
 Avantages · Permet de réutiliser le contexte dans d'autres sessions.
 Gain · Éviter de réexpliquer le contexte à chaque nouvelle session.

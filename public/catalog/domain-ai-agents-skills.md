@@ -1,5 +1,6 @@
 # Compétences des agents
 
+- [agent-skills](../../watch/technical-dae9f02535f7c22f84f1.md)
 - [claude-animation-skill](../../watch/technical-bcd0154c6d60ef4c770e.md)
 - [gsap-skills](../../watch/technical-ef984a9e4c84dd12f20d.md)
 - [Motion Design Skill](../../watch/technical-17c9d333777b6545efcf.md)
@@ -54,9 +55,6 @@ Gain · Tester une compétence sans l'installer pour éviter les erreurs.
 - [Skills pour agents de IA](../../watch/technical-ce8a12d1c4391a2f858c.md) — Fonction · Installer des compétences pour des agents IA, avec des instructions concrètes.
 Avantages · Fournit des exemples et des scripts pour exécuter des tâches sans improviser.
 Gain · Tester une compétence avant installation pour éviter les erreurs.
-- [Agent Skills](../../watch/technical-dae9f02535f7c22f84f1.md) — Fonction · Définir, planifier, construire, tester, reviewer, livrer des tâches.
-Avantages · Commandes slash pour automatiser les workflows.
-Gain · Lancer des tâches sans étape manuelle intermédiaire.
 - [ECC](../../watch/technical-cac46266b186a438c4a0.md) — Fonction · Détecter des vulnérabilités et étendre les compétences des agents IA.
 Avantages · Intégration de tests de sécurité et de compétences prédéfinies.
 Gain · Éviter des tests manuels, accélérer l'apprentissage des agents.

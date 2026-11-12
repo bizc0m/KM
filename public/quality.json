@@ -1,14 +1,14 @@
 {
-  "at": "2026-11-12T20:52:45.078Z",
+  "at": "2026-11-12T21:52:50.234Z",
   "scope": "public-index-only",
   "fiches": 813,
-  "sourceReferences": 3243,
+  "sourceReferences": 3244,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 770,
+  "pendingReview": 771,
   "counts": {
-    "interest-missing": 196,
+    "interest-missing": 197,
     "keywords-missing": 123,
     "domain-unqualified": 164,
     "primary-identity-unqualified": 21,
@@ -37,6 +37,13 @@
       "reasons": [
         "interest-missing",
         "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-dae9f02535f7c22f84f1-md",
+      "title": "agent-skills",
+      "reasons": [
+        "interest-missing"
       ]
     },
     {

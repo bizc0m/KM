@@ -1,5 +1,6 @@
 # Agents de développement
 
+- [agent-skills](../../watch/technical-dae9f02535f7c22f84f1.md)
 - [gsap-skills](../../watch/technical-ef984a9e4c84dd12f20d.md)
 - [impeccable](../../watch/technical-ec673bd7694d3a658bba.md)
 - [oxylabs/web-api-skills](../../watch/technical-ae44b7c5c77979957073.md)
@@ -89,9 +90,6 @@ Gain · Tester une compétence sans l'installer pour éviter les erreurs.
 - [Skills pour agents de IA](../../watch/technical-ce8a12d1c4391a2f858c.md) — Fonction · Installer des compétences pour des agents IA, avec des instructions concrètes.
 Avantages · Fournit des exemples et des scripts pour exécuter des tâches sans improviser.
 Gain · Tester une compétence avant installation pour éviter les erreurs.
-- [Agent Skills](../../watch/technical-dae9f02535f7c22f84f1.md) — Fonction · Définir, planifier, construire, tester, reviewer, livrer des tâches.
-Avantages · Commandes slash pour automatiser les workflows.
-Gain · Lancer des tâches sans étape manuelle intermédiaire.
 - [Aider](../../watch/technical-4125f24a0a6925019b78.md) — Fonction · Collaborer avec des LLMs pour coder et gérer des projets.
 Avantages · Intégration avec des modèles de langage et des agents de développement.
 Gain · Éviter la rédaction manuelle de code et de documentation.

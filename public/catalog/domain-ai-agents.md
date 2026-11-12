@@ -2,6 +2,7 @@
 
 - [agent-browser](../../watch/technical-401c6af5b51d16a5ed2f.md)
 - [agent-desktop](../../watch/technical-23746973c38c4e68bc89.md)
+- [agent-skills](../../watch/technical-dae9f02535f7c22f84f1.md)
 - [claude-animation-skill](../../watch/technical-bcd0154c6d60ef4c770e.md)
 - [dagu](../../watch/technical-ba28cf8980c41a0f6c5e.md)
 - [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
@@ -278,9 +279,6 @@ Gain · Éviter de gérer plusieurs interfaces pour la publication.
 - [Agent de décision multi-competences basé sur des systèmes JEV](../../watch/technical-1b568dfd20e94e409912.md) — Fonction · Routage en temps réel des flux via MCP.
 Avantages · Optimisation des trajectoires par IA.
 Gain · Éviter les blocages sans intervention humaine.
-- [Agent Skills](../../watch/technical-dae9f02535f7c22f84f1.md) — Fonction · Définir, planifier, construire, tester, reviewer, livrer des tâches.
-Avantages · Commandes slash pour automatiser les workflows.
-Gain · Lancer des tâches sans étape manuelle intermédiaire.
 - [Aider](../../watch/technical-4125f24a0a6925019b78.md) — Fonction · Collaborer avec des LLMs pour coder et gérer des projets.
 Avantages · Intégration avec des modèles de langage et des agents de développement.
 Gain · Éviter la rédaction manuelle de code et de documentation.
