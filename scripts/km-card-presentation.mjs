@@ -10,7 +10,7 @@ export function cardTitle(item){
  return title;
 }
 export function cardInterest(item){
- const rows=interestLines(item.raw||item.summary);if(rows.length===3)return rows.map(r=>r.label+' · '+r.text).join('\n');
+ const rows=interestLines(item.raw||item.summary);if(rows.length===3&&rows.every(r=>r.text==='Non établi par la source'))return '';if(rows.length===3)return rows.map(r=>r.label+' · '+r.text).join('\n');
  const text=String(item.summary||'').replace(/\s+/g,' ').trim();
  if(!text||norm(text)===norm(item.title)||norm(text)===norm(cardTitle(item)))return '';
  if(/veille raindrop|base technique (?:reutilisable|reusable)|archive km|interet a verifier|competences (operationnelles|necessaires|structurees)|workflows de securite professionnels|conseils specialises|taches specifiques|ameliorer la productivite|sans intervention humaine|professionnels rapidement/i.test(norm(text)))return '';
