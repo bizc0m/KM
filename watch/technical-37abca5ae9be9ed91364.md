@@ -29,8 +29,8 @@ Intérêt à vérifier
 ## Ontologie
 
 - Version : 1.1
-- Identifiants : domain.ai domain.data.web domain.dev.browser capability.scraping capability.automation.browser compatibility.language.python source.noteplan source.github source.x lifecycle.active
-- Sujets : Intelligence artificielle ; Données et connaissances > Collecte web ; Développement logiciel > Outils de navigateur
+- Identifiants : domain.ai.llm domain.data.web domain.dev.browser capability.scraping capability.automation.browser compatibility.language.python source.noteplan source.github source.x lifecycle.active
+- Sujets : Intelligence artificielle > Modèles de langage ; Données et connaissances > Collecte web ; Développement logiciel > Outils de navigateur
 - Fonctions : Extraire des données web ; Automatiser des actions > Automatiser le navigateur
 - Compatibilités : Langages > Python
 - Provenance : NotePlan Calendar ; GitHub ; X / Twitter
@@ -47,5 +47,5 @@ Intérêt à vérifier
 - Origine : NotePlan
 - Identifiant source : 37abca5ae9be9ed91364b462157579a800bf371d8632fcf743925f930dfce971
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-11-11
+- Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

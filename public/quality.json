@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-12T05:51:13.012Z",
+  "at": "2026-11-12T08:51:22.524Z",
   "scope": "public-index-only",
   "fiches": 747,
   "sourceReferences": 3006,
@@ -15,6 +15,100 @@
     "nature-unqualified": 694
   },
   "queue": [
+    {
+      "id": "watch-technical-70ff3d2843a80c7cf867-md",
+      "title": "capsolver-extension-python",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-6056740628cf01a1e192-md",
+      "title": "Crawlab",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-58c0429fbd3fbdeb924d-md",
+      "title": "crawlee",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-37abca5ae9be9ed91364-md",
+      "title": "crawlee-python",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8d00fb1736bf5ed195c0-md",
+      "title": "Ferret",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-414ea35d29a6a6753f30-md",
+      "title": "kimi-k3-in-c",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0d58a5af5e1ec59c12fd-md",
+      "title": "MechanicalSoup",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-2e317194feb446319292-md",
+      "title": "scrapy-playwright",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-23762f3396360616b66d-md",
+      "title": "selectolax",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-a6c0816f71eb3b27ed5d-md",
+      "title": "spider-rs/spider",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-aa8ca5206f8b696337e9-md",
+      "title": "trafilatura",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
     {
       "id": "watch-technical-bd69dc0d4bb066bb0ea3-md",
       "title": "aesthetic-predictor-v2-5",
@@ -82,14 +176,6 @@
       ]
     },
     {
-      "id": "watch-technical-70ff3d2843a80c7cf867-md",
-      "title": "capsolver-extension-python",
-      "reasons": [
-        "interest-missing",
-        "domain-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-b311af1e723666baa9db-md",
       "title": "ccxt",
       "reasons": [
@@ -125,30 +211,6 @@
     {
       "id": "watch-technical-4dbf8b61c8b24b3bf369-md",
       "title": "CosyVoice",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-6056740628cf01a1e192-md",
-      "title": "Crawlab",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-58c0429fbd3fbdeb924d-md",
-      "title": "crawlee",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-37abca5ae9be9ed91364-md",
-      "title": "crawlee-python",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -225,16 +287,6 @@
       "title": "facebookresearch/DiT",
       "reasons": [
         "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-8d00fb1736bf5ed195c0-md",
-      "title": "Ferret",
-      "reasons": [
-        "interest-missing",
-        "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -335,16 +387,6 @@
       "title": "KeepingYouAwake",
       "reasons": [
         "interest-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-414ea35d29a6a6753f30-md",
-      "title": "kimi-k3-in-c",
-      "reasons": [
-        "interest-missing",
-        "keywords-missing",
         "domain-unqualified",
         "nature-unqualified"
       ]
@@ -465,15 +507,6 @@
       "title": "mcp-webresearch",
       "reasons": [
         "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-0d58a5af5e1ec59c12fd-md",
-      "title": "MechanicalSoup",
-      "reasons": [
-        "interest-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -636,14 +669,6 @@
       ]
     },
     {
-      "id": "watch-technical-2e317194feb446319292-md",
-      "title": "scrapy-playwright",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-d4d044cd39765ba2f35d-md",
       "title": "Searchlight",
       "reasons": [
@@ -652,25 +677,8 @@
       ]
     },
     {
-      "id": "watch-technical-23762f3396360616b66d-md",
-      "title": "selectolax",
-      "reasons": [
-        "interest-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-863adbb8c03ef3ea3d6b-md",
       "title": "SideNotes",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-a6c0816f71eb3b27ed5d-md",
-      "title": "spider-rs/spider",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -731,14 +739,6 @@
     {
       "id": "watch-technical-e0c736c548ec8d5fa375-md",
       "title": "Time-to-Move",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-aa8ca5206f8b696337e9-md",
-      "title": "trafilatura",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
