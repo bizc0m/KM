@@ -1,18 +1,18 @@
 {
-  "at": "2026-11-12T16:52:23.637Z",
+  "at": "2026-11-12T17:52:28.831Z",
   "scope": "public-index-only",
-  "fiches": 777,
-  "sourceReferences": 3116,
+  "fiches": 779,
+  "sourceReferences": 3121,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 734,
+  "pendingReview": 736,
   "counts": {
-    "interest-missing": 156,
-    "keywords-missing": 109,
-    "domain-unqualified": 144,
+    "interest-missing": 159,
+    "keywords-missing": 110,
+    "domain-unqualified": 145,
     "primary-identity-unqualified": 20,
-    "nature-unqualified": 724
+    "nature-unqualified": 725
   },
   "queue": [
     {
@@ -777,6 +777,24 @@
       ]
     },
     {
+      "id": "watch-technical-43735442ecee44ff00c4-md",
+      "title": "Photopea",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-34a75990427dfeb34af2-md",
+      "title": "photopea/photopea",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-f57d7abfe4ccf7114148-md",
       "title": "pinyin-to-ipa",
       "reasons": [
@@ -881,6 +899,13 @@
         "interest-missing",
         "domain-unqualified",
         "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-6ec106f9407cdfec724a-md",
+      "title": "skills",
+      "reasons": [
+        "interest-missing"
       ]
     },
     {
@@ -3114,13 +3139,6 @@
       "reasons": [
         "keywords-missing",
         "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-34a75990427dfeb34af2-md",
-      "title": "photopea/photopea",
-      "reasons": [
         "nature-unqualified"
       ]
     },

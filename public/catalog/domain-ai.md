@@ -27,10 +27,12 @@
 - [OpenMausBot](../../watch/technical-a9b556051dc6e3270941.md)
 - [research-mcp](../../watch/technical-ffc05a5b982c09b92791.md)
 - [oxylabs/web-api-mcp](../../watch/technical-4d03aa0eeecb3abfcbad.md)
+- [photopea/photopea](../../watch/technical-34a75990427dfeb34af2.md)
 - [qlib](../../watch/technical-c750f525fc3dfb26b9af.md)
 - [retrieval-go](../../watch/technical-dca806554efeda77bfb9.md)
 - [scrapecreators-cli](../../watch/technical-fcf0bfc48ab0ce73e30a.md)
 - [Searchlight](../../watch/technical-d4d044cd39765ba2f35d.md)
+- [skills](../../watch/technical-6ec106f9407cdfec724a.md)
 - [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
 - [web-scout-mcp](../../watch/technical-e54359e32dffb4db43b7.md)
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Fonction · Définir des principes pour construire des applications LLM fiables et scalables.
@@ -284,9 +286,6 @@ Gain · Exécuter tâches complexes sans session navigateur.
 - [OpenOSINT](../../watch/technical-0be614d8a1eb180e4b8a.md) — Fonction · Orchestre des recherches OSINT avec modèle LLM.
 Avantages · Génère rapport structuré à partir de sources ouvertes.
 Gain · Éviter de compiler manuellement des informations.
-- [photopea/photopea](../../watch/technical-34a75990427dfeb34af2.md) — Fonction · Éditer des images et vecteurs en ligne avec support PSD, AI, Sketch.
-Avantages · Ouvre et manipule des formats complexes comme INDD, XCF, Sketch.
-Gain · Exporter des animations en GIF ou MP4 avec chaque frame comme couche.
 - [Qwen Code](../../watch/technical-897197daef92f370c451.md) — Fonction · Exécuter des tâches de codage via terminal, éditeur, chat ou application.
 Avantages · Intégration avec VS Code, Zed, JetBrains, Telegram, WeChat.
 Gain · Lancer des tâches sans configuration, utiliser des modèles Qwen locaux ou distants.

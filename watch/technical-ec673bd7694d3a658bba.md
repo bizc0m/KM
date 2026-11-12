@@ -39,6 +39,7 @@ Intérêt à vérifier
 
 - https://github.com/pbakaus/impeccable
 - https://x.com/i/status/2115621384441459065
+- https://x.com/i/status/2114095406393036818
 
 ## Traçabilité
 
@@ -47,16 +48,3 @@ Intérêt à vérifier
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Fonction · Analyse et améliore l'interface des projets.
-- Avantages · Détection de problèmes de conception et de qualité.
-- Gain · Optimise le design sans réécrire le code.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/pbakaus/impeccable
-- Analyse source : 2026-11-12T11:48:51.251Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

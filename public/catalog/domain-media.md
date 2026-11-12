@@ -30,6 +30,7 @@
 - [MoCha](../../watch/technical-bfbf509a4b3bf34e42fa.md)
 - [moviepy](../../watch/technical-8850110282c0b220a399.md)
 - [Pasteboard Viewer](../../watch/technical-1d1f56d738ca1db480ae.md)
+- [photopea/photopea](../../watch/technical-34a75990427dfeb34af2.md)
 - [pinyin-to-ipa](../../watch/technical-f57d7abfe4ccf7114148.md)
 - [Prompt Relay](../../watch/technical-917d0189f02f4a95ace6.md)
 - [pyopenjtalk](../../watch/technical-730c4fe9b7d1ccd6c608.md)
@@ -328,9 +329,6 @@ Gain · Accéder aux données sans internet, partager en public.
 - [mutagen](../../watch/technical-5a9ba13528ab94de7bad.md) — Fonction · Gère les métadonnées audio avec Python.
 Avantages · Supporte divers formats et ID3v2.
 Gain · Modifier tags sans changer le fichier audio.
-- [photopea/photopea](../../watch/technical-34a75990427dfeb34af2.md) — Fonction · Éditer des images et vecteurs en ligne avec support PSD, AI, Sketch.
-Avantages · Ouvre et manipule des formats complexes comme INDD, XCF, Sketch.
-Gain · Exporter des animations en GIF ou MP4 avec chaque frame comme couche.
 - [react-native-svg](../../watch/technical-0d363f6aa6eaa85ad3ca.md) — Fonction · Affiche SVG sur iOS, Android, web.
 Avantages · Conversion facile SVG vers code.
 Gain · Lancer graphismes sans réécriture.

@@ -10,9 +10,7 @@ actif
 
 ## Intérêts
 
-Fonction · Éditer des images et vecteurs en ligne avec support PSD, AI, Sketch.  
-Avantages · Ouvre et manipule des formats complexes comme INDD, XCF, Sketch.  
-Gain · Exporter des animations en GIF ou MP4 avec chaque frame comme couche.
+Intérêt à vérifier
 
 ## Identité
 
@@ -22,10 +20,10 @@ Gain · Exporter des animations en GIF ou MP4 avec chaque frame comme couche.
 
 - Nature : À vérifier
 - OS : macOS
-- Licence : À vérifier
+- Licence : Non précisée
 - Tarification : À vérifier
 - Accès : À vérifier
-- Preuve : À vérifier
+- Preuve : https://github.com/photopea/photopea
 
 
 ## Ontologie
@@ -41,25 +39,12 @@ Gain · Exporter des animations en GIF ou MP4 avec chaque frame comme couche.
 
 - https://github.com/photopea/photopea
 - https://x.com/i/status/2059744563141730802
+- https://x.com/i/status/2114612914720051223
 
 ## Traçabilité
 
 - Origine : NotePlan
 - Identifiant source : 34a75990427dfeb34af2487d69d612f83176880734d2407a03550d0a0c42cd39
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-10-20
+- Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Photopea est un outil en ligne gratuit pour l'édition de graphiques.
-- Photopea supporte les formats PSD, AI et Sketch.
-- Photopea permet d'ouvrir des fichiers Sketch sans macOS.
-- Photopea est un alternative à Photoshop.
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/photopea/photopea
-- Analyse source : 2026-10-20T16:49:11.544Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

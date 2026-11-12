@@ -19,6 +19,7 @@
 - [retrieval-go](../../watch/technical-dca806554efeda77bfb9.md)
 - [scrapecreators-cli](../../watch/technical-fcf0bfc48ab0ce73e30a.md)
 - [Searchlight](../../watch/technical-d4d044cd39765ba2f35d.md)
+- [skills](../../watch/technical-6ec106f9407cdfec724a.md)
 - [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
 - [web-scout-mcp](../../watch/technical-e54359e32dffb4db43b7.md)
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Fonction · Définir des principes pour construire des applications LLM fiables et scalables.

@@ -17,6 +17,7 @@
 - [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
 - [MoCha](../../watch/technical-bfbf509a4b3bf34e42fa.md)
 - [Pasteboard Viewer](../../watch/technical-1d1f56d738ca1db480ae.md)
+- [photopea/photopea](../../watch/technical-34a75990427dfeb34af2.md)
 - [RF-Solver-Edit](../../watch/technical-4c623ce305ac3d1576ec.md)
 - [SteadyDancer](../../watch/technical-8317f5fa97f4954a5d4f.md)
 - [TalkVerse](../../watch/technical-b9a75739439a1096d99d.md)
@@ -195,9 +196,6 @@ Gain · Traiter images multidimensionnelles sans conversion.
 - [Cleanup.pictures](../../watch/technical-6e8858c6b6c8c8c1712a.md) — Fonction · Supprime des éléments indésirables d'une image en ligne.
 Avantages · Utilise un modèle d'intelligence artificielle pour la retouche.
 Gain · Éviter de redessiner ou recadrer manuellement des images.
-- [photopea/photopea](../../watch/technical-34a75990427dfeb34af2.md) — Fonction · Éditer des images et vecteurs en ligne avec support PSD, AI, Sketch.
-Avantages · Ouvre et manipule des formats complexes comme INDD, XCF, Sketch.
-Gain · Exporter des animations en GIF ou MP4 avec chaque frame comme couche.
 - [react-native-svg](../../watch/technical-0d363f6aa6eaa85ad3ca.md) — Fonction · Affiche SVG sur iOS, Android, web.
 Avantages · Conversion facile SVG vers code.
 Gain · Lancer graphismes sans réécriture.

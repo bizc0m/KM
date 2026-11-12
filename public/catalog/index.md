@@ -1,11 +1,11 @@
 # Index des sujets KM
 
-- [Intelligence artificielle](domain-ai.md) — 323 fiches
-- [Agents IA](domain-ai-agents.md) — 206 fiches
+- [Intelligence artificielle](domain-ai.md) — 324 fiches
+- [Agents IA](domain-ai-agents.md) — 207 fiches
 - [Mémoire des agents](domain-ai-agents-memory.md) — 25 fiches
 - [Orchestration des agents](domain-ai-agents-orchestration.md) — 15 fiches
 - [Agents de développement](domain-ai-agents-coding.md) — 53 fiches
-- [Compétences des agents](domain-ai-agents-skills.md) — 40 fiches
+- [Compétences des agents](domain-ai-agents-skills.md) — 41 fiches
 - [Modèles de langage](domain-ai-llm.md) — 72 fiches
 - [Développement logiciel](domain-dev.md) — 133 fiches
 - [Développement web](domain-dev-web.md) — 26 fiches
