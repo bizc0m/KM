@@ -1,8 +1,8 @@
 # Images et graphisme
 
+- [claude-animation-skill](../../watch/technical-bcd0154c6d60ef4c770e.md)
 - [aesthetic-predictor-v2-5](../../watch/technical-bd69dc0d4bb066bb0ea3.md)
 - [AnimateDiff](../../watch/technical-013b39bacbc70af1bc3e.md)
-- [claude-animation-skill](../../watch/technical-bcd0154c6d60ef4c770e.md)
 - [facebookresearch/DiT](../../watch/technical-99f7e720fd6c858f2647.md)
 - [FlowEdit](../../watch/technical-9cd479303e19239f0e30.md)
 - [HuMo](../../watch/technical-d758de2fa9fb5f8a8a0a.md)

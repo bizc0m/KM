@@ -1,9 +1,9 @@
 # Audio, vidéo et création
 
+- [claude-animation-skill](../../watch/technical-bcd0154c6d60ef4c770e.md)
 - [aesthetic-predictor-v2-5](../../watch/technical-bd69dc0d4bb066bb0ea3.md)
 - [AnimateDiff](../../watch/technical-013b39bacbc70af1bc3e.md)
 - [BindWeave](../../watch/technical-fa71f92dbb3617f853df.md)
-- [claude-animation-skill](../../watch/technical-bcd0154c6d60ef4c770e.md)
 - [ComfyUI-LTXVideo](../../watch/technical-788ada22f51fe2f2fa47.md)
 - [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md)
 - [DOVER](../../watch/technical-b8310aeb0f869a64166e.md)

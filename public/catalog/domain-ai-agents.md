@@ -1,9 +1,10 @@
 # Agents IA
 
-- [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
 - [agent-browser](../../watch/technical-401c6af5b51d16a5ed2f.md)
 - [agent-desktop](../../watch/technical-23746973c38c4e68bc89.md)
 - [claude-animation-skill](../../watch/technical-bcd0154c6d60ef4c770e.md)
+- [qlib](../../watch/technical-c750f525fc3dfb26b9af.md)
+- [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
 - [dagu](../../watch/technical-ba28cf8980c41a0f6c5e.md)
 - [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
 - [DeepResearch Bench](../../watch/technical-a99452c8e16aa64919f7.md)
@@ -15,7 +16,6 @@
 - [OpenMausBot](../../watch/technical-a9b556051dc6e3270941.md)
 - [research-mcp](../../watch/technical-ffc05a5b982c09b92791.md)
 - [oxylabs/web-api-mcp](../../watch/technical-4d03aa0eeecb3abfcbad.md)
-- [qlib](../../watch/technical-c750f525fc3dfb26b9af.md)
 - [retrieval-go](../../watch/technical-dca806554efeda77bfb9.md)
 - [scrapecreators-cli](../../watch/technical-fcf0bfc48ab0ce73e30a.md)
 - [Searchlight](../../watch/technical-d4d044cd39765ba2f35d.md)
