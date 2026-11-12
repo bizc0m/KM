@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-12T13:52:07.938Z",
+  "at": "2026-11-12T14:52:13.102Z",
   "scope": "public-index-only",
   "fiches": 762,
   "sourceReferences": 3061,
@@ -191,6 +191,14 @@
     {
       "id": "watch-technical-890a56b0d2aff0c91c90-md",
       "title": "deepseek-harness",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-273aed2396317e012b08-md",
+      "title": "desloppify",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -764,6 +772,16 @@
       ]
     },
     {
+      "id": "watch-technical-f02783bd848306e7457b-md",
+      "title": "star-history",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-8317f5fa97f4954a5d4f-md",
       "title": "SteadyDancer",
       "reasons": [
@@ -927,14 +945,6 @@
       ]
     },
     {
-      "id": "watch-technical-273aed2396317e012b08-md",
-      "title": "desloppify",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-9cd3273e9ce8f0bb884d-md",
       "title": "Noticky",
       "reasons": [
@@ -947,16 +957,6 @@
       "title": "SideNotes",
       "reasons": [
         "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-f02783bd848306e7457b-md",
-      "title": "star-history",
-      "reasons": [
-        "interest-missing",
-        "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },
