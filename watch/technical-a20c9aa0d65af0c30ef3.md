@@ -19,7 +19,7 @@ Intérêt à vérifier
 ## Métadonnées
 
 - Nature : À vérifier
-- OS : À vérifier
+- OS : macOS
 - Licence : À vérifier
 - Tarification : À vérifier
 - Accès : À vérifier
@@ -45,5 +45,5 @@ Intérêt à vérifier
 - Origine : NotePlan
 - Identifiant source : a20c9aa0d65af0c30ef3cfb7c8791625cd30d931a58e9450ea8003a88635f38e
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-11-11
+- Lecture KM : 2026-11-12
 - Résumé automatique local ; les affirmations restent attribuées aux sources.

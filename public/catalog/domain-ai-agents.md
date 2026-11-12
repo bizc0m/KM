@@ -11,6 +11,7 @@
 - [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
 - [mcp-webresearch](../../watch/technical-6b0d6844a1825aa4d5da.md)
 - [opencode](../../watch/technical-ffccace0ba14fd154d90.md)
+- [OpenMausBot](../../watch/technical-a9b556051dc6e3270941.md)
 - [research-mcp](../../watch/technical-ffc05a5b982c09b92791.md)
 - [oxylabs/web-api-mcp](../../watch/technical-4d03aa0eeecb3abfcbad.md)
 - [qlib](../../watch/technical-c750f525fc3dfb26b9af.md)
@@ -19,7 +20,6 @@
 - [Searchlight](../../watch/technical-d4d044cd39765ba2f35d.md)
 - [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
 - [web-scout-mcp](../../watch/technical-e54359e32dffb4db43b7.md)
-- [OpenMausBot](../../watch/technical-a9b556051dc6e3270941.md)
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Fonction · Définir des principes pour construire des applications LLM fiables et scalables.
 Avantages · Structurer la logique et les interactions avec les outils.
 Gain · Réduire la complexité et améliorer la maintenance du code.

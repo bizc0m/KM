@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-12T12:52:02.643Z",
+  "at": "2026-11-12T13:52:07.938Z",
   "scope": "public-index-only",
   "fiches": 762,
   "sourceReferences": 3061,
@@ -66,6 +66,14 @@
       ]
     },
     {
+      "id": "watch-technical-fa71f92dbb3617f853df-md",
+      "title": "BindWeave",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-159ec935b39905997411-md",
       "title": "cache-dit",
       "reasons": [
@@ -94,6 +102,14 @@
       "title": "claude-animation-skill",
       "reasons": [
         "interest-missing"
+      ]
+    },
+    {
+      "id": "watch-technical-788ada22f51fe2f2fa47-md",
+      "title": "ComfyUI-LTXVideo",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
       ]
     },
     {
@@ -189,6 +205,14 @@
       ]
     },
     {
+      "id": "watch-technical-de2f95b61d2c02d5ce4d-md",
+      "title": "EchoShot",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-0c0f874561d298dc518f-md",
       "title": "eSpeak NG",
       "reasons": [
@@ -199,12 +223,28 @@
       ]
     },
     {
+      "id": "watch-technical-99f7e720fd6c858f2647-md",
+      "title": "facebookresearch/DiT",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-8d00fb1736bf5ed195c0-md",
       "title": "Ferret",
       "reasons": [
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-9cd479303e19239f0e30-md",
+      "title": "FlowEdit",
+      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -244,6 +284,15 @@
       ]
     },
     {
+      "id": "watch-technical-a20c9aa0d65af0c30ef3-md",
+      "title": "Homebrew Cask",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-4644da68394e9f31c315-md",
       "title": "httpx-aiohttp",
       "reasons": [
@@ -254,8 +303,24 @@
       ]
     },
     {
+      "id": "watch-technical-d758de2fa9fb5f8a8a0a-md",
+      "title": "HuMo",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-c68e0c3a6fae281f326e-md",
       "title": "HunyuanVideo",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-ddaf6a4e47052c78f577-md",
+      "title": "IINA",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -290,6 +355,15 @@
     {
       "id": "watch-technical-85cf39efea4c32d2ef3c-md",
       "title": "jieba",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0c5debbfa17ae0223f25-md",
+      "title": "KeepingYouAwake",
       "reasons": [
         "interest-missing",
         "domain-unqualified",
@@ -368,10 +442,54 @@
       ]
     },
     {
+      "id": "watch-technical-ce7290d953bccb2d84d8-md",
+      "title": "LTX-Video",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8c429240f3eff91a1b36-md",
+      "title": "LTX-Video (Legacy)",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-c5c0bf6589cc8ba1d595-md",
       "title": "LTX-Video-Trainer",
       "reasons": [
         "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8241a59ec339c20af317-md",
+      "title": "LTXVideo-Q8-Kernels",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-552480b4f83f4b977645-md",
+      "title": "Lynx",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-3f4da86ca48d8383534f-md",
+      "title": "MASShortcut",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -407,6 +525,14 @@
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-bfbf509a4b3bf34e42fa-md",
+      "title": "MoCha",
+      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -472,6 +598,14 @@
       ]
     },
     {
+      "id": "watch-technical-a9b556051dc6e3270941-md",
+      "title": "OpenMausBot",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-ffc05a5b982c09b92791-md",
       "title": "research-mcp",
       "reasons": [
@@ -504,6 +638,14 @@
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-1d1f56d738ca1db480ae-md",
+      "title": "Pasteboard Viewer",
+      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -551,6 +693,22 @@
     {
       "id": "watch-technical-dca806554efeda77bfb9-md",
       "title": "retrieval-go",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-4c623ce305ac3d1576ec-md",
+      "title": "RF-Solver-Edit",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-b9ba8444c3aad5509895-md",
+      "title": "SCAIL",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -606,6 +764,14 @@
       ]
     },
     {
+      "id": "watch-technical-8317f5fa97f4954a5d4f-md",
+      "title": "SteadyDancer",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-b1d87499edb0ad1e43f4-md",
       "title": "StyleTTS2",
       "reasons": [
@@ -636,6 +802,14 @@
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e0c736c548ec8d5fa375-md",
+      "title": "Time-to-Move",
+      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -677,6 +851,14 @@
     {
       "id": "watch-technical-30e283a9b3f70e35d81a-md",
       "title": "uv",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-vace-video-creation-editing-md",
+      "title": "VACE",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -725,18 +907,12 @@
       ]
     },
     {
-      "id": "watch-technical-fa71f92dbb3617f853df-md",
-      "title": "BindWeave",
+      "id": "watch-technical-47f46a69b01e4f3d3d09-md",
+      "title": "Zero-Breach-Toolkit",
       "reasons": [
         "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-788ada22f51fe2f2fa47-md",
-      "title": "ComfyUI-LTXVideo",
-      "reasons": [
-        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -759,150 +935,8 @@
       ]
     },
     {
-      "id": "watch-technical-de2f95b61d2c02d5ce4d-md",
-      "title": "EchoShot",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-99f7e720fd6c858f2647-md",
-      "title": "facebookresearch/DiT",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-9cd479303e19239f0e30-md",
-      "title": "FlowEdit",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-a20c9aa0d65af0c30ef3-md",
-      "title": "Homebrew Cask",
-      "reasons": [
-        "interest-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-d758de2fa9fb5f8a8a0a-md",
-      "title": "HuMo",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-ddaf6a4e47052c78f577-md",
-      "title": "IINA",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-0c5debbfa17ae0223f25-md",
-      "title": "KeepingYouAwake",
-      "reasons": [
-        "interest-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-ce7290d953bccb2d84d8-md",
-      "title": "LTX-Video",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-8c429240f3eff91a1b36-md",
-      "title": "LTX-Video (Legacy)",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-8241a59ec339c20af317-md",
-      "title": "LTXVideo-Q8-Kernels",
-      "reasons": [
-        "interest-missing",
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-552480b4f83f4b977645-md",
-      "title": "Lynx",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-3f4da86ca48d8383534f-md",
-      "title": "MASShortcut",
-      "reasons": [
-        "interest-missing",
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-bfbf509a4b3bf34e42fa-md",
-      "title": "MoCha",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-9cd3273e9ce8f0bb884d-md",
       "title": "Noticky",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-a9b556051dc6e3270941-md",
-      "title": "OpenMausBot",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-1d1f56d738ca1db480ae-md",
-      "title": "Pasteboard Viewer",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-4c623ce305ac3d1576ec-md",
-      "title": "RF-Solver-Edit",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-b9ba8444c3aad5509895-md",
-      "title": "SCAIL",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -927,44 +961,10 @@
       ]
     },
     {
-      "id": "watch-technical-8317f5fa97f4954a5d4f-md",
-      "title": "SteadyDancer",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-e0c736c548ec8d5fa375-md",
-      "title": "Time-to-Move",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-vace-video-creation-editing-md",
-      "title": "VACE",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
       "id": "watch-technical-8bee61d896b5e33a0c30-md",
       "title": "VoiceStudio",
       "reasons": [
         "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-47f46a69b01e4f3d3d09-md",
-      "title": "Zero-Breach-Toolkit",
-      "reasons": [
-        "interest-missing",
-        "keywords-missing",
-        "domain-unqualified",
         "nature-unqualified"
       ]
     },

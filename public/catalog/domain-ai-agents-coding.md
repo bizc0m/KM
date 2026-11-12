@@ -1,7 +1,6 @@
 # Agents de développement
 
 - [impeccable](../../watch/technical-ec673bd7694d3a658bba.md)
-- [OpenMausBot](../../watch/technical-a9b556051dc6e3270941.md)
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
 Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export
 Gain · Productivité · Réutilisation · Contexte · Collaboration
