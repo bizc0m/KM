@@ -105,3 +105,7 @@ Le classement utilise désormais l’ontologie partagée version 1.0, avec sujet
 ### Pagination publique Raindrop
 
 Le lecteur utilise l’identifiant trouvé dans la page publique activée, puis l’API publique `https://api.raindrop.io/v2/raindrops/{id}` par pages de 50. Cet endpoint est celui du [client officiel des pages publiques](https://github.com/raindropio/pages/blob/master/src/api/raindrops/get.js). Aucun jeton ni accès aux collections privées. Les identifiants distincts sont comparés au total annoncé ; pages répétées, erreurs et limites ne deviennent jamais une couverture complète. La découverte des références ne prouve pas que leurs liens ont tous été analysés.
+
+### Marquage Calendar
+
+Le writeback intervient après la production et les contrôles, jamais dans les checkpoints de collecte. Il ajoute uniquement `[x] #KM-OK` aux éléments dont toutes les sources et fiches sont établies. Les anciens `#km-fait`, les liens existants et l’ordre des tâches sont conservés. Aucun rapport n’est écrit ni lu dans Notes ; les rapports restent dans le répertoire local du pipeline. Sauvegarde, comparaison avant remplacement et vérification après écriture restent obligatoires.
