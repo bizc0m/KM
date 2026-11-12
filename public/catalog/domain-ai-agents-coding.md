@@ -3,6 +3,7 @@
 - [agent-skills](../../watch/technical-dae9f02535f7c22f84f1.md)
 - [gsap-skills](../../watch/technical-ef984a9e4c84dd12f20d.md)
 - [impeccable](../../watch/technical-ec673bd7694d3a658bba.md)
+- [Motion](../../watch/technical-d0d951d500e0a6ae2a0e.md)
 - [oxylabs/web-api-skills](../../watch/technical-ae44b7c5c77979957073.md)
 - [Remotion Agent Skills](../../watch/technical-0a09b687d088cc7fc778.md)
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
@@ -44,9 +45,6 @@ Gain · Exécuter des tâches de codage sans configuration complexe.
 - [Pi](../../watch/technical-c133b93b912dffd605a2.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
 Avantages · Intégration de fournisseurs LLM via une API unifiée.
 Gain · Lancer des tâches de codage avec un compte ou une clé API.
-- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Fonction · Créer des vidéos via agent, interactif ou programmation.
-Avantages · Intégration avec VS Code et Codex.
-Gain · Générer des vidéos sans logiciel dédié.
 - [agency-agents](../../watch/technical-b3d97a6bcd67a3be76f1.md) — Fonction · Définir des rôles d'agents pour des conseils spécialisés.
 Avantages · Intégration avec NotePlan, X/Twitter, GitHub.
 Gain · Automatiser la gestion des tâches via des rôles prédéfinis.

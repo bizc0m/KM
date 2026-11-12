@@ -15,6 +15,7 @@
 - [MCP Registry](../../watch/technical-0ab174b3cfd6fa55ca88.md)
 - [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
 - [mcp-webresearch](../../watch/technical-6b0d6844a1825aa4d5da.md)
+- [Motion](../../watch/technical-d0d951d500e0a6ae2a0e.md)
 - [Motion Design Skill](../../watch/technical-17c9d333777b6545efcf.md)
 - [opencode](../../watch/technical-ffccace0ba14fd154d90.md)
 - [OpenMausBot](../../watch/technical-a9b556051dc6e3270941.md)
@@ -131,9 +132,6 @@ Gain · Exécuter des tâches de codage sans configuration complexe.
 - [Pi](../../watch/technical-c133b93b912dffd605a2.md) — Fonction · Agent de codage extensible avec extensions, compétences et modèles de prompt.
 Avantages · Intégration de fournisseurs LLM via une API unifiée.
 Gain · Lancer des tâches de codage avec un compte ou une clé API.
-- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Fonction · Créer des vidéos via agent, interactif ou programmation.
-Avantages · Intégration avec VS Code et Codex.
-Gain · Générer des vidéos sans logiciel dédié.
 - [rtk](../../watch/technical-d07066251c23560c4586.md) — Fonction · Comprime et filtre les sorties des commandes avant lecture par l'agent.
 Avantages · Réduit les tokens d'entrée via compression et regroupement.
 Gain · Éviter de transmettre des données redondantes à l'agent.

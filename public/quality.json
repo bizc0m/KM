@@ -1,18 +1,18 @@
 {
-  "at": "2026-11-12T21:52:50.234Z",
+  "at": "2026-11-12T22:52:55.341Z",
   "scope": "public-index-only",
-  "fiches": 813,
-  "sourceReferences": 3244,
+  "fiches": 816,
+  "sourceReferences": 3256,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 771,
+  "pendingReview": 774,
   "counts": {
-    "interest-missing": 197,
+    "interest-missing": 201,
     "keywords-missing": 123,
     "domain-unqualified": 164,
     "primary-identity-unqualified": 21,
-    "nature-unqualified": 755
+    "nature-unqualified": 758
   },
   "queue": [
     {
@@ -417,6 +417,14 @@
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-f017fa6f1c553ef834f0-md",
+      "title": "GSAP",
+      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -828,6 +836,14 @@
       ]
     },
     {
+      "id": "watch-technical-d0d951d500e0a6ae2a0e-md",
+      "title": "Motion",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-17c9d333777b6545efcf-md",
       "title": "Motion Design Skill",
       "reasons": [
@@ -939,6 +955,14 @@
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-9d73bfe0d8c7ab5fcbad-md",
+      "title": "OpenShorts.app",
+      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1076,6 +1100,14 @@
         "keywords-missing",
         "domain-unqualified",
         "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c8e0d0b7ca0f7e400713-md",
+      "title": "remotion",
+      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -2097,13 +2129,6 @@
     {
       "id": "watch-technical-ca7cb887e2ca56aa74cb-md",
       "title": "PromptZero",
-      "reasons": [
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-c8e0d0b7ca0f7e400713-md",
-      "title": "remotion",
       "reasons": [
         "nature-unqualified"
       ]

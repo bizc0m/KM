@@ -18,8 +18,10 @@
 - [Lynx](../../watch/technical-552480b4f83f4b977645.md)
 - [MoCha](../../watch/technical-bfbf509a4b3bf34e42fa.md)
 - [moviepy](../../watch/technical-8850110282c0b220a399.md)
+- [OpenShorts.app](../../watch/technical-9d73bfe0d8c7ab5fcbad.md)
 - [Opus 5.5 Video Prompts](../../watch/technical-900a21d15cb137a3898f.md)
 - [Prompt Relay](../../watch/technical-917d0189f02f4a95ace6.md)
+- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
 - [Remotion Agent Skills](../../watch/technical-0a09b687d088cc7fc778.md)
 - [RF-Solver-Edit](../../watch/technical-4c623ce305ac3d1576ec.md)
 - [SteadyDancer](../../watch/technical-8317f5fa97f4954a5d4f.md)
@@ -60,9 +62,6 @@ Gain · Éviter l'analyse manuelle des mouvements dynamiques.
 - [Plugin mov-cli-youtube](../../watch/technical-52593ff508c40e9e2d49.md) — Fonction · Lire des vidéos YouTube via CLI.
 Avantages · Support audio seul et vidéos courtes.
 Gain · Exécuter des requêtes sans navigateur.
-- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Fonction · Créer des vidéos via agent, interactif ou programmation.
-Avantages · Intégration avec VS Code et Codex.
-Gain · Générer des vidéos sans logiciel dédié.
 - [embed-sdk-js](../../watch/technical-f4619ecbc826ded4db95.md) — Affiche des vidéos torrent avec sous-titres et personnalisation.
 - [VisoMaster-Fusion](../../watch/technical-dbbe9adbe528f3b77e3a.md) — Fonction · Échange de visage, amélioration, montage vidéo et webcam.
 Avantages · Modèles avancés, traitement par GPU, gestion de tâches en batch.

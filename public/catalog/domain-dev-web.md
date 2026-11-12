@@ -1,5 +1,8 @@
 # Développement web
 
+- [GSAP](../../watch/technical-f017fa6f1c553ef834f0.md)
+- [Motion](../../watch/technical-d0d951d500e0a6ae2a0e.md)
+- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
 - [Anthropic/skills](../../watch/technical-4ebbe613827a1ffc3c29.md) — Fonction · Chargement dynamique de compétences pour tâches spécialisées.
 Avantages · Instructions, scripts et ressources prédéfinis.
 Gain · Exécuter des tâches répétitives avec précision.
@@ -15,9 +18,6 @@ Gain · Lancer un deck en quelques secondes avec un CLI.
 - [Popcorn Time](../../watch/technical-f2ad2f5dfae253d2f4b6.md) — Fonction · Regarder des films, séries et contenus multimédia.
 Avantages · Catalogue mis à jour hebdomadairement en format Parquet.
 Gain · Lire ses propres fichiers sans dépendre de liens externes.
-- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Fonction · Créer des vidéos via agent, interactif ou programmation.
-Avantages · Intégration avec VS Code et Codex.
-Gain · Générer des vidéos sans logiciel dédié.
 - [open-grok-bot](../../watch/technical-dfc871508eb563893ba5.md) — Crée des personas bots avec des modèles spécifiques
 - [@react-native-segmented-control/segmented-control](../../watch/technical-4fecf39958682d370cdb.md) — Fonction · Affiche un contrôle segmenté pour iOS, Android et Web.
 Avantages · Supporte les styles iOS 13 et personnalisations de design.

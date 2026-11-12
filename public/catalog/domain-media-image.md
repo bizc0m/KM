@@ -8,6 +8,7 @@
 - [editly](../../watch/technical-4363f9e6c05405225725.md)
 - [facebookresearch/DiT](../../watch/technical-99f7e720fd6c858f2647.md)
 - [FlowEdit](../../watch/technical-9cd479303e19239f0e30.md)
+- [GSAP](../../watch/technical-f017fa6f1c553ef834f0.md)
 - [HuMo](../../watch/technical-d758de2fa9fb5f8a8a0a.md)
 - [invisible-watermark](../../watch/technical-005abdbffd4cbd1b8847.md)
 - [krita-ai-diffusion](../../watch/technical-2ef347c5b5044c98dbe3.md)

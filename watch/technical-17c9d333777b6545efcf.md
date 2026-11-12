@@ -39,6 +39,7 @@ Intérêt à vérifier
 
 - https://github.com/lottiefiles/motion-design-skill
 - https://x.com/i/status/2112609040962359354
+- https://x.com/i/status/2111393917899808880
 
 ## Traçabilité
 

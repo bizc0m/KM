@@ -7,12 +7,15 @@
 - [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
 - [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
 - [fastlane](../../watch/technical-026d3ff8cb1d2ae22fa5.md)
+- [GSAP](../../watch/technical-f017fa6f1c553ef834f0.md)
 - [impeccable](../../watch/technical-ec673bd7694d3a658bba.md)
 - [MonitorControl](../../watch/technical-0e18a14e639bd2136bf6.md)
+- [Motion](../../watch/technical-d0d951d500e0a6ae2a0e.md)
 - [mypy](../../watch/technical-9bb481e842fecd6c2088.md)
 - [opencode](../../watch/technical-ffccace0ba14fd154d90.md)
 - [Pasteboard Viewer](../../watch/technical-1d1f56d738ca1db480ae.md)
 - [qlib](../../watch/technical-c750f525fc3dfb26b9af.md)
+- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
 - [Remotion Agent Skills](../../watch/technical-0a09b687d088cc7fc778.md)
 - [TwinDesk](../../watch/technical-f7e87bae1ea9b74959c4.md)
 - [uv](../../watch/technical-30e283a9b3f70e35d81a.md)
@@ -96,9 +99,6 @@ Gain · Lancer des tâches de codage avec un compte ou une clé API.
 - [Popcorn Time](../../watch/technical-f2ad2f5dfae253d2f4b6.md) — Fonction · Regarder des films, séries et contenus multimédia.
 Avantages · Catalogue mis à jour hebdomadairement en format Parquet.
 Gain · Lire ses propres fichiers sans dépendre de liens externes.
-- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Fonction · Créer des vidéos via agent, interactif ou programmation.
-Avantages · Intégration avec VS Code et Codex.
-Gain · Générer des vidéos sans logiciel dédié.
 - [Selenium](../../watch/technical-d03eda2466f2556e6e1c.md) — Fonction · Automatise les navigateurs web via WebDriver.
 Avantages · Compatible avec tous les navigateurs majeurs.
 Gain · Éviter de coder manuellement les interactions.

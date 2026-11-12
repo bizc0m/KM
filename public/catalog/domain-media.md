@@ -15,6 +15,7 @@
 - [facebookresearch/DiT](../../watch/technical-99f7e720fd6c858f2647.md)
 - [FireRed-OpenStoryline](../../watch/technical-78dddd0d96a910917d94.md)
 - [FlowEdit](../../watch/technical-9cd479303e19239f0e30.md)
+- [GSAP](../../watch/technical-f017fa6f1c553ef834f0.md)
 - [Helios](../../watch/technical-9f2d613fa72208f070af.md)
 - [HuMo](../../watch/technical-d758de2fa9fb5f8a8a0a.md)
 - [HunyuanVideo](../../watch/technical-c68e0c3a6fae281f326e.md)
@@ -31,12 +32,14 @@
 - [MoCha](../../watch/technical-bfbf509a4b3bf34e42fa.md)
 - [moonlight-qt](../../watch/technical-9f9a1fce536e61f94e79.md)
 - [moviepy](../../watch/technical-8850110282c0b220a399.md)
+- [OpenShorts.app](../../watch/technical-9d73bfe0d8c7ab5fcbad.md)
 - [Opus 5.5 Video Prompts](../../watch/technical-900a21d15cb137a3898f.md)
 - [Pasteboard Viewer](../../watch/technical-1d1f56d738ca1db480ae.md)
 - [photopea/photopea](../../watch/technical-34a75990427dfeb34af2.md)
 - [pinyin-to-ipa](../../watch/technical-f57d7abfe4ccf7114148.md)
 - [Prompt Relay](../../watch/technical-917d0189f02f4a95ace6.md)
 - [pyopenjtalk](../../watch/technical-730c4fe9b7d1ccd6c608.md)
+- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md)
 - [Remotion Agent Skills](../../watch/technical-0a09b687d088cc7fc778.md)
 - [RF-Solver-Edit](../../watch/technical-4c623ce305ac3d1576ec.md)
 - [SCAIL](../../watch/technical-b9ba8444c3aad5509895.md)
@@ -136,9 +139,6 @@ Gain · Exporter directement du code HTML/CSS/SVG sans intermédiaire.
 - [Plugin mov-cli-youtube](../../watch/technical-52593ff508c40e9e2d49.md) — Fonction · Lire des vidéos YouTube via CLI.
 Avantages · Support audio seul et vidéos courtes.
 Gain · Exécuter des requêtes sans navigateur.
-- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Fonction · Créer des vidéos via agent, interactif ou programmation.
-Avantages · Intégration avec VS Code et Codex.
-Gain · Générer des vidéos sans logiciel dédié.
 - [embed-sdk-js](../../watch/technical-f4619ecbc826ded4db95.md) — Affiche des vidéos torrent avec sous-titres et personnalisation.
 - [StdGEN](../../watch/technical-39708b126c037da50e56.md) — Fonction · Génère des personnages 3D à partir d'une image 2D.
 Avantages · Découpage sémantique et génération multi-vue.

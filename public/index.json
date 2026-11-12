@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-12T21:52:50.054Z",
-  "count": 813,
+  "at": "2026-11-12T22:52:55.170Z",
+  "count": 816,
   "rows": [
     {
       "id": "watch-technical-bd69dc0d4bb066bb0ea3-md",
@@ -18356,6 +18356,423 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-f017fa6f1c553ef834f0-md",
+      "title": "GSAP",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#react",
+        "#animation-svg"
+      ],
+      "status": "actif",
+      "path": "watch/technical-f017fa6f1c553ef834f0.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-f017fa6f1c553ef834f0.md",
+      "sourceUrl": "https://github.com/greensock/gsap",
+      "sources": [
+        {
+          "url": "https://github.com/greensock/gsap",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2111393917899808880",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/greensock/gsap",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "media",
+      "themeLabel": "Images et graphisme",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.media.image",
+            "domain.dev.web"
+          ],
+          "capability": [
+            "capability.animate.svg"
+          ],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.media.image",
+            "label": "Images et graphisme",
+            "parent": "domain.media",
+            "aliases": [
+              "#compression-images",
+              "#generation-images",
+              "#animation-svg",
+              "#image",
+              "#design",
+              "#svg",
+              "#inspiration"
+            ],
+            "patterns": [
+              "\\bimages?\\b",
+              "\\bsvg\\b",
+              "visual intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Images et graphisme"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.dev.web",
+            "label": "Développement web",
+            "parent": "domain.dev",
+            "aliases": [
+              "#react",
+              "#clonage-sites",
+              "#conversion-web"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel",
+              "Développement web"
+            ]
+          },
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
+            ]
+          },
+          {
+            "id": "capability.animate.svg",
+            "label": "Animer du SVG",
+            "parent": "capability",
+            "aliases": [
+              "#animation-svg"
+            ],
+            "facet": "capability",
+            "path": [
+              "Animer du SVG"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.media.image",
+          "label": "Images et graphisme",
+          "parent": "domain.media",
+          "aliases": [
+            "#compression-images",
+            "#generation-images",
+            "#animation-svg",
+            "#image",
+            "#design",
+            "#svg",
+            "#inspiration"
+          ],
+          "patterns": [
+            "\\bimages?\\b",
+            "\\bsvg\\b",
+            "visual intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Images et graphisme"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.dev.web",
+          "label": "Développement web",
+          "parent": "domain.dev",
+          "aliases": [
+            "#react",
+            "#clonage-sites",
+            "#conversion-web"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel",
+            "Développement web"
+          ]
+        },
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
+          ]
+        },
+        {
+          "id": "capability.animate.svg",
+          "label": "Animer du SVG",
+          "parent": "capability",
+          "aliases": [
+            "#animation-svg"
+          ],
+          "facet": "capability",
+          "path": [
+            "Animer du SVG"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#react",
+          "fullLabel": "react",
+          "color": "dev",
+          "tag": "#react"
+        },
+        {
+          "label": "#animation-svg",
+          "fullLabel": "animation-svg",
+          "color": "media",
+          "tag": "#animation-svg"
+        }
+      ],
+      "cardTitle": "GSAP",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-ef984a9e4c84dd12f20d-md",
       "title": "gsap-skills",
       "canonical": "",
@@ -34143,6 +34560,442 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-d0d951d500e0a6ae2a0e-md",
+      "title": "Motion",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#react"
+      ],
+      "status": "actif",
+      "path": "watch/technical-d0d951d500e0a6ae2a0e.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-d0d951d500e0a6ae2a0e.md",
+      "sourceUrl": "https://github.com/motiondivision/motion",
+      "sources": [
+        {
+          "url": "https://github.com/motiondivision/motion",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2111393917899808880",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/motiondivision/motion",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "agent",
+      "themeLabel": "Agents de développement",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents.coding",
+            "domain.dev.web"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents.coding",
+            "label": "Agents de développement",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents"
+            ],
+            "patterns": [
+              "claude code",
+              "\\bcodex\\b",
+              "coding agents?",
+              "agents? de cod"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Agents de développement"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.dev.web",
+            "label": "Développement web",
+            "parent": "domain.dev",
+            "aliases": [
+              "#react",
+              "#clonage-sites",
+              "#conversion-web"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel",
+              "Développement web"
+            ]
+          },
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
+            ]
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents.coding",
+          "label": "Agents de développement",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents"
+          ],
+          "patterns": [
+            "claude code",
+            "\\bcodex\\b",
+            "coding agents?",
+            "agents? de cod"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Agents de développement"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.dev.web",
+          "label": "Développement web",
+          "parent": "domain.dev",
+          "aliases": [
+            "#react",
+            "#clonage-sites",
+            "#conversion-web"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel",
+            "Développement web"
+          ]
+        },
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
+          ]
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#react",
+          "fullLabel": "react",
+          "color": "dev",
+          "tag": "#react"
+        }
+      ],
+      "cardTitle": "Motion",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-17c9d333777b6545efcf-md",
       "title": "Motion Design Skill",
       "canonical": "",
@@ -34180,6 +35033,12 @@
         },
         {
           "url": "https://x.com/i/status/2112609040962359354",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2111393917899808880",
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
@@ -38068,6 +38927,535 @@
       ],
       "keywords": [],
       "cardTitle": "openpilot",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-9d73bfe0d8c7ab5fcbad-md",
+      "title": "OpenShorts.app",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#publication-sociale",
+        "#generation-video"
+      ],
+      "status": "actif",
+      "path": "watch/technical-9d73bfe0d8c7ab5fcbad.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-9d73bfe0d8c7ab5fcbad.md",
+      "sourceUrl": "https://github.com/mutonby/openshorts",
+      "sources": [
+        {
+          "url": "https://github.com/mutonby/openshorts",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2111423382226935922",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/mutonby/openshorts/HEAD/screenshots/split-before-after.gif",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/mutonby/openshorts/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/mutonby/openshorts/HEAD/screenshots/clip-results.png",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        }
+      ],
+      "github": "https://github.com/mutonby/openshorts",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "media",
+      "themeLabel": "Vidéo",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai",
+            "domain.media.video",
+            "domain.communication"
+          ],
+          "capability": [
+            "capability.automation.publish",
+            "capability.generate.video"
+          ],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.media.video",
+            "label": "Vidéo",
+            "parent": "domain.media",
+            "aliases": [
+              "#montage-video",
+              "#video-editing",
+              "#generation-video",
+              "#video-generation",
+              "#ai-video",
+              "#video",
+              "#shortvideo",
+              "#ai-video-generator"
+            ],
+            "patterns": [
+              "\\bvideos?\\b",
+              "\\bvideo\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Vidéo"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "domain.communication",
+            "label": "Communication et publication",
+            "parent": "domain",
+            "aliases": [
+              "#publication-sociale",
+              "#social-media",
+              "#email"
+            ],
+            "patterns": [
+              "publication.*(?:contenus|reseaux)",
+              "client email"
+            ],
+            "facet": "domain",
+            "path": [
+              "Communication et publication"
+            ]
+          },
+          {
+            "id": "capability.automation.publish",
+            "label": "Publier sur plusieurs réseaux",
+            "parent": "capability.automation",
+            "aliases": [
+              "#publication-sociale"
+            ],
+            "facet": "capability",
+            "path": [
+              "Automatiser des actions",
+              "Publier sur plusieurs réseaux"
+            ]
+          },
+          {
+            "id": "capability.automation",
+            "label": "Automatiser des actions",
+            "parent": "capability",
+            "aliases": [
+              "#automation",
+              "#workflow",
+              "#workflows",
+              "#ui-automation"
+            ],
+            "patterns": [
+              "automatise.*tests",
+              "automatisation"
+            ],
+            "facet": "capability",
+            "path": [
+              "Automatiser des actions"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "capability.generate.video",
+            "label": "Générer une vidéo",
+            "parent": "capability.generate",
+            "aliases": [
+              "#generation-video",
+              "#video-generation",
+              "#ai-video"
+            ],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus",
+              "Générer une vidéo"
+            ]
+          },
+          {
+            "id": "capability.generate",
+            "label": "Générer des contenus",
+            "parent": "capability",
+            "aliases": [],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus"
+            ]
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.media.video",
+          "label": "Vidéo",
+          "parent": "domain.media",
+          "aliases": [
+            "#montage-video",
+            "#video-editing",
+            "#generation-video",
+            "#video-generation",
+            "#ai-video",
+            "#video",
+            "#shortvideo",
+            "#ai-video-generator"
+          ],
+          "patterns": [
+            "\\bvideos?\\b",
+            "\\bvideo\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Vidéo"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "domain.communication",
+          "label": "Communication et publication",
+          "parent": "domain",
+          "aliases": [
+            "#publication-sociale",
+            "#social-media",
+            "#email"
+          ],
+          "patterns": [
+            "publication.*(?:contenus|reseaux)",
+            "client email"
+          ],
+          "facet": "domain",
+          "path": [
+            "Communication et publication"
+          ]
+        },
+        {
+          "id": "capability.automation.publish",
+          "label": "Publier sur plusieurs réseaux",
+          "parent": "capability.automation",
+          "aliases": [
+            "#publication-sociale"
+          ],
+          "facet": "capability",
+          "path": [
+            "Automatiser des actions",
+            "Publier sur plusieurs réseaux"
+          ]
+        },
+        {
+          "id": "capability.automation",
+          "label": "Automatiser des actions",
+          "parent": "capability",
+          "aliases": [
+            "#automation",
+            "#workflow",
+            "#workflows",
+            "#ui-automation"
+          ],
+          "patterns": [
+            "automatise.*tests",
+            "automatisation"
+          ],
+          "facet": "capability",
+          "path": [
+            "Automatiser des actions"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "capability.generate.video",
+          "label": "Générer une vidéo",
+          "parent": "capability.generate",
+          "aliases": [
+            "#generation-video",
+            "#video-generation",
+            "#ai-video"
+          ],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus",
+            "Générer une vidéo"
+          ]
+        },
+        {
+          "id": "capability.generate",
+          "label": "Générer des contenus",
+          "parent": "capability",
+          "aliases": [],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus"
+          ]
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#publication-sociale",
+          "fullLabel": "publication-sociale",
+          "color": "source",
+          "tag": "#publication-sociale"
+        },
+        {
+          "label": "#Vidéo",
+          "fullLabel": "Génération vidéo",
+          "color": "media",
+          "tag": "#generation-video"
+        }
+      ],
+      "cardTitle": "OpenShorts.app",
       "cardInterest": ""
     },
     {
@@ -44571,6 +45959,455 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-c8e0d0b7ca0f7e400713-md",
+      "title": "remotion",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "Non précisée",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/remotion-dev/remotion"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#react",
+        "#generation-video"
+      ],
+      "status": "actif",
+      "path": "watch/technical-c8e0d0b7ca0f7e400713.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-c8e0d0b7ca0f7e400713.md",
+      "sourceUrl": "https://github.com/remotion-dev/remotion",
+      "sources": [
+        {
+          "url": "https://github.com/remotion-dev/remotion",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2054860595422236873",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2111393917899808880",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/remotion-dev/remotion",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "media",
+      "themeLabel": "Vidéo",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.media.video",
+            "domain.dev.web"
+          ],
+          "capability": [
+            "capability.generate.video"
+          ],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.media.video",
+            "label": "Vidéo",
+            "parent": "domain.media",
+            "aliases": [
+              "#montage-video",
+              "#video-editing",
+              "#generation-video",
+              "#video-generation",
+              "#ai-video",
+              "#video",
+              "#shortvideo",
+              "#ai-video-generator"
+            ],
+            "patterns": [
+              "\\bvideos?\\b",
+              "\\bvideo\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Vidéo"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.dev.web",
+            "label": "Développement web",
+            "parent": "domain.dev",
+            "aliases": [
+              "#react",
+              "#clonage-sites",
+              "#conversion-web"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel",
+              "Développement web"
+            ]
+          },
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
+            ]
+          },
+          {
+            "id": "capability.generate.video",
+            "label": "Générer une vidéo",
+            "parent": "capability.generate",
+            "aliases": [
+              "#generation-video",
+              "#video-generation",
+              "#ai-video"
+            ],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus",
+              "Générer une vidéo"
+            ]
+          },
+          {
+            "id": "capability.generate",
+            "label": "Générer des contenus",
+            "parent": "capability",
+            "aliases": [],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.media.video",
+          "label": "Vidéo",
+          "parent": "domain.media",
+          "aliases": [
+            "#montage-video",
+            "#video-editing",
+            "#generation-video",
+            "#video-generation",
+            "#ai-video",
+            "#video",
+            "#shortvideo",
+            "#ai-video-generator"
+          ],
+          "patterns": [
+            "\\bvideos?\\b",
+            "\\bvideo\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Vidéo"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.dev.web",
+          "label": "Développement web",
+          "parent": "domain.dev",
+          "aliases": [
+            "#react",
+            "#clonage-sites",
+            "#conversion-web"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel",
+            "Développement web"
+          ]
+        },
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
+          ]
+        },
+        {
+          "id": "capability.generate.video",
+          "label": "Générer une vidéo",
+          "parent": "capability.generate",
+          "aliases": [
+            "#generation-video",
+            "#video-generation",
+            "#ai-video"
+          ],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus",
+            "Générer une vidéo"
+          ]
+        },
+        {
+          "id": "capability.generate",
+          "label": "Générer des contenus",
+          "parent": "capability",
+          "aliases": [],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#react",
+          "fullLabel": "react",
+          "color": "dev",
+          "tag": "#react"
+        },
+        {
+          "label": "#Vidéo",
+          "fullLabel": "Génération vidéo",
+          "color": "media",
+          "tag": "#generation-video"
+        }
+      ],
+      "cardTitle": "remotion",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-0a09b687d088cc7fc778-md",
       "title": "Remotion Agent Skills",
       "canonical": "",
@@ -44608,6 +46445,12 @@
         },
         {
           "url": "https://x.com/i/status/2112609040962359354",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2111393917899808880",
           "kind": "social",
           "role": "originPost",
           "label": "Publication d’origine"
@@ -109259,586 +111102,6 @@
       ],
       "cardTitle": "PromptZero",
       "cardInterest": "Protection des données sensibles avant l'envoi vers un API non contrôlé"
-    },
-    {
-      "id": "watch-technical-c8e0d0b7ca0f7e400713-md",
-      "title": "remotion",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "Non précisée",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/remotion-dev/remotion"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#react",
-        "#generation-video"
-      ],
-      "status": "actif",
-      "path": "watch/technical-c8e0d0b7ca0f7e400713.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-c8e0d0b7ca0f7e400713.md",
-      "sourceUrl": "https://github.com/remotion-dev/remotion",
-      "sources": [
-        {
-          "url": "https://github.com/remotion-dev/remotion",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://x.com/i/status/2054860595422236873",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        }
-      ],
-      "github": "https://github.com/remotion-dev/remotion",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Fonction · Créer des vidéos via agent, interactif ou programmation.  \nAvantages · Intégration avec VS Code et Codex.  \nGain · Générer des vidéos sans logiciel dédié.",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-10-26",
-      "theme": "agent",
-      "themeLabel": "Agents de développement",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.media.video",
-            "domain.dev.web",
-            "domain.ai.agents.coding"
-          ],
-          "capability": [
-            "capability.generate.video"
-          ],
-          "compatibility": [],
-          "risk": [],
-          "source": [
-            "source.noteplan",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.media.video",
-            "label": "Vidéo",
-            "parent": "domain.media",
-            "aliases": [
-              "#montage-video",
-              "#video-editing",
-              "#generation-video",
-              "#video-generation",
-              "#ai-video",
-              "#video",
-              "#shortvideo",
-              "#ai-video-generator"
-            ],
-            "patterns": [
-              "\\bvideos?\\b",
-              "\\bvideo\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création",
-              "Vidéo"
-            ]
-          },
-          {
-            "id": "domain.media",
-            "label": "Audio, vidéo et création",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Audio, vidéo et création"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "domain.dev.web",
-            "label": "Développement web",
-            "parent": "domain.dev",
-            "aliases": [
-              "#react",
-              "#clonage-sites",
-              "#conversion-web"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel",
-              "Développement web"
-            ]
-          },
-          {
-            "id": "domain.dev",
-            "label": "Développement logiciel",
-            "parent": "domain",
-            "aliases": [
-              "#coding",
-              "#devtools",
-              "#editor",
-              "#code-quality"
-            ],
-            "patterns": [
-              "developpement logiciel",
-              "software development",
-              "ingenierie logicielle",
-              "developpement",
-              "programmat",
-              "modifier.*fichiers.*projet",
-              "modifier un projet"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel"
-            ]
-          },
-          {
-            "id": "domain.ai.agents.coding",
-            "label": "Agents de développement",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#agents-code",
-              "#coding-agents"
-            ],
-            "patterns": [
-              "claude code",
-              "\\bcodex\\b",
-              "coding agents?",
-              "agents? de cod"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Agents de développement"
-            ]
-          },
-          {
-            "id": "domain.ai.agents",
-            "label": "Agents IA",
-            "parent": "domain.ai",
-            "aliases": [
-              "#agent",
-              "#agents",
-              "#ai-agents",
-              "#personal-agent",
-              "#autonomous-agent",
-              "#ai-companion",
-              "#autonomous-company",
-              "#autonomous-research"
-            ],
-            "patterns": [
-              "\\bagents?\\b",
-              "agentique",
-              "\\bopenclaw\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA"
-            ]
-          },
-          {
-            "id": "domain.ai",
-            "label": "Intelligence artificielle",
-            "parent": "domain",
-            "aliases": [
-              "#ia",
-              "#ai",
-              "#generative-ai",
-              "#ai-assistant",
-              "#creative-ai"
-            ],
-            "patterns": [
-              "\\bia\\b",
-              "\\bai\\b",
-              "intelligence artificielle",
-              "artificial intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle"
-            ]
-          },
-          {
-            "id": "capability.generate.video",
-            "label": "Générer une vidéo",
-            "parent": "capability.generate",
-            "aliases": [
-              "#generation-video",
-              "#video-generation",
-              "#ai-video"
-            ],
-            "facet": "capability",
-            "path": [
-              "Générer des contenus",
-              "Générer une vidéo"
-            ]
-          },
-          {
-            "id": "capability.generate",
-            "label": "Générer des contenus",
-            "parent": "capability",
-            "aliases": [],
-            "facet": "capability",
-            "path": [
-              "Générer des contenus"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.noteplan",
-            "label": "NotePlan Calendar",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "NotePlan Calendar"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.media.video",
-          "label": "Vidéo",
-          "parent": "domain.media",
-          "aliases": [
-            "#montage-video",
-            "#video-editing",
-            "#generation-video",
-            "#video-generation",
-            "#ai-video",
-            "#video",
-            "#shortvideo",
-            "#ai-video-generator"
-          ],
-          "patterns": [
-            "\\bvideos?\\b",
-            "\\bvideo\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création",
-            "Vidéo"
-          ]
-        },
-        {
-          "id": "domain.media",
-          "label": "Audio, vidéo et création",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Audio, vidéo et création"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "domain.dev.web",
-          "label": "Développement web",
-          "parent": "domain.dev",
-          "aliases": [
-            "#react",
-            "#clonage-sites",
-            "#conversion-web"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel",
-            "Développement web"
-          ]
-        },
-        {
-          "id": "domain.dev",
-          "label": "Développement logiciel",
-          "parent": "domain",
-          "aliases": [
-            "#coding",
-            "#devtools",
-            "#editor",
-            "#code-quality"
-          ],
-          "patterns": [
-            "developpement logiciel",
-            "software development",
-            "ingenierie logicielle",
-            "developpement",
-            "programmat",
-            "modifier.*fichiers.*projet",
-            "modifier un projet"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel"
-          ]
-        },
-        {
-          "id": "domain.ai.agents.coding",
-          "label": "Agents de développement",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#agents-code",
-            "#coding-agents"
-          ],
-          "patterns": [
-            "claude code",
-            "\\bcodex\\b",
-            "coding agents?",
-            "agents? de cod"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Agents de développement"
-          ]
-        },
-        {
-          "id": "domain.ai.agents",
-          "label": "Agents IA",
-          "parent": "domain.ai",
-          "aliases": [
-            "#agent",
-            "#agents",
-            "#ai-agents",
-            "#personal-agent",
-            "#autonomous-agent",
-            "#ai-companion",
-            "#autonomous-company",
-            "#autonomous-research"
-          ],
-          "patterns": [
-            "\\bagents?\\b",
-            "agentique",
-            "\\bopenclaw\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA"
-          ]
-        },
-        {
-          "id": "domain.ai",
-          "label": "Intelligence artificielle",
-          "parent": "domain",
-          "aliases": [
-            "#ia",
-            "#ai",
-            "#generative-ai",
-            "#ai-assistant",
-            "#creative-ai"
-          ],
-          "patterns": [
-            "\\bia\\b",
-            "\\bai\\b",
-            "intelligence artificielle",
-            "artificial intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle"
-          ]
-        },
-        {
-          "id": "capability.generate.video",
-          "label": "Générer une vidéo",
-          "parent": "capability.generate",
-          "aliases": [
-            "#generation-video",
-            "#video-generation",
-            "#ai-video"
-          ],
-          "facet": "capability",
-          "path": [
-            "Générer des contenus",
-            "Générer une vidéo"
-          ]
-        },
-        {
-          "id": "capability.generate",
-          "label": "Générer des contenus",
-          "parent": "capability",
-          "aliases": [],
-          "facet": "capability",
-          "path": [
-            "Générer des contenus"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.noteplan",
-          "label": "NotePlan Calendar",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "NotePlan Calendar"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#react",
-          "fullLabel": "react",
-          "color": "dev",
-          "tag": "#react"
-        },
-        {
-          "label": "#Vidéo",
-          "fullLabel": "Génération vidéo",
-          "color": "media",
-          "tag": "#generation-video"
-        }
-      ],
-      "cardTitle": "remotion",
-      "cardInterest": "Fonction · Créer des vidéos via agent, interactif ou programmation.\nAvantages · Intégration avec VS Code et Codex.\nGain · Générer des vidéos sans logiciel dédié."
     },
     {
       "id": "watch-technical-d07066251c23560c4586-md",

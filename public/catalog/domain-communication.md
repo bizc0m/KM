@@ -1,5 +1,6 @@
 # Communication et publication
 
+- [OpenShorts.app](../../watch/technical-9d73bfe0d8c7ab5fcbad.md)
 - [Agentic Inbox](../../watch/cloudflare-agentic-inbox.md) — Fonction · Client email self-hosted avec agent AI.
 Avantages · Isolation par boîte mail et stockage R2.
 Gain · Générer des réponses en temps réel via Workers AI.

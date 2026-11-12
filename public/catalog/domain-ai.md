@@ -27,10 +27,12 @@
 - [MCP Registry](../../watch/technical-0ab174b3cfd6fa55ca88.md)
 - [mcp-retrieval](../../watch/technical-91de4f59eb790e03de9e.md)
 - [mcp-webresearch](../../watch/technical-6b0d6844a1825aa4d5da.md)
+- [Motion](../../watch/technical-d0d951d500e0a6ae2a0e.md)
 - [Motion Design Skill](../../watch/technical-17c9d333777b6545efcf.md)
 - [new-term-radar](../../watch/technical-baffcb4d50a5b911d3b9.md)
 - [opencode](../../watch/technical-ffccace0ba14fd154d90.md)
 - [OpenMausBot](../../watch/technical-a9b556051dc6e3270941.md)
+- [OpenShorts.app](../../watch/technical-9d73bfe0d8c7ab5fcbad.md)
 - [research-mcp](../../watch/technical-ffc05a5b982c09b92791.md)
 - [oxylabs/web-api-mcp](../../watch/technical-4d03aa0eeecb3abfcbad.md)
 - [oxylabs/web-api-skills](../../watch/technical-ae44b7c5c77979957073.md)
@@ -165,9 +167,6 @@ Gain · Exécuter des tâches de codage sans configuration complexe.
 Avantages · Intégration de fournisseurs LLM via une API unifiée.
 Gain · Lancer des tâches de codage avec un compte ou une clé API.
 - [PromptZero](../../watch/technical-ca7cb887e2ca56aa74cb.md) — Protection des données sensibles avant l'envoi vers un API non contrôlé
-- [remotion](../../watch/technical-c8e0d0b7ca0f7e400713.md) — Fonction · Créer des vidéos via agent, interactif ou programmation.
-Avantages · Intégration avec VS Code et Codex.
-Gain · Générer des vidéos sans logiciel dédié.
 - [rtk](../../watch/technical-d07066251c23560c4586.md) — Fonction · Comprime et filtre les sorties des commandes avant lecture par l'agent.
 Avantages · Réduit les tokens d'entrée via compression et regroupement.
 Gain · Éviter de transmettre des données redondantes à l'agent.

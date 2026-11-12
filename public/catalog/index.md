@@ -1,21 +1,21 @@
 # Index des sujets KM
 
-- [Intelligence artificielle](domain-ai.md) — 332 fiches
+- [Intelligence artificielle](domain-ai.md) — 333 fiches
 - [Agents IA](domain-ai-agents.md) — 214 fiches
 - [Mémoire des agents](domain-ai-agents-memory.md) — 27 fiches
 - [Orchestration des agents](domain-ai-agents-orchestration.md) — 16 fiches
 - [Agents de développement](domain-ai-agents-coding.md) — 56 fiches
 - [Compétences des agents](domain-ai-agents-skills.md) — 45 fiches
 - [Modèles de langage](domain-ai-llm.md) — 73 fiches
-- [Développement logiciel](domain-dev.md) — 136 fiches
-- [Développement web](domain-dev-web.md) — 26 fiches
+- [Développement logiciel](domain-dev.md) — 138 fiches
+- [Développement web](domain-dev-web.md) — 28 fiches
 - [Qualité du code](domain-dev-quality.md) — 37 fiches
-- [Audio, vidéo et création](domain-media.md) — 213 fiches
+- [Audio, vidéo et création](domain-media.md) — 215 fiches
 - [Audio](domain-media-audio.md) — 53 fiches
 - [Voix](domain-media-audio-voice.md) — 25 fiches
 - [Identification audio](domain-media-audio-identification.md) — 1 fiches
-- [Vidéo](domain-media-video.md) — 110 fiches
-- [Images et graphisme](domain-media-image.md) — 114 fiches
+- [Vidéo](domain-media-video.md) — 111 fiches
+- [Images et graphisme](domain-media-image.md) — 115 fiches
 - [Création 3D](domain-media-3d.md) — 26 fiches
 - [Cybersécurité](domain-security.md) — 79 fiches
 - [Sécurité web](domain-security-web.md) — 4 fiches
@@ -35,7 +35,7 @@
 - [Simulation et analyse quantitative](domain-finance-quant.md) — 5 fiches
 - [Sciences et prévision](domain-science.md) — 7 fiches
 - [Prévisions météorologiques](domain-science-weather.md) — 7 fiches
-- [Communication et publication](domain-communication.md) — 17 fiches
+- [Communication et publication](domain-communication.md) — 18 fiches
 - [Applications et interfaces de bureau](domain-dev-desktop.md) — 19 fiches
 - [Conception d’interfaces](domain-dev-ui.md) — 10 fiches
 - [Connecteurs et outils des agents](domain-ai-agents-integration.md) — 34 fiches
