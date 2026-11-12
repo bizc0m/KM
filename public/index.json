@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-12T19:52:39.336Z",
-  "count": 808,
+  "at": "2026-11-12T20:52:44.889Z",
+  "count": 813,
   "rows": [
     {
       "id": "watch-technical-bd69dc0d4bb066bb0ea3-md",
@@ -17565,6 +17565,492 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-ef984a9e4c84dd12f20d-md",
+      "title": "gsap-skills",
+      "canonical": "",
+      "resource": {
+        "nature": "Collection de skills",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#agents-code",
+        "#skills-agents"
+      ],
+      "status": "actif",
+      "path": "watch/technical-ef984a9e4c84dd12f20d.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-ef984a9e4c84dd12f20d.md",
+      "sourceUrl": "https://github.com/greensock/gsap-skills",
+      "sources": [
+        {
+          "url": "https://github.com/greensock/gsap-skills",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2112609040962359354",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/greensock/gsap-skills",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "agent",
+      "themeLabel": "Compétences des agents",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents.skills",
+            "domain.ai.agents.coding"
+          ],
+          "capability": [
+            "capability.code.assist",
+            "capability.skills"
+          ],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents.skills",
+            "label": "Compétences des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#skills-agents",
+              "#agent-skills",
+              "#skills"
+            ],
+            "patterns": [
+              "\\bskills?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Compétences des agents"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.ai.agents.coding",
+            "label": "Agents de développement",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents"
+            ],
+            "patterns": [
+              "claude code",
+              "\\bcodex\\b",
+              "coding agents?",
+              "agents? de cod"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Agents de développement"
+            ]
+          },
+          {
+            "id": "capability.code.assist",
+            "label": "Assister le développement",
+            "parent": "capability",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents",
+              "#pair-programming"
+            ],
+            "patterns": [
+              "reformat.*code",
+              "assistance de codage",
+              "modifier.*fichiers.*projet"
+            ],
+            "facet": "capability",
+            "path": [
+              "Assister le développement"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "capability.skills",
+            "label": "Étendre les compétences d’un agent",
+            "parent": "capability",
+            "aliases": [
+              "#skills-agents",
+              "#agent-skills"
+            ],
+            "facet": "capability",
+            "path": [
+              "Étendre les compétences d’un agent"
+            ]
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents.skills",
+          "label": "Compétences des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#skills-agents",
+            "#agent-skills",
+            "#skills"
+          ],
+          "patterns": [
+            "\\bskills?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Compétences des agents"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.ai.agents.coding",
+          "label": "Agents de développement",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents"
+          ],
+          "patterns": [
+            "claude code",
+            "\\bcodex\\b",
+            "coding agents?",
+            "agents? de cod"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Agents de développement"
+          ]
+        },
+        {
+          "id": "capability.code.assist",
+          "label": "Assister le développement",
+          "parent": "capability",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents",
+            "#pair-programming"
+          ],
+          "patterns": [
+            "reformat.*code",
+            "assistance de codage",
+            "modifier.*fichiers.*projet"
+          ],
+          "facet": "capability",
+          "path": [
+            "Assister le développement"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "capability.skills",
+          "label": "Étendre les compétences d’un agent",
+          "parent": "capability",
+          "aliases": [
+            "#skills-agents",
+            "#agent-skills"
+          ],
+          "facet": "capability",
+          "path": [
+            "Étendre les compétences d’un agent"
+          ]
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#agents-code",
+          "fullLabel": "agents-code",
+          "color": "agent",
+          "tag": "#agents-code"
+        },
+        {
+          "label": "#Skills",
+          "fullLabel": "Compétences des agents",
+          "color": "agent",
+          "tag": "#skills-agents"
+        }
+      ],
+      "cardTitle": "gsap-skills",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-9f2d613fa72208f070af-md",
       "title": "Helios",
       "canonical": "",
@@ -30719,6 +31205,252 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-54bf60dbd90985448ffd-md",
+      "title": "mg-styles-15",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [],
+      "status": "a verifier",
+      "path": "watch/technical-54bf60dbd90985448ffd.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-54bf60dbd90985448ffd.md",
+      "sourceUrl": "https://github.com/vincentwei1021/mg-styles-15",
+      "sources": [
+        {
+          "url": "https://github.com/vincentwei1021/mg-styles-15",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2112729924943634602",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/vincentwei1021/mg-styles-15/HEAD/docs/screenshot-en.jpg",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/vincentwei1021/mg-styles-15/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        }
+      ],
+      "github": "https://github.com/vincentwei1021/mg-styles-15",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.unclassified"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.review"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "lifecycle.review",
+            "label": "À vérifier",
+            "parent": "lifecycle",
+            "aliases": [
+              "#a-verifier",
+              "#to-verify"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "À vérifier"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "lifecycle.review",
+          "label": "À vérifier",
+          "parent": "lifecycle",
+          "aliases": [
+            "#a-verifier",
+            "#to-verify"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "À vérifier"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        }
+      ],
+      "keywords": [],
+      "cardTitle": "mg-styles-15",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-4e715c3f16486f85f74e-md",
       "title": "misaki",
       "canonical": "",
@@ -32617,6 +33349,403 @@
         }
       ],
       "cardTitle": "moonlight-qt",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-17c9d333777b6545efcf-md",
+      "title": "Motion Design Skill",
+      "canonical": "",
+      "resource": {
+        "nature": "Skill individuel",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#skills-agents"
+      ],
+      "status": "actif",
+      "path": "watch/technical-17c9d333777b6545efcf.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-17c9d333777b6545efcf.md",
+      "sourceUrl": "https://github.com/lottiefiles/motion-design-skill",
+      "sources": [
+        {
+          "url": "https://github.com/lottiefiles/motion-design-skill",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2112609040962359354",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/lottiefiles/motion-design-skill",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "agent",
+      "themeLabel": "Compétences des agents",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents.skills"
+          ],
+          "capability": [
+            "capability.skills"
+          ],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents.skills",
+            "label": "Compétences des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#skills-agents",
+              "#agent-skills",
+              "#skills"
+            ],
+            "patterns": [
+              "\\bskills?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Compétences des agents"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "capability.skills",
+            "label": "Étendre les compétences d’un agent",
+            "parent": "capability",
+            "aliases": [
+              "#skills-agents",
+              "#agent-skills"
+            ],
+            "facet": "capability",
+            "path": [
+              "Étendre les compétences d’un agent"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents.skills",
+          "label": "Compétences des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#skills-agents",
+            "#agent-skills",
+            "#skills"
+          ],
+          "patterns": [
+            "\\bskills?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Compétences des agents"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "capability.skills",
+          "label": "Étendre les compétences d’un agent",
+          "parent": "capability",
+          "aliases": [
+            "#skills-agents",
+            "#agent-skills"
+          ],
+          "facet": "capability",
+          "path": [
+            "Étendre les compétences d’un agent"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#Skills",
+          "fullLabel": "Compétences des agents",
+          "color": "agent",
+          "tag": "#skills-agents"
+        }
+      ],
+      "cardTitle": "Motion Design Skill",
       "cardInterest": ""
     },
     {
@@ -36148,6 +37277,397 @@
       ],
       "keywords": [],
       "cardTitle": "openpilot",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-900a21d15cb137a3898f-md",
+      "title": "Opus 5.5 Video Prompts",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#montage-video",
+        "#generation-video"
+      ],
+      "status": "actif",
+      "path": "watch/technical-900a21d15cb137a3898f.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-900a21d15cb137a3898f.md",
+      "sourceUrl": "https://github.com/joeseesun/opus-video-prompts",
+      "sources": [
+        {
+          "url": "https://github.com/joeseesun/opus-video-prompts",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2112729924943634602",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/joeseesun/opus-video-prompts",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "media",
+      "themeLabel": "Vidéo",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.media.video"
+          ],
+          "capability": [
+            "capability.edit.video",
+            "capability.generate.video"
+          ],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.media.video",
+            "label": "Vidéo",
+            "parent": "domain.media",
+            "aliases": [
+              "#montage-video",
+              "#video-editing",
+              "#generation-video",
+              "#video-generation",
+              "#ai-video",
+              "#video",
+              "#shortvideo",
+              "#ai-video-generator"
+            ],
+            "patterns": [
+              "\\bvideos?\\b",
+              "\\bvideo\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Vidéo"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "capability.edit.video",
+            "label": "Monter une vidéo",
+            "parent": "capability",
+            "aliases": [
+              "#montage-video",
+              "#video-editing"
+            ],
+            "facet": "capability",
+            "path": [
+              "Monter une vidéo"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "capability.generate.video",
+            "label": "Générer une vidéo",
+            "parent": "capability.generate",
+            "aliases": [
+              "#generation-video",
+              "#video-generation",
+              "#ai-video"
+            ],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus",
+              "Générer une vidéo"
+            ]
+          },
+          {
+            "id": "capability.generate",
+            "label": "Générer des contenus",
+            "parent": "capability",
+            "aliases": [],
+            "facet": "capability",
+            "path": [
+              "Générer des contenus"
+            ]
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.media.video",
+          "label": "Vidéo",
+          "parent": "domain.media",
+          "aliases": [
+            "#montage-video",
+            "#video-editing",
+            "#generation-video",
+            "#video-generation",
+            "#ai-video",
+            "#video",
+            "#shortvideo",
+            "#ai-video-generator"
+          ],
+          "patterns": [
+            "\\bvideos?\\b",
+            "\\bvideo\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Vidéo"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "capability.edit.video",
+          "label": "Monter une vidéo",
+          "parent": "capability",
+          "aliases": [
+            "#montage-video",
+            "#video-editing"
+          ],
+          "facet": "capability",
+          "path": [
+            "Monter une vidéo"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "capability.generate.video",
+          "label": "Générer une vidéo",
+          "parent": "capability.generate",
+          "aliases": [
+            "#generation-video",
+            "#video-generation",
+            "#ai-video"
+          ],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus",
+            "Générer une vidéo"
+          ]
+        },
+        {
+          "id": "capability.generate",
+          "label": "Générer des contenus",
+          "parent": "capability",
+          "aliases": [],
+          "facet": "capability",
+          "path": [
+            "Générer des contenus"
+          ]
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#montage-video",
+          "fullLabel": "montage-video",
+          "color": "media",
+          "tag": "#montage-video"
+        },
+        {
+          "label": "#Vidéo",
+          "fullLabel": "Génération vidéo",
+          "color": "media",
+          "tag": "#generation-video"
+        }
+      ],
+      "cardTitle": "Opus 5.5 Video Prompts",
       "cardInterest": ""
     },
     {
@@ -42257,6 +43777,627 @@
       ],
       "keywords": [],
       "cardTitle": "REA",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-0a09b687d088cc7fc778-md",
+      "title": "Remotion Agent Skills",
+      "canonical": "",
+      "resource": {
+        "nature": "Collection de skills",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#skills-agents"
+      ],
+      "status": "actif",
+      "path": "watch/technical-0a09b687d088cc7fc778.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-0a09b687d088cc7fc778.md",
+      "sourceUrl": "https://github.com/remotion-dev/skills",
+      "sources": [
+        {
+          "url": "https://github.com/remotion-dev/skills",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2112609040962359354",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/remotion-dev/skills",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "agent",
+      "themeLabel": "Agents de développement",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents.coding",
+            "domain.ai.agents.skills",
+            "domain.dev",
+            "domain.media.video",
+            "domain.data.organization"
+          ],
+          "capability": [
+            "capability.skills"
+          ],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents.coding",
+            "label": "Agents de développement",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents"
+            ],
+            "patterns": [
+              "claude code",
+              "\\bcodex\\b",
+              "coding agents?",
+              "agents? de cod"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Agents de développement"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.ai.agents.skills",
+            "label": "Compétences des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#skills-agents",
+              "#agent-skills",
+              "#skills"
+            ],
+            "patterns": [
+              "\\bskills?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Compétences des agents"
+            ]
+          },
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
+            ]
+          },
+          {
+            "id": "domain.media.video",
+            "label": "Vidéo",
+            "parent": "domain.media",
+            "aliases": [
+              "#montage-video",
+              "#video-editing",
+              "#generation-video",
+              "#video-generation",
+              "#ai-video",
+              "#video",
+              "#shortvideo",
+              "#ai-video-generator"
+            ],
+            "patterns": [
+              "\\bvideos?\\b",
+              "\\bvideo\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création",
+              "Vidéo"
+            ]
+          },
+          {
+            "id": "domain.media",
+            "label": "Audio, vidéo et création",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Audio, vidéo et création"
+            ]
+          },
+          {
+            "id": "domain.data.organization",
+            "label": "Organisation du travail",
+            "parent": "domain.data",
+            "aliases": [
+              "#project-management",
+              "#calendar",
+              "#rendez-vous"
+            ],
+            "patterns": [
+              "projets et taches",
+              "gestion de projet",
+              "planification",
+              "rendez.vous"
+            ],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances",
+              "Organisation du travail"
+            ]
+          },
+          {
+            "id": "domain.data",
+            "label": "Données et connaissances",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances"
+            ]
+          },
+          {
+            "id": "capability.skills",
+            "label": "Étendre les compétences d’un agent",
+            "parent": "capability",
+            "aliases": [
+              "#skills-agents",
+              "#agent-skills"
+            ],
+            "facet": "capability",
+            "path": [
+              "Étendre les compétences d’un agent"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents.coding",
+          "label": "Agents de développement",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents"
+          ],
+          "patterns": [
+            "claude code",
+            "\\bcodex\\b",
+            "coding agents?",
+            "agents? de cod"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Agents de développement"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.ai.agents.skills",
+          "label": "Compétences des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#skills-agents",
+            "#agent-skills",
+            "#skills"
+          ],
+          "patterns": [
+            "\\bskills?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Compétences des agents"
+          ]
+        },
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
+          ]
+        },
+        {
+          "id": "domain.media.video",
+          "label": "Vidéo",
+          "parent": "domain.media",
+          "aliases": [
+            "#montage-video",
+            "#video-editing",
+            "#generation-video",
+            "#video-generation",
+            "#ai-video",
+            "#video",
+            "#shortvideo",
+            "#ai-video-generator"
+          ],
+          "patterns": [
+            "\\bvideos?\\b",
+            "\\bvideo\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création",
+            "Vidéo"
+          ]
+        },
+        {
+          "id": "domain.media",
+          "label": "Audio, vidéo et création",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Audio, vidéo et création"
+          ]
+        },
+        {
+          "id": "domain.data.organization",
+          "label": "Organisation du travail",
+          "parent": "domain.data",
+          "aliases": [
+            "#project-management",
+            "#calendar",
+            "#rendez-vous"
+          ],
+          "patterns": [
+            "projets et taches",
+            "gestion de projet",
+            "planification",
+            "rendez.vous"
+          ],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances",
+            "Organisation du travail"
+          ]
+        },
+        {
+          "id": "domain.data",
+          "label": "Données et connaissances",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances"
+          ]
+        },
+        {
+          "id": "capability.skills",
+          "label": "Étendre les compétences d’un agent",
+          "parent": "capability",
+          "aliases": [
+            "#skills-agents",
+            "#agent-skills"
+          ],
+          "facet": "capability",
+          "path": [
+            "Étendre les compétences d’un agent"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#Skills",
+          "fullLabel": "Compétences des agents",
+          "color": "agent",
+          "tag": "#skills-agents"
+        }
+      ],
+      "cardTitle": "Remotion Agent Skills",
       "cardInterest": ""
     },
     {

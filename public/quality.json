@@ -1,18 +1,18 @@
 {
-  "at": "2026-11-12T19:52:39.526Z",
+  "at": "2026-11-12T20:52:45.078Z",
   "scope": "public-index-only",
-  "fiches": 808,
-  "sourceReferences": 3231,
+  "fiches": 813,
+  "sourceReferences": 3243,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 765,
+  "pendingReview": 770,
   "counts": {
-    "interest-missing": 191,
-    "keywords-missing": 122,
-    "domain-unqualified": 163,
+    "interest-missing": 196,
+    "keywords-missing": 123,
+    "domain-unqualified": 164,
     "primary-identity-unqualified": 21,
-    "nature-unqualified": 753
+    "nature-unqualified": 755
   },
   "queue": [
     {
@@ -414,6 +414,13 @@
       ]
     },
     {
+      "id": "watch-technical-ef984a9e4c84dd12f20d-md",
+      "title": "gsap-skills",
+      "reasons": [
+        "interest-missing"
+      ]
+    },
+    {
       "id": "watch-technical-9f2d613fa72208f070af-md",
       "title": "Helios",
       "reasons": [
@@ -751,6 +758,16 @@
       ]
     },
     {
+      "id": "watch-technical-54bf60dbd90985448ffd-md",
+      "title": "mg-styles-15",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-4e715c3f16486f85f74e-md",
       "title": "misaki",
       "reasons": [
@@ -801,6 +818,13 @@
       "reasons": [
         "interest-missing",
         "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-17c9d333777b6545efcf-md",
+      "title": "Motion Design Skill",
+      "reasons": [
+        "interest-missing"
       ]
     },
     {
@@ -908,6 +932,14 @@
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-900a21d15cb137a3898f-md",
+      "title": "Opus 5.5 Video Prompts",
+      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },
@@ -1038,6 +1070,13 @@
         "domain-unqualified",
         "primary-identity-unqualified",
         "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-0a09b687d088cc7fc778-md",
+      "title": "Remotion Agent Skills",
+      "reasons": [
+        "interest-missing"
       ]
     },
     {

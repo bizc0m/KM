@@ -12,6 +12,7 @@
 - [opencode](../../watch/technical-ffccace0ba14fd154d90.md)
 - [Pasteboard Viewer](../../watch/technical-1d1f56d738ca1db480ae.md)
 - [qlib](../../watch/technical-c750f525fc3dfb26b9af.md)
+- [Remotion Agent Skills](../../watch/technical-0a09b687d088cc7fc778.md)
 - [TwinDesk](../../watch/technical-f7e87bae1ea9b74959c4.md)
 - [uv](../../watch/technical-30e283a9b3f70e35d81a.md)
 - [Noticky](../../watch/technical-9cd3273e9ce8f0bb884d.md)

@@ -1,7 +1,9 @@
 # Agents de développement
 
+- [gsap-skills](../../watch/technical-ef984a9e4c84dd12f20d.md)
 - [impeccable](../../watch/technical-ec673bd7694d3a658bba.md)
 - [oxylabs/web-api-skills](../../watch/technical-ae44b7c5c77979957073.md)
+- [Remotion Agent Skills](../../watch/technical-0a09b687d088cc7fc778.md)
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
 Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export
 Gain · Productivité · Réutilisation · Contexte · Collaboration

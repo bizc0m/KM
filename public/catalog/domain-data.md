@@ -10,6 +10,7 @@
 - [research-mcp](../../watch/technical-ffc05a5b982c09b92791.md)
 - [oxylabs/web-api-mcp](../../watch/technical-4d03aa0eeecb3abfcbad.md)
 - [oxylabs/web-api-skills](../../watch/technical-ae44b7c5c77979957073.md)
+- [Remotion Agent Skills](../../watch/technical-0a09b687d088cc7fc778.md)
 - [scrapecreators-cli](../../watch/technical-fcf0bfc48ab0ce73e30a.md)
 - [scrapy-playwright](../../watch/technical-2e317194feb446319292.md)
 - [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)

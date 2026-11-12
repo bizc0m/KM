@@ -1,20 +1,20 @@
 # Index des sujets KM
 
-- [Intelligence artificielle](domain-ai.md) — 329 fiches
-- [Agents IA](domain-ai-agents.md) — 211 fiches
+- [Intelligence artificielle](domain-ai.md) — 332 fiches
+- [Agents IA](domain-ai-agents.md) — 214 fiches
 - [Mémoire des agents](domain-ai-agents-memory.md) — 27 fiches
 - [Orchestration des agents](domain-ai-agents-orchestration.md) — 16 fiches
-- [Agents de développement](domain-ai-agents-coding.md) — 54 fiches
-- [Compétences des agents](domain-ai-agents-skills.md) — 42 fiches
+- [Agents de développement](domain-ai-agents-coding.md) — 56 fiches
+- [Compétences des agents](domain-ai-agents-skills.md) — 45 fiches
 - [Modèles de langage](domain-ai-llm.md) — 73 fiches
-- [Développement logiciel](domain-dev.md) — 134 fiches
+- [Développement logiciel](domain-dev.md) — 135 fiches
 - [Développement web](domain-dev-web.md) — 26 fiches
 - [Qualité du code](domain-dev-quality.md) — 36 fiches
-- [Audio, vidéo et création](domain-media.md) — 211 fiches
+- [Audio, vidéo et création](domain-media.md) — 213 fiches
 - [Audio](domain-media-audio.md) — 53 fiches
 - [Voix](domain-media-audio-voice.md) — 25 fiches
 - [Identification audio](domain-media-audio-identification.md) — 1 fiches
-- [Vidéo](domain-media-video.md) — 108 fiches
+- [Vidéo](domain-media-video.md) — 110 fiches
 - [Images et graphisme](domain-media-image.md) — 114 fiches
 - [Création 3D](domain-media-3d.md) — 26 fiches
 - [Cybersécurité](domain-security.md) — 79 fiches
@@ -25,7 +25,7 @@
 - [Protection des données](domain-privacy.md) — 11 fiches
 - [Infrastructure](domain-infrastructure.md) — 84 fiches
 - [Réseaux](domain-infrastructure-network.md) — 3 fiches
-- [Données et connaissances](domain-data.md) — 98 fiches
+- [Données et connaissances](domain-data.md) — 99 fiches
 - [Collecte web](domain-data-web.md) — 37 fiches
 - [Documents](domain-data-documents.md) — 9 fiches
 - [Notes et organisation](domain-data-notes.md) — 15 fiches
@@ -53,7 +53,7 @@
 - [Analyse de fréquentation](domain-data-analytics.md) — 3 fiches
 - [Publication de contenus](domain-communication-publishing.md) — 2 fiches
 - [Messagerie](domain-communication-messaging.md) — 10 fiches
-- [Organisation du travail](domain-data-organization.md) — 17 fiches
+- [Organisation du travail](domain-data-organization.md) — 18 fiches
 - [Outils de navigateur](domain-dev-browser.md) — 10 fiches
 - [Productivité](domain-productivity.md) — 1 fiches
 - [Tâches et agenda](domain-productivity-tasks.md) — 1 fiches

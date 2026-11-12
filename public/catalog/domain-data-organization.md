@@ -1,5 +1,6 @@
 # Organisation du travail
 
+- [Remotion Agent Skills](../../watch/technical-0a09b687d088cc7fc778.md)
 - [uv](../../watch/technical-30e283a9b3f70e35d81a.md)
 - [Cal.diy](../../watch/technical-553d2fe81671c153a6e0.md) — Fonction · Gère les rendez-vous et les calendriers en local.
 Avantages · Aucune dépendance commerciale, licence MIT.
