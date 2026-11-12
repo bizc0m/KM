@@ -1,5 +1,6 @@
 # Conception d’interfaces
 
+- [ImHex](../../watch/technical-520e4da6a7c1579f99e5.md)
 - [Codex CLI](../../watch/technical-8c3dc2a0187cafccea2a.md) — Fonction · Exécute des tâches de codage dans le terminal.
 Avantages · Intégre les modèles de codage d'OpenAI.
 Gain · Lancer des tâches sans interface graphique.

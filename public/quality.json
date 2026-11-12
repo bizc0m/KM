@@ -1,18 +1,18 @@
 {
-  "at": "2026-11-12T14:52:13.102Z",
+  "at": "2026-11-12T15:52:18.272Z",
   "scope": "public-index-only",
-  "fiches": 762,
-  "sourceReferences": 3061,
+  "fiches": 771,
+  "sourceReferences": 3085,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 719,
+  "pendingReview": 728,
   "counts": {
-    "interest-missing": 141,
-    "keywords-missing": 100,
-    "domain-unqualified": 135,
+    "interest-missing": 150,
+    "keywords-missing": 105,
+    "domain-unqualified": 142,
     "primary-identity-unqualified": 20,
-    "nature-unqualified": 709
+    "nature-unqualified": 718
   },
   "queue": [
     {
@@ -45,6 +45,15 @@
       "reasons": [
         "interest-missing",
         "keywords-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-5b1035d72d0f62a104fc-md",
+      "title": "angr",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -205,10 +214,30 @@
       ]
     },
     {
+      "id": "watch-technical-346f7e042379c3616ef9-md",
+      "title": "dnSpyEx",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-b8310aeb0f869a64166e-md",
       "title": "DOVER",
       "reasons": [
         "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-af23bcda26c4b4cb1232-md",
+      "title": "dx-ball",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -261,6 +290,15 @@
       "title": "freqtrade",
       "reasons": [
         "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-aea5576c8c19c20d07b8-md",
+      "title": "frida",
+      "reasons": [
+        "interest-missing",
+        "domain-unqualified",
         "nature-unqualified"
       ]
     },
@@ -335,6 +373,14 @@
       ]
     },
     {
+      "id": "watch-technical-520e4da6a7c1579f99e5-md",
+      "title": "ImHex",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-ec673bd7694d3a658bba-md",
       "title": "impeccable",
       "reasons": [
@@ -353,6 +399,26 @@
     {
       "id": "watch-technical-b129a2dad3bbb6a6df85-md",
       "title": "jaconv",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-d4e1eaab70bcb24bf651-md",
+      "title": "jadx",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e2cbe928ecd9a74f37a7-md",
+      "title": "Jev",
       "reasons": [
         "interest-missing",
         "keywords-missing",
@@ -715,6 +781,16 @@
       ]
     },
     {
+      "id": "watch-technical-70ff8bdbf014c453ce45-md",
+      "title": "Rizin",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-b9ba8444c3aad5509895-md",
       "title": "SCAIL",
       "reasons": [
@@ -921,6 +997,14 @@
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-c7bd63cd66a1c90c4285-md",
+      "title": "x64dbg",
+      "reasons": [
+        "interest-missing",
         "nature-unqualified"
       ]
     },

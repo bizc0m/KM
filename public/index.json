@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-12T14:52:12.918Z",
-  "count": 762,
+  "at": "2026-11-12T15:52:18.045Z",
+  "count": 771,
   "rows": [
     {
       "id": "watch-technical-bd69dc0d4bb066bb0ea3-md",
@@ -1530,6 +1530,313 @@
       ],
       "keywords": [],
       "cardTitle": "ai-hedge-fund",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-5b1035d72d0f62a104fc-md",
+      "title": "angr",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#python"
+      ],
+      "status": "actif",
+      "path": "watch/technical-5b1035d72d0f62a104fc.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-5b1035d72d0f62a104fc.md",
+      "sourceUrl": "https://github.com/angr/angr",
+      "sources": [
+        {
+          "url": "https://github.com/angr/angr",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2114847015091794206",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/angr/angr",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.unclassified"
+          ],
+          "capability": [],
+          "compatibility": [
+            "compatibility.language.python"
+          ],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "compatibility.language.python",
+            "label": "Python",
+            "parent": "compatibility.language",
+            "aliases": [
+              "#python"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Langages",
+              "Python"
+            ]
+          },
+          {
+            "id": "compatibility.language",
+            "label": "Langages",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Langages"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "compatibility.language.python",
+          "label": "Python",
+          "parent": "compatibility.language",
+          "aliases": [
+            "#python"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Langages",
+            "Python"
+          ]
+        },
+        {
+          "id": "compatibility.language",
+          "label": "Langages",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Langages"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#python",
+          "fullLabel": "python",
+          "color": "dev",
+          "tag": "#python"
+        }
+      ],
+      "cardTitle": "angr",
       "cardInterest": ""
     },
     {
@@ -9389,6 +9696,240 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-346f7e042379c3616ef9-md",
+      "title": "dnSpyEx",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [],
+      "status": "a verifier",
+      "path": "watch/technical-346f7e042379c3616ef9.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-346f7e042379c3616ef9.md",
+      "sourceUrl": "https://github.com/dnspyex/dnspy",
+      "sources": [
+        {
+          "url": "https://github.com/dnspyex/dnspy",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2114847015091794206",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/dnspyex/dnspy",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.unclassified"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.review"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "lifecycle.review",
+            "label": "À vérifier",
+            "parent": "lifecycle",
+            "aliases": [
+              "#a-verifier",
+              "#to-verify"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "À vérifier"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "lifecycle.review",
+          "label": "À vérifier",
+          "parent": "lifecycle",
+          "aliases": [
+            "#a-verifier",
+            "#to-verify"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "À vérifier"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        }
+      ],
+      "keywords": [],
+      "cardTitle": "dnSpyEx",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-b8310aeb0f869a64166e-md",
       "title": "DOVER",
       "canonical": "",
@@ -9673,6 +10214,240 @@
         }
       ],
       "cardTitle": "DOVER",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-af23bcda26c4b4cb1232-md",
+      "title": "dx-ball",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [],
+      "status": "a verifier",
+      "path": "watch/technical-af23bcda26c4b4cb1232.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-af23bcda26c4b4cb1232.md",
+      "sourceUrl": "https://github.com/n0zom1z0/dx-ball",
+      "sources": [
+        {
+          "url": "https://github.com/n0zom1z0/dx-ball",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2114847015091794206",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/n0zom1z0/dx-ball",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.unclassified"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.review"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "lifecycle.review",
+            "label": "À vérifier",
+            "parent": "lifecycle",
+            "aliases": [
+              "#a-verifier",
+              "#to-verify"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "À vérifier"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "lifecycle.review",
+          "label": "À vérifier",
+          "parent": "lifecycle",
+          "aliases": [
+            "#a-verifier",
+            "#to-verify"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "À vérifier"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        }
+      ],
+      "keywords": [],
+      "cardTitle": "dx-ball",
       "cardInterest": ""
     },
     {
@@ -11833,6 +12608,369 @@
         }
       ],
       "cardTitle": "freqtrade",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-aea5576c8c19c20d07b8-md",
+      "title": "frida",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#python",
+        "#terminal"
+      ],
+      "status": "actif",
+      "path": "watch/technical-aea5576c8c19c20d07b8.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-aea5576c8c19c20d07b8.md",
+      "sourceUrl": "https://github.com/frida/frida",
+      "sources": [
+        {
+          "url": "https://github.com/frida/frida",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2114847015091794206",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/frida/frida",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.unclassified"
+          ],
+          "capability": [],
+          "compatibility": [
+            "compatibility.language.python",
+            "compatibility.interface.terminal"
+          ],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "compatibility.language.python",
+            "label": "Python",
+            "parent": "compatibility.language",
+            "aliases": [
+              "#python"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Langages",
+              "Python"
+            ]
+          },
+          {
+            "id": "compatibility.language",
+            "label": "Langages",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Langages"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "compatibility.interface.terminal",
+            "label": "Terminal",
+            "parent": "compatibility.interface",
+            "aliases": [
+              "#terminal",
+              "#cli"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces",
+              "Terminal"
+            ]
+          },
+          {
+            "id": "compatibility.interface",
+            "label": "Interfaces",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces"
+            ]
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "compatibility.language.python",
+          "label": "Python",
+          "parent": "compatibility.language",
+          "aliases": [
+            "#python"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Langages",
+            "Python"
+          ]
+        },
+        {
+          "id": "compatibility.language",
+          "label": "Langages",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Langages"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "compatibility.interface.terminal",
+          "label": "Terminal",
+          "parent": "compatibility.interface",
+          "aliases": [
+            "#terminal",
+            "#cli"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces",
+            "Terminal"
+          ]
+        },
+        {
+          "id": "compatibility.interface",
+          "label": "Interfaces",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces"
+          ]
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#python",
+          "fullLabel": "python",
+          "color": "dev",
+          "tag": "#python"
+        },
+        {
+          "label": "#terminal",
+          "fullLabel": "terminal",
+          "color": "tool",
+          "tag": "#terminal"
+        }
+      ],
+      "cardTitle": "frida",
       "cardInterest": ""
     },
     {
@@ -14482,6 +15620,325 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-520e4da6a7c1579f99e5-md",
+      "title": "ImHex",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [],
+      "status": "a verifier",
+      "path": "watch/technical-520e4da6a7c1579f99e5.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-520e4da6a7c1579f99e5.md",
+      "sourceUrl": "https://github.com/werwolv/imhex",
+      "sources": [
+        {
+          "url": "https://github.com/werwolv/imhex",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2114847015091794206",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/werwolv/imhex",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "dev",
+      "themeLabel": "Conception d’interfaces",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.dev.ui"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.review"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.dev.ui",
+            "label": "Conception d’interfaces",
+            "parent": "domain.dev",
+            "aliases": [
+              "#ui-design",
+              "#wireframe",
+              "#prototype",
+              "#ai-design",
+              "#vibe-coding",
+              "#ai-editor",
+              "#developer-tools"
+            ],
+            "patterns": [
+              "\\bui design\\b",
+              "\\bwireframe",
+              "vibe coding",
+              "editeur.*code",
+              "\\bpenpot\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel",
+              "Conception d’interfaces"
+            ]
+          },
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "lifecycle.review",
+            "label": "À vérifier",
+            "parent": "lifecycle",
+            "aliases": [
+              "#a-verifier",
+              "#to-verify"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "À vérifier"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.dev.ui",
+          "label": "Conception d’interfaces",
+          "parent": "domain.dev",
+          "aliases": [
+            "#ui-design",
+            "#wireframe",
+            "#prototype",
+            "#ai-design",
+            "#vibe-coding",
+            "#ai-editor",
+            "#developer-tools"
+          ],
+          "patterns": [
+            "\\bui design\\b",
+            "\\bwireframe",
+            "vibe coding",
+            "editeur.*code",
+            "\\bpenpot\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel",
+            "Conception d’interfaces"
+          ]
+        },
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "lifecycle.review",
+          "label": "À vérifier",
+          "parent": "lifecycle",
+          "aliases": [
+            "#a-verifier",
+            "#to-verify"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "À vérifier"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#ui-design",
+          "fullLabel": "ui-design",
+          "color": "dev",
+          "subjectId": "domain.dev.ui"
+        }
+      ],
+      "cardTitle": "ImHex",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-ec673bd7694d3a658bba-md",
       "title": "impeccable",
       "canonical": "",
@@ -15572,6 +17029,471 @@
       ],
       "keywords": [],
       "cardTitle": "jaconv",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-d4e1eaab70bcb24bf651-md",
+      "title": "jadx",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [],
+      "status": "a verifier",
+      "path": "watch/technical-d4e1eaab70bcb24bf651.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-d4e1eaab70bcb24bf651.md",
+      "sourceUrl": "https://github.com/skylot/jadx",
+      "sources": [
+        {
+          "url": "https://github.com/skylot/jadx",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2114847015091794206",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://user-images.githubusercontent.com/118523/142730720-839f017e-38db-423e-b53f-39f5f0a0316f.png",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/skylot/jadx/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        }
+      ],
+      "github": "https://github.com/skylot/jadx",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.unclassified"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.review"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "lifecycle.review",
+            "label": "À vérifier",
+            "parent": "lifecycle",
+            "aliases": [
+              "#a-verifier",
+              "#to-verify"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "À vérifier"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "lifecycle.review",
+          "label": "À vérifier",
+          "parent": "lifecycle",
+          "aliases": [
+            "#a-verifier",
+            "#to-verify"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "À vérifier"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        }
+      ],
+      "keywords": [],
+      "cardTitle": "jadx",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-e2cbe928ecd9a74f37a7-md",
+      "title": "Jev",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [],
+      "status": "a verifier",
+      "path": "watch/technical-e2cbe928ecd9a74f37a7.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-e2cbe928ecd9a74f37a7.md",
+      "sourceUrl": "https://x.com/i/status/2114812920605593603",
+      "sources": [
+        {
+          "url": "https://x.com/i/status/2114812920605593603",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2112962578020217145",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://x.com/i/status/2105380835675312294",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.unclassified"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.review"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "lifecycle.review",
+            "label": "À vérifier",
+            "parent": "lifecycle",
+            "aliases": [
+              "#a-verifier",
+              "#to-verify"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "À vérifier"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "lifecycle.review",
+          "label": "À vérifier",
+          "parent": "lifecycle",
+          "aliases": [
+            "#a-verifier",
+            "#to-verify"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "À vérifier"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        }
+      ],
+      "keywords": [],
+      "cardTitle": "Jev",
       "cardInterest": ""
     },
     {
@@ -30766,6 +32688,240 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-70ff8bdbf014c453ce45-md",
+      "title": "Rizin",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [],
+      "status": "a verifier",
+      "path": "watch/technical-70ff8bdbf014c453ce45.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-70ff8bdbf014c453ce45.md",
+      "sourceUrl": "https://github.com/rizinorg/rizin",
+      "sources": [
+        {
+          "url": "https://github.com/rizinorg/rizin",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2114847015091794206",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/rizinorg/rizin",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.unclassified"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.review"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "lifecycle.review",
+            "label": "À vérifier",
+            "parent": "lifecycle",
+            "aliases": [
+              "#a-verifier",
+              "#to-verify"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "À vérifier"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "lifecycle.review",
+          "label": "À vérifier",
+          "parent": "lifecycle",
+          "aliases": [
+            "#a-verifier",
+            "#to-verify"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "À vérifier"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        }
+      ],
+      "keywords": [],
+      "cardTitle": "Rizin",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-b9ba8444c3aad5509895-md",
       "title": "SCAIL",
       "canonical": "",
@@ -40579,6 +42735,357 @@
       ],
       "keywords": [],
       "cardTitle": "WikipediaHomographData",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-c7bd63cd66a1c90c4285-md",
+      "title": "x64dbg",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#analyse-malware"
+      ],
+      "status": "actif",
+      "path": "watch/technical-c7bd63cd66a1c90c4285.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-c7bd63cd66a1c90c4285.md",
+      "sourceUrl": "https://github.com/x64dbg/x64dbg",
+      "sources": [
+        {
+          "url": "https://github.com/x64dbg/x64dbg",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2114847015091794206",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/x64dbg/x64dbg/HEAD/.github/screenshots/cpu-light.png",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/x64dbg/x64dbg/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/x64dbg/x64dbg/HEAD/.github/screenshots/cpu-dark.png",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        }
+      ],
+      "github": "https://github.com/x64dbg/x64dbg",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Intérêt à vérifier",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-12",
+      "theme": "security",
+      "themeLabel": "Analyse de logiciels malveillants",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.security.malware"
+          ],
+          "capability": [
+            "capability.security.malware"
+          ],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.security.malware",
+            "label": "Analyse de logiciels malveillants",
+            "parent": "domain.security",
+            "aliases": [
+              "#analyse-malware",
+              "#malware",
+              "#malware-research",
+              "#malware-detection",
+              "#reverse-engineering"
+            ],
+            "facet": "domain",
+            "path": [
+              "Cybersécurité",
+              "Analyse de logiciels malveillants"
+            ]
+          },
+          {
+            "id": "domain.security",
+            "label": "Cybersécurité",
+            "parent": "domain",
+            "aliases": [
+              "#cybersecurity",
+              "#security-tools"
+            ],
+            "patterns": [
+              "cybersecurite",
+              "cybersecurity"
+            ],
+            "facet": "domain",
+            "path": [
+              "Cybersécurité"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "capability.security.malware",
+            "label": "Analyser un logiciel malveillant",
+            "parent": "capability",
+            "aliases": [
+              "#analyse-malware",
+              "#malware-analysis"
+            ],
+            "facet": "capability",
+            "path": [
+              "Analyser un logiciel malveillant"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.security.malware",
+          "label": "Analyse de logiciels malveillants",
+          "parent": "domain.security",
+          "aliases": [
+            "#analyse-malware",
+            "#malware",
+            "#malware-research",
+            "#malware-detection",
+            "#reverse-engineering"
+          ],
+          "facet": "domain",
+          "path": [
+            "Cybersécurité",
+            "Analyse de logiciels malveillants"
+          ]
+        },
+        {
+          "id": "domain.security",
+          "label": "Cybersécurité",
+          "parent": "domain",
+          "aliases": [
+            "#cybersecurity",
+            "#security-tools"
+          ],
+          "patterns": [
+            "cybersecurite",
+            "cybersecurity"
+          ],
+          "facet": "domain",
+          "path": [
+            "Cybersécurité"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "capability.security.malware",
+          "label": "Analyser un logiciel malveillant",
+          "parent": "capability",
+          "aliases": [
+            "#analyse-malware",
+            "#malware-analysis"
+          ],
+          "facet": "capability",
+          "path": [
+            "Analyser un logiciel malveillant"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#analyse-malware",
+          "fullLabel": "analyse-malware",
+          "color": "security",
+          "tag": "#analyse-malware"
+        }
+      ],
+      "cardTitle": "x64dbg",
       "cardInterest": ""
     },
     {

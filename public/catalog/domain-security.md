@@ -1,5 +1,6 @@
 # Cybersécurité
 
+- [x64dbg](../../watch/technical-c7bd63cd66a1c90c4285.md)
 - [Anthropic-Cybersecurity-Skills](../../watch/technical-a2235eb2a97eb8aaa5cb.md) — Fonction · Mappage des compétences en cybersécurité aux frameworks MITRE.
 Avantages · Alignement des compétences avec des modèles de menace standardisés.
 Gain · Adapter les agents IA à des scénarios de sécurité spécifiques.

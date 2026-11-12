@@ -7,7 +7,7 @@
 - [Agents de développement](domain-ai-agents-coding.md) — 53 fiches
 - [Compétences des agents](domain-ai-agents-skills.md) — 40 fiches
 - [Modèles de langage](domain-ai-llm.md) — 72 fiches
-- [Développement logiciel](domain-dev.md) — 131 fiches
+- [Développement logiciel](domain-dev.md) — 132 fiches
 - [Développement web](domain-dev-web.md) — 26 fiches
 - [Qualité du code](domain-dev-quality.md) — 36 fiches
 - [Audio, vidéo et création](domain-media.md) — 205 fiches
@@ -17,9 +17,9 @@
 - [Vidéo](domain-media-video.md) — 105 fiches
 - [Images et graphisme](domain-media-image.md) — 111 fiches
 - [Création 3D](domain-media-3d.md) — 26 fiches
-- [Cybersécurité](domain-security.md) — 77 fiches
+- [Cybersécurité](domain-security.md) — 78 fiches
 - [Sécurité web](domain-security-web.md) — 4 fiches
-- [Analyse de logiciels malveillants](domain-security-malware.md) — 4 fiches
+- [Analyse de logiciels malveillants](domain-security-malware.md) — 5 fiches
 - [Tests de sécurité](domain-security-testing.md) — 15 fiches
 - [Renseignement en sources ouvertes](domain-osint.md) — 49 fiches
 - [Protection des données](domain-privacy.md) — 11 fiches
@@ -37,7 +37,7 @@
 - [Prévisions météorologiques](domain-science-weather.md) — 7 fiches
 - [Communication et publication](domain-communication.md) — 17 fiches
 - [Applications et interfaces de bureau](domain-dev-desktop.md) — 17 fiches
-- [Conception d’interfaces](domain-dev-ui.md) — 10 fiches
+- [Conception d’interfaces](domain-dev-ui.md) — 11 fiches
 - [Connecteurs et outils des agents](domain-ai-agents-integration.md) — 33 fiches
 - [Instructions et prompts](domain-ai-prompts.md) — 3 fiches
 - [Catalogues de ressources](domain-data-catalogues.md) — 12 fiches
