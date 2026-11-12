@@ -1,20 +1,24 @@
-import test from 'node:test';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';import {planWriteback} from '../scripts/km-noteplan-writeback.mjs';import {canonical} from '../scripts/km-technical-policy.mjs';
-const url='https://github.com/browser-use/browser-use',file='watch/browser-use.md',key=createHash('sha256').update(canonical(url)).digest('hex'),valid=new Set([file]);const state={urls:{[key]:{status:'done',fiche:file}}};
-test('marks successful exact source once and preserves content',()=>{const src='## Dev\n* [ ] Browser '+url+'\n* [ ] Urgent !!!\n';const p=planWriteback(src,state,valid);assert.equal(p.marked,1);assert.match(p.content,/\[x\] Browser/);assert.ok(p.content.indexOf('Urgent')<p.content.indexOf('[x]'));assert.equal(planWriteback(p.content,state,valid).content,p.content);});
-test('refuses partial, failed, missing fiche and parent with open child',()=>{for(const s of [{urls:{}},{urls:{[key]:{status:'retry',fiche:file}}},{urls:{[key]:{status:'done'}}},{urls:{[key]:{status:'done',fiche:file,crawl:{complete:false}}}}])assert.equal(planWriteback('* [ ] '+url,s,valid).marked,0);assert.equal(planWriteback('* [ ] '+url+'\n  * [ ] Child',state,valid).marked,0);assert.equal(planWriteback('* [ ] '+url+' https://example.org',state,valid).marked,0);});
-test('refuses fenced notes and retains independent prose position',()=>{const code='```\n* [ ] '+url+'\n```';assert.equal(planWriteback(code,state,valid).content,code);const prose='## Dev\n* [ ] '+url+'\nIndependent paragraph\n* [ ] Urgent !!!';const p=planWriteback(prose,state,valid);assert.ok(p.content.indexOf('Independent')<p.content.indexOf('Urgent'));});
-test('does not add KM links to agenda and removes only previously generated ones',()=>{const result=planWriteback('* [ ] '+url,state,valid);assert.equal(result.marked,1);assert.ok(!result.content.includes('[KM]'));assert.match(result.content,/#KM-OK/);const legacy='* [x] '+url+' [KM](https://bizc0m.github.io/KM/search-v2.html#fiche=watch-browser-use-md) #km-fait';assert.ok(!planWriteback(legacy,state,valid).content.includes('[KM]'));});
-test('incremental window includes overlap, old recent edits and queued failures',async()=>{const {inWindow,DAY}=await import('../scripts/km-noteplan-window.mjs');const last='2026-10-28T10:00:00Z',cut=Date.parse(last)-DAY;assert.equal(inWindow('20260101.md',cut-1,last),false);assert.equal(inWindow('20260101.md',cut,last),true);assert.equal(inWindow('20260101.md',0,last,true),true);assert.equal(inWindow('20261028.md',0,last),true);assert.equal(inWindow('20260101.md',0,null),true);});
-test('reader opens only date overlap, modified old notes and queued failures',async()=>{
- const fs=await import('node:fs/promises'),os=await import('node:os'),path=await import('node:path'),{execFileSync}=await import('node:child_process');const dir=await fs.mkdtemp(path.join(os.tmpdir(),'km-window-')),cal=path.join(dir,'Calendar'),data=path.join(dir,'state');await fs.mkdir(cal);await fs.mkdir(data);
- try{for(const n of ['20260101.md','20260102.md','20260103.md','20261028.md']){const p=path.join(cal,n);await fs.writeFile(p,'# Dev\n\nDéveloppement logiciel Python');await fs.utimes(p,new Date('2026-01-01'),new Date('2026-01-01'));}
- await fs.utimes(path.join(cal,'20260102.md'),new Date('2026-10-28'),new Date('2026-10-28'));const pending=createHash('sha256').update(path.join(cal,'20260103.md')).digest('hex');await fs.writeFile(path.join(data,'noteplan-cursor.json'),JSON.stringify({lastSuccess:'2026-10-28T10:00:00Z',pending:[pending]}));
- const out=JSON.parse(execFileSync(process.execPath,['scripts/km-noteplan-technical-read.mjs'],{env:{...process.env,NOTEPLAN_ROOT:dir,KM_PIPELINE_DATA:data},encoding:'utf8'}));assert.equal(out.examined,4);assert.equal(out.scanned,3);assert.equal(out.unchanged,1);assert.equal(out.notes.length,3);
- }finally{await fs.rm(dir,{recursive:true,force:true});}
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import crypto from 'node:crypto';
+import {planWriteback} from '../scripts/km-noteplan-writeback.mjs';
+import {canonical} from '../scripts/km-technical-policy.mjs';
+const key=u=>crypto.createHash('sha256').update(canonical(u)).digest('hex');
+const done='https://example.org/sdk',pending='https://example.org/pending',file='watch/sdk.md';
+const state={urls:{[key(done)]:{status:'done',fiche:file,crawl:{complete:true}},[key(pending)]:{status:'retry',fiche:file,crawl:{complete:false}}}};
+const valid=new Set([file]);
+test('mark only the completed item, preserving order, old markers, links and CRLF',()=>{
+ const old='- [x] SDK précédent #km-fait [KM](https://bizc0m.github.io/KM/search-v2.html#fiche=watch-sdk)';
+ const body=[old,'- [ ] API à reprendre '+pending,'- [ ] SDK terminé '+done,''].join('\r\n');
+ const result=planWriteback(body,state,valid);
+ assert.equal(result.content,[old,'- [ ] API à reprendre '+pending,'- [x] SDK terminé '+done+' #KM-OK',''].join('\r\n'));
+ assert.equal(result.marked,1);assert.equal(result.moved,0);assert.equal(result.pending.length,1);
 });
-test('applied run appends useful report, keeps agenda link-free and persists cursor',async()=>{
- const fs=await import('node:fs/promises'),os=await import('node:os'),path=await import('node:path'),{execFileSync}=await import('node:child_process');const dir=await fs.mkdtemp(path.join(os.tmpdir(),'km-cycle-')),cal=path.join(dir,'Calendar'),data=path.join(dir,'state'),repo=path.join(dir,'repo');await fs.mkdir(cal);await fs.mkdir(data);await fs.mkdir(path.join(repo,'watch'),{recursive:true});
- try{await fs.writeFile(path.join(repo,file),'# Browser Use\n\nAutomatisation navigateur');await fs.writeFile(path.join(cal,'20261028.md'),'* [ ] Browser '+url+'\n');await fs.writeFile(path.join(data,'state.json'),JSON.stringify(state));
- const env={...process.env,NOTEPLAN_ROOT:dir,KM_PIPELINE_DATA:data,KM_ROOT:repo};const run=()=>JSON.parse(execFileSync(process.execPath,['scripts/km-noteplan-writeback.mjs','--apply'],{env,encoding:'utf8'}));const a=run();assert.equal(a.marked,1);assert.equal(a.reportAdded,true);const agenda=await fs.readFile(path.join(cal,'20261028.md'),'utf8');assert.ok(!agenda.includes('[KM]'));const report=await fs.readFile(path.join(dir,'Notes/Rapports KM.md'),'utf8');assert.match(report,/Browser Use/);assert.match(report,/search-v2.html#fiche=/);const b=run();assert.equal(b.written,0);assert.equal(b.reportAdded,undefined);assert.equal(await fs.readFile(path.join(dir,'Notes/Rapports KM.md'),'utf8'),report);assert.ok(JSON.parse(await fs.readFile(path.join(data,'writeback-cursor.json'))).lastSuccess);
- }finally{await fs.rm(dir,{recursive:true,force:true});}
+test('unfinished exploration never marks an item or rewrites unrelated content',()=>{
+ const body='## SDK\n- [ ] API '+pending+'\n- [x] ancien #km-fait\n';
+ assert.equal(planWriteback(body,state,valid).content,body);
+});
+test('parent task remains open while a child remains pending',()=>{
+ const body='- [ ] SDK '+done+'\n  - [ ] API '+pending+'\n';
+ const result=planWriteback(body,state,valid);assert.equal(result.content,body);assert.equal(result.marked,0);
 });

@@ -96,7 +96,7 @@ async function main(){
   const state=await readJson(path.join(DATA,'state.json'),{urls:{},notes:{}});
   state.firstRun ||= now();
   if(state.toolFicheVersion!==CRAWL_VERSION){for(const note of Object.values(state.notes || {}))delete note.hash;state.lastNoteplanSuccess=null;state.toolFicheVersion=CRAWL_VERSION;}
-  let processed=0,builtCount=0,lastWriteback=0,noteplanEnabled=false;
+  let processed=0,builtCount=0,noteplanEnabled=false;
   async function checkpoint(){
     await atomic(path.join(DATA,'state.json'),JSON.stringify(state));
     const changed=status.created+status.updated;
@@ -105,7 +105,6 @@ async function main(){
       await exec(process.execPath,[path.join(ROOT,'scripts/km-verify-placement.mjs')],{cwd:ROOT,env:process.env,timeout:30000,maxBuffer:1000000});
       builtCount=changed;status.dashboard={ok:true,file:'search-v2.html',updatedAt:now()};
     }
-    if(noteplanEnabled && status.noteplan.ok && processed>0 && process.env.KM_NOTEPLAN_SSH==='1' && Date.now()-lastWriteback>300000){lastWriteback=Date.now();try{const invocation=noteplanCommand('km-noteplan-writeback.mjs',['--apply'],{root:ROOT,data:DATA});const r=await exec(invocation.command,invocation.args,{cwd:ROOT,env:process.env,timeout:120000,maxBuffer:1000000});status.noteplanWriteback=JSON.parse(r.stdout);}catch{status.noteplanWriteback={ok:false,reason:'NOTEPLAN_WRITEBACK_FAILED'};}}
     await atomic(path.join(DATA,'progress.json'),JSON.stringify({...status,processed,limit:LIMIT,updatedAt:now()}));
   }
   const known=new Set(),knownFiles=new Map(),tweetFiles=new Map();

@@ -3,8 +3,7 @@ import os from 'node:os';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import {inWindow} from './km-noteplan-window.mjs';
-import {smartSortMarkdown} from '../src/core/sorter';
-import {blocked,canonical,technicalSignal} from './km-technical-policy.mjs';
+import {blocked,canonical} from './km-technical-policy.mjs';
 const timed=<T>(p:Promise<T>):Promise<T>=>Promise.race([p,new Promise<T>((_,reject)=>{const t=setTimeout(()=>reject(Error('noteplan_io_timeout')),3000);t.unref();})]);
 const hash=(s:string)=>crypto.createHash('sha256').update(s).digest('hex');
 const task=/^(\s*)[-*+]\s+\[([^\]])\]\s+/;
@@ -26,14 +25,7 @@ export function planWriteback(body:string,state:any,validFiles:Set<string>){
   lines[i]=lines[i].replace(/\[ \]/,'[x]')+' #KM-OK';items.push({files:[...files]});marked++;
  }
  
- const beforeSort=lines.join('\n');let moved=0;
- for(let n=0;n<lines.length;n++)if(/#(?:km-fait|KM-OK)\b/.test(lines[n]))lines[n]=lines[n].replace(/ +\[KM\]\(https:\/\/bizc0m\.github\.io\/KM\/search-v2\.html#fiche=[a-zA-Z0-9-]+\)/g,'');
- let candidate=lines.join(body.includes('\r\n')?'\r\n':'\n');
- // Sort only homogeneous task sections. Free-standing prose must not move.
- const sections=candidate.split(/(?=^#{1,6}\s)/m);
- candidate=sections.map(section=>{const ls=section.split(/\r?\n/);const hasMarker=/#(?:km-fait|KM-OK)\b/.test(section)||technicalSignal(section);const unsafe=ls.some((l,k)=>l.trim()&&!/^#{1,6}\s/.test(l)&&!task.test(l)&&!/^\s/.test(l));return hasMarker&&!unsafe?smartSortMarkdown(section):section;}).join('');
- const positions=(text:string)=>text.split(/\r?\n/).map((line,index)=>({line,index})).filter(x=>task.test(x.line));const old=positions(lines.join('\n')),next=positions(candidate);const used=new Set<number>();for(const x of old){const n=next.findIndex((y,k)=>!used.has(k)&&y.line===x.line);if(n>=0){used.add(n);if(next[n].index!==x.index)moved++;}}
- return {content:candidate,marked,items,pending,moved};
+ return {content:marked?lines.join(body.includes('\r\n')?'\r\n':'\n'):body,marked,items,pending,moved:0};
 }
 async function main(){
  const root=process.env.KM_ROOT||process.cwd(),data=process.env.KM_PIPELINE_DATA||path.join(os.homedir(),'Library/Application Support/KM/pipeline');await fs.mkdir(data,{recursive:true,mode:0o700});
@@ -64,22 +56,6 @@ async function main(){
  if(!activeBase)throw Error('noteplan_unavailable');
  if(apply){
   let eventLines:string[]=[];try{eventLines=(await fs.readFile(path.join(data,'fiche-events.jsonl'),'utf8')).trim().split('\n').filter(Boolean);}catch(e:any){if(e.code!=='ENOENT')throw e;}const ficheEvents:any[]=[];for(const line of eventLines.slice(cursor.ficheEventCount||0)){const e=JSON.parse(line);if(!/^(watch|resources|books)\/[a-z0-9_-]+\.md$/i.test(e.file)||blocked(e.title))continue;try{await fs.access(path.join(root,e.file));titles.set(e.file,e.title);ficheEvents.push(e);}catch{}}
-  const visible={ficheEvents,items:report.items,pending:report.pending,sortedNotes:report.sortedNotes};const contentHash=hash(JSON.stringify(visible));
-  if(report.written||ficheEvents.length||report.pending.length&&contentHash!==cursor.lastReport){
-   const date=new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Paris'}).format(new Date(started));const time=new Intl.DateTimeFormat('fr-FR',{timeZone:'Europe/Paris',hour:'2-digit',minute:'2-digit',second:'2-digit'}).format(new Date(started));
-   const link=(f:string)=>'['+(titles.get(f)||'Fiche KM')+'](https://bizc0m.github.io/KM/search-v2.html#fiche='+f.replace(/[^a-z0-9]+/gi,'-').replace(/^-|-$/g,'')+')';
-   const safeNote=(n:string)=>/^\d{4}[-\dWQ]*\.(md|txt)$/i.test(path.basename(n))?path.basename(n).replace(/\.(md|txt)$/,''):'note Calendar';
-   let block='### '+time+' — '+(ficheEvents.length?'Fiches mises à jour':report.marked?'Éléments traités':report.pending.length?'À reprendre':'Notes réorganisées')+'\n\n';
-   if(ficheEvents.length)block+='#### Fiches créées ou enrichies\n\n'+ficheEvents.map((e:any)=>'* '+link(e.file)+' — '+e.action+'.').join('\n')+'\n\n';
-   if(report.items.length)block+='#### Traités\n\n'+report.items.map((x:any)=>'* '+x.files.map(link).join(' · ')+' — agenda '+safeNote(x.note)+', coché.').join('\n')+'\n\n';
-   if(report.sortedNotes.length)block+='#### Tri effectué\n\n'+report.sortedNotes.map((n:string)=>'* Agenda '+safeNote(n)).join('\n')+'\n\n';
-   if(report.pending.length)block+='#### À reprendre\n\n'+report.pending.map((x:any)=>'* '+(x.files.filter((f:string)=>valid.has(f)).map(link).join(' · ')||(x.sources?.length?'[Source à reprendre]('+x.sources[0]+')':'Élément KM'))+' — agenda '+safeNote(x.note)+' : '+x.reason+'.').join('\n')+'\n\n';
-   block+='#### Contrôle\n\n* '+report.marked+' tâche(s) cochée(s), '+report.moved+' tâche(s) déplacée(s), '+report.conflicts+' conflit(s).\n\n';
-   const note=path.join(activeBase,'Notes/Rapports KM.md');await fs.mkdir(path.dirname(note),{recursive:true});let old='';try{old=await fs.readFile(note,'utf8');}catch(e:any){if(e.code!=='ENOENT')throw e;}
-   const tag='## '+date;const at=old.indexOf(tag+'\n');let next;
-   if(at>=0){const end=old.indexOf('\n## ',at+tag.length);const pos=end<0?old.length:end;next=old.slice(0,pos).trimEnd()+'\n\n'+block+old.slice(pos);}else next=(old||'# Rapports KM\n').trimEnd()+'\n\n'+tag+'\n\n'+block;
-   await fs.mkdir(backup,{recursive:true,mode:0o700});await fs.writeFile(path.join(backup,'Rapports KM.before.md'),old,{mode:0o600});let current='';try{current=await fs.readFile(note,'utf8');}catch(e:any){if(e.code!=='ENOENT')throw e;}if(current!==old)throw Error('report_conflict');await fs.writeFile(note,next,{mode:0o600});cursor.lastReport=contentHash;report.reportAdded=true;
-  }
   cursor.ficheEventCount=eventLines.length;report.fiches=ficheEvents.length;
   await fs.appendFile(path.join(data,'noteplan-writeback-history.jsonl'),JSON.stringify(report)+'\n',{mode:0o600});
   if(!report.conflicts&&!report.unreadable)cursor.lastSuccess=started;
