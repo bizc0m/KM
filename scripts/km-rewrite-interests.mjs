@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 import {execFileSync} from 'node:child_process';
-import {INTEREST_PROMPT,validInterest} from './km-interest-text.mjs';
+import {INTEREST_PROMPT,validInterest,interestNeedsReview} from './km-interest-text.mjs';
 import {loadPublicPage} from './km-source-crawl.mjs';
 import {blocked} from './km-technical-policy.mjs';
 import {findProductImages} from './km-product-media.mjs';
@@ -17,8 +17,8 @@ const progress=()=>fs.writeFile(path.join(base,'pipeline/interests-progress.json
 await progress();
 for(const name of files){
  const file=name;let current=await fs.readFile(file,'utf8'),source='';
- const existing=current.match(/## Intérêts\n\n([\s\S]*?)(?=\n## |$)/)?.[1]?.trim();if(validInterest(existing))continue;
- if(reviewOnly&&existing!=='Intérêt à vérifier')continue;selected++;
+ const existing=current.match(/## Intérêts\n\n([\s\S]*?)(?=\n## |$)/)?.[1]?.trim();if(!interestNeedsReview(existing))continue;
+ if(reviewOnly&&!interestNeedsReview(existing))continue;selected++;
  source=current; // Current documented facts, never historical raw notes.
 
  // Only pre-existing filtered summaries and facts; no raw NotePlan text.

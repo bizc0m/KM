@@ -9,3 +9,5 @@ export function validInterest(s){const rows=interestLines(s);return rows.length=
 
 export const UNKNOWN_INTEREST = ["Fonction", "Avantages", "Gain"].map(label=>label+" · Non établi par la source").join("\n");
 export function retainedInterest(candidate,previous=""){return validInterest(candidate)?candidate:validInterest(previous)?previous:UNKNOWN_INTEREST;}
+
+export function interestNeedsReview(value){return !validInterest(value)||interestLines(value).some(row=>row.text === "Non établi par la source");}
