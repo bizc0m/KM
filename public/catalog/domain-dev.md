@@ -1,11 +1,11 @@
 # Développement logiciel
 
 - [agent-browser](../../watch/technical-401c6af5b51d16a5ed2f.md)
+- [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
+- [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
 - [agent-skills](../../watch/technical-dae9f02535f7c22f84f1.md)
 - [ccxt](../../watch/technical-b311af1e723666baa9db.md)
 - [CogKit](../../watch/technical-d19bb531a3fa1cced1d5.md)
-- [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
-- [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
 - [fastlane](../../watch/technical-026d3ff8cb1d2ae22fa5.md)
 - [GSAP](../../watch/technical-f017fa6f1c553ef834f0.md)
 - [ImHex](../../watch/technical-520e4da6a7c1579f99e5.md)

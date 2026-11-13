@@ -48,18 +48,5 @@ Gain · Non établi par la source
 - Origine : NotePlan
 - Identifiant source : 414ea35d29a6a6753f30e823abb2e816d9daa240e7ab4536fbb10184a000ab2b
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-11-12
+- Lecture KM : 2026-11-13
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Modèle de 2.78-trillion de paramètres
-- Inférence portable sur CPU
-- Utilisation de 8.24 GB de RAM peak
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/fareedkhan-dev/kimi-k3-in-c
-- Analyse source : 2026-11-12T08:01:12.895Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

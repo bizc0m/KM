@@ -1,15 +1,16 @@
 # Intelligence artificielle
 
-- [system-one-adapter-python](../../watch/technical-9030808704b6bf9050c8.md)
 - [agent-browser](../../watch/technical-401c6af5b51d16a5ed2f.md)
 - [agent-desktop](../../watch/technical-23746973c38c4e68bc89.md)
+- [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
+- [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
+- [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
+- [system-one-adapter-python](../../watch/technical-9030808704b6bf9050c8.md)
 - [agent-skills](../../watch/technical-dae9f02535f7c22f84f1.md)
 - [ai-hedge-fund](../../watch/technical-93b2cfb4f88278ad5c7f.md)
 - [cache-dit](../../watch/technical-159ec935b39905997411.md)
 - [claude-animation-skill](../../watch/technical-bcd0154c6d60ef4c770e.md)
 - [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md)
-- [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
-- [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
 - [dagu](../../watch/technical-ba28cf8980c41a0f6c5e.md)
 - [deep_research_from_scratch](../../watch/technical-c6da3fadca4d3b47a86c.md)
 - [DeepResearch Bench](../../watch/technical-a99452c8e16aa64919f7.md)
@@ -47,7 +48,6 @@
 - [scrapecreators-cli](../../watch/technical-fcf0bfc48ab0ce73e30a.md)
 - [Searchlight](../../watch/technical-d4d044cd39765ba2f35d.md)
 - [skills](../../watch/technical-6ec106f9407cdfec724a.md)
-- [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
 - [web-scout-mcp](../../watch/technical-e54359e32dffb4db43b7.md)
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Fonction · Définir des principes pour construire des applications LLM fiables et scalables.
 Avantages · Structurer la logique et les interactions avec les outils.

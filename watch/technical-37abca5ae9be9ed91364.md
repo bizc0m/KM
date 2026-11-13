@@ -49,18 +49,5 @@ Gain · Non établi par la source
 - Origine : NotePlan
 - Identifiant source : 37abca5ae9be9ed91364b462157579a800bf371d8632fcf743925f930dfce971
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-11-12
+- Lecture KM : 2026-11-13
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
-
-## Capacités documentées
-
-- Bibliothèque Python pour le scraping et l'automatisation de navigateur
-- Extraction de données structurées avec LLM via Pydantic AI
-- Contrôle du navigateur en langage naturel avec Stagehand
-
-## Qualification
-
-- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
-- Source : https://github.com/apify/crawlee-python
-- Analyse source : 2026-11-12T08:17:02.257Z
-- Relecture humaine : non ; les affirmations restent à vérifier dans la source.
