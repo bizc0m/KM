@@ -1,5 +1,6 @@
 # Intelligence artificielle
 
+- [system-one-adapter-python](../../watch/technical-9030808704b6bf9050c8.md)
 - [agent-browser](../../watch/technical-401c6af5b51d16a5ed2f.md)
 - [agent-desktop](../../watch/technical-23746973c38c4e68bc89.md)
 - [agent-skills](../../watch/technical-dae9f02535f7c22f84f1.md)
@@ -47,7 +48,6 @@
 - [Searchlight](../../watch/technical-d4d044cd39765ba2f35d.md)
 - [skills](../../watch/technical-6ec106f9407cdfec724a.md)
 - [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
-- [system-one-adapter-python](../../watch/technical-9030808704b6bf9050c8.md)
 - [web-scout-mcp](../../watch/technical-e54359e32dffb4db43b7.md)
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Fonction · Définir des principes pour construire des applications LLM fiables et scalables.
 Avantages · Structurer la logique et les interactions avec les outils.

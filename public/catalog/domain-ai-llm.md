@@ -1,5 +1,6 @@
 # Modèles de langage
 
+- [system-one-adapter-python](../../watch/technical-9030808704b6bf9050c8.md)
 - [cache-dit](../../watch/technical-159ec935b39905997411.md)
 - [CosyVoice](../../watch/technical-4dbf8b61c8b24b3bf369.md)
 - [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
@@ -12,7 +13,6 @@
 - [RAGFlow](../../watch/technical-5ff4bf30ae94874f6dd3.md)
 - [retrieval-go](../../watch/technical-dca806554efeda77bfb9.md)
 - [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
-- [system-one-adapter-python](../../watch/technical-9030808704b6bf9050c8.md)
 - [12-factor-agents](../../watch/technical-e9eb05e2bf38f125a62f.md) — Fonction · Définir des principes pour construire des applications LLM fiables et scalables.
 Avantages · Structurer la logique et les interactions avec les outils.
 Gain · Réduire la complexité et améliorer la maintenance du code.

@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-12T23:36:52.923Z",
+  "at": "2026-11-13T08:01:51.200Z",
   "scope": "public-index-only",
   "fiches": 847,
   "sourceReferences": 3354,
@@ -15,6 +15,24 @@
     "nature-unqualified": 789
   },
   "queue": [
+    {
+      "id": "watch-technical-974efe047684d1a87507-md",
+      "title": "jev-fraud",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-9030808704b6bf9050c8-md",
+      "title": "system-one-adapter-python",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
     {
       "id": "watch-technical-bd69dc0d4bb066bb0ea3-md",
       "title": "aesthetic-predictor-v2-5",
@@ -702,16 +720,6 @@
     {
       "id": "watch-technical-e2cbe928ecd9a74f37a7-md",
       "title": "Jev",
-      "reasons": [
-        "interest-missing",
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-974efe047684d1a87507-md",
-      "title": "jev-fraud",
       "reasons": [
         "interest-missing",
         "keywords-missing",
@@ -1544,14 +1552,6 @@
     {
       "id": "watch-technical-9393728b99ba6f234816-md",
       "title": "supermetry",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-9030808704b6bf9050c8-md",
-      "title": "system-one-adapter-python",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
