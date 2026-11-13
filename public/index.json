@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-13T11:55:55.616Z",
-  "count": 847,
+  "at": "2026-11-13T12:03:51.823Z",
+  "count": 850,
   "rows": [
     {
       "id": "watch-technical-401c6af5b51d16a5ed2f-md",
@@ -938,6 +938,560 @@
         }
       ],
       "cardTitle": "agent-desktop",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-e0115360a6844a263ba2-md",
+      "title": "arscontexta",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "MIT",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/agenticnotetaking/arscontexta"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#memoire-agents"
+      ],
+      "status": "actif",
+      "path": "watch/technical-e0115360a6844a263ba2.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-e0115360a6844a263ba2.md",
+      "sourceUrl": "https://github.com/agenticnotetaking/arscontexta",
+      "sources": [
+        {
+          "url": "https://github.com/agenticnotetaking/arscontexta",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2105961132045570140",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/agenticnotetaking/arscontexta",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-13",
+      "theme": "agent",
+      "themeLabel": "Agents de développement",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents.coding",
+            "domain.data.notes",
+            "domain.ai.agents.memory"
+          ],
+          "capability": [
+            "capability.automation",
+            "capability.memory"
+          ],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.raindrop",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents.coding",
+            "label": "Agents de développement",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents"
+            ],
+            "patterns": [
+              "claude code",
+              "\\bcodex\\b",
+              "coding agents?",
+              "agents? de cod"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Agents de développement"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.data.notes",
+            "label": "Notes et organisation",
+            "parent": "domain.data",
+            "aliases": [
+              "#capture-notes",
+              "#metadonnees-notes",
+              "#planification-taches",
+              "#knowledge-management",
+              "#notes"
+            ],
+            "patterns": [
+              "prise de notes",
+              "gestion.*notes",
+              "planification.*taches",
+              "proprietes.*notes"
+            ],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances",
+              "Notes et organisation"
+            ]
+          },
+          {
+            "id": "domain.data",
+            "label": "Données et connaissances",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances"
+            ]
+          },
+          {
+            "id": "domain.ai.agents.memory",
+            "label": "Mémoire des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#memoire-agents",
+              "#memory",
+              "#long-term-memory",
+              "#context-engineering"
+            ],
+            "patterns": [
+              "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
+              "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Mémoire des agents"
+            ]
+          },
+          {
+            "id": "capability.automation",
+            "label": "Automatiser des actions",
+            "parent": "capability",
+            "aliases": [
+              "#automation",
+              "#workflow",
+              "#workflows",
+              "#ui-automation"
+            ],
+            "patterns": [
+              "automatise.*tests",
+              "automatisation"
+            ],
+            "facet": "capability",
+            "path": [
+              "Automatiser des actions"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "capability.memory",
+            "label": "Conserver le contexte",
+            "parent": "capability",
+            "aliases": [
+              "#memoire-agents",
+              "#memory",
+              "#long-term-memory",
+              "#context-engineering"
+            ],
+            "facet": "capability",
+            "path": [
+              "Conserver le contexte"
+            ]
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.raindrop",
+            "label": "Raindrop",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "Raindrop"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents.coding",
+          "label": "Agents de développement",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents"
+          ],
+          "patterns": [
+            "claude code",
+            "\\bcodex\\b",
+            "coding agents?",
+            "agents? de cod"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Agents de développement"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.data.notes",
+          "label": "Notes et organisation",
+          "parent": "domain.data",
+          "aliases": [
+            "#capture-notes",
+            "#metadonnees-notes",
+            "#planification-taches",
+            "#knowledge-management",
+            "#notes"
+          ],
+          "patterns": [
+            "prise de notes",
+            "gestion.*notes",
+            "planification.*taches",
+            "proprietes.*notes"
+          ],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances",
+            "Notes et organisation"
+          ]
+        },
+        {
+          "id": "domain.data",
+          "label": "Données et connaissances",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances"
+          ]
+        },
+        {
+          "id": "domain.ai.agents.memory",
+          "label": "Mémoire des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#memoire-agents",
+            "#memory",
+            "#long-term-memory",
+            "#context-engineering"
+          ],
+          "patterns": [
+            "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
+            "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Mémoire des agents"
+          ]
+        },
+        {
+          "id": "capability.automation",
+          "label": "Automatiser des actions",
+          "parent": "capability",
+          "aliases": [
+            "#automation",
+            "#workflow",
+            "#workflows",
+            "#ui-automation"
+          ],
+          "patterns": [
+            "automatise.*tests",
+            "automatisation"
+          ],
+          "facet": "capability",
+          "path": [
+            "Automatiser des actions"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "capability.memory",
+          "label": "Conserver le contexte",
+          "parent": "capability",
+          "aliases": [
+            "#memoire-agents",
+            "#memory",
+            "#long-term-memory",
+            "#context-engineering"
+          ],
+          "facet": "capability",
+          "path": [
+            "Conserver le contexte"
+          ]
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.raindrop",
+          "label": "Raindrop",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "Raindrop"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#Mémoire",
+          "fullLabel": "Mémoire des agents",
+          "color": "agent",
+          "tag": "#memoire-agents"
+        }
+      ],
+      "cardTitle": "arscontexta",
       "cardInterest": ""
     },
     {
@@ -3963,6 +4517,1407 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-187af07c5c79815c0323-md",
+      "title": "obsidian-mind",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "MIT",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/breferrari/obsidian-mind"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#memoire-agents",
+        "#agents-code",
+        "#terminal"
+      ],
+      "status": "actif",
+      "path": "watch/technical-187af07c5c79815c0323.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-187af07c5c79815c0323.md",
+      "sourceUrl": "https://github.com/breferrari/obsidian-mind",
+      "sources": [
+        {
+          "url": "https://github.com/breferrari/obsidian-mind",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2105961132045570140",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://github.com/tobi/qmd",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://nodejs.org/en",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/breferrari/shardmind",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/breferrari/obsidian-mind/main/CONTRIBUTING.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://github.com/agenticnotetaking/arscontexta",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/breferrari/obsidian-mind/main/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://code.claude.com/docs/en/best-practices",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://academy.claude.com/courses/claude-code-101",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://claude.dev/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://claude.com/product/claude-code",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://learn.chatgpt.com/docs/codex/ide",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://learn.chatgpt.com/docs/auth",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://learn.chatgpt.com/docs",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/breferrari/obsidian-mind/HEAD/obsidian-mind-demo.gif",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/breferrari/obsidian-mind/HEAD/README.md",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        }
+      ],
+      "github": "https://github.com/breferrari/obsidian-mind",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-13",
+      "theme": "agent",
+      "themeLabel": "Mémoire des agents",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.agents.memory",
+            "domain.ai.agents.coding",
+            "domain.ai.llm",
+            "domain.dev.quality",
+            "domain.data.notes"
+          ],
+          "capability": [
+            "capability.memory",
+            "capability.code.assist"
+          ],
+          "compatibility": [
+            "compatibility.interface.terminal"
+          ],
+          "risk": [],
+          "source": [
+            "source.raindrop",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.agents.memory",
+            "label": "Mémoire des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#memoire-agents",
+              "#memory",
+              "#long-term-memory",
+              "#context-engineering"
+            ],
+            "patterns": [
+              "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
+              "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Mémoire des agents"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.ai.agents.coding",
+            "label": "Agents de développement",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents"
+            ],
+            "patterns": [
+              "claude code",
+              "\\bcodex\\b",
+              "coding agents?",
+              "agents? de cod"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Agents de développement"
+            ]
+          },
+          {
+            "id": "domain.ai.llm",
+            "label": "Modèles de langage",
+            "parent": "domain.ai",
+            "aliases": [
+              "#llm",
+              "#inference",
+              "#providers",
+              "#openai-compatible",
+              "#comparaison-modeles",
+              "#inference-locale"
+            ],
+            "patterns": [
+              "\\bllm\\b",
+              "\\bqwen\\w*",
+              "\\bdeepseek\\b",
+              "\\bnotebooklm\\b",
+              "\\bgemini\\b",
+              "\\bgpt[ -]?\\d",
+              "mistral vibe"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Modèles de langage"
+            ]
+          },
+          {
+            "id": "domain.dev.quality",
+            "label": "Qualité du code",
+            "parent": "domain.dev",
+            "aliases": [
+              "#code-review",
+              "#sast",
+              "#tests",
+              "#linting"
+            ],
+            "patterns": [
+              "reformat.*code",
+              "code python",
+              "codage",
+              "linting"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel",
+              "Qualité du code"
+            ]
+          },
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
+            ]
+          },
+          {
+            "id": "domain.data.notes",
+            "label": "Notes et organisation",
+            "parent": "domain.data",
+            "aliases": [
+              "#capture-notes",
+              "#metadonnees-notes",
+              "#planification-taches",
+              "#knowledge-management",
+              "#notes"
+            ],
+            "patterns": [
+              "prise de notes",
+              "gestion.*notes",
+              "planification.*taches",
+              "proprietes.*notes"
+            ],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances",
+              "Notes et organisation"
+            ]
+          },
+          {
+            "id": "domain.data",
+            "label": "Données et connaissances",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances"
+            ]
+          },
+          {
+            "id": "capability.memory",
+            "label": "Conserver le contexte",
+            "parent": "capability",
+            "aliases": [
+              "#memoire-agents",
+              "#memory",
+              "#long-term-memory",
+              "#context-engineering"
+            ],
+            "facet": "capability",
+            "path": [
+              "Conserver le contexte"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "capability.code.assist",
+            "label": "Assister le développement",
+            "parent": "capability",
+            "aliases": [
+              "#agents-code",
+              "#coding-agents",
+              "#pair-programming"
+            ],
+            "patterns": [
+              "reformat.*code",
+              "assistance de codage",
+              "modifier.*fichiers.*projet"
+            ],
+            "facet": "capability",
+            "path": [
+              "Assister le développement"
+            ]
+          },
+          {
+            "id": "compatibility.interface.terminal",
+            "label": "Terminal",
+            "parent": "compatibility.interface",
+            "aliases": [
+              "#terminal",
+              "#cli"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces",
+              "Terminal"
+            ]
+          },
+          {
+            "id": "compatibility.interface",
+            "label": "Interfaces",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Interfaces"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.raindrop",
+            "label": "Raindrop",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "Raindrop"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.agents.memory",
+          "label": "Mémoire des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#memoire-agents",
+            "#memory",
+            "#long-term-memory",
+            "#context-engineering"
+          ],
+          "patterns": [
+            "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
+            "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Mémoire des agents"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.ai.agents.coding",
+          "label": "Agents de développement",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents"
+          ],
+          "patterns": [
+            "claude code",
+            "\\bcodex\\b",
+            "coding agents?",
+            "agents? de cod"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Agents de développement"
+          ]
+        },
+        {
+          "id": "domain.ai.llm",
+          "label": "Modèles de langage",
+          "parent": "domain.ai",
+          "aliases": [
+            "#llm",
+            "#inference",
+            "#providers",
+            "#openai-compatible",
+            "#comparaison-modeles",
+            "#inference-locale"
+          ],
+          "patterns": [
+            "\\bllm\\b",
+            "\\bqwen\\w*",
+            "\\bdeepseek\\b",
+            "\\bnotebooklm\\b",
+            "\\bgemini\\b",
+            "\\bgpt[ -]?\\d",
+            "mistral vibe"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Modèles de langage"
+          ]
+        },
+        {
+          "id": "domain.dev.quality",
+          "label": "Qualité du code",
+          "parent": "domain.dev",
+          "aliases": [
+            "#code-review",
+            "#sast",
+            "#tests",
+            "#linting"
+          ],
+          "patterns": [
+            "reformat.*code",
+            "code python",
+            "codage",
+            "linting"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel",
+            "Qualité du code"
+          ]
+        },
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
+          ]
+        },
+        {
+          "id": "domain.data.notes",
+          "label": "Notes et organisation",
+          "parent": "domain.data",
+          "aliases": [
+            "#capture-notes",
+            "#metadonnees-notes",
+            "#planification-taches",
+            "#knowledge-management",
+            "#notes"
+          ],
+          "patterns": [
+            "prise de notes",
+            "gestion.*notes",
+            "planification.*taches",
+            "proprietes.*notes"
+          ],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances",
+            "Notes et organisation"
+          ]
+        },
+        {
+          "id": "domain.data",
+          "label": "Données et connaissances",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances"
+          ]
+        },
+        {
+          "id": "capability.memory",
+          "label": "Conserver le contexte",
+          "parent": "capability",
+          "aliases": [
+            "#memoire-agents",
+            "#memory",
+            "#long-term-memory",
+            "#context-engineering"
+          ],
+          "facet": "capability",
+          "path": [
+            "Conserver le contexte"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "capability.code.assist",
+          "label": "Assister le développement",
+          "parent": "capability",
+          "aliases": [
+            "#agents-code",
+            "#coding-agents",
+            "#pair-programming"
+          ],
+          "patterns": [
+            "reformat.*code",
+            "assistance de codage",
+            "modifier.*fichiers.*projet"
+          ],
+          "facet": "capability",
+          "path": [
+            "Assister le développement"
+          ]
+        },
+        {
+          "id": "compatibility.interface.terminal",
+          "label": "Terminal",
+          "parent": "compatibility.interface",
+          "aliases": [
+            "#terminal",
+            "#cli"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces",
+            "Terminal"
+          ]
+        },
+        {
+          "id": "compatibility.interface",
+          "label": "Interfaces",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Interfaces"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.raindrop",
+          "label": "Raindrop",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "Raindrop"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#Mémoire",
+          "fullLabel": "Mémoire des agents",
+          "color": "agent",
+          "tag": "#memoire-agents"
+        },
+        {
+          "label": "#agents-code",
+          "fullLabel": "agents-code",
+          "color": "agent",
+          "tag": "#agents-code"
+        },
+        {
+          "label": "#terminal",
+          "fullLabel": "terminal",
+          "color": "tool",
+          "tag": "#terminal"
+        }
+      ],
+      "cardTitle": "obsidian-mind",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-79f49fc219e62c153dd6-md",
+      "title": "qmd",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "MIT",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/tobi/qmd"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#mcp"
+      ],
+      "status": "actif",
+      "path": "watch/technical-79f49fc219e62c153dd6.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-79f49fc219e62c153dd6.md",
+      "sourceUrl": "https://github.com/tobi/qmd",
+      "sources": [
+        {
+          "url": "https://github.com/tobi/qmd",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2105961132045570140",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/tobi/qmd",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-13",
+      "theme": "agent",
+      "themeLabel": "Connecteurs et outils des agents",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.llm",
+            "domain.infrastructure",
+            "domain.ai.agents.integration"
+          ],
+          "capability": [],
+          "compatibility": [
+            "compatibility.protocol.mcp"
+          ],
+          "risk": [],
+          "source": [
+            "source.raindrop",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.llm",
+            "label": "Modèles de langage",
+            "parent": "domain.ai",
+            "aliases": [
+              "#llm",
+              "#inference",
+              "#providers",
+              "#openai-compatible",
+              "#comparaison-modeles",
+              "#inference-locale"
+            ],
+            "patterns": [
+              "\\bllm\\b",
+              "\\bqwen\\w*",
+              "\\bdeepseek\\b",
+              "\\bnotebooklm\\b",
+              "\\bgemini\\b",
+              "\\bgpt[ -]?\\d",
+              "mistral vibe"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Modèles de langage"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.infrastructure",
+            "label": "Infrastructure",
+            "parent": "domain",
+            "aliases": [
+              "#infrastructure",
+              "#network-security",
+              "#vpn",
+              "#tailscale",
+              "#server",
+              "#linux-server"
+            ],
+            "patterns": [
+              "\\bvps\\b",
+              "serveurs?",
+              "\\bservers?\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Infrastructure"
+            ]
+          },
+          {
+            "id": "domain.ai.agents.integration",
+            "label": "Connecteurs et outils des agents",
+            "parent": "domain.ai.agents",
+            "aliases": [
+              "#mcp",
+              "#mcp-server",
+              "#integrations",
+              "#agent-instructions",
+              "#agents-md",
+              "#agent-skill",
+              "#plugins"
+            ],
+            "patterns": [],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA",
+              "Connecteurs et outils des agents"
+            ]
+          },
+          {
+            "id": "domain.ai.agents",
+            "label": "Agents IA",
+            "parent": "domain.ai",
+            "aliases": [
+              "#agent",
+              "#agents",
+              "#ai-agents",
+              "#personal-agent",
+              "#autonomous-agent",
+              "#ai-companion",
+              "#autonomous-company",
+              "#autonomous-research"
+            ],
+            "patterns": [
+              "\\bagents?\\b",
+              "agentique",
+              "\\bopenclaw\\b"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Agents IA"
+            ]
+          },
+          {
+            "id": "compatibility.protocol.mcp",
+            "label": "MCP",
+            "parent": "compatibility.protocol",
+            "aliases": [
+              "#mcp",
+              "#mcp-server"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Protocoles",
+              "MCP"
+            ]
+          },
+          {
+            "id": "compatibility.protocol",
+            "label": "Protocoles",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Protocoles"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.raindrop",
+            "label": "Raindrop",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "Raindrop"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.llm",
+          "label": "Modèles de langage",
+          "parent": "domain.ai",
+          "aliases": [
+            "#llm",
+            "#inference",
+            "#providers",
+            "#openai-compatible",
+            "#comparaison-modeles",
+            "#inference-locale"
+          ],
+          "patterns": [
+            "\\bllm\\b",
+            "\\bqwen\\w*",
+            "\\bdeepseek\\b",
+            "\\bnotebooklm\\b",
+            "\\bgemini\\b",
+            "\\bgpt[ -]?\\d",
+            "mistral vibe"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Modèles de langage"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.infrastructure",
+          "label": "Infrastructure",
+          "parent": "domain",
+          "aliases": [
+            "#infrastructure",
+            "#network-security",
+            "#vpn",
+            "#tailscale",
+            "#server",
+            "#linux-server"
+          ],
+          "patterns": [
+            "\\bvps\\b",
+            "serveurs?",
+            "\\bservers?\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Infrastructure"
+          ]
+        },
+        {
+          "id": "domain.ai.agents.integration",
+          "label": "Connecteurs et outils des agents",
+          "parent": "domain.ai.agents",
+          "aliases": [
+            "#mcp",
+            "#mcp-server",
+            "#integrations",
+            "#agent-instructions",
+            "#agents-md",
+            "#agent-skill",
+            "#plugins"
+          ],
+          "patterns": [],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA",
+            "Connecteurs et outils des agents"
+          ]
+        },
+        {
+          "id": "domain.ai.agents",
+          "label": "Agents IA",
+          "parent": "domain.ai",
+          "aliases": [
+            "#agent",
+            "#agents",
+            "#ai-agents",
+            "#personal-agent",
+            "#autonomous-agent",
+            "#ai-companion",
+            "#autonomous-company",
+            "#autonomous-research"
+          ],
+          "patterns": [
+            "\\bagents?\\b",
+            "agentique",
+            "\\bopenclaw\\b"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Agents IA"
+          ]
+        },
+        {
+          "id": "compatibility.protocol.mcp",
+          "label": "MCP",
+          "parent": "compatibility.protocol",
+          "aliases": [
+            "#mcp",
+            "#mcp-server"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Protocoles",
+            "MCP"
+          ]
+        },
+        {
+          "id": "compatibility.protocol",
+          "label": "Protocoles",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Protocoles"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.raindrop",
+          "label": "Raindrop",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "Raindrop"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#mcp",
+          "fullLabel": "mcp",
+          "color": "agent",
+          "tag": "#mcp"
+        }
+      ],
+      "cardTitle": "qmd",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-2e317194feb446319292-md",
       "title": "scrapy-playwright",
       "canonical": "",
@@ -4588,6 +6543,262 @@
         }
       ],
       "cardTitle": "selectolax",
+      "cardInterest": ""
+    },
+    {
+      "id": "watch-technical-8cd79d2a3421062e8b8f-md",
+      "title": "shardmind",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "MIT",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/breferrari/shardmind"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [],
+      "status": "actif",
+      "path": "watch/technical-8cd79d2a3421062e8b8f.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-8cd79d2a3421062e8b8f.md",
+      "sourceUrl": "https://github.com/breferrari/shardmind",
+      "sources": [
+        {
+          "url": "https://github.com/breferrari/shardmind",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2105961132045570140",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/breferrari/shardmind",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-13",
+      "theme": "llm",
+      "themeLabel": "Intelligence artificielle",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.raindrop",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.raindrop",
+            "label": "Raindrop",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "Raindrop"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.raindrop",
+          "label": "Raindrop",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "Raindrop"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [],
+      "cardTitle": "shardmind",
       "cardInterest": ""
     },
     {
@@ -45388,800 +47599,6 @@
       ],
       "keywords": [],
       "cardTitle": "num2words",
-      "cardInterest": ""
-    },
-    {
-      "id": "watch-technical-187af07c5c79815c0323-md",
-      "title": "obsidian-mind",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "MIT",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/breferrari/obsidian-mind"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#memoire-agents",
-        "#agents-code",
-        "#terminal"
-      ],
-      "status": "actif",
-      "path": "watch/technical-187af07c5c79815c0323.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-187af07c5c79815c0323.md",
-      "sourceUrl": "https://github.com/breferrari/obsidian-mind",
-      "sources": [
-        {
-          "url": "https://github.com/breferrari/obsidian-mind",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://x.com/i/status/2105961132045570140",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/breferrari/obsidian-mind/HEAD/obsidian-mind-demo.gif",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        },
-        {
-          "url": "https://raw.githubusercontent.com/breferrari/obsidian-mind/HEAD/README.md",
-          "kind": "source",
-          "role": "documentation",
-          "label": "Documentation"
-        }
-      ],
-      "github": "https://github.com/breferrari/obsidian-mind",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-11-12",
-      "theme": "agent",
-      "themeLabel": "Mémoire des agents",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.ai.agents.memory",
-            "domain.ai.agents.coding",
-            "domain.ai.llm",
-            "domain.dev.quality",
-            "domain.data.notes"
-          ],
-          "capability": [
-            "capability.memory",
-            "capability.code.assist"
-          ],
-          "compatibility": [
-            "compatibility.interface.terminal"
-          ],
-          "risk": [],
-          "source": [
-            "source.raindrop",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.ai.agents.memory",
-            "label": "Mémoire des agents",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#memoire-agents",
-              "#memory",
-              "#long-term-memory",
-              "#context-engineering"
-            ],
-            "patterns": [
-              "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
-              "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Mémoire des agents"
-            ]
-          },
-          {
-            "id": "domain.ai.agents",
-            "label": "Agents IA",
-            "parent": "domain.ai",
-            "aliases": [
-              "#agent",
-              "#agents",
-              "#ai-agents",
-              "#personal-agent",
-              "#autonomous-agent",
-              "#ai-companion",
-              "#autonomous-company",
-              "#autonomous-research"
-            ],
-            "patterns": [
-              "\\bagents?\\b",
-              "agentique",
-              "\\bopenclaw\\b"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA"
-            ]
-          },
-          {
-            "id": "domain.ai",
-            "label": "Intelligence artificielle",
-            "parent": "domain",
-            "aliases": [
-              "#ia",
-              "#ai",
-              "#generative-ai",
-              "#ai-assistant",
-              "#creative-ai"
-            ],
-            "patterns": [
-              "\\bia\\b",
-              "\\bai\\b",
-              "intelligence artificielle",
-              "artificial intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "domain.ai.agents.coding",
-            "label": "Agents de développement",
-            "parent": "domain.ai.agents",
-            "aliases": [
-              "#agents-code",
-              "#coding-agents"
-            ],
-            "patterns": [
-              "claude code",
-              "\\bcodex\\b",
-              "coding agents?",
-              "agents? de cod"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Agents IA",
-              "Agents de développement"
-            ]
-          },
-          {
-            "id": "domain.ai.llm",
-            "label": "Modèles de langage",
-            "parent": "domain.ai",
-            "aliases": [
-              "#llm",
-              "#inference",
-              "#providers",
-              "#openai-compatible",
-              "#comparaison-modeles",
-              "#inference-locale"
-            ],
-            "patterns": [
-              "\\bllm\\b",
-              "\\bqwen\\w*",
-              "\\bdeepseek\\b",
-              "\\bnotebooklm\\b",
-              "\\bgemini\\b",
-              "\\bgpt[ -]?\\d",
-              "mistral vibe"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Modèles de langage"
-            ]
-          },
-          {
-            "id": "domain.dev.quality",
-            "label": "Qualité du code",
-            "parent": "domain.dev",
-            "aliases": [
-              "#code-review",
-              "#sast",
-              "#tests",
-              "#linting"
-            ],
-            "patterns": [
-              "reformat.*code",
-              "code python",
-              "codage",
-              "linting"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel",
-              "Qualité du code"
-            ]
-          },
-          {
-            "id": "domain.dev",
-            "label": "Développement logiciel",
-            "parent": "domain",
-            "aliases": [
-              "#coding",
-              "#devtools",
-              "#editor",
-              "#code-quality"
-            ],
-            "patterns": [
-              "developpement logiciel",
-              "software development",
-              "ingenierie logicielle",
-              "developpement",
-              "programmat",
-              "modifier.*fichiers.*projet",
-              "modifier un projet"
-            ],
-            "facet": "domain",
-            "path": [
-              "Développement logiciel"
-            ]
-          },
-          {
-            "id": "domain.data.notes",
-            "label": "Notes et organisation",
-            "parent": "domain.data",
-            "aliases": [
-              "#capture-notes",
-              "#metadonnees-notes",
-              "#planification-taches",
-              "#knowledge-management",
-              "#notes"
-            ],
-            "patterns": [
-              "prise de notes",
-              "gestion.*notes",
-              "planification.*taches",
-              "proprietes.*notes"
-            ],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances",
-              "Notes et organisation"
-            ]
-          },
-          {
-            "id": "domain.data",
-            "label": "Données et connaissances",
-            "parent": "domain",
-            "aliases": [],
-            "facet": "domain",
-            "path": [
-              "Données et connaissances"
-            ]
-          },
-          {
-            "id": "capability.memory",
-            "label": "Conserver le contexte",
-            "parent": "capability",
-            "aliases": [
-              "#memoire-agents",
-              "#memory",
-              "#long-term-memory",
-              "#context-engineering"
-            ],
-            "facet": "capability",
-            "path": [
-              "Conserver le contexte"
-            ]
-          },
-          {
-            "id": "capability",
-            "label": "Fonctions",
-            "parent": null,
-            "aliases": [],
-            "facet": "capability",
-            "path": []
-          },
-          {
-            "id": "capability.code.assist",
-            "label": "Assister le développement",
-            "parent": "capability",
-            "aliases": [
-              "#agents-code",
-              "#coding-agents",
-              "#pair-programming"
-            ],
-            "patterns": [
-              "reformat.*code",
-              "assistance de codage",
-              "modifier.*fichiers.*projet"
-            ],
-            "facet": "capability",
-            "path": [
-              "Assister le développement"
-            ]
-          },
-          {
-            "id": "compatibility.interface.terminal",
-            "label": "Terminal",
-            "parent": "compatibility.interface",
-            "aliases": [
-              "#terminal",
-              "#cli"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces",
-              "Terminal"
-            ]
-          },
-          {
-            "id": "compatibility.interface",
-            "label": "Interfaces",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Interfaces"
-            ]
-          },
-          {
-            "id": "compatibility",
-            "label": "Compatibilités",
-            "parent": null,
-            "aliases": [],
-            "facet": "compatibility",
-            "path": []
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.raindrop",
-            "label": "Raindrop",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "Raindrop"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.ai.agents.memory",
-          "label": "Mémoire des agents",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#memoire-agents",
-            "#memory",
-            "#long-term-memory",
-            "#context-engineering"
-          ],
-          "patterns": [
-            "(?:memoire|memory|contexte|context).*(?:agents?|sessions?)",
-            "(?:agents?|sessions?).*(?:memoire|memory|contexte|context)"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Mémoire des agents"
-          ]
-        },
-        {
-          "id": "domain.ai.agents",
-          "label": "Agents IA",
-          "parent": "domain.ai",
-          "aliases": [
-            "#agent",
-            "#agents",
-            "#ai-agents",
-            "#personal-agent",
-            "#autonomous-agent",
-            "#ai-companion",
-            "#autonomous-company",
-            "#autonomous-research"
-          ],
-          "patterns": [
-            "\\bagents?\\b",
-            "agentique",
-            "\\bopenclaw\\b"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA"
-          ]
-        },
-        {
-          "id": "domain.ai",
-          "label": "Intelligence artificielle",
-          "parent": "domain",
-          "aliases": [
-            "#ia",
-            "#ai",
-            "#generative-ai",
-            "#ai-assistant",
-            "#creative-ai"
-          ],
-          "patterns": [
-            "\\bia\\b",
-            "\\bai\\b",
-            "intelligence artificielle",
-            "artificial intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "domain.ai.agents.coding",
-          "label": "Agents de développement",
-          "parent": "domain.ai.agents",
-          "aliases": [
-            "#agents-code",
-            "#coding-agents"
-          ],
-          "patterns": [
-            "claude code",
-            "\\bcodex\\b",
-            "coding agents?",
-            "agents? de cod"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Agents IA",
-            "Agents de développement"
-          ]
-        },
-        {
-          "id": "domain.ai.llm",
-          "label": "Modèles de langage",
-          "parent": "domain.ai",
-          "aliases": [
-            "#llm",
-            "#inference",
-            "#providers",
-            "#openai-compatible",
-            "#comparaison-modeles",
-            "#inference-locale"
-          ],
-          "patterns": [
-            "\\bllm\\b",
-            "\\bqwen\\w*",
-            "\\bdeepseek\\b",
-            "\\bnotebooklm\\b",
-            "\\bgemini\\b",
-            "\\bgpt[ -]?\\d",
-            "mistral vibe"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Modèles de langage"
-          ]
-        },
-        {
-          "id": "domain.dev.quality",
-          "label": "Qualité du code",
-          "parent": "domain.dev",
-          "aliases": [
-            "#code-review",
-            "#sast",
-            "#tests",
-            "#linting"
-          ],
-          "patterns": [
-            "reformat.*code",
-            "code python",
-            "codage",
-            "linting"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel",
-            "Qualité du code"
-          ]
-        },
-        {
-          "id": "domain.dev",
-          "label": "Développement logiciel",
-          "parent": "domain",
-          "aliases": [
-            "#coding",
-            "#devtools",
-            "#editor",
-            "#code-quality"
-          ],
-          "patterns": [
-            "developpement logiciel",
-            "software development",
-            "ingenierie logicielle",
-            "developpement",
-            "programmat",
-            "modifier.*fichiers.*projet",
-            "modifier un projet"
-          ],
-          "facet": "domain",
-          "path": [
-            "Développement logiciel"
-          ]
-        },
-        {
-          "id": "domain.data.notes",
-          "label": "Notes et organisation",
-          "parent": "domain.data",
-          "aliases": [
-            "#capture-notes",
-            "#metadonnees-notes",
-            "#planification-taches",
-            "#knowledge-management",
-            "#notes"
-          ],
-          "patterns": [
-            "prise de notes",
-            "gestion.*notes",
-            "planification.*taches",
-            "proprietes.*notes"
-          ],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances",
-            "Notes et organisation"
-          ]
-        },
-        {
-          "id": "domain.data",
-          "label": "Données et connaissances",
-          "parent": "domain",
-          "aliases": [],
-          "facet": "domain",
-          "path": [
-            "Données et connaissances"
-          ]
-        },
-        {
-          "id": "capability.memory",
-          "label": "Conserver le contexte",
-          "parent": "capability",
-          "aliases": [
-            "#memoire-agents",
-            "#memory",
-            "#long-term-memory",
-            "#context-engineering"
-          ],
-          "facet": "capability",
-          "path": [
-            "Conserver le contexte"
-          ]
-        },
-        {
-          "id": "capability",
-          "label": "Fonctions",
-          "parent": null,
-          "aliases": [],
-          "facet": "capability",
-          "path": []
-        },
-        {
-          "id": "capability.code.assist",
-          "label": "Assister le développement",
-          "parent": "capability",
-          "aliases": [
-            "#agents-code",
-            "#coding-agents",
-            "#pair-programming"
-          ],
-          "patterns": [
-            "reformat.*code",
-            "assistance de codage",
-            "modifier.*fichiers.*projet"
-          ],
-          "facet": "capability",
-          "path": [
-            "Assister le développement"
-          ]
-        },
-        {
-          "id": "compatibility.interface.terminal",
-          "label": "Terminal",
-          "parent": "compatibility.interface",
-          "aliases": [
-            "#terminal",
-            "#cli"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces",
-            "Terminal"
-          ]
-        },
-        {
-          "id": "compatibility.interface",
-          "label": "Interfaces",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Interfaces"
-          ]
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibilités",
-          "parent": null,
-          "aliases": [],
-          "facet": "compatibility",
-          "path": []
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.raindrop",
-          "label": "Raindrop",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "Raindrop"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#Mémoire",
-          "fullLabel": "Mémoire des agents",
-          "color": "agent",
-          "tag": "#memoire-agents"
-        },
-        {
-          "label": "#agents-code",
-          "fullLabel": "agents-code",
-          "color": "agent",
-          "tag": "#agents-code"
-        },
-        {
-          "label": "#terminal",
-          "fullLabel": "terminal",
-          "color": "tool",
-          "tag": "#terminal"
-        }
-      ],
-      "cardTitle": "obsidian-mind",
       "cardInterest": ""
     },
     {

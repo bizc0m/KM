@@ -1,9 +1,9 @@
 # Qualité du code
 
+- [obsidian-mind](../../watch/technical-187af07c5c79815c0323.md)
 - [agent-skills](../../watch/technical-dae9f02535f7c22f84f1.md)
 - [impeccable](../../watch/technical-ec673bd7694d3a658bba.md)
 - [node-qrcode](../../watch/technical-e4d3b81674545d24dce2.md)
-- [obsidian-mind](../../watch/technical-187af07c5c79815c0323.md)
 - [agentmemory](../../watch/technical-ea311829e667eb1acdcc.md) — Fonction · Capture · Recall · Continue · Inspect
 Avantages · Secret scrubbing · Recherche sémantique · Graph fusion · Export
 Gain · Productivité · Réutilisation · Contexte · Collaboration

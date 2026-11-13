@@ -49,3 +49,17 @@ Gain · Non établi par la source
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-13
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Automatise l'interaction avec des sites web
+- Gère les cookies et les redirections
+- Utilise Requests pour les sessions HTTP
+- Intègre BeautifulSoup pour naviguer dans les documents
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/mechanicalsoup/mechanicalsoup
+- Analyse source : 2026-11-13T11:22:12.155Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

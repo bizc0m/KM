@@ -50,3 +50,21 @@ Gain · Non établi par la source
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-13
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Dépôt GitHub contenant le code source de Spider.
+- Spider est un moteur de scraping web écrit en Rust.
+- Il permet la collecte de données web avec une faible latence.
+- Il gère la concurrence et l'évolutivité sans changer le code.
+- Il peut fonctionner localement ou en cloud.
+- Il inclut des fonctionnalités comme les proxies et le rendu JavaScript.
+- Il permet la collecte de pages web en streaming.
+- Il s'adapte à des cas d'usage comme les vector stores et les agents de navigation AI.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/spider-rs/spider
+- Analyse source : 2026-11-13T11:22:12.155Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

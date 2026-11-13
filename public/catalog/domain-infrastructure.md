@@ -1,5 +1,6 @@
 # Infrastructure
 
+- [qmd](../../watch/technical-79f49fc219e62c153dd6.md)
 - [awesome-reverse-engineered](../../watch/technical-17de07d1eb3071810eb0.md)
 - [channels_redis](../../watch/technical-e9d5c8675243580ba00f.md)
 - [dagu](../../watch/technical-ba28cf8980c41a0f6c5e.md)

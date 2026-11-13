@@ -2,6 +2,9 @@
 
 - [agent-browser](../../watch/technical-401c6af5b51d16a5ed2f.md)
 - [agent-desktop](../../watch/technical-23746973c38c4e68bc89.md)
+- [arscontexta](../../watch/technical-e0115360a6844a263ba2.md)
+- [obsidian-mind](../../watch/technical-187af07c5c79815c0323.md)
+- [qmd](../../watch/technical-79f49fc219e62c153dd6.md)
 - [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)
 - [agent-skills](../../watch/technical-dae9f02535f7c22f84f1.md)
 - [claude-animation-skill](../../watch/technical-bcd0154c6d60ef4c770e.md)
@@ -19,7 +22,6 @@
 - [mcp-webresearch](../../watch/technical-6b0d6844a1825aa4d5da.md)
 - [Motion](../../watch/technical-d0d951d500e0a6ae2a0e.md)
 - [Motion Design Skill](../../watch/technical-17c9d333777b6545efcf.md)
-- [obsidian-mind](../../watch/technical-187af07c5c79815c0323.md)
 - [opencode](../../watch/technical-ffccace0ba14fd154d90.md)
 - [OpenMausBot](../../watch/technical-a9b556051dc6e3270941.md)
 - [research-mcp](../../watch/technical-ffc05a5b982c09b92791.md)

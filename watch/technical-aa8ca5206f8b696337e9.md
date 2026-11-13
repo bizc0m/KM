@@ -50,3 +50,27 @@ Gain · Non établi par la source
 - Politique : technical-only-2026-10-17
 - Lecture KM : 2026-11-13
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Python & CLI pour extraire texte et métadonnées depuis le Web
+- Support pour crawling, scraping, extraction de texte et métadonnées
+- Performances supérieures à d'autres bibliothèques open source
+
+## Usages documentés
+
+- fetch_url(url)
+- extract(html, output_format='json', with_metadata=True)
+
+## Limites
+
+- Nécessite Python installé
+- Pas de support pour les bases de données M2
+- Compatibilité limitée aux systèmes macOS
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/adbar/trafilatura
+- Analyse source : 2026-11-13T11:22:12.155Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

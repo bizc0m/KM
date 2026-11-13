@@ -1,18 +1,18 @@
 {
-  "at": "2026-11-13T11:55:55.795Z",
+  "at": "2026-11-13T12:03:51.999Z",
   "scope": "public-index-only",
-  "fiches": 847,
-  "sourceReferences": 3354,
+  "fiches": 850,
+  "sourceReferences": 3374,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 805,
+  "pendingReview": 808,
   "counts": {
-    "interest-missing": 235,
-    "keywords-missing": 135,
+    "interest-missing": 238,
+    "keywords-missing": 136,
     "domain-unqualified": 181,
     "primary-identity-unqualified": 22,
-    "nature-unqualified": 789
+    "nature-unqualified": 792
   },
   "queue": [
     {
@@ -26,6 +26,14 @@
     {
       "id": "watch-technical-23746973c38c4e68bc89-md",
       "title": "agent-desktop",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-e0115360a6844a263ba2-md",
+      "title": "arscontexta",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
@@ -103,6 +111,22 @@
       ]
     },
     {
+      "id": "watch-technical-187af07c5c79815c0323-md",
+      "title": "obsidian-mind",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-79f49fc219e62c153dd6-md",
+      "title": "qmd",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-2e317194feb446319292-md",
       "title": "scrapy-playwright",
       "reasons": [
@@ -116,6 +140,15 @@
       "reasons": [
         "interest-missing",
         "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-8cd79d2a3421062e8b8f-md",
+      "title": "shardmind",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
         "nature-unqualified"
       ]
     },
@@ -1146,14 +1179,6 @@
         "interest-missing",
         "keywords-missing",
         "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-187af07c5c79815c0323-md",
-      "title": "obsidian-mind",
-      "reasons": [
-        "interest-missing",
         "nature-unqualified"
       ]
     },
