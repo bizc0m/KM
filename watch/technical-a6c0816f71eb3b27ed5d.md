@@ -48,7 +48,7 @@ Gain · Non établi par la source
 - Origine : NotePlan
 - Identifiant source : a6c0816f71eb3b27ed5dd602c4e9e87c7942d0a7b53e136191428bd77d41e51f
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-11-13
+- Lecture KM : 2026-11-14
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Capacités documentées
@@ -66,5 +66,5 @@ Gain · Non établi par la source
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/spider-rs/spider
-- Analyse source : 2026-11-13T11:22:12.155Z
+- Analyse source : 2026-11-14T11:20:34.762Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -1,38 +1,20 @@
 {
-  "at": "2026-11-14T08:01:50.662Z",
+  "at": "2026-11-14T12:01:59.633Z",
   "scope": "public-index-only",
-  "fiches": 850,
-  "sourceReferences": 3374,
+  "fiches": 851,
+  "sourceReferences": 3400,
   "sourceCap": null,
   "verifiedCorrections": 4,
   "primaryDuplicateGroups": [],
-  "pendingReview": 808,
+  "pendingReview": 809,
   "counts": {
-    "interest-missing": 238,
+    "interest-missing": 239,
     "keywords-missing": 136,
     "domain-unqualified": 181,
-    "primary-identity-unqualified": 22,
-    "nature-unqualified": 792
+    "primary-identity-unqualified": 23,
+    "nature-unqualified": 793
   },
   "queue": [
-    {
-      "id": "watch-technical-974efe047684d1a87507-md",
-      "title": "jev-fraud",
-      "reasons": [
-        "interest-missing",
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-9030808704b6bf9050c8-md",
-      "title": "system-one-adapter-python",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
     {
       "id": "watch-technical-401c6af5b51d16a5ed2f-md",
       "title": "agent-browser",
@@ -90,8 +72,27 @@
       ]
     },
     {
+      "id": "watch-technical-84665a8eb6724cf52290-md",
+      "title": "Crawlee-python",
+      "reasons": [
+        "interest-missing",
+        "primary-identity-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
       "id": "watch-technical-8d00fb1736bf5ed195c0-md",
       "title": "Ferret",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-974efe047684d1a87507-md",
+      "title": "jev-fraud",
       "reasons": [
         "interest-missing",
         "keywords-missing",
@@ -163,6 +164,14 @@
     {
       "id": "watch-technical-a6c0816f71eb3b27ed5d-md",
       "title": "spider-rs/spider",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-9030808704b6bf9050c8-md",
+      "title": "system-one-adapter-python",
       "reasons": [
         "interest-missing",
         "nature-unqualified"

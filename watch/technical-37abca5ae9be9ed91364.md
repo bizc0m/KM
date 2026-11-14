@@ -49,7 +49,7 @@ Gain · Non établi par la source
 - Origine : NotePlan
 - Identifiant source : 37abca5ae9be9ed91364b462157579a800bf371d8632fcf743925f930dfce971
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-11-13
+- Lecture KM : 2026-11-14
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Capacités documentées
@@ -62,5 +62,5 @@ Gain · Non établi par la source
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/apify/crawlee-python
-- Analyse source : 2026-11-13T11:22:12.155Z
+- Analyse source : 2026-11-14T11:20:34.762Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

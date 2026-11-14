@@ -4,6 +4,7 @@
 - [Crawlab](../../watch/technical-6056740628cf01a1e192.md)
 - [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
 - [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
+- [Crawlee-python](../../watch/technical-84665a8eb6724cf52290.md)
 - [obsidian-mind](../../watch/technical-187af07c5c79815c0323.md)
 - [scrapy-playwright](../../watch/technical-2e317194feb446319292.md)
 - [spider-rs/spider](../../watch/technical-a6c0816f71eb3b27ed5d.md)

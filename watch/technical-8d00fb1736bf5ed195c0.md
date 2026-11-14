@@ -45,7 +45,7 @@ Gain · Non établi par la source
 - Origine : NotePlan
 - Identifiant source : 8d00fb1736bf5ed195c0df6bc1ba2b08845217cf9b76b20425bc93a8bcd280d7
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-11-13
+- Lecture KM : 2026-11-14
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Capacités documentées
@@ -59,5 +59,5 @@ Gain · Non établi par la source
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/montferret/ferret
-- Analyse source : 2026-11-13T11:22:12.155Z
+- Analyse source : 2026-11-14T11:20:34.762Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

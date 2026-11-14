@@ -44,7 +44,7 @@ Gain · Non établi par la source
 - Origine : Raindrop
 - Identifiant source : 8cd79d2a3421062e8b8f3d03490e3257e957b31dd03daff2981db242cd73e897
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-11-13
+- Lecture KM : 2026-11-14
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Capacités documentées
@@ -71,5 +71,5 @@ Gain · Non établi par la source
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/breferrari/shardmind
-- Analyse source : 2026-11-13T12:00:55.921Z
+- Analyse source : 2026-11-14T12:01:07.491Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

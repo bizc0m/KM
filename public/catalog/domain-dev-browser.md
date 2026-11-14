@@ -3,6 +3,7 @@
 - [agent-browser](../../watch/technical-401c6af5b51d16a5ed2f.md)
 - [crawlee](../../watch/technical-58c0429fbd3fbdeb924d.md)
 - [crawlee-python](../../watch/technical-37abca5ae9be9ed91364.md)
+- [Crawlee-python](../../watch/technical-84665a8eb6724cf52290.md)
 - [Playwright Python](../../watch/technical-ec8eeed6bdfe52f370a1.md)
 - [Browser-Use](../../watch/browser-use-web-automation.md) — Fonction · Automatise la navigation web avec des agents AI.
 Avantages · Supporte des navigateurs furtifs et des proxies résidentiels.

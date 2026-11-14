@@ -47,7 +47,7 @@ Gain · Non établi par la source
 - Origine : NotePlan
 - Identifiant source : 0d58a5af5e1ec59c12fd63c828c6fc0c89bffaf26d5cb1c949a9c029f246a166
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-11-13
+- Lecture KM : 2026-11-14
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Capacités documentées
@@ -61,5 +61,5 @@ Gain · Non établi par la source
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/mechanicalsoup/mechanicalsoup
-- Analyse source : 2026-11-13T11:22:12.155Z
+- Analyse source : 2026-11-14T11:20:34.762Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

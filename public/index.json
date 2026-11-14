@@ -1,624 +1,7 @@
 {
-  "at": "2026-11-14T08:01:50.455Z",
-  "count": 850,
+  "at": "2026-11-14T12:01:59.422Z",
+  "count": 851,
   "rows": [
-    {
-      "id": "watch-technical-974efe047684d1a87507-md",
-      "title": "jev-fraud",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "MIT",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/Nutlope/jev-fraud"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [],
-      "status": "actif",
-      "path": "watch/technical-974efe047684d1a87507.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-974efe047684d1a87507.md",
-      "sourceUrl": "https://github.com/nutlope/jev-fraud",
-      "sources": [
-        {
-          "url": "https://github.com/nutlope/jev-fraud",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://x.com/i/status/2104783226833186920",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        }
-      ],
-      "github": "https://github.com/nutlope/jev-fraud",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-11-14",
-      "theme": "tool",
-      "themeLabel": "À qualifier",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.unclassified"
-          ],
-          "capability": [],
-          "compatibility": [],
-          "risk": [],
-          "source": [
-            "source.raindrop",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.raindrop",
-            "label": "Raindrop",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "Raindrop"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          },
-          {
-            "id": "domain.unclassified",
-            "label": "À qualifier",
-            "parent": "domain",
-            "aliases": [],
-            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
-            "facet": "domain",
-            "path": [
-              "À qualifier"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.raindrop",
-          "label": "Raindrop",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "Raindrop"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        },
-        {
-          "id": "domain.unclassified",
-          "label": "À qualifier",
-          "parent": "domain",
-          "aliases": [],
-          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
-          "facet": "domain",
-          "path": [
-            "À qualifier"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        }
-      ],
-      "keywords": [],
-      "cardTitle": "jev-fraud",
-      "cardInterest": ""
-    },
-    {
-      "id": "watch-technical-9030808704b6bf9050c8-md",
-      "title": "system-one-adapter-python",
-      "canonical": "",
-      "resource": {
-        "nature": "À vérifier",
-        "os": [
-          "À vérifier"
-        ],
-        "license": "MIT",
-        "pricing": "À vérifier",
-        "access": [
-          "À vérifier"
-        ],
-        "evidence": "https://github.com/typesafe-ai/system-one-adapter-python"
-      },
-      "type": "watch",
-      "bucket": "watch",
-      "folder": "watch",
-      "folderLabel": "Watch",
-      "publishable": true,
-      "shareable": true,
-      "tags": [
-        "#python"
-      ],
-      "status": "actif",
-      "path": "watch/technical-9030808704b6bf9050c8.md",
-      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-9030808704b6bf9050c8.md",
-      "sourceUrl": "https://github.com/typesafe-ai/system-one-adapter-python",
-      "sources": [
-        {
-          "url": "https://github.com/typesafe-ai/system-one-adapter-python",
-          "kind": "github",
-          "role": "primaryRepository",
-          "label": "GitHub"
-        },
-        {
-          "url": "https://x.com/i/status/2104783226833186920",
-          "kind": "social",
-          "role": "originPost",
-          "label": "Publication d’origine"
-        }
-      ],
-      "github": "https://github.com/typesafe-ai/system-one-adapter-python",
-      "officialSite": "",
-      "githubTopics": [],
-      "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
-      "kmUsage": "",
-      "relations": [],
-      "integratedAt": "2026-11-14",
-      "theme": "llm",
-      "themeLabel": "Modèles de langage",
-      "classification": {
-        "version": "1.1",
-        "facets": {
-          "domain": [
-            "domain.ai.llm"
-          ],
-          "capability": [],
-          "compatibility": [
-            "compatibility.language.python"
-          ],
-          "risk": [],
-          "source": [
-            "source.raindrop",
-            "source.github",
-            "source.x"
-          ],
-          "lifecycle": [
-            "lifecycle.active"
-          ]
-        },
-        "concepts": [
-          {
-            "id": "domain.ai.llm",
-            "label": "Modèles de langage",
-            "parent": "domain.ai",
-            "aliases": [
-              "#llm",
-              "#inference",
-              "#providers",
-              "#openai-compatible",
-              "#comparaison-modeles",
-              "#inference-locale"
-            ],
-            "patterns": [
-              "\\bllm\\b",
-              "\\bqwen\\w*",
-              "\\bdeepseek\\b",
-              "\\bnotebooklm\\b",
-              "\\bgemini\\b",
-              "\\bgpt[ -]?\\d",
-              "mistral vibe"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle",
-              "Modèles de langage"
-            ]
-          },
-          {
-            "id": "domain.ai",
-            "label": "Intelligence artificielle",
-            "parent": "domain",
-            "aliases": [
-              "#ia",
-              "#ai",
-              "#generative-ai",
-              "#ai-assistant",
-              "#creative-ai"
-            ],
-            "patterns": [
-              "\\bia\\b",
-              "\\bai\\b",
-              "intelligence artificielle",
-              "artificial intelligence"
-            ],
-            "facet": "domain",
-            "path": [
-              "Intelligence artificielle"
-            ]
-          },
-          {
-            "id": "domain",
-            "label": "Sujets",
-            "parent": null,
-            "aliases": [],
-            "facet": "domain",
-            "path": []
-          },
-          {
-            "id": "compatibility.language.python",
-            "label": "Python",
-            "parent": "compatibility.language",
-            "aliases": [
-              "#python"
-            ],
-            "facet": "compatibility",
-            "path": [
-              "Langages",
-              "Python"
-            ]
-          },
-          {
-            "id": "compatibility.language",
-            "label": "Langages",
-            "parent": "compatibility",
-            "aliases": [],
-            "facet": "compatibility",
-            "path": [
-              "Langages"
-            ]
-          },
-          {
-            "id": "compatibility",
-            "label": "Compatibilités",
-            "parent": null,
-            "aliases": [],
-            "facet": "compatibility",
-            "path": []
-          },
-          {
-            "id": "lifecycle.active",
-            "label": "Actif",
-            "parent": "lifecycle",
-            "aliases": [
-              "#actif",
-              "#active"
-            ],
-            "facet": "lifecycle",
-            "path": [
-              "Actif"
-            ]
-          },
-          {
-            "id": "lifecycle",
-            "label": "État",
-            "parent": null,
-            "aliases": [],
-            "facet": "lifecycle",
-            "path": []
-          },
-          {
-            "id": "source.raindrop",
-            "label": "Raindrop",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "Raindrop"
-            ]
-          },
-          {
-            "id": "source",
-            "label": "Provenance",
-            "parent": null,
-            "aliases": [],
-            "facet": "source",
-            "path": []
-          },
-          {
-            "id": "source.github",
-            "label": "GitHub",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "GitHub"
-            ]
-          },
-          {
-            "id": "source.x",
-            "label": "X / Twitter",
-            "parent": "source",
-            "aliases": [],
-            "facet": "source",
-            "path": [
-              "X / Twitter"
-            ]
-          }
-        ],
-        "unmappedTags": []
-      },
-      "concepts": [
-        {
-          "id": "domain.ai.llm",
-          "label": "Modèles de langage",
-          "parent": "domain.ai",
-          "aliases": [
-            "#llm",
-            "#inference",
-            "#providers",
-            "#openai-compatible",
-            "#comparaison-modeles",
-            "#inference-locale"
-          ],
-          "patterns": [
-            "\\bllm\\b",
-            "\\bqwen\\w*",
-            "\\bdeepseek\\b",
-            "\\bnotebooklm\\b",
-            "\\bgemini\\b",
-            "\\bgpt[ -]?\\d",
-            "mistral vibe"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle",
-            "Modèles de langage"
-          ]
-        },
-        {
-          "id": "domain.ai",
-          "label": "Intelligence artificielle",
-          "parent": "domain",
-          "aliases": [
-            "#ia",
-            "#ai",
-            "#generative-ai",
-            "#ai-assistant",
-            "#creative-ai"
-          ],
-          "patterns": [
-            "\\bia\\b",
-            "\\bai\\b",
-            "intelligence artificielle",
-            "artificial intelligence"
-          ],
-          "facet": "domain",
-          "path": [
-            "Intelligence artificielle"
-          ]
-        },
-        {
-          "id": "domain",
-          "label": "Sujets",
-          "parent": null,
-          "aliases": [],
-          "facet": "domain",
-          "path": []
-        },
-        {
-          "id": "compatibility.language.python",
-          "label": "Python",
-          "parent": "compatibility.language",
-          "aliases": [
-            "#python"
-          ],
-          "facet": "compatibility",
-          "path": [
-            "Langages",
-            "Python"
-          ]
-        },
-        {
-          "id": "compatibility.language",
-          "label": "Langages",
-          "parent": "compatibility",
-          "aliases": [],
-          "facet": "compatibility",
-          "path": [
-            "Langages"
-          ]
-        },
-        {
-          "id": "compatibility",
-          "label": "Compatibilités",
-          "parent": null,
-          "aliases": [],
-          "facet": "compatibility",
-          "path": []
-        },
-        {
-          "id": "lifecycle.active",
-          "label": "Actif",
-          "parent": "lifecycle",
-          "aliases": [
-            "#actif",
-            "#active"
-          ],
-          "facet": "lifecycle",
-          "path": [
-            "Actif"
-          ]
-        },
-        {
-          "id": "lifecycle",
-          "label": "État",
-          "parent": null,
-          "aliases": [],
-          "facet": "lifecycle",
-          "path": []
-        },
-        {
-          "id": "source.raindrop",
-          "label": "Raindrop",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "Raindrop"
-          ]
-        },
-        {
-          "id": "source",
-          "label": "Provenance",
-          "parent": null,
-          "aliases": [],
-          "facet": "source",
-          "path": []
-        },
-        {
-          "id": "source.github",
-          "label": "GitHub",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "GitHub"
-          ]
-        },
-        {
-          "id": "source.x",
-          "label": "X / Twitter",
-          "parent": "source",
-          "aliases": [],
-          "facet": "source",
-          "path": [
-            "X / Twitter"
-          ]
-        }
-      ],
-      "keywords": [
-        {
-          "label": "#python",
-          "fullLabel": "python",
-          "color": "dev",
-          "tag": "#python"
-        }
-      ],
-      "cardTitle": "system-one-adapter-python",
-      "cardInterest": ""
-    },
     {
       "id": "watch-technical-401c6af5b51d16a5ed2f-md",
       "title": "agent-browser",
@@ -669,7 +52,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "agent",
       "themeLabel": "Agents IA",
       "classification": {
@@ -1225,7 +608,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "agent",
       "themeLabel": "Agents IA",
       "classification": {
@@ -1606,7 +989,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "agent",
       "themeLabel": "Agents de développement",
       "classification": {
@@ -2160,7 +1543,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "tool",
       "themeLabel": "À qualifier",
       "classification": {
@@ -2486,7 +1869,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "research",
       "themeLabel": "Collecte web",
       "classification": {
@@ -2878,7 +2261,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "dev",
       "themeLabel": "Environnements d’exécution",
       "classification": {
@@ -3445,7 +2828,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "llm",
       "themeLabel": "Modèles de langage",
       "classification": {
@@ -4045,6 +3428,788 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-84665a8eb6724cf52290-md",
+      "title": "Crawlee-python",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "À vérifier",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "À vérifier"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#extraction-web",
+        "#automatisation-navigateur",
+        "#python"
+      ],
+      "status": "actif",
+      "path": "watch/technical-84665a8eb6724cf52290.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-84665a8eb6724cf52290.md",
+      "sourceUrl": "https://x.com/i/status/2117933158926880946",
+      "sources": [
+        {
+          "url": "https://x.com/i/status/2117933158926880946",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        },
+        {
+          "url": "https://github.com/apify/crawlee-python",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/adbar/trafilatura",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/spider-rs/spider",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/crawlab-team/crawlab",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/montferret/ferret",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/mechanicalsoup/mechanicalsoup",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/rushter/selectolax",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/scrapy-plugins/scrapy-playwright",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://crawlee.dev/",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://crawlee.dev/python",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/apify/crawlee",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://crawlee.dev/python/docs/introduction",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://crawlee.dev/python/docs/introduction/setting-up",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://crawlee.dev/python/api/class/BeautifulSoupCrawler",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://crawlee.dev/python/api/class/ImpitHttpClient",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://crawlee.dev/python/api/class/Dataset",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://crawlee.dev/python/api/class/KeyValueStore",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://apify.com/",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://docs.apify.com/sdk/python/docs/overview",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://chromewebstore.google.com/detail/mouse-coordinates/mfohnjojhopfcahiddmeljeholnciakl?ucbcb=1",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://github.com/omkarcloud/capsolver-extension-python",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://nodejs.org/en",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://jina.ai/reader",
+          "kind": "source",
+          "role": "secondaryReference",
+          "label": "Référence"
+        }
+      ],
+      "github": "",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-14",
+      "theme": "llm",
+      "themeLabel": "Modèles de langage",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.llm",
+            "domain.data.web",
+            "domain.dev.browser"
+          ],
+          "capability": [
+            "capability.scraping",
+            "capability.automation.browser"
+          ],
+          "compatibility": [
+            "compatibility.language.python"
+          ],
+          "risk": [],
+          "source": [
+            "source.noteplan",
+            "source.x",
+            "source.github"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.llm",
+            "label": "Modèles de langage",
+            "parent": "domain.ai",
+            "aliases": [
+              "#llm",
+              "#inference",
+              "#providers",
+              "#openai-compatible",
+              "#comparaison-modeles",
+              "#inference-locale"
+            ],
+            "patterns": [
+              "\\bllm\\b",
+              "\\bqwen\\w*",
+              "\\bdeepseek\\b",
+              "\\bnotebooklm\\b",
+              "\\bgemini\\b",
+              "\\bgpt[ -]?\\d",
+              "mistral vibe"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Modèles de langage"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "domain.data.web",
+            "label": "Collecte web",
+            "parent": "domain.data",
+            "aliases": [
+              "#extraction-web",
+              "#scraping",
+              "#web-extraction",
+              "#crawler"
+            ],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances",
+              "Collecte web"
+            ]
+          },
+          {
+            "id": "domain.data",
+            "label": "Données et connaissances",
+            "parent": "domain",
+            "aliases": [],
+            "facet": "domain",
+            "path": [
+              "Données et connaissances"
+            ]
+          },
+          {
+            "id": "domain.dev.browser",
+            "label": "Outils de navigateur",
+            "parent": "domain.dev",
+            "aliases": [
+              "#browser-profiles",
+              "#browser-automation",
+              "#automatisation-navigateur"
+            ],
+            "patterns": [
+              "profils de navigateur"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel",
+              "Outils de navigateur"
+            ]
+          },
+          {
+            "id": "domain.dev",
+            "label": "Développement logiciel",
+            "parent": "domain",
+            "aliases": [
+              "#coding",
+              "#devtools",
+              "#editor",
+              "#code-quality"
+            ],
+            "patterns": [
+              "developpement logiciel",
+              "software development",
+              "ingenierie logicielle",
+              "developpement",
+              "programmat",
+              "modifier.*fichiers.*projet",
+              "modifier un projet"
+            ],
+            "facet": "domain",
+            "path": [
+              "Développement logiciel"
+            ]
+          },
+          {
+            "id": "capability.scraping",
+            "label": "Extraire des données web",
+            "parent": "capability",
+            "aliases": [
+              "#extraction-web",
+              "#scraping",
+              "#web-extraction",
+              "#crawler"
+            ],
+            "facet": "capability",
+            "path": [
+              "Extraire des données web"
+            ]
+          },
+          {
+            "id": "capability",
+            "label": "Fonctions",
+            "parent": null,
+            "aliases": [],
+            "facet": "capability",
+            "path": []
+          },
+          {
+            "id": "capability.automation.browser",
+            "label": "Automatiser le navigateur",
+            "parent": "capability.automation",
+            "aliases": [
+              "#automatisation-navigateur",
+              "#browser-automation"
+            ],
+            "facet": "capability",
+            "path": [
+              "Automatiser des actions",
+              "Automatiser le navigateur"
+            ]
+          },
+          {
+            "id": "capability.automation",
+            "label": "Automatiser des actions",
+            "parent": "capability",
+            "aliases": [
+              "#automation",
+              "#workflow",
+              "#workflows",
+              "#ui-automation"
+            ],
+            "patterns": [
+              "automatise.*tests",
+              "automatisation"
+            ],
+            "facet": "capability",
+            "path": [
+              "Automatiser des actions"
+            ]
+          },
+          {
+            "id": "compatibility.language.python",
+            "label": "Python",
+            "parent": "compatibility.language",
+            "aliases": [
+              "#python"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Langages",
+              "Python"
+            ]
+          },
+          {
+            "id": "compatibility.language",
+            "label": "Langages",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Langages"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.noteplan",
+            "label": "NotePlan Calendar",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "NotePlan Calendar"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.llm",
+          "label": "Modèles de langage",
+          "parent": "domain.ai",
+          "aliases": [
+            "#llm",
+            "#inference",
+            "#providers",
+            "#openai-compatible",
+            "#comparaison-modeles",
+            "#inference-locale"
+          ],
+          "patterns": [
+            "\\bllm\\b",
+            "\\bqwen\\w*",
+            "\\bdeepseek\\b",
+            "\\bnotebooklm\\b",
+            "\\bgemini\\b",
+            "\\bgpt[ -]?\\d",
+            "mistral vibe"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Modèles de langage"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "domain.data.web",
+          "label": "Collecte web",
+          "parent": "domain.data",
+          "aliases": [
+            "#extraction-web",
+            "#scraping",
+            "#web-extraction",
+            "#crawler"
+          ],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances",
+            "Collecte web"
+          ]
+        },
+        {
+          "id": "domain.data",
+          "label": "Données et connaissances",
+          "parent": "domain",
+          "aliases": [],
+          "facet": "domain",
+          "path": [
+            "Données et connaissances"
+          ]
+        },
+        {
+          "id": "domain.dev.browser",
+          "label": "Outils de navigateur",
+          "parent": "domain.dev",
+          "aliases": [
+            "#browser-profiles",
+            "#browser-automation",
+            "#automatisation-navigateur"
+          ],
+          "patterns": [
+            "profils de navigateur"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel",
+            "Outils de navigateur"
+          ]
+        },
+        {
+          "id": "domain.dev",
+          "label": "Développement logiciel",
+          "parent": "domain",
+          "aliases": [
+            "#coding",
+            "#devtools",
+            "#editor",
+            "#code-quality"
+          ],
+          "patterns": [
+            "developpement logiciel",
+            "software development",
+            "ingenierie logicielle",
+            "developpement",
+            "programmat",
+            "modifier.*fichiers.*projet",
+            "modifier un projet"
+          ],
+          "facet": "domain",
+          "path": [
+            "Développement logiciel"
+          ]
+        },
+        {
+          "id": "capability.scraping",
+          "label": "Extraire des données web",
+          "parent": "capability",
+          "aliases": [
+            "#extraction-web",
+            "#scraping",
+            "#web-extraction",
+            "#crawler"
+          ],
+          "facet": "capability",
+          "path": [
+            "Extraire des données web"
+          ]
+        },
+        {
+          "id": "capability",
+          "label": "Fonctions",
+          "parent": null,
+          "aliases": [],
+          "facet": "capability",
+          "path": []
+        },
+        {
+          "id": "capability.automation.browser",
+          "label": "Automatiser le navigateur",
+          "parent": "capability.automation",
+          "aliases": [
+            "#automatisation-navigateur",
+            "#browser-automation"
+          ],
+          "facet": "capability",
+          "path": [
+            "Automatiser des actions",
+            "Automatiser le navigateur"
+          ]
+        },
+        {
+          "id": "capability.automation",
+          "label": "Automatiser des actions",
+          "parent": "capability",
+          "aliases": [
+            "#automation",
+            "#workflow",
+            "#workflows",
+            "#ui-automation"
+          ],
+          "patterns": [
+            "automatise.*tests",
+            "automatisation"
+          ],
+          "facet": "capability",
+          "path": [
+            "Automatiser des actions"
+          ]
+        },
+        {
+          "id": "compatibility.language.python",
+          "label": "Python",
+          "parent": "compatibility.language",
+          "aliases": [
+            "#python"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Langages",
+            "Python"
+          ]
+        },
+        {
+          "id": "compatibility.language",
+          "label": "Langages",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Langages"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.noteplan",
+          "label": "NotePlan Calendar",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "NotePlan Calendar"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#extraction-web",
+          "fullLabel": "extraction-web",
+          "color": "research",
+          "tag": "#extraction-web"
+        },
+        {
+          "label": "#automatisation-navigateur",
+          "fullLabel": "automatisation-navigateur",
+          "color": "agent",
+          "tag": "#automatisation-navigateur"
+        },
+        {
+          "label": "#python",
+          "fullLabel": "python",
+          "color": "dev",
+          "tag": "#python"
+        }
+      ],
+      "cardTitle": "Crawlee-python",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-8d00fb1736bf5ed195c0-md",
       "title": "Ferret",
       "canonical": "",
@@ -4091,7 +4256,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "tool",
       "themeLabel": "À qualifier",
       "classification": {
@@ -4335,6 +4500,240 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-974efe047684d1a87507-md",
+      "title": "jev-fraud",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "MIT",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/Nutlope/jev-fraud"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [],
+      "status": "actif",
+      "path": "watch/technical-974efe047684d1a87507.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-974efe047684d1a87507.md",
+      "sourceUrl": "https://github.com/nutlope/jev-fraud",
+      "sources": [
+        {
+          "url": "https://github.com/nutlope/jev-fraud",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2104783226833186920",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/nutlope/jev-fraud",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-14",
+      "theme": "tool",
+      "themeLabel": "À qualifier",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.unclassified"
+          ],
+          "capability": [],
+          "compatibility": [],
+          "risk": [],
+          "source": [
+            "source.raindrop",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.raindrop",
+            "label": "Raindrop",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "Raindrop"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          },
+          {
+            "id": "domain.unclassified",
+            "label": "À qualifier",
+            "parent": "domain",
+            "aliases": [],
+            "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+            "facet": "domain",
+            "path": [
+              "À qualifier"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.raindrop",
+          "label": "Raindrop",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "Raindrop"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        },
+        {
+          "id": "domain.unclassified",
+          "label": "À qualifier",
+          "parent": "domain",
+          "aliases": [],
+          "description": "Aucun sujet suffisamment établi par les informations disponibles.",
+          "facet": "domain",
+          "path": [
+            "À qualifier"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        }
+      ],
+      "keywords": [],
+      "cardTitle": "jev-fraud",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-414ea35d29a6a6753f30-md",
       "title": "kimi-k3-in-c",
       "canonical": "",
@@ -4405,7 +4804,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "tool",
       "themeLabel": "À qualifier",
       "classification": {
@@ -4641,7 +5040,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "tool",
       "themeLabel": "À qualifier",
       "classification": {
@@ -5010,12 +5409,6 @@
           "label": "Documentation"
         },
         {
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
-          "kind": "github",
-          "role": "secondaryReference",
-          "label": "Référence"
-        },
-        {
           "url": "https://learn.chatgpt.com/docs/auth",
           "kind": "source",
           "role": "documentation",
@@ -5026,6 +5419,24 @@
           "kind": "source",
           "role": "documentation",
           "label": "Documentation"
+        },
+        {
+          "url": "https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
+        },
+        {
+          "url": "https://aistudio.google.com/docs",
+          "kind": "source",
+          "role": "documentation",
+          "label": "Documentation"
+        },
+        {
+          "url": "https://github.com/googlecloudplatform/genmedia-creative-studio/tree/main/experiments/mcp-genmedia",
+          "kind": "github",
+          "role": "secondaryReference",
+          "label": "Référence"
         },
         {
           "url": "https://raw.githubusercontent.com/breferrari/obsidian-mind/HEAD/obsidian-mind-demo.gif",
@@ -5046,7 +5457,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "agent",
       "themeLabel": "Mémoire des agents",
       "classification": {
@@ -5826,7 +6237,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "agent",
       "themeLabel": "Connecteurs et outils des agents",
       "classification": {
@@ -6349,7 +6760,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "research",
       "themeLabel": "Collecte web",
       "classification": {
@@ -6670,7 +7081,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "tool",
       "themeLabel": "À qualifier",
       "classification": {
@@ -6975,7 +7386,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "llm",
       "themeLabel": "Intelligence artificielle",
       "classification": {
@@ -7234,7 +7645,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "agent",
       "themeLabel": "Agents IA",
       "classification": {
@@ -7731,6 +8142,389 @@
       "cardInterest": ""
     },
     {
+      "id": "watch-technical-9030808704b6bf9050c8-md",
+      "title": "system-one-adapter-python",
+      "canonical": "",
+      "resource": {
+        "nature": "À vérifier",
+        "os": [
+          "À vérifier"
+        ],
+        "license": "MIT",
+        "pricing": "À vérifier",
+        "access": [
+          "À vérifier"
+        ],
+        "evidence": "https://github.com/typesafe-ai/system-one-adapter-python"
+      },
+      "type": "watch",
+      "bucket": "watch",
+      "folder": "watch",
+      "folderLabel": "Watch",
+      "publishable": true,
+      "shareable": true,
+      "tags": [
+        "#python"
+      ],
+      "status": "actif",
+      "path": "watch/technical-9030808704b6bf9050c8.md",
+      "repoUrl": "https://github.com/bizc0m/KM/blob/codex/km-technical-pipeline/watch/technical-9030808704b6bf9050c8.md",
+      "sourceUrl": "https://github.com/typesafe-ai/system-one-adapter-python",
+      "sources": [
+        {
+          "url": "https://github.com/typesafe-ai/system-one-adapter-python",
+          "kind": "github",
+          "role": "primaryRepository",
+          "label": "GitHub"
+        },
+        {
+          "url": "https://x.com/i/status/2104783226833186920",
+          "kind": "social",
+          "role": "originPost",
+          "label": "Publication d’origine"
+        }
+      ],
+      "github": "https://github.com/typesafe-ai/system-one-adapter-python",
+      "officialSite": "",
+      "githubTopics": [],
+      "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
+      "kmUsage": "",
+      "relations": [],
+      "integratedAt": "2026-11-14",
+      "theme": "llm",
+      "themeLabel": "Modèles de langage",
+      "classification": {
+        "version": "1.1",
+        "facets": {
+          "domain": [
+            "domain.ai.llm"
+          ],
+          "capability": [],
+          "compatibility": [
+            "compatibility.language.python"
+          ],
+          "risk": [],
+          "source": [
+            "source.raindrop",
+            "source.github",
+            "source.x"
+          ],
+          "lifecycle": [
+            "lifecycle.active"
+          ]
+        },
+        "concepts": [
+          {
+            "id": "domain.ai.llm",
+            "label": "Modèles de langage",
+            "parent": "domain.ai",
+            "aliases": [
+              "#llm",
+              "#inference",
+              "#providers",
+              "#openai-compatible",
+              "#comparaison-modeles",
+              "#inference-locale"
+            ],
+            "patterns": [
+              "\\bllm\\b",
+              "\\bqwen\\w*",
+              "\\bdeepseek\\b",
+              "\\bnotebooklm\\b",
+              "\\bgemini\\b",
+              "\\bgpt[ -]?\\d",
+              "mistral vibe"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle",
+              "Modèles de langage"
+            ]
+          },
+          {
+            "id": "domain.ai",
+            "label": "Intelligence artificielle",
+            "parent": "domain",
+            "aliases": [
+              "#ia",
+              "#ai",
+              "#generative-ai",
+              "#ai-assistant",
+              "#creative-ai"
+            ],
+            "patterns": [
+              "\\bia\\b",
+              "\\bai\\b",
+              "intelligence artificielle",
+              "artificial intelligence"
+            ],
+            "facet": "domain",
+            "path": [
+              "Intelligence artificielle"
+            ]
+          },
+          {
+            "id": "domain",
+            "label": "Sujets",
+            "parent": null,
+            "aliases": [],
+            "facet": "domain",
+            "path": []
+          },
+          {
+            "id": "compatibility.language.python",
+            "label": "Python",
+            "parent": "compatibility.language",
+            "aliases": [
+              "#python"
+            ],
+            "facet": "compatibility",
+            "path": [
+              "Langages",
+              "Python"
+            ]
+          },
+          {
+            "id": "compatibility.language",
+            "label": "Langages",
+            "parent": "compatibility",
+            "aliases": [],
+            "facet": "compatibility",
+            "path": [
+              "Langages"
+            ]
+          },
+          {
+            "id": "compatibility",
+            "label": "Compatibilités",
+            "parent": null,
+            "aliases": [],
+            "facet": "compatibility",
+            "path": []
+          },
+          {
+            "id": "lifecycle.active",
+            "label": "Actif",
+            "parent": "lifecycle",
+            "aliases": [
+              "#actif",
+              "#active"
+            ],
+            "facet": "lifecycle",
+            "path": [
+              "Actif"
+            ]
+          },
+          {
+            "id": "lifecycle",
+            "label": "État",
+            "parent": null,
+            "aliases": [],
+            "facet": "lifecycle",
+            "path": []
+          },
+          {
+            "id": "source.raindrop",
+            "label": "Raindrop",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "Raindrop"
+            ]
+          },
+          {
+            "id": "source",
+            "label": "Provenance",
+            "parent": null,
+            "aliases": [],
+            "facet": "source",
+            "path": []
+          },
+          {
+            "id": "source.github",
+            "label": "GitHub",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "GitHub"
+            ]
+          },
+          {
+            "id": "source.x",
+            "label": "X / Twitter",
+            "parent": "source",
+            "aliases": [],
+            "facet": "source",
+            "path": [
+              "X / Twitter"
+            ]
+          }
+        ],
+        "unmappedTags": []
+      },
+      "concepts": [
+        {
+          "id": "domain.ai.llm",
+          "label": "Modèles de langage",
+          "parent": "domain.ai",
+          "aliases": [
+            "#llm",
+            "#inference",
+            "#providers",
+            "#openai-compatible",
+            "#comparaison-modeles",
+            "#inference-locale"
+          ],
+          "patterns": [
+            "\\bllm\\b",
+            "\\bqwen\\w*",
+            "\\bdeepseek\\b",
+            "\\bnotebooklm\\b",
+            "\\bgemini\\b",
+            "\\bgpt[ -]?\\d",
+            "mistral vibe"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle",
+            "Modèles de langage"
+          ]
+        },
+        {
+          "id": "domain.ai",
+          "label": "Intelligence artificielle",
+          "parent": "domain",
+          "aliases": [
+            "#ia",
+            "#ai",
+            "#generative-ai",
+            "#ai-assistant",
+            "#creative-ai"
+          ],
+          "patterns": [
+            "\\bia\\b",
+            "\\bai\\b",
+            "intelligence artificielle",
+            "artificial intelligence"
+          ],
+          "facet": "domain",
+          "path": [
+            "Intelligence artificielle"
+          ]
+        },
+        {
+          "id": "domain",
+          "label": "Sujets",
+          "parent": null,
+          "aliases": [],
+          "facet": "domain",
+          "path": []
+        },
+        {
+          "id": "compatibility.language.python",
+          "label": "Python",
+          "parent": "compatibility.language",
+          "aliases": [
+            "#python"
+          ],
+          "facet": "compatibility",
+          "path": [
+            "Langages",
+            "Python"
+          ]
+        },
+        {
+          "id": "compatibility.language",
+          "label": "Langages",
+          "parent": "compatibility",
+          "aliases": [],
+          "facet": "compatibility",
+          "path": [
+            "Langages"
+          ]
+        },
+        {
+          "id": "compatibility",
+          "label": "Compatibilités",
+          "parent": null,
+          "aliases": [],
+          "facet": "compatibility",
+          "path": []
+        },
+        {
+          "id": "lifecycle.active",
+          "label": "Actif",
+          "parent": "lifecycle",
+          "aliases": [
+            "#actif",
+            "#active"
+          ],
+          "facet": "lifecycle",
+          "path": [
+            "Actif"
+          ]
+        },
+        {
+          "id": "lifecycle",
+          "label": "État",
+          "parent": null,
+          "aliases": [],
+          "facet": "lifecycle",
+          "path": []
+        },
+        {
+          "id": "source.raindrop",
+          "label": "Raindrop",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "Raindrop"
+          ]
+        },
+        {
+          "id": "source",
+          "label": "Provenance",
+          "parent": null,
+          "aliases": [],
+          "facet": "source",
+          "path": []
+        },
+        {
+          "id": "source.github",
+          "label": "GitHub",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "GitHub"
+          ]
+        },
+        {
+          "id": "source.x",
+          "label": "X / Twitter",
+          "parent": "source",
+          "aliases": [],
+          "facet": "source",
+          "path": [
+            "X / Twitter"
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "label": "#python",
+          "fullLabel": "python",
+          "color": "dev",
+          "tag": "#python"
+        }
+      ],
+      "cardTitle": "system-one-adapter-python",
+      "cardInterest": ""
+    },
+    {
       "id": "watch-technical-aa8ca5206f8b696337e9-md",
       "title": "trafilatura",
       "canonical": "",
@@ -7781,7 +8575,7 @@
       "summary": "Fonction · Non établi par la source\nAvantages · Non établi par la source\nGain · Non établi par la source",
       "kmUsage": "",
       "relations": [],
-      "integratedAt": "2026-11-13",
+      "integratedAt": "2026-11-14",
       "theme": "research",
       "themeLabel": "Collecte web",
       "classification": {

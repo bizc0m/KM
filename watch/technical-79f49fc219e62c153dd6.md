@@ -47,7 +47,7 @@ Gain · Non établi par la source
 - Origine : Raindrop
 - Identifiant source : 79f49fc219e62c153dd6ddd980efac092390c4110969cf98d53a489807cb0f4f
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-11-13
+- Lecture KM : 2026-11-14
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Capacités documentées
@@ -74,5 +74,5 @@ Gain · Non établi par la source
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/tobi/qmd
-- Analyse source : 2026-11-13T12:00:55.921Z
+- Analyse source : 2026-11-14T12:01:07.491Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.

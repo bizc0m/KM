@@ -47,7 +47,7 @@ Gain · Non établi par la source
 - Origine : NotePlan
 - Identifiant source : 70ff3d2843a80c7cf867b10b6ae672033d8295332b95b26d63193d6b47b4168e
 - Politique : technical-only-2026-10-17
-- Lecture KM : 2026-11-13
+- Lecture KM : 2026-11-14
 - Résumé automatique local ; les affirmations restent attribuées aux sources.
 
 ## Capacités documentées
@@ -71,5 +71,5 @@ Gain · Non établi par la source
 
 - Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
 - Source : https://github.com/omkarcloud/capsolver-extension-python
-- Analyse source : 2026-11-13T11:22:12.155Z
+- Analyse source : 2026-11-14T11:20:34.762Z
 - Relecture humaine : non ; les affirmations restent à vérifier dans la source.
