@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-13T12:56:01.203Z",
+  "at": "2026-11-14T08:01:50.662Z",
   "scope": "public-index-only",
   "fiches": 850,
   "sourceReferences": 3374,
@@ -15,6 +15,24 @@
     "nature-unqualified": 792
   },
   "queue": [
+    {
+      "id": "watch-technical-974efe047684d1a87507-md",
+      "title": "jev-fraud",
+      "reasons": [
+        "interest-missing",
+        "keywords-missing",
+        "domain-unqualified",
+        "nature-unqualified"
+      ]
+    },
+    {
+      "id": "watch-technical-9030808704b6bf9050c8-md",
+      "title": "system-one-adapter-python",
+      "reasons": [
+        "interest-missing",
+        "nature-unqualified"
+      ]
+    },
     {
       "id": "watch-technical-401c6af5b51d16a5ed2f-md",
       "title": "agent-browser",
@@ -74,16 +92,6 @@
     {
       "id": "watch-technical-8d00fb1736bf5ed195c0-md",
       "title": "Ferret",
-      "reasons": [
-        "interest-missing",
-        "keywords-missing",
-        "domain-unqualified",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-974efe047684d1a87507-md",
-      "title": "jev-fraud",
       "reasons": [
         "interest-missing",
         "keywords-missing",
@@ -155,14 +163,6 @@
     {
       "id": "watch-technical-a6c0816f71eb3b27ed5d-md",
       "title": "spider-rs/spider",
-      "reasons": [
-        "interest-missing",
-        "nature-unqualified"
-      ]
-    },
-    {
-      "id": "watch-technical-9030808704b6bf9050c8-md",
-      "title": "system-one-adapter-python",
       "reasons": [
         "interest-missing",
         "nature-unqualified"
