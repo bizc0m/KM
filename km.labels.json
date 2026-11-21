@@ -1,0 +1,184 @@
+[
+  {
+    "keys": [
+      "intelligence artificielle",
+      "ia"
+    ],
+    "short": "IA",
+    "full": "Intelligence artificielle"
+  },
+  {
+    "keys": [
+      "modeles de langage",
+      "modele de langage",
+      "llm"
+    ],
+    "short": "LLM",
+    "full": "Modèles de langage"
+  },
+  {
+    "keys": [
+      "ligne de commande",
+      "cli"
+    ],
+    "short": "CLI",
+    "full": "Interface en ligne de commande"
+  },
+  {
+    "keys": [
+      "api",
+      "interface de programmation"
+    ],
+    "short": "API",
+    "full": "Interface de programmation"
+  },
+  {
+    "keys": [
+      "sdk",
+      "bibliotheque de developpement"
+    ],
+    "short": "SDK",
+    "full": "Kit de développement logiciel"
+  },
+  {
+    "keys": [
+      "os",
+      "systeme d'exploitation"
+    ],
+    "short": "OS",
+    "full": "Système d’exploitation"
+  },
+  {
+    "keys": [
+      "application",
+      "app"
+    ],
+    "short": "App",
+    "full": "Application"
+  },
+  {
+    "keys": [
+      "developpement logiciel",
+      "developpement",
+      "dev"
+    ],
+    "short": "Dev",
+    "full": "Développement logiciel"
+  },
+  {
+    "keys": [
+      "documentation",
+      "docs"
+    ],
+    "short": "Docs",
+    "full": "Documentation"
+  },
+  {
+    "keys": [
+      "cybersecurite",
+      "cyber"
+    ],
+    "short": "Cyber",
+    "full": "Cybersécurité"
+  },
+  {
+    "keys": [
+      "renseignement en sources ouvertes",
+      "recherche en sources ouvertes",
+      "osint"
+    ],
+    "short": "OSINT",
+    "full": "Renseignement en sources ouvertes"
+  },
+  {
+    "keys": [
+      "synthese vocale",
+      "synthese-vocale",
+      "tts"
+    ],
+    "short": "TTS",
+    "full": "Synthèse vocale"
+  },
+  {
+    "keys": [
+      "transcription",
+      "reconnaissance vocale",
+      "speech-to-text",
+      "stt"
+    ],
+    "short": "STT",
+    "full": "Transcription / reconnaissance vocale"
+  },
+  {
+    "keys": [
+      "competences des agents",
+      "skills-agents",
+      "agent-skills",
+      "skills"
+    ],
+    "short": "Skills",
+    "full": "Compétences des agents"
+  },
+  {
+    "keys": [
+      "memoire des agents",
+      "memoire-agents"
+    ],
+    "short": "Mémoire",
+    "full": "Mémoire des agents"
+  },
+  {
+    "keys": [
+      "orchestration des agents",
+      "orchestration-agents"
+    ],
+    "short": "Orchestration",
+    "full": "Orchestration des agents"
+  },
+  {
+    "keys": [
+      "recherche documentaire",
+      "recherche-documentaire"
+    ],
+    "short": "Recherche",
+    "full": "Recherche documentaire"
+  },
+  {
+    "keys": [
+      "generation d'images",
+      "generation-images",
+      "images"
+    ],
+    "short": "Images",
+    "full": "Génération d’images"
+  },
+  {
+    "keys": [
+      "generation video",
+      "generation-video"
+    ],
+    "short": "Vidéo",
+    "full": "Génération vidéo"
+  },
+  {
+    "keys": [
+      "application bureau"
+    ],
+    "short": "App bureau",
+    "full": "Application bureau"
+  },
+  {
+    "keys": [
+      "application mobile"
+    ],
+    "short": "App mobile",
+    "full": "Application mobile"
+  },
+  {
+    "keys": [
+      "application web"
+    ],
+    "short": "App web",
+    "full": "Application web"
+  }
+]

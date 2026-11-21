@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+
 
 ## Appel canonique
 
 `watch:alguien-creo-un-repo-en-github-que-te-permite-ejecutar-claude-code-com`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding source.x
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/arceyul/status/2062314626528756152](https://x.com/arceyul/status/2062314626528756152)
@@ -36,3 +52,9 @@ Free Claude Code Execution Repository est une fiche KM de veille Veille Raindrop
 - Fichiers touches : `watch/alguien-creo-un-repo-en-github-que-te-permite-ejecutar-claude-code-com.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Exécuter du code Claude dans un environnement GitHub.  
+Avantages · Intégration avec les outils de développement existants.  
+Gain · Tester et déboguer du code sans quitter l'IDE.

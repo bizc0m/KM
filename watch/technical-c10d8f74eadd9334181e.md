@@ -1,0 +1,49 @@
+# Demucs
+
+## Statut
+
+actif
+
+## Tags
+
+
+
+## Intérêts
+
+Fonction · Sépare drums, bass, vocals et autres pistes d'une musique.  
+Avantages · Modèle hybride spectrogramme/vague avec attention croisée.  
+Gain · Lancer la séparation en quelques secondes sans paramètres.
+
+## Identité
+
+- Dépôt principal : https://github.com/facebookresearch/demucs
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.audio source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Audio
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Sources
+
+- https://github.com/facebookresearch/demucs
+- https://x.com/i/status/2058253217335501272
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : c10d8f74eadd9334181ebbb693728d0de3bfd9fd958134b06267b80ebe158622
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-26
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -1,0 +1,63 @@
+# Gestionnaire de profils de navigateur CloakBrowser
+
+## Statut
+
+actif
+
+## Tags
+
+
+
+## Intérêts
+
+Fonction · Gérer des profils de navigateurs isolés avec des empreintes uniques.  
+Avantages · Profils indépendants avec GPU, proxy, cookies et historique distincts.  
+Gain · Lancer des tâches sans lien entre les comptes ou l'utilisateur.
+
+## Identité
+
+- Dépôt principal : https://github.com/cloakhq/cloakbrowser-manager
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.browser source.noteplan source.github lifecycle.active
+- Sujets : Développement logiciel > Outils de navigateur
+- Provenance : NotePlan Calendar ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/CloakHQ/CloakBrowser-Manager
+
+## Sources
+
+- https://github.com/cloakhq/cloakbrowser-manager
+- https://x.com/i/status/2056302799508697343
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : f1bc36a07e9a8a38840575b243818e5566cae6a31952352dc44e0b8980ed5cc6
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-26
+- Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Gère des profils de navigateur avec des paramètres uniques.
+- Permet de lancer des navigateurs en tant que machines distinctes.
+- Fournit une interface web pour gérer les profils.
+- Supporte le déploiement via Docker et le code source.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/cloakhq/cloakbrowser-manager
+- Analyse source : 2026-10-26T00:32:26.679Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

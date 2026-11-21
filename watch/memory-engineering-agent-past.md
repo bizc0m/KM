@@ -6,11 +6,28 @@ Veille liens utilisateur / article X sur memoire agentique.
 
 ## Tags
 
-#agents, #memory-engineering, #context-engineering, #long-term-memory, #a-verifier
+#memoire-agents, #memory-engineering, #context-engineering
 
 ## Appel canonique
 
 `watch:memory-engineering-agent-past`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory capability.memory source.x
+- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents
+- Fonctions : Conserver le contexte
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 
@@ -47,3 +64,9 @@ Memory Engineering - Agent Past est une fiche KM de veille Veille liens utilisat
 - Fichiers touches : `watch/memory-engineering-agent-past.md`, `watch/index.md`, `index.md`, `km/history.md`, `search-v1.11.html`.
 - Risques : source sociale volatile, claims non verifies, pas de repo final identifie.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Conserver le contexte des interactions passées.  
+Avantages · Permet de maintenir une cohérence dans les dialogues.  
+Gain · Éviter de répéter des informations déjà fournies.

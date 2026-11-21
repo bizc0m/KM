@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor / scene web generative.
 
 ## Tags
 
-#demo, #web, #motion, #shader, #creative-ai, #actif
+#demo, #web, #motion, #shader
 
 ## Appel canonique
 
 `watch:demoforge-scene`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.live lifecycle.active
+- Sujets : Audio, vidéo et création > Création et diffusion en direct
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

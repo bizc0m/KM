@@ -6,11 +6,27 @@ Veille liens utilisateur / cache semantique LLM.
 
 ## Tags
 
-#llm, #cache, #cost-optimization, #semantic-search, #proxy
+#llm, #cache, #cost-optimization, #semantic-search
 
 ## Appel canonique
 
 `watch:prompt-cache-semantic-llm-cache`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm source.github source.x
+- Sujets : Intelligence artificielle > Modèles de langage
+- Provenance : GitHub ; X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

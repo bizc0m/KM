@@ -6,11 +6,27 @@ Veille outil / annuaire applications gratuites open source.
 
 ## Tags
 
-#open-source, #apps, #directory, #free-tools, #a-verifier
+#apps, #directory, #free-tools
 
 ## Appel canonique
 
 `watch:free-open-source-apps-list-sn0wbrave`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.data.catalogues domain.dev.desktop source.x
+- Sujets : Données et connaissances > Catalogues de ressources ; Développement logiciel > Applications et interfaces de bureau
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source sociale : [https://x.com/sn0wbrave/status/2070657216835633364](https://x.com/sn0wbrave/status/2070657216835633364)

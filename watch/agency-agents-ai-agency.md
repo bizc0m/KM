@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor / bibliotheque d'agents IA specialises.
 
 ## Tags
 
-#agents, #ai-agency, #github, #workflows
+#ai-agency
 
 ## Appel canonique
 
 `watch:agency-agents-ai-agency`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.orchestration source.github
+- Sujets : Intelligence artificielle > Agents IA > Orchestration des agents
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/msitarzewski/agency-agents`
@@ -56,3 +72,9 @@ Agency Agents - AI Agency Agents est une fiche KM de veille Veille Raindrop KM M
 - Fichiers touches : `watch/agency-agents-ai-agency.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : agents pre-packages, publication automatisee et prompts externes a auditer.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Installer des agents AI dans des outils comme Claude Code ou Gemini.  
+Avantages · Agents prêts à l'emploi avec code et processus validés.  
+Gain · Lancer des tâches sans configuration, directement via l'interface.

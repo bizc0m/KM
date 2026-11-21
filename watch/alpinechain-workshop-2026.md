@@ -18,4 +18,21 @@ Lien evenement/workshop AlpineChain 2026. A qualifier : blockchain, atelier, res
 - Ne pas engager d identifiants ou paiement sans verification.
 
 ## Tags
-#KM #EVENT #CRYPTO #WORKSHOP #A_VERIFIER
+
+
+
+## Intérêts
+
+Fonction · Lien vers atelier AlpineChain 2026.  
+Avantages · Accès à veille crypto et communauté.  
+Gain · Éviter engagement sans vérification.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

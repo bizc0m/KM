@@ -6,7 +6,7 @@ Veille inspirations / concurrents / outils.
 
 ## Tags
 
-#inspiration, #competitors, #tools, #product-watch, #social-planning, #nightintel, #privacy
+#osint, #extraction-web, #rss, #inspiration
 
 ## Appel canonique
 
@@ -139,3 +139,19 @@ Blog personnel de Scott Yoshinaga avec archives, updates, posts culturels et not
 - Fichiers touches : `watch/inspiration-competitors-tools-watch.md`.
 - Risques : social planning et blogs personnels restent privacy-sensitive.
 - Rollback possible : revenir a v0.2.
+
+## Intérêts
+
+Fonction · Centraliser les sites inspirants, concurrents et outils utiles.  
+Avantages · Identifier les patterns, risques et opportunités d'intégration.  
+Gain · Éviter la copie, analyser sans reproduire les identités visuelles.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

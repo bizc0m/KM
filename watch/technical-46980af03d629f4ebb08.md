@@ -1,0 +1,49 @@
+# Material Color Utilities
+
+## Statut
+
+actif
+
+## Tags
+
+
+
+## Intérêts
+
+Fonction · Générer et manipuler des couleurs selon des règles de design.  
+Avantages · Calculs de contraste et de compatibilité visuelle.  
+Gain · Adapter des thèmes dynamiques sans coder.
+
+## Identité
+
+- Dépôt principal : https://github.com/material-foundation/material-color-utilities
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.active
+- Sujets : À qualifier
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Sources
+
+- https://github.com/material-foundation/material-color-utilities
+- https://x.com/i/status/2059670575711162395
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : 46980af03d629f4ebb088deb6259a0e0bf76282bbc2ee26c52d98eead5a5bc0a
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-20
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

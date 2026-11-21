@@ -1,0 +1,45 @@
+# Capsule Hub - Outil de transfert de contexte pour les workflows d'IA
+
+## Statut
+
+actif
+
+## Tags
+
+#memoire-agents, #capture-notes
+
+## Intérêts
+
+Fonction · Capturer et stocker le contexte des conversations IA.  
+Avantages · Permet de réutiliser le contexte dans d'autres sessions.  
+Gain · Éviter de réexpliquer le contexte à chaque nouvelle session.
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory domain.data.notes capability.memory capability.notes.capture source.noteplan lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents ; Données et connaissances > Notes et organisation
+- Fonctions : Conserver le contexte ; Capturer des notes
+- Provenance : NotePlan Calendar
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Sources
+
+- https://chromewebstore.google.com/detail/capsule-hub-by-tilantra/ngeoeefidomejcdhiecidpaalfoekjbh?pli=1&ucbcb=1
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : 7ce70d893933b807a8be47d40f66bb095fc2fc204b263d59031f7a12ed578954
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-17
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

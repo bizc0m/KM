@@ -6,11 +6,26 @@ Matrice KM outil -> projet.
 
 ## Tags
 
-#km, #tools, #project-fit, #nightintel, #demoforge, #pacte-ia, #privacy
+#tools, #project-fit, #nightintel, #demoforge
 
 ## Appel canonique
 
 `watch:tool-project-fit-scan`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified
+- Sujets : À qualifier
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

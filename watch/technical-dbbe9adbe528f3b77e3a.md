@@ -1,0 +1,75 @@
+# VisoMaster-Fusion : Outil d'analyse visuelle et de traitement multimédia
+
+## Statut
+
+actif
+
+## Tags
+
+#montage-video
+
+## Intérêts
+
+Fonction · Échange de visage, amélioration, montage vidéo et webcam.  
+Avantages · Modèles avancés, traitement par GPU, gestion de tâches en batch.  
+Gain · Lancer des tâches sans installation, configurer rapidement.
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.video domain.media.image capability.edit.video source.noteplan source.x source.github lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Images et graphisme
+- Fonctions : Monter une vidéo
+- Provenance : NotePlan Calendar ; X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : GPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/VisoMasterFusion/VisoMaster-Fusion
+
+## Sources
+
+- https://x.com/i/status/2055825240018886865
+- https://raw.githubusercontent.com/VisoMasterFusion/VisoMaster-Fusion/HEAD/docs/alphaface.md
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : 189c2cbab81135cc0268c736148b6393fd719604f1fbb9cf0e663ae8a5b348fc
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-26
+- Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Exploration des liens
+
+- Configuration : depth3-per-tool-v2 ; profondeur 3, maximum 120 pages par tweet.
+- Liens distincts recensés : 238.
+- Pages lues, tweet compris : 14.
+- Sources techniques analysées : 2.
+- Sources à vérifier : 10 ; analyses non terminées : 0 ; erreurs du modèle : 0.
+- Liens non lus : 113 (profondeur : 3, budget de pages : 89, délai : 0, erreurs : 21).
+- Pages résumées sur extrait : 1.
+- Éléments exclus : 114 ; doublons ignorés : 0.
+- Couverture complète : non ; limites ou sources non accessibles détaillées ci-dessus.
+
+### AlphaFace
+
+Outil de remplacement de visage 256x256. Utilise un encodeur ArcFace existant. Modèle ONNX fourni. Requiert téléchargement.
+
+- AlphaFace est un outil de remplacement de visage 256x256.
+- AlphaFace utilise l'encodeur ArcFace existant de VisoMaster.
+- Le modèle ONNX est fourni dans le dépôt.
+- Le modèle doit être téléchargé avant utilisation.
+
+Source : https://raw.githubusercontent.com/VisoMasterFusion/VisoMaster-Fusion/HEAD/docs/alphaface.md ; niveau 3.
+
+## Aperçus
+
+![Aperçu du produit](https://raw.githubusercontent.com/visomasterfusion/visomaster-fusion/HEAD/.github/screenshot_2.png)
+
+[Origine](https://raw.githubusercontent.com/visomasterfusion/visomaster-fusion/HEAD/README.md)

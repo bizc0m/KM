@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#llm, #to-verify
+#llm
 
 ## Appel canonique
 
 `watch:cok-cilginca-bir-ai-araci-buldum`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm source.x
+- Sujets : Intelligence artificielle > Modèles de langage
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/yigitakinkaya/status/2066620510218465621](https://x.com/yigitakinkaya/status/2066620510218465621)
@@ -36,3 +52,9 @@ Experimental AI Tool Discovery est une fiche KM de veille Veille Raindrop KM Mon
 - Fichiers touches : `watch/cok-cilginca-bir-ai-araci-buldum.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Surveille et analyse des outils AI via des flux de données.  
+Avantages · Intégre des modèles de langage pour l'interprétation.  
+Gain · Identifier des outils AI sans recherche manuelle.

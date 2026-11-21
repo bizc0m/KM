@@ -6,15 +6,31 @@ Veille Raindrop KM Monitor / bibliotheque de prompts accessible depuis le menu c
 
 ## Tags
 
-#prompt-library, #browser, #llm, #productivity, #privacy
+#prompt-library, #browser, #llm
 
 ## Appel canonique
 
 `watch:right-click-prompt-browser-prompt-library`
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm risk.sensitive
+- Sujets : Intelligence artificielle > Modèles de langage
+- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 ## Sources
 
-- Source Raindrop : `https://arno-vltn.raindrop.page/km-monitor-71629567`
+- Source Raindrop : `KM Monitor public feed`
 - URL finale verifiee : `https://rightclickprompt.com/`
 - Domaine : `rightclickprompt.com`
 - Source/auteur : Right Click Prompt
@@ -59,3 +75,9 @@ Right Click Prompt se presente comme une bibliotheque de prompts accessible rapi
 - Fichiers touches : `watch/right-click-prompt-browser-prompt-library.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : prompts sensibles, stockage distant potentiel, injection indirecte de prompts partages.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Accéder à des prompts depuis le menu contextuel.  
+Avantages · Bibliothèque structurée par catégories.  
+Gain · Éviter de chercher des prompts en ligne.

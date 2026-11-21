@@ -1,0 +1,63 @@
+# openclaw
+
+## Statut
+
+actif
+
+## Tags
+
+
+
+## Intérêts
+
+Fonction · Assistant IA sur appareils personnels, intégré aux chats.  
+Avantages · Modèles et outils interchangeables via plugins.  
+Gain · Configurer et lancer des tâches sans service externe.
+
+## Identité
+
+- Dépôt principal : https://github.com/openclaw/openclaw
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents source.noteplan source.github lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA
+- Provenance : NotePlan Calendar ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/openclaw/openclaw
+
+## Sources
+
+- https://github.com/openclaw/openclaw
+- https://x.com/i/status/2056258502050357334
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : 0b5c4741d1c147be5fddf0c75c5c0f478ced75a3c3b71cf8751002122b8f3831
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-26
+- Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- openclaw est un assistant IA open source
+- il fonctionne sur des appareils personnels
+- il intègre des canaux de messagerie comme Discord, WhatsApp, Telegram, etc
+- les modèles et outils peuvent être échangés via des plugins
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/openclaw/openclaw
+- Analyse source : 2026-10-26T00:18:56.438Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

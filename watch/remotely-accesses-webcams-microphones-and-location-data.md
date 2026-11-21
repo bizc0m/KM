@@ -6,11 +6,28 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#rouge, #offensive-risk, #privacy-risk
+#offensive-risk, #privacy-risk, #ROUGE
 
 ## Appel canonique
 
 `watch:remotely-accesses-webcams-microphones-and-location-data`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified risk.offensive risk.sensitive source.x
+- Sujets : À qualifier
+- Risques : Usage offensif explicite ; Risque signalé
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/tom_doerr/status/2066334739758305748](https://x.com/tom_doerr/status/2066334739758305748)

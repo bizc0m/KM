@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#raindrop, #to-verify
+
 
 ## Appel canonique
 
 `watch:2-lafys`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.x
+- Sujets : À qualifier
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/franpradasai/status/2065038920534921457](https://x.com/franpradasai/status/2065038920534921457)
@@ -36,3 +52,9 @@ Lafys est une fiche KM de veille Veille Raindrop KM Monitor. Source finale conse
 - Fichiers touches : `watch/2-lafys.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Suivi des alertes et des données en temps réel.  
+Avantages · Intégration avec des outils de veille et de monitoring.  
+Gain · Réduire le temps de détection des anomalies.

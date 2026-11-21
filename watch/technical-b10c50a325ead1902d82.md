@@ -1,0 +1,49 @@
+# otfcc
+
+## Statut
+
+actif
+
+## Tags
+
+
+
+## Intérêts
+
+Fonction · Analyse et création de polices OpenType en JSON.  
+Avantages · Support complet des fonctionnalités OpenType et optimisation rapide.  
+Gain · Générer des polices en quelques secondes avec des paramètres précis.
+
+## Identité
+
+- Dépôt principal : https://github.com/caryll/otfcc
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.active
+- Sujets : À qualifier
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Sources
+
+- https://github.com/caryll/otfcc
+- https://x.com/i/status/2059670575711162395
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : b10c50a325ead1902d82cb7d791902e16604f9e4ec5a6bde8d55d4b66fd6bd9d
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-20
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

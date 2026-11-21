@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#raindrop, #to-verify
+
 
 ## Appel canonique
 
 `watch:esto-es-un-palantir-gratis-y-se-instala-en-un-solo-comando`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.x
+- Sujets : À qualifier
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/marcusyul/status/2063710599679263141](https://x.com/marcusyul/status/2063710599679263141)
@@ -36,3 +52,9 @@ ESTO ES UN PALANTIR GRATIS Y SE INSTALA EN UN SOLO COMANDO est une fiche KM de v
 - Fichiers touches : `watch/esto-es-un-palantir-gratis-y-se-instala-en-un-solo-comando.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Surveillance de l'activité système en temps réel.  
+Avantages · Détection des changements de statut et alertes.  
+Gain · Éviter les pannes en anticipant les anomalies.

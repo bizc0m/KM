@@ -6,11 +6,29 @@ Veille Raindrop KM Monitor / orchestration multi-agents autonome.
 
 ## Tags
 
-#agents, #autonomous-company, #codex-cli, #claude-code, #daemon
+#orchestration-agents, #autonomous-company, #codex-cli, #claude-code
 
 ## Appel canonique
 
 `watch:auto-company-autonomous-ai-company`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.orchestration capability.automation.orchestrate compatibility.integration.claude source.github
+- Sujets : Intelligence artificielle > Agents IA > Orchestration des agents
+- Fonctions : Automatiser des actions > Coordonner des agents
+- Compatibilités : Intégrations > Claude Code
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://github.com/MaxMiksa/Auto-Company](https://github.com/MaxMiksa/Auto-Company)
@@ -51,3 +69,19 @@ Auto Company Autonomous AI Company est une fiche KM de veille Veille Raindrop KM
 - Fichiers touches : `watch/auto-company-autonomous-ai-company.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : boucle agentique autonome, commandes locales, quotas LLM, secrets et publication automatique a cadrer.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Gère des tâches autonomes via des agents AI.  
+Avantages · Exécute recherche, codage, déploiement et marketing.  
+Gain · Lancer des projets sans intervention manuelle.
+
+## Aperçus
+
+![ScopeFence · product interface](https://raw.githubusercontent.com/maxmiksa/auto-company/HEAD/presentation/products/scopefence-en-result.png)
+
+[Origine](https://raw.githubusercontent.com/maxmiksa/auto-company/HEAD/README.md)
+
+![Image Checklist · product interface](https://raw.githubusercontent.com/maxmiksa/auto-company/HEAD/presentation/products/tujiandan-en.png)
+
+[Origine](https://raw.githubusercontent.com/maxmiksa/auto-company/HEAD/README.md)

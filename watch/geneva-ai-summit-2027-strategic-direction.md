@@ -6,11 +6,26 @@ Strategic AI governance watch / public policy signal.
 
 ## Tags
 
-#ai-governance, #switzerland, #geneva, #ai-summit, #public-policy, #innovation, #trust
+#ai-governance, #switzerland, #geneva, #ai-summit
 
 ## Appel canonique
 
 `watch:geneva-ai-summit-2027-strategic-direction`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.governance
+- Sujets : Intelligence artificielle > Gouvernance de l’IA
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

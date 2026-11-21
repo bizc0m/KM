@@ -12,6 +12,23 @@ Veille Raindrop KM Monitor / bibliotheque extraction PDF.
 
 `watch:firecrawl-pdf-inspector`
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.data.search domain.data.documents compatibility.format.pdf compatibility.language.rust source.github
+- Sujets : Données et connaissances > Recherche et indexation ; Données et connaissances > Documents
+- Compatibilités : Formats > PDF ; Langages > Rust
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 ## Sources
 - Source finale : [https://github.com/firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector)
 
@@ -48,3 +65,9 @@ Firecrawl PDF Inspector est une fiche KM de veille Veille Raindrop KM Monitor / 
 - Fichiers touches : `watch/firecrawl-pdf-inspector.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : documents confidentiels, logs, PDF malformes.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Analyse et extraction de texte de PDF avec détection de type.  
+Avantages · Découvre automatiquement les PDF textuels ou numérisés.  
+Gain · Éviter l'OCR inutile pour 54% des PDF sans perte de temps.

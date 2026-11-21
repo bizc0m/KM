@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+
 
 ## Appel canonique
 
 `watch:xamto-ai-understand-anything-x-post`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai source.x
+- Sujets : Intelligence artificielle
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/xamto_ai/status/2066302597586403400](https://x.com/xamto_ai/status/2066302597586403400)
@@ -36,3 +52,9 @@ Understand Anything Code Knowledge Graph est une fiche KM de veille Veille Raind
 - Fichiers touches : `watch/xamto-ai-understand-anything-x-post.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Analyse et interprète du code pour créer un graphe de connaissances.  
+Avantages · Intégre des données de veille et des sources Twitter.  
+Gain · Éviter la répétition en structurant automatiquement les informations.

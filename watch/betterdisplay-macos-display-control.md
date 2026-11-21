@@ -6,15 +6,33 @@ Veille Raindrop KM Monitor / utilitaire macOS open source pour controle avance d
 
 ## Tags
 
-#macos, #display, #hidpi, #open-source, #github
+#macos, #display, #hidpi
 
 ## Appel canonique
 
 `watch:betterdisplay-macos-display-control`
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.desktop compatibility.os.macos source.github lifecycle.active
+- Sujets : Développement logiciel > Applications et interfaces de bureau
+- Compatibilités : Systèmes > macOS
+- Provenance : GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 ## Sources
 
-- Source Raindrop : `https://arno-vltn.raindrop.page/km-monitor-71629567`
+- Source Raindrop : `KM Monitor public feed`
 - URL finale verifiee : `https://github.com/waydabber/BetterDisplay`
 - Domaine : `github.com`
 - Source/auteur : `waydabber`
@@ -59,3 +77,15 @@ BetterDisplay est un utilitaire macOS pour le controle avance des ecrans : scali
 - Fichiers touches : `watch/betterdisplay-macos-display-control.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : controle ecran sensible, perturbation de setup multi-ecrans, permissions macOS a verifier.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Gère les affichages macOS avec scaling, ajustements de couleur et contrôle DDC.  
+Avantages · Support HDR/XDR, 3D LUTs, gestion des écrans virtuels et PIP.  
+Gain · Configurer les displays sans débrancher, ajuster la luminosité en logiciel.
+
+## Aperçus
+
+![BetterDisplay interface and display controls](https://github.com/user-attachments/assets/0c2911d0-9157-4993-a850-d751fda3708e)
+
+[Origine](https://raw.githubusercontent.com/waydabber/betterdisplay/HEAD/README.md)

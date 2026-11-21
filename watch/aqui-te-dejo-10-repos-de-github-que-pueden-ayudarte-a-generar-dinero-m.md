@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+
 
 ## Appel canonique
 
 `watch:aqui-te-dejo-10-repos-de-github-que-pueden-ayudarte-a-generar-dinero-m`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.x
+- Sujets : À qualifier
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/ftcarpe/status/2069069787406139742](https://x.com/ftcarpe/status/2069069787406139742)
@@ -36,3 +52,9 @@ GitHub Repositories For Automated Income Projects est une fiche KM de veille Vei
 - Fichiers touches : `watch/aqui-te-dejo-10-repos-de-github-que-pueden-ayudarte-a-generar-dinero-m.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Suivre des dépôts GitHub pour projets d'automatisation de revenus.  
+Avantages · Alertes sur nouveaux projets et tendances en revenus automatisés.  
+Gain · Identifier rapidement des outils pour générer des revenus sans code.

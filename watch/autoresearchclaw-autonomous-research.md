@@ -6,11 +6,28 @@ Veille outils IA / agent de recherche autonome.
 
 ## Tags
 
-#research-agent, #autonomous-research, #papers, #citations, #experiments, #openclaw, #multi-agent, #scientific-writing
+#recherche-documentaire, #research-agent, #autonomous-research, #papers
 
 ## Appel canonique
 
 `watch:autoresearchclaw-autonomous-research`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.data.research capability.research source.github
+- Sujets : Intelligence artificielle > Agents IA ; Données et connaissances > Recherche documentaire
+- Fonctions : Rechercher des documents
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : Agent spécialisé
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

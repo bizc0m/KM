@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+
 
 ## Appel canonique
 
 `watch:l-ia-vient-de-tuer-le-metier-de-commercial-en-vendant-a-ta-place-24h-2`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents source.x
+- Sujets : Intelligence artificielle > Agents IA
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/silencecaprompt/status/2062488448410497231](https://x.com/silencecaprompt/status/2062488448410497231)
@@ -36,3 +52,9 @@ AI Sales Automation Agent est une fiche KM de veille Veille Raindrop KM Monitor.
 - Fichiers touches : `watch/l-ia-vient-de-tuer-le-metier-de-commercial-en-vendant-a-ta-place-24h-2.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Analyse et propose des ventes en temps réel.  
+Avantages · Intègre données clients et comportements.  
+Gain · Éviter les mauvaises prospection, optimiser le pipeline.

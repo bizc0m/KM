@@ -6,7 +6,7 @@ Veille OSINT transversale.
 
 ## Tags
 
-#osint, #vehicle-search, #vin, #license-plate, #threat-intelligence, #privacy
+#osint, #vehicle-search, #vin, #license-plate
 
 ## Source
 
@@ -26,6 +26,21 @@ Lecture effectuee via FxTwitter API publique, sans compte X.
 ## Resume court
 
 OSINT Tools Watch est une fiche KM de veille Veille OSINT transversale. Source finale conservee dans la fiche.
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.osint
+- Sujets : Intelligence artificielle ; Cybersécurité > Renseignement en sources ouvertes
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources lues
 
@@ -62,3 +77,9 @@ OSINT Tools Watch est une fiche KM de veille Veille OSINT transversale. Source f
 - Fichiers touches : `watch/osint-tools-watch.md`.
 - Risques : contenu privacy-sensitive.
 - Rollback possible : retirer le bloc Verification.
+
+## Intérêts
+
+Fonction · Suivi et analyse d'outils OSINT.  
+Avantages · Informations sur les outils de veille.  
+Gain · Identifier des outils pour la veille OSINT.

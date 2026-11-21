@@ -29,7 +29,7 @@ Web app (SPA) — style "poste de commandement" avec carte interactive
 
 ## Tags
 
-#`osint`-`surveillance`-`tracking`-`intelligence`-`realtime`-`cctv`-`aviation`-`sigint`
+#react, #osint, #previsions-meteo, #rss
 
 ## Détails techniques (après investigation)
 
@@ -45,6 +45,23 @@ Web app (SPA) — style "poste de commandement" avec carte interactive
 - MapLibre GL JS (WebGL — rendu GPU)
 - Framer Motion, Lucide React
 - Multi-stage node:22-alpine Docker
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.image domain.osint domain.dev.web domain.science.weather capability.forecast compatibility.protocol.rss
+- Sujets : Audio, vidéo et création > Images et graphisme ; Cybersécurité > Renseignement en sources ouvertes ; Développement logiciel > Développement web ; Sciences et prévision > Prévisions météorologiques
+- Fonctions : Prévoir des mesures
+- Compatibilités : Protocoles > RSS
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources de données
 - **Aviation:** OpenSky Network

@@ -6,7 +6,7 @@ Veille IA transversale.
 
 ## Tags
 
-#ia, #open-source, #github, #devtools, #agents, #saas, #osint, #local-first, #privacy
+#ia, #saas, #osint, #local-first
 
 ## Source
 
@@ -28,6 +28,22 @@ Lecture effectuee via FxTwitter API publique, sans compte X.
 ## Resume court
 
 AI Open Source Tools Watch est une fiche KM de veille Veille IA transversale. Source finale conservee dans la fiche.
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.osint compatibility.deployment.local
+- Sujets : Intelligence artificielle ; Cybersécurité > Renseignement en sources ouvertes
+- Compatibilités : Exécution > Exécution locale
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources lues
 
@@ -76,3 +92,9 @@ AI Open Source Tools Watch est une fiche KM de veille Veille IA transversale. So
 - Fichiers touches : `index.md`, `watch/index.md`, `watch/ai-open-source-tools-watch.md`.
 - Risques : sources externes volatiles, claims non verifies.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Suivi et analyse des outils open source IA.  
+Avantages · Informations actualisées et sources vérifiées.  
+Gain · Identifier les outils adaptés à ses besoins.

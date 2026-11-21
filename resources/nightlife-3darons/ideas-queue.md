@@ -4,6 +4,12 @@ Date import: 15/05/2026 14:22 CEST
 Statut: inbox trie
 Projet: Nightlife
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified
+- Sujets : À qualifier
+
 ## Sources integrees
 
 - `v6_queue/source_md/cinema_nuit_agents_fete.md`

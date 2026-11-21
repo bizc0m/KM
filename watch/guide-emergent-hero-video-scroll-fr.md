@@ -6,11 +6,26 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+
 
 ## Appel canonique
 
 `watch:guide-emergent-hero-video-scroll-fr`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.video
+- Sujets : Audio, vidéo et création > Vidéo
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://docs.google.com/document/u/0/d/14hEalys0NrtHDhY8GiFX_FZ3BRATRIrsrGm16I96E5I/mobilebasic](https://docs.google.com/document/u/0/d/14hEalys0NrtHDhY8GiFX_FZ3BRATRIrsrGm16I96E5I/mobilebasic)
@@ -36,3 +51,9 @@ Guide_Emergent_Hero_Video_Scroll_FR est une fiche KM de veille Veille Raindrop K
 - Fichiers touches : `watch/guide-emergent-hero-video-scroll-fr.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Suivi des vidéos en scrolling vertical.  
+Avantages · Intégration avec les outils de veille.  
+Gain · Analyser les tendances visuelles en temps réel.

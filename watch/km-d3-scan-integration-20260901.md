@@ -23,4 +23,21 @@ Source: NotePlan M5 Calendar 2026-08-29..2026-08-31
 Aucune suppression effectuee. Integration faite dans KM/Base/watch sur M5 via fichiers Markdown.
 
 ## Tags
-#KM #LOG #NOTEPLAN #D3 #INTEGRATION
+
+
+
+## Intérêts
+
+Fonction · Intégration de notes et fichiers dans KM/Base/watch.  
+Avantages · Accès via fichiers Markdown et workflow d'indexation.  
+Gain · Importer des données sans suppression, structurer les informations.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

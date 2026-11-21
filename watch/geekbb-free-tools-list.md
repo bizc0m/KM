@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#raindrop, #to-verify
+
 
 ## Appel canonique
 
 `watch:xamto-ai-understand-anything-x-post-2`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai source.x
+- Sujets : Intelligence artificielle
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/geekbb/status/2065823256746352712](https://x.com/geekbb/status/2065823256746352712)
@@ -36,3 +52,9 @@ https://t.co/ShXmoBk02U
 - Fichiers touches : `watch/geekbb-free-tools-list.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Suivre et analyser les publications sur X / Twitter.  
+Avantages · Intégration avec des outils d'intelligence artificielle.  
+Gain · Automatiser la veille sans inscription ni frais.

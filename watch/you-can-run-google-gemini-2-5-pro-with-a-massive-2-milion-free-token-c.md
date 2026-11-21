@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+
 
 ## Appel canonique
 
 `watch:you-can-run-google-gemini-2-5-pro-with-a-massive-2-milion-free-token-c`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm source.x
+- Sujets : Intelligence artificielle > Modèles de langage
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/nahid_pro09/status/2066785772431397317](https://x.com/nahid_pro09/status/2066785772431397317)
@@ -36,3 +52,9 @@ Free Google Gemini 2.5 Pro Token Context est une fiche KM de veille Veille Raind
 - Fichiers touches : `watch/you-can-run-google-gemini-2-5-pro-with-a-massive-2-milion-free-token-c.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Suivre les mises à jour des modèles Gemini.  
+Avantages · Alertes sur les nouvelles versions et fonctionnalités.  
+Gain · Éviter de manquer des mises à jour clés.

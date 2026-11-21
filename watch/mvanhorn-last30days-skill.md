@@ -6,11 +6,28 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+#skills-agents, #recherche-documentaire
 
 ## Appel canonique
 
 `watch:mvanhorn-last30days-skill`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills domain.data.research capability.skills capability.research source.github
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents ; Données et connaissances > Recherche documentaire
+- Fonctions : Étendre les compétences d’un agent ; Rechercher des documents
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : Skill individuel
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://github.com/mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
@@ -52,3 +69,9 @@ Last 30 Days Research Agent Skill est une fiche KM de veille Veille Raindrop KM 
 - Fichiers touches : `watch/mvanhorn-last30days-skill.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Recherche des documents dans les 30 derniers jours.  
+Avantages · Accès à des données récentes et actualisées.  
+Gain · Éviter de consulter des sources obsolètes.

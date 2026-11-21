@@ -6,11 +6,28 @@ Veille Raindrop KM Monitor / outil macOS open source.
 
 ## Tags
 
-#macos, #disk-analyzer, #swift, #open-source
+#macos, #disk-analyzer, #swift
 
 ## Appel canonique
 
 `watch:neodisk-macos-disk-visualizer`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.os.macos compatibility.language.swift source.github
+- Sujets : À qualifier
+- Compatibilités : Systèmes > macOS ; Langages > Swift
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://github.com/tkslucas/Neodisk](https://github.com/tkslucas/Neodisk)
@@ -56,3 +73,19 @@ Neodisk macOS Disk Visualizer est une fiche KM de veille Veille Raindrop KM Moni
 - Fichiers touches : `watch/neodisk-macos-disk-visualizer.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : chemins locaux potentiellement prives si l'outil est utilise pour produire des captures ou exports.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Visualise l'espace disque avec des vues treemap et sunburst.  
+Avantages · Recherche de fichiers dupliqués et suivi des changements.  
+Gain · Supprimer des fichiers inutiles sans risque de perte.
+
+## Aperçus
+
+![Changes view: files that grew, shrank, appeared, or were deleted since the last scan](https://raw.githubusercontent.com/tkslucas/neodisk/HEAD/screenshots/diff.webp)
+
+[Origine](https://raw.githubusercontent.com/tkslucas/neodisk/HEAD/README.md)
+
+![Duplicates view: files with identical content grouped by reclaimable space](https://raw.githubusercontent.com/tkslucas/neodisk/HEAD/screenshots/duplicates.webp)
+
+[Origine](https://raw.githubusercontent.com/tkslucas/neodisk/HEAD/README.md)

@@ -6,7 +6,7 @@ Inventaire outils issu de veille X et sources web verifiees.
 
 ## Tags
 
-#ia, #open-source, #github, #tools, #devtools, #agents, #saas, #osint, #inventory
+#react, #inference-locale, #osint, #transcription
 
 ## Appel canonique
 
@@ -215,3 +215,13 @@ Note : metadata volatile, a reverifier avant decision produit ou execution local
 - Fichiers touches : `watch/ai-open-source-tools-inventory.md`, `watch/open-source-saas-alternatives-nicos-ai.md`.
 - Risques : yt-dlp et generation image sont sensibles selon usage.
 - Rollback possible : retirer les lignes 33-38.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

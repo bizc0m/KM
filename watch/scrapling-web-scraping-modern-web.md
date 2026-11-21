@@ -6,11 +6,28 @@ Veille Raindrop KM Monitor / framework de scraping web.
 
 ## Tags
 
-#scraping, #web-extraction, #python, #documentation
+#extraction-web, #python, #documentation
 
 ## Appel canonique
 
 `watch:scrapling-web-scraping-modern-web`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.data.web domain.data.documents capability.scraping compatibility.language.python
+- Sujets : Données et connaissances > Collecte web ; Données et connaissances > Documents
+- Fonctions : Extraire des données web
+- Compatibilités : Langages > Python
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Documentation : `https://scrapling.readthedocs.io/`
@@ -38,3 +55,9 @@ Scrapling - Web Scraping Modern Web est une fiche KM de veille Veille Raindrop K
 - Fichiers touches : `watch/scrapling-web-scraping-modern-web.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : scraping abusif, conditions d'usage et donnees personnelles.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Extraire des données web via Python.  
+Avantages · Compatibilité avec les langages de programmation.  
+Gain · Automatiser la collecte d'informations en ligne.

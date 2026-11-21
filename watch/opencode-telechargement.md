@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#herm, #llm, #api, #ressources, #news, #cartographie, #checkl, #citoyenne, #claude, #collaborative, #factchecking, #fact, #fake, #rumor, #skill, #agents, #automation
+#llm, #api, #ressources, #news
 
 ## Appel canonique
 
 `watch:opencode-telechargement`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm compatibility.interface.api
+- Sujets : Intelligence artificielle > Modèles de langage
+- Compatibilités : Interfaces > API
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://opencode.ai/download](https://opencode.ai/download)
@@ -44,3 +60,9 @@ OpenCode Download est une fiche KM de veille Veille Raindrop KM Monitor. Source 
 - Fichiers touches : `watch/opencode-telechargement.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Surveillance des mises à jour de modèles LLM via API.  
+Avantages · Intégration avec interfaces de gestion de modèles.  
+Gain · Automatiser le suivi des mises à jour de modèles.

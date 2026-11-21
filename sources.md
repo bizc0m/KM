@@ -1,28 +1,26 @@
-# KM Sources
+# Sources KM
 
-## Sources integrees
+L’ancien document de migration est conservé dans `sources-historique.md`.
 
-| Source historique | Destination KM | Statut | Note |
-| --- | --- | --- | --- |
-| `###DEV/CODEX/resources/` | `resources/` | copie | Ressources projet et references |
-| `###DEV/CODEX/themes/` | `themes/` | copie | Themes transversaux |
-| `###DEV/#process/` | `process/` | copie partielle | Prompts et outils IA |
-| `###DEV/Claude/KM/` | `archive/claude-km/` | archive | Ancien KM Claude conserve |
+Modifier ce fichier ou la page locale /sources. Cycles du M2 : 08:00 et 12:00, heure de Paris.
+Contenu technique uniquement. Les thèmes indiquent l'intention de veille ; le classement des fiches dépend des sources analysées.
+Aucun identifiant, mot de passe ou jeton dans les URL.
 
-## Emplacement canonique
+## Agenda NotePlan
+- Type : NotePlan
+- Actif : oui
+- Périmètre : Calendar
 
-`###DEV/KM`
+## KM Monitor
+- Type : Raindrop
+- URL : https://arno-vltn.raindrop.page/km-monitor-71629567
+- Actif : oui
+- Thèmes : IA, Dev, Cyber
 
-## Regle de migration
-
-Apres aujourd'hui, les nouvelles fiches KM doivent etre creees dans `km/`.
-
-Les anciens dossiers peuvent rester en lecture historique, mais les nouveaux appels doivent pointer vers KM.
-
-## Changelog
-
-### v0.1 - 2026-05-19
-
-- Objectif : tracer l'unification KM.
-- Risques : chemins personnels presents dans ce document, a remplacer avant export public.
-- Rollback possible : supprimer cette fiche.
+<!-- Exemple à copier puis décommenter pour ajouter un flux :
+## Mon flux technique
+- Type : RSS
+- URL : https://exemple.org/feed.xml
+- Actif : non
+- Thèmes : IA, Dev
+-->

@@ -6,11 +6,28 @@ Veille outil IA / gestion de taches agentique.
 
 ## Tags
 
-#task-management, #agent, #coding, #cursor, #windsurf, #github
+#task-management, #coding, #cursor, #windsurf
 
 ## Appel canonique
 
 `watch:claude-task-master-ai-task-management`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.dev domain.productivity.tasks compatibility.integration.cursor source.github
+- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel ; Productivité > Tâches et agenda
+- Compatibilités : Intégrations > Cursor
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/eyaltoledano/claude-task-master`
@@ -49,3 +66,9 @@ Claude Task Master est une fiche KM de veille Veille outil IA / gestion de tache
 - Fichiers touches : `watch/claude-task-master-ai-task-management.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : orchestration de taches a verifier.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Gère les tâches via des API d'IA dans un éditeur.  
+Avantages · Intègre des modèles comme Claude, OpenAI, Gemini.  
+Gain · Lancer des tâches sans config complexe.

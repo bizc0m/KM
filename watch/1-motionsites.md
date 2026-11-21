@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#raindrop, #to-verify
+
 
 ## Appel canonique
 
 `watch:1-motionsites`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.x
+- Sujets : À qualifier
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/franpradasai/status/2065038918559449477](https://x.com/franpradasai/status/2065038918559449477)
@@ -36,3 +52,9 @@ Motionsites est une fiche KM de veille Veille Raindrop KM Monitor. Source finale
 - Fichiers touches : `watch/1-motionsites.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Suivi des motionsites via Raindrop KM Monitor.  
+Avantages · Intégration avec Twitter et veille en temps réel.  
+Gain · Éviter manuellement les motionsites obsolètes.

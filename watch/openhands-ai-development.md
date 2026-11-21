@@ -6,11 +6,27 @@ Veille outil IA / agent de developpement.
 
 ## Tags
 
-#agent, #coding, #software-development, #automation, #github
+#coding, #software-development
 
 ## Appel canonique
 
 `watch:openhands-ai-development`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.dev source.github
+- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/OpenHands/OpenHands`
@@ -49,3 +65,15 @@ OpenHands - AI Driven Development est une fiche KM de veille Veille outil IA / a
 - Fichiers touches : `watch/openhands-ai-development.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : agent code sensible.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Gère des agents de développement sur des backends locaux ou distants.  
+Avantages · Intègre des outils comme GitHub, Slack et Notion.  
+Gain · Lancer des tâches automatiques sans configuration complexe.
+
+## Aperçus
+
+![Agent Canvas automation preview](https://assets.openhands.dev/screenshot/automation-preview.png)
+
+[Origine](https://raw.githubusercontent.com/openhands/openhands/HEAD/README.md)

@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#llm, #ai-os, #github, #to-verify
+#llm, #ai-os
 
 ## Appel canonique
 
 `watch:jarvis-os`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm source.github
+- Sujets : Intelligence artificielle > Modèles de langage
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://jarvisoslinux.org](https://jarvisoslinux.org)

@@ -1,0 +1,45 @@
+# Synchronisation en temps réel pour RAG dans les chatbots
+
+## Statut
+
+actif
+
+## Tags
+
+#dedoublonnage
+
+## Intérêts
+
+Fonction · Détecter les doublons dans les données en temps réel.  
+Avantages · Mise à jour immédiate des connaissances pour le chatbot.  
+Gain · Éviter les répétitions et améliorer la pertinence des réponses.
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified capability.deduplicate source.noteplan lifecycle.active
+- Sujets : À qualifier
+- Fonctions : Détecter les doublons
+- Provenance : NotePlan Calendar
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Sources
+
+- https://www.droptica.com/fr/blog/synchronisation-des-donnees-en-temps-reel-pour-rag-comment-maintenir-la-fraicheur-des/
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : f2f0cf932a4277169ee772e7c907de8118e3cc498afa64eedad369d639d491b2
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-19
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

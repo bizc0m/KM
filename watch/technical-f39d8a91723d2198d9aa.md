@@ -1,0 +1,45 @@
+# Clone-Wars : Base de code open source pour clones d'applications populaires
+
+## Statut
+
+actif
+
+## Tags
+
+#clonage-sites, #react
+
+## Intérêts
+
+Fonction · Reproduire un site web via du code source.  
+Avantages · Accès à des clones d'applications populaires.  
+Gain · Éviter de créer un site de zéro.
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.web capability.web.clone source.raindrop source.x lifecycle.active
+- Sujets : Développement logiciel > Développement web
+- Fonctions : Reproduire un site
+- Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Sources
+
+- https://x.com/silencecaprompt/status/2066622453720445094?s=12
+
+## Traçabilité
+
+- Origine : Raindrop
+- Identifiant source : f39d8a91723d2198d9aaf9068f08d6af75db7e3187d30b7335682860ff46dd47
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-17
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

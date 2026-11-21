@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor / kit frontend pour agents IA.
 
 ## Tags
 
-#frontend, #design-system, #ai-agents, #prompt-engineering
+#skills-agents, #frontend, #design-system, #ai-agents
 
 ## Appel canonique
 
 `watch:taste-skill`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.skills capability.skills
+- Sujets : Intelligence artificielle > Agents IA > Compétences des agents
+- Fonctions : Étendre les compétences d’un agent
+
+## Métadonnées
+
+- Nature : Skill individuel
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://www.tasteskill.dev/](https://www.tasteskill.dev/)
@@ -34,3 +50,9 @@ Taste Skill est une fiche KM de veille Veille Raindrop KM Monitor / kit frontend
 - Fichiers touches : `watch/taste-skill.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : prompts sensibles, copie visuelle, publication de contexte interne.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Étendre les compétences d’un agent IA.  
+Avantages · Compétences prédéfinies pour des tâches spécifiques.  
+Gain · Lancer des tâches sans configuration complexe.

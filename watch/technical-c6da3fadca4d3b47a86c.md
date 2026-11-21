@@ -1,0 +1,64 @@
+# deep_research_from_scratch
+
+## Statut
+
+actif
+
+## Tags
+
+#recherche-documentaire, #mcp
+
+## Intérêts
+
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
+
+## Identité
+
+- Dépôt principal : https://github.com/langchain-ai/deep_research_from_scratch
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.infrastructure domain.data.research domain.ai.agents.integration capability.research compatibility.protocol.mcp source.noteplan source.github lifecycle.active
+- Sujets : Infrastructure ; Données et connaissances > Recherche documentaire ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
+- Fonctions : Rechercher des documents
+- Compatibilités : Protocoles > MCP
+- Provenance : NotePlan Calendar ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Sources
+
+- https://github.com/langchain-ai/deep_research_from_scratch
+- https://x.com/i/status/2115442971164524628
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : c6da3fadca4d3b47a86c0b934764ac121f4cdcf13ec15e9b8597d6c8ff751387
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-11-12
+- Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Dépôt GitHub avec tutoriels pour construire un système de recherche. 
+- Utilise des agents pour clarifier la recherche et générer des rapports. 
+- Intègre des outils de recherche externes et des serveurs MCP.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/langchain-ai/deep_research_from_scratch
+- Analyse source : 2026-11-12T12:32:01.686Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

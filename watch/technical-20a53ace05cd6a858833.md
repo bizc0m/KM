@@ -1,0 +1,46 @@
+# Architecture de mémoire pour les agents IA : Mémoires de travail, épisodique, sémantique, procédimentale et oubli
+
+## Statut
+
+actif
+
+## Tags
+
+#memoire-agents, #pdf
+
+## Intérêts
+
+Fonction · Gérer les mémoires de travail, épisodique, sémantique, procédimentale et oubli.  
+Avantages · Permettre aux agents de conserver et de retrouver des informations contextuelles.  
+Gain · Éviter de répéter des tâches en utilisant des données mémorisées.
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory capability.memory compatibility.format.pdf source.raindrop source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents
+- Fonctions : Conserver le contexte
+- Compatibilités : Formats > PDF
+- Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Sources
+
+- https://x.com/angeldot_/status/2101681591093256419?s=12
+
+## Traçabilité
+
+- Origine : Raindrop
+- Identifiant source : 20a53ace05cd6a858833e9e5a900c93cd2256332e99a527c3496b8861693fb26
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-17
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

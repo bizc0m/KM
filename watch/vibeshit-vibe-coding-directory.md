@@ -6,7 +6,7 @@ Veille outils IA / annuaire projets vibe coding.
 
 ## Tags
 
-#vibe-coding, #ai-tools, #agents, #llm, #devtools, #directory, #inspiration
+#vibe-coding, #llm, #directory, #inspiration
 
 ## Appel canonique
 
@@ -47,3 +47,19 @@ Garder comme source de veille et d'inspiration. Ne pas la traiter comme source d
 - Fichiers touches : `watch/vibeshit-vibe-coding-directory.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : annuaire externe, claims variables, presence possible d'outils dual-use.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Identifier des outils IA, agents et projets open source.  
+Avantages · Suivre les tendances sans dépendre exclusivement de GitHub.  
+Gain · Éviter de rechercher manuellement des ressources inspirantes.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

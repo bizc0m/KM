@@ -6,11 +6,26 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#osint, #privacy
+#osint
 
 ## Appel canonique
 
 `watch:open-source-observability-for-traces-logs-metrics-maple`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://maple.dev](https://maple.dev)

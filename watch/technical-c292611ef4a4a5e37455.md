@@ -1,0 +1,64 @@
+# DeepSeek-Reasonix
+
+## Statut
+
+actif
+
+## Tags
+
+
+
+## Intérêts
+
+Fonction · Lire, modifier, exécuter du code dans un projet.  
+Avantages · Contrôle des accès et annulation des modifications.  
+Gain · Exécuter des tâches sans toucher le historique Git.
+
+## Identité
+
+- Dépôt principal : https://github.com/esengine/deepseek-reasonix
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm domain.dev.quality capability.code.assist source.noteplan source.github lifecycle.active
+- Sujets : Intelligence artificielle > Modèles de langage ; Développement logiciel > Qualité du code
+- Fonctions : Assister le développement
+- Provenance : NotePlan Calendar ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/esengine/DeepSeek-Reasonix
+
+## Sources
+
+- https://github.com/esengine/deepseek-reasonix
+- https://x.com/i/status/2056258502050357334
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : c292611ef4a4a5e3745526fe5c2729ed28eeb01270146bbcb42142ee19fbdb55
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-26
+- Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Outil open source pour l'assistance de codage
+- Lecture, modification et exécution de code
+- Gestion des permissions et des étapes
+- Fonctionnalité de rollback des fichiers
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/esengine/deepseek-reasonix
+- Analyse source : 2026-10-26T00:18:56.438Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -1,0 +1,65 @@
+# Zack D Films AI Video Generator
+
+## Statut
+
+actif
+
+## Tags
+
+#generation-video, #generation-3d, #agents-code, #python
+
+## Intérêts
+
+Fonction · Génère des vidéos 3D animées expliquant un sujet.  
+Avantages · Workflow agent-native avec MuAPI et Veo 3.1.  
+Gain · Créer un court métrage vertical en 3D en quelques étapes.
+
+## Identité
+
+- Dépôt principal : https://github.com/anil-matcha/zack-d-films-ai-video-generator
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.dev.quality domain.media.video domain.media.3d capability.generate.video capability.generate.3d capability.code.assist compatibility.language.python source.noteplan source.github lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel > Qualité du code ; Audio, vidéo et création > Vidéo ; Audio, vidéo et création > Création 3D
+- Fonctions : Générer des contenus > Générer une vidéo ; Générer des contenus > Générer un objet 3D ; Assister le développement
+- Compatibilités : Langages > Python
+- Provenance : NotePlan Calendar ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/Anil-matcha/zack-d-films-ai-video-generator
+
+## Sources
+
+- https://github.com/anil-matcha/zack-d-films-ai-video-generator
+- https://x.com/i/status/2056408789327462486
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : e7559ed70d863d3b8f6d7e99ff5f201f9d137dd673a8bb29bac71ea499f7e77f
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-25
+- Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Génère des courts métrages 3D animés.
+- Utilise MuAPI pour la production.
+- Requiert Python et FFmpeg locaux.
+- Intégré à des agents de codage.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/anil-matcha/zack-d-films-ai-video-generator
+- Analyse source : 2026-10-25T23:42:15.342Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

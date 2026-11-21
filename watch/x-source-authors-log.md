@@ -6,7 +6,7 @@ Log sources X pour veille KM.
 
 ## Tags
 
-#x, #sources, #authors, #km, #watch
+#x, #sources, #authors, #watch
 
 ## Appel canonique
 
@@ -15,6 +15,21 @@ Log sources X pour veille KM.
 ## Role
 
 Identifier les auteurs des posts utilises comme sources de veille, sans les traiter comme autorites finales.
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified
+- Sujets : À qualifier
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources auteurs
 
@@ -47,3 +62,9 @@ Identifier les auteurs des posts utilises comme sources de veille, sans les trai
 - Fichiers touches : `watch/x-source-authors-log.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : metadonnees X variables.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Identifier les auteurs des posts utilisés comme sources de veille.  
+Avantages · Permet de tracer la provenance des informations sans les valider.  
+Gain · Éviter de confondre sources et autorités, améliorer la traçabilité.

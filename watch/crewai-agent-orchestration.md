@@ -6,11 +6,28 @@ Veille framework IA / orchestration multi-agents.
 
 ## Tags
 
-#agents, #orchestration, #workflows, #automation, #github
+#orchestration-agents, #orchestration
 
 ## Appel canonique
 
 `watch:crewai-agent-orchestration`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.orchestration capability.automation.orchestrate source.github
+- Sujets : Intelligence artificielle > Agents IA > Orchestration des agents
+- Fonctions : Automatiser des actions > Coordonner des agents
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/crewaiinc/crewai`
@@ -49,3 +66,9 @@ CrewAI - Agent Orchestration est une fiche KM de veille Veille framework IA / or
 - Fichiers touches : `watch/crewai-agent-orchestration.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : orchestration agentique dual-use.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Orchestre des agents AI en équipe et workflows événementiels.  
+Avantages · Gestion centralisée des agents, contrôle précis des flux.  
+Gain · Déployer des automatisations complexes sans code complexe.

@@ -1,0 +1,55 @@
+# Organic Maps : Application de cartes hors ligne et GPS
+
+## Statut
+
+actif
+
+## Tags
+
+
+
+## Intérêts
+
+Fonction · Cartes hors ligne avec navigation GPS.  
+Avantages · Données OpenStreetMap et routes cyclables.  
+Gain · Éviter les données mobiles pour se repérer.
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.raindrop source.x source.github lifecycle.active
+- Sujets : À qualifier
+- Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/organicmaps/organicmaps
+
+## Sources
+
+- https://x.com/tom_doerr/status/2064810037210497235?s=12
+- https://github.com/organicmaps/organicmaps
+
+## Traçabilité
+
+- Origine : Raindrop
+- Identifiant source : 628ab56284832636cfac05d5d5d73ad3363bbb83ba8083423989946bcf509f7f
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-17
+- Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Aperçus
+
+![Aperçu du produit](https://raw.githubusercontent.com/organicmaps/organicmaps/HEAD/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/1.jpg)
+
+[Origine](https://raw.githubusercontent.com/organicmaps/organicmaps/HEAD/README.md)
+
+![Aperçu du produit](https://raw.githubusercontent.com/organicmaps/organicmaps/HEAD/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/2.jpg)
+
+[Origine](https://raw.githubusercontent.com/organicmaps/organicmaps/HEAD/README.md)

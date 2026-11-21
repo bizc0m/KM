@@ -15,7 +15,13 @@
     "km:kprompt": "node scripts/build-kprompt-html.mjs",
     "km:search": "node scripts/build-search-v1.12-html.mjs",
     "typecheck": "tsc --noEmit",
-    "test": "npm run typecheck && rm -rf .test-dist && esbuild tests/core/*.test.ts --bundle --platform=node --format=esm --target=node22 --outdir=.test-dist/tests/core && cp -R tests/fixtures .test-dist/tests/fixtures && node --test .test-dist/tests/core/*.js"
+    "test": "npm run typecheck && rm -rf .test-dist && esbuild tests/core/*.test.ts --bundle --platform=node --format=esm --target=node22 --outdir=.test-dist/tests/core && cp -R tests/fixtures .test-dist/tests/fixtures && node --test .test-dist/tests/core/*.js",
+    "km:noteplan:launchd:install": "bash scripts/km-technical-install.sh",
+    "km:noteplan:scan": "node scripts/km-noteplan-scan.mjs",
+    "km:noteplan:scan:ollama": "node scripts/km-noteplan-scan.mjs",
+    "km:technical:run": "node scripts/km-technical-pipeline.mjs",
+    "km:technical:install": "bash scripts/km-technical-install.sh",
+    "km:technical:test": "node --test tests/technical-policy.test.mjs tests/source-crawl.test.mjs tests/cycle-budget.test.mjs tests/raindrop-public.test.mjs tests/noteplan-writeback.test.mjs"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,79 @@
+# MailHog
+
+## Statut
+
+actif
+
+## Tags
+
+
+
+## Intérêts
+
+Fonction · Tester les emails via SMTP et web UI.  
+Avantages · Stockage en mémoire et API JSON.  
+Gain · Lancer les tests sans installation.
+
+## Identité
+
+- Dépôt principal : https://github.com/mailhog/mailhog
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.infrastructure source.noteplan source.github lifecycle.active
+- Sujets : Infrastructure
+- Provenance : NotePlan Calendar ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/mailhog/MailHog
+
+## Sources
+
+- https://github.com/mailhog/mailhog
+- https://x.com/i/status/2055532691706265605
+- https://x.com/i/status/2057388194711368074
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : ee446b3bf303b677315c7af9d0c1f4cc12dfa6fd0c865a4ee71cf1ef700a994e
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-26
+- Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Outil de test d'email pour développeurs
+- Affichage des messages dans une interface web
+- Possibilité de relâcher les messages vers un serveur SMTP réel
+- Stockage en mémoire ou via MongoDB
+
+## Usages documentés
+
+- Configurer l'application pour utiliser MailHog comme serveur SMTP
+- Vérifier les emails envoyés via l'interface web
+
+## Limites
+
+- Requiert un serveur SMTP pour envoyer les emails
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/mailhog/mailhog
+- Analyse source : 2026-10-26T06:41:09.492Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![Screenshot of MailHog web interface](https://raw.githubusercontent.com/docs/MailHog.png)
+
+[Origine](https://raw.githubusercontent.com/mailhog/mailhog/HEAD/README.md)

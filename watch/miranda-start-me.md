@@ -6,11 +6,26 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#osint, #cyber, #search, #crime, #watch, #privacy
+#osint, #cyber, #search, #crime
 
 ## Appel canonique
 
 `watch:miranda-start-me`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint domain.data.search
+- Sujets : Cybersécurité > Renseignement en sources ouvertes ; Données et connaissances > Recherche et indexation
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://start.me/u/xjqkAn/miranda](https://start.me/u/xjqkAn/miranda)
@@ -36,3 +51,9 @@ Miranda - Start.me est une fiche KM de veille Veille Raindrop KM Monitor. Source
 - Fichiers touches : `watch/miranda-start-me.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Surveillance et collecte d'informations en temps réel.  
+Avantages · Intégration avec des sources de veille spécialisées.  
+Gain · Éviter de consulter plusieurs outils pour suivre des menaces.

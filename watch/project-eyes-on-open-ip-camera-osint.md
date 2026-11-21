@@ -6,11 +6,28 @@ Veille `#ROUGE` / outil OSINT de detection de cameras IP ouvertes.
 
 ## Tags
 
-#ROUGE, #osint, #ip-camera, #surveillance, #dorking, #web-scraping, #privacy-risk, #security-tools
+#osint, #ip-camera, #surveillance, #dorking, #ROUGE
 
 ## Appel canonique
 
 `watch:project-eyes-on-open-ip-camera-osint`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint risk.offensive source.x source.github
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Risques : Usage offensif explicite
+- Provenance : X / Twitter ; GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 
@@ -65,3 +82,15 @@ Risque direct de surveillance non consentie, reperage de cameras exposees, cibla
 - Fichiers touches : `watch/project-eyes-on-open-ip-camera-osint.md`, `watch/red-team-risk-tools-watch.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : outil directement abusable pour reperer des cameras ouvertes ; conservation en veille defensive uniquement.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Scanner massif de caméras IP via moteurs de recherche et Insecam.  
+Avantages · Détection automatique de type de flux et géolocalisation précise.  
+Gain · Lancer une reconnaissance sans configuration complexe en quelques secondes.
+
+## Aperçus
+
+![Screenshot](https://raw.githubusercontent.com/y0oshi/project-eyes-on/HEAD/screenshot.png)
+
+[Origine](https://raw.githubusercontent.com/y0oshi/project-eyes-on/HEAD/README.md)

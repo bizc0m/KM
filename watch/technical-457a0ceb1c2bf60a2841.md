@@ -1,0 +1,49 @@
+# Hysteria
+
+## Statut
+
+actif
+
+## Tags
+
+
+
+## Intérêts
+
+Fonction · Proxy résistant à la censure, mode SOCKS5, HTTP, TUN.  
+Avantages · Protocole QUIC, masque le trafic HTTP/3.  
+Gain · Éviter le blocage, connecter via des réseaux instables.
+
+## Identité
+
+- Dépôt principal : https://github.com/apernet/hysteria
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.infrastructure.network source.noteplan source.github source.x lifecycle.active
+- Sujets : Infrastructure > Réseaux
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/HyNetworks/hysteria
+
+## Sources
+
+- https://github.com/apernet/hysteria
+- https://x.com/i/status/2056302799508697343
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : 457a0ceb1c2bf60a28412e68a97c1cc1e57f953522d7d0b3814ec1e431d91626
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-26
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

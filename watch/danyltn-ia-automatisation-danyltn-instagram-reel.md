@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#media, #creative-ai, #to-verify
+#creative-ai
 
 ## Appel canonique
 
 `watch:danyltn-ia-automatisation-danyltn-instagram-reel`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai capability.automation
+- Sujets : Intelligence artificielle
+- Fonctions : Automatiser des actions
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://www.instagram.com/reel/DXt_oJeMvat](https://www.instagram.com/reel/DXt_oJeMvat)
@@ -36,3 +52,9 @@ Danyltn | IA & Automatisation (@danyltn) • Instagram reel est une fiche KM de 
 - Fichiers touches : `watch/danyltn-ia-automatisation-danyltn-instagram-reel.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque principal : claims non verifies, source secondaire ou lien final non resolu.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Automatiser des actions via IA.  
+Avantages · Reconnaissance de contenus visuels.  
+Gain · Éviter la répétition manuelle.

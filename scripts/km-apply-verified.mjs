@@ -1,0 +1,4 @@
+import fs from 'node:fs/promises';import os from 'node:os';import path from 'node:path';import {correctedResource} from './km-verified-resources.mjs';
+const root=process.env.KM_ROOT||process.cwd(),backup=path.join(os.homedir(),'Library/Application Support/KM/backups/verified-'+Date.now());let changed=0;
+for(const folder of ['watch','resources','books'])for(const name of await fs.readdir(path.join(root,folder))){if(!name.endsWith('.md')||name==='index.md')continue;const rel=path.join(folder,name),p=path.join(root,rel),text=await fs.readFile(p,'utf8'),next=correctedResource(text);if(text===next)continue;await fs.mkdir(path.dirname(path.join(backup,rel)),{recursive:true,mode:0o700});await fs.writeFile(path.join(backup,rel),text,{mode:0o600});await fs.writeFile(p,next);changed++;}
+console.log(JSON.stringify({changed,backup}));

@@ -1,0 +1,67 @@
+# nmap
+
+## Statut
+
+actif
+
+## Tags
+
+
+
+## Intérêts
+
+Fonction · Scanner de réseau pour découvrir des hôtes et services.  
+Avantages · Détecte les ports ouverts et les versions de logiciels.  
+Gain · Éviter de scanner manuellement chaque appareil.
+
+## Identité
+
+- Dépôt principal : https://github.com/nmap/nmap
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.noteplan source.github lifecycle.active
+- Sujets : À qualifier
+- Provenance : NotePlan Calendar ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/nmap/nmap
+
+## Sources
+
+- https://github.com/nmap/nmap
+- https://x.com/i/status/2056325264246706649
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : c529972e77a3e48d4fdd432c7e7799adc93e7c470fb0b8e58c447b9551061bec
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-25
+- Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Outil de scan réseau.
+- Détecte hôtes.
+- Vérifie ports ouverts.
+- Analyse services.
+
+## Usages documentés
+
+- nmap scanme.nmap.org
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/nmap/nmap
+- Analyse source : 2026-10-25T23:19:14.067Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

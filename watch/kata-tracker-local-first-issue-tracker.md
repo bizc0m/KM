@@ -6,18 +6,36 @@ Veille Raindrop KM Monitor / outil issue tracking local-first pour humains et ag
 
 ## Tags
 
-#issue-tracking, #agents, #local-first, #project-management, #devtools
+#agents-code, #issue-tracking, #local-first, #project-management
 
 ## Appel canonique
 
 `watch:kata-tracker-local-first-issue-tracker`
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.data.organization capability.code.assist compatibility.deployment.local lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Données et connaissances > Organisation du travail
+- Fonctions : Assister le développement
+- Compatibilités : Exécution > Exécution locale
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 ## Sources
 
-- Source Raindrop : `https://arno-vltn.raindrop.page/km-monitor-71629567`
+- Source Raindrop : `KM Monitor public feed`
 - URL finale verifiee : `https://www.katatracker.com/`
 - Domaine : `katatracker.com`
-- Curateur Raindrop : `arnaud-velten`
+- Curateur Raindrop : `KM Monitor`
 - Date Raindrop : `2026-08-27T12:36:43.532Z`
 
 ## Resume court
@@ -59,3 +77,9 @@ Kata se presente comme un issue tracker leger, local-first, concu pour des humai
 - Fichiers touches : `watch/kata-tracker-local-first-issue-tracker.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : tickets locaux sensibles, injection de consignes pour agents, compatibilite multi-machine a verifier.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Suivi local des tâches et problèmes pour agents de code.  
+Avantages · Gestion des projets sans dépendance réseau.  
+Gain · Éviter la perte de données en cas de déconnexion.

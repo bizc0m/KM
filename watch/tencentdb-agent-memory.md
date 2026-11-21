@@ -6,11 +6,29 @@ Veille Raindrop KM Monitor / memoire long terme pour agents IA.
 
 ## Tags
 
-#agents, #memory, #vector-search, #local-first, #github
+#memoire-agents, #vector-search, #local-first
 
 ## Appel canonique
 
 `watch:tencentdb-agent-memory`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory capability.memory compatibility.deployment.local source.github source.x
+- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents
+- Fonctions : Conserver le contexte
+- Compatibilités : Exécution > Exécution locale
+- Provenance : GitHub ; X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/TencentCloud/TencentDB-Agent-Memory`
@@ -70,3 +88,9 @@ TencentDB Agent Memory - Local Agent Memory est une fiche KM de veille Veille Ra
 - Fichiers touches : `watch/tencentdb-agent-memory.md`.
 - Risques : aucun nouveau risque au-dela de la memoire agentique deja classee sensible.
 - Rollback possible : retirer le bloc `Source Raindrop secondaire dedupliquee`.
+
+## Intérêts
+
+Fonction · Gère la mémoire commune entre agents pour éviter la répétition.  
+Avantages · Extraction automatique de connaissances et de compétences.  
+Gain · Importer des données et lancer des tâches sans reconfiguration.

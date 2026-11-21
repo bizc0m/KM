@@ -1,51 +1,76 @@
-# NousResearch Hermes Agent
+# Hermes Agent
 
-## Type
+## Statut
 
-Veille outil IA / agent personnel.
+actif
 
 ## Tags
 
-#agent, #personal-agent, #nousresearch, #github, #a-verifier
+#terminal
 
-## Appel canonique
+## Intérêts
 
-`watch:nousresearch-hermes-agent`
+Fonction · Agent IA auto-optimisant avec boucle d'apprentissage.  
+Avantages · Mémoire curatée par l'agent avec rappels réguliers.  
+Gain · Lancer des tâches complexes sans configuration initiale.
+
+## Identité
+
+- Dépôt principal : https://github.com/nousresearch/hermes-agent
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.infrastructure compatibility.interface.terminal source.noteplan source.github lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA ; Infrastructure
+- Compatibilités : Interfaces > Terminal
+- Provenance : NotePlan Calendar ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
-- Repo GitHub : `https://github.com/nousresearch/hermes-agent`
 
-## Metadata GitHub publique
+- https://github.com/nousresearch/hermes-agent
+- https://github.com/nousresearch/hermes-agent`
+- https://x.com/i/status/2056258502050357334
+- https://x.com/i/status/2057218131685146713
+- https://x.com/i/status/2056692982871388491
+- https://x.com/i/status/2057626171085398073
+- https://x.com/i/status/2059272711096922539
 
-Releve API GitHub : 2026-08-21
+## Traçabilité
 
-- repo : `NousResearch/hermes-agent`
-- URL : `https://github.com/NousResearch/hermes-agent`
-- description : The agent that grows with you
-- licence : MIT
-- etoiles relevees : 233724
-- topics releves : ai, ai-agent, ai-agents, anthropic, chatgpt, claude, claude-code, codex, hermes, hermes-agent, llm, nous-research, openai
-- derniere activite relevee : 2026-08-21T07:54:44Z
-- archived : non
-- fork : non
+- Origine : NotePlan
+- Identifiant source : a17476e9d7955152138283110c7070bbcee5ac285cd06e6b5165969c461c4cb6
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-26
+- Résumé automatique local ; les affirmations restent attribuées aux sources.
 
-Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+## Capacités documentées
 
-## Resume court
+- Agent d'IA auto-améliorant avec boucle d'apprentissage interne
+- Interface terminal complète avec édition multiligne
+- Fonctionne sur cloud ou serveur avec faible coût
+- Intègre multiples fournisseurs de modèles
 
-NousResearch Hermes Agent est une fiche KM de veille Veille outil IA / agent personnel. Source finale conservee dans la fiche.
+## Usages documentés
 
-## Relations
+- hermes model
+- hermes tools
+- hermes config set
+- hermes gateway
 
-- `watch:nanoclaw-personal-agent`
-- `watch:agentsview-session-intelligence`
-- `watch:ai-open-source-tools-inventory`
+## Qualification
 
-## Changelog
-
-### v0.1 - 2026-06-24
-
-- Objectif : integrer Hermes Agent depuis Raindrop KM Monitor.
-- Fichiers touches : `watch/nousresearch-hermes-agent.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : agent personnel a verifier.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/nousresearch/hermes-agent
+- Analyse source : 2026-10-26T03:50:20.619Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -6,11 +6,27 @@ Veille outils dev/security / code review et SAST.
 
 ## Tags
 
-#code-security, #sast, #code-review, #vulnerability-scanning, #appsec, #devtools, #to-verify
+#code-security, #sast, #code-review, #vulnerability-scanning
 
 ## Appel canonique
 
 `watch:codepatrol-code-security`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.quality domain.security.testing capability.security.vulnerabilities
+- Sujets : Développement logiciel > Qualité du code ; Cybersécurité > Tests de sécurité
+- Fonctions : Détecter des vulnérabilités
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 
@@ -53,3 +69,9 @@ Garder en veille `sensible` avec statut `a verifier`. Pas `#ROUGE` par defaut ca
 - Fichiers touches : `watch/codepatrol-code-security.md`, `watch/index.md`, `index.md`, `process/AI-Tools.md`, `km/history.md`.
 - Risques : source directe non exploitable, confusion possible avec autres produits CodePatrol.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Détecte des vulnérabilités dans le code.  
+Avantages · Analyse statique des sources pour identifier des risques.  
+Gain · Éviter les failles de sécurité avant la mise en production.

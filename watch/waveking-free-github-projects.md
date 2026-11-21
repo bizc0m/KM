@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+
 
 ## Appel canonique
 
 `watch:waveking-free-github-projects`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.x
+- Sujets : À qualifier
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/waveking1314/status/2063184011770671115](https://x.com/waveking1314/status/2063184011770671115)
@@ -36,3 +52,9 @@ Free GitHub Project Collection est une fiche KM de veille Veille Raindrop KM Mon
 - Fichiers touches : `watch/waveking-free-github-projects.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Collecte et suivi de projets GitHub gratuits.  
+Avantages · Filtrage par type et tags spécifiques.  
+Gain · Identifier rapidement des projets pertinents.

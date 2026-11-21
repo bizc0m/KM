@@ -6,11 +6,27 @@ Ressource longue / reference LLM.
 
 ## Tags
 
-#llm, #wiki, #karpathy, #gist, #learning-resource, #a-verifier
+#llm, #wiki, #karpathy, #gist
 
 ## Appel canonique
 
 `resource:llm-wiki-karpathy`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm lifecycle.review
+- Sujets : Intelligence artificielle > Modèles de langage
+- État : À vérifier
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
@@ -65,3 +81,9 @@ Raison : ressource longue utile, mais le contenu exact doit etre relu avant extr
 - Fichiers touches : `resources/llm-wiki-karpathy.md`, `resources/RESOURCES.md`, `index.md`, `km/history.md`.
 - Risques : contenu long a verifier, ne pas recopier completement.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Ressource de référence sur les LLM et Karpathy.  
+Avantages · Documentation structurée sur l'évolution des modèles.  
+Gain · Comprendre l'histoire et les tendances des LLM.

@@ -6,11 +6,27 @@ Veille outils IA / editeur vibe coding multi-engine.
 
 ## Tags
 
-#vibe-coding, #ai-editor, #developer-tools, #claude-code, #codex, #opencode, #gemini, #multi-engine, #to-verify
+#vibe-coding, #ai-editor, #developer-tools, #claude-code
 
 ## Appel canonique
 
 `watch:ccgui-mossx-vibecoding-editor`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.dev.ui compatibility.integration.claude
+- Sujets : Intelligence artificielle ; Développement logiciel > Conception d’interfaces
+- Compatibilités : Intégrations > Claude Code
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

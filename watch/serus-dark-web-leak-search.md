@@ -6,11 +6,28 @@ Veille outil privacy / recherche fuites dark web.
 
 ## Tags
 
-#rouge, #dark-web, #leaked-data, #privacy-risk, #osint
+#dark-web, #leaked-data, #privacy-risk, #osint, #ROUGE
 
 ## Appel canonique
 
 `watch:serus-dark-web-leak-search`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint risk.sensitive risk.offensive source.x
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Risques : Risque signalé ; Usage offensif explicite
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/alghali/status/2071203576198635859](https://x.com/alghali/status/2071203576198635859)
@@ -24,3 +41,9 @@ Serus Dark Web Leak Search est une fiche KM de veille Veille outil privacy / rec
 ### v0.1 - 2026-06-28
 
 - Integration depuis Raindrop KM Monitor.
+
+## Intérêts
+
+Fonction · Recherche de fuites de données dans le dark web.  
+Avantages · Alertes en temps réel sur des données compromises.  
+Gain · Éviter les risques de fuites de données personnelles.

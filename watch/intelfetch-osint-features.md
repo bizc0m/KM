@@ -6,11 +6,26 @@ Veille Raindrop KM Monitor / plateforme OSINT.
 
 ## Tags
 
-#osint, #breach-search, #threat-intelligence, #privacy
+#osint, #breach-search, #threat-intelligence
 
 ## Appel canonique
 
 `watch:intelfetch-osint-features`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://intelfetch.net/features](https://intelfetch.net/features)
@@ -33,3 +48,9 @@ IntelFetch OSINT Features est une fiche KM de veille Veille Raindrop KM Monitor 
 - Fichiers touches : `watch/intelfetch-osint-features.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : OSINT, breach search, donnees personnelles et surveillance ciblee.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Recherche de fuites et intelligence menaces.  
+Avantages · Analyse automatisée de sources ouvertes.  
+Gain · Identifier rapidement les risques cybernétiques.

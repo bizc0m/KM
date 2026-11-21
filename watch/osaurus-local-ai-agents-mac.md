@@ -20,4 +20,21 @@ Osaurus est une piste d outil pour faire tourner ou piloter des agents IA locale
 - Verifier modele economique, licence et stockage.
 
 ## Tags
-#KM #IA #LOCAL_FIRST #MACOS #AGENTS #A_VERIFIER
+
+#macos
+
+## Intérêts
+
+Fonction · Exécute des agents IA locaux sur macOS.  
+Avantages · Intégration possible avec NotePlan et automatisations.  
+Gain · Éviter l'envoi de données vers le cloud.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

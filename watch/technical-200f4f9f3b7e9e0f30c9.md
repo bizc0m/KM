@@ -1,0 +1,66 @@
+# youtube-dl
+
+## Statut
+
+actif
+
+## Tags
+
+#python
+
+## Intérêts
+
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
+
+## Identité
+
+- Dépôt principal : https://github.com/ytdl-org/youtube-dl
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.video compatibility.language.python source.noteplan source.github lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo
+- Compatibilités : Langages > Python
+- Provenance : NotePlan Calendar ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : Unlicense
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/ytdl-org/youtube-dl
+
+## Sources
+
+- https://github.com/ytdl-org/youtube-dl
+- https://x.com/i/status/2059648731801399524
+- https://x.com/i/status/2112567090997567775
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : 200f4f9f3b7e9e0f30c9f611d4fdf2e89fb8acd491e70817b4ac8e19101f6649
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-11-12
+- Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Télécharge des vidéos depuis YouTube et d'autres plateformes.
+- Supporte la sélection de formats et de listes de lecture.
+- Permet de gérer les téléchargements avec des options avancées.
+- Fonctionne sur plusieurs systèmes d'exploitation.
+- Exige l'interpréteur Python 2.6, 2.7 ou 3.2+.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/ytdl-org/youtube-dl
+- Analyse source : 2026-11-12T18:29:15.684Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

@@ -6,21 +6,44 @@ Veille `#ROUGE` / agent IA offensif de red team.
 
 ## Tags
 
-#rouge, #pentest, #red-team, #offensive-security, #mitre-attack, #autonomous-agent, #security-benchmarks, #github
+#pentest, #red-team, #offensive-security, #mitre-attack, #ROUGE
 
 ## Appel canonique
 
 `watch:cyberstrike-ai-red-team-agent`
 
-## Sources
-- Repo GitHub : `https://github.com/CyberStrikeus/CyberStrike`
-- Source sociale secondaire : `https://x.com/dinosn/status/2070446054701490193`
+## Ontologie
 
-- titre : post X reprenant la description CyberStrike avec lien `t.co`
-- date : 2026-06-27T11:15:59.835Z
-- domaine : `x.com`
-- auteur/source : `dinosn`
-- resolution : `https://t.co/IMTnJF3pht` -> `https://github.com/CyberStrikeus/CyberStrike`
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.security.testing capability.security.pentest risk.offensive source.github source.x
+- Sujets : Intelligence artificielle > Agents IA ; Cybersécurité > Tests de sécurité
+- Fonctions : Tester la sécurité
+- Risques : Usage offensif explicite
+- Provenance : GitHub ; X / Twitter
+
+## Intérêts
+
+Fonction · Automatisation des tests de pénétration via un agent AI.  
+Avantages · Intégration de 7600+ compétences de sécurité et 120+ cas de test OWASP.  
+Gain · Exécuter des attaques sans configuration API, avec des outils distants.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Sources
+
+- https://github.com/cyberstrikeus/cyberstrike
+- https://github.com/CyberStrikeus/CyberStrike`
+- https://x.com/dinosn/status/2070446054701490193`
+- https://t.co/IMTnJF3pht`
+- https://x.com/dinosn/status/2070446054701490193?s=12
+- https://github.com/CyberStrikeus/CyberStrike
 
 ## Metadata GitHub publique
 

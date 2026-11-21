@@ -1,0 +1,63 @@
+# Homebrew Cask
+
+## Statut
+
+actif
+
+## Tags
+
+#macos
+
+## Intérêts
+
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
+
+## Identité
+
+- Dépôt principal : https://github.com/homebrew/homebrew-cask
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.os.macos source.noteplan source.github lifecycle.active
+- Sujets : À qualifier
+- Compatibilités : Systèmes > macOS
+- Provenance : NotePlan Calendar ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Sources
+
+- https://github.com/homebrew/homebrew-cask
+- https://x.com/i/status/2115495167629111638
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : a20c9aa0d65af0c30ef3cfb7c8791625cd30d931a58e9450ea8003a88635f38e
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-11-12
+- Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Homebrew Cask étend Homebrew pour gérer des logiciels précompilés.
+- Il simplifie l'installation de logiciels sur macOS et Linux.
+- Il permet d'installer des applications sans interface graphique.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/homebrew/homebrew-cask
+- Analyse source : 2026-11-12T13:26:51.888Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

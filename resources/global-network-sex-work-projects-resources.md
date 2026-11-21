@@ -6,11 +6,27 @@ Ressource longue / veille droits humains.
 
 ## Tags
 
-#resources, #civil-society, #sex-work, #human-rights, #a-verifier
+#resources, #civil-society, #sex-work, #human-rights
 
 ## Appel canonique
 
 `resource:global-network-sex-work-projects-resources`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified lifecycle.review
+- Sujets : À qualifier
+- État : À vérifier
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://www.nswp.org](https://www.nswp.org)

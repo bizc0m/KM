@@ -6,11 +6,28 @@ Veille outils IA / ressources API LLM gratuites.
 
 ## Tags
 
-#llm, #api, #free-tier, #providers, #inference, #openai-compatible, #ai-tools
+#llm, #api, #free-tier, #providers
 
 ## Appel canonique
 
 `watch:awesome-free-llm-apis`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm compatibility.interface.api source.github
+- Sujets : Intelligence artificielle > Modèles de langage
+- Compatibilités : Interfaces > API
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

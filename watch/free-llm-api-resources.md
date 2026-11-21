@@ -6,7 +6,7 @@ Veille outils IA / ressources API.
 
 ## Tags
 
-#llm, #api, #free-tier, #inference, #providers, #ai-tools
+#inference-locale, #llm, #api, #free-tier
 
 ## Appel canonique
 
@@ -109,3 +109,13 @@ Garder comme ressource utile et sensible. Pas `#ROUGE` par defaut car la source 
 - Fichiers touches : `watch/free-llm-api-resources.md`, `km/history.md`.
 - Risques : aucun changement fonctionnel.
 - Rollback possible : retirer ce changelog.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

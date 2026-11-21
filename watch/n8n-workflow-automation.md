@@ -6,14 +6,41 @@ Veille outil / automatisation workflows.
 
 ## Tags
 
-#automation, #workflows, #integrations, #ai, #self-hosted, #github
+#python
 
 ## Appel canonique
 
 `watch:n8n-workflow-automation`
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents capability.automation compatibility.language.python source.github source.x
+- Sujets : Intelligence artificielle > Agents IA
+- Fonctions : Automatiser des actions
+- Compatibilités : Langages > Python
+- Provenance : GitHub ; X / Twitter
+
+## Intérêts
+
+Fonction · Créer et exécuter des workflows et agents AI.  
+Avantages · Intégrations 1500+ et modèles prêts à l'emploi.  
+Gain · Déployer des tâches sans coder, via un canvas visuel.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 ## Sources
-- Repo GitHub : `https://github.com/n8n-io/n8n`
+
+- https://github.com/n8n-io/n8n
+- https://github.com/n8n-io/n8n`
+- https://x.com/i/status/2057388194711368074
 
 ## Metadata GitHub publique
 
@@ -49,3 +76,27 @@ n8n Workflow Automation est une fiche KM de veille Veille outil / automatisation
 - Fichiers touches : `watch/n8n-workflow-automation.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : connecteurs, secrets, exfiltration si mal cadres.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Identité
+
+- Dépôt principal : https://github.com/n8n-io/n8n
+
+## Capacités documentées
+
+- Crée et déploie des workflows d'IA et agents multi-étapes.
+- Connecte à 1500+ intégrations et modèles d'IA.
+- Permet l'automatisation avec logique et approbations humaines.
+- Supporte JavaScript, Python et npm pour workflows avancés.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/n8n-io/n8n
+- Analyse source : 2026-10-19T21:54:26.607Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.
+
+## Aperçus
+
+![n8n.io - Screenshot](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot-readme.png)
+
+[Origine](https://raw.githubusercontent.com/n8n-io/n8n/HEAD/README.md)

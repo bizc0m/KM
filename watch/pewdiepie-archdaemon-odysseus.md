@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+
 
 ## Appel canonique
 
 `watch:pewdiepie-archdaemon-odysseus`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai source.github
+- Sujets : Intelligence artificielle
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://github.com/pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus)
@@ -52,3 +68,15 @@ Odysseus Self-Hosted AI Workspace est une fiche KM de veille Veille Raindrop KM 
 - Fichiers touches : `watch/pewdiepie-archdaemon-odysseus.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Workspace AI local pour chat, agents, recherche, documents, email, notes, calendrier.  
+Avantages · Intégration de modèles locaux/API, outils, mémoire et gestion de tâches.  
+Gain · Lancer des workflows sans dépendance externe, configurer rapidement.
+
+## Aperçus
+
+![Odysseus interface](https://raw.githubusercontent.com/odysseus-dev/odysseus/HEAD/assets/branding/odysseus-browser.jpg)
+
+[Origine](https://raw.githubusercontent.com/odysseus-dev/odysseus/HEAD/README.md)

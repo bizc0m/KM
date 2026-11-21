@@ -1,8 +1,9 @@
 {
   "project": {
     "name": "KM Search",
-    "version": "1.12",
-    "description": "Recherche, veille, fiches Markdown et vues partageables par theme."
+    "version": "2",
+    "description": "Recherche, veille, fiches Markdown et vues partageables par theme.",
+    "githubRef": "codex/km-technical-pipeline"
   },
   "sources": {
     "raindropPublicPage": "https://arno-vltn.raindrop.page/km-monitor-71629567",
@@ -10,7 +11,7 @@
     "useFeedFallback": true
   },
   "dashboard": {
-    "mainOutput": "search-v1.12.html",
+    "mainOutput": "search-v2.html",
     "stableOutput": "search-v1.11.html",
     "shareOutputDir": "public",
     "defaultSort": "date",
@@ -44,7 +45,8 @@
       "Fit projets",
       "Decision KM",
       "Changelog",
-      "Rollback"
+      "Rollback",
+      "Ontologie"
     ],
     "hiddenTextPatterns": [
       "bizc0m",

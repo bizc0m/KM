@@ -12,6 +12,22 @@ Veille Raindrop KM Monitor.
 
 `watch:removes-llm-censorship-with-a-single-click`
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm source.x
+- Sujets : Intelligence artificielle > Modèles de langage
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 ## Sources
 - Source : [https://x.com/0x0sojalsec/status/2063664329208344701](https://x.com/0x0sojalsec/status/2063664329208344701)
 
@@ -36,3 +52,9 @@ Removes LLM censorship with a single click. est une fiche KM de veille Veille Ra
 - Fichiers touches : `watch/removes-llm-censorship-with-a-single-click.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : claims non verifies, conditions de diffusion ou usages pouvant exposer des donnees et workflows.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Désactive la censure des modèles LLM en un clic.  
+Avantages · Permet l'accès à des contenus filtrés.  
+Gain · Éviter les restrictions de contenu sans configuration.

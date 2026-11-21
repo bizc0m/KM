@@ -33,3 +33,19 @@ Cette ressource appartient a KM / veille IA transversale, pas a NightIntel par d
 - Objectif : enregistrer NGJOO comme source de veille KM.
 - Fichiers touches : `watch/index.md`, `watch/ai-trending.md`.
 - Rollback possible : supprimer cette fiche.
+
+## Intérêts
+
+Fonction · Suivre les projets open source IA en tendance.  
+Avantages · Filtrer par agents, LLM, RAG et multimodal.  
+Gain · Comparer les tendances sans quitter l'outil.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

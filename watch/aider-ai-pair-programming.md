@@ -6,11 +6,29 @@ Veille outil IA / pair programming terminal.
 
 ## Tags
 
-#coding, #pair-programming, #terminal, #agent, #github
+#agents-code, #terminal, #coding, #pair-programming
 
 ## Appel canonique
 
 `watch:aider-ai-pair-programming`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.dev capability.code.assist compatibility.interface.terminal source.github
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Développement logiciel
+- Fonctions : Assister le développement
+- Compatibilités : Interfaces > Terminal
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/Aider-AI/aider`

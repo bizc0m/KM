@@ -6,11 +6,28 @@ Veille `#ROUGE` / recherche OSINT de profils.
 
 ## Tags
 
-#rouge, #osint, #digital-footprint, #privacy, #doxxing-risk, #github
+#osint, #digital-footprint, #doxxing-risk, #ROUGE
 
 ## Appel canonique
 
 `watch:gosearch-digital-footprint-search`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint risk.offensive source.github
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Risques : Usage offensif explicite
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/ibnaleem/gosearch`

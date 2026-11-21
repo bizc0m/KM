@@ -6,11 +6,28 @@ Veille ressource / annuaire MCP.
 
 ## Tags
 
-#mcp, #servers, #agents, #integrations, #directory, #github, #a-verifier
+#mcp, #servers, #integrations, #directory
 
 ## Appel canonique
 
 `watch:awesome-mcp-servers`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.infrastructure domain.data.catalogues domain.ai.agents.integration compatibility.protocol.mcp source.github
+- Sujets : Infrastructure ; Données et connaissances > Catalogues de ressources ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
+- Compatibilités : Protocoles > MCP
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : Serveur MCP
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Repo GitHub : `https://github.com/punkpeye/awesome-mcp-servers`
@@ -49,3 +66,9 @@ Awesome MCP Servers est une fiche KM de veille Veille ressource / annuaire MCP. 
 - Fichiers touches : `watch/awesome-mcp-servers.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : annuaire externe et connecteurs sensibles.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Dépôt GitHub avec liste de serveurs MCP.  
+Avantages · Serveurs configurés pour modding Minecraft.  
+Gain · Éviter la configuration de base des serveurs.

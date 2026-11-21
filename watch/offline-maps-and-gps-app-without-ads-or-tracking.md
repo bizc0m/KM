@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#osint, #privacy
+#osint
 
 ## Appel canonique
 
 `watch:offline-maps-and-gps-app-without-ads-or-tracking`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint source.x
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/tom_doerr/status/2064810037210497235](https://x.com/tom_doerr/status/2064810037210497235)

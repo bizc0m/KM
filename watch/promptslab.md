@@ -6,11 +6,28 @@ Veille Raindrop KM Monitor / profil GitHub generative models.
 
 ## Tags
 
-#github, #prompt-engineering, #llm, #generative-models, #actif
+#prompt-engineering, #llm, #generative-models
 
 ## Appel canonique
 
 `watch:promptslab`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.prompts domain.ai.llm source.github lifecycle.active
+- Sujets : Intelligence artificielle > Instructions et prompts ; Intelligence artificielle > Modèles de langage
+- Provenance : GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 
@@ -46,3 +63,9 @@ actif
 - Fichiers touches : `watch/promptslab.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : depots associes a auditer avant reutilisation ou execution.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Suivi des modèles génératifs sur GitHub.  
+Avantages · Intégration avec les profils Raindrop KM.  
+Gain · Éviter de vérifier manuellement les mises à jour.

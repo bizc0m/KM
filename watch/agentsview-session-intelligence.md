@@ -6,11 +6,29 @@ Veille outils IA / intelligence de sessions agents.
 
 ## Tags
 
-#agents, #coding-agents, #session-intelligence, #local-first, #search, #analytics, #token-costs, #devtools
+#agents-code, #session-intelligence, #local-first, #search
 
 ## Appel canonique
 
 `watch:agentsview-session-intelligence`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.data.search capability.code.assist compatibility.deployment.local source.github
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Données et connaissances > Recherche et indexation
+- Fonctions : Assister le développement
+- Compatibilités : Exécution > Exécution locale
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 
@@ -83,3 +101,19 @@ Garder comme outil prioritaire a tester localement. Classification `sensible`, p
 - Fichiers touches : `watch/agentsview-session-intelligence.md`, `watch/index.md`, `index.md`, `watch/ai-open-source-tools-inventory.md`, `km/history.md`.
 - Risques : historiques de sessions potentiellement sensibles.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Visualiser et suivre les coûts des agents d'IA.  
+Avantages · Filtrer les données par projet ou requête.  
+Gain · Comparer les coûts sans lancer un serveur.
+
+## Aperçus
+
+![Analytics dashboard](https://agentsview.io/assets/generated/screenshots/dashboard.png)
+
+[Origine](https://raw.githubusercontent.com/kenn-io/agentsview/HEAD/README.md)
+
+![Session viewer](https://agentsview.io/assets/generated/screenshots/message-viewer.png)
+
+[Origine](https://raw.githubusercontent.com/kenn-io/agentsview/HEAD/README.md)

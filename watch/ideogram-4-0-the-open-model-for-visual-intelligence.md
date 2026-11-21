@@ -6,11 +6,26 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+
 
 ## Appel canonique
 
 `watch:ideogram-4-0-the-open-model-for-visual-intelligence`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.image
+- Sujets : Audio, vidéo et création > Images et graphisme
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://ideogram.ai](https://ideogram.ai)
@@ -36,3 +51,9 @@ Ideogram 4.0 — The open model for visual intelligence est une fiche KM de veil
 - Fichiers touches : `watch/ideogram-4-0-the-open-model-for-visual-intelligence.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Analyse et génère des visuels à partir de textes.  
+Avantages · Intégre modèles d'IA pour création d'images.  
+Gain · Éviter l'outil de dessin pour produire des visuels.

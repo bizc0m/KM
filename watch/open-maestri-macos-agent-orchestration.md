@@ -6,11 +6,29 @@ Veille Raindrop KM Monitor / orchestration visuelle multi-agents macOS.
 
 ## Tags
 
-#macos, #multi-agent, #orchestration, #claude-code, #codex, #opencode
+#orchestration-agents, #macos, #multi-agent, #orchestration
 
 ## Appel canonique
 
 `watch:open-maestri-macos-agent-orchestration`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.orchestration capability.automation.orchestrate compatibility.os.macos source.github
+- Sujets : Intelligence artificielle > Agents IA > Orchestration des agents
+- Fonctions : Automatiser des actions > Coordonner des agents
+- Compatibilités : Systèmes > macOS
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://github.com/zlh-428/open-maestri](https://github.com/zlh-428/open-maestri)

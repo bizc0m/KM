@@ -1,0 +1,45 @@
+# NoSignups : Liste d'outils open-source sans inscription
+
+## Statut
+
+actif
+
+## Tags
+
+#react
+
+## Intérêts
+
+Fonction · Lister des outils sans inscription ni suivi.  
+Avantages · Accès direct aux outils via URL.  
+Gain · Éviter les mises en page et les formulaires.
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.web source.raindrop source.x source.github lifecycle.active
+- Sujets : Développement logiciel > Développement web
+- Provenance : Raindrop ; X / Twitter ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : GPL-3.0
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/BraveOPotato/NoSignups
+
+## Sources
+
+- https://x.com/geekbb/status/2065823256746352712?s=12
+- https://github.com/BraveOPotato/NoSignups
+
+## Traçabilité
+
+- Origine : Raindrop
+- Identifiant source : 94515d48fc2a4b993a1fdaa378b67e4ba4140bd700fdcf2180d1a92d20d90c5a
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-17
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

@@ -1,0 +1,49 @@
+# p5.brush.js
+
+## Statut
+
+actif
+
+## Tags
+
+
+
+## Intérêts
+
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
+
+## Identité
+
+- Dépôt principal : https://github.com/acamposuribe/p5.brush
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.noteplan source.github source.x lifecycle.active
+- Sujets : À qualifier
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/acamposuribe/p5.brush
+
+## Sources
+
+- https://github.com/acamposuribe/p5.brush
+- https://x.com/i/status/2116603481444528432
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : 93152872bca09aedc930a271a3d2f4da3a534c35afbcb12dde5281be772ee65b
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-11-12
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

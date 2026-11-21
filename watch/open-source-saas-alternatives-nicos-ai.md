@@ -6,7 +6,7 @@ Veille outils open source.
 
 ## Tags
 
-#open-source, #saas-alternatives, #ai-tools, #design, #automation, #local-first
+#inference-locale, #skills-agents, #application-bureau, #python
 
 ## Appel canonique
 
@@ -93,3 +93,19 @@ Deja presents dans KM :
 - Fichiers touches : `watch/open-source-saas-alternatives-nicos-ai.md`, `watch/ai-open-source-tools-inventory.md`, `watch/x-source-authors-log.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : claims promotionnels, usages sensibles de yt-dlp/n8n/Fooocus.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Génère du texte et des images localement.  
+Avantages · Supporte plusieurs modèles et langages.  
+Gain · Éviter l'envoi de données vers le cloud.
+
+## Métadonnées
+
+- Nature : Application web
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

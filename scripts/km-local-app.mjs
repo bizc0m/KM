@@ -655,7 +655,31 @@ function firstMarkdownHeading(content) {
   return String(content || "").match(/^#\s+(.+)$/m)?.[1]?.trim() || "";
 }
 
-async function scanBookPhotos({ bookPath, kmRoot, title = "", author = "", isbn = "", source = "", tags = "" }) {
+function bookCandidateFromFields({ imagePath = "", imageName = "isbn-manuel", fields, reference, duplicatePaths = [], ocr = {}, project = "", readingAngle = "", notes = "" }) {
+  return {
+    imagePath,
+    imageName,
+    title: fields.title,
+    author: fields.author,
+    isbn: fields.isbn,
+    source: fields.source,
+    reference: fields.reference || reference,
+    project: compactText(project, 120),
+    readingAngle: compactText(readingAngle, 500),
+    notes: compactText(notes, 1600),
+    tags: fields.tags,
+    ocrAvailable: Boolean(ocr.available),
+    ocrEngine: ocr.engine || "",
+    ocrWarning: ocr.stderr ? compactText(ocr.stderr, 300) : "",
+    ocrPreview: fields.ocrPreview,
+    duplicate: duplicatePaths.length > 0,
+    duplicatePaths,
+    classification: "a verifier",
+    targetFolder: "books"
+  };
+}
+
+async function scanBookPhotos({ bookPath, kmRoot, title = "", author = "", isbn = "", source = "", tags = "", project = "", readingAngle = "", notes = "" }) {
   const root = safeReadableRoot(bookPath);
   const images = await walkImages(root);
   const keys = await existingBookKeys(kmRoot);
@@ -683,24 +707,43 @@ async function scanBookPhotos({ bookPath, kmRoot, title = "", author = "", isbn 
     const titleKey = `title:${bookSlug(fields.title)}`;
     const isbnKey = fields.isbn ? `isbn:${fields.isbn}` : "";
     const duplicatePaths = [...new Set([...(isbnKey ? keys.get(isbnKey) || [] : []), ...(keys.get(titleKey) || [])])];
-    candidates.push({
+    candidates.push(bookCandidateFromFields({
       imagePath,
       imageName: basename(imagePath),
-      title: fields.title,
-      author: fields.author,
-      isbn: fields.isbn,
-      source: fields.source,
-      reference: fields.reference,
-      tags: fields.tags,
-      ocrAvailable: ocr.available,
-      ocrEngine: ocr.engine || "",
-      ocrWarning: ocr.stderr ? compactText(ocr.stderr, 300) : "",
-      ocrPreview: fields.ocrPreview,
-      duplicate: duplicatePaths.length > 0,
+      fields,
+      reference,
       duplicatePaths,
-      classification: "a verifier",
-      targetFolder: "books"
+      ocr,
+      project,
+      readingAngle,
+      notes
+    }));
+  }
+  if (!images.length && (isbn || title)) {
+    let fields = extractBookFields({
+      imagePath: "isbn-manuel",
+      ocrText: "",
+      title,
+      author,
+      isbn,
+      source,
+      tags
     });
+    const reference = await lookupOpenLibraryByIsbn(fields.isbn);
+    fields = mergeBookReference(fields, reference);
+    if (!title && reference?.found) fields.title = compactText([reference.title, reference.subtitle].filter(Boolean).join(" - "), 180);
+    if (!author && reference?.found && reference.authors.length) fields.author = compactText(reference.authors.join(", "), 180);
+    const titleKey = `title:${bookSlug(fields.title)}`;
+    const isbnKey = fields.isbn ? `isbn:${fields.isbn}` : "";
+    const duplicatePaths = [...new Set([...(isbnKey ? keys.get(isbnKey) || [] : []), ...(keys.get(titleKey) || [])])];
+    candidates.push(bookCandidateFromFields({
+      fields,
+      reference,
+      duplicatePaths,
+      project,
+      readingAngle,
+      notes
+    }));
   }
   return {
     ok: true,
@@ -720,6 +763,9 @@ function bookFicheMarkdown(item, target, date) {
   const tags = item.tags.map((tag) => `#${tag}`).join(", ");
   const sourceLine = item.source || "photo locale non stockee";
   const ref = item.reference || {};
+  const projectLine = item.project || "A classer";
+  const angleLine = item.readingAngle || "A definir apres lecture.";
+  const noteBlock = item.notes || "A completer apres lecture ou analyse.";
   const referenceLines = ref?.found ? [
     `- Provider : ${ref.provider}`,
     `- URL reference : ${ref.openLibraryUrl}`,
@@ -753,6 +799,7 @@ ${tags}
 - Date d'integration : ${date}
 - Source : ${sourceLine}
 - Image locale analysee : ${item.imageName} (non stockee dans KM)
+- Projet / sujet : ${projectLine}
 
 ## Reference conservee
 
@@ -775,6 +822,14 @@ Livre identifie depuis une photo locale. Cette fiche conserve la reference bibli
 - Idees fortes.
 - Concepts reutilisables.
 - Liens avec projets KM.
+
+## Angle KM
+
+${angleLine}
+
+## Notes de synthese
+
+${noteBlock}
 
 ## Usage KM
 
@@ -800,6 +855,7 @@ a verifier
 
 - \`source:photo-livre\`
 - \`bucket:books\`
+${item.project ? `- \`projet:${item.project}\`` : ""}
 ${item.isbn ? `- \`isbn:${item.isbn}\`` : ""}
 ${ref?.openLibraryUrl ? `- \`reference:${ref.openLibraryUrl}\`` : ""}
 
@@ -823,8 +879,8 @@ async function ensureMarkdownIndex(path, title) {
 `, "utf8");
 }
 
-async function ingestBookPhotos({ bookPath, kmRoot, title = "", author = "", isbn = "", source = "", tags = "" }) {
-  const report = await scanBookPhotos({ bookPath, kmRoot, title, author, isbn, source, tags });
+async function ingestBookPhotos({ bookPath, kmRoot, title = "", author = "", isbn = "", source = "", tags = "", project = "", readingAngle = "", notes = "" }) {
+  const report = await scanBookPhotos({ bookPath, kmRoot, title, author, isbn, source, tags, project, readingAngle, notes });
   const root = resolve(kmRoot);
   const date = new Date().toISOString().slice(0, 10);
   await ensureMarkdownIndex(join(root, "books", "index.md"), "Books Index");
@@ -1283,9 +1339,23 @@ ${appBreadcrumb([{ label: "KM", href: "/index.html" }, { label: "App locale" }])
         <input id="bookTags" value="livre, photo, ocr, km">
       </div>
     </div>
+    <div class="range" style="margin-top:12px">
+      <div class="field">
+        <label for="bookProject">Projet / sujet</label>
+        <input id="bookProject" placeholder="DEV, Mirae, strategie, design...">
+      </div>
+      <div class="field">
+        <label for="bookAngle">Angle KM</label>
+        <input id="bookAngle" placeholder="Pourquoi ce livre entre dans KM ?">
+      </div>
+    </div>
     <div class="field" style="margin-top:12px">
       <label for="bookSource">Source / contexte</label>
       <input id="bookSource" placeholder="photo locale non stockee">
+    </div>
+    <div class="field" style="margin-top:12px">
+      <label for="bookNotes">Notes de synthese</label>
+      <textarea id="bookNotes" placeholder="Idees visibles, intention de lecture, usage projet, points a verifier."></textarea>
     </div>
     <div class="row" style="margin-top:12px">
       <button id="scanBooks" type="button">Scanner photo</button>
@@ -1363,7 +1433,7 @@ function renderBooksReport(json){
       "OCR local: " + escHtml(json.ocrAvailable ? "actif" : "indisponible"),
       "Nouveaux candidats: " + escHtml(json.newCandidates || 0),
       "Doublons: " + escHtml(json.duplicates || 0),
-      candidates.length ? "\\nCANDIDATS\\n" + candidates.slice(0,80).map(function(item){var ref=item.reference&&item.reference.found?(" | ref " + item.reference.provider):" | ref A_VERIFIER";return "- " + escHtml(item.duplicate ? "DOUBLON" : "NOUVEAU") + " | " + escHtml(item.imageName) + " | " + escHtml(item.ocrEngine || "ocr") + " | " + escHtml(item.title) + " | " + escHtml(item.author || "Auteur A_VERIFIER") + " | ISBN " + escHtml(item.isbn || "A_VERIFIER") + escHtml(ref) + (item.ocrWarning ? " | " + escHtml(item.ocrWarning) : "")}).join("\\n") : "\\nAucune image exploitable."
+      candidates.length ? "\\nCANDIDATS\\n" + candidates.slice(0,80).map(function(item){var ref=item.reference&&item.reference.found?(" | ref " + item.reference.provider):" | ref A_VERIFIER";var proj=item.project?(" | projet " + item.project):"";return "- " + escHtml(item.duplicate ? "DOUBLON" : "NOUVEAU") + " | " + escHtml(item.imageName) + " | " + escHtml(item.ocrEngine || "isbn") + " | " + escHtml(item.title) + " | " + escHtml(item.author || "Auteur A_VERIFIER") + " | ISBN " + escHtml(item.isbn || "A_VERIFIER") + escHtml(ref) + escHtml(proj) + (item.ocrWarning ? " | " + escHtml(item.ocrWarning) : "")}).join("\\n") : "\\nAucune image exploitable."
     ].join("\\n");
   }
   return escHtml(JSON.stringify(json,null,2));
@@ -1414,7 +1484,10 @@ function bookPayload(){
     author: document.getElementById("bookAuthor").value,
     isbn: document.getElementById("bookIsbn").value,
     source: document.getElementById("bookSource").value,
-    tags: document.getElementById("bookTags").value
+    tags: document.getElementById("bookTags").value,
+    project: document.getElementById("bookProject").value,
+    readingAngle: document.getElementById("bookAngle").value,
+    notes: document.getElementById("bookNotes").value
   };
 }
 document.getElementById("scanBooks").onclick = async () => {
@@ -1603,7 +1676,10 @@ const server = createServer(async (req, res) => {
         author: body.author,
         isbn: body.isbn,
         source: body.source,
-        tags: body.tags
+        tags: body.tags,
+        project: body.project,
+        readingAngle: body.readingAngle,
+        notes: body.notes
       });
       return sendJson(res, 200, report);
     }
@@ -1622,7 +1698,10 @@ const server = createServer(async (req, res) => {
         author: body.author,
         isbn: body.isbn,
         source: body.source,
-        tags: body.tags
+        tags: body.tags,
+        project: body.project,
+        readingAngle: body.readingAngle,
+        notes: body.notes
       });
       await appendLog(`BOOKS_PHOTO_INGEST | created=${report.created.length} skipped=${report.skipped.length} source=${report.bookPath}`, validation.root);
       return sendJson(res, 200, report);

@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+
 
 ## Appel canonique
 
 `watch:ryancodrai-turbovec`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.github
+- Sujets : À qualifier
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://github.com/RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec)

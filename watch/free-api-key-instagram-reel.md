@@ -12,6 +12,21 @@ Veille education IA / API keys.
 
 `watch:free-api-key-instagram-reel`
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.llm
+- Sujets : Intelligence artificielle > Modèles de langage
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 ## Sources
 - Reel Instagram : `https://www.instagram.com/reel/DZkw-DEh_Dl/`
 
@@ -39,3 +54,9 @@ Free Api Key - Instagram Reel est une fiche KM de veille Veille education IA / A
 - Fichiers touches : `watch/free-api-key-instagram-reel.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : credentials, phishing possible et couts API.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Fournir une clé API pour accéder aux données Instagram Reel.  
+Avantages · Permet d’intégrer des données de vidéos Instagram dans des applications.  
+Gain · Éviter de créer un compte et de gérer l’authentification manuellement.

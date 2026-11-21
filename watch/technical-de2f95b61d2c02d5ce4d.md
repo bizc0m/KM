@@ -1,0 +1,51 @@
+# EchoShot
+
+## Statut
+
+actif
+
+## Tags
+
+#generation-video
+
+## Intérêts
+
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
+
+## Identité
+
+- Dépôt principal : https://github.com/d2i-ai/echoshot
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.video domain.ai capability.generate.video source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo ; Intelligence artificielle
+- Fonctions : Générer des contenus > Générer une vidéo
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : Non précisée
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/D2I-ai/EchoShot
+
+## Sources
+
+- https://github.com/d2i-ai/echoshot
+- https://x.com/i/status/2115634257314107707
+- https://x.com/i/status/2114672104021148033
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : de2f95b61d2c02d5ce4d6ae0f572dc7fcf249f96aa1c4899f0ccc46857424c9b
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-11-12
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

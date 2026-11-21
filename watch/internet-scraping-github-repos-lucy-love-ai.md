@@ -6,11 +6,28 @@ Veille outils / scraping et extraction web.
 
 ## Tags
 
-#scraping, #github, #web-extraction, #data
+#extraction-web
 
 ## Appel canonique
 
 `watch:internet-scraping-github-repos-lucy-love-ai`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.data.web capability.scraping source.x source.github
+- Sujets : Intelligence artificielle ; Données et connaissances > Collecte web
+- Fonctions : Extraire des données web
+- Provenance : X / Twitter ; GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/lucy_love_ai/status/2071040656634732984](https://x.com/lucy_love_ai/status/2071040656634732984)
@@ -41,3 +58,9 @@ Internet Scraping GitHub Repos Lucy Love AI est une fiche KM de veille Veille ou
 ### v0.1 - 2026-06-28
 
 - Integration depuis Raindrop KM Monitor.
+
+## Intérêts
+
+Fonction · Extraire des données GitHub via scraping.  
+Avantages · Accès à des repos et métadonnées.  
+Gain · Analyser activité et tendances sans API.

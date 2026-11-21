@@ -19,4 +19,21 @@ ChatHub permet de comparer plusieurs LLM cote a cote. Utile pour arbitrer prompt
 - Verifier privacy, historique, export et comptes connectes.
 
 ## Tags
-#KM #LLM #PROMPT #COMPARAISON #A_VERIFIER
+
+
+
+## Intérêts
+
+Fonction · Comparer réponses de plusieurs LLM en simultané.  
+Avantages · Aide à évaluer et scorer les prompts utilisés.  
+Gain · Contrôler et valider des fiches KM sans déplacement.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

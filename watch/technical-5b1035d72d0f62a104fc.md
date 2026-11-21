@@ -1,0 +1,63 @@
+# angr
+
+## Statut
+
+actif
+
+## Tags
+
+#python
+
+## Intérêts
+
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
+
+## Identité
+
+- Dépôt principal : https://github.com/angr/angr
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.language.python source.noteplan source.github lifecycle.active
+- Sujets : À qualifier
+- Compatibilités : Langages > Python
+- Provenance : NotePlan Calendar ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Sources
+
+- https://github.com/angr/angr
+- https://x.com/i/status/2114847015091794206
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : 5b1035d72d0f62a104fcaa34e889af8df0682ef67f5a1be14e7d96cf1fd0f6d0
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-11-12
+- Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- angr est un framework d'analyse de binaires.
+- angr permet l'analyse symbolique et la décomposition de programmes.
+- angr s'applique à divers types de binaires.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/angr/angr
+- Analyse source : 2026-11-12T15:41:59.150Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

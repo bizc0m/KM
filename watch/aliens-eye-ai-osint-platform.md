@@ -6,11 +6,28 @@ Veille outil OSINT / recherche d'empreinte numerique.
 
 ## Tags
 
-#rouge, #osint, #ai-search, #digital-footprint, #privacy-risk
+#osint, #ai-search, #digital-footprint, #privacy-risk, #ROUGE
 
 ## Appel canonique
 
 `watch:aliens-eye-ai-osint-platform`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.osint domain.data.search risk.sensitive risk.offensive source.x
+- Sujets : Intelligence artificielle ; Cybersécurité > Renseignement en sources ouvertes ; Données et connaissances > Recherche et indexation
+- Risques : Risque signalé ; Usage offensif explicite
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/untalnixon_exe/status/2070860935762211251](https://x.com/untalnixon_exe/status/2070860935762211251)
@@ -29,3 +46,9 @@ Aliens Eye AI OSINT Platform est une fiche KM de veille Veille outil OSINT / rec
 ### v0.1 - 2026-06-29
 
 - Integration depuis Raindrop KM Monitor.
+
+## Intérêts
+
+Fonction · Analyse d'empreintes numériques via IA.  
+Avantages · Détection de risques de confidentialité.  
+Gain · Éviter les fuites d'informations sensibles.

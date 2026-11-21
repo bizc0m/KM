@@ -6,7 +6,7 @@ Veille process / source monitoring.
 
 ## Tags
 
-#rss, #twitter, #x, #monitoring, #nitter, #openrss, #social-watch, #privacy
+#inference-locale, #extraction-web, #rss, #twitter
 
 ## Appel canonique
 
@@ -150,3 +150,19 @@ Supprimer `watch/twitter-rss-monitoring.md` et retirer les lignes correspondante
 - Fichiers touches : `watch/twitter-rss-monitoring.md`, `km/history.md`.
 - Risques : conditions et disponibilite variables.
 - Rollback possible : retirer la mention de relecture.
+
+## Intérêts
+
+Fonction · Suivre des comptes Twitter via RSS.  
+Avantages · Flux RSS sans algorithmes de recommandation.  
+Gain · Éviter l'interface addictive de X pour veille.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

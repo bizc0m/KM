@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#osint, #privacy
+#osint
 
 ## Appel canonique
 
 `watch:multi-search-launcher`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint source.x
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/cyb_detective/status/2065733663887634911](https://x.com/cyb_detective/status/2065733663887634911)
@@ -36,3 +52,9 @@ Multi-search launcher est une fiche KM de veille Veille Raindrop KM Monitor. Sou
 - Fichiers touches : `watch/multi-search-launcher.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Lance des recherches simultanées sur plusieurs plateformes.  
+Avantages · Intègre des sources OSINT comme X / Twitter.  
+Gain · Éviter de naviguer entre plusieurs outils pour collecter des données.

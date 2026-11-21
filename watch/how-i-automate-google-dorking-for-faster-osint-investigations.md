@@ -6,11 +6,28 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#rouge, #offensive-risk, #privacy-risk
+#osint, #offensive-risk, #privacy-risk, #ROUGE
 
 ## Appel canonique
 
 `watch:how-i-automate-google-dorking-for-faster-osint-investigations`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint risk.offensive risk.sensitive source.x
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Risques : Usage offensif explicite ; Risque signalé
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/cyber_sudo/status/2062489706147836223](https://x.com/cyber_sudo/status/2062489706147836223)
@@ -36,3 +53,9 @@ Google Dorking Automation For OSINT est une fiche KM de veille Veille Raindrop K
 - Fichiers touches : `watch/how-i-automate-google-dorking-for-faster-osint-investigations.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Abus possible direct ou facilite : collecte intrusive, reconnaissance, contournement, automatisation offensive ou atteinte privacy.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Automatisation des requêtes Google Dorking pour OSINT.  
+Avantages · Accélère les investigations en sources ouvertes.  
+Gain · Éviter de répéter des requêtes manuellement.

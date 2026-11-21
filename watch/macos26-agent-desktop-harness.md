@@ -6,11 +6,28 @@ Veille Raindrop KM Monitor / agent desktop macOS et harness agentique.
 
 ## Tags
 
-#macos, #desktop-agent, #computer-use, #coding, #automation
+#application-bureau, #macos, #desktop-agent, #computer-use
 
 ## Appel canonique
 
 `watch:macos26-agent-desktop-harness`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.dev.desktop compatibility.interface.desktop compatibility.os.macos source.github
+- Sujets : Intelligence artificielle > Agents IA ; Développement logiciel > Applications et interfaces de bureau
+- Compatibilités : Interfaces > Application de bureau ; Systèmes > macOS
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source finale : [https://github.com/macos26/agent](https://github.com/macos26/agent)
@@ -49,3 +66,19 @@ MacOS26 Agent Desktop Harness est une fiche KM de veille Veille Raindrop KM Moni
 - Fichiers touches : `watch/macos26-agent-desktop-harness.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : controle desktop, scripts, secrets et fournisseurs LLM.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Exécute des tâches via des API LLM et Apple Intelligence.  
+Avantages · Gère des projets, code, calendrier et apps macOS.  
+Gain · Lancer des tâches sans compilation, avec API prédéfinies.
+
+## Aperçus
+
+![Agent! demo](https://raw.githubusercontent.com/macos26/agent/HEAD/docs/table-video.gif)
+
+[Origine](https://raw.githubusercontent.com/macos26/agent/HEAD/README.md)
+
+![Screenshot 2026-08-23 at 7 34 10 PM](https://github.com/user-attachments/assets/d3b2f1e5-1dab-44f7-95f6-008424ee794c)
+
+[Origine](https://raw.githubusercontent.com/macos26/agent/HEAD/README.md)

@@ -6,11 +6,28 @@ Veille Raindrop KM Monitor / lecteur RSS macOS.
 
 ## Tags
 
-#rss, #macos, #desktop-app, #knowledge-management, #actif
+#application-bureau, #macos, #rss, #desktop-app
 
 ## Appel canonique
 
 `watch:quick-rss-desktop-reader`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified compatibility.interface.desktop compatibility.os.macos compatibility.protocol.rss lifecycle.active
+- Sujets : À qualifier
+- Compatibilités : Interfaces > Application de bureau ; Systèmes > macOS ; Protocoles > RSS
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 
@@ -46,3 +63,9 @@ actif
 - Fichiers touches : `watch/quick-rss-desktop-reader.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : flux tiers et habitudes de lecture a cadrer si export ou synchronisation.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Lire et suivre des flux RSS sur macOS.  
+Avantages · Intégration avec Raindrop IO pour la veille.  
+Gain · Éviter de consulter plusieurs sites pour les mises à jour.

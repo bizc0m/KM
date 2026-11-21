@@ -6,11 +6,26 @@ Veille OSINT / annuaire d'outils d'investigation.
 
 ## Tags
 
-#osint, #threat-intelligence, #investigation, #curated-tools, #privacy, #a-verifier
+#osint, #threat-intelligence, #investigation, #curated-tools
 
 ## Appel canonique
 
 `watch:osint-rack-curated-tools`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint domain.data.catalogues
+- Sujets : Cybersécurité > Renseignement en sources ouvertes ; Données et connaissances > Catalogues de ressources
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Site : `https://osintrack.com/`
@@ -38,3 +53,9 @@ The OSINT Rack - Curated Intelligence Tools est une fiche KM de veille Veille OS
 - Fichiers touches : `watch/osint-rack-curated-tools.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : outils OSINT sensibles et non verifies.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Catalogue d'outils OSINT et renseignement.  
+Avantages · Filtrage et organisation des ressources.  
+Gain · Accéder rapidement aux outils pertinents.

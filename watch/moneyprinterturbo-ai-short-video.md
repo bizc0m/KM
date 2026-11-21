@@ -6,11 +6,28 @@ Veille outils IA / generation automatique de shorts video.
 
 ## Tags
 
-#ai-video, #shortvideo, #tiktok, #automation, #llm, #moviepy, #python, #content-generation, #social-media
+#generation-video, #shortvideo, #tiktok, #llm
 
 ## Appel canonique
 
 `watch:moneyprinterturbo-ai-short-video`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.video domain.ai.llm capability.generate.video source.github source.x
+- Sujets : Audio, vidéo et création > Vidéo ; Intelligence artificielle > Modèles de langage
+- Fonctions : Générer des contenus > Générer une vidéo
+- Provenance : GitHub ; X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 

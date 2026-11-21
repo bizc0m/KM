@@ -1,0 +1,49 @@
+# youtube-dlc
+
+## Statut
+
+actif
+
+## Tags
+
+
+
+## Intérêts
+
+Fonction · Télécharger des vidéos depuis YouTube et d'autres plateformes.  
+Avantages · Gestion des listes de lecture et filtres de contenu.  
+Gain · Éviter de télécharger des vidéos inutiles via des filtres.
+
+## Identité
+
+- Dépôt principal : https://github.com/blackjack4494/yt-dlc
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.video source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Vidéo
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Sources
+
+- https://github.com/blackjack4494/yt-dlc
+- https://x.com/i/status/2059648731801399524
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : 350bc4fbd59269522ae389551194f2b7b899ef55f0e0bd563b1e5fff44d51a5a
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-20
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

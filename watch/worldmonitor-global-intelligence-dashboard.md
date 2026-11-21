@@ -12,6 +12,22 @@ Veille outil OSINT / tableau de bord geostrategique.
 
 `watch:worldmonitor-global-intelligence-dashboard`
 
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.osint source.x source.github
+- Sujets : Cybersécurité > Renseignement en sources ouvertes
+- Provenance : X / Twitter ; GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
 ## Sources
 - Source : [https://x.com/xiaoying_eth/status/2070782487824089533](https://x.com/xiaoying_eth/status/2070782487824089533)
 - GitHub resolu : `https://github.com/koala73/worldmonitor`
@@ -41,3 +57,9 @@ WorldMonitor Global Intelligence Dashboard est une fiche KM de veille Veille out
 ### v0.1 - 2026-06-28
 
 - Integration depuis Raindrop KM Monitor.
+
+## Intérêts
+
+Fonction · Surveillance globale en temps réel avec IA, actualisation des données et visualisation.  
+Avantages · Intégration de sources de données multiples et analyse de risques géopolitiques.  
+Gain · Lancer le dashboard sans clé API, accéder aux flux d'informations locaux.

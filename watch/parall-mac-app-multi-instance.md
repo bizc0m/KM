@@ -6,11 +6,28 @@ Veille Raindrop KM Monitor / utilitaire macOS.
 
 ## Tags
 
-#macos, #desktop-app, #multi-instance, #privacy, #sensible
+#macos, #desktop-app, #multi-instance
 
 ## Appel canonique
 
 `watch:parall-mac-app-multi-instance`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.desktop compatibility.os.macos compatibility.interface.desktop risk.sensitive
+- Sujets : Développement logiciel > Applications et interfaces de bureau
+- Compatibilités : Systèmes > macOS ; Interfaces > Application de bureau
+- Risques : Risque signalé
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : macOS
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 
@@ -47,3 +64,9 @@ sensible
 - Fichiers touches : `watch/parall-mac-app-multi-instance.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : multi-session locale, profils applicatifs, comptes tiers et donnees privees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Surveille l'activité de l'application Parall sur macOS.  
+Avantages · Multi-instance supporté pour plusieurs utilisateurs.  
+Gain · Éviter les conflits d'accès entre instances.

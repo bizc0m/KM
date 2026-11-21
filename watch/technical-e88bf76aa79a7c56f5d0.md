@@ -1,0 +1,45 @@
+# Memanto : outil de gestion de mémoire pour agents IA
+
+## Statut
+
+actif
+
+## Tags
+
+#memoire-agents
+
+## Intérêts
+
+Fonction · Conserver le contexte des sessions des agents IA.  
+Avantages · Classer et retrouver des informations contextuelles.  
+Gain · Éviter de répéter des données sans lien.
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory capability.memory source.raindrop source.x lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents
+- Fonctions : Conserver le contexte
+- Provenance : Raindrop ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Sources
+
+- https://x.com/liambraus/status/2098367927883862279?s=12
+
+## Traçabilité
+
+- Origine : Raindrop
+- Identifiant source : e88bf76aa79a7c56f5d050adb8e5969b6d9ba344b96b80de00ed5141f7553263
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-17
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

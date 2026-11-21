@@ -6,11 +6,26 @@ Veille infra privacy / DePIN / reseau decentralise.
 
 ## Tags
 
-#privacy, #depin, #crypto, #wallet-address, #decentralized-network, #encrypted-routing, #vpn-alternative, #tokenomics, #to-verify
+#depin, #crypto, #wallet-address, #decentralized-network
 
 ## Appel canonique
 
 `watch:conet-privacy-depin-network`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.infrastructure.network domain.finance
+- Sujets : Infrastructure > Réseaux ; Analyse financière
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 
@@ -80,3 +95,9 @@ Garder comme veille `sensible / a verifier`. Pas `#ROUGE` par defaut. Devient `#
 - Fichiers touches : `watch/conet-privacy-depin-network.md`, `watch/index.md`, `index.md`, `km/history.md`, `search-v1.10.html`.
 - Risques : claims privacy non audites, crypto/tokenomics, responsabilite de relais, confusion anonymat reel/promis.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Permet de surveiller des réseaux DePIN via des adresses wallet.  
+Avantages · Intègre des protocoles de confidentialité pour les données réseau.  
+Gain · Éviter de stocker des informations sensibles sur les nœuds.

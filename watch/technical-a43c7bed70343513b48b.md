@@ -1,0 +1,49 @@
+# DeskThing
+
+## Statut
+
+actif
+
+## Tags
+
+
+
+## Intérêts
+
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
+
+## Identité
+
+- Dépôt principal : https://github.com/itsriprod/deskthing
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.audio source.noteplan source.github source.x lifecycle.active
+- Sujets : Audio, vidéo et création > Audio
+- Provenance : NotePlan Calendar ; GitHub ; X / Twitter
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : MIT
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : https://github.com/ItsRiprod/DeskThing
+
+## Sources
+
+- https://github.com/itsriprod/deskthing
+- https://x.com/i/status/2112567090997567775
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : a43c7bed70343513b48bfd84276ff5ccd61e5e992f2dbc32a6dae85cf7a99801
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-11-12
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

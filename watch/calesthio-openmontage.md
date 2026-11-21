@@ -6,11 +6,28 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+#montage-video
 
 ## Appel canonique
 
 `watch:calesthio-openmontage`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.media.video capability.edit.video source.github
+- Sujets : Audio, vidéo et création > Vidéo
+- Fonctions : Monter une vidéo
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://github.com/calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)

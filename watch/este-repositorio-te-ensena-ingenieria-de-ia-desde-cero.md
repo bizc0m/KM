@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+
 
 ## Appel canonique
 
 `watch:este-repositorio-te-ensena-ingenieria-de-ia-desde-cero`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai source.x
+- Sujets : Intelligence artificielle
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/marcusyul/status/2063615048065351843](https://x.com/marcusyul/status/2063615048065351843)
@@ -36,3 +52,9 @@ AI Engineering From Scratch Repository est une fiche KM de veille Veille Raindro
 - Fichiers touches : `watch/este-repositorio-te-ensena-ingenieria-de-ia-desde-cero.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Suivi et analyse des tendances en intelligence artificielle.  
+Avantages · Collecte et organisation de connaissances spécialisées.  
+Gain · Accéder rapidement aux informations vérifiées et structurées.

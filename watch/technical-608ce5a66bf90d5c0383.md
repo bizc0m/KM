@@ -1,0 +1,45 @@
+# Vector Wizard - Outil d'Animation SVG basé sur l'IA
+
+## Statut
+
+actif
+
+## Tags
+
+#animation-svg, #generation-images
+
+## Intérêts
+
+Fonction · Animer des SVG à partir de textes ou images.  
+Avantages · Résultat directement utilisable sans ajustements.  
+Gain · Éviter la création manuelle d'animations SVG.
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai domain.media.image capability.animate.svg capability.generate.image source.raindrop lifecycle.active
+- Sujets : Intelligence artificielle ; Audio, vidéo et création > Images et graphisme
+- Fonctions : Animer du SVG ; Générer des contenus > Générer une image
+- Provenance : Raindrop
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Sources
+
+- https://vectorwizard.ai/
+
+## Traçabilité
+
+- Origine : Raindrop
+- Identifiant source : 608ce5a66bf90d5c0383dd0f8b7d12e8423351d0b085028568fce9de632c1eda
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-17
+- Résumé automatique local ; les affirmations restent attribuées aux sources.

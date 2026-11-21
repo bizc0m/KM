@@ -6,11 +6,27 @@ Veille outils IA / agent personnel multi-canaux.
 
 ## Tags
 
-#ai-agent, #personal-agent, #messaging, #containers, #claude-agent-sdk, #credential-vault, #local-first, #automation
+#ai-agent, #personal-agent, #messaging, #containers
 
 ## Appel canonique
 
 `watch:nanoclaw-personal-agent`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents source.github
+- Sujets : Intelligence artificielle > Agents IA
+- Provenance : GitHub
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 
@@ -101,3 +117,9 @@ Garder comme source prioritaire a surveiller. Classification `sensible`, pas `#R
 - Fichiers touches : `watch/nanoclaw-personal-agent.md`, `process/AI-Tools.md`, `km/history.md`.
 - Risques : contenu localise pouvant diverger du site EN.
 - Rollback possible : retirer la ligne `Site FR`.
+
+## Intérêts
+
+Fonction · Exécute des agents dans des conteneurs sécurisés pour messagerie et tâches.  
+Avantages · Isolation OS, conteneurs Linux, gestion des clés via un gateway.  
+Gain · Lancer un agent en quelques étapes, sans configuration complexe.

@@ -6,7 +6,7 @@ Veille outils sensibles `#ROUGE`.
 
 ## Tags
 
-#rouge, #dual-use, #offensive-risk, #osint, #anti-detection, #privacy, #threat-intelligence
+#osint, #transcription, #detection-bots, #securite-web, #ROUGE
 
 ## Appel canonique
 
@@ -144,3 +144,19 @@ Critere strict : `#ROUGE` uniquement si l'outil facilite directement un usage of
 - Fichiers touches : `watch/red-team-risk-tools-watch.md`, `watch/project-eyes-on-open-ip-camera-osint.md`, `index.md`, `watch/index.md`, `km/history.md`.
 - Risques : detection de cameras IP ouvertes et surveillance non consentie.
 - Rollback possible : retirer la ligne Project Eyes On et la fiche dediee.
+
+## Intérêts
+
+Fonction · Identifier et surveiller les outils offensifs ou abusables.  
+Avantages · Distinguer usage légitime et usage abusif documenté.  
+Gain · Éviter diffusion publique et exploitation offensive.
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+

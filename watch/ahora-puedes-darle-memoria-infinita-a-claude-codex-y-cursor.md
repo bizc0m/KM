@@ -6,11 +6,28 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+#memoire-agents
 
 ## Appel canonique
 
 `watch:ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.ai.agents.memory capability.memory source.x
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Mémoire des agents
+- Fonctions : Conserver le contexte
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/nicos_ai/status/2062627106786566373](https://x.com/nicos_ai/status/2062627106786566373)
@@ -36,3 +53,9 @@ Infinite Memory For Claude, Codex And Cursor est une fiche KM de veille Veille R
 - Fichiers touches : `watch/ahora-puedes-darle-memoria-infinita-a-claude-codex-y-cursor.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Conserver le contexte des agents.  
+Avantages · Mémoriser les interactions et données.  
+Gain · Éviter de répéter les informations.

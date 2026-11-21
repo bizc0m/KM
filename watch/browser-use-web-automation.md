@@ -1,51 +1,65 @@
-# Browser Use - Web Automation For AI Agents
+# Browser-Use
 
-## Type
+## Statut
 
-Veille outil IA / automatisation navigateur.
+actif
 
 ## Tags
 
-#agent, #browser-automation, #web, #scraping-risk, #github
+#automatisation-navigateur
 
-## Appel canonique
+## Intérêts
 
-`watch:browser-use-web-automation`
+Fonction · Automatise la navigation web avec des agents AI.  
+Avantages · Supporte des navigateurs furtifs et des proxies résidentiels.  
+Gain · Exécuter des tâches sans installer Chrome.
+
+## Identité
+
+- Dépôt principal : https://github.com/browser-use/browser-use
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents domain.ai.llm domain.dev.browser capability.automation.browser source.noteplan source.github lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA ; Intelligence artificielle > Modèles de langage ; Développement logiciel > Outils de navigateur
+- Fonctions : Automatiser des actions > Automatiser le navigateur
+- Provenance : NotePlan Calendar ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
-- Repo GitHub : `https://github.com/browser-use/browser-use`
 
-## Metadata GitHub publique
+- https://github.com/browser-use/browser-use
+- https://github.com/browser-use/browser-use`
+- https://x.com/i/status/2056302799508697343
 
-Releve API GitHub : 2026-08-21
+## Traçabilité
 
-- repo : `browser-use/browser-use`
-- URL : `https://github.com/browser-use/browser-use`
-- description : 🌐 Make websites accessible for AI agents. Automate tasks online with ease.
-- licence : MIT
-- etoiles relevees : 109939
-- topics releves : ai-agents, ai-tools, browser-automation, browser-use, llm, playwright, python
-- derniere activite relevee : 2026-08-21T00:00:12Z
-- archived : non
-- fork : non
+- Origine : NotePlan
+- Identifiant source : c1af6b58492f9bf434d283140c089cd8bec568302933f45108ba7657de9dd41a
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-10-26
+- Résumé automatique local ; les affirmations restent attribuées aux sources.
 
-Note : metadata volatile, a reverifier avant decision produit ou execution locale.
+## Capacités documentées
 
-## Resume court
+- Agent de navigateur open source
+- Automatisation des tâches web avec LLM
+- Navigateurs furtifs et proxies résidentiels
+- Fonctionne localement ou en cloud
 
-Browser Use - Web Automation For AI Agents est une fiche KM de veille Veille outil IA / automatisation navigateur. Source finale conservee dans la fiche.
+## Qualification
 
-## Relations
-
-- `watch:red-team-risk-tools-watch`
-- `watch:nanoclaw-personal-agent`
-- `watch:ai-open-source-tools-inventory`
-
-## Changelog
-
-### v0.1 - 2026-06-24
-
-- Objectif : integrer Browser Use depuis Raindrop KM Monitor.
-- Fichiers touches : `watch/browser-use-web-automation.md`, `watch/index.md`, `index.md`, `km/history.md`.
-- Risques : automatisation web dual-use.
-- Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/browser-use/browser-use
+- Analyse source : 2026-10-26T00:32:26.679Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

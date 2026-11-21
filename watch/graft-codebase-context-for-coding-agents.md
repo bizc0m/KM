@@ -6,11 +6,28 @@ Veille liens utilisateur / contexte codebase pour agents de code.
 
 ## Tags
 
-#coding-agents, #context-engineering, #code-graph, #mcp, #codex, #claude-code
+#memoire-agents, #agents-code, #context-engineering, #code-graph
 
 ## Appel canonique
 
 `watch:graft-codebase-context-for-coding-agents`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.memory domain.ai.agents.coding capability.memory capability.code.assist source.github source.x
+- Sujets : Intelligence artificielle > Agents IA > Mémoire des agents ; Intelligence artificielle > Agents IA > Agents de développement
+- Fonctions : Conserver le contexte ; Assister le développement
+- Provenance : GitHub ; X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 
@@ -70,3 +87,19 @@ Graft - Codebase Context For Coding Agents est une fiche KM de veille Veille lie
 - Fichiers touches : `watch/graft-codebase-context-for-coding-agents.md`, `watch/index.md`, `index.md`, `km/history.md`, `search-v1.11.html`.
 - Risques : codebase privee, secrets, contexte obsolete et claims a controler.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Carte du code et apprentissages pour agents.  
+Avantages · Réduit les appels d'API et les tokens utilisés.  
+Gain · Éviter de redécouvrir le code pour chaque tâche.
+
+## Aperçus
+
+![The post-edit hook: editing node-file.ts prints its blast radius (who depends on it) inline, the statusline flips stale → syncing → synced on its own, and the same dependents light up in the viewer](https://raw.githubusercontent.com/nanonets/graft/HEAD/assets/graft-hook-blast-radius-demo.gif)
+
+[Origine](https://raw.githubusercontent.com/nanonets/graft/HEAD/README.md)
+
+![The graph viewer: searching a symbol and jumping to it lights up its dependency graph: amber edges are what it depends on, indigo is what depends on it](https://raw.githubusercontent.com/nanonets/graft/HEAD/assets/graft-viz-demo.gif)
+
+[Origine](https://raw.githubusercontent.com/nanonets/graft/HEAD/README.md)

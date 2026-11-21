@@ -1,0 +1,65 @@
+# Remotion Agent Skills
+
+## Statut
+
+actif
+
+## Tags
+
+#skills-agents
+
+## Intérêts
+
+Fonction · Non établi par la source
+Avantages · Non établi par la source
+Gain · Non établi par la source
+
+## Identité
+
+- Dépôt principal : https://github.com/remotion-dev/skills
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents.coding domain.ai.agents.skills domain.dev domain.media.video domain.data.organization capability.skills source.noteplan source.github lifecycle.active
+- Sujets : Intelligence artificielle > Agents IA > Agents de développement ; Intelligence artificielle > Agents IA > Compétences des agents ; Développement logiciel ; Audio, vidéo et création > Vidéo ; Données et connaissances > Organisation du travail
+- Fonctions : Étendre les compétences d’un agent
+- Provenance : NotePlan Calendar ; GitHub
+- État : Actif
+
+## Métadonnées
+
+- Nature : Collection de skills
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
+
+## Sources
+
+- https://github.com/remotion-dev/skills
+- https://x.com/i/status/2112609040962359354
+- https://x.com/i/status/2111393917899808880
+
+## Traçabilité
+
+- Origine : NotePlan
+- Identifiant source : 0a09b687d088cc7fc778497608ddf43b76142fd5fa338c9b7a8394b6a636dcb0
+- Politique : technical-only-2026-10-17
+- Lecture KM : 2026-11-12
+- Résumé automatique local ; les affirmations restent attribuées aux sources.
+
+## Capacités documentées
+
+- Dépôt GitHub remotion-dev/skills.
+- Compétences pour agents AI comme Claude Code ou Cursor.
+- Permet de créer, rendre et gérer des projets Remotion.
+- Fonction · Compétences pour agents AI dans Remotion. / Avantages · Création, rendu et gestion de projets vidéo. / Gain · Accélère le développement avec des exemples de prompts.
+
+## Qualification
+
+- Méthode : analyse locale de la page propre au dépôt, sans contenu des pages filles.
+- Source : https://github.com/remotion-dev/skills
+- Analyse source : 2026-11-12T22:25:48.430Z
+- Relecture humaine : non ; les affirmations restent à vérifier dans la source.

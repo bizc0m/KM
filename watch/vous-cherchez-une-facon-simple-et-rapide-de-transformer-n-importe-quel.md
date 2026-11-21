@@ -6,11 +6,29 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#claude, #skill, #news, #rumor, #checkl, #api, #cartographie, #citoyenne, #collaborative, #fact, #factchecking, #fake, #herm, #ressources, #kroko, #llm, #agents, #automation
+#conversion-web, #application-bureau, #claude, #skill
 
 ## Appel canonique
 
 `watch:vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.dev.web capability.web.desktop compatibility.interface.desktop compatibility.integration.claude-general source.x
+- Sujets : Développement logiciel > Développement web
+- Fonctions : Créer une application depuis un site
+- Compatibilités : Interfaces > Application de bureau ; Intégrations > Claude
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : Application bureau
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/sibyog13/status/2063609591485567189](https://x.com/sibyog13/status/2063609591485567189)
@@ -36,3 +54,9 @@ Web Page To Desktop App Converter est une fiche KM de veille Veille Raindrop KM 
 - Fichiers touches : `watch/vous-cherchez-une-facon-simple-et-rapide-de-transformer-n-importe-quel.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Convertir un site web en application bureau.  
+Avantages · Intégration avec l'IA Claude pour l'analyse.  
+Gain · Automatiser la création d'applications sans codage.

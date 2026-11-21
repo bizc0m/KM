@@ -6,11 +6,28 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+#mcp
 
 ## Appel canonique
 
 `watch:this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.infrastructure domain.ai.agents.integration compatibility.protocol.mcp source.x
+- Sujets : Infrastructure ; Intelligence artificielle > Agents IA > Connecteurs et outils des agents
+- Compatibilités : Protocoles > MCP
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : Serveur MCP
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/explorax_/status/2062584596328243214](https://x.com/explorax_/status/2062584596328243214)
@@ -36,3 +53,9 @@ Essential MCP Servers Collection est une fiche KM de veille Veille Raindrop KM M
 - Fichiers touches : `watch/this-github-repo-contains-50-of-the-most-essential-mcp-servers-that-gi.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Serveurs MCP pour veille et monitoring.  
+Avantages · Intégration agents IA et protocoles MCP.  
+Gain · Éviter configuration manuelle des serveurs MCP.

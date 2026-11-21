@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+
 
 ## Appel canonique
 
 `watch:marketing-automation`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.unclassified source.x
+- Sujets : À qualifier
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/robiartec/status/2066582651247452308](https://x.com/robiartec/status/2066582651247452308)
@@ -36,3 +52,9 @@ Marketing Automation est une fiche KM de veille Veille Raindrop KM Monitor. Sour
 - Fichiers touches : `watch/marketing-automation.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Suivre les tendances marketing via des outils de veille.  
+Avantages · Intégration avec des plateformes de réseaux sociaux.  
+Gain · Automatiser la collecte d'informations en temps réel.

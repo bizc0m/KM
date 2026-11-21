@@ -6,11 +6,27 @@ Veille Raindrop KM Monitor.
 
 ## Tags
 
-#agents, #automation
+
 
 ## Appel canonique
 
 `watch:bytedance-acaba-de-abrir-el-codigo-del-agente-que-controla-tu-ordenado`
+
+## Ontologie
+
+- Version : 1.1
+- Identifiants : domain.ai.agents source.x
+- Sujets : Intelligence artificielle > Agents IA
+- Provenance : X / Twitter
+
+## Métadonnées
+
+- Nature : À vérifier
+- OS : À vérifier
+- Licence : À vérifier
+- Tarification : À vérifier
+- Accès : À vérifier
+- Preuve : À vérifier
 
 ## Sources
 - Source : [https://x.com/fluyeporlaweb/status/2066762822420177030](https://x.com/fluyeporlaweb/status/2066762822420177030)
@@ -36,3 +52,9 @@ ByteDance Open Source Computer Control Agent est une fiche KM de veille Veille R
 - Fichiers touches : `watch/bytedance-acaba-de-abrir-el-codigo-del-agente-que-controla-tu-ordenado.md`, `watch/index.md`, `index.md`, `km/history.md`.
 - Risques : Risque sensible : exposition de donnees, secrets, comptes, traces personnelles, claims non verifies ou automatisations non cadrees.
 - Rollback possible : supprimer cette fiche et retirer les lignes d'index.
+
+## Intérêts
+
+Fonction · Agent IA pour surveillance et veille technologique.  
+Avantages · Analyse en temps réel des données d'entraînement.  
+Gain · Éviter les erreurs de configuration manuelle.
