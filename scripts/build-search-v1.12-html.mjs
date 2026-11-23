@@ -387,7 +387,8 @@ const latestIndexedDate = index
   .filter(Boolean)
   .sort()
   .at(-1);
-const generatedAt = process.env.KM_BUILD_TIMESTAMP || `donnees ${latestIndexedDate || "n/a"}`;
+const buildStamp = new Date().toLocaleString("fr-FR", { timeZone: "Europe/Paris", dateStyle: "short", timeStyle: "short" });
+const generatedAt = process.env.KM_BUILD_TIMESTAMP || `généré ${buildStamp} · dernière date source ${latestIndexedDate || "n/a"}`;
 
 function htmlEscape(value) {
   return String(value ?? "").replace(/[&<>"']/g, (char) => ({
